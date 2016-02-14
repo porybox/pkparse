@@ -1,10 +1,19 @@
 'use strict';
 // Reference: https://projectpokemon.org/wiki/Pokemon_X/Y_3DS_Structure
 function stripNullChars (str) {
-  return str.replace(/\0/g, '');
+  return str.replace(/\0.*/, '');
 }
-const movesById = require('./movesById');
-module.exports = buf => {
+function parseMap (data, map) {
+  const parsedData = {};
+  for (let i = 0; i < map.length; i++, data = Math.floor(data / 2)) {
+    if (map[i]) {
+      parsedData[map[i]] = data % 2 !== 0;
+    }
+  }
+  return parsedData;
+}
+
+exports.parseBuffer = buf => {
   const data = {};
   data.species = buf.readUInt16LE(0x08);
   data.heldItem = buf.readUInt16LE(0x0a);
@@ -51,52 +60,15 @@ module.exports = buf => {
   data.pkrsDuration = pokerusByte & 16;
   data.pkrsStrain = pokerusByte >> 4;
 
-  const medalData = buf.readUInt32LE(0x2c);
-  const medalOrder = [
-    undefined, undefined, 'Sp. Atk Level 1', 'HP Level 1','Atk Level 1', 'Sp. Def Level 1', 'Speed Level 1', 'Def Level 1',
-    'Sp. Atk Level 2', 'HP Level 2', 'Atk Level 2', 'Sp. Def Level 2', 'Speed Level 2', 'Def Level 2', 'Sp. Atk Level 3',
-    'HP Level 3', 'Atk Level 3', 'Sp. Def Level 3', 'Speed Level 3', 'Def Level 3', 'The Troubles Keep on Coming?!',
-    'The Leaf Stone Cup Begins!', 'The Fire Stone Cup Begins!', 'The Water Stone Cup Begins!', 'Follow Those Fleeing Goals!',
-    'Watch Out! That\'s One Tricky Second Half!', 'An Opening of Lighting-Quick Attacks!',
-    'Those Long Shots Are No Long Shot!', 'Scatterbug Lugs Back!', 'A Barrage of Bitbots!', 'Drag Down Hydreigon!',
-    'The Battle for the Best: Version X/Y!'
-  ];
-
-  data.medals = {};
-  let currentMedalIndex = 0x01;
-  for (let i in medalOrder) {
-    if (medalOrder[i]) {
-      data.medals[medalOrder[i]] = !!(medalData & currentMedalIndex);
-    }
-    currentMedalIndex <<= 1;
-  }
-
-  const ribbonData = buf.readUIntLE(0x30, 6);
-  const ribbonOrder = [
-    'Kalos Champ', 'Champion', 'Sinnoh Champ', 'Best Friends', 'Training', 'Skillful Battler', 'Expert Battler', 'Effort',
-    'Alert', 'Shock', 'Downcast', 'Careless', 'Relax', 'Snooze', 'Smile', 'Gorgeous', 'Royal','Gorgeous Royal', 'Artist',
-    'Footprint', 'Record', 'Legend', 'Country', 'National', 'Earth', 'World', 'Classic', 'Premier', 'Event', 'Birthday',
-    'Special', 'Souvenir', 'Wishing', 'Battle Champion', 'Regional Champion', 'National Champion', 'World Champion',
-    undefined, undefined, 'Hoenn Champion', 'Contest Star', 'Coolness Master', 'Beauty Master', 'Cuteness Master',
-    'Cleverness Master', 'Toughness Master'
-  ];
-
-  data.ribbons = {};
-  let currentRibbonIndex = 0x01;
-  for (let i in ribbonOrder) {
-    if (ribbonOrder[i]) {
-      data.ribbons[ribbonOrder[i]] = !!(ribbonData & currentRibbonIndex);
-    }
-    currentRibbonIndex <<= 1;
-  }
-
+  data.medalData = buf.readUInt32LE(0x2c);
+  data.ribbonData = buf.readUIntLE(0x30, 6);
   data.distributionSuperTrainingFlags = buf.readUInt8(0x3a); // Not sure what these are
-  data.nickname = stripNullChars(buf.toString('utf16le', 0x40, 0x57));
+  data.nickname = stripNullChars(buf.toString('utf16le', 0x40, 0x58));
 
-  data.move1 = movesById[buf.readUInt16LE(0x5a)];
-  data.move2 = movesById[buf.readUInt16LE(0x5c)];
-  data.move3 = movesById[buf.readUInt16LE(0x5e)];
-  data.move4 = movesById[buf.readUInt16LE(0x60)];
+  data.move1Id = buf.readUInt16LE(0x5a);
+  data.move2Id = buf.readUInt16LE(0x5c);
+  data.move3Id = buf.readUInt16LE(0x5e);
+  data.move4Id = buf.readUInt16LE(0x60);
   data.move1Pp = buf.readUInt8(0x62);
   data.move2Pp = buf.readUInt8(0x63);
   data.move3Pp = buf.readUInt8(0x64);
@@ -105,10 +77,10 @@ module.exports = buf => {
   data.move2Ppu = buf.readUInt8(0x67);
   data.move3Ppu = buf.readUInt8(0x68);
   data.move4Ppu = buf.readUInt8(0x69);
-  data.eggMove1 = movesById[buf.readUInt16LE(0x6a)];
-  data.eggMove2 = movesById[buf.readUInt16LE(0x6c)];
-  data.eggMove3 = movesById[buf.readUInt16LE(0x6e)];
-  data.eggMove4 = movesById[buf.readUInt16LE(0x70)];
+  data.eggMove1Id = buf.readUInt16LE(0x6a);
+  data.eggMove2Id = buf.readUInt16LE(0x6c);
+  data.eggMove3Id = buf.readUInt16LE(0x6e);
+  data.eggMove4Id = buf.readUInt16LE(0x70);
 
   data.canDoSecretSuperTraining = !!(buf.readUInt8(0x72));
 
@@ -122,7 +94,7 @@ module.exports = buf => {
   data.isEgg = ivBytes >> 30 & 1;
   data.isNicknamed = ivBytes >> 31 & 1;
 
-  data.notOt = stripNullChars(buf.toString('utf16le', 0x78, 0x8f));
+  data.notOt = stripNullChars(buf.toString('utf16le', 0x78, 0x90));
   data.notOtGender = buf.readUInt8(0x92) ? 'F' : 'M';
 
   data.currentHandlerIsOt = !buf.readUInt8(0x93);
@@ -143,7 +115,7 @@ module.exports = buf => {
   data.fullness = buf.readUInt8(0xae);
   data.enjoyment = buf.readUInt8(0xaf);
 
-  data.ot = stripNullChars(buf.toString('utf16le', 0xb0, 0xc7));
+  data.ot = stripNullChars(buf.toString('utf16le', 0xb0, 0xc8));
   data.otFriendship = buf.readUInt8(0xca);
   data.otAffection = buf.readUInt8(0xcb);
   data.otMemoryIntensity = buf.readUInt8(0xcc);
@@ -181,4 +153,20 @@ module.exports = buf => {
   data.otLang = buf.readUInt8(0xe3);
 
   return data;
+};
+
+exports.parseFile = path => {
+  return exports.parseBuffer(require('fs').readFileSync(path));
+};
+
+exports.parseMoveId = id => {
+  return require('./movesById')[id];
+};
+
+exports.parseRibbonData = ribbonData => {
+  return parseMap(ribbonData, require('./ribbonsByOrder'));
+};
+
+exports.parseMedalData = medalData => {
+  return parseMap(medalData, require('./medalsByOrder'));
 };
