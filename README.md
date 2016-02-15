@@ -17,6 +17,7 @@ var pk6parse = require('pk6parse');
 * `pk6parse.parseBuffer(buf)`
 * `buf` *(Buffer)*: A Buffer in .pk6 format
 * Returns *(object)*: An object containing the parsed information from the buffer.
+
 ---
 
 * `pk6parse.parseFile(filepath)`
