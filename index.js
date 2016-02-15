@@ -3,6 +3,7 @@
 function stripNullChars (str) {
   return str.replace(/\0.*/, '');
 }
+
 function parseMap (data, map) {
   const parsedData = [];
   for (let i = 0; i < map.length; i++, data = Math.floor(data / 2)) {
@@ -13,8 +14,21 @@ function parseMap (data, map) {
   return parsedData;
 }
 
+function checksumValid (buf) {
+  let sum = 0;
+  for (let i = 8; i < 232; i += 2) {
+    sum += buf.readUInt16LE(i);
+  }
+  return (sum & 0xffff) === buf.readUInt16LE(0x06);
+}
+
 exports.parseBuffer = buf => {
   const data = {};
+  if (buf.readUInt16LE(0x04)) {
+    throw new Error('The provided buffer is not valid pk6 data');
+  }
+  data.checksumValid = checksumValid(buf);
+  data.encryptionConstant = buf.readUInt32LE(0x00);
   data.dexNo = buf.readUInt16LE(0x08);
   data.heldItemId = buf.readUInt16LE(0x0a);
   data.tid = buf.readUInt16LE(0x0c);
