@@ -48,6 +48,12 @@ While most of the information in the parsed object will be in a readable format,
 
 ---
 
+* `pk6parse.getAbilityData(abilityId)`
+* `abilityId` *(number)*: The ability ID of the desired ability
+* Returns *(object)*: An object containing information about the given ability
+
+---
+
 * `pk6parse.getMedalData(medalData)`
 * `medalData` *(number)*: A bitmap representing data on super training medals. In most cases, this will be directly passed from the `medalData` property which is exposed from a parsed pk6 file.
 * Returns *(Array[String])*: An array of medal names represented by the bitmap

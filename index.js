@@ -15,12 +15,12 @@ function parseMap (data, map) {
 
 exports.parseBuffer = buf => {
   const data = {};
-  data.dexNo = buf.readUInt16LE(0x08); // TODO: Parse
-  data.heldItemId = buf.readUInt16LE(0x0a); // TODO: Parse
+  data.dexNo = buf.readUInt16LE(0x08);
+  data.heldItemId = buf.readUInt16LE(0x0a);
   data.tid = buf.readUInt16LE(0x0c);
   data.sid = buf.readUInt16LE(0x0e);
   data.exp = buf.readUInt32LE(0x10);
-  data.abilityId = buf.readUInt8(0x14); // TODO: Parse
+  data.abilityId = buf.readUInt8(0x14);
   data.abilityNum = buf.readUInt8(0x15);
   data.superTrainingHitsRemaining = buf.readUInt8(0x16);
   data.superTrainingBag = buf.readUInt8(0x17);
@@ -139,7 +139,7 @@ exports.parseBuffer = buf => {
 
   data.eggLocationId = buf.readUInt16LE(0xd8); // TODO: Parse
   data.metLocationId = buf.readUInt32LE(0xda);
-  data.ballId = buf.readUInt8(0xdc); // TODO: Parse
+  data.ballId = buf.readUInt8(0xdc);
 
   const encounterLevelByte = buf.readUInt8(0xdd);
   data.levelMet = encounterLevelByte & 0x7f;
@@ -178,6 +178,14 @@ exports.getItemData = itemId => {
 exports.getMoveData = moveId => {
   try {
     return require(`./move_data/${moveId}.json`);
+  } catch (e) {
+    return null;
+  }
+};
+
+exports.getAbilityData = abilityId => {
+  try {
+    return require(`./ability_data/${abilityId}.json`);
   } catch (e) {
     return null;
   }
