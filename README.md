@@ -1,22 +1,62 @@
-Parses a .pk6 file (represented as a Buffer) into a javascript object.
+# pk6parse
 
-To use:
+Parses a .pk6 file into a javascript object.
 
+## Installation
+
+To install:
+
+```bash
+npm install pk6parse
+```
 ```javascript
 var pk6parse = require('pk6parse');
-
-// Parsing a file
-var parsed_thing1 = pk6parse.parseFile('path/to/pk6/file.pk6');
-
-// Parsing a buffer
-var parsed_thing2 = pk6parse.parseBuffer(some_buffer);
-
-/* For some things (ribbons, medals, and moves), the parsed object will contain ID numbers instead of string names.
-This is because the names can vary depending on factors such as language and game, so it's better to use the IDs for
-any kind of storage. There are a few exposed methods for getting the string representation of these IDs: */
-
-pk6parse.parseMoveId(5) // "Mega Punch"
-pk6parse.parseRibbonData(4294967296) // An object that maps {(ribbon name): (boolean indicating whether the ribbon is present)}
-pk6parse.parseMedalData(0) // An object that maps {(medal name): (boolean indicating whether the medal is present)}
-
 ```
+## API:
+
+* `pk6parse.parseBuffer(buf)`
+* `buf` *(Buffer)*: A Buffer in .pk6 format
+* Returns *(object)*: An object containing the parsed information from the buffer.
+---
+
+* `pk6parse.parseFile(filepath)`
+* `filepath` *(string)*: The path to a .pk6 file
+* Parses the pk6 data in a give file. This is a shim for:
+
+```javascript
+pk6parse.parseBuffer(require('fs').readFileSync(filepath))
+```
+---
+While most of the information in the parsed object will be in a readable format, some information (such as move data) will still be represented by an ID Number. This is because the string representation of this data can vary depending on game and language. There are a few exposed helper functions that can be used to parse this information more fully:
+
+* `pk6parse.getPokemonData(dexNo)`
+* `dexNo` *(number)*: The national dex number of the desired species
+* Returns *(object)*: An object containing various information on this species, such as its name, egg groups, etc.
+
+---
+
+* `pk6parse.getItemData(itemId)`
+* `itemId` *(number)*: The item ID of the desired item
+* Returns *(object)*: An object containing information about the given item
+
+---
+
+* `pk6parse.getMoveData(moveId)`
+* `moveId` *(number)*: The move ID of the desired move
+* Returns *(object)*: An object containing information about the given move
+
+---
+
+* `pk6parse.getMedalData(medalData)`
+* `medalData` *(number)*: A bitmap representing data on super training medals. In most cases, this will be directly passed from the `medalData` property which is exposed from a parsed pk6 file.
+* Returns *(Array[String])*: An array of medal names represented by the bitmap
+
+---
+
+* `pk6parse.getRibbonData(ribbonData)`
+* `ribbonData` *(number)*: A bitmap representing data on super training medals. In most cases, this will be directly passed from the `ribbonData` property which is exposed from a parsed pk6 file.
+* Returns *(Array[String])*: An array of ribbon names represented by the bitmap
+
+---
+
+Most of the raw data for these functions was collected from [Pokeapi](http://pokeapi.co/), without which this project would have been substantially harder.
