@@ -123,19 +123,8 @@ exports.parseBuffer = buf => {
   data.otMemoryTextVar = buf.readUInt16LE(0xce);
   data.otMemoryFeeling = buf.readUInt8(0xd0);
 
-  const eggDateBytes = buf.readUIntLE(0xd1, 3);
-  data.eggDate = eggDateBytes ? {
-    year: 2000 + (eggDateBytes & 0xff),
-    month: eggDateBytes >> 8 & 0xff,
-    day: eggDateBytes >> 16 & 0xff
-  } : null;
-
-  const metDateBytes = buf.readUIntLE(0xd4, 3);
-  data.metDate = metDateBytes ? {
-    year: 2000 + (metDateBytes & 0xff),
-    month: buf.readUInt8(0xd5),
-    day: buf.readUInt8(0xd6)
-  } : null;
+  data.eggDate = Date.UTC(buf.readUInt8(0xd1) + 2000, (buf.readUInt8(0xd2) || NaN) - 1, buf.readUInt8(0xd3));
+  data.metDate = Date.UTC(buf.readUInt8(0xd4) + 2000, (buf.readUInt8(0xd5) || NaN) - 1, buf.readUInt8(0xd6));
 
   data.eggLocationId = buf.readUInt16LE(0xd8); // TODO: Parse
   data.metLocationId = buf.readUInt32LE(0xda);
