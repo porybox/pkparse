@@ -91,8 +91,8 @@ exports.parseBuffer = buf => {
   data.ivSpe = ivBytes >> 15 & 0x1f;
   data.ivSpAtk = ivBytes >> 20 & 0x1f;
   data.ivSpDef = ivBytes >> 25 & 0x1f;
-  data.isEgg = ivBytes >> 30 % 2 !== 0;
-  data.isNicknamed = ivBytes >> 31 % 2 !== 0;
+  data.isEgg = (ivBytes >> 30) % 2 !== 0;
+  data.isNicknamed = (ivBytes >> 31) % 2 !== 0;
 
   data.notOt = stripNullChars(buf.toString('utf16le', 0x78, 0x90));
   data.notOtGender = buf.readUInt8(0x92) ? 'F' : 'M';
