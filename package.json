@@ -4,7 +4,8 @@
   "description": "Extracts data from .pk6 files",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "lint": "eslint .",
+    "bundle": "browserify webparser_src.js -o browser/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,9 @@
     "pk6"
   ],
   "author": "not-an-aardvark",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "blob-to-buffer": "^1.2.6",
+    "browserify": "^13.0.0"
+  }
 }

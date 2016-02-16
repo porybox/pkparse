@@ -14,7 +14,7 @@ function parseMap (data, map) {
   return parsedData;
 }
 
-function checksumValid (buf) {
+function checksumIsValid (buf) {
   let sum = 0;
   for (let i = 8; i < 232; i += 2) {
     sum += buf.readUInt16LE(i);
@@ -27,7 +27,7 @@ exports.parseBuffer = buf => {
   if (buf.readUInt16LE(0x04)) {
     throw new Error('The provided buffer is not valid pk6 data');
   }
-  data.checksumValid = checksumValid(buf);
+  data.checksumIsValid = checksumIsValid(buf);
   data.encryptionConstant = buf.readUInt32LE(0x00);
   data.dexNo = buf.readUInt16LE(0x08);
   data.heldItemId = buf.readUInt16LE(0x0a);
@@ -154,6 +154,7 @@ exports.parseBuffer = buf => {
   data.regionId = buf.readUInt8(0xe1); // TODO: Parse
   data.consoleRegion = ['J', 'U', 'E', 'K'][buf.readUInt8(0xe2)]; // Japan, Americas, PAL, Korea
   data.language = ['JPN', 'ENG', 'FRE', 'ITA', 'GER', 'SPA', 'KOR'][buf.readUInt8(0xe3) - 1];
+  data.rawPk6 = buf.toString('base64');
 
   return data;
 };
@@ -166,31 +167,40 @@ exports.getPokemonData = dexNo => {
   try {
     return require(`./pokemon_data/${dexNo}.json`);
   } catch (e) {
-    return null;
+    throw new Error(`Invalid dex number: ${dexNo}`);
   }
 };
 
 exports.getItemData = itemId => {
+  if (itemId === 0) {
+    return null;
+  }
   try {
     return require(`./item_data_gen6/${itemId}.json`);
   } catch (e) {
-    return null;
+    throw new Error(`Invalid item ID: ${itemId}`);
   }
 };
 
 exports.getMoveData = moveId => {
+  if (moveId === 0) {
+    return null;
+  }
   try {
     return require(`./move_data/${moveId}.json`);
   } catch (e) {
-    return null;
+    throw new Error(`Invalid move ID: ${moveId}`);
   }
 };
 
 exports.getAbilityData = abilityId => {
+  if (abilityId === 0) {
+    return null;
+  }
   try {
     return require(`./ability_data/${abilityId}.json`);
   } catch (e) {
-    return null;
+    throw `Invalid ability ID: ${abilityId}`;
   }
 };
 
