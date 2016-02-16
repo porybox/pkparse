@@ -22,6 +22,13 @@ function checksumIsValid (buf) {
   return (sum & 0xffff) === buf.readUInt16LE(0x06);
 }
 
+function getDateFromInt (dateStorage) {
+  if (!dateStorage) {
+    return null;
+  }
+  return Date.UTC((dateStorage & 0xff) + 2000, (dateStorage >> 8 & 0xff) - 1, (dateStorage >> 16 & 0xff));
+}
+
 exports.parseBuffer = buf => {
   const data = {};
   if (buf.readUInt16LE(0x04)) {
@@ -137,8 +144,8 @@ exports.parseBuffer = buf => {
   data.otMemoryTextVar = buf.readUInt16LE(0xce);
   data.otMemoryFeeling = buf.readUInt8(0xd0);
 
-  data.eggDate = Date.UTC(buf.readUInt8(0xd1) + 2000, (buf.readUInt8(0xd2) || NaN) - 1, buf.readUInt8(0xd3));
-  data.metDate = Date.UTC(buf.readUInt8(0xd4) + 2000, (buf.readUInt8(0xd5) || NaN) - 1, buf.readUInt8(0xd6));
+  data.eggDate = getDateFromInt(buf.readUIntLE(0xd1, 3));
+  data.metDate = getDateFromInt(buf.readUIntLE(0xd4, 3));
 
   data.eggLocationId = buf.readUInt16LE(0xd8); // TODO: Parse
   data.metLocationId = buf.readUInt32LE(0xda);
