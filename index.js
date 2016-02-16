@@ -26,7 +26,7 @@ function getDateFromInt (dateStorage) {
   if (!dateStorage) {
     return null;
   }
-  return Date.UTC((dateStorage & 0xff) + 2000, (dateStorage >> 8 & 0xff) - 1, (dateStorage >> 16 & 0xff));
+  return Date.UTC((dateStorage & 0xff) + 2000, (dateStorage >>> 8 & 0xff) - 1, (dateStorage >>> 16 & 0xff));
 }
 
 exports.parseBuffer = buf => {
@@ -53,7 +53,7 @@ exports.parseBuffer = buf => {
   const isFemale = genderByte & 0x02;
   const isGenderless = genderByte & 0x04;
   data.gender = isFemale ? 'F' : isGenderless ? '' : 'M';
-  data.formId = genderByte >> 3;
+  data.formId = genderByte >>> 3;
 
   data.evHp = buf.readUInt8(0x1e);
   data.evAtk = buf.readUInt8(0x1f);
@@ -79,7 +79,7 @@ exports.parseBuffer = buf => {
 
   const pokerusByte = buf.readUInt8(0x2b);
   data.pokerusDuration = pokerusByte & 16;
-  data.pokerusStrain = pokerusByte >> 4;
+  data.pokerusStrain = pokerusByte >>> 4;
 
   data.medalData = buf.readUInt32LE(0x2c);
   data.ribbonData = buf.readUIntLE(0x30, 6);
@@ -107,13 +107,13 @@ exports.parseBuffer = buf => {
 
   const ivBytes = buf.readUInt32LE(0x74);
   data.ivHp = ivBytes & 0x1f;
-  data.ivAtk = ivBytes >> 5 & 0x1f;
-  data.ivDef = ivBytes >> 10 & 0x1f;
-  data.ivSpe = ivBytes >> 15 & 0x1f;
-  data.ivSpAtk = ivBytes >> 20 & 0x1f;
-  data.ivSpDef = ivBytes >> 25 & 0x1f;
-  data.isEgg = (ivBytes >> 30) % 2 !== 0;
-  data.isNicknamed = (ivBytes >> 31) % 2 !== 0;
+  data.ivAtk = ivBytes >>> 5 & 0x1f;
+  data.ivDef = ivBytes >>> 10 & 0x1f;
+  data.ivSpe = ivBytes >>> 15 & 0x1f;
+  data.ivSpAtk = ivBytes >>> 20 & 0x1f;
+  data.ivSpDef = ivBytes >>> 25 & 0x1f;
+  data.isEgg = (ivBytes >>> 30) % 2 !== 0;
+  data.isNicknamed = (ivBytes >>> 31) % 2 !== 0;
 
   data.notOt = stripNullChars(buf.toString('utf16le', 0x78, 0x90));
   data.notOtGender = buf.readUInt8(0x92) ? 'F' : 'M';
@@ -153,7 +153,7 @@ exports.parseBuffer = buf => {
 
   const encounterLevelByte = buf.readUInt8(0xdd);
   data.levelMet = encounterLevelByte & 0x7f;
-  data.otGender = encounterLevelByte >> 7 ? 'F' : 'M';
+  data.otGender = encounterLevelByte >>> 7 ? 'F' : 'M';
 
   data.encounterTypeId = buf.readUInt8(0xde); // TODO: Parse
   data.otGameId = buf.readUInt8(0xdf); // TODO: Parse
