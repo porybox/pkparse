@@ -1,6 +1,6 @@
 # pk6parse
 
-Parses a .pk6 file into a javascript object.
+Parses a .pk6 file into a javascript object. This also works in the browser; see [here](https://not-an-aardvark.github.io/pk6parse/) for an example.
 
 ## Installation
 
@@ -12,7 +12,7 @@ npm install pk6parse
 ```javascript
 var pk6parse = require('pk6parse');
 ```
-## API:
+## API
 
 * `pk6parse.parseBuffer(buf)`
 * `buf` *(Buffer)*: A Buffer in .pk6 format
