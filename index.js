@@ -159,7 +159,7 @@ exports.parseBuffer = buf => {
   data.otGameId = buf.readUInt8(0xdf); // TODO: Parse
   data.countryId = buf.readUInt8(0xe0); // TODO: Parse
   data.regionId = buf.readUInt8(0xe1); // TODO: Parse
-  data.consoleRegion = ['J', 'U', 'E', 'K'][buf.readUInt8(0xe2)]; // Japan, Americas, PAL, Korea
+  data.consoleRegion = ['J', 'U', 'E', 'K', 'T', 'C'][buf.readUInt8(0xe2)]; // Japan, Americas, PAL, Korea, Taiwan, China
   data.language = ['JPN', 'ENG', 'FRE', 'ITA', 'GER', 'SPA', 'KOR'][buf.readUInt8(0xe3) - 1];
   data.rawPk6 = buf.toString('base64');
 
