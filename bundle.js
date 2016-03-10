@@ -162,7 +162,7 @@ exports.parseBuffer = buf => {
   data.regionId = buf.readUInt8(0xe1); // TODO: Parse
   data.consoleRegion = ['J', 'U', 'E', '?', 'C', 'K', 'T'][buf.readUInt8(0xe2)];
   data.language = [null, 'JPN', 'ENG', 'FRE', 'ITA', 'GER', '???', 'SPA', 'KOR'][buf.readUInt8(0xe3)];
-  data.rawPk6 = buf.toString('base64');
+  data._rawPk6 = buf.toString('base64');
 
   return data;
 };
