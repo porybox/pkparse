@@ -30,11 +30,10 @@ function getDateFromInt (dateStorage) {
 }
 
 exports.parseBuffer = buf => {
-  const data = {};
-  if (buf.readUInt16LE(0x04)) {
+  if (buf.readUInt16LE(0x04) || !checksumIsValid(buf) || [232, 260].indexOf(buf.length) === -1 || buf.readUInt8(0x58) || buf.readUInt8(0x90) || buf.readUInt8(0xc8)) {
     throw new Error('The provided buffer is not valid pk6 data');
   }
-  data.checksumIsValid = checksumIsValid(buf);
+  const data = {};
   data.encryptionConstant = buf.readUInt32LE(0x00);
   data.dexNo = buf.readUInt16LE(0x08);
   data.heldItemId = buf.readUInt16LE(0x0a);
