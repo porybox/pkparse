@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Increases movement speed outside or in caves.  Faster than the []{item:acro-bike}.  Allows the trainer to ascend muddy slopes.",
+      "effect": "Increases movement speed outside or in caves.  Faster than the acro bike.  Allows the trainer to ascend muddy slopes.",
       "short_effect": "Faster than the Acro Bike, and can ride up sandy slopes and across cracked floors.",
       "language": "en"
     }
@@ -73,5 +73,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/mach-bike.png"
+  },
   "baby_trigger_for": null
 }

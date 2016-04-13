@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Evolves a []{pokemon:cottonee} into []{pokemon:whimsicott}, a []{pokemon:gloom} into []{pokemon:bellossom}, a []{pokemon:petilil} into []{pokemon:lilligant}, or a []{pokemon:sunkern} into []{pokemon:sunflora}.",
+      "effect": "Used on a party Pokémon\n:   Evolves a cottonee into whimsicott, a gloom into bellossom, a petilil into lilligant, or a sunkern into sunflora.",
       "short_effect": "Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Sunkern into Sunflora.",
       "language": "en"
     }
@@ -301,5 +301,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/sun-stone.png"
+  },
   "baby_trigger_for": null
 }

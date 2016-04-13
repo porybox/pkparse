@@ -23,7 +23,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1×.  The caught Pokémon's [HP]{mechanic:hp} is immediately restored, [PP]{mechanic:pp} for all its moves is restored, and any [status ailment]{mechanic:status-ailment} is cured.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+      "effect": "Used in battle\n:   Attempts to catch a wild Pokémon, using a catch rate of 1×.  The caught Pokémon's HP is immediately restored, PP for all its moves is restored, and any status ailment is cured.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
       "short_effect": "Tries to catch a wild Pokémon.  Caught Pokémon are immediately healed.",
       "language": "en"
     }
@@ -179,5 +179,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/heal-ball.png"
+  },
   "baby_trigger_for": null
 }

@@ -17,7 +17,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   Holder has 1.5× its [Attack]{mechanic:attack}.  When the holder attempts to use a move, all its other moves are disabled until it leaves battle or loses this item.\n\n    The restriction ends even if this item is swapped for another Choice item\nvia []{move:trick} or []{move:switcheroo}.",
+      "effect": "Held in battle\n:   Holder has 1.5× its Attack.  When the holder attempts to use a move, all its other moves are disabled until it leaves battle or loses this item.\n\n    The restriction ends even if this item is swapped for another Choice item\nvia trick or switcheroo.",
       "short_effect": "Held: Increases Attack by 50%, but restricts the holder to only one move.",
       "language": "en"
     }
@@ -200,5 +200,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/choice-band.png"
+  },
   "baby_trigger_for": null
 }

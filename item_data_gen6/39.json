@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Restores [PP]{mechanic:pp} to full for a selected move.",
+      "effect": "Used on a party Pokémon\n:   Restores PP to full for a selected move.",
       "short_effect": "Restores PP to full for one move.",
       "language": "en"
     }
@@ -209,5 +209,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/max-ether.png"
+  },
   "baby_trigger_for": null
 }

@@ -16,7 +16,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder is out of [PP]{mechanic:pp} for one of its moves, it consumes this item to restore 10 of that move's PP.\n\nUsed on a party Pokémon\n:   Restores 10 [PP]{mechanic:pp} for a selected move.",
+      "effect": "Held in battle\n:   When the holder is out of PP for one of its moves, it consumes this item to restore 10 of that move's PP.\n\nUsed on a party Pokémon\n:   Restores 10 PP for a selected move.",
       "short_effect": "Held: Consumed when a move runs out of PP to restore its PP by 10.",
       "language": "en"
     }
@@ -711,5 +711,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/leppa-berry.png"
+  },
   "baby_trigger_for": null
 }

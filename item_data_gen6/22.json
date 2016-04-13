@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Cures [paralysis]{mechanic:paralysis}.",
+      "effect": "Used on a party Pokémon\n:   Cures paralysis.",
       "short_effect": "Cures paralysis.",
       "language": "en"
     }
@@ -209,5 +209,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/paralyze-heal.png"
+  },
   "baby_trigger_for": null
 }

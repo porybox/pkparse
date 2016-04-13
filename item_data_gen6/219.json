@@ -19,7 +19,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder is [attracted]{move:attract}, it consumes this item to cure the attraction.",
+      "effect": "Held in battle\n:   When the holder is attracted, it consumes this item to cure the attraction.",
       "short_effect": "Held: Consumed to cure infatuation. Gen V: Also removes Taunt, Encore, Torment, Disable, and Cursed Body.",
       "language": "en"
     }
@@ -370,5 +370,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/mental-herb.png"
+  },
   "baby_trigger_for": null
 }

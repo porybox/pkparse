@@ -17,7 +17,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held\n:   If the holder participated in a trainer battle, the trainer earns twice the usual prize money.  This effect applies even if the holder [fainted]{mechanic:fainted}.\n\n    This effect does not stack with any other similar effect.",
+      "effect": "Held\n:   If the holder participated in a trainer battle, the trainer earns twice the usual prize money.  This effect applies even if the holder fainted.\n\n    This effect does not stack with any other similar effect.",
       "short_effect": "Held: Doubles the money earned from a battle. Does not stack with Luck Incense.",
       "language": "en"
     }
@@ -200,5 +200,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/amulet-coin.png"
+  },
   "baby_trigger_for": null
 }

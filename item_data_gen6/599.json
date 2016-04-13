@@ -10,8 +10,8 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon in battle\n:   Raises the target's [Speed]{mechanic:speed} by three [stages]{mechanic:stage}.\nThis item can only be obtained or used via the Wonder Launcher.",
-      "short_effect": "Raises [Speed]{mechanic:speed} by three [stages]{mechanic:stage} in battle.  Wonder Launcher only.",
+      "effect": "Used on a party Pokémon in battle\n:   Raises the target's Speed by three stages.\nThis item can only be obtained or used via the Wonder Launcher.",
+      "short_effect": "Raises Speed by three stages in battle.  Wonder Launcher only.",
       "language": "en"
     }
   ],
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/x-speed-3.png"
+  },
   "baby_trigger_for": null
 }

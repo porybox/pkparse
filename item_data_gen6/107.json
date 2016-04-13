@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Evolves a []{pokemon:minccino} into []{pokemon:cinccino}, a []{pokemon:roselia} into []{pokemon:roserade}, or a []{pokemon:togetic} into []{pokemon:togekiss}.",
+      "effect": "Used on a party Pokémon\n:   Evolves a minccino into cinccino, a roselia into roserade, or a togetic into togekiss.",
       "short_effect": "Evolves a Minccino into Cinccino, a Roselia into Roserade, or a Togetic into Togekiss.",
       "language": "en"
     }
@@ -166,5 +166,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/shiny-stone.png"
+  },
   "baby_trigger_for": null
 }

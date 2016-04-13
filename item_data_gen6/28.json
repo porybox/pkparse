@@ -29,7 +29,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Revives the Pokémon and restores half its [HP]{mechanic:hp}.",
+      "effect": "Used on a party Pokémon\n:   Revives the Pokémon and restores half its HP.",
       "short_effect": "Revives with half HP.",
       "language": "en"
     }
@@ -212,5 +212,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/revive.png"
+  },
   "baby_trigger_for": null
 }

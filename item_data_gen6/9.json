@@ -23,7 +23,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon.  If the wild Pokémon's species is marked as caught in the trainer's Pokédex, this ball has a catch rate of 3×.  Otherwise, it has a catch rate of 1×.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+      "effect": "Used in battle\n:   Attempts to catch a wild Pokémon.  If the wild Pokémon's species is marked as caught in the trainer's Pokédex, this ball has a catch rate of 3×.  Otherwise, it has a catch rate of 1×.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
       "short_effect": "Tries to catch a wild Pokémon.  Success rate is 3× for previously-caught Pokémon.",
       "language": "en"
     }
@@ -206,5 +206,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/repeat-ball.png"
+  },
   "baby_trigger_for": null
 }

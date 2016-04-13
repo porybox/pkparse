@@ -23,7 +23,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used in battle\n:   [Catches]{mechanic:catch} a wild Pokémon without fail.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+      "effect": "Used in battle\n:   Catches a wild Pokémon without fail.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
       "short_effect": "Catches a wild Pokémon every time.",
       "language": "en"
     }
@@ -206,5 +206,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/master-ball.png"
+  },
   "baby_trigger_for": null
 }

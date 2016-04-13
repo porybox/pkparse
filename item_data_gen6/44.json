@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used\n:   Revives all [fainted]{mechanic:faint} Pokémon in the party and restores their [HP]{mechanic:hp} to full.",
+      "effect": "Used\n:   Revives all fainted Pokémon in the party and restores their HP to full.",
       "short_effect": "Revives all fainted Pokémon with full HP.",
       "language": "en"
     }
@@ -301,5 +301,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/sacred-ash.png"
+  },
   "baby_trigger_for": null
 }

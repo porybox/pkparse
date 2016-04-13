@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held\n:   When the holder takes []{type:electric}-type damage from a move, its [Attack]{mechanic:attack} rises by one [stage]{mechanic:stage} and this item is consumed.",
+      "effect": "Held\n:   When the holder takes electric-type damage from a move, its Attack rises by one stage and this item is consumed.",
       "short_effect": "Held: Raises the holder's Attack by one stage when it takes Electric-type damage.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/cell-battery.png"
+  },
   "baby_trigger_for": null
 }

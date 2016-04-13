@@ -16,7 +16,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder is [frozen]{mechanic:freezing}, it consumes this item to thaw itself.\n\nUsed on a party Pokémon\n:   Cures [freezing]{mechanic:freezing}.",
+      "effect": "Held in battle\n:   When the holder is frozen, it consumes this item to thaw itself.\n\nUsed on a party Pokémon\n:   Cures freezing.",
       "short_effect": "Held: Consumed when frozen to cure frozen.",
       "language": "en"
     }
@@ -496,5 +496,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/aspear-berry.png"
+  },
   "baby_trigger_for": null
 }

@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Increases [Defense]{mechanic:defense} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2.",
+      "effect": "Used on a party Pokémon\n:   Increases Defense effort by 10, but won't increase it beyond 100.  Increases happiness by 5/3/2.",
       "short_effect": "Raises Defense effort and happiness.",
       "language": "en"
     }
@@ -209,5 +209,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/iron.png"
+  },
   "baby_trigger_for": null
 }

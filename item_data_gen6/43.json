@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Restores 20 [HP]{mechanic:hp}.",
+      "effect": "Used on a party Pokémon\n:   Restores 20 HP.",
       "short_effect": "Restores 20 HP.",
       "language": "en"
     }
@@ -277,5 +277,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/berry-juice.png"
+  },
   "baby_trigger_for": null
 }

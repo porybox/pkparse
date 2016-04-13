@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Provides access to []{location:southern-island} and either []{pokemon:latias} or []{pokemon:latios}, whichever is not available roaming around Hoenn.",
+      "effect": "Provides access to southern island and either latias or latios, whichever is not available roaming around Hoenn.",
       "short_effect": "Provides access to Southern Island and Latias or Latios.",
       "language": "en"
     }
@@ -73,5 +73,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/eon-ticket.png"
+  },
   "baby_trigger_for": null
 }

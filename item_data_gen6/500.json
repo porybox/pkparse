@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used by a trainer in battle\n:   [Catches]{mechanic:catch} a wild Pokémon.\n\nThis item can only be used in []{location:pal-park}.",
+      "effect": "Used by a trainer in battle\n:   Catches a wild Pokémon.\n\nThis item can only be used in pal park.",
       "short_effect": "Catches Pokémon in the Pal Park every time.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/park-ball.png"
+  },
   "baby_trigger_for": null
 }

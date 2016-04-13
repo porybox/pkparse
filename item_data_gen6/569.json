@@ -10,8 +10,8 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Increases the target's [Special Defense]{mechanic:special-defense} [effort]{mechanic:effort} by 1.",
-      "short_effect": "Increases [Special Defense]{mechanic:special-defense} [effort]{mechanic:effort} by 1.",
+      "effect": "Used on a party Pokémon\n:   Increases the target's Special Defense effort by 1.",
+      "short_effect": "Increases Special Defense effort by 1.",
       "language": "en"
     }
   ],
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/clever-wing.png"
+  },
   "baby_trigger_for": null
 }

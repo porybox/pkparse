@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Allows passage on the []{location:castelia-city} ship, which leads to []{location:liberty-garden} and []{pokemon:victini}.",
+      "effect": "Allows passage on the castelia city ship, which leads to liberty garden and victini.",
       "short_effect": "Allows access to Liberty Garden and Victini.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/liberty-pass.png"
+  },
   "baby_trigger_for": null
 }

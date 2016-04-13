@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Trade one to the Move Relearner near the shore in []{location:pastoria-city} or with the Move Deleter in []{location:blackthorn-city} to teach one party Pokémon a prior level-up move.",
+      "effect": "Trade one to the Move Relearner near the shore in pastoria city or with the Move Deleter in blackthorn city to teach one party Pokémon a prior level-up move.",
       "short_effect": "No effect. Can be traded for prior Level-up moves.",
       "language": "en"
     }
@@ -301,5 +301,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/heart-scale.png"
+  },
   "baby_trigger_for": null
 }

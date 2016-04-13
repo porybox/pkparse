@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held\n:   Moves used by the holder that trap and damage a target for multiple turns (e.g. []{move:bind}, []{move:fire-spin}) inflict twice their usual per-turn damage.",
+      "effect": "Held\n:   Moves used by the holder that trap and damage a target for multiple turns (e.g. bind, fire spin) inflict twice their usual per-turn damage.",
       "short_effect": "Held: Doubles the per-turn damage of multi-turn trapping moves.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/binding-band.png"
+  },
   "baby_trigger_for": null
 }

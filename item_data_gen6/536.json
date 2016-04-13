@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "When taken to the []{location:pewter-city} museum, causes []{pokemon:latias} or []{pokemon:latios} to attack the trainer.\n\nThe Pokémon to appear will be whicher can't be encountered roaming in the wild.",
+      "effect": "When taken to the pewter city museum, causes latias or latios to attack the trainer.\n\nThe Pokémon to appear will be whicher can't be encountered roaming in the wild.",
       "short_effect": "S: Summons Latias H: Summons Latios.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/enigma-stone.png"
+  },
   "baby_trigger_for": null
 }

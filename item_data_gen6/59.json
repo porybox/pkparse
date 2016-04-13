@@ -23,7 +23,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon in battle\n:   [Raises]{mechanic:raise} the target's [Speed]{mechanic:speed} by one stage.  Increases happiness by 1/1/0.",
+      "effect": "Used on a party Pokémon in battle\n:   Raises the target's Speed by one stage.  Increases happiness by 1/1/0.",
       "short_effect": "Raises Speed by one stage in battle.  Raises happiness.",
       "language": "en"
     }
@@ -206,5 +206,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/x-speed.png"
+  },
   "baby_trigger_for": null
 }

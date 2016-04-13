@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Causes []{pokemon:ho-oh} to appear at the top of []{location:bell-tower}.",
+      "effect": "Causes ho oh to appear at the top of bell tower.",
       "short_effect": "Summons Ho-Oh at the top of the Bell Tower.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/rainbow-wing.png"
+  },
   "baby_trigger_for": null
 }

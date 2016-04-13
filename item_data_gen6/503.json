@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "May be given to the Kimono Girls to summon []{pokemon:lugia} to the top of the []{location:bell-tower}.",
+      "effect": "May be given to the Kimono Girls to summon lugia to the top of the bell tower.",
       "short_effect": "Allows Kimono-girls to summon Lugia.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tidal-bell.png"
+  },
   "baby_trigger_for": null
 }

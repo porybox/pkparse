@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used outside of battle\n:   Transports the trainer to the last-entered dungeon entrance.  Cannot be used outside, in buildings, or in []{location:distortion-world}, []{location:sinnoh-hall-of-origin-1}, []{location:spear-pillar}, or []{location:turnback-cave}.",
+      "effect": "Used outside of battle\n:   Transports the trainer to the last-entered dungeon entrance.  Cannot be used outside, in buildings, or in distortion world, sinnoh hall of origin 1, spear pillar, or turnback cave.",
       "short_effect": "Transports user to the outside entrance of a cave.",
       "language": "en"
     }
@@ -193,5 +193,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/escape-rope.png"
+  },
   "baby_trigger_for": null
 }

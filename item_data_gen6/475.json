@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used by trainer outside of battle\n:   Opens doors in the []{location:goldenrod-city} Radio Tower.",
+      "effect": "Used by trainer outside of battle\n:   Opens doors in the goldenrod city Radio Tower.",
       "short_effect": "HS: Opens doors in the Radio Tower. Gen III: Unlocks Silph Co Doors.",
       "language": "en"
     }
@@ -172,5 +172,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/card-key.png"
+  },
   "baby_trigger_for": null
 }

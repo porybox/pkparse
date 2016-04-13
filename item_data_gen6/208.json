@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder takes [super-effective]{mechanic:super-effective} damage, it consumes this item to restore 1/4 its max [HP]{mechanic:hp}.",
+      "effect": "Held in battle\n:   When the holder takes super-effective damage, it consumes this item to restore 1/4 its max HP.",
       "short_effect": "Held: Consumed when struck by a super-effective attack to restore 1/4 max HP.",
       "language": "en"
     }
@@ -197,5 +197,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/enigma-berry.png"
+  },
   "baby_trigger_for": null
 }

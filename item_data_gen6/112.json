@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held by []{pokemon:giratina}\n:   Holder's []{type:dragon} and []{type:ghost} moves have 1.2× their base power.\n\n    Holder is in Origin Forme.\n\nThis item cannot be held by any Pokémon but Giratina.  When you enter the Union Room or connect to Wi-Fi, this item returns to your bag.",
+      "effect": "Held by giratina\n:   Holder's dragon and ghost moves have 1.2× their base power.\n\n    Holder is in Origin Forme.\n\nThis item cannot be held by any Pokémon but Giratina.  When you enter the Union Room or connect to Wi-Fi, this item returns to your bag.",
       "short_effect": "Boosts the damage from Giratina's Dragon-type and Ghost-type moves by 20%, and transforms it into Origin Forme.",
       "language": "en"
     }
@@ -159,5 +159,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/griseous-orb.png"
+  },
   "baby_trigger_for": null
 }

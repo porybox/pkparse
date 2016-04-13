@@ -29,7 +29,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Revives the Pokémon and restores its [HP]{mechanic:hp} to full.",
+      "effect": "Used on a party Pokémon\n:   Revives the Pokémon and restores its HP to full.",
       "short_effect": "Revives with full HP.",
       "language": "en"
     }
@@ -212,5 +212,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/max-revive.png"
+  },
   "baby_trigger_for": null
 }

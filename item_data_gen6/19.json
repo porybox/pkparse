@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Cures a [burn]{mechanic:burn}.",
+      "effect": "Used on a party Pokémon\n:   Cures a burn.",
       "short_effect": "Cures a burn.",
       "language": "en"
     }
@@ -209,5 +209,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/burn-heal.png"
+  },
   "baby_trigger_for": null
 }

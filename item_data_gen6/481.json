@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Must be replaced in the []{location:power-plant} to power the Magnet Train.",
+      "effect": "Must be replaced in the power plant to power the Magnet Train.",
       "short_effect": "Must be replaced in the Power Plant to power the Magnet Train.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/machine-part.png"
+  },
   "baby_trigger_for": null
 }

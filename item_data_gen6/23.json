@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Restores [HP]{mechanic:hp} to full and cures any [status ailment]{mechanic:status-ailment} and [confusion]{mechanic:confusion}.",
+      "effect": "Used on a party Pokémon\n:   Restores HP to full and cures any status ailment and confusion.",
       "short_effect": "Restores HP to full and cures any status ailment and confusion.",
       "language": "en"
     }
@@ -209,5 +209,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/full-restore.png"
+  },
   "baby_trigger_for": null
 }

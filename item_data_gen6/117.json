@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held by []{pokemon:genesect}\n:   Holder's buster is yellow, and its []{move:techno-blast} is []{type:electric}-type.",
+      "effect": "Held by genesect\n:   Holder's buster is yellow, and its techno blast is electric-type.",
       "short_effect": "Grants Genesect a yellow, Electric-type Techno Blast.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/shock-drive.png"
+  },
   "baby_trigger_for": null
 }

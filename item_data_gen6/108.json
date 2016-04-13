@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Evolves a []{pokemon:lampent} into []{pokemon:chandelure}, a []{pokemon:misdreavus} into []{pokemon:mismagius}, or a []{pokemon:murkrow} into []{pokemon:honchkrow}.",
+      "effect": "Used on a party Pokémon\n:   Evolves a lampent into chandelure, a misdreavus into mismagius, or a murkrow into honchkrow.",
       "short_effect": "Evolves a Lampent into Chandelure, a Misdreavus into Mismagius, or a Murkrow into Honchkrow.",
       "language": "en"
     }
@@ -166,5 +166,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/dusk-stone.png"
+  },
   "baby_trigger_for": null
 }

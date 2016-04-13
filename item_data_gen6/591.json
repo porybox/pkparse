@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Cures any [status ailment]{mechanic:status-ailment} and [confusion]{mechanic:confusion}.",
+      "effect": "Used on a party Pokémon\n:   Cures any status ailment and confusion.",
       "short_effect": "Cures any status ailment and confusion.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/casteliacone.png"
+  },
   "baby_trigger_for": null
 }

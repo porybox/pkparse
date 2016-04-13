@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used by trainer in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If the wild Pokémon was encountered by fishing, the wild Pokémon's catch rate is 3× normal.",
+      "effect": "Used by trainer in battle\n:   Attempts to catch a wild Pokémon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If the wild Pokémon was encountered by fishing, the wild Pokémon's catch rate is 3× normal.",
       "short_effect": "3× effectiveness while fishing. Made from Blu Apricorn.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/lure-ball.png"
+  },
   "baby_trigger_for": null
 }

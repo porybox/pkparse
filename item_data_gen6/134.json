@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a friendly Pokémon\n:   Restores 20 [HP]{mechanic:hp}.",
+      "effect": "Used on a friendly Pokémon\n:   Restores 20 HP.",
       "short_effect": "Restores 20 HP.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/sweet-heart.png"
+  },
   "baby_trigger_for": null
 }

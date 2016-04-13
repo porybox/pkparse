@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Must be obtained to trigger the break-in at Professor Elm's lab, the first rival battle, and access to []{location:johto-route-31}.",
+      "effect": "Must be obtained to trigger the break-in at Professor Elm's lab, the first rival battle, and access to johto route 31.",
       "short_effect": "Deliver to Professor Elm.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/mystery-egg.png"
+  },
   "baby_trigger_for": null
 }

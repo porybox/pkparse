@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder would take [super-effective]{mechanic:super-effective} []{type:grass}-type damage, it consumes this item to halve the amount of damage taken.",
+      "effect": "Held in battle\n:   When the holder would take super-effective grass-type damage, it consumes this item to halve the amount of damage taken.",
       "short_effect": "Held: Consumed when struck by a super-effective Grass-type attack to halve the damage.",
       "language": "en"
     }
@@ -355,5 +355,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/rindo-berry.png"
+  },
   "baby_trigger_for": null
 }

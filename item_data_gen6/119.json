@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held by []{pokemon:genesect}\n:   Holder's buster is white, and its []{move:techno-blast} becomes []{type:ice}-type.",
+      "effect": "Held by genesect\n:   Holder's buster is white, and its techno blast becomes ice-type.",
       "short_effect": "Grants Genesect a white, Ice-type Techno Blast.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/chill-drive.png"
+  },
   "baby_trigger_for": null
 }

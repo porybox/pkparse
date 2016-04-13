@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Evolves an []{pokemon:eelektrik} into []{pokemon:eelektross}, an []{pokemon:eevee} into []{pokemon:jolteon}, or a []{pokemon:pikachu} into []{pokemon:raichu}.",
+      "effect": "Used on a party Pokémon\n:   Evolves an eelektrik into eelektross, an eevee into jolteon, or a pikachu into raichu.",
       "short_effect": "Evolves an Eelektrik into Eelektross, an Eevee into Jolteon, or a Pikachu into Raichu.",
       "language": "en"
     }
@@ -197,5 +197,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/thunder-stone.png"
+  },
   "baby_trigger_for": null
 }

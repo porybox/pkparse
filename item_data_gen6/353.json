@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "The Safari Zone warden's teeth, to be returned to him for []{item:hm04}.",
+      "effect": "The Safari Zone warden's teeth, to be returned to him for hm04.",
       "short_effect": "The Safari Zone Warden's dentures. Trade for HM04 (Strength).",
       "language": "en"
     }
@@ -66,5 +66,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/gold-teeth.png"
+  },
   "baby_trigger_for": null
 }

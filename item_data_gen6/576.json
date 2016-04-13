@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Can only be used in Entree Forest, to catch Pokémon encountered in the Dream World.\n\nUsed in battle\n:   [Catches]{mechanic:catch} a wild Pokémon without fail.",
+      "effect": "Can only be used in Entree Forest, to catch Pokémon encountered in the Dream World.\n\nUsed in battle\n:   Catches a wild Pokémon without fail.",
       "short_effect": "Catches Pokémon found in the Dream World.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/dream-ball.png"
+  },
   "baby_trigger_for": null
 }

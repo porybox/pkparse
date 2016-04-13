@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held by []{pokemon:genesect}\n:   Holder's buster is blue, and its []{move:techno-blast} is []{type:water}-type.",
+      "effect": "Held by genesect\n:   Holder's buster is blue, and its techno blast is water-type.",
       "short_effect": "Grants Genesect a blue, Water-type Techno Blast.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/douse-drive.png"
+  },
   "baby_trigger_for": null
 }

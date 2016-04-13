@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used by a trainer in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If caught, the wild Pokémon's [happiness]{mechanic:happiness} starts at 200.",
+      "effect": "Used by a trainer in battle\n:   Attempts to catch a wild Pokémon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If caught, the wild Pokémon's happiness starts at 200.",
       "short_effect": "Caught Pokémon start with 200 happiness. Made from Grn Apricorn.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/friend-ball.png"
+  },
   "baby_trigger_for": null
 }

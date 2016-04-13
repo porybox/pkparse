@@ -19,7 +19,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   At the end of each turn, if any of the holder's stats have a negative [stat modifier]{mechanic:stat-modifier}, the holder consumes this item to remove the modifiers from those stats.",
+      "effect": "Held in battle\n:   At the end of each turn, if any of the holder's stats have a negative stat modifier, the holder consumes this item to remove the modifiers from those stats.",
       "short_effect": "Held: Resets all lowered stats to normal at end of turn. Consumed after use.",
       "language": "en"
     }
@@ -202,5 +202,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/white-herb.png"
+  },
   "baby_trigger_for": null
 }

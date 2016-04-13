@@ -23,7 +23,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1.5×.\n\nThis item can only be used in the []{location:great-marsh} or []{location:kanto-safari-zone}.",
+      "effect": "Used in battle\n:   Attempts to catch a wild Pokémon, using a catch rate of 1.5×.\n\nThis item can only be used in the great marsh or kanto safari zone.",
       "short_effect": "Tries to catch a wild Pokémon in the Great Marsh or Safari Zone.  Success rate is 1.5×.",
       "language": "en"
     }
@@ -206,5 +206,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/safari-ball.png"
+  },
   "baby_trigger_for": null
 }

@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Cures [freezing]{mechanic:freezing}.",
+      "effect": "Used on a party Pokémon\n:   Cures freezing.",
       "short_effect": "Cures freezing.",
       "language": "en"
     }
@@ -209,5 +209,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/ice-heal.png"
+  },
   "baby_trigger_for": null
 }

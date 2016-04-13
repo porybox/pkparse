@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Teaches []{move:wild-charge} to a compatible Pokémon.",
+      "effect": "Teaches wild charge to a compatible Pokémon.",
       "short_effect": "Teaches Wild Charge to a compatible Pokémon.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tm-normal.png"
+  },
   "baby_trigger_for": null
 }

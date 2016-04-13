@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Place in the tower on []{location:sinnoh-route-209}.  Check the stone to encounter a []{pokemon:spiritomb}, as long as the trainer's Underground status card counts at least 32 greetings.",
+      "effect": "Place in the tower on sinnoh route 209.  Check the stone to encounter a spiritomb, as long as the trainer's Underground status card counts at least 32 greetings.",
       "short_effect": "Use on the tower on Route 209 to encounter Spiritomb if you have at least 32 Underground greetings.",
       "language": "en"
     }
@@ -170,5 +170,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/odd-keystone.png"
+  },
   "baby_trigger_for": null
 }

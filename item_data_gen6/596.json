@@ -10,8 +10,8 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon in battle\n:   Raises the target's [Defense]{mechanic:defense} by two [stages]{mechanic:stage}.\nThis item can only be obtained or used via the Wonder Launcher.",
-      "short_effect": "Raises [Defense]{mechanic:defense} by two [stages]{mechanic:stage} in battle.  Wonder Launcher only.",
+      "effect": "Used on a party Pokémon in battle\n:   Raises the target's Defense by two stages.\nThis item can only be obtained or used via the Wonder Launcher.",
+      "short_effect": "Raises Defense by two stages in battle.  Wonder Launcher only.",
       "language": "en"
     }
   ],
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/x-defense-2.png"
+  },
   "baby_trigger_for": null
 }

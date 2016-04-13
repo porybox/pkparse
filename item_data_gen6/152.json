@@ -16,7 +16,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder is [burned]{mechanic:burn}, it consumes this item to cure the burn.\n\nUsed on a party Pokémon\n:   Cures a [burn]{mechanic:burn}.",
+      "effect": "Held in battle\n:   When the holder is burned, it consumes this item to cure the burn.\n\nUsed on a party Pokémon\n:   Cures a burn.",
       "short_effect": "Held: Consumed when burned to cure a burn.",
       "language": "en"
     }
@@ -889,5 +889,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/rawst-berry.png"
+  },
   "baby_trigger_for": null
 }

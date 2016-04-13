@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Causes []{pokemon:lugia} to appear in the []{location:whirl-islands}.",
+      "effect": "Causes lugia to appear in the whirl islands.",
       "short_effect": "Summons Lugia to the Whirl Islands.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/silver-wing.png"
+  },
   "baby_trigger_for": null
 }

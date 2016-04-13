@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Increases movement speed outside or in caves.  Slower than the []{item:mach-bike}.  Can perform various tricks, allowing the trainer to reach certain special areas.",
+      "effect": "Increases movement speed outside or in caves.  Slower than the mach bike.  Can perform various tricks, allowing the trainer to reach certain special areas.",
       "short_effect": "More maneuverable than the Mach Bike, and allows hopping along rails.",
       "language": "en"
     }
@@ -73,5 +73,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/acro-bike.png"
+  },
   "baby_trigger_for": null
 }

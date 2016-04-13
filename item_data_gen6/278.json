@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "May be traded to Captain Stern for a []{item:deep-sea-tooth} or a []{item:deep-sea-scale}.",
+      "effect": "May be traded to Captain Stern for a deep sea tooth or a deep sea scale.",
       "short_effect": "Trade to Captain Stern for a DeepSeaTooth or DeepSeaScale.",
       "language": "en"
     }
@@ -73,5 +73,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/scanner.png"
+  },
   "baby_trigger_for": null
 }

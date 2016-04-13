@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used by trainer outside of battle\n:   Opens the door to the basement tunnel under []{location:goldenrod-city}.",
+      "effect": "Used by trainer outside of battle\n:   Opens the door to the basement tunnel under goldenrod city.",
       "short_effect": "HS: Key to the tunnel under Goldenrod City. Gen III: Key to New Mauville.",
       "language": "en"
     }
@@ -179,5 +179,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/basement-key.png"
+  },
   "baby_trigger_for": null
 }

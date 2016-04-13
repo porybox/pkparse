@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder has 1/4 its max [HP]{mechanic:hp} remaining or less, it consumes this item.  On the following turn, the holder will act first among moves with the same [priority]{mechanic:priority}, regardless of [Speed]{mechanic:speed}.",
+      "effect": "Held in battle\n:   When the holder has 1/4 its max HP remaining or less, it consumes this item.  On the following turn, the holder will act first among moves with the same priority, regardless of Speed.",
       "short_effect": "Held: Consumed at 1/4 max HP when using a move to go first.",
       "language": "en"
     }
@@ -170,5 +170,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/custap-berry.png"
+  },
   "baby_trigger_for": null
 }

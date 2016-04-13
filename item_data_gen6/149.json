@@ -16,7 +16,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder is [paralyzed]{mechanic:paralysis}, it consumes this item to cure the paralysis.\n\nUsed on a party Pokémon\n:   Cures [paralysis]{mechanic:paralysis}.",
+      "effect": "Held in battle\n:   When the holder is paralyzed, it consumes this item to cure the paralysis.\n\nUsed on a party Pokémon\n:   Cures paralysis.",
       "short_effect": "Held: Consumed when paralyzed to cure paralysis.",
       "language": "en"
     }
@@ -415,5 +415,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/cheri-berry.png"
+  },
   "baby_trigger_for": null
 }

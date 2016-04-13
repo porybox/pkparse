@@ -16,7 +16,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder is afflicted with a [major status ailment]{mechanic:major-status-ailment}, it consumes this item to cure the ailment.\n\nUsed on a party Pokémon\n:   Cures any [major status ailment]{mechanic:major-status-ailment}.",
+      "effect": "Held in battle\n:   When the holder is afflicted with a major status ailment, it consumes this item to cure the ailment.\n\nUsed on a party Pokémon\n:   Cures any major status ailment.",
       "short_effect": "Held: Consumed to cure any status condition or confusion.",
       "language": "en"
     }
@@ -547,5 +547,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/lum-berry.png"
+  },
   "baby_trigger_for": null
 }

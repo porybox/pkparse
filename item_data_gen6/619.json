@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Teaches []{move:rock-smash} to a compatible Pokémon.",
+      "effect": "Teaches rock smash to a compatible Pokémon.",
       "short_effect": "Teaches Rock Smash to a compatible Pokémon.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tm-normal.png"
+  },
   "baby_trigger_for": null
 }

@@ -17,7 +17,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   Moves targeting the holder have 0.9× [chance to hit]{mechanic:chance-to-hit}.",
+      "effect": "Held in battle\n:   Moves targeting the holder have 0.9× chance to hit.",
       "short_effect": "Held: Increases the holder's evasion by 1/9 (11 1/9%).",
       "language": "en"
     }
@@ -200,5 +200,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/bright-powder.png"
+  },
   "baby_trigger_for": null
 }

@@ -17,7 +17,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held\n:   When the holder would earn [happiness]{mechanic:happiness} for any reason, it earns twice that amount instead.",
+      "effect": "Held\n:   When the holder would earn happiness for any reason, it earns twice that amount instead.",
       "short_effect": "Held: Doubles the happiness earned by the holder.",
       "language": "en"
     }
@@ -200,5 +200,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/soothe-bell.png"
+  },
   "baby_trigger_for": null
 }

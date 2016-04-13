@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Evolves a male []{pokemon:kirlia} into []{pokemon:gallade} or a female []{pokemon:snorunt} into []{pokemon:froslass}.",
+      "effect": "Used on a party Pokémon\n:   Evolves a male kirlia into gallade or a female snorunt into froslass.",
       "short_effect": "Evolves a male Kirlia into Gallade or a female Snorunt into Froslass.",
       "language": "en"
     }
@@ -166,5 +166,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/dawn-stone.png"
+  },
   "baby_trigger_for": null
 }

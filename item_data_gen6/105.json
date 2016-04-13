@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:cranidos}.",
+      "effect": "Give to a scientist in the mining museum in oreburgh city or the Museum of Science in pewter city to receive a cranidos.",
       "short_effect": "Can be revived into a Cranidos.",
       "language": "en"
     }
@@ -170,5 +170,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/skull-fossil.png"
+  },
   "baby_trigger_for": null
 }

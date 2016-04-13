@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "May be traded to Mr. Pokémon for an []{item:exp-share}.",
+      "effect": "May be traded to Mr. Pokémon for an exp share.",
       "short_effect": "Trade to Mr. Pokémon for an Exp. Share.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/red-scale.png"
+  },
   "baby_trigger_for": null
 }

@@ -23,7 +23,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon in battle\n:   Increases the target's [critical hit chance]{mechanic:critical-hit-chance} by one stage until it leaves the field.  Increases happiness by 1/1/0.",
+      "effect": "Used on a party Pokémon in battle\n:   Increases the target's critical hit chance by one stage until it leaves the field.  Increases happiness by 1/1/0.",
       "short_effect": "Increases the chance of a critical hit in battle.  Raises happiness.",
       "language": "en"
     }
@@ -206,5 +206,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/dire-hit.png"
+  },
   "baby_trigger_for": null
 }

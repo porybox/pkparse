@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held by []{pokemon:happiny}\n:   Holder evolves into []{pokemon:chansey} when it levels up during the daytime.",
+      "effect": "Held by happiny\n:   Holder evolves into chansey when it levels up during the daytime.",
       "short_effect": "Level-up during Day on a Happiny: Holder evolves into Chansey.",
       "language": "en"
     }
@@ -318,5 +318,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/oval-stone.png"
+  },
   "baby_trigger_for": null
 }

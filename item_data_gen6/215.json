@@ -17,7 +17,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held\n:   When the holder would gain [effort]{mechanic:effort} due to battle, it gains double that effort instead.\n\nHeld in battle\n:   Holder has half its [Speed]{mechanic:speed}.",
+      "effect": "Held\n:   When the holder would gain effort due to battle, it gains double that effort instead.\n\nHeld in battle\n:   Holder has half its Speed.",
       "short_effect": "Held: Holder gains double effort values from battles, but has halved Speed in battle.",
       "language": "en"
     }
@@ -200,5 +200,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/macho-brace.png"
+  },
   "baby_trigger_for": null
 }

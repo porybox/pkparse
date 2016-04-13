@@ -23,7 +23,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon in battle\n:   Cures [attraction]{mechanic:attraction}.",
+      "effect": "Used on a party Pokémon in battle\n:   Cures attraction.",
       "short_effect": "Cures attraction.",
       "language": "en"
     }
@@ -206,5 +206,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/red-flute.png"
+  },
   "baby_trigger_for": null
 }

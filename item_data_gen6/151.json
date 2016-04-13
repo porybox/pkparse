@@ -16,7 +16,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder is [poisoned]{mechanic:poison}, it consumes this item to cure the poison.\n\nUsed on a party Pokémon\n:   Cures [poison]{mechanic:poison}.",
+      "effect": "Held in battle\n:   When the holder is poisoned, it consumes this item to cure the poison.\n\nUsed on a party Pokémon\n:   Cures poison.",
       "short_effect": "Held: Consumed when poisoned to cure poison.",
       "language": "en"
     }
@@ -694,5 +694,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/pecha-berry.png"
+  },
   "baby_trigger_for": null
 }

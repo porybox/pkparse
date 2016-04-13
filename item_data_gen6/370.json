@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Provides access to Navel Rock, []{pokemon:ho-oh}, and []{pokemon:lugia}.",
+      "effect": "Provides access to Navel Rock, ho oh, and lugia.",
       "short_effect": "Allows access to Navel Rock and Lugia or Ho-oh.",
       "language": "en"
     }
@@ -66,5 +66,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/mysticticket.png"
+  },
   "baby_trigger_for": null
 }

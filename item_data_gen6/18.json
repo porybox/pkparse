@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Cures [poison]{mechanic:poison}.",
+      "effect": "Used on a party Pokémon\n:   Cures poison.",
       "short_effect": "Cures poison.",
       "language": "en"
     }
@@ -209,5 +209,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/antidote.png"
+  },
   "baby_trigger_for": null
 }

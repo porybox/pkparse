@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used by a trainer in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon.\n\n    The wild Pokémon's catch rate is 1.5× normal.",
+      "effect": "Used by a trainer in battle\n:   Attempts to catch a wild Pokémon.\n\n    The wild Pokémon's catch rate is 1.5× normal.",
       "short_effect": "Tries to catch a Pokémon in the Bug-Catching contest in National Park. (Gen II: Park Ball)",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/sport-ball.png"
+  },
   "baby_trigger_for": null
 }

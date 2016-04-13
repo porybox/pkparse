@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "May be given to Kurt in []{location:azalea-town} to produce a []{item:heavy-ball}.",
+      "effect": "May be given to Kurt in azalea town to produce a heavy ball.",
       "short_effect": "Used to make a Heavy Ball.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/black-apricorn.png"
+  },
   "baby_trigger_for": null
 }

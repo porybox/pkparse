@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used by trainer in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If the trainer's Pokémon's level is higher than:\n\n    * four times the wild Pokémon's, the wild Pokémon's catch rate is 8× normal.\n    * than twice the wild Pokémon's, the wild Pokémon's catch rate is 4× normal.\n    * the wild Pokémon's, the wild Pokémon's catch rate is 2× normal.",
+      "effect": "Used by trainer in battle\n:   Attempts to catch a wild Pokémon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n    If the trainer's Pokémon's level is higher than:\n\n    * four times the wild Pokémon's, the wild Pokémon's catch rate is 8× normal.\n    * than twice the wild Pokémon's, the wild Pokémon's catch rate is 4× normal.\n    * the wild Pokémon's, the wild Pokémon's catch rate is 2× normal.",
       "short_effect": "Success rate based off of fraction target Pokémon is of user's Pokémon. Made from Red Apricorn.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/level-ball.png"
+  },
   "baby_trigger_for": null
 }

@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held\n:   Holder is immune to []{type:ground}-type moves, []{move:spikes}, []{move:toxic-spikes}, and []{ability:arena-trap}.\n\n    This effect does not apply during []{move:gravity} or []{move:ingrain}.\n\n    When the holder takes damage from a move, this item is consumed.",
+      "effect": "Held\n:   Holder is immune to ground-type moves, spikes, toxic spikes, and arena trap.\n\n    This effect does not apply during gravity or ingrain.\n\n    When the holder takes damage from a move, this item is consumed.",
       "short_effect": "Held: Grants immunity to Ground-type moves, Spikes, and Toxic Spikes. Consumed when the holder takes damage from a move.",
       "language": "en"
     }
@@ -159,5 +159,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/air-balloon.png"
+  },
   "baby_trigger_for": null
 }

@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Wakes up [sleeping]{mechanic:sleep} Pokémon.  Required to wake up sleeping []{pokemon:snorlax} on the overworld.",
+      "effect": "Wakes up sleeping Pokémon.  Required to wake up sleeping snorlax on the overworld.",
       "short_effect": "Use to awaken sleeping Pokémon, including Snorlax on roads.",
       "language": "en"
     }
@@ -132,5 +132,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/poke-flute.png"
+  },
   "baby_trigger_for": null
 }

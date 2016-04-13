@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder takes [physical]{mechanic:physical} damage, it consumes this item to damage the attacking Pokémon for 1/8 its max [HP]{mechanic:hp}.",
+      "effect": "Held in battle\n:   When the holder takes physical damage, it consumes this item to damage the attacking Pokémon for 1/8 its max HP.",
       "short_effect": "Held: Consumed to deal 1/8 attacker's max HP when holder is struck by a physical attack.",
       "language": "en"
     }
@@ -170,5 +170,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/jaboca-berry.png"
+  },
   "baby_trigger_for": null
 }

@@ -10,8 +10,8 @@
   },
   "effect_entries": [
     {
-      "effect": "Give to the []{pokemon:wingull} on []{location:unova-route-13}, along with []{item:gram-1} and []{item:gram-3}, to receive []{item:tm89}.",
-      "short_effect": "Part of a sidequest to obtain []{item:tm89}.",
+      "effect": "Give to the wingull on unova route 13, along with gram 1 and gram 3, to receive tm89.",
+      "short_effect": "Part of a sidequest to obtain tm89.",
       "language": "en"
     }
   ],
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/gram-2.png"
+  },
   "baby_trigger_for": null
 }

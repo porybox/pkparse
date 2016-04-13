@@ -10,8 +10,8 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Increases the target's [Defense]{mechanic:defense} [effort]{mechanic:effort} by 1.",
-      "short_effect": "Increases [Defense]{mechanic:defense} [effort]{mechanic:effort} by 1.",
+      "effect": "Used on a party Pokémon\n:   Increases the target's Defense effort by 1.",
+      "short_effect": "Increases Defense effort by 1.",
       "language": "en"
     }
   ],
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/resist-wing.png"
+  },
   "baby_trigger_for": null
 }

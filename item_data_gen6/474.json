@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "May be given to the Kimono Girls to summon []{pokemon:ho-oh} to the top of the []{location:bell-tower}.",
+      "effect": "May be given to the Kimono Girls to summon ho oh to the top of the bell tower.",
       "short_effect": "HS: Allows Kimono-girls to summon Ho-oh. C: Summons Suicune to the Tin Tower.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/clear-bell.png"
+  },
   "baby_trigger_for": null
 }

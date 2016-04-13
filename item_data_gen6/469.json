@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Lists which []{pokemon:unown} forms the trainer has caught.",
+      "effect": "Lists which unown forms the trainer has caught.",
       "short_effect": "Keeps track of Unown types caught.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/unown-report.png"
+  },
   "baby_trigger_for": null
 }

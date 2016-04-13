@@ -10,8 +10,8 @@
   },
   "effect_entries": [
     {
-      "effect": "Give to a scientist in a museum to receive a []{pokemon:archen}.",
-      "short_effect": "Can be revived into a []{pokemon:archen}.",
+      "effect": "Give to a scientist in a museum to receive a archen.",
+      "short_effect": "Can be revived into a archen.",
       "language": "en"
     }
   ],
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/plume-fossil.png"
+  },
   "baby_trigger_for": null
 }

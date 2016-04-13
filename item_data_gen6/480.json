@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Allows the trainer to ride the Magnet Train between []{location:goldenrod-city} and []{location:saffron-city}.",
+      "effect": "Allows the trainer to ride the Magnet Train between goldenrod city and saffron city.",
       "short_effect": "Grants access to ride the Magnet Train between Goldenrod City and Saffron City.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/pass.png"
+  },
   "baby_trigger_for": null
 }

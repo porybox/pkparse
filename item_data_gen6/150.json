@@ -16,7 +16,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder is [asleep]{mechanic:sleep}, it consumes this item to wake up.\n\nUsed on a party Pokémon\n:   Cures [sleep]{mechanic:sleep}.",
+      "effect": "Held in battle\n:   When the holder is asleep, it consumes this item to wake up.\n\nUsed on a party Pokémon\n:   Cures sleep.",
       "short_effect": "Held: Consumed when asleep to cure sleep.",
       "language": "en"
     }
@@ -645,5 +645,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/chesto-berry.png"
+  },
   "baby_trigger_for": null
 }

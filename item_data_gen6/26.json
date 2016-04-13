@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Restores 50 [HP]{mechanic:hp}.",
+      "effect": "Used on a party Pokémon\n:   Restores 50 HP.",
       "short_effect": "Restores 50 HP.",
       "language": "en"
     }
@@ -209,5 +209,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/super-potion.png"
+  },
   "baby_trigger_for": null
 }

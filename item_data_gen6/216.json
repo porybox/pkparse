@@ -17,7 +17,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held\n:   [Experience]{mechanic:experience} is split across two groups: Pokémon who participated in battle, and Pokémon holding this item.  Each Pokémon earns experience as though it had battled alone, divided by the number of Pokémon in its group, then divided by the number of groups. Pokémon holding this item who also participated in battle effectively earn experience twice.\n\n    [Fainted]{mechanic:fainted} Pokémon never earn experience, and empty groups are\nignored; thus, if a single Pokémon is holding this item and the only Pokémon who battled faints from []{move:explosion}, the holder will gain full experience.",
+      "effect": "Held\n:   Experience is split across two groups: Pokémon who participated in battle, and Pokémon holding this item.  Each Pokémon earns experience as though it had battled alone, divided by the number of Pokémon in its group, then divided by the number of groups. Pokémon holding this item who also participated in battle effectively earn experience twice.\n\n    Fainted Pokémon never earn experience, and empty groups are\nignored; thus, if a single Pokémon is holding this item and the only Pokémon who battled faints from explosion, the holder will gain full experience.",
       "short_effect": "Held: Half the experience from a battle is split between Pokémon holding this item.",
       "language": "en"
     }
@@ -200,5 +200,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/exp-share.png"
+  },
   "baby_trigger_for": null
 }

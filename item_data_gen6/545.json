@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held\n:   When the holder takes []{type:water}-type damage from a move, its [Special Attack]{mechanic:special-attack} rises by one [stage]{mechanic:stage} and this item is consumed.",
+      "effect": "Held\n:   When the holder takes water-type damage from a move, its Special Attack rises by one stage and this item is consumed.",
       "short_effect": "Held: Raises the holder's Special Attack by one stage when it takes Water-type damage.",
       "language": "en"
     }
@@ -178,5 +178,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/absorb-bulb.png"
+  },
   "baby_trigger_for": null
 }

@@ -17,7 +17,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   Holder's []{type:bug}-type moves have 1.2× their power.\n",
+      "effect": "Held in battle\n:   Holder's bug-type moves have 1.2× their power.\n",
       "short_effect": "Held: Bug-Type moves from holder do 20% more damage.",
       "language": "en"
     }
@@ -835,5 +835,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/silver-powder.png"
+  },
   "baby_trigger_for": null
 }

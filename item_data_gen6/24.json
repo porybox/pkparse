@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Restores [HP]{mechanic:hp} to full.",
+      "effect": "Used on a party Pokémon\n:   Restores HP to full.",
       "short_effect": "Restores HP to full.",
       "language": "en"
     }
@@ -209,5 +209,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/max-potion.png"
+  },
   "baby_trigger_for": null
 }

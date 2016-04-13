@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used by a trainer in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n:   If the wild Pokémon's base [speed]{mechanic:speed} is 100 or more, its catch rate is 4× normal.",
+      "effect": "Used by a trainer in battle\n:   Attempts to catch a wild Pokémon.  If used in a trainer battle, nothing happens and the ball is lost.\n\n:   If the wild Pokémon's base speed is 100 or more, its catch rate is 4× normal.",
       "short_effect": "4× effectiveness on Pokémon with 100 or greater base speed. (Gen II: Roaming or Fleeing Pokémon). Made from Wht Apricorn.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/fast-ball.png"
+  },
   "baby_trigger_for": null
 }

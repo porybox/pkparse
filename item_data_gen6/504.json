@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "May be traded for a []{item:tm64} in the vertical Underground Path.",
+      "effect": "May be traded for a tm64 in the vertical Underground Path.",
       "short_effect": "HS: Traded for TM64. Gen II & Gen V: Acts as a Potion.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/rage-candy-bar.png"
+  },
   "baby_trigger_for": null
 }

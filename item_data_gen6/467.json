@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used by trainer in the Galactic Eterna Building, on the ground floor, to the left of the TV\n:   Unlocks the secret []{pokemon:rotom} room, in which there are five appliances which can change Rotom's form.",
+      "effect": "Used by trainer in the Galactic Eterna Building, on the ground floor, to the left of the TV\n:   Unlocks the secret rotom room, in which there are five appliances which can change Rotom's form.",
       "short_effect": "Gen IV: The key to Rotom's appliance room. Gen III: The key to Cinnabar Gym.",
       "language": "en"
     }
@@ -179,5 +179,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/secret-key.png"
+  },
   "baby_trigger_for": null
 }

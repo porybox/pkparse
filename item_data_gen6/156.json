@@ -16,7 +16,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Held in battle\n:   When the holder is [confused]{mechanic:confusion}, it consumes this item to cure the confusion.\n\nUsed on a party Pokémon\n:   Cures [confusion]{mechanic:confusion}.",
+      "effect": "Held in battle\n:   When the holder is confused, it consumes this item to cure the confusion.\n\nUsed on a party Pokémon\n:   Cures confusion.",
       "short_effect": "Held: Consumed when confused to cure confusion.",
       "language": "en"
     }
@@ -610,5 +610,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/persim-berry.png"
+  },
   "baby_trigger_for": null
 }

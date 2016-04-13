@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "No effect.\n\nIn Diamond and Pearl, trade ten for a []{move:sandstorm} [TM]{item:tm37} in the house midway along the southern section of []{location:sinnoh-route-212}.\n\nIn Platinum, trade to [move tutors]{mechanic:move-tutor} on []{location:sinnoh-route-212}, in []{location:snowpoint-city}, and in the []{location:survival-area}.  Eight shards total are required per tutelage, but the particular combination of colors varies by move.\n\nIn HeartGold and SoulSilver, trade one for an []{item:aspear-berry}, a []{item:iapapa-berry}, and a []{item:sitrus-berry} with the Juggler near the Pokémon Center in []{location:violet-city}.\n\nIn HeartGold and SoulSilver, trade one for a []{item:grepa-berry}, a []{item:nomel-berry}, and a []{item:pinap-berry} with the Juggler near the []{location:pal-park} entrance in []{location:fuchsia-city}.",
+      "effect": "No effect.\n\nIn Diamond and Pearl, trade ten for a sandstorm TM in the house midway along the southern section of sinnoh route 212.\n\nIn Platinum, trade to move tutors on sinnoh route 212, in snowpoint city, and in the survival area.  Eight shards total are required per tutelage, but the particular combination of colors varies by move.\n\nIn HeartGold and SoulSilver, trade one for an aspear berry, a iapapa berry, and a sitrus berry with the Juggler near the Pokémon Center in violet city.\n\nIn HeartGold and SoulSilver, trade one for a grepa berry, a nomel berry, and a pinap berry with the Juggler near the pal park entrance in fuchsia city.",
       "short_effect": "No effect. Can be traded for items or moves.",
       "language": "en"
     }
@@ -272,5 +272,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/yellow-shard.png"
+  },
   "baby_trigger_for": null
 }

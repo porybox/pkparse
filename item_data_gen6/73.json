@@ -14,7 +14,7 @@
   },
   "effect_entries": [
     {
-      "effect": "No effect.\n\nIn Diamond and Pearl, trade ten for a []{move:rain-dance} [TM]{item:tm18} in the house midway along the southern section of []{location:sinnoh-route-212}.\n\nIn Platinum, trade to [move tutors]{mechanic:move-tutor} on []{location:sinnoh-route-212}, in []{location:snowpoint-city}, and in the []{location:survival-area}.  Eight shards total are required per tutelage, but the particular combination of colors varies by move.\n\nIn HeartGold and SoulSilver, trade one for a []{item:chesto-berry}, an []{item:oran-berry}, and a []{item:wiki-berry} with the Juggler near the Pokémon Center in []{location:violet-city}.\n\nIn HeartGold and SoulSilver, trade one for a []{item:bluk-berry}, a []{item:cornn-berry}, and a []{item:kelpsy-berry} with the Juggler near the []{location:pal-park} entrance in []{location:fuchsia-city}.",
+      "effect": "No effect.\n\nIn Diamond and Pearl, trade ten for a rain dance TM in the house midway along the southern section of sinnoh route 212.\n\nIn Platinum, trade to move tutors on sinnoh route 212, in snowpoint city, and in the survival area.  Eight shards total are required per tutelage, but the particular combination of colors varies by move.\n\nIn HeartGold and SoulSilver, trade one for a chesto berry, an oran berry, and a wiki berry with the Juggler near the Pokémon Center in violet city.\n\nIn HeartGold and SoulSilver, trade one for a bluk berry, a cornn berry, and a kelpsy berry with the Juggler near the pal park entrance in fuchsia city.",
       "short_effect": "No effect. Can be traded for items or moves.",
       "language": "en"
     }
@@ -235,5 +235,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/blue-shard.png"
+  },
   "baby_trigger_for": null
 }

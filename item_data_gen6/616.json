@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Summons []{pokemon:reshiram} for the final battle against N.",
+      "effect": "Summons reshiram for the final battle against N.",
       "short_effect": "Summons Reshiram for the final battle against N.",
       "language": "en"
     }
@@ -139,5 +139,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/light-stone.png"
+  },
   "baby_trigger_for": null
 }

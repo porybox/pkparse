@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Causes []{pokemon:kyogre} to appear in the []{location:embedded-tower}.",
+      "effect": "Causes kyogre to appear in the embedded tower.",
       "short_effect": "Summons Kyogre to the Embedded Tower.",
       "language": "en"
     }
@@ -179,5 +179,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/blue-orb.png"
+  },
   "baby_trigger_for": null
 }

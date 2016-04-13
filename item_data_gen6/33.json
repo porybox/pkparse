@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Restores 100 [HP]{mechanic:hp}.",
+      "effect": "Used on a party Pokémon\n:   Restores 100 HP.",
       "short_effect": "Restores 100 HP.",
       "language": "en"
     }
@@ -313,5 +313,8 @@
       ]
     }
   ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/moomoo-milk.png"
+  },
   "baby_trigger_for": null
 }

@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Identifies ghosts in []{location:pokemon-tower}.",
+      "effect": "Identifies ghosts in pokemon tower.",
       "short_effect": "Used to identify the true forms of ghosts in Pokémon Tower.",
       "language": "en"
     }
@@ -66,5 +66,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/silph-scope.png"
+  },
   "baby_trigger_for": null
 }

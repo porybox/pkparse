@@ -26,7 +26,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Used on a party Pokémon\n:   Restores 50 [HP]{mechanic:hp}.  Decreases [happiness]{mechanic:happiness} by 5/5/10.",
+      "effect": "Used on a party Pokémon\n:   Restores 50 HP.  Decreases happiness by 5/5/10.",
       "short_effect": "Restores 50 HP, but lowers happiness.",
       "language": "en"
     }
@@ -209,5 +209,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/energy-powder.png"
+  },
   "baby_trigger_for": null
 }

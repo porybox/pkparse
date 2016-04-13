@@ -10,7 +10,7 @@
   },
   "effect_entries": [
     {
-      "effect": "Required to water berries within the []{item:berry-pots}.\n\nRequired to battle the []{pokemon:sudowoodo} on []{location:johto-route-36}.\n\nThis item cannot be directly used from the bag.",
+      "effect": "Required to water berries within the berry pots.\n\nRequired to battle the sudowoodo on johto route 36.\n\nThis item cannot be directly used from the bag.",
       "short_effect": "Use on Sudowoodo blocking the path on Route 36. Also waters berries.",
       "language": "en"
     }
@@ -152,5 +152,8 @@
     }
   ],
   "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/squirt-bottle.png"
+  },
   "baby_trigger_for": null
 }
