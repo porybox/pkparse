@@ -1,0 +1,83 @@
+{
+  "id": 14,
+  "name": "careful",
+  "decreased_stat": {
+    "name": "special-attack"
+  },
+  "increased_stat": {
+    "name": "special-defense"
+  },
+  "likes_flavor": {
+    "name": "bitter"
+  },
+  "hates_flavor": {
+    "name": "dry"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "power"
+      }
+    },
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "jump"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 42,
+      "high_hp_preference": 42,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 5,
+      "high_hp_preference": 50,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 53,
+      "high_hp_preference": 8,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "しんちょう",
+      "language": "ja"
+    },
+    {
+      "name": "신중",
+      "language": "ko"
+    },
+    {
+      "name": "Prudent",
+      "language": "fr"
+    },
+    {
+      "name": "Sacht",
+      "language": "de"
+    },
+    {
+      "name": "Cauto",
+      "language": "es"
+    },
+    {
+      "name": "Cauta",
+      "language": "it"
+    },
+    {
+      "name": "Careful",
+      "language": "en"
+    }
+  ]
+}

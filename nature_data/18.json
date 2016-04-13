@@ -1,0 +1,83 @@
+{
+  "id": 18,
+  "name": "lax",
+  "decreased_stat": {
+    "name": "special-defense"
+  },
+  "increased_stat": {
+    "name": "defense"
+  },
+  "likes_flavor": {
+    "name": "sour"
+  },
+  "hates_flavor": {
+    "name": "bitter"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "skill"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 29,
+      "high_hp_preference": 35,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 6,
+      "high_hp_preference": 10,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 65,
+      "high_hp_preference": 55,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "のうてんき",
+      "language": "ja"
+    },
+    {
+      "name": "촐랑",
+      "language": "ko"
+    },
+    {
+      "name": "Lâche",
+      "language": "fr"
+    },
+    {
+      "name": "Lasch",
+      "language": "de"
+    },
+    {
+      "name": "Flojo",
+      "language": "es"
+    },
+    {
+      "name": "Fiacca",
+      "language": "it"
+    },
+    {
+      "name": "Lax",
+      "language": "en"
+    }
+  ]
+}

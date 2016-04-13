@@ -1,0 +1,83 @@
+{
+  "id": 10,
+  "name": "hasty",
+  "decreased_stat": {
+    "name": "defense"
+  },
+  "increased_stat": {
+    "name": "speed"
+  },
+  "likes_flavor": {
+    "name": "sweet"
+  },
+  "hates_flavor": {
+    "name": "sour"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "skill"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 88,
+      "high_hp_preference": 58,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 6,
+      "high_hp_preference": 37,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 6,
+      "high_hp_preference": 5,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "せっかち",
+      "language": "ja"
+    },
+    {
+      "name": "성급",
+      "language": "ko"
+    },
+    {
+      "name": "Pressé",
+      "language": "fr"
+    },
+    {
+      "name": "Hastig",
+      "language": "de"
+    },
+    {
+      "name": "Activo",
+      "language": "es"
+    },
+    {
+      "name": "Lesta",
+      "language": "it"
+    },
+    {
+      "name": "Hasty",
+      "language": "en"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 9,
+  "name": "gentle",
+  "decreased_stat": {
+    "name": "defense"
+  },
+  "increased_stat": {
+    "name": "special-defense"
+  },
+  "likes_flavor": {
+    "name": "bitter"
+  },
+  "hates_flavor": {
+    "name": "sour"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "skill"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 90,
+      "high_hp_preference": 18,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 5,
+      "high_hp_preference": 70,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 5,
+      "high_hp_preference": 12,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "おとなしい",
+      "language": "ja"
+    },
+    {
+      "name": "얌전",
+      "language": "ko"
+    },
+    {
+      "name": "Gentil",
+      "language": "fr"
+    },
+    {
+      "name": "Zart",
+      "language": "de"
+    },
+    {
+      "name": "Amable",
+      "language": "es"
+    },
+    {
+      "name": "Gentile",
+      "language": "it"
+    },
+    {
+      "name": "Gentle",
+      "language": "en"
+    }
+  ]
+}

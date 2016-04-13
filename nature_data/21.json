@@ -1,0 +1,83 @@
+{
+  "id": 21,
+  "name": "brave",
+  "decreased_stat": {
+    "name": "speed"
+  },
+  "increased_stat": {
+    "name": "attack"
+  },
+  "likes_flavor": {
+    "name": "spicy"
+  },
+  "hates_flavor": {
+    "name": "sweet"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "power"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 32,
+      "high_hp_preference": 70,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 60,
+      "high_hp_preference": 15,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 8,
+      "high_hp_preference": 15,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "ゆうかん",
+      "language": "ja"
+    },
+    {
+      "name": "용감",
+      "language": "ko"
+    },
+    {
+      "name": "Brave",
+      "language": "fr"
+    },
+    {
+      "name": "Mutig",
+      "language": "de"
+    },
+    {
+      "name": "Audaz",
+      "language": "es"
+    },
+    {
+      "name": "Audace",
+      "language": "it"
+    },
+    {
+      "name": "Brave",
+      "language": "en"
+    }
+  ]
+}

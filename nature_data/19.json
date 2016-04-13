@@ -1,0 +1,75 @@
+{
+  "id": 19,
+  "name": "quirky",
+  "decreased_stat": null,
+  "increased_stat": null,
+  "likes_flavor": null,
+  "hates_flavor": null,
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 1,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": -1,
+      "pokeathlon_stat": {
+        "name": "skill"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 56,
+      "high_hp_preference": 56,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "きまぐれ",
+      "language": "ja"
+    },
+    {
+      "name": "변덕",
+      "language": "ko"
+    },
+    {
+      "name": "Bizarre",
+      "language": "fr"
+    },
+    {
+      "name": "Kauzig",
+      "language": "de"
+    },
+    {
+      "name": "Raro",
+      "language": "es"
+    },
+    {
+      "name": "Furba",
+      "language": "it"
+    },
+    {
+      "name": "Quirky",
+      "language": "en"
+    }
+  ]
+}

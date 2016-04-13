@@ -1,0 +1,83 @@
+{
+  "id": 6,
+  "name": "lonely",
+  "decreased_stat": {
+    "name": "defense"
+  },
+  "increased_stat": {
+    "name": "attack"
+  },
+  "likes_flavor": {
+    "name": "spicy"
+  },
+  "hates_flavor": {
+    "name": "sour"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "skill"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 84,
+      "high_hp_preference": 20,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 8,
+      "high_hp_preference": 25,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 8,
+      "high_hp_preference": 55,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "さみしがり",
+      "language": "ja"
+    },
+    {
+      "name": "외로움",
+      "language": "ko"
+    },
+    {
+      "name": "Solo",
+      "language": "fr"
+    },
+    {
+      "name": "Solo",
+      "language": "de"
+    },
+    {
+      "name": "Huraño",
+      "language": "es"
+    },
+    {
+      "name": "Schiva",
+      "language": "it"
+    },
+    {
+      "name": "Lonely",
+      "language": "en"
+    }
+  ]
+}

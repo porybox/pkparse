@@ -1,0 +1,75 @@
+{
+  "id": 7,
+  "name": "docile",
+  "decreased_stat": null,
+  "increased_stat": null,
+  "likes_flavor": null,
+  "hates_flavor": null,
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 1,
+      "pokeathlon_stat": {
+        "name": "skill"
+      }
+    },
+    {
+      "max_change": -1,
+      "pokeathlon_stat": {
+        "name": "jump"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 56,
+      "high_hp_preference": 56,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "すなお",
+      "language": "ja"
+    },
+    {
+      "name": "온순",
+      "language": "ko"
+    },
+    {
+      "name": "Docile",
+      "language": "fr"
+    },
+    {
+      "name": "Sanft",
+      "language": "de"
+    },
+    {
+      "name": "Dócil",
+      "language": "es"
+    },
+    {
+      "name": "Docile",
+      "language": "it"
+    },
+    {
+      "name": "Docile",
+      "language": "en"
+    }
+  ]
+}

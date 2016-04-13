@@ -1,0 +1,75 @@
+{
+  "id": 25,
+  "name": "serious",
+  "decreased_stat": null,
+  "increased_stat": null,
+  "likes_flavor": null,
+  "hates_flavor": null,
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 1,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": -1,
+      "pokeathlon_stat": {
+        "name": "power"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 29,
+      "high_hp_preference": 34,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 11,
+      "high_hp_preference": 11,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 60,
+      "high_hp_preference": 55,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "まじめ",
+      "language": "ja"
+    },
+    {
+      "name": "성실",
+      "language": "ko"
+    },
+    {
+      "name": "Sérieux",
+      "language": "fr"
+    },
+    {
+      "name": "Ernst",
+      "language": "de"
+    },
+    {
+      "name": "Serio",
+      "language": "es"
+    },
+    {
+      "name": "Seria",
+      "language": "it"
+    },
+    {
+      "name": "Serious",
+      "language": "en"
+    }
+  ]
+}

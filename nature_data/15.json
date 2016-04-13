@@ -1,0 +1,83 @@
+{
+  "id": 15,
+  "name": "rash",
+  "decreased_stat": {
+    "name": "special-defense"
+  },
+  "increased_stat": {
+    "name": "special-attack"
+  },
+  "likes_flavor": {
+    "name": "dry"
+  },
+  "hates_flavor": {
+    "name": "bitter"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "power"
+      }
+    },
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "jump"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 27,
+      "high_hp_preference": 30,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 6,
+      "high_hp_preference": 13,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 67,
+      "high_hp_preference": 57,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "うっかりや",
+      "language": "ja"
+    },
+    {
+      "name": "덜렁",
+      "language": "ko"
+    },
+    {
+      "name": "Foufou",
+      "language": "fr"
+    },
+    {
+      "name": "Hitzig",
+      "language": "de"
+    },
+    {
+      "name": "Alocado",
+      "language": "es"
+    },
+    {
+      "name": "Ardente",
+      "language": "it"
+    },
+    {
+      "name": "Rash",
+      "language": "en"
+    }
+  ]
+}

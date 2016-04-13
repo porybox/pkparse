@@ -1,0 +1,83 @@
+{
+  "id": 12,
+  "name": "impish",
+  "decreased_stat": {
+    "name": "special-attack"
+  },
+  "increased_stat": {
+    "name": "defense"
+  },
+  "likes_flavor": {
+    "name": "sour"
+  },
+  "hates_flavor": {
+    "name": "dry"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "skill"
+      }
+    },
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "jump"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 28,
+      "high_hp_preference": 69,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 55,
+      "high_hp_preference": 6,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 17,
+      "high_hp_preference": 25,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "わんぱく",
+      "language": "ja"
+    },
+    {
+      "name": "장난꾸러기",
+      "language": "ko"
+    },
+    {
+      "name": "Malin",
+      "language": "fr"
+    },
+    {
+      "name": "Pfiffig",
+      "language": "de"
+    },
+    {
+      "name": "Agitado",
+      "language": "es"
+    },
+    {
+      "name": "Scaltra",
+      "language": "it"
+    },
+    {
+      "name": "Impish",
+      "language": "en"
+    }
+  ]
+}

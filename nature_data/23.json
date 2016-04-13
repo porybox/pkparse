@@ -1,0 +1,83 @@
+{
+  "id": 23,
+  "name": "quiet",
+  "decreased_stat": {
+    "name": "speed"
+  },
+  "increased_stat": {
+    "name": "special-attack"
+  },
+  "likes_flavor": {
+    "name": "dry"
+  },
+  "hates_flavor": {
+    "name": "sweet"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "jump"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 56,
+      "high_hp_preference": 56,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "れいせい",
+      "language": "ja"
+    },
+    {
+      "name": "냉정",
+      "language": "ko"
+    },
+    {
+      "name": "Discret",
+      "language": "fr"
+    },
+    {
+      "name": "Ruhig",
+      "language": "de"
+    },
+    {
+      "name": "Manso",
+      "language": "es"
+    },
+    {
+      "name": "Quieta",
+      "language": "it"
+    },
+    {
+      "name": "Quiet",
+      "language": "en"
+    }
+  ]
+}

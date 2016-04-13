@@ -1,0 +1,83 @@
+{
+  "id": 17,
+  "name": "naughty",
+  "decreased_stat": {
+    "name": "special-defense"
+  },
+  "increased_stat": {
+    "name": "attack"
+  },
+  "likes_flavor": {
+    "name": "spicy"
+  },
+  "hates_flavor": {
+    "name": "bitter"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "power"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 70,
+      "high_hp_preference": 20,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 22,
+      "high_hp_preference": 70,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 8,
+      "high_hp_preference": 10,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "やんちゃ",
+      "language": "ja"
+    },
+    {
+      "name": "개구쟁이",
+      "language": "ko"
+    },
+    {
+      "name": "Mauvais",
+      "language": "fr"
+    },
+    {
+      "name": "Frech",
+      "language": "de"
+    },
+    {
+      "name": "Pícaro",
+      "language": "es"
+    },
+    {
+      "name": "Birbona",
+      "language": "it"
+    },
+    {
+      "name": "Naughty",
+      "language": "en"
+    }
+  ]
+}

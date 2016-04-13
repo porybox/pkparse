@@ -1,0 +1,83 @@
+{
+  "id": 20,
+  "name": "naive",
+  "decreased_stat": {
+    "name": "special-defense"
+  },
+  "increased_stat": {
+    "name": "speed"
+  },
+  "likes_flavor": {
+    "name": "sweet"
+  },
+  "hates_flavor": {
+    "name": "bitter"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "power"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 56,
+      "high_hp_preference": 56,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "むじゃき",
+      "language": "ja"
+    },
+    {
+      "name": "천진난만",
+      "language": "ko"
+    },
+    {
+      "name": "Naïf",
+      "language": "fr"
+    },
+    {
+      "name": "Naiv",
+      "language": "de"
+    },
+    {
+      "name": "Ingenuo",
+      "language": "es"
+    },
+    {
+      "name": "Ingenua",
+      "language": "it"
+    },
+    {
+      "name": "Naive",
+      "language": "en"
+    }
+  ]
+}

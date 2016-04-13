@@ -1,0 +1,83 @@
+{
+  "id": 3,
+  "name": "modest",
+  "decreased_stat": {
+    "name": "attack"
+  },
+  "increased_stat": {
+    "name": "special-attack"
+  },
+  "likes_flavor": {
+    "name": "dry"
+  },
+  "hates_flavor": {
+    "name": "spicy"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "jump"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 34,
+      "high_hp_preference": 35,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 60,
+      "high_hp_preference": 45,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 6,
+      "high_hp_preference": 20,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "ひかえめ",
+      "language": "ja"
+    },
+    {
+      "name": "조심",
+      "language": "ko"
+    },
+    {
+      "name": "Modeste",
+      "language": "fr"
+    },
+    {
+      "name": "Mäßig",
+      "language": "de"
+    },
+    {
+      "name": "Modesto",
+      "language": "es"
+    },
+    {
+      "name": "Modesta",
+      "language": "it"
+    },
+    {
+      "name": "Modest",
+      "language": "en"
+    }
+  ]
+}

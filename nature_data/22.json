@@ -1,0 +1,83 @@
+{
+  "id": 22,
+  "name": "relaxed",
+  "decreased_stat": {
+    "name": "speed"
+  },
+  "increased_stat": {
+    "name": "defense"
+  },
+  "likes_flavor": {
+    "name": "sour"
+  },
+  "hates_flavor": {
+    "name": "sweet"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "skill"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 75,
+      "high_hp_preference": 25,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 15,
+      "high_hp_preference": 15,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 10,
+      "high_hp_preference": 60,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "のんき",
+      "language": "ja"
+    },
+    {
+      "name": "무사태평",
+      "language": "ko"
+    },
+    {
+      "name": "Relax",
+      "language": "fr"
+    },
+    {
+      "name": "Locker",
+      "language": "de"
+    },
+    {
+      "name": "Plácido",
+      "language": "es"
+    },
+    {
+      "name": "Placida",
+      "language": "it"
+    },
+    {
+      "name": "Relaxed",
+      "language": "en"
+    }
+  ]
+}

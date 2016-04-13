@@ -1,0 +1,83 @@
+{
+  "id": 24,
+  "name": "sassy",
+  "decreased_stat": {
+    "name": "speed"
+  },
+  "increased_stat": {
+    "name": "special-defense"
+  },
+  "likes_flavor": {
+    "name": "bitter"
+  },
+  "hates_flavor": {
+    "name": "sweet"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "power"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 22,
+      "high_hp_preference": 88,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 20,
+      "high_hp_preference": 6,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 58,
+      "high_hp_preference": 6,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "なまいき",
+      "language": "ja"
+    },
+    {
+      "name": "건방",
+      "language": "ko"
+    },
+    {
+      "name": "Malpoli",
+      "language": "fr"
+    },
+    {
+      "name": "Forsch",
+      "language": "de"
+    },
+    {
+      "name": "Grosero",
+      "language": "es"
+    },
+    {
+      "name": "Vivace",
+      "language": "it"
+    },
+    {
+      "name": "Sassy",
+      "language": "en"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": 16,
+  "name": "jolly",
+  "decreased_stat": {
+    "name": "special-attack"
+  },
+  "increased_stat": {
+    "name": "speed"
+  },
+  "likes_flavor": {
+    "name": "sweet"
+  },
+  "hates_flavor": {
+    "name": "dry"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "jump"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 35,
+      "high_hp_preference": 35,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 60,
+      "high_hp_preference": 5,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 5,
+      "high_hp_preference": 60,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "ようき",
+      "language": "ja"
+    },
+    {
+      "name": "명랑",
+      "language": "ko"
+    },
+    {
+      "name": "Jovial",
+      "language": "fr"
+    },
+    {
+      "name": "Froh",
+      "language": "de"
+    },
+    {
+      "name": "Alegre",
+      "language": "es"
+    },
+    {
+      "name": "Allegra",
+      "language": "it"
+    },
+    {
+      "name": "Jolly",
+      "language": "en"
+    }
+  ]
+}

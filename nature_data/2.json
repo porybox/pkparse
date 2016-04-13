@@ -1,0 +1,83 @@
+{
+  "id": 2,
+  "name": "bold",
+  "decreased_stat": {
+    "name": "attack"
+  },
+  "increased_stat": {
+    "name": "defense"
+  },
+  "likes_flavor": {
+    "name": "sour"
+  },
+  "hates_flavor": {
+    "name": "spicy"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "skill"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 32,
+      "high_hp_preference": 30,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 58,
+      "high_hp_preference": 20,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 10,
+      "high_hp_preference": 50,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "ずぶとい",
+      "language": "ja"
+    },
+    {
+      "name": "대담",
+      "language": "ko"
+    },
+    {
+      "name": "Assuré",
+      "language": "fr"
+    },
+    {
+      "name": "Kühn",
+      "language": "de"
+    },
+    {
+      "name": "Osado",
+      "language": "es"
+    },
+    {
+      "name": "Sicura",
+      "language": "it"
+    },
+    {
+      "name": "Bold",
+      "language": "en"
+    }
+  ]
+}

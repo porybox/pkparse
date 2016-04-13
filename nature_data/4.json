@@ -1,0 +1,83 @@
+{
+  "id": 4,
+  "name": "calm",
+  "decreased_stat": {
+    "name": "attack"
+  },
+  "increased_stat": {
+    "name": "special-defense"
+  },
+  "likes_flavor": {
+    "name": "bitter"
+  },
+  "hates_flavor": {
+    "name": "spicy"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "power"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 25,
+      "high_hp_preference": 40,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 62,
+      "high_hp_preference": 50,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 13,
+      "high_hp_preference": 10,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "おだやか",
+      "language": "ja"
+    },
+    {
+      "name": "차분",
+      "language": "ko"
+    },
+    {
+      "name": "Calme",
+      "language": "fr"
+    },
+    {
+      "name": "Still",
+      "language": "de"
+    },
+    {
+      "name": "Sereno",
+      "language": "es"
+    },
+    {
+      "name": "Calma",
+      "language": "it"
+    },
+    {
+      "name": "Calm",
+      "language": "en"
+    }
+  ]
+}

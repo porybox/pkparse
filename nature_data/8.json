@@ -1,0 +1,83 @@
+{
+  "id": 8,
+  "name": "mild",
+  "decreased_stat": {
+    "name": "defense"
+  },
+  "increased_stat": {
+    "name": "special-attack"
+  },
+  "likes_flavor": {
+    "name": "dry"
+  },
+  "hates_flavor": {
+    "name": "sour"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "skill"
+      }
+    },
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "jump"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 34,
+      "high_hp_preference": 44,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 6,
+      "high_hp_preference": 50,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 60,
+      "high_hp_preference": 6,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "おっとり",
+      "language": "ja"
+    },
+    {
+      "name": "의젓",
+      "language": "ko"
+    },
+    {
+      "name": "Doux",
+      "language": "fr"
+    },
+    {
+      "name": "Mild",
+      "language": "de"
+    },
+    {
+      "name": "Afable",
+      "language": "es"
+    },
+    {
+      "name": "Mite",
+      "language": "it"
+    },
+    {
+      "name": "Mild",
+      "language": "en"
+    }
+  ]
+}

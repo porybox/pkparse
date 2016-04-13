@@ -1,0 +1,83 @@
+{
+  "id": 11,
+  "name": "adamant",
+  "decreased_stat": {
+    "name": "special-attack"
+  },
+  "increased_stat": {
+    "name": "attack"
+  },
+  "likes_flavor": {
+    "name": "spicy"
+  },
+  "hates_flavor": {
+    "name": "dry"
+  },
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": 2,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": -2,
+      "pokeathlon_stat": {
+        "name": "jump"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 70,
+      "high_hp_preference": 38,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 15,
+      "high_hp_preference": 31,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 15,
+      "high_hp_preference": 31,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "いじっぱり",
+      "language": "ja"
+    },
+    {
+      "name": "고집",
+      "language": "ko"
+    },
+    {
+      "name": "Rigide",
+      "language": "fr"
+    },
+    {
+      "name": "Hart",
+      "language": "de"
+    },
+    {
+      "name": "Firme",
+      "language": "es"
+    },
+    {
+      "name": "Decisa",
+      "language": "it"
+    },
+    {
+      "name": "Adamant",
+      "language": "en"
+    }
+  ]
+}

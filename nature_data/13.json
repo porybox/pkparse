@@ -1,0 +1,75 @@
+{
+  "id": 13,
+  "name": "bashful",
+  "decreased_stat": null,
+  "increased_stat": null,
+  "likes_flavor": null,
+  "hates_flavor": null,
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -1,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": 1,
+      "pokeathlon_stat": {
+        "name": "jump"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 30,
+      "high_hp_preference": 30,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 58,
+      "high_hp_preference": 58,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 12,
+      "high_hp_preference": 12,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "てれや",
+      "language": "ja"
+    },
+    {
+      "name": "수줍음",
+      "language": "ko"
+    },
+    {
+      "name": "Pudique",
+      "language": "fr"
+    },
+    {
+      "name": "Zaghaft",
+      "language": "de"
+    },
+    {
+      "name": "Tímido",
+      "language": "es"
+    },
+    {
+      "name": "Ritrosa",
+      "language": "it"
+    },
+    {
+      "name": "Bashful",
+      "language": "en"
+    }
+  ]
+}

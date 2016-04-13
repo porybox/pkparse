@@ -1,0 +1,75 @@
+{
+  "id": 1,
+  "name": "hardy",
+  "decreased_stat": null,
+  "increased_stat": null,
+  "likes_flavor": null,
+  "hates_flavor": null,
+  "pokeathlon_stat_changes": [
+    {
+      "max_change": -1,
+      "pokeathlon_stat": {
+        "name": "speed"
+      }
+    },
+    {
+      "max_change": 1,
+      "pokeathlon_stat": {
+        "name": "power"
+      }
+    }
+  ],
+  "move_battle_style_preferences": [
+    {
+      "low_hp_preference": 61,
+      "high_hp_preference": 61,
+      "move_battle_style": {
+        "name": "attack"
+      }
+    },
+    {
+      "low_hp_preference": 7,
+      "high_hp_preference": 7,
+      "move_battle_style": {
+        "name": "defense"
+      }
+    },
+    {
+      "low_hp_preference": 32,
+      "high_hp_preference": 32,
+      "move_battle_style": {
+        "name": "support"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "がんばりや",
+      "language": "ja"
+    },
+    {
+      "name": "노력",
+      "language": "ko"
+    },
+    {
+      "name": "Hardi",
+      "language": "fr"
+    },
+    {
+      "name": "Robust",
+      "language": "de"
+    },
+    {
+      "name": "Fuerte",
+      "language": "es"
+    },
+    {
+      "name": "Ardita",
+      "language": "it"
+    },
+    {
+      "name": "Hardy",
+      "language": "en"
+    }
+  ]
+}
