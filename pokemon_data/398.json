@@ -1,1 +1,153 @@
-{"id":398,"name":"staraptor","order":428,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":101,"pokedex":{"name":"kalos-coastal"}},{"entry_number":28,"pokedex":{"name":"conquest-gallery"}},{"entry_number":12,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":12,"pokedex":{"name":"original-sinnoh"}},{"entry_number":398,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"flying"}],"color":{"name":"brown"},"shape":{"name":"wings"},"evolves_from_species":{"name":"staravia"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"ムクホーク","language":"ja"},{"name":"Mukuhawk","language":"roomaji"},{"name":"찌르호크","language":"ko"},{"name":"姆克鷹","language":"zh"},{"name":"Étouraptor","language":"fr"},{"name":"Staraptor","language":"de"},{"name":"Staraptor","language":"es"},{"name":"Staraptor","language":"it"},{"name":"Staraptor","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"もうきん","language":"ja"},{"genus":"맹금","language":"ko"},{"genus":"Rapace","language":"fr"},{"genus":"Raubtier","language":"de"},{"genus":"Depredador","language":"es"},{"genus":"Rapace","language":"it"},{"genus":"Predator","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"staraptor"}}],"first_evolution_id":396}
+{
+  "id": 398,
+  "name": "staraptor",
+  "order": 428,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 101,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 28,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 12,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 12,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 398,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "flying"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "wings"
+  },
+  "evolves_from_species": {
+    "name": "staravia"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "ムクホーク",
+      "language": "ja"
+    },
+    {
+      "name": "Mukuhawk",
+      "language": "roomaji"
+    },
+    {
+      "name": "찌르호크",
+      "language": "ko"
+    },
+    {
+      "name": "姆克鷹",
+      "language": "zh"
+    },
+    {
+      "name": "Étouraptor",
+      "language": "fr"
+    },
+    {
+      "name": "Staraptor",
+      "language": "de"
+    },
+    {
+      "name": "Staraptor",
+      "language": "es"
+    },
+    {
+      "name": "Staraptor",
+      "language": "it"
+    },
+    {
+      "name": "Staraptor",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "もうきん",
+      "language": "ja"
+    },
+    {
+      "genus": "맹금",
+      "language": "ko"
+    },
+    {
+      "genus": "Rapace",
+      "language": "fr"
+    },
+    {
+      "genus": "Raubtier",
+      "language": "de"
+    },
+    {
+      "genus": "Depredador",
+      "language": "es"
+    },
+    {
+      "genus": "Rapace",
+      "language": "it"
+    },
+    {
+      "genus": "Predator",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "staraptor"
+      }
+    }
+  ],
+  "first_evolution_id": 396
+}

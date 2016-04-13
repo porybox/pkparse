@@ -1,1 +1,83 @@
-{"id":564,"name":"sticky-web","accuracy":null,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Shoots a web over the opponents' side of the field, which lowers the Speed of any opposing Pokémon that enters the field by one stage.\n\nPokémon in the air, such as []{type:flying}-types and those with []{ability:levitate}, are unaffected.  []{move:rapid-spin} removes Sticky Web from the user's side of the field; []{move:defog} removes it from both sides.","short_effect":"Covers the opposing field, lowering opponents' Speed by one stage upon switching in.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-vi"},"meta":{"ailment":{"name":"none"},"category":{"name":"field-effect"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Sticky Web","language":"en"},{"name":"Rete Vischiosa","language":"it"},{"name":"Red Viscosa","language":"es"},{"name":"Klebenetz","language":"de"},{"name":"Toile Gluante","language":"fr"},{"name":"끈적끈적네트","language":"ko"},{"name":"ねばねばネット","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"opponents-field"},"type":{"name":"bug"}}
+{
+  "id": 564,
+  "name": "sticky-web",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Shoots a web over the opponents' side of the field, which lowers the Speed of any opposing Pokémon that enters the field by one stage.\n\nPokémon in the air, such as []{type:flying}-types and those with []{ability:levitate}, are unaffected.  []{move:rapid-spin} removes Sticky Web from the user's side of the field; []{move:defog} removes it from both sides.",
+      "short_effect": "Covers the opposing field, lowering opponents' Speed by one stage upon switching in.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-vi"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "field-effect"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Sticky Web",
+      "language": "en"
+    },
+    {
+      "name": "Rete Vischiosa",
+      "language": "it"
+    },
+    {
+      "name": "Red Viscosa",
+      "language": "es"
+    },
+    {
+      "name": "Klebenetz",
+      "language": "de"
+    },
+    {
+      "name": "Toile Gluante",
+      "language": "fr"
+    },
+    {
+      "name": "끈적끈적네트",
+      "language": "ko"
+    },
+    {
+      "name": "ねばねばネット",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "opponents-field"
+  },
+  "type": {
+    "name": "bug"
+  }
+}

@@ -1,1 +1,177 @@
-{"id":243,"name":"muscle-band","cost":200,"fling_power":10,"fling_effect":null,"attributes":[{"name":"holdable"},{"name":"holdable-active"}],"category":{"name":"held-items"},"effect_entries":[{"effect":"Held: Increases the power of the holder's physical moves by 10%.","short_effect":"Held: Boosts the damage of physical moves used by the holder by 10%.","language":"en"}],"flavor_text_entries":[{"text":"ちからが　わいてくる　ハチマキ。\n持たせると　物理技の\n威力が　少し　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nThis headband exudes strength, slightly\nboosting the power of physical moves.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a un Pokémon.\nFascia che potenzia di poco le mosse fisiche.","version_group":{"name":"x-y"},"language":"it"},{"text":"Prolonga la duración del movimiento Tormenta\nde Arena que use el Pokémon que la lleva.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item zum Tragen. Dieses Stirnband verstärkt\nphysische Attacken etwas.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à tenir. Un bandeau augmentant\nlégèrement la puissance des attaques physiques.","version_group":{"name":"x-y"},"language":"fr"},{"text":"힘이 끓어오르는 머리띠.\n지니게 하면 물리 기술의\n위력이 조금 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ちからが　わいてくる　ハチマキ。\nもたせると　ぶつりわざの\nいりょくが　すこし　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by a Pokémon.\nIt is a headband that slightly boosts\nthe power of physical moves.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a headband that slightly boosts\nthe power of physical moves.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à tenir. Bandeau augmentant\nlégèrement la puissance des attaques\nphysiques.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by a Pokémon.\nIt is a headband that slightly boosts\nthe power of physical moves.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a headband that slightly boosts\nthe power of physical moves.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a headband that slightly boosts\nthe power of physical moves.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":266,"generation":{"name":"generation-vi"}},{"game_index":266,"generation":{"name":"generation-v"}},{"game_index":266,"generation":{"name":"generation-iv"}}],"names":[{"name":"Muscle Band","language":"en"},{"name":"Muscolbanda","language":"it"},{"name":"Cinta Fuerte","language":"es"},{"name":"Muskelband","language":"de"},{"name":"Bandeau Muscle","language":"fr"},{"name":"힘의머리띠","language":"ko"},{"name":"ちからのハチマキ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 243,
+  "name": "muscle-band",
+  "cost": 200,
+  "fling_power": 10,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "category": {
+    "name": "held-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held: Increases the power of the holder's physical moves by 10%.",
+      "short_effect": "Held: Boosts the damage of physical moves used by the holder by 10%.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ちからが　わいてくる　ハチマキ。\n持たせると　物理技の\n威力が　少し　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nThis headband exudes strength, slightly\nboosting the power of physical moves.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nFascia che potenzia di poco le mosse fisiche.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Prolonga la duración del movimiento Tormenta\nde Arena que use el Pokémon que la lleva.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Dieses Stirnband verstärkt\nphysische Attacken etwas.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Un bandeau augmentant\nlégèrement la puissance des attaques physiques.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "힘이 끓어오르는 머리띠.\n지니게 하면 물리 기술의\n위력이 조금 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ちからが　わいてくる　ハチマキ。\nもたせると　ぶつりわざの\nいりょくが　すこし　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a headband that slightly boosts\nthe power of physical moves.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a headband that slightly boosts\nthe power of physical moves.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir. Bandeau augmentant\nlégèrement la puissance des attaques\nphysiques.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a headband that slightly boosts\nthe power of physical moves.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a headband that slightly boosts\nthe power of physical moves.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a headband that slightly boosts\nthe power of physical moves.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 266,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 266,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 266,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Muscle Band",
+      "language": "en"
+    },
+    {
+      "name": "Muscolbanda",
+      "language": "it"
+    },
+    {
+      "name": "Cinta Fuerte",
+      "language": "es"
+    },
+    {
+      "name": "Muskelband",
+      "language": "de"
+    },
+    {
+      "name": "Bandeau Muscle",
+      "language": "fr"
+    },
+    {
+      "name": "힘의머리띠",
+      "language": "ko"
+    },
+    {
+      "name": "ちからのハチマキ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

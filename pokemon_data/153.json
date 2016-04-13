@@ -1,1 +1,146 @@
-{"id":153,"name":"bayleef","order":185,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":2,"pokedex":{"name":"updated-johto"}},{"entry_number":2,"pokedex":{"name":"original-johto"}},{"entry_number":153,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"plant"},{"name":"monster"}],"color":{"name":"green"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"chikorita"},"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-ii"},"names":[{"name":"ベイリーフ","language":"ja"},{"name":"Bayleaf","language":"roomaji"},{"name":"베이리프","language":"ko"},{"name":"月桂葉","language":"zh"},{"name":"Macronium","language":"fr"},{"name":"Lorblatt","language":"de"},{"name":"Bayleef","language":"es"},{"name":"Bayleef","language":"it"},{"name":"Bayleef","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"はっぱ","language":"ja"},{"genus":"잎사귀","language":"ko"},{"genus":"Feuille","language":"fr"},{"genus":"Laub","language":"de"},{"genus":"Hoja","language":"es"},{"genus":"Foglia","language":"it"},{"genus":"Leaf","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"bayleef"}}],"first_evolution_id":152}
+{
+  "id": 153,
+  "name": "bayleef",
+  "order": 185,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 2,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 2,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 153,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "plant"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "chikorita"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ベイリーフ",
+      "language": "ja"
+    },
+    {
+      "name": "Bayleaf",
+      "language": "roomaji"
+    },
+    {
+      "name": "베이리프",
+      "language": "ko"
+    },
+    {
+      "name": "月桂葉",
+      "language": "zh"
+    },
+    {
+      "name": "Macronium",
+      "language": "fr"
+    },
+    {
+      "name": "Lorblatt",
+      "language": "de"
+    },
+    {
+      "name": "Bayleef",
+      "language": "es"
+    },
+    {
+      "name": "Bayleef",
+      "language": "it"
+    },
+    {
+      "name": "Bayleef",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "はっぱ",
+      "language": "ja"
+    },
+    {
+      "genus": "잎사귀",
+      "language": "ko"
+    },
+    {
+      "genus": "Feuille",
+      "language": "fr"
+    },
+    {
+      "genus": "Laub",
+      "language": "de"
+    },
+    {
+      "genus": "Hoja",
+      "language": "es"
+    },
+    {
+      "genus": "Foglia",
+      "language": "it"
+    },
+    {
+      "genus": "Leaf",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "bayleef"
+      }
+    }
+  ],
+  "first_evolution_id": 152
+}

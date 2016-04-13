@@ -1,1 +1,146 @@
-{"id":253,"name":"grovyle","order":278,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":131,"pokedex":{"name":"conquest-gallery"}},{"entry_number":2,"pokedex":{"name":"hoenn"}},{"entry_number":253,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"dragon"},{"name":"monster"}],"color":{"name":"green"},"shape":{"name":"upright"},"evolves_from_species":{"name":"treecko"},"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-iii"},"names":[{"name":"ジュプトル","language":"ja"},{"name":"Juptile","language":"roomaji"},{"name":"나무돌이","language":"ko"},{"name":"森林蜥蜴","language":"zh"},{"name":"Massko","language":"fr"},{"name":"Reptain","language":"de"},{"name":"Grovyle","language":"es"},{"name":"Grovyle","language":"it"},{"name":"Grovyle","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"もりトカゲ","language":"ja"},{"genus":"숲도마뱀","language":"ko"},{"genus":"Bois Gecko","language":"fr"},{"genus":"Waldgecko","language":"de"},{"genus":"Geco Bosque","language":"es"},{"genus":"Legnogeco","language":"it"},{"genus":"Wood Gecko","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"grovyle"}}],"first_evolution_id":252}
+{
+  "id": 253,
+  "name": "grovyle",
+  "order": 278,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 131,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 2,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 253,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "dragon"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "treecko"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ジュプトル",
+      "language": "ja"
+    },
+    {
+      "name": "Juptile",
+      "language": "roomaji"
+    },
+    {
+      "name": "나무돌이",
+      "language": "ko"
+    },
+    {
+      "name": "森林蜥蜴",
+      "language": "zh"
+    },
+    {
+      "name": "Massko",
+      "language": "fr"
+    },
+    {
+      "name": "Reptain",
+      "language": "de"
+    },
+    {
+      "name": "Grovyle",
+      "language": "es"
+    },
+    {
+      "name": "Grovyle",
+      "language": "it"
+    },
+    {
+      "name": "Grovyle",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "もりトカゲ",
+      "language": "ja"
+    },
+    {
+      "genus": "숲도마뱀",
+      "language": "ko"
+    },
+    {
+      "genus": "Bois Gecko",
+      "language": "fr"
+    },
+    {
+      "genus": "Waldgecko",
+      "language": "de"
+    },
+    {
+      "genus": "Geco Bosque",
+      "language": "es"
+    },
+    {
+      "genus": "Legnogeco",
+      "language": "it"
+    },
+    {
+      "genus": "Wood Gecko",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "grovyle"
+      }
+    }
+  ],
+  "first_evolution_id": 252
+}

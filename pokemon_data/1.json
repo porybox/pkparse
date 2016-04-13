@@ -1,1 +1,156 @@
-{"id":1,"name":"bulbasaur","order":1,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":80,"pokedex":{"name":"kalos-central"}},{"entry_number":231,"pokedex":{"name":"updated-johto"}},{"entry_number":226,"pokedex":{"name":"original-johto"}},{"entry_number":1,"pokedex":{"name":"kanto"}},{"entry_number":1,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"plant"},{"name":"monster"}],"color":{"name":"green"},"shape":{"name":"quadruped"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-i"},"names":[{"name":"フシギダネ","language":"ja"},{"name":"Fushigidane","language":"roomaji"},{"name":"이상해씨","language":"ko"},{"name":"妙蛙種子","language":"zh"},{"name":"Bulbizarre","language":"fr"},{"name":"Bisasam","language":"de"},{"name":"Bulbasaur","language":"es"},{"name":"Bulbasaur","language":"it"},{"name":"Bulbasaur","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"たね","language":"ja"},{"genus":"씨앗","language":"ko"},{"genus":"Graine","language":"fr"},{"genus":"Samen","language":"de"},{"genus":"Semilla","language":"es"},{"genus":"Seme","language":"it"},{"genus":"Seed","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"bulbasaur"}}],"first_evolution_id":1}
+{
+  "id": 1,
+  "name": "bulbasaur",
+  "order": 1,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 80,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 231,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 226,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 1,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 1,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "plant"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "フシギダネ",
+      "language": "ja"
+    },
+    {
+      "name": "Fushigidane",
+      "language": "roomaji"
+    },
+    {
+      "name": "이상해씨",
+      "language": "ko"
+    },
+    {
+      "name": "妙蛙種子",
+      "language": "zh"
+    },
+    {
+      "name": "Bulbizarre",
+      "language": "fr"
+    },
+    {
+      "name": "Bisasam",
+      "language": "de"
+    },
+    {
+      "name": "Bulbasaur",
+      "language": "es"
+    },
+    {
+      "name": "Bulbasaur",
+      "language": "it"
+    },
+    {
+      "name": "Bulbasaur",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "たね",
+      "language": "ja"
+    },
+    {
+      "genus": "씨앗",
+      "language": "ko"
+    },
+    {
+      "genus": "Graine",
+      "language": "fr"
+    },
+    {
+      "genus": "Samen",
+      "language": "de"
+    },
+    {
+      "genus": "Semilla",
+      "language": "es"
+    },
+    {
+      "genus": "Seme",
+      "language": "it"
+    },
+    {
+      "genus": "Seed",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "bulbasaur"
+      }
+    }
+  ],
+  "first_evolution_id": 1
+}

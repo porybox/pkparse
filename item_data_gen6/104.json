@@ -1,1 +1,174 @@
-{"id":104,"name":"armor-fossil","cost":1000,"fling_power":100,"fling_effect":null,"attributes":[{"name":"underground"}],"category":{"name":"dex-completion"},"effect_entries":[{"effect":"Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:shieldon}.","short_effect":"Can be revived into a Shieldon.","language":"en"}],"flavor_text_entries":[{"text":"大昔　地上で　暮らした\n古代ポケモンの　カセキ。\n襟飾りの　一部らしい。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A fossil from a prehistoric Pokémon\nthat once lived on the land. It looks to\nbe from some kind of protective collar.","version_group":{"name":"x-y"},"language":"en"},{"text":"Fossile di un Pokémon preistorico che viveva\nsulla terraferma. Sembra far parte di un collare.","version_group":{"name":"x-y"},"language":"it"},{"text":"Fósil de un Pokémon prehistórico terrestre.\nParece ser parte de una protección ósea del\ncuello.","version_group":{"name":"x-y"},"language":"es"},{"text":"Das Fossil eines uralten Pokémon, das an Land\nlebte. Es sieht wie ein Schlüsselbein aus.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le fossile d’un Pokémon préhistorique terrestre.\nOn dirait une partie d’un collier.","version_group":{"name":"x-y"},"language":"fr"},{"text":"오랜 옛날 지상에서 살았던\n고대 포켓몬의 화석.\n깃 장식의 일부인 듯하다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"おおむかし　ちじょうで　くらした\nこだい　ポケモンの　カセキ。\nえりかざりの　いちぶ　らしい。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.","version_group":{"name":"black-white"},"language":"en"},{"text":"Fossile d’un Pokémon préhistorique\nterrestre. On dirait une partie d’un\ncollier.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.","version_group":{"name":"platinum"},"language":"en"},{"text":"A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":104,"generation":{"name":"generation-vi"}},{"game_index":104,"generation":{"name":"generation-v"}},{"game_index":104,"generation":{"name":"generation-iv"}}],"names":[{"name":"Armor Fossil","language":"en"},{"name":"Fossilscudo","language":"it"},{"name":"Fósil Coraza","language":"es"},{"name":"Panzerfossil","language":"de"},{"name":"Fossile Armure","language":"fr"},{"name":"방패의화석","language":"ko"},{"name":"たてのカセキ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 104,
+  "name": "armor-fossil",
+  "cost": 1000,
+  "fling_power": 100,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "underground"
+    }
+  ],
+  "category": {
+    "name": "dex-completion"
+  },
+  "effect_entries": [
+    {
+      "effect": "Give to a scientist in the []{location:mining-museum} in []{location:oreburgh-city} or the Museum of Science in []{location:pewter-city} to receive a []{pokemon:shieldon}.",
+      "short_effect": "Can be revived into a Shieldon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "大昔　地上で　暮らした\n古代ポケモンの　カセキ。\n襟飾りの　一部らしい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A fossil from a prehistoric Pokémon\nthat once lived on the land. It looks to\nbe from some kind of protective collar.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Fossile di un Pokémon preistorico che viveva\nsulla terraferma. Sembra far parte di un collare.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Fósil de un Pokémon prehistórico terrestre.\nParece ser parte de una protección ósea del\ncuello.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Das Fossil eines uralten Pokémon, das an Land\nlebte. Es sieht wie ein Schlüsselbein aus.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le fossile d’un Pokémon préhistorique terrestre.\nOn dirait une partie d’un collier.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "오랜 옛날 지상에서 살았던\n고대 포켓몬의 화석.\n깃 장식의 일부인 듯하다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "おおむかし　ちじょうで　くらした\nこだい　ポケモンの　カセキ。\nえりかざりの　いちぶ　らしい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Fossile d’un Pokémon préhistorique\nterrestre. On dirait une partie d’un\ncollier.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A fossil from a prehistoric Pokémon\nthat lived on the land. It appears to\nbe part of a collar.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 104,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 104,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 104,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Armor Fossil",
+      "language": "en"
+    },
+    {
+      "name": "Fossilscudo",
+      "language": "it"
+    },
+    {
+      "name": "Fósil Coraza",
+      "language": "es"
+    },
+    {
+      "name": "Panzerfossil",
+      "language": "de"
+    },
+    {
+      "name": "Fossile Armure",
+      "language": "fr"
+    },
+    {
+      "name": "방패의화석",
+      "language": "ko"
+    },
+    {
+      "name": "たてのカセキ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

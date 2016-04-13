@@ -1,1 +1,211 @@
-{"id":37,"name":"huge-power","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Huge Power","language":"en"},{"name":"Macroforza","language":"it"},{"name":"Potencia","language":"es"},{"name":"Kraftkoloss","language":"de"},{"name":"Coloforce","language":"fr"},{"name":"천하장사","language":"ko"},{"name":"ちからもち","language":"ja"}],"effect_entries":[{"effect":"This Pokémon's [Attack]{mechanic:attack} is doubled while in battle.\n\nThis bonus does not count as a [stat modifier]{mechanic:stat-modifier}.\n\nThis ability functions identically to []{ability:pure-power}.","short_effect":"Doubles [Attack]{mechanic:attack} in battle.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"物理攻撃の\n威力が　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Boosts the Pokémon’s\nAttack stat.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Migliora la statistica Attacco\ndel Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Aumenta el Ataque.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Stärkt physische Attacken.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Augmente l’Attaque du Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"물리공격의\n위력이 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"ぶつり　こうげきの\nいりょくが　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Raises the Pokémon’s\nAttack stat.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Raises the Pokémon’s\nAttack stat.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Augmente l’Attaque du\nPokémon.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Raises the Pokémon’s\nAttack stat.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Raises the Pokémon’s\nAttack stat.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Raises the Pokémon’s\nAttack stat.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"Raises ATTACK.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"Raises ATTACK.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"Raises ATTACK.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":2,"pokemon":{"name":"marill"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"azumarill"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"azurill"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"bunnelby"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"diggersby"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"mawile-mega"}}]}
+{
+  "id": 37,
+  "name": "huge-power",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Huge Power",
+      "language": "en"
+    },
+    {
+      "name": "Macroforza",
+      "language": "it"
+    },
+    {
+      "name": "Potencia",
+      "language": "es"
+    },
+    {
+      "name": "Kraftkoloss",
+      "language": "de"
+    },
+    {
+      "name": "Coloforce",
+      "language": "fr"
+    },
+    {
+      "name": "천하장사",
+      "language": "ko"
+    },
+    {
+      "name": "ちからもち",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon's [Attack]{mechanic:attack} is doubled while in battle.\n\nThis bonus does not count as a [stat modifier]{mechanic:stat-modifier}.\n\nThis ability functions identically to []{ability:pure-power}.",
+      "short_effect": "Doubles [Attack]{mechanic:attack} in battle.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "物理攻撃の\n威力が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Boosts the Pokémon’s\nAttack stat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Migliora la statistica Attacco\ndel Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Aumenta el Ataque.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Stärkt physische Attacken.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Augmente l’Attaque du Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "물리공격의\n위력이 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "ぶつり　こうげきの\nいりょくが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Raises the Pokémon’s\nAttack stat.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Raises the Pokémon’s\nAttack stat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Augmente l’Attaque du\nPokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Raises the Pokémon’s\nAttack stat.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Raises the Pokémon’s\nAttack stat.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Raises the Pokémon’s\nAttack stat.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Raises ATTACK.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Raises ATTACK.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Raises ATTACK.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "marill"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "azumarill"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "azurill"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "bunnelby"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "diggersby"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "mawile-mega"
+      }
+    }
+  ]
+}

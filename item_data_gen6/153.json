@@ -1,1 +1,500 @@
-{"id":130,"name":"aspear-berry","cost":20,"fling_power":10,"fling_effect":{"name":"berry-effect"},"attributes":[{"name":"holdable-active"}],"category":{"name":"medicine"},"effect_entries":[{"effect":"Held in battle\n:   When the holder is [frozen]{mechanic:freezing}, it consumes this item to thaw itself.\n\nUsed on a party Pokémon\n:   Cures [freezing]{mechanic:freezing}.","short_effect":"Held: Consumed when frozen to cure frozen.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンに　持たせると\nこおりを　回復する。\n","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A Berry to be consumed by Pokémon.\nIf a Pokémon holds one, it can recover\nfrom being frozen on its own in battle.","version_group":{"name":"x-y"},"language":"en"},{"text":"Se un Pokémon ha questa bacca, guarisce\ndal congelamento.","version_group":{"name":"x-y"},"language":"it"},{"text":"Al usarla con un Pokémon, se gana su amistad,\npero también reduce su Ataque de base.","version_group":{"name":"x-y"},"language":"es"},{"text":"Gibst du die Beere einem Pokémon zum Tragen,\nheilt diese es von Frost.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une Baie qui soigne le gel lorsqu’elle est\ntenue par un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬에게 지니게 하면\n얼음을 회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンに　もたせると\nこおりを　かいふくする。\n","version_group":{"name":"x-y"},"language":"ja"},{"text":"If held by a Pokémon,\nit defrosts it.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"If held by a Pokémon,\nit defrosts it.","version_group":{"name":"black-white"},"language":"en"},{"text":"Baie qui soigne le gel lorsqu’elle\nest tenue par un Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"It may be used or held by a Pokémon to\ndefrost it.\n","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A Poffin ingredient. It may be used\nor held by a Pokémon to defrost it.\n","version_group":{"name":"platinum"},"language":"en"},{"text":"A Poffin ingredient. It may be used\nor held by a Pokémon to defrost it.\n","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"When held by a POKéMON, it will be\nused in battle for defrosting.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A hold item that\ndefrosts POKéMON\nin battle.","version_group":{"name":"emerald"},"language":"en"},{"text":"A hold item that\ndefrosts POKéMON\nin battle.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":153,"generation":{"name":"generation-vi"}},{"game_index":153,"generation":{"name":"generation-v"}},{"game_index":153,"generation":{"name":"generation-iv"}},{"game_index":137,"generation":{"name":"generation-iii"}}],"names":[{"name":"Aspear Berry","language":"en"},{"name":"Baccaperina","language":"it"},{"name":"Baya Perasi","language":"es"},{"name":"Wilbirbeere","language":"de"},{"name":"Baie Willia","language":"fr"},{"name":"배리열매","language":"ko"},{"name":"ナナシのみ","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"seel"},"version_details":[{"rarity":50,"version":{"name":"leafgreen"}},{"rarity":50,"version":{"name":"firered"}}]},{"pokemon":{"name":"dewgong"},"version_details":[{"rarity":50,"version":{"name":"leafgreen"}},{"rarity":50,"version":{"name":"firered"}}]},{"pokemon":{"name":"jynx"},"version_details":[{"rarity":100,"version":{"name":"white-2"}},{"rarity":100,"version":{"name":"black-2"}},{"rarity":100,"version":{"name":"white"}},{"rarity":100,"version":{"name":"black"}},{"rarity":100,"version":{"name":"soulsilver"}},{"rarity":100,"version":{"name":"heartgold"}},{"rarity":100,"version":{"name":"platinum"}},{"rarity":100,"version":{"name":"pearl"}},{"rarity":100,"version":{"name":"diamond"}},{"rarity":100,"version":{"name":"emerald"}},{"rarity":100,"version":{"name":"sapphire"}},{"rarity":100,"version":{"name":"ruby"}}]},{"pokemon":{"name":"swinub"},"version_details":[{"rarity":50,"version":{"name":"leafgreen"}},{"rarity":50,"version":{"name":"firered"}}]},{"pokemon":{"name":"piloswine"},"version_details":[{"rarity":50,"version":{"name":"leafgreen"}},{"rarity":50,"version":{"name":"firered"}}]},{"pokemon":{"name":"smoochum"},"version_details":[{"rarity":100,"version":{"name":"white-2"}},{"rarity":100,"version":{"name":"black-2"}},{"rarity":100,"version":{"name":"white"}},{"rarity":100,"version":{"name":"black"}},{"rarity":100,"version":{"name":"soulsilver"}},{"rarity":100,"version":{"name":"heartgold"}},{"rarity":100,"version":{"name":"platinum"}},{"rarity":100,"version":{"name":"pearl"}},{"rarity":100,"version":{"name":"diamond"}},{"rarity":100,"version":{"name":"emerald"}},{"rarity":100,"version":{"name":"sapphire"}},{"rarity":100,"version":{"name":"ruby"}}]},{"pokemon":{"name":"cubchoo"},"version_details":[{"rarity":50,"version":{"name":"white-2"}},{"rarity":50,"version":{"name":"black-2"}},{"rarity":50,"version":{"name":"white"}},{"rarity":50,"version":{"name":"black"}}]},{"pokemon":{"name":"beartic"},"version_details":[{"rarity":50,"version":{"name":"white-2"}},{"rarity":50,"version":{"name":"black-2"}},{"rarity":50,"version":{"name":"white"}},{"rarity":50,"version":{"name":"black"}}]}],"baby_trigger_for":null}
+{
+  "id": 130,
+  "name": "aspear-berry",
+  "cost": 20,
+  "fling_power": 10,
+  "fling_effect": {
+    "name": "berry-effect"
+  },
+  "attributes": [
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "category": {
+    "name": "medicine"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held in battle\n:   When the holder is [frozen]{mechanic:freezing}, it consumes this item to thaw itself.\n\nUsed on a party Pokémon\n:   Cures [freezing]{mechanic:freezing}.",
+      "short_effect": "Held: Consumed when frozen to cure frozen.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンに　持たせると\nこおりを　回復する。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A Berry to be consumed by Pokémon.\nIf a Pokémon holds one, it can recover\nfrom being frozen on its own in battle.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Se un Pokémon ha questa bacca, guarisce\ndal congelamento.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Al usarla con un Pokémon, se gana su amistad,\npero también reduce su Ataque de base.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Gibst du die Beere einem Pokémon zum Tragen,\nheilt diese es von Frost.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une Baie qui soigne le gel lorsqu’elle est\ntenue par un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬에게 지니게 하면\n얼음을 회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンに　もたせると\nこおりを　かいふくする。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "If held by a Pokémon,\nit defrosts it.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "If held by a Pokémon,\nit defrosts it.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Baie qui soigne le gel lorsqu’elle\nest tenue par un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "It may be used or held by a Pokémon to\ndefrost it.\n",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Poffin ingredient. It may be used\nor held by a Pokémon to defrost it.\n",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Poffin ingredient. It may be used\nor held by a Pokémon to defrost it.\n",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "When held by a POKéMON, it will be\nused in battle for defrosting.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\ndefrosts POKéMON\nin battle.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\ndefrosts POKéMON\nin battle.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 153,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 153,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 153,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 137,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Aspear Berry",
+      "language": "en"
+    },
+    {
+      "name": "Baccaperina",
+      "language": "it"
+    },
+    {
+      "name": "Baya Perasi",
+      "language": "es"
+    },
+    {
+      "name": "Wilbirbeere",
+      "language": "de"
+    },
+    {
+      "name": "Baie Willia",
+      "language": "fr"
+    },
+    {
+      "name": "배리열매",
+      "language": "ko"
+    },
+    {
+      "name": "ナナシのみ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "seel"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "firered"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "dewgong"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "firered"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "jynx"
+      },
+      "version_details": [
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "swinub"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "firered"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "piloswine"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "firered"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "smoochum"
+      },
+      "version_details": [
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "cubchoo"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "beartic"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

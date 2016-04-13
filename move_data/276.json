@@ -1,1 +1,114 @@
-{"id":276,"name":"superpower","accuracy":100,"effect_chance":100,"pp":5,"priority":0,"power":120,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"mind-reader"},{"name":"lock-on"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"tough"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}, then lowers the user's [Attack]{mechanic:attack} and [Defense]{mechanic:defense} by one [stage]{mechanic:stage} each.","short_effect":"Lowers the user's Attack and Defense by one stage after inflicting damage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage+raise"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":100},"names":[{"name":"Superpower","language":"en"},{"name":"Troppoforte","language":"it"},{"name":"Fuerza Bruta","language":"es"},{"name":"Kraftkoloss","language":"de"},{"name":"Surpuissance","language":"fr"},{"name":"엄청난힘","language":"ko"},{"name":"ばかぢから","language":"ja"}],"past_values":[],"stat_changes":[{"change":-1,"stat":{"name":"attack"}},{"change":-1,"stat":{"name":"defense"}}],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"fighting"}}
+{
+  "id": 276,
+  "name": "superpower",
+  "accuracy": 100,
+  "effect_chance": 100,
+  "pp": 5,
+  "priority": 0,
+  "power": 120,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "mind-reader"
+        },
+        {
+          "name": "lock-on"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}, then lowers the user's [Attack]{mechanic:attack} and [Defense]{mechanic:defense} by one [stage]{mechanic:stage} each.",
+      "short_effect": "Lowers the user's Attack and Defense by one stage after inflicting damage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage+raise"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": [
+    {
+      "name": "Superpower",
+      "language": "en"
+    },
+    {
+      "name": "Troppoforte",
+      "language": "it"
+    },
+    {
+      "name": "Fuerza Bruta",
+      "language": "es"
+    },
+    {
+      "name": "Kraftkoloss",
+      "language": "de"
+    },
+    {
+      "name": "Surpuissance",
+      "language": "fr"
+    },
+    {
+      "name": "엄청난힘",
+      "language": "ko"
+    },
+    {
+      "name": "ばかぢから",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": {
+        "name": "attack"
+      }
+    },
+    {
+      "change": -1,
+      "stat": {
+        "name": "defense"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "fighting"
+  }
+}

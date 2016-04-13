@@ -1,1 +1,85 @@
-{"id":219,"name":"safeguard","accuracy":null,"effect_chance":null,"pp":25,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"beauty"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Protects Pokémon on the user's side of the [field]{mechanic:field} from [major status]{mechanic:major-status} effects and [confusion]{mechanic:confusion} for five turns.  Does not cancel existing ailments.  This effect remains even if the user leaves the [field]{mechanic:field}.\n\nIf []{move:yawn} is used while this move is in effect, it will immediately [fail]{mechanic:fail}.\n\n[]{move:defog} used by an opponent will end this effect.\n\nThis effect does not prevent the [confusion]{mechanic:confusion} caused by []{move:outrage}, []{move:petal-dance}, or []{move:thrash}.","short_effect":"Protects the user's field from major status ailments and confusion for five turns.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"field-effect"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Safeguard","language":"en"},{"name":"Salvaguardia","language":"it"},{"name":"Velo Sagrado","language":"es"},{"name":"Bodyguard","language":"de"},{"name":"Rune Protect","language":"fr"},{"name":"신비의부적","language":"ko"},{"name":"しんぴのまもり","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"users-field"},"type":{"name":"normal"}}
+{
+  "id": 219,
+  "name": "safeguard",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 25,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Protects Pokémon on the user's side of the [field]{mechanic:field} from [major status]{mechanic:major-status} effects and [confusion]{mechanic:confusion} for five turns.  Does not cancel existing ailments.  This effect remains even if the user leaves the [field]{mechanic:field}.\n\nIf []{move:yawn} is used while this move is in effect, it will immediately [fail]{mechanic:fail}.\n\n[]{move:defog} used by an opponent will end this effect.\n\nThis effect does not prevent the [confusion]{mechanic:confusion} caused by []{move:outrage}, []{move:petal-dance}, or []{move:thrash}.",
+      "short_effect": "Protects the user's field from major status ailments and confusion for five turns.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "field-effect"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Safeguard",
+      "language": "en"
+    },
+    {
+      "name": "Salvaguardia",
+      "language": "it"
+    },
+    {
+      "name": "Velo Sagrado",
+      "language": "es"
+    },
+    {
+      "name": "Bodyguard",
+      "language": "de"
+    },
+    {
+      "name": "Rune Protect",
+      "language": "fr"
+    },
+    {
+      "name": "신비의부적",
+      "language": "ko"
+    },
+    {
+      "name": "しんぴのまもり",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "users-field"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

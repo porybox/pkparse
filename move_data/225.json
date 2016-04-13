@@ -1,1 +1,111 @@
-{"id":225,"name":"dragon-breath","accuracy":100,"effect_chance":30,"pp":20,"priority":0,"power":60,"contest_combos":{"normal":{"use_before":[{"name":"dragon-rage"},{"name":"dragon-claw"},{"name":"dragon-dance"}],"use_after":[{"name":"dragon-rage"},{"name":"dragon-dance"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.","short_effect":"Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"paralysis"},"category":{"name":"damage+ailment"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":30,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Dragon Breath","language":"en"},{"name":"Dragospiro","language":"it"},{"name":"Dragoaliento","language":"es"},{"name":"Feuerodem","language":"de"},{"name":"Dracosouffle","language":"fr"},{"name":"용의숨결","language":"ko"},{"name":"りゅうのいぶき","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"dragon"}}
+{
+  "id": 225,
+  "name": "dragon-breath",
+  "accuracy": 100,
+  "effect_chance": 30,
+  "pp": 20,
+  "priority": 0,
+  "power": 60,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "dragon-rage"
+        },
+        {
+          "name": "dragon-claw"
+        },
+        {
+          "name": "dragon-dance"
+        }
+      ],
+      "use_after": [
+        {
+          "name": "dragon-rage"
+        },
+        {
+          "name": "dragon-dance"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.",
+      "short_effect": "Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "paralysis"
+    },
+    "category": {
+      "name": "damage+ailment"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 30,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Dragon Breath",
+      "language": "en"
+    },
+    {
+      "name": "Dragospiro",
+      "language": "it"
+    },
+    {
+      "name": "Dragoaliento",
+      "language": "es"
+    },
+    {
+      "name": "Feuerodem",
+      "language": "de"
+    },
+    {
+      "name": "Dracosouffle",
+      "language": "fr"
+    },
+    {
+      "name": "용의숨결",
+      "language": "ko"
+    },
+    {
+      "name": "りゅうのいぶき",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "dragon"
+  }
+}

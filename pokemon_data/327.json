@@ -1,1 +1,144 @@
-{"id":327,"name":"spinda","order":355,"gender_rate":4,"capture_rate":255,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"fast"},"pokedex_numbers":[{"entry_number":131,"pokedex":{"name":"kalos-mountain"}},{"entry_number":114,"pokedex":{"name":"hoenn"}},{"entry_number":327,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"humanshape"},{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-iii"},"names":[{"name":"パッチール","language":"ja"},{"name":"Patcheel","language":"roomaji"},{"name":"얼루기","language":"ko"},{"name":"晃晃斑","language":"zh"},{"name":"Spinda","language":"fr"},{"name":"Pandir","language":"de"},{"name":"Spinda","language":"es"},{"name":"Spinda","language":"it"},{"name":"Spinda","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"ぶちパンダ","language":"ja"},{"genus":"얼룩팬더","language":"ko"},{"genus":"Panda Tache","language":"fr"},{"genus":"Punkt-Panda","language":"de"},{"genus":"Panda Topos","language":"es"},{"genus":"Macchipanda","language":"it"},{"genus":"Spot Panda","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"spinda"}}],"first_evolution_id":327}
+{
+  "id": 327,
+  "name": "spinda",
+  "order": 355,
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 131,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 114,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 327,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "humanshape"
+    },
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "パッチール",
+      "language": "ja"
+    },
+    {
+      "name": "Patcheel",
+      "language": "roomaji"
+    },
+    {
+      "name": "얼루기",
+      "language": "ko"
+    },
+    {
+      "name": "晃晃斑",
+      "language": "zh"
+    },
+    {
+      "name": "Spinda",
+      "language": "fr"
+    },
+    {
+      "name": "Pandir",
+      "language": "de"
+    },
+    {
+      "name": "Spinda",
+      "language": "es"
+    },
+    {
+      "name": "Spinda",
+      "language": "it"
+    },
+    {
+      "name": "Spinda",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ぶちパンダ",
+      "language": "ja"
+    },
+    {
+      "genus": "얼룩팬더",
+      "language": "ko"
+    },
+    {
+      "genus": "Panda Tache",
+      "language": "fr"
+    },
+    {
+      "genus": "Punkt-Panda",
+      "language": "de"
+    },
+    {
+      "genus": "Panda Topos",
+      "language": "es"
+    },
+    {
+      "genus": "Macchipanda",
+      "language": "it"
+    },
+    {
+      "genus": "Spot Panda",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "spinda"
+      }
+    }
+  ],
+  "first_evolution_id": 327
+}

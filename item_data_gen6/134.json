@@ -1,1 +1,143 @@
-{"id":567,"name":"sweet-heart","cost":100,"fling_power":30,"fling_effect":null,"attributes":[],"category":{"name":"healing"},"effect_entries":[{"effect":"Used on a friendly Pokémon\n:   Restores 20 [HP]{mechanic:hp}.","short_effect":"Restores 20 HP.","language":"en"}],"flavor_text_entries":[{"text":"とても　甘ったるい　チョコレート。\nポケモン　１匹の　ＨＰを\n２０だけ　回復する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A piece of cloyingly sweet chocolate.\nWhen consumed, it restores\n20 HP to an injured Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Cioccolato molto dolce.\nRestituisce 20 PS a un Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"text":"Los Pokémon pueden llevarla o usarla para\ncurarse del envenenamiento.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein süßer Schokosnack, der die KP\neines Pokémon um 20 Punkte auffüllt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un chocolat extrêmement sucré.\nRestaure 20 PV d’un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"지나칠 정도로 달콤한 초콜릿.\n포켓몬 1마리의 HP를\n20만큼 회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"とても　あまったるい　チョコレート。\nポケモン　１ひきの　ＨＰを\n２０だけ　かいふくする。","version_group":{"name":"x-y"},"language":"ja"},{"text":"Very sweet chocolate.\nIt restores the HP of one Pokémon\nby only 20 points.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"Very sweet chocolate.  \nIt restores the HP of one Pokémon\nby only 20 points.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un chocolat extrêmement\nsucré. Restaure 20 PV\nà un Pokémon.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":134,"generation":{"name":"generation-vi"}},{"game_index":134,"generation":{"name":"generation-v"}}],"names":[{"name":"Sweet Heart","language":"en"},{"name":"Dolcecuore","language":"it"},{"name":"Corazón Dulce","language":"es"},{"name":"Herzkonfekt","language":"de"},{"name":"Chococœur","language":"fr"},{"name":"하트스위트","language":"ko"},{"name":"ハートスイーツ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 567,
+  "name": "sweet-heart",
+  "cost": 100,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "healing"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a friendly Pokémon\n:   Restores 20 [HP]{mechanic:hp}.",
+      "short_effect": "Restores 20 HP.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "とても　甘ったるい　チョコレート。\nポケモン　１匹の　ＨＰを\n２０だけ　回復する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A piece of cloyingly sweet chocolate.\nWhen consumed, it restores\n20 HP to an injured Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Cioccolato molto dolce.\nRestituisce 20 PS a un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Los Pokémon pueden llevarla o usarla para\ncurarse del envenenamiento.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein süßer Schokosnack, der die KP\neines Pokémon um 20 Punkte auffüllt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un chocolat extrêmement sucré.\nRestaure 20 PV d’un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "지나칠 정도로 달콤한 초콜릿.\n포켓몬 1마리의 HP를\n20만큼 회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "とても　あまったるい　チョコレート。\nポケモン　１ひきの　ＨＰを\n２０だけ　かいふくする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "Very sweet chocolate.\nIt restores the HP of one Pokémon\nby only 20 points.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Very sweet chocolate.  \nIt restores the HP of one Pokémon\nby only 20 points.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un chocolat extrêmement\nsucré. Restaure 20 PV\nà un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 134,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 134,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Sweet Heart",
+      "language": "en"
+    },
+    {
+      "name": "Dolcecuore",
+      "language": "it"
+    },
+    {
+      "name": "Corazón Dulce",
+      "language": "es"
+    },
+    {
+      "name": "Herzkonfekt",
+      "language": "de"
+    },
+    {
+      "name": "Chococœur",
+      "language": "fr"
+    },
+    {
+      "name": "하트스위트",
+      "language": "ko"
+    },
+    {
+      "name": "ハートスイーツ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,180 @@
-{"id":262,"name":"damp-rock","cost":200,"fling_power":60,"fling_effect":null,"attributes":[{"name":"holdable"},{"name":"holdable-active"},{"name":"underground"}],"category":{"name":"held-items"},"effect_entries":[{"effect":"Held: The holder's Rain Dance will create rain lasting for eight turns rather than five.  As this item affects the move rather than the weather itself, the effect is not lost if the holder leaves battle or drops this item.","short_effect":"Held: Rain Dance by the holder lasts 8 rounds instead of 5.","language":"en"}],"flavor_text_entries":[{"text":"持たせた　ポケモンが　あまごいを\n使うと　いつもより　あめの\n時間が　長くなる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nIt extends the duration of the move\nRain Dance when used by the holder.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a un Pokémon.\nAllunga la durata della mossa Pioggiadanza.","version_group":{"name":"x-y"},"language":"it"},{"text":"Tabla de piedra que potencia los movimientos de\ntipo Hielo. Debe llevarla un Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item zum Tragen. Verlängert die Dauer\nvon Regentanz, wenn der Träger es einsetzt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à tenir. Augmente la durée de la capacité\nDanse Pluie utilisée par le porteur.","version_group":{"name":"x-y"},"language":"fr"},{"text":"지니게 한 포켓몬이 비바라기를\n쓰면 여느 때보다 비 내리는\n시간이 길어진다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"もたせた　ポケモンが　あまごいを\nつかうと　いつもより　あめの\nじかんが　ながくなる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A Pokémon held item that extends the\nduration of the move Rain Dance used\nby the holder.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A Pokémon held item that extends the\nduration of the move Rain Dance used\nby the holder.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à tenir augmentant la durée\nde la capacité Danse Pluie utilisée\npar le porteur.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A Pokémon held item that extends the\nduration of the move Rain Dance used\nby the holder.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A Pokémon hold item that extends the\nduration of the move Rain Dance used\nby the holder.","version_group":{"name":"platinum"},"language":"en"},{"text":"A Pokémon hold item that extends the\nduration of the move Rain Dance used\nby the holder.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":285,"generation":{"name":"generation-vi"}},{"game_index":285,"generation":{"name":"generation-v"}},{"game_index":285,"generation":{"name":"generation-iv"}}],"names":[{"name":"Damp Rock","language":"en"},{"name":"Rocciaumida","language":"it"},{"name":"Roca Lluvia","language":"es"},{"name":"Nassbrocken","language":"de"},{"name":"Roche Humide","language":"fr"},{"name":"축축한바위","language":"ko"},{"name":"しめったいわ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 262,
+  "name": "damp-rock",
+  "cost": 200,
+  "fling_power": 60,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    },
+    {
+      "name": "underground"
+    }
+  ],
+  "category": {
+    "name": "held-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held: The holder's Rain Dance will create rain lasting for eight turns rather than five.  As this item affects the move rather than the weather itself, the effect is not lost if the holder leaves battle or drops this item.",
+      "short_effect": "Held: Rain Dance by the holder lasts 8 rounds instead of 5.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "持たせた　ポケモンが　あまごいを\n使うと　いつもより　あめの\n時間が　長くなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt extends the duration of the move\nRain Dance when used by the holder.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nAllunga la durata della mossa Pioggiadanza.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Tabla de piedra que potencia los movimientos de\ntipo Hielo. Debe llevarla un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Verlängert die Dauer\nvon Regentanz, wenn der Träger es einsetzt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Augmente la durée de la capacité\nDanse Pluie utilisée par le porteur.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "지니게 한 포켓몬이 비바라기를\n쓰면 여느 때보다 비 내리는\n시간이 길어진다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "もたせた　ポケモンが　あまごいを\nつかうと　いつもより　あめの\nじかんが　ながくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A Pokémon held item that extends the\nduration of the move Rain Dance used\nby the holder.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Pokémon held item that extends the\nduration of the move Rain Dance used\nby the holder.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir augmentant la durée\nde la capacité Danse Pluie utilisée\npar le porteur.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A Pokémon held item that extends the\nduration of the move Rain Dance used\nby the holder.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Pokémon hold item that extends the\nduration of the move Rain Dance used\nby the holder.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Pokémon hold item that extends the\nduration of the move Rain Dance used\nby the holder.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 285,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 285,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 285,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Damp Rock",
+      "language": "en"
+    },
+    {
+      "name": "Rocciaumida",
+      "language": "it"
+    },
+    {
+      "name": "Roca Lluvia",
+      "language": "es"
+    },
+    {
+      "name": "Nassbrocken",
+      "language": "de"
+    },
+    {
+      "name": "Roche Humide",
+      "language": "fr"
+    },
+    {
+      "name": "축축한바위",
+      "language": "ko"
+    },
+    {
+      "name": "しめったいわ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

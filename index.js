@@ -165,6 +165,10 @@ exports.parseBuffer = buf => {
   return data;
 };
 
+exports.assignReadableNames = parsedData => {
+  parsedData.speciesName = require(`pokemon_data/${parsedData.dexNo}`).name;
+};
+
 exports.parseFile = path => {
   return exports.parseBuffer(require('fs').readFileSync(path));
 };

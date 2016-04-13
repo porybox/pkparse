@@ -1,1 +1,124 @@
-{"id":666,"name":"vivillon","order":667,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":22,"pokedex":{"name":"kalos-central"}},{"entry_number":666,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"black"},"shape":{"name":"bug-wings"},"evolves_from_species":{"name":"spewpa"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-vi"},"names":[{"name":"ビビヨン","language":"ja"},{"name":"비비용","language":"ko"},{"name":"Prismillon","language":"fr"},{"name":"Vivillon","language":"de"},{"name":"Vivillon","language":"es"},{"name":"Vivillon","language":"it"},{"name":"Vivillon","language":"en"}],"pal_park_encounters":[],"form_descriptions":[{"description":"Forms only differ in appearance.  Vivillon's pattern depends on the real-world geographical region set in its original trainer's 3DS, and cannot be changed.\n\nTrading a Scatterbug, Spewpa, or egg does not affect the pattern it will have as a Vivillon.  Changing the 3DS's region setting will not affect the game's Vivillon pattern until the player starts a new game.\n\nThe Fancy and Poké Ball Patterns do not correspond to any region and are only available through distributions.","language":"en"}],"genera":[{"genus":"りんぷん","language":"ja"},{"genus":"인분","language":"ko"},{"genus":"Lépidécaille","language":"fr"},{"genus":"Flügelstaub","language":"de"},{"genus":"Escamaposa","language":"es"},{"genus":"Farfascaglia","language":"it"},{"genus":"Scale","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"vivillon"}}],"first_evolution_id":664}
+{
+  "id": 666,
+  "name": "vivillon",
+  "order": 667,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 22,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 666,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "black"
+  },
+  "shape": {
+    "name": "bug-wings"
+  },
+  "evolves_from_species": {
+    "name": "spewpa"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "ビビヨン",
+      "language": "ja"
+    },
+    {
+      "name": "비비용",
+      "language": "ko"
+    },
+    {
+      "name": "Prismillon",
+      "language": "fr"
+    },
+    {
+      "name": "Vivillon",
+      "language": "de"
+    },
+    {
+      "name": "Vivillon",
+      "language": "es"
+    },
+    {
+      "name": "Vivillon",
+      "language": "it"
+    },
+    {
+      "name": "Vivillon",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [
+    {
+      "description": "Forms only differ in appearance.  Vivillon's pattern depends on the real-world geographical region set in its original trainer's 3DS, and cannot be changed.\n\nTrading a Scatterbug, Spewpa, or egg does not affect the pattern it will have as a Vivillon.  Changing the 3DS's region setting will not affect the game's Vivillon pattern until the player starts a new game.\n\nThe Fancy and Poké Ball Patterns do not correspond to any region and are only available through distributions.",
+      "language": "en"
+    }
+  ],
+  "genera": [
+    {
+      "genus": "りんぷん",
+      "language": "ja"
+    },
+    {
+      "genus": "인분",
+      "language": "ko"
+    },
+    {
+      "genus": "Lépidécaille",
+      "language": "fr"
+    },
+    {
+      "genus": "Flügelstaub",
+      "language": "de"
+    },
+    {
+      "genus": "Escamaposa",
+      "language": "es"
+    },
+    {
+      "genus": "Farfascaglia",
+      "language": "it"
+    },
+    {
+      "genus": "Scale",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "vivillon"
+      }
+    }
+  ],
+  "first_evolution_id": 664
+}

@@ -1,1 +1,105 @@
-{"id":205,"name":"rollout","accuracy":90,"effect_chance":null,"pp":20,"priority":0,"power":30,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"harden"},{"name":"defense-curl"}]},"super":{"use_before":null,"use_after":[{"name":"defense-curl"}]}},"contest_type":{"name":"tough"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  User is forced to use this move for five turns.  Power doubles every time this move is used in succession to a maximum of 16x, and resets to normal after the lock-in ends.  If this move misses or becomes unusable, the lock-in ends.\n\nIf the user has used []{move:defense-curl} since entering the field, this move has double power.","short_effect":"Power doubles every turn this move is used in succession after the first, resetting after five turns.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Rollout","language":"en"},{"name":"Rotolamento","language":"it"},{"name":"Desenrollar","language":"es"},{"name":"Walzer","language":"de"},{"name":"Roulade","language":"fr"},{"name":"구르기","language":"ko"},{"name":"ころがる","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"rock"}}
+{
+  "id": 205,
+  "name": "rollout",
+  "accuracy": 90,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": 30,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "harden"
+        },
+        {
+          "name": "defense-curl"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "defense-curl"
+        }
+      ]
+    }
+  },
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User is forced to use this move for five turns.  Power doubles every time this move is used in succession to a maximum of 16x, and resets to normal after the lock-in ends.  If this move misses or becomes unusable, the lock-in ends.\n\nIf the user has used []{move:defense-curl} since entering the field, this move has double power.",
+      "short_effect": "Power doubles every turn this move is used in succession after the first, resetting after five turns.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Rollout",
+      "language": "en"
+    },
+    {
+      "name": "Rotolamento",
+      "language": "it"
+    },
+    {
+      "name": "Desenrollar",
+      "language": "es"
+    },
+    {
+      "name": "Walzer",
+      "language": "de"
+    },
+    {
+      "name": "Roulade",
+      "language": "fr"
+    },
+    {
+      "name": "구르기",
+      "language": "ko"
+    },
+    {
+      "name": "ころがる",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "rock"
+  }
+}

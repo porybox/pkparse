@@ -1,1 +1,141 @@
-{"id":352,"name":"kecleon","order":380,"gender_rate":4,"capture_rate":200,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":116,"pokedex":{"name":"kalos-central"}},{"entry_number":145,"pokedex":{"name":"hoenn"}},{"entry_number":352,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"green"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-iii"},"names":[{"name":"カクレオン","language":"ja"},{"name":"Kakureon","language":"roomaji"},{"name":"켈리몬","language":"ko"},{"name":"變隱龍","language":"zh"},{"name":"Kecleon","language":"fr"},{"name":"Kecleon","language":"de"},{"name":"Kecleon","language":"es"},{"name":"Kecleon","language":"it"},{"name":"Kecleon","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"いろへんげ","language":"ja"},{"genus":"색변화","language":"ko"},{"genus":"Multicolor","language":"fr"},{"genus":"Farbenspiel","language":"de"},{"genus":"Camaleónico","language":"es"},{"genus":"Mutacolore","language":"it"},{"genus":"Color Swap","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"kecleon"}}],"first_evolution_id":352}
+{
+  "id": 352,
+  "name": "kecleon",
+  "order": 380,
+  "gender_rate": 4,
+  "capture_rate": 200,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 116,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 145,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 352,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "カクレオン",
+      "language": "ja"
+    },
+    {
+      "name": "Kakureon",
+      "language": "roomaji"
+    },
+    {
+      "name": "켈리몬",
+      "language": "ko"
+    },
+    {
+      "name": "變隱龍",
+      "language": "zh"
+    },
+    {
+      "name": "Kecleon",
+      "language": "fr"
+    },
+    {
+      "name": "Kecleon",
+      "language": "de"
+    },
+    {
+      "name": "Kecleon",
+      "language": "es"
+    },
+    {
+      "name": "Kecleon",
+      "language": "it"
+    },
+    {
+      "name": "Kecleon",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "いろへんげ",
+      "language": "ja"
+    },
+    {
+      "genus": "색변화",
+      "language": "ko"
+    },
+    {
+      "genus": "Multicolor",
+      "language": "fr"
+    },
+    {
+      "genus": "Farbenspiel",
+      "language": "de"
+    },
+    {
+      "genus": "Camaleónico",
+      "language": "es"
+    },
+    {
+      "genus": "Mutacolore",
+      "language": "it"
+    },
+    {
+      "genus": "Color Swap",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "kecleon"
+      }
+    }
+  ],
+  "first_evolution_id": 352
+}

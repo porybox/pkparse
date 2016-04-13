@@ -1,1 +1,182 @@
-{"id":26,"name":"raichu","order":27,"gender_rate":4,"capture_rate":75,"base_happiness":70,"is_baby":false,"hatch_counter":10,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":37,"pokedex":{"name":"kalos-central"}},{"entry_number":17,"pokedex":{"name":"conquest-gallery"}},{"entry_number":23,"pokedex":{"name":"updated-johto"}},{"entry_number":105,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":105,"pokedex":{"name":"original-sinnoh"}},{"entry_number":157,"pokedex":{"name":"hoenn"}},{"entry_number":23,"pokedex":{"name":"original-johto"}},{"entry_number":26,"pokedex":{"name":"kanto"}},{"entry_number":26,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"fairy"},{"name":"ground"}],"color":{"name":"yellow"},"shape":{"name":"upright"},"evolves_from_species":{"name":"pikachu"},"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-i"},"names":[{"name":"ライチュウ","language":"ja"},{"name":"Raichu","language":"roomaji"},{"name":"라이츄","language":"ko"},{"name":"雷丘","language":"zh"},{"name":"Raichu","language":"fr"},{"name":"Raichu","language":"de"},{"name":"Raichu","language":"es"},{"name":"Raichu","language":"it"},{"name":"Raichu","language":"en"}],"pal_park_encounters":[{"base_score":90,"rate":3,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"ねずみ","language":"ja"},{"genus":"쥐","language":"ko"},{"genus":"Souris","language":"fr"},{"genus":"Maus","language":"de"},{"genus":"Ratón","language":"es"},{"genus":"Topo","language":"it"},{"genus":"Mouse","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"raichu"}}],"first_evolution_id":172}
+{
+  "id": 26,
+  "name": "raichu",
+  "order": 27,
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 10,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 37,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 17,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 23,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 105,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 105,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 157,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 23,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 26,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 26,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "fairy"
+    },
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "yellow"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "pikachu"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ライチュウ",
+      "language": "ja"
+    },
+    {
+      "name": "Raichu",
+      "language": "roomaji"
+    },
+    {
+      "name": "라이츄",
+      "language": "ko"
+    },
+    {
+      "name": "雷丘",
+      "language": "zh"
+    },
+    {
+      "name": "Raichu",
+      "language": "fr"
+    },
+    {
+      "name": "Raichu",
+      "language": "de"
+    },
+    {
+      "name": "Raichu",
+      "language": "es"
+    },
+    {
+      "name": "Raichu",
+      "language": "it"
+    },
+    {
+      "name": "Raichu",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 90,
+      "rate": 3,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ねずみ",
+      "language": "ja"
+    },
+    {
+      "genus": "쥐",
+      "language": "ko"
+    },
+    {
+      "genus": "Souris",
+      "language": "fr"
+    },
+    {
+      "genus": "Maus",
+      "language": "de"
+    },
+    {
+      "genus": "Ratón",
+      "language": "es"
+    },
+    {
+      "genus": "Topo",
+      "language": "it"
+    },
+    {
+      "genus": "Mouse",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "raichu"
+      }
+    }
+  ],
+  "first_evolution_id": 172
+}

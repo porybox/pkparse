@@ -1,1 +1,85 @@
-{"id":224,"name":"megahorn","accuracy":85,"effect_chance":null,"pp":10,"priority":0,"power":120,"contest_combos":null,"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.","short_effect":"Inflicts regular damage with no additional effect.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Megahorn","language":"en"},{"name":"Megacorno","language":"it"},{"name":"Megacuerno","language":"es"},{"name":"Vielender","language":"de"},{"name":"Mégacorne","language":"fr"},{"name":"메가폰","language":"ko"},{"name":"メガホーン","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"bug"}}
+{
+  "id": 224,
+  "name": "megahorn",
+  "accuracy": 85,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": 120,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
+      "short_effect": "Inflicts regular damage with no additional effect.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Megahorn",
+      "language": "en"
+    },
+    {
+      "name": "Megacorno",
+      "language": "it"
+    },
+    {
+      "name": "Megacuerno",
+      "language": "es"
+    },
+    {
+      "name": "Vielender",
+      "language": "de"
+    },
+    {
+      "name": "Mégacorne",
+      "language": "fr"
+    },
+    {
+      "name": "메가폰",
+      "language": "ko"
+    },
+    {
+      "name": "メガホーン",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "bug"
+  }
+}

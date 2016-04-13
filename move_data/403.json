@@ -1,1 +1,85 @@
-{"id":403,"name":"air-slash","accuracy":95,"effect_chance":30,"pp":15,"priority":0,"power":75,"contest_combos":null,"contest_type":{"name":"cool"},"contest_effect":null,"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.","short_effect":"Has a $effect_chance% chance to make the target flinch.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":30,"stat_chance":0},"names":[{"name":"Air Slash","language":"en"},{"name":"Eterelama","language":"it"},{"name":"Tajo Aéreo","language":"es"},{"name":"Luftschnitt","language":"de"},{"name":"Lame d'Air","language":"fr"},{"name":"에어슬래시","language":"ko"},{"name":"エアスラッシュ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"flying"}}
+{
+  "id": 403,
+  "name": "air-slash",
+  "accuracy": 95,
+  "effect_chance": 30,
+  "pp": 15,
+  "priority": 0,
+  "power": 75,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
+      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 30,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Air Slash",
+      "language": "en"
+    },
+    {
+      "name": "Eterelama",
+      "language": "it"
+    },
+    {
+      "name": "Tajo Aéreo",
+      "language": "es"
+    },
+    {
+      "name": "Luftschnitt",
+      "language": "de"
+    },
+    {
+      "name": "Lame d'Air",
+      "language": "fr"
+    },
+    {
+      "name": "에어슬래시",
+      "language": "ko"
+    },
+    {
+      "name": "エアスラッシュ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "flying"
+  }
+}

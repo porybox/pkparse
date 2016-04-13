@@ -1,1 +1,281 @@
-{"id":82,"name":"gluttony","is_main_series":true,"generation":{"name":"generation-iv"},"names":[{"name":"Gluttony","language":"en"},{"name":"Voracità","language":"it"},{"name":"Gula","language":"es"},{"name":"Völlerei","language":"de"},{"name":"Gloutonnerie","language":"fr"},{"name":"먹보","language":"ko"},{"name":"くいしんぼう","language":"ja"}],"effect_entries":[{"effect":"This Pokémon eats any held Berry triggered by low [HP]{mechanic:hp} when it falls below 50% of its HP, regardless of the Berry's usual threshold.","short_effect":"Makes the Pokémon eat any held Berry triggered by low [HP]{mechanic:hp} below 1/2 its max HP.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"きのみを　いつもより\n早く　使う。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Makes the Pokémon use a held\nBerry earlier than usual.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Favorisce l’uso anticipato di\nuna bacca tenuta dal Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Fomenta el uso rápido de la baya\nque porte.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Ermutigt zum frühzeitigen Einsatz\nvon Beeren.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Permet d’utiliser plus rapidement\nune Baie tenue.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"나무열매를 여느 때보다\n빨리 사용한다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"きのみを　いつもより\nはやく　つかう。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Encourages the early use\nof a held Berry.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Encourages the early use\nof a held Berry.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Encourage l’utilisation\nd’une Baie tenue.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Encourages the early use\nof a held Berry.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Encourages the early use\nof a held Berry.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Encourages the early use\nof a held Berry.","version_group":{"name":"diamond-pearl"},"language":"en"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"bellsprout"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"weepinbell"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"victreebel"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"snorlax"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"shuckle"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"zigzagoon"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"linoone"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"gulpin"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"swalot"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"spoink"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"grumpig"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"munchlax"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"pansage"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"simisage"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"pansear"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"simisear"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"panpour"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"simipour"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"heatmor"}}]}
+{
+  "id": 82,
+  "name": "gluttony",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "Gluttony",
+      "language": "en"
+    },
+    {
+      "name": "Voracità",
+      "language": "it"
+    },
+    {
+      "name": "Gula",
+      "language": "es"
+    },
+    {
+      "name": "Völlerei",
+      "language": "de"
+    },
+    {
+      "name": "Gloutonnerie",
+      "language": "fr"
+    },
+    {
+      "name": "먹보",
+      "language": "ko"
+    },
+    {
+      "name": "くいしんぼう",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon eats any held Berry triggered by low [HP]{mechanic:hp} when it falls below 50% of its HP, regardless of the Berry's usual threshold.",
+      "short_effect": "Makes the Pokémon eat any held Berry triggered by low [HP]{mechanic:hp} below 1/2 its max HP.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "きのみを　いつもより\n早く　使う。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Makes the Pokémon use a held\nBerry earlier than usual.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Favorisce l’uso anticipato di\nuna bacca tenuta dal Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Fomenta el uso rápido de la baya\nque porte.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Ermutigt zum frühzeitigen Einsatz\nvon Beeren.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Permet d’utiliser plus rapidement\nune Baie tenue.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "나무열매를 여느 때보다\n빨리 사용한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "きのみを　いつもより\nはやく　つかう。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Encourages the early use\nof a held Berry.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Encourages the early use\nof a held Berry.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Encourage l’utilisation\nd’une Baie tenue.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Encourages the early use\nof a held Berry.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Encourages the early use\nof a held Berry.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Encourages the early use\nof a held Berry.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "bellsprout"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "weepinbell"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "victreebel"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "snorlax"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "shuckle"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "zigzagoon"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "linoone"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "gulpin"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "swalot"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "spoink"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "grumpig"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "munchlax"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "pansage"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "simisage"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "pansear"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "simisear"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "panpour"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "simipour"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "heatmor"
+      }
+    }
+  ]
+}

@@ -1,1 +1,156 @@
-{"id":86,"name":"seel","order":94,"gender_rate":4,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":265,"pokedex":{"name":"updated-unova"}},{"entry_number":178,"pokedex":{"name":"updated-johto"}},{"entry_number":176,"pokedex":{"name":"original-johto"}},{"entry_number":86,"pokedex":{"name":"kanto"}},{"entry_number":86,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"},{"name":"water1"}],"color":{"name":"white"},"shape":{"name":"fish"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"sea"},"generation":{"name":"generation-i"},"names":[{"name":"パウワウ","language":"ja"},{"name":"Pawou","language":"roomaji"},{"name":"쥬쥬","language":"ko"},{"name":"小海獅","language":"zh"},{"name":"Otaria","language":"fr"},{"name":"Jurob","language":"de"},{"name":"Seel","language":"es"},{"name":"Seel","language":"it"},{"name":"Seel","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"sea"}}],"form_descriptions":[],"genera":[{"genus":"あしか","language":"ja"},{"genus":"강치","language":"ko"},{"genus":"Otarie","language":"fr"},{"genus":"Seehund","language":"de"},{"genus":"León Marino","language":"es"},{"genus":"Otaria","language":"it"},{"genus":"Sea Lion","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"seel"}}],"first_evolution_id":86}
+{
+  "id": 86,
+  "name": "seel",
+  "order": 94,
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 265,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 178,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 176,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 86,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 86,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "white"
+  },
+  "shape": {
+    "name": "fish"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "sea"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "パウワウ",
+      "language": "ja"
+    },
+    {
+      "name": "Pawou",
+      "language": "roomaji"
+    },
+    {
+      "name": "쥬쥬",
+      "language": "ko"
+    },
+    {
+      "name": "小海獅",
+      "language": "zh"
+    },
+    {
+      "name": "Otaria",
+      "language": "fr"
+    },
+    {
+      "name": "Jurob",
+      "language": "de"
+    },
+    {
+      "name": "Seel",
+      "language": "es"
+    },
+    {
+      "name": "Seel",
+      "language": "it"
+    },
+    {
+      "name": "Seel",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "あしか",
+      "language": "ja"
+    },
+    {
+      "genus": "강치",
+      "language": "ko"
+    },
+    {
+      "genus": "Otarie",
+      "language": "fr"
+    },
+    {
+      "genus": "Seehund",
+      "language": "de"
+    },
+    {
+      "genus": "León Marino",
+      "language": "es"
+    },
+    {
+      "genus": "Otaria",
+      "language": "it"
+    },
+    {
+      "genus": "Sea Lion",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "seel"
+      }
+    }
+  ],
+  "first_evolution_id": 86
+}

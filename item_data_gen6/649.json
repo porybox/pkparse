@@ -1,1 +1,110 @@
-{"id":689,"name":"snowball","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"held-items"},"effect_entries":[],"flavor_text_entries":[{"text":"使い捨ての　ゆきだま。\n持たせて　こおりの　技を　受けると\n攻撃が　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nIt boosts Attack if hit with an Ice-type\nattack. It can only be used once.","version_group":{"name":"x-y"},"language":"en"},{"text":"Palla di neve monouso.\nSe il Pokémon che ce l’ha subisce una mossa\ndi tipo Ghiaccio, il suo Attacco aumenta.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una de las misteriosas Megapiedras. Permite\nmegaevolucionar a Banette en combate.","version_group":{"name":"x-y"},"language":"es"},{"text":"Wird der Träger von einer Eis-Attacke getroffen,\nsteigt sein Angriff und das Item verschwindet.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à usage unique. Tenue, elle augmente\nl’Attaque du Pokémon lorsqu’il est touché par\nune capacité de type Glace.","version_group":{"name":"x-y"},"language":"fr"},{"text":"단 한 번 쓰면 없어지는 눈덩이.\n지니게 하고 얼음 기술을 받으면\n공격이 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"つかいすての　ゆきだま。\nもたせて　こおりの　わざを　うけると\nこうげきが　あがる。","version_group":{"name":"x-y"},"language":"ja"}],"game_indices":[{"game_index":649,"generation":{"name":"generation-vi"}}],"names":[{"name":"Snowball","language":"en"},{"name":"Palla di neve","language":"it"},{"name":"Bola de Nieve","language":"es"},{"name":"Schneeball","language":"de"},{"name":"Boule de Neige","language":"fr"},{"name":"눈덩이","language":"ko"},{"name":"ゆきだま","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 689,
+  "name": "snowball",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "held-items"
+  },
+  "effect_entries": [],
+  "flavor_text_entries": [
+    {
+      "text": "使い捨ての　ゆきだま。\n持たせて　こおりの　技を　受けると\n攻撃が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt boosts Attack if hit with an Ice-type\nattack. It can only be used once.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Palla di neve monouso.\nSe il Pokémon che ce l’ha subisce una mossa\ndi tipo Ghiaccio, il suo Attacco aumenta.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una de las misteriosas Megapiedras. Permite\nmegaevolucionar a Banette en combate.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Wird der Träger von einer Eis-Attacke getroffen,\nsteigt sein Angriff und das Item verschwindet.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à usage unique. Tenue, elle augmente\nl’Attaque du Pokémon lorsqu’il est touché par\nune capacité de type Glace.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "단 한 번 쓰면 없어지는 눈덩이.\n지니게 하고 얼음 기술을 받으면\n공격이 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "つかいすての　ゆきだま。\nもたせて　こおりの　わざを　うけると\nこうげきが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 649,
+      "generation": {
+        "name": "generation-vi"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Snowball",
+      "language": "en"
+    },
+    {
+      "name": "Palla di neve",
+      "language": "it"
+    },
+    {
+      "name": "Bola de Nieve",
+      "language": "es"
+    },
+    {
+      "name": "Schneeball",
+      "language": "de"
+    },
+    {
+      "name": "Boule de Neige",
+      "language": "fr"
+    },
+    {
+      "name": "눈덩이",
+      "language": "ko"
+    },
+    {
+      "name": "ゆきだま",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

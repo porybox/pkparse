@@ -1,1 +1,154 @@
-{"id":443,"name":"gible","order":464,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":40,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":6,"pokedex":{"name":"kalos-mountain"}},{"entry_number":85,"pokedex":{"name":"conquest-gallery"}},{"entry_number":109,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":109,"pokedex":{"name":"original-sinnoh"}},{"entry_number":443,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"dragon"},{"name":"monster"}],"color":{"name":"blue"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"フカマル","language":"ja"},{"name":"Fukamaru","language":"roomaji"},{"name":"딥상어동","language":"ko"},{"name":"圓陸鲨","language":"zh"},{"name":"Griknot","language":"fr"},{"name":"Kaumalat","language":"de"},{"name":"Gible","language":"es"},{"name":"Gible","language":"it"},{"name":"Gible","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"りくザメ","language":"ja"},{"genus":"육지상어","language":"ko"},{"genus":"Terrequin","language":"fr"},{"genus":"Landhai","language":"de"},{"genus":"Terrascualo","language":"es"},{"genus":"Squaloterra","language":"it"},{"genus":"Land Shark","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"gible"}}],"first_evolution_id":443}
+{
+  "id": 443,
+  "name": "gible",
+  "order": 464,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 40,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 6,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 85,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 109,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 109,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 443,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "dragon"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "フカマル",
+      "language": "ja"
+    },
+    {
+      "name": "Fukamaru",
+      "language": "roomaji"
+    },
+    {
+      "name": "딥상어동",
+      "language": "ko"
+    },
+    {
+      "name": "圓陸鲨",
+      "language": "zh"
+    },
+    {
+      "name": "Griknot",
+      "language": "fr"
+    },
+    {
+      "name": "Kaumalat",
+      "language": "de"
+    },
+    {
+      "name": "Gible",
+      "language": "es"
+    },
+    {
+      "name": "Gible",
+      "language": "it"
+    },
+    {
+      "name": "Gible",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "りくザメ",
+      "language": "ja"
+    },
+    {
+      "genus": "육지상어",
+      "language": "ko"
+    },
+    {
+      "genus": "Terrequin",
+      "language": "fr"
+    },
+    {
+      "genus": "Landhai",
+      "language": "de"
+    },
+    {
+      "genus": "Terrascualo",
+      "language": "es"
+    },
+    {
+      "genus": "Squaloterra",
+      "language": "it"
+    },
+    {
+      "genus": "Land Shark",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "gible"
+      }
+    }
+  ],
+  "first_evolution_id": 443
+}

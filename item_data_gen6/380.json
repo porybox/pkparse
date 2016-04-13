@@ -1,1 +1,170 @@
-{"id":357,"name":"tm53","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Energy Ball to a compatible Pokémon.","short_effect":"Teaches Energy Ball to a compatible Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"自然から　集めた\n命の力を　発射する。\n相手の　特防を　さげることが　ある。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user draws power from nature and\nfires it at the target. This may also\nlower the target’s Sp. Def.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa attinge energia dalla natura e la scaglia\ncontro il nemico. Può anche ridurne la Difesa\nSpeciale.","version_group":{"name":"x-y"},"language":"it"},{"text":"Lanza una luz cegadora que reduce la Precisión\ndel objetivo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Entfesselt die Kraft der Natur gegen das Ziel.\nDessen Spezial-Verteidigung sinkt eventuell.","version_group":{"name":"x-y"},"language":"de"},{"text":"Utilise les pouvoirs de la nature pour attaquer\nl’ennemi. Peut aussi baisser sa Défense Spéciale.","version_group":{"name":"x-y"},"language":"fr"},{"text":"자연으로부터 모은\n생명의 힘을 발사한다. 상대의\n특수방어를 떨어뜨릴 때가 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"いのちの　ちからを　あつめて\nこうげきする。　あたった　あいての\nとくぼうを　さげることが　ある。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user draws power from nature and\nfires it at the target. It may also\nlower the target’s Sp. Def.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user draws power from nature and\nfires it at the target. It may also\nlower the target’s Sp. Def.","version_group":{"name":"black-white"},"language":"en"},{"text":"Utilise les pouvoirs de la nature pour\nattaquer l’ennemi. Peut aussi baisser\nla Défense Spéciale de l’ennemi.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user draws power from nature and\nfires it at the foe. It may also lower\nthe target’s Sp. Def.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user draws power from nature and\nfires it at the foe. It may also lower\nthe target’s Sp. Def.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user draws power from nature and\nfires it at the foe. It may also lower\nthe target’s Sp. Def.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":380,"generation":{"name":"generation-vi"}},{"game_index":380,"generation":{"name":"generation-v"}},{"game_index":380,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM53","language":"en"},{"name":"MT53","language":"it"},{"name":"MT53","language":"es"},{"name":"TM53","language":"de"},{"name":"CT53","language":"fr"},{"name":"기술머신53","language":"ko"},{"name":"わざマシン５３","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 357,
+  "name": "tm53",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Energy Ball to a compatible Pokémon.",
+      "short_effect": "Teaches Energy Ball to a compatible Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "自然から　集めた\n命の力を　発射する。\n相手の　特防を　さげることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user draws power from nature and\nfires it at the target. This may also\nlower the target’s Sp. Def.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa attinge energia dalla natura e la scaglia\ncontro il nemico. Può anche ridurne la Difesa\nSpeciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Lanza una luz cegadora que reduce la Precisión\ndel objetivo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Entfesselt die Kraft der Natur gegen das Ziel.\nDessen Spezial-Verteidigung sinkt eventuell.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Utilise les pouvoirs de la nature pour attaquer\nl’ennemi. Peut aussi baisser sa Défense Spéciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "자연으로부터 모은\n생명의 힘을 발사한다. 상대의\n특수방어를 떨어뜨릴 때가 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "いのちの　ちからを　あつめて\nこうげきする。　あたった　あいての\nとくぼうを　さげることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user draws power from nature and\nfires it at the target. It may also\nlower the target’s Sp. Def.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user draws power from nature and\nfires it at the target. It may also\nlower the target’s Sp. Def.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Utilise les pouvoirs de la nature pour\nattaquer l’ennemi. Peut aussi baisser\nla Défense Spéciale de l’ennemi.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user draws power from nature and\nfires it at the foe. It may also lower\nthe target’s Sp. Def.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user draws power from nature and\nfires it at the foe. It may also lower\nthe target’s Sp. Def.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user draws power from nature and\nfires it at the foe. It may also lower\nthe target’s Sp. Def.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 380,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 380,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 380,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM53",
+      "language": "en"
+    },
+    {
+      "name": "MT53",
+      "language": "it"
+    },
+    {
+      "name": "MT53",
+      "language": "es"
+    },
+    {
+      "name": "TM53",
+      "language": "de"
+    },
+    {
+      "name": "CT53",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신53",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン５３",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

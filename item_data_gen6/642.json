@@ -1,1 +1,110 @@
-{"id":741,"name":"profs-letter","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[],"flavor_text_entries":[{"text":"プラターヌ博士から\nママあてに　書かれた　手紙。\nほんのり　いい　香りがする。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A letter that Professor Sycamore wrote\nto your mother. A faint but pleasant\nperfume seems to cling to the paper.","version_group":{"name":"x-y"},"language":"en"},{"text":"Lettera del Professor Platan per la mamma.\nEmana un delicato profumo.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una de las misteriosas Megapiedras. Permite\nmegaevolucionar a Blastoise en combate.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein an deine Mutter adressierter Brief von\nProfessor Platan. Ihm haftet ein schwacher\nParfümduft an.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une lettre du Professeur Platane à Maman.\nElle dégage un parfum subtil.","version_group":{"name":"x-y"},"language":"fr"},{"text":"플라타느박사가\n엄마에게 쓴 편지.\n은은하게 좋은 향기가 난다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"プラターヌはかせから\nママあてに　かかれた　てがみ。\nほんのり　いい　かおりがする。","version_group":{"name":"x-y"},"language":"ja"}],"game_indices":[{"game_index":642,"generation":{"name":"generation-vi"}}],"names":[{"name":"Prof's Letter","language":"en"},{"name":"Lettera del Prof","language":"it"},{"name":"Carta Profesor","language":"es"},{"name":"Brief vom Prof","language":"de"},{"name":"Lettre du Prof","language":"fr"},{"name":"박사의편지","language":"ko"},{"name":"はかせのてがみ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 741,
+  "name": "profs-letter",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [],
+  "flavor_text_entries": [
+    {
+      "text": "プラターヌ博士から\nママあてに　書かれた　手紙。\nほんのり　いい　香りがする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A letter that Professor Sycamore wrote\nto your mother. A faint but pleasant\nperfume seems to cling to the paper.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Lettera del Professor Platan per la mamma.\nEmana un delicato profumo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una de las misteriosas Megapiedras. Permite\nmegaevolucionar a Blastoise en combate.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein an deine Mutter adressierter Brief von\nProfessor Platan. Ihm haftet ein schwacher\nParfümduft an.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une lettre du Professeur Platane à Maman.\nElle dégage un parfum subtil.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "플라타느박사가\n엄마에게 쓴 편지.\n은은하게 좋은 향기가 난다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "プラターヌはかせから\nママあてに　かかれた　てがみ。\nほんのり　いい　かおりがする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 642,
+      "generation": {
+        "name": "generation-vi"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Prof's Letter",
+      "language": "en"
+    },
+    {
+      "name": "Lettera del Prof",
+      "language": "it"
+    },
+    {
+      "name": "Carta Profesor",
+      "language": "es"
+    },
+    {
+      "name": "Brief vom Prof",
+      "language": "de"
+    },
+    {
+      "name": "Lettre du Prof",
+      "language": "fr"
+    },
+    {
+      "name": "박사의편지",
+      "language": "ko"
+    },
+    {
+      "name": "はかせのてがみ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

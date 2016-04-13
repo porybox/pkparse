@@ -1,1 +1,131 @@
-{"id":584,"name":"vanilluxe","order":585,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":87,"pokedex":{"name":"kalos-mountain"}},{"entry_number":257,"pokedex":{"name":"updated-unova"}},{"entry_number":90,"pokedex":{"name":"original-unova"}},{"entry_number":584,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"mineral"}],"color":{"name":"white"},"shape":{"name":"heads"},"evolves_from_species":{"name":"vanillish"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-v"},"names":[{"name":"バイバニラ","language":"ja"},{"name":"배바닐라","language":"ko"},{"name":"Sorbouboul","language":"fr"},{"name":"Gelatwino","language":"de"},{"name":"Vanilluxe","language":"es"},{"name":"Vanilluxe","language":"it"},{"name":"Vanilluxe","language":"en"}],"pal_park_encounters":[],"form_descriptions":[],"genera":[{"genus":"ブリザード","language":"ja"},{"genus":"블리자드","language":"ko"},{"genus":"Congère","language":"fr"},{"genus":"Schneesturm","language":"de"},{"genus":"Nieve Gélida","language":"es"},{"genus":"Bufera","language":"it"},{"genus":"Snowstorm","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"vanilluxe"}}],"first_evolution_id":582}
+{
+  "id": 584,
+  "name": "vanilluxe",
+  "order": 585,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 87,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 257,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 90,
+      "pokedex": {
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 584,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "mineral"
+    }
+  ],
+  "color": {
+    "name": "white"
+  },
+  "shape": {
+    "name": "heads"
+  },
+  "evolves_from_species": {
+    "name": "vanillish"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "バイバニラ",
+      "language": "ja"
+    },
+    {
+      "name": "배바닐라",
+      "language": "ko"
+    },
+    {
+      "name": "Sorbouboul",
+      "language": "fr"
+    },
+    {
+      "name": "Gelatwino",
+      "language": "de"
+    },
+    {
+      "name": "Vanilluxe",
+      "language": "es"
+    },
+    {
+      "name": "Vanilluxe",
+      "language": "it"
+    },
+    {
+      "name": "Vanilluxe",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ブリザード",
+      "language": "ja"
+    },
+    {
+      "genus": "블리자드",
+      "language": "ko"
+    },
+    {
+      "genus": "Congère",
+      "language": "fr"
+    },
+    {
+      "genus": "Schneesturm",
+      "language": "de"
+    },
+    {
+      "genus": "Nieve Gélida",
+      "language": "es"
+    },
+    {
+      "genus": "Bufera",
+      "language": "it"
+    },
+    {
+      "genus": "Snowstorm",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "vanilluxe"
+      }
+    }
+  ],
+  "first_evolution_id": 582
+}

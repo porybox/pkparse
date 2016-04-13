@@ -1,1 +1,176 @@
-{"id":131,"name":"healer","is_main_series":true,"generation":{"name":"generation-v"},"names":[{"name":"Healer","language":"en"},{"name":"Curacuore","language":"it"},{"name":"Alma Cura","language":"es"},{"name":"Heilherz","language":"de"},{"name":"Cœur Soin","language":"fr"},{"name":"치유의마음","language":"ko"},{"name":"いやしのこころ","language":"ja"}],"effect_entries":[{"effect":"Friendly Pokémon next to this Pokémon in double and triple battles each have a 30% chance of being cured of any [major status ailment]{mechanic:major-status-ailment} after each turn.","short_effect":"Has a 30% chance of curing each adjacent ally of any [major status ailment]{mechanic:major-status-ailment} after each turn.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"状態異常の\n味方を　たまに　治す。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Sometimes heals an\nally’s status condition.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"A volte cura i problemi di stato\ndegli alleati.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"A veces cura los cambios\nde estado de un aliado.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Befreit Mitstreiter gelegentlich\nvon Statusproblemen.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Guérit parfois le statut des alliés\nalentour.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"같은 편의 상태 이상을\n가끔 회복시킨다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"じょうたい　いじょうの\nみかたを　たまに　なおす。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"May heal an ally’s status\nconditions.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"May heal an ally’s status\nconditions.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Guérit parfois le statut\ndes alliés alentour.","version_group":{"name":"black-white"},"language":"fr"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"chansey"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"bellossom"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"blissey"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"audino"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"alomomola"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"spritzee"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"aromatisse"}}]}
+{
+  "id": 131,
+  "name": "healer",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "Healer",
+      "language": "en"
+    },
+    {
+      "name": "Curacuore",
+      "language": "it"
+    },
+    {
+      "name": "Alma Cura",
+      "language": "es"
+    },
+    {
+      "name": "Heilherz",
+      "language": "de"
+    },
+    {
+      "name": "Cœur Soin",
+      "language": "fr"
+    },
+    {
+      "name": "치유의마음",
+      "language": "ko"
+    },
+    {
+      "name": "いやしのこころ",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Friendly Pokémon next to this Pokémon in double and triple battles each have a 30% chance of being cured of any [major status ailment]{mechanic:major-status-ailment} after each turn.",
+      "short_effect": "Has a 30% chance of curing each adjacent ally of any [major status ailment]{mechanic:major-status-ailment} after each turn.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "状態異常の\n味方を　たまに　治す。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Sometimes heals an\nally’s status condition.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "A volte cura i problemi di stato\ndegli alleati.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "A veces cura los cambios\nde estado de un aliado.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Befreit Mitstreiter gelegentlich\nvon Statusproblemen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Guérit parfois le statut des alliés\nalentour.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "같은 편의 상태 이상을\n가끔 회복시킨다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "じょうたい　いじょうの\nみかたを　たまに　なおす。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "May heal an ally’s status\nconditions.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "May heal an ally’s status\nconditions.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Guérit parfois le statut\ndes alliés alentour.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "chansey"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "bellossom"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "blissey"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "audino"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "alomomola"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "spritzee"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "aromatisse"
+      }
+    }
+  ]
+}

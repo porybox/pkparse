@@ -1,1 +1,183 @@
-{"id":465,"name":"dowsing-machine","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Used by trainer outside of battle\n:   Searches for hidden items.","short_effect":"Use to find hidden items on the field. AKA Itemfinder.","language":"en"}],"flavor_text_entries":[{"text":"みえない　道具に　反応して\n音と　光で　教えてくれる\n最新の　機械。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"It searches for hidden items in the\narea and emits different lights and\nsounds when it detects something.","version_group":{"name":"x-y"},"language":"en"},{"text":"Dispositivo ultramoderno che indica la direzione\nin cui si trovano gli strumenti invisibili\nemettendo dei suoni.","version_group":{"name":"x-y"},"language":"it"},{"text":"Bonguri de color blanco que no desprende aroma\nalguno.","version_group":{"name":"x-y"},"language":"es"},{"text":"Scannt die Umgebung nach unsichtbaren Items.\nEs blinkt und piept, sobald es etwas findet.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un appareil high-tech qui indique l’emplacement\ndes objets invisibles en émettant un son et en\nclignotant.","version_group":{"name":"x-y"},"language":"fr"},{"text":"보이지 않는 도구에 반응해서\n소리와 빛으로 가르쳐주는\n최신 기계.","version_group":{"name":"x-y"},"language":"ko"},{"text":"みえない　どうぐに　はんのうして\nおとと　ひかりで　おしえてくれる\nさいしんの　きかい。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It checks for unseen items in the area\nand makes noise and lights when it\nfinds something.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It checks for unseen items in the area\nand makes noise and lights when it\nfinds something.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un appareil high-tech qui indique\nl’emplacement des objets invisibles\nen émettant un son et en clignotant.","version_group":{"name":"black-white"},"language":"fr"},{"text":"It checks for unseen items in the area\nand makes noise and lights when it\nfinds something.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A device used for finding items.\nIf there is a hidden item nearby\nwhen it is used, it emits a signal.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A device that\nsignals an invisible\nitem by sound.","version_group":{"name":"emerald"},"language":"en"},{"text":"A device that\nsignals an invisible\nitem by sound.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":471,"generation":{"name":"generation-vi"}},{"game_index":471,"generation":{"name":"generation-v"}},{"game_index":471,"generation":{"name":"generation-iv"}},{"game_index":261,"generation":{"name":"generation-iii"}}],"names":[{"name":"Dowsing Machine","language":"en"},{"name":"Ricerca Strum.","language":"it"},{"name":"Zahorí","language":"es"},{"name":"Itemradar","language":"de"},{"name":"Cherch'Objet","language":"fr"},{"name":"다우징머신","language":"ko"},{"name":"ダウジングマシン","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 465,
+  "name": "dowsing-machine",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used by trainer outside of battle\n:   Searches for hidden items.",
+      "short_effect": "Use to find hidden items on the field. AKA Itemfinder.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "みえない　道具に　反応して\n音と　光で　教えてくれる\n最新の　機械。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "It searches for hidden items in the\narea and emits different lights and\nsounds when it detects something.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Dispositivo ultramoderno che indica la direzione\nin cui si trovano gli strumenti invisibili\nemettendo dei suoni.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Bonguri de color blanco que no desprende aroma\nalguno.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Scannt die Umgebung nach unsichtbaren Items.\nEs blinkt und piept, sobald es etwas findet.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un appareil high-tech qui indique l’emplacement\ndes objets invisibles en émettant un son et en\nclignotant.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "보이지 않는 도구에 반응해서\n소리와 빛으로 가르쳐주는\n최신 기계.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "みえない　どうぐに　はんのうして\nおとと　ひかりで　おしえてくれる\nさいしんの　きかい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It checks for unseen items in the area\nand makes noise and lights when it\nfinds something.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It checks for unseen items in the area\nand makes noise and lights when it\nfinds something.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un appareil high-tech qui indique\nl’emplacement des objets invisibles\nen émettant un son et en clignotant.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "It checks for unseen items in the area\nand makes noise and lights when it\nfinds something.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A device used for finding items.\nIf there is a hidden item nearby\nwhen it is used, it emits a signal.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A device that\nsignals an invisible\nitem by sound.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A device that\nsignals an invisible\nitem by sound.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 471,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 471,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 471,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 261,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Dowsing Machine",
+      "language": "en"
+    },
+    {
+      "name": "Ricerca Strum.",
+      "language": "it"
+    },
+    {
+      "name": "Zahorí",
+      "language": "es"
+    },
+    {
+      "name": "Itemradar",
+      "language": "de"
+    },
+    {
+      "name": "Cherch'Objet",
+      "language": "fr"
+    },
+    {
+      "name": "다우징머신",
+      "language": "ko"
+    },
+    {
+      "name": "ダウジングマシン",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,183 @@
-{"id":2,"name":"drizzle","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Drizzle","language":"en"},{"name":"Piovischio","language":"it"},{"name":"Llovizna","language":"es"},{"name":"Niesel","language":"de"},{"name":"Crachin","language":"fr"},{"name":"잔비","language":"ko"},{"name":"あめふらし","language":"ja"}],"effect_entries":[{"effect":"The [weather]{mechanic:weather} changes to [rain]{mechanic:rain} when this Pokémon enters battle and does not end unless replaced by another weather condition.\n\nIf multiple Pokémon with this ability, []{ability:drought}, []{ability:sand-stream}, or []{ability:snow-warning} are sent out at the same time, the abilities will activate in order of [Speed]{mechanic:speed}, respecting []{move:trick-room}.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.","short_effect":"Summons [rain]{mechanic:rain} that lasts indefinitely upon entering battle.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"戦闘に　でると\n雨を　降らす。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"The Pokémon makes it rain\nwhen it enters a battle.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Quando scende in campo,\nil Pokémon attira la pioggia.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Hace que llueva cuando entra en\ncombate.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Ruft im Kampf Regen herbei.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Le Pokémon invoque la pluie\nquand il entre au combat.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"배틀에 나가면\n비를 내린다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"せんとうに　でると\nあめを　ふらす。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"The Pokémon makes it rain\nif it appears in battle.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"The Pokémon makes it rain\nif it appears in battle.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Le Pokémon invoque la pluie\nquand il entre au combat.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"The Pokémon makes it rain\nif it appears in battle.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"The Pokémon makes it rain\nif it appears in battle.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"The Pokémon makes it rain\nif it appears in battle.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"Summons rain in battle.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"Summons rain in battle.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"Summons rain in battle.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"politoed"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"kyogre"}}]}
+{
+  "id": 2,
+  "name": "drizzle",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Drizzle",
+      "language": "en"
+    },
+    {
+      "name": "Piovischio",
+      "language": "it"
+    },
+    {
+      "name": "Llovizna",
+      "language": "es"
+    },
+    {
+      "name": "Niesel",
+      "language": "de"
+    },
+    {
+      "name": "Crachin",
+      "language": "fr"
+    },
+    {
+      "name": "잔비",
+      "language": "ko"
+    },
+    {
+      "name": "あめふらし",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "The [weather]{mechanic:weather} changes to [rain]{mechanic:rain} when this Pokémon enters battle and does not end unless replaced by another weather condition.\n\nIf multiple Pokémon with this ability, []{ability:drought}, []{ability:sand-stream}, or []{ability:snow-warning} are sent out at the same time, the abilities will activate in order of [Speed]{mechanic:speed}, respecting []{move:trick-room}.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
+      "short_effect": "Summons [rain]{mechanic:rain} that lasts indefinitely upon entering battle.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "戦闘に　でると\n雨を　降らす。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "The Pokémon makes it rain\nwhen it enters a battle.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Quando scende in campo,\nil Pokémon attira la pioggia.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Hace que llueva cuando entra en\ncombate.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Ruft im Kampf Regen herbei.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Le Pokémon invoque la pluie\nquand il entre au combat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "배틀에 나가면\n비를 내린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "せんとうに　でると\nあめを　ふらす。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "The Pokémon makes it rain\nif it appears in battle.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon makes it rain\nif it appears in battle.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Le Pokémon invoque la pluie\nquand il entre au combat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "The Pokémon makes it rain\nif it appears in battle.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon makes it rain\nif it appears in battle.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon makes it rain\nif it appears in battle.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Summons rain in battle.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Summons rain in battle.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Summons rain in battle.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "politoed"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "kyogre"
+      }
+    }
+  ]
+}

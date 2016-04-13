@@ -1,1 +1,197 @@
-{"id":398,"name":"hm02","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Fly to a compatible Pokémon.","short_effect":"Teaches Fly to a compatible Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"１ターン目で　空へ　飛び\n２ターン目に　相手を　攻撃する。\n知っている　街に　移動も　できる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user soars and then strikes\nits target on the next turn. This can\nalso be used to fly to any familiar town.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa si alza in volo per attaccare al turno\nseguente. Fuori dalla lotta permette di volare\nin città già visitate.","version_group":{"name":"x-y"},"language":"it"},{"text":"Desactiva los sistemas de seguridad de la Base\nGalaxia. Por lo visto, perder esta tarjeta se\ncastiga severamente.","version_group":{"name":"x-y"},"language":"es"},{"text":"In Runde 1 fliegt der Angreifer empor und\nattackiert in Runde 2. Man kann damit zu\njedem bekannten Ort fliegen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur s’envole au premier tour et frappe au\nsecond. Permet aussi de voler jusqu’à une ville\ndéjà visitée.","version_group":{"name":"x-y"},"language":"fr"},{"text":"1턴째에 하늘을 날아올라\n2턴째에 공격한다.\n알고 있는 도시로 이동할 수 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"１ターンめで　そらへ　とびあがって\n２ターンめで　こうげきする。\nしっているまちに　いどうも　できる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.","version_group":{"name":"black-white"},"language":"en"},{"text":"Le lanceur s’envole au 1er tour et\nfrappe au 2è. Permet aussi de voler\njusqu’à une ville déjà visitée.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A 2-turn move that\nhits on the 2nd\nturn. Use it to fly\nto any known town.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Flies up on the\nfirst turn, then\nattacks next turn.","version_group":{"name":"emerald"},"language":"en"},{"text":"Flies up on the\nfirst turn, then\nattacks next turn.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":421,"generation":{"name":"generation-vi"}},{"game_index":421,"generation":{"name":"generation-v"}},{"game_index":421,"generation":{"name":"generation-iv"}},{"game_index":340,"generation":{"name":"generation-iii"}}],"names":[{"name":"HM02","language":"en"},{"name":"MN02","language":"it"},{"name":"MO02","language":"es"},{"name":"VM02","language":"de"},{"name":"CS02","language":"fr"},{"name":"비전머신02","language":"ko"},{"name":"ひでんマシン０２","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 398,
+  "name": "hm02",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Fly to a compatible Pokémon.",
+      "short_effect": "Teaches Fly to a compatible Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "１ターン目で　空へ　飛び\n２ターン目に　相手を　攻撃する。\n知っている　街に　移動も　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user soars and then strikes\nits target on the next turn. This can\nalso be used to fly to any familiar town.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa si alza in volo per attaccare al turno\nseguente. Fuori dalla lotta permette di volare\nin città già visitate.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Desactiva los sistemas de seguridad de la Base\nGalaxia. Por lo visto, perder esta tarjeta se\ncastiga severamente.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "In Runde 1 fliegt der Angreifer empor und\nattackiert in Runde 2. Man kann damit zu\njedem bekannten Ort fliegen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur s’envole au premier tour et frappe au\nsecond. Permet aussi de voler jusqu’à une ville\ndéjà visitée.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "1턴째에 하늘을 날아올라\n2턴째에 공격한다.\n알고 있는 도시로 이동할 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "１ターンめで　そらへ　とびあがって\n２ターンめで　こうげきする。\nしっているまちに　いどうも　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur s’envole au 1er tour et\nfrappe au 2è. Permet aussi de voler\njusqu’à une ville déjà visitée.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A 2-turn move that\nhits on the 2nd\nturn. Use it to fly\nto any known town.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Flies up on the\nfirst turn, then\nattacks next turn.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Flies up on the\nfirst turn, then\nattacks next turn.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 421,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 421,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 421,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 340,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "HM02",
+      "language": "en"
+    },
+    {
+      "name": "MN02",
+      "language": "it"
+    },
+    {
+      "name": "MO02",
+      "language": "es"
+    },
+    {
+      "name": "VM02",
+      "language": "de"
+    },
+    {
+      "name": "CS02",
+      "language": "fr"
+    },
+    {
+      "name": "비전머신02",
+      "language": "ko"
+    },
+    {
+      "name": "ひでんマシン０２",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

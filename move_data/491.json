@@ -1,1 +1,90 @@
-{"id":491,"name":"acid-spray","accuracy":100,"effect_chance":100,"pp":20,"priority":0,"power":40,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Lowers the target's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}.","short_effect":"Lowers the target's Special Defense by two stages.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage+lower"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":100},"names":[{"name":"Acid Spray","language":"en"},{"name":"Acidobomba","language":"it"},{"name":"Bomba Ácida","language":"es"},{"name":"Säurespeier","language":"de"},{"name":"Bombe Acide","language":"fr"},{"name":"애시드봄","language":"ko"},{"name":"アシッドボム","language":"ja"}],"past_values":[],"stat_changes":[{"change":-2,"stat":{"name":"special-defense"}}],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"poison"}}
+{
+  "id": 491,
+  "name": "acid-spray",
+  "accuracy": 100,
+  "effect_chance": 100,
+  "pp": 20,
+  "priority": 0,
+  "power": 40,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Lowers the target's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}.",
+      "short_effect": "Lowers the target's Special Defense by two stages.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage+lower"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": [
+    {
+      "name": "Acid Spray",
+      "language": "en"
+    },
+    {
+      "name": "Acidobomba",
+      "language": "it"
+    },
+    {
+      "name": "Bomba Ácida",
+      "language": "es"
+    },
+    {
+      "name": "Säurespeier",
+      "language": "de"
+    },
+    {
+      "name": "Bombe Acide",
+      "language": "fr"
+    },
+    {
+      "name": "애시드봄",
+      "language": "ko"
+    },
+    {
+      "name": "アシッドボム",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": -2,
+      "stat": {
+        "name": "special-defense"
+      }
+    }
+  ],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "poison"
+  }
+}

@@ -1,1 +1,85 @@
-{"id":365,"name":"pluck","accuracy":100,"effect_chance":null,"pp":20,"priority":0,"power":60,"contest_combos":null,"contest_type":{"name":"cute"},"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately.\n\nIf the target is holding a []{item:jaboca-berry} or []{item:rowap-berry}, the berry is still removed, but has no effect.\n\nIf this move is [super effective]{mechanic:super-effective} and the target is holding a berry that can reduce this move's damage, it will do so, and will not be stolen.","short_effect":"If target has a berry, inflicts double damage and uses the berry.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Pluck","language":"en"},{"name":"Spennata","language":"it"},{"name":"Picoteo","language":"es"},{"name":"Pflücker","language":"de"},{"name":"Picore","language":"fr"},{"name":"쪼아대기","language":"ko"},{"name":"ついばむ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"flying"}}
+{
+  "id": 365,
+  "name": "pluck",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": 60,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target is holding a berry, this move has double power, and the user takes the berry and uses it immediately.\n\nIf the target is holding a []{item:jaboca-berry} or []{item:rowap-berry}, the berry is still removed, but has no effect.\n\nIf this move is [super effective]{mechanic:super-effective} and the target is holding a berry that can reduce this move's damage, it will do so, and will not be stolen.",
+      "short_effect": "If target has a berry, inflicts double damage and uses the berry.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Pluck",
+      "language": "en"
+    },
+    {
+      "name": "Spennata",
+      "language": "it"
+    },
+    {
+      "name": "Picoteo",
+      "language": "es"
+    },
+    {
+      "name": "Pflücker",
+      "language": "de"
+    },
+    {
+      "name": "Picore",
+      "language": "fr"
+    },
+    {
+      "name": "쪼아대기",
+      "language": "ko"
+    },
+    {
+      "name": "ついばむ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "flying"
+  }
+}

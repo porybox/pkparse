@@ -1,1 +1,173 @@
-{"id":119,"name":"seaking","order":136,"gender_rate":4,"capture_rate":60,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":54,"pokedex":{"name":"kalos-central"}},{"entry_number":79,"pokedex":{"name":"updated-johto"}},{"entry_number":79,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":79,"pokedex":{"name":"original-sinnoh"}},{"entry_number":51,"pokedex":{"name":"hoenn"}},{"entry_number":79,"pokedex":{"name":"original-johto"}},{"entry_number":119,"pokedex":{"name":"kanto"}},{"entry_number":119,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water2"}],"color":{"name":"red"},"shape":{"name":"fish"},"evolves_from_species":{"name":"goldeen"},"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-i"},"names":[{"name":"アズマオウ","language":"ja"},{"name":"Azumao","language":"roomaji"},{"name":"왕콘치","language":"ko"},{"name":"金魚王","language":"zh"},{"name":"Poissoroy","language":"fr"},{"name":"Golking","language":"de"},{"name":"Seaking","language":"es"},{"name":"Seaking","language":"it"},{"name":"Seaking","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"pond"}}],"form_descriptions":[],"genera":[{"genus":"きんぎょ","language":"ja"},{"genus":"금붕어","language":"ko"},{"genus":"Poisson","language":"fr"},{"genus":"Goldfisch","language":"de"},{"genus":"Pez Color","language":"es"},{"genus":"Pescerosso","language":"it"},{"genus":"Goldfish","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"seaking"}}],"first_evolution_id":118}
+{
+  "id": 119,
+  "name": "seaking",
+  "order": 136,
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 54,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 79,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 79,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 79,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 51,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 79,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 119,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 119,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water2"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "fish"
+  },
+  "evolves_from_species": {
+    "name": "goldeen"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "アズマオウ",
+      "language": "ja"
+    },
+    {
+      "name": "Azumao",
+      "language": "roomaji"
+    },
+    {
+      "name": "왕콘치",
+      "language": "ko"
+    },
+    {
+      "name": "金魚王",
+      "language": "zh"
+    },
+    {
+      "name": "Poissoroy",
+      "language": "fr"
+    },
+    {
+      "name": "Golking",
+      "language": "de"
+    },
+    {
+      "name": "Seaking",
+      "language": "es"
+    },
+    {
+      "name": "Seaking",
+      "language": "it"
+    },
+    {
+      "name": "Seaking",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "pond"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "きんぎょ",
+      "language": "ja"
+    },
+    {
+      "genus": "금붕어",
+      "language": "ko"
+    },
+    {
+      "genus": "Poisson",
+      "language": "fr"
+    },
+    {
+      "genus": "Goldfisch",
+      "language": "de"
+    },
+    {
+      "genus": "Pez Color",
+      "language": "es"
+    },
+    {
+      "genus": "Pescerosso",
+      "language": "it"
+    },
+    {
+      "genus": "Goldfish",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "seaking"
+      }
+    }
+  ],
+  "first_evolution_id": 118
+}

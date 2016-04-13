@@ -1,1 +1,147 @@
-{"id":56,"name":"mankey","order":61,"gender_rate":4,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":136,"pokedex":{"name":"updated-johto"}},{"entry_number":134,"pokedex":{"name":"original-johto"}},{"entry_number":56,"pokedex":{"name":"kanto"}},{"entry_number":56,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-i"},"names":[{"name":"マンキー","language":"ja"},{"name":"Mankey","language":"roomaji"},{"name":"망키","language":"ko"},{"name":"猴怪","language":"zh"},{"name":"Férosinge","language":"fr"},{"name":"Menki","language":"de"},{"name":"Mankey","language":"es"},{"name":"Mankey","language":"it"},{"name":"Mankey","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ぶたざる","language":"ja"},{"genus":"돈숭이","language":"ko"},{"genus":"Porsinge","language":"fr"},{"genus":"Schw./ Affe","language":"de"},{"genus":"Mono Cerdo","language":"es"},{"genus":"Suinpanzé","language":"it"},{"genus":"Pig Monkey","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"mankey"}}],"first_evolution_id":56}
+{
+  "id": 56,
+  "name": "mankey",
+  "order": 61,
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 136,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 134,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 56,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 56,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "マンキー",
+      "language": "ja"
+    },
+    {
+      "name": "Mankey",
+      "language": "roomaji"
+    },
+    {
+      "name": "망키",
+      "language": "ko"
+    },
+    {
+      "name": "猴怪",
+      "language": "zh"
+    },
+    {
+      "name": "Férosinge",
+      "language": "fr"
+    },
+    {
+      "name": "Menki",
+      "language": "de"
+    },
+    {
+      "name": "Mankey",
+      "language": "es"
+    },
+    {
+      "name": "Mankey",
+      "language": "it"
+    },
+    {
+      "name": "Mankey",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ぶたざる",
+      "language": "ja"
+    },
+    {
+      "genus": "돈숭이",
+      "language": "ko"
+    },
+    {
+      "genus": "Porsinge",
+      "language": "fr"
+    },
+    {
+      "genus": "Schw./ Affe",
+      "language": "de"
+    },
+    {
+      "genus": "Mono Cerdo",
+      "language": "es"
+    },
+    {
+      "genus": "Suinpanzé",
+      "language": "it"
+    },
+    {
+      "genus": "Pig Monkey",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "mankey"
+      }
+    }
+  ],
+  "first_evolution_id": 56
+}

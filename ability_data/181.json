@@ -1,1 +1,134 @@
-{"id":181,"name":"tough-claws","is_main_series":true,"generation":{"name":"generation-vi"},"names":[{"name":"Tough Claws","language":"en"},{"name":"Unghiedure","language":"it"},{"name":"Garra Dura","language":"es"},{"name":"Krallenwucht","language":"de"},{"name":"Griffe Dure","language":"fr"},{"name":"단단한발톱","language":"ko"},{"name":"かたいツメ","language":"ja"}],"effect_entries":[{"effect":"Strengthens moves that make contact to 1.33× their power.","short_effect":"Strengthens moves that make contact to 1.33× their power.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"接触する　技の\n威力が　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Powers up moves that\nmake direct contact.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Potenzia le mosse che causano\nun contatto fisico.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Aumenta la potencia de los\nmovimientos de contacto directo.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Erhöht die Stärke von direkten\nAngriffen.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Augmente la puissance des\nattaques directes.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"접촉하는 기술의\n위력이 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"せっしょくする　わざの\nいりょくが　あがる。","version_group":{"name":"x-y"},"language":"ja"}],"pokemon":[{"is_hidden":false,"slot":1,"pokemon":{"name":"binacle"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"barbaracle"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"charizard-mega-x"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"aerodactyl-mega"}}]}
+{
+  "id": 181,
+  "name": "tough-claws",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "Tough Claws",
+      "language": "en"
+    },
+    {
+      "name": "Unghiedure",
+      "language": "it"
+    },
+    {
+      "name": "Garra Dura",
+      "language": "es"
+    },
+    {
+      "name": "Krallenwucht",
+      "language": "de"
+    },
+    {
+      "name": "Griffe Dure",
+      "language": "fr"
+    },
+    {
+      "name": "단단한발톱",
+      "language": "ko"
+    },
+    {
+      "name": "かたいツメ",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Strengthens moves that make contact to 1.33× their power.",
+      "short_effect": "Strengthens moves that make contact to 1.33× their power.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "接触する　技の\n威力が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Powers up moves that\nmake direct contact.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Potenzia le mosse che causano\nun contatto fisico.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Aumenta la potencia de los\nmovimientos de contacto directo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Erhöht die Stärke von direkten\nAngriffen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Augmente la puissance des\nattaques directes.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "접촉하는 기술의\n위력이 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "せっしょくする　わざの\nいりょくが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "binacle"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "barbaracle"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "charizard-mega-x"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "aerodactyl-mega"
+      }
+    }
+  ]
+}

@@ -1,1 +1,85 @@
-{"id":393,"name":"magnet-rise","accuracy":null,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"cute"},"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"For five turns, the user is immune to []{type:ground} moves.\n\nIf the user is under the effect of []{move:ingrain} or has []{ability:levitate}, this move will [fail]{mechanic:fail}.\n\nThis effect is temporarily disabled by and cannot be used during []{move:gravity}.\n\nThis effect is passed on by []{move:baton-pass}.","short_effect":"User is immune to Ground moves and effects for five turns.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":5,"max_turns":5,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Magnet Rise","language":"en"},{"name":"Magnetascesa","language":"it"},{"name":"Levitón","language":"es"},{"name":"Magnetflug","language":"de"},{"name":"Vol Magnétik","language":"fr"},{"name":"전자부유","language":"ko"},{"name":"でんじふゆう","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"electric"}}
+{
+  "id": 393,
+  "name": "magnet-rise",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "For five turns, the user is immune to []{type:ground} moves.\n\nIf the user is under the effect of []{move:ingrain} or has []{ability:levitate}, this move will [fail]{mechanic:fail}.\n\nThis effect is temporarily disabled by and cannot be used during []{move:gravity}.\n\nThis effect is passed on by []{move:baton-pass}.",
+      "short_effect": "User is immune to Ground moves and effects for five turns.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": 5,
+    "max_turns": 5,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Magnet Rise",
+      "language": "en"
+    },
+    {
+      "name": "Magnetascesa",
+      "language": "it"
+    },
+    {
+      "name": "Levitón",
+      "language": "es"
+    },
+    {
+      "name": "Magnetflug",
+      "language": "de"
+    },
+    {
+      "name": "Vol Magnétik",
+      "language": "fr"
+    },
+    {
+      "name": "전자부유",
+      "language": "ko"
+    },
+    {
+      "name": "でんじふゆう",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "electric"
+  }
+}

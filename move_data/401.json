@@ -1,1 +1,85 @@
-{"id":401,"name":"aqua-tail","accuracy":90,"effect_chance":null,"pp":10,"priority":0,"power":90,"contest_combos":null,"contest_type":{"name":"cute"},"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.","short_effect":"Inflicts regular damage with no additional effect.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Aqua Tail","language":"en"},{"name":"Idrondata","language":"it"},{"name":"Acua Cola","language":"es"},{"name":"Nassschweif","language":"de"},{"name":"Hydroqueue","language":"fr"},{"name":"아쿠아테일","language":"ko"},{"name":"アクアテール","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"water"}}
+{
+  "id": 401,
+  "name": "aqua-tail",
+  "accuracy": 90,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": 90,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
+      "short_effect": "Inflicts regular damage with no additional effect.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Aqua Tail",
+      "language": "en"
+    },
+    {
+      "name": "Idrondata",
+      "language": "it"
+    },
+    {
+      "name": "Acua Cola",
+      "language": "es"
+    },
+    {
+      "name": "Nassschweif",
+      "language": "de"
+    },
+    {
+      "name": "Hydroqueue",
+      "language": "fr"
+    },
+    {
+      "name": "아쿠아테일",
+      "language": "ko"
+    },
+    {
+      "name": "アクアテール",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "water"
+  }
+}

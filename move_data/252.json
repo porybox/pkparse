@@ -1,1 +1,110 @@
-{"id":252,"name":"fake-out","accuracy":100,"effect_chance":100,"pp":10,"priority":3,"power":40,"contest_combos":{"normal":{"use_before":[{"name":"seismic-toss"},{"name":"feint-attack"},{"name":"vital-throw"},{"name":"knock-off"},{"name":"arm-thrust"}],"use_after":null},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"cute"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Causes the target to []{mechanic:flinch}.  Can only be used on the user's first turn after entering the [field]{mechanic:field}.","short_effect":"Can only be used as the first move after the user enters battle.  Causes the target to flinch.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":100,"stat_chance":0},"names":[{"name":"Fake Out","language":"en"},{"name":"Bruciapelo","language":"it"},{"name":"Sorpresa","language":"es"},{"name":"Mogelhieb","language":"de"},{"name":"Bluff","language":"fr"},{"name":"속이다","language":"ko"},{"name":"ねこだまし","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 252,
+  "name": "fake-out",
+  "accuracy": 100,
+  "effect_chance": 100,
+  "pp": 10,
+  "priority": 3,
+  "power": 40,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "seismic-toss"
+        },
+        {
+          "name": "feint-attack"
+        },
+        {
+          "name": "vital-throw"
+        },
+        {
+          "name": "knock-off"
+        },
+        {
+          "name": "arm-thrust"
+        }
+      ],
+      "use_after": null
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Causes the target to []{mechanic:flinch}.  Can only be used on the user's first turn after entering the [field]{mechanic:field}.",
+      "short_effect": "Can only be used as the first move after the user enters battle.  Causes the target to flinch.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 100,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Fake Out",
+      "language": "en"
+    },
+    {
+      "name": "Bruciapelo",
+      "language": "it"
+    },
+    {
+      "name": "Sorpresa",
+      "language": "es"
+    },
+    {
+      "name": "Mogelhieb",
+      "language": "de"
+    },
+    {
+      "name": "Bluff",
+      "language": "fr"
+    },
+    {
+      "name": "속이다",
+      "language": "ko"
+    },
+    {
+      "name": "ねこだまし",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

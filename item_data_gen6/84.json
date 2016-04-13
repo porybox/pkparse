@@ -1,1 +1,201 @@
-{"id":84,"name":"water-stone","cost":2100,"fling_power":30,"fling_effect":null,"attributes":[{"name":"underground"}],"category":{"name":"evolution"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Evolves an []{pokemon:eevee} into []{pokemon:vaporeon}, a []{pokemon:lombre} into []{pokemon:ludicolo}, a []{pokemon:panpour} into []{pokemon:simipour}, a []{pokemon:poliwhirl} into []{pokemon:poliwrath}, a []{pokemon:shellder} into []{pokemon:cloyster}, or a []{pokemon:staryu} into []{pokemon:starmie}.","short_effect":"Evolves an Eevee into Vaporeon, a Lombre into Ludicolo, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Shellder into Cloyster, or a Staryu into Starmie.","language":"en"}],"flavor_text_entries":[{"text":"ある　特定の　ポケモンを\n進化させる　不思議な　石。\n澄んだ　水色を　している。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A peculiar stone that can make\ncertain species of Pokémon evolve.\nIt is the blue of a pool of clear water.","version_group":{"name":"x-y"},"language":"en"},{"text":"Pietra particolare che fa evolvere determinate\nspecie di Pokémon. Ha delle macchioline azzurre.","version_group":{"name":"x-y"},"language":"it"},{"text":"Curiosa piedra que hace evolucionar a\ndeterminadas especies de Pokémon. Es de\ncolor azul.","version_group":{"name":"x-y"},"language":"es"},{"text":"Dieser spezielle Stein löst bei bestimmten\nPokémon die Entwicklung aus. Er ist hellblau.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une pierre étrange qui fait évoluer certaines\nespèces de Pokémon. Elle est de couleur bleue.","version_group":{"name":"x-y"},"language":"fr"},{"text":"어느 특정 포켓몬을\n진화시키는 이상한 돌.\n투명한 푸른색을 띠고 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ある　とくていの　ポケモンを\nしんかさせる　ふしぎな　いし。\nすんだ　みずいろを　している。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is a clear, light blue.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is a clear, light blue.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon.\nElle est de couleur bleue.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is a clear, light blue.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is a clear, light blue.","version_group":{"name":"platinum"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is a clear, light blue.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of POKéMON evolve.\nIt is a clear light blue.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Makes certain\nspecies of POKéMON\nevolve.","version_group":{"name":"emerald"},"language":"en"},{"text":"Makes certain\nspecies of POKéMON\nevolve.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":84,"generation":{"name":"generation-vi"}},{"game_index":84,"generation":{"name":"generation-v"}},{"game_index":84,"generation":{"name":"generation-iv"}},{"game_index":97,"generation":{"name":"generation-iii"}}],"names":[{"name":"Water Stone","language":"en"},{"name":"Pietraidrica","language":"it"},{"name":"Piedra Agua","language":"es"},{"name":"Wasserstein","language":"de"},{"name":"Pierre Eau","language":"fr"},{"name":"물의돌","language":"ko"},{"name":"みずのいし","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 84,
+  "name": "water-stone",
+  "cost": 2100,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "underground"
+    }
+  ],
+  "category": {
+    "name": "evolution"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Evolves an []{pokemon:eevee} into []{pokemon:vaporeon}, a []{pokemon:lombre} into []{pokemon:ludicolo}, a []{pokemon:panpour} into []{pokemon:simipour}, a []{pokemon:poliwhirl} into []{pokemon:poliwrath}, a []{pokemon:shellder} into []{pokemon:cloyster}, or a []{pokemon:staryu} into []{pokemon:starmie}.",
+      "short_effect": "Evolves an Eevee into Vaporeon, a Lombre into Ludicolo, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Shellder into Cloyster, or a Staryu into Starmie.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ある　特定の　ポケモンを\n進化させる　不思議な　石。\n澄んだ　水色を　している。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A peculiar stone that can make\ncertain species of Pokémon evolve.\nIt is the blue of a pool of clear water.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pietra particolare che fa evolvere determinate\nspecie di Pokémon. Ha delle macchioline azzurre.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Curiosa piedra que hace evolucionar a\ndeterminadas especies de Pokémon. Es de\ncolor azul.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Dieser spezielle Stein löst bei bestimmten\nPokémon die Entwicklung aus. Er ist hellblau.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une pierre étrange qui fait évoluer certaines\nespèces de Pokémon. Elle est de couleur bleue.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "어느 특정 포켓몬을\n진화시키는 이상한 돌.\n투명한 푸른색을 띠고 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ある　とくていの　ポケモンを\nしんかさせる　ふしぎな　いし。\nすんだ　みずいろを　している。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is a clear, light blue.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is a clear, light blue.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon.\nElle est de couleur bleue.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is a clear, light blue.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is a clear, light blue.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is a clear, light blue.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of POKéMON evolve.\nIt is a clear light blue.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Makes certain\nspecies of POKéMON\nevolve.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Makes certain\nspecies of POKéMON\nevolve.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 84,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 84,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 84,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 97,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Water Stone",
+      "language": "en"
+    },
+    {
+      "name": "Pietraidrica",
+      "language": "it"
+    },
+    {
+      "name": "Piedra Agua",
+      "language": "es"
+    },
+    {
+      "name": "Wasserstein",
+      "language": "de"
+    },
+    {
+      "name": "Pierre Eau",
+      "language": "fr"
+    },
+    {
+      "name": "물의돌",
+      "language": "ko"
+    },
+    {
+      "name": "みずのいし",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

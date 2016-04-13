@@ -1,1 +1,153 @@
-{"id":473,"name":"mamoswine","order":253,"gender_rate":4,"capture_rate":50,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":78,"pokedex":{"name":"kalos-mountain"}},{"entry_number":260,"pokedex":{"name":"updated-unova"}},{"entry_number":197,"pokedex":{"name":"updated-johto"}},{"entry_number":205,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":473,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"piloswine"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"マンムー","language":"ja"},{"name":"Mammoo","language":"roomaji"},{"name":"맘모꾸리","language":"ko"},{"name":"象牙豬","language":"zh"},{"name":"Mammochon","language":"fr"},{"name":"Mamutel","language":"de"},{"name":"Mamoswine","language":"es"},{"name":"Mamoswine","language":"it"},{"name":"Mamoswine","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"２ほんキバ","language":"ja"},{"genus":"2개송곳니","language":"ko"},{"genus":"Deudéfenses","language":"fr"},{"genus":"Doppelstoßzahn","language":"de"},{"genus":"Doscolmillos","language":"es"},{"genus":"Duezanne","language":"it"},{"genus":"Twin Tusk","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"mamoswine"}}],"first_evolution_id":220}
+{
+  "id": 473,
+  "name": "mamoswine",
+  "order": 253,
+  "gender_rate": 4,
+  "capture_rate": 50,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 78,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 260,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 197,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 205,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 473,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "piloswine"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "マンムー",
+      "language": "ja"
+    },
+    {
+      "name": "Mammoo",
+      "language": "roomaji"
+    },
+    {
+      "name": "맘모꾸리",
+      "language": "ko"
+    },
+    {
+      "name": "象牙豬",
+      "language": "zh"
+    },
+    {
+      "name": "Mammochon",
+      "language": "fr"
+    },
+    {
+      "name": "Mamutel",
+      "language": "de"
+    },
+    {
+      "name": "Mamoswine",
+      "language": "es"
+    },
+    {
+      "name": "Mamoswine",
+      "language": "it"
+    },
+    {
+      "name": "Mamoswine",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "２ほんキバ",
+      "language": "ja"
+    },
+    {
+      "genus": "2개송곳니",
+      "language": "ko"
+    },
+    {
+      "genus": "Deudéfenses",
+      "language": "fr"
+    },
+    {
+      "genus": "Doppelstoßzahn",
+      "language": "de"
+    },
+    {
+      "genus": "Doscolmillos",
+      "language": "es"
+    },
+    {
+      "genus": "Duezanne",
+      "language": "it"
+    },
+    {
+      "genus": "Twin Tusk",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "mamoswine"
+      }
+    }
+  ],
+  "first_evolution_id": 220
+}

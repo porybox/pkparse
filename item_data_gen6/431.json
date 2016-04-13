@@ -1,1 +1,170 @@
-{"id":408,"name":"poke-radar","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Designates several nearby patches of grass as containing Pokémon, some of which may be special radar-only Pokémon.  Successive uses in a certain way create chains of encounters with the same species; longer chains increase the chance that a shiny Pokémon of that species will appear.","short_effect":"Use to track down rare or shiny Pokémon. 50 steps to recharge.","language":"en"}],"flavor_text_entries":[{"text":"くさむらに　隠れている　ポケモンを\n探しだせる　道具。\n歩くと　電池が　たまる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A tool that can search out Pokémon\nthat are hiding in the tall grass. Its\nbattery is recharged as you walk.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento con cui individuare i Pokémon\nnascosti nell’erba. La batteria si ricarica\nmentre cammini.","version_group":{"name":"x-y"},"language":"it"},{"text":"Bicicleta plegable con la que se va más rápido\nque corriendo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Spürt Pokémon im hohen Gras auf.\nDie Batterie wird beim Reisen aufgeladen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un objet permettant de trouver les Pokémon qui\nse cachent dans l’herbe. Se recharge quand vous\nmarchez.","version_group":{"name":"x-y"},"language":"fr"},{"text":"풀밭에 숨어 있는 포켓몬을\n찾아내는 도구.\n걸으면 전지가 충전된다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"くさむらに　かくれている　ポケモンを\nさがしだせる　どうぐ。\nあるくと　でんちが　たまる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet permettant de trouver les\nPokémon qui se cachent dans l’herbe.\nSe recharge quand vous marchez.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.","version_group":{"name":"platinum"},"language":"en"},{"text":"A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":431,"generation":{"name":"generation-vi"}},{"game_index":431,"generation":{"name":"generation-v"}},{"game_index":431,"generation":{"name":"generation-iv"}}],"names":[{"name":"Poké Radar","language":"en"},{"name":"Poké Radar","language":"it"},{"name":"Pokéradar","language":"es"},{"name":"Pokéradar","language":"de"},{"name":"Poké Radar","language":"fr"},{"name":"포켓트레","language":"ko"},{"name":"ポケトレ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 408,
+  "name": "poke-radar",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Designates several nearby patches of grass as containing Pokémon, some of which may be special radar-only Pokémon.  Successive uses in a certain way create chains of encounters with the same species; longer chains increase the chance that a shiny Pokémon of that species will appear.",
+      "short_effect": "Use to track down rare or shiny Pokémon. 50 steps to recharge.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "くさむらに　隠れている　ポケモンを\n探しだせる　道具。\n歩くと　電池が　たまる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A tool that can search out Pokémon\nthat are hiding in the tall grass. Its\nbattery is recharged as you walk.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento con cui individuare i Pokémon\nnascosti nell’erba. La batteria si ricarica\nmentre cammini.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Bicicleta plegable con la que se va más rápido\nque corriendo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Spürt Pokémon im hohen Gras auf.\nDie Batterie wird beim Reisen aufgeladen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un objet permettant de trouver les Pokémon qui\nse cachent dans l’herbe. Se recharge quand vous\nmarchez.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "풀밭에 숨어 있는 포켓몬을\n찾아내는 도구.\n걸으면 전지가 충전된다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "くさむらに　かくれている　ポケモンを\nさがしだせる　どうぐ。\nあるくと　でんちが　たまる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet permettant de trouver les\nPokémon qui se cachent dans l’herbe.\nSe recharge quand vous marchez.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 431,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 431,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 431,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Poké Radar",
+      "language": "en"
+    },
+    {
+      "name": "Poké Radar",
+      "language": "it"
+    },
+    {
+      "name": "Pokéradar",
+      "language": "es"
+    },
+    {
+      "name": "Pokéradar",
+      "language": "de"
+    },
+    {
+      "name": "Poké Radar",
+      "language": "fr"
+    },
+    {
+      "name": "포켓트레",
+      "language": "ko"
+    },
+    {
+      "name": "ポケトレ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

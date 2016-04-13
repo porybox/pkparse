@@ -1,1 +1,141 @@
-{"id":380,"name":"latias","order":410,"gender_rate":8,"capture_rate":3,"base_happiness":90,"is_baby":false,"hatch_counter":120,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":196,"pokedex":{"name":"hoenn"}},{"entry_number":380,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"no-eggs"}],"color":{"name":"red"},"shape":{"name":"wings"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-iii"},"names":[{"name":"ラティアス","language":"ja"},{"name":"Latias","language":"roomaji"},{"name":"라티아스","language":"ko"},{"name":"拉帝亞斯","language":"zh"},{"name":"Latias","language":"fr"},{"name":"Latias","language":"de"},{"name":"Latias","language":"es"},{"name":"Latias","language":"it"},{"name":"Latias","language":"en"}],"pal_park_encounters":[{"base_score":90,"rate":3,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"むげん","language":"ja"},{"genus":"무한","language":"ko"},{"genus":"Éon","language":"fr"},{"genus":"Äon","language":"de"},{"genus":"Eón","language":"es"},{"genus":"Eone","language":"it"},{"genus":"Eon","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"latias"}},{"is_default":false,"pokemon":{"name":"latias-mega"}}],"first_evolution_id":380}
+{
+  "id": 380,
+  "name": "latias",
+  "order": 410,
+  "gender_rate": 8,
+  "capture_rate": 3,
+  "base_happiness": 90,
+  "is_baby": false,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 196,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 380,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "no-eggs"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "wings"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ラティアス",
+      "language": "ja"
+    },
+    {
+      "name": "Latias",
+      "language": "roomaji"
+    },
+    {
+      "name": "라티아스",
+      "language": "ko"
+    },
+    {
+      "name": "拉帝亞斯",
+      "language": "zh"
+    },
+    {
+      "name": "Latias",
+      "language": "fr"
+    },
+    {
+      "name": "Latias",
+      "language": "de"
+    },
+    {
+      "name": "Latias",
+      "language": "es"
+    },
+    {
+      "name": "Latias",
+      "language": "it"
+    },
+    {
+      "name": "Latias",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 90,
+      "rate": 3,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "むげん",
+      "language": "ja"
+    },
+    {
+      "genus": "무한",
+      "language": "ko"
+    },
+    {
+      "genus": "Éon",
+      "language": "fr"
+    },
+    {
+      "genus": "Äon",
+      "language": "de"
+    },
+    {
+      "genus": "Eón",
+      "language": "es"
+    },
+    {
+      "genus": "Eone",
+      "language": "it"
+    },
+    {
+      "genus": "Eon",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "latias"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "latias-mega"
+      }
+    }
+  ],
+  "first_evolution_id": 380
+}

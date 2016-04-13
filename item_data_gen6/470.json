@@ -1,1 +1,156 @@
-{"id":447,"name":"berry-pots","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Contains four portable pots of soil suitable for growing berries.","short_effect":"Allows portable berry growing.","language":"en"}],"flavor_text_entries":[{"text":"いつでも　手軽に　きのみを\n育てられる　携帯式の\n栽培容器。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"Handy containers for cultivating\nBerries wherever you go.","version_group":{"name":"x-y"},"language":"en"},{"text":"Accessorio tascabile che permette di coltivare\nbacche in qualunque luogo e momento.","version_group":{"name":"x-y"},"language":"it"},{"text":"Bonguri de color rosa y aroma dulce.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein tragbares Utensil, das die Aufzucht von\nPflanzen aus Beeren ermöglicht, wo immer\ndu auch gerade bist.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un accessoire portatif qui permet de cultiver des\nBaies en tout lieu et à tout moment.","version_group":{"name":"x-y"},"language":"fr"},{"text":"항상 손쉽게 나무열매를\n키울 수 있는 휴대형\n재배 용기.","version_group":{"name":"x-y"},"language":"ko"},{"text":"いつでも　てがるに　きのみを\nそだてられる　けいたいしきの\nさいばい　ようき。","version_group":{"name":"x-y"},"language":"ja"},{"text":"Handy containers for cultivating\nBerries wherever you go.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"Handy containers for cultivating\nBerries wherever you go.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un accessoire portatif qui permet de\ncultiver des Baies en tout lieu et à\ntout moment.","version_group":{"name":"black-white"},"language":"fr"},{"text":"Handy containers for cultivating\nBerries wherever you go.","version_group":{"name":"heartgold-soulsilver"},"language":"en"}],"game_indices":[{"game_index":470,"generation":{"name":"generation-vi"}},{"game_index":470,"generation":{"name":"generation-v"}},{"game_index":470,"generation":{"name":"generation-iv"}}],"names":[{"name":"Berry Pots","language":"en"},{"name":"Piantabacche","language":"it"},{"name":"Plantabayas","language":"es"},{"name":"Pflanzset","language":"de"},{"name":"Plante-Baies","language":"fr"},{"name":"나무열매플랜터","language":"ko"},{"name":"きのみプランター","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 447,
+  "name": "berry-pots",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Contains four portable pots of soil suitable for growing berries.",
+      "short_effect": "Allows portable berry growing.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "いつでも　手軽に　きのみを\n育てられる　携帯式の\n栽培容器。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "Handy containers for cultivating\nBerries wherever you go.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Accessorio tascabile che permette di coltivare\nbacche in qualunque luogo e momento.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Bonguri de color rosa y aroma dulce.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein tragbares Utensil, das die Aufzucht von\nPflanzen aus Beeren ermöglicht, wo immer\ndu auch gerade bist.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un accessoire portatif qui permet de cultiver des\nBaies en tout lieu et à tout moment.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "항상 손쉽게 나무열매를\n키울 수 있는 휴대형\n재배 용기.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "いつでも　てがるに　きのみを\nそだてられる　けいたいしきの\nさいばい　ようき。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "Handy containers for cultivating\nBerries wherever you go.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Handy containers for cultivating\nBerries wherever you go.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un accessoire portatif qui permet de\ncultiver des Baies en tout lieu et à\ntout moment.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "Handy containers for cultivating\nBerries wherever you go.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 470,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 470,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 470,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Berry Pots",
+      "language": "en"
+    },
+    {
+      "name": "Piantabacche",
+      "language": "it"
+    },
+    {
+      "name": "Plantabayas",
+      "language": "es"
+    },
+    {
+      "name": "Pflanzset",
+      "language": "de"
+    },
+    {
+      "name": "Plante-Baies",
+      "language": "fr"
+    },
+    {
+      "name": "나무열매플랜터",
+      "language": "ko"
+    },
+    {
+      "name": "きのみプランター",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

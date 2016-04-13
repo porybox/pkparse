@@ -1,1 +1,153 @@
-{"id":60,"name":"poliwag","order":65,"gender_rate":4,"capture_rate":255,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":33,"pokedex":{"name":"kalos-mountain"}},{"entry_number":72,"pokedex":{"name":"updated-johto"}},{"entry_number":72,"pokedex":{"name":"original-johto"}},{"entry_number":60,"pokedex":{"name":"kanto"}},{"entry_number":60,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water1"}],"color":{"name":"blue"},"shape":{"name":"legs"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-i"},"names":[{"name":"ニョロモ","language":"ja"},{"name":"Nyoromo","language":"roomaji"},{"name":"발챙이","language":"ko"},{"name":"蚊香蝌蚪","language":"zh"},{"name":"Ptitard","language":"fr"},{"name":"Quapsel","language":"de"},{"name":"Poliwag","language":"es"},{"name":"Poliwag","language":"it"},{"name":"Poliwag","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"pond"}}],"form_descriptions":[],"genera":[{"genus":"おたま","language":"ja"},{"genus":"올챙이","language":"ko"},{"genus":"Têtard","language":"fr"},{"genus":"Kaulquappe","language":"de"},{"genus":"Renacuajo","language":"es"},{"genus":"Girino","language":"it"},{"genus":"Tadpole","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"poliwag"}}],"first_evolution_id":60}
+{
+  "id": 60,
+  "name": "poliwag",
+  "order": 65,
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 33,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 72,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 72,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 60,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 60,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "legs"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ニョロモ",
+      "language": "ja"
+    },
+    {
+      "name": "Nyoromo",
+      "language": "roomaji"
+    },
+    {
+      "name": "발챙이",
+      "language": "ko"
+    },
+    {
+      "name": "蚊香蝌蚪",
+      "language": "zh"
+    },
+    {
+      "name": "Ptitard",
+      "language": "fr"
+    },
+    {
+      "name": "Quapsel",
+      "language": "de"
+    },
+    {
+      "name": "Poliwag",
+      "language": "es"
+    },
+    {
+      "name": "Poliwag",
+      "language": "it"
+    },
+    {
+      "name": "Poliwag",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "pond"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "おたま",
+      "language": "ja"
+    },
+    {
+      "genus": "올챙이",
+      "language": "ko"
+    },
+    {
+      "genus": "Têtard",
+      "language": "fr"
+    },
+    {
+      "genus": "Kaulquappe",
+      "language": "de"
+    },
+    {
+      "genus": "Renacuajo",
+      "language": "es"
+    },
+    {
+      "genus": "Girino",
+      "language": "it"
+    },
+    {
+      "genus": "Tadpole",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "poliwag"
+      }
+    }
+  ],
+  "first_evolution_id": 60
+}

@@ -1,1 +1,147 @@
-{"id":472,"name":"gliscor","order":239,"gender_rate":4,"capture_rate":30,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":116,"pokedex":{"name":"kalos-mountain"}},{"entry_number":222,"pokedex":{"name":"updated-unova"}},{"entry_number":154,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":472,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"purple"},"shape":{"name":"wings"},"evolves_from_species":{"name":"gligar"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"グライオン","language":"ja"},{"name":"Glion","language":"roomaji"},{"name":"글라이온","language":"ko"},{"name":"天蠍王","language":"zh"},{"name":"Scorvol","language":"fr"},{"name":"Skorgro","language":"de"},{"name":"Gliscor","language":"es"},{"name":"Gliscor","language":"it"},{"name":"Gliscor","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"キバさそり","language":"ja"},{"genus":"송곳니전갈","language":"ko"},{"genus":"Scorpicroc","language":"fr"},{"genus":"Zahnskorpi","language":"de"},{"genus":"Colmicorpio","language":"es"},{"genus":"Scorpidente","language":"it"},{"genus":"Fang Scorpion","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"gliscor"}}],"first_evolution_id":207}
+{
+  "id": 472,
+  "name": "gliscor",
+  "order": 239,
+  "gender_rate": 4,
+  "capture_rate": 30,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 116,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 222,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 154,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 472,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "purple"
+  },
+  "shape": {
+    "name": "wings"
+  },
+  "evolves_from_species": {
+    "name": "gligar"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "グライオン",
+      "language": "ja"
+    },
+    {
+      "name": "Glion",
+      "language": "roomaji"
+    },
+    {
+      "name": "글라이온",
+      "language": "ko"
+    },
+    {
+      "name": "天蠍王",
+      "language": "zh"
+    },
+    {
+      "name": "Scorvol",
+      "language": "fr"
+    },
+    {
+      "name": "Skorgro",
+      "language": "de"
+    },
+    {
+      "name": "Gliscor",
+      "language": "es"
+    },
+    {
+      "name": "Gliscor",
+      "language": "it"
+    },
+    {
+      "name": "Gliscor",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "キバさそり",
+      "language": "ja"
+    },
+    {
+      "genus": "송곳니전갈",
+      "language": "ko"
+    },
+    {
+      "genus": "Scorpicroc",
+      "language": "fr"
+    },
+    {
+      "genus": "Zahnskorpi",
+      "language": "de"
+    },
+    {
+      "genus": "Colmicorpio",
+      "language": "es"
+    },
+    {
+      "genus": "Scorpidente",
+      "language": "it"
+    },
+    {
+      "genus": "Fang Scorpion",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "gliscor"
+      }
+    }
+  ],
+  "first_evolution_id": 207
+}

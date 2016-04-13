@@ -1,1 +1,98 @@
-{"id":115,"name":"reflect","accuracy":null,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"calm-mind"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Erects a barrier around the user's side of the field that reduces damage from [physical]{mechanic:physical} attacks by half for five turns.  In double battles, the reduction is 1/3.  [Critical hit]{mechanic:critical-hit}s are not affected by the barrier.\n\nIf the user is holding []{item:light-clay}, the barrier lasts for eight turns.\n\n[]{move:brick-break} or []{move:defog} used by an opponent will destroy the barrier.","short_effect":"Reduces damage from physical attacks by half.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"field-effect"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Reflect","language":"en"},{"name":"Riflesso","language":"it"},{"name":"Reflejo","language":"es"},{"name":"Reflektor","language":"de"},{"name":"Protection","language":"fr"},{"name":"리플렉터","language":"ko"},{"name":"リフレクター","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"users-field"},"type":{"name":"psychic"}}
+{
+  "id": 115,
+  "name": "reflect",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "calm-mind"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Erects a barrier around the user's side of the field that reduces damage from [physical]{mechanic:physical} attacks by half for five turns.  In double battles, the reduction is 1/3.  [Critical hit]{mechanic:critical-hit}s are not affected by the barrier.\n\nIf the user is holding []{item:light-clay}, the barrier lasts for eight turns.\n\n[]{move:brick-break} or []{move:defog} used by an opponent will destroy the barrier.",
+      "short_effect": "Reduces damage from physical attacks by half.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "field-effect"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Reflect",
+      "language": "en"
+    },
+    {
+      "name": "Riflesso",
+      "language": "it"
+    },
+    {
+      "name": "Reflejo",
+      "language": "es"
+    },
+    {
+      "name": "Reflektor",
+      "language": "de"
+    },
+    {
+      "name": "Protection",
+      "language": "fr"
+    },
+    {
+      "name": "리플렉터",
+      "language": "ko"
+    },
+    {
+      "name": "リフレクター",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "users-field"
+  },
+  "type": {
+    "name": "psychic"
+  }
+}

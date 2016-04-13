@@ -1,1 +1,98 @@
-{"id":66,"name":"submission","accuracy":80,"effect_chance":null,"pp":20,"priority":0,"power":80,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"mind-reader"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/4 the damage it inflicts in recoil.","short_effect":"User receives 1/4 the damage it inflicts in recoil.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":-25,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Submission","language":"en"},{"name":"Sottomissione","language":"it"},{"name":"Sumisión","language":"es"},{"name":"Überroller","language":"de"},{"name":"Sacrifice","language":"fr"},{"name":"지옥의바퀴","language":"ko"},{"name":"じごくぐるま","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"fighting"}}
+{
+  "id": 66,
+  "name": "submission",
+  "accuracy": 80,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": 80,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "mind-reader"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/4 the damage it inflicts in recoil.",
+      "short_effect": "User receives 1/4 the damage it inflicts in recoil.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": -25,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Submission",
+      "language": "en"
+    },
+    {
+      "name": "Sottomissione",
+      "language": "it"
+    },
+    {
+      "name": "Sumisión",
+      "language": "es"
+    },
+    {
+      "name": "Überroller",
+      "language": "de"
+    },
+    {
+      "name": "Sacrifice",
+      "language": "fr"
+    },
+    {
+      "name": "지옥의바퀴",
+      "language": "ko"
+    },
+    {
+      "name": "じごくぐるま",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "fighting"
+  }
+}

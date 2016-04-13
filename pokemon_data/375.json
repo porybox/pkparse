@@ -1,1 +1,149 @@
-{"id":375,"name":"metang","order":405,"gender_rate":-1,"capture_rate":3,"base_happiness":35,"is_baby":false,"hatch_counter":40,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":83,"pokedex":{"name":"conquest-gallery"}},{"entry_number":263,"pokedex":{"name":"updated-unova"}},{"entry_number":191,"pokedex":{"name":"hoenn"}},{"entry_number":375,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"mineral"}],"color":{"name":"blue"},"shape":{"name":"arms"},"evolves_from_species":{"name":"beldum"},"evolution_chain":{},"habitat":{"name":"rough-terrain"},"generation":{"name":"generation-iii"},"names":[{"name":"メタング","language":"ja"},{"name":"Metang","language":"roomaji"},{"name":"메탕구","language":"ko"},{"name":"金屬怪","language":"zh"},{"name":"Métang","language":"fr"},{"name":"Metang","language":"de"},{"name":"Metang","language":"es"},{"name":"Metang","language":"it"},{"name":"Metang","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"てつツメ","language":"ja"},{"genus":"철발톱","language":"ko"},{"genus":"Pincefer","language":"fr"},{"genus":"Eisenklaue","language":"de"},{"genus":"Garrahierro","language":"es"},{"genus":"Ferrunghia","language":"it"},{"genus":"Iron Claw","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"metang"}}],"first_evolution_id":374}
+{
+  "id": 375,
+  "name": "metang",
+  "order": 405,
+  "gender_rate": -1,
+  "capture_rate": 3,
+  "base_happiness": 35,
+  "is_baby": false,
+  "hatch_counter": 40,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 83,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 263,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 191,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 375,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "mineral"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "arms"
+  },
+  "evolves_from_species": {
+    "name": "beldum"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "rough-terrain"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "メタング",
+      "language": "ja"
+    },
+    {
+      "name": "Metang",
+      "language": "roomaji"
+    },
+    {
+      "name": "메탕구",
+      "language": "ko"
+    },
+    {
+      "name": "金屬怪",
+      "language": "zh"
+    },
+    {
+      "name": "Métang",
+      "language": "fr"
+    },
+    {
+      "name": "Metang",
+      "language": "de"
+    },
+    {
+      "name": "Metang",
+      "language": "es"
+    },
+    {
+      "name": "Metang",
+      "language": "it"
+    },
+    {
+      "name": "Metang",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "てつツメ",
+      "language": "ja"
+    },
+    {
+      "genus": "철발톱",
+      "language": "ko"
+    },
+    {
+      "genus": "Pincefer",
+      "language": "fr"
+    },
+    {
+      "genus": "Eisenklaue",
+      "language": "de"
+    },
+    {
+      "genus": "Garrahierro",
+      "language": "es"
+    },
+    {
+      "genus": "Ferrunghia",
+      "language": "it"
+    },
+    {
+      "genus": "Iron Claw",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "metang"
+      }
+    }
+  ],
+  "first_evolution_id": 374
+}

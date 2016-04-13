@@ -1,1 +1,216 @@
-{"id":99,"name":"no-guard","is_main_series":true,"generation":{"name":"generation-iv"},"names":[{"name":"No Guard","language":"en"},{"name":"Nullodifesa","language":"it"},{"name":"Indefenso","language":"es"},{"name":"Schildlos","language":"de"},{"name":"Annule Garde","language":"fr"},{"name":"노가드","language":"ko"},{"name":"ノーガード","language":"ja"}],"effect_entries":[{"effect":"Moves used by or against this Pokémon never miss.\n\nOne-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like []{move:dig} or []{move:fly}.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.","short_effect":"Ensures all moves used by and against the Pokémon hit.","language":"en"}],"effect_changes":[{"version_group":{"name":"platinum"},"effect_entries":[{"effect":"Due to a glitch, moves affected by this ability have a (100 - accuracy)% chance to hit through []{move:detect} or []{move:protect}.","language":"en"}]}],"flavor_text_entries":[{"flavor_text":"お互いの　技が\n必ず　当たる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Ensures attacks by or\nagainst the Pokémon land.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Le mosse del Pokémon e del\nnemico vanno sempre a segno.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"El movimiento del Pokémon y el\ndel rival acertarán.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Alle Attacken des oder auf\ndas Pokémon gelingen.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Les capacités du Pokémon et de\nl’ennemi frappent à coup sûr.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"서로의 기술이\n반드시 맞는다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"おたがいの　わざが\nかならず　あたる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Ensures attacks by or\nagainst the Pokémon land.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Ensures attacks by or\nagainst the Pokémon land.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Capacités du Pokémon et\nde l’ennemi réussissent.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Ensures both Pokémon’s\nand foe’s attacks land.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Ensures the Pokémon and\nits foe’s attacks land.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Ensures the Pokémon and\nits foe’s attacks land.","version_group":{"name":"diamond-pearl"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":2,"pokemon":{"name":"machop"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"machoke"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"machamp"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"karrablast"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"golett"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"golurk"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"honedge"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"doublade"}}]}
+{
+  "id": 99,
+  "name": "no-guard",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "No Guard",
+      "language": "en"
+    },
+    {
+      "name": "Nullodifesa",
+      "language": "it"
+    },
+    {
+      "name": "Indefenso",
+      "language": "es"
+    },
+    {
+      "name": "Schildlos",
+      "language": "de"
+    },
+    {
+      "name": "Annule Garde",
+      "language": "fr"
+    },
+    {
+      "name": "노가드",
+      "language": "ko"
+    },
+    {
+      "name": "ノーガード",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Moves used by or against this Pokémon never miss.\n\nOne-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like []{move:dig} or []{move:fly}.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.",
+      "short_effect": "Ensures all moves used by and against the Pokémon hit.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "platinum"
+      },
+      "effect_entries": [
+        {
+          "effect": "Due to a glitch, moves affected by this ability have a (100 - accuracy)% chance to hit through []{move:detect} or []{move:protect}.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "お互いの　技が\n必ず　当たる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Ensures attacks by or\nagainst the Pokémon land.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Le mosse del Pokémon e del\nnemico vanno sempre a segno.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "El movimiento del Pokémon y el\ndel rival acertarán.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Alle Attacken des oder auf\ndas Pokémon gelingen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Les capacités du Pokémon et de\nl’ennemi frappent à coup sûr.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "서로의 기술이\n반드시 맞는다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "おたがいの　わざが\nかならず　あたる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Ensures attacks by or\nagainst the Pokémon land.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Ensures attacks by or\nagainst the Pokémon land.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Capacités du Pokémon et\nde l’ennemi réussissent.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Ensures both Pokémon’s\nand foe’s attacks land.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Ensures the Pokémon and\nits foe’s attacks land.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Ensures the Pokémon and\nits foe’s attacks land.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "machop"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "machoke"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "machamp"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "karrablast"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "golett"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "golurk"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "honedge"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "doublade"
+      }
+    }
+  ]
+}

@@ -1,1 +1,149 @@
-{"id":217,"name":"ursaring","order":248,"gender_rate":4,"capture_rate":60,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":133,"pokedex":{"name":"kalos-mountain"}},{"entry_number":199,"pokedex":{"name":"updated-johto"}},{"entry_number":194,"pokedex":{"name":"original-johto"}},{"entry_number":217,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"upright"},"evolves_from_species":{"name":"teddiursa"},"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-ii"},"names":[{"name":"リングマ","language":"ja"},{"name":"Ringuma","language":"roomaji"},{"name":"링곰","language":"ko"},{"name":"圈圈熊","language":"zh"},{"name":"Ursaring","language":"fr"},{"name":"Ursaring","language":"de"},{"name":"Ursaring","language":"es"},{"name":"Ursaring","language":"it"},{"name":"Ursaring","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"とうみん","language":"ja"},{"genus":"동면","language":"ko"},{"genus":"Hibernant","language":"fr"},{"genus":"Schläfer","language":"de"},{"genus":"Hibernante","language":"es"},{"genus":"Letargo","language":"it"},{"genus":"Hibernator","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"ursaring"}}],"first_evolution_id":216}
+{
+  "id": 217,
+  "name": "ursaring",
+  "order": 248,
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 133,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 199,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 194,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 217,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "teddiursa"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "リングマ",
+      "language": "ja"
+    },
+    {
+      "name": "Ringuma",
+      "language": "roomaji"
+    },
+    {
+      "name": "링곰",
+      "language": "ko"
+    },
+    {
+      "name": "圈圈熊",
+      "language": "zh"
+    },
+    {
+      "name": "Ursaring",
+      "language": "fr"
+    },
+    {
+      "name": "Ursaring",
+      "language": "de"
+    },
+    {
+      "name": "Ursaring",
+      "language": "es"
+    },
+    {
+      "name": "Ursaring",
+      "language": "it"
+    },
+    {
+      "name": "Ursaring",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "とうみん",
+      "language": "ja"
+    },
+    {
+      "genus": "동면",
+      "language": "ko"
+    },
+    {
+      "genus": "Hibernant",
+      "language": "fr"
+    },
+    {
+      "genus": "Schläfer",
+      "language": "de"
+    },
+    {
+      "genus": "Hibernante",
+      "language": "es"
+    },
+    {
+      "genus": "Letargo",
+      "language": "it"
+    },
+    {
+      "genus": "Hibernator",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "ursaring"
+      }
+    }
+  ],
+  "first_evolution_id": 216
+}

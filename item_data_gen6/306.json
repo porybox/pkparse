@@ -1,1 +1,180 @@
-{"id":283,"name":"sky-plate","cost":1000,"fling_power":90,"fling_effect":null,"attributes":[{"name":"holdable"},{"name":"holdable-active"},{"name":"underground"}],"category":{"name":"plates"},"effect_entries":[{"effect":"Held: Increases the power of the holder's Flying moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Flying.","short_effect":"Held: Flying-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Flying.","language":"en"}],"flavor_text_entries":[{"text":"ひこうの　タイプの　石盤。\n持たせると　ひこうタイプの\n技の　威力が　強まる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nIt’s a stone tablet that boosts the\npower of Flying-type moves.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Volante.","version_group":{"name":"x-y"},"language":"it"},{"text":"Esta caja contiene una enorme cantidad de\nenergía magmática. Cierto Pokémon lo adora.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item zum Tragen. Diese Steintafel verstärkt\nAttacken vom Typ Flug.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à tenir. Une tablette en pierre augmentant\nla puissance des capacités de type Vol.","version_group":{"name":"x-y"},"language":"fr"},{"text":"비행타입의 석판.\n지니게 하면 비행타입\n기술의 위력이 강해진다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ひこうの　タイプの　せきばん。\nもたせると　ひこうタイプの\nわざの　いりょくが　つよまる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à tenir. Tablette en pierre\naugmentant la puissance des capacités\nde type Vol.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":306,"generation":{"name":"generation-vi"}},{"game_index":306,"generation":{"name":"generation-v"}},{"game_index":306,"generation":{"name":"generation-iv"}}],"names":[{"name":"Sky Plate","language":"en"},{"name":"Lastracielo","language":"it"},{"name":"Tabla Cielo","language":"es"},{"name":"Wolkentafel","language":"de"},{"name":"Plaque Ciel","language":"fr"},{"name":"푸른하늘플레이트","language":"ko"},{"name":"あおぞらプレート","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 283,
+  "name": "sky-plate",
+  "cost": 1000,
+  "fling_power": 90,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    },
+    {
+      "name": "underground"
+    }
+  ],
+  "category": {
+    "name": "plates"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held: Increases the power of the holder's Flying moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Flying.",
+      "short_effect": "Held: Flying-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Flying.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ひこうの　タイプの　石盤。\n持たせると　ひこうタイプの\n技の　威力が　強まる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt’s a stone tablet that boosts the\npower of Flying-type moves.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Volante.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Esta caja contiene una enorme cantidad de\nenergía magmática. Cierto Pokémon lo adora.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Diese Steintafel verstärkt\nAttacken vom Typ Flug.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Une tablette en pierre augmentant\nla puissance des capacités de type Vol.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "비행타입의 석판.\n지니게 하면 비행타입\n기술의 위력이 강해진다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ひこうの　タイプの　せきばん。\nもたせると　ひこうタイプの\nわざの　いりょくが　つよまる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir. Tablette en pierre\naugmentant la puissance des capacités\nde type Vol.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 306,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 306,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 306,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Sky Plate",
+      "language": "en"
+    },
+    {
+      "name": "Lastracielo",
+      "language": "it"
+    },
+    {
+      "name": "Tabla Cielo",
+      "language": "es"
+    },
+    {
+      "name": "Wolkentafel",
+      "language": "de"
+    },
+    {
+      "name": "Plaque Ciel",
+      "language": "fr"
+    },
+    {
+      "name": "푸른하늘플레이트",
+      "language": "ko"
+    },
+    {
+      "name": "あおぞらプレート",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

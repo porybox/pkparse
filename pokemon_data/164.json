@@ -1,1 +1,161 @@
-{"id":164,"name":"noctowl","order":196,"gender_rate":4,"capture_rate":90,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":118,"pokedex":{"name":"kalos-mountain"}},{"entry_number":16,"pokedex":{"name":"updated-johto"}},{"entry_number":107,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":107,"pokedex":{"name":"original-sinnoh"}},{"entry_number":16,"pokedex":{"name":"original-johto"}},{"entry_number":164,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"flying"}],"color":{"name":"brown"},"shape":{"name":"wings"},"evolves_from_species":{"name":"hoothoot"},"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-ii"},"names":[{"name":"ヨルノズク","language":"ja"},{"name":"Yorunozuku","language":"roomaji"},{"name":"야부엉","language":"ko"},{"name":"貓頭夜鷹","language":"zh"},{"name":"Noarfang","language":"fr"},{"name":"Noctuh","language":"de"},{"name":"Noctowl","language":"es"},{"name":"Noctowl","language":"it"},{"name":"Noctowl","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"ふくろう","language":"ja"},{"genus":"부엉이","language":"ko"},{"genus":"Hibou","language":"fr"},{"genus":"Eule","language":"de"},{"genus":"Búho","language":"es"},{"genus":"Gufo","language":"it"},{"genus":"Owl","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"noctowl"}}],"first_evolution_id":163}
+{
+  "id": 164,
+  "name": "noctowl",
+  "order": 196,
+  "gender_rate": 4,
+  "capture_rate": 90,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 118,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 16,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 107,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 107,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 16,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 164,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "flying"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "wings"
+  },
+  "evolves_from_species": {
+    "name": "hoothoot"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ヨルノズク",
+      "language": "ja"
+    },
+    {
+      "name": "Yorunozuku",
+      "language": "roomaji"
+    },
+    {
+      "name": "야부엉",
+      "language": "ko"
+    },
+    {
+      "name": "貓頭夜鷹",
+      "language": "zh"
+    },
+    {
+      "name": "Noarfang",
+      "language": "fr"
+    },
+    {
+      "name": "Noctuh",
+      "language": "de"
+    },
+    {
+      "name": "Noctowl",
+      "language": "es"
+    },
+    {
+      "name": "Noctowl",
+      "language": "it"
+    },
+    {
+      "name": "Noctowl",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ふくろう",
+      "language": "ja"
+    },
+    {
+      "genus": "부엉이",
+      "language": "ko"
+    },
+    {
+      "genus": "Hibou",
+      "language": "fr"
+    },
+    {
+      "genus": "Eule",
+      "language": "de"
+    },
+    {
+      "genus": "Búho",
+      "language": "es"
+    },
+    {
+      "genus": "Gufo",
+      "language": "it"
+    },
+    {
+      "genus": "Owl",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "noctowl"
+      }
+    }
+  ],
+  "first_evolution_id": 163
+}

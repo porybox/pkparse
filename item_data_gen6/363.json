@@ -1,1 +1,70 @@
-{"id":549,"name":"fame-checker","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Records information on various famous people.","short_effect":"Records information about NPCs.","language":"en"}],"flavor_text_entries":[{"text":"A device that enables you to\nrecall what you’ve heard and seen\nabout famous people.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Stores information\non famous people\nfor instant recall.","version_group":{"name":"emerald"},"language":"en"}],"game_indices":[{"game_index":363,"generation":{"name":"generation-iii"}}],"names":[{"name":"Fame Checker","language":"en"},{"name":"PokéVIP","language":"it"},{"name":"Memorín","language":"es"},{"name":"Ruhmesdatei","language":"de"},{"name":"Memorydex","language":"fr"},{"name":"ボイスチェッカー","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 549,
+  "name": "fame-checker",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Records information on various famous people.",
+      "short_effect": "Records information about NPCs.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A device that enables you to\nrecall what you’ve heard and seen\nabout famous people.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Stores information\non famous people\nfor instant recall.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 363,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Fame Checker",
+      "language": "en"
+    },
+    {
+      "name": "PokéVIP",
+      "language": "it"
+    },
+    {
+      "name": "Memorín",
+      "language": "es"
+    },
+    {
+      "name": "Ruhmesdatei",
+      "language": "de"
+    },
+    {
+      "name": "Memorydex",
+      "language": "fr"
+    },
+    {
+      "name": "ボイスチェッカー",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,97 @@
-{"id":118,"name":"metronome","accuracy":null,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"cute"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Selects any move at random and uses it.  Moves the user already knows are not eligible.  Assist, meta, protection, and reflection moves are also not eligible; specifically, []{move:assist}, []{move:chatter}, []{move:copycat}, []{move:counter}, []{move:covet}, []{move:destiny-bond}, []{move:detect}, []{move:endure}, []{move:feint}, []{move:focus-punch}, []{move:follow-me}, []{move:helping-hand}, []{move:me-first}, []{move:metronome}, []{move:mimic}, []{move:mirror-coat}, []{move:mirror-move}, []{move:protect}, []{move:quick-guard}, []{move:sketch}, []{move:sleep-talk}, []{move:snatch}, []{move:struggle}, []{move:switcheroo}, []{move:thief}, []{move:trick}, and []{move:wide-guard} will not be selected by this move.\n\nThis move cannot be copied by []{move:mimic} or []{move:mirror-move}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.","short_effect":"Randomly selects and uses any move in the game.","language":"en"}],"effect_changes":[{"version_group":{"name":"gold-silver"},"effect_entries":[{"effect":"Can call any move except for []{move:struggle} and itself.","language":"en"}]}],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Metronome","language":"en"},{"name":"Metronomo","language":"it"},{"name":"Metrónomo","language":"es"},{"name":"Metronom","language":"de"},{"name":"Métronome","language":"fr"},{"name":"손가락흔들기","language":"ko"},{"name":"ゆびをふる","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"normal"}}
+{
+  "id": 118,
+  "name": "metronome",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Selects any move at random and uses it.  Moves the user already knows are not eligible.  Assist, meta, protection, and reflection moves are also not eligible; specifically, []{move:assist}, []{move:chatter}, []{move:copycat}, []{move:counter}, []{move:covet}, []{move:destiny-bond}, []{move:detect}, []{move:endure}, []{move:feint}, []{move:focus-punch}, []{move:follow-me}, []{move:helping-hand}, []{move:me-first}, []{move:metronome}, []{move:mimic}, []{move:mirror-coat}, []{move:mirror-move}, []{move:protect}, []{move:quick-guard}, []{move:sketch}, []{move:sleep-talk}, []{move:snatch}, []{move:struggle}, []{move:switcheroo}, []{move:thief}, []{move:trick}, and []{move:wide-guard} will not be selected by this move.\n\nThis move cannot be copied by []{move:mimic} or []{move:mirror-move}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.",
+      "short_effect": "Randomly selects and uses any move in the game.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "gold-silver"
+      },
+      "effect_entries": [
+        {
+          "effect": "Can call any move except for []{move:struggle} and itself.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Metronome",
+      "language": "en"
+    },
+    {
+      "name": "Metronomo",
+      "language": "it"
+    },
+    {
+      "name": "Metrónomo",
+      "language": "es"
+    },
+    {
+      "name": "Metronom",
+      "language": "de"
+    },
+    {
+      "name": "Métronome",
+      "language": "fr"
+    },
+    {
+      "name": "손가락흔들기",
+      "language": "ko"
+    },
+    {
+      "name": "ゆびをふる",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

@@ -1,1 +1,127 @@
-{"id":183,"name":"gooey","is_main_series":true,"generation":{"name":"generation-vi"},"names":[{"name":"Gooey","language":"en"},{"name":"Viscosità","language":"it"},{"name":"Baba","language":"es"},{"name":"Viskosität","language":"de"},{"name":"Poisseux","language":"fr"},{"name":"미끈미끈","language":"ko"},{"name":"ぬめぬめ","language":"ja"}],"effect_entries":[{"effect":"Lowers attacking Pokémon's Speed by one stage on contact.","short_effect":"Lowers attacking Pokémon's Speed by one stage on contact.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"触れた　相手の\n素早さを　さげる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Contact with the Pokémon\nlowers the attacker’s Speed stat.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Riduce la Velocità del Pokémon\ncon cui entra in contatto.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Baja la Velocidad del Pokémon\ncon el que entra en contacto.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Die Initiative von Angreifern sinkt\ndurch bloßes Berühren.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Diminue la Vitesse de l’attaquant\nqui le touche.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"접촉한 상대의\n스피드를 떨어뜨린다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"ふれた　あいての\nすばやさを　さげる。","version_group":{"name":"x-y"},"language":"ja"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"goomy"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"sliggoo"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"goodra"}}]}
+{
+  "id": 183,
+  "name": "gooey",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "Gooey",
+      "language": "en"
+    },
+    {
+      "name": "Viscosità",
+      "language": "it"
+    },
+    {
+      "name": "Baba",
+      "language": "es"
+    },
+    {
+      "name": "Viskosität",
+      "language": "de"
+    },
+    {
+      "name": "Poisseux",
+      "language": "fr"
+    },
+    {
+      "name": "미끈미끈",
+      "language": "ko"
+    },
+    {
+      "name": "ぬめぬめ",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Lowers attacking Pokémon's Speed by one stage on contact.",
+      "short_effect": "Lowers attacking Pokémon's Speed by one stage on contact.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "触れた　相手の\n素早さを　さげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Contact with the Pokémon\nlowers the attacker’s Speed stat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Riduce la Velocità del Pokémon\ncon cui entra in contatto.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Baja la Velocidad del Pokémon\ncon el que entra en contacto.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Die Initiative von Angreifern sinkt\ndurch bloßes Berühren.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Diminue la Vitesse de l’attaquant\nqui le touche.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "접촉한 상대의\n스피드를 떨어뜨린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "ふれた　あいての\nすばやさを　さげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "goomy"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "sliggoo"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "goodra"
+      }
+    }
+  ]
+}

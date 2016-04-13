@@ -1,1 +1,153 @@
-{"id":13,"name":"weedle","order":13,"gender_rate":4,"capture_rate":255,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":26,"pokedex":{"name":"kalos-central"}},{"entry_number":27,"pokedex":{"name":"updated-johto"}},{"entry_number":27,"pokedex":{"name":"original-johto"}},{"entry_number":13,"pokedex":{"name":"kanto"}},{"entry_number":13,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"brown"},"shape":{"name":"squiggle"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-i"},"names":[{"name":"ビードル","language":"ja"},{"name":"Beedle","language":"roomaji"},{"name":"뿔충이","language":"ko"},{"name":"獨角蟲","language":"zh"},{"name":"Aspicot","language":"fr"},{"name":"Hornliu","language":"de"},{"name":"Weedle","language":"es"},{"name":"Weedle","language":"it"},{"name":"Weedle","language":"en"}],"pal_park_encounters":[{"base_score":30,"rate":50,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"けむし","language":"ja"},{"genus":"송충이","language":"ko"},{"genus":"Insectopic","language":"fr"},{"genus":"Raupe","language":"de"},{"genus":"Oruga","language":"es"},{"genus":"Millepiedi","language":"it"},{"genus":"Hairy Bug","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"weedle"}}],"first_evolution_id":13}
+{
+  "id": 13,
+  "name": "weedle",
+  "order": 13,
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 26,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 27,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 27,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 13,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 13,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "squiggle"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ビードル",
+      "language": "ja"
+    },
+    {
+      "name": "Beedle",
+      "language": "roomaji"
+    },
+    {
+      "name": "뿔충이",
+      "language": "ko"
+    },
+    {
+      "name": "獨角蟲",
+      "language": "zh"
+    },
+    {
+      "name": "Aspicot",
+      "language": "fr"
+    },
+    {
+      "name": "Hornliu",
+      "language": "de"
+    },
+    {
+      "name": "Weedle",
+      "language": "es"
+    },
+    {
+      "name": "Weedle",
+      "language": "it"
+    },
+    {
+      "name": "Weedle",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 30,
+      "rate": 50,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "けむし",
+      "language": "ja"
+    },
+    {
+      "genus": "송충이",
+      "language": "ko"
+    },
+    {
+      "genus": "Insectopic",
+      "language": "fr"
+    },
+    {
+      "genus": "Raupe",
+      "language": "de"
+    },
+    {
+      "genus": "Oruga",
+      "language": "es"
+    },
+    {
+      "genus": "Millepiedi",
+      "language": "it"
+    },
+    {
+      "genus": "Hairy Bug",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "weedle"
+      }
+    }
+  ],
+  "first_evolution_id": 13
+}

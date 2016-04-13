@@ -1,1 +1,209 @@
-{"id":103,"name":"klutz","is_main_series":true,"generation":{"name":"generation-iv"},"names":[{"name":"Klutz","language":"en"},{"name":"Impaccio","language":"it"},{"name":"Zoquete","language":"es"},{"name":"Tollpatsch","language":"de"},{"name":"Maladresse","language":"fr"},{"name":"서투름","language":"ko"},{"name":"ぶきよう","language":"ja"}],"effect_entries":[{"effect":"In battle, this Pokémon cannot use its held item, nor will the item have any passive effect on the battle, positive or negative.  This Pokémon also cannot use []{move:fling}.\n\nThe [Speed]{mechanic:speed} cut from the []{item:iron-ball} and the effort items (the []{item:macho-brace}, []{item:power-weight}, []{item:power-bracer}, []{item:power-belt}, []{item:power-lens}, []{item:power-band}, and []{item:power-anklet}) is unaffected.  Items that do not directly affect the battle, such as the []{item:exp-share}, the []{item:amulet-coin}, or the []{item:soothe-bell}, work as usual.  All held items work as usual out of battle.\n\nOther moves that use the held item, such as []{move:natural-gift} and []{move:switcheroo}, work as usual.","short_effect":"Prevents the Pokémon from using its held item in battle.","language":"en"}],"effect_changes":[{"version_group":{"name":"black-white"},"effect_entries":[{"effect":"[]{move:fling} can be used as usual.","language":"en"}]}],"flavor_text_entries":[{"flavor_text":"持っている　道具を\n使うことが　できない。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"The Pokémon can’t use\nany held items.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Il Pokémon non può usare\nlo strumento che ha.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"El Pokémon no puede usar\nobjetos equipados.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Das Pokémon kann keine\ngetragenen Items verwenden.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Le Pokémon ne peut utiliser\naucun objet tenu.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"지니고 있는 도구를\n쓸 수 없다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"もっている　どうぐを\nつかうことが　できない。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"The Pokémon can’t use\nany held items.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"The Pokémon can’t use\nany held items.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Le Pokémon ne peut\nutiliser aucun objet tenu.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"The Pokémon can’t use\nany held items.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"The Pokémon can’t use\nany held items.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"The Pokémon can’t use\nany held items.","version_group":{"name":"diamond-pearl"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":2,"pokemon":{"name":"buneary"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"lopunny"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"woobat"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"swoobat"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"audino"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"golett"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"golurk"}}]}
+{
+  "id": 103,
+  "name": "klutz",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "Klutz",
+      "language": "en"
+    },
+    {
+      "name": "Impaccio",
+      "language": "it"
+    },
+    {
+      "name": "Zoquete",
+      "language": "es"
+    },
+    {
+      "name": "Tollpatsch",
+      "language": "de"
+    },
+    {
+      "name": "Maladresse",
+      "language": "fr"
+    },
+    {
+      "name": "서투름",
+      "language": "ko"
+    },
+    {
+      "name": "ぶきよう",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "In battle, this Pokémon cannot use its held item, nor will the item have any passive effect on the battle, positive or negative.  This Pokémon also cannot use []{move:fling}.\n\nThe [Speed]{mechanic:speed} cut from the []{item:iron-ball} and the effort items (the []{item:macho-brace}, []{item:power-weight}, []{item:power-bracer}, []{item:power-belt}, []{item:power-lens}, []{item:power-band}, and []{item:power-anklet}) is unaffected.  Items that do not directly affect the battle, such as the []{item:exp-share}, the []{item:amulet-coin}, or the []{item:soothe-bell}, work as usual.  All held items work as usual out of battle.\n\nOther moves that use the held item, such as []{move:natural-gift} and []{move:switcheroo}, work as usual.",
+      "short_effect": "Prevents the Pokémon from using its held item in battle.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "black-white"
+      },
+      "effect_entries": [
+        {
+          "effect": "[]{move:fling} can be used as usual.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "持っている　道具を\n使うことが　できない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "The Pokémon can’t use\nany held items.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Il Pokémon non può usare\nlo strumento che ha.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "El Pokémon no puede usar\nobjetos equipados.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Das Pokémon kann keine\ngetragenen Items verwenden.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Le Pokémon ne peut utiliser\naucun objet tenu.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "지니고 있는 도구를\n쓸 수 없다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "もっている　どうぐを\nつかうことが　できない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "The Pokémon can’t use\nany held items.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon can’t use\nany held items.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Le Pokémon ne peut\nutiliser aucun objet tenu.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "The Pokémon can’t use\nany held items.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon can’t use\nany held items.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon can’t use\nany held items.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "buneary"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "lopunny"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "woobat"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "swoobat"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "audino"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "golett"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "golurk"
+      }
+    }
+  ]
+}

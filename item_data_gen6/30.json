@@ -1,1 +1,213 @@
-{"id":30,"name":"fresh-water","cost":200,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-overworld"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"healing"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Restores 50 [HP]{mechanic:hp}.","short_effect":"Restores 50 HP.","language":"en"}],"flavor_text_entries":[{"text":"ミネラル　たっぷりの　水。\nポケモン　１匹の　ＨＰを\n５０だけ　回復する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"Water with a high mineral content.\nWhen consumed, it restores\n50 HP to an injured Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Acqua ricca di sostanze minerali.\nRestituisce 50 PS a un Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"text":"Agua de alto contenido mineral que restaura\n50 PS de un Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein stilles Wasser mit hohem Mineralienanteil,\ndas die KP eines Pokémon um 50 Punkte auffüllt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une eau riche en minéraux.\nRestaure 50 PV d’un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"미네랄이 가득한 물.\n포켓몬 1마리의 HP를\n50만큼 회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ミネラル　たっぷりの　みず。\nポケモン　１ひきの　ＨＰを\n５０だけ　かいふくする。","version_group":{"name":"x-y"},"language":"ja"},{"text":"Water with a high mineral content.\nIt restores the HP of one Pokémon by\n50 points.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"Water with a high mineral content.\nIt restores the HP of one Pokémon by\n50 points.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une eau riche en minéraux.\nRestaure 50 PV à un Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"Water with a high mineral content.\nIt restores the HP of one Pokémon by\n50 points.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"Water with a high mineral content.\nIt restores the HP of one Pokémon by\n50 points.","version_group":{"name":"platinum"},"language":"en"},{"text":"Water with a high mineral content.\nIt restores the HP of one Pokémon by\n50 points.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"Water with a high mineral content.\nIt restores the HP of one POKéMON\nby 50 points.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A mineral water\nthat restores HP\nby 50 points.","version_group":{"name":"emerald"},"language":"en"},{"text":"A mineral water\nthat restores HP\nby 50 points.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":30,"generation":{"name":"generation-vi"}},{"game_index":30,"generation":{"name":"generation-v"}},{"game_index":30,"generation":{"name":"generation-iv"}},{"game_index":26,"generation":{"name":"generation-iii"}}],"names":[{"name":"Fresh Water","language":"en"},{"name":"Acqua Fresca","language":"it"},{"name":"Agua Fresca","language":"es"},{"name":"Tafelwasser","language":"de"},{"name":"Eau Fraîche","language":"fr"},{"name":"맛있는물","language":"ko"},{"name":"おいしいみず","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 30,
+  "name": "fresh-water",
+  "cost": 200,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-overworld"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "healing"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Restores 50 [HP]{mechanic:hp}.",
+      "short_effect": "Restores 50 HP.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ミネラル　たっぷりの　水。\nポケモン　１匹の　ＨＰを\n５０だけ　回復する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "Water with a high mineral content.\nWhen consumed, it restores\n50 HP to an injured Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Acqua ricca di sostanze minerali.\nRestituisce 50 PS a un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Agua de alto contenido mineral que restaura\n50 PS de un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein stilles Wasser mit hohem Mineralienanteil,\ndas die KP eines Pokémon um 50 Punkte auffüllt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une eau riche en minéraux.\nRestaure 50 PV d’un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "미네랄이 가득한 물.\n포켓몬 1마리의 HP를\n50만큼 회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ミネラル　たっぷりの　みず。\nポケモン　１ひきの　ＨＰを\n５０だけ　かいふくする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "Water with a high mineral content.\nIt restores the HP of one Pokémon by\n50 points.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Water with a high mineral content.\nIt restores the HP of one Pokémon by\n50 points.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une eau riche en minéraux.\nRestaure 50 PV à un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "Water with a high mineral content.\nIt restores the HP of one Pokémon by\n50 points.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Water with a high mineral content.\nIt restores the HP of one Pokémon by\n50 points.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Water with a high mineral content.\nIt restores the HP of one Pokémon by\n50 points.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Water with a high mineral content.\nIt restores the HP of one POKéMON\nby 50 points.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A mineral water\nthat restores HP\nby 50 points.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A mineral water\nthat restores HP\nby 50 points.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 30,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 30,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 30,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 26,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Fresh Water",
+      "language": "en"
+    },
+    {
+      "name": "Acqua Fresca",
+      "language": "it"
+    },
+    {
+      "name": "Agua Fresca",
+      "language": "es"
+    },
+    {
+      "name": "Tafelwasser",
+      "language": "de"
+    },
+    {
+      "name": "Eau Fraîche",
+      "language": "fr"
+    },
+    {
+      "name": "맛있는물",
+      "language": "ko"
+    },
+    {
+      "name": "おいしいみず",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,165 @@
-{"id":120,"name":"staryu","order":137,"gender_rate":-1,"capture_rate":225,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":34,"pokedex":{"name":"kalos-coastal"}},{"entry_number":238,"pokedex":{"name":"updated-unova"}},{"entry_number":169,"pokedex":{"name":"updated-johto"}},{"entry_number":143,"pokedex":{"name":"hoenn"}},{"entry_number":167,"pokedex":{"name":"original-johto"}},{"entry_number":120,"pokedex":{"name":"kanto"}},{"entry_number":120,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water3"}],"color":{"name":"brown"},"shape":{"name":"blob"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"sea"},"generation":{"name":"generation-i"},"names":[{"name":"ヒトデマン","language":"ja"},{"name":"Hitodeman","language":"roomaji"},{"name":"별가사리","language":"ko"},{"name":"海星星","language":"zh"},{"name":"Stari","language":"fr"},{"name":"Sterndu","language":"de"},{"name":"Staryu","language":"es"},{"name":"Staryu","language":"it"},{"name":"Staryu","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"sea"}}],"form_descriptions":[],"genera":[{"genus":"ほしがた","language":"ja"},{"genus":"별","language":"ko"},{"genus":"Étoile","language":"fr"},{"genus":"Sternform","language":"de"},{"genus":"Estrellada","language":"es"},{"genus":"Stella","language":"it"},{"genus":"Star Shape","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"staryu"}}],"first_evolution_id":120}
+{
+  "id": 120,
+  "name": "staryu",
+  "order": 137,
+  "gender_rate": -1,
+  "capture_rate": 225,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 34,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 238,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 169,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 143,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 167,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 120,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 120,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water3"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "blob"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "sea"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ヒトデマン",
+      "language": "ja"
+    },
+    {
+      "name": "Hitodeman",
+      "language": "roomaji"
+    },
+    {
+      "name": "별가사리",
+      "language": "ko"
+    },
+    {
+      "name": "海星星",
+      "language": "zh"
+    },
+    {
+      "name": "Stari",
+      "language": "fr"
+    },
+    {
+      "name": "Sterndu",
+      "language": "de"
+    },
+    {
+      "name": "Staryu",
+      "language": "es"
+    },
+    {
+      "name": "Staryu",
+      "language": "it"
+    },
+    {
+      "name": "Staryu",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ほしがた",
+      "language": "ja"
+    },
+    {
+      "genus": "별",
+      "language": "ko"
+    },
+    {
+      "genus": "Étoile",
+      "language": "fr"
+    },
+    {
+      "genus": "Sternform",
+      "language": "de"
+    },
+    {
+      "genus": "Estrellada",
+      "language": "es"
+    },
+    {
+      "genus": "Stella",
+      "language": "it"
+    },
+    {
+      "genus": "Star Shape",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "staryu"
+      }
+    }
+  ],
+  "first_evolution_id": 120
+}

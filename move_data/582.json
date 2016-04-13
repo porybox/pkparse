@@ -1,1 +1,83 @@
-{"id":582,"name":"electrify","accuracy":null,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Changes the target's move's type to []{type:electric} if it hasn't moved yet this turn.","short_effect":"Changes the target's move's type to []{type:electric} if it hasn't moved yet this turn.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-vi"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Electrify","language":"en"},{"name":"Elettrocontagio","language":"it"},{"name":"Electrificación","language":"es"},{"name":"Elektrifizierung","language":"de"},{"name":"Électrisation","language":"fr"},{"name":"송전","language":"ko"},{"name":"そうでん","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"electric"}}
+{
+  "id": 582,
+  "name": "electrify",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Changes the target's move's type to []{type:electric} if it hasn't moved yet this turn.",
+      "short_effect": "Changes the target's move's type to []{type:electric} if it hasn't moved yet this turn.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-vi"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Electrify",
+      "language": "en"
+    },
+    {
+      "name": "Elettrocontagio",
+      "language": "it"
+    },
+    {
+      "name": "Electrificación",
+      "language": "es"
+    },
+    {
+      "name": "Elektrifizierung",
+      "language": "de"
+    },
+    {
+      "name": "Électrisation",
+      "language": "fr"
+    },
+    {
+      "name": "송전",
+      "language": "ko"
+    },
+    {
+      "name": "そうでん",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "electric"
+  }
+}

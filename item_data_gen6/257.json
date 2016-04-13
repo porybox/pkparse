@@ -1,1 +1,305 @@
-{"id":234,"name":"metal-powder","cost":10,"fling_power":10,"fling_effect":null,"attributes":[{"name":"holdable"}],"category":{"name":"species-specific"},"effect_entries":[{"effect":"Held by Ditto: Increases the holder's initial Defense and Special Defense by 50%.","short_effect":"Raises Ditto's Defense and Special Defense by 50%. The boost is lost after transforming.","language":"en"}],"flavor_text_entries":[{"text":"メタモンに　持たせると　防御が\nあがる　不思議な粉。\nとても　こまかくて　硬い。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a Ditto.\nStrana polvere finissima e al tempo stesso dura\nche migliora la Difesa.","version_group":{"name":"x-y"},"language":"it"},{"text":"Debe llevarlo Ditto. Es un polvo muy fino, pero\na la vez resistente, que aumenta su Velocidad.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item, das von Ditto getragen werden kann.\nEs erhöht seinen Verteidigungs-Wert.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à faire tenir à Métamorph.\nCette poudre étrange, très fine mais résistante,\naugmente sa Défense.","version_group":{"name":"x-y"},"language":"fr"},{"text":"메타몽에게 지니게 하면\n방어가 올라가는 이상한 가루.\n매우 잘고 단단하다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"メタモンに　もたせると　ぼうぎょが\nあがる　ふしぎなこな。\nとても　こまかくて　かたい。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à faire tenir à Métamorph. Cette\npoudre étrange, très fine mais\nrésistante, booste sa Défense.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A fine, hard powder to be held by\na DITTO.\nIt raises DITTO’s DEFENSE stat.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A hold item that\nraises DITTO’s\nDEFENSE.","version_group":{"name":"emerald"},"language":"en"},{"text":"A hold item that\nraises DEFENSE.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":257,"generation":{"name":"generation-vi"}},{"game_index":257,"generation":{"name":"generation-v"}},{"game_index":257,"generation":{"name":"generation-iv"}},{"game_index":223,"generation":{"name":"generation-iii"}}],"names":[{"name":"Metal Powder","language":"en"},{"name":"Metalpolvere","language":"it"},{"name":"Polvo Metálico","language":"es"},{"name":"Metallstaub","language":"de"},{"name":"Poudre Métal","language":"fr"},{"name":"금속파우더","language":"ko"},{"name":"メタルパウダー","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"ditto"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}},{"rarity":5,"version":{"name":"soulsilver"}},{"rarity":5,"version":{"name":"heartgold"}},{"rarity":5,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":5,"version":{"name":"diamond"}},{"rarity":5,"version":{"name":"leafgreen"}},{"rarity":5,"version":{"name":"firered"}},{"rarity":5,"version":{"name":"emerald"}},{"rarity":5,"version":{"name":"sapphire"}},{"rarity":5,"version":{"name":"ruby"}}]}],"baby_trigger_for":null}
+{
+  "id": 234,
+  "name": "metal-powder",
+  "cost": 10,
+  "fling_power": 10,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "species-specific"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by Ditto: Increases the holder's initial Defense and Special Defense by 50%.",
+      "short_effect": "Raises Ditto's Defense and Special Defense by 50%. The boost is lost after transforming.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "メタモンに　持たせると　防御が\nあがる　不思議な粉。\nとても　こまかくて　硬い。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a Ditto.\nStrana polvere finissima e al tempo stesso dura\nche migliora la Difesa.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Debe llevarlo Ditto. Es un polvo muy fino, pero\na la vez resistente, que aumenta su Velocidad.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item, das von Ditto getragen werden kann.\nEs erhöht seinen Verteidigungs-Wert.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à faire tenir à Métamorph.\nCette poudre étrange, très fine mais résistante,\naugmente sa Défense.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "메타몽에게 지니게 하면\n방어가 올라가는 이상한 가루.\n매우 잘고 단단하다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "メタモンに　もたせると　ぼうぎょが\nあがる　ふしぎなこな。\nとても　こまかくて　かたい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à faire tenir à Métamorph. Cette\npoudre étrange, très fine mais\nrésistante, booste sa Défense.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A fine, hard powder to be held by\na DITTO.\nIt raises DITTO’s DEFENSE stat.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nraises DITTO’s\nDEFENSE.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nraises DEFENSE.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 257,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 257,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 257,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 223,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Metal Powder",
+      "language": "en"
+    },
+    {
+      "name": "Metalpolvere",
+      "language": "it"
+    },
+    {
+      "name": "Polvo Metálico",
+      "language": "es"
+    },
+    {
+      "name": "Metallstaub",
+      "language": "de"
+    },
+    {
+      "name": "Poudre Métal",
+      "language": "fr"
+    },
+    {
+      "name": "금속파우더",
+      "language": "ko"
+    },
+    {
+      "name": "メタルパウダー",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "ditto"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "firered"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

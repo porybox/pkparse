@@ -1,1 +1,83 @@
-{"id":513,"name":"reflect-type","accuracy":null,"effect_chance":null,"pp":15,"priority":0,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"User's type changes to match the target's.","short_effect":"User becomes the target's type.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Reflect Type","language":"en"},{"name":"Riflettipo","language":"it"},{"name":"Clonatipo","language":"es"},{"name":"Typenspiegel","language":"de"},{"name":"Copie Type","language":"fr"},{"name":"미러타입","language":"ko"},{"name":"ミラータイプ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 513,
+  "name": "reflect-type",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "User's type changes to match the target's.",
+      "short_effect": "User becomes the target's type.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Reflect Type",
+      "language": "en"
+    },
+    {
+      "name": "Riflettipo",
+      "language": "it"
+    },
+    {
+      "name": "Clonatipo",
+      "language": "es"
+    },
+    {
+      "name": "Typenspiegel",
+      "language": "de"
+    },
+    {
+      "name": "Copie Type",
+      "language": "fr"
+    },
+    {
+      "name": "미러타입",
+      "language": "ko"
+    },
+    {
+      "name": "ミラータイプ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

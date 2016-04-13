@@ -1,1 +1,141 @@
-{"id":136,"name":"multiscale","is_main_series":true,"generation":{"name":"generation-v"},"names":[{"name":"Multiscale","language":"en"},{"name":"Multisquame","language":"it"},{"name":"Compensación","language":"es"},{"name":"Multischuppe","language":"de"},{"name":"Multiécaille","language":"fr"},{"name":"멀티스케일","language":"ko"},{"name":"マルチスケイル","language":"ja"}],"effect_entries":[{"effect":"This Pokémon takes half as much damage when it is hit having full [HP]{mechanic:hp}.","short_effect":"Halves damage taken from full [HP]{mechanic:hp}.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"ＨＰが　満タンのときに\nダメージが　少なくなる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Reduces damage the Pokémon\ntakes when its HP is full.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Riduce il danno subito se i PS\nsono al massimo.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Reduce el daño sufrido si los PS\nestán al máximo.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Verringert den erlittenen Schaden\nbei vollen KP.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Reçoit moins de dégâts si les PV\nsont au maximum.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"HP가 꽉 찼을 때\n데미지가 줄어든다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"ＨＰが　まんたんのときに\nダメージが　すくなくなる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Reduces damage when HP\nis full.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Reduces damage when HP\nis full.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Reçoit moins de dégâts si\nles PV sont au maximum.","version_group":{"name":"black-white"},"language":"fr"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"dragonite"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"lugia"}}]}
+{
+  "id": 136,
+  "name": "multiscale",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "Multiscale",
+      "language": "en"
+    },
+    {
+      "name": "Multisquame",
+      "language": "it"
+    },
+    {
+      "name": "Compensación",
+      "language": "es"
+    },
+    {
+      "name": "Multischuppe",
+      "language": "de"
+    },
+    {
+      "name": "Multiécaille",
+      "language": "fr"
+    },
+    {
+      "name": "멀티스케일",
+      "language": "ko"
+    },
+    {
+      "name": "マルチスケイル",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon takes half as much damage when it is hit having full [HP]{mechanic:hp}.",
+      "short_effect": "Halves damage taken from full [HP]{mechanic:hp}.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "ＨＰが　満タンのときに\nダメージが　少なくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Reduces damage the Pokémon\ntakes when its HP is full.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Riduce il danno subito se i PS\nsono al massimo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Reduce el daño sufrido si los PS\nestán al máximo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Verringert den erlittenen Schaden\nbei vollen KP.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Reçoit moins de dégâts si les PV\nsont au maximum.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "HP가 꽉 찼을 때\n데미지가 줄어든다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "ＨＰが　まんたんのときに\nダメージが　すくなくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Reduces damage when HP\nis full.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Reduces damage when HP\nis full.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Reçoit moins de dégâts si\nles PV sont au maximum.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "dragonite"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "lugia"
+      }
+    }
+  ]
+}

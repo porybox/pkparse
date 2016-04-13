@@ -1,1 +1,117 @@
-{"id":688,"name":"binacle","order":689,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":21,"pokedex":{"name":"kalos-coastal"}},{"entry_number":688,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water3"}],"color":{"name":"brown"},"shape":{"name":"heads"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-vi"},"names":[{"name":"カメテテ","language":"ja"},{"name":"거북손손","language":"ko"},{"name":"Opermine","language":"fr"},{"name":"Bithora","language":"de"},{"name":"Binacle","language":"es"},{"name":"Binacle","language":"it"},{"name":"Binacle","language":"en"}],"pal_park_encounters":[],"form_descriptions":[],"genera":[{"genus":"ふたて","language":"ja"},{"genus":"두손","language":"ko"},{"genus":"Bimane","language":"fr"},{"genus":"Krallenduo","language":"de"},{"genus":"Dos Manos","language":"es"},{"genus":"Bimano","language":"it"},{"genus":"Two-Handed","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"binacle"}}],"first_evolution_id":688}
+{
+  "id": 688,
+  "name": "binacle",
+  "order": 689,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 21,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 688,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water3"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "heads"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "カメテテ",
+      "language": "ja"
+    },
+    {
+      "name": "거북손손",
+      "language": "ko"
+    },
+    {
+      "name": "Opermine",
+      "language": "fr"
+    },
+    {
+      "name": "Bithora",
+      "language": "de"
+    },
+    {
+      "name": "Binacle",
+      "language": "es"
+    },
+    {
+      "name": "Binacle",
+      "language": "it"
+    },
+    {
+      "name": "Binacle",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ふたて",
+      "language": "ja"
+    },
+    {
+      "genus": "두손",
+      "language": "ko"
+    },
+    {
+      "genus": "Bimane",
+      "language": "fr"
+    },
+    {
+      "genus": "Krallenduo",
+      "language": "de"
+    },
+    {
+      "genus": "Dos Manos",
+      "language": "es"
+    },
+    {
+      "genus": "Bimano",
+      "language": "it"
+    },
+    {
+      "genus": "Two-Handed",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "binacle"
+      }
+    }
+  ],
+  "first_evolution_id": 688
+}

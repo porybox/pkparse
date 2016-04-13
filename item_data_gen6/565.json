@@ -1,1 +1,143 @@
-{"id":606,"name":"health-wing","cost":3000,"fling_power":20,"fling_effect":null,"attributes":[],"category":{"name":"vitamins"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Increases the target's [HP]{mechanic:hp} [effort]{mechanic:effort} by 1.","short_effect":"Increases [HP]{mechanic:hp} [effort]{mechanic:effort} by 1.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンに　使う　道具。\nポケモン　１匹の　ＨＰの\n基礎ポイントを　ちょっと　あげる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item for use on a Pokémon.\nIt slightly increases the base\nHP of a single Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da usare su un Pokémon.\nNe aumenta di poco i punti base dei PS.","version_group":{"name":"x-y"},"language":"it"},{"text":"Moneda de cobre de más de 3000 años de\nantigüedad. Muy valorada por los coleccionistas.","version_group":{"name":"x-y"},"language":"es"},{"text":"Schenkt man einem Pokémon dieses Item,\nwird dessen KP-Basiswert dauerhaft erhöht.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à utiliser sur un Pokémon.\nIl augmente un peu ses PV de base.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬에게 사용하는 도구.\n포켓몬 1마리의 HP\n기초 포인트를 조금 올린다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンに　つかう　どうぐ。\nポケモン　１ひきの　ＨＰの\nきそポイントを　ちょっと　あげる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item for use on a Pokémon. It\nslightly increases the base HP of a\nsingle Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item for use on a Pokémon. It\nslightly increases the base HP of a\nsingle Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à utiliser sur un Pokémon.\nIl augmente un peu ses PV lors\nd’une montée de niveau.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":565,"generation":{"name":"generation-vi"}},{"game_index":565,"generation":{"name":"generation-v"}}],"names":[{"name":"Health Wing","language":"en"},{"name":"Piumsalute","language":"it"},{"name":"Pluma Vigor","language":"es"},{"name":"Heilfeder","language":"de"},{"name":"Aile Santé","language":"fr"},{"name":"체력날개","language":"ko"},{"name":"たいりょくのハネ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 606,
+  "name": "health-wing",
+  "cost": 3000,
+  "fling_power": 20,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "vitamins"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Increases the target's [HP]{mechanic:hp} [effort]{mechanic:effort} by 1.",
+      "short_effect": "Increases [HP]{mechanic:hp} [effort]{mechanic:effort} by 1.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンに　使う　道具。\nポケモン　１匹の　ＨＰの\n基礎ポイントを　ちょっと　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item for use on a Pokémon.\nIt slightly increases the base\nHP of a single Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da usare su un Pokémon.\nNe aumenta di poco i punti base dei PS.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Moneda de cobre de más de 3000 años de\nantigüedad. Muy valorada por los coleccionistas.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Schenkt man einem Pokémon dieses Item,\nwird dessen KP-Basiswert dauerhaft erhöht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à utiliser sur un Pokémon.\nIl augmente un peu ses PV de base.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬에게 사용하는 도구.\n포켓몬 1마리의 HP\n기초 포인트를 조금 올린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンに　つかう　どうぐ。\nポケモン　１ひきの　ＨＰの\nきそポイントを　ちょっと　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item for use on a Pokémon. It\nslightly increases the base HP of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item for use on a Pokémon. It\nslightly increases the base HP of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à utiliser sur un Pokémon.\nIl augmente un peu ses PV lors\nd’une montée de niveau.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 565,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 565,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Health Wing",
+      "language": "en"
+    },
+    {
+      "name": "Piumsalute",
+      "language": "it"
+    },
+    {
+      "name": "Pluma Vigor",
+      "language": "es"
+    },
+    {
+      "name": "Heilfeder",
+      "language": "de"
+    },
+    {
+      "name": "Aile Santé",
+      "language": "fr"
+    },
+    {
+      "name": "체력날개",
+      "language": "ko"
+    },
+    {
+      "name": "たいりょくのハネ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,85 @@
-{"id":381,"name":"lucky-chant","accuracy":null,"effect_chance":null,"pp":30,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"cute"},"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"For five turns, opposing Pokémon cannot score [critical hits]{mechanic:critical-hit}.","short_effect":"Prevents the target from scoring critical hits for five turns.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"field-effect"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Lucky Chant","language":"en"},{"name":"Fortuncanto","language":"it"},{"name":"Conjuro","language":"es"},{"name":"Beschwörung","language":"de"},{"name":"Air Veinard","language":"fr"},{"name":"주술","language":"ko"},{"name":"おまじない","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"users-field"},"type":{"name":"normal"}}
+{
+  "id": 381,
+  "name": "lucky-chant",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 30,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "For five turns, opposing Pokémon cannot score [critical hits]{mechanic:critical-hit}.",
+      "short_effect": "Prevents the target from scoring critical hits for five turns.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "field-effect"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Lucky Chant",
+      "language": "en"
+    },
+    {
+      "name": "Fortuncanto",
+      "language": "it"
+    },
+    {
+      "name": "Conjuro",
+      "language": "es"
+    },
+    {
+      "name": "Beschwörung",
+      "language": "de"
+    },
+    {
+      "name": "Air Veinard",
+      "language": "fr"
+    },
+    {
+      "name": "주술",
+      "language": "ko"
+    },
+    {
+      "name": "おまじない",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "users-field"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

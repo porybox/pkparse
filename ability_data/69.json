@@ -1,1 +1,309 @@
-{"id":69,"name":"rock-head","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Rock Head","language":"en"},{"name":"Testadura","language":"it"},{"name":"Cabeza Roca","language":"es"},{"name":"Steinhaupt","language":"de"},{"name":"Tête de Roc","language":"fr"},{"name":"돌머리","language":"ko"},{"name":"いしあたま","language":"ja"}],"effect_entries":[{"effect":"This Pokémon does not receive recoil damage from its recoil moves.\n\n[]{move:struggle}'s recoil is unaffected.  This ability does not prevent crash damage from missing with []{move:jump-kick} or []{move:high-jump-kick}.","short_effect":"Protects against recoil damage.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"ぶつかっても\n反動を　受けない。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Protects the Pokémon\nfrom recoil damage.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Protegge il Pokémon dai\ncontraccolpi.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Impide que el Pokémon se dañe\ncon sus movimientos.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Verhindert Schaden, der durch\nRückstoß entsteht.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Protège le Pokémon des dégâts\nde contrecoups.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"부딪쳐도\n반동을 받지 않는다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"ぶつかっても\nはんどうを　うけない。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Protects the Pokémon\nfrom recoil damage.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Protects the Pokémon\nfrom recoil damage.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Protège le Pokémon des\ndégâts de contrecoups.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Protects the Pokémon\nfrom recoil damage.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Protects the Pokémon\nfrom recoil damage.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Protects the Pokémon\nfrom recoil damage.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"Prevents recoil damage.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"Prevents recoil damage.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"Prevents recoil damage.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":1,"pokemon":{"name":"geodude"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"graveler"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"golem"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"onix"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"cubone"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"marowak"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"rhyhorn"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"rhydon"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"aerodactyl"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"sudowoodo"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"steelix"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"aron"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"lairon"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"aggron"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"relicanth"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"bagon"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"shelgon"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"bonsly"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"tyrantrum"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"basculin-blue-striped"}}]}
+{
+  "id": 69,
+  "name": "rock-head",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Rock Head",
+      "language": "en"
+    },
+    {
+      "name": "Testadura",
+      "language": "it"
+    },
+    {
+      "name": "Cabeza Roca",
+      "language": "es"
+    },
+    {
+      "name": "Steinhaupt",
+      "language": "de"
+    },
+    {
+      "name": "Tête de Roc",
+      "language": "fr"
+    },
+    {
+      "name": "돌머리",
+      "language": "ko"
+    },
+    {
+      "name": "いしあたま",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon does not receive recoil damage from its recoil moves.\n\n[]{move:struggle}'s recoil is unaffected.  This ability does not prevent crash damage from missing with []{move:jump-kick} or []{move:high-jump-kick}.",
+      "short_effect": "Protects against recoil damage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "ぶつかっても\n反動を　受けない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Protects the Pokémon\nfrom recoil damage.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Protegge il Pokémon dai\ncontraccolpi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Impide que el Pokémon se dañe\ncon sus movimientos.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Verhindert Schaden, der durch\nRückstoß entsteht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Protège le Pokémon des dégâts\nde contrecoups.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "부딪쳐도\n반동을 받지 않는다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "ぶつかっても\nはんどうを　うけない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Protects the Pokémon\nfrom recoil damage.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Protects the Pokémon\nfrom recoil damage.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Protège le Pokémon des\ndégâts de contrecoups.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Protects the Pokémon\nfrom recoil damage.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Protects the Pokémon\nfrom recoil damage.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Protects the Pokémon\nfrom recoil damage.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Prevents recoil damage.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Prevents recoil damage.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Prevents recoil damage.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "geodude"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "graveler"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "golem"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "onix"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "cubone"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "marowak"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "rhyhorn"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "rhydon"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "aerodactyl"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "sudowoodo"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "steelix"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "aron"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "lairon"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "aggron"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "relicanth"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "bagon"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "shelgon"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "bonsly"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "tyrantrum"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "basculin-blue-striped"
+      }
+    }
+  ]
+}

@@ -1,1 +1,153 @@
-{"id":240,"name":"magby","order":148,"gender_rate":2,"capture_rate":45,"base_happiness":70,"is_baby":true,"hatch_counter":25,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":53,"pokedex":{"name":"updated-unova"}},{"entry_number":152,"pokedex":{"name":"updated-johto"}},{"entry_number":200,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":150,"pokedex":{"name":"original-johto"}},{"entry_number":240,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"no-eggs"}],"color":{"name":"red"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-ii"},"names":[{"name":"ブビィ","language":"ja"},{"name":"Buby","language":"roomaji"},{"name":"마그비","language":"ko"},{"name":"小鴨嘴龍","language":"zh"},{"name":"Magby","language":"fr"},{"name":"Magby","language":"de"},{"name":"Magby","language":"es"},{"name":"Magby","language":"it"},{"name":"Magby","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ひだね","language":"ja"},{"genus":"불씨","language":"ko"},{"genus":"Charbon","language":"fr"},{"genus":"Glutherd","language":"de"},{"genus":"Ascuas","language":"es"},{"genus":"Carbonvivo","language":"it"},{"genus":"Live Coal","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"magby"}}],"first_evolution_id":240}
+{
+  "id": 240,
+  "name": "magby",
+  "order": 148,
+  "gender_rate": 2,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": true,
+  "hatch_counter": 25,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 53,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 152,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 200,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 150,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 240,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "no-eggs"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ブビィ",
+      "language": "ja"
+    },
+    {
+      "name": "Buby",
+      "language": "roomaji"
+    },
+    {
+      "name": "마그비",
+      "language": "ko"
+    },
+    {
+      "name": "小鴨嘴龍",
+      "language": "zh"
+    },
+    {
+      "name": "Magby",
+      "language": "fr"
+    },
+    {
+      "name": "Magby",
+      "language": "de"
+    },
+    {
+      "name": "Magby",
+      "language": "es"
+    },
+    {
+      "name": "Magby",
+      "language": "it"
+    },
+    {
+      "name": "Magby",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ひだね",
+      "language": "ja"
+    },
+    {
+      "genus": "불씨",
+      "language": "ko"
+    },
+    {
+      "genus": "Charbon",
+      "language": "fr"
+    },
+    {
+      "genus": "Glutherd",
+      "language": "de"
+    },
+    {
+      "genus": "Ascuas",
+      "language": "es"
+    },
+    {
+      "genus": "Carbonvivo",
+      "language": "it"
+    },
+    {
+      "genus": "Live Coal",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "magby"
+      }
+    }
+  ],
+  "first_evolution_id": 240
+}

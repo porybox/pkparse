@@ -1,1 +1,147 @@
-{"id":328,"name":"trapinch","order":356,"gender_rate":4,"capture_rate":255,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":3,"pokedex":{"name":"kalos-mountain"}},{"entry_number":121,"pokedex":{"name":"updated-unova"}},{"entry_number":116,"pokedex":{"name":"hoenn"}},{"entry_number":328,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"brown"},"shape":{"name":"armor"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"rough-terrain"},"generation":{"name":"generation-iii"},"names":[{"name":"ナックラー","language":"ja"},{"name":"Nuckrar","language":"roomaji"},{"name":"톱치","language":"ko"},{"name":"大顎蟻","language":"zh"},{"name":"Kraknoix","language":"fr"},{"name":"Knacklion","language":"de"},{"name":"Trapinch","language":"es"},{"name":"Trapinch","language":"it"},{"name":"Trapinch","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ありじごく","language":"ja"},{"genus":"개미지옥","language":"ko"},{"genus":"Piégeur","language":"fr"},{"genus":"Ameisenlöwe","language":"de"},{"genus":"Hormigaleón","language":"es"},{"genus":"Trappola","language":"it"},{"genus":"Ant Pit","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"trapinch"}}],"first_evolution_id":328}
+{
+  "id": 328,
+  "name": "trapinch",
+  "order": 356,
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 3,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 121,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 116,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 328,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "armor"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "rough-terrain"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ナックラー",
+      "language": "ja"
+    },
+    {
+      "name": "Nuckrar",
+      "language": "roomaji"
+    },
+    {
+      "name": "톱치",
+      "language": "ko"
+    },
+    {
+      "name": "大顎蟻",
+      "language": "zh"
+    },
+    {
+      "name": "Kraknoix",
+      "language": "fr"
+    },
+    {
+      "name": "Knacklion",
+      "language": "de"
+    },
+    {
+      "name": "Trapinch",
+      "language": "es"
+    },
+    {
+      "name": "Trapinch",
+      "language": "it"
+    },
+    {
+      "name": "Trapinch",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ありじごく",
+      "language": "ja"
+    },
+    {
+      "genus": "개미지옥",
+      "language": "ko"
+    },
+    {
+      "genus": "Piégeur",
+      "language": "fr"
+    },
+    {
+      "genus": "Ameisenlöwe",
+      "language": "de"
+    },
+    {
+      "genus": "Hormigaleón",
+      "language": "es"
+    },
+    {
+      "genus": "Trappola",
+      "language": "it"
+    },
+    {
+      "genus": "Ant Pit",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "trapinch"
+      }
+    }
+  ],
+  "first_evolution_id": 328
+}

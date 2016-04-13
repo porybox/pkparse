@@ -1,1 +1,177 @@
-{"id":63,"name":"abra","order":69,"gender_rate":2,"capture_rate":200,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":102,"pokedex":{"name":"kalos-central"}},{"entry_number":127,"pokedex":{"name":"conquest-gallery"}},{"entry_number":89,"pokedex":{"name":"updated-johto"}},{"entry_number":20,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":20,"pokedex":{"name":"original-sinnoh"}},{"entry_number":39,"pokedex":{"name":"hoenn"}},{"entry_number":89,"pokedex":{"name":"original-johto"}},{"entry_number":63,"pokedex":{"name":"kanto"}},{"entry_number":63,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"humanshape"}],"color":{"name":"brown"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"urban"},"generation":{"name":"generation-i"},"names":[{"name":"ケーシィ","language":"ja"},{"name":"Casey","language":"roomaji"},{"name":"캐이시","language":"ko"},{"name":"凱西","language":"zh"},{"name":"Abra","language":"fr"},{"name":"Abra","language":"de"},{"name":"Abra","language":"es"},{"name":"Abra","language":"it"},{"name":"Abra","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"ねんりき","language":"ja"},{"genus":"초능력","language":"ko"},{"genus":"Psy","language":"fr"},{"genus":"Psi","language":"de"},{"genus":"Psi","language":"es"},{"genus":"Psico","language":"it"},{"genus":"Psi","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"abra"}}],"first_evolution_id":63}
+{
+  "id": 63,
+  "name": "abra",
+  "order": 69,
+  "gender_rate": 2,
+  "capture_rate": 200,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 102,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 127,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 89,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 20,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 20,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 39,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 89,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 63,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 63,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "humanshape"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "urban"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ケーシィ",
+      "language": "ja"
+    },
+    {
+      "name": "Casey",
+      "language": "roomaji"
+    },
+    {
+      "name": "캐이시",
+      "language": "ko"
+    },
+    {
+      "name": "凱西",
+      "language": "zh"
+    },
+    {
+      "name": "Abra",
+      "language": "fr"
+    },
+    {
+      "name": "Abra",
+      "language": "de"
+    },
+    {
+      "name": "Abra",
+      "language": "es"
+    },
+    {
+      "name": "Abra",
+      "language": "it"
+    },
+    {
+      "name": "Abra",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ねんりき",
+      "language": "ja"
+    },
+    {
+      "genus": "초능력",
+      "language": "ko"
+    },
+    {
+      "genus": "Psy",
+      "language": "fr"
+    },
+    {
+      "genus": "Psi",
+      "language": "de"
+    },
+    {
+      "genus": "Psi",
+      "language": "es"
+    },
+    {
+      "genus": "Psico",
+      "language": "it"
+    },
+    {
+      "genus": "Psi",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "abra"
+      }
+    }
+  ],
+  "first_evolution_id": 63
+}

@@ -1,1 +1,129 @@
-{"id":674,"name":"oval-charm","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"","short_effect":"Doubles the chance of two Pokémon producing an egg at the daycare every 255 steps.","language":"en"}],"flavor_text_entries":[{"text":"持っていると　育て屋さんで\nタマゴが　みつかりやすくなる\n不思議で　とてもまるい　おまもり。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An oval charm said to increase\nthe chance of Pokémon Eggs\nbeing found at the Day Care.","version_group":{"name":"x-y"},"language":"en"},{"text":"Misterioso amuleto di forma sferica che\naumenta la probabilità di trovare Uova\nnella Pensione Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"text":"Gafa que protege de los efectos adversos del\nclima y del polvo lanzado por los rivales.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein mysteriöser, ovaler Glücksbringer, der die\nWahrscheinlichkeit erhöht, in der Pension Eier\nzu finden.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un mystérieux charme rond qui permet de trouver\nplus facilement des Œufs à la Pension Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"지니고 있으면 키우미집에서\n알을 발견하기 쉬워지는\n이상하고 매우 둥근 부적.","version_group":{"name":"x-y"},"language":"ko"},{"text":"もっていると　そだてやさんで\nタマゴが　みつかりやすくなる\nふしぎで　とてもまるい　おまもり。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An oval charm said to increase the\nchance of Eggs being found\nat the Day Care.","version_group":{"name":"black-2-white-2"},"language":"en"}],"game_indices":[{"game_index":631,"generation":{"name":"generation-vi"}},{"game_index":631,"generation":{"name":"generation-v"}}],"names":[{"name":"Oval Charm","language":"en"},{"name":"Ovamuleto","language":"it"},{"name":"Amuleto Oval","language":"es"},{"name":"Ovalpin","language":"de"},{"name":"Charme Ovale","language":"fr"},{"name":"둥근부적","language":"ko"},{"name":"まるいおまもり","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 674,
+  "name": "oval-charm",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "",
+      "short_effect": "Doubles the chance of two Pokémon producing an egg at the daycare every 255 steps.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "持っていると　育て屋さんで\nタマゴが　みつかりやすくなる\n不思議で　とてもまるい　おまもり。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An oval charm said to increase\nthe chance of Pokémon Eggs\nbeing found at the Day Care.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Misterioso amuleto di forma sferica che\naumenta la probabilità di trovare Uova\nnella Pensione Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Gafa que protege de los efectos adversos del\nclima y del polvo lanzado por los rivales.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein mysteriöser, ovaler Glücksbringer, der die\nWahrscheinlichkeit erhöht, in der Pension Eier\nzu finden.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un mystérieux charme rond qui permet de trouver\nplus facilement des Œufs à la Pension Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "지니고 있으면 키우미집에서\n알을 발견하기 쉬워지는\n이상하고 매우 둥근 부적.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "もっていると　そだてやさんで\nタマゴが　みつかりやすくなる\nふしぎで　とてもまるい　おまもり。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An oval charm said to increase the\nchance of Eggs being found\nat the Day Care.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 631,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 631,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Oval Charm",
+      "language": "en"
+    },
+    {
+      "name": "Ovamuleto",
+      "language": "it"
+    },
+    {
+      "name": "Amuleto Oval",
+      "language": "es"
+    },
+    {
+      "name": "Ovalpin",
+      "language": "de"
+    },
+    {
+      "name": "Charme Ovale",
+      "language": "fr"
+    },
+    {
+      "name": "둥근부적",
+      "language": "ko"
+    },
+    {
+      "name": "まるいおまもり",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

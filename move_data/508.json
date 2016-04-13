@@ -1,1 +1,96 @@
-{"id":508,"name":"shift-gear","accuracy":null,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Raises the user's [Attack]{mechanic:attack} by one [stage]{mechanic:stage} and its [Speed]{mechanic:speed} by two stages.","short_effect":"Raises the user's Attack by one stage and its Speed by two stages.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"net-good-stats"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Shift Gear","language":"en"},{"name":"Cambiomarcia","language":"it"},{"name":"Cambio de Marcha","language":"es"},{"name":"Gangwechsel","language":"de"},{"name":"Chgt Vitesse","language":"fr"},{"name":"기어체인지","language":"ko"},{"name":"ギアチェンジ","language":"ja"}],"past_values":[],"stat_changes":[{"change":1,"stat":{"name":"attack"}},{"change":2,"stat":{"name":"speed"}}],"super_contest_effect":null,"target":{"name":"user"},"type":{"name":"steel"}}
+{
+  "id": 508,
+  "name": "shift-gear",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Raises the user's [Attack]{mechanic:attack} by one [stage]{mechanic:stage} and its [Speed]{mechanic:speed} by two stages.",
+      "short_effect": "Raises the user's Attack by one stage and its Speed by two stages.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "net-good-stats"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Shift Gear",
+      "language": "en"
+    },
+    {
+      "name": "Cambiomarcia",
+      "language": "it"
+    },
+    {
+      "name": "Cambio de Marcha",
+      "language": "es"
+    },
+    {
+      "name": "Gangwechsel",
+      "language": "de"
+    },
+    {
+      "name": "Chgt Vitesse",
+      "language": "fr"
+    },
+    {
+      "name": "기어체인지",
+      "language": "ko"
+    },
+    {
+      "name": "ギアチェンジ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": 1,
+      "stat": {
+        "name": "attack"
+      }
+    },
+    {
+      "change": 2,
+      "stat": {
+        "name": "speed"
+      }
+    }
+  ],
+  "super_contest_effect": null,
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "steel"
+  }
+}

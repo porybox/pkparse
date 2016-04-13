@@ -1,1 +1,70 @@
-{"id":554,"name":"rainbow-pass","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[{"effect":"Provides access to the Sevii Islands.","short_effect":"Grants access to all of the Sevii Islands.","language":"en"}],"flavor_text_entries":[{"text":"A pass for ferries between\nVERMILION and the SEVII ISLANDS.\nIt features a drawing of a rainbow.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"For ferries serving\nVERMILION and the\nSEVII ISLANDS.","version_group":{"name":"emerald"},"language":"en"}],"game_indices":[{"game_index":368,"generation":{"name":"generation-iii"}}],"names":[{"name":"Rainbow Pass","language":"en"},{"name":"Sette Pass","language":"it"},{"name":"Iris-Ticket","language":"es"},{"name":"Bunt-Pass","language":"de"},{"name":"Passe Prisme","language":"fr"},{"name":"レインボーパス","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 554,
+  "name": "rainbow-pass",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [
+    {
+      "effect": "Provides access to the Sevii Islands.",
+      "short_effect": "Grants access to all of the Sevii Islands.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A pass for ferries between\nVERMILION and the SEVII ISLANDS.\nIt features a drawing of a rainbow.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "For ferries serving\nVERMILION and the\nSEVII ISLANDS.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 368,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Rainbow Pass",
+      "language": "en"
+    },
+    {
+      "name": "Sette Pass",
+      "language": "it"
+    },
+    {
+      "name": "Iris-Ticket",
+      "language": "es"
+    },
+    {
+      "name": "Bunt-Pass",
+      "language": "de"
+    },
+    {
+      "name": "Passe Prisme",
+      "language": "fr"
+    },
+    {
+      "name": "レインボーパス",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

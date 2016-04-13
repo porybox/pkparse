@@ -1,1 +1,167 @@
-{"id":196,"name":"espeon","order":161,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":35,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":81,"pokedex":{"name":"kalos-coastal"}},{"entry_number":5,"pokedex":{"name":"conquest-gallery"}},{"entry_number":95,"pokedex":{"name":"updated-unova"}},{"entry_number":188,"pokedex":{"name":"updated-johto"}},{"entry_number":167,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":184,"pokedex":{"name":"original-johto"}},{"entry_number":196,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"purple"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"eevee"},"evolution_chain":{},"habitat":{"name":"urban"},"generation":{"name":"generation-ii"},"names":[{"name":"エーフィ","language":"ja"},{"name":"Eifie","language":"roomaji"},{"name":"에브이","language":"ko"},{"name":"太陽精靈","language":"zh"},{"name":"Mentali","language":"fr"},{"name":"Psiana","language":"de"},{"name":"Espeon","language":"es"},{"name":"Espeon","language":"it"},{"name":"Espeon","language":"en"}],"pal_park_encounters":[{"base_score":90,"rate":3,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"たいよう","language":"ja"},{"genus":"태양","language":"ko"},{"genus":"Soleil","language":"fr"},{"genus":"Sonne","language":"de"},{"genus":"Sol","language":"es"},{"genus":"Sole","language":"it"},{"genus":"Sun","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"espeon"}}],"first_evolution_id":133}
+{
+  "id": 196,
+  "name": "espeon",
+  "order": 161,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 35,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 81,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 5,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 95,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 188,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 167,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 184,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 196,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "purple"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "eevee"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "urban"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "エーフィ",
+      "language": "ja"
+    },
+    {
+      "name": "Eifie",
+      "language": "roomaji"
+    },
+    {
+      "name": "에브이",
+      "language": "ko"
+    },
+    {
+      "name": "太陽精靈",
+      "language": "zh"
+    },
+    {
+      "name": "Mentali",
+      "language": "fr"
+    },
+    {
+      "name": "Psiana",
+      "language": "de"
+    },
+    {
+      "name": "Espeon",
+      "language": "es"
+    },
+    {
+      "name": "Espeon",
+      "language": "it"
+    },
+    {
+      "name": "Espeon",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 90,
+      "rate": 3,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "たいよう",
+      "language": "ja"
+    },
+    {
+      "genus": "태양",
+      "language": "ko"
+    },
+    {
+      "genus": "Soleil",
+      "language": "fr"
+    },
+    {
+      "genus": "Sonne",
+      "language": "de"
+    },
+    {
+      "genus": "Sol",
+      "language": "es"
+    },
+    {
+      "genus": "Sole",
+      "language": "it"
+    },
+    {
+      "genus": "Sun",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "espeon"
+      }
+    }
+  ],
+  "first_evolution_id": 133
+}

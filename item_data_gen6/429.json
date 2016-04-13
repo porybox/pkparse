@@ -1,1 +1,170 @@
-{"id":406,"name":"loot-sack","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"unused"},"effect_entries":[{"effect":"Unused.","short_effect":"Carries coal mine loot.","language":"en"}],"flavor_text_entries":[{"text":"炭鉱で　てにいれた\n宝物を　しまっておける\nおおきくて　丈夫な　ふくろ。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A sturdy, spacious bag that is\nused to carry any treasures or\nloot obtained in the coal mine.","version_group":{"name":"x-y"},"language":"en"},{"text":"Una sacca spaziosa e resistente usata per\ntrasportare il bottino ottenuto nella miniera.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una regadera con forma de Psyduck. Ayuda a\nque las bayas plantadas en suelo fértil crezcan\nmejor.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein fester Sack. Wird verwendet, um Beute\naus der Kohlemine zu transportieren.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un grand sac robuste utilisé pour transporter\nle butin obtenu dans la mine de charbon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"탄갱에서 손에 넣은\n보물을 보관해둘 수 있는\n크고 튼튼한 주머니다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"たんこうで　てにいれた\nたからものを　しまっておける\nおおきくて　じょうぶな　ふくろ。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.","version_group":{"name":"black-white"},"language":"en"},{"text":"Grand sac robuste utilisé pour\ntransporter le butin obtenu dans\nla mine de charbon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.","version_group":{"name":"platinum"},"language":"en"},{"text":"A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":429,"generation":{"name":"generation-vi"}},{"game_index":429,"generation":{"name":"generation-v"}},{"game_index":429,"generation":{"name":"generation-iv"}}],"names":[{"name":"Loot Sack","language":"en"},{"name":"Bottinosacca","language":"it"},{"name":"Saca Botín","language":"es"},{"name":"Beutesack","language":"de"},{"name":"Sac Butin","language":"fr"},{"name":"보물주머니","language":"ko"},{"name":"たからぶくろ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 406,
+  "name": "loot-sack",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "unused"
+  },
+  "effect_entries": [
+    {
+      "effect": "Unused.",
+      "short_effect": "Carries coal mine loot.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "炭鉱で　てにいれた\n宝物を　しまっておける\nおおきくて　丈夫な　ふくろ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A sturdy, spacious bag that is\nused to carry any treasures or\nloot obtained in the coal mine.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Una sacca spaziosa e resistente usata per\ntrasportare il bottino ottenuto nella miniera.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una regadera con forma de Psyduck. Ayuda a\nque las bayas plantadas en suelo fértil crezcan\nmejor.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein fester Sack. Wird verwendet, um Beute\naus der Kohlemine zu transportieren.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un grand sac robuste utilisé pour transporter\nle butin obtenu dans la mine de charbon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "탄갱에서 손에 넣은\n보물을 보관해둘 수 있는\n크고 튼튼한 주머니다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "たんこうで　てにいれた\nたからものを　しまっておける\nおおきくて　じょうぶな　ふくろ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Grand sac robuste utilisé pour\ntransporter le butin obtenu dans\nla mine de charbon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 429,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 429,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 429,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Loot Sack",
+      "language": "en"
+    },
+    {
+      "name": "Bottinosacca",
+      "language": "it"
+    },
+    {
+      "name": "Saca Botín",
+      "language": "es"
+    },
+    {
+      "name": "Beutesack",
+      "language": "de"
+    },
+    {
+      "name": "Sac Butin",
+      "language": "fr"
+    },
+    {
+      "name": "보물주머니",
+      "language": "ko"
+    },
+    {
+      "name": "たからぶくろ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

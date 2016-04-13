@@ -1,1 +1,85 @@
-{"id":392,"name":"aqua-ring","accuracy":null,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"beauty"},"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Restores 1/16 of the user's max [HP]{mechanic:hp} at the end of each turn.  If the user leaves the [field]{mechanic:field}, this effect ends.\n\nThis effect is passed on by []{move:baton-pass}.","short_effect":"Restores 1/16 of the user's max HP each turn.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Aqua Ring","language":"en"},{"name":"Acquanello","language":"it"},{"name":"Acua Aro","language":"es"},{"name":"Wasserring","language":"de"},{"name":"Anneau Hydro","language":"fr"},{"name":"아쿠아링","language":"ko"},{"name":"アクアリング","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"water"}}
+{
+  "id": 392,
+  "name": "aqua-ring",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Restores 1/16 of the user's max [HP]{mechanic:hp} at the end of each turn.  If the user leaves the [field]{mechanic:field}, this effect ends.\n\nThis effect is passed on by []{move:baton-pass}.",
+      "short_effect": "Restores 1/16 of the user's max HP each turn.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Aqua Ring",
+      "language": "en"
+    },
+    {
+      "name": "Acquanello",
+      "language": "it"
+    },
+    {
+      "name": "Acua Aro",
+      "language": "es"
+    },
+    {
+      "name": "Wasserring",
+      "language": "de"
+    },
+    {
+      "name": "Anneau Hydro",
+      "language": "fr"
+    },
+    {
+      "name": "아쿠아링",
+      "language": "ko"
+    },
+    {
+      "name": "アクアリング",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "water"
+  }
+}

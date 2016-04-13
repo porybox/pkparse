@@ -1,1 +1,104 @@
-{"id":178,"name":"cotton-spore","accuracy":100,"effect_chance":null,"pp":40,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"beauty"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Lowers the target's [Speed]{mechanic:speed} by two [stages]{mechanic:stage}.","short_effect":"Lowers the target's Speed by two stages.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"net-good-stats"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Cotton Spore","language":"en"},{"name":"Cottonspora","language":"it"},{"name":"Esporagodón","language":"es"},{"name":"Baumwollsaat","language":"de"},{"name":"Spore Coton","language":"fr"},{"name":"목화포자","language":"ko"},{"name":"わたほうし","language":"ja"}],"past_values":[{"accuracy":85,"power":null,"pp":null,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"black-white"}}],"stat_changes":[{"change":-2,"stat":{"name":"speed"}}],"super_contest_effect":{},"target":{"name":"all-opponents"},"type":{"name":"grass"}}
+{
+  "id": 178,
+  "name": "cotton-spore",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 40,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Lowers the target's [Speed]{mechanic:speed} by two [stages]{mechanic:stage}.",
+      "short_effect": "Lowers the target's Speed by two stages.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "net-good-stats"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Cotton Spore",
+      "language": "en"
+    },
+    {
+      "name": "Cottonspora",
+      "language": "it"
+    },
+    {
+      "name": "Esporagodón",
+      "language": "es"
+    },
+    {
+      "name": "Baumwollsaat",
+      "language": "de"
+    },
+    {
+      "name": "Spore Coton",
+      "language": "fr"
+    },
+    {
+      "name": "목화포자",
+      "language": "ko"
+    },
+    {
+      "name": "わたほうし",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": 85,
+      "power": null,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "black-white"
+      }
+    }
+  ],
+  "stat_changes": [
+    {
+      "change": -2,
+      "stat": {
+        "name": "speed"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "all-opponents"
+  },
+  "type": {
+    "name": "grass"
+  }
+}

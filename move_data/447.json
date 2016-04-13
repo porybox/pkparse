@@ -1,1 +1,85 @@
-{"id":447,"name":"grass-knot","accuracy":100,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":null,"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n","short_effect":"Inflicts more damage to heavier targets, with a maximum of 120 power.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Grass Knot","language":"en"},{"name":"Laccioerboso","language":"it"},{"name":"Hierba Lazo","language":"es"},{"name":"Strauchler","language":"de"},{"name":"Nœud Herbe","language":"fr"},{"name":"풀묶기","language":"ko"},{"name":"くさむすび","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"grass"}}
+{
+  "id": 447,
+  "name": "grass-knot",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
+      "short_effect": "Inflicts more damage to heavier targets, with a maximum of 120 power.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Grass Knot",
+      "language": "en"
+    },
+    {
+      "name": "Laccioerboso",
+      "language": "it"
+    },
+    {
+      "name": "Hierba Lazo",
+      "language": "es"
+    },
+    {
+      "name": "Strauchler",
+      "language": "de"
+    },
+    {
+      "name": "Nœud Herbe",
+      "language": "fr"
+    },
+    {
+      "name": "풀묶기",
+      "language": "ko"
+    },
+    {
+      "name": "くさむすび",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "grass"
+  }
+}

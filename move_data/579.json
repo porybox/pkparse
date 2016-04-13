@@ -1,1 +1,90 @@
-{"id":579,"name":"flower-shield","accuracy":null,"effect_chance":100,"pp":10,"priority":0,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Raises the Defense of all []{type:grass} Pokémon in battle.","short_effect":"Raises the Defense of all []{type:grass} Pokémon in battle","language":"en"}],"effect_changes":[],"generation":{"name":"generation-vi"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":100},"names":[{"name":"Flower Shield","language":"en"},{"name":"Fiordifesa","language":"it"},{"name":"Defensa Floral","language":"es"},{"name":"Floraschutz","language":"de"},{"name":"Garde Florale","language":"fr"},{"name":"플라워가드","language":"ko"},{"name":"フラワーガード","language":"ja"}],"past_values":[],"stat_changes":[{"change":1,"stat":{"name":"defense"}}],"super_contest_effect":null,"target":{"name":"all-pokemon"},"type":{"name":"fairy"}}
+{
+  "id": 579,
+  "name": "flower-shield",
+  "accuracy": null,
+  "effect_chance": 100,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Raises the Defense of all []{type:grass} Pokémon in battle.",
+      "short_effect": "Raises the Defense of all []{type:grass} Pokémon in battle",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-vi"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": [
+    {
+      "name": "Flower Shield",
+      "language": "en"
+    },
+    {
+      "name": "Fiordifesa",
+      "language": "it"
+    },
+    {
+      "name": "Defensa Floral",
+      "language": "es"
+    },
+    {
+      "name": "Floraschutz",
+      "language": "de"
+    },
+    {
+      "name": "Garde Florale",
+      "language": "fr"
+    },
+    {
+      "name": "플라워가드",
+      "language": "ko"
+    },
+    {
+      "name": "フラワーガード",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": 1,
+      "stat": {
+        "name": "defense"
+      }
+    }
+  ],
+  "super_contest_effect": null,
+  "target": {
+    "name": "all-pokemon"
+  },
+  "type": {
+    "name": "fairy"
+  }
+}

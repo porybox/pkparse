@@ -1,1 +1,153 @@
-{"id":58,"name":"growlithe","order":63,"gender_rate":2,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":51,"pokedex":{"name":"updated-unova"}},{"entry_number":129,"pokedex":{"name":"updated-johto"}},{"entry_number":127,"pokedex":{"name":"original-johto"}},{"entry_number":58,"pokedex":{"name":"kanto"}},{"entry_number":58,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"quadruped"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-i"},"names":[{"name":"ガーディ","language":"ja"},{"name":"Gardie","language":"roomaji"},{"name":"가디","language":"ko"},{"name":"卡蒂狗","language":"zh"},{"name":"Caninos","language":"fr"},{"name":"Fukano","language":"de"},{"name":"Growlithe","language":"es"},{"name":"Growlithe","language":"it"},{"name":"Growlithe","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"こいぬ","language":"ja"},{"genus":"강아지","language":"ko"},{"genus":"Chiot","language":"fr"},{"genus":"Hund","language":"de"},{"genus":"Perrito","language":"es"},{"genus":"Cagnolino","language":"it"},{"genus":"Puppy","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"growlithe"}}],"first_evolution_id":58}
+{
+  "id": 58,
+  "name": "growlithe",
+  "order": 63,
+  "gender_rate": 2,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 51,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 129,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 127,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 58,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 58,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ガーディ",
+      "language": "ja"
+    },
+    {
+      "name": "Gardie",
+      "language": "roomaji"
+    },
+    {
+      "name": "가디",
+      "language": "ko"
+    },
+    {
+      "name": "卡蒂狗",
+      "language": "zh"
+    },
+    {
+      "name": "Caninos",
+      "language": "fr"
+    },
+    {
+      "name": "Fukano",
+      "language": "de"
+    },
+    {
+      "name": "Growlithe",
+      "language": "es"
+    },
+    {
+      "name": "Growlithe",
+      "language": "it"
+    },
+    {
+      "name": "Growlithe",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "こいぬ",
+      "language": "ja"
+    },
+    {
+      "genus": "강아지",
+      "language": "ko"
+    },
+    {
+      "genus": "Chiot",
+      "language": "fr"
+    },
+    {
+      "genus": "Hund",
+      "language": "de"
+    },
+    {
+      "genus": "Perrito",
+      "language": "es"
+    },
+    {
+      "genus": "Cagnolino",
+      "language": "it"
+    },
+    {
+      "genus": "Puppy",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "growlithe"
+      }
+    }
+  ],
+  "first_evolution_id": 58
+}

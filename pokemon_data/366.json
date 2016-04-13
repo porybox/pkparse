@@ -1,1 +1,141 @@
-{"id":366,"name":"clamperl","order":396,"gender_rate":4,"capture_rate":255,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow-then-very-fast"},"pokedex_numbers":[{"entry_number":141,"pokedex":{"name":"kalos-coastal"}},{"entry_number":176,"pokedex":{"name":"hoenn"}},{"entry_number":366,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water1"}],"color":{"name":"blue"},"shape":{"name":"ball"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"sea"},"generation":{"name":"generation-iii"},"names":[{"name":"パールル","language":"ja"},{"name":"Pearlulu","language":"roomaji"},{"name":"진주몽","language":"ko"},{"name":"珍珠貝","language":"zh"},{"name":"Coquiperl","language":"fr"},{"name":"Perlu","language":"de"},{"name":"Clamperl","language":"es"},{"name":"Clamperl","language":"it"},{"name":"Clamperl","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"sea"}}],"form_descriptions":[],"genera":[{"genus":"２まいがい","language":"ja"},{"genus":"두조개","language":"ko"},{"genus":"Bivalve","language":"fr"},{"genus":"Muschel","language":"de"},{"genus":"Bivalvo","language":"es"},{"genus":"Bivalve","language":"it"},{"genus":"Bivalve","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"clamperl"}}],"first_evolution_id":366}
+{
+  "id": 366,
+  "name": "clamperl",
+  "order": 396,
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow-then-very-fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 141,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 176,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 366,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "ball"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "sea"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "パールル",
+      "language": "ja"
+    },
+    {
+      "name": "Pearlulu",
+      "language": "roomaji"
+    },
+    {
+      "name": "진주몽",
+      "language": "ko"
+    },
+    {
+      "name": "珍珠貝",
+      "language": "zh"
+    },
+    {
+      "name": "Coquiperl",
+      "language": "fr"
+    },
+    {
+      "name": "Perlu",
+      "language": "de"
+    },
+    {
+      "name": "Clamperl",
+      "language": "es"
+    },
+    {
+      "name": "Clamperl",
+      "language": "it"
+    },
+    {
+      "name": "Clamperl",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "２まいがい",
+      "language": "ja"
+    },
+    {
+      "genus": "두조개",
+      "language": "ko"
+    },
+    {
+      "genus": "Bivalve",
+      "language": "fr"
+    },
+    {
+      "genus": "Muschel",
+      "language": "de"
+    },
+    {
+      "genus": "Bivalvo",
+      "language": "es"
+    },
+    {
+      "genus": "Bivalve",
+      "language": "it"
+    },
+    {
+      "genus": "Bivalve",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "clamperl"
+      }
+    }
+  ],
+  "first_evolution_id": 366
+}

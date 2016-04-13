@@ -1,1 +1,165 @@
-{"id":123,"name":"scyther","order":141,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":25,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":136,"pokedex":{"name":"kalos-mountain"}},{"entry_number":188,"pokedex":{"name":"conquest-gallery"}},{"entry_number":111,"pokedex":{"name":"updated-johto"}},{"entry_number":195,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":110,"pokedex":{"name":"original-johto"}},{"entry_number":123,"pokedex":{"name":"kanto"}},{"entry_number":123,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"green"},"shape":{"name":"bug-wings"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-i"},"names":[{"name":"ストライク","language":"ja"},{"name":"Strike","language":"roomaji"},{"name":"스라크","language":"ko"},{"name":"飛天螳螂","language":"zh"},{"name":"Insécateur","language":"fr"},{"name":"Sichlor","language":"de"},{"name":"Scyther","language":"es"},{"name":"Scyther","language":"it"},{"name":"Scyther","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"かまきり","language":"ja"},{"genus":"버마재비","language":"ko"},{"genus":"Mante","language":"fr"},{"genus":"Mantis","language":"de"},{"genus":"Mantis","language":"es"},{"genus":"Mantide","language":"it"},{"genus":"Mantis","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"scyther"}}],"first_evolution_id":123}
+{
+  "id": 123,
+  "name": "scyther",
+  "order": 141,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 25,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 136,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 188,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 111,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 195,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 110,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 123,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 123,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "bug-wings"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ストライク",
+      "language": "ja"
+    },
+    {
+      "name": "Strike",
+      "language": "roomaji"
+    },
+    {
+      "name": "스라크",
+      "language": "ko"
+    },
+    {
+      "name": "飛天螳螂",
+      "language": "zh"
+    },
+    {
+      "name": "Insécateur",
+      "language": "fr"
+    },
+    {
+      "name": "Sichlor",
+      "language": "de"
+    },
+    {
+      "name": "Scyther",
+      "language": "es"
+    },
+    {
+      "name": "Scyther",
+      "language": "it"
+    },
+    {
+      "name": "Scyther",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "かまきり",
+      "language": "ja"
+    },
+    {
+      "genus": "버마재비",
+      "language": "ko"
+    },
+    {
+      "genus": "Mante",
+      "language": "fr"
+    },
+    {
+      "genus": "Mantis",
+      "language": "de"
+    },
+    {
+      "genus": "Mantis",
+      "language": "es"
+    },
+    {
+      "genus": "Mantide",
+      "language": "it"
+    },
+    {
+      "genus": "Mantis",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "scyther"
+      }
+    }
+  ],
+  "first_evolution_id": 123
+}

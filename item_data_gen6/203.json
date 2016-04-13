@@ -1,1 +1,203 @@
-{"id":180,"name":"salac-berry","cost":20,"fling_power":10,"fling_effect":{"name":"berry-effect"},"attributes":[{"name":"holdable-active"}],"category":{"name":"in-a-pinch"},"effect_entries":[{"effect":"Held in battle\n:   When the holder has 1/4 its max [HP]{mechanic:hp} remaining or less, it consumes this item to [raise]{mechanic:raise} its [Speed]{mechanic:speed} by one stage.","short_effect":"Held: Consumed at 1/4 max HP to boost Speed.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンに　持たせると\nピンチのとき　自分の\n素早さが　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A Berry to be consumed by Pokémon.\nIf a Pokémon holds one, its Speed\nstat will increase when it’s in a pinch.","version_group":{"name":"x-y"},"language":"en"},{"text":"Se il Pokémon che ha questa bacca si trova\nin difficoltà, la sua Velocità aumenta.","version_group":{"name":"x-y"},"language":"it"},{"text":"Aumenta el Ataque, pero solo permite usar un\nmovimiento. Debe llevarla un Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Als getragenes Item erhöht diese Beere den\nInitiative-Wert eines Pokémon, sobald es in\neiner Notlage steckt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Tenue, cette Baie augmente la Vitesse en cas\nde besoin.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬에게 지니게 하면\n위급할 때 자신의\n스피드가 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンに　もたせると\nピンチのとき　じぶんの\nすばやさが　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"If held by a Pokémon, it raises its\nSpeed stat in a pinch.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"If held by a Pokémon, it raises its\nSpeed stat in a pinch.","version_group":{"name":"black-white"},"language":"en"},{"text":"Tenue, cette Baie monte la Vitesse\nen cas de besoin.","version_group":{"name":"black-white"},"language":"fr"},{"text":"If held by a Pokémon, it raises its\nSpeed stat in a pinch.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A Poffin ingredient.\nIf held by a Pokémon, it raises its\nSpeed stat in a pinch.","version_group":{"name":"platinum"},"language":"en"},{"text":"A Poffin ingredient.\nIf held by a Pokémon, it raises its\nSpeed stat in a pinch.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"When held by a POKéMON, it raises\nthe SPEED stat in a pinch.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A hold item that\nraises SPEED in\na pinch.","version_group":{"name":"emerald"},"language":"en"},{"text":"A hold item that\nraises SPEED in\na pinch.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":203,"generation":{"name":"generation-vi"}},{"game_index":203,"generation":{"name":"generation-v"}},{"game_index":203,"generation":{"name":"generation-iv"}},{"game_index":170,"generation":{"name":"generation-iii"}}],"names":[{"name":"Salac Berry","language":"en"},{"name":"Baccasalak","language":"it"},{"name":"Baya Aslac","language":"es"},{"name":"Salkabeere","language":"de"},{"name":"Baie Sailak","language":"fr"},{"name":"캄라열매","language":"ko"},{"name":"カムラのみ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 180,
+  "name": "salac-berry",
+  "cost": 20,
+  "fling_power": 10,
+  "fling_effect": {
+    "name": "berry-effect"
+  },
+  "attributes": [
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "category": {
+    "name": "in-a-pinch"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held in battle\n:   When the holder has 1/4 its max [HP]{mechanic:hp} remaining or less, it consumes this item to [raise]{mechanic:raise} its [Speed]{mechanic:speed} by one stage.",
+      "short_effect": "Held: Consumed at 1/4 max HP to boost Speed.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンに　持たせると\nピンチのとき　自分の\n素早さが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A Berry to be consumed by Pokémon.\nIf a Pokémon holds one, its Speed\nstat will increase when it’s in a pinch.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Se il Pokémon che ha questa bacca si trova\nin difficoltà, la sua Velocità aumenta.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Aumenta el Ataque, pero solo permite usar un\nmovimiento. Debe llevarla un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Als getragenes Item erhöht diese Beere den\nInitiative-Wert eines Pokémon, sobald es in\neiner Notlage steckt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Tenue, cette Baie augmente la Vitesse en cas\nde besoin.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬에게 지니게 하면\n위급할 때 자신의\n스피드가 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンに　もたせると\nピンチのとき　じぶんの\nすばやさが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "If held by a Pokémon, it raises its\nSpeed stat in a pinch.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "If held by a Pokémon, it raises its\nSpeed stat in a pinch.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Tenue, cette Baie monte la Vitesse\nen cas de besoin.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "If held by a Pokémon, it raises its\nSpeed stat in a pinch.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Poffin ingredient.\nIf held by a Pokémon, it raises its\nSpeed stat in a pinch.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Poffin ingredient.\nIf held by a Pokémon, it raises its\nSpeed stat in a pinch.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "When held by a POKéMON, it raises\nthe SPEED stat in a pinch.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nraises SPEED in\na pinch.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nraises SPEED in\na pinch.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 203,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 203,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 203,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 170,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Salac Berry",
+      "language": "en"
+    },
+    {
+      "name": "Baccasalak",
+      "language": "it"
+    },
+    {
+      "name": "Baya Aslac",
+      "language": "es"
+    },
+    {
+      "name": "Salkabeere",
+      "language": "de"
+    },
+    {
+      "name": "Baie Sailak",
+      "language": "fr"
+    },
+    {
+      "name": "캄라열매",
+      "language": "ko"
+    },
+    {
+      "name": "カムラのみ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

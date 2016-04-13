@@ -1,1 +1,170 @@
-{"id":425,"name":"sprayduck","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Waters Berry plants.","short_effect":"Used to water berries.","language":"en"}],"flavor_text_entries":[{"text":"水を　かける　道具。\nふかふかのつちに　埋めた　きのみを\nすくすく　育てる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A watering can shaped like a Psyduck.\nIt helps promote the healthy growth of\nany Berries planted in good, soft soil.","version_group":{"name":"x-y"},"language":"en"},{"text":"Annaffiatoio fatto a forma di Psyduck.\nFavorisce la crescita delle bacche piantate\nnel terreno soffice.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una llave de alta tecnología que debe usarse en\nun lugar concreto. Emite una señal eléctrica que\nabre una puerta.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine Gießkanne in Form von Enton. Gieße\ngepflanzte Beeren, damit sie besser wachsen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Arrosoir en forme de Psykokwak.\nAide à la croissance des Baies plantées dans\nles sols meubles.","version_group":{"name":"x-y"},"language":"fr"},{"text":"물을 주는 도구.\n푹신푹신한 땅에 심은 나무열매를\n쑥쑥 키운다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"みずを　かける　どうぐ。\nふかふかのつちに　うめた　きのみを\nすくすく　そだてる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A watering can shaped like a Psyduck.\nIt helps promote healthy growth of\nBerries planted in soft soil.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A watering can shaped like a Psyduck.\nIt helps promote healthy growth of\nBerries planted in soft soil.","version_group":{"name":"black-white"},"language":"en"},{"text":"Arrosoir en forme de Psykokwak. Aide\nà la croissance des Baies plantées dans\nles sols meubles.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A watering can shaped like a PSYDUCK.\nIt helps promote healthy growth of\nBerries planted in soft soil.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A watering can shaped like a PSYDUCK.\nIt helps promote healthy growth of\nBerries planted in soft soil.","version_group":{"name":"platinum"},"language":"en"},{"text":"A watering can shaped like a PSYDUCK.\nIt helps promote healthy growth of\nBerries planted in soft soil.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":448,"generation":{"name":"generation-vi"}},{"game_index":448,"generation":{"name":"generation-v"}},{"game_index":448,"generation":{"name":"generation-iv"}}],"names":[{"name":"Sprayduck","language":"en"},{"name":"Sprayduck","language":"it"},{"name":"Psydugadera","language":"es"},{"name":"Entonkanne","language":"de"},{"name":"Kwakarrosoir","language":"fr"},{"name":"고라파덕물뿌리개","language":"ko"},{"name":"コダックじょうろ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 425,
+  "name": "sprayduck",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Waters Berry plants.",
+      "short_effect": "Used to water berries.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "水を　かける　道具。\nふかふかのつちに　埋めた　きのみを\nすくすく　育てる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A watering can shaped like a Psyduck.\nIt helps promote the healthy growth of\nany Berries planted in good, soft soil.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Annaffiatoio fatto a forma di Psyduck.\nFavorisce la crescita delle bacche piantate\nnel terreno soffice.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una llave de alta tecnología que debe usarse en\nun lugar concreto. Emite una señal eléctrica que\nabre una puerta.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine Gießkanne in Form von Enton. Gieße\ngepflanzte Beeren, damit sie besser wachsen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Arrosoir en forme de Psykokwak.\nAide à la croissance des Baies plantées dans\nles sols meubles.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "물을 주는 도구.\n푹신푹신한 땅에 심은 나무열매를\n쑥쑥 키운다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "みずを　かける　どうぐ。\nふかふかのつちに　うめた　きのみを\nすくすく　そだてる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A watering can shaped like a Psyduck.\nIt helps promote healthy growth of\nBerries planted in soft soil.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A watering can shaped like a Psyduck.\nIt helps promote healthy growth of\nBerries planted in soft soil.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Arrosoir en forme de Psykokwak. Aide\nà la croissance des Baies plantées dans\nles sols meubles.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A watering can shaped like a PSYDUCK.\nIt helps promote healthy growth of\nBerries planted in soft soil.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A watering can shaped like a PSYDUCK.\nIt helps promote healthy growth of\nBerries planted in soft soil.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A watering can shaped like a PSYDUCK.\nIt helps promote healthy growth of\nBerries planted in soft soil.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 448,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 448,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 448,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Sprayduck",
+      "language": "en"
+    },
+    {
+      "name": "Sprayduck",
+      "language": "it"
+    },
+    {
+      "name": "Psydugadera",
+      "language": "es"
+    },
+    {
+      "name": "Entonkanne",
+      "language": "de"
+    },
+    {
+      "name": "Kwakarrosoir",
+      "language": "fr"
+    },
+    {
+      "name": "고라파덕물뿌리개",
+      "language": "ko"
+    },
+    {
+      "name": "コダックじょうろ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

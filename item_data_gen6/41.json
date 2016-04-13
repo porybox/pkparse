@@ -1,1 +1,213 @@
-{"id":41,"name":"max-elixir","cost":4500,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-overworld"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"pp-recovery"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Restores [PP]{mechanic:pp} to full for each move.","short_effect":"Restores PP to full for each move.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンが　覚えている\n４つの　技の　ＰＰを\nすべて　回復する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"This medicine can fully restore the\nPP of all of the moves that have\nbeen learned by a Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Restituisce tutti i PP a ogni mossa conosciuta\ndal Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"text":"Restaura completamente los PP de todos los\nmovimientos aprendidos por el Pokémon elegido.","version_group":{"name":"x-y"},"language":"es"},{"text":"Füllt alle AP aller Attacken eines Pokémon\nvollständig auf.","version_group":{"name":"x-y"},"language":"de"},{"text":"Restaure tous les PP de toutes les capacités\nd’un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬이 기억하고 있는\n4개 기술의 PP를\n모두 회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンが　おぼえている\n４つの　わざの　ＰＰを\nすべて　かいふくする。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Restaure tous les PP de toutes\nles capacités d’un Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.","version_group":{"name":"platinum"},"language":"en"},{"text":"It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"Fully restores the PP of all moves\nfor one POKéMON.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Fully restores the\nPP of a POKéMON’s\nmoves.","version_group":{"name":"emerald"},"language":"en"},{"text":"Fully restores the\nPP of a POKéMON’s\nmoves.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":41,"generation":{"name":"generation-vi"}},{"game_index":41,"generation":{"name":"generation-v"}},{"game_index":41,"generation":{"name":"generation-iv"}},{"game_index":37,"generation":{"name":"generation-iii"}}],"names":[{"name":"Max Elixir","language":"en"},{"name":"Elisir Max","language":"it"},{"name":"Elixir Máximo","language":"es"},{"name":"Top-Elixier","language":"de"},{"name":"Max Élixir","language":"fr"},{"name":"PP맥스","language":"ko"},{"name":"ピーピーマックス","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 41,
+  "name": "max-elixir",
+  "cost": 4500,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-overworld"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "pp-recovery"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Restores [PP]{mechanic:pp} to full for each move.",
+      "short_effect": "Restores PP to full for each move.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンが　覚えている\n４つの　技の　ＰＰを\nすべて　回復する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "This medicine can fully restore the\nPP of all of the moves that have\nbeen learned by a Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Restituisce tutti i PP a ogni mossa conosciuta\ndal Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Restaura completamente los PP de todos los\nmovimientos aprendidos por el Pokémon elegido.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Füllt alle AP aller Attacken eines Pokémon\nvollständig auf.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Restaure tous les PP de toutes les capacités\nd’un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬이 기억하고 있는\n4개 기술의 PP를\n모두 회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンが　おぼえている\n４つの　わざの　ＰＰを\nすべて　かいふくする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Restaure tous les PP de toutes\nles capacités d’un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Fully restores the PP of all moves\nfor one POKéMON.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Fully restores the\nPP of a POKéMON’s\nmoves.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Fully restores the\nPP of a POKéMON’s\nmoves.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 41,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 41,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 41,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 37,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Max Elixir",
+      "language": "en"
+    },
+    {
+      "name": "Elisir Max",
+      "language": "it"
+    },
+    {
+      "name": "Elixir Máximo",
+      "language": "es"
+    },
+    {
+      "name": "Top-Elixier",
+      "language": "de"
+    },
+    {
+      "name": "Max Élixir",
+      "language": "fr"
+    },
+    {
+      "name": "PP맥스",
+      "language": "ko"
+    },
+    {
+      "name": "ピーピーマックス",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

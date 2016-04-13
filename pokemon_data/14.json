@@ -1,1 +1,155 @@
-{"id":14,"name":"kakuna","order":14,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":27,"pokedex":{"name":"kalos-central"}},{"entry_number":28,"pokedex":{"name":"updated-johto"}},{"entry_number":28,"pokedex":{"name":"original-johto"}},{"entry_number":14,"pokedex":{"name":"kanto"}},{"entry_number":14,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"yellow"},"shape":{"name":"squiggle"},"evolves_from_species":{"name":"weedle"},"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-i"},"names":[{"name":"コクーン","language":"ja"},{"name":"Cocoon","language":"roomaji"},{"name":"딱충이","language":"ko"},{"name":"鐵殼昆","language":"zh"},{"name":"Coconfort","language":"fr"},{"name":"Kokuna","language":"de"},{"name":"Kakuna","language":"es"},{"name":"Kakuna","language":"it"},{"name":"Kakuna","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"さなぎ","language":"ja"},{"genus":"번데기","language":"ko"},{"genus":"Cocon","language":"fr"},{"genus":"Kokon","language":"de"},{"genus":"Capullo","language":"es"},{"genus":"Bozzolo","language":"it"},{"genus":"Cocoon","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"kakuna"}}],"first_evolution_id":13}
+{
+  "id": 14,
+  "name": "kakuna",
+  "order": 14,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 27,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 28,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 28,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 14,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 14,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "yellow"
+  },
+  "shape": {
+    "name": "squiggle"
+  },
+  "evolves_from_species": {
+    "name": "weedle"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "コクーン",
+      "language": "ja"
+    },
+    {
+      "name": "Cocoon",
+      "language": "roomaji"
+    },
+    {
+      "name": "딱충이",
+      "language": "ko"
+    },
+    {
+      "name": "鐵殼昆",
+      "language": "zh"
+    },
+    {
+      "name": "Coconfort",
+      "language": "fr"
+    },
+    {
+      "name": "Kokuna",
+      "language": "de"
+    },
+    {
+      "name": "Kakuna",
+      "language": "es"
+    },
+    {
+      "name": "Kakuna",
+      "language": "it"
+    },
+    {
+      "name": "Kakuna",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "さなぎ",
+      "language": "ja"
+    },
+    {
+      "genus": "번데기",
+      "language": "ko"
+    },
+    {
+      "genus": "Cocon",
+      "language": "fr"
+    },
+    {
+      "genus": "Kokon",
+      "language": "de"
+    },
+    {
+      "genus": "Capullo",
+      "language": "es"
+    },
+    {
+      "genus": "Bozzolo",
+      "language": "it"
+    },
+    {
+      "genus": "Cocoon",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "kakuna"
+      }
+    }
+  ],
+  "first_evolution_id": 13
+}

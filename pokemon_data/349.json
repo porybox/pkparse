@@ -1,1 +1,150 @@
-{"id":349,"name":"feebas","order":377,"gender_rate":4,"capture_rate":255,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow-then-very-fast"},"pokedex_numbers":[{"entry_number":138,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":138,"pokedex":{"name":"original-sinnoh"}},{"entry_number":140,"pokedex":{"name":"hoenn"}},{"entry_number":349,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"dragon"},{"name":"water1"}],"color":{"name":"brown"},"shape":{"name":"fish"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-iii"},"names":[{"name":"ヒンバス","language":"ja"},{"name":"Hinbass","language":"roomaji"},{"name":"빈티나","language":"ko"},{"name":"笨笨魚","language":"zh"},{"name":"Barpau","language":"fr"},{"name":"Barschwa","language":"de"},{"name":"Feebas","language":"es"},{"name":"Feebas","language":"it"},{"name":"Feebas","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"sea"}}],"form_descriptions":[],"genera":[{"genus":"さかな","language":"ja"},{"genus":"물고기","language":"ko"},{"genus":"Poisson","language":"fr"},{"genus":"Fisch","language":"de"},{"genus":"Pez","language":"es"},{"genus":"Pesce","language":"it"},{"genus":"Fish","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"feebas"}}],"first_evolution_id":349}
+{
+  "id": 349,
+  "name": "feebas",
+  "order": 377,
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow-then-very-fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 138,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 138,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 140,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 349,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "dragon"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "fish"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ヒンバス",
+      "language": "ja"
+    },
+    {
+      "name": "Hinbass",
+      "language": "roomaji"
+    },
+    {
+      "name": "빈티나",
+      "language": "ko"
+    },
+    {
+      "name": "笨笨魚",
+      "language": "zh"
+    },
+    {
+      "name": "Barpau",
+      "language": "fr"
+    },
+    {
+      "name": "Barschwa",
+      "language": "de"
+    },
+    {
+      "name": "Feebas",
+      "language": "es"
+    },
+    {
+      "name": "Feebas",
+      "language": "it"
+    },
+    {
+      "name": "Feebas",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "さかな",
+      "language": "ja"
+    },
+    {
+      "genus": "물고기",
+      "language": "ko"
+    },
+    {
+      "genus": "Poisson",
+      "language": "fr"
+    },
+    {
+      "genus": "Fisch",
+      "language": "de"
+    },
+    {
+      "genus": "Pez",
+      "language": "es"
+    },
+    {
+      "genus": "Pesce",
+      "language": "it"
+    },
+    {
+      "genus": "Fish",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "feebas"
+      }
+    }
+  ],
+  "first_evolution_id": 349
+}

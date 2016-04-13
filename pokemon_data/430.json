@@ -1,1 +1,147 @@
-{"id":430,"name":"honchkrow","order":228,"gender_rate":4,"capture_rate":30,"base_happiness":35,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":52,"pokedex":{"name":"kalos-mountain"}},{"entry_number":75,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":75,"pokedex":{"name":"original-sinnoh"}},{"entry_number":430,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"flying"}],"color":{"name":"black"},"shape":{"name":"wings"},"evolves_from_species":{"name":"murkrow"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"ドンカラス","language":"ja"},{"name":"Donkarasu","language":"roomaji"},{"name":"돈크로우","language":"ko"},{"name":"烏鴉頭頭","language":"zh"},{"name":"Corboss","language":"fr"},{"name":"Kramshef","language":"de"},{"name":"Honchkrow","language":"es"},{"name":"Honchkrow","language":"it"},{"name":"Honchkrow","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"おおボス","language":"ja"},{"genus":"큰형님","language":"ko"},{"genus":"Big Boss","language":"fr"},{"genus":"Anführer","language":"de"},{"genus":"Gran Jefe","language":"es"},{"genus":"Grancapo","language":"it"},{"genus":"Big Boss","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"honchkrow"}}],"first_evolution_id":198}
+{
+  "id": 430,
+  "name": "honchkrow",
+  "order": 228,
+  "gender_rate": 4,
+  "capture_rate": 30,
+  "base_happiness": 35,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 52,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 75,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 75,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 430,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "flying"
+    }
+  ],
+  "color": {
+    "name": "black"
+  },
+  "shape": {
+    "name": "wings"
+  },
+  "evolves_from_species": {
+    "name": "murkrow"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "ドンカラス",
+      "language": "ja"
+    },
+    {
+      "name": "Donkarasu",
+      "language": "roomaji"
+    },
+    {
+      "name": "돈크로우",
+      "language": "ko"
+    },
+    {
+      "name": "烏鴉頭頭",
+      "language": "zh"
+    },
+    {
+      "name": "Corboss",
+      "language": "fr"
+    },
+    {
+      "name": "Kramshef",
+      "language": "de"
+    },
+    {
+      "name": "Honchkrow",
+      "language": "es"
+    },
+    {
+      "name": "Honchkrow",
+      "language": "it"
+    },
+    {
+      "name": "Honchkrow",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "おおボス",
+      "language": "ja"
+    },
+    {
+      "genus": "큰형님",
+      "language": "ko"
+    },
+    {
+      "genus": "Big Boss",
+      "language": "fr"
+    },
+    {
+      "genus": "Anführer",
+      "language": "de"
+    },
+    {
+      "genus": "Gran Jefe",
+      "language": "es"
+    },
+    {
+      "genus": "Grancapo",
+      "language": "it"
+    },
+    {
+      "genus": "Big Boss",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "honchkrow"
+      }
+    }
+  ],
+  "first_evolution_id": 198
+}

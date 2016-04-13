@@ -1,1 +1,110 @@
-{"id":126,"name":"fire-blast","accuracy":85,"effect_chance":10,"pp":5,"priority":0,"power":110,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"sunny-day"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"beauty"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.","short_effect":"Has a $effect_chance% chance to [burn]{mechanic:burn} the target.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"burn"},"category":{"name":"damage+ailment"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":10,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Fire Blast","language":"en"},{"name":"Fuocobomba","language":"it"},{"name":"Llamarada","language":"es"},{"name":"Feuersturm","language":"de"},{"name":"Déflagration","language":"fr"},{"name":"불대문자","language":"ko"},{"name":"だいもんじ","language":"ja"}],"past_values":[{"accuracy":null,"power":null,"pp":null,"effect_chance":30,"effect_entries":[],"type":null,"version_group":{"name":"gold-silver"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"fire"}}
+{
+  "id": 126,
+  "name": "fire-blast",
+  "accuracy": 85,
+  "effect_chance": 10,
+  "pp": 5,
+  "priority": 0,
+  "power": 110,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "sunny-day"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
+      "short_effect": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "burn"
+    },
+    "category": {
+      "name": "damage+ailment"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 10,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Fire Blast",
+      "language": "en"
+    },
+    {
+      "name": "Fuocobomba",
+      "language": "it"
+    },
+    {
+      "name": "Llamarada",
+      "language": "es"
+    },
+    {
+      "name": "Feuersturm",
+      "language": "de"
+    },
+    {
+      "name": "Déflagration",
+      "language": "fr"
+    },
+    {
+      "name": "불대문자",
+      "language": "ko"
+    },
+    {
+      "name": "だいもんじ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": null,
+      "pp": null,
+      "effect_chance": 30,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "gold-silver"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "fire"
+  }
+}

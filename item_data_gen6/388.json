@@ -1,1 +1,170 @@
-{"id":365,"name":"tm61","cost":2000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Will-O-Wisp to a compatible Pokémon.","short_effect":"Teaches Will-O-Wisp to a compatible Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"不気味で　怪しい　炎を　放って\n相手を　やけどの　状態に　する。\n","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.","version_group":{"name":"x-y"},"language":"en"},{"text":"Fiamme intense di colore viola causano\nuna scottatura al nemico.","version_group":{"name":"x-y"},"language":"it"},{"text":"Sacudida sísmica que afecta a los demás\nPokémon adyacentes y también reduce su\nVelocidad.","version_group":{"name":"x-y"},"language":"es"},{"text":"Feuert eine fiese, blauweiße Flamme auf das Ziel\nab, um Verbrennungen zu verursachen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Lance une sinistre flamme violette à l’ennemi\npour lui infliger une brûlure.","version_group":{"name":"x-y"},"language":"fr"},{"text":"으스스하고 괴상한 불꽃을 쏘아\n상대를 화상 상태로 만든다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"あおじろく　もえる　あやしげな\nほのおを　はなつ。　あいてを\nやけどの　じょうたいに　する。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.","version_group":{"name":"black-white"},"language":"en"},{"text":"Lance une sinistre flamme violette à\nl’ennemi pour lui infliger une brûlure.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user shoots a sinister, bluish\nwhite flame at the foe to inflict a\nburn.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user shoots a sinister, bluish\nwhite flame at the foe to inflict a\nburn.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user shoots a sinister, bluish\nwhite flame at the foe to inflict a\nburn.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":388,"generation":{"name":"generation-vi"}},{"game_index":388,"generation":{"name":"generation-v"}},{"game_index":388,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM61","language":"en"},{"name":"MT61","language":"it"},{"name":"MT61","language":"es"},{"name":"TM61","language":"de"},{"name":"CT61","language":"fr"},{"name":"기술머신61","language":"ko"},{"name":"わざマシン６１","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 365,
+  "name": "tm61",
+  "cost": 2000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Will-O-Wisp to a compatible Pokémon.",
+      "short_effect": "Teaches Will-O-Wisp to a compatible Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "不気味で　怪しい　炎を　放って\n相手を　やけどの　状態に　する。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Fiamme intense di colore viola causano\nuna scottatura al nemico.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Sacudida sísmica que afecta a los demás\nPokémon adyacentes y también reduce su\nVelocidad.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Feuert eine fiese, blauweiße Flamme auf das Ziel\nab, um Verbrennungen zu verursachen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Lance une sinistre flamme violette à l’ennemi\npour lui infliger une brûlure.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "으스스하고 괴상한 불꽃을 쏘아\n상대를 화상 상태로 만든다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "あおじろく　もえる　あやしげな\nほのおを　はなつ。　あいてを\nやけどの　じょうたいに　する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user shoots a sinister, bluish-white\nflame at the target to inflict a burn.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Lance une sinistre flamme violette à\nl’ennemi pour lui infliger une brûlure.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user shoots a sinister, bluish\nwhite flame at the foe to inflict a\nburn.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user shoots a sinister, bluish\nwhite flame at the foe to inflict a\nburn.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user shoots a sinister, bluish\nwhite flame at the foe to inflict a\nburn.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 388,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 388,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 388,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM61",
+      "language": "en"
+    },
+    {
+      "name": "MT61",
+      "language": "it"
+    },
+    {
+      "name": "MT61",
+      "language": "es"
+    },
+    {
+      "name": "TM61",
+      "language": "de"
+    },
+    {
+      "name": "CT61",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신61",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン６１",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

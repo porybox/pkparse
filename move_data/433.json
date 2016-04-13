@@ -1,1 +1,85 @@
-{"id":433,"name":"trick-room","accuracy":null,"effect_chance":null,"pp":5,"priority":-7,"power":null,"contest_combos":null,"contest_type":{"name":"cute"},"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"For five turns (including this one), slower Pokémon will act before faster Pokémon.  Move priority is not affected.  Using this move when its effect is already active will end the effect.\n\nPokémon holding []{item:full-incense}, []{item:lagging-tail}, or []{item:quick-claw} and Pokémon with []{ability:stall} ignore this effect.","short_effect":"For five turns, slower Pokémon will act before faster Pokémon.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"whole-field-effect"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Trick Room","language":"en"},{"name":"Distortozona","language":"it"},{"name":"Espacio Raro","language":"es"},{"name":"Bizarroraum","language":"de"},{"name":"Distorsion","language":"fr"},{"name":"트릭룸","language":"ko"},{"name":"トリックルーム","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"entire-field"},"type":{"name":"psychic"}}
+{
+  "id": 433,
+  "name": "trick-room",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 5,
+  "priority": -7,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "For five turns (including this one), slower Pokémon will act before faster Pokémon.  Move priority is not affected.  Using this move when its effect is already active will end the effect.\n\nPokémon holding []{item:full-incense}, []{item:lagging-tail}, or []{item:quick-claw} and Pokémon with []{ability:stall} ignore this effect.",
+      "short_effect": "For five turns, slower Pokémon will act before faster Pokémon.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "whole-field-effect"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Trick Room",
+      "language": "en"
+    },
+    {
+      "name": "Distortozona",
+      "language": "it"
+    },
+    {
+      "name": "Espacio Raro",
+      "language": "es"
+    },
+    {
+      "name": "Bizarroraum",
+      "language": "de"
+    },
+    {
+      "name": "Distorsion",
+      "language": "fr"
+    },
+    {
+      "name": "트릭룸",
+      "language": "ko"
+    },
+    {
+      "name": "トリックルーム",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "entire-field"
+  },
+  "type": {
+    "name": "psychic"
+  }
+}

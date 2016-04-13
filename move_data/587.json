@@ -1,1 +1,83 @@
-{"id":587,"name":"fairy-lock","accuracy":null,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Prevents all Pokémon from fleeing or switching out during the next turn.","short_effect":"Prevents all Pokémon from fleeing or switching out during the next turn.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-vi"},"meta":{"ailment":{"name":"none"},"category":{"name":"whole-field-effect"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Fairy Lock","language":"en"},{"name":"Blocco Fatato","language":"it"},{"name":"Cerrojo Feérico","language":"es"},{"name":"Feenschloss","language":"de"},{"name":"Verrou Enchanté","language":"fr"},{"name":"페어리록","language":"ko"},{"name":"フェアリーロック","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"entire-field"},"type":{"name":"fairy"}}
+{
+  "id": 587,
+  "name": "fairy-lock",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Prevents all Pokémon from fleeing or switching out during the next turn.",
+      "short_effect": "Prevents all Pokémon from fleeing or switching out during the next turn.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-vi"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "whole-field-effect"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Fairy Lock",
+      "language": "en"
+    },
+    {
+      "name": "Blocco Fatato",
+      "language": "it"
+    },
+    {
+      "name": "Cerrojo Feérico",
+      "language": "es"
+    },
+    {
+      "name": "Feenschloss",
+      "language": "de"
+    },
+    {
+      "name": "Verrou Enchanté",
+      "language": "fr"
+    },
+    {
+      "name": "페어리록",
+      "language": "ko"
+    },
+    {
+      "name": "フェアリーロック",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "entire-field"
+  },
+  "type": {
+    "name": "fairy"
+  }
+}

@@ -1,1 +1,155 @@
-{"id":147,"name":"wonder-skin","is_main_series":true,"generation":{"name":"generation-v"},"names":[{"name":"Wonder Skin","language":"en"},{"name":"Splendicute","language":"it"},{"name":"Piel Milagro","language":"es"},{"name":"Wunderhaut","language":"de"},{"name":"Peau Miracle","language":"fr"},{"name":"미라클스킨","language":"ko"},{"name":"ミラクルスキン","language":"ja"}],"effect_entries":[{"effect":"Non-damaging moves have exactly 50% base [accuracy]{mechanic:accuracy} against this Pokémon.","short_effect":"Lowers incoming non-damaging moves' base [accuracy]{mechanic:accuracy} to exactly 50%.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"変化技を　受けにくい\n体に　なっている。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Makes status moves\nmore likely to miss.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Resiste più facilmente ai\ncambiamenti di stato.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Dificulta que le afecten los\nataques de estado.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Wehrt mit robustem Körper\nviele Status-Attacken ab.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Résiste mieux aux attaques\nde statut.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"변화 기술을 받기 어려운\n몸으로 되어 있다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"へんかわざを　うけにくい\nからだに　なっている。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Makes status-changing\nmoves more likely to miss.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Makes status-changing\nmoves more likely to miss.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Son corps résiste mieux\naux attaques de statut.","version_group":{"name":"black-white"},"language":"fr"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"venomoth"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"skitty"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"delcatty"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"sigilyph"}}]}
+{
+  "id": 147,
+  "name": "wonder-skin",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "Wonder Skin",
+      "language": "en"
+    },
+    {
+      "name": "Splendicute",
+      "language": "it"
+    },
+    {
+      "name": "Piel Milagro",
+      "language": "es"
+    },
+    {
+      "name": "Wunderhaut",
+      "language": "de"
+    },
+    {
+      "name": "Peau Miracle",
+      "language": "fr"
+    },
+    {
+      "name": "미라클스킨",
+      "language": "ko"
+    },
+    {
+      "name": "ミラクルスキン",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Non-damaging moves have exactly 50% base [accuracy]{mechanic:accuracy} against this Pokémon.",
+      "short_effect": "Lowers incoming non-damaging moves' base [accuracy]{mechanic:accuracy} to exactly 50%.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "変化技を　受けにくい\n体に　なっている。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Makes status moves\nmore likely to miss.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Resiste più facilmente ai\ncambiamenti di stato.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Dificulta que le afecten los\nataques de estado.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Wehrt mit robustem Körper\nviele Status-Attacken ab.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Résiste mieux aux attaques\nde statut.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "변화 기술을 받기 어려운\n몸으로 되어 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "へんかわざを　うけにくい\nからだに　なっている。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Makes status-changing\nmoves more likely to miss.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Makes status-changing\nmoves more likely to miss.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Son corps résiste mieux\naux attaques de statut.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "venomoth"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "skitty"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "delcatty"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "sigilyph"
+      }
+    }
+  ]
+}

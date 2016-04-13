@@ -1,1 +1,211 @@
-{"id":95,"name":"quick-feet","is_main_series":true,"generation":{"name":"generation-iv"},"names":[{"name":"Quick Feet","language":"en"},{"name":"Piedisvelti","language":"it"},{"name":"Pies Rápidos","language":"es"},{"name":"Rasanz","language":"de"},{"name":"Pied Véloce","language":"fr"},{"name":"속보","language":"ko"},{"name":"はやあし","language":"ja"}],"effect_entries":[{"effect":"Whenever this Pokémon has a [major status ailment]{mechanic:major-status-ailment}, it has 1.5× its [Speed]{mechanic:speed}.  This Pokémon is not affected by the usual Speed cut from [paralysis]{mechanic:paralysis}.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved.","short_effect":"Increases [Speed]{mechanic:speed} to 1.5× with a [major status ailment]{mechanic:major-status-ailment}.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"状態異常で\n素早さが　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Boosts the Speed stat if the\nPokémon has a status condition.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Aumenta la Velocità se c’è\nun problema di stato.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Potencia la Velocidad si hay\nproblemas de estado.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Erhöht bei Statusproblemen\ndie Initiative.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Augmente la Vitesse en cas de\nproblème de statut.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"상태 이상이 되면\n스피드가 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"じょうたい　いじょうで\nすばやさが　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Boosts Speed if there is\na status problem.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Boosts Speed if there is\na status problem.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Augmente la Vitesse en cas\nde problème de statut.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Boosts Speed if there is\na status problem.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Boosts Speed if there is a\nstatus problem.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Boosts Speed if there is a\nstatus problem.","version_group":{"name":"diamond-pearl"},"language":"en"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"jolteon"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"granbull"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"teddiursa"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"ursaring"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"poochyena"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"mightyena"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"zigzagoon"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"linoone"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"shroomish"}}]}
+{
+  "id": 95,
+  "name": "quick-feet",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "Quick Feet",
+      "language": "en"
+    },
+    {
+      "name": "Piedisvelti",
+      "language": "it"
+    },
+    {
+      "name": "Pies Rápidos",
+      "language": "es"
+    },
+    {
+      "name": "Rasanz",
+      "language": "de"
+    },
+    {
+      "name": "Pied Véloce",
+      "language": "fr"
+    },
+    {
+      "name": "속보",
+      "language": "ko"
+    },
+    {
+      "name": "はやあし",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Whenever this Pokémon has a [major status ailment]{mechanic:major-status-ailment}, it has 1.5× its [Speed]{mechanic:speed}.  This Pokémon is not affected by the usual Speed cut from [paralysis]{mechanic:paralysis}.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved.",
+      "short_effect": "Increases [Speed]{mechanic:speed} to 1.5× with a [major status ailment]{mechanic:major-status-ailment}.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "状態異常で\n素早さが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Boosts the Speed stat if the\nPokémon has a status condition.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Aumenta la Velocità se c’è\nun problema di stato.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Potencia la Velocidad si hay\nproblemas de estado.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Erhöht bei Statusproblemen\ndie Initiative.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Augmente la Vitesse en cas de\nproblème de statut.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "상태 이상이 되면\n스피드가 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "じょうたい　いじょうで\nすばやさが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Boosts Speed if there is\na status problem.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Boosts Speed if there is\na status problem.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Augmente la Vitesse en cas\nde problème de statut.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Boosts Speed if there is\na status problem.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Boosts Speed if there is a\nstatus problem.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Boosts Speed if there is a\nstatus problem.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "jolteon"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "granbull"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "teddiursa"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "ursaring"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "poochyena"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "mightyena"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "zigzagoon"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "linoone"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "shroomish"
+      }
+    }
+  ]
+}

@@ -1,1 +1,197 @@
-{"id":399,"name":"hm03","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Surf to a compatible Pokémon.","short_effect":"Teaches Surf to a compatible Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"大きな　波で　自分の　周りに\nいるものを　攻撃する。\n水上も　泳いで　進める。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user attacks everything around it by\nswamping its surroundings with a giant wave.\nThis can also be used for crossing water.","version_group":{"name":"x-y"},"language":"en"},{"text":"Un’onda enorme sommerge il campo di lotta,\ncolpendo tutti i Pokémon intorno a chi la scatena.\nFuori dalla lotta si usa per spostarsi sull’acqua.","version_group":{"name":"x-y"},"language":"it"},{"text":"Se dice que esta cadena mítica está relacionada\ncon el Pokémon legendario que creó la región de\nSinnoh.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine riesige Flutwelle ergießt sich über das nähere\nUmfeld des Anwenders. Ermöglicht das Surfen auf\ndem Wasser.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une énorme vague s’abat sur le champ de\nbataille. Permet aussi de voyager sur l’eau.","version_group":{"name":"x-y"},"language":"fr"},{"text":"큰 파도를 일으켜서 자신의\n주위에 있는 포켓몬을 공격한다.\n물 위를 나아갈 수도 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"おおきな　なみで　じぶんの　まわりに\nいるものを　こうげきする。\nみずのうえを　すすむことも　できる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It swamps the area around the user\nwith a giant wave.\nIt can also be used for crossing water.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It swamps the area around the user\nwith a giant wave.\nIt can also be used for crossing water.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une énorme vague s’abat sur le\nchamp de bataille. Permet aussi\nde voyager sur l’eau.","version_group":{"name":"black-white"},"language":"fr"},{"text":"It swamps the entire battlefield with\na giant wave. It can also be used\nto cross water.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"It swamps the entire battlefield with\na giant wave. It can also be used\nto cross water.","version_group":{"name":"platinum"},"language":"en"},{"text":"It swamps the entire battlefield with\na giant wave. It can also be used\nto cross water.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A big wave crashes\ndown on the foe.\nCan also be used\nfor crossing water.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Creates a huge\nwave, then crashes\nit down on the foe.","version_group":{"name":"emerald"},"language":"en"},{"text":"Creates a huge\nwave, then crashes\nit down on the foe.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":422,"generation":{"name":"generation-vi"}},{"game_index":422,"generation":{"name":"generation-v"}},{"game_index":422,"generation":{"name":"generation-iv"}},{"game_index":341,"generation":{"name":"generation-iii"}}],"names":[{"name":"HM03","language":"en"},{"name":"MN03","language":"it"},{"name":"MO03","language":"es"},{"name":"VM03","language":"de"},{"name":"CS03","language":"fr"},{"name":"비전머신03","language":"ko"},{"name":"ひでんマシン０３","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 399,
+  "name": "hm03",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Surf to a compatible Pokémon.",
+      "short_effect": "Teaches Surf to a compatible Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "大きな　波で　自分の　周りに\nいるものを　攻撃する。\n水上も　泳いで　進める。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user attacks everything around it by\nswamping its surroundings with a giant wave.\nThis can also be used for crossing water.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un’onda enorme sommerge il campo di lotta,\ncolpendo tutti i Pokémon intorno a chi la scatena.\nFuori dalla lotta si usa per spostarsi sull’acqua.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Se dice que esta cadena mítica está relacionada\ncon el Pokémon legendario que creó la región de\nSinnoh.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine riesige Flutwelle ergießt sich über das nähere\nUmfeld des Anwenders. Ermöglicht das Surfen auf\ndem Wasser.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une énorme vague s’abat sur le champ de\nbataille. Permet aussi de voyager sur l’eau.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "큰 파도를 일으켜서 자신의\n주위에 있는 포켓몬을 공격한다.\n물 위를 나아갈 수도 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "おおきな　なみで　じぶんの　まわりに\nいるものを　こうげきする。\nみずのうえを　すすむことも　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It swamps the area around the user\nwith a giant wave.\nIt can also be used for crossing water.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It swamps the area around the user\nwith a giant wave.\nIt can also be used for crossing water.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une énorme vague s’abat sur le\nchamp de bataille. Permet aussi\nde voyager sur l’eau.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "It swamps the entire battlefield with\na giant wave. It can also be used\nto cross water.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It swamps the entire battlefield with\na giant wave. It can also be used\nto cross water.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It swamps the entire battlefield with\na giant wave. It can also be used\nto cross water.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A big wave crashes\ndown on the foe.\nCan also be used\nfor crossing water.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Creates a huge\nwave, then crashes\nit down on the foe.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Creates a huge\nwave, then crashes\nit down on the foe.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 422,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 422,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 422,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 341,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "HM03",
+      "language": "en"
+    },
+    {
+      "name": "MN03",
+      "language": "it"
+    },
+    {
+      "name": "MO03",
+      "language": "es"
+    },
+    {
+      "name": "VM03",
+      "language": "de"
+    },
+    {
+      "name": "CS03",
+      "language": "fr"
+    },
+    {
+      "name": "비전머신03",
+      "language": "ko"
+    },
+    {
+      "name": "ひでんマシン０３",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

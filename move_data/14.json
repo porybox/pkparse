@@ -1,1 +1,120 @@
-{"id":14,"name":"swords-dance","accuracy":null,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":{"normal":{"use_before":[{"name":"cut"},{"name":"crabhammer"},{"name":"slash"},{"name":"false-swipe"},{"name":"fury-cutter"},{"name":"crush-claw"}],"use_after":null},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"beauty"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Raises the user's [Attack]{mechanic:attack} by two [stages]{mechanic:stage}.","short_effect":"Raises the user's Attack by two stages.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"net-good-stats"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Swords Dance","language":"en"},{"name":"Danzaspada","language":"it"},{"name":"Danza Espada","language":"es"},{"name":"Schwerttanz","language":"de"},{"name":"Danse-Lames","language":"fr"},{"name":"칼춤","language":"ko"},{"name":"つるぎのまい","language":"ja"}],"past_values":[],"stat_changes":[{"change":2,"stat":{"name":"attack"}}],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"normal"}}
+{
+  "id": 14,
+  "name": "swords-dance",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "cut"
+        },
+        {
+          "name": "crabhammer"
+        },
+        {
+          "name": "slash"
+        },
+        {
+          "name": "false-swipe"
+        },
+        {
+          "name": "fury-cutter"
+        },
+        {
+          "name": "crush-claw"
+        }
+      ],
+      "use_after": null
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Raises the user's [Attack]{mechanic:attack} by two [stages]{mechanic:stage}.",
+      "short_effect": "Raises the user's Attack by two stages.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "net-good-stats"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Swords Dance",
+      "language": "en"
+    },
+    {
+      "name": "Danzaspada",
+      "language": "it"
+    },
+    {
+      "name": "Danza Espada",
+      "language": "es"
+    },
+    {
+      "name": "Schwerttanz",
+      "language": "de"
+    },
+    {
+      "name": "Danse-Lames",
+      "language": "fr"
+    },
+    {
+      "name": "칼춤",
+      "language": "ko"
+    },
+    {
+      "name": "つるぎのまい",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": 2,
+      "stat": {
+        "name": "attack"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

@@ -1,1 +1,197 @@
-{"id":335,"name":"tm31","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Brick Break to a compatible Pokémon.","short_effect":"Teaches Brick Break to a compatible Pokémon. (Gen II: Mud-Slap Gen I: Mimic)","language":"en"}],"flavor_text_entries":[{"text":"硬い　こぶしなどで\n相手を　攻撃する。ひかりのかべや\nリフレクターも　破壊できる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user attacks with a swift chop.\nIt can also break barriers, such as\nLight Screen and Reflect.","version_group":{"name":"x-y"},"language":"en"},{"text":"Colpisce il nemico con una mano e rompe\nbarriere come Riflesso e Schermoluce.","version_group":{"name":"x-y"},"language":"it"},{"text":"Canto que sirve de ataque. Su fuerza aumenta\ncuantos más Pokémon lo usan en cadena.","version_group":{"name":"x-y"},"language":"es"},{"text":"Das Ziel wird mit der Handkante angegriffen.\nBarrieren wie Lichtschild oder Reflektor\nwerden zerstört.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une attaque avec le tranchant de la main.\nPermet aussi de briser les barrières comme\nMur Lumière et Protection.","version_group":{"name":"x-y"},"language":"fr"},{"text":"주먹 등으로 공격한다.\n빛의장막이나 리플렉터도\n파괴할 수 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"こぶしなどで　こうげきする。\nひかりのかべや　リフレクターも\nはかいできる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une attaque avec la main ou autre.\nPeut briser les barrières comme Mur\nLumière et Protection.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"An attack that also\nbreaks any barrier\nlike LIGHT SCREEN\nand REFLECT.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Destroys barriers\nlike LIGHT SCREEN\nand causes damage.","version_group":{"name":"emerald"},"language":"en"},{"text":"Destroys barriers\nlike LIGHT SCREEN\nand causes damage.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":358,"generation":{"name":"generation-vi"}},{"game_index":358,"generation":{"name":"generation-v"}},{"game_index":358,"generation":{"name":"generation-iv"}},{"game_index":319,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM31","language":"en"},{"name":"MT31","language":"it"},{"name":"MT31","language":"es"},{"name":"TM31","language":"de"},{"name":"CT31","language":"fr"},{"name":"기술머신31","language":"ko"},{"name":"わざマシン３１","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 335,
+  "name": "tm31",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Brick Break to a compatible Pokémon.",
+      "short_effect": "Teaches Brick Break to a compatible Pokémon. (Gen II: Mud-Slap Gen I: Mimic)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "硬い　こぶしなどで\n相手を　攻撃する。ひかりのかべや\nリフレクターも　破壊できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user attacks with a swift chop.\nIt can also break barriers, such as\nLight Screen and Reflect.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Colpisce il nemico con una mano e rompe\nbarriere come Riflesso e Schermoluce.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Canto que sirve de ataque. Su fuerza aumenta\ncuantos más Pokémon lo usan en cadena.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Das Ziel wird mit der Handkante angegriffen.\nBarrieren wie Lichtschild oder Reflektor\nwerden zerstört.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une attaque avec le tranchant de la main.\nPermet aussi de briser les barrières comme\nMur Lumière et Protection.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "주먹 등으로 공격한다.\n빛의장막이나 리플렉터도\n파괴할 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "こぶしなどで　こうげきする。\nひかりのかべや　リフレクターも\nはかいできる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une attaque avec la main ou autre.\nPeut briser les barrières comme Mur\nLumière et Protection.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An attack that also\nbreaks any barrier\nlike LIGHT SCREEN\nand REFLECT.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Destroys barriers\nlike LIGHT SCREEN\nand causes damage.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Destroys barriers\nlike LIGHT SCREEN\nand causes damage.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 358,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 358,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 358,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 319,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM31",
+      "language": "en"
+    },
+    {
+      "name": "MT31",
+      "language": "it"
+    },
+    {
+      "name": "MT31",
+      "language": "es"
+    },
+    {
+      "name": "TM31",
+      "language": "de"
+    },
+    {
+      "name": "CT31",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신31",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン３１",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

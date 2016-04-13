@@ -1,1 +1,77 @@
-{"id":534,"name":"eon-ticket","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"event-items"},"effect_entries":[{"effect":"Provides access to []{location:southern-island} and either []{pokemon:latias} or []{pokemon:latios}, whichever is not available roaming around Hoenn.","short_effect":"Provides access to Southern Island and Latias or Latios.","language":"en"}],"flavor_text_entries":[{"text":"The ticket required for sailing on a\nferry to a distant southern island.\nIt features a drawing of an island.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"The ticket for a\nferry to a distant\nsouthern island.","version_group":{"name":"emerald"},"language":"en"},{"text":"The ticket for a\nferry to a distant\nsouthern island.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":275,"generation":{"name":"generation-iii"}}],"names":[{"name":"Eon Ticket","language":"en"},{"name":"Bigl. Eone","language":"it"},{"name":"Ticket Eón","language":"es"},{"name":"Äon-Ticket","language":"de"},{"name":"Passe Éon","language":"fr"},{"name":"むげんのチケット","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 534,
+  "name": "eon-ticket",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "event-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Provides access to []{location:southern-island} and either []{pokemon:latias} or []{pokemon:latios}, whichever is not available roaming around Hoenn.",
+      "short_effect": "Provides access to Southern Island and Latias or Latios.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "The ticket required for sailing on a\nferry to a distant southern island.\nIt features a drawing of an island.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The ticket for a\nferry to a distant\nsouthern island.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The ticket for a\nferry to a distant\nsouthern island.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 275,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Eon Ticket",
+      "language": "en"
+    },
+    {
+      "name": "Bigl. Eone",
+      "language": "it"
+    },
+    {
+      "name": "Ticket Eón",
+      "language": "es"
+    },
+    {
+      "name": "Äon-Ticket",
+      "language": "de"
+    },
+    {
+      "name": "Passe Éon",
+      "language": "fr"
+    },
+    {
+      "name": "むげんのチケット",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

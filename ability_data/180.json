@@ -1,1 +1,134 @@
-{"id":180,"name":"symbiosis","is_main_series":true,"generation":{"name":"generation-vi"},"names":[{"name":"Symbiosis","language":"en"},{"name":"Simbiosi","language":"it"},{"name":"Simbiosis","language":"es"},{"name":"Nutznießer","language":"de"},{"name":"Symbiose","language":"fr"},{"name":"공생","language":"ko"},{"name":"きょうせい","language":"ja"}],"effect_entries":[{"effect":"Passes the bearer's held item to an ally when the ally uses up its item.","short_effect":"Passes the bearer's held item to an ally when the ally uses up its item.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"味方に　道具を\n渡せるように　なる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"The Pokémon can pass\nan item to an ally.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Il Pokémon può passare il suo\nstrumento a un alleato.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"El Pokémon puede pasar su\nobjeto a un aliado.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Das Pokémon kann sein Item an\neinen Mitstreiter weitergeben.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Permet aux alliés d’utiliser\nl’objet porté par ce Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"같은 편에게 도구를\n건넬 수 있게 된다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"みかたに　どうぐを\nわたせるように　なる。","version_group":{"name":"x-y"},"language":"ja"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"flabebe"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"floette"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"florges"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"floette-eternal"}}]}
+{
+  "id": 180,
+  "name": "symbiosis",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "Symbiosis",
+      "language": "en"
+    },
+    {
+      "name": "Simbiosi",
+      "language": "it"
+    },
+    {
+      "name": "Simbiosis",
+      "language": "es"
+    },
+    {
+      "name": "Nutznießer",
+      "language": "de"
+    },
+    {
+      "name": "Symbiose",
+      "language": "fr"
+    },
+    {
+      "name": "공생",
+      "language": "ko"
+    },
+    {
+      "name": "きょうせい",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Passes the bearer's held item to an ally when the ally uses up its item.",
+      "short_effect": "Passes the bearer's held item to an ally when the ally uses up its item.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "味方に　道具を\n渡せるように　なる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "The Pokémon can pass\nan item to an ally.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Il Pokémon può passare il suo\nstrumento a un alleato.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "El Pokémon puede pasar su\nobjeto a un aliado.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Das Pokémon kann sein Item an\neinen Mitstreiter weitergeben.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Permet aux alliés d’utiliser\nl’objet porté par ce Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "같은 편에게 도구를\n건넬 수 있게 된다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "みかたに　どうぐを\nわたせるように　なる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "flabebe"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "floette"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "florges"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "floette-eternal"
+      }
+    }
+  ]
+}

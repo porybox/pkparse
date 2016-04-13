@@ -1,1 +1,146 @@
-{"id":272,"name":"ludicolo","order":297,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":57,"pokedex":{"name":"kalos-mountain"}},{"entry_number":21,"pokedex":{"name":"hoenn"}},{"entry_number":272,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"plant"},{"name":"water1"}],"color":{"name":"green"},"shape":{"name":"humanoid"},"evolves_from_species":{"name":"lombre"},"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-iii"},"names":[{"name":"ルンパッパ","language":"ja"},{"name":"Runpappa","language":"roomaji"},{"name":"로파파","language":"ko"},{"name":"樂天河童","language":"zh"},{"name":"Ludicolo","language":"fr"},{"name":"Kappalores","language":"de"},{"name":"Ludicolo","language":"es"},{"name":"Ludicolo","language":"it"},{"name":"Ludicolo","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"pond"}}],"form_descriptions":[],"genera":[{"genus":"のうてんき","language":"ja"},{"genus":"행복하기","language":"ko"},{"genus":"Insouciant","language":"fr"},{"genus":"Sorglos","language":"de"},{"genus":"Optimista","language":"es"},{"genus":"Spensierato","language":"it"},{"genus":"Carefree","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"ludicolo"}}],"first_evolution_id":270}
+{
+  "id": 272,
+  "name": "ludicolo",
+  "order": 297,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 57,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 21,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 272,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "plant"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": {
+    "name": "lombre"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ルンパッパ",
+      "language": "ja"
+    },
+    {
+      "name": "Runpappa",
+      "language": "roomaji"
+    },
+    {
+      "name": "로파파",
+      "language": "ko"
+    },
+    {
+      "name": "樂天河童",
+      "language": "zh"
+    },
+    {
+      "name": "Ludicolo",
+      "language": "fr"
+    },
+    {
+      "name": "Kappalores",
+      "language": "de"
+    },
+    {
+      "name": "Ludicolo",
+      "language": "es"
+    },
+    {
+      "name": "Ludicolo",
+      "language": "it"
+    },
+    {
+      "name": "Ludicolo",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "pond"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "のうてんき",
+      "language": "ja"
+    },
+    {
+      "genus": "행복하기",
+      "language": "ko"
+    },
+    {
+      "genus": "Insouciant",
+      "language": "fr"
+    },
+    {
+      "genus": "Sorglos",
+      "language": "de"
+    },
+    {
+      "genus": "Optimista",
+      "language": "es"
+    },
+    {
+      "genus": "Spensierato",
+      "language": "it"
+    },
+    {
+      "genus": "Carefree",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "ludicolo"
+      }
+    }
+  ],
+  "first_evolution_id": 270
+}

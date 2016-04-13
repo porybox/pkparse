@@ -1,1 +1,90 @@
-{"id":590,"name":"confide","accuracy":null,"effect_chance":100,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Lowers the target's Special Attack by one stage.","short_effect":"Lowers the target's Special Attack by one stage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-vi"},"meta":{"ailment":{"name":"none"},"category":{"name":"net-good-stats"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":100},"names":[{"name":"Confide","language":"en"},{"name":"Confidenza","language":"it"},{"name":"Confidencia","language":"es"},{"name":"Vertrauenssache","language":"de"},{"name":"Confidence","language":"fr"},{"name":"비밀이야기","language":"ko"},{"name":"ないしょばなし","language":"ja"}],"past_values":[],"stat_changes":[{"change":-1,"stat":{"name":"special-attack"}}],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 590,
+  "name": "confide",
+  "accuracy": null,
+  "effect_chance": 100,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Lowers the target's Special Attack by one stage.",
+      "short_effect": "Lowers the target's Special Attack by one stage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-vi"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "net-good-stats"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": [
+    {
+      "name": "Confide",
+      "language": "en"
+    },
+    {
+      "name": "Confidenza",
+      "language": "it"
+    },
+    {
+      "name": "Confidencia",
+      "language": "es"
+    },
+    {
+      "name": "Vertrauenssache",
+      "language": "de"
+    },
+    {
+      "name": "Confidence",
+      "language": "fr"
+    },
+    {
+      "name": "비밀이야기",
+      "language": "ko"
+    },
+    {
+      "name": "ないしょばなし",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": {
+        "name": "special-attack"
+      }
+    }
+  ],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

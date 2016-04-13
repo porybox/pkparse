@@ -1,1 +1,197 @@
-{"id":440,"name":"storage-key","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[{"effect":"Grants access to the Team Galactic warehouse in Veilstone City.","short_effect":"Grants access to the Team Galactic warehouse in Veilstone City.","language":"en"}],"flavor_text_entries":[{"text":"トバリシティの　はずれにある\nギンガ団の　怪しい\n倉庫に　はいるための　カギ。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chiave del misterioso deposito del Team Galassia\nsituato ai confini di Rupepoli.","version_group":{"name":"x-y"},"language":"it"},{"text":"Misteriosa ala de un brillante color plateado.","version_group":{"name":"x-y"},"language":"es"},{"text":"Der Schlüssel zur Lagerhalle des Teams Galaktik\nam Rande von Schleiede.","version_group":{"name":"x-y"},"language":"de"},{"text":"La clé de l’entrepôt de la Team Galaxie situé à\nla périphérie de Voilaroc.","version_group":{"name":"x-y"},"language":"fr"},{"text":"장막시티 변두리에 있는\n갤럭시단의 수상한 창고에\n들어가기 위한 열쇠다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"トバリシティの　はずれにある\nギンガだんの　あやしい\nそうこに　はいるための　カギ。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.","version_group":{"name":"black-white"},"language":"en"},{"text":"La clé de l’entrepôt de la Team Galaxie\nsitué à la périphérie de Voilaroc.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.","version_group":{"name":"platinum"},"language":"en"},{"text":"The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A key that opens the storage hold\ninside the ABANDONED SHIP.\nIt is old and looks easily broken.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"The key to the\nstorage inside the\nABANDONED SHIP.","version_group":{"name":"emerald"},"language":"en"},{"text":"The key to the\nstorage inside the\nABANDONED SHIP.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":463,"generation":{"name":"generation-vi"}},{"game_index":463,"generation":{"name":"generation-v"}},{"game_index":463,"generation":{"name":"generation-iv"}},{"game_index":285,"generation":{"name":"generation-iii"}}],"names":[{"name":"Storage Key","language":"en"},{"name":"Depochiave","language":"it"},{"name":"Llave Almacén","language":"es"},{"name":"L-Schlüssel","language":"de"},{"name":"Clé Stockage","language":"fr"},{"name":"창고열쇠","language":"ko"},{"name":"そうこのカギ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 440,
+  "name": "storage-key",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [
+    {
+      "effect": "Grants access to the Team Galactic warehouse in Veilstone City.",
+      "short_effect": "Grants access to the Team Galactic warehouse in Veilstone City.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "トバリシティの　はずれにある\nギンガ団の　怪しい\n倉庫に　はいるための　カギ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chiave del misterioso deposito del Team Galassia\nsituato ai confini di Rupepoli.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Misteriosa ala de un brillante color plateado.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Der Schlüssel zur Lagerhalle des Teams Galaktik\nam Rande von Schleiede.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "La clé de l’entrepôt de la Team Galaxie situé à\nla périphérie de Voilaroc.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "장막시티 변두리에 있는\n갤럭시단의 수상한 창고에\n들어가기 위한 열쇠다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "トバリシティの　はずれにある\nギンガだんの　あやしい\nそうこに　はいるための　カギ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "La clé de l’entrepôt de la Team Galaxie\nsitué à la périphérie de Voilaroc.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A key that opens the storage hold\ninside the ABANDONED SHIP.\nIt is old and looks easily broken.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The key to the\nstorage inside the\nABANDONED SHIP.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The key to the\nstorage inside the\nABANDONED SHIP.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 463,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 463,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 463,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 285,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Storage Key",
+      "language": "en"
+    },
+    {
+      "name": "Depochiave",
+      "language": "it"
+    },
+    {
+      "name": "Llave Almacén",
+      "language": "es"
+    },
+    {
+      "name": "L-Schlüssel",
+      "language": "de"
+    },
+    {
+      "name": "Clé Stockage",
+      "language": "fr"
+    },
+    {
+      "name": "창고열쇠",
+      "language": "ko"
+    },
+    {
+      "name": "そうこのカギ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

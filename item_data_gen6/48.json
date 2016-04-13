@@ -1,1 +1,213 @@
-{"id":48,"name":"carbos","cost":9800,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-overworld"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"vitamins"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Increases [Speed]{mechanic:speed} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2.","short_effect":"Raises Speed effort and happiness.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンの　栄養ドリンク。\nポケモン　１匹の　素早さの\n基礎ポイントを　あげる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A nutritious drink for Pokémon.\nWhen consumed, it raises the base\nSpeed stat of a single Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Bevanda nutriente per Pokémon.\nAumenta i punti base della Velocità.","version_group":{"name":"x-y"},"language":"it"},{"text":"Nutritiva bebida que potencia la Velocidad de\nbase de un Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein gehaltvolles Getränk, das den\nInitiative-Basiswert eines Pokémon\ndauerhaft erhöht.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une boisson très nutritive qui augmente\nla Vitesse de base d’un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬의 영양 드링크.\n포켓몬 1마리의 스피드\n기초 포인트를 올린다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンの　えいようドリンク。\nポケモン　１ひきの　すばやさの\nきそポイントを　あげる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A nutritious drink for Pokémon.\nIt raises the base Speed stat of a\nsingle Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A nutritious drink for Pokémon.\nIt raises the base Speed stat of a\nsingle Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une boisson très nutritive qui monte\nla Vitesse de base d’un Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A nutritious drink for Pokémon.\nIt raises the base Speed stat of a\nsingle Pokémon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A nutritious drink for Pokémon.\nIt raises the base Speed stat of a\nsingle Pokémon.","version_group":{"name":"platinum"},"language":"en"},{"text":"A nutritious drink for Pokémon.\nIt raises the base Speed stat of a\nsingle Pokémon.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A nutritious drink for POKéMON.\nIt raises the base SPEED stat of\none POKéMON.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Raises the base\nSPEED stat of one\nPOKéMON.","version_group":{"name":"emerald"},"language":"en"},{"text":"Raises the stat\nSPEED of one\nPOKéMON.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":48,"generation":{"name":"generation-vi"}},{"game_index":48,"generation":{"name":"generation-v"}},{"game_index":48,"generation":{"name":"generation-iv"}},{"game_index":66,"generation":{"name":"generation-iii"}}],"names":[{"name":"Carbos","language":"en"},{"name":"Carburante","language":"it"},{"name":"Carburante","language":"es"},{"name":"Carbon","language":"de"},{"name":"Carbone","language":"fr"},{"name":"알칼로이드","language":"ko"},{"name":"インドメタシン","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 48,
+  "name": "carbos",
+  "cost": 9800,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-overworld"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "vitamins"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Increases [Speed]{mechanic:speed} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2.",
+      "short_effect": "Raises Speed effort and happiness.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンの　栄養ドリンク。\nポケモン　１匹の　素早さの\n基礎ポイントを　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nWhen consumed, it raises the base\nSpeed stat of a single Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Bevanda nutriente per Pokémon.\nAumenta i punti base della Velocità.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Nutritiva bebida que potencia la Velocidad de\nbase de un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein gehaltvolles Getränk, das den\nInitiative-Basiswert eines Pokémon\ndauerhaft erhöht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une boisson très nutritive qui augmente\nla Vitesse de base d’un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬의 영양 드링크.\n포켓몬 1마리의 스피드\n기초 포인트를 올린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンの　えいようドリンク。\nポケモン　１ひきの　すばやさの\nきそポイントを　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base Speed stat of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base Speed stat of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une boisson très nutritive qui monte\nla Vitesse de base d’un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base Speed stat of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base Speed stat of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base Speed stat of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for POKéMON.\nIt raises the base SPEED stat of\none POKéMON.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the base\nSPEED stat of one\nPOKéMON.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the stat\nSPEED of one\nPOKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 48,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 48,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 48,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 66,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Carbos",
+      "language": "en"
+    },
+    {
+      "name": "Carburante",
+      "language": "it"
+    },
+    {
+      "name": "Carburante",
+      "language": "es"
+    },
+    {
+      "name": "Carbon",
+      "language": "de"
+    },
+    {
+      "name": "Carbone",
+      "language": "fr"
+    },
+    {
+      "name": "알칼로이드",
+      "language": "ko"
+    },
+    {
+      "name": "インドメタシン",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

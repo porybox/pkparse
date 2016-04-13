@@ -1,1 +1,130 @@
-{"id":678,"name":"meowstic","order":679,"gender_rate":4,"capture_rate":75,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":115,"pokedex":{"name":"kalos-central"}},{"entry_number":678,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"white"},"shape":{"name":"upright"},"evolves_from_species":{"name":"espurr"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-vi"},"names":[{"name":"ニャオニクス","language":"ja"},{"name":"냐오닉스","language":"ko"},{"name":"Mistigrix","language":"fr"},{"name":"Psiaugon","language":"de"},{"name":"Meowstic","language":"es"},{"name":"Meowstic","language":"it"},{"name":"Meowstic","language":"en"}],"pal_park_encounters":[],"form_descriptions":[{"description":"Male and female Meowstic have different level-up moves and hidden abilities.  While gender differences are not usually considered to be separate forms, Meowstic's are treated as such for practical purposes.","language":"en"}],"genera":[{"genus":"よくせい","language":"ja"},{"genus":"억제","language":"ko"},{"genus":"SelfContrôle","language":"fr"},{"genus":"Fassung","language":"de"},{"genus":"Autocontrol","language":"es"},{"genus":"Temperanza","language":"it"},{"genus":"Constraint","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"meowstic-male"}},{"is_default":false,"pokemon":{"name":"meowstic-female"}}],"first_evolution_id":677}
+{
+  "id": 678,
+  "name": "meowstic",
+  "order": 679,
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 115,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 678,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "white"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "espurr"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "ニャオニクス",
+      "language": "ja"
+    },
+    {
+      "name": "냐오닉스",
+      "language": "ko"
+    },
+    {
+      "name": "Mistigrix",
+      "language": "fr"
+    },
+    {
+      "name": "Psiaugon",
+      "language": "de"
+    },
+    {
+      "name": "Meowstic",
+      "language": "es"
+    },
+    {
+      "name": "Meowstic",
+      "language": "it"
+    },
+    {
+      "name": "Meowstic",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [
+    {
+      "description": "Male and female Meowstic have different level-up moves and hidden abilities.  While gender differences are not usually considered to be separate forms, Meowstic's are treated as such for practical purposes.",
+      "language": "en"
+    }
+  ],
+  "genera": [
+    {
+      "genus": "よくせい",
+      "language": "ja"
+    },
+    {
+      "genus": "억제",
+      "language": "ko"
+    },
+    {
+      "genus": "SelfContrôle",
+      "language": "fr"
+    },
+    {
+      "genus": "Fassung",
+      "language": "de"
+    },
+    {
+      "genus": "Autocontrol",
+      "language": "es"
+    },
+    {
+      "genus": "Temperanza",
+      "language": "it"
+    },
+    {
+      "genus": "Constraint",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "meowstic-male"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "meowstic-female"
+      }
+    }
+  ],
+  "first_evolution_id": 677
+}

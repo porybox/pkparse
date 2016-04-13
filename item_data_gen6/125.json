@@ -1,1 +1,77 @@
-{"id":519,"name":"wood-mail","cost":50,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-mail"},"effect_entries":[{"effect":"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.\n\nHeld\n:   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail.","short_effect":"Lets a Trainer write a message and send it via Pokémon trade.","language":"en"}],"flavor_text_entries":[{"text":"A piece of MAIL featuring a cute\nSLAKOTH print.\nIt is to be held by a POKéMON.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A SLAKOTH-print\nMAIL to be held by\na POKéMON.","version_group":{"name":"emerald"},"language":"en"},{"text":"A SLAKOTH-print\nMAIL to be held by\na POKéMON.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":125,"generation":{"name":"generation-iii"}}],"names":[{"name":"Wood Mail","language":"en"},{"name":"Mess. Bosco","language":"it"},{"name":"Carta Madera","language":"es"},{"name":"Waldbrief","language":"de"},{"name":"Lettre Bois","language":"fr"},{"name":"ウッディメール","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 519,
+  "name": "wood-mail",
+  "cost": 50,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-mail"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.\n\nHeld\n:   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail.",
+      "short_effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A piece of MAIL featuring a cute\nSLAKOTH print.\nIt is to be held by a POKéMON.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A SLAKOTH-print\nMAIL to be held by\na POKéMON.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A SLAKOTH-print\nMAIL to be held by\na POKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 125,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Wood Mail",
+      "language": "en"
+    },
+    {
+      "name": "Mess. Bosco",
+      "language": "it"
+    },
+    {
+      "name": "Carta Madera",
+      "language": "es"
+    },
+    {
+      "name": "Waldbrief",
+      "language": "de"
+    },
+    {
+      "name": "Lettre Bois",
+      "language": "fr"
+    },
+    {
+      "name": "ウッディメール",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

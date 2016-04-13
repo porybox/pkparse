@@ -1,1 +1,155 @@
-{"id":17,"name":"pidgeotto","order":17,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":18,"pokedex":{"name":"kalos-central"}},{"entry_number":11,"pokedex":{"name":"updated-johto"}},{"entry_number":11,"pokedex":{"name":"original-johto"}},{"entry_number":17,"pokedex":{"name":"kanto"}},{"entry_number":17,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"flying"}],"color":{"name":"brown"},"shape":{"name":"wings"},"evolves_from_species":{"name":"pidgey"},"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-i"},"names":[{"name":"ピジョン","language":"ja"},{"name":"Pigeon","language":"roomaji"},{"name":"피죤","language":"ko"},{"name":"比比鳥","language":"zh"},{"name":"Roucoups","language":"fr"},{"name":"Tauboga","language":"de"},{"name":"Pidgeotto","language":"es"},{"name":"Pidgeotto","language":"it"},{"name":"Pidgeotto","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"とり","language":"ja"},{"genus":"새","language":"ko"},{"genus":"Oiseau","language":"fr"},{"genus":"Vogel","language":"de"},{"genus":"Pájaro","language":"es"},{"genus":"Uccello","language":"it"},{"genus":"Bird","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"pidgeotto"}}],"first_evolution_id":16}
+{
+  "id": 17,
+  "name": "pidgeotto",
+  "order": 17,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 18,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 11,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 11,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 17,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 17,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "flying"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "wings"
+  },
+  "evolves_from_species": {
+    "name": "pidgey"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ピジョン",
+      "language": "ja"
+    },
+    {
+      "name": "Pigeon",
+      "language": "roomaji"
+    },
+    {
+      "name": "피죤",
+      "language": "ko"
+    },
+    {
+      "name": "比比鳥",
+      "language": "zh"
+    },
+    {
+      "name": "Roucoups",
+      "language": "fr"
+    },
+    {
+      "name": "Tauboga",
+      "language": "de"
+    },
+    {
+      "name": "Pidgeotto",
+      "language": "es"
+    },
+    {
+      "name": "Pidgeotto",
+      "language": "it"
+    },
+    {
+      "name": "Pidgeotto",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "とり",
+      "language": "ja"
+    },
+    {
+      "genus": "새",
+      "language": "ko"
+    },
+    {
+      "genus": "Oiseau",
+      "language": "fr"
+    },
+    {
+      "genus": "Vogel",
+      "language": "de"
+    },
+    {
+      "genus": "Pájaro",
+      "language": "es"
+    },
+    {
+      "genus": "Uccello",
+      "language": "it"
+    },
+    {
+      "genus": "Bird",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "pidgeotto"
+      }
+    }
+  ],
+  "first_evolution_id": 16
+}

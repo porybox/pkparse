@@ -1,1 +1,129 @@
-{"id":677,"name":"grubby-hanky","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[{"effect":"","short_effect":"Appears in the Café Warehouse on Sunday; return to the customer with a Patrat on Thursday.","language":"en"}],"flavor_text_entries":[{"text":"シッポウシティにある　カフェソーコの\n常連が　落とした　ハンカチ。\nほのかに　ポケモンの　香りがする。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A handkerchief dropped by\na regular at Café Warehouse.\nIt smells faintly like a Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Pezzo di stoffa perso al Bar Magazzino\ndi Zefiropoli da un cliente abituale.\nOdora leggermente di Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"text":"Al usarse en un huerto de bayas, provoca\nextrañas mutaciones según la combinación de\nlas mismas.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Taschentuch, das ein Stammkunde im\nCafé Lagerhaus in Septerna City verloren hat.\nRiecht leicht nach Pokémon.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un mouchoir égaré par un habitué du Café de\nla Grange. Il sent légèrement le Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"칠보시티에 있는 카페 갤러지의\n단골손님이 떨어뜨린 손수건.\n희미하게 포켓몬의 냄새가 난다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"シッポウシティにある　カフェソーコの\nじょうれんが　おとした　ハンカチ。\nほのかに　ポケモンの　かおりがする。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A handkerchief dropped by\na regular at Café Warehouse.\nIt smells faintly like a Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"}],"game_indices":[{"game_index":634,"generation":{"name":"generation-vi"}},{"game_index":634,"generation":{"name":"generation-v"}}],"names":[{"name":"Grubby Hanky","language":"en"},{"name":"Pezza Sporca","language":"it"},{"name":"Pañuelo Sucio","language":"es"},{"name":"Schnäuztuch","language":"de"},{"name":"Mouchoir Sale","language":"fr"},{"name":"더러운손수건","language":"ko"},{"name":"よごれたハンカチ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 677,
+  "name": "grubby-hanky",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [
+    {
+      "effect": "",
+      "short_effect": "Appears in the Café Warehouse on Sunday; return to the customer with a Patrat on Thursday.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "シッポウシティにある　カフェソーコの\n常連が　落とした　ハンカチ。\nほのかに　ポケモンの　香りがする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A handkerchief dropped by\na regular at Café Warehouse.\nIt smells faintly like a Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pezzo di stoffa perso al Bar Magazzino\ndi Zefiropoli da un cliente abituale.\nOdora leggermente di Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Al usarse en un huerto de bayas, provoca\nextrañas mutaciones según la combinación de\nlas mismas.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Taschentuch, das ein Stammkunde im\nCafé Lagerhaus in Septerna City verloren hat.\nRiecht leicht nach Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un mouchoir égaré par un habitué du Café de\nla Grange. Il sent légèrement le Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "칠보시티에 있는 카페 갤러지의\n단골손님이 떨어뜨린 손수건.\n희미하게 포켓몬의 냄새가 난다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "シッポウシティにある　カフェソーコの\nじょうれんが　おとした　ハンカチ。\nほのかに　ポケモンの　かおりがする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A handkerchief dropped by\na regular at Café Warehouse.\nIt smells faintly like a Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 634,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 634,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Grubby Hanky",
+      "language": "en"
+    },
+    {
+      "name": "Pezza Sporca",
+      "language": "it"
+    },
+    {
+      "name": "Pañuelo Sucio",
+      "language": "es"
+    },
+    {
+      "name": "Schnäuztuch",
+      "language": "de"
+    },
+    {
+      "name": "Mouchoir Sale",
+      "language": "fr"
+    },
+    {
+      "name": "더러운손수건",
+      "language": "ko"
+    },
+    {
+      "name": "よごれたハンカチ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

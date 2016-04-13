@@ -1,1 +1,98 @@
-{"id":149,"name":"psywave","accuracy":100,"effect_chance":null,"pp":15,"priority":0,"power":null,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"calm-mind"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [typeless]{mechanic:typeless} damage between 50% and 150% of the user's level, selected at random in increments of 10%.","short_effect":"Inflicts damage between 50% and 150% of the user's level.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Psywave","language":"en"},{"name":"Psiconda","language":"it"},{"name":"Psicoonda","language":"es"},{"name":"Psywelle","language":"de"},{"name":"Vague Psy","language":"fr"},{"name":"사이코웨이브","language":"ko"},{"name":"サイコウェーブ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"psychic"}}
+{
+  "id": 149,
+  "name": "psywave",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "calm-mind"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [typeless]{mechanic:typeless} damage between 50% and 150% of the user's level, selected at random in increments of 10%.",
+      "short_effect": "Inflicts damage between 50% and 150% of the user's level.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Psywave",
+      "language": "en"
+    },
+    {
+      "name": "Psiconda",
+      "language": "it"
+    },
+    {
+      "name": "Psicoonda",
+      "language": "es"
+    },
+    {
+      "name": "Psywelle",
+      "language": "de"
+    },
+    {
+      "name": "Vague Psy",
+      "language": "fr"
+    },
+    {
+      "name": "사이코웨이브",
+      "language": "ko"
+    },
+    {
+      "name": "サイコウェーブ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "psychic"
+  }
+}

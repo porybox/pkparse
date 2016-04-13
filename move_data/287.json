@@ -1,1 +1,101 @@
-{"id":287,"name":"refresh","accuracy":null,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"sing"},{"name":"water-sport"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"cute"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Removes a [burn]{mechanic:burn}, [paralysis]{mechanic:paralysis}, or [poison]{mechanic:poison} from the user.","short_effect":"Cleanses the user of a burn, paralysis, or poison.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Refresh","language":"en"},{"name":"Rinfrescata","language":"it"},{"name":"Alivio","language":"es"},{"name":"Heilung","language":"de"},{"name":"Régénération","language":"fr"},{"name":"리프레쉬","language":"ko"},{"name":"リフレッシュ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"normal"}}
+{
+  "id": 287,
+  "name": "refresh",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "sing"
+        },
+        {
+          "name": "water-sport"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Removes a [burn]{mechanic:burn}, [paralysis]{mechanic:paralysis}, or [poison]{mechanic:poison} from the user.",
+      "short_effect": "Cleanses the user of a burn, paralysis, or poison.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Refresh",
+      "language": "en"
+    },
+    {
+      "name": "Rinfrescata",
+      "language": "it"
+    },
+    {
+      "name": "Alivio",
+      "language": "es"
+    },
+    {
+      "name": "Heilung",
+      "language": "de"
+    },
+    {
+      "name": "Régénération",
+      "language": "fr"
+    },
+    {
+      "name": "리프레쉬",
+      "language": "ko"
+    },
+    {
+      "name": "リフレッシュ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

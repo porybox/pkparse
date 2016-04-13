@@ -1,1 +1,85 @@
-{"id":363,"name":"natural-gift","accuracy":100,"effect_chance":null,"pp":15,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"cool"},"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Power and type are determined by the user's held berry.  The berry is consumed.  If the user is not holding a berry, this move will [fail]{mechanic:fail}.","short_effect":"Power and type depend on the held berry.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Natural Gift","language":"en"},{"name":"Dononaturale","language":"it"},{"name":"Don Natural","language":"es"},{"name":"Beerenkräfte","language":"de"},{"name":"Don Naturel","language":"fr"},{"name":"자연의은혜","language":"ko"},{"name":"しぜんのめぐみ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 363,
+  "name": "natural-gift",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power and type are determined by the user's held berry.  The berry is consumed.  If the user is not holding a berry, this move will [fail]{mechanic:fail}.",
+      "short_effect": "Power and type depend on the held berry.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Natural Gift",
+      "language": "en"
+    },
+    {
+      "name": "Dononaturale",
+      "language": "it"
+    },
+    {
+      "name": "Don Natural",
+      "language": "es"
+    },
+    {
+      "name": "Beerenkräfte",
+      "language": "de"
+    },
+    {
+      "name": "Don Naturel",
+      "language": "fr"
+    },
+    {
+      "name": "자연의은혜",
+      "language": "ko"
+    },
+    {
+      "name": "しぜんのめぐみ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

@@ -1,1 +1,70 @@
-{"id":552,"name":"teachy-tv","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Teaches beginning trainers basic information.","short_effect":"Teachers basic trainer advice.","language":"en"}],"flavor_text_entries":[{"text":"A television set that is tuned to\na program with useful tips for\nnovice TRAINERS.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A TV set tuned to\nan advice program\nfor TRAINERS.","version_group":{"name":"emerald"},"language":"en"}],"game_indices":[{"game_index":366,"generation":{"name":"generation-iii"}}],"names":[{"name":"Teachy TV","language":"en"},{"name":"Pokétivù","language":"it"},{"name":"Poké Tele","language":"es"},{"name":"Lehrkanal","language":"de"},{"name":"TV ABC","language":"fr"},{"name":"おしえテレビ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 552,
+  "name": "teachy-tv",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches beginning trainers basic information.",
+      "short_effect": "Teachers basic trainer advice.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A television set that is tuned to\na program with useful tips for\nnovice TRAINERS.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A TV set tuned to\nan advice program\nfor TRAINERS.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 366,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Teachy TV",
+      "language": "en"
+    },
+    {
+      "name": "Pokétivù",
+      "language": "it"
+    },
+    {
+      "name": "Poké Tele",
+      "language": "es"
+    },
+    {
+      "name": "Lehrkanal",
+      "language": "de"
+    },
+    {
+      "name": "TV ABC",
+      "language": "fr"
+    },
+    {
+      "name": "おしえテレビ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

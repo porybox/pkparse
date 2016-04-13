@@ -1,1 +1,92 @@
-{"id":133,"name":"amnesia","accuracy":null,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"cute"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Raises the user's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}.","short_effect":"Raises the user's Special Defense by two stages.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"net-good-stats"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Amnesia","language":"en"},{"name":"Amnesia","language":"it"},{"name":"Amnesia","language":"es"},{"name":"Amnesie","language":"de"},{"name":"Amnésie","language":"fr"},{"name":"망각술","language":"ko"},{"name":"ドわすれ","language":"ja"}],"past_values":[],"stat_changes":[{"change":2,"stat":{"name":"special-defense"}}],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"psychic"}}
+{
+  "id": 133,
+  "name": "amnesia",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Raises the user's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}.",
+      "short_effect": "Raises the user's Special Defense by two stages.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "net-good-stats"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Amnesia",
+      "language": "en"
+    },
+    {
+      "name": "Amnesia",
+      "language": "it"
+    },
+    {
+      "name": "Amnesia",
+      "language": "es"
+    },
+    {
+      "name": "Amnesie",
+      "language": "de"
+    },
+    {
+      "name": "Amnésie",
+      "language": "fr"
+    },
+    {
+      "name": "망각술",
+      "language": "ko"
+    },
+    {
+      "name": "ドわすれ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": 2,
+      "stat": {
+        "name": "special-defense"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "psychic"
+  }
+}

@@ -1,1 +1,130 @@
-{"id":586,"name":"sawsbuck","order":587,"gender_rate":4,"capture_rate":75,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":true,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":160,"pokedex":{"name":"updated-unova"}},{"entry_number":92,"pokedex":{"name":"original-unova"}},{"entry_number":586,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"deerling"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-v"},"names":[{"name":"メブキジカ","language":"ja"},{"name":"바라철록","language":"ko"},{"name":"Haydaim","language":"fr"},{"name":"Kronjuwild","language":"de"},{"name":"Sawsbuck","language":"es"},{"name":"Sawsbuck","language":"it"},{"name":"Sawsbuck","language":"en"}],"pal_park_encounters":[],"form_descriptions":[{"description":"Forms only affect appearance.  Sawsbuck switches forms to match the season if it is in the party upon loading the game.\n\nIf the season has changed since the game was saved, and the game was saved indoors, the previous save's season will be displayed upon loading the game, and Sawsbuck will change according to that season.  Upon stepping outdoors, the change of season is displayed and Deerling will change again.","language":"en"}],"genera":[{"genus":"きせつ","language":"ja"},{"genus":"계절","language":"ko"},{"genus":"Saison","language":"fr"},{"genus":"Jahreszeit","language":"de"},{"genus":"Estacional","language":"es"},{"genus":"Stagione","language":"it"},{"genus":"Season","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"sawsbuck"}}],"first_evolution_id":585}
+{
+  "id": 586,
+  "name": "sawsbuck",
+  "order": 587,
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": true,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 160,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 92,
+      "pokedex": {
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 586,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "deerling"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "メブキジカ",
+      "language": "ja"
+    },
+    {
+      "name": "바라철록",
+      "language": "ko"
+    },
+    {
+      "name": "Haydaim",
+      "language": "fr"
+    },
+    {
+      "name": "Kronjuwild",
+      "language": "de"
+    },
+    {
+      "name": "Sawsbuck",
+      "language": "es"
+    },
+    {
+      "name": "Sawsbuck",
+      "language": "it"
+    },
+    {
+      "name": "Sawsbuck",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [
+    {
+      "description": "Forms only affect appearance.  Sawsbuck switches forms to match the season if it is in the party upon loading the game.\n\nIf the season has changed since the game was saved, and the game was saved indoors, the previous save's season will be displayed upon loading the game, and Sawsbuck will change according to that season.  Upon stepping outdoors, the change of season is displayed and Deerling will change again.",
+      "language": "en"
+    }
+  ],
+  "genera": [
+    {
+      "genus": "きせつ",
+      "language": "ja"
+    },
+    {
+      "genus": "계절",
+      "language": "ko"
+    },
+    {
+      "genus": "Saison",
+      "language": "fr"
+    },
+    {
+      "genus": "Jahreszeit",
+      "language": "de"
+    },
+    {
+      "genus": "Estacional",
+      "language": "es"
+    },
+    {
+      "genus": "Stagione",
+      "language": "it"
+    },
+    {
+      "genus": "Season",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "sawsbuck"
+      }
+    }
+  ],
+  "first_evolution_id": 585
+}

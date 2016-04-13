@@ -1,1 +1,153 @@
-{"id":470,"name":"leafeon","order":163,"gender_rate":1,"capture_rate":45,"base_happiness":35,"is_baby":false,"hatch_counter":35,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":83,"pokedex":{"name":"kalos-coastal"}},{"entry_number":7,"pokedex":{"name":"conquest-gallery"}},{"entry_number":97,"pokedex":{"name":"updated-unova"}},{"entry_number":169,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":470,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"green"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"eevee"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"リーフィア","language":"ja"},{"name":"Leafia","language":"roomaji"},{"name":"리피아","language":"ko"},{"name":"葉精靈","language":"zh"},{"name":"Phyllali","language":"fr"},{"name":"Folipurba","language":"de"},{"name":"Leafeon","language":"es"},{"name":"Leafeon","language":"it"},{"name":"Leafeon","language":"en"}],"pal_park_encounters":[{"base_score":90,"rate":3,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"しんりょく","language":"ja"},{"genus":"심록","language":"ko"},{"genus":"Verdoyant","language":"fr"},{"genus":"Unreif","language":"de"},{"genus":"Verdor","language":"es"},{"genus":"Rigoglioso","language":"it"},{"genus":"Verdant","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"leafeon"}}],"first_evolution_id":133}
+{
+  "id": 470,
+  "name": "leafeon",
+  "order": 163,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 35,
+  "is_baby": false,
+  "hatch_counter": 35,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 83,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 7,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 97,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 169,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 470,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "eevee"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "リーフィア",
+      "language": "ja"
+    },
+    {
+      "name": "Leafia",
+      "language": "roomaji"
+    },
+    {
+      "name": "리피아",
+      "language": "ko"
+    },
+    {
+      "name": "葉精靈",
+      "language": "zh"
+    },
+    {
+      "name": "Phyllali",
+      "language": "fr"
+    },
+    {
+      "name": "Folipurba",
+      "language": "de"
+    },
+    {
+      "name": "Leafeon",
+      "language": "es"
+    },
+    {
+      "name": "Leafeon",
+      "language": "it"
+    },
+    {
+      "name": "Leafeon",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 90,
+      "rate": 3,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "しんりょく",
+      "language": "ja"
+    },
+    {
+      "genus": "심록",
+      "language": "ko"
+    },
+    {
+      "genus": "Verdoyant",
+      "language": "fr"
+    },
+    {
+      "genus": "Unreif",
+      "language": "de"
+    },
+    {
+      "genus": "Verdor",
+      "language": "es"
+    },
+    {
+      "genus": "Rigoglioso",
+      "language": "it"
+    },
+    {
+      "genus": "Verdant",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "leafeon"
+      }
+    }
+  ],
+  "first_evolution_id": 133
+}

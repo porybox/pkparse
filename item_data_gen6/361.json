@@ -1,1 +1,197 @@
-{"id":338,"name":"tm34","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Shock Wave to a compatible Pokémon.","short_effect":"Teaches Sludge Wave to a compatible Pokémon. (Gen IV & III: Shock Wave Gen II: Swagger Gen I: Bide)","language":"en"}],"flavor_text_entries":[{"text":"ヘドロの　波で　自分の　周りに\nいるものを　攻撃する。\n毒状態に　することが　ある。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user strikes everything around it by\nswamping the area with a giant sludge wave.\nThis may also poison those hit.","version_group":{"name":"x-y"},"language":"en"},{"text":"Lancia un’onda di fango che attacca tutti\ni Pokémon nelle vicinanze. Può anche avvelenarli.","version_group":{"name":"x-y"},"language":"it"},{"text":"Alas macizas que golpean al objetivo y pueden\nsubir la Defensa del usuario.","version_group":{"name":"x-y"},"language":"es"},{"text":"Greift Pokémon in der Nähe des Anwenders mit\neiner Schlammwelle an. Diese werden eventuell\nvergiftet.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une vague de détritus attaque tous les Pokémon\nautour du lanceur. Peut aussi empoisonner.","version_group":{"name":"x-y"},"language":"fr"},{"text":"오물의 파장으로 자신의 주위에\n있는 포켓몬을 공격한다.\n독 상태로 만들기도 한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ヘドロの　なみで　じぶんの　まわりに\nいるものを　こうげきする。\nどくに　することが　ある。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It swamps the area around the user\nwith a giant sludge wave.\nIt may also poison those hit.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It swamps the area around the user\nwith a giant sludge wave.\nIt may also poison those hit.","version_group":{"name":"black-white"},"language":"en"},{"text":"Attaque tout ce qui se trouve autour\navec une vague de crasse. Peut aussi\nempoisonner.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user strikes the foe with a quick\njolt of electricity. This attack cannot\nbe evaded.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user strikes the foe with a quick\njolt of electricity. This attack cannot\nbe evaded.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user strikes the foe with a quick\njolt of electricity. This attack cannot\nbe evaded.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A rapid jolt of\nelectricity strikes\nthe foe. It can’t\nbe evaded.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Zaps the foe with a\njolt of electricity\nthat never misses.","version_group":{"name":"emerald"},"language":"en"},{"text":"Zaps the foe with a\njolt of electricity\nthat never misses.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":361,"generation":{"name":"generation-vi"}},{"game_index":361,"generation":{"name":"generation-v"}},{"game_index":361,"generation":{"name":"generation-iv"}},{"game_index":322,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM34","language":"en"},{"name":"MT34","language":"it"},{"name":"MT34","language":"es"},{"name":"TM34","language":"de"},{"name":"CT34","language":"fr"},{"name":"기술머신34","language":"ko"},{"name":"わざマシン３４","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 338,
+  "name": "tm34",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Shock Wave to a compatible Pokémon.",
+      "short_effect": "Teaches Sludge Wave to a compatible Pokémon. (Gen IV & III: Shock Wave Gen II: Swagger Gen I: Bide)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ヘドロの　波で　自分の　周りに\nいるものを　攻撃する。\n毒状態に　することが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user strikes everything around it by\nswamping the area with a giant sludge wave.\nThis may also poison those hit.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Lancia un’onda di fango che attacca tutti\ni Pokémon nelle vicinanze. Può anche avvelenarli.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Alas macizas que golpean al objetivo y pueden\nsubir la Defensa del usuario.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Greift Pokémon in der Nähe des Anwenders mit\neiner Schlammwelle an. Diese werden eventuell\nvergiftet.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une vague de détritus attaque tous les Pokémon\nautour du lanceur. Peut aussi empoisonner.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "오물의 파장으로 자신의 주위에\n있는 포켓몬을 공격한다.\n독 상태로 만들기도 한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ヘドロの　なみで　じぶんの　まわりに\nいるものを　こうげきする。\nどくに　することが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It swamps the area around the user\nwith a giant sludge wave.\nIt may also poison those hit.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It swamps the area around the user\nwith a giant sludge wave.\nIt may also poison those hit.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Attaque tout ce qui se trouve autour\navec une vague de crasse. Peut aussi\nempoisonner.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user strikes the foe with a quick\njolt of electricity. This attack cannot\nbe evaded.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user strikes the foe with a quick\njolt of electricity. This attack cannot\nbe evaded.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user strikes the foe with a quick\njolt of electricity. This attack cannot\nbe evaded.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A rapid jolt of\nelectricity strikes\nthe foe. It can’t\nbe evaded.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Zaps the foe with a\njolt of electricity\nthat never misses.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Zaps the foe with a\njolt of electricity\nthat never misses.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 361,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 361,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 361,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 322,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM34",
+      "language": "en"
+    },
+    {
+      "name": "MT34",
+      "language": "it"
+    },
+    {
+      "name": "MT34",
+      "language": "es"
+    },
+    {
+      "name": "TM34",
+      "language": "de"
+    },
+    {
+      "name": "CT34",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신34",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン３４",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

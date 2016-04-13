@@ -1,1 +1,159 @@
-{"id":173,"name":"cleffa","order":36,"gender_rate":6,"capture_rate":150,"base_happiness":140,"is_baby":true,"hatch_counter":10,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"fast"},"pokedex_numbers":[{"entry_number":88,"pokedex":{"name":"updated-unova"}},{"entry_number":40,"pokedex":{"name":"updated-johto"}},{"entry_number":99,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":99,"pokedex":{"name":"original-sinnoh"}},{"entry_number":40,"pokedex":{"name":"original-johto"}},{"entry_number":173,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"no-eggs"}],"color":{"name":"pink"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-ii"},"names":[{"name":"ピィ","language":"ja"},{"name":"Py","language":"roomaji"},{"name":"삐","language":"ko"},{"name":"皮寶寶","language":"zh"},{"name":"Mélo","language":"fr"},{"name":"Pii","language":"de"},{"name":"Cleffa","language":"es"},{"name":"Cleffa","language":"it"},{"name":"Cleffa","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"ほしがた","language":"ja"},{"genus":"별","language":"ko"},{"genus":"Étoile","language":"fr"},{"genus":"Sternform","language":"de"},{"genus":"Estrellada","language":"es"},{"genus":"Stella","language":"it"},{"genus":"Star Shape","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"cleffa"}}],"first_evolution_id":173}
+{
+  "id": 173,
+  "name": "cleffa",
+  "order": 36,
+  "gender_rate": 6,
+  "capture_rate": 150,
+  "base_happiness": 140,
+  "is_baby": true,
+  "hatch_counter": 10,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 88,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 40,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 99,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 99,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 40,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 173,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "no-eggs"
+    }
+  ],
+  "color": {
+    "name": "pink"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ピィ",
+      "language": "ja"
+    },
+    {
+      "name": "Py",
+      "language": "roomaji"
+    },
+    {
+      "name": "삐",
+      "language": "ko"
+    },
+    {
+      "name": "皮寶寶",
+      "language": "zh"
+    },
+    {
+      "name": "Mélo",
+      "language": "fr"
+    },
+    {
+      "name": "Pii",
+      "language": "de"
+    },
+    {
+      "name": "Cleffa",
+      "language": "es"
+    },
+    {
+      "name": "Cleffa",
+      "language": "it"
+    },
+    {
+      "name": "Cleffa",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ほしがた",
+      "language": "ja"
+    },
+    {
+      "genus": "별",
+      "language": "ko"
+    },
+    {
+      "genus": "Étoile",
+      "language": "fr"
+    },
+    {
+      "genus": "Sternform",
+      "language": "de"
+    },
+    {
+      "genus": "Estrellada",
+      "language": "es"
+    },
+    {
+      "genus": "Stella",
+      "language": "it"
+    },
+    {
+      "genus": "Star Shape",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "cleffa"
+      }
+    }
+  ],
+  "first_evolution_id": 173
+}

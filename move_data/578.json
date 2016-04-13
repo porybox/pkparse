@@ -1,1 +1,83 @@
-{"id":578,"name":"crafty-shield","accuracy":null,"effect_chance":null,"pp":10,"priority":3,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Protects all friendly Pokémon from non-damaging moves for the rest of the turn.\n\nUnlike other blocking moves, this move may be used consecutively without its chance of success falling.","short_effect":"Protects all friendly Pokémon from non-damaging moves.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-vi"},"meta":{"ailment":{"name":"none"},"category":{"name":"field-effect"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Crafty Shield","language":"en"},{"name":"Truccodifesa","language":"it"},{"name":"Truco Defensa","language":"es"},{"name":"Trickschutz","language":"de"},{"name":"Vigilance","language":"fr"},{"name":"트릭가드","language":"ko"},{"name":"トリックガード","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"users-field"},"type":{"name":"fairy"}}
+{
+  "id": 578,
+  "name": "crafty-shield",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 3,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Protects all friendly Pokémon from non-damaging moves for the rest of the turn.\n\nUnlike other blocking moves, this move may be used consecutively without its chance of success falling.",
+      "short_effect": "Protects all friendly Pokémon from non-damaging moves.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-vi"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "field-effect"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Crafty Shield",
+      "language": "en"
+    },
+    {
+      "name": "Truccodifesa",
+      "language": "it"
+    },
+    {
+      "name": "Truco Defensa",
+      "language": "es"
+    },
+    {
+      "name": "Trickschutz",
+      "language": "de"
+    },
+    {
+      "name": "Vigilance",
+      "language": "fr"
+    },
+    {
+      "name": "트릭가드",
+      "language": "ko"
+    },
+    {
+      "name": "トリックガード",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "users-field"
+  },
+  "type": {
+    "name": "fairy"
+  }
+}

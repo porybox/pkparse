@@ -1,1 +1,119 @@
-{"id":699,"name":"aurorus","order":700,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":30,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":67,"pokedex":{"name":"kalos-coastal"}},{"entry_number":699,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"monster"}],"color":{"name":"blue"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"amaura"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-vi"},"names":[{"name":"アマルルガ","language":"ja"},{"name":"아마루르가","language":"ko"},{"name":"Dragmara","language":"fr"},{"name":"Amagarga","language":"de"},{"name":"Aurorus","language":"es"},{"name":"Aurorus","language":"it"},{"name":"Aurorus","language":"en"}],"pal_park_encounters":[],"form_descriptions":[],"genera":[{"genus":"ツンドラ","language":"ja"},{"genus":"툰드라","language":"ko"},{"genus":"Toundra","language":"fr"},{"genus":"Tundra","language":"de"},{"genus":"Tundra","language":"es"},{"genus":"Tundra","language":"it"},{"genus":"Tundra","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"aurorus"}}],"first_evolution_id":698}
+{
+  "id": 699,
+  "name": "aurorus",
+  "order": 700,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 30,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 67,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 699,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "amaura"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "アマルルガ",
+      "language": "ja"
+    },
+    {
+      "name": "아마루르가",
+      "language": "ko"
+    },
+    {
+      "name": "Dragmara",
+      "language": "fr"
+    },
+    {
+      "name": "Amagarga",
+      "language": "de"
+    },
+    {
+      "name": "Aurorus",
+      "language": "es"
+    },
+    {
+      "name": "Aurorus",
+      "language": "it"
+    },
+    {
+      "name": "Aurorus",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ツンドラ",
+      "language": "ja"
+    },
+    {
+      "genus": "툰드라",
+      "language": "ko"
+    },
+    {
+      "genus": "Toundra",
+      "language": "fr"
+    },
+    {
+      "genus": "Tundra",
+      "language": "de"
+    },
+    {
+      "genus": "Tundra",
+      "language": "es"
+    },
+    {
+      "genus": "Tundra",
+      "language": "it"
+    },
+    {
+      "genus": "Tundra",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "aurorus"
+      }
+    }
+  ],
+  "first_evolution_id": 698
+}

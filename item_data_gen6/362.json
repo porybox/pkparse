@@ -1,1 +1,197 @@
-{"id":339,"name":"tm35","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Flamethrower to a compatible Pokémon.","short_effect":"Teaches Flamethrower to a compatible Pokémon. (Gen II: Sleep Talk Gen I: Metronome)","language":"en"}],"flavor_text_entries":[{"text":"激しい　炎を\n相手に　発射して　攻撃する。\nやけど状態に　することが　ある。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The target is scorched with an intense\nblast of fire. This may also leave the\ntarget with a burn.","version_group":{"name":"x-y"},"language":"en"},{"text":"Il nemico viene colpito da intense fiammate\nche possono anche scottarlo.","version_group":{"name":"x-y"},"language":"it"},{"text":"Quien lo usa ataca con toda su energía. También\npuede bajar la Defensa Especial del objetivo si lo\nalcanza.","version_group":{"name":"x-y"},"language":"es"},{"text":"Das Ziel wird in ein Flammenmeer gehüllt.\nVerursacht eventuell Verbrennungen.","version_group":{"name":"x-y"},"language":"de"},{"text":"L’ennemi reçoit un torrent de flammes.\nPeut aussi le brûler.","version_group":{"name":"x-y"},"language":"fr"},{"text":"세찬 불꽃을\n상대에게 발사하여 공격한다.\n화상 상태로 만들 때가 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"はげしい　ほのおを　はっしゃして\nこうげきする。　あいてを　やけどの\nじょうたいに　することが　ある。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The target is scorched with an intense\nblast of fire. It may also leave the\ntarget with a burn.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The target is scorched with an intense\nblast of fire. It may also leave the\ntarget with a burn.","version_group":{"name":"black-white"},"language":"en"},{"text":"L’ennemi reçoit un torrent de flammes.\nPeut aussi le brûler.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The foe is scorched with an intense\nblast of fire. The target may also be\nleft with a burn.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The foe is scorched with an intense\nblast of fire. The target may also be\nleft with a burn.","version_group":{"name":"platinum"},"language":"en"},{"text":"The foe is scorched with an intense\nblast of fire. The target may also be\nleft with a burn.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"The foe is scorched\nwith intense flames.\nThe foe may suffer\na burn.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Looses a stream of\nfire that may burn\nthe foe.","version_group":{"name":"emerald"},"language":"en"},{"text":"Looses a stream of\nfire that may burn\nthe foe.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":362,"generation":{"name":"generation-vi"}},{"game_index":362,"generation":{"name":"generation-v"}},{"game_index":362,"generation":{"name":"generation-iv"}},{"game_index":323,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM35","language":"en"},{"name":"MT35","language":"it"},{"name":"MT35","language":"es"},{"name":"TM35","language":"de"},{"name":"CT35","language":"fr"},{"name":"기술머신35","language":"ko"},{"name":"わざマシン３５","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 339,
+  "name": "tm35",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Flamethrower to a compatible Pokémon.",
+      "short_effect": "Teaches Flamethrower to a compatible Pokémon. (Gen II: Sleep Talk Gen I: Metronome)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "激しい　炎を\n相手に　発射して　攻撃する。\nやけど状態に　することが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The target is scorched with an intense\nblast of fire. This may also leave the\ntarget with a burn.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Il nemico viene colpito da intense fiammate\nche possono anche scottarlo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Quien lo usa ataca con toda su energía. También\npuede bajar la Defensa Especial del objetivo si lo\nalcanza.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Das Ziel wird in ein Flammenmeer gehüllt.\nVerursacht eventuell Verbrennungen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "L’ennemi reçoit un torrent de flammes.\nPeut aussi le brûler.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "세찬 불꽃을\n상대에게 발사하여 공격한다.\n화상 상태로 만들 때가 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "はげしい　ほのおを　はっしゃして\nこうげきする。　あいてを　やけどの\nじょうたいに　することが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The target is scorched with an intense\nblast of fire. It may also leave the\ntarget with a burn.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The target is scorched with an intense\nblast of fire. It may also leave the\ntarget with a burn.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "L’ennemi reçoit un torrent de flammes.\nPeut aussi le brûler.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The foe is scorched with an intense\nblast of fire. The target may also be\nleft with a burn.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is scorched with an intense\nblast of fire. The target may also be\nleft with a burn.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is scorched with an intense\nblast of fire. The target may also be\nleft with a burn.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is scorched\nwith intense flames.\nThe foe may suffer\na burn.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Looses a stream of\nfire that may burn\nthe foe.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Looses a stream of\nfire that may burn\nthe foe.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 362,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 362,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 362,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 323,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM35",
+      "language": "en"
+    },
+    {
+      "name": "MT35",
+      "language": "it"
+    },
+    {
+      "name": "MT35",
+      "language": "es"
+    },
+    {
+      "name": "TM35",
+      "language": "de"
+    },
+    {
+      "name": "CT35",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신35",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン３５",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

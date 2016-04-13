@@ -1,1 +1,120 @@
-{"id":165,"name":"aroma-veil","is_main_series":true,"generation":{"name":"generation-vi"},"names":[{"name":"Aroma Veil","language":"en"},{"name":"Aromavelo","language":"it"},{"name":"Velo Aroma","language":"es"},{"name":"Dufthülle","language":"de"},{"name":"Aroma-Voile","language":"fr"},{"name":"아로마베일","language":"ko"},{"name":"アロマベール","language":"ja"}],"effect_entries":[{"effect":"Protects allies against moves that affect their mental state.","short_effect":"Protects allies against moves that affect their mental state.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"味方への　メンタル\n攻撃を　防ぐ。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Protects allies from attacks that\nlimit their move choices.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Protegge sé e gli alleati da mosse\nche limitano la scelta di attacchi.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Protege al equipo de ataques\nque impiden elegir movimientos.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Schützt alle Pokémon im Team\nvor manchen mentalen Angriffen.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Protège l’équipe des attaques\nlimitant le choix des capacités.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"같은 편으로 향하는\n멘탈 공격을 막는다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"みかたへの　メンタル\nこうげきを　ふせぐ。","version_group":{"name":"x-y"},"language":"ja"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"spritzee"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"aromatisse"}}]}
+{
+  "id": 165,
+  "name": "aroma-veil",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "Aroma Veil",
+      "language": "en"
+    },
+    {
+      "name": "Aromavelo",
+      "language": "it"
+    },
+    {
+      "name": "Velo Aroma",
+      "language": "es"
+    },
+    {
+      "name": "Dufthülle",
+      "language": "de"
+    },
+    {
+      "name": "Aroma-Voile",
+      "language": "fr"
+    },
+    {
+      "name": "아로마베일",
+      "language": "ko"
+    },
+    {
+      "name": "アロマベール",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Protects allies against moves that affect their mental state.",
+      "short_effect": "Protects allies against moves that affect their mental state.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "味方への　メンタル\n攻撃を　防ぐ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Protects allies from attacks that\nlimit their move choices.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Protegge sé e gli alleati da mosse\nche limitano la scelta di attacchi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Protege al equipo de ataques\nque impiden elegir movimientos.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Schützt alle Pokémon im Team\nvor manchen mentalen Angriffen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Protège l’équipe des attaques\nlimitant le choix des capacités.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "같은 편으로 향하는\n멘탈 공격을 막는다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "みかたへの　メンタル\nこうげきを　ふせぐ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "spritzee"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "aromatisse"
+      }
+    }
+  ]
+}

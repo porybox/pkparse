@@ -1,1 +1,143 @@
-{"id":288,"name":"vigoroth","order":314,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":277,"pokedex":{"name":"updated-unova"}},{"entry_number":37,"pokedex":{"name":"hoenn"}},{"entry_number":288,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"white"},"shape":{"name":"upright"},"evolves_from_species":{"name":"slakoth"},"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-iii"},"names":[{"name":"ヤルキモノ","language":"ja"},{"name":"Yarukimono","language":"roomaji"},{"name":"발바로","language":"ko"},{"name":"過動猿","language":"zh"},{"name":"Vigoroth","language":"fr"},{"name":"Muntier","language":"de"},{"name":"Vigoroth","language":"es"},{"name":"Vigoroth","language":"it"},{"name":"Vigoroth","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"あばれザル","language":"ja"},{"genus":"성난원숭이","language":"ko"},{"genus":"Turbusinge","language":"fr"},{"genus":"Wildaffe","language":"de"},{"genus":"Mono Feroz","language":"es"},{"genus":"Indocile","language":"it"},{"genus":"Wild Monkey","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"vigoroth"}}],"first_evolution_id":287}
+{
+  "id": 288,
+  "name": "vigoroth",
+  "order": 314,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 277,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 37,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 288,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "white"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "slakoth"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ヤルキモノ",
+      "language": "ja"
+    },
+    {
+      "name": "Yarukimono",
+      "language": "roomaji"
+    },
+    {
+      "name": "발바로",
+      "language": "ko"
+    },
+    {
+      "name": "過動猿",
+      "language": "zh"
+    },
+    {
+      "name": "Vigoroth",
+      "language": "fr"
+    },
+    {
+      "name": "Muntier",
+      "language": "de"
+    },
+    {
+      "name": "Vigoroth",
+      "language": "es"
+    },
+    {
+      "name": "Vigoroth",
+      "language": "it"
+    },
+    {
+      "name": "Vigoroth",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "あばれザル",
+      "language": "ja"
+    },
+    {
+      "genus": "성난원숭이",
+      "language": "ko"
+    },
+    {
+      "genus": "Turbusinge",
+      "language": "fr"
+    },
+    {
+      "genus": "Wildaffe",
+      "language": "de"
+    },
+    {
+      "genus": "Mono Feroz",
+      "language": "es"
+    },
+    {
+      "genus": "Indocile",
+      "language": "it"
+    },
+    {
+      "genus": "Wild Monkey",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "vigoroth"
+      }
+    }
+  ],
+  "first_evolution_id": 287
+}

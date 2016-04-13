@@ -1,1 +1,337 @@
-{"id":50,"name":"run-away","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Run Away","language":"en"},{"name":"Fugafacile","language":"it"},{"name":"Fuga","language":"es"},{"name":"Angsthase","language":"de"},{"name":"Fuite","language":"fr"},{"name":"도주","language":"ko"},{"name":"にげあし","language":"ja"}],"effect_entries":[{"effect":"This Pokémon is always successful fleeing from wild battles, even if [trapped]{mechanic:trapped} by a move or ability.","short_effect":"Ensures success fleeing from wild battles.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"野生の　ポケモンから\n必ず　逃げられる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Enables a sure getaway\nfrom wild Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Garantisce la fuga dai\nPokémon selvatici.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Permite escapar de todos los\nPokémon salvajes.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Die Flucht vor wilden Pokémon\ngelingt immer.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Permet de fuir n’importe quel\nPokémon sauvage.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"야생 포켓몬으로부터\n반드시 도망칠 수 있다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"やせいの　ポケモンから\nかならず　にげられる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Enables a sure getaway\nfrom wild Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Enables a sure getaway\nfrom wild Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Permet de fuir n’importe\nquel Pokémon sauvage.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Enables sure getaway\nfrom wild Pokémon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Enables sure getaway from\nwild Pokémon.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Enables sure getaway from\nwild Pokémon.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"Makes escaping easier.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"Makes escaping easier.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"Makes escaping easier.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"caterpie"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"weedle"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"rattata"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"raticate"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"oddish"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"venonat"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"ponyta"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"rapidash"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"doduo"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"dodrio"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"eevee"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"sentret"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"furret"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"aipom"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"dunsparce"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"snubbull"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"poochyena"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"wurmple"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"nincada"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"kricketot"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"pachirisu"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"buneary"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"patrat"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"lillipup"}}]}
+{
+  "id": 50,
+  "name": "run-away",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Run Away",
+      "language": "en"
+    },
+    {
+      "name": "Fugafacile",
+      "language": "it"
+    },
+    {
+      "name": "Fuga",
+      "language": "es"
+    },
+    {
+      "name": "Angsthase",
+      "language": "de"
+    },
+    {
+      "name": "Fuite",
+      "language": "fr"
+    },
+    {
+      "name": "도주",
+      "language": "ko"
+    },
+    {
+      "name": "にげあし",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon is always successful fleeing from wild battles, even if [trapped]{mechanic:trapped} by a move or ability.",
+      "short_effect": "Ensures success fleeing from wild battles.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "野生の　ポケモンから\n必ず　逃げられる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Enables a sure getaway\nfrom wild Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Garantisce la fuga dai\nPokémon selvatici.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Permite escapar de todos los\nPokémon salvajes.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Die Flucht vor wilden Pokémon\ngelingt immer.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Permet de fuir n’importe quel\nPokémon sauvage.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "야생 포켓몬으로부터\n반드시 도망칠 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "やせいの　ポケモンから\nかならず　にげられる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Enables a sure getaway\nfrom wild Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Enables a sure getaway\nfrom wild Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Permet de fuir n’importe\nquel Pokémon sauvage.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Enables sure getaway\nfrom wild Pokémon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Enables sure getaway from\nwild Pokémon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Enables sure getaway from\nwild Pokémon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Makes escaping easier.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Makes escaping easier.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Makes escaping easier.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "caterpie"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "weedle"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "rattata"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "raticate"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "oddish"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "venonat"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "ponyta"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "rapidash"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "doduo"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "dodrio"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "eevee"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "sentret"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "furret"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "aipom"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "dunsparce"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "snubbull"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "poochyena"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "wurmple"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "nincada"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "kricketot"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "pachirisu"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "buneary"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "patrat"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "lillipup"
+      }
+    }
+  ]
+}

@@ -1,1 +1,197 @@
-{"id":421,"name":"coin-case","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Contains the Coins used by the Game Corner, to a maximum of 50,000.","short_effect":"Holds coins for the Game Corner.","language":"en"}],"flavor_text_entries":[{"text":"ゲームコーナーで　てにいれた\nコインを　５００００枚まで\nいれることが　できる　ケース。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A case for holding coins obtained\nat the Game Corner. It can hold up\nto 50,000 coins.","version_group":{"name":"x-y"},"language":"en"},{"text":"Contenitore ottenuto al Casinò che può\ncontenere fino a 50.000 Gettoni.","version_group":{"name":"x-y"},"language":"it"},{"text":"Llave del siniestro almacén del Equipo Galaxia\nque está ubicado en las afueras de Ciudad\nRocavelo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Im Korb finden bis zu 50 000 Münzen\nder Spielhalle Platz.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une boîte pour conserver les Jetons obtenus\nau Casino. Peut contenir jusqu’à 50 000 Jetons.","version_group":{"name":"x-y"},"language":"fr"},{"text":"게임코너에서 손에 넣은\n동전을 50000개 까지\n넣을 수 있는 케이스.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ゲームコーナーで　てにいれた\nコインを　５００００まい　まで\nいれることが　できる　ケース。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A case for holding coins obtained at\nthe Game Corner.\nIt holds up to 50,000 coins.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A case for holding coins obtained at\nthe Game Corner.\nIt holds up to 50,000 coins.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une boîte pour conserver les Jetons\nobtenus au Casino.\nPeut contenir jusqu’à 50 000 Jetons.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A case for holding coins obtained at\nthe Game Corner.\nIt holds up to 50,000 coins.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A case for holding Coins obtained at\nthe Game Corner.\nIt holds up to 50,000 Coins.","version_group":{"name":"platinum"},"language":"en"},{"text":"A case for holding Coins obtained at\nthe Game Corner.\nIt holds up to 50,000 Coins.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A case for holding COINS obtained\nat the GAME CORNER.\nIt holds up to 9,999 COINS.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A case that holds\nup to 9,999 COINS.","version_group":{"name":"emerald"},"language":"en"},{"text":"A case that holds\nup to 9,999 COINS.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":444,"generation":{"name":"generation-vi"}},{"game_index":444,"generation":{"name":"generation-v"}},{"game_index":444,"generation":{"name":"generation-iv"}},{"game_index":260,"generation":{"name":"generation-iii"}}],"names":[{"name":"Coin Case","language":"en"},{"name":"Salvadanaio","language":"it"},{"name":"Monedero","language":"es"},{"name":"Münzkorb","language":"de"},{"name":"Boîte Jetons","language":"fr"},{"name":"동전케이스","language":"ko"},{"name":"コインケース","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 421,
+  "name": "coin-case",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Contains the Coins used by the Game Corner, to a maximum of 50,000.",
+      "short_effect": "Holds coins for the Game Corner.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ゲームコーナーで　てにいれた\nコインを　５００００枚まで\nいれることが　できる　ケース。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A case for holding coins obtained\nat the Game Corner. It can hold up\nto 50,000 coins.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Contenitore ottenuto al Casinò che può\ncontenere fino a 50.000 Gettoni.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Llave del siniestro almacén del Equipo Galaxia\nque está ubicado en las afueras de Ciudad\nRocavelo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Im Korb finden bis zu 50 000 Münzen\nder Spielhalle Platz.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une boîte pour conserver les Jetons obtenus\nau Casino. Peut contenir jusqu’à 50 000 Jetons.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "게임코너에서 손에 넣은\n동전을 50000개 까지\n넣을 수 있는 케이스.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ゲームコーナーで　てにいれた\nコインを　５００００まい　まで\nいれることが　できる　ケース。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A case for holding coins obtained at\nthe Game Corner.\nIt holds up to 50,000 coins.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A case for holding coins obtained at\nthe Game Corner.\nIt holds up to 50,000 coins.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une boîte pour conserver les Jetons\nobtenus au Casino.\nPeut contenir jusqu’à 50 000 Jetons.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A case for holding coins obtained at\nthe Game Corner.\nIt holds up to 50,000 coins.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A case for holding Coins obtained at\nthe Game Corner.\nIt holds up to 50,000 Coins.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A case for holding Coins obtained at\nthe Game Corner.\nIt holds up to 50,000 Coins.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A case for holding COINS obtained\nat the GAME CORNER.\nIt holds up to 9,999 COINS.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A case that holds\nup to 9,999 COINS.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A case that holds\nup to 9,999 COINS.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 444,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 444,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 444,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 260,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Coin Case",
+      "language": "en"
+    },
+    {
+      "name": "Salvadanaio",
+      "language": "it"
+    },
+    {
+      "name": "Monedero",
+      "language": "es"
+    },
+    {
+      "name": "Münzkorb",
+      "language": "de"
+    },
+    {
+      "name": "Boîte Jetons",
+      "language": "fr"
+    },
+    {
+      "name": "동전케이스",
+      "language": "ko"
+    },
+    {
+      "name": "コインケース",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

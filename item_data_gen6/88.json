@@ -1,1 +1,404 @@
-{"id":88,"name":"pearl","cost":1400,"fling_power":30,"fling_effect":null,"attributes":[],"category":{"name":"loot"},"effect_entries":[{"effect":"Vendor trash.","short_effect":"Sell for 700 Pokédollars, or to Ore Collector for 1400 Pokédollars.","language":"en"}],"flavor_text_entries":[{"text":"きれいな　銀色に　光る\n少し　ちいさめの　真珠。\nショップで　安く　売れる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A rather small pearl that has a\nvery nice silvery sheen to it.\nIt can be sold cheaply to shops.","version_group":{"name":"x-y"},"language":"en"},{"text":"Perla piuttosto piccola dai graziosi riflessi\nargentei. Si può vendere a un prezzo piuttosto\nbasso nei negozi.","version_group":{"name":"x-y"},"language":"it"},{"text":"Brillante perla pequeña y plateada que no alcanza\nun buen precio en las tiendas.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine relativ kleine Perle, die in schönem\nSilber funkelt. Sie ist von geringem Wert.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une petite perle qui brille d’une jolie couleur\nargent. Peut être vendue à bas prix aux magasins.","version_group":{"name":"x-y"},"language":"fr"},{"text":"예쁜 은색으로 빛나는\n자그마한 진주.\n상점에서 싸게 팔린다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"きれいな　ぎんいろに　ひかる\nすこし　ちいさめの　しんじゅ。\nショップで　やすく　うれる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A somewhat-small pearl that sparkles\nin a pretty silver color.\nIt can be sold cheaply to shops.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A somewhat-small pearl that sparkles\nin a pretty silver color.\nIt can be sold cheaply to shops.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une petite perle qui brille d’une jolie\ncouleur argent. Peut être vendue\nà bas prix aux magasins.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A somewhat-small pearl that sparkles\nin a pretty silver color.\nIt can be sold cheaply to shops.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A somewhat-small pearl that sparkles\nin a pretty silver color.\nIt can be sold cheaply to shops.","version_group":{"name":"platinum"},"language":"en"},{"text":"A somewhat-small pearl that sparkles\nin a pretty silver color.\nIt can be sold cheaply to shops.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A relatively small pearl that\nsparkles in a pretty silver color.\nIt can be sold cheaply.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A pretty pearl\nthat would sell at a\ncheap price.","version_group":{"name":"emerald"},"language":"en"},{"text":"A pretty pearl.\nCan be sold cheaply.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":88,"generation":{"name":"generation-vi"}},{"game_index":88,"generation":{"name":"generation-v"}},{"game_index":88,"generation":{"name":"generation-iv"}},{"game_index":106,"generation":{"name":"generation-iii"}}],"names":[{"name":"Pearl","language":"en"},{"name":"Perla","language":"it"},{"name":"Perla","language":"es"},{"name":"Perle","language":"de"},{"name":"Perle","language":"fr"},{"name":"진주","language":"ko"},{"name":"しんじゅ","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"shellder"},"version_details":[{"rarity":50,"version":{"name":"y"}},{"rarity":50,"version":{"name":"x"}},{"rarity":50,"version":{"name":"white-2"}},{"rarity":50,"version":{"name":"black-2"}},{"rarity":50,"version":{"name":"white"}},{"rarity":50,"version":{"name":"black"}},{"rarity":50,"version":{"name":"soulsilver"}},{"rarity":50,"version":{"name":"heartgold"}},{"rarity":50,"version":{"name":"platinum"}},{"rarity":50,"version":{"name":"pearl"}},{"rarity":50,"version":{"name":"diamond"}},{"rarity":50,"version":{"name":"leafgreen"}},{"rarity":50,"version":{"name":"firered"}},{"rarity":50,"version":{"name":"emerald"}},{"rarity":50,"version":{"name":"sapphire"}},{"rarity":50,"version":{"name":"ruby"}}]},{"pokemon":{"name":"cloyster"},"version_details":[{"rarity":50,"version":{"name":"y"}},{"rarity":50,"version":{"name":"x"}},{"rarity":50,"version":{"name":"white-2"}},{"rarity":50,"version":{"name":"black-2"}},{"rarity":50,"version":{"name":"white"}},{"rarity":50,"version":{"name":"black"}},{"rarity":50,"version":{"name":"soulsilver"}},{"rarity":50,"version":{"name":"heartgold"}},{"rarity":50,"version":{"name":"platinum"}},{"rarity":50,"version":{"name":"pearl"}},{"rarity":50,"version":{"name":"diamond"}},{"rarity":50,"version":{"name":"leafgreen"}},{"rarity":50,"version":{"name":"firered"}},{"rarity":50,"version":{"name":"emerald"}},{"rarity":50,"version":{"name":"sapphire"}},{"rarity":50,"version":{"name":"ruby"}}]}],"baby_trigger_for":null}
+{
+  "id": 88,
+  "name": "pearl",
+  "cost": 1400,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "loot"
+  },
+  "effect_entries": [
+    {
+      "effect": "Vendor trash.",
+      "short_effect": "Sell for 700 Pokédollars, or to Ore Collector for 1400 Pokédollars.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "きれいな　銀色に　光る\n少し　ちいさめの　真珠。\nショップで　安く　売れる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A rather small pearl that has a\nvery nice silvery sheen to it.\nIt can be sold cheaply to shops.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Perla piuttosto piccola dai graziosi riflessi\nargentei. Si può vendere a un prezzo piuttosto\nbasso nei negozi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Brillante perla pequeña y plateada que no alcanza\nun buen precio en las tiendas.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine relativ kleine Perle, die in schönem\nSilber funkelt. Sie ist von geringem Wert.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une petite perle qui brille d’une jolie couleur\nargent. Peut être vendue à bas prix aux magasins.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "예쁜 은색으로 빛나는\n자그마한 진주.\n상점에서 싸게 팔린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "きれいな　ぎんいろに　ひかる\nすこし　ちいさめの　しんじゅ。\nショップで　やすく　うれる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A somewhat-small pearl that sparkles\nin a pretty silver color.\nIt can be sold cheaply to shops.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A somewhat-small pearl that sparkles\nin a pretty silver color.\nIt can be sold cheaply to shops.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une petite perle qui brille d’une jolie\ncouleur argent. Peut être vendue\nà bas prix aux magasins.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A somewhat-small pearl that sparkles\nin a pretty silver color.\nIt can be sold cheaply to shops.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A somewhat-small pearl that sparkles\nin a pretty silver color.\nIt can be sold cheaply to shops.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A somewhat-small pearl that sparkles\nin a pretty silver color.\nIt can be sold cheaply to shops.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A relatively small pearl that\nsparkles in a pretty silver color.\nIt can be sold cheaply.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A pretty pearl\nthat would sell at a\ncheap price.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A pretty pearl.\nCan be sold cheaply.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 88,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 88,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 88,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 106,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Pearl",
+      "language": "en"
+    },
+    {
+      "name": "Perla",
+      "language": "it"
+    },
+    {
+      "name": "Perla",
+      "language": "es"
+    },
+    {
+      "name": "Perle",
+      "language": "de"
+    },
+    {
+      "name": "Perle",
+      "language": "fr"
+    },
+    {
+      "name": "진주",
+      "language": "ko"
+    },
+    {
+      "name": "しんじゅ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "shellder"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "firered"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "cloyster"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "firered"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

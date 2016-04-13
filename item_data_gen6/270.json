@@ -1,1 +1,77 @@
-{"id":531,"name":"soot-sack","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Collects soot when walking through tall grass on []{location:hoenn-route-113}.","short_effect":"Stores volcanic ash from Route 113.","language":"en"}],"flavor_text_entries":[{"text":"A sack used to collect volcanic\nash automatically during walks\nover deep ash.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A sack used to\ngather and hold\nvolcanic ash.","version_group":{"name":"emerald"},"language":"en"},{"text":"A sack used to\ngather and hold\nvolcanic ash.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":270,"generation":{"name":"generation-iii"}}],"names":[{"name":"Soot Sack","language":"en"},{"name":"Sacco Cenere","language":"it"},{"name":"Saco Hollín","language":"es"},{"name":"Aschetasche","language":"de"},{"name":"Sac à Suie","language":"fr"},{"name":"はいぶくろ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 531,
+  "name": "soot-sack",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Collects soot when walking through tall grass on []{location:hoenn-route-113}.",
+      "short_effect": "Stores volcanic ash from Route 113.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A sack used to collect volcanic\nash automatically during walks\nover deep ash.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A sack used to\ngather and hold\nvolcanic ash.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A sack used to\ngather and hold\nvolcanic ash.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 270,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Soot Sack",
+      "language": "en"
+    },
+    {
+      "name": "Sacco Cenere",
+      "language": "it"
+    },
+    {
+      "name": "Saco Hollín",
+      "language": "es"
+    },
+    {
+      "name": "Aschetasche",
+      "language": "de"
+    },
+    {
+      "name": "Sac à Suie",
+      "language": "fr"
+    },
+    {
+      "name": "はいぶくろ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

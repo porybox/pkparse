@@ -1,1 +1,204 @@
-{"id":217,"name":"black-glasses","cost":100,"fling_power":30,"fling_effect":null,"attributes":[{"name":"holdable"},{"name":"holdable-active"}],"category":{"name":"type-enhancement"},"effect_entries":[{"effect":"Held: Increases the power of the holder's Dark moves by 20%.","short_effect":"Held: Dark-Type moves from holder do 20% more damage.","language":"en"}],"flavor_text_entries":[{"text":"怪しく　みえる　メガネ。\n持たせると　あくタイプの\n技の　威力が　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nA pair of shady-looking glasses that\nboost the power of Dark-type moves.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a un Pokémon.\nInquietante paio di occhiali che potenzia le mosse\ndi tipo Buio.","version_group":{"name":"x-y"},"language":"it"},{"text":"Debe llevarlo Ditto. Es un polvo muy fino, pero a\nla vez resistente, que aumenta su Defensa.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item zum Tragen. Eine dunkle Brille,\ndie Attacken vom Typ Unlicht verstärkt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à tenir. Une paire de lunettes à l’aspect\nlouche qui augmente la puissance des capacités\nde type Ténèbres.","version_group":{"name":"x-y"},"language":"fr"},{"text":"괴상하게 보이는 안경.\n지니게 하면 악타입\n기술의 위력이 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"あやしく　みえる　メガネ。\nもたせると　あくタイプの\nわざの　いりょくが　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à tenir. Paire de lunettes à\nl’aspect louche qui monte la puissance\ndes capacités de type Ténèbres.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"An item to be held by a POKéMON.\nA shady-looking pair of glasses\nthat boosts DARK-type moves.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A hold item that\nraises the power of\nDARK-type moves.","version_group":{"name":"emerald"},"language":"en"},{"text":"A hold item that\nraises the power of\nDARK-type moves.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":240,"generation":{"name":"generation-vi"}},{"game_index":240,"generation":{"name":"generation-v"}},{"game_index":240,"generation":{"name":"generation-iv"}},{"game_index":206,"generation":{"name":"generation-iii"}}],"names":[{"name":"Black Glasses","language":"en"},{"name":"Occhialineri","language":"it"},{"name":"Gafas de Sol","language":"es"},{"name":"Schattenglas","language":"de"},{"name":"Lunettes Noires","language":"fr"},{"name":"검은안경","language":"ko"},{"name":"くろいメガネ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 217,
+  "name": "black-glasses",
+  "cost": 100,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "category": {
+    "name": "type-enhancement"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held: Increases the power of the holder's Dark moves by 20%.",
+      "short_effect": "Held: Dark-Type moves from holder do 20% more damage.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "怪しく　みえる　メガネ。\n持たせると　あくタイプの\n技の　威力が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nA pair of shady-looking glasses that\nboost the power of Dark-type moves.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nInquietante paio di occhiali che potenzia le mosse\ndi tipo Buio.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Debe llevarlo Ditto. Es un polvo muy fino, pero a\nla vez resistente, que aumenta su Defensa.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Eine dunkle Brille,\ndie Attacken vom Typ Unlicht verstärkt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Une paire de lunettes à l’aspect\nlouche qui augmente la puissance des capacités\nde type Ténèbres.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "괴상하게 보이는 안경.\n지니게 하면 악타입\n기술의 위력이 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "あやしく　みえる　メガネ。\nもたせると　あくタイプの\nわざの　いりょくが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir. Paire de lunettes à\nl’aspect louche qui monte la puissance\ndes capacités de type Ténèbres.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a POKéMON.\nA shady-looking pair of glasses\nthat boosts DARK-type moves.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nraises the power of\nDARK-type moves.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nraises the power of\nDARK-type moves.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 240,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 240,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 240,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 206,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Black Glasses",
+      "language": "en"
+    },
+    {
+      "name": "Occhialineri",
+      "language": "it"
+    },
+    {
+      "name": "Gafas de Sol",
+      "language": "es"
+    },
+    {
+      "name": "Schattenglas",
+      "language": "de"
+    },
+    {
+      "name": "Lunettes Noires",
+      "language": "fr"
+    },
+    {
+      "name": "검은안경",
+      "language": "ko"
+    },
+    {
+      "name": "くろいメガネ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

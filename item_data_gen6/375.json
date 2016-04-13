@@ -1,1 +1,63 @@
-{"id":561,"name":"magma-emblem","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[{"effect":"Provides access to the []{location:magma-hideout} in the []{location:jagged-pass}.","short_effect":"Provides access to the Team Magma Hideout in the Jagged Pass.","language":"en"}],"flavor_text_entries":[{"text":"A medal-like item in\nthe same shape as\nTEAM MAGMA’s mark.","version_group":{"name":"emerald"},"language":"en"}],"game_indices":[{"game_index":375,"generation":{"name":"generation-iii"}}],"names":[{"name":"Magma Emblem","language":"en"},{"name":"Stemma Magma","language":"it"},{"name":"Signo Magma","language":"es"},{"name":"Magmaemblem","language":"de"},{"name":"Sceau Magma","language":"fr"},{"name":"マグマのしるし","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 561,
+  "name": "magma-emblem",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [
+    {
+      "effect": "Provides access to the []{location:magma-hideout} in the []{location:jagged-pass}.",
+      "short_effect": "Provides access to the Team Magma Hideout in the Jagged Pass.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A medal-like item in\nthe same shape as\nTEAM MAGMA’s mark.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 375,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Magma Emblem",
+      "language": "en"
+    },
+    {
+      "name": "Stemma Magma",
+      "language": "it"
+    },
+    {
+      "name": "Signo Magma",
+      "language": "es"
+    },
+    {
+      "name": "Magmaemblem",
+      "language": "de"
+    },
+    {
+      "name": "Sceau Magma",
+      "language": "fr"
+    },
+    {
+      "name": "マグマのしるし",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,197 @@
-{"id":424,"name":"super-rod","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Used to find Pokémon on the Super Rod list for an area, which are generally the best available there.","short_effect":"Used to catch Pokémon in bodies of water.","language":"en"}],"flavor_text_entries":[{"text":"最新の　すごい　つりざお。\n水の　ある　場所で　使うと\nポケモンが　つれる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An awesome, high-tech fishing rod.\nUse it at any body of water to\nfish for wild aquatic Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Amo supertecnologico. Si usa per pescare\nPokémon selvatici in qualsiasi specchio d’acqua.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una flor que se suele regalar en ramos para\nexpresar agradecimiento en ocasiones especiales,\ncomo cumpleaños.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine wundervoll gefertigte Angel. Die beste\nAngel, um Pokémon an Land zu ziehen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une canne à pêche ultramoderne.\nUtilisez-la pour pêcher des Pokémon sauvages\ndans les points d’eau.","version_group":{"name":"x-y"},"language":"fr"},{"text":"최신식의 대단한 낚싯대.\n물이 있는 장소에서 사용하면\n포켓몬을 낚을 수 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"さいしんの　すごい　つりざお。\nみずの　ある　ばしょで　つかうと\nポケモンが　つれる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une canne à pêche ultramoderne.\nUtilisez-la pour pêcher des Pokémon\nsauvages dans les points d’eau.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.","version_group":{"name":"platinum"},"language":"en"},{"text":"An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"An awesome, high-tech fishing rod.\nUse it by any body of water to fish\nfor wild POKéMON.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"The best fishing\nrod for catching\nwild POKéMON.","version_group":{"name":"emerald"},"language":"en"},{"text":"The best fishing\nrod for catching\nwild POKéMON.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":447,"generation":{"name":"generation-vi"}},{"game_index":447,"generation":{"name":"generation-v"}},{"game_index":447,"generation":{"name":"generation-iv"}},{"game_index":264,"generation":{"name":"generation-iii"}}],"names":[{"name":"Super Rod","language":"en"},{"name":"Super Amo","language":"it"},{"name":"Supercaña","language":"es"},{"name":"Superangel","language":"de"},{"name":"Méga Canne","language":"fr"},{"name":"대단한낚싯대","language":"ko"},{"name":"すごいつりざお","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 424,
+  "name": "super-rod",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used to find Pokémon on the Super Rod list for an area, which are generally the best available there.",
+      "short_effect": "Used to catch Pokémon in bodies of water.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "最新の　すごい　つりざお。\n水の　ある　場所で　使うと\nポケモンが　つれる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An awesome, high-tech fishing rod.\nUse it at any body of water to\nfish for wild aquatic Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Amo supertecnologico. Si usa per pescare\nPokémon selvatici in qualsiasi specchio d’acqua.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una flor que se suele regalar en ramos para\nexpresar agradecimiento en ocasiones especiales,\ncomo cumpleaños.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine wundervoll gefertigte Angel. Die beste\nAngel, um Pokémon an Land zu ziehen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une canne à pêche ultramoderne.\nUtilisez-la pour pêcher des Pokémon sauvages\ndans les points d’eau.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "최신식의 대단한 낚싯대.\n물이 있는 장소에서 사용하면\n포켓몬을 낚을 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "さいしんの　すごい　つりざお。\nみずの　ある　ばしょで　つかうと\nポケモンが　つれる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une canne à pêche ultramoderne.\nUtilisez-la pour pêcher des Pokémon\nsauvages dans les points d’eau.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An awesome, high-tech fishing rod.\nUse it by any body of water to fish\nfor wild POKéMON.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The best fishing\nrod for catching\nwild POKéMON.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The best fishing\nrod for catching\nwild POKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 447,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 447,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 447,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 264,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Super Rod",
+      "language": "en"
+    },
+    {
+      "name": "Super Amo",
+      "language": "it"
+    },
+    {
+      "name": "Supercaña",
+      "language": "es"
+    },
+    {
+      "name": "Superangel",
+      "language": "de"
+    },
+    {
+      "name": "Méga Canne",
+      "language": "fr"
+    },
+    {
+      "name": "대단한낚싯대",
+      "language": "ko"
+    },
+    {
+      "name": "すごいつりざお",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

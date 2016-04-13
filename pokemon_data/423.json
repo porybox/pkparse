@@ -1,1 +1,149 @@
-{"id":423,"name":"gastrodon","order":451,"gender_rate":4,"capture_rate":75,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":61,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":61,"pokedex":{"name":"original-sinnoh"}},{"entry_number":423,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"indeterminate"},{"name":"water1"}],"color":{"name":"purple"},"shape":{"name":"armor"},"evolves_from_species":{"name":"shellos"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"トリトドン","language":"ja"},{"name":"Toritodon","language":"roomaji"},{"name":"트리토돈","language":"ko"},{"name":"海牛獸","language":"zh"},{"name":"Tritosor","language":"fr"},{"name":"Gastrodon","language":"de"},{"name":"Gastrodon","language":"es"},{"name":"Gastrodon","language":"it"},{"name":"Gastrodon","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"sea"}}],"form_descriptions":[{"description":"Forms only affect appearance.  A form is determined before a wild encounter based on whether the battle is in western or eastern Sinnoh and cannot be changed.","language":"en"}],"genera":[{"genus":"ウミウシ","language":"ja"},{"genus":"갯민숭달팽이","language":"ko"},{"genus":"Aqualimace","language":"fr"},{"genus":"Seeschnecke","language":"de"},{"genus":"Babosa Mar.","language":"es"},{"genus":"Lumacomare","language":"it"},{"genus":"Sea Slug","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"gastrodon"}}],"first_evolution_id":422}
+{
+  "id": 423,
+  "name": "gastrodon",
+  "order": 451,
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 61,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 61,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 423,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "indeterminate"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "purple"
+  },
+  "shape": {
+    "name": "armor"
+  },
+  "evolves_from_species": {
+    "name": "shellos"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "トリトドン",
+      "language": "ja"
+    },
+    {
+      "name": "Toritodon",
+      "language": "roomaji"
+    },
+    {
+      "name": "트리토돈",
+      "language": "ko"
+    },
+    {
+      "name": "海牛獸",
+      "language": "zh"
+    },
+    {
+      "name": "Tritosor",
+      "language": "fr"
+    },
+    {
+      "name": "Gastrodon",
+      "language": "de"
+    },
+    {
+      "name": "Gastrodon",
+      "language": "es"
+    },
+    {
+      "name": "Gastrodon",
+      "language": "it"
+    },
+    {
+      "name": "Gastrodon",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [
+    {
+      "description": "Forms only affect appearance.  A form is determined before a wild encounter based on whether the battle is in western or eastern Sinnoh and cannot be changed.",
+      "language": "en"
+    }
+  ],
+  "genera": [
+    {
+      "genus": "ウミウシ",
+      "language": "ja"
+    },
+    {
+      "genus": "갯민숭달팽이",
+      "language": "ko"
+    },
+    {
+      "genus": "Aqualimace",
+      "language": "fr"
+    },
+    {
+      "genus": "Seeschnecke",
+      "language": "de"
+    },
+    {
+      "genus": "Babosa Mar.",
+      "language": "es"
+    },
+    {
+      "genus": "Lumacomare",
+      "language": "it"
+    },
+    {
+      "genus": "Sea Slug",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "gastrodon"
+      }
+    }
+  ],
+  "first_evolution_id": 422
+}

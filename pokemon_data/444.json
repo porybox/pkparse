@@ -1,1 +1,156 @@
-{"id":444,"name":"gabite","order":465,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":40,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":7,"pokedex":{"name":"kalos-mountain"}},{"entry_number":86,"pokedex":{"name":"conquest-gallery"}},{"entry_number":110,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":110,"pokedex":{"name":"original-sinnoh"}},{"entry_number":444,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"dragon"},{"name":"monster"}],"color":{"name":"blue"},"shape":{"name":"upright"},"evolves_from_species":{"name":"gible"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"ガバイト","language":"ja"},{"name":"Gabite","language":"roomaji"},{"name":"한바이트","language":"ko"},{"name":"尖牙陸鲨","language":"zh"},{"name":"Carmache","language":"fr"},{"name":"Knarksel","language":"de"},{"name":"Gabite","language":"es"},{"name":"Gabite","language":"it"},{"name":"Gabite","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ほらあな","language":"ja"},{"genus":"동굴","language":"ko"},{"genus":"Caverne","language":"fr"},{"genus":"Höhle","language":"de"},{"genus":"Cueva","language":"es"},{"genus":"Grotta","language":"it"},{"genus":"Cave","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"gabite"}}],"first_evolution_id":443}
+{
+  "id": 444,
+  "name": "gabite",
+  "order": 465,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 40,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 7,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 86,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 110,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 110,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 444,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "dragon"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "gible"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "ガバイト",
+      "language": "ja"
+    },
+    {
+      "name": "Gabite",
+      "language": "roomaji"
+    },
+    {
+      "name": "한바이트",
+      "language": "ko"
+    },
+    {
+      "name": "尖牙陸鲨",
+      "language": "zh"
+    },
+    {
+      "name": "Carmache",
+      "language": "fr"
+    },
+    {
+      "name": "Knarksel",
+      "language": "de"
+    },
+    {
+      "name": "Gabite",
+      "language": "es"
+    },
+    {
+      "name": "Gabite",
+      "language": "it"
+    },
+    {
+      "name": "Gabite",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ほらあな",
+      "language": "ja"
+    },
+    {
+      "genus": "동굴",
+      "language": "ko"
+    },
+    {
+      "genus": "Caverne",
+      "language": "fr"
+    },
+    {
+      "genus": "Höhle",
+      "language": "de"
+    },
+    {
+      "genus": "Cueva",
+      "language": "es"
+    },
+    {
+      "genus": "Grotta",
+      "language": "it"
+    },
+    {
+      "genus": "Cave",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "gabite"
+      }
+    }
+  ],
+  "first_evolution_id": 443
+}

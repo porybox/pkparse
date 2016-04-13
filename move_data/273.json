@@ -1,1 +1,97 @@
-{"id":273,"name":"wish","accuracy":null,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"cute"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"At the end of the next turn, user will be healed for half its max [HP]{mechanic:hp}.  If the user is [switched out]{mechanic:switched-out}, its replacement will be healed instead for half of the user's max HP.  If the user [faint]{mechanic:faint}s or is forcefully switched by []{move:roar} or []{move:whirlwind}, this effect will not activate.","short_effect":"User will recover half its max HP at the end of the next turn.","language":"en"}],"effect_changes":[{"version_group":{"name":"black-white"},"effect_entries":[{"effect":"Heals replacement Pokémon by half of their max HP.","language":"en"}]}],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Wish","language":"en"},{"name":"Desiderio","language":"it"},{"name":"Deseo","language":"es"},{"name":"Wunschtraum","language":"de"},{"name":"Vœu","language":"fr"},{"name":"희망사항","language":"ko"},{"name":"ねがいごと","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"normal"}}
+{
+  "id": 273,
+  "name": "wish",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "At the end of the next turn, user will be healed for half its max [HP]{mechanic:hp}.  If the user is [switched out]{mechanic:switched-out}, its replacement will be healed instead for half of the user's max HP.  If the user [faint]{mechanic:faint}s or is forcefully switched by []{move:roar} or []{move:whirlwind}, this effect will not activate.",
+      "short_effect": "User will recover half its max HP at the end of the next turn.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "black-white"
+      },
+      "effect_entries": [
+        {
+          "effect": "Heals replacement Pokémon by half of their max HP.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Wish",
+      "language": "en"
+    },
+    {
+      "name": "Desiderio",
+      "language": "it"
+    },
+    {
+      "name": "Deseo",
+      "language": "es"
+    },
+    {
+      "name": "Wunschtraum",
+      "language": "de"
+    },
+    {
+      "name": "Vœu",
+      "language": "fr"
+    },
+    {
+      "name": "희망사항",
+      "language": "ko"
+    },
+    {
+      "name": "ねがいごと",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

@@ -1,1 +1,83 @@
-{"id":544,"name":"gear-grind","accuracy":85,"effect_chance":null,"pp":15,"priority":0,"power":50,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Hits twice in one turn.","short_effect":"Hits twice in one turn.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":2,"max_hits":2,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Gear Grind","language":"en"},{"name":"Ingracolpo","language":"it"},{"name":"Rueda Doble","language":"es"},{"name":"Klikkdiskus","language":"de"},{"name":"Lancécrou","language":"fr"},{"name":"기어소서","language":"ko"},{"name":"ギアソーサー","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"steel"}}
+{
+  "id": 544,
+  "name": "gear-grind",
+  "accuracy": 85,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": 50,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Hits twice in one turn.",
+      "short_effect": "Hits twice in one turn.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": 2,
+    "max_hits": 2,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Gear Grind",
+      "language": "en"
+    },
+    {
+      "name": "Ingracolpo",
+      "language": "it"
+    },
+    {
+      "name": "Rueda Doble",
+      "language": "es"
+    },
+    {
+      "name": "Klikkdiskus",
+      "language": "de"
+    },
+    {
+      "name": "Lancécrou",
+      "language": "fr"
+    },
+    {
+      "name": "기어소서",
+      "language": "ko"
+    },
+    {
+      "name": "ギアソーサー",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "steel"
+  }
+}

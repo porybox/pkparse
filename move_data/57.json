@@ -1,1 +1,105 @@
-{"id":57,"name":"surf","accuracy":100,"effect_chance":null,"pp":15,"priority":0,"power":90,"contest_combos":{"normal":{"use_before":[{"name":"dive"}],"use_after":[{"name":"rain-dance"},{"name":"dive"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"beauty"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.\n\nIf the target is in the first turn of []{move:dive}, this move will hit with double power.","short_effect":"Inflicts regular damage and can hit Dive users.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Surf","language":"en"},{"name":"Surf","language":"it"},{"name":"Surf","language":"es"},{"name":"Surfer","language":"de"},{"name":"Surf","language":"fr"},{"name":"파도타기","language":"ko"},{"name":"なみのり","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"all-other-pokemon"},"type":{"name":"water"}}
+{
+  "id": 57,
+  "name": "surf",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": 90,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "dive"
+        }
+      ],
+      "use_after": [
+        {
+          "name": "rain-dance"
+        },
+        {
+          "name": "dive"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.\n\nIf the target is in the first turn of []{move:dive}, this move will hit with double power.",
+      "short_effect": "Inflicts regular damage and can hit Dive users.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Surf",
+      "language": "en"
+    },
+    {
+      "name": "Surf",
+      "language": "it"
+    },
+    {
+      "name": "Surf",
+      "language": "es"
+    },
+    {
+      "name": "Surfer",
+      "language": "de"
+    },
+    {
+      "name": "Surf",
+      "language": "fr"
+    },
+    {
+      "name": "파도타기",
+      "language": "ko"
+    },
+    {
+      "name": "なみのり",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "all-other-pokemon"
+  },
+  "type": {
+    "name": "water"
+  }
+}

@@ -1,1 +1,85 @@
-{"id":169,"name":"spider-web","accuracy":null,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"The target cannot [switch out]{mechanic:switch-out} normally.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This effect ends when the user leaves the [field]{mechanic:field}.\n\nThe target may still escape by using []{move:baton-pass}, []{move:u-turn}, or a []{item:shed-shell}.\n\nBoth the user and the target pass on this effect with []{move:baton-pass}.","short_effect":"Prevents the target from leaving battle.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Spider Web","language":"en"},{"name":"Ragnatela","language":"it"},{"name":"Telaraña","language":"es"},{"name":"Spinnennetz","language":"de"},{"name":"Toile","language":"fr"},{"name":"거미집","language":"ko"},{"name":"クモのす","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"bug"}}
+{
+  "id": 169,
+  "name": "spider-web",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "The target cannot [switch out]{mechanic:switch-out} normally.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This effect ends when the user leaves the [field]{mechanic:field}.\n\nThe target may still escape by using []{move:baton-pass}, []{move:u-turn}, or a []{item:shed-shell}.\n\nBoth the user and the target pass on this effect with []{move:baton-pass}.",
+      "short_effect": "Prevents the target from leaving battle.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Spider Web",
+      "language": "en"
+    },
+    {
+      "name": "Ragnatela",
+      "language": "it"
+    },
+    {
+      "name": "Telaraña",
+      "language": "es"
+    },
+    {
+      "name": "Spinnennetz",
+      "language": "de"
+    },
+    {
+      "name": "Toile",
+      "language": "fr"
+    },
+    {
+      "name": "거미집",
+      "language": "ko"
+    },
+    {
+      "name": "クモのす",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "bug"
+  }
+}

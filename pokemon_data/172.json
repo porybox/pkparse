@@ -1,1 +1,176 @@
-{"id":172,"name":"pichu","order":25,"gender_rate":4,"capture_rate":190,"base_happiness":70,"is_baby":true,"hatch_counter":10,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":35,"pokedex":{"name":"kalos-central"}},{"entry_number":15,"pokedex":{"name":"conquest-gallery"}},{"entry_number":21,"pokedex":{"name":"updated-johto"}},{"entry_number":103,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":103,"pokedex":{"name":"original-sinnoh"}},{"entry_number":155,"pokedex":{"name":"hoenn"}},{"entry_number":21,"pokedex":{"name":"original-johto"}},{"entry_number":172,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"no-eggs"}],"color":{"name":"yellow"},"shape":{"name":"quadruped"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-ii"},"names":[{"name":"ピチュー","language":"ja"},{"name":"Pichu","language":"roomaji"},{"name":"피츄","language":"ko"},{"name":"皮丘","language":"zh"},{"name":"Pichu","language":"fr"},{"name":"Pichu","language":"de"},{"name":"Pichu","language":"es"},{"name":"Pichu","language":"it"},{"name":"Pichu","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"field"}}],"form_descriptions":[{"description":"Spiky-eared Pichu can only be received by taking the shiny Pichu from an official promotion to []{pokemon:celebi}'s shrine in []{location:ilex-forest}.  Spiky-eared Pichu is always female, cannot evolve, cannot be taken into the Wi-Fi Club or the Union Room, and cannot be transferred to Generation V, but is otherwise a normal Pichu.","language":"en"}],"genera":[{"genus":"こねずみ","language":"ja"},{"genus":"아기쥐","language":"ko"},{"genus":"Minisouris","language":"fr"},{"genus":"Babymaus","language":"de"},{"genus":"Ratoncito","language":"es"},{"genus":"Topino","language":"it"},{"genus":"Tiny Mouse","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"pichu"}}],"first_evolution_id":172}
+{
+  "id": 172,
+  "name": "pichu",
+  "order": 25,
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": true,
+  "hatch_counter": 10,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 35,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 15,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 21,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 103,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 103,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 155,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 21,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 172,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "no-eggs"
+    }
+  ],
+  "color": {
+    "name": "yellow"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ピチュー",
+      "language": "ja"
+    },
+    {
+      "name": "Pichu",
+      "language": "roomaji"
+    },
+    {
+      "name": "피츄",
+      "language": "ko"
+    },
+    {
+      "name": "皮丘",
+      "language": "zh"
+    },
+    {
+      "name": "Pichu",
+      "language": "fr"
+    },
+    {
+      "name": "Pichu",
+      "language": "de"
+    },
+    {
+      "name": "Pichu",
+      "language": "es"
+    },
+    {
+      "name": "Pichu",
+      "language": "it"
+    },
+    {
+      "name": "Pichu",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [
+    {
+      "description": "Spiky-eared Pichu can only be received by taking the shiny Pichu from an official promotion to []{pokemon:celebi}'s shrine in []{location:ilex-forest}.  Spiky-eared Pichu is always female, cannot evolve, cannot be taken into the Wi-Fi Club or the Union Room, and cannot be transferred to Generation V, but is otherwise a normal Pichu.",
+      "language": "en"
+    }
+  ],
+  "genera": [
+    {
+      "genus": "こねずみ",
+      "language": "ja"
+    },
+    {
+      "genus": "아기쥐",
+      "language": "ko"
+    },
+    {
+      "genus": "Minisouris",
+      "language": "fr"
+    },
+    {
+      "genus": "Babymaus",
+      "language": "de"
+    },
+    {
+      "genus": "Ratoncito",
+      "language": "es"
+    },
+    {
+      "genus": "Topino",
+      "language": "it"
+    },
+    {
+      "genus": "Tiny Mouse",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "pichu"
+      }
+    }
+  ],
+  "first_evolution_id": 172
+}

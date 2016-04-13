@@ -1,1 +1,170 @@
-{"id":378,"name":"tm74","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Gyro Ball to a compatible Pokémon.","short_effect":"Teaches Gyro Ball to a compatible Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"体を　高速に　回転させて\n体当たりする。相手より　素早さが\n遅いほど　強い。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user tackles the target with a high-speed\nspin. The slower the user compared to the\ntarget, the greater the move’s power.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa colpisce il nemico con un vortice\nrapidissimo. Più lento è chi la usa, maggiore\nè il danno.","version_group":{"name":"x-y"},"language":"it"},{"text":"Quien lo usa concentra toda su energía lumínica\ny la libera de golpe. Puede reducir la Defensa\nEspecial del objetivo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine verzerrte Drehattacke. Je langsamer der\nAnwender, desto mehr Schaden fügt er zu.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur effectue une rotation et frappe\nl’ennemi. Plus la Vitesse du lanceur est basse,\nplus il fait de dégâts.","version_group":{"name":"x-y"},"language":"fr"},{"text":"몸을 고속으로 회전시켜\n몸통박치기한다. 상대보다\n스피드가 느릴수록 위력은 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"からだを　こうそくに　かいてん\nさせて　たいあたりする。　あいてより\nおそいほど　いりょくは　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.","version_group":{"name":"black-white"},"language":"en"},{"text":"Le lanceur effectue une rotation et\nfrappe l’ennemi. Plus le lanceur est\nlent, plus il fait de dégâts.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user tackles the foe from a\nhigh-speed spin. The slower the user,\nthe greater the damage.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user tackles the foe from a\nhigh-speed spin. The slower the user,\nthe greater the damage.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user tackles the foe from a\nhigh-speed spin. The slower the user,\nthe greater the damage.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":401,"generation":{"name":"generation-vi"}},{"game_index":401,"generation":{"name":"generation-v"}},{"game_index":401,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM74","language":"en"},{"name":"MT74","language":"it"},{"name":"MT74","language":"es"},{"name":"TM74","language":"de"},{"name":"CT74","language":"fr"},{"name":"기술머신74","language":"ko"},{"name":"わざマシン７４","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 378,
+  "name": "tm74",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Gyro Ball to a compatible Pokémon.",
+      "short_effect": "Teaches Gyro Ball to a compatible Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "体を　高速に　回転させて\n体当たりする。相手より　素早さが\n遅いほど　強い。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user tackles the target with a high-speed\nspin. The slower the user compared to the\ntarget, the greater the move’s power.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa colpisce il nemico con un vortice\nrapidissimo. Più lento è chi la usa, maggiore\nè il danno.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Quien lo usa concentra toda su energía lumínica\ny la libera de golpe. Puede reducir la Defensa\nEspecial del objetivo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine verzerrte Drehattacke. Je langsamer der\nAnwender, desto mehr Schaden fügt er zu.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur effectue une rotation et frappe\nl’ennemi. Plus la Vitesse du lanceur est basse,\nplus il fait de dégâts.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "몸을 고속으로 회전시켜\n몸통박치기한다. 상대보다\n스피드가 느릴수록 위력은 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "からだを　こうそくに　かいてん\nさせて　たいあたりする。　あいてより\nおそいほど　いりょくは　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user tackles the target with a\nhigh-speed spin. The slower the\nuser, the greater the damage.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur effectue une rotation et\nfrappe l’ennemi. Plus le lanceur est\nlent, plus il fait de dégâts.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user tackles the foe from a\nhigh-speed spin. The slower the user,\nthe greater the damage.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user tackles the foe from a\nhigh-speed spin. The slower the user,\nthe greater the damage.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user tackles the foe from a\nhigh-speed spin. The slower the user,\nthe greater the damage.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 401,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 401,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 401,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM74",
+      "language": "en"
+    },
+    {
+      "name": "MT74",
+      "language": "it"
+    },
+    {
+      "name": "MT74",
+      "language": "es"
+    },
+    {
+      "name": "TM74",
+      "language": "de"
+    },
+    {
+      "name": "CT74",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신74",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン７４",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

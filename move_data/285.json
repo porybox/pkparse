@@ -1,1 +1,85 @@
-{"id":285,"name":"skill-swap","accuracy":null,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"User and target switch abilities.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.\n\nIf either Pokémon has []{ability:multitype} or []{ability:wonder-guard}, this move will [fail]{mechanic:fail}.","short_effect":"User and target swap abilities.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Skill Swap","language":"en"},{"name":"Baratto","language":"it"},{"name":"Intercambio","language":"es"},{"name":"Wertewechsel","language":"de"},{"name":"Échange","language":"fr"},{"name":"스킬스웹","language":"ko"},{"name":"スキルスワップ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"psychic"}}
+{
+  "id": 285,
+  "name": "skill-swap",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "User and target switch abilities.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.\n\nIf either Pokémon has []{ability:multitype} or []{ability:wonder-guard}, this move will [fail]{mechanic:fail}.",
+      "short_effect": "User and target swap abilities.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Skill Swap",
+      "language": "en"
+    },
+    {
+      "name": "Baratto",
+      "language": "it"
+    },
+    {
+      "name": "Intercambio",
+      "language": "es"
+    },
+    {
+      "name": "Wertewechsel",
+      "language": "de"
+    },
+    {
+      "name": "Échange",
+      "language": "fr"
+    },
+    {
+      "name": "스킬스웹",
+      "language": "ko"
+    },
+    {
+      "name": "スキルスワップ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "psychic"
+  }
+}

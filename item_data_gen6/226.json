@@ -1,1 +1,464 @@
-{"id":203,"name":"deep-sea-tooth","cost":200,"fling_power":90,"fling_effect":null,"attributes":[{"name":"holdable"}],"category":{"name":"species-specific"},"effect_entries":[{"effect":"Held by Clamperl: Doubles the holder's Special Attack.  Evolves the holder into Huntail when traded.","short_effect":"Doubles Clamperl's Special Attack. Traded on a Clamperl: Holder evolves into Huntail.","language":"en"}],"flavor_text_entries":[{"text":"パールルに　持たせると\n特攻が　あがる　キバ。\n鋭く　銀色に　光る。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by Clamperl.\nThis fang gleams a sharp silver and\nraises the holder’s Sp. Atk stat.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a Clamperl.\nDente dai bagliori argentei che aumenta\nl’Attacco Speciale.","version_group":{"name":"x-y"},"language":"it"},{"text":"Gema con forma de gota de agua que fortalece\nlos movimientos de tipo Agua. Debe llevarla un\nPokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item, das von Perlu getragen werden kann.\nEs schimmert silbern und hebt den Spezial-Angriff.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à faire tenir à Coquiperl.\nUne dent de couleur argent qui augmente\nson Attaque Spéciale.","version_group":{"name":"x-y"},"language":"fr"},{"text":"진주몽에게 지니게 하면\n특수공격이 올라가는 이빨.\n날카로운 은색으로 빛난다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"パールルに　もたせると\nとくこうが　あがる　キバ。\nするどく　ぎんいろに　ひかる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by Clamperl.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by Clamperl.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à faire tenir à Coquiperl.\nDent de couleur argent montant\nson Attaque Spéciale.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by CLAMPERL.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by CLAMPERL.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by CLAMPERL.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"An item to be held by a POKéMON.\nA fang that gleams a sharp silver.\nIt raises the SP. ATK stat.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A hold item that\nraises the SP. ATK\nof CLAMPERL.","version_group":{"name":"emerald"},"language":"en"},{"text":"A hold item that\nraises the SP. ATK\nof CLAMPERL.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":226,"generation":{"name":"generation-vi"}},{"game_index":226,"generation":{"name":"generation-v"}},{"game_index":226,"generation":{"name":"generation-iv"}},{"game_index":192,"generation":{"name":"generation-iii"}}],"names":[{"name":"Deep Sea Tooth","language":"en"},{"name":"Dente Abissi","language":"it"},{"name":"Diente Marino","language":"es"},{"name":"Abysszahn","language":"de"},{"name":"Dent Océan","language":"fr"},{"name":"심해의이빨","language":"ko"},{"name":"しんかいのキバ","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"carvanha"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}},{"rarity":5,"version":{"name":"soulsilver"}},{"rarity":5,"version":{"name":"heartgold"}},{"rarity":5,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":5,"version":{"name":"diamond"}}]},{"pokemon":{"name":"sharpedo"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}},{"rarity":5,"version":{"name":"soulsilver"}},{"rarity":5,"version":{"name":"heartgold"}},{"rarity":5,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":5,"version":{"name":"diamond"}}]},{"pokemon":{"name":"huntail"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}},{"rarity":5,"version":{"name":"soulsilver"}},{"rarity":5,"version":{"name":"heartgold"}},{"rarity":5,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":5,"version":{"name":"diamond"}}]},{"pokemon":{"name":"basculin-red-striped"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}}]}],"baby_trigger_for":null}
+{
+  "id": 203,
+  "name": "deep-sea-tooth",
+  "cost": 200,
+  "fling_power": 90,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "species-specific"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by Clamperl: Doubles the holder's Special Attack.  Evolves the holder into Huntail when traded.",
+      "short_effect": "Doubles Clamperl's Special Attack. Traded on a Clamperl: Holder evolves into Huntail.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "パールルに　持たせると\n特攻が　あがる　キバ。\n鋭く　銀色に　光る。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by Clamperl.\nThis fang gleams a sharp silver and\nraises the holder’s Sp. Atk stat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a Clamperl.\nDente dai bagliori argentei che aumenta\nl’Attacco Speciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Gema con forma de gota de agua que fortalece\nlos movimientos de tipo Agua. Debe llevarla un\nPokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item, das von Perlu getragen werden kann.\nEs schimmert silbern und hebt den Spezial-Angriff.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à faire tenir à Coquiperl.\nUne dent de couleur argent qui augmente\nson Attaque Spéciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "진주몽에게 지니게 하면\n특수공격이 올라가는 이빨.\n날카로운 은색으로 빛난다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "パールルに　もたせると\nとくこうが　あがる　キバ。\nするどく　ぎんいろに　ひかる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by Clamperl.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by Clamperl.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à faire tenir à Coquiperl.\nDent de couleur argent montant\nson Attaque Spéciale.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by CLAMPERL.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by CLAMPERL.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by CLAMPERL.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a POKéMON.\nA fang that gleams a sharp silver.\nIt raises the SP. ATK stat.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nraises the SP. ATK\nof CLAMPERL.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nraises the SP. ATK\nof CLAMPERL.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 226,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 226,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 226,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 192,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Deep Sea Tooth",
+      "language": "en"
+    },
+    {
+      "name": "Dente Abissi",
+      "language": "it"
+    },
+    {
+      "name": "Diente Marino",
+      "language": "es"
+    },
+    {
+      "name": "Abysszahn",
+      "language": "de"
+    },
+    {
+      "name": "Dent Océan",
+      "language": "fr"
+    },
+    {
+      "name": "심해의이빨",
+      "language": "ko"
+    },
+    {
+      "name": "しんかいのキバ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "carvanha"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "sharpedo"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "huntail"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "basculin-red-striped"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

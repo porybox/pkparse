@@ -1,1 +1,85 @@
-{"id":449,"name":"judgment","accuracy":100,"effect_chance":null,"pp":10,"priority":0,"power":100,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":null,"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  If the user is holding a plate or a drive, this move's type is the type corresponding to that item.\n\nNote: This effect is technically shared by both []{move:techno-blast} and []{move:judgment}; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.","short_effect":"If the user is holding a appropriate plate or drive, the damage inflicted will match it.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Judgment","language":"en"},{"name":"Giudizio","language":"it"},{"name":"Sentencia","language":"es"},{"name":"Urteilskraft","language":"de"},{"name":"Jugement","language":"fr"},{"name":"심판의뭉치","language":"ko"},{"name":"さばきのつぶて","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 449,
+  "name": "judgment",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": 100,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the user is holding a plate or a drive, this move's type is the type corresponding to that item.\n\nNote: This effect is technically shared by both []{move:techno-blast} and []{move:judgment}; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.",
+      "short_effect": "If the user is holding a appropriate plate or drive, the damage inflicted will match it.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Judgment",
+      "language": "en"
+    },
+    {
+      "name": "Giudizio",
+      "language": "it"
+    },
+    {
+      "name": "Sentencia",
+      "language": "es"
+    },
+    {
+      "name": "Urteilskraft",
+      "language": "de"
+    },
+    {
+      "name": "Jugement",
+      "language": "fr"
+    },
+    {
+      "name": "심판의뭉치",
+      "language": "ko"
+    },
+    {
+      "name": "さばきのつぶて",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

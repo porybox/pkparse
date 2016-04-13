@@ -1,1 +1,176 @@
-{"id":183,"name":"marill","order":212,"gender_rate":4,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":10,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"fast"},"pokedex_numbers":[{"entry_number":42,"pokedex":{"name":"kalos-central"}},{"entry_number":31,"pokedex":{"name":"updated-unova"}},{"entry_number":132,"pokedex":{"name":"updated-johto"}},{"entry_number":125,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":125,"pokedex":{"name":"original-sinnoh"}},{"entry_number":55,"pokedex":{"name":"hoenn"}},{"entry_number":130,"pokedex":{"name":"original-johto"}},{"entry_number":183,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"fairy"},{"name":"water1"}],"color":{"name":"blue"},"shape":{"name":"upright"},"evolves_from_species":{"name":"azurill"},"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-ii"},"names":[{"name":"マリル","language":"ja"},{"name":"Maril","language":"roomaji"},{"name":"마릴","language":"ko"},{"name":"瑪力露","language":"zh"},{"name":"Marill","language":"fr"},{"name":"Marill","language":"de"},{"name":"Marill","language":"es"},{"name":"Marill","language":"it"},{"name":"Marill","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"pond"}}],"form_descriptions":[],"genera":[{"genus":"みずねずみ","language":"ja"},{"genus":"물쥐","language":"ko"},{"genus":"Aquasouris","language":"fr"},{"genus":"Aquamaus","language":"de"},{"genus":"Ratón Agua","language":"es"},{"genus":"Acquatopo","language":"it"},{"genus":"Aqua Mouse","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"marill"}}],"first_evolution_id":298}
+{
+  "id": 183,
+  "name": "marill",
+  "order": 212,
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 10,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 42,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 31,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 132,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 125,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 125,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 55,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 130,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 183,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "fairy"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "azurill"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "マリル",
+      "language": "ja"
+    },
+    {
+      "name": "Maril",
+      "language": "roomaji"
+    },
+    {
+      "name": "마릴",
+      "language": "ko"
+    },
+    {
+      "name": "瑪力露",
+      "language": "zh"
+    },
+    {
+      "name": "Marill",
+      "language": "fr"
+    },
+    {
+      "name": "Marill",
+      "language": "de"
+    },
+    {
+      "name": "Marill",
+      "language": "es"
+    },
+    {
+      "name": "Marill",
+      "language": "it"
+    },
+    {
+      "name": "Marill",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "pond"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "みずねずみ",
+      "language": "ja"
+    },
+    {
+      "genus": "물쥐",
+      "language": "ko"
+    },
+    {
+      "genus": "Aquasouris",
+      "language": "fr"
+    },
+    {
+      "genus": "Aquamaus",
+      "language": "de"
+    },
+    {
+      "genus": "Ratón Agua",
+      "language": "es"
+    },
+    {
+      "genus": "Acquatopo",
+      "language": "it"
+    },
+    {
+      "genus": "Aqua Mouse",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "marill"
+      }
+    }
+  ],
+  "first_evolution_id": 298
+}

@@ -1,1 +1,110 @@
-{"id":732,"name":"adventure-rules","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[],"flavor_text_entries":[{"text":"トレーナーが　旅を　するときの\nポイントが　まとめられている\n友達　手作りの　ガイドブック。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"This book contains all the points a new\nTrainer needs to know on a journey.\nIt was handmade by a kind friend.","version_group":{"name":"x-y"},"language":"en"},{"text":"Guida che contiene consigli utili per\ngli Allenatori in viaggio.\nÈ stata scritta da qualcuno di tua conoscenza.","version_group":{"name":"x-y"},"language":"it"},{"text":"","version_group":{"name":"x-y"},"language":"es"},{"text":"Dieses von einem deiner Freunde erstellte Buch\nenthält nützliche Informationen zu allen Themen,\ndie für einen Trainer auf Reisen von Belang sind.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un manuel détaillant le savoir indispensable\nà un Dresseur partant à l’aventure.\nÉcrit par une connaissance.","version_group":{"name":"x-y"},"language":"fr"},{"text":"트레이너가 여행할 때의\n포인트가 정리되어 있는\n친구가 직접 만든 가이드북.","version_group":{"name":"x-y"},"language":"ko"},{"text":"トレーナーが　たびを　するときの\nポイントが　まとめられている\nともだち　てづくりの　ガイドブック。","version_group":{"name":"x-y"},"language":"ja"}],"game_indices":[{"game_index":703,"generation":{"name":"generation-vi"}}],"names":[{"name":"Adventure Rules","language":"en"},{"name":"Guida Avventura","language":"it"},{"name":"Guía de Máximas","language":"es"},{"name":"Abenteuerfibel","language":"de"},{"name":"ABC Aventure","language":"fr"},{"name":"탐험수칙","language":"ko"},{"name":"たんけんこころえ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 732,
+  "name": "adventure-rules",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [],
+  "flavor_text_entries": [
+    {
+      "text": "トレーナーが　旅を　するときの\nポイントが　まとめられている\n友達　手作りの　ガイドブック。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "This book contains all the points a new\nTrainer needs to know on a journey.\nIt was handmade by a kind friend.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Guida che contiene consigli utili per\ngli Allenatori in viaggio.\nÈ stata scritta da qualcuno di tua conoscenza.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Dieses von einem deiner Freunde erstellte Buch\nenthält nützliche Informationen zu allen Themen,\ndie für einen Trainer auf Reisen von Belang sind.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un manuel détaillant le savoir indispensable\nà un Dresseur partant à l’aventure.\nÉcrit par une connaissance.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "트레이너가 여행할 때의\n포인트가 정리되어 있는\n친구가 직접 만든 가이드북.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "トレーナーが　たびを　するときの\nポイントが　まとめられている\nともだち　てづくりの　ガイドブック。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 703,
+      "generation": {
+        "name": "generation-vi"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Adventure Rules",
+      "language": "en"
+    },
+    {
+      "name": "Guida Avventura",
+      "language": "it"
+    },
+    {
+      "name": "Guía de Máximas",
+      "language": "es"
+    },
+    {
+      "name": "Abenteuerfibel",
+      "language": "de"
+    },
+    {
+      "name": "ABC Aventure",
+      "language": "fr"
+    },
+    {
+      "name": "탐험수칙",
+      "language": "ko"
+    },
+    {
+      "name": "たんけんこころえ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

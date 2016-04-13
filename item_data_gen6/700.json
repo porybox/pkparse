@@ -1,1 +1,110 @@
-{"id":733,"name":"elevator-key","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[],"flavor_text_entries":[{"text":"フラダリラボに　ある\nエレベータを　動かす　カードキー。\nフレア団の マークいり。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A card key that activates the elevator\nin Lysandre Labs.\nIt is emblazoned with Team Flare’s logo.","version_group":{"name":"x-y"},"language":"en"},{"text":"Tessera magnetica con il simbolo del Team Flare\nche attiva l’ascensore dei Laboratori Elisio.","version_group":{"name":"x-y"},"language":"it"},{"text":"","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine Schlüsselkarte mit dem Logo von\nTeam Flare. Sie aktiviert den Fahrstuhl\nim Labor von Flordelis.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un passe de sécurité permettant d’accéder à\nl’ascenseur des Laboratoires Lysandre.\nIl est décoré du logo de la Team Flare.","version_group":{"name":"x-y"},"language":"fr"},{"text":"플라드리 래버러토리에 있는\n엘리베이터를 작동시키는 카드키.\n플레어단의 마크가 새겨져 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"フラダリラボに　ある\nエレベータを　うごかす　カードキー。\nフレアだんの マークいり。","version_group":{"name":"x-y"},"language":"ja"}],"game_indices":[{"game_index":700,"generation":{"name":"generation-vi"}}],"names":[{"name":"Elevator Key","language":"en"},{"name":"Chiave ascensore","language":"it"},{"name":"Llave Ascensor","language":"es"},{"name":"Liftschlüssel","language":"de"},{"name":"Clé Ascenseur","language":"fr"},{"name":"엘리베이터키","language":"ko"},{"name":"エレベータのキー","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 733,
+  "name": "elevator-key",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [],
+  "flavor_text_entries": [
+    {
+      "text": "フラダリラボに　ある\nエレベータを　動かす　カードキー。\nフレア団の マークいり。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A card key that activates the elevator\nin Lysandre Labs.\nIt is emblazoned with Team Flare’s logo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Tessera magnetica con il simbolo del Team Flare\nche attiva l’ascensore dei Laboratori Elisio.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine Schlüsselkarte mit dem Logo von\nTeam Flare. Sie aktiviert den Fahrstuhl\nim Labor von Flordelis.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un passe de sécurité permettant d’accéder à\nl’ascenseur des Laboratoires Lysandre.\nIl est décoré du logo de la Team Flare.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "플라드리 래버러토리에 있는\n엘리베이터를 작동시키는 카드키.\n플레어단의 마크가 새겨져 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "フラダリラボに　ある\nエレベータを　うごかす　カードキー。\nフレアだんの マークいり。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 700,
+      "generation": {
+        "name": "generation-vi"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Elevator Key",
+      "language": "en"
+    },
+    {
+      "name": "Chiave ascensore",
+      "language": "it"
+    },
+    {
+      "name": "Llave Ascensor",
+      "language": "es"
+    },
+    {
+      "name": "Liftschlüssel",
+      "language": "de"
+    },
+    {
+      "name": "Clé Ascenseur",
+      "language": "fr"
+    },
+    {
+      "name": "엘리베이터키",
+      "language": "ko"
+    },
+    {
+      "name": "エレベータのキー",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

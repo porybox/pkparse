@@ -1,1 +1,170 @@
-{"id":428,"name":"suite-key","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"event-items"},"effect_entries":[{"effect":"Opens the locked building in the lakeside resort.","short_effect":"Opens a locked building in the Lakeside Resort.","language":"en"}],"flavor_text_entries":[{"text":"湖の　ほとりにある\n高級ホテルの　ルームキー。\nなぜか　よく　なくなってしまう。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A key to one of the suites at a certain\nluxury hotel by a lake. For some odd\nreason, it often disappears.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chiave di una suite vicino a un lago.\nPer ragioni misteriose, scompare spesso.","version_group":{"name":"x-y"},"language":"it"},{"text":"Dispositivo portátil de cultivo que permite plantar\nbayas en cualquier momento de forma sencilla.","version_group":{"name":"x-y"},"language":"es"},{"text":"Schlüssel zu einer Hotelsuite. Verschwindet\nseltsamerweise immer wieder mal.","version_group":{"name":"x-y"},"language":"de"},{"text":"La clé de l’une des suites de l’hôtel de luxe se\ntrouvant près du lac. Bizarrement, elle disparaît\nsouvent.","version_group":{"name":"x-y"},"language":"fr"},{"text":"호수 근처에 있는 고급 호텔의 룸 키.\n왜인지는 모르나 잘 없어진다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"みずうみの　ほとりにある\nこうきゅうホテルの　ルームキー。\nなぜか　よく　なくなってしまう。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.","version_group":{"name":"black-white"},"language":"en"},{"text":"Clé de l’une des suites de l’hôtel de\nluxe se trouvant près du lac.\nBizarrement, elle disparaît souvent.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.","version_group":{"name":"platinum"},"language":"en"},{"text":"A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":451,"generation":{"name":"generation-vi"}},{"game_index":451,"generation":{"name":"generation-v"}},{"game_index":451,"generation":{"name":"generation-iv"}}],"names":[{"name":"Suite Key","language":"en"},{"name":"Chiave Suite","language":"it"},{"name":"Llave Suite","language":"es"},{"name":"B-Schlüssel","language":"de"},{"name":"Clé Chambre","language":"fr"},{"name":"룸키","language":"ko"},{"name":"ルームキー","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 428,
+  "name": "suite-key",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "event-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Opens the locked building in the lakeside resort.",
+      "short_effect": "Opens a locked building in the Lakeside Resort.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "湖の　ほとりにある\n高級ホテルの　ルームキー。\nなぜか　よく　なくなってしまう。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A key to one of the suites at a certain\nluxury hotel by a lake. For some odd\nreason, it often disappears.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chiave di una suite vicino a un lago.\nPer ragioni misteriose, scompare spesso.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Dispositivo portátil de cultivo que permite plantar\nbayas en cualquier momento de forma sencilla.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Schlüssel zu einer Hotelsuite. Verschwindet\nseltsamerweise immer wieder mal.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "La clé de l’une des suites de l’hôtel de luxe se\ntrouvant près du lac. Bizarrement, elle disparaît\nsouvent.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "호수 근처에 있는 고급 호텔의 룸 키.\n왜인지는 모르나 잘 없어진다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "みずうみの　ほとりにある\nこうきゅうホテルの　ルームキー。\nなぜか　よく　なくなってしまう。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Clé de l’une des suites de l’hôtel de\nluxe se trouvant près du lac.\nBizarrement, elle disparaît souvent.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 451,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 451,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 451,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Suite Key",
+      "language": "en"
+    },
+    {
+      "name": "Chiave Suite",
+      "language": "it"
+    },
+    {
+      "name": "Llave Suite",
+      "language": "es"
+    },
+    {
+      "name": "B-Schlüssel",
+      "language": "de"
+    },
+    {
+      "name": "Clé Chambre",
+      "language": "fr"
+    },
+    {
+      "name": "룸키",
+      "language": "ko"
+    },
+    {
+      "name": "ルームキー",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,210 @@
-{"id":63,"name":"poke-doll","cost":1000,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"spelunking"},"effect_entries":[{"effect":"Used in battle\n:   Ends a wild battle.  Cannot be used in trainer battles.","short_effect":"Ends a wild battle.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンの　気をひかせる　道具。\n野生ポケモンとの　戦闘から\n絶対に　逃げられる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A doll that attracts the attention of a\nPokémon. It guarantees escape from\nany battle with wild Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Bambola che attrae i Pokémon. È utile per fuggire\ndalla lotta con Pokémon selvatici.","version_group":{"name":"x-y"},"language":"it"},{"text":"Un muñeco que atrae a los Pokémon. Es útil para\nhuir de un combate contra un Pokémon salvaje.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine hübsche Puppe. Sie ermöglicht die Flucht\nim Kampf gegen wilde Pokémon.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une poupée qui attire les Pokémon.\nPermet de s’enfuir d’un combat contre\nun Pokémon sauvage.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬의 관심을 끄는 도구.\n야생 포켓몬과의 배틀에서\n반드시 도망칠 수 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンの　きを　ひかせる　どうぐ。\nやせいポケモンとの　せんとうから\nぜったいに　にげられる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A doll that attracts Pokémon.\nUse it to flee from any battle with a\nwild Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A doll that attracts Pokémon.\nUse it to flee from any battle with a\nwild Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Poupée qui attire les Pokémon. Permet\nde s’enfuir d’un combat contre un\nPokémon sauvage.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A doll that attracts Pokémon.\nUse it to flee from any battle with a\nwild Pokémon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A doll that attracts Pokémon.\nUse it to flee from any battle with a\nwild Pokémon.","version_group":{"name":"platinum"},"language":"en"},{"text":"A doll that attracts Pokémon.\nUse it to flee from any battle with a\nwild Pokémon.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"An attractive doll.\nUse it to flee from any battle with\na wild POKéMON.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Use to flee from\nany battle with\na wild POKéMON.","version_group":{"name":"emerald"},"language":"en"},{"text":"Use to flee from\nany battle with\na wild POKéMON.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":63,"generation":{"name":"generation-vi"}},{"game_index":63,"generation":{"name":"generation-v"}},{"game_index":63,"generation":{"name":"generation-iv"}},{"game_index":80,"generation":{"name":"generation-iii"}}],"names":[{"name":"Poké Doll","language":"en"},{"name":"Poké Bambola","language":"it"},{"name":"Poké Muñeco","language":"es"},{"name":"Poképuppe","language":"de"},{"name":"Poképoupée","language":"fr"},{"name":"삐삐인형","language":"ko"},{"name":"ピッピにんぎょう","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 63,
+  "name": "poke-doll",
+  "cost": 1000,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "spelunking"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used in battle\n:   Ends a wild battle.  Cannot be used in trainer battles.",
+      "short_effect": "Ends a wild battle.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンの　気をひかせる　道具。\n野生ポケモンとの　戦闘から\n絶対に　逃げられる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A doll that attracts the attention of a\nPokémon. It guarantees escape from\nany battle with wild Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Bambola che attrae i Pokémon. È utile per fuggire\ndalla lotta con Pokémon selvatici.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Un muñeco que atrae a los Pokémon. Es útil para\nhuir de un combate contra un Pokémon salvaje.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine hübsche Puppe. Sie ermöglicht die Flucht\nim Kampf gegen wilde Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une poupée qui attire les Pokémon.\nPermet de s’enfuir d’un combat contre\nun Pokémon sauvage.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬의 관심을 끄는 도구.\n야생 포켓몬과의 배틀에서\n반드시 도망칠 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンの　きを　ひかせる　どうぐ。\nやせいポケモンとの　せんとうから\nぜったいに　にげられる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A doll that attracts Pokémon.\nUse it to flee from any battle with a\nwild Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A doll that attracts Pokémon.\nUse it to flee from any battle with a\nwild Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Poupée qui attire les Pokémon. Permet\nde s’enfuir d’un combat contre un\nPokémon sauvage.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A doll that attracts Pokémon.\nUse it to flee from any battle with a\nwild Pokémon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A doll that attracts Pokémon.\nUse it to flee from any battle with a\nwild Pokémon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A doll that attracts Pokémon.\nUse it to flee from any battle with a\nwild Pokémon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An attractive doll.\nUse it to flee from any battle with\na wild POKéMON.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Use to flee from\nany battle with\na wild POKéMON.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Use to flee from\nany battle with\na wild POKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 63,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 63,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 63,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 80,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Poké Doll",
+      "language": "en"
+    },
+    {
+      "name": "Poké Bambola",
+      "language": "it"
+    },
+    {
+      "name": "Poké Muñeco",
+      "language": "es"
+    },
+    {
+      "name": "Poképuppe",
+      "language": "de"
+    },
+    {
+      "name": "Poképoupée",
+      "language": "fr"
+    },
+    {
+      "name": "삐삐인형",
+      "language": "ko"
+    },
+    {
+      "name": "ピッピにんぎょう",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

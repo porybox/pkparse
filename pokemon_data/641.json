@@ -1,1 +1,134 @@
-{"id":641,"name":"tornadus","order":642,"gender_rate":0,"capture_rate":3,"base_happiness":90,"is_baby":false,"hatch_counter":120,"has_gender_differences":false,"forms_switchable":true,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":198,"pokedex":{"name":"updated-unova"}},{"entry_number":147,"pokedex":{"name":"original-unova"}},{"entry_number":641,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"no-eggs"}],"color":{"name":"green"},"shape":{"name":"arms"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-v"},"names":[{"name":"トルネロス","language":"ja"},{"name":"토네로스","language":"ko"},{"name":"Boréas","language":"fr"},{"name":"Boreos","language":"de"},{"name":"Tornadus","language":"es"},{"name":"Tornadus","language":"it"},{"name":"Tornadus","language":"en"}],"pal_park_encounters":[],"form_descriptions":[{"description":"Forms have different stats and abilities.  Tornadus switches forms when the []{item:reveal-glass} is used on it.\n\nThe Reveal Glass may be obtained by taking a Therian []{pokemon:landorus} to []{location:abundant-shrine}.  (Landorus can be obtained in Therian Forme from the Dream Radar.)","language":"en"}],"genera":[{"genus":"せんぷう","language":"ja"},{"genus":"선풍","language":"ko"},{"genus":"Tornade","language":"fr"},{"genus":"Wirbelsturm","language":"de"},{"genus":"Torbellino","language":"es"},{"genus":"Turbinio","language":"it"},{"genus":"Cyclone","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"tornadus-incarnate"}},{"is_default":false,"pokemon":{"name":"tornadus-therian"}}],"first_evolution_id":641}
+{
+  "id": 641,
+  "name": "tornadus",
+  "order": 642,
+  "gender_rate": 0,
+  "capture_rate": 3,
+  "base_happiness": 90,
+  "is_baby": false,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "forms_switchable": true,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 198,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 147,
+      "pokedex": {
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 641,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "no-eggs"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "arms"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "トルネロス",
+      "language": "ja"
+    },
+    {
+      "name": "토네로스",
+      "language": "ko"
+    },
+    {
+      "name": "Boréas",
+      "language": "fr"
+    },
+    {
+      "name": "Boreos",
+      "language": "de"
+    },
+    {
+      "name": "Tornadus",
+      "language": "es"
+    },
+    {
+      "name": "Tornadus",
+      "language": "it"
+    },
+    {
+      "name": "Tornadus",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [
+    {
+      "description": "Forms have different stats and abilities.  Tornadus switches forms when the []{item:reveal-glass} is used on it.\n\nThe Reveal Glass may be obtained by taking a Therian []{pokemon:landorus} to []{location:abundant-shrine}.  (Landorus can be obtained in Therian Forme from the Dream Radar.)",
+      "language": "en"
+    }
+  ],
+  "genera": [
+    {
+      "genus": "せんぷう",
+      "language": "ja"
+    },
+    {
+      "genus": "선풍",
+      "language": "ko"
+    },
+    {
+      "genus": "Tornade",
+      "language": "fr"
+    },
+    {
+      "genus": "Wirbelsturm",
+      "language": "de"
+    },
+    {
+      "genus": "Torbellino",
+      "language": "es"
+    },
+    {
+      "genus": "Turbinio",
+      "language": "it"
+    },
+    {
+      "genus": "Cyclone",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "tornadus-incarnate"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "tornadus-therian"
+      }
+    }
+  ],
+  "first_evolution_id": 641
+}

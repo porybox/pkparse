@@ -1,1 +1,85 @@
-{"id":378,"name":"wring-out","accuracy":100,"effect_chance":null,"pp":5,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":null,"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Power directly relates to the target's relative remaining [HP]{mechanic:hp}, given by `1 + 120 * current HP / max HP`, to a maximum of 121.","short_effect":"Power increases against targets with more HP remaining, up to a maximum of 121 power.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Wring Out","language":"en"},{"name":"Strizzata","language":"it"},{"name":"Estrujón","language":"es"},{"name":"Auswringen","language":"de"},{"name":"Essorage","language":"fr"},{"name":"쥐어짜기","language":"ko"},{"name":"しぼりとる","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 378,
+  "name": "wring-out",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 5,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power directly relates to the target's relative remaining [HP]{mechanic:hp}, given by `1 + 120 * current HP / max HP`, to a maximum of 121.",
+      "short_effect": "Power increases against targets with more HP remaining, up to a maximum of 121 power.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Wring Out",
+      "language": "en"
+    },
+    {
+      "name": "Strizzata",
+      "language": "it"
+    },
+    {
+      "name": "Estrujón",
+      "language": "es"
+    },
+    {
+      "name": "Auswringen",
+      "language": "de"
+    },
+    {
+      "name": "Essorage",
+      "language": "fr"
+    },
+    {
+      "name": "쥐어짜기",
+      "language": "ko"
+    },
+    {
+      "name": "しぼりとる",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

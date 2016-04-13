@@ -1,1 +1,175 @@
-{"id":622,"name":"big-nugget","cost":0,"fling_power":30,"fling_effect":null,"attributes":[],"category":{"name":"loot"},"effect_entries":[{"effect":"Cult vendor trash.","short_effect":"Sell to Ore Collector for 30000 Pokédollars.","language":"en"}],"flavor_text_entries":[{"text":"キラキラと　金色に　光る\n純金製の　おおきな　玉。\nショップで　高く　売れる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A big nugget of pure gold that gives\noff a lustrous gleam. It can be sold\nat a high price to shops.","version_group":{"name":"x-y"},"language":"en"},{"text":"Grossa pepita d’oro puro dal luccichio sfavillante.\nSi può vendere a un prezzo piuttosto alto\nnei negozi.","version_group":{"name":"x-y"},"language":"it"},{"text":"Aumenta bastante el Ataque Especial en combate.\nAl cambiar de Pokémon, el efecto desaparece.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein großes Nugget aus purem Gold, das\neinen schimmernden Glanz besitzt. Es ist\nvon großem Wert.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une pépite d’or pur qui brille d’un éclat\nmagnifique. Peut être vendue à bon prix\naux magasins.","version_group":{"name":"x-y"},"language":"fr"},{"text":"금색으로 반짝반짝 빛나는\n순금으로 만들어진 큰 구슬.\n상점에서 비싸게 팔린다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"キラキラと　きんいろに　ひかる\nじゅんきんせいの　おおきな　たま。\nショップで　たかく　うれる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A big nugget of pure gold that gives off\na lustrous gleam.\nA maniac will buy it for a high price.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A big nugget of pure gold that gives off\na lustrous gleam.\nA maniac will buy it for a high price.","version_group":{"name":"black-white"},"language":"en"},{"text":"Grosse pépite d’or pur qui brille\nmagnifiquement.\nLes amateurs en donnent un bon prix.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":581,"generation":{"name":"generation-vi"}},{"game_index":581,"generation":{"name":"generation-v"}}],"names":[{"name":"Big Nugget","language":"en"},{"name":"Granpepita","language":"it"},{"name":"Maxipepita","language":"es"},{"name":"Riesennugget","language":"de"},{"name":"Maxi Pépite","language":"fr"},{"name":"큰금구슬","language":"ko"},{"name":"でかいきんのたま","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"garbodor"},"version_details":[{"rarity":1,"version":{"name":"white-2"}},{"rarity":1,"version":{"name":"black-2"}},{"rarity":1,"version":{"name":"white"}},{"rarity":1,"version":{"name":"black"}}]}],"baby_trigger_for":null}
+{
+  "id": 622,
+  "name": "big-nugget",
+  "cost": 0,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "loot"
+  },
+  "effect_entries": [
+    {
+      "effect": "Cult vendor trash.",
+      "short_effect": "Sell to Ore Collector for 30000 Pokédollars.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "キラキラと　金色に　光る\n純金製の　おおきな　玉。\nショップで　高く　売れる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A big nugget of pure gold that gives\noff a lustrous gleam. It can be sold\nat a high price to shops.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Grossa pepita d’oro puro dal luccichio sfavillante.\nSi può vendere a un prezzo piuttosto alto\nnei negozi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Aumenta bastante el Ataque Especial en combate.\nAl cambiar de Pokémon, el efecto desaparece.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein großes Nugget aus purem Gold, das\neinen schimmernden Glanz besitzt. Es ist\nvon großem Wert.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une pépite d’or pur qui brille d’un éclat\nmagnifique. Peut être vendue à bon prix\naux magasins.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "금색으로 반짝반짝 빛나는\n순금으로 만들어진 큰 구슬.\n상점에서 비싸게 팔린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "キラキラと　きんいろに　ひかる\nじゅんきんせいの　おおきな　たま。\nショップで　たかく　うれる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A big nugget of pure gold that gives off\na lustrous gleam.\nA maniac will buy it for a high price.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A big nugget of pure gold that gives off\na lustrous gleam.\nA maniac will buy it for a high price.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Grosse pépite d’or pur qui brille\nmagnifiquement.\nLes amateurs en donnent un bon prix.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 581,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 581,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Big Nugget",
+      "language": "en"
+    },
+    {
+      "name": "Granpepita",
+      "language": "it"
+    },
+    {
+      "name": "Maxipepita",
+      "language": "es"
+    },
+    {
+      "name": "Riesennugget",
+      "language": "de"
+    },
+    {
+      "name": "Maxi Pépite",
+      "language": "fr"
+    },
+    {
+      "name": "큰금구슬",
+      "language": "ko"
+    },
+    {
+      "name": "でかいきんのたま",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "garbodor"
+      },
+      "version_details": [
+        {
+          "rarity": 1,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 1,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 1,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 1,
+          "version": {
+            "name": "black"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

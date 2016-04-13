@@ -1,1 +1,85 @@
-{"id":373,"name":"embargo","accuracy":100,"effect_chance":null,"pp":15,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"cute"},"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Target cannot use its held item for five turns.  If the target leaves the [field]{mechanic:field}, this effect ends.\n\nIf a Pokémon under this effect uses []{move:bug-bite} or []{move:pluck} on a Pokémon holding a berry, the berry is destroyed but not used.  If a Pokémon under this effect uses []{move:fling}, it will [fail]{mechanic:fail}.\n\nThis effect is passed by []{move:baton-pass}.","short_effect":"Target cannot use held items.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"embargo"},"category":{"name":"ailment"},"min_hits":null,"max_hits":null,"min_turns":5,"max_turns":5,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Embargo","language":"en"},{"name":"Divieto","language":"it"},{"name":"Embargo","language":"es"},{"name":"Itemsperre","language":"de"},{"name":"Embargo","language":"fr"},{"name":"금제","language":"ko"},{"name":"さしおさえ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"dark"}}
+{
+  "id": 373,
+  "name": "embargo",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Target cannot use its held item for five turns.  If the target leaves the [field]{mechanic:field}, this effect ends.\n\nIf a Pokémon under this effect uses []{move:bug-bite} or []{move:pluck} on a Pokémon holding a berry, the berry is destroyed but not used.  If a Pokémon under this effect uses []{move:fling}, it will [fail]{mechanic:fail}.\n\nThis effect is passed by []{move:baton-pass}.",
+      "short_effect": "Target cannot use held items.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "embargo"
+    },
+    "category": {
+      "name": "ailment"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": 5,
+    "max_turns": 5,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Embargo",
+      "language": "en"
+    },
+    {
+      "name": "Divieto",
+      "language": "it"
+    },
+    {
+      "name": "Embargo",
+      "language": "es"
+    },
+    {
+      "name": "Itemsperre",
+      "language": "de"
+    },
+    {
+      "name": "Embargo",
+      "language": "fr"
+    },
+    {
+      "name": "금제",
+      "language": "ko"
+    },
+    {
+      "name": "さしおさえ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "dark"
+  }
+}

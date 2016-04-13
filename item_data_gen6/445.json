@@ -1,1 +1,197 @@
-{"id":422,"name":"old-rod","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Used to find Pokémon on the Old Rod list for an area, which are generally Magikarp or similar.","short_effect":"Used to catch Pokémon in bodies of water.","language":"en"}],"flavor_text_entries":[{"text":"ふるくて　ボロい　つりざお。\n水の　ある　場所で　使うと\nポケモンが　つれる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An old and beat-up fishing rod.\nUse it at any body of water to\nfish for wild aquatic Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Amo vecchio e rovinato. Si usa per pescare\nPokémon selvatici in qualsiasi specchio d’acqua.","version_group":{"name":"x-y"},"language":"it"},{"text":"Fantástico medicamento vendido en la farmacia\nde Ciudad Orquídea. Cura completamente a un\nPokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine alte, abgenutzte Angel. Damit kannst du\nin jedem Gewässer nach Pokémon angeln.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une vieille canne usée.\nUtilisez-la pour pêcher des Pokémon sauvages\ndans les points d’eau.","version_group":{"name":"x-y"},"language":"fr"},{"text":"낡고 조잡한 낚싯대.\n물이 있는 장소에서 사용하면\n포켓몬을 낚을 수 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ふるくて　ボロい　つりざお。\nみずの　ある　ばしょで　つかうと\nポケモンが　つれる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une vieille canne usée. Utilisez-la pour\npêcher des Pokémon sauvages dans\nles points d’eau.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.","version_group":{"name":"platinum"},"language":"en"},{"text":"An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"An old and beat-up fishing rod.\nUse it by any body of water to \nfish for wild POKéMON.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Use by any body of\nwater to fish for\nwild POKéMON.","version_group":{"name":"emerald"},"language":"en"},{"text":"Use by any body of\nwater to fish for\nwild POKéMON.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":445,"generation":{"name":"generation-vi"}},{"game_index":445,"generation":{"name":"generation-v"}},{"game_index":445,"generation":{"name":"generation-iv"}},{"game_index":262,"generation":{"name":"generation-iii"}}],"names":[{"name":"Old Rod","language":"en"},{"name":"Amo Vecchio","language":"it"},{"name":"Caña Vieja","language":"es"},{"name":"Angel","language":"de"},{"name":"Canne","language":"fr"},{"name":"낡은낚싯대","language":"ko"},{"name":"ボロのつりざお","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 422,
+  "name": "old-rod",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used to find Pokémon on the Old Rod list for an area, which are generally Magikarp or similar.",
+      "short_effect": "Used to catch Pokémon in bodies of water.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ふるくて　ボロい　つりざお。\n水の　ある　場所で　使うと\nポケモンが　つれる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An old and beat-up fishing rod.\nUse it at any body of water to\nfish for wild aquatic Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Amo vecchio e rovinato. Si usa per pescare\nPokémon selvatici in qualsiasi specchio d’acqua.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Fantástico medicamento vendido en la farmacia\nde Ciudad Orquídea. Cura completamente a un\nPokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine alte, abgenutzte Angel. Damit kannst du\nin jedem Gewässer nach Pokémon angeln.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une vieille canne usée.\nUtilisez-la pour pêcher des Pokémon sauvages\ndans les points d’eau.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "낡고 조잡한 낚싯대.\n물이 있는 장소에서 사용하면\n포켓몬을 낚을 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ふるくて　ボロい　つりざお。\nみずの　ある　ばしょで　つかうと\nポケモンが　つれる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une vieille canne usée. Utilisez-la pour\npêcher des Pokémon sauvages dans\nles points d’eau.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An old and beat-up fishing rod.\nUse it by any body of water to \nfish for wild POKéMON.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Use by any body of\nwater to fish for\nwild POKéMON.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Use by any body of\nwater to fish for\nwild POKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 445,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 445,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 445,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 262,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Old Rod",
+      "language": "en"
+    },
+    {
+      "name": "Amo Vecchio",
+      "language": "it"
+    },
+    {
+      "name": "Caña Vieja",
+      "language": "es"
+    },
+    {
+      "name": "Angel",
+      "language": "de"
+    },
+    {
+      "name": "Canne",
+      "language": "fr"
+    },
+    {
+      "name": "낡은낚싯대",
+      "language": "ko"
+    },
+    {
+      "name": "ボロのつりざお",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

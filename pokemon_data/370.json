@@ -1,1 +1,141 @@
-{"id":370,"name":"luvdisc","order":400,"gender_rate":6,"capture_rate":225,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"fast"},"pokedex_numbers":[{"entry_number":29,"pokedex":{"name":"kalos-coastal"}},{"entry_number":183,"pokedex":{"name":"hoenn"}},{"entry_number":370,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water2"}],"color":{"name":"pink"},"shape":{"name":"fish"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"sea"},"generation":{"name":"generation-iii"},"names":[{"name":"ラブカス","language":"ja"},{"name":"Lovecus","language":"roomaji"},{"name":"사랑동이","language":"ko"},{"name":"愛心魚","language":"zh"},{"name":"Lovdisc","language":"fr"},{"name":"Liebiskus","language":"de"},{"name":"Luvdisc","language":"es"},{"name":"Luvdisc","language":"it"},{"name":"Luvdisc","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"sea"}}],"form_descriptions":[],"genera":[{"genus":"ランデブー","language":"ja"},{"genus":"랑데부","language":"ko"},{"genus":"Rendezvous","language":"fr"},{"genus":"Rendezvous","language":"de"},{"genus":"Cita","language":"es"},{"genus":"Rendezvous","language":"it"},{"genus":"Rendezvous","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"luvdisc"}}],"first_evolution_id":370}
+{
+  "id": 370,
+  "name": "luvdisc",
+  "order": 400,
+  "gender_rate": 6,
+  "capture_rate": 225,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 29,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 183,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 370,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water2"
+    }
+  ],
+  "color": {
+    "name": "pink"
+  },
+  "shape": {
+    "name": "fish"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "sea"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ラブカス",
+      "language": "ja"
+    },
+    {
+      "name": "Lovecus",
+      "language": "roomaji"
+    },
+    {
+      "name": "사랑동이",
+      "language": "ko"
+    },
+    {
+      "name": "愛心魚",
+      "language": "zh"
+    },
+    {
+      "name": "Lovdisc",
+      "language": "fr"
+    },
+    {
+      "name": "Liebiskus",
+      "language": "de"
+    },
+    {
+      "name": "Luvdisc",
+      "language": "es"
+    },
+    {
+      "name": "Luvdisc",
+      "language": "it"
+    },
+    {
+      "name": "Luvdisc",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ランデブー",
+      "language": "ja"
+    },
+    {
+      "genus": "랑데부",
+      "language": "ko"
+    },
+    {
+      "genus": "Rendezvous",
+      "language": "fr"
+    },
+    {
+      "genus": "Rendezvous",
+      "language": "de"
+    },
+    {
+      "genus": "Cita",
+      "language": "es"
+    },
+    {
+      "genus": "Rendezvous",
+      "language": "it"
+    },
+    {
+      "genus": "Rendezvous",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "luvdisc"
+      }
+    }
+  ],
+  "first_evolution_id": 370
+}

@@ -1,1 +1,201 @@
-{"id":202,"name":"soul-dew","cost":200,"fling_power":30,"fling_effect":null,"attributes":[{"name":"holdable"}],"category":{"name":"species-specific"},"effect_entries":[{"effect":"Held by Latias or Latios: Increases the holder's Special Attack and Special Defense by 50%.","short_effect":"Raises Latias and Latios's Special Attack and Special Defense by 50%.","language":"en"}],"flavor_text_entries":[{"text":"ラティオス　または　ラティアスに\n持たせると　特攻と　特防が\nあがる　不思議な　珠。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A wondrous orb to be held by either\nLatios or Latias. It raises both the\nSp. Atk and Sp. Def stats.","version_group":{"name":"x-y"},"language":"en"},{"text":"Sfera miracolosa da dare a Latios o Latias.\nAumenta l’Attacco Speciale e la Difesa Speciale.","version_group":{"name":"x-y"},"language":"it"},{"text":"Debe llevarlo un Pokémon. Su potente\nmagnetismo fortalece los movimientos de tipo\nEléctrico.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item, das von Latios oder Latias getragen\nwerden kann. Es hebt Spezial-Angriff und\nSpezial-Verteidigung.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à faire tenir à Latios ou Latias.\nUn orbe prodigieux qui augmente leur Attaque\nSpéciale et leur Défense Spéciale.","version_group":{"name":"x-y"},"language":"fr"},{"text":"라티오스 혹은 라티아스에게\n지니게 하면 특수공격과 특수방어가\n올라가는 이상한 구슬.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ラティオス　または　ラティアスに\nもたせると　とくこうと　とくぼうが\nあがる　ふしぎな　たま。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A wondrous orb to be held by Latios\nor Latias. It raises both the\nSp. Atk and Sp. Def stats.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A wondrous orb to be held by Latios\nor Latias. It raises both the\nSp. Atk and Sp. Def stats.","version_group":{"name":"black-white"},"language":"en"},{"text":"Orbe prodigieux à faire tenir à Latios\nou Latias qui monte leur Attaque\nSpéciale et leur Défense Spéciale.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A wondrous orb to be held by LATIOS\nor LATIAS. It raises both the\nSp. Atk and Sp. Def stats.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A wondrous orb to be held by LATIOS or\nLATIAS. It raises both the Sp. Atk and\nSp. Def stats.","version_group":{"name":"platinum"},"language":"en"},{"text":"A wondrous orb to be held by LATIOS or\nLATIAS. It raises both the Sp. Atk and\nSp. Def stats.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"An orb to be held by a LATIOS or\nLATIAS. It raises the SP. ATK\nand SP. DEF stats.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Hold item: raises\nSP. ATK & SP. DEF of\nLATIOS & LATIAS.","version_group":{"name":"emerald"},"language":"en"},{"text":"Hold item: Raises\nSP. ATK & SP. DEF\nof LATIOS & LATIAS.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":225,"generation":{"name":"generation-vi"}},{"game_index":225,"generation":{"name":"generation-v"}},{"game_index":225,"generation":{"name":"generation-iv"}},{"game_index":191,"generation":{"name":"generation-iii"}}],"names":[{"name":"Soul Dew","language":"en"},{"name":"Cuorugiada","language":"it"},{"name":"Rocío Bondad","language":"es"},{"name":"Seelentau","language":"de"},{"name":"Rosée Âme","language":"fr"},{"name":"마음의물방울","language":"ko"},{"name":"こころのしずく","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 202,
+  "name": "soul-dew",
+  "cost": 200,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "species-specific"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by Latias or Latios: Increases the holder's Special Attack and Special Defense by 50%.",
+      "short_effect": "Raises Latias and Latios's Special Attack and Special Defense by 50%.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ラティオス　または　ラティアスに\n持たせると　特攻と　特防が\nあがる　不思議な　珠。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A wondrous orb to be held by either\nLatios or Latias. It raises both the\nSp. Atk and Sp. Def stats.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Sfera miracolosa da dare a Latios o Latias.\nAumenta l’Attacco Speciale e la Difesa Speciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Debe llevarlo un Pokémon. Su potente\nmagnetismo fortalece los movimientos de tipo\nEléctrico.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item, das von Latios oder Latias getragen\nwerden kann. Es hebt Spezial-Angriff und\nSpezial-Verteidigung.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à faire tenir à Latios ou Latias.\nUn orbe prodigieux qui augmente leur Attaque\nSpéciale et leur Défense Spéciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "라티오스 혹은 라티아스에게\n지니게 하면 특수공격과 특수방어가\n올라가는 이상한 구슬.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ラティオス　または　ラティアスに\nもたせると　とくこうと　とくぼうが\nあがる　ふしぎな　たま。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A wondrous orb to be held by Latios\nor Latias. It raises both the\nSp. Atk and Sp. Def stats.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A wondrous orb to be held by Latios\nor Latias. It raises both the\nSp. Atk and Sp. Def stats.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Orbe prodigieux à faire tenir à Latios\nou Latias qui monte leur Attaque\nSpéciale et leur Défense Spéciale.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A wondrous orb to be held by LATIOS\nor LATIAS. It raises both the\nSp. Atk and Sp. Def stats.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A wondrous orb to be held by LATIOS or\nLATIAS. It raises both the Sp. Atk and\nSp. Def stats.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A wondrous orb to be held by LATIOS or\nLATIAS. It raises both the Sp. Atk and\nSp. Def stats.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An orb to be held by a LATIOS or\nLATIAS. It raises the SP. ATK\nand SP. DEF stats.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Hold item: raises\nSP. ATK & SP. DEF of\nLATIOS & LATIAS.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Hold item: Raises\nSP. ATK & SP. DEF\nof LATIOS & LATIAS.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 225,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 225,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 225,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 191,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Soul Dew",
+      "language": "en"
+    },
+    {
+      "name": "Cuorugiada",
+      "language": "it"
+    },
+    {
+      "name": "Rocío Bondad",
+      "language": "es"
+    },
+    {
+      "name": "Seelentau",
+      "language": "de"
+    },
+    {
+      "name": "Rosée Âme",
+      "language": "fr"
+    },
+    {
+      "name": "마음의물방울",
+      "language": "ko"
+    },
+    {
+      "name": "こころのしずく",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

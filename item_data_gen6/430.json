@@ -1,1 +1,170 @@
-{"id":407,"name":"rule-book","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"unused"},"effect_entries":[{"effect":"Unused.","short_effect":"List of battle types and their rules.","language":"en"}],"flavor_text_entries":[{"text":"対戦の　ルールが　かかれている。\n通信対戦するとき\nルールを　選ぶことが　できる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"It lists the rules for holding battles.\nFor Link Battles, you may choose\nwhich set of rules you wish to use.","version_group":{"name":"x-y"},"language":"en"},{"text":"Elenca le regole per le lotte. Nelle lotte in link\npuoi scegliere diversi set di regole da utilizzare.","version_group":{"name":"x-y"},"language":"it"},{"text":"Caja en la que se transportan los Pokochos\nelaborados con bayas.","version_group":{"name":"x-y"},"language":"es"},{"text":"Enthält die Kampfregeln. Bei Link-Kämpfen kannst\ndu daraus die gewünschten Regeln wählen.","version_group":{"name":"x-y"},"language":"de"},{"text":"La liste des règles de combat.\nVous pouvez choisir les règles des combats\nen Link.","version_group":{"name":"x-y"},"language":"fr"},{"text":"대전에 대한 룰이 적혀 있다.\n통신대전을 할 때\n룰을 선택할 수 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"たいせんの　ルールが　かかれている。\nつうしんたいせん　するとき\nルールを　えらぶことが　できる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.","version_group":{"name":"black-white"},"language":"en"},{"text":"La liste des règles de combat. Vous\npouvez choisir les règles des combats\nen Link.","version_group":{"name":"black-white"},"language":"fr"},{"text":"It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.","version_group":{"name":"platinum"},"language":"en"},{"text":"It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":430,"generation":{"name":"generation-vi"}},{"game_index":430,"generation":{"name":"generation-v"}},{"game_index":430,"generation":{"name":"generation-iv"}}],"names":[{"name":"Rule Book","language":"en"},{"name":"Libro Regole","language":"it"},{"name":"Reglamento","language":"es"},{"name":"Regelbuch","language":"de"},{"name":"Livre Règles","language":"fr"},{"name":"룰북","language":"ko"},{"name":"ルールブック","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 407,
+  "name": "rule-book",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "unused"
+  },
+  "effect_entries": [
+    {
+      "effect": "Unused.",
+      "short_effect": "List of battle types and their rules.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "対戦の　ルールが　かかれている。\n通信対戦するとき\nルールを　選ぶことが　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "It lists the rules for holding battles.\nFor Link Battles, you may choose\nwhich set of rules you wish to use.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Elenca le regole per le lotte. Nelle lotte in link\npuoi scegliere diversi set di regole da utilizzare.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Caja en la que se transportan los Pokochos\nelaborados con bayas.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Enthält die Kampfregeln. Bei Link-Kämpfen kannst\ndu daraus die gewünschten Regeln wählen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "La liste des règles de combat.\nVous pouvez choisir les règles des combats\nen Link.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "대전에 대한 룰이 적혀 있다.\n통신대전을 할 때\n룰을 선택할 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "たいせんの　ルールが　かかれている。\nつうしんたいせん　するとき\nルールを　えらぶことが　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "La liste des règles de combat. Vous\npouvez choisir les règles des combats\nen Link.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 430,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 430,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 430,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Rule Book",
+      "language": "en"
+    },
+    {
+      "name": "Libro Regole",
+      "language": "it"
+    },
+    {
+      "name": "Reglamento",
+      "language": "es"
+    },
+    {
+      "name": "Regelbuch",
+      "language": "de"
+    },
+    {
+      "name": "Livre Règles",
+      "language": "fr"
+    },
+    {
+      "name": "룰북",
+      "language": "ko"
+    },
+    {
+      "name": "ルールブック",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

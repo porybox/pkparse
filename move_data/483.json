@@ -1,1 +1,102 @@
-{"id":483,"name":"quiver-dance","accuracy":null,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Raises the user's [Special Attack]{mechanic:special-attack}, [Special Defense]{mechanic:special-defense}, and [Speed]{mechanic:speed} by one [stage]{mechanic:stage} each.","short_effect":"Raises the user's Special Attack, Special Defense, and Speed by one stage each.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"net-good-stats"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Quiver Dance","language":"en"},{"name":"Eledanza","language":"it"},{"name":"Danza Aleteo","language":"es"},{"name":"Falterreigen","language":"de"},{"name":"Papillodanse","language":"fr"},{"name":"나비춤","language":"ko"},{"name":"ちょうのまい","language":"ja"}],"past_values":[],"stat_changes":[{"change":1,"stat":{"name":"special-attack"}},{"change":1,"stat":{"name":"special-defense"}},{"change":1,"stat":{"name":"speed"}}],"super_contest_effect":null,"target":{"name":"user"},"type":{"name":"bug"}}
+{
+  "id": 483,
+  "name": "quiver-dance",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Raises the user's [Special Attack]{mechanic:special-attack}, [Special Defense]{mechanic:special-defense}, and [Speed]{mechanic:speed} by one [stage]{mechanic:stage} each.",
+      "short_effect": "Raises the user's Special Attack, Special Defense, and Speed by one stage each.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "net-good-stats"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Quiver Dance",
+      "language": "en"
+    },
+    {
+      "name": "Eledanza",
+      "language": "it"
+    },
+    {
+      "name": "Danza Aleteo",
+      "language": "es"
+    },
+    {
+      "name": "Falterreigen",
+      "language": "de"
+    },
+    {
+      "name": "Papillodanse",
+      "language": "fr"
+    },
+    {
+      "name": "나비춤",
+      "language": "ko"
+    },
+    {
+      "name": "ちょうのまい",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": 1,
+      "stat": {
+        "name": "special-attack"
+      }
+    },
+    {
+      "change": 1,
+      "stat": {
+        "name": "special-defense"
+      }
+    },
+    {
+      "change": 1,
+      "stat": {
+        "name": "speed"
+      }
+    }
+  ],
+  "super_contest_effect": null,
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "bug"
+  }
+}

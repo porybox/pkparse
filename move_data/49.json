@@ -1,1 +1,85 @@
-{"id":49,"name":"sonic-boom","accuracy":90,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts exactly 20 damage.","short_effect":"Inflicts 20 points of damage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Sonic Boom","language":"en"},{"name":"Sonicboom","language":"it"},{"name":"Bomba Sónica","language":"es"},{"name":"Ultraschall","language":"de"},{"name":"Sonicboom","language":"fr"},{"name":"소닉붐","language":"ko"},{"name":"ソニックブーム","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 49,
+  "name": "sonic-boom",
+  "accuracy": 90,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts exactly 20 damage.",
+      "short_effect": "Inflicts 20 points of damage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Sonic Boom",
+      "language": "en"
+    },
+    {
+      "name": "Sonicboom",
+      "language": "it"
+    },
+    {
+      "name": "Bomba Sónica",
+      "language": "es"
+    },
+    {
+      "name": "Ultraschall",
+      "language": "de"
+    },
+    {
+      "name": "Sonicboom",
+      "language": "fr"
+    },
+    {
+      "name": "소닉붐",
+      "language": "ko"
+    },
+    {
+      "name": "ソニックブーム",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

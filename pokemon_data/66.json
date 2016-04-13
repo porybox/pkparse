@@ -1,1 +1,177 @@
-{"id":66,"name":"machop","order":72,"gender_rate":2,"capture_rate":180,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":57,"pokedex":{"name":"kalos-coastal"}},{"entry_number":98,"pokedex":{"name":"conquest-gallery"}},{"entry_number":142,"pokedex":{"name":"updated-johto"}},{"entry_number":40,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":40,"pokedex":{"name":"original-sinnoh"}},{"entry_number":73,"pokedex":{"name":"hoenn"}},{"entry_number":140,"pokedex":{"name":"original-johto"}},{"entry_number":66,"pokedex":{"name":"kanto"}},{"entry_number":66,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"humanshape"}],"color":{"name":"gray"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-i"},"names":[{"name":"ワンリキー","language":"ja"},{"name":"Wanriky","language":"roomaji"},{"name":"알통몬","language":"ko"},{"name":"腕力","language":"zh"},{"name":"Machoc","language":"fr"},{"name":"Machollo","language":"de"},{"name":"Machop","language":"es"},{"name":"Machop","language":"it"},{"name":"Machop","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"かいりき","language":"ja"},{"genus":"괴력","language":"ko"},{"genus":"Colosse","language":"fr"},{"genus":"Kraftprotz","language":"de"},{"genus":"Superpoder","language":"es"},{"genus":"Megaforza","language":"it"},{"genus":"Superpower","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"machop"}}],"first_evolution_id":66}
+{
+  "id": 66,
+  "name": "machop",
+  "order": 72,
+  "gender_rate": 2,
+  "capture_rate": 180,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 57,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 98,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 142,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 40,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 40,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 73,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 140,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 66,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 66,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "humanshape"
+    }
+  ],
+  "color": {
+    "name": "gray"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ワンリキー",
+      "language": "ja"
+    },
+    {
+      "name": "Wanriky",
+      "language": "roomaji"
+    },
+    {
+      "name": "알통몬",
+      "language": "ko"
+    },
+    {
+      "name": "腕力",
+      "language": "zh"
+    },
+    {
+      "name": "Machoc",
+      "language": "fr"
+    },
+    {
+      "name": "Machollo",
+      "language": "de"
+    },
+    {
+      "name": "Machop",
+      "language": "es"
+    },
+    {
+      "name": "Machop",
+      "language": "it"
+    },
+    {
+      "name": "Machop",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "かいりき",
+      "language": "ja"
+    },
+    {
+      "genus": "괴력",
+      "language": "ko"
+    },
+    {
+      "genus": "Colosse",
+      "language": "fr"
+    },
+    {
+      "genus": "Kraftprotz",
+      "language": "de"
+    },
+    {
+      "genus": "Superpoder",
+      "language": "es"
+    },
+    {
+      "genus": "Megaforza",
+      "language": "it"
+    },
+    {
+      "genus": "Superpower",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "machop"
+      }
+    }
+  ],
+  "first_evolution_id": 66
+}

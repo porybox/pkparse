@@ -1,1 +1,159 @@
-{"id":207,"name":"gligar","order":238,"gender_rate":4,"capture_rate":60,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":115,"pokedex":{"name":"kalos-mountain"}},{"entry_number":221,"pokedex":{"name":"updated-unova"}},{"entry_number":193,"pokedex":{"name":"updated-johto"}},{"entry_number":153,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":189,"pokedex":{"name":"original-johto"}},{"entry_number":207,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"purple"},"shape":{"name":"wings"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-ii"},"names":[{"name":"グライガー","language":"ja"},{"name":"Gliger","language":"roomaji"},{"name":"글라이거","language":"ko"},{"name":"天蠍","language":"zh"},{"name":"Scorplane","language":"fr"},{"name":"Skorgla","language":"de"},{"name":"Gligar","language":"es"},{"name":"Gligar","language":"it"},{"name":"Gligar","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"とびさそり","language":"ja"},{"genus":"날전갈","language":"ko"},{"genus":"Scorpivol","language":"fr"},{"genus":"Flugskorpi","language":"de"},{"genus":"Escorpiala","language":"es"},{"genus":"Aliscorpio","language":"it"},{"genus":"Fly Scorpion","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"gligar"}}],"first_evolution_id":207}
+{
+  "id": 207,
+  "name": "gligar",
+  "order": 238,
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 115,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 221,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 193,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 153,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 189,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 207,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "purple"
+  },
+  "shape": {
+    "name": "wings"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "グライガー",
+      "language": "ja"
+    },
+    {
+      "name": "Gliger",
+      "language": "roomaji"
+    },
+    {
+      "name": "글라이거",
+      "language": "ko"
+    },
+    {
+      "name": "天蠍",
+      "language": "zh"
+    },
+    {
+      "name": "Scorplane",
+      "language": "fr"
+    },
+    {
+      "name": "Skorgla",
+      "language": "de"
+    },
+    {
+      "name": "Gligar",
+      "language": "es"
+    },
+    {
+      "name": "Gligar",
+      "language": "it"
+    },
+    {
+      "name": "Gligar",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "とびさそり",
+      "language": "ja"
+    },
+    {
+      "genus": "날전갈",
+      "language": "ko"
+    },
+    {
+      "genus": "Scorpivol",
+      "language": "fr"
+    },
+    {
+      "genus": "Flugskorpi",
+      "language": "de"
+    },
+    {
+      "genus": "Escorpiala",
+      "language": "es"
+    },
+    {
+      "genus": "Aliscorpio",
+      "language": "it"
+    },
+    {
+      "genus": "Fly Scorpion",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "gligar"
+      }
+    }
+  ],
+  "first_evolution_id": 207
+}

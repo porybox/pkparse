@@ -1,1 +1,260 @@
-{"id":142,"name":"overcoat","is_main_series":true,"generation":{"name":"generation-v"},"names":[{"name":"Overcoat","language":"en"},{"name":"Copricapo","language":"it"},{"name":"Funda","language":"es"},{"name":"Wetterfest","language":"de"},{"name":"Envelocape","language":"fr"},{"name":"방진","language":"ko"},{"name":"ぼうじん","language":"ja"}],"effect_entries":[{"effect":"This Pokémon does not take damage from [weather]{mechanic:weather}.","short_effect":"Protects against damage from [weather]{mechanic:weather}.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"ちりや　粉を\n防ぐ。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Protects the Pokémon from things\nlike sand, hail, and powder.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Protegge il Pokémon da polvere,\nsabbia e grandine.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Protege del polvo, la arena y\nel granizo.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Nimmt keinen Schaden\ndurch Wetterbedingungen.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Protège du sable, de la grêle\nou de la poudre.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"먼지나 가루를\n막는다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"ちりや　こなを\nふせぐ。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Protects the Pokémon from\ndamage from weather.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Protects the Pokémon from\ndamage from weather.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Neutralise les dégâts dus\nà la météo.","version_group":{"name":"black-white"},"language":"fr"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"shellder"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"cloyster"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"pineco"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"forretress"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"shelgon"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"burmy"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"wormadam-plant"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"sewaddle"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"swadloon"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"leavanny"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"solosis"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"duosion"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"reuniclus"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"escavalier"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"shelmet"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"vullaby"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"mandibuzz"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"wormadam-sandy"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"wormadam-trash"}}]}
+{
+  "id": 142,
+  "name": "overcoat",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "Overcoat",
+      "language": "en"
+    },
+    {
+      "name": "Copricapo",
+      "language": "it"
+    },
+    {
+      "name": "Funda",
+      "language": "es"
+    },
+    {
+      "name": "Wetterfest",
+      "language": "de"
+    },
+    {
+      "name": "Envelocape",
+      "language": "fr"
+    },
+    {
+      "name": "방진",
+      "language": "ko"
+    },
+    {
+      "name": "ぼうじん",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon does not take damage from [weather]{mechanic:weather}.",
+      "short_effect": "Protects against damage from [weather]{mechanic:weather}.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "ちりや　粉を\n防ぐ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Protects the Pokémon from things\nlike sand, hail, and powder.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Protegge il Pokémon da polvere,\nsabbia e grandine.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Protege del polvo, la arena y\nel granizo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Nimmt keinen Schaden\ndurch Wetterbedingungen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Protège du sable, de la grêle\nou de la poudre.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "먼지나 가루를\n막는다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "ちりや　こなを\nふせぐ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Protects the Pokémon from\ndamage from weather.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Protects the Pokémon from\ndamage from weather.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Neutralise les dégâts dus\nà la météo.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "shellder"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "cloyster"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "pineco"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "forretress"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "shelgon"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "burmy"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "wormadam-plant"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "sewaddle"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "swadloon"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "leavanny"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "solosis"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "duosion"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "reuniclus"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "escavalier"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "shelmet"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "vullaby"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "mandibuzz"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "wormadam-sandy"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "wormadam-trash"
+      }
+    }
+  ]
+}

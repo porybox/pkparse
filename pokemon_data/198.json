@@ -1,1 +1,159 @@
-{"id":198,"name":"murkrow","order":227,"gender_rate":4,"capture_rate":30,"base_happiness":35,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":51,"pokedex":{"name":"kalos-mountain"}},{"entry_number":213,"pokedex":{"name":"updated-johto"}},{"entry_number":74,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":74,"pokedex":{"name":"original-sinnoh"}},{"entry_number":208,"pokedex":{"name":"original-johto"}},{"entry_number":198,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"flying"}],"color":{"name":"black"},"shape":{"name":"wings"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-ii"},"names":[{"name":"ヤミカラス","language":"ja"},{"name":"Yamikarasu","language":"roomaji"},{"name":"니로우","language":"ko"},{"name":"黑暗鴉","language":"zh"},{"name":"Cornèbre","language":"fr"},{"name":"Kramurx","language":"de"},{"name":"Murkrow","language":"es"},{"name":"Murkrow","language":"it"},{"name":"Murkrow","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"くらやみ","language":"ja"},{"genus":"어둠","language":"ko"},{"genus":"Obscurité","language":"fr"},{"genus":"Finsternis","language":"de"},{"genus":"Oscuridad","language":"es"},{"genus":"Oscurità","language":"it"},{"genus":"Darkness","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"murkrow"}}],"first_evolution_id":198}
+{
+  "id": 198,
+  "name": "murkrow",
+  "order": 227,
+  "gender_rate": 4,
+  "capture_rate": 30,
+  "base_happiness": 35,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 51,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 213,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 74,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 74,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 208,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 198,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "flying"
+    }
+  ],
+  "color": {
+    "name": "black"
+  },
+  "shape": {
+    "name": "wings"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ヤミカラス",
+      "language": "ja"
+    },
+    {
+      "name": "Yamikarasu",
+      "language": "roomaji"
+    },
+    {
+      "name": "니로우",
+      "language": "ko"
+    },
+    {
+      "name": "黑暗鴉",
+      "language": "zh"
+    },
+    {
+      "name": "Cornèbre",
+      "language": "fr"
+    },
+    {
+      "name": "Kramurx",
+      "language": "de"
+    },
+    {
+      "name": "Murkrow",
+      "language": "es"
+    },
+    {
+      "name": "Murkrow",
+      "language": "it"
+    },
+    {
+      "name": "Murkrow",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "くらやみ",
+      "language": "ja"
+    },
+    {
+      "genus": "어둠",
+      "language": "ko"
+    },
+    {
+      "genus": "Obscurité",
+      "language": "fr"
+    },
+    {
+      "genus": "Finsternis",
+      "language": "de"
+    },
+    {
+      "genus": "Oscuridad",
+      "language": "es"
+    },
+    {
+      "genus": "Oscurità",
+      "language": "it"
+    },
+    {
+      "genus": "Darkness",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "murkrow"
+      }
+    }
+  ],
+  "first_evolution_id": 198
+}

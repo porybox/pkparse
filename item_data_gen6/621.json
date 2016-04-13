@@ -1,1 +1,143 @@
-{"id":662,"name":"xtransceiver","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Makes four-way video calls.  Used for plot advancement in-game, but also works with other players via the C-Gear.","short_effect":"Makes four-way video calls.","language":"en"}],"flavor_text_entries":[{"text":"最大４人で　通話ができる\nテレビカメラ機能つきの\n最新型トランシーバー。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A high-tech transceiver with a\ncamera function. It allows up to\nfour-way calls.","version_group":{"name":"x-y"},"language":"en"},{"text":"Ricetrasmittente all’avanguardia che permette\ndi fare videochiamate con un gruppo massimo\ndi quattro persone.","version_group":{"name":"x-y"},"language":"it"},{"text":"Chaleco que potencia la Defensa Especial del\nPokémon que lo lleva, pero le impide lanzar\nataques de estado.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein hochmodernes Gerät, mit dem bis zu\n4 Personen miteinander kommunizieren\nkönnen. Es ermöglicht sogar Video-Chat!","version_group":{"name":"x-y"},"language":"de"},{"text":"Un transmetteur high-tech permettant à quatre\npersonnes de communiquer par le son et l’image.","version_group":{"name":"x-y"},"language":"fr"},{"text":"영상 통화 기능이 내장된\n최신식 무전기.\n최대 4명이 동시에 통화할 수 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"さいだい　４にんで　つうわができる\nテレビカメラきのうつきの\nさいしんがた　トランシーバー。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A high-tech transceiver with a\ncamera function. It allows up to\nfour-way calls.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A high-tech transceiver with a \ncamera function. It allows up to\nfour-way calls.","version_group":{"name":"black-white"},"language":"en"},{"text":"Transmetteur high-tech permettant\nà 4 personnes de communiquer par\nle son et l’image.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":621,"generation":{"name":"generation-vi"}},{"game_index":621,"generation":{"name":"generation-v"}}],"names":[{"name":"Xtransceiver","language":"en"},{"name":"Interpoké","language":"it"},{"name":"Videomisor","language":"es"},{"name":"Viso-Caster","language":"de"},{"name":"Vokit","language":"fr"},{"name":"라이브캐스터","language":"ko"},{"name":"ライブキャスター","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 662,
+  "name": "xtransceiver",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Makes four-way video calls.  Used for plot advancement in-game, but also works with other players via the C-Gear.",
+      "short_effect": "Makes four-way video calls.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "最大４人で　通話ができる\nテレビカメラ機能つきの\n最新型トランシーバー。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A high-tech transceiver with a\ncamera function. It allows up to\nfour-way calls.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Ricetrasmittente all’avanguardia che permette\ndi fare videochiamate con un gruppo massimo\ndi quattro persone.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Chaleco que potencia la Defensa Especial del\nPokémon que lo lleva, pero le impide lanzar\nataques de estado.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein hochmodernes Gerät, mit dem bis zu\n4 Personen miteinander kommunizieren\nkönnen. Es ermöglicht sogar Video-Chat!",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un transmetteur high-tech permettant à quatre\npersonnes de communiquer par le son et l’image.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "영상 통화 기능이 내장된\n최신식 무전기.\n최대 4명이 동시에 통화할 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "さいだい　４にんで　つうわができる\nテレビカメラきのうつきの\nさいしんがた　トランシーバー。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A high-tech transceiver with a\ncamera function. It allows up to\nfour-way calls.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A high-tech transceiver with a \ncamera function. It allows up to\nfour-way calls.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Transmetteur high-tech permettant\nà 4 personnes de communiquer par\nle son et l’image.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 621,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 621,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Xtransceiver",
+      "language": "en"
+    },
+    {
+      "name": "Interpoké",
+      "language": "it"
+    },
+    {
+      "name": "Videomisor",
+      "language": "es"
+    },
+    {
+      "name": "Viso-Caster",
+      "language": "de"
+    },
+    {
+      "name": "Vokit",
+      "language": "fr"
+    },
+    {
+      "name": "라이브캐스터",
+      "language": "ko"
+    },
+    {
+      "name": "ライブキャスター",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

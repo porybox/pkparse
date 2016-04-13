@@ -1,1 +1,97 @@
-{"id":117,"name":"bide","accuracy":null,"effect_chance":null,"pp":10,"priority":1,"power":null,"contest_combos":null,"contest_type":{"name":"tough"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is [typeless]{mechanic:typeless}.\n\nThis move cannot be selected by []{move:sleep-talk}.","short_effect":"User waits for two turns, then hits back for twice the damage it took.","language":"en"}],"effect_changes":[{"version_group":{"name":"diamond-pearl"},"effect_entries":[{"effect":"Lasts either two or three turns.","language":"en"}]}],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Bide","language":"en"},{"name":"Pazienza","language":"it"},{"name":"Venganza","language":"es"},{"name":"Geduld","language":"de"},{"name":"Patience","language":"fr"},{"name":"참기","language":"ko"},{"name":"がまん","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"normal"}}
+{
+  "id": 117,
+  "name": "bide",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 1,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is [typeless]{mechanic:typeless}.\n\nThis move cannot be selected by []{move:sleep-talk}.",
+      "short_effect": "User waits for two turns, then hits back for twice the damage it took.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "effect_entries": [
+        {
+          "effect": "Lasts either two or three turns.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Bide",
+      "language": "en"
+    },
+    {
+      "name": "Pazienza",
+      "language": "it"
+    },
+    {
+      "name": "Venganza",
+      "language": "es"
+    },
+    {
+      "name": "Geduld",
+      "language": "de"
+    },
+    {
+      "name": "Patience",
+      "language": "fr"
+    },
+    {
+      "name": "참기",
+      "language": "ko"
+    },
+    {
+      "name": "がまん",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

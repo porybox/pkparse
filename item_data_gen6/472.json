@@ -1,1 +1,156 @@
-{"id":472,"name":"blue-card","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Allows the trainer to answer the daily question on Buena's radio show.  Records the points earned for correct answers.","short_effect":"Keeps track of points from Buena's show.","language":"en"}],"flavor_text_entries":[{"text":"「アオイのあいことば」　番組の\nポイントを　貯める　カード。\n","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A card to save points for the\nBuena’s Password show.","version_group":{"name":"x-y"},"language":"en"},{"text":"Carta per accumulare i punti del programma\n“Password Show” di Buena.","version_group":{"name":"x-y"},"language":"it"},{"text":"Bonguri de color negro y aroma indescriptible.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine Karte, auf der die Punkte für\n„Passwort mit Buena“ festgehalten werden.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une carte pour accumuler les points de\nl’émission « Le Mot de Passe de Buena ».","version_group":{"name":"x-y"},"language":"fr"},{"text":"“규화의 암호” 방송의\n포인트를 모으는 카드.","version_group":{"name":"x-y"},"language":"ko"},{"text":"「アオイのあいことば」　ばんぐみの\nポイントを　ためる　カード。\n","version_group":{"name":"x-y"},"language":"ja"},{"text":"A card to save points for the\nBuena’s Password show.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A card to save points for the\nBuena’s Password show.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une carte pour accumuler les points de\nl’émission “Le Mot de Passe de Buena”.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A card to save points for the\nBuena’s Password show.","version_group":{"name":"heartgold-soulsilver"},"language":"en"}],"game_indices":[{"game_index":472,"generation":{"name":"generation-vi"}},{"game_index":472,"generation":{"name":"generation-v"}},{"game_index":472,"generation":{"name":"generation-iv"}}],"names":[{"name":"Blue Card","language":"en"},{"name":"Carta Blu","language":"it"},{"name":"Tarjeta Azul","language":"es"},{"name":"Blaue Karte","language":"de"},{"name":"Carte Bleue","language":"fr"},{"name":"블루카드","language":"ko"},{"name":"ブルーカード","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 472,
+  "name": "blue-card",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Allows the trainer to answer the daily question on Buena's radio show.  Records the points earned for correct answers.",
+      "short_effect": "Keeps track of points from Buena's show.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "「アオイのあいことば」　番組の\nポイントを　貯める　カード。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A card to save points for the\nBuena’s Password show.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Carta per accumulare i punti del programma\n“Password Show” di Buena.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Bonguri de color negro y aroma indescriptible.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine Karte, auf der die Punkte für\n„Passwort mit Buena“ festgehalten werden.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une carte pour accumuler les points de\nl’émission « Le Mot de Passe de Buena ».",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "“규화의 암호” 방송의\n포인트를 모으는 카드.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "「アオイのあいことば」　ばんぐみの\nポイントを　ためる　カード。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A card to save points for the\nBuena’s Password show.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A card to save points for the\nBuena’s Password show.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une carte pour accumuler les points de\nl’émission “Le Mot de Passe de Buena”.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A card to save points for the\nBuena’s Password show.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 472,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 472,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 472,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Blue Card",
+      "language": "en"
+    },
+    {
+      "name": "Carta Blu",
+      "language": "it"
+    },
+    {
+      "name": "Tarjeta Azul",
+      "language": "es"
+    },
+    {
+      "name": "Blaue Karte",
+      "language": "de"
+    },
+    {
+      "name": "Carte Bleue",
+      "language": "fr"
+    },
+    {
+      "name": "블루카드",
+      "language": "ko"
+    },
+    {
+      "name": "ブルーカード",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

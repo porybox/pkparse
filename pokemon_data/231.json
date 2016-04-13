@@ -1,1 +1,147 @@
-{"id":231,"name":"phanpy","order":263,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":200,"pokedex":{"name":"updated-johto"}},{"entry_number":165,"pokedex":{"name":"hoenn"}},{"entry_number":195,"pokedex":{"name":"original-johto"}},{"entry_number":231,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"blue"},"shape":{"name":"quadruped"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"rough-terrain"},"generation":{"name":"generation-ii"},"names":[{"name":"ゴマゾウ","language":"ja"},{"name":"Gomazou","language":"roomaji"},{"name":"코코리","language":"ko"},{"name":"小小象","language":"zh"},{"name":"Phanpy","language":"fr"},{"name":"Phanpy","language":"de"},{"name":"Phanpy","language":"es"},{"name":"Phanpy","language":"it"},{"name":"Phanpy","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ながはな","language":"ja"},{"genus":"긴코","language":"ko"},{"genus":"Long-Nez","language":"fr"},{"genus":"Langrüssel","language":"de"},{"genus":"Narizotas","language":"es"},{"genus":"Nasone","language":"it"},{"genus":"Long Nose","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"phanpy"}}],"first_evolution_id":231}
+{
+  "id": 231,
+  "name": "phanpy",
+  "order": 263,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 200,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 165,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 195,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 231,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "rough-terrain"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ゴマゾウ",
+      "language": "ja"
+    },
+    {
+      "name": "Gomazou",
+      "language": "roomaji"
+    },
+    {
+      "name": "코코리",
+      "language": "ko"
+    },
+    {
+      "name": "小小象",
+      "language": "zh"
+    },
+    {
+      "name": "Phanpy",
+      "language": "fr"
+    },
+    {
+      "name": "Phanpy",
+      "language": "de"
+    },
+    {
+      "name": "Phanpy",
+      "language": "es"
+    },
+    {
+      "name": "Phanpy",
+      "language": "it"
+    },
+    {
+      "name": "Phanpy",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ながはな",
+      "language": "ja"
+    },
+    {
+      "genus": "긴코",
+      "language": "ko"
+    },
+    {
+      "genus": "Long-Nez",
+      "language": "fr"
+    },
+    {
+      "genus": "Langrüssel",
+      "language": "de"
+    },
+    {
+      "genus": "Narizotas",
+      "language": "es"
+    },
+    {
+      "genus": "Nasone",
+      "language": "it"
+    },
+    {
+      "genus": "Long Nose",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "phanpy"
+      }
+    }
+  ],
+  "first_evolution_id": 231
+}

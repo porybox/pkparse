@@ -1,1 +1,143 @@
-{"id":367,"name":"huntail","order":397,"gender_rate":4,"capture_rate":60,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow-then-very-fast"},"pokedex_numbers":[{"entry_number":142,"pokedex":{"name":"kalos-coastal"}},{"entry_number":177,"pokedex":{"name":"hoenn"}},{"entry_number":367,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water1"}],"color":{"name":"blue"},"shape":{"name":"squiggle"},"evolves_from_species":{"name":"clamperl"},"evolution_chain":{},"habitat":{"name":"sea"},"generation":{"name":"generation-iii"},"names":[{"name":"ハンテール","language":"ja"},{"name":"Huntail","language":"roomaji"},{"name":"헌테일","language":"ko"},{"name":"獵斑魚","language":"zh"},{"name":"Serpang","language":"fr"},{"name":"Aalabyss","language":"de"},{"name":"Huntail","language":"es"},{"name":"Huntail","language":"it"},{"name":"Huntail","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"sea"}}],"form_descriptions":[],"genera":[{"genus":"しんかい","language":"ja"},{"genus":"깊은바다","language":"ko"},{"genus":"Abysse","language":"fr"},{"genus":"Tiefsee","language":"de"},{"genus":"Abisal","language":"es"},{"genus":"Abissi","language":"it"},{"genus":"Deep Sea","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"huntail"}}],"first_evolution_id":366}
+{
+  "id": 367,
+  "name": "huntail",
+  "order": 397,
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow-then-very-fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 142,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 177,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 367,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "squiggle"
+  },
+  "evolves_from_species": {
+    "name": "clamperl"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "sea"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ハンテール",
+      "language": "ja"
+    },
+    {
+      "name": "Huntail",
+      "language": "roomaji"
+    },
+    {
+      "name": "헌테일",
+      "language": "ko"
+    },
+    {
+      "name": "獵斑魚",
+      "language": "zh"
+    },
+    {
+      "name": "Serpang",
+      "language": "fr"
+    },
+    {
+      "name": "Aalabyss",
+      "language": "de"
+    },
+    {
+      "name": "Huntail",
+      "language": "es"
+    },
+    {
+      "name": "Huntail",
+      "language": "it"
+    },
+    {
+      "name": "Huntail",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "しんかい",
+      "language": "ja"
+    },
+    {
+      "genus": "깊은바다",
+      "language": "ko"
+    },
+    {
+      "genus": "Abysse",
+      "language": "fr"
+    },
+    {
+      "genus": "Tiefsee",
+      "language": "de"
+    },
+    {
+      "genus": "Abisal",
+      "language": "es"
+    },
+    {
+      "genus": "Abissi",
+      "language": "it"
+    },
+    {
+      "genus": "Deep Sea",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "huntail"
+      }
+    }
+  ],
+  "first_evolution_id": 366
+}

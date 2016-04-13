@@ -1,1 +1,144 @@
-{"id":313,"name":"volbeat","order":339,"gender_rate":0,"capture_rate":150,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow-then-very-fast"},"pokedex_numbers":[{"entry_number":133,"pokedex":{"name":"kalos-central"}},{"entry_number":86,"pokedex":{"name":"hoenn"}},{"entry_number":313,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"humanshape"},{"name":"bug"}],"color":{"name":"gray"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-iii"},"names":[{"name":"バルビート","language":"ja"},{"name":"Barubeat","language":"roomaji"},{"name":"볼비트","language":"ko"},{"name":"電螢蟲","language":"zh"},{"name":"Muciole","language":"fr"},{"name":"Volbeat","language":"de"},{"name":"Volbeat","language":"es"},{"name":"Volbeat","language":"it"},{"name":"Volbeat","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ほたる","language":"ja"},{"genus":"반딧불","language":"ko"},{"genus":"Luciole","language":"fr"},{"genus":"Libelle","language":"de"},{"genus":"Luciérnaga","language":"es"},{"genus":"Lucciola","language":"it"},{"genus":"Firefly","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"volbeat"}}],"first_evolution_id":313}
+{
+  "id": 313,
+  "name": "volbeat",
+  "order": 339,
+  "gender_rate": 0,
+  "capture_rate": 150,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow-then-very-fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 133,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 86,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 313,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "humanshape"
+    },
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "gray"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "バルビート",
+      "language": "ja"
+    },
+    {
+      "name": "Barubeat",
+      "language": "roomaji"
+    },
+    {
+      "name": "볼비트",
+      "language": "ko"
+    },
+    {
+      "name": "電螢蟲",
+      "language": "zh"
+    },
+    {
+      "name": "Muciole",
+      "language": "fr"
+    },
+    {
+      "name": "Volbeat",
+      "language": "de"
+    },
+    {
+      "name": "Volbeat",
+      "language": "es"
+    },
+    {
+      "name": "Volbeat",
+      "language": "it"
+    },
+    {
+      "name": "Volbeat",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ほたる",
+      "language": "ja"
+    },
+    {
+      "genus": "반딧불",
+      "language": "ko"
+    },
+    {
+      "genus": "Luciole",
+      "language": "fr"
+    },
+    {
+      "genus": "Libelle",
+      "language": "de"
+    },
+    {
+      "genus": "Luciérnaga",
+      "language": "es"
+    },
+    {
+      "genus": "Lucciola",
+      "language": "it"
+    },
+    {
+      "genus": "Firefly",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "volbeat"
+      }
+    }
+  ],
+  "first_evolution_id": 313
+}

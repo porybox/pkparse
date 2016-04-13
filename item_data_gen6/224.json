@@ -1,1 +1,201 @@
-{"id":201,"name":"cleanse-tag","cost":200,"fling_power":30,"fling_effect":null,"attributes":[{"name":"holdable"}],"category":{"name":"training"},"effect_entries":[{"effect":"Held by lead Pokémon: Prevents wild battles with Pokémon that are lower level than the holder.","short_effect":"Prevents wild encounters of level lower than your party's lead Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"１番　前の　ポケモンに\n持たせると　野生ポケモンが\nでて　きにくくなる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if\nthe holder is the head of the party.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a un Pokémon.\nSe chi ce l’ha è il primo della squadra, aiuta\nad allontanare i Pokémon selvatici.","version_group":{"name":"x-y"},"language":"it"},{"text":"Debe llevarlo un Pokémon. Aumenta la\nconcentración y fortalece los movimientos\nde tipo Lucha.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item zum Tragen. Reduziert Begegnungen mit\nwilden Pokémon, wenn der Träger an erster Stelle\nsteht.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à tenir. Aide à repousser les Pokémon\nsauvages si le porteur est le premier Pokémon\nde l’équipe.","version_group":{"name":"x-y"},"language":"fr"},{"text":"맨 앞의 포켓몬에게\n지니게 하면 야생 포켓몬이\n나타날 확률이 낮아진다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"いちばん　まえの　ポケモンに\nもたせると　やせいポケモンが\nでて　きにくくなる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à tenir. Aide à repousser les\nPokémon sauvages si le porteur est\nle premier Pokémon de l’équipe.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"An item to be held by a POKéMON.\nIt repels wild POKéMON if the\nholder is first in the party.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A hold item that\nhelps repel wild\nPOKéMON.","version_group":{"name":"emerald"},"language":"en"},{"text":"A hold item that\nhelps repel wild\nPOKéMON.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":224,"generation":{"name":"generation-vi"}},{"game_index":224,"generation":{"name":"generation-v"}},{"game_index":224,"generation":{"name":"generation-iv"}},{"game_index":190,"generation":{"name":"generation-iii"}}],"names":[{"name":"Cleanse Tag","language":"en"},{"name":"Velopuro","language":"it"},{"name":"Amuleto","language":"es"},{"name":"Schutzband","language":"de"},{"name":"Rune Purifiante","language":"fr"},{"name":"순결의부적","language":"ko"},{"name":"きよめのおふだ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 201,
+  "name": "cleanse-tag",
+  "cost": 200,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "training"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by lead Pokémon: Prevents wild battles with Pokémon that are lower level than the holder.",
+      "short_effect": "Prevents wild encounters of level lower than your party's lead Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "１番　前の　ポケモンに\n持たせると　野生ポケモンが\nでて　きにくくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if\nthe holder is the head of the party.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nSe chi ce l’ha è il primo della squadra, aiuta\nad allontanare i Pokémon selvatici.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Debe llevarlo un Pokémon. Aumenta la\nconcentración y fortalece los movimientos\nde tipo Lucha.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Reduziert Begegnungen mit\nwilden Pokémon, wenn der Träger an erster Stelle\nsteht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Aide à repousser les Pokémon\nsauvages si le porteur est le premier Pokémon\nde l’équipe.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "맨 앞의 포켓몬에게\n지니게 하면 야생 포켓몬이\n나타날 확률이 낮아진다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "いちばん　まえの　ポケモンに\nもたせると　やせいポケモンが\nでて　きにくくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir. Aide à repousser les\nPokémon sauvages si le porteur est\nle premier Pokémon de l’équipe.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a POKéMON.\nIt repels wild POKéMON if the\nholder is first in the party.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nhelps repel wild\nPOKéMON.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nhelps repel wild\nPOKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 224,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 224,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 224,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 190,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Cleanse Tag",
+      "language": "en"
+    },
+    {
+      "name": "Velopuro",
+      "language": "it"
+    },
+    {
+      "name": "Amuleto",
+      "language": "es"
+    },
+    {
+      "name": "Schutzband",
+      "language": "de"
+    },
+    {
+      "name": "Rune Purifiante",
+      "language": "fr"
+    },
+    {
+      "name": "순결의부적",
+      "language": "ko"
+    },
+    {
+      "name": "きよめのおふだ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

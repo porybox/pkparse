@@ -1,1 +1,158 @@
-{"id":87,"name":"dewgong","order":95,"gender_rate":4,"capture_rate":75,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":266,"pokedex":{"name":"updated-unova"}},{"entry_number":179,"pokedex":{"name":"updated-johto"}},{"entry_number":177,"pokedex":{"name":"original-johto"}},{"entry_number":87,"pokedex":{"name":"kanto"}},{"entry_number":87,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"},{"name":"water1"}],"color":{"name":"white"},"shape":{"name":"fish"},"evolves_from_species":{"name":"seel"},"evolution_chain":{},"habitat":{"name":"sea"},"generation":{"name":"generation-i"},"names":[{"name":"ジュゴン","language":"ja"},{"name":"Jugon","language":"roomaji"},{"name":"쥬레곤","language":"ko"},{"name":"白海獅","language":"zh"},{"name":"Lamantine","language":"fr"},{"name":"Jugong","language":"de"},{"name":"Dewgong","language":"es"},{"name":"Dewgong","language":"it"},{"name":"Dewgong","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"sea"}}],"form_descriptions":[],"genera":[{"genus":"あしか","language":"ja"},{"genus":"강치","language":"ko"},{"genus":"Otarie","language":"fr"},{"genus":"Seehund","language":"de"},{"genus":"León Marino","language":"es"},{"genus":"Otaria","language":"it"},{"genus":"Sea Lion","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"dewgong"}}],"first_evolution_id":86}
+{
+  "id": 87,
+  "name": "dewgong",
+  "order": 95,
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 266,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 179,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 177,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 87,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 87,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "white"
+  },
+  "shape": {
+    "name": "fish"
+  },
+  "evolves_from_species": {
+    "name": "seel"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "sea"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ジュゴン",
+      "language": "ja"
+    },
+    {
+      "name": "Jugon",
+      "language": "roomaji"
+    },
+    {
+      "name": "쥬레곤",
+      "language": "ko"
+    },
+    {
+      "name": "白海獅",
+      "language": "zh"
+    },
+    {
+      "name": "Lamantine",
+      "language": "fr"
+    },
+    {
+      "name": "Jugong",
+      "language": "de"
+    },
+    {
+      "name": "Dewgong",
+      "language": "es"
+    },
+    {
+      "name": "Dewgong",
+      "language": "it"
+    },
+    {
+      "name": "Dewgong",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "あしか",
+      "language": "ja"
+    },
+    {
+      "genus": "강치",
+      "language": "ko"
+    },
+    {
+      "genus": "Otarie",
+      "language": "fr"
+    },
+    {
+      "genus": "Seehund",
+      "language": "de"
+    },
+    {
+      "genus": "León Marino",
+      "language": "es"
+    },
+    {
+      "genus": "Otaria",
+      "language": "it"
+    },
+    {
+      "genus": "Sea Lion",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "dewgong"
+      }
+    }
+  ],
+  "first_evolution_id": 86
+}

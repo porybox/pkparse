@@ -1,1 +1,109 @@
-{"id":18,"name":"whirlwind","accuracy":null,"effect_chance":null,"pp":20,"priority":-6,"power":null,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"[Switch]{mechanic:switch}es the target out for another of its trainer's Pokémon selected at random.  Wild battles end immediately.\n\nDoesn't affect Pokémon with []{ability:suction-cups} or under the effect of []{move:ingrain}.","short_effect":"Immediately ends wild battles.  Forces trainers to switch Pokémon.","language":"en"}],"effect_changes":[{"version_group":{"name":"gold-silver"},"effect_entries":[{"effect":"Does nothing in trainer battles.","language":"en"}]}],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"force-switch"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Whirlwind","language":"en"},{"name":"Turbine","language":"it"},{"name":"Remolino","language":"es"},{"name":"Wirbelwind","language":"de"},{"name":"Cyclone","language":"fr"},{"name":"날려버리기","language":"ko"},{"name":"ふきとばし","language":"ja"}],"past_values":[{"accuracy":85,"power":null,"pp":null,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"gold-silver"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 18,
+  "name": "whirlwind",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": -6,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "[Switch]{mechanic:switch}es the target out for another of its trainer's Pokémon selected at random.  Wild battles end immediately.\n\nDoesn't affect Pokémon with []{ability:suction-cups} or under the effect of []{move:ingrain}.",
+      "short_effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "gold-silver"
+      },
+      "effect_entries": [
+        {
+          "effect": "Does nothing in trainer battles.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "force-switch"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Whirlwind",
+      "language": "en"
+    },
+    {
+      "name": "Turbine",
+      "language": "it"
+    },
+    {
+      "name": "Remolino",
+      "language": "es"
+    },
+    {
+      "name": "Wirbelwind",
+      "language": "de"
+    },
+    {
+      "name": "Cyclone",
+      "language": "fr"
+    },
+    {
+      "name": "날려버리기",
+      "language": "ko"
+    },
+    {
+      "name": "ふきとばし",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": 85,
+      "power": null,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "gold-silver"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

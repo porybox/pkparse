@@ -1,1 +1,143 @@
-{"id":632,"name":"casteliacone","cost":100,"fling_power":30,"fling_effect":null,"attributes":[],"category":{"name":"status-cures"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Cures any [status ailment]{mechanic:status-ailment} and [confusion]{mechanic:confusion}.","short_effect":"Cures any status ailment and confusion.","language":"en"}],"flavor_text_entries":[{"text":"ヒウンシティの　名物アイス。\nポケモン　１匹の　状態の\n異常を　すべて　回復する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"Castelia City’s specialty, soft-serve\nice cream. It heals all the status\nproblems of a single Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Il famoso gelato di Austropoli. Cura tutti i\nproblemi di stato di un Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"text":"Aumenta mucho la Precisión en combate.\nAl cambiar de Pokémon, el efecto desaparece.","version_group":{"name":"x-y"},"language":"es"},{"text":"Dieses Eis ist eine Spezialität aus Stratos City.\nEs behebt alle Statusprobleme eines Pokémon.","version_group":{"name":"x-y"},"language":"de"},{"text":"La spécialité de Volucité.\nElle soigne tous les problèmes de statut\nd’un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"구름시티의 명물 아이스.\n포켓몬 1마리의 상태 이상을\n모두 회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ヒウンシティの　めいぶつアイス。\nポケモン　１ひきの　じょうたいの\nいじょうを　すべて　かいふくする。","version_group":{"name":"x-y"},"language":"ja"},{"text":"Castelia City’s specialty, soft-serve\nice cream. It heals all the status\nproblems of a single Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"Castelia City’s specialty, soft-serve\nice cream. It heals all the status\nproblems of a single Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Spécialité de Volucité. Elle\nsoigne tous les problèmes\nde statut d’un Pokémon.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":591,"generation":{"name":"generation-vi"}},{"game_index":591,"generation":{"name":"generation-v"}}],"names":[{"name":"Casteliacone","language":"en"},{"name":"Conostropoli","language":"it"},{"name":"Porcehelado","language":"es"},{"name":"Stratos-Eis","language":"de"},{"name":"Glace Volute","language":"fr"},{"name":"구름아이스","language":"ko"},{"name":"ヒウンアイス","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 632,
+  "name": "casteliacone",
+  "cost": 100,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "status-cures"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Cures any [status ailment]{mechanic:status-ailment} and [confusion]{mechanic:confusion}.",
+      "short_effect": "Cures any status ailment and confusion.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ヒウンシティの　名物アイス。\nポケモン　１匹の　状態の\n異常を　すべて　回復する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "Castelia City’s specialty, soft-serve\nice cream. It heals all the status\nproblems of a single Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Il famoso gelato di Austropoli. Cura tutti i\nproblemi di stato di un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Aumenta mucho la Precisión en combate.\nAl cambiar de Pokémon, el efecto desaparece.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Dieses Eis ist eine Spezialität aus Stratos City.\nEs behebt alle Statusprobleme eines Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "La spécialité de Volucité.\nElle soigne tous les problèmes de statut\nd’un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "구름시티의 명물 아이스.\n포켓몬 1마리의 상태 이상을\n모두 회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ヒウンシティの　めいぶつアイス。\nポケモン　１ひきの　じょうたいの\nいじょうを　すべて　かいふくする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "Castelia City’s specialty, soft-serve\nice cream. It heals all the status\nproblems of a single Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Castelia City’s specialty, soft-serve\nice cream. It heals all the status\nproblems of a single Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Spécialité de Volucité. Elle\nsoigne tous les problèmes\nde statut d’un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 591,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 591,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Casteliacone",
+      "language": "en"
+    },
+    {
+      "name": "Conostropoli",
+      "language": "it"
+    },
+    {
+      "name": "Porcehelado",
+      "language": "es"
+    },
+    {
+      "name": "Stratos-Eis",
+      "language": "de"
+    },
+    {
+      "name": "Glace Volute",
+      "language": "fr"
+    },
+    {
+      "name": "구름아이스",
+      "language": "ko"
+    },
+    {
+      "name": "ヒウンアイス",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

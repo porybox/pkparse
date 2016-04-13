@@ -1,1 +1,63 @@
-{"id":562,"name":"old-sea-map","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"event-items"},"effect_entries":[{"effect":"Provides access to Faraway Island and []{pokemon:mew}.","short_effect":"Allows access to Faraway Island and Mew. Unreleased outside of Japan.","language":"en"}],"flavor_text_entries":[{"text":"A faded sea chart\nthat shows the way\nto a certain island.","version_group":{"name":"emerald"},"language":"en"}],"game_indices":[{"game_index":376,"generation":{"name":"generation-iii"}}],"names":[{"name":"Old Sea Map","language":"en"},{"name":"Mappa Stinta","language":"it"},{"name":"Mapa Viejo","language":"es"},{"name":"Alte Karte","language":"de"},{"name":"Vieillecarte","language":"fr"},{"name":"ふるびたかいず","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 562,
+  "name": "old-sea-map",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "event-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Provides access to Faraway Island and []{pokemon:mew}.",
+      "short_effect": "Allows access to Faraway Island and Mew. Unreleased outside of Japan.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A faded sea chart\nthat shows the way\nto a certain island.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 376,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Old Sea Map",
+      "language": "en"
+    },
+    {
+      "name": "Mappa Stinta",
+      "language": "it"
+    },
+    {
+      "name": "Mapa Viejo",
+      "language": "es"
+    },
+    {
+      "name": "Alte Karte",
+      "language": "de"
+    },
+    {
+      "name": "Vieillecarte",
+      "language": "fr"
+    },
+    {
+      "name": "ふるびたかいず",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

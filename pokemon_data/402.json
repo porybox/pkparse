@@ -1,1 +1,141 @@
-{"id":402,"name":"kricketune","order":432,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":16,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":16,"pokedex":{"name":"original-sinnoh"}},{"entry_number":402,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"red"},"shape":{"name":"bug-wings"},"evolves_from_species":{"name":"kricketot"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"コロトック","language":"ja"},{"name":"Korotok","language":"roomaji"},{"name":"귀뚤톡크","language":"ko"},{"name":"音箱蟀","language":"zh"},{"name":"Mélokrik","language":"fr"},{"name":"Zirpeise","language":"de"},{"name":"Kricketune","language":"es"},{"name":"Kricketune","language":"it"},{"name":"Kricketune","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"こおろぎ","language":"ja"},{"genus":"귀뚜라미","language":"ko"},{"genus":"Criquet","language":"fr"},{"genus":"Zirper","language":"de"},{"genus":"Grillo","language":"es"},{"genus":"Grillo","language":"it"},{"genus":"Cricket","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"kricketune"}}],"first_evolution_id":401}
+{
+  "id": 402,
+  "name": "kricketune",
+  "order": 432,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 16,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 16,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 402,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "bug-wings"
+  },
+  "evolves_from_species": {
+    "name": "kricketot"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "コロトック",
+      "language": "ja"
+    },
+    {
+      "name": "Korotok",
+      "language": "roomaji"
+    },
+    {
+      "name": "귀뚤톡크",
+      "language": "ko"
+    },
+    {
+      "name": "音箱蟀",
+      "language": "zh"
+    },
+    {
+      "name": "Mélokrik",
+      "language": "fr"
+    },
+    {
+      "name": "Zirpeise",
+      "language": "de"
+    },
+    {
+      "name": "Kricketune",
+      "language": "es"
+    },
+    {
+      "name": "Kricketune",
+      "language": "it"
+    },
+    {
+      "name": "Kricketune",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "こおろぎ",
+      "language": "ja"
+    },
+    {
+      "genus": "귀뚜라미",
+      "language": "ko"
+    },
+    {
+      "genus": "Criquet",
+      "language": "fr"
+    },
+    {
+      "genus": "Zirper",
+      "language": "de"
+    },
+    {
+      "genus": "Grillo",
+      "language": "es"
+    },
+    {
+      "genus": "Grillo",
+      "language": "it"
+    },
+    {
+      "genus": "Cricket",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "kricketune"
+      }
+    }
+  ],
+  "first_evolution_id": 401
+}

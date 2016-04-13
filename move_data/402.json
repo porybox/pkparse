@@ -1,1 +1,85 @@
-{"id":402,"name":"seed-bomb","accuracy":100,"effect_chance":null,"pp":15,"priority":0,"power":80,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.","short_effect":"Inflicts regular damage with no additional effect.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Seed Bomb","language":"en"},{"name":"Semebomba","language":"it"},{"name":"Bomba Germen","language":"es"},{"name":"Samenbomben","language":"de"},{"name":"Canon Graine","language":"fr"},{"name":"씨폭탄","language":"ko"},{"name":"タネばくだん","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"grass"}}
+{
+  "id": 402,
+  "name": "seed-bomb",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": 80,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
+      "short_effect": "Inflicts regular damage with no additional effect.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Seed Bomb",
+      "language": "en"
+    },
+    {
+      "name": "Semebomba",
+      "language": "it"
+    },
+    {
+      "name": "Bomba Germen",
+      "language": "es"
+    },
+    {
+      "name": "Samenbomben",
+      "language": "de"
+    },
+    {
+      "name": "Canon Graine",
+      "language": "fr"
+    },
+    {
+      "name": "씨폭탄",
+      "language": "ko"
+    },
+    {
+      "name": "タネばくだん",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "grass"
+  }
+}

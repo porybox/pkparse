@@ -1,1 +1,110 @@
-{"id":739,"name":"mega-ring","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[],"flavor_text_entries":[{"text":"メガストーンを　持ったまま　戦う\nポケモンを　メガシンカさせる\n未知のパワーを　秘めた　リング。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"This ring contains an untold power that\nsomehow enables Pokémon carrying\nMega Stones to Mega Evolve in battle.","version_group":{"name":"x-y"},"language":"en"},{"text":"Cerchio che nasconde un misterioso potere.\nConsente a un Pokémon che ha una\nMegapietra di megaevolversi durante la lotta.","version_group":{"name":"x-y"},"language":"it"},{"text":"Joya de un solo uso que potencia los\nmovimientos de tipo Hada.\nDebe llevarla un Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Armband mit geheimnisvollen Kräften.\nEs erlaubt Pokémon, die einen Mega-Stein tragen,\neine Mega-Entwicklung durchzuführen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un anneau aux pouvoirs mystérieux permettant à\nun Pokémon de méga-évoluer au combat s’il tient\nla bonne Méga-Gemme.","version_group":{"name":"x-y"},"language":"fr"},{"text":"메가스톤을 지닌 채로 싸우는\n포켓몬을 메가진화시키는\n미지의 힘을 가진 링.","version_group":{"name":"x-y"},"language":"ko"},{"text":"メガストーンを　もったまま　たたかう\nポケモンを　メガシンカさせる\nみちのパワーを　ひめた　リング。","version_group":{"name":"x-y"},"language":"ja"}],"game_indices":[{"game_index":696,"generation":{"name":"generation-vi"}}],"names":[{"name":"Mega Ring","language":"en"},{"name":"Megacerchio","language":"it"},{"name":"Mega-Aro","language":"es"},{"name":"Mega-Ring","language":"de"},{"name":"Méga-Anneau","language":"fr"},{"name":"메가링","language":"ko"},{"name":"メガリング","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 739,
+  "name": "mega-ring",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [],
+  "flavor_text_entries": [
+    {
+      "text": "メガストーンを　持ったまま　戦う\nポケモンを　メガシンカさせる\n未知のパワーを　秘めた　リング。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "This ring contains an untold power that\nsomehow enables Pokémon carrying\nMega Stones to Mega Evolve in battle.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Cerchio che nasconde un misterioso potere.\nConsente a un Pokémon che ha una\nMegapietra di megaevolversi durante la lotta.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Joya de un solo uso que potencia los\nmovimientos de tipo Hada.\nDebe llevarla un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Armband mit geheimnisvollen Kräften.\nEs erlaubt Pokémon, die einen Mega-Stein tragen,\neine Mega-Entwicklung durchzuführen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un anneau aux pouvoirs mystérieux permettant à\nun Pokémon de méga-évoluer au combat s’il tient\nla bonne Méga-Gemme.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "메가스톤을 지닌 채로 싸우는\n포켓몬을 메가진화시키는\n미지의 힘을 가진 링.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "メガストーンを　もったまま　たたかう\nポケモンを　メガシンカさせる\nみちのパワーを　ひめた　リング。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 696,
+      "generation": {
+        "name": "generation-vi"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Mega Ring",
+      "language": "en"
+    },
+    {
+      "name": "Megacerchio",
+      "language": "it"
+    },
+    {
+      "name": "Mega-Aro",
+      "language": "es"
+    },
+    {
+      "name": "Mega-Ring",
+      "language": "de"
+    },
+    {
+      "name": "Méga-Anneau",
+      "language": "fr"
+    },
+    {
+      "name": "메가링",
+      "language": "ko"
+    },
+    {
+      "name": "メガリング",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

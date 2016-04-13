@@ -1,1 +1,120 @@
-{"id":173,"name":"strong-jaw","is_main_series":true,"generation":{"name":"generation-vi"},"names":[{"name":"Strong Jaw","language":"en"},{"name":"Ferromascella","language":"it"},{"name":"Mandíbula Fuerte","language":"es"},{"name":"Titankiefer","language":"de"},{"name":"Prognathe","language":"fr"},{"name":"옹골찬턱","language":"ko"},{"name":"がんじょうあご","language":"ja"}],"effect_entries":[{"effect":"Strengthens biting moves to 1.5× their power.","short_effect":"Strengthens biting moves to 1.5× their power.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"あごが　頑丈で\nかむ　力が　強い。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"The Pokémon’s strong jaw gives\nit tremendous biting power.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"La robusta mascella del Pokémon\npermette morsi molto potenti.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Su robusta mandíbula le confiere\nuna potente mordedura.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Der kräftige Kiefer des Pokémon\nverleiht ihm einen starken Biss.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Grâce à une puissante mâchoire,\nles morsures sont plus fortes.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"턱이 튼튼하여\n무는 힘이 강하다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"あごが　がんじょうで\nかむ　ちからが　つよい。","version_group":{"name":"x-y"},"language":"ja"}],"pokemon":[{"is_hidden":false,"slot":1,"pokemon":{"name":"tyrunt"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"tyrantrum"}}]}
+{
+  "id": 173,
+  "name": "strong-jaw",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "Strong Jaw",
+      "language": "en"
+    },
+    {
+      "name": "Ferromascella",
+      "language": "it"
+    },
+    {
+      "name": "Mandíbula Fuerte",
+      "language": "es"
+    },
+    {
+      "name": "Titankiefer",
+      "language": "de"
+    },
+    {
+      "name": "Prognathe",
+      "language": "fr"
+    },
+    {
+      "name": "옹골찬턱",
+      "language": "ko"
+    },
+    {
+      "name": "がんじょうあご",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Strengthens biting moves to 1.5× their power.",
+      "short_effect": "Strengthens biting moves to 1.5× their power.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "あごが　頑丈で\nかむ　力が　強い。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "The Pokémon’s strong jaw gives\nit tremendous biting power.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "La robusta mascella del Pokémon\npermette morsi molto potenti.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Su robusta mandíbula le confiere\nuna potente mordedura.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Der kräftige Kiefer des Pokémon\nverleiht ihm einen starken Biss.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Grâce à une puissante mâchoire,\nles morsures sont plus fortes.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "턱이 튼튼하여\n무는 힘이 강하다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "あごが　がんじょうで\nかむ　ちからが　つよい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "tyrunt"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "tyrantrum"
+      }
+    }
+  ]
+}

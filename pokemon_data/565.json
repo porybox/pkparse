@@ -1,1 +1,128 @@
-{"id":565,"name":"carracosta","order":566,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":30,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":127,"pokedex":{"name":"updated-unova"}},{"entry_number":71,"pokedex":{"name":"original-unova"}},{"entry_number":565,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water3"},{"name":"water1"}],"color":{"name":"blue"},"shape":{"name":"upright"},"evolves_from_species":{"name":"tirtouga"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-v"},"names":[{"name":"アバゴーラ","language":"ja"},{"name":"늑골라","language":"ko"},{"name":"Mégapagos","language":"fr"},{"name":"Karippas","language":"de"},{"name":"Carracosta","language":"es"},{"name":"Carracosta","language":"it"},{"name":"Carracosta","language":"en"}],"pal_park_encounters":[],"form_descriptions":[],"genera":[{"genus":"こだいがめ","language":"ja"},{"genus":"옛날거북","language":"ko"},{"genus":"Tortantique","language":"fr"},{"genus":"Urzeitkröte","language":"de"},{"genus":"Pretortuga","language":"es"},{"genus":"Ancestruga","language":"it"},{"genus":"Prototurtle","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"carracosta"}}],"first_evolution_id":564}
+{
+  "id": 565,
+  "name": "carracosta",
+  "order": 566,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 30,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 127,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 71,
+      "pokedex": {
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 565,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water3"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "tirtouga"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "アバゴーラ",
+      "language": "ja"
+    },
+    {
+      "name": "늑골라",
+      "language": "ko"
+    },
+    {
+      "name": "Mégapagos",
+      "language": "fr"
+    },
+    {
+      "name": "Karippas",
+      "language": "de"
+    },
+    {
+      "name": "Carracosta",
+      "language": "es"
+    },
+    {
+      "name": "Carracosta",
+      "language": "it"
+    },
+    {
+      "name": "Carracosta",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "こだいがめ",
+      "language": "ja"
+    },
+    {
+      "genus": "옛날거북",
+      "language": "ko"
+    },
+    {
+      "genus": "Tortantique",
+      "language": "fr"
+    },
+    {
+      "genus": "Urzeitkröte",
+      "language": "de"
+    },
+    {
+      "genus": "Pretortuga",
+      "language": "es"
+    },
+    {
+      "genus": "Ancestruga",
+      "language": "it"
+    },
+    {
+      "genus": "Prototurtle",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "carracosta"
+      }
+    }
+  ],
+  "first_evolution_id": 564
+}

@@ -1,1 +1,77 @@
-{"id":517,"name":"glitter-mail","cost":50,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-mail"},"effect_entries":[{"effect":"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.\n\nHeld\n:   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail.","short_effect":"Lets a Trainer write a message and send it via Pokémon trade.","language":"en"}],"flavor_text_entries":[{"text":"A piece of MAIL featuring a cute\nPIKACHU print.\nIt is to be held by a POKéMON.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A PIKACHU-print\nMAIL to be held by\na POKéMON.","version_group":{"name":"emerald"},"language":"en"},{"text":"A PIKACHU-print\nMAIL to be held by\na POKéMON.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":123,"generation":{"name":"generation-iii"}}],"names":[{"name":"Glitter Mail","language":"en"},{"name":"Mess. Luci","language":"it"},{"name":"Carta Brillo","language":"es"},{"name":"Glitzerbrief","language":"de"},{"name":"Lettre Brill","language":"fr"},{"name":"キラキラメール","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 517,
+  "name": "glitter-mail",
+  "cost": 50,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-mail"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.\n\nHeld\n:   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail.",
+      "short_effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A piece of MAIL featuring a cute\nPIKACHU print.\nIt is to be held by a POKéMON.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A PIKACHU-print\nMAIL to be held by\na POKéMON.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A PIKACHU-print\nMAIL to be held by\na POKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 123,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Glitter Mail",
+      "language": "en"
+    },
+    {
+      "name": "Mess. Luci",
+      "language": "it"
+    },
+    {
+      "name": "Carta Brillo",
+      "language": "es"
+    },
+    {
+      "name": "Glitzerbrief",
+      "language": "de"
+    },
+    {
+      "name": "Lettre Brill",
+      "language": "fr"
+    },
+    {
+      "name": "キラキラメール",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,147 @@
-{"id":335,"name":"zangoose","order":363,"gender_rate":4,"capture_rate":90,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow-then-very-fast"},"pokedex_numbers":[{"entry_number":5,"pokedex":{"name":"kalos-coastal"}},{"entry_number":186,"pokedex":{"name":"updated-unova"}},{"entry_number":123,"pokedex":{"name":"hoenn"}},{"entry_number":335,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"white"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-iii"},"names":[{"name":"ザングース","language":"ja"},{"name":"Zangoose","language":"roomaji"},{"name":"쟝고","language":"ko"},{"name":"貓鼬斬","language":"zh"},{"name":"Mangriff","language":"fr"},{"name":"Sengo","language":"de"},{"name":"Zangoose","language":"es"},{"name":"Zangoose","language":"it"},{"name":"Zangoose","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"ネコイタチ","language":"ja"},{"genus":"고양이족제비","language":"ko"},{"genus":"Chat Furet","language":"fr"},{"genus":"Frettkatz","language":"de"},{"genus":"Gato Hurón","language":"es"},{"genus":"Furogatto","language":"it"},{"genus":"Cat Ferret","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"zangoose"}}],"first_evolution_id":335}
+{
+  "id": 335,
+  "name": "zangoose",
+  "order": 363,
+  "gender_rate": 4,
+  "capture_rate": 90,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow-then-very-fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 5,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 186,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 123,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 335,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "white"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ザングース",
+      "language": "ja"
+    },
+    {
+      "name": "Zangoose",
+      "language": "roomaji"
+    },
+    {
+      "name": "쟝고",
+      "language": "ko"
+    },
+    {
+      "name": "貓鼬斬",
+      "language": "zh"
+    },
+    {
+      "name": "Mangriff",
+      "language": "fr"
+    },
+    {
+      "name": "Sengo",
+      "language": "de"
+    },
+    {
+      "name": "Zangoose",
+      "language": "es"
+    },
+    {
+      "name": "Zangoose",
+      "language": "it"
+    },
+    {
+      "name": "Zangoose",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ネコイタチ",
+      "language": "ja"
+    },
+    {
+      "genus": "고양이족제비",
+      "language": "ko"
+    },
+    {
+      "genus": "Chat Furet",
+      "language": "fr"
+    },
+    {
+      "genus": "Frettkatz",
+      "language": "de"
+    },
+    {
+      "genus": "Gato Hurón",
+      "language": "es"
+    },
+    {
+      "genus": "Furogatto",
+      "language": "it"
+    },
+    {
+      "genus": "Cat Ferret",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "zangoose"
+      }
+    }
+  ],
+  "first_evolution_id": 335
+}

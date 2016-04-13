@@ -1,1 +1,144 @@
-{"id":283,"name":"surskit","order":309,"gender_rate":4,"capture_rate":200,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":47,"pokedex":{"name":"kalos-central"}},{"entry_number":32,"pokedex":{"name":"hoenn"}},{"entry_number":283,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"},{"name":"water1"}],"color":{"name":"blue"},"shape":{"name":"armor"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-iii"},"names":[{"name":"アメタマ","language":"ja"},{"name":"Ametama","language":"roomaji"},{"name":"비구술","language":"ko"},{"name":"溜溜糖球","language":"zh"},{"name":"Arakdo","language":"fr"},{"name":"Gehweiher","language":"de"},{"name":"Surskit","language":"es"},{"name":"Surskit","language":"it"},{"name":"Surskit","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"pond"}}],"form_descriptions":[],"genera":[{"genus":"あめんぼ","language":"ja"},{"genus":"소금쟁이","language":"ko"},{"genus":"Maresurfeur","language":"fr"},{"genus":"Wassergeher","language":"de"},{"genus":"Zapatero","language":"es"},{"genus":"Sfiorapozze","language":"it"},{"genus":"Pond Skater","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"surskit"}}],"first_evolution_id":283}
+{
+  "id": 283,
+  "name": "surskit",
+  "order": 309,
+  "gender_rate": 4,
+  "capture_rate": 200,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 47,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 32,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 283,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "armor"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "アメタマ",
+      "language": "ja"
+    },
+    {
+      "name": "Ametama",
+      "language": "roomaji"
+    },
+    {
+      "name": "비구술",
+      "language": "ko"
+    },
+    {
+      "name": "溜溜糖球",
+      "language": "zh"
+    },
+    {
+      "name": "Arakdo",
+      "language": "fr"
+    },
+    {
+      "name": "Gehweiher",
+      "language": "de"
+    },
+    {
+      "name": "Surskit",
+      "language": "es"
+    },
+    {
+      "name": "Surskit",
+      "language": "it"
+    },
+    {
+      "name": "Surskit",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "pond"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "あめんぼ",
+      "language": "ja"
+    },
+    {
+      "genus": "소금쟁이",
+      "language": "ko"
+    },
+    {
+      "genus": "Maresurfeur",
+      "language": "fr"
+    },
+    {
+      "genus": "Wassergeher",
+      "language": "de"
+    },
+    {
+      "genus": "Zapatero",
+      "language": "es"
+    },
+    {
+      "genus": "Sfiorapozze",
+      "language": "it"
+    },
+    {
+      "genus": "Pond Skater",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "surskit"
+      }
+    }
+  ],
+  "first_evolution_id": 283
+}

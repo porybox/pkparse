@@ -1,1 +1,147 @@
-{"id":422,"name":"shellos","order":450,"gender_rate":4,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":60,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":60,"pokedex":{"name":"original-sinnoh"}},{"entry_number":422,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"indeterminate"},{"name":"water1"}],"color":{"name":"purple"},"shape":{"name":"armor"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"カラナクシ","language":"ja"},{"name":"Karanakushi","language":"roomaji"},{"name":"깝질무","language":"ko"},{"name":"無殼海牛","language":"zh"},{"name":"Sancoki","language":"fr"},{"name":"Schalellos","language":"de"},{"name":"Shellos","language":"es"},{"name":"Shellos","language":"it"},{"name":"Shellos","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"sea"}}],"form_descriptions":[{"description":"Forms only affect appearance.  A form is determined before a wild encounter based on whether the battle is in western or eastern Sinnoh, or inherited from the mother when breeding, and cannot be changed.","language":"en"}],"genera":[{"genus":"ウミウシ","language":"ja"},{"genus":"갯민숭달팽이","language":"ko"},{"genus":"Aqualimace","language":"fr"},{"genus":"Seeschnecke","language":"de"},{"genus":"Babosa Mar.","language":"es"},{"genus":"Lumacomare","language":"it"},{"genus":"Sea Slug","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"shellos"}}],"first_evolution_id":422}
+{
+  "id": 422,
+  "name": "shellos",
+  "order": 450,
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 60,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 60,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 422,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "indeterminate"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "purple"
+  },
+  "shape": {
+    "name": "armor"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "カラナクシ",
+      "language": "ja"
+    },
+    {
+      "name": "Karanakushi",
+      "language": "roomaji"
+    },
+    {
+      "name": "깝질무",
+      "language": "ko"
+    },
+    {
+      "name": "無殼海牛",
+      "language": "zh"
+    },
+    {
+      "name": "Sancoki",
+      "language": "fr"
+    },
+    {
+      "name": "Schalellos",
+      "language": "de"
+    },
+    {
+      "name": "Shellos",
+      "language": "es"
+    },
+    {
+      "name": "Shellos",
+      "language": "it"
+    },
+    {
+      "name": "Shellos",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [
+    {
+      "description": "Forms only affect appearance.  A form is determined before a wild encounter based on whether the battle is in western or eastern Sinnoh, or inherited from the mother when breeding, and cannot be changed.",
+      "language": "en"
+    }
+  ],
+  "genera": [
+    {
+      "genus": "ウミウシ",
+      "language": "ja"
+    },
+    {
+      "genus": "갯민숭달팽이",
+      "language": "ko"
+    },
+    {
+      "genus": "Aqualimace",
+      "language": "fr"
+    },
+    {
+      "genus": "Seeschnecke",
+      "language": "de"
+    },
+    {
+      "genus": "Babosa Mar.",
+      "language": "es"
+    },
+    {
+      "genus": "Lumacomare",
+      "language": "it"
+    },
+    {
+      "genus": "Sea Slug",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "shellos"
+      }
+    }
+  ],
+  "first_evolution_id": 422
+}

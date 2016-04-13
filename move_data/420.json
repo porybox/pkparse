@@ -1,1 +1,85 @@
-{"id":420,"name":"ice-shard","accuracy":100,"effect_chance":null,"pp":30,"priority":1,"power":40,"contest_combos":null,"contest_type":{"name":"beauty"},"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.","short_effect":"Inflicts regular damage with no additional effect.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Ice Shard","language":"en"},{"name":"Geloscheggia","language":"it"},{"name":"Canto Helado","language":"es"},{"name":"Eissplitter","language":"de"},{"name":"Éclats Glace","language":"fr"},{"name":"얼음뭉치","language":"ko"},{"name":"こおりのつぶて","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"ice"}}
+{
+  "id": 420,
+  "name": "ice-shard",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 30,
+  "priority": 1,
+  "power": 40,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
+      "short_effect": "Inflicts regular damage with no additional effect.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Ice Shard",
+      "language": "en"
+    },
+    {
+      "name": "Geloscheggia",
+      "language": "it"
+    },
+    {
+      "name": "Canto Helado",
+      "language": "es"
+    },
+    {
+      "name": "Eissplitter",
+      "language": "de"
+    },
+    {
+      "name": "Éclats Glace",
+      "language": "fr"
+    },
+    {
+      "name": "얼음뭉치",
+      "language": "ko"
+    },
+    {
+      "name": "こおりのつぶて",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "ice"
+  }
+}

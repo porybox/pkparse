@@ -1,1 +1,143 @@
-{"id":641,"name":"x-sp-atk-3","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"miracle-shooter"},"effect_entries":[{"effect":"Used on a party Pokémon in battle\n:   Raises the target's [Special Attack]{mechanic:special-attack} by three [stages]{mechanic:stage}.\nThis item can only be obtained or used via the Wonder Launcher.","short_effect":"Raises [Special Attack]{mechanic:special-attack} by three [stages]{mechanic:stage} in battle.  Wonder Launcher only.","language":"en"}],"flavor_text_entries":[{"text":"戦闘中の　ポケモンの\n特攻を　かなり　あげる。\nひっこめると　元に　戻る。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"It drastically raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.","version_group":{"name":"x-y"},"language":"en"},{"text":"Aumenta moltissimo l’Attacco Speciale di un\nPokémon in una lotta. L’effetto svanisce se il\nPokémon è sostituito.","version_group":{"name":"x-y"},"language":"it"},{"text":"Ataque con los puños. Puede bajar la Defensa del\nobjetivo. Puede romper rocas fuera del combate.","version_group":{"name":"x-y"},"language":"es"},{"text":"Hebt den Spezial-Angriffs-Wert eines Pokémon\nim Kampf stark an. Die Wirkung endet mit dem\nAustausch des Pokémon.","version_group":{"name":"x-y"},"language":"de"},{"text":"Augmente sensiblement l’Attaque Spéciale\npendant un combat. L’effet s’estompe si\nle Pokémon se retire.","version_group":{"name":"x-y"},"language":"fr"},{"text":"배틀 중인 포켓몬의 특수공격을\n상당히 올린다. 포켓몬을 볼에\n넣어버리면 원래대로 되돌아간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"せんとうちゅうの　ポケモンの\nとくこうを　かなり　あげる。\nひっこめると　もとに　もどる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It drastically raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It drastically raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.","version_group":{"name":"black-white"},"language":"en"},{"text":"Monte sensiblement l’Atq. Spé. pendant\nun combat. L’effet s’estompe\nsi le Pokémon se retire.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":600,"generation":{"name":"generation-vi"}},{"game_index":600,"generation":{"name":"generation-v"}}],"names":[{"name":"X Sp. Atk 3","language":"en"},{"name":"Special X-3","language":"it"},{"name":"Especial X 3","language":"es"},{"name":"X-Spezial3","language":"de"},{"name":"Atq. Spé. 3","language":"fr"},{"name":"스페셜업3","language":"ko"},{"name":"ＳＰアップ３","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 641,
+  "name": "x-sp-atk-3",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "miracle-shooter"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon in battle\n:   Raises the target's [Special Attack]{mechanic:special-attack} by three [stages]{mechanic:stage}.\nThis item can only be obtained or used via the Wonder Launcher.",
+      "short_effect": "Raises [Special Attack]{mechanic:special-attack} by three [stages]{mechanic:stage} in battle.  Wonder Launcher only.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "戦闘中の　ポケモンの\n特攻を　かなり　あげる。\nひっこめると　元に　戻る。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "It drastically raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Aumenta moltissimo l’Attacco Speciale di un\nPokémon in una lotta. L’effetto svanisce se il\nPokémon è sostituito.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Ataque con los puños. Puede bajar la Defensa del\nobjetivo. Puede romper rocas fuera del combate.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Hebt den Spezial-Angriffs-Wert eines Pokémon\nim Kampf stark an. Die Wirkung endet mit dem\nAustausch des Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Augmente sensiblement l’Attaque Spéciale\npendant un combat. L’effet s’estompe si\nle Pokémon se retire.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "배틀 중인 포켓몬의 특수공격을\n상당히 올린다. 포켓몬을 볼에\n넣어버리면 원래대로 되돌아간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "せんとうちゅうの　ポケモンの\nとくこうを　かなり　あげる。\nひっこめると　もとに　もどる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It drastically raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It drastically raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Monte sensiblement l’Atq. Spé. pendant\nun combat. L’effet s’estompe\nsi le Pokémon se retire.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 600,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 600,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "X Sp. Atk 3",
+      "language": "en"
+    },
+    {
+      "name": "Special X-3",
+      "language": "it"
+    },
+    {
+      "name": "Especial X 3",
+      "language": "es"
+    },
+    {
+      "name": "X-Spezial3",
+      "language": "de"
+    },
+    {
+      "name": "Atq. Spé. 3",
+      "language": "fr"
+    },
+    {
+      "name": "스페셜업3",
+      "language": "ko"
+    },
+    {
+      "name": "ＳＰアップ３",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

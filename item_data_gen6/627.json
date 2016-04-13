@@ -1,1 +1,129 @@
-{"id":670,"name":"medal-box","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"","short_effect":"Holds medals recieved in the medal rally.","language":"en"}],"flavor_text_entries":[{"text":"獲得した　メダルを　収納し\nメダルについての　情報を\n記録する　箱型の　機械。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A box-shaped machine\nthat stores Medals and\nMedal information.","version_group":{"name":"x-y"},"language":"en"},{"text":"Apparecchio rettangolare usato per custodire\ni Premi ottenuti e tutte le informazioni che li\nriguardano.","version_group":{"name":"x-y"},"language":"it"},{"text":"Un dulce a base de suave y esponjosa nata\nmontada. A algunos Pokémon les encanta.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Gerät in Form einer Box, in der Medaillen\naufbewahrt und Informationen dazu gespeichert\nwerden.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une boîte qui permet de ranger les Médailles et\nd’enregistrer des informations à leur sujet.","version_group":{"name":"x-y"},"language":"fr"},{"text":"획득한 메달을 수납하고\n메달에 대한 정보를\n기록하는 상자 모양의 기계.","version_group":{"name":"x-y"},"language":"ko"},{"text":"かくとくした　メダルを　しゅうのうし\nメダルについての　じょうほうを\nきろくする　はこがたの　きかい。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A box-shaped machine\nthat stores Medals and\nMedal information.","version_group":{"name":"black-2-white-2"},"language":"en"}],"game_indices":[{"game_index":627,"generation":{"name":"generation-vi"}},{"game_index":627,"generation":{"name":"generation-v"}}],"names":[{"name":"Medal Box","language":"en"},{"name":"Box Premi","language":"it"},{"name":"Caja Insignias","language":"es"},{"name":"Medaillenbox","language":"de"},{"name":"Boîte Médailles","language":"fr"},{"name":"메달박스","language":"ko"},{"name":"メダルボックス","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 670,
+  "name": "medal-box",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "",
+      "short_effect": "Holds medals recieved in the medal rally.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "獲得した　メダルを　収納し\nメダルについての　情報を\n記録する　箱型の　機械。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A box-shaped machine\nthat stores Medals and\nMedal information.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Apparecchio rettangolare usato per custodire\ni Premi ottenuti e tutte le informazioni che li\nriguardano.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Un dulce a base de suave y esponjosa nata\nmontada. A algunos Pokémon les encanta.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Gerät in Form einer Box, in der Medaillen\naufbewahrt und Informationen dazu gespeichert\nwerden.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une boîte qui permet de ranger les Médailles et\nd’enregistrer des informations à leur sujet.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "획득한 메달을 수납하고\n메달에 대한 정보를\n기록하는 상자 모양의 기계.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "かくとくした　メダルを　しゅうのうし\nメダルについての　じょうほうを\nきろくする　はこがたの　きかい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A box-shaped machine\nthat stores Medals and\nMedal information.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 627,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 627,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Medal Box",
+      "language": "en"
+    },
+    {
+      "name": "Box Premi",
+      "language": "it"
+    },
+    {
+      "name": "Caja Insignias",
+      "language": "es"
+    },
+    {
+      "name": "Medaillenbox",
+      "language": "de"
+    },
+    {
+      "name": "Boîte Médailles",
+      "language": "fr"
+    },
+    {
+      "name": "메달박스",
+      "language": "ko"
+    },
+    {
+      "name": "メダルボックス",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

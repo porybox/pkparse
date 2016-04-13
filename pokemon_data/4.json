@@ -1,1 +1,162 @@
-{"id":4,"name":"charmander","order":4,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":83,"pokedex":{"name":"kalos-central"}},{"entry_number":109,"pokedex":{"name":"conquest-gallery"}},{"entry_number":234,"pokedex":{"name":"updated-johto"}},{"entry_number":229,"pokedex":{"name":"original-johto"}},{"entry_number":4,"pokedex":{"name":"kanto"}},{"entry_number":4,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"dragon"},{"name":"monster"}],"color":{"name":"red"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-i"},"names":[{"name":"ヒトカゲ","language":"ja"},{"name":"Hitokage","language":"roomaji"},{"name":"파이리","language":"ko"},{"name":"小火龍","language":"zh"},{"name":"Salamèche","language":"fr"},{"name":"Glumanda","language":"de"},{"name":"Charmander","language":"es"},{"name":"Charmander","language":"it"},{"name":"Charmander","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"とかげ","language":"ja"},{"genus":"도롱뇽","language":"ko"},{"genus":"Lézard","language":"fr"},{"genus":"Echse","language":"de"},{"genus":"Lagartija","language":"es"},{"genus":"Lucertola","language":"it"},{"genus":"Lizard","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"charmander"}}],"first_evolution_id":4}
+{
+  "id": 4,
+  "name": "charmander",
+  "order": 4,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 83,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 109,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 234,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 229,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 4,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 4,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "dragon"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ヒトカゲ",
+      "language": "ja"
+    },
+    {
+      "name": "Hitokage",
+      "language": "roomaji"
+    },
+    {
+      "name": "파이리",
+      "language": "ko"
+    },
+    {
+      "name": "小火龍",
+      "language": "zh"
+    },
+    {
+      "name": "Salamèche",
+      "language": "fr"
+    },
+    {
+      "name": "Glumanda",
+      "language": "de"
+    },
+    {
+      "name": "Charmander",
+      "language": "es"
+    },
+    {
+      "name": "Charmander",
+      "language": "it"
+    },
+    {
+      "name": "Charmander",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "とかげ",
+      "language": "ja"
+    },
+    {
+      "genus": "도롱뇽",
+      "language": "ko"
+    },
+    {
+      "genus": "Lézard",
+      "language": "fr"
+    },
+    {
+      "genus": "Echse",
+      "language": "de"
+    },
+    {
+      "genus": "Lagartija",
+      "language": "es"
+    },
+    {
+      "genus": "Lucertola",
+      "language": "it"
+    },
+    {
+      "genus": "Lizard",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "charmander"
+      }
+    }
+  ],
+  "first_evolution_id": 4
+}

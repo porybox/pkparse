@@ -1,1 +1,156 @@
-{"id":471,"name":"unown-report","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Lists which []{pokemon:unown} forms the trainer has caught.","short_effect":"Keeps track of Unown types caught.","language":"en"}],"flavor_text_entries":[{"text":"みつけた　アンノーンの　ようすが\n記録されている　ノート。\n","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A report of all the discovered kinds\nof Unown.","version_group":{"name":"x-y"},"language":"en"},{"text":"Quaderno dove si registrano tutte le forme\ndi Unown catturate.","version_group":{"name":"x-y"},"language":"it"},{"text":"Bonguri de color verde y aroma peculiar que\nrecuerda al café tostado.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Heft, in dem automatisch Daten zu bereits\ngefangenen Icognito aufgezeichnet werden.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un carnet permettant de noter toutes les formes\nde Zarbi capturées.","version_group":{"name":"x-y"},"language":"fr"},{"text":"발견한 안농의 모습이\n기록되어 있는 노트.","version_group":{"name":"x-y"},"language":"ko"},{"text":"みつけた　アンノーンの　ようすが\nきろく　されている　ノート。\n","version_group":{"name":"x-y"},"language":"ja"},{"text":"A report of all the discovered kinds\nof Unown.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A report of all the discovered kinds\nof Unown.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un carnet permettant de noter toutes\nles formes de Zarbi capturées.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A report of all the discovered kinds\nof UNOWN.","version_group":{"name":"heartgold-soulsilver"},"language":"en"}],"game_indices":[{"game_index":469,"generation":{"name":"generation-vi"}},{"game_index":469,"generation":{"name":"generation-v"}},{"game_index":469,"generation":{"name":"generation-iv"}}],"names":[{"name":"Unown Report","language":"en"},{"name":"UnownBloc","language":"it"},{"name":"Bloc Unown","language":"es"},{"name":"Icognitoheft","language":"de"},{"name":"Carnet Zarbi","language":"fr"},{"name":"안농노트","language":"ko"},{"name":"アンノーンノート","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 471,
+  "name": "unown-report",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Lists which []{pokemon:unown} forms the trainer has caught.",
+      "short_effect": "Keeps track of Unown types caught.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "みつけた　アンノーンの　ようすが\n記録されている　ノート。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A report of all the discovered kinds\nof Unown.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Quaderno dove si registrano tutte le forme\ndi Unown catturate.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Bonguri de color verde y aroma peculiar que\nrecuerda al café tostado.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Heft, in dem automatisch Daten zu bereits\ngefangenen Icognito aufgezeichnet werden.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un carnet permettant de noter toutes les formes\nde Zarbi capturées.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "발견한 안농의 모습이\n기록되어 있는 노트.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "みつけた　アンノーンの　ようすが\nきろく　されている　ノート。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A report of all the discovered kinds\nof Unown.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A report of all the discovered kinds\nof Unown.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un carnet permettant de noter toutes\nles formes de Zarbi capturées.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A report of all the discovered kinds\nof UNOWN.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 469,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 469,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 469,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Unown Report",
+      "language": "en"
+    },
+    {
+      "name": "UnownBloc",
+      "language": "it"
+    },
+    {
+      "name": "Bloc Unown",
+      "language": "es"
+    },
+    {
+      "name": "Icognitoheft",
+      "language": "de"
+    },
+    {
+      "name": "Carnet Zarbi",
+      "language": "fr"
+    },
+    {
+      "name": "안농노트",
+      "language": "ko"
+    },
+    {
+      "name": "アンノーンノート",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

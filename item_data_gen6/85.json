@@ -1,1 +1,201 @@
-{"id":85,"name":"leaf-stone","cost":2100,"fling_power":30,"fling_effect":null,"attributes":[{"name":"underground"}],"category":{"name":"evolution"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Evolves an []{pokemon:exeggcute} into []{pokemon:exeggutor}, a []{pokemon:gloom} into []{pokemon:vileplume}, a []{pokemon:nuzleaf} into []{pokemon:shiftry}, a []{pokemon:pansage} into []{pokemon:simisage}, or a []{pokemon:weepinbell} into []{pokemon:victreebel}.","short_effect":"Evolves an Exeggcute into Exeggutor, a Gloom into Vileplume, a Nuzleaf into Shiftry, a Pansage into Simisage, or a Weepinbell into Victreebel.","language":"en"}],"flavor_text_entries":[{"text":"ある　特定の　ポケモンを\n進化させる　不思議な　石。\nはっぱの　模様が　ある。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A peculiar stone that can make\ncertain species of Pokémon evolve.\nIt has an unmistakable leaf pattern.","version_group":{"name":"x-y"},"language":"en"},{"text":"Pietra particolare che fa evolvere determinate\nspecie di Pokémon. Riporta l’immagine\ndi una foglia.","version_group":{"name":"x-y"},"language":"it"},{"text":"Curiosa piedra que hace evolucionar a\ndeterminadas especies de Pokémon. Tiene\ngrabada una hoja.","version_group":{"name":"x-y"},"language":"es"},{"text":"Dieser spezielle Stein löst bei bestimmten\nPokémon die Entwicklung aus. Er hat ein\nBlattmuster.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une pierre étrange qui fait évoluer certaines\nespèces de Pokémon. Une feuille est dessinée\ndessus.","version_group":{"name":"x-y"},"language":"fr"},{"text":"어느 특정 포켓몬을\n진화시키는 이상한 돌.\n잎사귀 무늬가 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ある　とくていの　ポケモンを\nしんかさせる　ふしぎな　いし。\nはっぱの　もようが　ある。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a leaf pattern.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a leaf pattern.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon.\nUne feuille est dessinée dessus.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a leaf pattern.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a leaf pattern.","version_group":{"name":"platinum"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a leaf pattern.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of POKéMON evolve.\nIt has a leaf pattern.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Makes certain\nspecies of POKéMON\nevolve.","version_group":{"name":"emerald"},"language":"en"},{"text":"Makes certain\nspecies of POKéMON\nevolve.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":85,"generation":{"name":"generation-vi"}},{"game_index":85,"generation":{"name":"generation-v"}},{"game_index":85,"generation":{"name":"generation-iv"}},{"game_index":98,"generation":{"name":"generation-iii"}}],"names":[{"name":"Leaf Stone","language":"en"},{"name":"Pietrafoglia","language":"it"},{"name":"Piedra Hoja","language":"es"},{"name":"Blattstein","language":"de"},{"name":"Pierre Plante","language":"fr"},{"name":"리프의돌","language":"ko"},{"name":"リーフのいし","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 85,
+  "name": "leaf-stone",
+  "cost": 2100,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "underground"
+    }
+  ],
+  "category": {
+    "name": "evolution"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Evolves an []{pokemon:exeggcute} into []{pokemon:exeggutor}, a []{pokemon:gloom} into []{pokemon:vileplume}, a []{pokemon:nuzleaf} into []{pokemon:shiftry}, a []{pokemon:pansage} into []{pokemon:simisage}, or a []{pokemon:weepinbell} into []{pokemon:victreebel}.",
+      "short_effect": "Evolves an Exeggcute into Exeggutor, a Gloom into Vileplume, a Nuzleaf into Shiftry, a Pansage into Simisage, or a Weepinbell into Victreebel.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ある　特定の　ポケモンを\n進化させる　不思議な　石。\nはっぱの　模様が　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A peculiar stone that can make\ncertain species of Pokémon evolve.\nIt has an unmistakable leaf pattern.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pietra particolare che fa evolvere determinate\nspecie di Pokémon. Riporta l’immagine\ndi una foglia.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Curiosa piedra que hace evolucionar a\ndeterminadas especies de Pokémon. Tiene\ngrabada una hoja.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Dieser spezielle Stein löst bei bestimmten\nPokémon die Entwicklung aus. Er hat ein\nBlattmuster.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une pierre étrange qui fait évoluer certaines\nespèces de Pokémon. Une feuille est dessinée\ndessus.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "어느 특정 포켓몬을\n진화시키는 이상한 돌.\n잎사귀 무늬가 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ある　とくていの　ポケモンを\nしんかさせる　ふしぎな　いし。\nはっぱの　もようが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a leaf pattern.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a leaf pattern.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon.\nUne feuille est dessinée dessus.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a leaf pattern.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a leaf pattern.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a leaf pattern.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of POKéMON evolve.\nIt has a leaf pattern.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Makes certain\nspecies of POKéMON\nevolve.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Makes certain\nspecies of POKéMON\nevolve.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 85,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 85,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 85,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 98,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Leaf Stone",
+      "language": "en"
+    },
+    {
+      "name": "Pietrafoglia",
+      "language": "it"
+    },
+    {
+      "name": "Piedra Hoja",
+      "language": "es"
+    },
+    {
+      "name": "Blattstein",
+      "language": "de"
+    },
+    {
+      "name": "Pierre Plante",
+      "language": "fr"
+    },
+    {
+      "name": "리프의돌",
+      "language": "ko"
+    },
+    {
+      "name": "リーフのいし",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

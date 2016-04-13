@@ -1,1 +1,170 @@
-{"id":414,"name":"pal-pad","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Contains friend codes for up to 32 other players, as well as their sprite, gender, and basic statistics for those that have been seen on WFC.","short_effect":"Use to record Friend Codes and check your own.","language":"en"}],"flavor_text_entries":[{"text":"友達を　登録したり\n遊んだことを　記録する\n便利な　手帳。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A convenient notepad that is used to\nregister your Friends and friend codes\nand keep a record of your gameplay.","version_group":{"name":"x-y"},"language":"en"},{"text":"Blocco appunti utile per registrare gli amici e\nil loro codice amico e per tenere un resoconto\ndell’esperienza di gioco.","version_group":{"name":"x-y"},"language":"it"},{"text":"Es el billete válido para embarcar en el\nFerry S.S. Aqua. Tiene dibujado un barco.","version_group":{"name":"x-y"},"language":"es"},{"text":"In diesem praktischen Buch kannst du die\nFreundescodes deiner Freunde aufbewahren.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un carnet bien pratique pour enregistrer vos amis,\nles codes ami et des données de jeu.","version_group":{"name":"x-y"},"language":"fr"},{"text":"친구를 등록하거나\n친구와 놀았던 기록을 관리하는\n편리한 수첩.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ともだちを　とうろくしたり\nあそんだ　ことを　きろくする\nべんりな　てちょう。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un carnet bien pratique pour\nenregistrer vos amis, les codes\nami et des données de jeu.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.","version_group":{"name":"platinum"},"language":"en"},{"text":"A convenient notepad that is used for\nregistering your friends and keeping a\nrecord of game play.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":437,"generation":{"name":"generation-vi"}},{"game_index":437,"generation":{"name":"generation-v"}},{"game_index":437,"generation":{"name":"generation-iv"}}],"names":[{"name":"Pal Pad","language":"en"},{"name":"Blocco Amici","language":"it"},{"name":"Bloc amigos","language":"es"},{"name":"Adressbuch","language":"de"},{"name":"Registre Ami","language":"fr"},{"name":"친구수첩","language":"ko"},{"name":"ともだちてちょう","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 414,
+  "name": "pal-pad",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Contains friend codes for up to 32 other players, as well as their sprite, gender, and basic statistics for those that have been seen on WFC.",
+      "short_effect": "Use to record Friend Codes and check your own.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "友達を　登録したり\n遊んだことを　記録する\n便利な　手帳。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A convenient notepad that is used to\nregister your Friends and friend codes\nand keep a record of your gameplay.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Blocco appunti utile per registrare gli amici e\nil loro codice amico e per tenere un resoconto\ndell’esperienza di gioco.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Es el billete válido para embarcar en el\nFerry S.S. Aqua. Tiene dibujado un barco.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "In diesem praktischen Buch kannst du die\nFreundescodes deiner Freunde aufbewahren.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un carnet bien pratique pour enregistrer vos amis,\nles codes ami et des données de jeu.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "친구를 등록하거나\n친구와 놀았던 기록을 관리하는\n편리한 수첩.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ともだちを　とうろくしたり\nあそんだ　ことを　きろくする\nべんりな　てちょう。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un carnet bien pratique pour\nenregistrer vos amis, les codes\nami et des données de jeu.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A convenient notepad that is used for\nregistering your friends and keeping a\nrecord of game play.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 437,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 437,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 437,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Pal Pad",
+      "language": "en"
+    },
+    {
+      "name": "Blocco Amici",
+      "language": "it"
+    },
+    {
+      "name": "Bloc amigos",
+      "language": "es"
+    },
+    {
+      "name": "Adressbuch",
+      "language": "de"
+    },
+    {
+      "name": "Registre Ami",
+      "language": "fr"
+    },
+    {
+      "name": "친구수첩",
+      "language": "ko"
+    },
+    {
+      "name": "ともだちてちょう",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

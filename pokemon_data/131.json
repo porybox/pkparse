@@ -1,1 +1,168 @@
-{"id":131,"name":"lapras","order":155,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":40,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":150,"pokedex":{"name":"kalos-coastal"}},{"entry_number":190,"pokedex":{"name":"conquest-gallery"}},{"entry_number":242,"pokedex":{"name":"updated-unova"}},{"entry_number":224,"pokedex":{"name":"updated-johto"}},{"entry_number":219,"pokedex":{"name":"original-johto"}},{"entry_number":131,"pokedex":{"name":"kanto"}},{"entry_number":131,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water1"},{"name":"monster"}],"color":{"name":"blue"},"shape":{"name":"fish"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"sea"},"generation":{"name":"generation-i"},"names":[{"name":"ラプラス","language":"ja"},{"name":"Laplace","language":"roomaji"},{"name":"라프라스","language":"ko"},{"name":"乘龍","language":"zh"},{"name":"Lokhlass","language":"fr"},{"name":"Lapras","language":"de"},{"name":"Lapras","language":"es"},{"name":"Lapras","language":"it"},{"name":"Lapras","language":"en"}],"pal_park_encounters":[{"base_score":90,"rate":3,"area":{"name":"sea"}}],"form_descriptions":[],"genera":[{"genus":"のりもの","language":"ja"},{"genus":"탈것","language":"ko"},{"genus":"Transport","language":"fr"},{"genus":"Transport","language":"de"},{"genus":"Transporte","language":"es"},{"genus":"Trasporto","language":"it"},{"genus":"Transport","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"lapras"}}],"first_evolution_id":131}
+{
+  "id": 131,
+  "name": "lapras",
+  "order": 155,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 40,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 150,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 190,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 242,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 224,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 219,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 131,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 131,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water1"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "fish"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "sea"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ラプラス",
+      "language": "ja"
+    },
+    {
+      "name": "Laplace",
+      "language": "roomaji"
+    },
+    {
+      "name": "라프라스",
+      "language": "ko"
+    },
+    {
+      "name": "乘龍",
+      "language": "zh"
+    },
+    {
+      "name": "Lokhlass",
+      "language": "fr"
+    },
+    {
+      "name": "Lapras",
+      "language": "de"
+    },
+    {
+      "name": "Lapras",
+      "language": "es"
+    },
+    {
+      "name": "Lapras",
+      "language": "it"
+    },
+    {
+      "name": "Lapras",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 90,
+      "rate": 3,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "のりもの",
+      "language": "ja"
+    },
+    {
+      "genus": "탈것",
+      "language": "ko"
+    },
+    {
+      "genus": "Transport",
+      "language": "fr"
+    },
+    {
+      "genus": "Transport",
+      "language": "de"
+    },
+    {
+      "genus": "Transporte",
+      "language": "es"
+    },
+    {
+      "genus": "Trasporto",
+      "language": "it"
+    },
+    {
+      "genus": "Transport",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "lapras"
+      }
+    }
+  ],
+  "first_evolution_id": 131
+}

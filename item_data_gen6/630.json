@@ -1,1 +1,129 @@
-{"id":673,"name":"permit","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"","short_effect":"Grants access to the Nature Preserve.","language":"en"}],"flavor_text_entries":[{"text":"わずかな　人しか　知らない\n自然保護区に　入るために\n必要な　ライセンスカード。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A permit that is needed to\nenter the Nature Preserve.\nNot many know about it.","version_group":{"name":"x-y"},"language":"en"},{"text":"Tessera che permette di accedere a una\nRiserva Naturale conosciuta da pochi.","version_group":{"name":"x-y"},"language":"it"},{"text":"Objeto de un solo uso. Aumenta el Ataque del\nPokémon que lo lleva si este recibe un ataque de\ntipo Hielo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine Genehmigung in Form einer Karte, die\nden Zutritt ins Naturschutzgebiet ermöglicht.\nNur wenige kennen den Ort.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un permis nécessaire pour pénétrer dans\nla Réserve Naturelle, lieu protégé des foules\nmodernes.","version_group":{"name":"x-y"},"language":"fr"},{"text":"소수의 사람밖에 모르는\n자연보호구역에 들어가기 위해\n필요한 라이선스 카드.","version_group":{"name":"x-y"},"language":"ko"},{"text":"わずかな　ひとしか　しらない\nしぜんほごくに　はいるために\nひつような　ライセンスカード。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A permit needed\nto enter the Nature Preserve.\nOnly a few know about this place.","version_group":{"name":"black-2-white-2"},"language":"en"}],"game_indices":[{"game_index":630,"generation":{"name":"generation-vi"}},{"game_index":630,"generation":{"name":"generation-v"}}],"names":[{"name":"Permit","language":"en"},{"name":"Permesso","language":"it"},{"name":"Pase","language":"es"},{"name":"Genehmigung","language":"de"},{"name":"Permis","language":"fr"},{"name":"허가증","language":"ko"},{"name":"きょかしょう","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 673,
+  "name": "permit",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "",
+      "short_effect": "Grants access to the Nature Preserve.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "わずかな　人しか　知らない\n自然保護区に　入るために\n必要な　ライセンスカード。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A permit that is needed to\nenter the Nature Preserve.\nNot many know about it.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Tessera che permette di accedere a una\nRiserva Naturale conosciuta da pochi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Objeto de un solo uso. Aumenta el Ataque del\nPokémon que lo lleva si este recibe un ataque de\ntipo Hielo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine Genehmigung in Form einer Karte, die\nden Zutritt ins Naturschutzgebiet ermöglicht.\nNur wenige kennen den Ort.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un permis nécessaire pour pénétrer dans\nla Réserve Naturelle, lieu protégé des foules\nmodernes.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "소수의 사람밖에 모르는\n자연보호구역에 들어가기 위해\n필요한 라이선스 카드.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "わずかな　ひとしか　しらない\nしぜんほごくに　はいるために\nひつような　ライセンスカード。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A permit needed\nto enter the Nature Preserve.\nOnly a few know about this place.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 630,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 630,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Permit",
+      "language": "en"
+    },
+    {
+      "name": "Permesso",
+      "language": "it"
+    },
+    {
+      "name": "Pase",
+      "language": "es"
+    },
+    {
+      "name": "Genehmigung",
+      "language": "de"
+    },
+    {
+      "name": "Permis",
+      "language": "fr"
+    },
+    {
+      "name": "허가증",
+      "language": "ko"
+    },
+    {
+      "name": "きょかしょう",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

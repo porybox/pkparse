@@ -1,1 +1,145 @@
-{"id":410,"name":"shieldon","order":438,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":30,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow-then-very-fast"},"pokedex_numbers":[{"entry_number":163,"pokedex":{"name":"conquest-gallery"}},{"entry_number":38,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":38,"pokedex":{"name":"original-sinnoh"}},{"entry_number":410,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"monster"}],"color":{"name":"gray"},"shape":{"name":"quadruped"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"タテトプス","language":"ja"},{"name":"Tatetops","language":"roomaji"},{"name":"방패톱스","language":"ko"},{"name":"盾甲龍","language":"zh"},{"name":"Dinoclier","language":"fr"},{"name":"Schilterus","language":"de"},{"name":"Shieldon","language":"es"},{"name":"Shieldon","language":"it"},{"name":"Shieldon","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"シールド","language":"ja"},{"genus":"실드","language":"ko"},{"genus":"Bouclier","language":"fr"},{"genus":"Schutzschild","language":"de"},{"genus":"Escudo","language":"es"},{"genus":"Schermo","language":"it"},{"genus":"Shield","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"shieldon"}}],"first_evolution_id":410}
+{
+  "id": 410,
+  "name": "shieldon",
+  "order": 438,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 30,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow-then-very-fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 163,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 38,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 38,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 410,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "gray"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "タテトプス",
+      "language": "ja"
+    },
+    {
+      "name": "Tatetops",
+      "language": "roomaji"
+    },
+    {
+      "name": "방패톱스",
+      "language": "ko"
+    },
+    {
+      "name": "盾甲龍",
+      "language": "zh"
+    },
+    {
+      "name": "Dinoclier",
+      "language": "fr"
+    },
+    {
+      "name": "Schilterus",
+      "language": "de"
+    },
+    {
+      "name": "Shieldon",
+      "language": "es"
+    },
+    {
+      "name": "Shieldon",
+      "language": "it"
+    },
+    {
+      "name": "Shieldon",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "シールド",
+      "language": "ja"
+    },
+    {
+      "genus": "실드",
+      "language": "ko"
+    },
+    {
+      "genus": "Bouclier",
+      "language": "fr"
+    },
+    {
+      "genus": "Schutzschild",
+      "language": "de"
+    },
+    {
+      "genus": "Escudo",
+      "language": "es"
+    },
+    {
+      "genus": "Schermo",
+      "language": "it"
+    },
+    {
+      "genus": "Shield",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "shieldon"
+      }
+    }
+  ],
+  "first_evolution_id": 410
+}

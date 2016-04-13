@@ -1,1 +1,98 @@
-{"id":15,"name":"cut","accuracy":95,"effect_chance":null,"pp":30,"priority":0,"power":50,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"swords-dance"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.","short_effect":"Inflicts regular damage with no additional effect.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Cut","language":"en"},{"name":"Taglio","language":"it"},{"name":"Corte","language":"es"},{"name":"Zerschneider","language":"de"},{"name":"Coupe","language":"fr"},{"name":"풀베기","language":"ko"},{"name":"いあいぎり","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 15,
+  "name": "cut",
+  "accuracy": 95,
+  "effect_chance": null,
+  "pp": 30,
+  "priority": 0,
+  "power": 50,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "swords-dance"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
+      "short_effect": "Inflicts regular damage with no additional effect.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Cut",
+      "language": "en"
+    },
+    {
+      "name": "Taglio",
+      "language": "it"
+    },
+    {
+      "name": "Corte",
+      "language": "es"
+    },
+    {
+      "name": "Zerschneider",
+      "language": "de"
+    },
+    {
+      "name": "Coupe",
+      "language": "fr"
+    },
+    {
+      "name": "풀베기",
+      "language": "ko"
+    },
+    {
+      "name": "いあいぎり",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

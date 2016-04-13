@@ -1,1 +1,156 @@
-{"id":407,"name":"roserade","order":343,"gender_rate":4,"capture_rate":75,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":72,"pokedex":{"name":"kalos-central"}},{"entry_number":135,"pokedex":{"name":"updated-unova"}},{"entry_number":27,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":27,"pokedex":{"name":"original-sinnoh"}},{"entry_number":407,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"plant"},{"name":"fairy"}],"color":{"name":"green"},"shape":{"name":"humanoid"},"evolves_from_species":{"name":"roselia"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"ロズレイド","language":"ja"},{"name":"Roserade","language":"roomaji"},{"name":"로즈레이드","language":"ko"},{"name":"羅絲雷朵","language":"zh"},{"name":"Roserade","language":"fr"},{"name":"Roserade","language":"de"},{"name":"Roserade","language":"es"},{"name":"Roserade","language":"it"},{"name":"Roserade","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"ブーケ","language":"ja"},{"genus":"부케","language":"ko"},{"genus":"Bouquet","language":"fr"},{"genus":"Blumenstrauß","language":"de"},{"genus":"Ramillete","language":"es"},{"genus":"Floreale","language":"it"},{"genus":"Bouquet","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"roserade"}}],"first_evolution_id":406}
+{
+  "id": 407,
+  "name": "roserade",
+  "order": 343,
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 72,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 135,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 27,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 27,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 407,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "plant"
+    },
+    {
+      "name": "fairy"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": {
+    "name": "roselia"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "ロズレイド",
+      "language": "ja"
+    },
+    {
+      "name": "Roserade",
+      "language": "roomaji"
+    },
+    {
+      "name": "로즈레이드",
+      "language": "ko"
+    },
+    {
+      "name": "羅絲雷朵",
+      "language": "zh"
+    },
+    {
+      "name": "Roserade",
+      "language": "fr"
+    },
+    {
+      "name": "Roserade",
+      "language": "de"
+    },
+    {
+      "name": "Roserade",
+      "language": "es"
+    },
+    {
+      "name": "Roserade",
+      "language": "it"
+    },
+    {
+      "name": "Roserade",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ブーケ",
+      "language": "ja"
+    },
+    {
+      "genus": "부케",
+      "language": "ko"
+    },
+    {
+      "genus": "Bouquet",
+      "language": "fr"
+    },
+    {
+      "genus": "Blumenstrauß",
+      "language": "de"
+    },
+    {
+      "genus": "Ramillete",
+      "language": "es"
+    },
+    {
+      "genus": "Floreale",
+      "language": "it"
+    },
+    {
+      "genus": "Bouquet",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "roserade"
+      }
+    }
+  ],
+  "first_evolution_id": 406
+}

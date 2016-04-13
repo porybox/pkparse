@@ -1,1 +1,110 @@
-{"id":688,"name":"luminous-moss","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"held-items"},"effect_entries":[],"flavor_text_entries":[{"text":"使い捨ての　ひかりごけ。\n持たせて　みずの　技を　受けると\n特防が　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nIt boosts Sp. Def if hit with a Water-\ntype attack. It can only be used once.","version_group":{"name":"x-y"},"language":"en"},{"text":"Muschio luminoso monouso. Se il Pokémon\nche ha questo strumento subisce una mossa\ndi tipo Acqua, la sua Difesa Speciale aumenta.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una de las misteriosas Megapiedras. Permite\nmegaevolucionar a Aggron en combate.","version_group":{"name":"x-y"},"language":"es"},{"text":"Wird der Träger von einer Wasser-Attacke\ngetroffen, steigt seine Spezial-Verteidigung\nund das Item verschwindet.","version_group":{"name":"x-y"},"language":"de"},{"text":"Du lichen à usage unique.\nTenu, il augmente la Défense Spéciale lorsque\nle Pokémon subit une attaque de type Eau.","version_group":{"name":"x-y"},"language":"fr"},{"text":"단 한 번 쓰면 없어지는 빛이끼.\n지니게 하고 물 기술을 받으면\n특수방어가 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"つかいすての　ひかりごけ。\nもたせて　みずの　わざを　うけると\nとくぼうが　あがる。","version_group":{"name":"x-y"},"language":"ja"}],"game_indices":[{"game_index":648,"generation":{"name":"generation-vi"}}],"names":[{"name":"Luminous Moss","language":"en"},{"name":"Muschioluce","language":"it"},{"name":"Musgo Brillante","language":"es"},{"name":"Leuchtmoos","language":"de"},{"name":"Lichen Lumineux","language":"fr"},{"name":"빛이끼","language":"ko"},{"name":"ひかりごけ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 688,
+  "name": "luminous-moss",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "held-items"
+  },
+  "effect_entries": [],
+  "flavor_text_entries": [
+    {
+      "text": "使い捨ての　ひかりごけ。\n持たせて　みずの　技を　受けると\n特防が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt boosts Sp. Def if hit with a Water-\ntype attack. It can only be used once.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Muschio luminoso monouso. Se il Pokémon\nche ha questo strumento subisce una mossa\ndi tipo Acqua, la sua Difesa Speciale aumenta.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una de las misteriosas Megapiedras. Permite\nmegaevolucionar a Aggron en combate.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Wird der Träger von einer Wasser-Attacke\ngetroffen, steigt seine Spezial-Verteidigung\nund das Item verschwindet.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Du lichen à usage unique.\nTenu, il augmente la Défense Spéciale lorsque\nle Pokémon subit une attaque de type Eau.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "단 한 번 쓰면 없어지는 빛이끼.\n지니게 하고 물 기술을 받으면\n특수방어가 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "つかいすての　ひかりごけ。\nもたせて　みずの　わざを　うけると\nとくぼうが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 648,
+      "generation": {
+        "name": "generation-vi"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Luminous Moss",
+      "language": "en"
+    },
+    {
+      "name": "Muschioluce",
+      "language": "it"
+    },
+    {
+      "name": "Musgo Brillante",
+      "language": "es"
+    },
+    {
+      "name": "Leuchtmoos",
+      "language": "de"
+    },
+    {
+      "name": "Lichen Lumineux",
+      "language": "fr"
+    },
+    {
+      "name": "빛이끼",
+      "language": "ko"
+    },
+    {
+      "name": "ひかりごけ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

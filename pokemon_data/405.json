@@ -1,1 +1,147 @@
-{"id":405,"name":"luxray","order":435,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":36,"pokedex":{"name":"conquest-gallery"}},{"entry_number":19,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":19,"pokedex":{"name":"original-sinnoh"}},{"entry_number":405,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"blue"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"luxio"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"レントラー","language":"ja"},{"name":"Rentorar","language":"roomaji"},{"name":"렌트라","language":"ko"},{"name":"倫琴貓","language":"zh"},{"name":"Luxray","language":"fr"},{"name":"Luxtra","language":"de"},{"name":"Luxray","language":"es"},{"name":"Luxray","language":"it"},{"name":"Luxray","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"がんこう","language":"ja"},{"genus":"안광","language":"ko"},{"genus":"Brillœil","language":"fr"},{"genus":"Glühauge","language":"de"},{"genus":"Chispa Ojos","language":"es"},{"genus":"Occhiluce","language":"it"},{"genus":"Gleam Eyes","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"luxray"}}],"first_evolution_id":403}
+{
+  "id": 405,
+  "name": "luxray",
+  "order": 435,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 36,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 19,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 19,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 405,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "luxio"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "レントラー",
+      "language": "ja"
+    },
+    {
+      "name": "Rentorar",
+      "language": "roomaji"
+    },
+    {
+      "name": "렌트라",
+      "language": "ko"
+    },
+    {
+      "name": "倫琴貓",
+      "language": "zh"
+    },
+    {
+      "name": "Luxray",
+      "language": "fr"
+    },
+    {
+      "name": "Luxtra",
+      "language": "de"
+    },
+    {
+      "name": "Luxray",
+      "language": "es"
+    },
+    {
+      "name": "Luxray",
+      "language": "it"
+    },
+    {
+      "name": "Luxray",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "がんこう",
+      "language": "ja"
+    },
+    {
+      "genus": "안광",
+      "language": "ko"
+    },
+    {
+      "genus": "Brillœil",
+      "language": "fr"
+    },
+    {
+      "genus": "Glühauge",
+      "language": "de"
+    },
+    {
+      "genus": "Chispa Ojos",
+      "language": "es"
+    },
+    {
+      "genus": "Occhiluce",
+      "language": "it"
+    },
+    {
+      "genus": "Gleam Eyes",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "luxray"
+      }
+    }
+  ],
+  "first_evolution_id": 403
+}

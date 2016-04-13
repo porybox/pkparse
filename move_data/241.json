@@ -1,1 +1,149 @@
-{"id":241,"name":"sunny-day","accuracy":null,"effect_chance":null,"pp":5,"priority":0,"power":null,"contest_combos":{"normal":{"use_before":[{"name":"fire-punch"},{"name":"rolling-kick"},{"name":"ember"},{"name":"flamethrower"},{"name":"solar-beam"},{"name":"fire-spin"},{"name":"fire-blast"},{"name":"flame-wheel"},{"name":"sacred-fire"},{"name":"morning-sun"},{"name":"synthesis"},{"name":"moonlight"},{"name":"heat-wave"},{"name":"eruption"},{"name":"blaze-kick"},{"name":"blast-burn"},{"name":"weather-ball"},{"name":"overheat"}],"use_after":null},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"beauty"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Changes the weather to sunshine for five turns, during which []{type:fire} moves inflict 50% extra damage, and []{type:water} moves inflict half damage.\n\nIf the user is holding []{item:heat-rock}, this effect lasts for eight turns.\n\nPokémon cannot become [frozen]{mechanic:frozen}.\n\n[]{move:thunder} has 50% accuracy.\n\n[]{move:solar-beam} skips its charge turn.\n\n[]{move:moonlight}, []{move:morning-sun}, and []{move:synthesis} heal 2/3 of the user's max [HP]{mechanic:hp}.\n\nPokémon with []{ability:chlorophyll} have doubled original [Speed]{mechanic:speed}.\n\nPokémon with []{ability:forecast} become []{type:fire}.\n\nPokémon with []{ability:leaf-guard} are not affected by [major status effects]{mechanic:major-status-effects}.\n\nPokémon with []{ability:flower-gift} change form; every Pokémon on their side of the [field]{mechanic:field} have their original [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} increased by 50%.\n\nPokémon with []{ability:dry-skin} lose 1/8 max [HP]{mechanic:hp} at the end of each turn.\n\nPokémon with []{ability:solar-power} have their original [Special Attack]{mechanic:special-attack} raised by 50% but lose 1/8 their max [HP]{mechanic:hp} at the end of each turn.","short_effect":"Changes the weather to sunny for five turns.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"whole-field-effect"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Sunny Day","language":"en"},{"name":"Giornodisole","language":"it"},{"name":"Día Soleado","language":"es"},{"name":"Sonnentag","language":"de"},{"name":"Zénith","language":"fr"},{"name":"쾌청","language":"ko"},{"name":"にほんばれ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"entire-field"},"type":{"name":"fire"}}
+{
+  "id": 241,
+  "name": "sunny-day",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 5,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "fire-punch"
+        },
+        {
+          "name": "rolling-kick"
+        },
+        {
+          "name": "ember"
+        },
+        {
+          "name": "flamethrower"
+        },
+        {
+          "name": "solar-beam"
+        },
+        {
+          "name": "fire-spin"
+        },
+        {
+          "name": "fire-blast"
+        },
+        {
+          "name": "flame-wheel"
+        },
+        {
+          "name": "sacred-fire"
+        },
+        {
+          "name": "morning-sun"
+        },
+        {
+          "name": "synthesis"
+        },
+        {
+          "name": "moonlight"
+        },
+        {
+          "name": "heat-wave"
+        },
+        {
+          "name": "eruption"
+        },
+        {
+          "name": "blaze-kick"
+        },
+        {
+          "name": "blast-burn"
+        },
+        {
+          "name": "weather-ball"
+        },
+        {
+          "name": "overheat"
+        }
+      ],
+      "use_after": null
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Changes the weather to sunshine for five turns, during which []{type:fire} moves inflict 50% extra damage, and []{type:water} moves inflict half damage.\n\nIf the user is holding []{item:heat-rock}, this effect lasts for eight turns.\n\nPokémon cannot become [frozen]{mechanic:frozen}.\n\n[]{move:thunder} has 50% accuracy.\n\n[]{move:solar-beam} skips its charge turn.\n\n[]{move:moonlight}, []{move:morning-sun}, and []{move:synthesis} heal 2/3 of the user's max [HP]{mechanic:hp}.\n\nPokémon with []{ability:chlorophyll} have doubled original [Speed]{mechanic:speed}.\n\nPokémon with []{ability:forecast} become []{type:fire}.\n\nPokémon with []{ability:leaf-guard} are not affected by [major status effects]{mechanic:major-status-effects}.\n\nPokémon with []{ability:flower-gift} change form; every Pokémon on their side of the [field]{mechanic:field} have their original [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} increased by 50%.\n\nPokémon with []{ability:dry-skin} lose 1/8 max [HP]{mechanic:hp} at the end of each turn.\n\nPokémon with []{ability:solar-power} have their original [Special Attack]{mechanic:special-attack} raised by 50% but lose 1/8 their max [HP]{mechanic:hp} at the end of each turn.",
+      "short_effect": "Changes the weather to sunny for five turns.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "whole-field-effect"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Sunny Day",
+      "language": "en"
+    },
+    {
+      "name": "Giornodisole",
+      "language": "it"
+    },
+    {
+      "name": "Día Soleado",
+      "language": "es"
+    },
+    {
+      "name": "Sonnentag",
+      "language": "de"
+    },
+    {
+      "name": "Zénith",
+      "language": "fr"
+    },
+    {
+      "name": "쾌청",
+      "language": "ko"
+    },
+    {
+      "name": "にほんばれ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "entire-field"
+  },
+  "type": {
+    "name": "fire"
+  }
+}

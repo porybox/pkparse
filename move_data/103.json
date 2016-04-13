@@ -1,1 +1,92 @@
-{"id":103,"name":"screech","accuracy":85,"effect_chance":null,"pp":40,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Lowers the target's [Defense]{mechanic:defense} by two [stages]{mechanic:stage}.","short_effect":"Lowers the target's Defense by two stages.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"net-good-stats"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Screech","language":"en"},{"name":"Stridio","language":"it"},{"name":"Chirrido","language":"es"},{"name":"Kreideschrei","language":"de"},{"name":"Grincement","language":"fr"},{"name":"싫은소리","language":"ko"},{"name":"いやなおと","language":"ja"}],"past_values":[],"stat_changes":[{"change":-2,"stat":{"name":"defense"}}],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 103,
+  "name": "screech",
+  "accuracy": 85,
+  "effect_chance": null,
+  "pp": 40,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Lowers the target's [Defense]{mechanic:defense} by two [stages]{mechanic:stage}.",
+      "short_effect": "Lowers the target's Defense by two stages.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "net-good-stats"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Screech",
+      "language": "en"
+    },
+    {
+      "name": "Stridio",
+      "language": "it"
+    },
+    {
+      "name": "Chirrido",
+      "language": "es"
+    },
+    {
+      "name": "Kreideschrei",
+      "language": "de"
+    },
+    {
+      "name": "Grincement",
+      "language": "fr"
+    },
+    {
+      "name": "싫은소리",
+      "language": "ko"
+    },
+    {
+      "name": "いやなおと",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": -2,
+      "stat": {
+        "name": "defense"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

@@ -1,1 +1,150 @@
-{"id":336,"name":"seviper","order":364,"gender_rate":4,"capture_rate":90,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"fast-then-very-slow"},"pokedex_numbers":[{"entry_number":6,"pokedex":{"name":"kalos-coastal"}},{"entry_number":187,"pokedex":{"name":"updated-unova"}},{"entry_number":124,"pokedex":{"name":"hoenn"}},{"entry_number":336,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"dragon"},{"name":"ground"}],"color":{"name":"black"},"shape":{"name":"squiggle"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-iii"},"names":[{"name":"ハブネーク","language":"ja"},{"name":"Habunake","language":"roomaji"},{"name":"세비퍼","language":"ko"},{"name":"飯匙蛇","language":"zh"},{"name":"Séviper","language":"fr"},{"name":"Vipitis","language":"de"},{"name":"Seviper","language":"es"},{"name":"Seviper","language":"it"},{"name":"Seviper","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"キバへび","language":"ja"},{"genus":"송곳뱀","language":"ko"},{"genus":"Serpacroc","language":"fr"},{"genus":"Reißzahn","language":"de"},{"genus":"Colmillos","language":"es"},{"genus":"Zannaserpe","language":"it"},{"genus":"Fang Snake","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"seviper"}}],"first_evolution_id":336}
+{
+  "id": 336,
+  "name": "seviper",
+  "order": 364,
+  "gender_rate": 4,
+  "capture_rate": 90,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "fast-then-very-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 6,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 187,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 124,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 336,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "dragon"
+    },
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "black"
+  },
+  "shape": {
+    "name": "squiggle"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ハブネーク",
+      "language": "ja"
+    },
+    {
+      "name": "Habunake",
+      "language": "roomaji"
+    },
+    {
+      "name": "세비퍼",
+      "language": "ko"
+    },
+    {
+      "name": "飯匙蛇",
+      "language": "zh"
+    },
+    {
+      "name": "Séviper",
+      "language": "fr"
+    },
+    {
+      "name": "Vipitis",
+      "language": "de"
+    },
+    {
+      "name": "Seviper",
+      "language": "es"
+    },
+    {
+      "name": "Seviper",
+      "language": "it"
+    },
+    {
+      "name": "Seviper",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "キバへび",
+      "language": "ja"
+    },
+    {
+      "genus": "송곳뱀",
+      "language": "ko"
+    },
+    {
+      "genus": "Serpacroc",
+      "language": "fr"
+    },
+    {
+      "genus": "Reißzahn",
+      "language": "de"
+    },
+    {
+      "genus": "Colmillos",
+      "language": "es"
+    },
+    {
+      "genus": "Zannaserpe",
+      "language": "it"
+    },
+    {
+      "genus": "Fang Snake",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "seviper"
+      }
+    }
+  ],
+  "first_evolution_id": 336
+}

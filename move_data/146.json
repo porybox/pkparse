@@ -1,1 +1,103 @@
-{"id":146,"name":"dizzy-punch","accuracy":100,"effect_chance":20,"pp":10,"priority":0,"power":70,"contest_combos":null,"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [confuse]{mechanic:confuse} the target.","short_effect":"Has a $effect_chance% chance to confuse the target.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"confusion"},"category":{"name":"damage+ailment"},"min_hits":null,"max_hits":null,"min_turns":2,"max_turns":5,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":20,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Dizzy Punch","language":"en"},{"name":"Stordipugno","language":"it"},{"name":"Puño Mareo","language":"es"},{"name":"Irrschlag","language":"de"},{"name":"Uppercut","language":"fr"},{"name":"잼잼펀치","language":"ko"},{"name":"ピヨピヨパンチ","language":"ja"}],"past_values":[{"accuracy":null,"power":null,"pp":null,"effect_chance":0,"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.","short_effect":"Inflicts regular damage with no additional effect.","language":"en"}],"type":null,"version_group":{"name":"gold-silver"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 146,
+  "name": "dizzy-punch",
+  "accuracy": 100,
+  "effect_chance": 20,
+  "pp": 10,
+  "priority": 0,
+  "power": 70,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [confuse]{mechanic:confuse} the target.",
+      "short_effect": "Has a $effect_chance% chance to confuse the target.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "confusion"
+    },
+    "category": {
+      "name": "damage+ailment"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": 2,
+    "max_turns": 5,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 20,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Dizzy Punch",
+      "language": "en"
+    },
+    {
+      "name": "Stordipugno",
+      "language": "it"
+    },
+    {
+      "name": "Puño Mareo",
+      "language": "es"
+    },
+    {
+      "name": "Irrschlag",
+      "language": "de"
+    },
+    {
+      "name": "Uppercut",
+      "language": "fr"
+    },
+    {
+      "name": "잼잼펀치",
+      "language": "ko"
+    },
+    {
+      "name": "ピヨピヨパンチ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": null,
+      "pp": null,
+      "effect_chance": 0,
+      "effect_entries": [
+        {
+          "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
+          "short_effect": "Inflicts regular damage with no additional effect.",
+          "language": "en"
+        }
+      ],
+      "type": null,
+      "version_group": {
+        "name": "gold-silver"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

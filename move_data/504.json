@@ -1,1 +1,83 @@
-{"id":504,"name":"shell-smash","accuracy":null,"effect_chance":null,"pp":15,"priority":0,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Raises the user's [Attack]{mechanic:attack}, [Special Attack]{mechanic:special-attack}, and [Speed]{mechanic:speed} by two [stages]{mechanic:stage} each.  Lowers the user's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} by one []{mechanic:stage} each.","short_effect":"Raises user's Attack, Special Attack, and Speed by two stages.  Lower user's Defense and Special Defense by one stage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Shell Smash","language":"en"},{"name":"Gettaguscio","language":"it"},{"name":"Rompecoraza","language":"es"},{"name":"Hausbruch","language":"de"},{"name":"Exuviation","language":"fr"},{"name":"껍질깨기","language":"ko"},{"name":"からをやぶる","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"user"},"type":{"name":"normal"}}
+{
+  "id": 504,
+  "name": "shell-smash",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Raises the user's [Attack]{mechanic:attack}, [Special Attack]{mechanic:special-attack}, and [Speed]{mechanic:speed} by two [stages]{mechanic:stage} each.  Lowers the user's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} by one []{mechanic:stage} each.",
+      "short_effect": "Raises user's Attack, Special Attack, and Speed by two stages.  Lower user's Defense and Special Defense by one stage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Shell Smash",
+      "language": "en"
+    },
+    {
+      "name": "Gettaguscio",
+      "language": "it"
+    },
+    {
+      "name": "Rompecoraza",
+      "language": "es"
+    },
+    {
+      "name": "Hausbruch",
+      "language": "de"
+    },
+    {
+      "name": "Exuviation",
+      "language": "fr"
+    },
+    {
+      "name": "껍질깨기",
+      "language": "ko"
+    },
+    {
+      "name": "からをやぶる",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

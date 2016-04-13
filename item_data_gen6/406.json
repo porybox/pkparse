@@ -1,1 +1,170 @@
-{"id":383,"name":"tm79","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Dark Pulse to a compatible Pokémon.","short_effect":"Teaches Frost Breath to a compatible Pokémon. (Gen IV: Dark Pulse)","language":"en"}],"flavor_text_entries":[{"text":"冷たい　息を\n相手に　吹きつけて　攻撃する。\n必ず　急所に　当たる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user blows its cold breath on the\ntarget. This attack always results in\na critical hit.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa attacca il bersaglio con un soffio\nd’aria gelida.\nBrutto colpo assicurato.","version_group":{"name":"x-y"},"language":"it"},{"text":"Genera mucha fuerza y ataca con gran energía\nal objetivo. También puede usarse para mover\npiedras grandes.","version_group":{"name":"x-y"},"language":"es"},{"text":"Anwender greift an, indem er dem Ziel eisigen\nAtem entgegenhaucht. Volltreffergarantie.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un souffle froid blesse l’ennemi.\nL’effet est toujours critique.","version_group":{"name":"x-y"},"language":"fr"},{"text":"차가운 숨결을\n상대에게 내뿜어 공격한다.\n반드시 급소에 맞는다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"つめたい　いきを\nあいてに　ふきつけて　こうげきする。\nかならず　きゅうしょに　あたる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user blows a cold breath on the\ntarget. This attack always results in\na critical hit.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user blows a cold breath on the\ntarget. This attack always results in\na critical hit.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un souffle froid blesse l’ennemi.\nL’effet est toujours critique.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user releases a horrible aura\nimbued with dark thoughts. It may also\nmake the target flinch.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user releases a horrible aura\nimbued with dark thoughts. It may also\nmake the target flinch.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user releases a horrible aura\nimbued with dark thoughts. It may also\nmake the target flinch.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":406,"generation":{"name":"generation-vi"}},{"game_index":406,"generation":{"name":"generation-v"}},{"game_index":406,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM79","language":"en"},{"name":"MT79","language":"it"},{"name":"MT79","language":"es"},{"name":"TM79","language":"de"},{"name":"CT79","language":"fr"},{"name":"기술머신79","language":"ko"},{"name":"わざマシン７９","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 383,
+  "name": "tm79",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Dark Pulse to a compatible Pokémon.",
+      "short_effect": "Teaches Frost Breath to a compatible Pokémon. (Gen IV: Dark Pulse)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "冷たい　息を\n相手に　吹きつけて　攻撃する。\n必ず　急所に　当たる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user blows its cold breath on the\ntarget. This attack always results in\na critical hit.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa attacca il bersaglio con un soffio\nd’aria gelida.\nBrutto colpo assicurato.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Genera mucha fuerza y ataca con gran energía\nal objetivo. También puede usarse para mover\npiedras grandes.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Anwender greift an, indem er dem Ziel eisigen\nAtem entgegenhaucht. Volltreffergarantie.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un souffle froid blesse l’ennemi.\nL’effet est toujours critique.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "차가운 숨결을\n상대에게 내뿜어 공격한다.\n반드시 급소에 맞는다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "つめたい　いきを\nあいてに　ふきつけて　こうげきする。\nかならず　きゅうしょに　あたる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user blows a cold breath on the\ntarget. This attack always results in\na critical hit.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user blows a cold breath on the\ntarget. This attack always results in\na critical hit.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un souffle froid blesse l’ennemi.\nL’effet est toujours critique.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user releases a horrible aura\nimbued with dark thoughts. It may also\nmake the target flinch.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user releases a horrible aura\nimbued with dark thoughts. It may also\nmake the target flinch.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user releases a horrible aura\nimbued with dark thoughts. It may also\nmake the target flinch.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 406,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 406,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 406,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM79",
+      "language": "en"
+    },
+    {
+      "name": "MT79",
+      "language": "it"
+    },
+    {
+      "name": "MT79",
+      "language": "es"
+    },
+    {
+      "name": "TM79",
+      "language": "de"
+    },
+    {
+      "name": "CT79",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신79",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン７９",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

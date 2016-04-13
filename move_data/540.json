@@ -1,1 +1,83 @@
-{"id":540,"name":"psystrike","accuracy":100,"effect_chance":null,"pp":10,"priority":0,"power":100,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Damage calculation always uses the target's [Defense]{mechanic:defense}, regardless of this move's damage class.","short_effect":"Inflicts damage based on the target's Defense, not Special Defense.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Psystrike","language":"en"},{"name":"Psicobotta","language":"it"},{"name":"Onda Mental","language":"es"},{"name":"Psychostoß","language":"de"},{"name":"Frappe Psy","language":"fr"},{"name":"사이코브레이크","language":"ko"},{"name":"サイコブレイク","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"psychic"}}
+{
+  "id": 540,
+  "name": "psystrike",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": 100,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Damage calculation always uses the target's [Defense]{mechanic:defense}, regardless of this move's damage class.",
+      "short_effect": "Inflicts damage based on the target's Defense, not Special Defense.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Psystrike",
+      "language": "en"
+    },
+    {
+      "name": "Psicobotta",
+      "language": "it"
+    },
+    {
+      "name": "Onda Mental",
+      "language": "es"
+    },
+    {
+      "name": "Psychostoß",
+      "language": "de"
+    },
+    {
+      "name": "Frappe Psy",
+      "language": "fr"
+    },
+    {
+      "name": "사이코브레이크",
+      "language": "ko"
+    },
+    {
+      "name": "サイコブレイク",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "psychic"
+  }
+}

@@ -1,1 +1,85 @@
-{"id":160,"name":"conversion","accuracy":null,"effect_chance":null,"pp":30,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"beauty"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"User's [type]{mechanic:type} changes to the [type]{mechanic:type} of one of its moves, selected at random.  []{move:hidden-power} and []{move:weather-ball} are treated as []{type:normal}.  Only moves with a different [type]{mechanic:type} are eligible, and []{move:curse} is never eligible.  If the user has no suitable moves, this move will [fail]{mechanic:fail}.","short_effect":"User's type changes to the type of one of its moves at random.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Conversion","language":"en"},{"name":"Conversione","language":"it"},{"name":"Conversión","language":"es"},{"name":"Umwandlung","language":"de"},{"name":"Conversion","language":"fr"},{"name":"텍스처","language":"ko"},{"name":"テクスチャー","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"normal"}}
+{
+  "id": 160,
+  "name": "conversion",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 30,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "User's [type]{mechanic:type} changes to the [type]{mechanic:type} of one of its moves, selected at random.  []{move:hidden-power} and []{move:weather-ball} are treated as []{type:normal}.  Only moves with a different [type]{mechanic:type} are eligible, and []{move:curse} is never eligible.  If the user has no suitable moves, this move will [fail]{mechanic:fail}.",
+      "short_effect": "User's type changes to the type of one of its moves at random.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Conversion",
+      "language": "en"
+    },
+    {
+      "name": "Conversione",
+      "language": "it"
+    },
+    {
+      "name": "Conversión",
+      "language": "es"
+    },
+    {
+      "name": "Umwandlung",
+      "language": "de"
+    },
+    {
+      "name": "Conversion",
+      "language": "fr"
+    },
+    {
+      "name": "텍스처",
+      "language": "ko"
+    },
+    {
+      "name": "テクスチャー",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

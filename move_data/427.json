@@ -1,1 +1,85 @@
-{"id":427,"name":"psycho-cut","accuracy":100,"effect_chance":null,"pp":20,"priority":0,"power":70,"contest_combos":null,"contest_type":{"name":"cool"},"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.","short_effect":"Has an increased chance for a critical hit.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":1,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Psycho Cut","language":"en"},{"name":"Psicotaglio","language":"it"},{"name":"Psicocorte","language":"es"},{"name":"Psychoklinge","language":"de"},{"name":"Coupe Psycho","language":"fr"},{"name":"사이코커터","language":"ko"},{"name":"サイコカッター","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"psychic"}}
+{
+  "id": 427,
+  "name": "psycho-cut",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": 70,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.",
+      "short_effect": "Has an increased chance for a critical hit.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 1,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Psycho Cut",
+      "language": "en"
+    },
+    {
+      "name": "Psicotaglio",
+      "language": "it"
+    },
+    {
+      "name": "Psicocorte",
+      "language": "es"
+    },
+    {
+      "name": "Psychoklinge",
+      "language": "de"
+    },
+    {
+      "name": "Coupe Psycho",
+      "language": "fr"
+    },
+    {
+      "name": "사이코커터",
+      "language": "ko"
+    },
+    {
+      "name": "サイコカッター",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "psychic"
+  }
+}

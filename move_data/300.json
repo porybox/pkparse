@@ -1,1 +1,114 @@
-{"id":300,"name":"mud-sport","accuracy":null,"effect_chance":null,"pp":15,"priority":0,"power":null,"contest_combos":{"normal":{"use_before":[{"name":"water-gun"},{"name":"mud-slap"},{"name":"water-sport"}],"use_after":[{"name":"mud-slap"},{"name":"sandstorm"},{"name":"water-sport"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"cute"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"[]{type:electric} moves inflict half damage, regardless of target.  If the user leaves the [field]{mechanic:field}, this effect ends.","short_effect":"Halves all Electric-type damage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"whole-field-effect"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Mud Sport","language":"en"},{"name":"Fangata","language":"it"},{"name":"Chapoteo Lodo","language":"es"},{"name":"Lehmsuhler","language":"de"},{"name":"Lance-Boue","language":"fr"},{"name":"흙놀이","language":"ko"},{"name":"どろあそび","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"entire-field"},"type":{"name":"ground"}}
+{
+  "id": 300,
+  "name": "mud-sport",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "water-gun"
+        },
+        {
+          "name": "mud-slap"
+        },
+        {
+          "name": "water-sport"
+        }
+      ],
+      "use_after": [
+        {
+          "name": "mud-slap"
+        },
+        {
+          "name": "sandstorm"
+        },
+        {
+          "name": "water-sport"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "[]{type:electric} moves inflict half damage, regardless of target.  If the user leaves the [field]{mechanic:field}, this effect ends.",
+      "short_effect": "Halves all Electric-type damage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "whole-field-effect"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Mud Sport",
+      "language": "en"
+    },
+    {
+      "name": "Fangata",
+      "language": "it"
+    },
+    {
+      "name": "Chapoteo Lodo",
+      "language": "es"
+    },
+    {
+      "name": "Lehmsuhler",
+      "language": "de"
+    },
+    {
+      "name": "Lance-Boue",
+      "language": "fr"
+    },
+    {
+      "name": "흙놀이",
+      "language": "ko"
+    },
+    {
+      "name": "どろあそび",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "entire-field"
+  },
+  "type": {
+    "name": "ground"
+  }
+}

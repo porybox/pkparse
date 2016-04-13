@@ -1,1 +1,149 @@
-{"id":99,"name":"kingler","order":108,"gender_rate":4,"capture_rate":60,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":167,"pokedex":{"name":"updated-johto"}},{"entry_number":165,"pokedex":{"name":"original-johto"}},{"entry_number":99,"pokedex":{"name":"kanto"}},{"entry_number":99,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water3"}],"color":{"name":"red"},"shape":{"name":"armor"},"evolves_from_species":{"name":"krabby"},"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-i"},"names":[{"name":"キングラー","language":"ja"},{"name":"Kingler","language":"roomaji"},{"name":"킹크랩","language":"ko"},{"name":"巨鉗蟹","language":"zh"},{"name":"Krabboss","language":"fr"},{"name":"Kingler","language":"de"},{"name":"Kingler","language":"es"},{"name":"Kingler","language":"it"},{"name":"Kingler","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"sea"}}],"form_descriptions":[],"genera":[{"genus":"はさみ","language":"ja"},{"genus":"집게","language":"ko"},{"genus":"Pince","language":"fr"},{"genus":"Kneifer","language":"de"},{"genus":"Tenaza","language":"es"},{"genus":"Chela","language":"it"},{"genus":"Pincer","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"kingler"}}],"first_evolution_id":98}
+{
+  "id": 99,
+  "name": "kingler",
+  "order": 108,
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 167,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 165,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 99,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 99,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water3"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "armor"
+  },
+  "evolves_from_species": {
+    "name": "krabby"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "キングラー",
+      "language": "ja"
+    },
+    {
+      "name": "Kingler",
+      "language": "roomaji"
+    },
+    {
+      "name": "킹크랩",
+      "language": "ko"
+    },
+    {
+      "name": "巨鉗蟹",
+      "language": "zh"
+    },
+    {
+      "name": "Krabboss",
+      "language": "fr"
+    },
+    {
+      "name": "Kingler",
+      "language": "de"
+    },
+    {
+      "name": "Kingler",
+      "language": "es"
+    },
+    {
+      "name": "Kingler",
+      "language": "it"
+    },
+    {
+      "name": "Kingler",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "はさみ",
+      "language": "ja"
+    },
+    {
+      "genus": "집게",
+      "language": "ko"
+    },
+    {
+      "genus": "Pince",
+      "language": "fr"
+    },
+    {
+      "genus": "Kneifer",
+      "language": "de"
+    },
+    {
+      "genus": "Tenaza",
+      "language": "es"
+    },
+    {
+      "genus": "Chela",
+      "language": "it"
+    },
+    {
+      "genus": "Pincer",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "kingler"
+      }
+    }
+  ],
+  "first_evolution_id": 98
+}

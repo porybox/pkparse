@@ -1,1 +1,97 @@
-{"id":386,"name":"punishment","accuracy":100,"effect_chance":null,"pp":5,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Power starts at 60 and is increased by 20 for every [stage]{mechanic:stage} any of the target's stats has been raised, capping at 200.  [Accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers do not increase this move's power.","short_effect":"Power increases against targets with more raised stats, up to a maximum of 200.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Punishment","language":"en"},{"name":"Punizione","language":"it"},{"name":"Castigo","language":"es"},{"name":"Strafattacke","language":"de"},{"name":"Punition","language":"fr"},{"name":"혼내기","language":"ko"},{"name":"おしおき","language":"ja"}],"past_values":[{"accuracy":null,"power":60,"pp":null,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"black-white"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"dark"}}
+{
+  "id": 386,
+  "name": "punishment",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 5,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power starts at 60 and is increased by 20 for every [stage]{mechanic:stage} any of the target's stats has been raised, capping at 200.  [Accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers do not increase this move's power.",
+      "short_effect": "Power increases against targets with more raised stats, up to a maximum of 200.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Punishment",
+      "language": "en"
+    },
+    {
+      "name": "Punizione",
+      "language": "it"
+    },
+    {
+      "name": "Castigo",
+      "language": "es"
+    },
+    {
+      "name": "Strafattacke",
+      "language": "de"
+    },
+    {
+      "name": "Punition",
+      "language": "fr"
+    },
+    {
+      "name": "혼내기",
+      "language": "ko"
+    },
+    {
+      "name": "おしおき",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": 60,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "black-white"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "dark"
+  }
+}

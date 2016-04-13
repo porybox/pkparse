@@ -1,1 +1,83 @@
-{"id":470,"name":"guard-split","accuracy":null,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Averages the user's unmodified [Defense]{mechanic:defense} with the target's unmodified Defense; the value becomes the unmodified Defense for both Pokémon. Unmodified [Special Defense]{mechanic:special-defense} is averaged the same way.","short_effect":"Averages Defense and Special Defense with the target.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Guard Split","language":"en"},{"name":"Paridifesa","language":"it"},{"name":"Isoguardia","language":"es"},{"name":"Schutzteiler","language":"de"},{"name":"Partage Garde","language":"fr"},{"name":"가드셰어","language":"ko"},{"name":"ガードシェア","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"psychic"}}
+{
+  "id": 470,
+  "name": "guard-split",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Averages the user's unmodified [Defense]{mechanic:defense} with the target's unmodified Defense; the value becomes the unmodified Defense for both Pokémon. Unmodified [Special Defense]{mechanic:special-defense} is averaged the same way.",
+      "short_effect": "Averages Defense and Special Defense with the target.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Guard Split",
+      "language": "en"
+    },
+    {
+      "name": "Paridifesa",
+      "language": "it"
+    },
+    {
+      "name": "Isoguardia",
+      "language": "es"
+    },
+    {
+      "name": "Schutzteiler",
+      "language": "de"
+    },
+    {
+      "name": "Partage Garde",
+      "language": "fr"
+    },
+    {
+      "name": "가드셰어",
+      "language": "ko"
+    },
+    {
+      "name": "ガードシェア",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "psychic"
+  }
+}

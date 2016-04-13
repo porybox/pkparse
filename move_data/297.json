@@ -1,1 +1,92 @@
-{"id":297,"name":"feather-dance","accuracy":100,"effect_chance":null,"pp":15,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"beauty"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Lowers the target's [Attack]{mechanic:attack} by two [stages]{mechanic:stage}.","short_effect":"Lowers the target's Attack by two stages.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"net-good-stats"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Feather Dance","language":"en"},{"name":"Danzadipiume","language":"it"},{"name":"Danza Pluma","language":"es"},{"name":"Daunenreigen","language":"de"},{"name":"Danse-Plume","language":"fr"},{"name":"깃털댄스","language":"ko"},{"name":"フェザーダンス","language":"ja"}],"past_values":[],"stat_changes":[{"change":-2,"stat":{"name":"attack"}}],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"flying"}}
+{
+  "id": 297,
+  "name": "feather-dance",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Lowers the target's [Attack]{mechanic:attack} by two [stages]{mechanic:stage}.",
+      "short_effect": "Lowers the target's Attack by two stages.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "net-good-stats"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Feather Dance",
+      "language": "en"
+    },
+    {
+      "name": "Danzadipiume",
+      "language": "it"
+    },
+    {
+      "name": "Danza Pluma",
+      "language": "es"
+    },
+    {
+      "name": "Daunenreigen",
+      "language": "de"
+    },
+    {
+      "name": "Danse-Plume",
+      "language": "fr"
+    },
+    {
+      "name": "깃털댄스",
+      "language": "ko"
+    },
+    {
+      "name": "フェザーダンス",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": -2,
+      "stat": {
+        "name": "attack"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "flying"
+  }
+}

@@ -1,1 +1,85 @@
-{"id":385,"name":"guard-swap","accuracy":null,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"cute"},"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"User swaps its [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} modifiers with the target.","short_effect":"User swaps Defense and Special Defense changes with the target.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Guard Swap","language":"en"},{"name":"Barattoscudo","language":"it"},{"name":"Cambia Defensa","language":"es"},{"name":"Schutztausch","language":"de"},{"name":"Permugarde","language":"fr"},{"name":"가드스웹","language":"ko"},{"name":"ガードスワップ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"psychic"}}
+{
+  "id": 385,
+  "name": "guard-swap",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "User swaps its [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} modifiers with the target.",
+      "short_effect": "User swaps Defense and Special Defense changes with the target.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Guard Swap",
+      "language": "en"
+    },
+    {
+      "name": "Barattoscudo",
+      "language": "it"
+    },
+    {
+      "name": "Cambia Defensa",
+      "language": "es"
+    },
+    {
+      "name": "Schutztausch",
+      "language": "de"
+    },
+    {
+      "name": "Permugarde",
+      "language": "fr"
+    },
+    {
+      "name": "가드스웹",
+      "language": "ko"
+    },
+    {
+      "name": "ガードスワップ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "psychic"
+  }
+}

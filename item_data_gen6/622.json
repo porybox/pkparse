@@ -1,1 +1,123 @@
-{"id":663,"name":"god-stone","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"unused"},"effect_entries":[{"effect":"Unknown.  Currently unused.","short_effect":"Unknown.  Currently unused.","language":"en"}],"flavor_text_entries":[{"text":"幻の　石。\n\n","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A rare stone.","version_group":{"name":"x-y"},"language":"en"},{"text":"Una pietra magica.","version_group":{"name":"x-y"},"language":"it"},{"text":"Este aparato permite recibir vídeos holográficos\ny visualizarlos en cualquier momento.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein mysteriöser Stein.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une pierre fantomatique.","version_group":{"name":"x-y"},"language":"fr"},{"text":"환상의 돌.","version_group":{"name":"x-y"},"language":"ko"},{"text":"まぼろしの　いし。\n\n","version_group":{"name":"x-y"},"language":"ja"},{"text":"A rare stone.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A rare stone.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une pierre fantomatique.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":622,"generation":{"name":"generation-vi"}},{"game_index":622,"generation":{"name":"generation-v"}}],"names":[{"name":"god stone","language":"en"},{"name":"ゴッドストーン","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 663,
+  "name": "god-stone",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "unused"
+  },
+  "effect_entries": [
+    {
+      "effect": "Unknown.  Currently unused.",
+      "short_effect": "Unknown.  Currently unused.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "幻の　石。\n\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A rare stone.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Una pietra magica.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Este aparato permite recibir vídeos holográficos\ny visualizarlos en cualquier momento.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein mysteriöser Stein.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une pierre fantomatique.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "환상의 돌.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "まぼろしの　いし。\n\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A rare stone.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A rare stone.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une pierre fantomatique.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 622,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 622,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "god stone",
+      "language": "en"
+    },
+    {
+      "name": "ゴッドストーン",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,70 @@
-{"id":550,"name":"tm-case","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Stores TMs and HMs.","short_effect":"Holds TMs.","language":"en"}],"flavor_text_entries":[{"text":"A case that holds TMs and HMs.\nIt is attached to the BAG’s\ncompartment for important items.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A convenient case \nthat holds TMs and\nHMs.","version_group":{"name":"emerald"},"language":"en"}],"game_indices":[{"game_index":364,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM Case","language":"en"},{"name":"Porta-MT","language":"it"},{"name":"Tubo MT-MO","language":"es"},{"name":"VM/TM-Box","language":"de"},{"name":"Boîte CT","language":"fr"},{"name":"わざマシンケース","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 550,
+  "name": "tm-case",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Stores TMs and HMs.",
+      "short_effect": "Holds TMs.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A case that holds TMs and HMs.\nIt is attached to the BAG’s\ncompartment for important items.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A convenient case \nthat holds TMs and\nHMs.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 364,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM Case",
+      "language": "en"
+    },
+    {
+      "name": "Porta-MT",
+      "language": "it"
+    },
+    {
+      "name": "Tubo MT-MO",
+      "language": "es"
+    },
+    {
+      "name": "VM/TM-Box",
+      "language": "de"
+    },
+    {
+      "name": "Boîte CT",
+      "language": "fr"
+    },
+    {
+      "name": "わざマシンケース",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

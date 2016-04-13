@@ -1,1 +1,158 @@
-{"id":34,"name":"nidoking","order":35,"gender_rate":0,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":109,"pokedex":{"name":"kalos-coastal"}},{"entry_number":100,"pokedex":{"name":"updated-johto"}},{"entry_number":100,"pokedex":{"name":"original-johto"}},{"entry_number":34,"pokedex":{"name":"kanto"}},{"entry_number":34,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"},{"name":"monster"}],"color":{"name":"purple"},"shape":{"name":"upright"},"evolves_from_species":{"name":"nidorino"},"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-i"},"names":[{"name":"ニドキング","language":"ja"},{"name":"Nidoking","language":"roomaji"},{"name":"니드킹","language":"ko"},{"name":"尼多王","language":"zh"},{"name":"Nidoking","language":"fr"},{"name":"Nidoking","language":"de"},{"name":"Nidoking","language":"es"},{"name":"Nidoking","language":"it"},{"name":"Nidoking","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"ドリル","language":"ja"},{"genus":"드릴","language":"ko"},{"genus":"Perceur","language":"fr"},{"genus":"Bohrer","language":"de"},{"genus":"Taladro","language":"es"},{"genus":"Trapano","language":"it"},{"genus":"Drill","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"nidoking"}}],"first_evolution_id":32}
+{
+  "id": 34,
+  "name": "nidoking",
+  "order": 35,
+  "gender_rate": 0,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 109,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 100,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 100,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 34,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 34,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "purple"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "nidorino"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ニドキング",
+      "language": "ja"
+    },
+    {
+      "name": "Nidoking",
+      "language": "roomaji"
+    },
+    {
+      "name": "니드킹",
+      "language": "ko"
+    },
+    {
+      "name": "尼多王",
+      "language": "zh"
+    },
+    {
+      "name": "Nidoking",
+      "language": "fr"
+    },
+    {
+      "name": "Nidoking",
+      "language": "de"
+    },
+    {
+      "name": "Nidoking",
+      "language": "es"
+    },
+    {
+      "name": "Nidoking",
+      "language": "it"
+    },
+    {
+      "name": "Nidoking",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ドリル",
+      "language": "ja"
+    },
+    {
+      "genus": "드릴",
+      "language": "ko"
+    },
+    {
+      "genus": "Perceur",
+      "language": "fr"
+    },
+    {
+      "genus": "Bohrer",
+      "language": "de"
+    },
+    {
+      "genus": "Taladro",
+      "language": "es"
+    },
+    {
+      "genus": "Trapano",
+      "language": "it"
+    },
+    {
+      "genus": "Drill",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "nidoking"
+      }
+    }
+  ],
+  "first_evolution_id": 32
+}

@@ -1,1 +1,197 @@
-{"id":306,"name":"tm02","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Dragon Claw to a compatible Pokémon.","short_effect":"Teaches Dragon Claw to a compatible Pokémon. (Gen II: Headbutt Gen I: Razor Wind)","language":"en"}],"flavor_text_entries":[{"text":"鋭く　とがった　巨大な　ツメで\n相手を　切り裂いて　攻撃する。\n","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user slashes the target with huge,\nsharp claws.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa attacca con artigli affilati che graffiano\nil nemico rapidamente e con grande forza.","version_group":{"name":"x-y"},"language":"it"},{"text":"Aterriza sobre la superficie para descansar.\nRecupera hasta la mitad del total de sus PS.","version_group":{"name":"x-y"},"language":"es"},{"text":"Das Ziel wird mit langen, scharfen Krallen\nbrutal attackiert.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur lacère l’ennemi de ses grandes\ngriffes aiguisées.","version_group":{"name":"x-y"},"language":"fr"},{"text":"날카롭고 뾰족하며 거대한 발톱으로\n상대를 베어 갈라서 공격한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"するどく　とがった　きょだいな\nツメで　ひっかいて　こうげきする。\n","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user slashes the target with huge,\nsharp claws.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user slashes the target with huge,\nsharp claws.","version_group":{"name":"black-white"},"language":"en"},{"text":"Le lanceur lacère l’ennemi de ses\ngrandes griffes aiguisées.","version_group":{"name":"black-white"},"language":"fr"},{"text":"Sharp, huge claws hook and slash\nthe foe quickly and with great\npower.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"Sharp, huge claws hook and slash\nthe foe quickly and with great\npower.","version_group":{"name":"platinum"},"language":"en"},{"text":"Sharp, huge claws hook and slash\nthe foe quickly and with great\npower.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"Sharp, huge claws\nhook and slash the\nfoe quickly and\nwith great power.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Hooks and slashes\nthe foe with long,\nsharp claws.","version_group":{"name":"emerald"},"language":"en"},{"text":"Hooks and slashes\nthe foe with long,\nsharp claws.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":329,"generation":{"name":"generation-vi"}},{"game_index":329,"generation":{"name":"generation-v"}},{"game_index":329,"generation":{"name":"generation-iv"}},{"game_index":290,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM02","language":"en"},{"name":"MT02","language":"it"},{"name":"MT02","language":"es"},{"name":"TM02","language":"de"},{"name":"CT02","language":"fr"},{"name":"기술머신02","language":"ko"},{"name":"わざマシン０２","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 306,
+  "name": "tm02",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Dragon Claw to a compatible Pokémon.",
+      "short_effect": "Teaches Dragon Claw to a compatible Pokémon. (Gen II: Headbutt Gen I: Razor Wind)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "鋭く　とがった　巨大な　ツメで\n相手を　切り裂いて　攻撃する。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user slashes the target with huge,\nsharp claws.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa attacca con artigli affilati che graffiano\nil nemico rapidamente e con grande forza.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Aterriza sobre la superficie para descansar.\nRecupera hasta la mitad del total de sus PS.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Das Ziel wird mit langen, scharfen Krallen\nbrutal attackiert.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur lacère l’ennemi de ses grandes\ngriffes aiguisées.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "날카롭고 뾰족하며 거대한 발톱으로\n상대를 베어 갈라서 공격한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "するどく　とがった　きょだいな\nツメで　ひっかいて　こうげきする。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user slashes the target with huge,\nsharp claws.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user slashes the target with huge,\nsharp claws.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur lacère l’ennemi de ses\ngrandes griffes aiguisées.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "Sharp, huge claws hook and slash\nthe foe quickly and with great\npower.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Sharp, huge claws hook and slash\nthe foe quickly and with great\npower.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Sharp, huge claws hook and slash\nthe foe quickly and with great\npower.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Sharp, huge claws\nhook and slash the\nfoe quickly and\nwith great power.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Hooks and slashes\nthe foe with long,\nsharp claws.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Hooks and slashes\nthe foe with long,\nsharp claws.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 329,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 329,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 329,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 290,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM02",
+      "language": "en"
+    },
+    {
+      "name": "MT02",
+      "language": "it"
+    },
+    {
+      "name": "MT02",
+      "language": "es"
+    },
+    {
+      "name": "TM02",
+      "language": "de"
+    },
+    {
+      "name": "CT02",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신02",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン０２",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,204 @@
-{"id":230,"name":"shell-bell","cost":200,"fling_power":30,"fling_effect":null,"attributes":[{"name":"holdable"},{"name":"holdable-active"}],"category":{"name":"held-items"},"effect_entries":[{"effect":"Held: Heals the holder by 1/8 of any damage it inflicts.","short_effect":"Held: Holder receives 1/8 of the damage it deals when attacking.","language":"en"}],"flavor_text_entries":[{"text":"持たせた　ポケモンが　攻撃して\n相手に　ダメージを　あたえたとき\nＨＰを　少し　回復できる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nThe holder regains a little HP every\ntime it inflicts damage on others.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a un Pokémon.\nChi ce l’ha recupera un po’ di PS ogni volta\nche infligge danni.","version_group":{"name":"x-y"},"language":"it"},{"text":"Potencia los movimientos, pero consume PS con\ncada ataque. Debe llevarla un Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item zum Tragen. Es stellt einige KP des\nTrägers immer dann wieder her, wenn dieser\ndem Ziel Schaden zufügt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à tenir. Restaure un peu les PV du porteur\nà chaque fois qu’il inflige des dégâts.","version_group":{"name":"x-y"},"language":"fr"},{"text":"지니게 한 포켓몬이 공격하여\n상대에게 데미지를 줬을 때\nHP를 조금 회복할 수 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"もたせた　ポケモンが　こうげきして\nあいてに　ダメージを　あたえたとき\nＨＰを　すこし　かいふく　できる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à tenir. Restaure un peu les PV\ndu porteur à chaque fois qu’il inflige\ndes dégâts.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"An item to be held by a POKéMON.\nThe holding POKéMON regains some\nHP upon striking the foe.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A hold item that\nrestores HP upon\nstriking the foe.","version_group":{"name":"emerald"},"language":"en"},{"text":"A hold item that\nrestores HP upon\nstriking the foe.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":253,"generation":{"name":"generation-vi"}},{"game_index":253,"generation":{"name":"generation-v"}},{"game_index":253,"generation":{"name":"generation-iv"}},{"game_index":219,"generation":{"name":"generation-iii"}}],"names":[{"name":"Shell Bell","language":"en"},{"name":"Conchinella","language":"it"},{"name":"Campana Concha","language":"es"},{"name":"Seegesang","language":"de"},{"name":"Grelot Coque","language":"fr"},{"name":"조개껍질방울","language":"ko"},{"name":"かいがらのすず","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 230,
+  "name": "shell-bell",
+  "cost": 200,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "category": {
+    "name": "held-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held: Heals the holder by 1/8 of any damage it inflicts.",
+      "short_effect": "Held: Holder receives 1/8 of the damage it deals when attacking.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "持たせた　ポケモンが　攻撃して\n相手に　ダメージを　あたえたとき\nＨＰを　少し　回復できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nThe holder regains a little HP every\ntime it inflicts damage on others.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nChi ce l’ha recupera un po’ di PS ogni volta\nche infligge danni.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Potencia los movimientos, pero consume PS con\ncada ataque. Debe llevarla un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Es stellt einige KP des\nTrägers immer dann wieder her, wenn dieser\ndem Ziel Schaden zufügt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Restaure un peu les PV du porteur\nà chaque fois qu’il inflige des dégâts.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "지니게 한 포켓몬이 공격하여\n상대에게 데미지를 줬을 때\nHP를 조금 회복할 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "もたせた　ポケモンが　こうげきして\nあいてに　ダメージを　あたえたとき\nＨＰを　すこし　かいふく　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir. Restaure un peu les PV\ndu porteur à chaque fois qu’il inflige\ndes dégâts.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a POKéMON.\nThe holding POKéMON regains some\nHP upon striking the foe.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nrestores HP upon\nstriking the foe.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nrestores HP upon\nstriking the foe.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 253,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 253,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 253,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 219,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Shell Bell",
+      "language": "en"
+    },
+    {
+      "name": "Conchinella",
+      "language": "it"
+    },
+    {
+      "name": "Campana Concha",
+      "language": "es"
+    },
+    {
+      "name": "Seegesang",
+      "language": "de"
+    },
+    {
+      "name": "Grelot Coque",
+      "language": "fr"
+    },
+    {
+      "name": "조개껍질방울",
+      "language": "ko"
+    },
+    {
+      "name": "かいがらのすず",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

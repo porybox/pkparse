@@ -1,1 +1,70 @@
-{"id":556,"name":"mysticticket","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"event-items"},"effect_entries":[{"effect":"Provides access to Navel Rock, []{pokemon:ho-oh}, and []{pokemon:lugia}.","short_effect":"Allows access to Navel Rock and Lugia or Ho-oh.","language":"en"}],"flavor_text_entries":[{"text":"A ticket required to board the ship\nto NAVEL ROCK.\nIt glows with a mystic light.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A ticket required\nto board the ship\nto NAVEL ROCK.","version_group":{"name":"emerald"},"language":"en"}],"game_indices":[{"game_index":370,"generation":{"name":"generation-iii"}}],"names":[{"name":"MysticTicket","language":"en"},{"name":"Bigl. Magico","language":"it"},{"name":"Misti-Ticket","language":"es"},{"name":"Geheimticket","language":"de"},{"name":"Ticketmystik","language":"fr"},{"name":"しんぴのチケット","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 556,
+  "name": "mysticticket",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "event-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Provides access to Navel Rock, []{pokemon:ho-oh}, and []{pokemon:lugia}.",
+      "short_effect": "Allows access to Navel Rock and Lugia or Ho-oh.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A ticket required to board the ship\nto NAVEL ROCK.\nIt glows with a mystic light.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A ticket required\nto board the ship\nto NAVEL ROCK.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 370,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "MysticTicket",
+      "language": "en"
+    },
+    {
+      "name": "Bigl. Magico",
+      "language": "it"
+    },
+    {
+      "name": "Misti-Ticket",
+      "language": "es"
+    },
+    {
+      "name": "Geheimticket",
+      "language": "de"
+    },
+    {
+      "name": "Ticketmystik",
+      "language": "fr"
+    },
+    {
+      "name": "しんぴのチケット",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

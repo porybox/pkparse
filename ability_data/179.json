@@ -1,1 +1,120 @@
-{"id":179,"name":"grass-pelt","is_main_series":true,"generation":{"name":"generation-vi"},"names":[{"name":"Grass Pelt","language":"en"},{"name":"Peloderba","language":"it"},{"name":"Manto Frondoso","language":"es"},{"name":"Pflanzenpelz","language":"de"},{"name":"Toison Herbue","language":"fr"},{"name":"풀모피","language":"ko"},{"name":"くさのけがわ","language":"ja"}],"effect_entries":[{"effect":"Boosts Defense while []{move:grassy-terrain} is in effect.","short_effect":"Boosts Defense while []{move:grassy-terrain} is in effect.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"グラスフィールドの時\n防御が　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Boosts the Defense stat\nin Grassy Terrain.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Aumenta la Difesa durante\nl’effetto di Campo Erboso.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Aumenta la Defensa mientras dura\nel efecto de Campo de Hierba.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Erhöht die Verteidigung,\nwenn Grasfeld aktiv ist.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Augmente la Défense si\nChamp Herbu est actif.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"그래스필드일 때\n방어가 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"グラスフィールドのとき\nぼうぎょが　あがる。","version_group":{"name":"x-y"},"language":"ja"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"skiddo"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"gogoat"}}]}
+{
+  "id": 179,
+  "name": "grass-pelt",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "Grass Pelt",
+      "language": "en"
+    },
+    {
+      "name": "Peloderba",
+      "language": "it"
+    },
+    {
+      "name": "Manto Frondoso",
+      "language": "es"
+    },
+    {
+      "name": "Pflanzenpelz",
+      "language": "de"
+    },
+    {
+      "name": "Toison Herbue",
+      "language": "fr"
+    },
+    {
+      "name": "풀모피",
+      "language": "ko"
+    },
+    {
+      "name": "くさのけがわ",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Boosts Defense while []{move:grassy-terrain} is in effect.",
+      "short_effect": "Boosts Defense while []{move:grassy-terrain} is in effect.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "グラスフィールドの時\n防御が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Boosts the Defense stat\nin Grassy Terrain.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Aumenta la Difesa durante\nl’effetto di Campo Erboso.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Aumenta la Defensa mientras dura\nel efecto de Campo de Hierba.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Erhöht die Verteidigung,\nwenn Grasfeld aktiv ist.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Augmente la Défense si\nChamp Herbu est actif.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "그래스필드일 때\n방어가 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "グラスフィールドのとき\nぼうぎょが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "skiddo"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "gogoat"
+      }
+    }
+  ]
+}

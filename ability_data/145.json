@@ -1,1 +1,211 @@
-{"id":145,"name":"big-pecks","is_main_series":true,"generation":{"name":"generation-v"},"names":[{"name":"Big Pecks","language":"en"},{"name":"Pettinfuori","language":"it"},{"name":"Sacapecho","language":"es"},{"name":"Brustbieter","language":"de"},{"name":"Cœur de Coq","language":"fr"},{"name":"부풀린가슴","language":"ko"},{"name":"はとむね","language":"ja"}],"effect_entries":[{"effect":"This Pokémon's [Defense]{mechanic:defense} cannot be [lowered]{mechanic:stat-modifiers} by other Pokémon.\n\nThis Pokémon can still be passed negative Defense modifiers through []{move:heart-swap} or []{move:guard-swap}.","short_effect":"Protects against [Defense]{mechanic:defense} drops.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"防御を　さげる\n攻撃を　受けない。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Protects the Pokémon from\nDefense-lowering attacks.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Evita che la Difesa diminuisca.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Protege de los ataques que bajan\nla Defensa.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Hindert Angreifer daran,\ndie Verteidigung zu senken.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Empêche les attaques adverses\nde baisser la Défense.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"방어를 떨어뜨리는\n공격을 받지 않는다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"ぼうぎょを　さげる\nこうげきを　うけない。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Protects the Pokémon from\nDefense-lowering attacks.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Protects the Pokémon from\nDefense-lowering attacks.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Empêche la Déf. de baisser\nà cause d’attaques.","version_group":{"name":"black-white"},"language":"fr"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"pidgey"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"pidgeotto"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"pidgeot"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"chatot"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"pidove"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"tranquill"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"unfezant"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"ducklett"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"swanna"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"vullaby"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"mandibuzz"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"fletchling"}}]}
+{
+  "id": 145,
+  "name": "big-pecks",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "Big Pecks",
+      "language": "en"
+    },
+    {
+      "name": "Pettinfuori",
+      "language": "it"
+    },
+    {
+      "name": "Sacapecho",
+      "language": "es"
+    },
+    {
+      "name": "Brustbieter",
+      "language": "de"
+    },
+    {
+      "name": "Cœur de Coq",
+      "language": "fr"
+    },
+    {
+      "name": "부풀린가슴",
+      "language": "ko"
+    },
+    {
+      "name": "はとむね",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon's [Defense]{mechanic:defense} cannot be [lowered]{mechanic:stat-modifiers} by other Pokémon.\n\nThis Pokémon can still be passed negative Defense modifiers through []{move:heart-swap} or []{move:guard-swap}.",
+      "short_effect": "Protects against [Defense]{mechanic:defense} drops.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "防御を　さげる\n攻撃を　受けない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Protects the Pokémon from\nDefense-lowering attacks.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Evita che la Difesa diminuisca.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Protege de los ataques que bajan\nla Defensa.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Hindert Angreifer daran,\ndie Verteidigung zu senken.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Empêche les attaques adverses\nde baisser la Défense.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "방어를 떨어뜨리는\n공격을 받지 않는다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "ぼうぎょを　さげる\nこうげきを　うけない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Protects the Pokémon from\nDefense-lowering attacks.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Protects the Pokémon from\nDefense-lowering attacks.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Empêche la Déf. de baisser\nà cause d’attaques.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "pidgey"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "pidgeotto"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "pidgeot"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "chatot"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "pidove"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "tranquill"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "unfezant"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "ducklett"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "swanna"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "vullaby"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "mandibuzz"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "fletchling"
+      }
+    }
+  ]
+}

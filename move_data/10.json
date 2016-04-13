@@ -1,1 +1,105 @@
-{"id":10,"name":"scratch","accuracy":100,"effect_chance":null,"pp":35,"priority":0,"power":40,"contest_combos":{"normal":{"use_before":[{"name":"fury-swipes"},{"name":"slash"}],"use_after":[{"name":"leer"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"tough"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.","short_effect":"Inflicts regular damage with no additional effect.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Scratch","language":"en"},{"name":"Graffio","language":"it"},{"name":"Arañazo","language":"es"},{"name":"Kratzer","language":"de"},{"name":"Griffe","language":"fr"},{"name":"할퀴기","language":"ko"},{"name":"ひっかく","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 10,
+  "name": "scratch",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 35,
+  "priority": 0,
+  "power": 40,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "fury-swipes"
+        },
+        {
+          "name": "slash"
+        }
+      ],
+      "use_after": [
+        {
+          "name": "leer"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
+      "short_effect": "Inflicts regular damage with no additional effect.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Scratch",
+      "language": "en"
+    },
+    {
+      "name": "Graffio",
+      "language": "it"
+    },
+    {
+      "name": "Arañazo",
+      "language": "es"
+    },
+    {
+      "name": "Kratzer",
+      "language": "de"
+    },
+    {
+      "name": "Griffe",
+      "language": "fr"
+    },
+    {
+      "name": "할퀴기",
+      "language": "ko"
+    },
+    {
+      "name": "ひっかく",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

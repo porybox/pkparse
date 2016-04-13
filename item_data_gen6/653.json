@@ -1,1 +1,110 @@
-{"id":692,"name":"surprise-mulch","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"mulch"},"effect_entries":[],"flavor_text_entries":[{"text":"きのみ畑で　使える。\nきのみの　組み合わせに　よっては\n突然変異が　発生　する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"Mulch to be used in a Berry field.\nIt causes strange, sudden mutations\nbased on the combination of Berries.","version_group":{"name":"x-y"},"language":"en"},{"text":"Fertilizzante usato nell’orto delle bacche.\nProduce delle mutazioni inaspettate in base alla\ncombinazione di bacche.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una de las misteriosas Megapiedras. Permite\nmegaevolucionar a Aerodactyl en combate.","version_group":{"name":"x-y"},"language":"es"},{"text":"Mulch zur Nutzung auf Beerenfeldern.\nJe nach Anordnung der Beeren kann er\nbei der Ernte Mutationen hervorrufen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un engrais servant à faire pousser des Baies.\nIl provoque des mutations soudaines en fonction\nde la combinaison de Baies plantées.","version_group":{"name":"x-y"},"language":"fr"},{"text":"나무열매 밭에서 쓸 수 있다.\n나무열매의 조합에 따라\n돌연변이가 발생한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"きのみばたけで　つかえる。\nきのみの　くみあわせに　よっては\nとつぜんへんいが　はっせい　する。","version_group":{"name":"x-y"},"language":"ja"}],"game_indices":[{"game_index":653,"generation":{"name":"generation-vi"}}],"names":[{"name":"Surprise Mulch","language":"en"},{"name":"Fertilsorpresa","language":"it"},{"name":"Abono Sorpresa","language":"es"},{"name":"Wundermulch","language":"de"},{"name":"Fertistantané","language":"fr"},{"name":"깜놀비료","language":"ko"},{"name":"びっくりこやし","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 692,
+  "name": "surprise-mulch",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "mulch"
+  },
+  "effect_entries": [],
+  "flavor_text_entries": [
+    {
+      "text": "きのみ畑で　使える。\nきのみの　組み合わせに　よっては\n突然変異が　発生　する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "Mulch to be used in a Berry field.\nIt causes strange, sudden mutations\nbased on the combination of Berries.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Fertilizzante usato nell’orto delle bacche.\nProduce delle mutazioni inaspettate in base alla\ncombinazione di bacche.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una de las misteriosas Megapiedras. Permite\nmegaevolucionar a Aerodactyl en combate.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Mulch zur Nutzung auf Beerenfeldern.\nJe nach Anordnung der Beeren kann er\nbei der Ernte Mutationen hervorrufen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un engrais servant à faire pousser des Baies.\nIl provoque des mutations soudaines en fonction\nde la combinaison de Baies plantées.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "나무열매 밭에서 쓸 수 있다.\n나무열매의 조합에 따라\n돌연변이가 발생한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "きのみばたけで　つかえる。\nきのみの　くみあわせに　よっては\nとつぜんへんいが　はっせい　する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 653,
+      "generation": {
+        "name": "generation-vi"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Surprise Mulch",
+      "language": "en"
+    },
+    {
+      "name": "Fertilsorpresa",
+      "language": "it"
+    },
+    {
+      "name": "Abono Sorpresa",
+      "language": "es"
+    },
+    {
+      "name": "Wundermulch",
+      "language": "de"
+    },
+    {
+      "name": "Fertistantané",
+      "language": "fr"
+    },
+    {
+      "name": "깜놀비료",
+      "language": "ko"
+    },
+    {
+      "name": "びっくりこやし",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

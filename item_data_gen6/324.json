@@ -1,1 +1,170 @@
-{"id":301,"name":"dubious-disc","cost":2100,"fling_power":50,"fling_effect":null,"attributes":[],"category":{"name":"evolution"},"effect_entries":[{"effect":"Held by Porygon2: Evolves the holder into Porygon-Z when traded.","short_effect":"Traded on a Porygon2: Holder evolves into Porygon-Z.","language":"en"}],"flavor_text_entries":[{"text":"なかに　怪しい　情報が\nつまった　透明な　機械。\n製作者は　不明。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A transparent device\noverflowing with dubious data.\nIts producer is unknown.","version_group":{"name":"x-y"},"language":"en"},{"text":"Dispositivo trasparente strapieno di dati di dubbia\norigine. Non se ne conosce il produttore.","version_group":{"name":"x-y"},"language":"it"},{"text":"Invoca una tormenta de viento y nieve que\nenvuelve al objetivo y puede llegar a congelarlo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine Scheibe mit seltsamen Daten. Ihr Ursprung\nist unbekannt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un appareil transparent rempli de données\ndouteuses. Son fabricant n’est pas connu.","version_group":{"name":"x-y"},"language":"fr"},{"text":"안에 괴상한 정보가\n가득한 투명한 기계다.\n제작자 불명.","version_group":{"name":"x-y"},"language":"ko"},{"text":"なかに　あやしい　じょうほうが\nつまった　とうめいな　きかい。\nせいさくしゃは　ふめい。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A transparent device overflowing with\ndubious data.\nIts producer is unknown.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A transparent device overflowing with\ndubious data.\nIts producer is unknown.","version_group":{"name":"black-white"},"language":"en"},{"text":"Appareil transparent rempli de données\ndouteuses. Son fabricant n’est pas\nconnu.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A transparent device overflowing with\ndubious data.\nIts producer is unknown.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A transparent device overflowing with\ndubious data.\nIts producer is unknown.","version_group":{"name":"platinum"},"language":"en"},{"text":"A transparent device overflowing with\ndubious data.\nIts producer is unknown.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":324,"generation":{"name":"generation-vi"}},{"game_index":324,"generation":{"name":"generation-v"}},{"game_index":324,"generation":{"name":"generation-iv"}}],"names":[{"name":"Dubious Disc","language":"en"},{"name":"Dubbiodisco","language":"it"},{"name":"Disco Extraño","language":"es"},{"name":"Dubiosdisc","language":"de"},{"name":"CD Douteux","language":"fr"},{"name":"괴상한패치","language":"ko"},{"name":"あやしいパッチ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 301,
+  "name": "dubious-disc",
+  "cost": 2100,
+  "fling_power": 50,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "evolution"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by Porygon2: Evolves the holder into Porygon-Z when traded.",
+      "short_effect": "Traded on a Porygon2: Holder evolves into Porygon-Z.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "なかに　怪しい　情報が\nつまった　透明な　機械。\n製作者は　不明。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A transparent device\noverflowing with dubious data.\nIts producer is unknown.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Dispositivo trasparente strapieno di dati di dubbia\norigine. Non se ne conosce il produttore.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Invoca una tormenta de viento y nieve que\nenvuelve al objetivo y puede llegar a congelarlo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine Scheibe mit seltsamen Daten. Ihr Ursprung\nist unbekannt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un appareil transparent rempli de données\ndouteuses. Son fabricant n’est pas connu.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "안에 괴상한 정보가\n가득한 투명한 기계다.\n제작자 불명.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "なかに　あやしい　じょうほうが\nつまった　とうめいな　きかい。\nせいさくしゃは　ふめい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A transparent device overflowing with\ndubious data.\nIts producer is unknown.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A transparent device overflowing with\ndubious data.\nIts producer is unknown.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Appareil transparent rempli de données\ndouteuses. Son fabricant n’est pas\nconnu.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A transparent device overflowing with\ndubious data.\nIts producer is unknown.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A transparent device overflowing with\ndubious data.\nIts producer is unknown.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A transparent device overflowing with\ndubious data.\nIts producer is unknown.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 324,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 324,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 324,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Dubious Disc",
+      "language": "en"
+    },
+    {
+      "name": "Dubbiodisco",
+      "language": "it"
+    },
+    {
+      "name": "Disco Extraño",
+      "language": "es"
+    },
+    {
+      "name": "Dubiosdisc",
+      "language": "de"
+    },
+    {
+      "name": "CD Douteux",
+      "language": "fr"
+    },
+    {
+      "name": "괴상한패치",
+      "language": "ko"
+    },
+    {
+      "name": "あやしいパッチ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

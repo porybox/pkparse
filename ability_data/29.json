@@ -1,1 +1,260 @@
-{"id":29,"name":"clear-body","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Clear Body","language":"en"},{"name":"Corpochiaro","language":"it"},{"name":"Cuerpo Puro","language":"es"},{"name":"Neutraltorso","language":"de"},{"name":"Corps Sain","language":"fr"},{"name":"클리어바디","language":"ko"},{"name":"クリアボディ","language":"ja"}],"effect_entries":[{"effect":"This Pokémon cannot have its stats [lowered]{mechanic:stat-modifier} by other Pokémon.\n\nThis ability does not prevent any stat losses other than [stat modifiers]{mechanic:stat-modifiers}, such as the [Speed]{mechanic:speed} cut from [paralysis]{mechanic:paralysis}.  This Pokémon can still be passed negative stat modifiers through []{move:guard-swap}, []{move:heart-swap}, or []{move:power-swap}.\n\nThis ability functions identically to []{ability:white-smoke} in battle.","short_effect":"Prevents stats from being [lowered]{mechanic:stat-modifier} by other Pokémon.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"相手に　能力を\nさげられない。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Prevents other Pokémon\nfrom lowering its stats.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Le statistiche del Pokémon\nnon possono essere ridotte.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Evita que bajen las\ncaracterísticas.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Hindert Angreifer daran,\nStatuswerte zu senken.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Empêche les stats du Pokémon\nde baisser.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"상대가 능력을\n떨어뜨릴 수 없다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"あいてに　のうりょくを\nさげられない。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Prevents other Pokémon\nfrom lowering its stats.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Prevents other Pokémon\nfrom lowering its stats.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Empêche les stats\ndu Pokémon de baisser.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Prevents its stats from\nbeing lowered.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Prevents the Pokémon’s\nstats from being lowered.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Prevents the Pokémon’s\nstats from being lowered.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"Prevents ability reduction.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"Prevents ability reduction.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"Prevents ability reduction.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":1,"pokemon":{"name":"tentacool"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"tentacruel"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"beldum"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"metang"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"metagross"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"regirock"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"regice"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"registeel"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"klink"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"klang"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"klinklang"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"carbink"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"diancie"}}]}
+{
+  "id": 29,
+  "name": "clear-body",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Clear Body",
+      "language": "en"
+    },
+    {
+      "name": "Corpochiaro",
+      "language": "it"
+    },
+    {
+      "name": "Cuerpo Puro",
+      "language": "es"
+    },
+    {
+      "name": "Neutraltorso",
+      "language": "de"
+    },
+    {
+      "name": "Corps Sain",
+      "language": "fr"
+    },
+    {
+      "name": "클리어바디",
+      "language": "ko"
+    },
+    {
+      "name": "クリアボディ",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon cannot have its stats [lowered]{mechanic:stat-modifier} by other Pokémon.\n\nThis ability does not prevent any stat losses other than [stat modifiers]{mechanic:stat-modifiers}, such as the [Speed]{mechanic:speed} cut from [paralysis]{mechanic:paralysis}.  This Pokémon can still be passed negative stat modifiers through []{move:guard-swap}, []{move:heart-swap}, or []{move:power-swap}.\n\nThis ability functions identically to []{ability:white-smoke} in battle.",
+      "short_effect": "Prevents stats from being [lowered]{mechanic:stat-modifier} by other Pokémon.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "相手に　能力を\nさげられない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Prevents other Pokémon\nfrom lowering its stats.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Le statistiche del Pokémon\nnon possono essere ridotte.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Evita que bajen las\ncaracterísticas.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Hindert Angreifer daran,\nStatuswerte zu senken.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Empêche les stats du Pokémon\nde baisser.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "상대가 능력을\n떨어뜨릴 수 없다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "あいてに　のうりょくを\nさげられない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Prevents other Pokémon\nfrom lowering its stats.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Prevents other Pokémon\nfrom lowering its stats.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Empêche les stats\ndu Pokémon de baisser.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Prevents its stats from\nbeing lowered.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Prevents the Pokémon’s\nstats from being lowered.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Prevents the Pokémon’s\nstats from being lowered.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Prevents ability reduction.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Prevents ability reduction.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Prevents ability reduction.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "tentacool"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "tentacruel"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "beldum"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "metang"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "metagross"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "regirock"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "regice"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "registeel"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "klink"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "klang"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "klinklang"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "carbink"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "diancie"
+      }
+    }
+  ]
+}

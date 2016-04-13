@@ -1,1 +1,179 @@
-{"id":94,"name":"gengar","order":102,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":true,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":32,"pokedex":{"name":"kalos-mountain"}},{"entry_number":114,"pokedex":{"name":"conquest-gallery"}},{"entry_number":60,"pokedex":{"name":"updated-johto"}},{"entry_number":71,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":71,"pokedex":{"name":"original-sinnoh"}},{"entry_number":60,"pokedex":{"name":"original-johto"}},{"entry_number":94,"pokedex":{"name":"kanto"}},{"entry_number":94,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"indeterminate"}],"color":{"name":"purple"},"shape":{"name":"upright"},"evolves_from_species":{"name":"haunter"},"evolution_chain":{},"habitat":{"name":"cave"},"generation":{"name":"generation-i"},"names":[{"name":"ゲンガー","language":"ja"},{"name":"Gangar","language":"roomaji"},{"name":"팬텀","language":"ko"},{"name":"耿鬼","language":"zh"},{"name":"Ectoplasma","language":"fr"},{"name":"Gengar","language":"de"},{"name":"Gengar","language":"es"},{"name":"Gengar","language":"it"},{"name":"Gengar","language":"en"}],"pal_park_encounters":[{"base_score":90,"rate":3,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"シャドー","language":"ja"},{"genus":"그림자","language":"ko"},{"genus":"Ombre","language":"fr"},{"genus":"Schatten","language":"de"},{"genus":"Sombra","language":"es"},{"genus":"Ombra","language":"it"},{"genus":"Shadow","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"gengar"}},{"is_default":false,"pokemon":{"name":"gengar-mega"}}],"first_evolution_id":92}
+{
+  "id": 94,
+  "name": "gengar",
+  "order": 102,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": true,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 32,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 114,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 60,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 71,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 71,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 60,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 94,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 94,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "indeterminate"
+    }
+  ],
+  "color": {
+    "name": "purple"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "haunter"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "cave"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ゲンガー",
+      "language": "ja"
+    },
+    {
+      "name": "Gangar",
+      "language": "roomaji"
+    },
+    {
+      "name": "팬텀",
+      "language": "ko"
+    },
+    {
+      "name": "耿鬼",
+      "language": "zh"
+    },
+    {
+      "name": "Ectoplasma",
+      "language": "fr"
+    },
+    {
+      "name": "Gengar",
+      "language": "de"
+    },
+    {
+      "name": "Gengar",
+      "language": "es"
+    },
+    {
+      "name": "Gengar",
+      "language": "it"
+    },
+    {
+      "name": "Gengar",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 90,
+      "rate": 3,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "シャドー",
+      "language": "ja"
+    },
+    {
+      "genus": "그림자",
+      "language": "ko"
+    },
+    {
+      "genus": "Ombre",
+      "language": "fr"
+    },
+    {
+      "genus": "Schatten",
+      "language": "de"
+    },
+    {
+      "genus": "Sombra",
+      "language": "es"
+    },
+    {
+      "genus": "Ombra",
+      "language": "it"
+    },
+    {
+      "genus": "Shadow",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "gengar"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "gengar-mega"
+      }
+    }
+  ],
+  "first_evolution_id": 92
+}

@@ -1,1 +1,197 @@
-{"id":78,"name":"escape-rope","cost":550,"fling_power":30,"fling_effect":null,"attributes":[],"category":{"name":"spelunking"},"effect_entries":[{"effect":"Used outside of battle\n:   Transports the trainer to the last-entered dungeon entrance.  Cannot be used outside, in buildings, or in []{location:distortion-world}, []{location:sinnoh-hall-of-origin-1}, []{location:spear-pillar}, or []{location:turnback-cave}.","short_effect":"Transports user to the outside entrance of a cave.","language":"en"}],"flavor_text_entries":[{"text":"長くて　丈夫な　ヒモ。\n洞窟や　ダンジョンから\n抜け出すことが　できる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A long and durable rope.\nUse it to escape instantly\nfrom a cave or a dungeon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Corda lunga e resistente che si usa per fuggire\nin un batter d’occhio dalle grotte o da certi\nluoghi chiusi.","version_group":{"name":"x-y"},"language":"it"},{"text":"Cuerda larga y resistente que sirve para huir de\ncuevas y sitios cerrados en general.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein langes, festes Seil, das die sofortige Flucht\naus Höhlen oder Ähnlichem ermöglicht.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une corde longue et solide permettant de sortir\nrapidement d’une grotte ou d’un donjon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"길고 튼튼한 끈.\n동굴이나 던전에서\n빠져나올 수 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ながくて　じょうぶな　ヒモ。\nどうくつや　ダンジョンから\nぬけだすことが　できる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A long, durable rope.\nUse it to escape instantly from a cave\nor a dungeon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A long, durable rope.\nUse it to escape instantly from a cave\nor a dungeon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une corde longue et solide permettant\nde sortir rapidement d’une grotte ou\nd’un donjon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A long, durable rope.\nUse it to escape instantly from a cave\nor a dungeon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A long, durable rope.\nUse it to escape instantly from a cave\nor a dungeon.","version_group":{"name":"platinum"},"language":"en"},{"text":"A long, durable rope.\nUse it to escape instantly from a cave\nor a dungeon.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A long, durable rope.\nUse it to escape instantly from a\ncave or a dungeon.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Use to escape\ninstantly from a\ncave or a dungeon.","version_group":{"name":"emerald"},"language":"en"},{"text":"Use to escape\ninstantly from a\ncave or a dungeon.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":78,"generation":{"name":"generation-vi"}},{"game_index":78,"generation":{"name":"generation-v"}},{"game_index":78,"generation":{"name":"generation-iv"}},{"game_index":85,"generation":{"name":"generation-iii"}}],"names":[{"name":"Escape Rope","language":"en"},{"name":"Fune di Fuga","language":"it"},{"name":"Cuerda Huida","language":"es"},{"name":"Fluchtseil","language":"de"},{"name":"Corde Sortie","language":"fr"},{"name":"동굴탈출로프","language":"ko"},{"name":"あなぬけのヒモ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 78,
+  "name": "escape-rope",
+  "cost": 550,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "spelunking"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used outside of battle\n:   Transports the trainer to the last-entered dungeon entrance.  Cannot be used outside, in buildings, or in []{location:distortion-world}, []{location:sinnoh-hall-of-origin-1}, []{location:spear-pillar}, or []{location:turnback-cave}.",
+      "short_effect": "Transports user to the outside entrance of a cave.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "長くて　丈夫な　ヒモ。\n洞窟や　ダンジョンから\n抜け出すことが　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A long and durable rope.\nUse it to escape instantly\nfrom a cave or a dungeon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Corda lunga e resistente che si usa per fuggire\nin un batter d’occhio dalle grotte o da certi\nluoghi chiusi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Cuerda larga y resistente que sirve para huir de\ncuevas y sitios cerrados en general.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein langes, festes Seil, das die sofortige Flucht\naus Höhlen oder Ähnlichem ermöglicht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une corde longue et solide permettant de sortir\nrapidement d’une grotte ou d’un donjon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "길고 튼튼한 끈.\n동굴이나 던전에서\n빠져나올 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ながくて　じょうぶな　ヒモ。\nどうくつや　ダンジョンから\nぬけだすことが　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A long, durable rope.\nUse it to escape instantly from a cave\nor a dungeon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A long, durable rope.\nUse it to escape instantly from a cave\nor a dungeon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une corde longue et solide permettant\nde sortir rapidement d’une grotte ou\nd’un donjon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A long, durable rope.\nUse it to escape instantly from a cave\nor a dungeon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A long, durable rope.\nUse it to escape instantly from a cave\nor a dungeon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A long, durable rope.\nUse it to escape instantly from a cave\nor a dungeon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A long, durable rope.\nUse it to escape instantly from a\ncave or a dungeon.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Use to escape\ninstantly from a\ncave or a dungeon.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Use to escape\ninstantly from a\ncave or a dungeon.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 78,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 78,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 78,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 85,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Escape Rope",
+      "language": "en"
+    },
+    {
+      "name": "Fune di Fuga",
+      "language": "it"
+    },
+    {
+      "name": "Cuerda Huida",
+      "language": "es"
+    },
+    {
+      "name": "Fluchtseil",
+      "language": "de"
+    },
+    {
+      "name": "Corde Sortie",
+      "language": "fr"
+    },
+    {
+      "name": "동굴탈출로프",
+      "language": "ko"
+    },
+    {
+      "name": "あなぬけのヒモ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

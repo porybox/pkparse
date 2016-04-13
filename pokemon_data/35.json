@@ -1,1 +1,167 @@
-{"id":35,"name":"clefairy","order":37,"gender_rate":6,"capture_rate":150,"base_happiness":140,"is_baby":false,"hatch_counter":10,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"fast"},"pokedex_numbers":[{"entry_number":89,"pokedex":{"name":"updated-unova"}},{"entry_number":41,"pokedex":{"name":"updated-johto"}},{"entry_number":100,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":100,"pokedex":{"name":"original-sinnoh"}},{"entry_number":41,"pokedex":{"name":"original-johto"}},{"entry_number":35,"pokedex":{"name":"kanto"}},{"entry_number":35,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"fairy"}],"color":{"name":"pink"},"shape":{"name":"upright"},"evolves_from_species":{"name":"cleffa"},"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-i"},"names":[{"name":"ピッピ","language":"ja"},{"name":"Pippi","language":"roomaji"},{"name":"삐삐","language":"ko"},{"name":"皮皮","language":"zh"},{"name":"Mélofée","language":"fr"},{"name":"Piepi","language":"de"},{"name":"Clefairy","language":"es"},{"name":"Clefairy","language":"it"},{"name":"Clefairy","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ようせい","language":"ja"},{"genus":"요정","language":"ko"},{"genus":"Fée","language":"fr"},{"genus":"Fee","language":"de"},{"genus":"Hada","language":"es"},{"genus":"Fata","language":"it"},{"genus":"Fairy","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"clefairy"}}],"first_evolution_id":173}
+{
+  "id": 35,
+  "name": "clefairy",
+  "order": 37,
+  "gender_rate": 6,
+  "capture_rate": 150,
+  "base_happiness": 140,
+  "is_baby": false,
+  "hatch_counter": 10,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 89,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 41,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 100,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 100,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 41,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 35,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 35,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "fairy"
+    }
+  ],
+  "color": {
+    "name": "pink"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "cleffa"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ピッピ",
+      "language": "ja"
+    },
+    {
+      "name": "Pippi",
+      "language": "roomaji"
+    },
+    {
+      "name": "삐삐",
+      "language": "ko"
+    },
+    {
+      "name": "皮皮",
+      "language": "zh"
+    },
+    {
+      "name": "Mélofée",
+      "language": "fr"
+    },
+    {
+      "name": "Piepi",
+      "language": "de"
+    },
+    {
+      "name": "Clefairy",
+      "language": "es"
+    },
+    {
+      "name": "Clefairy",
+      "language": "it"
+    },
+    {
+      "name": "Clefairy",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ようせい",
+      "language": "ja"
+    },
+    {
+      "genus": "요정",
+      "language": "ko"
+    },
+    {
+      "genus": "Fée",
+      "language": "fr"
+    },
+    {
+      "genus": "Fee",
+      "language": "de"
+    },
+    {
+      "genus": "Hada",
+      "language": "es"
+    },
+    {
+      "genus": "Fata",
+      "language": "it"
+    },
+    {
+      "genus": "Fairy",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "clefairy"
+      }
+    }
+  ],
+  "first_evolution_id": 173
+}

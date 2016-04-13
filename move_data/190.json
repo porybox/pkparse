@@ -1,1 +1,108 @@
-{"id":190,"name":"octazooka","accuracy":85,"effect_chance":50,"pp":10,"priority":0,"power":65,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"lock-on"},{"name":"rain-dance"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"tough"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}.","short_effect":"Has a $effect_chance% chance to lower the target's accuracy by one stage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage+lower"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":50},"names":[{"name":"Octazooka","language":"en"},{"name":"Octazooka","language":"it"},{"name":"Pulpocañón","language":"es"},{"name":"Octazooka","language":"de"},{"name":"Octazooka","language":"fr"},{"name":"대포무노포","language":"ko"},{"name":"オクタンほう","language":"ja"}],"past_values":[],"stat_changes":[{"change":-1,"stat":{"name":"accuracy"}}],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"water"}}
+{
+  "id": 190,
+  "name": "octazooka",
+  "accuracy": 85,
+  "effect_chance": 50,
+  "pp": 10,
+  "priority": 0,
+  "power": 65,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "lock-on"
+        },
+        {
+          "name": "rain-dance"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}.",
+      "short_effect": "Has a $effect_chance% chance to lower the target's accuracy by one stage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage+lower"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 50
+  },
+  "names": [
+    {
+      "name": "Octazooka",
+      "language": "en"
+    },
+    {
+      "name": "Octazooka",
+      "language": "it"
+    },
+    {
+      "name": "Pulpocañón",
+      "language": "es"
+    },
+    {
+      "name": "Octazooka",
+      "language": "de"
+    },
+    {
+      "name": "Octazooka",
+      "language": "fr"
+    },
+    {
+      "name": "대포무노포",
+      "language": "ko"
+    },
+    {
+      "name": "オクタンほう",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": {
+        "name": "accuracy"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "water"
+  }
+}

@@ -1,1 +1,143 @@
-{"id":585,"name":"red-card","cost":200,"fling_power":10,"fling_effect":null,"attributes":[],"category":{"name":"held-items"},"effect_entries":[{"effect":"Held\n:   When the holder takes damage directly from a move and does not faint, it [switches out]{mechanic:switching-out} for another random, non-fainted Pokémon in its party.\nThis effect does not activate if another effect prevents the holder from switching out.","short_effect":"Held: When the holder takes damage from a move, the opponent switches out for another random party Pokémon. Consumed after use.","language":"en"}],"flavor_text_entries":[{"text":"不思議な　ちからのある　カード。\n持たせると　技を受けた　相手を\n退場させることが　できる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nWhen the holder is hit by an attack,\nthe attacker is removed from battle.","version_group":{"name":"x-y"},"language":"en"},{"text":"Cartellino dal potere misterioso. Chi ce l’ha\nfa ritirare dalla lotta il Pokémon che lo ha colpito.","version_group":{"name":"x-y"},"language":"it"},{"text":"Joya de un solo uso que potencia los\nmovimientos de tipo Dragón. Debe llevarla\nun Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine Karte mit mysteriösen Kräften. Wird der\nTräger getroffen, wird der Angreifer des\nPlatzes verwiesen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une carte au pouvoir mystérieux.\nSi son porteur est touché par l’attaquant,\nce dernier doit se retirer du combat.","version_group":{"name":"x-y"},"language":"fr"},{"text":"이상한 힘이 있는 카드.\n지니게 하면 기술을 당한 상대를\n퇴장시킬 수 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ふしぎな　ちからのある　カード。\nもたせると　わざをうけた　あいてを\nたいじょう　させることが　できる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A card with a mysterious power. When\nthe holder is struck by a foe, the\nattacker is removed from battle.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A card with a mysterious power. When\nthe holder is struck by a foe, the\nattacker is removed from battle.","version_group":{"name":"black-white"},"language":"en"},{"text":"Carte au pouvoir mystérieux.\nTenue, elle force un Pokémon touchant\nle porteur à se retirer du combat.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":542,"generation":{"name":"generation-vi"}},{"game_index":542,"generation":{"name":"generation-v"}}],"names":[{"name":"Red Card","language":"en"},{"name":"Cartelrosso","language":"it"},{"name":"Tarjeta Roja","language":"es"},{"name":"Rote Karte","language":"de"},{"name":"Carton Rouge","language":"fr"},{"name":"레드카드","language":"ko"},{"name":"レッドカード","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 585,
+  "name": "red-card",
+  "cost": 200,
+  "fling_power": 10,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "held-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held\n:   When the holder takes damage directly from a move and does not faint, it [switches out]{mechanic:switching-out} for another random, non-fainted Pokémon in its party.\nThis effect does not activate if another effect prevents the holder from switching out.",
+      "short_effect": "Held: When the holder takes damage from a move, the opponent switches out for another random party Pokémon. Consumed after use.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "不思議な　ちからのある　カード。\n持たせると　技を受けた　相手を\n退場させることが　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nWhen the holder is hit by an attack,\nthe attacker is removed from battle.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Cartellino dal potere misterioso. Chi ce l’ha\nfa ritirare dalla lotta il Pokémon che lo ha colpito.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Joya de un solo uso que potencia los\nmovimientos de tipo Dragón. Debe llevarla\nun Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine Karte mit mysteriösen Kräften. Wird der\nTräger getroffen, wird der Angreifer des\nPlatzes verwiesen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une carte au pouvoir mystérieux.\nSi son porteur est touché par l’attaquant,\nce dernier doit se retirer du combat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "이상한 힘이 있는 카드.\n지니게 하면 기술을 당한 상대를\n퇴장시킬 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ふしぎな　ちからのある　カード。\nもたせると　わざをうけた　あいてを\nたいじょう　させることが　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A card with a mysterious power. When\nthe holder is struck by a foe, the\nattacker is removed from battle.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A card with a mysterious power. When\nthe holder is struck by a foe, the\nattacker is removed from battle.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Carte au pouvoir mystérieux.\nTenue, elle force un Pokémon touchant\nle porteur à se retirer du combat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 542,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 542,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Red Card",
+      "language": "en"
+    },
+    {
+      "name": "Cartelrosso",
+      "language": "it"
+    },
+    {
+      "name": "Tarjeta Roja",
+      "language": "es"
+    },
+    {
+      "name": "Rote Karte",
+      "language": "de"
+    },
+    {
+      "name": "Carton Rouge",
+      "language": "fr"
+    },
+    {
+      "name": "레드카드",
+      "language": "ko"
+    },
+    {
+      "name": "レッドカード",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

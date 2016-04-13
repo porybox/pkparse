@@ -1,1 +1,170 @@
-{"id":376,"name":"tm72","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Avalanche to a compatible Pokémon.","short_effect":"Teaches Volt Switch to a compatible Pokémon. (Gen IV: Avalanche)","language":"en"}],"flavor_text_entries":[{"text":"攻撃したあと\nものすごい　スピードで　もどってきて\n控えポケモンと　入れ替わる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"After making its attack, the user\nrushes back to switch places with\na party Pokémon in waiting.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi usa questa mossa si tira indietro\nper farsi sostituire dopo aver sferrato l’attacco.","version_group":{"name":"x-y"},"language":"it"},{"text":"Después de atacar, quien lo usa cambia\nrápidamente su puesto con un compañero\nque no esté combatiendo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Nach der Attacke eilt der Anwender zurück und\ntauscht den Platz mit einem anderen Pokémon.","version_group":{"name":"x-y"},"language":"de"},{"text":"Après son attaque, le lanceur revient à toute\nvitesse et change de place avec un Pokémon\nde l’équipe prêt au combat.","version_group":{"name":"x-y"},"language":"fr"},{"text":"공격한 뒤\n굉장한 스피드로 돌아와서\n교대 포켓몬과 교체한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"こうげき　したあと\nものすごい　スピードで　もどってきて\nひかえ　ポケモンと　いれかわる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"After making its attack, the user\nrushes back to switch places with\na party Pokémon in waiting.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"After making its attack, the user\nrushes back to switch places with\na party Pokémon in waiting.","version_group":{"name":"black-white"},"language":"en"},{"text":"Après son attaque, le lanceur revient à\ntoute vitesse et change de place avec\nun Pokémon de l’équipe prêt au combat.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An attack move that inflicts double\nthe damage if the user has been hurt\nby the foe in the same turn.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An attack move that inflicts double\nthe damage if the user has been hurt\nby the foe in the same turn.","version_group":{"name":"platinum"},"language":"en"},{"text":"An attack move that inflicts double\nthe damage if the user has been hurt\nby the foe in the same turn.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":399,"generation":{"name":"generation-vi"}},{"game_index":399,"generation":{"name":"generation-v"}},{"game_index":399,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM72","language":"en"},{"name":"MT72","language":"it"},{"name":"MT72","language":"es"},{"name":"TM72","language":"de"},{"name":"CT72","language":"fr"},{"name":"기술머신72","language":"ko"},{"name":"わざマシン７２","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 376,
+  "name": "tm72",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Avalanche to a compatible Pokémon.",
+      "short_effect": "Teaches Volt Switch to a compatible Pokémon. (Gen IV: Avalanche)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "攻撃したあと\nものすごい　スピードで　もどってきて\n控えポケモンと　入れ替わる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "After making its attack, the user\nrushes back to switch places with\na party Pokémon in waiting.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi usa questa mossa si tira indietro\nper farsi sostituire dopo aver sferrato l’attacco.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Después de atacar, quien lo usa cambia\nrápidamente su puesto con un compañero\nque no esté combatiendo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Nach der Attacke eilt der Anwender zurück und\ntauscht den Platz mit einem anderen Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Après son attaque, le lanceur revient à toute\nvitesse et change de place avec un Pokémon\nde l’équipe prêt au combat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "공격한 뒤\n굉장한 스피드로 돌아와서\n교대 포켓몬과 교체한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "こうげき　したあと\nものすごい　スピードで　もどってきて\nひかえ　ポケモンと　いれかわる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "After making its attack, the user\nrushes back to switch places with\na party Pokémon in waiting.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "After making its attack, the user\nrushes back to switch places with\na party Pokémon in waiting.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Après son attaque, le lanceur revient à\ntoute vitesse et change de place avec\nun Pokémon de l’équipe prêt au combat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An attack move that inflicts double\nthe damage if the user has been hurt\nby the foe in the same turn.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An attack move that inflicts double\nthe damage if the user has been hurt\nby the foe in the same turn.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An attack move that inflicts double\nthe damage if the user has been hurt\nby the foe in the same turn.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 399,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 399,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 399,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM72",
+      "language": "en"
+    },
+    {
+      "name": "MT72",
+      "language": "it"
+    },
+    {
+      "name": "MT72",
+      "language": "es"
+    },
+    {
+      "name": "TM72",
+      "language": "de"
+    },
+    {
+      "name": "CT72",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신72",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン７２",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

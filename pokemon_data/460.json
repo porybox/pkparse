@@ -1,1 +1,156 @@
-{"id":460,"name":"abomasnow","order":479,"gender_rate":4,"capture_rate":60,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":true,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":89,"pokedex":{"name":"kalos-mountain"}},{"entry_number":143,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":143,"pokedex":{"name":"original-sinnoh"}},{"entry_number":460,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"plant"},{"name":"monster"}],"color":{"name":"white"},"shape":{"name":"upright"},"evolves_from_species":{"name":"snover"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"ユキノオー","language":"ja"},{"name":"Yukinooh","language":"roomaji"},{"name":"눈설왕","language":"ko"},{"name":"暴雪王","language":"zh"},{"name":"Blizzaroi","language":"fr"},{"name":"Rexblisar","language":"de"},{"name":"Abomasnow","language":"es"},{"name":"Abomasnow","language":"it"},{"name":"Abomasnow","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"じゅひょう","language":"ja"},{"genus":"얼음나무","language":"ko"},{"genus":"Arbregelé","language":"fr"},{"genus":"Frostbaum","language":"de"},{"genus":"Árbol Nieve","language":"es"},{"genus":"Albergelo","language":"it"},{"genus":"Frost Tree","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"abomasnow"}},{"is_default":false,"pokemon":{"name":"abomasnow-mega"}}],"first_evolution_id":459}
+{
+  "id": 460,
+  "name": "abomasnow",
+  "order": 479,
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": true,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 89,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 143,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 143,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 460,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "plant"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "white"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "snover"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "ユキノオー",
+      "language": "ja"
+    },
+    {
+      "name": "Yukinooh",
+      "language": "roomaji"
+    },
+    {
+      "name": "눈설왕",
+      "language": "ko"
+    },
+    {
+      "name": "暴雪王",
+      "language": "zh"
+    },
+    {
+      "name": "Blizzaroi",
+      "language": "fr"
+    },
+    {
+      "name": "Rexblisar",
+      "language": "de"
+    },
+    {
+      "name": "Abomasnow",
+      "language": "es"
+    },
+    {
+      "name": "Abomasnow",
+      "language": "it"
+    },
+    {
+      "name": "Abomasnow",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "じゅひょう",
+      "language": "ja"
+    },
+    {
+      "genus": "얼음나무",
+      "language": "ko"
+    },
+    {
+      "genus": "Arbregelé",
+      "language": "fr"
+    },
+    {
+      "genus": "Frostbaum",
+      "language": "de"
+    },
+    {
+      "genus": "Árbol Nieve",
+      "language": "es"
+    },
+    {
+      "genus": "Albergelo",
+      "language": "it"
+    },
+    {
+      "genus": "Frost Tree",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "abomasnow"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "abomasnow-mega"
+      }
+    }
+  ],
+  "first_evolution_id": 459
+}

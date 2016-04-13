@@ -1,1 +1,143 @@
-{"id":566,"name":"chill-drive","cost":1000,"fling_power":70,"fling_effect":null,"attributes":[],"category":{"name":"species-specific"},"effect_entries":[{"effect":"Held by []{pokemon:genesect}\n:   Holder's buster is white, and its []{move:techno-blast} becomes []{type:ice}-type.","short_effect":"Grants Genesect a white, Ice-type Techno Blast.","language":"en"}],"flavor_text_entries":[{"text":"ゲノセクトに　持たせると\nテクノバスターという　技が\nこおりタイプになる　カセット。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A cassette to be held by Genesect.\nIt changes Genesect’s Techno Blast\nmove so it becomes Ice type.","version_group":{"name":"x-y"},"language":"en"},{"text":"Modulo da dare a Genesect. Trasforma\nTecnobotto in una mossa di tipo Ghiaccio.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una bonita esfera que potencia los movimientos\nde tipo Dragón y Agua. Debe llevarla Palkia.","version_group":{"name":"x-y"},"language":"es"},{"text":"Gibt man es Genesect zum Tragen, wandelt es\nden Typ der Attacke Techblaster in Eis um.","version_group":{"name":"x-y"},"language":"de"},{"text":"Tenu par Genesect, ce module change la\ncapacité TechnoBuster en une capacité de type\nGlace.","version_group":{"name":"x-y"},"language":"fr"},{"text":"게노세크트에게 지니게 하면\n테크노버스터라는 기술이\n얼음타입으로 바뀌는 카세트.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ゲノセクトに　もたせると\nテクノバスターという　わざが\nこおりタイプになる　カセット。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A cassette to be held by Genesect.\nIt changes Techno Blast to an\nIce-type move.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A cassette to be held by Genesect.\nIt changes Techno Blast to an\nIce-type move.","version_group":{"name":"black-white"},"language":"en"},{"text":"Tenu par Genesect, ce module\nchange la capacité TechnoBuster\nen une capacité de type Glace.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":119,"generation":{"name":"generation-vi"}},{"game_index":119,"generation":{"name":"generation-v"}}],"names":[{"name":"Chill Drive","language":"en"},{"name":"Gelomodulo","language":"it"},{"name":"CrioROM","language":"es"},{"name":"Gefriermodul","language":"de"},{"name":"Module Cryo","language":"fr"},{"name":"프리즈카세트","language":"ko"},{"name":"フリーズカセット","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 566,
+  "name": "chill-drive",
+  "cost": 1000,
+  "fling_power": 70,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "species-specific"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by []{pokemon:genesect}\n:   Holder's buster is white, and its []{move:techno-blast} becomes []{type:ice}-type.",
+      "short_effect": "Grants Genesect a white, Ice-type Techno Blast.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ゲノセクトに　持たせると\nテクノバスターという　技が\nこおりタイプになる　カセット。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A cassette to be held by Genesect.\nIt changes Genesect’s Techno Blast\nmove so it becomes Ice type.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Modulo da dare a Genesect. Trasforma\nTecnobotto in una mossa di tipo Ghiaccio.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una bonita esfera que potencia los movimientos\nde tipo Dragón y Agua. Debe llevarla Palkia.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Gibt man es Genesect zum Tragen, wandelt es\nden Typ der Attacke Techblaster in Eis um.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Tenu par Genesect, ce module change la\ncapacité TechnoBuster en une capacité de type\nGlace.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "게노세크트에게 지니게 하면\n테크노버스터라는 기술이\n얼음타입으로 바뀌는 카세트.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ゲノセクトに　もたせると\nテクノバスターという　わざが\nこおりタイプになる　カセット。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A cassette to be held by Genesect.\nIt changes Techno Blast to an\nIce-type move.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A cassette to be held by Genesect.\nIt changes Techno Blast to an\nIce-type move.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Tenu par Genesect, ce module\nchange la capacité TechnoBuster\nen une capacité de type Glace.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 119,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 119,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Chill Drive",
+      "language": "en"
+    },
+    {
+      "name": "Gelomodulo",
+      "language": "it"
+    },
+    {
+      "name": "CrioROM",
+      "language": "es"
+    },
+    {
+      "name": "Gefriermodul",
+      "language": "de"
+    },
+    {
+      "name": "Module Cryo",
+      "language": "fr"
+    },
+    {
+      "name": "프리즈카세트",
+      "language": "ko"
+    },
+    {
+      "name": "フリーズカセット",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

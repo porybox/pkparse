@@ -1,1 +1,155 @@
-{"id":51,"name":"dugtrio","order":56,"gender_rate":4,"capture_rate":50,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":2,"pokedex":{"name":"kalos-mountain"}},{"entry_number":135,"pokedex":{"name":"updated-johto"}},{"entry_number":133,"pokedex":{"name":"original-johto"}},{"entry_number":51,"pokedex":{"name":"kanto"}},{"entry_number":51,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"heads"},"evolves_from_species":{"name":"diglett"},"evolution_chain":{},"habitat":{"name":"cave"},"generation":{"name":"generation-i"},"names":[{"name":"ダグトリオ","language":"ja"},{"name":"Dugtrio","language":"roomaji"},{"name":"닥트리오","language":"ko"},{"name":"三地鼠","language":"zh"},{"name":"Triopikeur","language":"fr"},{"name":"Digdri","language":"de"},{"name":"Dugtrio","language":"es"},{"name":"Dugtrio","language":"it"},{"name":"Dugtrio","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"もぐら","language":"ja"},{"genus":"두더지","language":"ko"},{"genus":"Taupe","language":"fr"},{"genus":"Maulwurf","language":"de"},{"genus":"Topo","language":"es"},{"genus":"Talpa","language":"it"},{"genus":"Mole","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"dugtrio"}}],"first_evolution_id":50}
+{
+  "id": 51,
+  "name": "dugtrio",
+  "order": 56,
+  "gender_rate": 4,
+  "capture_rate": 50,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 2,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 135,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 133,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 51,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 51,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "heads"
+  },
+  "evolves_from_species": {
+    "name": "diglett"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "cave"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ダグトリオ",
+      "language": "ja"
+    },
+    {
+      "name": "Dugtrio",
+      "language": "roomaji"
+    },
+    {
+      "name": "닥트리오",
+      "language": "ko"
+    },
+    {
+      "name": "三地鼠",
+      "language": "zh"
+    },
+    {
+      "name": "Triopikeur",
+      "language": "fr"
+    },
+    {
+      "name": "Digdri",
+      "language": "de"
+    },
+    {
+      "name": "Dugtrio",
+      "language": "es"
+    },
+    {
+      "name": "Dugtrio",
+      "language": "it"
+    },
+    {
+      "name": "Dugtrio",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "もぐら",
+      "language": "ja"
+    },
+    {
+      "genus": "두더지",
+      "language": "ko"
+    },
+    {
+      "genus": "Taupe",
+      "language": "fr"
+    },
+    {
+      "genus": "Maulwurf",
+      "language": "de"
+    },
+    {
+      "genus": "Topo",
+      "language": "es"
+    },
+    {
+      "genus": "Talpa",
+      "language": "it"
+    },
+    {
+      "genus": "Mole",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "dugtrio"
+      }
+    }
+  ],
+  "first_evolution_id": 50
+}

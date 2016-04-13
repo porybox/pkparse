@@ -1,1 +1,176 @@
-{"id":141,"name":"moody","is_main_series":true,"generation":{"name":"generation-v"},"names":[{"name":"Moody","language":"en"},{"name":"Altalena","language":"it"},{"name":"Veleta","language":"es"},{"name":"Gefühlswippe","language":"de"},{"name":"Lunatique","language":"fr"},{"name":"변덕쟁이","language":"ko"},{"name":"ムラっけ","language":"ja"}],"effect_entries":[{"effect":"After each turn, one of this Pokémon's stats at random rises two [stages]{mechanic:stat-modifier}, and another falls one stage.\n\nIf a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively.","short_effect":"Raises a random stat two [stages]{mechanic:stat-modifier} and lowers another one stage after each turn.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"能力が　あがったり\nさがったりする。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Raises one stat and\nlowers another.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Aumenta una statistica e ne\nriduce un’altra.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Sube una característica mucho,\npero baja otra.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Erhöht einen Statuswert\nund senkt einen anderen.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Monte une stat tout en en\nbaissant une autre.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"능력이\n오르락내리락한다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"のうりょくが　あがったり\nさがったりする。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Raises one stat and\nlowers another.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Raises one stat and\nlowers another.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Monte une stat tout en\nen baissant une autre.","version_group":{"name":"black-white"},"language":"fr"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"remoraid"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"octillery"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"smeargle"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"snorunt"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"glalie"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"bidoof"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"bibarel"}}]}
+{
+  "id": 141,
+  "name": "moody",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "Moody",
+      "language": "en"
+    },
+    {
+      "name": "Altalena",
+      "language": "it"
+    },
+    {
+      "name": "Veleta",
+      "language": "es"
+    },
+    {
+      "name": "Gefühlswippe",
+      "language": "de"
+    },
+    {
+      "name": "Lunatique",
+      "language": "fr"
+    },
+    {
+      "name": "변덕쟁이",
+      "language": "ko"
+    },
+    {
+      "name": "ムラっけ",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "After each turn, one of this Pokémon's stats at random rises two [stages]{mechanic:stat-modifier}, and another falls one stage.\n\nIf a stat is already at 6 or -6 stages, it will not be chosen to be increased or decreased, respectively.",
+      "short_effect": "Raises a random stat two [stages]{mechanic:stat-modifier} and lowers another one stage after each turn.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "能力が　あがったり\nさがったりする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Raises one stat and\nlowers another.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Aumenta una statistica e ne\nriduce un’altra.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Sube una característica mucho,\npero baja otra.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Erhöht einen Statuswert\nund senkt einen anderen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Monte une stat tout en en\nbaissant une autre.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "능력이\n오르락내리락한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "のうりょくが　あがったり\nさがったりする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Raises one stat and\nlowers another.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Raises one stat and\nlowers another.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Monte une stat tout en\nen baissant une autre.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "remoraid"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "octillery"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "smeargle"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "snorunt"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "glalie"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "bidoof"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "bibarel"
+      }
+    }
+  ]
+}

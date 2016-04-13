@@ -1,1 +1,454 @@
-{"id":208,"name":"lucky-egg","cost":200,"fling_power":30,"fling_effect":null,"attributes":[{"name":"holdable"},{"name":"holdable-active"}],"category":{"name":"training"},"effect_entries":[{"effect":"Held: Increases any Exp the holder gains by 50%.","short_effect":"Held: Increases EXP earned in battle by 50%.","language":"en"}],"flavor_text_entries":[{"text":"しあわせが　つまった　タマゴ。\n持たせた　ポケモンは　もらえる\n経験値が　少し　増える。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nIt’s an egg filled with happiness that\nearns extra Exp. Points in battle.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a un Pokémon.\nUovo pieno di felicità che aumenta\ni Punti Esperienza in lotta.","version_group":{"name":"x-y"},"language":"it"},{"text":"Cuchara imbuida de energía telequinética que\npotencia los movimientos de tipo Psíquico.\nDebe llevarla un Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item zum Tragen, das mit Glück gefüllt ist und\nfür zusätzliche Erfahrungspunkte im Kampf sorgt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à tenir. Un œuf rempli de joie qui augmente\nle nombre de Points Exp. gagnés au combat.","version_group":{"name":"x-y"},"language":"fr"},{"text":"행복이 가득한 알.\n지니게 한 포켓몬은 받을 수 있는\n경험치가 조금 늘어난다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"しあわせが　つまった　タマゴ。\nもたせた　ポケモンは　もらえる\nけいけんちが　すこし　ふえる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns extra Exp. Points in battle.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns extra Exp. Points in battle.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à tenir. Œuf rempli de joie qui\naugmente le nombre de points Exp.\ngagnés au combat.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns extra Exp. Points in battle.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns extra Exp. Points in battle.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns extra Exp. Points in battle.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"An item to be held by a POKéMON.\nAn egg filled with happiness that\nearns extra EXP. points in battle.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A hold item that\nboosts EXP. points\nearned in battle.","version_group":{"name":"emerald"},"language":"en"},{"text":"A hold item that\nboosts EXP. points\nearned in battle.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":231,"generation":{"name":"generation-vi"}},{"game_index":231,"generation":{"name":"generation-v"}},{"game_index":231,"generation":{"name":"generation-iv"}},{"game_index":197,"generation":{"name":"generation-iii"}}],"names":[{"name":"Lucky Egg","language":"en"},{"name":"Fortunuovo","language":"it"},{"name":"Huevo Suerte","language":"es"},{"name":"Glücks-Ei","language":"de"},{"name":"Œuf Chance","language":"fr"},{"name":"행복의알","language":"ko"},{"name":"しあわせタマゴ","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"chansey"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}},{"rarity":5,"version":{"name":"soulsilver"}},{"rarity":5,"version":{"name":"heartgold"}},{"rarity":5,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":5,"version":{"name":"diamond"}},{"rarity":5,"version":{"name":"leafgreen"}},{"rarity":5,"version":{"name":"firered"}},{"rarity":5,"version":{"name":"emerald"}},{"rarity":5,"version":{"name":"sapphire"}},{"rarity":5,"version":{"name":"ruby"}}]},{"pokemon":{"name":"blissey"},"version_details":[{"rarity":100,"version":{"name":"y"}},{"rarity":100,"version":{"name":"x"}},{"rarity":100,"version":{"name":"white-2"}},{"rarity":100,"version":{"name":"black-2"}},{"rarity":100,"version":{"name":"white"}},{"rarity":100,"version":{"name":"black"}},{"rarity":5,"version":{"name":"soulsilver"}},{"rarity":5,"version":{"name":"heartgold"}},{"rarity":5,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":5,"version":{"name":"diamond"}},{"rarity":5,"version":{"name":"leafgreen"}},{"rarity":5,"version":{"name":"firered"}},{"rarity":5,"version":{"name":"emerald"}},{"rarity":5,"version":{"name":"sapphire"}},{"rarity":5,"version":{"name":"ruby"}}]},{"pokemon":{"name":"happiny"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}}]}],"baby_trigger_for":null}
+{
+  "id": 208,
+  "name": "lucky-egg",
+  "cost": 200,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "category": {
+    "name": "training"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held: Increases any Exp the holder gains by 50%.",
+      "short_effect": "Held: Increases EXP earned in battle by 50%.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "しあわせが　つまった　タマゴ。\n持たせた　ポケモンは　もらえる\n経験値が　少し　増える。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt’s an egg filled with happiness that\nearns extra Exp. Points in battle.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nUovo pieno di felicità che aumenta\ni Punti Esperienza in lotta.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Cuchara imbuida de energía telequinética que\npotencia los movimientos de tipo Psíquico.\nDebe llevarla un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen, das mit Glück gefüllt ist und\nfür zusätzliche Erfahrungspunkte im Kampf sorgt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Un œuf rempli de joie qui augmente\nle nombre de Points Exp. gagnés au combat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "행복이 가득한 알.\n지니게 한 포켓몬은 받을 수 있는\n경험치가 조금 늘어난다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "しあわせが　つまった　タマゴ。\nもたせた　ポケモンは　もらえる\nけいけんちが　すこし　ふえる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns extra Exp. Points in battle.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns extra Exp. Points in battle.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir. Œuf rempli de joie qui\naugmente le nombre de points Exp.\ngagnés au combat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns extra Exp. Points in battle.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns extra Exp. Points in battle.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns extra Exp. Points in battle.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a POKéMON.\nAn egg filled with happiness that\nearns extra EXP. points in battle.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nboosts EXP. points\nearned in battle.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nboosts EXP. points\nearned in battle.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 231,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 231,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 231,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 197,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Lucky Egg",
+      "language": "en"
+    },
+    {
+      "name": "Fortunuovo",
+      "language": "it"
+    },
+    {
+      "name": "Huevo Suerte",
+      "language": "es"
+    },
+    {
+      "name": "Glücks-Ei",
+      "language": "de"
+    },
+    {
+      "name": "Œuf Chance",
+      "language": "fr"
+    },
+    {
+      "name": "행복의알",
+      "language": "ko"
+    },
+    {
+      "name": "しあわせタマゴ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "chansey"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "firered"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "blissey"
+      },
+      "version_details": [
+        {
+          "rarity": 100,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "firered"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "happiny"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

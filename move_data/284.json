@@ -1,1 +1,104 @@
-{"id":284,"name":"eruption","accuracy":100,"effect_chance":null,"pp":5,"priority":0,"power":150,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"earthquake"},{"name":"endure"},{"name":"sunny-day"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"beauty"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with the user's remaining [HP]{mechanic:hp} and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.","short_effect":"Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Eruption","language":"en"},{"name":"Eruzione","language":"it"},{"name":"Estallido","language":"es"},{"name":"Eruption","language":"de"},{"name":"Éruption","language":"fr"},{"name":"분화","language":"ko"},{"name":"ふんか","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"all-opponents"},"type":{"name":"fire"}}
+{
+  "id": 284,
+  "name": "eruption",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 5,
+  "priority": 0,
+  "power": 150,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "earthquake"
+        },
+        {
+          "name": "endure"
+        },
+        {
+          "name": "sunny-day"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with the user's remaining [HP]{mechanic:hp} and is given by `150 * HP / max HP`, to a maximum of 150 when the user has full HP.",
+      "short_effect": "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Eruption",
+      "language": "en"
+    },
+    {
+      "name": "Eruzione",
+      "language": "it"
+    },
+    {
+      "name": "Estallido",
+      "language": "es"
+    },
+    {
+      "name": "Eruption",
+      "language": "de"
+    },
+    {
+      "name": "Éruption",
+      "language": "fr"
+    },
+    {
+      "name": "분화",
+      "language": "ko"
+    },
+    {
+      "name": "ふんか",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "all-opponents"
+  },
+  "type": {
+    "name": "fire"
+  }
+}

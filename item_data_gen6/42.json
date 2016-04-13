@@ -1,1 +1,213 @@
-{"id":42,"name":"lava-cookie","cost":200,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-overworld"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"status-cures"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Cures any [status ailment]{mechanic:status-ailment} and [confusion]{mechanic:confusion}.","short_effect":"Cures any status ailment and confusion.","language":"en"}],"flavor_text_entries":[{"text":"フエン名物の　せんべい。\nポケモン　１匹の　状態の\n異常を　すべて　回復する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"Lavaridge Town’s local specialty.\nIt can be used once to heal all the\nstatus conditions of a Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Specialità tipica di Cuordilava.\nCura tutti i problemi di stato di un Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"text":"Dulce típico de Pueblo Lavacalda que cura todos\nlos problemas de estado de un Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine Spezialität aus Bad Lavastadt, die alle\nStatusprobleme eines Pokémon heilt.","version_group":{"name":"x-y"},"language":"de"},{"text":"La spécialité de la ville de Vermilava.\nSoigne tous les problèmes de statut\nd’un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"용암마을의 명물인 전병.\n포켓몬 1마리의\n상태 이상을 회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"フエンめいぶつの　せんべい。\nポケモン　１ひきの　じょうたいの\nいじょうを　すべて　かいふくする。","version_group":{"name":"x-y"},"language":"ja"},{"text":"Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"La spécialité de la ville de Vermilava.\nSoigne tous les problèmes de statut\nd’un Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.","version_group":{"name":"platinum"},"language":"en"},{"text":"Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"LAVARIDGE TOWN’s local specialty.\nIt heals all the status problems of\none POKéMON.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A local specialty\nthat heals all\nstatus problems.","version_group":{"name":"emerald"},"language":"en"},{"text":"A local specialty\nthat heals all\nstatus problems.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":42,"generation":{"name":"generation-vi"}},{"game_index":42,"generation":{"name":"generation-v"}},{"game_index":42,"generation":{"name":"generation-iv"}},{"game_index":38,"generation":{"name":"generation-iii"}}],"names":[{"name":"Lava Cookie","language":"en"},{"name":"Lavottino","language":"it"},{"name":"Galleta Lava","language":"es"},{"name":"Lavakeks","language":"de"},{"name":"Lava Cookie","language":"fr"},{"name":"용암전병","language":"ko"},{"name":"フエンせんべい","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 42,
+  "name": "lava-cookie",
+  "cost": 200,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-overworld"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "status-cures"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Cures any [status ailment]{mechanic:status-ailment} and [confusion]{mechanic:confusion}.",
+      "short_effect": "Cures any status ailment and confusion.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "フエン名物の　せんべい。\nポケモン　１匹の　状態の\n異常を　すべて　回復する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "Lavaridge Town’s local specialty.\nIt can be used once to heal all the\nstatus conditions of a Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Specialità tipica di Cuordilava.\nCura tutti i problemi di stato di un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Dulce típico de Pueblo Lavacalda que cura todos\nlos problemas de estado de un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine Spezialität aus Bad Lavastadt, die alle\nStatusprobleme eines Pokémon heilt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "La spécialité de la ville de Vermilava.\nSoigne tous les problèmes de statut\nd’un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "용암마을의 명물인 전병.\n포켓몬 1마리의\n상태 이상을 회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "フエンめいぶつの　せんべい。\nポケモン　１ひきの　じょうたいの\nいじょうを　すべて　かいふくする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "La spécialité de la ville de Vermilava.\nSoigne tous les problèmes de statut\nd’un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "LAVARIDGE TOWN’s local specialty.\nIt heals all the status problems of\none POKéMON.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A local specialty\nthat heals all\nstatus problems.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A local specialty\nthat heals all\nstatus problems.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 42,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 42,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 42,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 38,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Lava Cookie",
+      "language": "en"
+    },
+    {
+      "name": "Lavottino",
+      "language": "it"
+    },
+    {
+      "name": "Galleta Lava",
+      "language": "es"
+    },
+    {
+      "name": "Lavakeks",
+      "language": "de"
+    },
+    {
+      "name": "Lava Cookie",
+      "language": "fr"
+    },
+    {
+      "name": "용암전병",
+      "language": "ko"
+    },
+    {
+      "name": "フエンせんべい",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

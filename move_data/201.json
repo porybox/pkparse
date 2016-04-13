@@ -1,1 +1,113 @@
-{"id":201,"name":"sandstorm","accuracy":null,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":{"normal":{"use_before":[{"name":"sand-attack"},{"name":"mud-slap"},{"name":"mud-sport"},{"name":"weather-ball"},{"name":"sand-tomb"},{"name":"mud-shot"}],"use_after":null},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"tough"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Changes the weather to a sandstorm for five turns.  Pokémon that are not []{type:ground}, []{type:rock}, or []{type:steel} take 1/16 their max [HP]{mechanic:hp} at the end of every turn.  Every []{type:rock} Pokémon's original [Special Defense]{mechanic:special-defense} is raised by 50% for the duration of this effect.\n\n[]{move:solar-beam}'s power is halved.\n\n[]{move:moonlight}, []{move:morning-sun}, and []{move:synthesis} only heal 1/4 the user's max [HP]{mechanic:hp}.","short_effect":"Changes the weather to a sandstorm for five turns.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"whole-field-effect"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Sandstorm","language":"en"},{"name":"Terrempesta","language":"it"},{"name":"Tormenta Arena","language":"es"},{"name":"Sandsturm","language":"de"},{"name":"Tempête de Sable","language":"fr"},{"name":"모래바람","language":"ko"},{"name":"すなあらし","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"entire-field"},"type":{"name":"rock"}}
+{
+  "id": 201,
+  "name": "sandstorm",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "sand-attack"
+        },
+        {
+          "name": "mud-slap"
+        },
+        {
+          "name": "mud-sport"
+        },
+        {
+          "name": "weather-ball"
+        },
+        {
+          "name": "sand-tomb"
+        },
+        {
+          "name": "mud-shot"
+        }
+      ],
+      "use_after": null
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Changes the weather to a sandstorm for five turns.  Pokémon that are not []{type:ground}, []{type:rock}, or []{type:steel} take 1/16 their max [HP]{mechanic:hp} at the end of every turn.  Every []{type:rock} Pokémon's original [Special Defense]{mechanic:special-defense} is raised by 50% for the duration of this effect.\n\n[]{move:solar-beam}'s power is halved.\n\n[]{move:moonlight}, []{move:morning-sun}, and []{move:synthesis} only heal 1/4 the user's max [HP]{mechanic:hp}.",
+      "short_effect": "Changes the weather to a sandstorm for five turns.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "whole-field-effect"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Sandstorm",
+      "language": "en"
+    },
+    {
+      "name": "Terrempesta",
+      "language": "it"
+    },
+    {
+      "name": "Tormenta Arena",
+      "language": "es"
+    },
+    {
+      "name": "Sandsturm",
+      "language": "de"
+    },
+    {
+      "name": "Tempête de Sable",
+      "language": "fr"
+    },
+    {
+      "name": "모래바람",
+      "language": "ko"
+    },
+    {
+      "name": "すなあらし",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "entire-field"
+  },
+  "type": {
+    "name": "rock"
+  }
+}

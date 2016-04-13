@@ -1,1 +1,297 @@
-{"id":170,"name":"payapa-berry","cost":20,"fling_power":10,"fling_effect":null,"attributes":[{"name":"holdable-active"}],"category":{"name":"type-protection"},"effect_entries":[{"effect":"Held in battle\n:   When the holder would take [super-effective]{mechanic:super-effective} []{type:psychic}-type damage, it consumes this item to halve the amount of damage taken.","short_effect":"Held: Consumed when struck by a super-effective Psychic-type attack to halve the damage.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンに　持たせると\n効果バツグンの　エスパー技を\n受けたとき　威力が　弱まる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"If held by a Pokémon, this Berry will\nlessen the damage taken from one\nsupereffective Psychic-type attack.","version_group":{"name":"x-y"},"language":"en"},{"text":"Se un Pokémon ha questa bacca, l’attacco\nsuperefficace di tipo Psico del nemico\nviene indebolito.","version_group":{"name":"x-y"},"language":"it"},{"text":"El Pokémon que la lleva puede actuar en primer\nlugar una vez cuando se encuentra en un\nmomento de apuro.","version_group":{"name":"x-y"},"language":"es"},{"text":"Als getragenes Item schwächt diese Beere\nsehr effektive Attacken des Angreifers\nvom Typ Psycho.","version_group":{"name":"x-y"},"language":"de"},{"text":"Tenue, cette Baie affaiblit une attaque ennemie\nsuper efficace de type Psy.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬에게 지니게 하면\n효과가 뛰어난 에스퍼 기술을\n당했을 때 위력이 약해진다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンに　もたせると\nこうかばつぐんの　エスパー　わざを\nうけたとき　いりょくが　よわまる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"Weakens a supereffective Psychic-type\nattack against the holding Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"Weakens a supereffective Psychic-type\nattack against the holding Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Tenue, cette Baie affaiblit une attaque\nennemie super efficace de type Psy.","version_group":{"name":"black-white"},"language":"fr"},{"text":"If held by a Pokémon, it weakens a foe’s\nsupereffective Psychic-type attack.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A Poffin ingredient. If held by a\nPokémon, it weakens a foe’s\nsupereffective Psychic-type attack.","version_group":{"name":"platinum"},"language":"en"},{"text":"A Poffin ingredient. If held by a\nPokémon, it weakens a foe’s\nsupereffective Psychic-type attack.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":193,"generation":{"name":"generation-vi"}},{"game_index":193,"generation":{"name":"generation-v"}},{"game_index":193,"generation":{"name":"generation-iv"}}],"names":[{"name":"Payapa Berry","language":"en"},{"name":"Baccapayapa","language":"it"},{"name":"Baya Payapa","language":"es"},{"name":"Pyapabeere","language":"de"},{"name":"Baie Yapap","language":"fr"},{"name":"야파열매","language":"ko"},{"name":"ウタンのみ","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"mankey"},"version_details":[{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}},{"rarity":5,"version":{"name":"soulsilver"}},{"rarity":5,"version":{"name":"heartgold"}},{"rarity":5,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":5,"version":{"name":"diamond"}}]},{"pokemon":{"name":"primeape"},"version_details":[{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}},{"rarity":5,"version":{"name":"soulsilver"}},{"rarity":5,"version":{"name":"heartgold"}},{"rarity":5,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":5,"version":{"name":"diamond"}}]}],"baby_trigger_for":null}
+{
+  "id": 170,
+  "name": "payapa-berry",
+  "cost": 20,
+  "fling_power": 10,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "category": {
+    "name": "type-protection"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held in battle\n:   When the holder would take [super-effective]{mechanic:super-effective} []{type:psychic}-type damage, it consumes this item to halve the amount of damage taken.",
+      "short_effect": "Held: Consumed when struck by a super-effective Psychic-type attack to halve the damage.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンに　持たせると\n効果バツグンの　エスパー技を\n受けたとき　威力が　弱まる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "If held by a Pokémon, this Berry will\nlessen the damage taken from one\nsupereffective Psychic-type attack.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Se un Pokémon ha questa bacca, l’attacco\nsuperefficace di tipo Psico del nemico\nviene indebolito.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "El Pokémon que la lleva puede actuar en primer\nlugar una vez cuando se encuentra en un\nmomento de apuro.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Als getragenes Item schwächt diese Beere\nsehr effektive Attacken des Angreifers\nvom Typ Psycho.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Tenue, cette Baie affaiblit une attaque ennemie\nsuper efficace de type Psy.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬에게 지니게 하면\n효과가 뛰어난 에스퍼 기술을\n당했을 때 위력이 약해진다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンに　もたせると\nこうかばつぐんの　エスパー　わざを\nうけたとき　いりょくが　よわまる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "Weakens a supereffective Psychic-type\nattack against the holding Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Weakens a supereffective Psychic-type\nattack against the holding Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Tenue, cette Baie affaiblit une attaque\nennemie super efficace de type Psy.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "If held by a Pokémon, it weakens a foe’s\nsupereffective Psychic-type attack.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Poffin ingredient. If held by a\nPokémon, it weakens a foe’s\nsupereffective Psychic-type attack.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Poffin ingredient. If held by a\nPokémon, it weakens a foe’s\nsupereffective Psychic-type attack.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 193,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 193,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 193,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Payapa Berry",
+      "language": "en"
+    },
+    {
+      "name": "Baccapayapa",
+      "language": "it"
+    },
+    {
+      "name": "Baya Payapa",
+      "language": "es"
+    },
+    {
+      "name": "Pyapabeere",
+      "language": "de"
+    },
+    {
+      "name": "Baie Yapap",
+      "language": "fr"
+    },
+    {
+      "name": "야파열매",
+      "language": "ko"
+    },
+    {
+      "name": "ウタンのみ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "mankey"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "primeape"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

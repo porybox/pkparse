@@ -1,1 +1,551 @@
-{"id":134,"name":"lum-berry","cost":20,"fling_power":10,"fling_effect":{"name":"berry-effect"},"attributes":[{"name":"holdable-active"}],"category":{"name":"medicine"},"effect_entries":[{"effect":"Held in battle\n:   When the holder is afflicted with a [major status ailment]{mechanic:major-status-ailment}, it consumes this item to cure the ailment.\n\nUsed on a party Pokémon\n:   Cures any [major status ailment]{mechanic:major-status-ailment}.","short_effect":"Held: Consumed to cure any status condition or confusion.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンに　持たせると\nすべての　状態異常を\n回復する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A Berry to be consumed by Pokémon.\nIf a Pokémon holds one, it can recover\nfrom any status condition during battle.","version_group":{"name":"x-y"},"language":"en"},{"text":"Se un Pokémon ha questa bacca, guarisce\nda qualsiasi problema di stato.","version_group":{"name":"x-y"},"language":"it"},{"text":"Al usarla con un Pokémon, se gana su amistad,\npero también reduce su Velocidad de base.","version_group":{"name":"x-y"},"language":"es"},{"text":"Gibst du die Beere einem Pokémon zum Tragen,\nhebt sie alle seine Statusprobleme auf.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une Baie qui soigne tous les problèmes de statut\nlorsqu’elle est tenue par un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬에게 지니게 하면\n모든 상태 이상을\n회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンに　もたせると\nすべての　じょうたい　いじょうを\nかいふくする。","version_group":{"name":"x-y"},"language":"ja"},{"text":"If held by a Pokémon,\nit recovers from any status problem.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"If held by a Pokémon,\nit recovers from any status problem.","version_group":{"name":"black-white"},"language":"en"},{"text":"Baie qui soigne tous les problèmes\nde statut lorsqu’elle est tenue\npar un Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"It may be used or held by a Pokémon to\nrecover from any status problem.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A Poffin ingredient. It may be used\nor held by a Pokémon to recover from\nany status problem.","version_group":{"name":"platinum"},"language":"en"},{"text":"A Poffin ingredient. It may be used\nor held by a Pokémon to recover from\nany status problem.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"When held by a POKéMON, it will be\nused in battle to heal any problem.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A hold item that\nheals any status\nproblem in battle.","version_group":{"name":"emerald"},"language":"en"},{"text":"A hold item that\nheals status in\nbattle.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":157,"generation":{"name":"generation-vi"}},{"game_index":157,"generation":{"name":"generation-v"}},{"game_index":157,"generation":{"name":"generation-iv"}},{"game_index":141,"generation":{"name":"generation-iii"}}],"names":[{"name":"Lum Berry","language":"en"},{"name":"Baccaprugna","language":"it"},{"name":"Baya Ziuela","language":"es"},{"name":"Prunusbeere","language":"de"},{"name":"Baie Prine","language":"fr"},{"name":"리샘열매","language":"ko"},{"name":"ラムのみ","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"mew"},"version_details":[{"rarity":100,"version":{"name":"y"}},{"rarity":100,"version":{"name":"x"}},{"rarity":100,"version":{"name":"white-2"}},{"rarity":100,"version":{"name":"black-2"}},{"rarity":100,"version":{"name":"white"}},{"rarity":100,"version":{"name":"black"}},{"rarity":100,"version":{"name":"soulsilver"}},{"rarity":100,"version":{"name":"heartgold"}},{"rarity":100,"version":{"name":"platinum"}},{"rarity":100,"version":{"name":"pearl"}},{"rarity":100,"version":{"name":"diamond"}},{"rarity":100,"version":{"name":"emerald"}},{"rarity":100,"version":{"name":"sapphire"}},{"rarity":100,"version":{"name":"ruby"}}]},{"pokemon":{"name":"chikorita"},"version_details":[{"rarity":100,"version":{"name":"leafgreen"}},{"rarity":100,"version":{"name":"firered"}}]},{"pokemon":{"name":"celebi"},"version_details":[{"rarity":100,"version":{"name":"y"}},{"rarity":100,"version":{"name":"x"}},{"rarity":100,"version":{"name":"white-2"}},{"rarity":100,"version":{"name":"black-2"}},{"rarity":100,"version":{"name":"white"}},{"rarity":100,"version":{"name":"black"}},{"rarity":100,"version":{"name":"soulsilver"}},{"rarity":100,"version":{"name":"heartgold"}},{"rarity":100,"version":{"name":"platinum"}},{"rarity":100,"version":{"name":"pearl"}},{"rarity":100,"version":{"name":"diamond"}},{"rarity":100,"version":{"name":"leafgreen"}},{"rarity":100,"version":{"name":"firered"}},{"rarity":100,"version":{"name":"emerald"}},{"rarity":100,"version":{"name":"sapphire"}},{"rarity":100,"version":{"name":"ruby"}}]},{"pokemon":{"name":"shaymin-land"},"version_details":[{"rarity":100,"version":{"name":"y"}},{"rarity":100,"version":{"name":"x"}},{"rarity":100,"version":{"name":"white-2"}},{"rarity":100,"version":{"name":"black-2"}},{"rarity":100,"version":{"name":"white"}},{"rarity":100,"version":{"name":"black"}},{"rarity":100,"version":{"name":"soulsilver"}},{"rarity":100,"version":{"name":"heartgold"}},{"rarity":100,"version":{"name":"platinum"}},{"rarity":100,"version":{"name":"pearl"}},{"rarity":100,"version":{"name":"diamond"}}]},{"pokemon":{"name":"shaymin-sky"},"version_details":[{"rarity":100,"version":{"name":"y"}},{"rarity":100,"version":{"name":"x"}},{"rarity":100,"version":{"name":"white-2"}},{"rarity":100,"version":{"name":"black-2"}},{"rarity":100,"version":{"name":"white"}},{"rarity":100,"version":{"name":"black"}},{"rarity":100,"version":{"name":"soulsilver"}},{"rarity":100,"version":{"name":"heartgold"}},{"rarity":100,"version":{"name":"platinum"}}]}],"baby_trigger_for":null}
+{
+  "id": 134,
+  "name": "lum-berry",
+  "cost": 20,
+  "fling_power": 10,
+  "fling_effect": {
+    "name": "berry-effect"
+  },
+  "attributes": [
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "category": {
+    "name": "medicine"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held in battle\n:   When the holder is afflicted with a [major status ailment]{mechanic:major-status-ailment}, it consumes this item to cure the ailment.\n\nUsed on a party Pokémon\n:   Cures any [major status ailment]{mechanic:major-status-ailment}.",
+      "short_effect": "Held: Consumed to cure any status condition or confusion.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンに　持たせると\nすべての　状態異常を\n回復する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A Berry to be consumed by Pokémon.\nIf a Pokémon holds one, it can recover\nfrom any status condition during battle.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Se un Pokémon ha questa bacca, guarisce\nda qualsiasi problema di stato.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Al usarla con un Pokémon, se gana su amistad,\npero también reduce su Velocidad de base.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Gibst du die Beere einem Pokémon zum Tragen,\nhebt sie alle seine Statusprobleme auf.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une Baie qui soigne tous les problèmes de statut\nlorsqu’elle est tenue par un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬에게 지니게 하면\n모든 상태 이상을\n회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンに　もたせると\nすべての　じょうたい　いじょうを\nかいふくする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "If held by a Pokémon,\nit recovers from any status problem.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "If held by a Pokémon,\nit recovers from any status problem.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Baie qui soigne tous les problèmes\nde statut lorsqu’elle est tenue\npar un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "It may be used or held by a Pokémon to\nrecover from any status problem.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Poffin ingredient. It may be used\nor held by a Pokémon to recover from\nany status problem.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Poffin ingredient. It may be used\nor held by a Pokémon to recover from\nany status problem.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "When held by a POKéMON, it will be\nused in battle to heal any problem.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nheals any status\nproblem in battle.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that\nheals status in\nbattle.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 157,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 157,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 157,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 141,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Lum Berry",
+      "language": "en"
+    },
+    {
+      "name": "Baccaprugna",
+      "language": "it"
+    },
+    {
+      "name": "Baya Ziuela",
+      "language": "es"
+    },
+    {
+      "name": "Prunusbeere",
+      "language": "de"
+    },
+    {
+      "name": "Baie Prine",
+      "language": "fr"
+    },
+    {
+      "name": "리샘열매",
+      "language": "ko"
+    },
+    {
+      "name": "ラムのみ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "mew"
+      },
+      "version_details": [
+        {
+          "rarity": 100,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "chikorita"
+      },
+      "version_details": [
+        {
+          "rarity": 100,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "firered"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "celebi"
+      },
+      "version_details": [
+        {
+          "rarity": 100,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "firered"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "shaymin-land"
+      },
+      "version_details": [
+        {
+          "rarity": 100,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "shaymin-sky"
+      },
+      "version_details": [
+        {
+          "rarity": 100,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "platinum"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

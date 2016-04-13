@@ -1,1 +1,170 @@
-{"id":356,"name":"tm52","cost":5500,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Focus Blast to a compatible Pokémon.","short_effect":"Teaches Focus Blast to a compatible Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"気合を　高めて\nありったけの　力を　放出する。\n相手の　特防を　さげることが　ある。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user heightens its mental focus and\nunleashes its power.\nThis may also lower the target’s Sp. Def.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa si concentra e rilascia la sua forza.\nPuò ridurre la Difesa Speciale del Pokémon\ncolpito.","version_group":{"name":"x-y"},"language":"it"},{"text":"Quien lo usa reduce la resistencia que ofrece su\ncuerpo y gana mucho en Velocidad.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Angriff mit aller Macht. Die Spezial-\nVerteidigung des Zieles sinkt eventuell.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur rassemble ses forces et laisse éclater\nson pouvoir. Peut aussi baisser la Défense\nSpéciale de l’ennemi.","version_group":{"name":"x-y"},"language":"fr"},{"text":"기합을 높여서\n혼신의 힘을 방출한다. 상대의\n특수방어를 떨어뜨릴 때가 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"こんしんの　ちからで　こうげきする。\nあたった　あいての　とくぼうを\nさげることが　ある。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user heightens its mental focus and\nunleashes its power.\nIt may also lower the target’s Sp. Def.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user heightens its mental focus and\nunleashes its power.\nIt may also lower the target’s Sp. Def.","version_group":{"name":"black-white"},"language":"en"},{"text":"Le lanceur rassemble ses forces et\nlaisse éclater son pouvoir. Peut aussi\nbaisser la Défense Spéciale de l’ennemi.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user attacks at full power.\nIt may also lower the foe’s Sp. Def\nstat if it hits.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user attacks at full power.\nIt may also lower the foe’s Sp. Def\nstat if it hits.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user attacks at full power.\nIt may also lower the foe’s Sp. Def\nstat if it hits.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":379,"generation":{"name":"generation-vi"}},{"game_index":379,"generation":{"name":"generation-v"}},{"game_index":379,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM52","language":"en"},{"name":"MT52","language":"it"},{"name":"MT52","language":"es"},{"name":"TM52","language":"de"},{"name":"CT52","language":"fr"},{"name":"기술머신52","language":"ko"},{"name":"わざマシン５２","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 356,
+  "name": "tm52",
+  "cost": 5500,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Focus Blast to a compatible Pokémon.",
+      "short_effect": "Teaches Focus Blast to a compatible Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "気合を　高めて\nありったけの　力を　放出する。\n相手の　特防を　さげることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user heightens its mental focus and\nunleashes its power.\nThis may also lower the target’s Sp. Def.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa si concentra e rilascia la sua forza.\nPuò ridurre la Difesa Speciale del Pokémon\ncolpito.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Quien lo usa reduce la resistencia que ofrece su\ncuerpo y gana mucho en Velocidad.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Angriff mit aller Macht. Die Spezial-\nVerteidigung des Zieles sinkt eventuell.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur rassemble ses forces et laisse éclater\nson pouvoir. Peut aussi baisser la Défense\nSpéciale de l’ennemi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "기합을 높여서\n혼신의 힘을 방출한다. 상대의\n특수방어를 떨어뜨릴 때가 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "こんしんの　ちからで　こうげきする。\nあたった　あいての　とくぼうを\nさげることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user heightens its mental focus and\nunleashes its power.\nIt may also lower the target’s Sp. Def.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user heightens its mental focus and\nunleashes its power.\nIt may also lower the target’s Sp. Def.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur rassemble ses forces et\nlaisse éclater son pouvoir. Peut aussi\nbaisser la Défense Spéciale de l’ennemi.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user attacks at full power.\nIt may also lower the foe’s Sp. Def\nstat if it hits.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user attacks at full power.\nIt may also lower the foe’s Sp. Def\nstat if it hits.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user attacks at full power.\nIt may also lower the foe’s Sp. Def\nstat if it hits.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 379,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 379,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 379,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM52",
+      "language": "en"
+    },
+    {
+      "name": "MT52",
+      "language": "it"
+    },
+    {
+      "name": "MT52",
+      "language": "es"
+    },
+    {
+      "name": "TM52",
+      "language": "de"
+    },
+    {
+      "name": "CT52",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신52",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン５２",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

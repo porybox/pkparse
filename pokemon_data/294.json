@@ -1,1 +1,146 @@
-{"id":294,"name":"loudred","order":320,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":141,"pokedex":{"name":"kalos-central"}},{"entry_number":46,"pokedex":{"name":"hoenn"}},{"entry_number":294,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"},{"name":"monster"}],"color":{"name":"blue"},"shape":{"name":"upright"},"evolves_from_species":{"name":"whismur"},"evolution_chain":{},"habitat":{"name":"cave"},"generation":{"name":"generation-iii"},"names":[{"name":"ドゴーム","language":"ja"},{"name":"Dogohmb","language":"roomaji"},{"name":"노공룡","language":"ko"},{"name":"吼爆彈","language":"zh"},{"name":"Ramboum","language":"fr"},{"name":"Krakeelo","language":"de"},{"name":"Loudred","language":"es"},{"name":"Loudred","language":"it"},{"name":"Loudred","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"おおごえ","language":"ja"},{"genus":"큰목소리","language":"ko"},{"genus":"Grosse Voix","language":"fr"},{"genus":"Lauthals","language":"de"},{"genus":"Chillón","language":"es"},{"genus":"Vocione","language":"it"},{"genus":"Big Voice","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"loudred"}}],"first_evolution_id":293}
+{
+  "id": 294,
+  "name": "loudred",
+  "order": 320,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 141,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 46,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 294,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "whismur"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "cave"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ドゴーム",
+      "language": "ja"
+    },
+    {
+      "name": "Dogohmb",
+      "language": "roomaji"
+    },
+    {
+      "name": "노공룡",
+      "language": "ko"
+    },
+    {
+      "name": "吼爆彈",
+      "language": "zh"
+    },
+    {
+      "name": "Ramboum",
+      "language": "fr"
+    },
+    {
+      "name": "Krakeelo",
+      "language": "de"
+    },
+    {
+      "name": "Loudred",
+      "language": "es"
+    },
+    {
+      "name": "Loudred",
+      "language": "it"
+    },
+    {
+      "name": "Loudred",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "おおごえ",
+      "language": "ja"
+    },
+    {
+      "genus": "큰목소리",
+      "language": "ko"
+    },
+    {
+      "genus": "Grosse Voix",
+      "language": "fr"
+    },
+    {
+      "genus": "Lauthals",
+      "language": "de"
+    },
+    {
+      "genus": "Chillón",
+      "language": "es"
+    },
+    {
+      "genus": "Vocione",
+      "language": "it"
+    },
+    {
+      "genus": "Big Voice",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "loudred"
+      }
+    }
+  ],
+  "first_evolution_id": 293
+}

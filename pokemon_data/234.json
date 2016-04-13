@@ -1,1 +1,141 @@
-{"id":234,"name":"stantler","order":265,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":131,"pokedex":{"name":"updated-johto"}},{"entry_number":129,"pokedex":{"name":"original-johto"}},{"entry_number":234,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"quadruped"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-ii"},"names":[{"name":"オドシシ","language":"ja"},{"name":"Odoshishi","language":"roomaji"},{"name":"노라키","language":"ko"},{"name":"驚角鹿","language":"zh"},{"name":"Cerfrousse","language":"fr"},{"name":"Damhirplex","language":"de"},{"name":"Stantler","language":"es"},{"name":"Stantler","language":"it"},{"name":"Stantler","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"おおツノ","language":"ja"},{"genus":"큰뿔","language":"ko"},{"genus":"Maxi Corne","language":"fr"},{"genus":"Vielender","language":"de"},{"genus":"Gran Cuerno","language":"es"},{"genus":"Grancorno","language":"it"},{"genus":"Big Horn","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"stantler"}}],"first_evolution_id":234}
+{
+  "id": 234,
+  "name": "stantler",
+  "order": 265,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 131,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 129,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 234,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "オドシシ",
+      "language": "ja"
+    },
+    {
+      "name": "Odoshishi",
+      "language": "roomaji"
+    },
+    {
+      "name": "노라키",
+      "language": "ko"
+    },
+    {
+      "name": "驚角鹿",
+      "language": "zh"
+    },
+    {
+      "name": "Cerfrousse",
+      "language": "fr"
+    },
+    {
+      "name": "Damhirplex",
+      "language": "de"
+    },
+    {
+      "name": "Stantler",
+      "language": "es"
+    },
+    {
+      "name": "Stantler",
+      "language": "it"
+    },
+    {
+      "name": "Stantler",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "おおツノ",
+      "language": "ja"
+    },
+    {
+      "genus": "큰뿔",
+      "language": "ko"
+    },
+    {
+      "genus": "Maxi Corne",
+      "language": "fr"
+    },
+    {
+      "genus": "Vielender",
+      "language": "de"
+    },
+    {
+      "genus": "Gran Cuerno",
+      "language": "es"
+    },
+    {
+      "genus": "Grancorno",
+      "language": "it"
+    },
+    {
+      "genus": "Big Horn",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "stantler"
+      }
+    }
+  ],
+  "first_evolution_id": 234
+}

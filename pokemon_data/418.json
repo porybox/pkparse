@@ -1,1 +1,154 @@
-{"id":418,"name":"buizel","order":446,"gender_rate":4,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":58,"pokedex":{"name":"kalos-mountain"}},{"entry_number":149,"pokedex":{"name":"updated-unova"}},{"entry_number":56,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":56,"pokedex":{"name":"original-sinnoh"}},{"entry_number":418,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"},{"name":"water1"}],"color":{"name":"brown"},"shape":{"name":"quadruped"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"ブイゼル","language":"ja"},{"name":"Buoysel","language":"roomaji"},{"name":"브이젤","language":"ko"},{"name":"泳氣鼬","language":"zh"},{"name":"Mustébouée","language":"fr"},{"name":"Bamelin","language":"de"},{"name":"Buizel","language":"es"},{"name":"Buizel","language":"it"},{"name":"Buizel","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"うみイタチ","language":"ja"},{"genus":"바다족제비","language":"ko"},{"genus":"Aquabelette","language":"fr"},{"genus":"Meereswiesel","language":"de"},{"genus":"Nutria Mar.","language":"es"},{"genus":"Maridonnola","language":"it"},{"genus":"Sea Weasel","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"buizel"}}],"first_evolution_id":418}
+{
+  "id": 418,
+  "name": "buizel",
+  "order": 446,
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 58,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 149,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 56,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 56,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 418,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "ブイゼル",
+      "language": "ja"
+    },
+    {
+      "name": "Buoysel",
+      "language": "roomaji"
+    },
+    {
+      "name": "브이젤",
+      "language": "ko"
+    },
+    {
+      "name": "泳氣鼬",
+      "language": "zh"
+    },
+    {
+      "name": "Mustébouée",
+      "language": "fr"
+    },
+    {
+      "name": "Bamelin",
+      "language": "de"
+    },
+    {
+      "name": "Buizel",
+      "language": "es"
+    },
+    {
+      "name": "Buizel",
+      "language": "it"
+    },
+    {
+      "name": "Buizel",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "うみイタチ",
+      "language": "ja"
+    },
+    {
+      "genus": "바다족제비",
+      "language": "ko"
+    },
+    {
+      "genus": "Aquabelette",
+      "language": "fr"
+    },
+    {
+      "genus": "Meereswiesel",
+      "language": "de"
+    },
+    {
+      "genus": "Nutria Mar.",
+      "language": "es"
+    },
+    {
+      "genus": "Maridonnola",
+      "language": "it"
+    },
+    {
+      "genus": "Sea Weasel",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "buizel"
+      }
+    }
+  ],
+  "first_evolution_id": 418
+}

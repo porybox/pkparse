@@ -1,1 +1,147 @@
-{"id":476,"name":"probopass","order":325,"gender_rate":4,"capture_rate":60,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":94,"pokedex":{"name":"kalos-coastal"}},{"entry_number":165,"pokedex":{"name":"updated-unova"}},{"entry_number":156,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":476,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"mineral"}],"color":{"name":"gray"},"shape":{"name":"heads"},"evolves_from_species":{"name":"nosepass"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"ダイノーズ","language":"ja"},{"name":"Dainose","language":"roomaji"},{"name":"대코파스","language":"ko"},{"name":"大朝北鼻","language":"zh"},{"name":"Tarinorme","language":"fr"},{"name":"Voluminas","language":"de"},{"name":"Probopass","language":"es"},{"name":"Probopass","language":"it"},{"name":"Probopass","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"コンパス","language":"ja"},{"genus":"콤파스","language":"ko"},{"genus":"Boussole","language":"fr"},{"genus":"Kompass","language":"de"},{"genus":"Brújula","language":"es"},{"genus":"Bussola","language":"it"},{"genus":"Compass","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"probopass"}}],"first_evolution_id":299}
+{
+  "id": 476,
+  "name": "probopass",
+  "order": 325,
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 94,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 165,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 156,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 476,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "mineral"
+    }
+  ],
+  "color": {
+    "name": "gray"
+  },
+  "shape": {
+    "name": "heads"
+  },
+  "evolves_from_species": {
+    "name": "nosepass"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "ダイノーズ",
+      "language": "ja"
+    },
+    {
+      "name": "Dainose",
+      "language": "roomaji"
+    },
+    {
+      "name": "대코파스",
+      "language": "ko"
+    },
+    {
+      "name": "大朝北鼻",
+      "language": "zh"
+    },
+    {
+      "name": "Tarinorme",
+      "language": "fr"
+    },
+    {
+      "name": "Voluminas",
+      "language": "de"
+    },
+    {
+      "name": "Probopass",
+      "language": "es"
+    },
+    {
+      "name": "Probopass",
+      "language": "it"
+    },
+    {
+      "name": "Probopass",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "コンパス",
+      "language": "ja"
+    },
+    {
+      "genus": "콤파스",
+      "language": "ko"
+    },
+    {
+      "genus": "Boussole",
+      "language": "fr"
+    },
+    {
+      "genus": "Kompass",
+      "language": "de"
+    },
+    {
+      "genus": "Brújula",
+      "language": "es"
+    },
+    {
+      "genus": "Bussola",
+      "language": "it"
+    },
+    {
+      "genus": "Compass",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "probopass"
+      }
+    }
+  ],
+  "first_evolution_id": 299
+}

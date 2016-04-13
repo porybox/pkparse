@@ -1,1 +1,110 @@
-{"id":729,"name":"jaw-fossil","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"dex-completion"},"effect_entries":[],"flavor_text_entries":[{"text":"大昔　地上で　暮らした\n古代ポケモンの　カセキ。\n大きな　アゴの　一部らしい。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A fossil from a prehistoric Pokémon\nthat once lived on the land. It looks as\nif it could be a piece of a large jaw.","version_group":{"name":"x-y"},"language":"en"},{"text":"Fossile di un Pokémon preistorico che viveva\nsulla terraferma. Sembra far parte di una grossa\nmascella.","version_group":{"name":"x-y"},"language":"it"},{"text":"","version_group":{"name":"x-y"},"language":"es"},{"text":"Das Fossil eines uralten Pokémon, das an Land\nlebte. Es sieht wie ein Kieferknochen aus.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le fossile d’un Pokémon préhistorique terrestre.\nOn dirait un fragment de mâchoire.","version_group":{"name":"x-y"},"language":"fr"},{"text":"오랜 옛날 지상에서 살았던\n고대 포켓몬의 화석.\n커다란 턱의 일부인 듯하다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"おおむかし　ちじょうで　くらした\nこだい　ポケモンの　カセキ。\nおおきな　アゴの　いちぶ　らしい。","version_group":{"name":"x-y"},"language":"ja"}],"game_indices":[{"game_index":710,"generation":{"name":"generation-vi"}}],"names":[{"name":"Jaw Fossil","language":"en"},{"name":"Fossilmascella","language":"it"},{"name":"Fósil Mandíbula","language":"es"},{"name":"Kieferfossil","language":"de"},{"name":"Fossile Mâchoire","language":"fr"},{"name":"턱화석","language":"ko"},{"name":"アゴのカセキ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 729,
+  "name": "jaw-fossil",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "dex-completion"
+  },
+  "effect_entries": [],
+  "flavor_text_entries": [
+    {
+      "text": "大昔　地上で　暮らした\n古代ポケモンの　カセキ。\n大きな　アゴの　一部らしい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A fossil from a prehistoric Pokémon\nthat once lived on the land. It looks as\nif it could be a piece of a large jaw.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Fossile di un Pokémon preistorico che viveva\nsulla terraferma. Sembra far parte di una grossa\nmascella.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Das Fossil eines uralten Pokémon, das an Land\nlebte. Es sieht wie ein Kieferknochen aus.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le fossile d’un Pokémon préhistorique terrestre.\nOn dirait un fragment de mâchoire.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "오랜 옛날 지상에서 살았던\n고대 포켓몬의 화석.\n커다란 턱의 일부인 듯하다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "おおむかし　ちじょうで　くらした\nこだい　ポケモンの　カセキ。\nおおきな　アゴの　いちぶ　らしい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 710,
+      "generation": {
+        "name": "generation-vi"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Jaw Fossil",
+      "language": "en"
+    },
+    {
+      "name": "Fossilmascella",
+      "language": "it"
+    },
+    {
+      "name": "Fósil Mandíbula",
+      "language": "es"
+    },
+    {
+      "name": "Kieferfossil",
+      "language": "de"
+    },
+    {
+      "name": "Fossile Mâchoire",
+      "language": "fr"
+    },
+    {
+      "name": "턱화석",
+      "language": "ko"
+    },
+    {
+      "name": "アゴのカセキ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,176 @@
-{"id":88,"name":"download","is_main_series":true,"generation":{"name":"generation-iv"},"names":[{"name":"Download","language":"en"},{"name":"Download","language":"it"},{"name":"Descarga","language":"es"},{"name":"Download","language":"de"},{"name":"Télécharge","language":"fr"},{"name":"다운로드","language":"ko"},{"name":"ダウンロード","language":"ja"}],"effect_entries":[{"effect":"When this Pokémon enters battle, its [Attack]{mechanic:attack} or [Special Attack]{mechanic:special-attack}, whichever corresponds to its opponents' weaker total defensive stat, rises one [stage]{mechanic:stat-modifier}.  In the event of a tie, Special Attack is raised.\n\nThis ability also takes effect when acquired during a battle.","short_effect":"Raises the attack stat corresponding to the opponents' weaker defense one [stage]{mechanic:stat-modifier} upon entering battle.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"相手の　能力を　みて\n強さを　変える。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Adjusts power based on an\nopposing Pokémon’s stats.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Regola la potenza in base\nal nemico.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Adapta su fuerza para cada rival.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Passt Kraft entsprechend den\ngegnerischen Statuswerten an.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Ajuste la puissance selon\nl’ennemi.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"상대의 능력을 보고\n능력치를 바꾼다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"あいての　のうりょくを\nみて　つよさを　かえる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Adjusts power according\nto a foe’s defenses.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Adjusts power according\nto a foe’s defenses.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Ajuste la puissance selon\nl’ennemi.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Adjusts power according\nto the foe’s ability.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Adjusts power according\nto the foe’s ability.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Adjusts power according\nto the foe’s ability.","version_group":{"name":"diamond-pearl"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":2,"pokemon":{"name":"porygon"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"porygon2"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"porygon-z"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"genesect"}}]}
+{
+  "id": 88,
+  "name": "download",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "Download",
+      "language": "en"
+    },
+    {
+      "name": "Download",
+      "language": "it"
+    },
+    {
+      "name": "Descarga",
+      "language": "es"
+    },
+    {
+      "name": "Download",
+      "language": "de"
+    },
+    {
+      "name": "Télécharge",
+      "language": "fr"
+    },
+    {
+      "name": "다운로드",
+      "language": "ko"
+    },
+    {
+      "name": "ダウンロード",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "When this Pokémon enters battle, its [Attack]{mechanic:attack} or [Special Attack]{mechanic:special-attack}, whichever corresponds to its opponents' weaker total defensive stat, rises one [stage]{mechanic:stat-modifier}.  In the event of a tie, Special Attack is raised.\n\nThis ability also takes effect when acquired during a battle.",
+      "short_effect": "Raises the attack stat corresponding to the opponents' weaker defense one [stage]{mechanic:stat-modifier} upon entering battle.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "相手の　能力を　みて\n強さを　変える。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Adjusts power based on an\nopposing Pokémon’s stats.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Regola la potenza in base\nal nemico.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Adapta su fuerza para cada rival.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Passt Kraft entsprechend den\ngegnerischen Statuswerten an.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Ajuste la puissance selon\nl’ennemi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "상대의 능력을 보고\n능력치를 바꾼다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "あいての　のうりょくを\nみて　つよさを　かえる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Adjusts power according\nto a foe’s defenses.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Adjusts power according\nto a foe’s defenses.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Ajuste la puissance selon\nl’ennemi.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Adjusts power according\nto the foe’s ability.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Adjusts power according\nto the foe’s ability.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Adjusts power according\nto the foe’s ability.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "porygon"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "porygon2"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "porygon-z"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "genesect"
+      }
+    }
+  ]
+}

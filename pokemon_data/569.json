@@ -1,1 +1,131 @@
-{"id":569,"name":"garbodor","order":570,"gender_rate":4,"capture_rate":60,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":75,"pokedex":{"name":"kalos-mountain"}},{"entry_number":106,"pokedex":{"name":"updated-unova"}},{"entry_number":75,"pokedex":{"name":"original-unova"}},{"entry_number":569,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"mineral"}],"color":{"name":"green"},"shape":{"name":"humanoid"},"evolves_from_species":{"name":"trubbish"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-v"},"names":[{"name":"ダストダス","language":"ja"},{"name":"더스트나","language":"ko"},{"name":"Miasmax","language":"fr"},{"name":"Deponitox","language":"de"},{"name":"Garbodor","language":"es"},{"name":"Garbodor","language":"it"},{"name":"Garbodor","language":"en"}],"pal_park_encounters":[],"form_descriptions":[],"genera":[{"genus":"ゴミすてば","language":"ja"},{"genus":"쓰레기장","language":"ko"},{"genus":"Dépotoir","language":"fr"},{"genus":"Müllhalde","language":"de"},{"genus":"Vertedero","language":"es"},{"genus":"Discarica","language":"it"},{"genus":"Trash Heap","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"garbodor"}}],"first_evolution_id":568}
+{
+  "id": 569,
+  "name": "garbodor",
+  "order": 570,
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 75,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 106,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 75,
+      "pokedex": {
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 569,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "mineral"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": {
+    "name": "trubbish"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "ダストダス",
+      "language": "ja"
+    },
+    {
+      "name": "더스트나",
+      "language": "ko"
+    },
+    {
+      "name": "Miasmax",
+      "language": "fr"
+    },
+    {
+      "name": "Deponitox",
+      "language": "de"
+    },
+    {
+      "name": "Garbodor",
+      "language": "es"
+    },
+    {
+      "name": "Garbodor",
+      "language": "it"
+    },
+    {
+      "name": "Garbodor",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ゴミすてば",
+      "language": "ja"
+    },
+    {
+      "genus": "쓰레기장",
+      "language": "ko"
+    },
+    {
+      "genus": "Dépotoir",
+      "language": "fr"
+    },
+    {
+      "genus": "Müllhalde",
+      "language": "de"
+    },
+    {
+      "genus": "Vertedero",
+      "language": "es"
+    },
+    {
+      "genus": "Discarica",
+      "language": "it"
+    },
+    {
+      "genus": "Trash Heap",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "garbodor"
+      }
+    }
+  ],
+  "first_evolution_id": 568
+}

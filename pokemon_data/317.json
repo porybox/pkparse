@@ -1,1 +1,143 @@
-{"id":317,"name":"swalot","order":345,"gender_rate":4,"capture_rate":75,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"fast-then-very-slow"},"pokedex_numbers":[{"entry_number":99,"pokedex":{"name":"kalos-central"}},{"entry_number":96,"pokedex":{"name":"hoenn"}},{"entry_number":317,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"indeterminate"}],"color":{"name":"purple"},"shape":{"name":"arms"},"evolves_from_species":{"name":"gulpin"},"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-iii"},"names":[{"name":"マルノーム","language":"ja"},{"name":"Marunoom","language":"roomaji"},{"name":"꿀꺽몬","language":"ko"},{"name":"吞食獸","language":"zh"},{"name":"Avaltout","language":"fr"},{"name":"Schlukwech","language":"de"},{"name":"Swalot","language":"es"},{"name":"Swalot","language":"it"},{"name":"Swalot","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"どくぶくろ","language":"ja"},{"genus":"독봉지","language":"ko"},{"genus":"Sac Poison","language":"fr"},{"genus":"Giftbeutel","language":"de"},{"genus":"Bolsa Veneno","language":"es"},{"genus":"Velenosacco","language":"it"},{"genus":"Poison Bag","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"swalot"}}],"first_evolution_id":316}
+{
+  "id": 317,
+  "name": "swalot",
+  "order": 345,
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "fast-then-very-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 99,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 96,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 317,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "indeterminate"
+    }
+  ],
+  "color": {
+    "name": "purple"
+  },
+  "shape": {
+    "name": "arms"
+  },
+  "evolves_from_species": {
+    "name": "gulpin"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "マルノーム",
+      "language": "ja"
+    },
+    {
+      "name": "Marunoom",
+      "language": "roomaji"
+    },
+    {
+      "name": "꿀꺽몬",
+      "language": "ko"
+    },
+    {
+      "name": "吞食獸",
+      "language": "zh"
+    },
+    {
+      "name": "Avaltout",
+      "language": "fr"
+    },
+    {
+      "name": "Schlukwech",
+      "language": "de"
+    },
+    {
+      "name": "Swalot",
+      "language": "es"
+    },
+    {
+      "name": "Swalot",
+      "language": "it"
+    },
+    {
+      "name": "Swalot",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "どくぶくろ",
+      "language": "ja"
+    },
+    {
+      "genus": "독봉지",
+      "language": "ko"
+    },
+    {
+      "genus": "Sac Poison",
+      "language": "fr"
+    },
+    {
+      "genus": "Giftbeutel",
+      "language": "de"
+    },
+    {
+      "genus": "Bolsa Veneno",
+      "language": "es"
+    },
+    {
+      "genus": "Velenosacco",
+      "language": "it"
+    },
+    {
+      "genus": "Poison Bag",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "swalot"
+      }
+    }
+  ],
+  "first_evolution_id": 316
+}

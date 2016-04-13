@@ -1,1 +1,97 @@
-{"id":40,"name":"poison-sting","accuracy":100,"effect_chance":30,"pp":35,"priority":0,"power":15,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [poison]{mechanic:poison} the target.","short_effect":"Has a $effect_chance% chance to [poison]{mechanic:poison} the target.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"poison"},"category":{"name":"damage+ailment"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":30,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Poison Sting","language":"en"},{"name":"Velenospina","language":"it"},{"name":"Picotazo Ven","language":"es"},{"name":"Giftstachel","language":"de"},{"name":"Dard-Venin","language":"fr"},{"name":"독침","language":"ko"},{"name":"どくばり","language":"ja"}],"past_values":[{"accuracy":null,"power":null,"pp":null,"effect_chance":20,"effect_entries":[],"type":null,"version_group":{"name":"gold-silver"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"poison"}}
+{
+  "id": 40,
+  "name": "poison-sting",
+  "accuracy": 100,
+  "effect_chance": 30,
+  "pp": 35,
+  "priority": 0,
+  "power": 15,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [poison]{mechanic:poison} the target.",
+      "short_effect": "Has a $effect_chance% chance to [poison]{mechanic:poison} the target.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "poison"
+    },
+    "category": {
+      "name": "damage+ailment"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 30,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Poison Sting",
+      "language": "en"
+    },
+    {
+      "name": "Velenospina",
+      "language": "it"
+    },
+    {
+      "name": "Picotazo Ven",
+      "language": "es"
+    },
+    {
+      "name": "Giftstachel",
+      "language": "de"
+    },
+    {
+      "name": "Dard-Venin",
+      "language": "fr"
+    },
+    {
+      "name": "독침",
+      "language": "ko"
+    },
+    {
+      "name": "どくばり",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": null,
+      "pp": null,
+      "effect_chance": 20,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "gold-silver"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "poison"
+  }
+}

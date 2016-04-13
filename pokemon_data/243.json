@@ -1,1 +1,141 @@
-{"id":243,"name":"raikou","order":268,"gender_rate":-1,"capture_rate":3,"base_happiness":35,"is_baby":false,"hatch_counter":80,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":243,"pokedex":{"name":"updated-johto"}},{"entry_number":238,"pokedex":{"name":"original-johto"}},{"entry_number":243,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"no-eggs"}],"color":{"name":"yellow"},"shape":{"name":"quadruped"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-ii"},"names":[{"name":"ライコウ","language":"ja"},{"name":"Raikou","language":"roomaji"},{"name":"라이코","language":"ko"},{"name":"雷公","language":"zh"},{"name":"Raikou","language":"fr"},{"name":"Raikou","language":"de"},{"name":"Raikou","language":"es"},{"name":"Raikou","language":"it"},{"name":"Raikou","language":"en"}],"pal_park_encounters":[{"base_score":90,"rate":3,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"いかずち","language":"ja"},{"genus":"우뢰","language":"ko"},{"genus":"Foudre","language":"fr"},{"genus":"Donner","language":"de"},{"genus":"Trueno","language":"es"},{"genus":"Tuono","language":"it"},{"genus":"Thunder","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"raikou"}}],"first_evolution_id":243}
+{
+  "id": 243,
+  "name": "raikou",
+  "order": 268,
+  "gender_rate": -1,
+  "capture_rate": 3,
+  "base_happiness": 35,
+  "is_baby": false,
+  "hatch_counter": 80,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 243,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 238,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 243,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "no-eggs"
+    }
+  ],
+  "color": {
+    "name": "yellow"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ライコウ",
+      "language": "ja"
+    },
+    {
+      "name": "Raikou",
+      "language": "roomaji"
+    },
+    {
+      "name": "라이코",
+      "language": "ko"
+    },
+    {
+      "name": "雷公",
+      "language": "zh"
+    },
+    {
+      "name": "Raikou",
+      "language": "fr"
+    },
+    {
+      "name": "Raikou",
+      "language": "de"
+    },
+    {
+      "name": "Raikou",
+      "language": "es"
+    },
+    {
+      "name": "Raikou",
+      "language": "it"
+    },
+    {
+      "name": "Raikou",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 90,
+      "rate": 3,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "いかずち",
+      "language": "ja"
+    },
+    {
+      "genus": "우뢰",
+      "language": "ko"
+    },
+    {
+      "genus": "Foudre",
+      "language": "fr"
+    },
+    {
+      "genus": "Donner",
+      "language": "de"
+    },
+    {
+      "genus": "Trueno",
+      "language": "es"
+    },
+    {
+      "genus": "Tuono",
+      "language": "it"
+    },
+    {
+      "genus": "Thunder",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "raikou"
+      }
+    }
+  ],
+  "first_evolution_id": 243
+}

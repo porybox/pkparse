@@ -1,1 +1,129 @@
-{"id":622,"name":"golett","order":623,"gender_rate":-1,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":25,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":91,"pokedex":{"name":"kalos-coastal"}},{"entry_number":271,"pokedex":{"name":"updated-unova"}},{"entry_number":128,"pokedex":{"name":"original-unova"}},{"entry_number":622,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"mineral"}],"color":{"name":"green"},"shape":{"name":"humanoid"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-v"},"names":[{"name":"ゴビット","language":"ja"},{"name":"골비람","language":"ko"},{"name":"Gringolem","language":"fr"},{"name":"Golbit","language":"de"},{"name":"Golett","language":"es"},{"name":"Golett","language":"it"},{"name":"Golett","language":"en"}],"pal_park_encounters":[],"form_descriptions":[],"genera":[{"genus":"ゴーレム","language":"ja"},{"genus":"골렘","language":"ko"},{"genus":"Golem Ancien","language":"fr"},{"genus":"Urgolem","language":"de"},{"genus":"Autómata","language":"es"},{"genus":"Statuanimata","language":"it"},{"genus":"Automaton","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"golett"}}],"first_evolution_id":622}
+{
+  "id": 622,
+  "name": "golett",
+  "order": 623,
+  "gender_rate": -1,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 25,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 91,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 271,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 128,
+      "pokedex": {
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 622,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "mineral"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "ゴビット",
+      "language": "ja"
+    },
+    {
+      "name": "골비람",
+      "language": "ko"
+    },
+    {
+      "name": "Gringolem",
+      "language": "fr"
+    },
+    {
+      "name": "Golbit",
+      "language": "de"
+    },
+    {
+      "name": "Golett",
+      "language": "es"
+    },
+    {
+      "name": "Golett",
+      "language": "it"
+    },
+    {
+      "name": "Golett",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ゴーレム",
+      "language": "ja"
+    },
+    {
+      "genus": "골렘",
+      "language": "ko"
+    },
+    {
+      "genus": "Golem Ancien",
+      "language": "fr"
+    },
+    {
+      "genus": "Urgolem",
+      "language": "de"
+    },
+    {
+      "genus": "Autómata",
+      "language": "es"
+    },
+    {
+      "genus": "Statuanimata",
+      "language": "it"
+    },
+    {
+      "genus": "Automaton",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "golett"
+      }
+    }
+  ],
+  "first_evolution_id": 622
+}

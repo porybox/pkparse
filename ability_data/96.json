@@ -1,1 +1,162 @@
-{"id":96,"name":"normalize","is_main_series":true,"generation":{"name":"generation-iv"},"names":[{"name":"Normalize","language":"en"},{"name":"Normalità","language":"it"},{"name":"Normalidad","language":"es"},{"name":"Regulierung","language":"de"},{"name":"Normalise","language":"fr"},{"name":"노말스킨","language":"ko"},{"name":"ノーマルスキン","language":"ja"}],"effect_entries":[{"effect":"This Pokémon's moves all act as if they were []{type:normal}-type.\n\nMoves that inflict [typeless damage]{mechanic:typeless-damage} do so as usual.  Moves of variable type, such as []{move:hidden-power}, are affected.  They otherwise work as usual, however; []{move:weather-ball}, for example, is always forced to be Normal, but it still has doubled power and looks different during [weather]{mechanic:weather}.\n\nAs []{move:thunder-wave} is prevented by immunities, unlike most non-damaging moves, it does not affect []{type:ghost}-type Pokémon under the effect of this ability.","short_effect":"Makes the Pokémon's moves all act []{type:normal}-type.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"だした技が　すべて\nノーマルタイプに　なる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"All the Pokémon’s moves\nbecome Normal type.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Le mosse del Pokémon\ndiventano di tipo Normale.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Todos los movimientos se vuelven\nde tipo Normal.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Alle Attacken des Pokémon\nwerden zu Normal-Attacken.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Toutes les capacités sont de\ntype Normal.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"쓴 기술이 모두\n노말타입이 된다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"だしたわざが　すべて\nノーマルタイプに　なる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"All the Pokémon’s moves\nbecome the Normal type.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"All the Pokémon’s moves\nbecome the Normal type.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Toutes les capacités sont\nde type Normal.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"All the Pokémon’s moves\nbecome the Normal type.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"All the Pokémon’s moves\nbecome the Normal type.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"All the Pokémon’s moves\nbecome the Normal type.","version_group":{"name":"diamond-pearl"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":2,"pokemon":{"name":"skitty"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"delcatty"}}]}
+{
+  "id": 96,
+  "name": "normalize",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "Normalize",
+      "language": "en"
+    },
+    {
+      "name": "Normalità",
+      "language": "it"
+    },
+    {
+      "name": "Normalidad",
+      "language": "es"
+    },
+    {
+      "name": "Regulierung",
+      "language": "de"
+    },
+    {
+      "name": "Normalise",
+      "language": "fr"
+    },
+    {
+      "name": "노말스킨",
+      "language": "ko"
+    },
+    {
+      "name": "ノーマルスキン",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon's moves all act as if they were []{type:normal}-type.\n\nMoves that inflict [typeless damage]{mechanic:typeless-damage} do so as usual.  Moves of variable type, such as []{move:hidden-power}, are affected.  They otherwise work as usual, however; []{move:weather-ball}, for example, is always forced to be Normal, but it still has doubled power and looks different during [weather]{mechanic:weather}.\n\nAs []{move:thunder-wave} is prevented by immunities, unlike most non-damaging moves, it does not affect []{type:ghost}-type Pokémon under the effect of this ability.",
+      "short_effect": "Makes the Pokémon's moves all act []{type:normal}-type.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "だした技が　すべて\nノーマルタイプに　なる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "All the Pokémon’s moves\nbecome Normal type.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Le mosse del Pokémon\ndiventano di tipo Normale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Todos los movimientos se vuelven\nde tipo Normal.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Alle Attacken des Pokémon\nwerden zu Normal-Attacken.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Toutes les capacités sont de\ntype Normal.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "쓴 기술이 모두\n노말타입이 된다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "だしたわざが　すべて\nノーマルタイプに　なる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "All the Pokémon’s moves\nbecome the Normal type.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "All the Pokémon’s moves\nbecome the Normal type.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Toutes les capacités sont\nde type Normal.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "All the Pokémon’s moves\nbecome the Normal type.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "All the Pokémon’s moves\nbecome the Normal type.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "All the Pokémon’s moves\nbecome the Normal type.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "skitty"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "delcatty"
+      }
+    }
+  ]
+}

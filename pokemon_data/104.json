@@ -1,1 +1,153 @@
-{"id":104,"name":"cubone","order":113,"gender_rate":4,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":60,"pokedex":{"name":"kalos-coastal"}},{"entry_number":208,"pokedex":{"name":"updated-johto"}},{"entry_number":203,"pokedex":{"name":"original-johto"}},{"entry_number":104,"pokedex":{"name":"kanto"}},{"entry_number":104,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"monster"}],"color":{"name":"brown"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-i"},"names":[{"name":"カラカラ","language":"ja"},{"name":"Karakara","language":"roomaji"},{"name":"탕구리","language":"ko"},{"name":"可拉可拉","language":"zh"},{"name":"Osselait","language":"fr"},{"name":"Tragosso","language":"de"},{"name":"Cubone","language":"es"},{"name":"Cubone","language":"it"},{"name":"Cubone","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"こどく","language":"ja"},{"genus":"고독","language":"ko"},{"genus":"Solitaire","language":"fr"},{"genus":"Einsam","language":"de"},{"genus":"Solitario","language":"es"},{"genus":"Solitario","language":"it"},{"genus":"Lonely","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"cubone"}}],"first_evolution_id":104}
+{
+  "id": 104,
+  "name": "cubone",
+  "order": 113,
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 60,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 208,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 203,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 104,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 104,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "カラカラ",
+      "language": "ja"
+    },
+    {
+      "name": "Karakara",
+      "language": "roomaji"
+    },
+    {
+      "name": "탕구리",
+      "language": "ko"
+    },
+    {
+      "name": "可拉可拉",
+      "language": "zh"
+    },
+    {
+      "name": "Osselait",
+      "language": "fr"
+    },
+    {
+      "name": "Tragosso",
+      "language": "de"
+    },
+    {
+      "name": "Cubone",
+      "language": "es"
+    },
+    {
+      "name": "Cubone",
+      "language": "it"
+    },
+    {
+      "name": "Cubone",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "こどく",
+      "language": "ja"
+    },
+    {
+      "genus": "고독",
+      "language": "ko"
+    },
+    {
+      "genus": "Solitaire",
+      "language": "fr"
+    },
+    {
+      "genus": "Einsam",
+      "language": "de"
+    },
+    {
+      "genus": "Solitario",
+      "language": "es"
+    },
+    {
+      "genus": "Solitario",
+      "language": "it"
+    },
+    {
+      "genus": "Lonely",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "cubone"
+      }
+    }
+  ],
+  "first_evolution_id": 104
+}

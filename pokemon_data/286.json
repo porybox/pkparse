@@ -1,1 +1,140 @@
-{"id":286,"name":"breloom","order":312,"gender_rate":4,"capture_rate":90,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"fast-then-very-slow"},"pokedex_numbers":[{"entry_number":35,"pokedex":{"name":"hoenn"}},{"entry_number":286,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"plant"},{"name":"fairy"}],"color":{"name":"green"},"shape":{"name":"upright"},"evolves_from_species":{"name":"shroomish"},"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-iii"},"names":[{"name":"キノガッサ","language":"ja"},{"name":"Kinogassa","language":"roomaji"},{"name":"버섯모","language":"ko"},{"name":"斗笠菇","language":"zh"},{"name":"Chapignon","language":"fr"},{"name":"Kapilz","language":"de"},{"name":"Breloom","language":"es"},{"name":"Breloom","language":"it"},{"name":"Breloom","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"きのこ","language":"ja"},{"genus":"버섯","language":"ko"},{"genus":"Champignon","language":"fr"},{"genus":"Pilz","language":"de"},{"genus":"Hongo","language":"es"},{"genus":"Fungo","language":"it"},{"genus":"Mushroom","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"breloom"}}],"first_evolution_id":285}
+{
+  "id": 286,
+  "name": "breloom",
+  "order": 312,
+  "gender_rate": 4,
+  "capture_rate": 90,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "fast-then-very-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 35,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 286,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "plant"
+    },
+    {
+      "name": "fairy"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "shroomish"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "キノガッサ",
+      "language": "ja"
+    },
+    {
+      "name": "Kinogassa",
+      "language": "roomaji"
+    },
+    {
+      "name": "버섯모",
+      "language": "ko"
+    },
+    {
+      "name": "斗笠菇",
+      "language": "zh"
+    },
+    {
+      "name": "Chapignon",
+      "language": "fr"
+    },
+    {
+      "name": "Kapilz",
+      "language": "de"
+    },
+    {
+      "name": "Breloom",
+      "language": "es"
+    },
+    {
+      "name": "Breloom",
+      "language": "it"
+    },
+    {
+      "name": "Breloom",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "きのこ",
+      "language": "ja"
+    },
+    {
+      "genus": "버섯",
+      "language": "ko"
+    },
+    {
+      "genus": "Champignon",
+      "language": "fr"
+    },
+    {
+      "genus": "Pilz",
+      "language": "de"
+    },
+    {
+      "genus": "Hongo",
+      "language": "es"
+    },
+    {
+      "genus": "Fungo",
+      "language": "it"
+    },
+    {
+      "genus": "Mushroom",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "breloom"
+      }
+    }
+  ],
+  "first_evolution_id": 285
+}

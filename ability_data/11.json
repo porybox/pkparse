@@ -1,1 +1,323 @@
-{"id":11,"name":"water-absorb","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Water Absorb","language":"en"},{"name":"Assorbacqua","language":"it"},{"name":"Absorbe Agua","language":"es"},{"name":"H2O-Absorber","language":"de"},{"name":"Absorb Eau","language":"fr"},{"name":"저수","language":"ko"},{"name":"ちょすい","language":"ja"}],"effect_entries":[{"effect":"Whenever a []{type:water}-type move hits this Pokémon, it heals for 1/4 of its maximum [HP]{mechanic:hp}, negating any other effect on it.\n\nWater moves will ignore this Pokémon's []{move:substitute}.","short_effect":"Absorbs []{type:water} moves, healing for 1/4 max [HP]{mechanic:hp}.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"みずを　受けると\n回復する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Restores HP if hit by a\nWater-type move.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Ridà PS se il Pokémon subisce\nuna mossa di tipo Acqua.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Recupera PS al recibir ataques de\ntipo Agua.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Treffer durch Wasser-Attacken\nregenerieren KP.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Récupère des PV si touché par\nune capacité Eau.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"물을 받으면\n회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"みずを　うけると\nかいふくする。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Restores HP if hit by a\nWater-type move.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Restores HP if hit by a\nWater-type move.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Récupère des PV si touché\npar une capacité Eau.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Restores HP if hit by a\nWater-type move.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Restores HP if hit by a\nWater-type move.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Restores HP if hit by a\nWater-type move.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"Changes water into HP.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"Changes water into HP.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"Changes water into HP.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":1,"pokemon":{"name":"poliwag"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"poliwhirl"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"poliwrath"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"lapras"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"vaporeon"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"chinchou"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"lanturn"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"politoed"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"wooper"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"quagsire"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"mantine"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"suicune"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"cacnea"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"cacturne"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"mantyke"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"tympole"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"palpitoad"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"seismitoad"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"maractus"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"frillish"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"jellicent"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"volcanion"}}]}
+{
+  "id": 11,
+  "name": "water-absorb",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Water Absorb",
+      "language": "en"
+    },
+    {
+      "name": "Assorbacqua",
+      "language": "it"
+    },
+    {
+      "name": "Absorbe Agua",
+      "language": "es"
+    },
+    {
+      "name": "H2O-Absorber",
+      "language": "de"
+    },
+    {
+      "name": "Absorb Eau",
+      "language": "fr"
+    },
+    {
+      "name": "저수",
+      "language": "ko"
+    },
+    {
+      "name": "ちょすい",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Whenever a []{type:water}-type move hits this Pokémon, it heals for 1/4 of its maximum [HP]{mechanic:hp}, negating any other effect on it.\n\nWater moves will ignore this Pokémon's []{move:substitute}.",
+      "short_effect": "Absorbs []{type:water} moves, healing for 1/4 max [HP]{mechanic:hp}.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "みずを　受けると\n回復する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Restores HP if hit by a\nWater-type move.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Ridà PS se il Pokémon subisce\nuna mossa di tipo Acqua.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Recupera PS al recibir ataques de\ntipo Agua.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Treffer durch Wasser-Attacken\nregenerieren KP.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Récupère des PV si touché par\nune capacité Eau.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "물을 받으면\n회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "みずを　うけると\nかいふくする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Restores HP if hit by a\nWater-type move.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Restores HP if hit by a\nWater-type move.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Récupère des PV si touché\npar une capacité Eau.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Restores HP if hit by a\nWater-type move.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Restores HP if hit by a\nWater-type move.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Restores HP if hit by a\nWater-type move.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Changes water into HP.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Changes water into HP.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Changes water into HP.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "poliwag"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "poliwhirl"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "poliwrath"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "lapras"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "vaporeon"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "chinchou"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "lanturn"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "politoed"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "wooper"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "quagsire"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "mantine"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "suicune"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "cacnea"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "cacturne"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "mantyke"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "tympole"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "palpitoad"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "seismitoad"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "maractus"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "frillish"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "jellicent"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "volcanion"
+      }
+    }
+  ]
+}

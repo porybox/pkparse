@@ -1,1 +1,210 @@
-{"id":5,"name":"safari-ball","cost":0,"fling_power":null,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"standard-balls"},"effect_entries":[{"effect":"Used in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1.5×.\n\nThis item can only be used in the []{location:great-marsh} or []{location:kanto-safari-zone}.","short_effect":"Tries to catch a wild Pokémon in the Great Marsh or Safari Zone.  Success rate is 1.5×.","language":"en"}],"flavor_text_entries":[{"text":"大湿原の　中だけで\n使う　特別な　ボール。\n迷彩柄に　なっている。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A special Poké Ball that is used only in\nthe Great Marsh. It is recognizable by\nthe camouflage pattern decorating it.","version_group":{"name":"x-y"},"language":"en"},{"text":"Poké Ball speciale, usata soltanto nella\nGran Palude. È decorata con un motivo mimetico.","version_group":{"name":"x-y"},"language":"it"},{"text":"Poké Ball con un diseño de camuflaje que se\nutiliza únicamente en el Gran Pantano.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Ball, der nur in Safari-Zonen eingesetzt wird.\nEr besticht durch sein Tarnfarbenmuster.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une Poké Ball spéciale dont l’usage est réservé\nau Parc Safari. Elle est décorée d’un motif\ncamouflage.","version_group":{"name":"x-y"},"language":"fr"},{"text":"대습초원 안에서만\n쓰는 특별한 볼.\n얼룩무늬로 되어 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"だいしつげんの　なか　だけで\nつかう　とくべつな　ボール。\nめいさいがらに　なっている。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A special Poké Ball that is used only in\nthe Great Marsh. It is decorated in a\ncamouflage pattern.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A special Poké Ball that is used only in\nthe Great Marsh. It is decorated in a\ncamouflage pattern.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une Poké Ball spéciale dont l’usage\nest réservé au Parc Safari. Elle est\ndécorée d’un motif camouflage.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A special Poké Ball that is used only in\nthe Great Marsh. It is decorated in a\ncamouflage pattern.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A special Poké Ball that is used only in\nthe Great Marsh. It is decorated in a\ncamouflage pattern.","version_group":{"name":"platinum"},"language":"en"},{"text":"A special Poké Ball that is used only in\nthe Great Marsh. It is decorated in a\ncamouflage pattern.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A special BALL that is used only in\nthe SAFARI ZONE. It is finished in\na camouflage pattern.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A special BALL that\nis used only in the\nSAFARI ZONE.","version_group":{"name":"emerald"},"language":"en"},{"text":"A special BALL that\nis used only in the\nSAFARI ZONE.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":5,"generation":{"name":"generation-vi"}},{"game_index":5,"generation":{"name":"generation-v"}},{"game_index":5,"generation":{"name":"generation-iv"}},{"game_index":5,"generation":{"name":"generation-iii"}}],"names":[{"name":"Safari Ball","language":"en"},{"name":"Safari Ball","language":"it"},{"name":"Safari Ball","language":"es"},{"name":"Safariball","language":"de"},{"name":"Safari Ball","language":"fr"},{"name":"사파리볼","language":"ko"},{"name":"サファリボール","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 5,
+  "name": "safari-ball",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "standard-balls"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1.5×.\n\nThis item can only be used in the []{location:great-marsh} or []{location:kanto-safari-zone}.",
+      "short_effect": "Tries to catch a wild Pokémon in the Great Marsh or Safari Zone.  Success rate is 1.5×.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "大湿原の　中だけで\n使う　特別な　ボール。\n迷彩柄に　なっている。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A special Poké Ball that is used only in\nthe Great Marsh. It is recognizable by\nthe camouflage pattern decorating it.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Poké Ball speciale, usata soltanto nella\nGran Palude. È decorata con un motivo mimetico.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Poké Ball con un diseño de camuflaje que se\nutiliza únicamente en el Gran Pantano.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Ball, der nur in Safari-Zonen eingesetzt wird.\nEr besticht durch sein Tarnfarbenmuster.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une Poké Ball spéciale dont l’usage est réservé\nau Parc Safari. Elle est décorée d’un motif\ncamouflage.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "대습초원 안에서만\n쓰는 특별한 볼.\n얼룩무늬로 되어 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "だいしつげんの　なか　だけで\nつかう　とくべつな　ボール。\nめいさいがらに　なっている。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A special Poké Ball that is used only in\nthe Great Marsh. It is decorated in a\ncamouflage pattern.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A special Poké Ball that is used only in\nthe Great Marsh. It is decorated in a\ncamouflage pattern.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une Poké Ball spéciale dont l’usage\nest réservé au Parc Safari. Elle est\ndécorée d’un motif camouflage.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A special Poké Ball that is used only in\nthe Great Marsh. It is decorated in a\ncamouflage pattern.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A special Poké Ball that is used only in\nthe Great Marsh. It is decorated in a\ncamouflage pattern.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A special Poké Ball that is used only in\nthe Great Marsh. It is decorated in a\ncamouflage pattern.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A special BALL that is used only in\nthe SAFARI ZONE. It is finished in\na camouflage pattern.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A special BALL that\nis used only in the\nSAFARI ZONE.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A special BALL that\nis used only in the\nSAFARI ZONE.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 5,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 5,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 5,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 5,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Safari Ball",
+      "language": "en"
+    },
+    {
+      "name": "Safari Ball",
+      "language": "it"
+    },
+    {
+      "name": "Safari Ball",
+      "language": "es"
+    },
+    {
+      "name": "Safariball",
+      "language": "de"
+    },
+    {
+      "name": "Safari Ball",
+      "language": "fr"
+    },
+    {
+      "name": "사파리볼",
+      "language": "ko"
+    },
+    {
+      "name": "サファリボール",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,70 @@
-{"id":553,"name":"tri-pass","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[{"effect":"Provides access to the first three Sevii Islands.","short_effect":"Grants access to the first three Sevii Islands.","language":"en"}],"flavor_text_entries":[{"text":"A pass for ferries between ONE,\nTWO, and THREE ISLAND.\nIt has a drawing of three islands.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A pass for ferries\nbetween ONE, TWO,\nand THREE ISLAND.","version_group":{"name":"emerald"},"language":"en"}],"game_indices":[{"game_index":367,"generation":{"name":"generation-iii"}}],"names":[{"name":"Tri-Pass","language":"en"},{"name":"Tris Pass","language":"it"},{"name":"Tri-Ticket","language":"es"},{"name":"Tri-Pass","language":"de"},{"name":"Tri-Passe","language":"fr"},{"name":"トライパス","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 553,
+  "name": "tri-pass",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [
+    {
+      "effect": "Provides access to the first three Sevii Islands.",
+      "short_effect": "Grants access to the first three Sevii Islands.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A pass for ferries between ONE,\nTWO, and THREE ISLAND.\nIt has a drawing of three islands.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A pass for ferries\nbetween ONE, TWO,\nand THREE ISLAND.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 367,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Tri-Pass",
+      "language": "en"
+    },
+    {
+      "name": "Tris Pass",
+      "language": "it"
+    },
+    {
+      "name": "Tri-Ticket",
+      "language": "es"
+    },
+    {
+      "name": "Tri-Pass",
+      "language": "de"
+    },
+    {
+      "name": "Tri-Passe",
+      "language": "fr"
+    },
+    {
+      "name": "トライパス",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

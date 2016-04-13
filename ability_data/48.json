@@ -1,1 +1,274 @@
-{"id":48,"name":"early-bird","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Early Bird","language":"en"},{"name":"Sveglialampo","language":"it"},{"name":"Madrugar","language":"es"},{"name":"Frühwecker","language":"de"},{"name":"Matinal","language":"fr"},{"name":"일찍기상","language":"ko"},{"name":"はやおき","language":"ja"}],"effect_entries":[{"effect":"This Pokémon's remaining sleep turn count falls by 2 rather than 1.\n\nIf this Pokémon's sleep counter is at 1, it will fall to 0 and then the Pokémon will wake up.","short_effect":"Makes [sleep]{mechanic:sleep} pass twice as quickly.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"起きるのが　早くなる。\n","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"The Pokémon awakens\nquickly from sleep.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Il Pokémon si risveglia\nrapidamente dal sonno.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"El Pokémon se despierta\nrápidamente.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Bewirkt, dass das Pokémon\nschneller wieder aufwacht.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Le Pokémon se réveille plus\nrapidement.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"잠듦 상태에서\n빨리 깨어난다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"おきるのが　はやくなる。\n","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"The Pokémon awakens\nquickly from sleep.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"The Pokémon awakens\nquickly from sleep.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Le Pokémon se réveille\nplus rapidement.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"The Pokémon awakens\nquickly from sleep.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"The Pokémon awakens\nquickly from sleep.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"The Pokémon awakens\nquickly from sleep.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"Awakens quickly from sleep.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"Awakens quickly from sleep.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"Awakens quickly from sleep.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":2,"pokemon":{"name":"doduo"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"dodrio"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"kangaskhan"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"ledyba"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"ledian"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"natu"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"xatu"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"sunkern"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"sunflora"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"girafarig"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"houndour"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"houndoom"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"seedot"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"nuzleaf"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"shiftry"}}]}
+{
+  "id": 48,
+  "name": "early-bird",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Early Bird",
+      "language": "en"
+    },
+    {
+      "name": "Sveglialampo",
+      "language": "it"
+    },
+    {
+      "name": "Madrugar",
+      "language": "es"
+    },
+    {
+      "name": "Frühwecker",
+      "language": "de"
+    },
+    {
+      "name": "Matinal",
+      "language": "fr"
+    },
+    {
+      "name": "일찍기상",
+      "language": "ko"
+    },
+    {
+      "name": "はやおき",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon's remaining sleep turn count falls by 2 rather than 1.\n\nIf this Pokémon's sleep counter is at 1, it will fall to 0 and then the Pokémon will wake up.",
+      "short_effect": "Makes [sleep]{mechanic:sleep} pass twice as quickly.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "起きるのが　早くなる。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "The Pokémon awakens\nquickly from sleep.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Il Pokémon si risveglia\nrapidamente dal sonno.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "El Pokémon se despierta\nrápidamente.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Bewirkt, dass das Pokémon\nschneller wieder aufwacht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Le Pokémon se réveille plus\nrapidement.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "잠듦 상태에서\n빨리 깨어난다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "おきるのが　はやくなる。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "The Pokémon awakens\nquickly from sleep.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon awakens\nquickly from sleep.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Le Pokémon se réveille\nplus rapidement.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "The Pokémon awakens\nquickly from sleep.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon awakens\nquickly from sleep.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon awakens\nquickly from sleep.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Awakens quickly from sleep.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Awakens quickly from sleep.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Awakens quickly from sleep.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "doduo"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "dodrio"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "kangaskhan"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "ledyba"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "ledian"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "natu"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "xatu"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "sunkern"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "sunflora"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "girafarig"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "houndour"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "houndoom"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "seedot"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "nuzleaf"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "shiftry"
+      }
+    }
+  ]
+}

@@ -1,1 +1,156 @@
-{"id":493,"name":"data-card-08","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"data-cards"},"effect_entries":[{"effect":"Records the number of times the trainer has come in first in the Pokéathlon Block Smash.","short_effect":"Records the number of times the trainer has come in first in the Pokéathlon Block Smash.","language":"en"}],"flavor_text_entries":[{"text":"ポケスロンの　記録が　はいっている。\nブレイクブロック　１位　回数が\n記録された　カード。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"It holds Pokéathlon records. It is a\ncard that shows how many times you\nwon the Pokéathlon’s Block Smash.","version_group":{"name":"x-y"},"language":"en"},{"text":"Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il numero di\nvittorie a Spaccalastra.","version_group":{"name":"x-y"},"language":"it"},{"text":"Contiene los datos del Pokéathlon con el tiempo\nque has pasado en esta competición.","version_group":{"name":"x-y"},"language":"es"},{"text":"Speichert deine Pokéathlon-Rekorde. Die Karte\nzeigt, wie oft du beim Ziegelbrechen den 1. Platz\nbelegt hast.","version_group":{"name":"x-y"},"language":"de"},{"text":"Contient vos données du Pokéathlon.\nSur cette carte est inscrit le nombre de victoires\nau Casse Roc.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓슬론의 기록이 들어 있다.\n브레이크블록 1위 횟수가\n기록된 카드.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケスロンの　きろくが　はいっている。\nブレイクブロック　１い　かいすうが\nきろくされた　カード。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It holds Pokéathlon records. It’s a\ncard that shows how many times you’ve\nwon Block Smash.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It holds Pokéathlon records. It’s a\ncard that shows how many times you’ve\nwon Block Smash.","version_group":{"name":"black-white"},"language":"en"},{"text":"Contient vos données du Pokéathlon.\nSur cette carte est inscrit le nombre\nde victoires au Casse Roc.","version_group":{"name":"black-white"},"language":"fr"},{"text":"It holds Pokéathlon records. It’s a\ncard that shows how many times you’ve\nwon Block Smash.","version_group":{"name":"heartgold-soulsilver"},"language":"en"}],"game_indices":[{"game_index":512,"generation":{"name":"generation-vi"}},{"game_index":512,"generation":{"name":"generation-v"}},{"game_index":512,"generation":{"name":"generation-iv"}}],"names":[{"name":"Data Card 08","language":"en"},{"name":"Scheda Dati 08","language":"it"},{"name":"Tarjeta Datos 08","language":"es"},{"name":"Datenkarte08","language":"de"},{"name":"Carte Mémo08","language":"fr"},{"name":"데이터카드08","language":"ko"},{"name":"データカード０８","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 493,
+  "name": "data-card-08",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "data-cards"
+  },
+  "effect_entries": [
+    {
+      "effect": "Records the number of times the trainer has come in first in the Pokéathlon Block Smash.",
+      "short_effect": "Records the number of times the trainer has come in first in the Pokéathlon Block Smash.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケスロンの　記録が　はいっている。\nブレイクブロック　１位　回数が\n記録された　カード。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "It holds Pokéathlon records. It is a\ncard that shows how many times you\nwon the Pokéathlon’s Block Smash.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il numero di\nvittorie a Spaccalastra.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Contiene los datos del Pokéathlon con el tiempo\nque has pasado en esta competición.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Speichert deine Pokéathlon-Rekorde. Die Karte\nzeigt, wie oft du beim Ziegelbrechen den 1. Platz\nbelegt hast.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Contient vos données du Pokéathlon.\nSur cette carte est inscrit le nombre de victoires\nau Casse Roc.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓슬론의 기록이 들어 있다.\n브레이크블록 1위 횟수가\n기록된 카드.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケスロンの　きろくが　はいっている。\nブレイクブロック　１い　かいすうが\nきろくされた　カード。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It holds Pokéathlon records. It’s a\ncard that shows how many times you’ve\nwon Block Smash.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It holds Pokéathlon records. It’s a\ncard that shows how many times you’ve\nwon Block Smash.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Contient vos données du Pokéathlon.\nSur cette carte est inscrit le nombre\nde victoires au Casse Roc.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "It holds Pokéathlon records. It’s a\ncard that shows how many times you’ve\nwon Block Smash.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 512,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 512,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 512,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Data Card 08",
+      "language": "en"
+    },
+    {
+      "name": "Scheda Dati 08",
+      "language": "it"
+    },
+    {
+      "name": "Tarjeta Datos 08",
+      "language": "es"
+    },
+    {
+      "name": "Datenkarte08",
+      "language": "de"
+    },
+    {
+      "name": "Carte Mémo08",
+      "language": "fr"
+    },
+    {
+      "name": "데이터카드08",
+      "language": "ko"
+    },
+    {
+      "name": "データカード０８",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

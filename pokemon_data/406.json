@@ -1,1 +1,151 @@
-{"id":406,"name":"budew","order":341,"gender_rate":4,"capture_rate":255,"base_happiness":70,"is_baby":true,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":71,"pokedex":{"name":"kalos-central"}},{"entry_number":133,"pokedex":{"name":"updated-unova"}},{"entry_number":25,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":25,"pokedex":{"name":"original-sinnoh"}},{"entry_number":406,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"no-eggs"}],"color":{"name":"green"},"shape":{"name":"humanoid"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"スボミー","language":"ja"},{"name":"Subomie","language":"roomaji"},{"name":"꼬몽울","language":"ko"},{"name":"含羞苞","language":"zh"},{"name":"Rozbouton","language":"fr"},{"name":"Knospi","language":"de"},{"name":"Budew","language":"es"},{"name":"Budew","language":"it"},{"name":"Budew","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"つぼみ","language":"ja"},{"genus":"꽃봉오리","language":"ko"},{"genus":"Bourgeon","language":"fr"},{"genus":"Knospe","language":"de"},{"genus":"Brote","language":"es"},{"genus":"Germoglio","language":"it"},{"genus":"Bud","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"budew"}}],"first_evolution_id":406}
+{
+  "id": 406,
+  "name": "budew",
+  "order": 341,
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "is_baby": true,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 71,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 133,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 25,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 25,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 406,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "no-eggs"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "スボミー",
+      "language": "ja"
+    },
+    {
+      "name": "Subomie",
+      "language": "roomaji"
+    },
+    {
+      "name": "꼬몽울",
+      "language": "ko"
+    },
+    {
+      "name": "含羞苞",
+      "language": "zh"
+    },
+    {
+      "name": "Rozbouton",
+      "language": "fr"
+    },
+    {
+      "name": "Knospi",
+      "language": "de"
+    },
+    {
+      "name": "Budew",
+      "language": "es"
+    },
+    {
+      "name": "Budew",
+      "language": "it"
+    },
+    {
+      "name": "Budew",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "つぼみ",
+      "language": "ja"
+    },
+    {
+      "genus": "꽃봉오리",
+      "language": "ko"
+    },
+    {
+      "genus": "Bourgeon",
+      "language": "fr"
+    },
+    {
+      "genus": "Knospe",
+      "language": "de"
+    },
+    {
+      "genus": "Brote",
+      "language": "es"
+    },
+    {
+      "genus": "Germoglio",
+      "language": "it"
+    },
+    {
+      "genus": "Bud",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "budew"
+      }
+    }
+  ],
+  "first_evolution_id": 406
+}

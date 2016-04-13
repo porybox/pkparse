@@ -1,1 +1,141 @@
-{"id":457,"name":"lumineon","order":477,"gender_rate":4,"capture_rate":75,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"slow-then-very-fast"},"pokedex_numbers":[{"entry_number":135,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":135,"pokedex":{"name":"original-sinnoh"}},{"entry_number":457,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water2"}],"color":{"name":"blue"},"shape":{"name":"fish"},"evolves_from_species":{"name":"finneon"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"ネオラント","language":"ja"},{"name":"Neolant","language":"roomaji"},{"name":"네오라이트","language":"ko"},{"name":"霓虹魚","language":"zh"},{"name":"Luminéon","language":"fr"},{"name":"Lumineon","language":"de"},{"name":"Lumineon","language":"es"},{"name":"Lumineon","language":"it"},{"name":"Lumineon","language":"en"}],"pal_park_encounters":[{"base_score":90,"rate":3,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ネオン","language":"ja"},{"genus":"네온","language":"ko"},{"genus":"Néon","language":"fr"},{"genus":"Neon","language":"de"},{"genus":"Neón","language":"es"},{"genus":"Neon","language":"it"},{"genus":"Neon","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"lumineon"}}],"first_evolution_id":456}
+{
+  "id": 457,
+  "name": "lumineon",
+  "order": 477,
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow-then-very-fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 135,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 135,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 457,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water2"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "fish"
+  },
+  "evolves_from_species": {
+    "name": "finneon"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "ネオラント",
+      "language": "ja"
+    },
+    {
+      "name": "Neolant",
+      "language": "roomaji"
+    },
+    {
+      "name": "네오라이트",
+      "language": "ko"
+    },
+    {
+      "name": "霓虹魚",
+      "language": "zh"
+    },
+    {
+      "name": "Luminéon",
+      "language": "fr"
+    },
+    {
+      "name": "Lumineon",
+      "language": "de"
+    },
+    {
+      "name": "Lumineon",
+      "language": "es"
+    },
+    {
+      "name": "Lumineon",
+      "language": "it"
+    },
+    {
+      "name": "Lumineon",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 90,
+      "rate": 3,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ネオン",
+      "language": "ja"
+    },
+    {
+      "genus": "네온",
+      "language": "ko"
+    },
+    {
+      "genus": "Néon",
+      "language": "fr"
+    },
+    {
+      "genus": "Neon",
+      "language": "de"
+    },
+    {
+      "genus": "Neón",
+      "language": "es"
+    },
+    {
+      "genus": "Neon",
+      "language": "it"
+    },
+    {
+      "genus": "Neon",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "lumineon"
+      }
+    }
+  ],
+  "first_evolution_id": 456
+}

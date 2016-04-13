@@ -1,1 +1,156 @@
-{"id":419,"name":"floatzel","order":447,"gender_rate":4,"capture_rate":75,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":59,"pokedex":{"name":"kalos-mountain"}},{"entry_number":150,"pokedex":{"name":"updated-unova"}},{"entry_number":57,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":57,"pokedex":{"name":"original-sinnoh"}},{"entry_number":419,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"},{"name":"water1"}],"color":{"name":"brown"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"buizel"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"フローゼル","language":"ja"},{"name":"Flowsel","language":"roomaji"},{"name":"플로젤","language":"ko"},{"name":"浮潛鼬","language":"zh"},{"name":"Mustéflott","language":"fr"},{"name":"Bojelin","language":"de"},{"name":"Floatzel","language":"es"},{"name":"Floatzel","language":"it"},{"name":"Floatzel","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"うみイタチ","language":"ja"},{"genus":"바다족제비","language":"ko"},{"genus":"Aquabelette","language":"fr"},{"genus":"Meereswiesel","language":"de"},{"genus":"Nutria Mar.","language":"es"},{"genus":"Maridonnola","language":"it"},{"genus":"Sea Weasel","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"floatzel"}}],"first_evolution_id":418}
+{
+  "id": 419,
+  "name": "floatzel",
+  "order": 447,
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 59,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 150,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 57,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 57,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 419,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "buizel"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "フローゼル",
+      "language": "ja"
+    },
+    {
+      "name": "Flowsel",
+      "language": "roomaji"
+    },
+    {
+      "name": "플로젤",
+      "language": "ko"
+    },
+    {
+      "name": "浮潛鼬",
+      "language": "zh"
+    },
+    {
+      "name": "Mustéflott",
+      "language": "fr"
+    },
+    {
+      "name": "Bojelin",
+      "language": "de"
+    },
+    {
+      "name": "Floatzel",
+      "language": "es"
+    },
+    {
+      "name": "Floatzel",
+      "language": "it"
+    },
+    {
+      "name": "Floatzel",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "うみイタチ",
+      "language": "ja"
+    },
+    {
+      "genus": "바다족제비",
+      "language": "ko"
+    },
+    {
+      "genus": "Aquabelette",
+      "language": "fr"
+    },
+    {
+      "genus": "Meereswiesel",
+      "language": "de"
+    },
+    {
+      "genus": "Nutria Mar.",
+      "language": "es"
+    },
+    {
+      "genus": "Maridonnola",
+      "language": "it"
+    },
+    {
+      "genus": "Sea Weasel",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "floatzel"
+      }
+    }
+  ],
+  "first_evolution_id": 418
+}

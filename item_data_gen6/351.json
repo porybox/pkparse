@@ -1,1 +1,197 @@
-{"id":328,"name":"tm24","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Thunderbolt to a compatible Pokémon.","short_effect":"Teaches Thunderbolt to a compatible Pokémon. (Gen II: DragonBreath)","language":"en"}],"flavor_text_entries":[{"text":"強い　電撃を\n相手に　浴びせて　攻撃する。\nまひ状態に　することが　ある。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A strong electric blast crashes down on\nthe target. This may also leave the target\nwith paralysis.","version_group":{"name":"x-y"},"language":"en"},{"text":"Il bersaglio viene colpito da una potente scarica\nelettrica che può anche paralizzarlo.","version_group":{"name":"x-y"},"language":"it"},{"text":"Atormenta al objetivo y le provoca un ataque de\nira que le impide usar el mismo movimiento dos\nveces seguidas.","version_group":{"name":"x-y"},"language":"es"},{"text":"Das Ziel wird von einem verheerenden\nStromschlag getroffen. Kann eventuell\nParalyse bewirken.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une grosse décharge électrique tombe sur\nl’ennemi. Peut aussi le paralyser.","version_group":{"name":"x-y"},"language":"fr"},{"text":"강한 전격을\n상대에게 날려서 공격한다.\n마비 상태로 만들 때가 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"つよい　でんげきを　あびせて\nこうげきする。　あいてを　まひの\nじょうたいに　することが　ある。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A strong electric blast is loosed at the\ntarget. It may also leave the target\nwith paralysis.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A strong electric blast is loosed at the\ntarget. It may also leave the target\nwith paralysis.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une grosse décharge électrique tombe\nsur l’ennemi. Peut aussi le paralyser.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A strong electric blast is loosed at\nthe foe. It may also leave the foe\nparalyzed.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A strong electric blast is loosed at\nthe foe. It may also leave the foe\nparalyzed.","version_group":{"name":"platinum"},"language":"en"},{"text":"A strong electric blast is loosed at\nthe foe. It may also leave the foe\nparalyzed.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A strong electrical\nattack that may\nalso leave the foe\nparalyzed.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A powerful electric\nattack that may\ncause paralysis.","version_group":{"name":"emerald"},"language":"en"},{"text":"A powerful electric\nattack that may\ncause paralysis.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":351,"generation":{"name":"generation-vi"}},{"game_index":351,"generation":{"name":"generation-v"}},{"game_index":351,"generation":{"name":"generation-iv"}},{"game_index":312,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM24","language":"en"},{"name":"MT24","language":"it"},{"name":"MT24","language":"es"},{"name":"TM24","language":"de"},{"name":"CT24","language":"fr"},{"name":"기술머신24","language":"ko"},{"name":"わざマシン２４","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 328,
+  "name": "tm24",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Thunderbolt to a compatible Pokémon.",
+      "short_effect": "Teaches Thunderbolt to a compatible Pokémon. (Gen II: DragonBreath)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "強い　電撃を\n相手に　浴びせて　攻撃する。\nまひ状態に　することが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A strong electric blast crashes down on\nthe target. This may also leave the target\nwith paralysis.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Il bersaglio viene colpito da una potente scarica\nelettrica che può anche paralizzarlo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Atormenta al objetivo y le provoca un ataque de\nira que le impide usar el mismo movimiento dos\nveces seguidas.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Das Ziel wird von einem verheerenden\nStromschlag getroffen. Kann eventuell\nParalyse bewirken.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une grosse décharge électrique tombe sur\nl’ennemi. Peut aussi le paralyser.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "강한 전격을\n상대에게 날려서 공격한다.\n마비 상태로 만들 때가 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "つよい　でんげきを　あびせて\nこうげきする。　あいてを　まひの\nじょうたいに　することが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A strong electric blast is loosed at the\ntarget. It may also leave the target\nwith paralysis.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A strong electric blast is loosed at the\ntarget. It may also leave the target\nwith paralysis.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une grosse décharge électrique tombe\nsur l’ennemi. Peut aussi le paralyser.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A strong electric blast is loosed at\nthe foe. It may also leave the foe\nparalyzed.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A strong electric blast is loosed at\nthe foe. It may also leave the foe\nparalyzed.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A strong electric blast is loosed at\nthe foe. It may also leave the foe\nparalyzed.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A strong electrical\nattack that may\nalso leave the foe\nparalyzed.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A powerful electric\nattack that may\ncause paralysis.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A powerful electric\nattack that may\ncause paralysis.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 351,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 351,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 351,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 312,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM24",
+      "language": "en"
+    },
+    {
+      "name": "MT24",
+      "language": "it"
+    },
+    {
+      "name": "MT24",
+      "language": "es"
+    },
+    {
+      "name": "TM24",
+      "language": "de"
+    },
+    {
+      "name": "CT24",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신24",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン２４",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

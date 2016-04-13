@@ -1,1 +1,164 @@
-{"id":149,"name":"dragonite","order":181,"gender_rate":4,"capture_rate":45,"base_happiness":35,"is_baby":false,"hatch_counter":40,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":147,"pokedex":{"name":"kalos-mountain"}},{"entry_number":78,"pokedex":{"name":"conquest-gallery"}},{"entry_number":248,"pokedex":{"name":"updated-johto"}},{"entry_number":243,"pokedex":{"name":"original-johto"}},{"entry_number":149,"pokedex":{"name":"kanto"}},{"entry_number":149,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"dragon"},{"name":"water1"}],"color":{"name":"brown"},"shape":{"name":"upright"},"evolves_from_species":{"name":"dragonair"},"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-i"},"names":[{"name":"カイリュー","language":"ja"},{"name":"Kairyu","language":"roomaji"},{"name":"망나뇽","language":"ko"},{"name":"快龍","language":"zh"},{"name":"Dracolosse","language":"fr"},{"name":"Dragoran","language":"de"},{"name":"Dragonite","language":"es"},{"name":"Dragonite","language":"it"},{"name":"Dragonite","language":"en"}],"pal_park_encounters":[{"base_score":90,"rate":3,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ドラゴン","language":"ja"},{"genus":"드래곤","language":"ko"},{"genus":"Dragon","language":"fr"},{"genus":"Drache","language":"de"},{"genus":"Dragón","language":"es"},{"genus":"Drago","language":"it"},{"genus":"Dragon","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"dragonite"}}],"first_evolution_id":147}
+{
+  "id": 149,
+  "name": "dragonite",
+  "order": 181,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 35,
+  "is_baby": false,
+  "hatch_counter": 40,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 147,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 78,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 248,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 243,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 149,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 149,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "dragon"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "dragonair"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "カイリュー",
+      "language": "ja"
+    },
+    {
+      "name": "Kairyu",
+      "language": "roomaji"
+    },
+    {
+      "name": "망나뇽",
+      "language": "ko"
+    },
+    {
+      "name": "快龍",
+      "language": "zh"
+    },
+    {
+      "name": "Dracolosse",
+      "language": "fr"
+    },
+    {
+      "name": "Dragoran",
+      "language": "de"
+    },
+    {
+      "name": "Dragonite",
+      "language": "es"
+    },
+    {
+      "name": "Dragonite",
+      "language": "it"
+    },
+    {
+      "name": "Dragonite",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 90,
+      "rate": 3,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ドラゴン",
+      "language": "ja"
+    },
+    {
+      "genus": "드래곤",
+      "language": "ko"
+    },
+    {
+      "genus": "Dragon",
+      "language": "fr"
+    },
+    {
+      "genus": "Drache",
+      "language": "de"
+    },
+    {
+      "genus": "Dragón",
+      "language": "es"
+    },
+    {
+      "genus": "Drago",
+      "language": "it"
+    },
+    {
+      "genus": "Dragon",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "dragonite"
+      }
+    }
+  ],
+  "first_evolution_id": 147
+}

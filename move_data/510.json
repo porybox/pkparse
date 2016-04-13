@@ -1,1 +1,83 @@
-{"id":510,"name":"incinerate","accuracy":100,"effect_chance":null,"pp":15,"priority":0,"power":60,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  If the target is [holding]{mechanic:held-item} a [berry]{mechanic:berry}, it's destroyed and cannot be used in response to this move.","short_effect":"Destroys the target's held berry.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Incinerate","language":"en"},{"name":"Bruciatutto","language":"it"},{"name":"Calcinación","language":"es"},{"name":"Einäschern","language":"de"},{"name":"Calcination","language":"fr"},{"name":"불태우기","language":"ko"},{"name":"やきつくす","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"all-opponents"},"type":{"name":"fire"}}
+{
+  "id": 510,
+  "name": "incinerate",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": 60,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target is [holding]{mechanic:held-item} a [berry]{mechanic:berry}, it's destroyed and cannot be used in response to this move.",
+      "short_effect": "Destroys the target's held berry.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Incinerate",
+      "language": "en"
+    },
+    {
+      "name": "Bruciatutto",
+      "language": "it"
+    },
+    {
+      "name": "Calcinación",
+      "language": "es"
+    },
+    {
+      "name": "Einäschern",
+      "language": "de"
+    },
+    {
+      "name": "Calcination",
+      "language": "fr"
+    },
+    {
+      "name": "불태우기",
+      "language": "ko"
+    },
+    {
+      "name": "やきつくす",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "all-opponents"
+  },
+  "type": {
+    "name": "fire"
+  }
+}

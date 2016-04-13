@@ -1,1 +1,70 @@
-{"id":555,"name":"tea","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[{"effect":"Used to bribe the []{location:saffron-city} guards for entry to the city.","short_effect":"Grants access to Saffron City.","language":"en"}],"flavor_text_entries":[{"text":"An aromatic tea prepared by an old\nlady. It will slake even the worst\nthirst.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A thirst-quenching\ntea prepared by an\nold lady.","version_group":{"name":"emerald"},"language":"en"}],"game_indices":[{"game_index":369,"generation":{"name":"generation-iii"}}],"names":[{"name":"Tea","language":"en"},{"name":"Tè","language":"it"},{"name":"Té","language":"es"},{"name":"Tee","language":"de"},{"name":"Thé","language":"fr"},{"name":"おちゃ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 555,
+  "name": "tea",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used to bribe the []{location:saffron-city} guards for entry to the city.",
+      "short_effect": "Grants access to Saffron City.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "An aromatic tea prepared by an old\nlady. It will slake even the worst\nthirst.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A thirst-quenching\ntea prepared by an\nold lady.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 369,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Tea",
+      "language": "en"
+    },
+    {
+      "name": "Tè",
+      "language": "it"
+    },
+    {
+      "name": "Té",
+      "language": "es"
+    },
+    {
+      "name": "Tee",
+      "language": "de"
+    },
+    {
+      "name": "Thé",
+      "language": "fr"
+    },
+    {
+      "name": "おちゃ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

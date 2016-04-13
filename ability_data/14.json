@@ -1,1 +1,244 @@
-{"id":14,"name":"compound-eyes","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Compound Eyes","language":"en"},{"name":"Insettocchi","language":"it"},{"name":"Ojo Compuesto","language":"es"},{"name":"Facettenauge","language":"de"},{"name":"Œil Composé","language":"fr"},{"name":"복안","language":"ko"},{"name":"ふくがん","language":"ja"}],"effect_entries":[{"effect":"This Pokémon's moves have 1.3× their [accuracy]{mechanic:accuracy}.\n\nThis ability has no effect on the one-hit KO moves ([]{move:fissure}, []{move:guillotine}, []{move:horn-drill}, and []{move:sheer-cold}).\n\nOverworld: If the first Pokémon in the party has this ability, the chance of a wild Pokémon holding a particular item is raised from 50%, 5%, or 1% to 60%, 20%, or 5%, respectively.","short_effect":"Increases moves' [accuracy]{mechanic:accuracy} to 1.3×.","language":"en"}],"effect_changes":[{"version_group":{"name":"emerald"},"effect_entries":[{"effect":"Has no overworld effect.","language":"en"}]}],"flavor_text_entries":[{"flavor_text":"技の　命中率が\nあがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Boosts the Pokémon’s accuracy.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Aumenta la precisione\ndel Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Aumenta la Precisión del\nPokémon.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Steigert die Genauigkeit\nvon Attacken.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Augmente la Précision du\nPokémon.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"기술의 명중률이\n올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"わざの　めいちゅうりつが\nあがる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"The Pokémon’s accuracy\nis boosted.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"The Pokémon’s accuracy\nis boosted.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Augmente la Précision du\nPokémon.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"The Pokémon’s accuracy\nis boosted.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"The Pokémon’s accuracy is\nboosted.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"The Pokémon’s accuracy is\nboosted.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"Raises accuracy.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"Raises accuracy.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"Raises accuracy.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":1,"pokemon":{"name":"butterfree"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"venonat"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"yanma"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"dustox"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"nincada"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"joltik"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"galvantula"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"scatterbug"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"vivillon"}}]}
+{
+  "id": 14,
+  "name": "compound-eyes",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Compound Eyes",
+      "language": "en"
+    },
+    {
+      "name": "Insettocchi",
+      "language": "it"
+    },
+    {
+      "name": "Ojo Compuesto",
+      "language": "es"
+    },
+    {
+      "name": "Facettenauge",
+      "language": "de"
+    },
+    {
+      "name": "Œil Composé",
+      "language": "fr"
+    },
+    {
+      "name": "복안",
+      "language": "ko"
+    },
+    {
+      "name": "ふくがん",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon's moves have 1.3× their [accuracy]{mechanic:accuracy}.\n\nThis ability has no effect on the one-hit KO moves ([]{move:fissure}, []{move:guillotine}, []{move:horn-drill}, and []{move:sheer-cold}).\n\nOverworld: If the first Pokémon in the party has this ability, the chance of a wild Pokémon holding a particular item is raised from 50%, 5%, or 1% to 60%, 20%, or 5%, respectively.",
+      "short_effect": "Increases moves' [accuracy]{mechanic:accuracy} to 1.3×.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "emerald"
+      },
+      "effect_entries": [
+        {
+          "effect": "Has no overworld effect.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "技の　命中率が\nあがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Boosts the Pokémon’s accuracy.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Aumenta la precisione\ndel Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Aumenta la Precisión del\nPokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Steigert die Genauigkeit\nvon Attacken.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Augmente la Précision du\nPokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "기술의 명중률이\n올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "わざの　めいちゅうりつが\nあがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "The Pokémon’s accuracy\nis boosted.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon’s accuracy\nis boosted.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Augmente la Précision du\nPokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "The Pokémon’s accuracy\nis boosted.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon’s accuracy is\nboosted.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "The Pokémon’s accuracy is\nboosted.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Raises accuracy.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Raises accuracy.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Raises accuracy.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "butterfree"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "venonat"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "yanma"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "dustox"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "nincada"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "joltik"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "galvantula"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "scatterbug"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "vivillon"
+      }
+    }
+  ]
+}

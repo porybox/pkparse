@@ -1,1 +1,90 @@
-{"id":490,"name":"low-sweep","accuracy":100,"effect_chance":100,"pp":20,"priority":0,"power":65,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Lowers the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.","short_effect":"Lowers the target's Speed by one stage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage+lower"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":100},"names":[{"name":"Low Sweep","language":"en"},{"name":"Calciobasso","language":"it"},{"name":"Puntapié","language":"es"},{"name":"Fußtritt","language":"de"},{"name":"Balayette","language":"fr"},{"name":"로킥","language":"ko"},{"name":"ローキック","language":"ja"}],"past_values":[],"stat_changes":[{"change":-1,"stat":{"name":"speed"}}],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"fighting"}}
+{
+  "id": 490,
+  "name": "low-sweep",
+  "accuracy": 100,
+  "effect_chance": 100,
+  "pp": 20,
+  "priority": 0,
+  "power": 65,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Lowers the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
+      "short_effect": "Lowers the target's Speed by one stage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage+lower"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": [
+    {
+      "name": "Low Sweep",
+      "language": "en"
+    },
+    {
+      "name": "Calciobasso",
+      "language": "it"
+    },
+    {
+      "name": "Puntapié",
+      "language": "es"
+    },
+    {
+      "name": "Fußtritt",
+      "language": "de"
+    },
+    {
+      "name": "Balayette",
+      "language": "fr"
+    },
+    {
+      "name": "로킥",
+      "language": "ko"
+    },
+    {
+      "name": "ローキック",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": {
+        "name": "speed"
+      }
+    }
+  ],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "fighting"
+  }
+}

@@ -1,1 +1,180 @@
-{"id":286,"name":"stone-plate","cost":1000,"fling_power":90,"fling_effect":null,"attributes":[{"name":"holdable"},{"name":"holdable-active"},{"name":"underground"}],"category":{"name":"plates"},"effect_entries":[{"effect":"Held: Increases the power of the holder's Rock moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Rock.","short_effect":"Held: Rock-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Rock.","language":"en"}],"flavor_text_entries":[{"text":"いわの　タイプの　石盤。\n持たせると　いわタイプの\n技の　威力が　強まる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nIt’s a stone tablet that boosts the\npower of Rock-type moves.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Roccia.","version_group":{"name":"x-y"},"language":"it"},{"text":"Aumenta la probabilidad de que el Pokémon que\nla lleve consiga un golpe crítico.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item zum Tragen. Diese Steintafel verstärkt\nAttacken vom Typ Gestein.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à tenir. Une tablette en pierre augmentant\nla puissance des capacités de type Roche.","version_group":{"name":"x-y"},"language":"fr"},{"text":"바위타입의 석판.\n지니게 하면 바위타입\n기술의 위력이 강해진다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"いわの　タイプの　せきばん。\nもたせると　いわタイプの\nわざの　いりょくが　つよまる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à tenir. Tablette en pierre\naugmentant la puissance des capacités\nde type Roche.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":309,"generation":{"name":"generation-vi"}},{"game_index":309,"generation":{"name":"generation-v"}},{"game_index":309,"generation":{"name":"generation-iv"}}],"names":[{"name":"Stone Plate","language":"en"},{"name":"Lastrapietra","language":"it"},{"name":"Tabla Pétrea","language":"es"},{"name":"Steintafel","language":"de"},{"name":"Plaque Roc","language":"fr"},{"name":"암석플레이트","language":"ko"},{"name":"がんせきプレート","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 286,
+  "name": "stone-plate",
+  "cost": 1000,
+  "fling_power": 90,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    },
+    {
+      "name": "underground"
+    }
+  ],
+  "category": {
+    "name": "plates"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held: Increases the power of the holder's Rock moves by 20%.\nHeld by a Multitype Pokémon: Holder's type becomes Rock.",
+      "short_effect": "Held: Rock-Type moves from holder do 20% more damage. Changes Arceus's and Judgment's type to Rock.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "いわの　タイプの　石盤。\n持たせると　いわタイプの\n技の　威力が　強まる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt’s a stone tablet that boosts the\npower of Rock-type moves.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nLastra di pietra che potenzia le mosse\ndi tipo Roccia.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Aumenta la probabilidad de que el Pokémon que\nla lleve consiga un golpe crítico.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Diese Steintafel verstärkt\nAttacken vom Typ Gestein.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Une tablette en pierre augmentant\nla puissance des capacités de type Roche.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "바위타입의 석판.\n지니게 하면 바위타입\n기술의 위력이 강해진다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "いわの　タイプの　せきばん。\nもたせると　いわタイプの\nわざの　いりょくが　つよまる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir. Tablette en pierre\naugmentant la puissance des capacités\nde type Roche.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 309,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 309,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 309,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Stone Plate",
+      "language": "en"
+    },
+    {
+      "name": "Lastrapietra",
+      "language": "it"
+    },
+    {
+      "name": "Tabla Pétrea",
+      "language": "es"
+    },
+    {
+      "name": "Steintafel",
+      "language": "de"
+    },
+    {
+      "name": "Plaque Roc",
+      "language": "fr"
+    },
+    {
+      "name": "암석플레이트",
+      "language": "ko"
+    },
+    {
+      "name": "がんせきプレート",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

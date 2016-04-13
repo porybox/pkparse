@@ -1,1 +1,294 @@
-{"id":299,"name":"electirizer","cost":2100,"fling_power":80,"fling_effect":null,"attributes":[],"category":{"name":"evolution"},"effect_entries":[{"effect":"Held by Electabuzz: Evolves the holder into Electivire when traded.","short_effect":"Traded on an Electabuzz: Holder evolves into Electivire.","language":"en"}],"flavor_text_entries":[{"text":"とてつもない　電気の　エネルギーが\n蓄えられている　箱。\nある　ポケモンが　好んでいる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A box packed with a tremendous\namount of electric energy.\nIt’s loved by a certain Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Scatola strapiena di energia elettrica.\nPiace a un Pokémon in particolare.","version_group":{"name":"x-y"},"language":"it"},{"text":"Provoca un ataque de ira en el objetivo que solo\nle permite usar movimientos de ataque durante\ntres turnos.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine Schachtel mit elektrischer Energie.\nDas Lieblingsstück eines bestimmten Pokémon.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une boîte remplie d’une énorme quantité\nd’énergie électrique. Appréciée d’un certain\nPokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"엄청난 전기의 에너지가\n비축되어 있는 상자.\n어떤 포켓몬이 좋아하는 물건이다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"とてつもない　でんきの　エネルギーが\nたくわえられている　はこ。\nある　ポケモンが　このんでいる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A box packed with a tremendous\namount of electric energy.\nIt is loved by a certain Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A box packed with a tremendous\namount of electric energy.\nIt is loved by a certain Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une boîte remplie d’une énorme quantité\nd’énergie électrique. Appréciée d’un\ncertain Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A box packed with a tremendous\namount of electric energy.\nIt is loved by a certain Pokémon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A box packed with a tremendous\namount of electric energy.\nIt is loved by a certain Pokémon.","version_group":{"name":"platinum"},"language":"en"},{"text":"A box packed with a tremendous\namount of electric energy.\nIt is loved by a certain Pokémon.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":322,"generation":{"name":"generation-vi"}},{"game_index":322,"generation":{"name":"generation-v"}},{"game_index":322,"generation":{"name":"generation-iv"}}],"names":[{"name":"Electirizer","language":"en"},{"name":"Elettritore","language":"it"},{"name":"Electrizador","language":"es"},{"name":"Stromisierer","language":"de"},{"name":"Électriseur","language":"fr"},{"name":"에레키부스터","language":"ko"},{"name":"エレキブースター","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"electabuzz"},"version_details":[{"rarity":50,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":50,"version":{"name":"diamond"}}]},{"pokemon":{"name":"elekid"},"version_details":[{"rarity":50,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":50,"version":{"name":"diamond"}}]},{"pokemon":{"name":"electivire"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}},{"rarity":5,"version":{"name":"soulsilver"}},{"rarity":5,"version":{"name":"heartgold"}},{"rarity":50,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":50,"version":{"name":"diamond"}}]}],"baby_trigger_for":null}
+{
+  "id": 299,
+  "name": "electirizer",
+  "cost": 2100,
+  "fling_power": 80,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "evolution"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by Electabuzz: Evolves the holder into Electivire when traded.",
+      "short_effect": "Traded on an Electabuzz: Holder evolves into Electivire.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "とてつもない　電気の　エネルギーが\n蓄えられている　箱。\nある　ポケモンが　好んでいる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A box packed with a tremendous\namount of electric energy.\nIt’s loved by a certain Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Scatola strapiena di energia elettrica.\nPiace a un Pokémon in particolare.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Provoca un ataque de ira en el objetivo que solo\nle permite usar movimientos de ataque durante\ntres turnos.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine Schachtel mit elektrischer Energie.\nDas Lieblingsstück eines bestimmten Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une boîte remplie d’une énorme quantité\nd’énergie électrique. Appréciée d’un certain\nPokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "엄청난 전기의 에너지가\n비축되어 있는 상자.\n어떤 포켓몬이 좋아하는 물건이다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "とてつもない　でんきの　エネルギーが\nたくわえられている　はこ。\nある　ポケモンが　このんでいる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A box packed with a tremendous\namount of electric energy.\nIt is loved by a certain Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A box packed with a tremendous\namount of electric energy.\nIt is loved by a certain Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une boîte remplie d’une énorme quantité\nd’énergie électrique. Appréciée d’un\ncertain Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A box packed with a tremendous\namount of electric energy.\nIt is loved by a certain Pokémon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A box packed with a tremendous\namount of electric energy.\nIt is loved by a certain Pokémon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A box packed with a tremendous\namount of electric energy.\nIt is loved by a certain Pokémon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 322,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 322,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 322,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Electirizer",
+      "language": "en"
+    },
+    {
+      "name": "Elettritore",
+      "language": "it"
+    },
+    {
+      "name": "Electrizador",
+      "language": "es"
+    },
+    {
+      "name": "Stromisierer",
+      "language": "de"
+    },
+    {
+      "name": "Électriseur",
+      "language": "fr"
+    },
+    {
+      "name": "에레키부스터",
+      "language": "ko"
+    },
+    {
+      "name": "エレキブースター",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "electabuzz"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "elekid"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "electivire"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

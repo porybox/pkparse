@@ -1,1 +1,153 @@
-{"id":16,"name":"pidgey","order":16,"gender_rate":4,"capture_rate":255,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":17,"pokedex":{"name":"kalos-central"}},{"entry_number":10,"pokedex":{"name":"updated-johto"}},{"entry_number":10,"pokedex":{"name":"original-johto"}},{"entry_number":16,"pokedex":{"name":"kanto"}},{"entry_number":16,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"flying"}],"color":{"name":"brown"},"shape":{"name":"wings"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-i"},"names":[{"name":"ポッポ","language":"ja"},{"name":"Poppo","language":"roomaji"},{"name":"구구","language":"ko"},{"name":"波波","language":"zh"},{"name":"Roucool","language":"fr"},{"name":"Taubsi","language":"de"},{"name":"Pidgey","language":"es"},{"name":"Pidgey","language":"it"},{"name":"Pidgey","language":"en"}],"pal_park_encounters":[{"base_score":30,"rate":50,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"ことり","language":"ja"},{"genus":"아기새","language":"ko"},{"genus":"Minoiseau","language":"fr"},{"genus":"Kleinvogel","language":"de"},{"genus":"Pajarito","language":"es"},{"genus":"Uccellino","language":"it"},{"genus":"Tiny Bird","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"pidgey"}}],"first_evolution_id":16}
+{
+  "id": 16,
+  "name": "pidgey",
+  "order": 16,
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 17,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 10,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 10,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 16,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 16,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "flying"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "wings"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ポッポ",
+      "language": "ja"
+    },
+    {
+      "name": "Poppo",
+      "language": "roomaji"
+    },
+    {
+      "name": "구구",
+      "language": "ko"
+    },
+    {
+      "name": "波波",
+      "language": "zh"
+    },
+    {
+      "name": "Roucool",
+      "language": "fr"
+    },
+    {
+      "name": "Taubsi",
+      "language": "de"
+    },
+    {
+      "name": "Pidgey",
+      "language": "es"
+    },
+    {
+      "name": "Pidgey",
+      "language": "it"
+    },
+    {
+      "name": "Pidgey",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 30,
+      "rate": 50,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ことり",
+      "language": "ja"
+    },
+    {
+      "genus": "아기새",
+      "language": "ko"
+    },
+    {
+      "genus": "Minoiseau",
+      "language": "fr"
+    },
+    {
+      "genus": "Kleinvogel",
+      "language": "de"
+    },
+    {
+      "genus": "Pajarito",
+      "language": "es"
+    },
+    {
+      "genus": "Uccellino",
+      "language": "it"
+    },
+    {
+      "genus": "Tiny Bird",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "pidgey"
+      }
+    }
+  ],
+  "first_evolution_id": 16
+}

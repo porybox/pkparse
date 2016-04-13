@@ -1,1 +1,162 @@
-{"id":116,"name":"horsea","order":132,"gender_rate":4,"capture_rate":225,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":39,"pokedex":{"name":"kalos-coastal"}},{"entry_number":190,"pokedex":{"name":"updated-johto"}},{"entry_number":184,"pokedex":{"name":"hoenn"}},{"entry_number":186,"pokedex":{"name":"original-johto"}},{"entry_number":116,"pokedex":{"name":"kanto"}},{"entry_number":116,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"dragon"},{"name":"water1"}],"color":{"name":"blue"},"shape":{"name":"blob"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"sea"},"generation":{"name":"generation-i"},"names":[{"name":"タッツー","language":"ja"},{"name":"Tattu","language":"roomaji"},{"name":"쏘드라","language":"ko"},{"name":"墨海馬","language":"zh"},{"name":"Hypotrempe","language":"fr"},{"name":"Seeper","language":"de"},{"name":"Horsea","language":"es"},{"name":"Horsea","language":"it"},{"name":"Horsea","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"sea"}}],"form_descriptions":[],"genera":[{"genus":"ドラゴン","language":"ja"},{"genus":"드래곤","language":"ko"},{"genus":"Dragon","language":"fr"},{"genus":"Drache","language":"de"},{"genus":"Dragón","language":"es"},{"genus":"Drago","language":"it"},{"genus":"Dragon","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"horsea"}}],"first_evolution_id":116}
+{
+  "id": 116,
+  "name": "horsea",
+  "order": 132,
+  "gender_rate": 4,
+  "capture_rate": 225,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 39,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 190,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 184,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 186,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 116,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 116,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "dragon"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "blob"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "sea"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "タッツー",
+      "language": "ja"
+    },
+    {
+      "name": "Tattu",
+      "language": "roomaji"
+    },
+    {
+      "name": "쏘드라",
+      "language": "ko"
+    },
+    {
+      "name": "墨海馬",
+      "language": "zh"
+    },
+    {
+      "name": "Hypotrempe",
+      "language": "fr"
+    },
+    {
+      "name": "Seeper",
+      "language": "de"
+    },
+    {
+      "name": "Horsea",
+      "language": "es"
+    },
+    {
+      "name": "Horsea",
+      "language": "it"
+    },
+    {
+      "name": "Horsea",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ドラゴン",
+      "language": "ja"
+    },
+    {
+      "genus": "드래곤",
+      "language": "ko"
+    },
+    {
+      "genus": "Dragon",
+      "language": "fr"
+    },
+    {
+      "genus": "Drache",
+      "language": "de"
+    },
+    {
+      "genus": "Dragón",
+      "language": "es"
+    },
+    {
+      "genus": "Drago",
+      "language": "it"
+    },
+    {
+      "genus": "Dragon",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "horsea"
+      }
+    }
+  ],
+  "first_evolution_id": 116
+}

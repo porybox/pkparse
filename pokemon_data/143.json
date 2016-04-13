@@ -1,1 +1,173 @@
-{"id":143,"name":"snorlax","order":175,"gender_rate":1,"capture_rate":25,"base_happiness":70,"is_baby":false,"hatch_counter":40,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":139,"pokedex":{"name":"kalos-central"}},{"entry_number":179,"pokedex":{"name":"conquest-gallery"}},{"entry_number":230,"pokedex":{"name":"updated-johto"}},{"entry_number":113,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":113,"pokedex":{"name":"original-sinnoh"}},{"entry_number":225,"pokedex":{"name":"original-johto"}},{"entry_number":143,"pokedex":{"name":"kanto"}},{"entry_number":143,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"monster"}],"color":{"name":"black"},"shape":{"name":"humanoid"},"evolves_from_species":{"name":"munchlax"},"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-i"},"names":[{"name":"カビゴン","language":"ja"},{"name":"Kabigon","language":"roomaji"},{"name":"잠만보","language":"ko"},{"name":"卡比獸","language":"zh"},{"name":"Ronflex","language":"fr"},{"name":"Relaxo","language":"de"},{"name":"Snorlax","language":"es"},{"name":"Snorlax","language":"it"},{"name":"Snorlax","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"いねむり","language":"ja"},{"genus":"졸음","language":"ko"},{"genus":"Pionceur","language":"fr"},{"genus":"Tagträumer","language":"de"},{"genus":"Dormir","language":"es"},{"genus":"Sonno","language":"it"},{"genus":"Sleeping","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"snorlax"}}],"first_evolution_id":446}
+{
+  "id": 143,
+  "name": "snorlax",
+  "order": 175,
+  "gender_rate": 1,
+  "capture_rate": 25,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 40,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 139,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 179,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 230,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 113,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 113,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 225,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 143,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 143,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "black"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": {
+    "name": "munchlax"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "カビゴン",
+      "language": "ja"
+    },
+    {
+      "name": "Kabigon",
+      "language": "roomaji"
+    },
+    {
+      "name": "잠만보",
+      "language": "ko"
+    },
+    {
+      "name": "卡比獸",
+      "language": "zh"
+    },
+    {
+      "name": "Ronflex",
+      "language": "fr"
+    },
+    {
+      "name": "Relaxo",
+      "language": "de"
+    },
+    {
+      "name": "Snorlax",
+      "language": "es"
+    },
+    {
+      "name": "Snorlax",
+      "language": "it"
+    },
+    {
+      "name": "Snorlax",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "いねむり",
+      "language": "ja"
+    },
+    {
+      "genus": "졸음",
+      "language": "ko"
+    },
+    {
+      "genus": "Pionceur",
+      "language": "fr"
+    },
+    {
+      "genus": "Tagträumer",
+      "language": "de"
+    },
+    {
+      "genus": "Dormir",
+      "language": "es"
+    },
+    {
+      "genus": "Sonno",
+      "language": "it"
+    },
+    {
+      "genus": "Sleeping",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "snorlax"
+      }
+    }
+  ],
+  "first_evolution_id": 446
+}

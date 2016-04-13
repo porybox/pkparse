@@ -1,1 +1,121 @@
-{"id":202,"name":"giga-drain","accuracy":100,"effect_chance":null,"pp":10,"priority":0,"power":75,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"growth"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  [Drains]{mechanic:drain} half the damage inflicted to heal the user.","short_effect":"Drains half the damage inflicted to heal the user.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage+heal"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":50,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Giga Drain","language":"en"},{"name":"Gigassorbimento","language":"it"},{"name":"Gigadrenado","language":"es"},{"name":"Gigasauger","language":"de"},{"name":"Giga-Sangsue","language":"fr"},{"name":"기가드레인","language":"ko"},{"name":"ギガドレイン","language":"ja"}],"past_values":[{"accuracy":null,"power":null,"pp":5,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"diamond-pearl"}},{"accuracy":null,"power":60,"pp":null,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"black-white"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"grass"}}
+{
+  "id": 202,
+  "name": "giga-drain",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": 75,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "growth"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  [Drains]{mechanic:drain} half the damage inflicted to heal the user.",
+      "short_effect": "Drains half the damage inflicted to heal the user.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage+heal"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 50,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Giga Drain",
+      "language": "en"
+    },
+    {
+      "name": "Gigassorbimento",
+      "language": "it"
+    },
+    {
+      "name": "Gigadrenado",
+      "language": "es"
+    },
+    {
+      "name": "Gigasauger",
+      "language": "de"
+    },
+    {
+      "name": "Giga-Sangsue",
+      "language": "fr"
+    },
+    {
+      "name": "기가드레인",
+      "language": "ko"
+    },
+    {
+      "name": "ギガドレイン",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": null,
+      "pp": 5,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "diamond-pearl"
+      }
+    },
+    {
+      "accuracy": null,
+      "power": 60,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "black-white"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "grass"
+  }
+}

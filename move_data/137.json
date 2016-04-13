@@ -1,1 +1,110 @@
-{"id":137,"name":"glare","accuracy":100,"effect_chance":null,"pp":30,"priority":0,"power":null,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"leer"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"tough"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"[Paralyzes]{mechanic:paralyzes} the target.","short_effect":"Paralyzes the target.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"paralysis"},"category":{"name":"ailment"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Glare","language":"en"},{"name":"Sguardo Feroce","language":"it"},{"name":"Deslumbrar","language":"es"},{"name":"Giftblick","language":"de"},{"name":"Regard Médusant","language":"fr"},{"name":"뱀눈초리","language":"ko"},{"name":"へびにらみ","language":"ja"}],"past_values":[{"accuracy":75,"power":null,"pp":null,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"black-white"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 137,
+  "name": "glare",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 30,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "leer"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "[Paralyzes]{mechanic:paralyzes} the target.",
+      "short_effect": "Paralyzes the target.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "paralysis"
+    },
+    "category": {
+      "name": "ailment"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Glare",
+      "language": "en"
+    },
+    {
+      "name": "Sguardo Feroce",
+      "language": "it"
+    },
+    {
+      "name": "Deslumbrar",
+      "language": "es"
+    },
+    {
+      "name": "Giftblick",
+      "language": "de"
+    },
+    {
+      "name": "Regard Médusant",
+      "language": "fr"
+    },
+    {
+      "name": "뱀눈초리",
+      "language": "ko"
+    },
+    {
+      "name": "へびにらみ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": 75,
+      "power": null,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "black-white"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

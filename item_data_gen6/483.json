@@ -1,1 +1,156 @@
-{"id":482,"name":"rainbow-wing","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[{"effect":"Causes []{pokemon:ho-oh} to appear at the top of []{location:bell-tower}.","short_effect":"Summons Ho-Oh at the top of the Bell Tower.","language":"en"}],"flavor_text_entries":[{"text":"にじいろに　ひかり　かがやく\n不思議な　はね。\n","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A mystical rainbow feather\nthat sparkles.","version_group":{"name":"x-y"},"language":"en"},{"text":"Piuma magica dai mille colori.","version_group":{"name":"x-y"},"language":"it"},{"text":"Lector con el que se pueden escuchar aquellas\ncanciones tan nostálgicas. Se cambia con un solo\ninterruptor.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine mystische Feder, die von einem\nregenbogenfarbenen Leuchten erfüllt ist.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une étrange plume qui brille d’un éclat\narc-en-ciel.","version_group":{"name":"x-y"},"language":"fr"},{"text":"무지갯빛으로 빛나는\n이상한 날개.","version_group":{"name":"x-y"},"language":"ko"},{"text":"にじいろに　ひかり　かがやく\nふしぎな　はね。\n","version_group":{"name":"x-y"},"language":"ja"},{"text":"A mystical rainbow feather\nthat sparkles.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A mystical rainbow feather\nthat sparkles.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une étrange plume qui brille\nd’un éclat arc-en-ciel.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A mystical, rainbow feather\nthat sparkles.","version_group":{"name":"heartgold-soulsilver"},"language":"en"}],"game_indices":[{"game_index":483,"generation":{"name":"generation-vi"}},{"game_index":483,"generation":{"name":"generation-v"}},{"game_index":483,"generation":{"name":"generation-iv"}}],"names":[{"name":"Rainbow Wing","language":"en"},{"name":"Ala d'Iride","language":"it"},{"name":"Ala Arcoíris","language":"es"},{"name":"Buntschwinge","language":"de"},{"name":"Arcenci'Aile","language":"fr"},{"name":"무지갯빛날개","language":"ko"},{"name":"にじいろのはね","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 482,
+  "name": "rainbow-wing",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [
+    {
+      "effect": "Causes []{pokemon:ho-oh} to appear at the top of []{location:bell-tower}.",
+      "short_effect": "Summons Ho-Oh at the top of the Bell Tower.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "にじいろに　ひかり　かがやく\n不思議な　はね。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A mystical rainbow feather\nthat sparkles.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Piuma magica dai mille colori.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Lector con el que se pueden escuchar aquellas\ncanciones tan nostálgicas. Se cambia con un solo\ninterruptor.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine mystische Feder, die von einem\nregenbogenfarbenen Leuchten erfüllt ist.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une étrange plume qui brille d’un éclat\narc-en-ciel.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "무지갯빛으로 빛나는\n이상한 날개.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "にじいろに　ひかり　かがやく\nふしぎな　はね。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A mystical rainbow feather\nthat sparkles.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A mystical rainbow feather\nthat sparkles.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une étrange plume qui brille\nd’un éclat arc-en-ciel.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A mystical, rainbow feather\nthat sparkles.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 483,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 483,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 483,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Rainbow Wing",
+      "language": "en"
+    },
+    {
+      "name": "Ala d'Iride",
+      "language": "it"
+    },
+    {
+      "name": "Ala Arcoíris",
+      "language": "es"
+    },
+    {
+      "name": "Buntschwinge",
+      "language": "de"
+    },
+    {
+      "name": "Arcenci'Aile",
+      "language": "fr"
+    },
+    {
+      "name": "무지갯빛날개",
+      "language": "ko"
+    },
+    {
+      "name": "にじいろのはね",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

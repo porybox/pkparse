@@ -1,1 +1,213 @@
-{"id":50,"name":"rare-candy","cost":4800,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-overworld"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"vitamins"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Increases level by 1.  Increases [happiness]{mechanic:happiness} by 5/3/2.","short_effect":"Causes a level-up and raises happiness.","language":"en"}],"flavor_text_entries":[{"text":"エネルギーの　つまった　アメ。\nあたえると　ポケモン　１匹の\nレベルが　１だけ　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A candy that is packed with energy.\nWhen consumed, it will instantly raise\nthe level of a single Pokémon by one.","version_group":{"name":"x-y"},"language":"en"},{"text":"Caramella altamente energetica.\nFa salire un Pokémon di un livello.","version_group":{"name":"x-y"},"language":"it"},{"text":"Caramelo energético que sube a un Pokémon de\nnivel.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein energiereiches Bonbon, das den Level\neines Pokémon dauerhaft um 1 erhöht.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un bonbon plein d’énergie.\nIl permet à un Pokémon de gagner un niveau\nd’expérience.","version_group":{"name":"x-y"},"language":"fr"},{"text":"에너지가 가득한 사탕.\n먹이면 포켓몬 1마리의\n레벨이 1만큼 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"エネルギーの　つまった　アメ。\nあたえると　ポケモン　１ひきの\nレベルが　１だけ　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un bonbon plein d’énergie.\nIl permet à un Pokémon de gagner\nun niveau d’expérience.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.","version_group":{"name":"platinum"},"language":"en"},{"text":"A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A candy that is packed with energy.\nIt raises the level of a POKéMON\nby one.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Raises the level\nof a POKéMON by\none.","version_group":{"name":"emerald"},"language":"en"},{"text":"Raises the level\nof a POKéMON by\none.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":50,"generation":{"name":"generation-vi"}},{"game_index":50,"generation":{"name":"generation-v"}},{"game_index":50,"generation":{"name":"generation-iv"}},{"game_index":68,"generation":{"name":"generation-iii"}}],"names":[{"name":"Rare Candy","language":"en"},{"name":"Caramella Rara","language":"it"},{"name":"Caramelo Raro","language":"es"},{"name":"Sonderbonbon","language":"de"},{"name":"Super Bonbon","language":"fr"},{"name":"이상한사탕","language":"ko"},{"name":"ふしぎなアメ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 50,
+  "name": "rare-candy",
+  "cost": 4800,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-overworld"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "vitamins"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Increases level by 1.  Increases [happiness]{mechanic:happiness} by 5/3/2.",
+      "short_effect": "Causes a level-up and raises happiness.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "エネルギーの　つまった　アメ。\nあたえると　ポケモン　１匹の\nレベルが　１だけ　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A candy that is packed with energy.\nWhen consumed, it will instantly raise\nthe level of a single Pokémon by one.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Caramella altamente energetica.\nFa salire un Pokémon di un livello.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Caramelo energético que sube a un Pokémon de\nnivel.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein energiereiches Bonbon, das den Level\neines Pokémon dauerhaft um 1 erhöht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un bonbon plein d’énergie.\nIl permet à un Pokémon de gagner un niveau\nd’expérience.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "에너지가 가득한 사탕.\n먹이면 포켓몬 1마리의\n레벨이 1만큼 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "エネルギーの　つまった　アメ。\nあたえると　ポケモン　１ひきの\nレベルが　１だけ　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un bonbon plein d’énergie.\nIl permet à un Pokémon de gagner\nun niveau d’expérience.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A candy that is packed with energy.\nIt raises the level of a POKéMON\nby one.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the level\nof a POKéMON by\none.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the level\nof a POKéMON by\none.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 50,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 50,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 50,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 68,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Rare Candy",
+      "language": "en"
+    },
+    {
+      "name": "Caramella Rara",
+      "language": "it"
+    },
+    {
+      "name": "Caramelo Raro",
+      "language": "es"
+    },
+    {
+      "name": "Sonderbonbon",
+      "language": "de"
+    },
+    {
+      "name": "Super Bonbon",
+      "language": "fr"
+    },
+    {
+      "name": "이상한사탕",
+      "language": "ko"
+    },
+    {
+      "name": "ふしぎなアメ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

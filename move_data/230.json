@@ -1,1 +1,111 @@
-{"id":230,"name":"sweet-scent","accuracy":100,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":{"normal":{"use_before":[{"name":"poison-powder"},{"name":"stun-spore"},{"name":"sleep-powder"}],"use_after":null},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"cute"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Lowers the target's [evasion]{mechanic:evasion} by one [stage]{mechanic:stage}.","short_effect":"Lowers the target's evasion by one stage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"net-good-stats"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Sweet Scent","language":"en"},{"name":"Profumino","language":"it"},{"name":"Dulce Aroma","language":"es"},{"name":"Lockduft","language":"de"},{"name":"Doux Parfum","language":"fr"},{"name":"달콤한향기","language":"ko"},{"name":"あまいかおり","language":"ja"}],"past_values":[],"stat_changes":[{"change":-2,"stat":{"name":"evasion"}}],"super_contest_effect":{},"target":{"name":"all-opponents"},"type":{"name":"normal"}}
+{
+  "id": 230,
+  "name": "sweet-scent",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "poison-powder"
+        },
+        {
+          "name": "stun-spore"
+        },
+        {
+          "name": "sleep-powder"
+        }
+      ],
+      "use_after": null
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Lowers the target's [evasion]{mechanic:evasion} by one [stage]{mechanic:stage}.",
+      "short_effect": "Lowers the target's evasion by one stage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "net-good-stats"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Sweet Scent",
+      "language": "en"
+    },
+    {
+      "name": "Profumino",
+      "language": "it"
+    },
+    {
+      "name": "Dulce Aroma",
+      "language": "es"
+    },
+    {
+      "name": "Lockduft",
+      "language": "de"
+    },
+    {
+      "name": "Doux Parfum",
+      "language": "fr"
+    },
+    {
+      "name": "달콤한향기",
+      "language": "ko"
+    },
+    {
+      "name": "あまいかおり",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": -2,
+      "stat": {
+        "name": "evasion"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "all-opponents"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

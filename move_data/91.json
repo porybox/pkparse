@@ -1,1 +1,120 @@
-{"id":91,"name":"dig","accuracy":100,"effect_chance":null,"pp":10,"priority":0,"power":80,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, []{move:earthquake}, []{move:fissure}, and []{move:magnitude} still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.\n\nThis move cannot be selected by []{move:sleep-talk}.","short_effect":"User digs underground, dodging all attacks, and hits next turn.","language":"en"}],"effect_changes":[{"version_group":{"name":"gold-silver"},"effect_entries":[{"effect":"[]{move:swift} can hit the user while underground, and no other moves can.  Due to a bug, if the user fails to carry out the move's second turn, e.g. due to [paralysis]{mechanic:paralysis}, it remains underground until it switches out or uses Dig again successfully.  It can act as if it were aboveground in the meantime, but moves still miss it.","language":"en"}]}],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Dig","language":"en"},{"name":"Fossa","language":"it"},{"name":"Excavar","language":"es"},{"name":"Schaufler","language":"de"},{"name":"Tunnel","language":"fr"},{"name":"구멍파기","language":"ko"},{"name":"あなをほる","language":"ja"}],"past_values":[{"accuracy":null,"power":100,"pp":null,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"gold-silver"}},{"accuracy":null,"power":60,"pp":null,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"diamond-pearl"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"ground"}}
+{
+  "id": 91,
+  "name": "dig",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": 80,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User digs underground for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, []{move:earthquake}, []{move:fissure}, and []{move:magnitude} still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.\n\nThis move cannot be selected by []{move:sleep-talk}.",
+      "short_effect": "User digs underground, dodging all attacks, and hits next turn.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "gold-silver"
+      },
+      "effect_entries": [
+        {
+          "effect": "[]{move:swift} can hit the user while underground, and no other moves can.  Due to a bug, if the user fails to carry out the move's second turn, e.g. due to [paralysis]{mechanic:paralysis}, it remains underground until it switches out or uses Dig again successfully.  It can act as if it were aboveground in the meantime, but moves still miss it.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Dig",
+      "language": "en"
+    },
+    {
+      "name": "Fossa",
+      "language": "it"
+    },
+    {
+      "name": "Excavar",
+      "language": "es"
+    },
+    {
+      "name": "Schaufler",
+      "language": "de"
+    },
+    {
+      "name": "Tunnel",
+      "language": "fr"
+    },
+    {
+      "name": "구멍파기",
+      "language": "ko"
+    },
+    {
+      "name": "あなをほる",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": 100,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "gold-silver"
+      }
+    },
+    {
+      "accuracy": null,
+      "power": 60,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "diamond-pearl"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "ground"
+  }
+}

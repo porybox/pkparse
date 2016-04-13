@@ -1,1 +1,167 @@
-{"id":122,"name":"mr-mime","order":140,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":25,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":114,"pokedex":{"name":"kalos-coastal"}},{"entry_number":158,"pokedex":{"name":"updated-johto"}},{"entry_number":95,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":95,"pokedex":{"name":"original-sinnoh"}},{"entry_number":156,"pokedex":{"name":"original-johto"}},{"entry_number":122,"pokedex":{"name":"kanto"}},{"entry_number":122,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"humanshape"}],"color":{"name":"pink"},"shape":{"name":"humanoid"},"evolves_from_species":{"name":"mime-jr"},"evolution_chain":{},"habitat":{"name":"urban"},"generation":{"name":"generation-i"},"names":[{"name":"バリヤード","language":"ja"},{"name":"Barrierd","language":"roomaji"},{"name":"마임맨","language":"ko"},{"name":"吸盤魔偶","language":"zh"},{"name":"M. Mime","language":"fr"},{"name":"Pantimos","language":"de"},{"name":"Mr. Mime","language":"es"},{"name":"Mr. Mime","language":"it"},{"name":"Mr. Mime","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"バリアー","language":"ja"},{"genus":"배리어","language":"ko"},{"genus":"Bloqueur","language":"fr"},{"genus":"Sperre","language":"de"},{"genus":"Barrera","language":"es"},{"genus":"Barriera","language":"it"},{"genus":"Barrier","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"mr-mime"}}],"first_evolution_id":439}
+{
+  "id": 122,
+  "name": "mr-mime",
+  "order": 140,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 25,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 114,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 158,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 95,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 95,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 156,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 122,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 122,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "humanshape"
+    }
+  ],
+  "color": {
+    "name": "pink"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": {
+    "name": "mime-jr"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "urban"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "バリヤード",
+      "language": "ja"
+    },
+    {
+      "name": "Barrierd",
+      "language": "roomaji"
+    },
+    {
+      "name": "마임맨",
+      "language": "ko"
+    },
+    {
+      "name": "吸盤魔偶",
+      "language": "zh"
+    },
+    {
+      "name": "M. Mime",
+      "language": "fr"
+    },
+    {
+      "name": "Pantimos",
+      "language": "de"
+    },
+    {
+      "name": "Mr. Mime",
+      "language": "es"
+    },
+    {
+      "name": "Mr. Mime",
+      "language": "it"
+    },
+    {
+      "name": "Mr. Mime",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "バリアー",
+      "language": "ja"
+    },
+    {
+      "genus": "배리어",
+      "language": "ko"
+    },
+    {
+      "genus": "Bloqueur",
+      "language": "fr"
+    },
+    {
+      "genus": "Sperre",
+      "language": "de"
+    },
+    {
+      "genus": "Barrera",
+      "language": "es"
+    },
+    {
+      "genus": "Barriera",
+      "language": "it"
+    },
+    {
+      "genus": "Barrier",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "mr-mime"
+      }
+    }
+  ],
+  "first_evolution_id": 439
+}

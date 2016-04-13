@@ -1,1 +1,156 @@
-{"id":504,"name":"data-card-19","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"data-cards"},"effect_entries":[{"effect":"Records the number of times the trainer has come in first place overall in the Pokéathlon over wirelss.","short_effect":"Records the number of times the trainer has come in first place overall in the Pokéathlon over wirelss.","language":"en"}],"flavor_text_entries":[{"text":"ポケスロンの　記録が　はいっている。\n通信ポケスロンの　優勝\n回数が　記録された　カード。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"It holds Pokéathlon records. It is a\ncard that shows how many Link\nPokéathlon wins you have had.","version_group":{"name":"x-y"},"language":"en"},{"text":"Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il numero di\nvittorie in link.","version_group":{"name":"x-y"},"language":"it"},{"text":"Misteriosa tarjeta que permite al Pokémon que la\nlleva expulsar al oponente cuando este le cause\ndaño.","version_group":{"name":"x-y"},"language":"es"},{"text":"Speichert deine Pokéathlon-Rekorde. Die Karte\nzeigt, wie viele Konnex-Wettkämpfe du gewonnen\nhast.","version_group":{"name":"x-y"},"language":"de"},{"text":"Contient vos données du Pokéathlon.\nSur cette carte est inscrit le nombre de victoires\nen Link.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓슬론의 기록이 들어 있다.\n통신 포켓슬론의 우승\n횟수가 기록된 카드.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケスロンの　きろくが　はいっている。\nつうしん　ポケスロンの　ゆうしょう\nかいすうが　きろくされた　カード。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It holds Pokéathlon records. It’s a\ncard that shows how many\nLink Pokéathlon wins you’ve had.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It holds Pokéathlon records. It’s a\ncard that shows how many \nLink Pokéathlon wins you’ve had.","version_group":{"name":"black-white"},"language":"en"},{"text":"Contient vos données du Pokéathlon.\nSur cette carte est inscrit le nombre\nde victoires en Link.","version_group":{"name":"black-white"},"language":"fr"},{"text":"It holds Pokéathlon records. It’s a\ncard that shows how many \nLink Pokéathlon wins you’ve had.","version_group":{"name":"heartgold-soulsilver"},"language":"en"}],"game_indices":[{"game_index":523,"generation":{"name":"generation-vi"}},{"game_index":523,"generation":{"name":"generation-v"}},{"game_index":523,"generation":{"name":"generation-iv"}}],"names":[{"name":"Data Card 19","language":"en"},{"name":"Scheda Dati 19","language":"it"},{"name":"Tarjeta Datos 19","language":"es"},{"name":"Datenkarte19","language":"de"},{"name":"Carte Mémo19","language":"fr"},{"name":"데이터카드19","language":"ko"},{"name":"データカード１９","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 504,
+  "name": "data-card-19",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "data-cards"
+  },
+  "effect_entries": [
+    {
+      "effect": "Records the number of times the trainer has come in first place overall in the Pokéathlon over wirelss.",
+      "short_effect": "Records the number of times the trainer has come in first place overall in the Pokéathlon over wirelss.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケスロンの　記録が　はいっている。\n通信ポケスロンの　優勝\n回数が　記録された　カード。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "It holds Pokéathlon records. It is a\ncard that shows how many Link\nPokéathlon wins you have had.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Contiene i tuoi dati Pokéathlon.\nSu questa Scheda è registrato il numero di\nvittorie in link.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Misteriosa tarjeta que permite al Pokémon que la\nlleva expulsar al oponente cuando este le cause\ndaño.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Speichert deine Pokéathlon-Rekorde. Die Karte\nzeigt, wie viele Konnex-Wettkämpfe du gewonnen\nhast.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Contient vos données du Pokéathlon.\nSur cette carte est inscrit le nombre de victoires\nen Link.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓슬론의 기록이 들어 있다.\n통신 포켓슬론의 우승\n횟수가 기록된 카드.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケスロンの　きろくが　はいっている。\nつうしん　ポケスロンの　ゆうしょう\nかいすうが　きろくされた　カード。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It holds Pokéathlon records. It’s a\ncard that shows how many\nLink Pokéathlon wins you’ve had.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It holds Pokéathlon records. It’s a\ncard that shows how many \nLink Pokéathlon wins you’ve had.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Contient vos données du Pokéathlon.\nSur cette carte est inscrit le nombre\nde victoires en Link.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "It holds Pokéathlon records. It’s a\ncard that shows how many \nLink Pokéathlon wins you’ve had.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 523,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 523,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 523,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Data Card 19",
+      "language": "en"
+    },
+    {
+      "name": "Scheda Dati 19",
+      "language": "it"
+    },
+    {
+      "name": "Tarjeta Datos 19",
+      "language": "es"
+    },
+    {
+      "name": "Datenkarte19",
+      "language": "de"
+    },
+    {
+      "name": "Carte Mémo19",
+      "language": "fr"
+    },
+    {
+      "name": "데이터카드19",
+      "language": "ko"
+    },
+    {
+      "name": "データカード１９",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

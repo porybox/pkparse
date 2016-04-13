@@ -1,1 +1,169 @@
-{"id":111,"name":"filter","is_main_series":true,"generation":{"name":"generation-iv"},"names":[{"name":"Filter","language":"en"},{"name":"Filtro","language":"it"},{"name":"Filtro","language":"es"},{"name":"Filter","language":"de"},{"name":"Filtre","language":"fr"},{"name":"필터","language":"ko"},{"name":"フィルター","language":"ja"}],"effect_entries":[{"effect":"This Pokémon takes 0.75× as much damage from moves that are [super effective]{mechanic:super-effective} against it.\n\nThis ability functions identically to []{ability:solid-rock}.","short_effect":"Decreases damage taken from [super-effective]{mechanic:super-effective} moves by 1/4.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"効果バツグン　のとき\n威力を　弱める。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Reduces damage from\nsupereffective attacks.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Riduce la potenza delle mosse\nsuperefficaci.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Mitiga los movimientos\nsupereficaces.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Senkt die Stärke sehr effektiver\nAttacken.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Réduit les dégâts des capacités\n« super efficaces » subies.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"효과가 굉장한 기술의\n위력을 약하게 한다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"こうかばつぐん　のとき\nいりょくを　よわめる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Reduces damage from\nsupereffective attacks.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Reduces damage from\nsupereffective attacks.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Affaiblit les capacités\n“super efficaces”.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Reduces damage from\nsupereffective attacks.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Powers down super­\neffective moves.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Powers down super­\neffective moves.","version_group":{"name":"diamond-pearl"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":2,"pokemon":{"name":"mr-mime"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"mime-jr"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"aggron-mega"}}]}
+{
+  "id": 111,
+  "name": "filter",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "Filter",
+      "language": "en"
+    },
+    {
+      "name": "Filtro",
+      "language": "it"
+    },
+    {
+      "name": "Filtro",
+      "language": "es"
+    },
+    {
+      "name": "Filter",
+      "language": "de"
+    },
+    {
+      "name": "Filtre",
+      "language": "fr"
+    },
+    {
+      "name": "필터",
+      "language": "ko"
+    },
+    {
+      "name": "フィルター",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon takes 0.75× as much damage from moves that are [super effective]{mechanic:super-effective} against it.\n\nThis ability functions identically to []{ability:solid-rock}.",
+      "short_effect": "Decreases damage taken from [super-effective]{mechanic:super-effective} moves by 1/4.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "効果バツグン　のとき\n威力を　弱める。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Reduces damage from\nsupereffective attacks.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Riduce la potenza delle mosse\nsuperefficaci.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Mitiga los movimientos\nsupereficaces.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Senkt die Stärke sehr effektiver\nAttacken.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Réduit les dégâts des capacités\n« super efficaces » subies.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "효과가 굉장한 기술의\n위력을 약하게 한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "こうかばつぐん　のとき\nいりょくを　よわめる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Reduces damage from\nsupereffective attacks.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Reduces damage from\nsupereffective attacks.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Affaiblit les capacités\n“super efficaces”.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Reduces damage from\nsupereffective attacks.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Powers down super­\neffective moves.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Powers down super­\neffective moves.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "mr-mime"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "mime-jr"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "aggron-mega"
+      }
+    }
+  ]
+}

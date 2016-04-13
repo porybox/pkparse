@@ -1,1 +1,197 @@
-{"id":308,"name":"tm04","cost":1500,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Calm Mind to a compatible Pokémon.","short_effect":"Teaches Calm Mind to a compatible Pokémon. (Gen II: Rollout Gen I: Whirlwind)","language":"en"}],"flavor_text_entries":[{"text":"静かに　精神を　統一し\n心を　鎮めることで　自分の\n特攻と　特防を　あげる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk and\nSp. Def stats.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa, meditando, placa il proprio spirito\nper aumentare l’Attacco Speciale e\nla Difesa Speciale.","version_group":{"name":"x-y"},"language":"it"},{"text":"Un ataque de gran potencia que resulta más\nfuerte cuanto menos le guste el Entrenador al\nPokémon que lo usa.","version_group":{"name":"x-y"},"language":"es"},{"text":"Der Anwender konzentriert und beruhigt sich.\nSo werden Spezial-Angriff und\nSpezial-Verteidigung verstärkt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur se concentre et fait le vide dans son\nesprit pour augmenter son Attaque Spéciale et\nsa Défense Spéciale.","version_group":{"name":"x-y"},"language":"fr"},{"text":"조용히 정신을 통일해서\n마음을 가라앉혀 자신의\n특수공격과 특수방어를 올린다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"しずかに　せいしんを　とういつして\nこころを　しずめることで　じぶんの\nとくこうと　とくぼうを　あげる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.","version_group":{"name":"black-white"},"language":"en"},{"text":"Le lanceur se concentre et fait le vide\ndans son esprit pour monter son\nAtq. Spé. et sa Déf. Spé.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"The user focuses\nits mind to raise\nthe SP. ATK and\nSP. DEF stats.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Raises SP. ATK and\nSP. DEF by focusing\nthe mind.","version_group":{"name":"emerald"},"language":"en"},{"text":"Raises SP. ATK and\nSP. DEF by focusing\nthe mind.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":331,"generation":{"name":"generation-vi"}},{"game_index":331,"generation":{"name":"generation-v"}},{"game_index":331,"generation":{"name":"generation-iv"}},{"game_index":292,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM04","language":"en"},{"name":"MT04","language":"it"},{"name":"MT04","language":"es"},{"name":"TM04","language":"de"},{"name":"CT04","language":"fr"},{"name":"기술머신04","language":"ko"},{"name":"わざマシン０４","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 308,
+  "name": "tm04",
+  "cost": 1500,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Calm Mind to a compatible Pokémon.",
+      "short_effect": "Teaches Calm Mind to a compatible Pokémon. (Gen II: Rollout Gen I: Whirlwind)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "静かに　精神を　統一し\n心を　鎮めることで　自分の\n特攻と　特防を　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk and\nSp. Def stats.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa, meditando, placa il proprio spirito\nper aumentare l’Attacco Speciale e\nla Difesa Speciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Un ataque de gran potencia que resulta más\nfuerte cuanto menos le guste el Entrenador al\nPokémon que lo usa.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Der Anwender konzentriert und beruhigt sich.\nSo werden Spezial-Angriff und\nSpezial-Verteidigung verstärkt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur se concentre et fait le vide dans son\nesprit pour augmenter son Attaque Spéciale et\nsa Défense Spéciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "조용히 정신을 통일해서\n마음을 가라앉혀 자신의\n특수공격과 특수방어를 올린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "しずかに　せいしんを　とういつして\nこころを　しずめることで　じぶんの\nとくこうと　とくぼうを　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur se concentre et fait le vide\ndans son esprit pour monter son\nAtq. Spé. et sa Déf. Spé.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user focuses\nits mind to raise\nthe SP. ATK and\nSP. DEF stats.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises SP. ATK and\nSP. DEF by focusing\nthe mind.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises SP. ATK and\nSP. DEF by focusing\nthe mind.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 331,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 331,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 331,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 292,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM04",
+      "language": "en"
+    },
+    {
+      "name": "MT04",
+      "language": "it"
+    },
+    {
+      "name": "MT04",
+      "language": "es"
+    },
+    {
+      "name": "TM04",
+      "language": "de"
+    },
+    {
+      "name": "CT04",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신04",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン０４",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

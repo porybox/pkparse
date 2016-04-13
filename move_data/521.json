@@ -1,1 +1,83 @@
-{"id":521,"name":"volt-switch","accuracy":100,"effect_chance":null,"pp":20,"priority":0,"power":70,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}, then the user immediately [switches out]{mechanic:switches-out}, and the trainer selects a replacement Pokémon from the party.  If the target [faint]{mechanic:faint}s from this attack, the user's trainer selects the new Pokémon to send out first.  If the user is the last Pokémon in its party that can battle, it will not [switch out]{mechanic:switch-out}.\n\nThe user may be hit by []{move:pursuit} when it [switches out]{mechanic:switches-out}, if it has been targeted and []{move:pursuit} has not yet been used.\n\nThis move may be used even if the user is under the effect of []{move:ingrain}.  []{move:ingrain}'s effect will end.","short_effect":"User must switch out after attacking.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Volt Switch","language":"en"},{"name":"Invertivolt","language":"it"},{"name":"Voltiocambio","language":"es"},{"name":"Voltwechsel","language":"de"},{"name":"Change Éclair","language":"fr"},{"name":"볼트체인지","language":"ko"},{"name":"ボルトチェンジ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"electric"}}
+{
+  "id": 521,
+  "name": "volt-switch",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": 70,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}, then the user immediately [switches out]{mechanic:switches-out}, and the trainer selects a replacement Pokémon from the party.  If the target [faint]{mechanic:faint}s from this attack, the user's trainer selects the new Pokémon to send out first.  If the user is the last Pokémon in its party that can battle, it will not [switch out]{mechanic:switch-out}.\n\nThe user may be hit by []{move:pursuit} when it [switches out]{mechanic:switches-out}, if it has been targeted and []{move:pursuit} has not yet been used.\n\nThis move may be used even if the user is under the effect of []{move:ingrain}.  []{move:ingrain}'s effect will end.",
+      "short_effect": "User must switch out after attacking.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Volt Switch",
+      "language": "en"
+    },
+    {
+      "name": "Invertivolt",
+      "language": "it"
+    },
+    {
+      "name": "Voltiocambio",
+      "language": "es"
+    },
+    {
+      "name": "Voltwechsel",
+      "language": "de"
+    },
+    {
+      "name": "Change Éclair",
+      "language": "fr"
+    },
+    {
+      "name": "볼트체인지",
+      "language": "ko"
+    },
+    {
+      "name": "ボルトチェンジ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "electric"
+  }
+}

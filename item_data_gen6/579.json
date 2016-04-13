@@ -1,1 +1,143 @@
-{"id":620,"name":"dragon-skull","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[{"effect":"Only used as a plot point; this item is given to the player and taken away in the same cutscene.","short_effect":"Return to the museum in Nacrene City.","language":"en"}],"flavor_text_entries":[{"text":"荒れ狂う　海を　ものともせず\n自由に　とびまわっていたと　される\nポケモンの　頭の　ホネ。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A skull of a Pokémon which was said\nto have braved the angry waters to\nfly around the world.","version_group":{"name":"x-y"},"language":"en"},{"text":"Teschio di un Pokémon che sorvolava libero i mari\nsenza temere neanche le più forti tempeste.","version_group":{"name":"x-y"},"language":"it"},{"text":"Aumenta ligeramente la Precisión en combate.\nAl cambiar de Pokémon, el efecto desaparece.","version_group":{"name":"x-y"},"language":"es"},{"text":"Der Schädel eines Pokémon, das einst\nwütendem Seegang zum Trotz frei um\ndie Welt flog.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le crâne d’un Pokémon qui aurait survolé\nlibrement la mer déchaînée.","version_group":{"name":"x-y"},"language":"fr"},{"text":"성난 바다 위를 개의치 않고\n자유롭게 날아다녔다는\n포켓몬의 머리뼈.","version_group":{"name":"x-y"},"language":"ko"},{"text":"あれくるう　うみを　ものともせず\nじゆうに　とびまわっていたと　される\nポケモンの　あたまの　ホネ。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A skull of a Pokémon which was said to\nhave braved the angry waters to fly\naround the world.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A skull of a Pokémon which was said to\nhave braved the angry waters to fly\naround the world.","version_group":{"name":"black-white"},"language":"en"},{"text":"Crâne d’un Pokémon qui\naurait survolé librement\nla mer déchaînée.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":579,"generation":{"name":"generation-vi"}},{"game_index":579,"generation":{"name":"generation-v"}}],"names":[{"name":"Dragon Skull","language":"en"},{"name":"Teschio","language":"it"},{"name":"Cráneo Dragón","language":"es"},{"name":"Drakoschädel","language":"de"},{"name":"Crâne Dragon","language":"fr"},{"name":"드래곤의뼈","language":"ko"},{"name":"ドラゴンのホネ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 620,
+  "name": "dragon-skull",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [
+    {
+      "effect": "Only used as a plot point; this item is given to the player and taken away in the same cutscene.",
+      "short_effect": "Return to the museum in Nacrene City.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "荒れ狂う　海を　ものともせず\n自由に　とびまわっていたと　される\nポケモンの　頭の　ホネ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A skull of a Pokémon which was said\nto have braved the angry waters to\nfly around the world.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Teschio di un Pokémon che sorvolava libero i mari\nsenza temere neanche le più forti tempeste.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Aumenta ligeramente la Precisión en combate.\nAl cambiar de Pokémon, el efecto desaparece.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Der Schädel eines Pokémon, das einst\nwütendem Seegang zum Trotz frei um\ndie Welt flog.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le crâne d’un Pokémon qui aurait survolé\nlibrement la mer déchaînée.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "성난 바다 위를 개의치 않고\n자유롭게 날아다녔다는\n포켓몬의 머리뼈.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "あれくるう　うみを　ものともせず\nじゆうに　とびまわっていたと　される\nポケモンの　あたまの　ホネ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A skull of a Pokémon which was said to\nhave braved the angry waters to fly\naround the world.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A skull of a Pokémon which was said to\nhave braved the angry waters to fly\naround the world.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Crâne d’un Pokémon qui\naurait survolé librement\nla mer déchaînée.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 579,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 579,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Dragon Skull",
+      "language": "en"
+    },
+    {
+      "name": "Teschio",
+      "language": "it"
+    },
+    {
+      "name": "Cráneo Dragón",
+      "language": "es"
+    },
+    {
+      "name": "Drakoschädel",
+      "language": "de"
+    },
+    {
+      "name": "Crâne Dragon",
+      "language": "fr"
+    },
+    {
+      "name": "드래곤의뼈",
+      "language": "ko"
+    },
+    {
+      "name": "ドラゴンのホネ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

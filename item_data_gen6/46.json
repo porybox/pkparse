@@ -1,1 +1,213 @@
-{"id":46,"name":"protein","cost":9800,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-overworld"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"vitamins"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Increases [Attack]{mechanic:attack} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2.","short_effect":"Raises Attack effort and happiness.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンの　栄養ドリンク。\nポケモン　１匹の　攻撃の\n基礎ポイントを　あげる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A nutritious drink for Pokémon.\nWhen consumed, it raises the base\nAttack stat of a single Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Bevanda nutriente per Pokémon.\nAumenta i punti base dell’Attacco.","version_group":{"name":"x-y"},"language":"it"},{"text":"Nutritiva bebida que potencia el Ataque de base\nde un Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein gehaltvolles Getränk, das den\nAngriffs-Basiswert eines Pokémon\ndauerhaft erhöht.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une boisson très nutritive qui augmente\nl’Attaque de base d’un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬의 영양 드링크.\n포켓몬 1마리의 공격\n기초 포인트를 올린다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンの　えいようドリンク。\nポケモン　１ひきの　こうげきの\nきそポイントを　あげる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A nutritious drink for Pokémon.\nIt raises the base Attack stat of a\nsingle Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A nutritious drink for Pokémon.\nIt raises the base Attack stat of a\nsingle Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une boisson très nutritive qui monte\nl’Attaque de base d’un Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A nutritious drink for Pokémon.\nIt raises the base Attack stat of a\nsingle Pokémon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A nutritious drink for Pokémon.\nIt raises the base Attack stat of a\nsingle Pokémon.","version_group":{"name":"platinum"},"language":"en"},{"text":"A nutritious drink for Pokémon.\nIt raises the base Attack stat of a\nsingle Pokémon.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A nutritious drink for POKéMON.\nIt raises the base ATTACK stat of\none POKéMON.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Raises the base\nATTACK stat of one\nPOKéMON.","version_group":{"name":"emerald"},"language":"en"},{"text":"Raises the stat\nATTACK of one\nPOKéMON.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":46,"generation":{"name":"generation-vi"}},{"game_index":46,"generation":{"name":"generation-v"}},{"game_index":46,"generation":{"name":"generation-iv"}},{"game_index":64,"generation":{"name":"generation-iii"}}],"names":[{"name":"Protein","language":"en"},{"name":"Proteina","language":"it"},{"name":"Proteína","language":"es"},{"name":"Protein","language":"de"},{"name":"Protéine","language":"fr"},{"name":"타우린","language":"ko"},{"name":"タウリン","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 46,
+  "name": "protein",
+  "cost": 9800,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-overworld"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "vitamins"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Increases [Attack]{mechanic:attack} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2.",
+      "short_effect": "Raises Attack effort and happiness.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンの　栄養ドリンク。\nポケモン　１匹の　攻撃の\n基礎ポイントを　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nWhen consumed, it raises the base\nAttack stat of a single Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Bevanda nutriente per Pokémon.\nAumenta i punti base dell’Attacco.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Nutritiva bebida que potencia el Ataque de base\nde un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein gehaltvolles Getränk, das den\nAngriffs-Basiswert eines Pokémon\ndauerhaft erhöht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une boisson très nutritive qui augmente\nl’Attaque de base d’un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬의 영양 드링크.\n포켓몬 1마리의 공격\n기초 포인트를 올린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンの　えいようドリンク。\nポケモン　１ひきの　こうげきの\nきそポイントを　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base Attack stat of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base Attack stat of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une boisson très nutritive qui monte\nl’Attaque de base d’un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base Attack stat of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base Attack stat of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base Attack stat of a\nsingle Pokémon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for POKéMON.\nIt raises the base ATTACK stat of\none POKéMON.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the base\nATTACK stat of one\nPOKéMON.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the stat\nATTACK of one\nPOKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 46,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 46,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 46,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 64,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Protein",
+      "language": "en"
+    },
+    {
+      "name": "Proteina",
+      "language": "it"
+    },
+    {
+      "name": "Proteína",
+      "language": "es"
+    },
+    {
+      "name": "Protein",
+      "language": "de"
+    },
+    {
+      "name": "Protéine",
+      "language": "fr"
+    },
+    {
+      "name": "타우린",
+      "language": "ko"
+    },
+    {
+      "name": "タウリン",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

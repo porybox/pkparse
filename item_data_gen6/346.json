@@ -1,1 +1,197 @@
-{"id":323,"name":"tm19","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Giga Drain to a compatible Pokémon.","short_effect":"Teaches Telekinesis to a compatible Pokémon. (Gen IV & III & II: Giga Drain Gen I: Seismic Toss)","language":"en"}],"flavor_text_entries":[{"text":"地面に　降りて　体を　やすめる。\n最大ＨＰの　半分の\nＨＰを　回復する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user lands and rests its body.\nIt restores the user’s HP by up to\nhalf of its max HP.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa sta fermo e riposa, recuperando\nmetà dei propri PS massimi.","version_group":{"name":"x-y"},"language":"it"},{"text":"Descarga de lodo tóxico que puede llegar a\nenvenenar al objetivo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Anwender landet und ruht sich aus. KP des\nAnwenders werden um 50 % der maximalen KP\naufgefüllt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur atterrit et se repose.\nRestaure jusqu’à la moitié de ses PV max.","version_group":{"name":"x-y"},"language":"fr"},{"text":"땅에 내려와 몸을 쉬게 한다.\n최대 HP의 절반만큼\nHP를 회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"じめんに　おりて　からだを　やすめる。\nさいだい　ＨＰの　はんぶんの\nＨＰを　かいふく　する。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user makes the target float with\nits psychic power. The target is easier\nto hit for three turns.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user makes the target float with\nits psychic power. The target is easier\nto hit for three turns.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un pouvoir qui fait flotter l’ennemi\ndans les airs. Pendant 3 tours, il\ndevient plus facile à atteindre.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A nutrient-draining attack. The user’s\nHP is restored by half the damage\ntaken by the target.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A nutrient-draining attack. The user’s\nHP is restored by half the damage\ntaken by the target.","version_group":{"name":"platinum"},"language":"en"},{"text":"A nutrient-draining attack. The user’s\nHP is restored by half the damage\ntaken by the target.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A harsh attack that\nabsorbs half the\ndamage it inflicted\nto restore HP.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Recovers half the\nHP of the damage \nthis move inflicts.","version_group":{"name":"emerald"},"language":"en"},{"text":"Recovers half the\nHP of the damage \nthis move inflicts.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":346,"generation":{"name":"generation-vi"}},{"game_index":346,"generation":{"name":"generation-v"}},{"game_index":346,"generation":{"name":"generation-iv"}},{"game_index":307,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM19","language":"en"},{"name":"MT19","language":"it"},{"name":"MT19","language":"es"},{"name":"TM19","language":"de"},{"name":"CT19","language":"fr"},{"name":"기술머신19","language":"ko"},{"name":"わざマシン１９","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 323,
+  "name": "tm19",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Giga Drain to a compatible Pokémon.",
+      "short_effect": "Teaches Telekinesis to a compatible Pokémon. (Gen IV & III & II: Giga Drain Gen I: Seismic Toss)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "地面に　降りて　体を　やすめる。\n最大ＨＰの　半分の\nＨＰを　回復する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user lands and rests its body.\nIt restores the user’s HP by up to\nhalf of its max HP.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa sta fermo e riposa, recuperando\nmetà dei propri PS massimi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Descarga de lodo tóxico que puede llegar a\nenvenenar al objetivo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Anwender landet und ruht sich aus. KP des\nAnwenders werden um 50 % der maximalen KP\naufgefüllt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur atterrit et se repose.\nRestaure jusqu’à la moitié de ses PV max.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "땅에 내려와 몸을 쉬게 한다.\n최대 HP의 절반만큼\nHP를 회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "じめんに　おりて　からだを　やすめる。\nさいだい　ＨＰの　はんぶんの\nＨＰを　かいふく　する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user makes the target float with\nits psychic power. The target is easier\nto hit for three turns.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user makes the target float with\nits psychic power. The target is easier\nto hit for three turns.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un pouvoir qui fait flotter l’ennemi\ndans les airs. Pendant 3 tours, il\ndevient plus facile à atteindre.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A nutrient-draining attack. The user’s\nHP is restored by half the damage\ntaken by the target.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutrient-draining attack. The user’s\nHP is restored by half the damage\ntaken by the target.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutrient-draining attack. The user’s\nHP is restored by half the damage\ntaken by the target.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A harsh attack that\nabsorbs half the\ndamage it inflicted\nto restore HP.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Recovers half the\nHP of the damage \nthis move inflicts.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Recovers half the\nHP of the damage \nthis move inflicts.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 346,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 346,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 346,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 307,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM19",
+      "language": "en"
+    },
+    {
+      "name": "MT19",
+      "language": "it"
+    },
+    {
+      "name": "MT19",
+      "language": "es"
+    },
+    {
+      "name": "TM19",
+      "language": "de"
+    },
+    {
+      "name": "CT19",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신19",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン１９",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

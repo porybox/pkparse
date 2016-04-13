@@ -1,1 +1,155 @@
-{"id":20,"name":"raticate","order":20,"gender_rate":4,"capture_rate":127,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":60,"pokedex":{"name":"updated-unova"}},{"entry_number":18,"pokedex":{"name":"updated-johto"}},{"entry_number":18,"pokedex":{"name":"original-johto"}},{"entry_number":20,"pokedex":{"name":"kanto"}},{"entry_number":20,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"rattata"},"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-i"},"names":[{"name":"ラッタ","language":"ja"},{"name":"Ratta","language":"roomaji"},{"name":"레트라","language":"ko"},{"name":"拉達","language":"zh"},{"name":"Rattatac","language":"fr"},{"name":"Rattikarl","language":"de"},{"name":"Raticate","language":"es"},{"name":"Raticate","language":"it"},{"name":"Raticate","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"ねずみ","language":"ja"},{"genus":"쥐","language":"ko"},{"genus":"Souris","language":"fr"},{"genus":"Maus","language":"de"},{"genus":"Ratón","language":"es"},{"genus":"Topo","language":"it"},{"genus":"Mouse","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"raticate"}}],"first_evolution_id":19}
+{
+  "id": 20,
+  "name": "raticate",
+  "order": 20,
+  "gender_rate": 4,
+  "capture_rate": 127,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 60,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 18,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 18,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 20,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 20,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "rattata"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ラッタ",
+      "language": "ja"
+    },
+    {
+      "name": "Ratta",
+      "language": "roomaji"
+    },
+    {
+      "name": "레트라",
+      "language": "ko"
+    },
+    {
+      "name": "拉達",
+      "language": "zh"
+    },
+    {
+      "name": "Rattatac",
+      "language": "fr"
+    },
+    {
+      "name": "Rattikarl",
+      "language": "de"
+    },
+    {
+      "name": "Raticate",
+      "language": "es"
+    },
+    {
+      "name": "Raticate",
+      "language": "it"
+    },
+    {
+      "name": "Raticate",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ねずみ",
+      "language": "ja"
+    },
+    {
+      "genus": "쥐",
+      "language": "ko"
+    },
+    {
+      "genus": "Souris",
+      "language": "fr"
+    },
+    {
+      "genus": "Maus",
+      "language": "de"
+    },
+    {
+      "genus": "Ratón",
+      "language": "es"
+    },
+    {
+      "genus": "Topo",
+      "language": "it"
+    },
+    {
+      "genus": "Mouse",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "raticate"
+      }
+    }
+  ],
+  "first_evolution_id": 19
+}

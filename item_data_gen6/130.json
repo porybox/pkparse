@@ -1,1 +1,77 @@
-{"id":524,"name":"dream-mail","cost":50,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-mail"},"effect_entries":[{"effect":"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.\n\nHeld\n:   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail.","short_effect":"Lets a Trainer write a message and send it via Pokémon trade.","language":"en"}],"flavor_text_entries":[{"text":"A piece of MAIL to be held by a\nPOKéMON. It will bear the print of\nthe POKéMON holding it.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"MAIL featuring a\nsketch of the\nholding POKéMON.","version_group":{"name":"emerald"},"language":"en"},{"text":"MAIL featuring a\nsketch of the\nholding POKéMON.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":130,"generation":{"name":"generation-iii"}}],"names":[{"name":"Dream Mail","language":"en"},{"name":"Mess. Sogno","language":"it"},{"name":"Carta Sueño","language":"es"},{"name":"Traumbrief","language":"de"},{"name":"Lettre Songe","language":"fr"},{"name":"ドリームメール","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 524,
+  "name": "dream-mail",
+  "cost": 50,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-mail"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.\n\nHeld\n:   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail.",
+      "short_effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A piece of MAIL to be held by a\nPOKéMON. It will bear the print of\nthe POKéMON holding it.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "MAIL featuring a\nsketch of the\nholding POKéMON.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "MAIL featuring a\nsketch of the\nholding POKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 130,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Dream Mail",
+      "language": "en"
+    },
+    {
+      "name": "Mess. Sogno",
+      "language": "it"
+    },
+    {
+      "name": "Carta Sueño",
+      "language": "es"
+    },
+    {
+      "name": "Traumbrief",
+      "language": "de"
+    },
+    {
+      "name": "Lettre Songe",
+      "language": "fr"
+    },
+    {
+      "name": "ドリームメール",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

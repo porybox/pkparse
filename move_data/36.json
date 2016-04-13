@@ -1,1 +1,101 @@
-{"id":36,"name":"take-down","accuracy":85,"effect_chance":null,"pp":20,"priority":0,"power":90,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"harden"},{"name":"focus-energy"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"tough"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/4 the damage it inflicts in recoil.","short_effect":"User receives 1/4 the damage it inflicts in recoil.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":-25,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Take Down","language":"en"},{"name":"Riduttore","language":"it"},{"name":"Derribo","language":"es"},{"name":"Bodycheck","language":"de"},{"name":"Bélier","language":"fr"},{"name":"돌진","language":"ko"},{"name":"とっしん","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 36,
+  "name": "take-down",
+  "accuracy": 85,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": 90,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "harden"
+        },
+        {
+          "name": "focus-energy"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/4 the damage it inflicts in recoil.",
+      "short_effect": "User receives 1/4 the damage it inflicts in recoil.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": -25,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Take Down",
+      "language": "en"
+    },
+    {
+      "name": "Riduttore",
+      "language": "it"
+    },
+    {
+      "name": "Derribo",
+      "language": "es"
+    },
+    {
+      "name": "Bodycheck",
+      "language": "de"
+    },
+    {
+      "name": "Bélier",
+      "language": "fr"
+    },
+    {
+      "name": "돌진",
+      "language": "ko"
+    },
+    {
+      "name": "とっしん",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

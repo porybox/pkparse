@@ -1,1 +1,169 @@
-{"id":146,"name":"sand-rush","is_main_series":true,"generation":{"name":"generation-v"},"names":[{"name":"Sand Rush","language":"en"},{"name":"Remasabbia","language":"it"},{"name":"Ímpetu Arena","language":"es"},{"name":"Sandscharrer","language":"de"},{"name":"Baigne Sable","language":"fr"},{"name":"모래헤치기","language":"ko"},{"name":"すなかき","language":"ja"}],"effect_entries":[{"effect":"This Pokémon's [Speed]{mechanic:speed} is doubled during a [sandstorm]{mechanic:sandstorm}, and it does not take sandstorm damage, regardless of type.","short_effect":"Doubles [Speed]{mechanic:speed} during a [sandstorm]{mechanic:sandstorm}.  Protects against sandstorm damage.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"砂あらしで\n素早さが　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Boosts the Pokémon’s\nSpeed stat in a sandstorm.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"La Velocità aumenta nelle\ntempeste di sabbia.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Aumenta la Velocidad durante las\ntormentas de arena.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Erhöht in Sandstürmen\ndie Initiative.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Augmente la Vitesse lors des\ntempêtes de sable.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"모래바람으로\n스피드가 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"すなあらしで\nすばやさが　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Boosts the Pokémon’s\nSpeed in a sandstorm.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Boosts the Pokémon’s\nSpeed in a sandstorm.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Augmente la Vitesse lors\ndes tempêtes de sable.","version_group":{"name":"black-white"},"language":"fr"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"sandshrew"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"sandslash"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"herdier"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"stoutland"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"drilbur"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"excadrill"}}]}
+{
+  "id": 146,
+  "name": "sand-rush",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "Sand Rush",
+      "language": "en"
+    },
+    {
+      "name": "Remasabbia",
+      "language": "it"
+    },
+    {
+      "name": "Ímpetu Arena",
+      "language": "es"
+    },
+    {
+      "name": "Sandscharrer",
+      "language": "de"
+    },
+    {
+      "name": "Baigne Sable",
+      "language": "fr"
+    },
+    {
+      "name": "모래헤치기",
+      "language": "ko"
+    },
+    {
+      "name": "すなかき",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon's [Speed]{mechanic:speed} is doubled during a [sandstorm]{mechanic:sandstorm}, and it does not take sandstorm damage, regardless of type.",
+      "short_effect": "Doubles [Speed]{mechanic:speed} during a [sandstorm]{mechanic:sandstorm}.  Protects against sandstorm damage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "砂あらしで\n素早さが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Boosts the Pokémon’s\nSpeed stat in a sandstorm.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "La Velocità aumenta nelle\ntempeste di sabbia.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Aumenta la Velocidad durante las\ntormentas de arena.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Erhöht in Sandstürmen\ndie Initiative.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Augmente la Vitesse lors des\ntempêtes de sable.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "모래바람으로\n스피드가 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "すなあらしで\nすばやさが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Boosts the Pokémon’s\nSpeed in a sandstorm.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Boosts the Pokémon’s\nSpeed in a sandstorm.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Augmente la Vitesse lors\ndes tempêtes de sable.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "sandshrew"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "sandslash"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "herdier"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "stoutland"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "drilbur"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "excadrill"
+      }
+    }
+  ]
+}

@@ -1,1 +1,213 @@
-{"id":20,"name":"ice-heal","cost":250,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-overworld"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"status-cures"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Cures [freezing]{mechanic:freezing}.","short_effect":"Cures freezing.","language":"en"}],"flavor_text_entries":[{"text":"スプレー式の　薬。\nポケモン　１匹の　こおりの\n状態を　回復する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A spray-type medicine for freezing.\nIt can be used once to defrost a\nPokémon that has been frozen solid.","version_group":{"name":"x-y"},"language":"en"},{"text":"Rimedio spray.\nCura un Pokémon dal congelamento.","version_group":{"name":"x-y"},"language":"it"},{"text":"Medicina en espray que descongela a un\nPokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Spray, das ein eingefrorenes Pokémon\nauftaut.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un médicament sous forme de spray.\nRéchauffe un Pokémon gelé.","version_group":{"name":"x-y"},"language":"fr"},{"text":"스프레이식의 약.\n포켓몬 1마리의\n얼음 상태를 회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"スプレーしきの　くすり。\nポケモン　１ひきの　こおりの\nじょうたいを　かいふくする。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A spray-type medicine.\nIt defrosts a Pokémon that has been\nfrozen solid.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A spray-type medicine.\nIt defrosts a Pokémon that has been\nfrozen solid.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un médicament sous forme de spray.\nRéchauffe un Pokémon gelé.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A spray-type medicine.\nIt defrosts a Pokémon that has been\nfrozen solid.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A spray-type medicine.\nIt defrosts a Pokémon that has been\nfrozen solid.","version_group":{"name":"platinum"},"language":"en"},{"text":"A spray-type medicine.\nIt defrosts a Pokémon that has been\nfrozen solid.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A spray-type medicine.\nIt defrosts a frozen POKéMON.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Defrosts a frozen\nPOKéMON.","version_group":{"name":"emerald"},"language":"en"},{"text":"Defrosts a frozen\nPOKéMON.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":20,"generation":{"name":"generation-vi"}},{"game_index":20,"generation":{"name":"generation-v"}},{"game_index":20,"generation":{"name":"generation-iv"}},{"game_index":16,"generation":{"name":"generation-iii"}}],"names":[{"name":"Ice Heal","language":"en"},{"name":"Antigelo","language":"it"},{"name":"Antihielo","language":"es"},{"name":"Eisheiler","language":"de"},{"name":"Antigel","language":"fr"},{"name":"얼음상태치료제","language":"ko"},{"name":"こおりなおし","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 20,
+  "name": "ice-heal",
+  "cost": 250,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-overworld"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "status-cures"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Cures [freezing]{mechanic:freezing}.",
+      "short_effect": "Cures freezing.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "スプレー式の　薬。\nポケモン　１匹の　こおりの\n状態を　回復する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A spray-type medicine for freezing.\nIt can be used once to defrost a\nPokémon that has been frozen solid.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Rimedio spray.\nCura un Pokémon dal congelamento.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Medicina en espray que descongela a un\nPokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Spray, das ein eingefrorenes Pokémon\nauftaut.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un médicament sous forme de spray.\nRéchauffe un Pokémon gelé.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "스프레이식의 약.\n포켓몬 1마리의\n얼음 상태를 회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "スプレーしきの　くすり。\nポケモン　１ひきの　こおりの\nじょうたいを　かいふくする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A spray-type medicine.\nIt defrosts a Pokémon that has been\nfrozen solid.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A spray-type medicine.\nIt defrosts a Pokémon that has been\nfrozen solid.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un médicament sous forme de spray.\nRéchauffe un Pokémon gelé.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A spray-type medicine.\nIt defrosts a Pokémon that has been\nfrozen solid.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A spray-type medicine.\nIt defrosts a Pokémon that has been\nfrozen solid.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A spray-type medicine.\nIt defrosts a Pokémon that has been\nfrozen solid.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A spray-type medicine.\nIt defrosts a frozen POKéMON.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Defrosts a frozen\nPOKéMON.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Defrosts a frozen\nPOKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 20,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 20,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 20,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 16,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Ice Heal",
+      "language": "en"
+    },
+    {
+      "name": "Antigelo",
+      "language": "it"
+    },
+    {
+      "name": "Antihielo",
+      "language": "es"
+    },
+    {
+      "name": "Eisheiler",
+      "language": "de"
+    },
+    {
+      "name": "Antigel",
+      "language": "fr"
+    },
+    {
+      "name": "얼음상태치료제",
+      "language": "ko"
+    },
+    {
+      "name": "こおりなおし",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

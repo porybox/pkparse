@@ -1,1 +1,217 @@
-{"id":229,"name":"up-grade","cost":2100,"fling_power":30,"fling_effect":null,"attributes":[],"category":{"name":"evolution"},"effect_entries":[{"effect":"Held by Porygon: Evolves the holder into Porygon2 when traded.","short_effect":"Traded on a Porygon: Holder evolves into Porygon2.","language":"en"}],"flavor_text_entries":[{"text":"中に　いろんな　情報が\nつまった　透明な　機械。\nシルフ　カンパニー製。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A transparent device somehow\nfilled with all sorts of data.\nIt was produced by Silph Co.","version_group":{"name":"x-y"},"language":"en"},{"text":"Apparecchio trasparente pieno zeppo di dati\ndi ogni tipo. È un prodotto della Silph SpA.","version_group":{"name":"x-y"},"language":"it"},{"text":"Prolonga la duración de barreras como Reflejo y\nPantalla de Luz. Debe llevarla un Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein durchsichtiges Gerät. Es enthält alle\nmöglichen Daten. Hergestellt von Silph Co.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un dispositif transparent rempli de données\ndiverses et variées. Fabriqué par la Sylphe SARL.","version_group":{"name":"x-y"},"language":"fr"},{"text":"안에 여러 가지 정보가\n가득한 투명한 기계다.\n실프주식회사 제품.","version_group":{"name":"x-y"},"language":"ko"},{"text":"なかに　いろんな　じょうほうが\nつまった　とうめいな　きかい。\nシルフ　カンパニーせい。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A transparent device filled with all\nsorts of data.\nIt was produced by Silph Co.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A transparent device filled with all\nsorts of data.\nIt was produced by Silph Co.","version_group":{"name":"black-white"},"language":"en"},{"text":"Dispositif transparent rempli de\ndonnées diverses et variées.\nFabriqué par la Sylphe SARL.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A transparent device filled with all\nsorts of data.\nIt was produced by Silph Co.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A transparent device filled with all\nsorts of data.\nIt was produced by Silph Co.","version_group":{"name":"platinum"},"language":"en"},{"text":"A transparent device filled with all\nsorts of data.\nIt was produced by Silph Co.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A transparent device filled with all\nsorts of data.\nIt is made by SILPH CO.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A peculiar box made\nby SILPH CO.","version_group":{"name":"emerald"},"language":"en"},{"text":"A peculiar box made\nby SILPH CO.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":252,"generation":{"name":"generation-vi"}},{"game_index":252,"generation":{"name":"generation-v"}},{"game_index":252,"generation":{"name":"generation-iv"}},{"game_index":218,"generation":{"name":"generation-iii"}}],"names":[{"name":"Up-Grade","language":"en"},{"name":"Upgrade","language":"it"},{"name":"Mejora","language":"es"},{"name":"Up-Grade","language":"de"},{"name":"Améliorator","language":"fr"},{"name":"업그레이드","language":"ko"},{"name":"アップグレード","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"porygon2"},"version_details":[{"rarity":100,"version":{"name":"leafgreen"}},{"rarity":100,"version":{"name":"firered"}}]}],"baby_trigger_for":null}
+{
+  "id": 229,
+  "name": "up-grade",
+  "cost": 2100,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "evolution"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by Porygon: Evolves the holder into Porygon2 when traded.",
+      "short_effect": "Traded on a Porygon: Holder evolves into Porygon2.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "中に　いろんな　情報が\nつまった　透明な　機械。\nシルフ　カンパニー製。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A transparent device somehow\nfilled with all sorts of data.\nIt was produced by Silph Co.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Apparecchio trasparente pieno zeppo di dati\ndi ogni tipo. È un prodotto della Silph SpA.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Prolonga la duración de barreras como Reflejo y\nPantalla de Luz. Debe llevarla un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein durchsichtiges Gerät. Es enthält alle\nmöglichen Daten. Hergestellt von Silph Co.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un dispositif transparent rempli de données\ndiverses et variées. Fabriqué par la Sylphe SARL.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "안에 여러 가지 정보가\n가득한 투명한 기계다.\n실프주식회사 제품.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "なかに　いろんな　じょうほうが\nつまった　とうめいな　きかい。\nシルフ　カンパニーせい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A transparent device filled with all\nsorts of data.\nIt was produced by Silph Co.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A transparent device filled with all\nsorts of data.\nIt was produced by Silph Co.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Dispositif transparent rempli de\ndonnées diverses et variées.\nFabriqué par la Sylphe SARL.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A transparent device filled with all\nsorts of data.\nIt was produced by Silph Co.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A transparent device filled with all\nsorts of data.\nIt was produced by Silph Co.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A transparent device filled with all\nsorts of data.\nIt was produced by Silph Co.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A transparent device filled with all\nsorts of data.\nIt is made by SILPH CO.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar box made\nby SILPH CO.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar box made\nby SILPH CO.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 252,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 252,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 252,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 218,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Up-Grade",
+      "language": "en"
+    },
+    {
+      "name": "Upgrade",
+      "language": "it"
+    },
+    {
+      "name": "Mejora",
+      "language": "es"
+    },
+    {
+      "name": "Up-Grade",
+      "language": "de"
+    },
+    {
+      "name": "Améliorator",
+      "language": "fr"
+    },
+    {
+      "name": "업그레이드",
+      "language": "ko"
+    },
+    {
+      "name": "アップグレード",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "porygon2"
+      },
+      "version_details": [
+        {
+          "rarity": 100,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "firered"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,113 @@
-{"id":169,"name":"fur-coat","is_main_series":true,"generation":{"name":"generation-vi"},"names":[{"name":"Fur Coat","language":"en"},{"name":"Foltopelo","language":"it"},{"name":"Pelaje Recio","language":"es"},{"name":"Fellkleid","language":"de"},{"name":"Toison Épaisse","language":"fr"},{"name":"퍼코트","language":"ko"},{"name":"ファーコート","language":"ja"}],"effect_entries":[{"effect":"Halves damage from physical attacks.","short_effect":"Halves damage from physical attacks.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"物理技の　ダメージが\n半分になる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Halves damage from\nphysical moves.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Dimezza il danno degli attacchi\nfisici subiti.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Reduce a la mitad el daño\nrecibido por ataques físicos.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Halbiert den Schaden durch\nphysische Attacken.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Divise les dégâts des attaques\nphysiques par deux.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"물리 기술의 데미지가\n절반이 된다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"ぶつりわざの　ダメージが\nはんぶんになる。","version_group":{"name":"x-y"},"language":"ja"}],"pokemon":[{"is_hidden":false,"slot":1,"pokemon":{"name":"furfrou"}}]}
+{
+  "id": 169,
+  "name": "fur-coat",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "Fur Coat",
+      "language": "en"
+    },
+    {
+      "name": "Foltopelo",
+      "language": "it"
+    },
+    {
+      "name": "Pelaje Recio",
+      "language": "es"
+    },
+    {
+      "name": "Fellkleid",
+      "language": "de"
+    },
+    {
+      "name": "Toison Épaisse",
+      "language": "fr"
+    },
+    {
+      "name": "퍼코트",
+      "language": "ko"
+    },
+    {
+      "name": "ファーコート",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Halves damage from physical attacks.",
+      "short_effect": "Halves damage from physical attacks.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "物理技の　ダメージが\n半分になる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Halves damage from\nphysical moves.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Dimezza il danno degli attacchi\nfisici subiti.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Reduce a la mitad el daño\nrecibido por ataques físicos.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Halbiert den Schaden durch\nphysische Attacken.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Divise les dégâts des attaques\nphysiques par deux.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "물리 기술의 데미지가\n절반이 된다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "ぶつりわざの　ダメージが\nはんぶんになる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "furfrou"
+      }
+    }
+  ]
+}

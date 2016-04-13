@@ -1,1 +1,143 @@
-{"id":572,"name":"inquiry-mail","cost":50,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-mail"},"effect_entries":[{"effect":"Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.\n\nHeld\n:   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail.","short_effect":"Lets a Trainer write a message and send it via Pokémon trade.","language":"en"}],"flavor_text_entries":[{"text":"相手への　質問の　メールが\n書きやすい　レターペーパー。\nポケモンに　持たせて　使う。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"Stationery designed to make it easier\nto pose a question about something.\nHave a Pokémon hold it for delivery.","version_group":{"name":"x-y"},"language":"en"},{"text":"Carta da lettere ideale per scrivere una domanda.\nSi può dare a un Pokémon affinché la consegni.","version_group":{"name":"x-y"},"language":"it"},{"text":"Los Pokémon pueden llevarla o usarla para\nrestaurar algunos PS.","version_group":{"name":"x-y"},"language":"es"},{"text":"Briefpapier, mit dem man jemandem eine Frage\nstellen kann. Gib es einem Pokémon zum Tragen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un papier à lettres idéal pour poser des\nquestions. Peut être tenu et livré par\nun Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"상대에게 질문하는 메일을\n쉽게 쓸 수 있는 편지지.\n포켓몬에게 지니게 해서 쓴다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"あいてへの　しつもんの　メールが\nかきやすい　びんせん。\nポケモンに　もたせて　つかう。","version_group":{"name":"x-y"},"language":"ja"},{"text":"Stationery designed for\nwriting questions.\nLet a Pokémon hold it for delivery.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"Stationery designed for\nwriting questions. \nLet a Pokémon hold it for delivery.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un papier à lettres idéal pour\nposer des questions. Peut être\ntenu et livré par un Pokémon.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":141,"generation":{"name":"generation-vi"}},{"game_index":141,"generation":{"name":"generation-v"}}],"names":[{"name":"Inquiry Mail","language":"en"},{"name":"Messaggio Chiedi","language":"it"},{"name":"Carta Pregunta","language":"es"},{"name":"Fragebrief","language":"de"},{"name":"Lettre Demande","language":"fr"},{"name":"질문메일","language":"ko"},{"name":"しつもんメール","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 572,
+  "name": "inquiry-mail",
+  "cost": 50,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-mail"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used to send short messages to other players via Pokémon trading.  Trainer may compose a message from a finite list of words when giving this item to a Pokémon.  Once taken and read, a message may be erased and this item can be reused, or the message may be stored in the trainer's PC.\n\nHeld\n:   Holder cannot be placed in the PC.  Any move attempting to remove this item from the holder will fail.",
+      "short_effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "相手への　質問の　メールが\n書きやすい　レターペーパー。\nポケモンに　持たせて　使う。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "Stationery designed to make it easier\nto pose a question about something.\nHave a Pokémon hold it for delivery.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Carta da lettere ideale per scrivere una domanda.\nSi può dare a un Pokémon affinché la consegni.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Los Pokémon pueden llevarla o usarla para\nrestaurar algunos PS.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Briefpapier, mit dem man jemandem eine Frage\nstellen kann. Gib es einem Pokémon zum Tragen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un papier à lettres idéal pour poser des\nquestions. Peut être tenu et livré par\nun Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "상대에게 질문하는 메일을\n쉽게 쓸 수 있는 편지지.\n포켓몬에게 지니게 해서 쓴다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "あいてへの　しつもんの　メールが\nかきやすい　びんせん。\nポケモンに　もたせて　つかう。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "Stationery designed for\nwriting questions.\nLet a Pokémon hold it for delivery.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Stationery designed for\nwriting questions. \nLet a Pokémon hold it for delivery.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un papier à lettres idéal pour\nposer des questions. Peut être\ntenu et livré par un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 141,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 141,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Inquiry Mail",
+      "language": "en"
+    },
+    {
+      "name": "Messaggio Chiedi",
+      "language": "it"
+    },
+    {
+      "name": "Carta Pregunta",
+      "language": "es"
+    },
+    {
+      "name": "Fragebrief",
+      "language": "de"
+    },
+    {
+      "name": "Lettre Demande",
+      "language": "fr"
+    },
+    {
+      "name": "질문메일",
+      "language": "ko"
+    },
+    {
+      "name": "しつもんメール",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

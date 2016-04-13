@@ -1,1 +1,239 @@
-{"id":157,"name":"sap-sipper","is_main_series":true,"generation":{"name":"generation-v"},"names":[{"name":"Sap Sipper","language":"en"},{"name":"Mangiaerba","language":"it"},{"name":"Herbívoro","language":"es"},{"name":"Vegetarier","language":"de"},{"name":"Herbivore","language":"fr"},{"name":"초식","language":"ko"},{"name":"そうしょく","language":"ja"}],"effect_entries":[{"effect":"Whenever a []{type:grass}-type move hits this Pokémon, its [Attack]{mechanic:attack} rises one [stage]{mechanic:stat-modifier}, negating any other effect on it.","short_effect":"Absorbs []{type:grass} moves, raising [Attack]{mechanic:attack} one [stage]{mechanic:stat-modifier}.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"くさの　技を　受けると\n攻撃が　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Boosts the Attack stat when hit\nby a Grass-type move.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Neutralizza le mosse di tipo Erba\nsubite per aumentare l’Attacco.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Neutraliza los movimientos de\ntipo Planta y sube el Ataque.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Absorbiert Pflanzen-Attacken\nund steigert den Angriff.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Neutralise les attaques Plante et\naugmente l’Attaque.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"풀 기술을 받으면\n공격이 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"くさの　わざを　うけると\nこうげきが　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Boosts Attack when hit by\na Grass-type move.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Boosts Attack when hit by\na Grass-type move.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Augmente l’Attaque après\nune attaque Plante.","version_group":{"name":"black-white"},"language":"fr"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"marill"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"azumarill"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"girafarig"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"stantler"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"miltank"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"azurill"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"blitzle"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"zebstrika"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"deerling"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"sawsbuck"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"bouffalant"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"skiddo"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"gogoat"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"goomy"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"sliggoo"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"goodra"}}]}
+{
+  "id": 157,
+  "name": "sap-sipper",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "Sap Sipper",
+      "language": "en"
+    },
+    {
+      "name": "Mangiaerba",
+      "language": "it"
+    },
+    {
+      "name": "Herbívoro",
+      "language": "es"
+    },
+    {
+      "name": "Vegetarier",
+      "language": "de"
+    },
+    {
+      "name": "Herbivore",
+      "language": "fr"
+    },
+    {
+      "name": "초식",
+      "language": "ko"
+    },
+    {
+      "name": "そうしょく",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Whenever a []{type:grass}-type move hits this Pokémon, its [Attack]{mechanic:attack} rises one [stage]{mechanic:stat-modifier}, negating any other effect on it.",
+      "short_effect": "Absorbs []{type:grass} moves, raising [Attack]{mechanic:attack} one [stage]{mechanic:stat-modifier}.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "くさの　技を　受けると\n攻撃が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Boosts the Attack stat when hit\nby a Grass-type move.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Neutralizza le mosse di tipo Erba\nsubite per aumentare l’Attacco.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Neutraliza los movimientos de\ntipo Planta y sube el Ataque.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Absorbiert Pflanzen-Attacken\nund steigert den Angriff.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Neutralise les attaques Plante et\naugmente l’Attaque.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "풀 기술을 받으면\n공격이 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "くさの　わざを　うけると\nこうげきが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Boosts Attack when hit by\na Grass-type move.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Boosts Attack when hit by\na Grass-type move.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Augmente l’Attaque après\nune attaque Plante.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "marill"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "azumarill"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "girafarig"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "stantler"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "miltank"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "azurill"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "blitzle"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "zebstrika"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "deerling"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "sawsbuck"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "bouffalant"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "skiddo"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "gogoat"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "goomy"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "sliggoo"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "goodra"
+      }
+    }
+  ]
+}

@@ -1,1 +1,170 @@
-{"id":358,"name":"tm54","cost":2000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches False Swipe to a compatible Pokémon.","short_effect":"Teaches False Swipe to a compatible Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"相手の　ＨＰが\n必ず　１だけ　残るように\n手加減して　攻撃する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A restrained attack that prevents the\ntarget from fainting. The target is left\nwith at least 1 HP.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa trattiene il colpo per impedire al nemico\ndi andare KO, lasciandolo con almeno un PS.","version_group":{"name":"x-y"},"language":"it"},{"text":"Apuñala al objetivo desde abajo con piedras\nafiladas. Su índice de golpe crítico es muy alto.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine zurückhaltende Attacke, die eine\nKampfunfähigkeit des Zieles verhindert,\nda dem Ziel mindestens 1 KP bleibt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur retient ses coups pour que l’ennemi\ngarde au moins 1 PV et ne tombe pas K.O.","version_group":{"name":"x-y"},"language":"fr"},{"text":"상대의 HP가\n반드시 1만큼 남도록\n조절하여 공격한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"てかげんして　こうげきする。\nこうげきした　あいての　ＨＰは\nかならず　１　のこる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A restrained attack that prevents the\ntarget from fainting. The target is left\nwith at least 1 HP.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A restrained attack that prevents the\ntarget from fainting. The target is left\nwith at least 1 HP.","version_group":{"name":"black-white"},"language":"en"},{"text":"Le lanceur retient ses coups pour\nque l’ennemi garde au moins 1 PV et\nne tombe pas K.O.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A restrained attack that prevents the\nfoe from fainting. The target is left\nwith at least 1 HP.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A restrained attack that prevents the\nfoe from fainting. The target is left\nwith at least 1 HP.","version_group":{"name":"platinum"},"language":"en"},{"text":"A restrained attack that prevents the\nfoe from fainting. The target is left\nwith at least 1 HP.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":381,"generation":{"name":"generation-vi"}},{"game_index":381,"generation":{"name":"generation-v"}},{"game_index":381,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM54","language":"en"},{"name":"MT54","language":"it"},{"name":"MT54","language":"es"},{"name":"TM54","language":"de"},{"name":"CT54","language":"fr"},{"name":"기술머신54","language":"ko"},{"name":"わざマシン５４","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 358,
+  "name": "tm54",
+  "cost": 2000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches False Swipe to a compatible Pokémon.",
+      "short_effect": "Teaches False Swipe to a compatible Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "相手の　ＨＰが\n必ず　１だけ　残るように\n手加減して　攻撃する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A restrained attack that prevents the\ntarget from fainting. The target is left\nwith at least 1 HP.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa trattiene il colpo per impedire al nemico\ndi andare KO, lasciandolo con almeno un PS.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Apuñala al objetivo desde abajo con piedras\nafiladas. Su índice de golpe crítico es muy alto.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine zurückhaltende Attacke, die eine\nKampfunfähigkeit des Zieles verhindert,\nda dem Ziel mindestens 1 KP bleibt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur retient ses coups pour que l’ennemi\ngarde au moins 1 PV et ne tombe pas K.O.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "상대의 HP가\n반드시 1만큼 남도록\n조절하여 공격한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "てかげんして　こうげきする。\nこうげきした　あいての　ＨＰは\nかならず　１　のこる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A restrained attack that prevents the\ntarget from fainting. The target is left\nwith at least 1 HP.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A restrained attack that prevents the\ntarget from fainting. The target is left\nwith at least 1 HP.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur retient ses coups pour\nque l’ennemi garde au moins 1 PV et\nne tombe pas K.O.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A restrained attack that prevents the\nfoe from fainting. The target is left\nwith at least 1 HP.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A restrained attack that prevents the\nfoe from fainting. The target is left\nwith at least 1 HP.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A restrained attack that prevents the\nfoe from fainting. The target is left\nwith at least 1 HP.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 381,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 381,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 381,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM54",
+      "language": "en"
+    },
+    {
+      "name": "MT54",
+      "language": "it"
+    },
+    {
+      "name": "MT54",
+      "language": "es"
+    },
+    {
+      "name": "TM54",
+      "language": "de"
+    },
+    {
+      "name": "CT54",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신54",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン５４",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

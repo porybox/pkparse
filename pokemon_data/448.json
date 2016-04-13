@@ -1,1 +1,168 @@
-{"id":448,"name":"lucario","order":468,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":25,"has_gender_differences":false,"forms_switchable":true,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":63,"pokedex":{"name":"kalos-central"}},{"entry_number":51,"pokedex":{"name":"conquest-gallery"}},{"entry_number":34,"pokedex":{"name":"updated-unova"}},{"entry_number":116,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":116,"pokedex":{"name":"original-sinnoh"}},{"entry_number":448,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"humanshape"},{"name":"ground"}],"color":{"name":"blue"},"shape":{"name":"upright"},"evolves_from_species":{"name":"riolu"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"ルカリオ","language":"ja"},{"name":"Lucario","language":"roomaji"},{"name":"루카리오","language":"ko"},{"name":"路卡利歐","language":"zh"},{"name":"Lucario","language":"fr"},{"name":"Lucario","language":"de"},{"name":"Lucario","language":"es"},{"name":"Lucario","language":"it"},{"name":"Lucario","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"はどう","language":"ja"},{"genus":"파동","language":"ko"},{"genus":"Aura","language":"fr"},{"genus":"Aura","language":"de"},{"genus":"Aura","language":"es"},{"genus":"Aura","language":"it"},{"genus":"Aura","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"lucario"}},{"is_default":false,"pokemon":{"name":"lucario-mega"}}],"first_evolution_id":447}
+{
+  "id": 448,
+  "name": "lucario",
+  "order": 468,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 25,
+  "has_gender_differences": false,
+  "forms_switchable": true,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 63,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 51,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 34,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 116,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 116,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 448,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "humanshape"
+    },
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "riolu"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "ルカリオ",
+      "language": "ja"
+    },
+    {
+      "name": "Lucario",
+      "language": "roomaji"
+    },
+    {
+      "name": "루카리오",
+      "language": "ko"
+    },
+    {
+      "name": "路卡利歐",
+      "language": "zh"
+    },
+    {
+      "name": "Lucario",
+      "language": "fr"
+    },
+    {
+      "name": "Lucario",
+      "language": "de"
+    },
+    {
+      "name": "Lucario",
+      "language": "es"
+    },
+    {
+      "name": "Lucario",
+      "language": "it"
+    },
+    {
+      "name": "Lucario",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "はどう",
+      "language": "ja"
+    },
+    {
+      "genus": "파동",
+      "language": "ko"
+    },
+    {
+      "genus": "Aura",
+      "language": "fr"
+    },
+    {
+      "genus": "Aura",
+      "language": "de"
+    },
+    {
+      "genus": "Aura",
+      "language": "es"
+    },
+    {
+      "genus": "Aura",
+      "language": "it"
+    },
+    {
+      "genus": "Aura",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "lucario"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "lucario-mega"
+      }
+    }
+  ],
+  "first_evolution_id": 447
+}

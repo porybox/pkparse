@@ -1,1 +1,143 @@
-{"id":586,"name":"ring-target","cost":200,"fling_power":10,"fling_effect":null,"attributes":[],"category":{"name":"held-items"},"effect_entries":[{"effect":"Held\n:   When one of the user's types would render it immune to damage, that type is ignored for damage calculation.","short_effect":"Held: Negates the holder's type immunities. Ability immunities are not removed.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンの　タイプの　相性で\n無効だった　技が\n当たるように　なってしまう。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nMoves that normally have no effect\nwill land on a Pokémon holding it.","version_group":{"name":"x-y"},"language":"en"},{"text":"Se un Pokémon ha questo strumento, le mosse\nche di norma non hanno effetto contro il suo tipo\nvanno a segno.","version_group":{"name":"x-y"},"language":"it"},{"text":"Joya de un solo uso que potencia los\nmovimientos de tipo Siniestro. Debe llevarla\nun Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Attacken, die aufgrund der Wechselwirkungen\nzwischen den Typen keine Wirkung haben,\ntreffen den Träger.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un Pokémon tenant cet objet devient sensible\naux capacités autrement inefficaces en raison de\nson type.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬 타입의 상성 때문에\n무효였던 기술이\n맞게 되어 버린다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンの　タイプの　あいしょうで\nむこう　だった　わざが\nあたるように　なってしまう。","version_group":{"name":"x-y"},"language":"ja"},{"text":"Moves that would otherwise have no\neffect will land on the Pokémon that\nholds it.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"Moves that would otherwise have no\neffect will land on the Pokémon that\nholds it.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un Pokémon tenant cet objet devient\nsensible aux capacités autrement\ninefficaces en raison de son type.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":543,"generation":{"name":"generation-vi"}},{"game_index":543,"generation":{"name":"generation-v"}}],"names":[{"name":"Ring Target","language":"en"},{"name":"Facilsaglio","language":"it"},{"name":"Blanco","language":"es"},{"name":"Zielscheibe","language":"de"},{"name":"Point de Mire","language":"fr"},{"name":"겨냥표적","language":"ko"},{"name":"ねらいのまと","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 586,
+  "name": "ring-target",
+  "cost": 200,
+  "fling_power": 10,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "held-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held\n:   When one of the user's types would render it immune to damage, that type is ignored for damage calculation.",
+      "short_effect": "Held: Negates the holder's type immunities. Ability immunities are not removed.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンの　タイプの　相性で\n無効だった　技が\n当たるように　なってしまう。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nMoves that normally have no effect\nwill land on a Pokémon holding it.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Se un Pokémon ha questo strumento, le mosse\nche di norma non hanno effetto contro il suo tipo\nvanno a segno.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Joya de un solo uso que potencia los\nmovimientos de tipo Siniestro. Debe llevarla\nun Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Attacken, die aufgrund der Wechselwirkungen\nzwischen den Typen keine Wirkung haben,\ntreffen den Träger.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un Pokémon tenant cet objet devient sensible\naux capacités autrement inefficaces en raison de\nson type.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬 타입의 상성 때문에\n무효였던 기술이\n맞게 되어 버린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンの　タイプの　あいしょうで\nむこう　だった　わざが\nあたるように　なってしまう。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "Moves that would otherwise have no\neffect will land on the Pokémon that\nholds it.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Moves that would otherwise have no\neffect will land on the Pokémon that\nholds it.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un Pokémon tenant cet objet devient\nsensible aux capacités autrement\ninefficaces en raison de son type.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 543,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 543,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Ring Target",
+      "language": "en"
+    },
+    {
+      "name": "Facilsaglio",
+      "language": "it"
+    },
+    {
+      "name": "Blanco",
+      "language": "es"
+    },
+    {
+      "name": "Zielscheibe",
+      "language": "de"
+    },
+    {
+      "name": "Point de Mire",
+      "language": "fr"
+    },
+    {
+      "name": "겨냥표적",
+      "language": "ko"
+    },
+    {
+      "name": "ねらいのまと",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

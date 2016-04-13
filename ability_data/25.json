@@ -1,1 +1,188 @@
-{"id":25,"name":"wonder-guard","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Wonder Guard","language":"en"},{"name":"Magidifesa","language":"it"},{"name":"Superguarda","language":"es"},{"name":"Wunderwache","language":"de"},{"name":"Garde Mystik","language":"fr"},{"name":"불가사의부적","language":"ko"},{"name":"ふしぎなまもり","language":"ja"}],"effect_entries":[{"effect":"This Pokémon is immune to damaging moves that are not [super effective]{mechanic:super-effective} against it.\n\nMoves that inflict fixed damage, such as []{move:night-shade} or []{move:seismic-toss}, are considered super effective if their types are.  Damage not directly dealt by moves, such as damage from [weather]{mechanic:weather}, a [status ailment]{mechanic:status-ailment}, or []{move:spikes}, is not prevented.\n\nThis ability cannot be copied with []{move:role-play} or traded away with []{move:skill-swap}, but it can be copied with []{ability:trace}, disabled with []{move:gastro-acid}, or changed with []{move:worry-seed}.  This Pokémon can still use Role Play itself to lose this ability, but not Skill Swap.\n\nIf this Pokémon has a []{move:substitute}, this ability will block moves as usual and any moves not blocked will react to the Substitute as usual.","short_effect":"Protects against damaging moves that are not [super effective]{mechanic:super-effective}.","language":"en"}],"effect_changes":[{"version_group":{"name":"black-white"},"effect_entries":[{"effect":"[]{move:fire-fang} and moves that inflict [typeless damage]{mechanic:typeless-damage} ignore this ability regardless of type.","language":"en"}]}],"flavor_text_entries":[{"flavor_text":"効果バツグン　しか\n当たらない。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Only supereffective\nmoves will hit.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Rende vulnerabili solo alle\nmosse superefficaci.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Solo le hacen daño los\nmovimientos supereficaces.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Nur sehr effektive Treffer\nrichten Schaden an.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Seules les capacités « super\nefficaces » l’atteignent.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"효과가 굉장한 기술밖에\n맞지 않는다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"こうかばつぐん　しか\nあたらない。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Only supereffective\nmoves will hit.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Only supereffective\nmoves will hit.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Seules capacités “super\nefficaces” l’atteignent.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Only supereffective\nmoves will hit.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Only supereffective\nmoves will hit.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Only supereffective\nmoves will hit.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"“Super effective” hits.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"“Super effective” hits.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"“Super effective” hits.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":1,"pokemon":{"name":"shedinja"}}]}
+{
+  "id": 25,
+  "name": "wonder-guard",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Wonder Guard",
+      "language": "en"
+    },
+    {
+      "name": "Magidifesa",
+      "language": "it"
+    },
+    {
+      "name": "Superguarda",
+      "language": "es"
+    },
+    {
+      "name": "Wunderwache",
+      "language": "de"
+    },
+    {
+      "name": "Garde Mystik",
+      "language": "fr"
+    },
+    {
+      "name": "불가사의부적",
+      "language": "ko"
+    },
+    {
+      "name": "ふしぎなまもり",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon is immune to damaging moves that are not [super effective]{mechanic:super-effective} against it.\n\nMoves that inflict fixed damage, such as []{move:night-shade} or []{move:seismic-toss}, are considered super effective if their types are.  Damage not directly dealt by moves, such as damage from [weather]{mechanic:weather}, a [status ailment]{mechanic:status-ailment}, or []{move:spikes}, is not prevented.\n\nThis ability cannot be copied with []{move:role-play} or traded away with []{move:skill-swap}, but it can be copied with []{ability:trace}, disabled with []{move:gastro-acid}, or changed with []{move:worry-seed}.  This Pokémon can still use Role Play itself to lose this ability, but not Skill Swap.\n\nIf this Pokémon has a []{move:substitute}, this ability will block moves as usual and any moves not blocked will react to the Substitute as usual.",
+      "short_effect": "Protects against damaging moves that are not [super effective]{mechanic:super-effective}.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "black-white"
+      },
+      "effect_entries": [
+        {
+          "effect": "[]{move:fire-fang} and moves that inflict [typeless damage]{mechanic:typeless-damage} ignore this ability regardless of type.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "効果バツグン　しか\n当たらない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Only supereffective\nmoves will hit.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Rende vulnerabili solo alle\nmosse superefficaci.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Solo le hacen daño los\nmovimientos supereficaces.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Nur sehr effektive Treffer\nrichten Schaden an.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Seules les capacités « super\nefficaces » l’atteignent.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "효과가 굉장한 기술밖에\n맞지 않는다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "こうかばつぐん　しか\nあたらない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Only supereffective\nmoves will hit.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Only supereffective\nmoves will hit.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Seules capacités “super\nefficaces” l’atteignent.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Only supereffective\nmoves will hit.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Only supereffective\nmoves will hit.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Only supereffective\nmoves will hit.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "“Super effective” hits.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "“Super effective” hits.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "“Super effective” hits.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "shedinja"
+      }
+    }
+  ]
+}

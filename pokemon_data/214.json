@@ -1,1 +1,177 @@
-{"id":214,"name":"heracross","order":244,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":25,"has_gender_differences":true,"forms_switchable":true,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":131,"pokedex":{"name":"kalos-coastal"}},{"entry_number":145,"pokedex":{"name":"updated-unova"}},{"entry_number":114,"pokedex":{"name":"updated-johto"}},{"entry_number":62,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":62,"pokedex":{"name":"original-sinnoh"}},{"entry_number":168,"pokedex":{"name":"hoenn"}},{"entry_number":113,"pokedex":{"name":"original-johto"}},{"entry_number":214,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"blue"},"shape":{"name":"humanoid"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-ii"},"names":[{"name":"ヘラクロス","language":"ja"},{"name":"Heracros","language":"roomaji"},{"name":"헤라크로스","language":"ko"},{"name":"赫拉剋羅斯","language":"zh"},{"name":"Scarhino","language":"fr"},{"name":"Skaraborn","language":"de"},{"name":"Heracross","language":"es"},{"name":"Heracross","language":"it"},{"name":"Heracross","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"１ぽんヅノ","language":"ja"},{"genus":"외뿔","language":"ko"},{"genus":"Unicorne","language":"fr"},{"genus":"Einzelhorn","language":"de"},{"genus":"Unicornio","language":"es"},{"genus":"Monocorno","language":"it"},{"genus":"Single Horn","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"heracross"}},{"is_default":false,"pokemon":{"name":"heracross-mega"}}],"first_evolution_id":214}
+{
+  "id": 214,
+  "name": "heracross",
+  "order": 244,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 25,
+  "has_gender_differences": true,
+  "forms_switchable": true,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 131,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 145,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 114,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 62,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 62,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 168,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 113,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 214,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ヘラクロス",
+      "language": "ja"
+    },
+    {
+      "name": "Heracros",
+      "language": "roomaji"
+    },
+    {
+      "name": "헤라크로스",
+      "language": "ko"
+    },
+    {
+      "name": "赫拉剋羅斯",
+      "language": "zh"
+    },
+    {
+      "name": "Scarhino",
+      "language": "fr"
+    },
+    {
+      "name": "Skaraborn",
+      "language": "de"
+    },
+    {
+      "name": "Heracross",
+      "language": "es"
+    },
+    {
+      "name": "Heracross",
+      "language": "it"
+    },
+    {
+      "name": "Heracross",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "１ぽんヅノ",
+      "language": "ja"
+    },
+    {
+      "genus": "외뿔",
+      "language": "ko"
+    },
+    {
+      "genus": "Unicorne",
+      "language": "fr"
+    },
+    {
+      "genus": "Einzelhorn",
+      "language": "de"
+    },
+    {
+      "genus": "Unicornio",
+      "language": "es"
+    },
+    {
+      "genus": "Monocorno",
+      "language": "it"
+    },
+    {
+      "genus": "Single Horn",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "heracross"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "heracross-mega"
+      }
+    }
+  ],
+  "first_evolution_id": 214
+}

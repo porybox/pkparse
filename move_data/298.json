@@ -1,1 +1,85 @@
-{"id":298,"name":"teeter-dance","accuracy":100,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"cute"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"[Confuse]{mechanic:confuse}s all targets.","short_effect":"Confuses the target.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"confusion"},"category":{"name":"ailment"},"min_hits":null,"max_hits":null,"min_turns":2,"max_turns":5,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Teeter Dance","language":"en"},{"name":"Strampadanza","language":"it"},{"name":"Danza Caos","language":"es"},{"name":"Taumeltanz","language":"de"},{"name":"Danse-Folle","language":"fr"},{"name":"흔들흔들댄스","language":"ko"},{"name":"フラフラダンス","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"all-other-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 298,
+  "name": "teeter-dance",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cute"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "[Confuse]{mechanic:confuse}s all targets.",
+      "short_effect": "Confuses the target.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "confusion"
+    },
+    "category": {
+      "name": "ailment"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": 2,
+    "max_turns": 5,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Teeter Dance",
+      "language": "en"
+    },
+    {
+      "name": "Strampadanza",
+      "language": "it"
+    },
+    {
+      "name": "Danza Caos",
+      "language": "es"
+    },
+    {
+      "name": "Taumeltanz",
+      "language": "de"
+    },
+    {
+      "name": "Danse-Folle",
+      "language": "fr"
+    },
+    {
+      "name": "흔들흔들댄스",
+      "language": "ko"
+    },
+    {
+      "name": "フラフラダンス",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "all-other-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

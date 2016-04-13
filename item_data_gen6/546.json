@@ -1,1 +1,143 @@
-{"id":589,"name":"cell-battery","cost":200,"fling_power":30,"fling_effect":null,"attributes":[],"category":{"name":"held-items"},"effect_entries":[{"effect":"Held\n:   When the holder takes []{type:electric}-type damage from a move, its [Attack]{mechanic:attack} rises by one [stage]{mechanic:stage} and this item is consumed.","short_effect":"Held: Raises the holder's Attack by one stage when it takes Electric-type damage.","language":"en"}],"flavor_text_entries":[{"text":"使い捨ての　じゅうでんち。\n持たせて　でんきの　技を　受けると\n攻撃が　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nIt boosts Attack if hit with an Electric-\ntype attack. It can only be used once.","version_group":{"name":"x-y"},"language":"en"},{"text":"Pila monouso. Se il Pokémon che ha questo\nstrumento subisce un attacco di tipo Elettro,\nil suo Attacco aumenta.","version_group":{"name":"x-y"},"language":"it"},{"text":"Pluma que aumenta un poco los PS de base de\nun Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein einmalig aufladbarer Akku. Erhöht den Angriff\ndes Trägers, wenn ihn eine Elektro-Attacke trifft.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une pile jetable.\nTenue, elle augmente l’Attaque lorsque\nle Pokémon subit une attaque de type Électrik.","version_group":{"name":"x-y"},"language":"fr"},{"text":"단 한 번 쓰면 없어지는 충전지.\n지니게 하고 전기 기술을 받으면\n공격이 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"つかいすての　じゅうでんち。\nもたせて　でんきの　わざを　うけると\nこうげきが　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A consumable battery. If the\nholder is hit by an Electric-type\nmove, its Attack will rise.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A consumable battery. If the\nholder is hit by an Electric-type\nmove, its Attack will rise.","version_group":{"name":"black-white"},"language":"en"},{"text":"Pile jetable. Tenue, elle augmente\nl’Attaque lorsque le Pokémon subit\nune attaque de type Électrik.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":546,"generation":{"name":"generation-vi"}},{"game_index":546,"generation":{"name":"generation-v"}}],"names":[{"name":"Cell Battery","language":"en"},{"name":"Ricaripila","language":"it"},{"name":"Pila","language":"es"},{"name":"Akku","language":"de"},{"name":"Pile","language":"fr"},{"name":"충전지","language":"ko"},{"name":"じゅうでんち","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 589,
+  "name": "cell-battery",
+  "cost": 200,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "held-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held\n:   When the holder takes []{type:electric}-type damage from a move, its [Attack]{mechanic:attack} rises by one [stage]{mechanic:stage} and this item is consumed.",
+      "short_effect": "Held: Raises the holder's Attack by one stage when it takes Electric-type damage.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "使い捨ての　じゅうでんち。\n持たせて　でんきの　技を　受けると\n攻撃が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt boosts Attack if hit with an Electric-\ntype attack. It can only be used once.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pila monouso. Se il Pokémon che ha questo\nstrumento subisce un attacco di tipo Elettro,\nil suo Attacco aumenta.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Pluma que aumenta un poco los PS de base de\nun Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein einmalig aufladbarer Akku. Erhöht den Angriff\ndes Trägers, wenn ihn eine Elektro-Attacke trifft.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une pile jetable.\nTenue, elle augmente l’Attaque lorsque\nle Pokémon subit une attaque de type Électrik.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "단 한 번 쓰면 없어지는 충전지.\n지니게 하고 전기 기술을 받으면\n공격이 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "つかいすての　じゅうでんち。\nもたせて　でんきの　わざを　うけると\nこうげきが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A consumable battery. If the\nholder is hit by an Electric-type\nmove, its Attack will rise.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A consumable battery. If the\nholder is hit by an Electric-type\nmove, its Attack will rise.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pile jetable. Tenue, elle augmente\nl’Attaque lorsque le Pokémon subit\nune attaque de type Électrik.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 546,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 546,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Cell Battery",
+      "language": "en"
+    },
+    {
+      "name": "Ricaripila",
+      "language": "it"
+    },
+    {
+      "name": "Pila",
+      "language": "es"
+    },
+    {
+      "name": "Akku",
+      "language": "de"
+    },
+    {
+      "name": "Pile",
+      "language": "fr"
+    },
+    {
+      "name": "충전지",
+      "language": "ko"
+    },
+    {
+      "name": "じゅうでんち",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

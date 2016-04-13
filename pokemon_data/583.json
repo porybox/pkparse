@@ -1,1 +1,131 @@
-{"id":583,"name":"vanillish","order":584,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":86,"pokedex":{"name":"kalos-mountain"}},{"entry_number":256,"pokedex":{"name":"updated-unova"}},{"entry_number":89,"pokedex":{"name":"original-unova"}},{"entry_number":583,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"mineral"}],"color":{"name":"white"},"shape":{"name":"blob"},"evolves_from_species":{"name":"vanillite"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-v"},"names":[{"name":"バニリッチ","language":"ja"},{"name":"바닐리치","language":"ko"},{"name":"Sorboul","language":"fr"},{"name":"Gelatroppo","language":"de"},{"name":"Vanillish","language":"es"},{"name":"Vanillish","language":"it"},{"name":"Vanillish","language":"en"}],"pal_park_encounters":[],"form_descriptions":[],"genera":[{"genus":"ひょうせつ","language":"ja"},{"genus":"빙설","language":"ko"},{"genus":"Grêle","language":"fr"},{"genus":"Firn","language":"de"},{"genus":"Nieve Helada","language":"es"},{"genus":"Geloneve","language":"it"},{"genus":"Icy Snow","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"vanillish"}}],"first_evolution_id":582}
+{
+  "id": 583,
+  "name": "vanillish",
+  "order": 584,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 86,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 256,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 89,
+      "pokedex": {
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 583,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "mineral"
+    }
+  ],
+  "color": {
+    "name": "white"
+  },
+  "shape": {
+    "name": "blob"
+  },
+  "evolves_from_species": {
+    "name": "vanillite"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "バニリッチ",
+      "language": "ja"
+    },
+    {
+      "name": "바닐리치",
+      "language": "ko"
+    },
+    {
+      "name": "Sorboul",
+      "language": "fr"
+    },
+    {
+      "name": "Gelatroppo",
+      "language": "de"
+    },
+    {
+      "name": "Vanillish",
+      "language": "es"
+    },
+    {
+      "name": "Vanillish",
+      "language": "it"
+    },
+    {
+      "name": "Vanillish",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ひょうせつ",
+      "language": "ja"
+    },
+    {
+      "genus": "빙설",
+      "language": "ko"
+    },
+    {
+      "genus": "Grêle",
+      "language": "fr"
+    },
+    {
+      "genus": "Firn",
+      "language": "de"
+    },
+    {
+      "genus": "Nieve Helada",
+      "language": "es"
+    },
+    {
+      "genus": "Geloneve",
+      "language": "it"
+    },
+    {
+      "genus": "Icy Snow",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "vanillish"
+      }
+    }
+  ],
+  "first_evolution_id": 582
+}

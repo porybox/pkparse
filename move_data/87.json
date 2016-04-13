@@ -1,1 +1,128 @@
-{"id":87,"name":"thunder","accuracy":70,"effect_chance":30,"pp":10,"priority":0,"power":110,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"lock-on"},{"name":"rain-dance"},{"name":"charge"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.\n\nDuring []{move:rain-dance}, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of []{move:protect} and []{move:detect}.\n\nDuring []{move:sunny-day}, this move has 50% accuracy.","short_effect":"Has a $effect_chance% chance to paralyze the target.","language":"en"}],"effect_changes":[{"version_group":{"name":"gold-silver"},"effect_entries":[{"effect":"Does not hit Pokémon under the effects of []{move:fly}.","language":"en"}]}],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"paralysis"},"category":{"name":"damage+ailment"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":30,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Thunder","language":"en"},{"name":"Tuono","language":"it"},{"name":"Trueno","language":"es"},{"name":"Donner","language":"de"},{"name":"Fatal-Foudre","language":"fr"},{"name":"번개","language":"ko"},{"name":"かみなり","language":"ja"}],"past_values":[{"accuracy":null,"power":null,"pp":null,"effect_chance":10,"effect_entries":[],"type":null,"version_group":{"name":"gold-silver"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"electric"}}
+{
+  "id": 87,
+  "name": "thunder",
+  "accuracy": 70,
+  "effect_chance": 30,
+  "pp": 10,
+  "priority": 0,
+  "power": 110,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "lock-on"
+        },
+        {
+          "name": "rain-dance"
+        },
+        {
+          "name": "charge"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.\n\nDuring []{move:rain-dance}, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of []{move:protect} and []{move:detect}.\n\nDuring []{move:sunny-day}, this move has 50% accuracy.",
+      "short_effect": "Has a $effect_chance% chance to paralyze the target.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "gold-silver"
+      },
+      "effect_entries": [
+        {
+          "effect": "Does not hit Pokémon under the effects of []{move:fly}.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "paralysis"
+    },
+    "category": {
+      "name": "damage+ailment"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 30,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Thunder",
+      "language": "en"
+    },
+    {
+      "name": "Tuono",
+      "language": "it"
+    },
+    {
+      "name": "Trueno",
+      "language": "es"
+    },
+    {
+      "name": "Donner",
+      "language": "de"
+    },
+    {
+      "name": "Fatal-Foudre",
+      "language": "fr"
+    },
+    {
+      "name": "번개",
+      "language": "ko"
+    },
+    {
+      "name": "かみなり",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": null,
+      "pp": null,
+      "effect_chance": 10,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "gold-silver"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "electric"
+  }
+}

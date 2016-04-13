@@ -1,1 +1,109 @@
-{"id":19,"name":"fly","accuracy":95,"effect_chance":null,"pp":15,"priority":0,"power":90,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, []{move:gust}, []{move:hurricane}, []{move:sky-uppercut}, []{move:smack-down}, []{move:thunder}, []{move:twister}, and []{move:whirlwind} still hit the user normally.  []{move:gust} and []{move:twister} also have double power against the user.\n\nThe damage from []{move:hail} and []{move:sandstorm} still applies during the immune turn.\n\nThe user may be hit during its immune turn if under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.\n\nThis move cannot be used while []{move:gravity} is in effect.\n\nThis move cannot be selected by []{move:sleep-talk}.","short_effect":"User flies high into the air, dodging all attacks, and hits next turn.","language":"en"}],"effect_changes":[{"version_group":{"name":"gold-silver"},"effect_entries":[{"effect":"[]{move:swift} can hit the user while in the air, and no other moves can.  Due to a bug, if the user fails to carry out the move's second turn, e.g. due to [paralysis]{mechanic:paralysis}, it remains in the air until it switches out or uses Fly again successfully.  It can act as if it were on the ground in the meantime, but moves still miss it.","language":"en"}]}],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Fly","language":"en"},{"name":"Volo","language":"it"},{"name":"Vuelo","language":"es"},{"name":"Fliegen","language":"de"},{"name":"Vol","language":"fr"},{"name":"공중날기","language":"ko"},{"name":"そらをとぶ","language":"ja"}],"past_values":[{"accuracy":null,"power":70,"pp":null,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"diamond-pearl"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"flying"}}
+{
+  "id": 19,
+  "name": "fly",
+  "accuracy": 95,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": 90,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User flies high into the air for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, []{move:gust}, []{move:hurricane}, []{move:sky-uppercut}, []{move:smack-down}, []{move:thunder}, []{move:twister}, and []{move:whirlwind} still hit the user normally.  []{move:gust} and []{move:twister} also have double power against the user.\n\nThe damage from []{move:hail} and []{move:sandstorm} still applies during the immune turn.\n\nThe user may be hit during its immune turn if under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.\n\nThis move cannot be used while []{move:gravity} is in effect.\n\nThis move cannot be selected by []{move:sleep-talk}.",
+      "short_effect": "User flies high into the air, dodging all attacks, and hits next turn.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "gold-silver"
+      },
+      "effect_entries": [
+        {
+          "effect": "[]{move:swift} can hit the user while in the air, and no other moves can.  Due to a bug, if the user fails to carry out the move's second turn, e.g. due to [paralysis]{mechanic:paralysis}, it remains in the air until it switches out or uses Fly again successfully.  It can act as if it were on the ground in the meantime, but moves still miss it.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Fly",
+      "language": "en"
+    },
+    {
+      "name": "Volo",
+      "language": "it"
+    },
+    {
+      "name": "Vuelo",
+      "language": "es"
+    },
+    {
+      "name": "Fliegen",
+      "language": "de"
+    },
+    {
+      "name": "Vol",
+      "language": "fr"
+    },
+    {
+      "name": "공중날기",
+      "language": "ko"
+    },
+    {
+      "name": "そらをとぶ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": 70,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "diamond-pearl"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "flying"
+  }
+}

@@ -1,1 +1,322 @@
-{"id":110,"name":"oval-stone","cost":2100,"fling_power":80,"fling_effect":null,"attributes":[{"name":"underground"}],"category":{"name":"evolution"},"effect_entries":[{"effect":"Held by []{pokemon:happiny}\n:   Holder evolves into []{pokemon:chansey} when it levels up during the daytime.","short_effect":"Level-up during Day on a Happiny: Holder evolves into Chansey.","language":"en"}],"flavor_text_entries":[{"text":"ある　特定の　ポケモンを\n進化させる　不思議な　石。\nたまのように　まるい。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A peculiar stone that can make\ncertain species of Pokémon evolve.\nIt’s as round as a Pokémon Egg.","version_group":{"name":"x-y"},"language":"en"},{"text":"Pietra particolare che fa evolvere determinate\nspecie di Pokémon. È a forma di uovo.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una piedra peculiar que hace evolucionar a\nalgunos Pokémon. Tiene forma de huevo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Dieser besondere, eiförmige Stein hilft\nmanchen Pokémon bei ihrer Evolution.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une pierre étrange qui fait évoluer certaines\nespèces de Pokémon. Elle a la forme d’un œuf.","version_group":{"name":"x-y"},"language":"fr"},{"text":"어느 특정 포켓몬을\n진화시키는 이상한 돌.\n구슬처럼 둥글다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ある　とくていの　ポケモンを\nしんかさせる　ふしぎな　いし。\nたまのように　まるい。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.","version_group":{"name":"black-white"},"language":"en"},{"text":"Pierre étrange qui fait évoluer\ncertaines espèces de Pokémon.\nElle a la forme d’un œuf.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.","version_group":{"name":"platinum"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":110,"generation":{"name":"generation-vi"}},{"game_index":110,"generation":{"name":"generation-v"}},{"game_index":110,"generation":{"name":"generation-iv"}}],"names":[{"name":"Oval Stone","language":"en"},{"name":"Pietraovale","language":"it"},{"name":"Piedra Oval","language":"es"},{"name":"Ovaler Stein","language":"de"},{"name":"Pierre Ovale","language":"fr"},{"name":"동글동글돌","language":"ko"},{"name":"まんまるいし","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"chansey"},"version_details":[{"rarity":50,"version":{"name":"soulsilver"}},{"rarity":50,"version":{"name":"heartgold"}},{"rarity":50,"version":{"name":"platinum"}},{"rarity":50,"version":{"name":"pearl"}},{"rarity":50,"version":{"name":"diamond"}}]},{"pokemon":{"name":"blissey"},"version_details":[{"rarity":50,"version":{"name":"soulsilver"}},{"rarity":50,"version":{"name":"heartgold"}},{"rarity":50,"version":{"name":"platinum"}},{"rarity":50,"version":{"name":"pearl"}},{"rarity":50,"version":{"name":"diamond"}}]},{"pokemon":{"name":"happiny"},"version_details":[{"rarity":50,"version":{"name":"y"}},{"rarity":50,"version":{"name":"x"}},{"rarity":50,"version":{"name":"white-2"}},{"rarity":50,"version":{"name":"black-2"}},{"rarity":50,"version":{"name":"white"}},{"rarity":50,"version":{"name":"black"}},{"rarity":50,"version":{"name":"soulsilver"}},{"rarity":50,"version":{"name":"heartgold"}},{"rarity":50,"version":{"name":"platinum"}},{"rarity":50,"version":{"name":"pearl"}},{"rarity":50,"version":{"name":"diamond"}}]}],"baby_trigger_for":null}
+{
+  "id": 110,
+  "name": "oval-stone",
+  "cost": 2100,
+  "fling_power": 80,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "underground"
+    }
+  ],
+  "category": {
+    "name": "evolution"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by []{pokemon:happiny}\n:   Holder evolves into []{pokemon:chansey} when it levels up during the daytime.",
+      "short_effect": "Level-up during Day on a Happiny: Holder evolves into Chansey.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ある　特定の　ポケモンを\n進化させる　不思議な　石。\nたまのように　まるい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A peculiar stone that can make\ncertain species of Pokémon evolve.\nIt’s as round as a Pokémon Egg.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pietra particolare che fa evolvere determinate\nspecie di Pokémon. È a forma di uovo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una piedra peculiar que hace evolucionar a\nalgunos Pokémon. Tiene forma de huevo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Dieser besondere, eiförmige Stein hilft\nmanchen Pokémon bei ihrer Evolution.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une pierre étrange qui fait évoluer certaines\nespèces de Pokémon. Elle a la forme d’un œuf.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "어느 특정 포켓몬을\n진화시키는 이상한 돌.\n구슬처럼 둥글다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ある　とくていの　ポケモンを\nしんかさせる　ふしぎな　いし。\nたまのように　まるい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pierre étrange qui fait évoluer\ncertaines espèces de Pokémon.\nElle a la forme d’un œuf.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 110,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 110,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 110,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Oval Stone",
+      "language": "en"
+    },
+    {
+      "name": "Pietraovale",
+      "language": "it"
+    },
+    {
+      "name": "Piedra Oval",
+      "language": "es"
+    },
+    {
+      "name": "Ovaler Stein",
+      "language": "de"
+    },
+    {
+      "name": "Pierre Ovale",
+      "language": "fr"
+    },
+    {
+      "name": "동글동글돌",
+      "language": "ko"
+    },
+    {
+      "name": "まんまるいし",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "chansey"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "blissey"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "happiny"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "diamond"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

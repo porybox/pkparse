@@ -1,1 +1,85 @@
-{"id":314,"name":"air-cutter","accuracy":95,"effect_chance":null,"pp":25,"priority":0,"power":60,"contest_combos":null,"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.","short_effect":"Has an increased chance for a critical hit.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":1,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Air Cutter","language":"en"},{"name":"Aerasoio","language":"it"},{"name":"Aire Afilado","language":"es"},{"name":"Windschnitt","language":"de"},{"name":"Tranch'Air","language":"fr"},{"name":"에어컷터","language":"ko"},{"name":"エアカッター","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"all-opponents"},"type":{"name":"flying"}}
+{
+  "id": 314,
+  "name": "air-cutter",
+  "accuracy": 95,
+  "effect_chance": null,
+  "pp": 25,
+  "priority": 0,
+  "power": 60,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.",
+      "short_effect": "Has an increased chance for a critical hit.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 1,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Air Cutter",
+      "language": "en"
+    },
+    {
+      "name": "Aerasoio",
+      "language": "it"
+    },
+    {
+      "name": "Aire Afilado",
+      "language": "es"
+    },
+    {
+      "name": "Windschnitt",
+      "language": "de"
+    },
+    {
+      "name": "Tranch'Air",
+      "language": "fr"
+    },
+    {
+      "name": "에어컷터",
+      "language": "ko"
+    },
+    {
+      "name": "エアカッター",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "all-opponents"
+  },
+  "type": {
+    "name": "flying"
+  }
+}

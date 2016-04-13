@@ -1,1 +1,143 @@
-{"id":637,"name":"x-defense-2","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"miracle-shooter"},"effect_entries":[{"effect":"Used on a party Pokémon in battle\n:   Raises the target's [Defense]{mechanic:defense} by two [stages]{mechanic:stage}.\nThis item can only be obtained or used via the Wonder Launcher.","short_effect":"Raises [Defense]{mechanic:defense} by two [stages]{mechanic:stage} in battle.  Wonder Launcher only.","language":"en"}],"flavor_text_entries":[{"text":"戦闘中の　ポケモンの\n防御を　それなりに　あげる。\nひっこめると　元に　戻る。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"It sharply raises the Defense stat\nof a Pokémon in battle. It wears off\nif the Pokémon is withdrawn.","version_group":{"name":"x-y"},"language":"en"},{"text":"Aumenta molto la Difesa di un Pokémon in\nuna lotta. L’effetto svanisce se il Pokémon\nè sostituito.","version_group":{"name":"x-y"},"language":"it"},{"text":"Aumenta mucho la probabilidad de asestar un\ngolpe crítico. Al cambiar de Pokémon, su efecto\ndesaparece.","version_group":{"name":"x-y"},"language":"es"},{"text":"Hebt den Verteidigungs-Wert eines Pokémon\nim Kampf leicht an. Die Wirkung endet mit dem\nAustausch des Pokémon.","version_group":{"name":"x-y"},"language":"de"},{"text":"Augmente un peu la Défense pendant un combat.\nL’effet s’estompe si le Pokémon se retire.","version_group":{"name":"x-y"},"language":"fr"},{"text":"배틀 중인 포켓몬의 방어를\n그럭저럭 올린다. 포켓몬을 볼에\n넣어버리면 원래대로 되돌아간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"せんとうちゅうの　ポケモンの\nぼうぎょを　それなりに　あげる。\nひっこめると　もとに　もどる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It sharply raises the Defense stat\nof a Pokémon in battle. It wears off\nif the Pokémon is withdrawn.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It sharply raises the Defense stat\nof a Pokémon in battle. It wears off\nif the Pokémon is withdrawn.","version_group":{"name":"black-white"},"language":"en"},{"text":"Monte un peu la Défense pendant\nun combat. L’effet s’estompe\nsi le Pokémon se retire.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":596,"generation":{"name":"generation-vi"}},{"game_index":596,"generation":{"name":"generation-v"}}],"names":[{"name":"X Defense 2","language":"en"},{"name":"Difesa X-2","language":"it"},{"name":"Defensa X 2","language":"es"},{"name":"X-Abwehr2","language":"de"},{"name":"Défense 2","language":"fr"},{"name":"디펜드업2","language":"ko"},{"name":"ディフェンダー２","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 637,
+  "name": "x-defense-2",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "miracle-shooter"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon in battle\n:   Raises the target's [Defense]{mechanic:defense} by two [stages]{mechanic:stage}.\nThis item can only be obtained or used via the Wonder Launcher.",
+      "short_effect": "Raises [Defense]{mechanic:defense} by two [stages]{mechanic:stage} in battle.  Wonder Launcher only.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "戦闘中の　ポケモンの\n防御を　それなりに　あげる。\nひっこめると　元に　戻る。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "It sharply raises the Defense stat\nof a Pokémon in battle. It wears off\nif the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Aumenta molto la Difesa di un Pokémon in\nuna lotta. L’effetto svanisce se il Pokémon\nè sostituito.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Aumenta mucho la probabilidad de asestar un\ngolpe crítico. Al cambiar de Pokémon, su efecto\ndesaparece.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Hebt den Verteidigungs-Wert eines Pokémon\nim Kampf leicht an. Die Wirkung endet mit dem\nAustausch des Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Augmente un peu la Défense pendant un combat.\nL’effet s’estompe si le Pokémon se retire.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "배틀 중인 포켓몬의 방어를\n그럭저럭 올린다. 포켓몬을 볼에\n넣어버리면 원래대로 되돌아간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "せんとうちゅうの　ポケモンの\nぼうぎょを　それなりに　あげる。\nひっこめると　もとに　もどる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It sharply raises the Defense stat\nof a Pokémon in battle. It wears off\nif the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It sharply raises the Defense stat\nof a Pokémon in battle. It wears off\nif the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Monte un peu la Défense pendant\nun combat. L’effet s’estompe\nsi le Pokémon se retire.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 596,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 596,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "X Defense 2",
+      "language": "en"
+    },
+    {
+      "name": "Difesa X-2",
+      "language": "it"
+    },
+    {
+      "name": "Defensa X 2",
+      "language": "es"
+    },
+    {
+      "name": "X-Abwehr2",
+      "language": "de"
+    },
+    {
+      "name": "Défense 2",
+      "language": "fr"
+    },
+    {
+      "name": "디펜드업2",
+      "language": "ko"
+    },
+    {
+      "name": "ディフェンダー２",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

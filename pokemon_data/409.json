@@ -1,1 +1,141 @@
-{"id":409,"name":"rampardos","order":437,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":30,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow-then-very-fast"},"pokedex_numbers":[{"entry_number":37,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":37,"pokedex":{"name":"original-sinnoh"}},{"entry_number":409,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"monster"}],"color":{"name":"blue"},"shape":{"name":"upright"},"evolves_from_species":{"name":"cranidos"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"ラムパルド","language":"ja"},{"name":"Rampard","language":"roomaji"},{"name":"램펄드","language":"ko"},{"name":"戰槌龍","language":"zh"},{"name":"Charkos","language":"fr"},{"name":"Rameidon","language":"de"},{"name":"Rampardos","language":"es"},{"name":"Rampardos","language":"it"},{"name":"Rampardos","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ずつき","language":"ja"},{"genus":"박치기","language":"ko"},{"genus":"Coud'Boule","language":"fr"},{"genus":"Kopfstoß","language":"de"},{"genus":"Cabezazo","language":"es"},{"genus":"Cranioso","language":"it"},{"genus":"Head Butt","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"rampardos"}}],"first_evolution_id":408}
+{
+  "id": 409,
+  "name": "rampardos",
+  "order": 437,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 30,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow-then-very-fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 37,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 37,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 409,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "cranidos"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "ラムパルド",
+      "language": "ja"
+    },
+    {
+      "name": "Rampard",
+      "language": "roomaji"
+    },
+    {
+      "name": "램펄드",
+      "language": "ko"
+    },
+    {
+      "name": "戰槌龍",
+      "language": "zh"
+    },
+    {
+      "name": "Charkos",
+      "language": "fr"
+    },
+    {
+      "name": "Rameidon",
+      "language": "de"
+    },
+    {
+      "name": "Rampardos",
+      "language": "es"
+    },
+    {
+      "name": "Rampardos",
+      "language": "it"
+    },
+    {
+      "name": "Rampardos",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ずつき",
+      "language": "ja"
+    },
+    {
+      "genus": "박치기",
+      "language": "ko"
+    },
+    {
+      "genus": "Coud'Boule",
+      "language": "fr"
+    },
+    {
+      "genus": "Kopfstoß",
+      "language": "de"
+    },
+    {
+      "genus": "Cabezazo",
+      "language": "es"
+    },
+    {
+      "genus": "Cranioso",
+      "language": "it"
+    },
+    {
+      "genus": "Head Butt",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "rampardos"
+      }
+    }
+  ],
+  "first_evolution_id": 408
+}

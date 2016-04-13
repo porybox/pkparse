@@ -1,1 +1,110 @@
-{"id":744,"name":"tmv-pass","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[],"flavor_text_entries":[{"text":"ミアレシティと　キナンシティを\n結ぶ　超高速鉄道に\nいつでも　乗れる　チケット。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A commuter pass that allows the\nholder to ride the TMV between Lumiose\nCity and Kiloude City at any time.","version_group":{"name":"x-y"},"language":"en"},{"text":"Biglietto che permette di salire liberamente\nsul treno a megavelocità che collega\nLuminopoli e Batikopoli.","version_group":{"name":"x-y"},"language":"it"},{"text":"","version_group":{"name":"x-y"},"language":"es"},{"text":"Mit dieser Fahrkarte kannst du jederzeit den\nHochgeschwindigkeitszug nehmen, der zwischen\nIllumina City und Batika City verkehrt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un abonnement à vie à la ligne de TMV qui relie\nIllumis à Batisques.","version_group":{"name":"x-y"},"language":"fr"},{"text":"미르시티와 기남시티를 잇는\n초고속철도를 언제든지\n탈 수 있는 티켓.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ミアレシティと　キナンシティを\nむすぶ　ちょうこうそくてつどうに\nいつでも　のれる　チケット。","version_group":{"name":"x-y"},"language":"ja"}],"game_indices":[{"game_index":701,"generation":{"name":"generation-vi"}}],"names":[{"name":"TMV Pass","language":"en"},{"name":"Pass TMV","language":"it"},{"name":"Abono del TMV","language":"es"},{"name":"TMV-Pass","language":"de"},{"name":"Passe TMV","language":"fr"},{"name":"TMV패스","language":"ko"},{"name":"ＴＭＶパス","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 744,
+  "name": "tmv-pass",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [],
+  "flavor_text_entries": [
+    {
+      "text": "ミアレシティと　キナンシティを\n結ぶ　超高速鉄道に\nいつでも　乗れる　チケット。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A commuter pass that allows the\nholder to ride the TMV between Lumiose\nCity and Kiloude City at any time.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Biglietto che permette di salire liberamente\nsul treno a megavelocità che collega\nLuminopoli e Batikopoli.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Mit dieser Fahrkarte kannst du jederzeit den\nHochgeschwindigkeitszug nehmen, der zwischen\nIllumina City und Batika City verkehrt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un abonnement à vie à la ligne de TMV qui relie\nIllumis à Batisques.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "미르시티와 기남시티를 잇는\n초고속철도를 언제든지\n탈 수 있는 티켓.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ミアレシティと　キナンシティを\nむすぶ　ちょうこうそくてつどうに\nいつでも　のれる　チケット。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 701,
+      "generation": {
+        "name": "generation-vi"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TMV Pass",
+      "language": "en"
+    },
+    {
+      "name": "Pass TMV",
+      "language": "it"
+    },
+    {
+      "name": "Abono del TMV",
+      "language": "es"
+    },
+    {
+      "name": "TMV-Pass",
+      "language": "de"
+    },
+    {
+      "name": "Passe TMV",
+      "language": "fr"
+    },
+    {
+      "name": "TMV패스",
+      "language": "ko"
+    },
+    {
+      "name": "ＴＭＶパス",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,85 @@
-{"id":452,"name":"wood-hammer","accuracy":100,"effect_chance":null,"pp":15,"priority":0,"power":120,"contest_combos":null,"contest_type":{"name":"tough"},"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/3 the damage it inflicts in recoil.","short_effect":"User receives 1/3 the damage inflicted in recoil.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":-33,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Wood Hammer","language":"en"},{"name":"Mazzuolegno","language":"it"},{"name":"Mazazo","language":"es"},{"name":"Holzhammer","language":"de"},{"name":"Martobois","language":"fr"},{"name":"우드해머","language":"ko"},{"name":"ウッドハンマー","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"grass"}}
+{
+  "id": 452,
+  "name": "wood-hammer",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": 120,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/3 the damage it inflicts in recoil.",
+      "short_effect": "User receives 1/3 the damage inflicted in recoil.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": -33,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Wood Hammer",
+      "language": "en"
+    },
+    {
+      "name": "Mazzuolegno",
+      "language": "it"
+    },
+    {
+      "name": "Mazazo",
+      "language": "es"
+    },
+    {
+      "name": "Holzhammer",
+      "language": "de"
+    },
+    {
+      "name": "Martobois",
+      "language": "fr"
+    },
+    {
+      "name": "우드해머",
+      "language": "ko"
+    },
+    {
+      "name": "ウッドハンマー",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "grass"
+  }
+}

@@ -1,1 +1,146 @@
-{"id":271,"name":"lombre","order":296,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":56,"pokedex":{"name":"kalos-mountain"}},{"entry_number":20,"pokedex":{"name":"hoenn"}},{"entry_number":271,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"plant"},{"name":"water1"}],"color":{"name":"green"},"shape":{"name":"humanoid"},"evolves_from_species":{"name":"lotad"},"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-iii"},"names":[{"name":"ハスブレロ","language":"ja"},{"name":"Hasubrero","language":"roomaji"},{"name":"로토스","language":"ko"},{"name":"蓮帽小童","language":"zh"},{"name":"Lombre","language":"fr"},{"name":"Lombrero","language":"de"},{"name":"Lombre","language":"es"},{"name":"Lombre","language":"it"},{"name":"Lombre","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"pond"}}],"form_descriptions":[],"genera":[{"genus":"ようき","language":"ja"},{"genus":"명랑함","language":"ko"},{"genus":"Jovial","language":"fr"},{"genus":"Frohmut","language":"de"},{"genus":"Alegre","language":"es"},{"genus":"Giocoso","language":"it"},{"genus":"Jolly","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"lombre"}}],"first_evolution_id":270}
+{
+  "id": 271,
+  "name": "lombre",
+  "order": 296,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 56,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 20,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 271,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "plant"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": {
+    "name": "lotad"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ハスブレロ",
+      "language": "ja"
+    },
+    {
+      "name": "Hasubrero",
+      "language": "roomaji"
+    },
+    {
+      "name": "로토스",
+      "language": "ko"
+    },
+    {
+      "name": "蓮帽小童",
+      "language": "zh"
+    },
+    {
+      "name": "Lombre",
+      "language": "fr"
+    },
+    {
+      "name": "Lombrero",
+      "language": "de"
+    },
+    {
+      "name": "Lombre",
+      "language": "es"
+    },
+    {
+      "name": "Lombre",
+      "language": "it"
+    },
+    {
+      "name": "Lombre",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "pond"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ようき",
+      "language": "ja"
+    },
+    {
+      "genus": "명랑함",
+      "language": "ko"
+    },
+    {
+      "genus": "Jovial",
+      "language": "fr"
+    },
+    {
+      "genus": "Frohmut",
+      "language": "de"
+    },
+    {
+      "genus": "Alegre",
+      "language": "es"
+    },
+    {
+      "genus": "Giocoso",
+      "language": "it"
+    },
+    {
+      "genus": "Jolly",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "lombre"
+      }
+    }
+  ],
+  "first_evolution_id": 270
+}

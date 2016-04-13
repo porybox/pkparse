@@ -1,1 +1,170 @@
-{"id":298,"name":"protector","cost":2100,"fling_power":80,"fling_effect":null,"attributes":[],"category":{"name":"evolution"},"effect_entries":[{"effect":"Held by Rhydon: Evolves the holder into Rhyperior when traded.","short_effect":"Traded on a Rhydon: Holder evolves into Rhyperior.","language":"en"}],"flavor_text_entries":[{"text":"なにかの　プロテクター。\nとても　硬くて　重い。\nある　ポケモンが　好んでいる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A protective item of some sort.\nIt is extremely stiff and heavy.\nIt’s loved by a certain Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento protettivo, molto duro e pesante,\nprediletto da un Pokémon in particolare.","version_group":{"name":"x-y"},"language":"it"},{"text":"Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein schützendes Item. Steif und schwer.\nDas Lieblingsstück eines bestimmten Pokémon.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un objet protecteur très dur et très lourd,\napprécié d’un certain Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"무언가의 프로텍터.\n매우 단단하고 무겁다.\n어떤 포켓몬이 좋아하는 물건이다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"なにかの　プロテクター。\nとても　かたくて　おもい。\nある　ポケモンが　このんでいる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A protective item of some sort.\nIt is extremely stiff and heavy.\nIt is loved by a certain Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A protective item of some sort.\nIt is extremely stiff and heavy.\nIt is loved by a certain Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet protecteur très dur et très\nlourd, apprécié d’un certain Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A protective item of some sort.\nIt is extremely stiff and heavy.\nIt is loved by a certain Pokémon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A protective item of some sort.\nIt is extremely stiff and heavy.\nIt is loved by a certain Pokémon.","version_group":{"name":"platinum"},"language":"en"},{"text":"A protective item of some sort.\nIt is extremely stiff and heavy.\nIt is loved by a certain Pokémon.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":321,"generation":{"name":"generation-vi"}},{"game_index":321,"generation":{"name":"generation-v"}},{"game_index":321,"generation":{"name":"generation-iv"}}],"names":[{"name":"Protector","language":"en"},{"name":"Copertura","language":"it"},{"name":"Protector","language":"es"},{"name":"Schützer","language":"de"},{"name":"Protecteur","language":"fr"},{"name":"프로텍터","language":"ko"},{"name":"プロテクター","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 298,
+  "name": "protector",
+  "cost": 2100,
+  "fling_power": 80,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "evolution"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by Rhydon: Evolves the holder into Rhyperior when traded.",
+      "short_effect": "Traded on a Rhydon: Holder evolves into Rhyperior.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "なにかの　プロテクター。\nとても　硬くて　重い。\nある　ポケモンが　好んでいる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A protective item of some sort.\nIt is extremely stiff and heavy.\nIt’s loved by a certain Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento protettivo, molto duro e pesante,\nprediletto da un Pokémon in particolare.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein schützendes Item. Steif und schwer.\nDas Lieblingsstück eines bestimmten Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un objet protecteur très dur et très lourd,\napprécié d’un certain Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "무언가의 프로텍터.\n매우 단단하고 무겁다.\n어떤 포켓몬이 좋아하는 물건이다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "なにかの　プロテクター。\nとても　かたくて　おもい。\nある　ポケモンが　このんでいる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A protective item of some sort.\nIt is extremely stiff and heavy.\nIt is loved by a certain Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A protective item of some sort.\nIt is extremely stiff and heavy.\nIt is loved by a certain Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet protecteur très dur et très\nlourd, apprécié d’un certain Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A protective item of some sort.\nIt is extremely stiff and heavy.\nIt is loved by a certain Pokémon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A protective item of some sort.\nIt is extremely stiff and heavy.\nIt is loved by a certain Pokémon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A protective item of some sort.\nIt is extremely stiff and heavy.\nIt is loved by a certain Pokémon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 321,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 321,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 321,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Protector",
+      "language": "en"
+    },
+    {
+      "name": "Copertura",
+      "language": "it"
+    },
+    {
+      "name": "Protector",
+      "language": "es"
+    },
+    {
+      "name": "Schützer",
+      "language": "de"
+    },
+    {
+      "name": "Protecteur",
+      "language": "fr"
+    },
+    {
+      "name": "프로텍터",
+      "language": "ko"
+    },
+    {
+      "name": "プロテクター",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

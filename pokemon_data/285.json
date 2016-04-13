@@ -1,1 +1,138 @@
-{"id":285,"name":"shroomish","order":311,"gender_rate":4,"capture_rate":255,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"fast-then-very-slow"},"pokedex_numbers":[{"entry_number":34,"pokedex":{"name":"hoenn"}},{"entry_number":285,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"plant"},{"name":"fairy"}],"color":{"name":"brown"},"shape":{"name":"legs"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-iii"},"names":[{"name":"キノココ","language":"ja"},{"name":"Kinococo","language":"roomaji"},{"name":"버섯꼬","language":"ko"},{"name":"蘑蘑菇","language":"zh"},{"name":"Balignon","language":"fr"},{"name":"Knilz","language":"de"},{"name":"Shroomish","language":"es"},{"name":"Shroomish","language":"it"},{"name":"Shroomish","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"きのこ","language":"ja"},{"genus":"버섯","language":"ko"},{"genus":"Champignon","language":"fr"},{"genus":"Pilz","language":"de"},{"genus":"Hongo","language":"es"},{"genus":"Fungo","language":"it"},{"genus":"Mushroom","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"shroomish"}}],"first_evolution_id":285}
+{
+  "id": 285,
+  "name": "shroomish",
+  "order": 311,
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "fast-then-very-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 34,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 285,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "plant"
+    },
+    {
+      "name": "fairy"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "legs"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "キノココ",
+      "language": "ja"
+    },
+    {
+      "name": "Kinococo",
+      "language": "roomaji"
+    },
+    {
+      "name": "버섯꼬",
+      "language": "ko"
+    },
+    {
+      "name": "蘑蘑菇",
+      "language": "zh"
+    },
+    {
+      "name": "Balignon",
+      "language": "fr"
+    },
+    {
+      "name": "Knilz",
+      "language": "de"
+    },
+    {
+      "name": "Shroomish",
+      "language": "es"
+    },
+    {
+      "name": "Shroomish",
+      "language": "it"
+    },
+    {
+      "name": "Shroomish",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "きのこ",
+      "language": "ja"
+    },
+    {
+      "genus": "버섯",
+      "language": "ko"
+    },
+    {
+      "genus": "Champignon",
+      "language": "fr"
+    },
+    {
+      "genus": "Pilz",
+      "language": "de"
+    },
+    {
+      "genus": "Hongo",
+      "language": "es"
+    },
+    {
+      "genus": "Fungo",
+      "language": "it"
+    },
+    {
+      "genus": "Mushroom",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "shroomish"
+      }
+    }
+  ],
+  "first_evolution_id": 285
+}

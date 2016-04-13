@@ -1,1 +1,143 @@
-{"id":291,"name":"ninjask","order":317,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow-then-very-fast"},"pokedex_numbers":[{"entry_number":112,"pokedex":{"name":"kalos-central"}},{"entry_number":43,"pokedex":{"name":"hoenn"}},{"entry_number":291,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"yellow"},"shape":{"name":"bug-wings"},"evolves_from_species":{"name":"nincada"},"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-iii"},"names":[{"name":"テッカニン","language":"ja"},{"name":"Tekkanin","language":"roomaji"},{"name":"아이스크","language":"ko"},{"name":"鐵面忍者","language":"zh"},{"name":"Ninjask","language":"fr"},{"name":"Ninjask","language":"de"},{"name":"Ninjask","language":"es"},{"name":"Ninjask","language":"it"},{"name":"Ninjask","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"しのび","language":"ja"},{"genus":"시노비","language":"ko"},{"genus":"Ninja","language":"fr"},{"genus":"Ninja","language":"de"},{"genus":"Ninja","language":"es"},{"genus":"Ninja","language":"it"},{"genus":"Ninja","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"ninjask"}}],"first_evolution_id":290}
+{
+  "id": 291,
+  "name": "ninjask",
+  "order": 317,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow-then-very-fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 112,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 43,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 291,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "yellow"
+  },
+  "shape": {
+    "name": "bug-wings"
+  },
+  "evolves_from_species": {
+    "name": "nincada"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "テッカニン",
+      "language": "ja"
+    },
+    {
+      "name": "Tekkanin",
+      "language": "roomaji"
+    },
+    {
+      "name": "아이스크",
+      "language": "ko"
+    },
+    {
+      "name": "鐵面忍者",
+      "language": "zh"
+    },
+    {
+      "name": "Ninjask",
+      "language": "fr"
+    },
+    {
+      "name": "Ninjask",
+      "language": "de"
+    },
+    {
+      "name": "Ninjask",
+      "language": "es"
+    },
+    {
+      "name": "Ninjask",
+      "language": "it"
+    },
+    {
+      "name": "Ninjask",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "しのび",
+      "language": "ja"
+    },
+    {
+      "genus": "시노비",
+      "language": "ko"
+    },
+    {
+      "genus": "Ninja",
+      "language": "fr"
+    },
+    {
+      "genus": "Ninja",
+      "language": "de"
+    },
+    {
+      "genus": "Ninja",
+      "language": "es"
+    },
+    {
+      "genus": "Ninja",
+      "language": "it"
+    },
+    {
+      "genus": "Ninja",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "ninjask"
+      }
+    }
+  ],
+  "first_evolution_id": 290
+}

@@ -1,1 +1,177 @@
-{"id":253,"name":"zoom-lens","cost":200,"fling_power":10,"fling_effect":null,"attributes":[{"name":"holdable"},{"name":"holdable-active"}],"category":{"name":"held-items"},"effect_entries":[{"effect":"Held: Raises the holder's Accuracy by 20% when it goes last.\nIngame description is incorrect.","short_effect":"Held: Provides a 1/5 (20%) boost in accuracy if the holder moves after the target.","language":"en"}],"flavor_text_entries":[{"text":"持たせた　ポケモンが　相手よりも\n行動するのが　遅いとき\n技が　命中しやすくなる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nIf the holder moves after its target\nmoves, its accuracy will be boosted.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a un Pokémon.\nSe chi ce l’ha attacca dopo il nemico,\nla sua precisione aumenta.","version_group":{"name":"x-y"},"language":"it"},{"text":"Potencia la Velocidad de base, pero reduce la\nVelocidad en combate. Debe llevarla un\nPokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item zum Tragen. Agiert das Ziel zuerst,\nerhöht sich die Genauigkeit des Trägers.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à tenir. Augmente la Précision du porteur\ns’il attaque après l’ennemi.","version_group":{"name":"x-y"},"language":"fr"},{"text":"지니게 한 포켓몬이 상대보다도\n행동하는 것이 늦을 때\n기술이 명중하기 쉬워진다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"もたせた　ポケモンが　あいてよりも\nこうどうするのが　おそいとき\nわざが　めいちゅう　しやすくなる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by a Pokémon.\nIf the holder moves after its\ntarget, its accuracy will be boosted.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIf the holder moves after its\ntarget, its accuracy will be boosted.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à tenir. Augmente la Précision\ndu porteur s’il attaque après l’ennemi.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by a Pokémon.\nIf the holder moves after the foe, its\naccuracy will be boosted.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIf the holder moves after the foe, its\naccuracy will be boosted.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIf the holder moves after the foe, its\ncritical-hit ratio will be boosted.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":276,"generation":{"name":"generation-vi"}},{"game_index":276,"generation":{"name":"generation-v"}},{"game_index":276,"generation":{"name":"generation-iv"}}],"names":[{"name":"Zoom Lens","language":"en"},{"name":"Zoomlente","language":"it"},{"name":"Telescopio","language":"es"},{"name":"Zoomlinse","language":"de"},{"name":"Lentille Zoom","language":"fr"},{"name":"포커스렌즈","language":"ko"},{"name":"フォーカスレンズ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 253,
+  "name": "zoom-lens",
+  "cost": 200,
+  "fling_power": 10,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "category": {
+    "name": "held-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held: Raises the holder's Accuracy by 20% when it goes last.\nIngame description is incorrect.",
+      "short_effect": "Held: Provides a 1/5 (20%) boost in accuracy if the holder moves after the target.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "持たせた　ポケモンが　相手よりも\n行動するのが　遅いとき\n技が　命中しやすくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIf the holder moves after its target\nmoves, its accuracy will be boosted.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nSe chi ce l’ha attacca dopo il nemico,\nla sua precisione aumenta.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Potencia la Velocidad de base, pero reduce la\nVelocidad en combate. Debe llevarla un\nPokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Agiert das Ziel zuerst,\nerhöht sich die Genauigkeit des Trägers.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Augmente la Précision du porteur\ns’il attaque après l’ennemi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "지니게 한 포켓몬이 상대보다도\n행동하는 것이 늦을 때\n기술이 명중하기 쉬워진다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "もたせた　ポケモンが　あいてよりも\nこうどうするのが　おそいとき\nわざが　めいちゅう　しやすくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIf the holder moves after its\ntarget, its accuracy will be boosted.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIf the holder moves after its\ntarget, its accuracy will be boosted.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir. Augmente la Précision\ndu porteur s’il attaque après l’ennemi.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIf the holder moves after the foe, its\naccuracy will be boosted.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIf the holder moves after the foe, its\naccuracy will be boosted.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIf the holder moves after the foe, its\ncritical-hit ratio will be boosted.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 276,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 276,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 276,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Zoom Lens",
+      "language": "en"
+    },
+    {
+      "name": "Zoomlente",
+      "language": "it"
+    },
+    {
+      "name": "Telescopio",
+      "language": "es"
+    },
+    {
+      "name": "Zoomlinse",
+      "language": "de"
+    },
+    {
+      "name": "Lentille Zoom",
+      "language": "fr"
+    },
+    {
+      "name": "포커스렌즈",
+      "language": "ko"
+    },
+    {
+      "name": "フォーカスレンズ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,83 @@
-{"id":533,"name":"sacred-sword","accuracy":100,"effect_chance":null,"pp":15,"priority":0,"power":90,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Damage calculation ignores the target's [stat modifiers]{mechanic:stat-modifiers}, including [evasion]{mechanic:evasion}.","short_effect":"Ignores the target's stat modifiers.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Sacred Sword","language":"en"},{"name":"Spadasolenne","language":"it"},{"name":"Espada Santa","language":"es"},{"name":"Sanctoklinge","language":"de"},{"name":"Lame Sainte","language":"fr"},{"name":"성스러운칼","language":"ko"},{"name":"せいなるつるぎ","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"fighting"}}
+{
+  "id": 533,
+  "name": "sacred-sword",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 15,
+  "priority": 0,
+  "power": 90,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Damage calculation ignores the target's [stat modifiers]{mechanic:stat-modifiers}, including [evasion]{mechanic:evasion}.",
+      "short_effect": "Ignores the target's stat modifiers.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Sacred Sword",
+      "language": "en"
+    },
+    {
+      "name": "Spadasolenne",
+      "language": "it"
+    },
+    {
+      "name": "Espada Santa",
+      "language": "es"
+    },
+    {
+      "name": "Sanctoklinge",
+      "language": "de"
+    },
+    {
+      "name": "Lame Sainte",
+      "language": "fr"
+    },
+    {
+      "name": "성스러운칼",
+      "language": "ko"
+    },
+    {
+      "name": "せいなるつるぎ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "fighting"
+  }
+}

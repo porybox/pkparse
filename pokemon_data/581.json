@@ -1,1 +1,134 @@
-{"id":581,"name":"swanna","order":582,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":128,"pokedex":{"name":"kalos-central"}},{"entry_number":154,"pokedex":{"name":"updated-unova"}},{"entry_number":87,"pokedex":{"name":"original-unova"}},{"entry_number":581,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"flying"},{"name":"water1"}],"color":{"name":"white"},"shape":{"name":"wings"},"evolves_from_species":{"name":"ducklett"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-v"},"names":[{"name":"スワンナ","language":"ja"},{"name":"스완나","language":"ko"},{"name":"Lakmécygne","language":"fr"},{"name":"Swaroness","language":"de"},{"name":"Swanna","language":"es"},{"name":"Swanna","language":"it"},{"name":"Swanna","language":"en"}],"pal_park_encounters":[],"form_descriptions":[],"genera":[{"genus":"しらとり","language":"ja"},{"genus":"백조","language":"ko"},{"genus":"Cygne","language":"fr"},{"genus":"Schwan","language":"de"},{"genus":"Cisne","language":"es"},{"genus":"Biancuccello","language":"it"},{"genus":"White Bird","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"swanna"}}],"first_evolution_id":580}
+{
+  "id": 581,
+  "name": "swanna",
+  "order": 582,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 128,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 154,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 87,
+      "pokedex": {
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 581,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "flying"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "white"
+  },
+  "shape": {
+    "name": "wings"
+  },
+  "evolves_from_species": {
+    "name": "ducklett"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "スワンナ",
+      "language": "ja"
+    },
+    {
+      "name": "스완나",
+      "language": "ko"
+    },
+    {
+      "name": "Lakmécygne",
+      "language": "fr"
+    },
+    {
+      "name": "Swaroness",
+      "language": "de"
+    },
+    {
+      "name": "Swanna",
+      "language": "es"
+    },
+    {
+      "name": "Swanna",
+      "language": "it"
+    },
+    {
+      "name": "Swanna",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "しらとり",
+      "language": "ja"
+    },
+    {
+      "genus": "백조",
+      "language": "ko"
+    },
+    {
+      "genus": "Cygne",
+      "language": "fr"
+    },
+    {
+      "genus": "Schwan",
+      "language": "de"
+    },
+    {
+      "genus": "Cisne",
+      "language": "es"
+    },
+    {
+      "genus": "Biancuccello",
+      "language": "it"
+    },
+    {
+      "genus": "White Bird",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "swanna"
+      }
+    }
+  ],
+  "first_evolution_id": 580
+}

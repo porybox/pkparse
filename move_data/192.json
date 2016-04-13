@@ -1,1 +1,113 @@
-{"id":192,"name":"zap-cannon","accuracy":50,"effect_chance":100,"pp":5,"priority":0,"power":120,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"lock-on"},{"name":"charge"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.","short_effect":"Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"paralysis"},"category":{"name":"damage+ailment"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":100,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Zap Cannon","language":"en"},{"name":"Falcecannone","language":"it"},{"name":"Electrocañón","language":"es"},{"name":"Blitzkanone","language":"de"},{"name":"Élecanon","language":"fr"},{"name":"전자포","language":"ko"},{"name":"でんじほう","language":"ja"}],"past_values":[{"accuracy":null,"power":100,"pp":null,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"diamond-pearl"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"electric"}}
+{
+  "id": 192,
+  "name": "zap-cannon",
+  "accuracy": 50,
+  "effect_chance": 100,
+  "pp": 5,
+  "priority": 0,
+  "power": 120,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "lock-on"
+        },
+        {
+          "name": "charge"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.",
+      "short_effect": "Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "paralysis"
+    },
+    "category": {
+      "name": "damage+ailment"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 100,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Zap Cannon",
+      "language": "en"
+    },
+    {
+      "name": "Falcecannone",
+      "language": "it"
+    },
+    {
+      "name": "Electrocañón",
+      "language": "es"
+    },
+    {
+      "name": "Blitzkanone",
+      "language": "de"
+    },
+    {
+      "name": "Élecanon",
+      "language": "fr"
+    },
+    {
+      "name": "전자포",
+      "language": "ko"
+    },
+    {
+      "name": "でんじほう",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": 100,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "diamond-pearl"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "electric"
+  }
+}

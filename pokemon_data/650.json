@@ -1,1 +1,117 @@
-{"id":650,"name":"chespin","order":651,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":1,"pokedex":{"name":"kalos-central"}},{"entry_number":650,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"green"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-vi"},"names":[{"name":"ハリマロン","language":"ja"},{"name":"도치마론","language":"ko"},{"name":"Marisson","language":"fr"},{"name":"Igamaro","language":"de"},{"name":"Chespin","language":"es"},{"name":"Chespin","language":"it"},{"name":"Chespin","language":"en"}],"pal_park_encounters":[],"form_descriptions":[],"genera":[{"genus":"いがぐり","language":"ja"},{"genus":"밤송이","language":"ko"},{"genus":"Bogue","language":"fr"},{"genus":"Stachelkopf","language":"de"},{"genus":"Erizo","language":"es"},{"genus":"Castanriccio","language":"it"},{"genus":"Spiny Nut","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"chespin"}}],"first_evolution_id":650}
+{
+  "id": 650,
+  "name": "chespin",
+  "order": 651,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 1,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 650,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "ハリマロン",
+      "language": "ja"
+    },
+    {
+      "name": "도치마론",
+      "language": "ko"
+    },
+    {
+      "name": "Marisson",
+      "language": "fr"
+    },
+    {
+      "name": "Igamaro",
+      "language": "de"
+    },
+    {
+      "name": "Chespin",
+      "language": "es"
+    },
+    {
+      "name": "Chespin",
+      "language": "it"
+    },
+    {
+      "name": "Chespin",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "いがぐり",
+      "language": "ja"
+    },
+    {
+      "genus": "밤송이",
+      "language": "ko"
+    },
+    {
+      "genus": "Bogue",
+      "language": "fr"
+    },
+    {
+      "genus": "Stachelkopf",
+      "language": "de"
+    },
+    {
+      "genus": "Erizo",
+      "language": "es"
+    },
+    {
+      "genus": "Castanriccio",
+      "language": "it"
+    },
+    {
+      "genus": "Spiny Nut",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "chespin"
+      }
+    }
+  ],
+  "first_evolution_id": 650
+}

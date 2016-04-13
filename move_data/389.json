@@ -1,1 +1,85 @@
-{"id":389,"name":"sucker-punch","accuracy":100,"effect_chance":null,"pp":5,"priority":1,"power":80,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  If the target has not selected a damaging move this turn, or if the target has already acted this turn, this move will [fail]{mechanic:fail}.\n\nThis move is not affected by []{ability:iron-fist}.","short_effect":"Only works if the target is about to use a damaging move.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Sucker Punch","language":"en"},{"name":"Sbigoattacco","language":"it"},{"name":"Golpe Bajo","language":"es"},{"name":"Tiefschlag","language":"de"},{"name":"Coup Bas","language":"fr"},{"name":"기습","language":"ko"},{"name":"ふいうち","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"dark"}}
+{
+  "id": 389,
+  "name": "sucker-punch",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 5,
+  "priority": 1,
+  "power": 80,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target has not selected a damaging move this turn, or if the target has already acted this turn, this move will [fail]{mechanic:fail}.\n\nThis move is not affected by []{ability:iron-fist}.",
+      "short_effect": "Only works if the target is about to use a damaging move.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Sucker Punch",
+      "language": "en"
+    },
+    {
+      "name": "Sbigoattacco",
+      "language": "it"
+    },
+    {
+      "name": "Golpe Bajo",
+      "language": "es"
+    },
+    {
+      "name": "Tiefschlag",
+      "language": "de"
+    },
+    {
+      "name": "Coup Bas",
+      "language": "fr"
+    },
+    {
+      "name": "기습",
+      "language": "ko"
+    },
+    {
+      "name": "ふいうち",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "dark"
+  }
+}

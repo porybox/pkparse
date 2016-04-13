@@ -1,1 +1,85 @@
-{"id":6,"name":"pay-day","accuracy":100,"effect_chance":null,"pp":20,"priority":0,"power":40,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.","short_effect":"Scatters money on the ground worth five times the user's level.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Pay Day","language":"en"},{"name":"Giornopaga","language":"it"},{"name":"Día de Pago","language":"es"},{"name":"Zahltag","language":"de"},{"name":"Jackpot","language":"fr"},{"name":"고양이돈받기","language":"ko"},{"name":"ネコにこばん","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 6,
+  "name": "pay-day",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": 40,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",
+      "short_effect": "Scatters money on the ground worth five times the user's level.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Pay Day",
+      "language": "en"
+    },
+    {
+      "name": "Giornopaga",
+      "language": "it"
+    },
+    {
+      "name": "Día de Pago",
+      "language": "es"
+    },
+    {
+      "name": "Zahltag",
+      "language": "de"
+    },
+    {
+      "name": "Jackpot",
+      "language": "fr"
+    },
+    {
+      "name": "고양이돈받기",
+      "language": "ko"
+    },
+    {
+      "name": "ネコにこばん",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

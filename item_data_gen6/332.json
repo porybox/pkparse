@@ -1,1 +1,197 @@
-{"id":309,"name":"tm05","cost":1000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Roar to a compatible Pokémon.","short_effect":"Teaches Roar to a compatible Pokémon. (Gen I: Mega Kick)","language":"en"}],"flavor_text_entries":[{"text":"相手を　逃がして\n控えの　ポケモンを　ひきずりだす。\n野生の　場合は　戦闘が　終わる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The target is scared off and a different\nPokémon is dragged out. In the wild,\nthis ends a battle against a single Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Il bersaglio lascia il campo e viene sostituito.\nMette fine alle lotte contro singoli Pokémon\nselvatici.","version_group":{"name":"x-y"},"language":"it"},{"text":"Ataque de dos turnos. En el primer turno se\nconcentra luz, y en el segundo se canaliza en\nun rayo para atacar.","version_group":{"name":"x-y"},"language":"es"},{"text":"Der Brüller schlägt das Ziel in die Flucht. Ein\nKampf gegen ein wildes Pokémon wird beendet.","version_group":{"name":"x-y"},"language":"de"},{"text":"Effraie le Pokémon ennemi et le remplace par\nun autre. Dans la nature, met fin au combat.","version_group":{"name":"x-y"},"language":"fr"},{"text":"상대를 도망가게 해서\n교대할 포켓몬을 끌어낸다.\n야생의 경우에는 배틀이 끝난다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"あいてを　にがして　ひかえポケモンを\nひきずりだす。　やせいポケモンなら\nせんとうは　おわる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The target is scared off and replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The target is scared off and replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.","version_group":{"name":"black-white"},"language":"en"},{"text":"Effraie le Pokémon visé et le\nremplace par un autre. Dans\nla nature, met fin au combat.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The foe is scared off, to be replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The foe is scared off, to be replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.","version_group":{"name":"platinum"},"language":"en"},{"text":"The foe is scared off, to be replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"The foe is made to\nswitch out with an\nally. In the wild,\nthe battle ends.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A savage roar that\nmakes the foe flee \nto end the battle.","version_group":{"name":"emerald"},"language":"en"},{"text":"A savage roar that\nmakes the foe flee \nto end the battle.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":332,"generation":{"name":"generation-vi"}},{"game_index":332,"generation":{"name":"generation-v"}},{"game_index":332,"generation":{"name":"generation-iv"}},{"game_index":293,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM05","language":"en"},{"name":"MT05","language":"it"},{"name":"MT05","language":"es"},{"name":"TM05","language":"de"},{"name":"CT05","language":"fr"},{"name":"기술머신05","language":"ko"},{"name":"わざマシン０５","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 309,
+  "name": "tm05",
+  "cost": 1000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Roar to a compatible Pokémon.",
+      "short_effect": "Teaches Roar to a compatible Pokémon. (Gen I: Mega Kick)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "相手を　逃がして\n控えの　ポケモンを　ひきずりだす。\n野生の　場合は　戦闘が　終わる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The target is scared off and a different\nPokémon is dragged out. In the wild,\nthis ends a battle against a single Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Il bersaglio lascia il campo e viene sostituito.\nMette fine alle lotte contro singoli Pokémon\nselvatici.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Ataque de dos turnos. En el primer turno se\nconcentra luz, y en el segundo se canaliza en\nun rayo para atacar.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Der Brüller schlägt das Ziel in die Flucht. Ein\nKampf gegen ein wildes Pokémon wird beendet.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Effraie le Pokémon ennemi et le remplace par\nun autre. Dans la nature, met fin au combat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "상대를 도망가게 해서\n교대할 포켓몬을 끌어낸다.\n야생의 경우에는 배틀이 끝난다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "あいてを　にがして　ひかえポケモンを\nひきずりだす。　やせいポケモンなら\nせんとうは　おわる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The target is scared off and replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The target is scared off and replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Effraie le Pokémon visé et le\nremplace par un autre. Dans\nla nature, met fin au combat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The foe is scared off, to be replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is scared off, to be replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is scared off, to be replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is made to\nswitch out with an\nally. In the wild,\nthe battle ends.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A savage roar that\nmakes the foe flee \nto end the battle.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A savage roar that\nmakes the foe flee \nto end the battle.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 332,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 332,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 332,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 293,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM05",
+      "language": "en"
+    },
+    {
+      "name": "MT05",
+      "language": "it"
+    },
+    {
+      "name": "MT05",
+      "language": "es"
+    },
+    {
+      "name": "TM05",
+      "language": "de"
+    },
+    {
+      "name": "CT05",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신05",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン０５",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

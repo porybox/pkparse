@@ -1,1 +1,170 @@
-{"id":429,"name":"oaks-letter","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"event-items"},"effect_entries":[{"effect":"Grants access to Flower Paradise and Shaymin.","short_effect":"Allows access to Seabreak path, Flower Paradise, and Shaymin.","language":"en"}],"flavor_text_entries":[{"text":"オーキド博士からの　手紙。\n中には　２２４番道路に\n来てほしいと　書かれている。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A letter from Professor Oak.\nWritten in it is a request for you\nto go to Route 224.","version_group":{"name":"x-y"},"language":"en"},{"text":"Lettera del Prof. Oak con la richiesta di dirigerti\nverso il Percorso 224.","version_group":{"name":"x-y"},"language":"it"},{"text":"Aparato de precisión que reacciona con luz y\nsonido ante los objetos que no se ven indicando\nsu posición.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Brief von Prof. Eich. Er bittet dich,\nzur Route 224 zu gehen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une lettre du Prof. Chen vous demandant de\nvous rendre sur la Route 224.","version_group":{"name":"x-y"},"language":"fr"},{"text":"오박사의 편지다.\n안에는 224번도로로\n와달라고 적혀 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"オーキドはかせ　からの　てがみ。\nなかには　２２４ばんどうろに\nきてほしいと　かかれている。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A letter from Prof. Oak.\nWritten in it is a request for you to\ngo to Rt. 224.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A letter from Prof. Oak.\nWritten in it is a request for you to\ngo to Rt. 224.","version_group":{"name":"black-white"},"language":"en"},{"text":"Lettre du Prof. Chen vous demandant de\nvous rendre sur la Route 224.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A letter from Prof. Oak.\nWritten in it is a request for you to\ngo to Rt. 224.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A letter from Prof. Oak.\nWritten in it is a request for you to\ngo to Rt. 224.","version_group":{"name":"platinum"},"language":"en"},{"text":"A letter from Prof. Oak.\nWritten in it is a request for you to\ngo to Rt. 224.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":452,"generation":{"name":"generation-vi"}},{"game_index":452,"generation":{"name":"generation-v"}},{"game_index":452,"generation":{"name":"generation-iv"}}],"names":[{"name":"Oak's Letter","language":"en"},{"name":"Lettera Oak","language":"it"},{"name":"Carta Prof. Oak","language":"es"},{"name":"Eichs Brief","language":"de"},{"name":"Lettre Chen","language":"fr"},{"name":"오박사의편지","language":"ko"},{"name":"オーキドのてがみ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 429,
+  "name": "oaks-letter",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "event-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Grants access to Flower Paradise and Shaymin.",
+      "short_effect": "Allows access to Seabreak path, Flower Paradise, and Shaymin.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "オーキド博士からの　手紙。\n中には　２２４番道路に\n来てほしいと　書かれている。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A letter from Professor Oak.\nWritten in it is a request for you\nto go to Route 224.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Lettera del Prof. Oak con la richiesta di dirigerti\nverso il Percorso 224.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Aparato de precisión que reacciona con luz y\nsonido ante los objetos que no se ven indicando\nsu posición.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Brief von Prof. Eich. Er bittet dich,\nzur Route 224 zu gehen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une lettre du Prof. Chen vous demandant de\nvous rendre sur la Route 224.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "오박사의 편지다.\n안에는 224번도로로\n와달라고 적혀 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "オーキドはかせ　からの　てがみ。\nなかには　２２４ばんどうろに\nきてほしいと　かかれている。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A letter from Prof. Oak.\nWritten in it is a request for you to\ngo to Rt. 224.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A letter from Prof. Oak.\nWritten in it is a request for you to\ngo to Rt. 224.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Lettre du Prof. Chen vous demandant de\nvous rendre sur la Route 224.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A letter from Prof. Oak.\nWritten in it is a request for you to\ngo to Rt. 224.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A letter from Prof. Oak.\nWritten in it is a request for you to\ngo to Rt. 224.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A letter from Prof. Oak.\nWritten in it is a request for you to\ngo to Rt. 224.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 452,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 452,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 452,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Oak's Letter",
+      "language": "en"
+    },
+    {
+      "name": "Lettera Oak",
+      "language": "it"
+    },
+    {
+      "name": "Carta Prof. Oak",
+      "language": "es"
+    },
+    {
+      "name": "Eichs Brief",
+      "language": "de"
+    },
+    {
+      "name": "Lettre Chen",
+      "language": "fr"
+    },
+    {
+      "name": "오박사의편지",
+      "language": "ko"
+    },
+    {
+      "name": "オーキドのてがみ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,149 @@
-{"id":266,"name":"silcoon","order":291,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":49,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":49,"pokedex":{"name":"original-sinnoh"}},{"entry_number":15,"pokedex":{"name":"hoenn"}},{"entry_number":266,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"white"},"shape":{"name":"ball"},"evolves_from_species":{"name":"wurmple"},"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-iii"},"names":[{"name":"カラサリス","language":"ja"},{"name":"Karasalis","language":"roomaji"},{"name":"실쿤","language":"ko"},{"name":"甲殼蛹","language":"zh"},{"name":"Armulys","language":"fr"},{"name":"Schaloko","language":"de"},{"name":"Silcoon","language":"es"},{"name":"Silcoon","language":"it"},{"name":"Silcoon","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"さなぎ","language":"ja"},{"genus":"번데기","language":"ko"},{"genus":"Cocon","language":"fr"},{"genus":"Kokon","language":"de"},{"genus":"Capullo","language":"es"},{"genus":"Bozzolo","language":"it"},{"genus":"Cocoon","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"silcoon"}}],"first_evolution_id":265}
+{
+  "id": 266,
+  "name": "silcoon",
+  "order": 291,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 49,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 49,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 15,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 266,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "white"
+  },
+  "shape": {
+    "name": "ball"
+  },
+  "evolves_from_species": {
+    "name": "wurmple"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "カラサリス",
+      "language": "ja"
+    },
+    {
+      "name": "Karasalis",
+      "language": "roomaji"
+    },
+    {
+      "name": "실쿤",
+      "language": "ko"
+    },
+    {
+      "name": "甲殼蛹",
+      "language": "zh"
+    },
+    {
+      "name": "Armulys",
+      "language": "fr"
+    },
+    {
+      "name": "Schaloko",
+      "language": "de"
+    },
+    {
+      "name": "Silcoon",
+      "language": "es"
+    },
+    {
+      "name": "Silcoon",
+      "language": "it"
+    },
+    {
+      "name": "Silcoon",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "さなぎ",
+      "language": "ja"
+    },
+    {
+      "genus": "번데기",
+      "language": "ko"
+    },
+    {
+      "genus": "Cocon",
+      "language": "fr"
+    },
+    {
+      "genus": "Kokon",
+      "language": "de"
+    },
+    {
+      "genus": "Capullo",
+      "language": "es"
+    },
+    {
+      "genus": "Bozzolo",
+      "language": "it"
+    },
+    {
+      "genus": "Cocoon",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "silcoon"
+      }
+    }
+  ],
+  "first_evolution_id": 265
+}

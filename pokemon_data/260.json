@@ -1,1 +1,140 @@
-{"id":260,"name":"swampert","order":285,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":9,"pokedex":{"name":"hoenn"}},{"entry_number":260,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water1"},{"name":"monster"}],"color":{"name":"blue"},"shape":{"name":"upright"},"evolves_from_species":{"name":"marshtomp"},"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-iii"},"names":[{"name":"ラグラージ","language":"ja"},{"name":"Laglarge","language":"roomaji"},{"name":"대짱이","language":"ko"},{"name":"巨沼怪","language":"zh"},{"name":"Laggron","language":"fr"},{"name":"Sumpex","language":"de"},{"name":"Swampert","language":"es"},{"name":"Swampert","language":"it"},{"name":"Swampert","language":"en"}],"pal_park_encounters":[{"base_score":90,"rate":3,"area":{"name":"pond"}}],"form_descriptions":[],"genera":[{"genus":"ぬまうお","language":"ja"},{"genus":"늪물고기","language":"ko"},{"genus":"Poissonboue","language":"fr"},{"genus":"Lehmhüpfer","language":"de"},{"genus":"Pez Lodo","language":"es"},{"genus":"Fango Pesce","language":"it"},{"genus":"Mud Fish","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"swampert"}}],"first_evolution_id":258}
+{
+  "id": 260,
+  "name": "swampert",
+  "order": 285,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 9,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 260,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water1"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "marshtomp"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "ラグラージ",
+      "language": "ja"
+    },
+    {
+      "name": "Laglarge",
+      "language": "roomaji"
+    },
+    {
+      "name": "대짱이",
+      "language": "ko"
+    },
+    {
+      "name": "巨沼怪",
+      "language": "zh"
+    },
+    {
+      "name": "Laggron",
+      "language": "fr"
+    },
+    {
+      "name": "Sumpex",
+      "language": "de"
+    },
+    {
+      "name": "Swampert",
+      "language": "es"
+    },
+    {
+      "name": "Swampert",
+      "language": "it"
+    },
+    {
+      "name": "Swampert",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 90,
+      "rate": 3,
+      "area": {
+        "name": "pond"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ぬまうお",
+      "language": "ja"
+    },
+    {
+      "genus": "늪물고기",
+      "language": "ko"
+    },
+    {
+      "genus": "Poissonboue",
+      "language": "fr"
+    },
+    {
+      "genus": "Lehmhüpfer",
+      "language": "de"
+    },
+    {
+      "genus": "Pez Lodo",
+      "language": "es"
+    },
+    {
+      "genus": "Fango Pesce",
+      "language": "it"
+    },
+    {
+      "genus": "Mud Fish",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "swampert"
+      }
+    }
+  ],
+  "first_evolution_id": 258
+}

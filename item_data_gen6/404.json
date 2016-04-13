@@ -1,1 +1,170 @@
-{"id":381,"name":"tm77","cost":1500,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Psych Up to a compatible Pokémon.","short_effect":"Teaches Psych Up to a compatible Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"自分に　暗示を　かけることで\n能力変化の　状態を\n相手と　同じにする。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user hypnotizes itself into\ncopying any stat change made\nby the target.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa s’ipnotizza per copiare ogni modifica\nalle statistiche del bersaglio.","version_group":{"name":"x-y"},"language":"it"},{"text":"Quien lo usa levanta el vuelo y ataca en el\nsiguiente turno. También se puede usar para\nvolar a algún sitio conocido.","version_group":{"name":"x-y"},"language":"es"},{"text":"Der Anwender hypnotisiert sich selbst, um die\nStatusveränderungen des Zieles zu kopieren.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une autohypnose qui permet au lanceur de copier\nles changements de stats de la cible.","version_group":{"name":"x-y"},"language":"fr"},{"text":"자신에게 암시를 걸어서\n능력 변화 상태를\n상대와 똑같은 상태로 만든다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"じぶんに　あんじを　かけることで\nのうりょく　へんかの　じょうたいを\nあいてと　おなじにする。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user hypnotizes itself into\ncopying any stat change made\nby the target.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user hypnotizes itself into\ncopying any stat change made\nby the target.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une autohypnose qui permet au lanceur\nde copier les changements de stats de\nla cible.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user hypnotizes itself into\ncopying any stat change made\nby the foe.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user hypnotizes itself into\ncopying any stat change made\nby the foe.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user hypnotizes itself into\ncopying any stat change made\nby the foe.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":404,"generation":{"name":"generation-vi"}},{"game_index":404,"generation":{"name":"generation-v"}},{"game_index":404,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM77","language":"en"},{"name":"MT77","language":"it"},{"name":"MT77","language":"es"},{"name":"TM77","language":"de"},{"name":"CT77","language":"fr"},{"name":"기술머신77","language":"ko"},{"name":"わざマシン７７","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 381,
+  "name": "tm77",
+  "cost": 1500,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Psych Up to a compatible Pokémon.",
+      "short_effect": "Teaches Psych Up to a compatible Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "自分に　暗示を　かけることで\n能力変化の　状態を\n相手と　同じにする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user hypnotizes itself into\ncopying any stat change made\nby the target.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa s’ipnotizza per copiare ogni modifica\nalle statistiche del bersaglio.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Quien lo usa levanta el vuelo y ataca en el\nsiguiente turno. También se puede usar para\nvolar a algún sitio conocido.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Der Anwender hypnotisiert sich selbst, um die\nStatusveränderungen des Zieles zu kopieren.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une autohypnose qui permet au lanceur de copier\nles changements de stats de la cible.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "자신에게 암시를 걸어서\n능력 변화 상태를\n상대와 똑같은 상태로 만든다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "じぶんに　あんじを　かけることで\nのうりょく　へんかの　じょうたいを\nあいてと　おなじにする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user hypnotizes itself into\ncopying any stat change made\nby the target.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user hypnotizes itself into\ncopying any stat change made\nby the target.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une autohypnose qui permet au lanceur\nde copier les changements de stats de\nla cible.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user hypnotizes itself into\ncopying any stat change made\nby the foe.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user hypnotizes itself into\ncopying any stat change made\nby the foe.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user hypnotizes itself into\ncopying any stat change made\nby the foe.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 404,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 404,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 404,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM77",
+      "language": "en"
+    },
+    {
+      "name": "MT77",
+      "language": "it"
+    },
+    {
+      "name": "MT77",
+      "language": "es"
+    },
+    {
+      "name": "TM77",
+      "language": "de"
+    },
+    {
+      "name": "CT77",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신77",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン７７",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

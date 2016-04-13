@@ -1,1 +1,395 @@
-{"id":22,"name":"intimidate","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Intimidate","language":"en"},{"name":"Prepotenza","language":"it"},{"name":"Intimidación","language":"es"},{"name":"Bedroher","language":"de"},{"name":"Intimidation","language":"fr"},{"name":"위협","language":"ko"},{"name":"いかく","language":"ja"}],"effect_entries":[{"effect":"When this Pokémon enters battle, the opponent's [Attack]{mechanic:attack} is lowered by one [stage]{mechanic:stat-modifier}.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a []{move:substitute}.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped.","short_effect":"Lowers opponents' [Attack]{mechanic:attack} one [stage]{mechanic:stat-modifier} upon entering battle.","language":"en"}],"effect_changes":[{"version_group":{"name":"emerald"},"effect_entries":[{"effect":"Has no overworld effect.","language":"en"}]},{"version_group":{"name":"diamond-pearl"},"effect_entries":[{"effect":"Does not take effect if acquired after entering battle.","language":"en"}]}],"flavor_text_entries":[{"flavor_text":"相手の　攻撃を\nさげる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Lowers the opposing Pokémon’s\nAttack stat.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Riduce la statistica Attacco\ndel nemico.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Baja el Ataque del rival.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Senkt Angriff des Gegners.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Baisse l’Attaque ennemie.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"상대의 공격을\n떨어뜨린다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"あいての　こうげきを\nさげる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Lowers the foe’s\nAttack stat.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Lowers the foe’s\nAttack stat.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Baisse l’Attaque ennemie.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Lowers the foe’s\nAttack stat.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Lowers the foe’s Attack\nstat.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Lowers the foe’s Attack\nstat.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"Lowers the foe’s ATTACK.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"Lowers the foe’s ATTACK.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"Lowers the foe’s ATTACK.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":1,"pokemon":{"name":"ekans"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"arbok"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"growlithe"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"arcanine"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"tauros"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"gyarados"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"snubbull"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"granbull"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"qwilfish"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"stantler"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"hitmontop"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"mightyena"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"masquerain"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"mawile"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"salamence"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"staravia"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"staraptor"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"shinx"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"luxio"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"luxray"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"herdier"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"stoutland"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"sandile"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"krokorok"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"krookodile"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"scraggy"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"scrafty"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"landorus-therian"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"manectric-mega"}}]}
+{
+  "id": 22,
+  "name": "intimidate",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Intimidate",
+      "language": "en"
+    },
+    {
+      "name": "Prepotenza",
+      "language": "it"
+    },
+    {
+      "name": "Intimidación",
+      "language": "es"
+    },
+    {
+      "name": "Bedroher",
+      "language": "de"
+    },
+    {
+      "name": "Intimidation",
+      "language": "fr"
+    },
+    {
+      "name": "위협",
+      "language": "ko"
+    },
+    {
+      "name": "いかく",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "When this Pokémon enters battle, the opponent's [Attack]{mechanic:attack} is lowered by one [stage]{mechanic:stat-modifier}.  In a double battle, both opponents are affected.\n\nThis ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.\n\nThis ability has no effect on an opponent that has a []{move:substitute}.\n\nOverworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped.",
+      "short_effect": "Lowers opponents' [Attack]{mechanic:attack} one [stage]{mechanic:stat-modifier} upon entering battle.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "emerald"
+      },
+      "effect_entries": [
+        {
+          "effect": "Has no overworld effect.",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "effect_entries": [
+        {
+          "effect": "Does not take effect if acquired after entering battle.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "相手の　攻撃を\nさげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Lowers the opposing Pokémon’s\nAttack stat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Riduce la statistica Attacco\ndel nemico.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Baja el Ataque del rival.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Senkt Angriff des Gegners.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Baisse l’Attaque ennemie.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "상대의 공격을\n떨어뜨린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "あいての　こうげきを\nさげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Lowers the foe’s\nAttack stat.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Lowers the foe’s\nAttack stat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Baisse l’Attaque ennemie.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Lowers the foe’s\nAttack stat.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Lowers the foe’s Attack\nstat.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Lowers the foe’s Attack\nstat.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Lowers the foe’s ATTACK.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Lowers the foe’s ATTACK.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Lowers the foe’s ATTACK.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "ekans"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "arbok"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "growlithe"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "arcanine"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "tauros"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "gyarados"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "snubbull"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "granbull"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "qwilfish"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "stantler"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "hitmontop"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "mightyena"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "masquerain"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "mawile"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "salamence"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "staravia"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "staraptor"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "shinx"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "luxio"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "luxray"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "herdier"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "stoutland"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "sandile"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "krokorok"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "krookodile"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "scraggy"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "scrafty"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "landorus-therian"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "manectric-mega"
+      }
+    }
+  ]
+}

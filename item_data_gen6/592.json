@@ -1,1 +1,143 @@
-{"id":633,"name":"dire-hit-2","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"miracle-shooter"},"effect_entries":[{"effect":"Used on a party Pokémon in battle\n:   Raises the target's [critical hit]{mechanic:critical-hit} rate by two [stages]{mechanic:stage}.\nThis item can only be obtained or used via the Wonder Launcher.","short_effect":"Raises [critical hit]{mechanic:critical-hit} rate by two [stages]{mechanic:stage} in battle.  Wonder Launcher only.","language":"en"}],"flavor_text_entries":[{"text":"急所率が　あがる。\n使うたびに　効果が　アップする。\nひっこめると　元に　戻る。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"It can be used many times to raise the\ncritical-hit ratio of one Pokémon. It\nwears off if the Pokémon is withdrawn.","version_group":{"name":"x-y"},"language":"en"},{"text":"Aumenta la probabilità di sferrare brutti colpi.\nSe usato più volte, l’effetto si somma,\nma svanisce se il Pokémon è sostituito.","version_group":{"name":"x-y"},"language":"it"},{"text":"Al usarlo, activa la habilidad de un Pokémon de\ntu equipo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Erhöht die Volltrefferquote. Effektiver bei\nmehrfacher Anwendung. Wirksam, bis das\nPokémon ausgewechselt wird.","version_group":{"name":"x-y"},"language":"de"},{"text":"Augmente le taux de critiques.\nPlus efficace à chaque utilisation.\nL’effet s’estompe si le Pokémon se retire.","version_group":{"name":"x-y"},"language":"fr"},{"text":"급소 명중률이 올라간다. 사용할 때마다\n효과가 올라간다. 포켓몬을 볼에\n넣어버리면 원래대로 되돌아간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"きゅうしょりつが　あがる。\nつかうたびに　こうかが　アップする。\nひっこめると　もとに　もどる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It can be used many times to raise the\ncritical-hit ratio of one Pokémon. It\nwears off if the Pokémon is withdrawn.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It can be used many times to raise the\ncritical-hit ratio of one Pokémon. It\nwears off if the Pokémon is withdrawn.","version_group":{"name":"black-white"},"language":"en"},{"text":"Augmente le taux de critiques. Plus\nefficace à chaque utilisation. L’effet\ns’estompe si le Pokémon se retire.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":592,"generation":{"name":"generation-vi"}},{"game_index":592,"generation":{"name":"generation-v"}}],"names":[{"name":"Dire Hit 2","language":"en"},{"name":"Supercolpo 2","language":"it"},{"name":"Directo 2","language":"es"},{"name":"Angriffplus2","language":"de"},{"name":"Muscle 2","language":"fr"},{"name":"크리티컬커터2","language":"ko"},{"name":"クリティカット２","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 633,
+  "name": "dire-hit-2",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "miracle-shooter"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon in battle\n:   Raises the target's [critical hit]{mechanic:critical-hit} rate by two [stages]{mechanic:stage}.\nThis item can only be obtained or used via the Wonder Launcher.",
+      "short_effect": "Raises [critical hit]{mechanic:critical-hit} rate by two [stages]{mechanic:stage} in battle.  Wonder Launcher only.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "急所率が　あがる。\n使うたびに　効果が　アップする。\nひっこめると　元に　戻る。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "It can be used many times to raise the\ncritical-hit ratio of one Pokémon. It\nwears off if the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Aumenta la probabilità di sferrare brutti colpi.\nSe usato più volte, l’effetto si somma,\nma svanisce se il Pokémon è sostituito.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Al usarlo, activa la habilidad de un Pokémon de\ntu equipo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Erhöht die Volltrefferquote. Effektiver bei\nmehrfacher Anwendung. Wirksam, bis das\nPokémon ausgewechselt wird.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Augmente le taux de critiques.\nPlus efficace à chaque utilisation.\nL’effet s’estompe si le Pokémon se retire.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "급소 명중률이 올라간다. 사용할 때마다\n효과가 올라간다. 포켓몬을 볼에\n넣어버리면 원래대로 되돌아간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "きゅうしょりつが　あがる。\nつかうたびに　こうかが　アップする。\nひっこめると　もとに　もどる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It can be used many times to raise the\ncritical-hit ratio of one Pokémon. It\nwears off if the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It can be used many times to raise the\ncritical-hit ratio of one Pokémon. It\nwears off if the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Augmente le taux de critiques. Plus\nefficace à chaque utilisation. L’effet\ns’estompe si le Pokémon se retire.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 592,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 592,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Dire Hit 2",
+      "language": "en"
+    },
+    {
+      "name": "Supercolpo 2",
+      "language": "it"
+    },
+    {
+      "name": "Directo 2",
+      "language": "es"
+    },
+    {
+      "name": "Angriffplus2",
+      "language": "de"
+    },
+    {
+      "name": "Muscle 2",
+      "language": "fr"
+    },
+    {
+      "name": "크리티컬커터2",
+      "language": "ko"
+    },
+    {
+      "name": "クリティカット２",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

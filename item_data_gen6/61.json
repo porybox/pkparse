@@ -1,1 +1,210 @@
-{"id":61,"name":"x-sp-atk","cost":350,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"stat-boosts"},"effect_entries":[{"effect":"Used on a party Pokémon in battle\n:   [Raises]{mechanic:raise} the target's [Special Attack]{mechanic:special-attack} by one stage.  Increases happiness by 1/1/0.","short_effect":"Raises Special Attack by one stage in battle.  Raises happiness.","language":"en"}],"flavor_text_entries":[{"text":"戦闘中の　ポケモンの\n特攻を　あげる　道具。\nひっこめると　元に　戻る。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item that boosts the Sp. Atk stat\nof a Pokémon during a battle. It wears\noff once the Pokémon is withdrawn.","version_group":{"name":"x-y"},"language":"en"},{"text":"Aumenta l’Attacco Speciale di un Pokémon\nin una lotta. L’effetto svanisce se il Pokémon\nè sostituito.","version_group":{"name":"x-y"},"language":"it"},{"text":"Aumenta el Ataque Especial en combate.\nAl cambiar de Pokémon, el efecto desaparece.","version_group":{"name":"x-y"},"language":"es"},{"text":"Hebt den Spezial-Angriff eines Pokémon im\nKampf. Die Wirkung wird mit dem Austausch\ndes Pokémon beendet.","version_group":{"name":"x-y"},"language":"de"},{"text":"Augmente l’Attaque Spéciale pendant un combat.\nL’effet disparaît si le Pokémon se retire.","version_group":{"name":"x-y"},"language":"fr"},{"text":"배틀 중인 포켓몬의 특수공격을 올리는\n도구. 포켓몬을 볼에 넣어버리면\n원래대로 되돌아간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"せんとうちゅうの　ポケモンの\nとくこうを　あげる　どうぐ。\nひっこめると　もとに　もどる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item that raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item that raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.","version_group":{"name":"black-white"},"language":"en"},{"text":"Monte l’Attaque Spéciale pendant\nun combat. L’effet s’estompe si\nle Pokémon se retire.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item that raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item that raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item that raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"Raises the SP. ATK stat of\nPOKéMON in battle. Wears off if the\nPOKéMON is withdrawn.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Raises the stat\nSP. ATK during one\nbattle.","version_group":{"name":"emerald"},"language":"en"},{"text":"Raises the stat\nSP. ATK during one\nbattle.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":61,"generation":{"name":"generation-vi"}},{"game_index":61,"generation":{"name":"generation-v"}},{"game_index":61,"generation":{"name":"generation-iv"}},{"game_index":79,"generation":{"name":"generation-iii"}}],"names":[{"name":"X Sp. Atk","language":"en"},{"name":"Special X","language":"it"},{"name":"Especial X","language":"es"},{"name":"X-Spezial","language":"de"},{"name":"Spécial +","language":"fr"},{"name":"스페셜업","language":"ko"},{"name":"スペシャルアップ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 61,
+  "name": "x-sp-atk",
+  "cost": 350,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "stat-boosts"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon in battle\n:   [Raises]{mechanic:raise} the target's [Special Attack]{mechanic:special-attack} by one stage.  Increases happiness by 1/1/0.",
+      "short_effect": "Raises Special Attack by one stage in battle.  Raises happiness.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "戦闘中の　ポケモンの\n特攻を　あげる　道具。\nひっこめると　元に　戻る。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item that boosts the Sp. Atk stat\nof a Pokémon during a battle. It wears\noff once the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Aumenta l’Attacco Speciale di un Pokémon\nin una lotta. L’effetto svanisce se il Pokémon\nè sostituito.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Aumenta el Ataque Especial en combate.\nAl cambiar de Pokémon, el efecto desaparece.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Hebt den Spezial-Angriff eines Pokémon im\nKampf. Die Wirkung wird mit dem Austausch\ndes Pokémon beendet.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Augmente l’Attaque Spéciale pendant un combat.\nL’effet disparaît si le Pokémon se retire.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "배틀 중인 포켓몬의 특수공격을 올리는\n도구. 포켓몬을 볼에 넣어버리면\n원래대로 되돌아간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "せんとうちゅうの　ポケモンの\nとくこうを　あげる　どうぐ。\nひっこめると　もとに　もどる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item that raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item that raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Monte l’Attaque Spéciale pendant\nun combat. L’effet s’estompe si\nle Pokémon se retire.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item that raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item that raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item that raises the Sp. Atk stat\nof a Pokémon in battle. It wears off if\nthe Pokémon is withdrawn.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the SP. ATK stat of\nPOKéMON in battle. Wears off if the\nPOKéMON is withdrawn.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the stat\nSP. ATK during one\nbattle.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the stat\nSP. ATK during one\nbattle.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 61,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 61,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 61,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 79,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "X Sp. Atk",
+      "language": "en"
+    },
+    {
+      "name": "Special X",
+      "language": "it"
+    },
+    {
+      "name": "Especial X",
+      "language": "es"
+    },
+    {
+      "name": "X-Spezial",
+      "language": "de"
+    },
+    {
+      "name": "Spécial +",
+      "language": "fr"
+    },
+    {
+      "name": "스페셜업",
+      "language": "ko"
+    },
+    {
+      "name": "スペシャルアップ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

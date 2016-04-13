@@ -1,1 +1,105 @@
-{"id":341,"name":"mud-shot","accuracy":95,"effect_chance":100,"pp":15,"priority":0,"power":55,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"sandstorm"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"tough"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.","short_effect":"Has a $effect_chance% chance to lower the target's Speed by one stage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage+lower"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":100},"names":[{"name":"Mud Shot","language":"en"},{"name":"Colpodifango","language":"it"},{"name":"Disparo Lodo","language":"es"},{"name":"Lehmschuss","language":"de"},{"name":"Tir de Boue","language":"fr"},{"name":"머드숏","language":"ko"},{"name":"マッドショット","language":"ja"}],"past_values":[],"stat_changes":[{"change":-1,"stat":{"name":"speed"}}],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"ground"}}
+{
+  "id": 341,
+  "name": "mud-shot",
+  "accuracy": 95,
+  "effect_chance": 100,
+  "pp": 15,
+  "priority": 0,
+  "power": 55,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "sandstorm"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
+      "short_effect": "Has a $effect_chance% chance to lower the target's Speed by one stage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage+lower"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": [
+    {
+      "name": "Mud Shot",
+      "language": "en"
+    },
+    {
+      "name": "Colpodifango",
+      "language": "it"
+    },
+    {
+      "name": "Disparo Lodo",
+      "language": "es"
+    },
+    {
+      "name": "Lehmschuss",
+      "language": "de"
+    },
+    {
+      "name": "Tir de Boue",
+      "language": "fr"
+    },
+    {
+      "name": "머드숏",
+      "language": "ko"
+    },
+    {
+      "name": "マッドショット",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": {
+        "name": "speed"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "ground"
+  }
+}

@@ -1,1 +1,197 @@
-{"id":402,"name":"hm06","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Rock Smash to a compatible Pokémon.","short_effect":"Teaches Dive to a compatible Pokémon. (Gen IV & III: Rock Smash Gen II: Whirlpool)","language":"en"}],"flavor_text_entries":[{"text":"１ターン目で　潜り　２ターン目に\n浮きあがって　攻撃する。\n海の　奥深くに　潜ることも　できる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"Diving on the first turn, the user floats\nup and attacks on the next turn.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa si tuffa in acqua per emergere e\nattaccare al turno seguente.","version_group":{"name":"x-y"},"language":"it"},{"text":"Puedes obtenerlo en el Casino. Tiene capacidad\npara 50 000 Fichas.","version_group":{"name":"x-y"},"language":"es"},{"text":"Taucht in Runde 1 ab und greift in Runde 2\naus der Tiefe an. Ermöglicht Tauchgänge zum\nMeeresgrund.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur plonge sous l’eau au premier tour et\nfrappe au second.","version_group":{"name":"x-y"},"language":"fr"},{"text":"1턴째에 잠수했다가 2턴째에\n떠올라 공격한다.\n바닷속 깊숙이 잠수할 수도 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"１ターンめで　もぐり　２ターンめに\nうきあがって　こうげきする。うみの\nなかに　もぐる　ことも　できる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"Diving on the first turn, the user\nfloats up and attacks on the second.\nIt can be used for diving in the ocean.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"Diving on the first turn, the user\nfloats up and attacks on the second.\nIt can be used for diving in the ocean.","version_group":{"name":"black-white"},"language":"en"},{"text":"Le lanceur plonge sous l’eau au\n1er tour et frappe au 2è. Permet\naussi de plonger au fond de l’eau.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user slugs the foe with a\nshattering punch. It can also smash\ncracked boulders.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user slugs the foe with a\nshattering punch. It can also smash\ncracked boulders.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user slugs the foe with a\nshattering punch. It can also smash\ncracked boulders.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"An attack that may\nalso cut DEFENSE.\nIt can also smash\ncracked boulders.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A rock-crushingly\ntough attack that\nmay lower DEFENSE.","version_group":{"name":"emerald"},"language":"en"},{"text":"A rock-crushingly\ntough attack that\nmay lower DEFENSE.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":425,"generation":{"name":"generation-vi"}},{"game_index":425,"generation":{"name":"generation-v"}},{"game_index":425,"generation":{"name":"generation-iv"}},{"game_index":344,"generation":{"name":"generation-iii"}}],"names":[{"name":"HM06","language":"en"},{"name":"MN06","language":"it"},{"name":"MO06","language":"es"},{"name":"VM06","language":"de"},{"name":"CS06","language":"fr"},{"name":"비전머신06","language":"ko"},{"name":"ひでんマシン０６","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 402,
+  "name": "hm06",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Rock Smash to a compatible Pokémon.",
+      "short_effect": "Teaches Dive to a compatible Pokémon. (Gen IV & III: Rock Smash Gen II: Whirlpool)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "１ターン目で　潜り　２ターン目に\n浮きあがって　攻撃する。\n海の　奥深くに　潜ることも　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "Diving on the first turn, the user floats\nup and attacks on the next turn.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa si tuffa in acqua per emergere e\nattaccare al turno seguente.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Puedes obtenerlo en el Casino. Tiene capacidad\npara 50 000 Fichas.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Taucht in Runde 1 ab und greift in Runde 2\naus der Tiefe an. Ermöglicht Tauchgänge zum\nMeeresgrund.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur plonge sous l’eau au premier tour et\nfrappe au second.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "1턴째에 잠수했다가 2턴째에\n떠올라 공격한다.\n바닷속 깊숙이 잠수할 수도 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "１ターンめで　もぐり　２ターンめに\nうきあがって　こうげきする。うみの\nなかに　もぐる　ことも　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "Diving on the first turn, the user\nfloats up and attacks on the second.\nIt can be used for diving in the ocean.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Diving on the first turn, the user\nfloats up and attacks on the second.\nIt can be used for diving in the ocean.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur plonge sous l’eau au\n1er tour et frappe au 2è. Permet\naussi de plonger au fond de l’eau.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user slugs the foe with a\nshattering punch. It can also smash\ncracked boulders.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user slugs the foe with a\nshattering punch. It can also smash\ncracked boulders.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user slugs the foe with a\nshattering punch. It can also smash\ncracked boulders.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An attack that may\nalso cut DEFENSE.\nIt can also smash\ncracked boulders.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A rock-crushingly\ntough attack that\nmay lower DEFENSE.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A rock-crushingly\ntough attack that\nmay lower DEFENSE.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 425,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 425,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 425,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 344,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "HM06",
+      "language": "en"
+    },
+    {
+      "name": "MN06",
+      "language": "it"
+    },
+    {
+      "name": "MO06",
+      "language": "es"
+    },
+    {
+      "name": "VM06",
+      "language": "de"
+    },
+    {
+      "name": "CS06",
+      "language": "fr"
+    },
+    {
+      "name": "비전머신06",
+      "language": "ko"
+    },
+    {
+      "name": "ひでんマシン０６",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

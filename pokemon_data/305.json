@@ -1,1 +1,155 @@
-{"id":305,"name":"lairon","order":331,"gender_rate":4,"capture_rate":90,"base_happiness":35,"is_baby":false,"hatch_counter":35,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":100,"pokedex":{"name":"kalos-mountain"}},{"entry_number":150,"pokedex":{"name":"conquest-gallery"}},{"entry_number":167,"pokedex":{"name":"updated-unova"}},{"entry_number":71,"pokedex":{"name":"hoenn"}},{"entry_number":305,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"monster"}],"color":{"name":"gray"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"aron"},"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-iii"},"names":[{"name":"コドラ","language":"ja"},{"name":"Kodora","language":"roomaji"},{"name":"갱도라","language":"ko"},{"name":"可多拉","language":"zh"},{"name":"Galegon","language":"fr"},{"name":"Stollrak","language":"de"},{"name":"Lairon","language":"es"},{"name":"Lairon","language":"it"},{"name":"Lairon","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"てつヨロイ","language":"ja"},{"genus":"철갑옷","language":"ko"},{"genus":"Armurfer","language":"fr"},{"genus":"Eisenpanzer","language":"de"},{"genus":"Cor. Férrea","language":"es"},{"genus":"Corazza","language":"it"},{"genus":"Iron Armor","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"lairon"}}],"first_evolution_id":304}
+{
+  "id": 305,
+  "name": "lairon",
+  "order": 331,
+  "gender_rate": 4,
+  "capture_rate": 90,
+  "base_happiness": 35,
+  "is_baby": false,
+  "hatch_counter": 35,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 100,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 150,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 167,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 71,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 305,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "gray"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "aron"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "コドラ",
+      "language": "ja"
+    },
+    {
+      "name": "Kodora",
+      "language": "roomaji"
+    },
+    {
+      "name": "갱도라",
+      "language": "ko"
+    },
+    {
+      "name": "可多拉",
+      "language": "zh"
+    },
+    {
+      "name": "Galegon",
+      "language": "fr"
+    },
+    {
+      "name": "Stollrak",
+      "language": "de"
+    },
+    {
+      "name": "Lairon",
+      "language": "es"
+    },
+    {
+      "name": "Lairon",
+      "language": "it"
+    },
+    {
+      "name": "Lairon",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "てつヨロイ",
+      "language": "ja"
+    },
+    {
+      "genus": "철갑옷",
+      "language": "ko"
+    },
+    {
+      "genus": "Armurfer",
+      "language": "fr"
+    },
+    {
+      "genus": "Eisenpanzer",
+      "language": "de"
+    },
+    {
+      "genus": "Cor. Férrea",
+      "language": "es"
+    },
+    {
+      "genus": "Corazza",
+      "language": "it"
+    },
+    {
+      "genus": "Iron Armor",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "lairon"
+      }
+    }
+  ],
+  "first_evolution_id": 304
+}

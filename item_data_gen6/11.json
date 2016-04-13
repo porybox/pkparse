@@ -1,1 +1,210 @@
-{"id":11,"name":"luxury-ball","cost":1000,"fling_power":null,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"special-balls"},"effect_entries":[{"effect":"Used in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1×.  Whenever the caught Pokémon's [happiness]{mechanic:happiness} increases, it increases by one extra point.\n\n    If used in a trainer battle, nothing happens and the ball is lost.","short_effect":"Tries to catch a wild Pokémon.  Caught Pokémon start with 200 happiness.","language":"en"}],"flavor_text_entries":[{"text":"捕まえた　野生ポケモンが\nとても　なつきやすくなる\nいごこちの　いい　ボール。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A particularly comfortable Poké Ball\nthat makes a wild Pokémon quickly\ngrow friendlier after being caught.","version_group":{"name":"x-y"},"language":"en"},{"text":"Poké Ball graziosa che rende più amichevoli\ni Pokémon selvatici catturati.","version_group":{"name":"x-y"},"language":"it"},{"text":"Acogedora Poké Ball que hace más amistosos a\nlos Pokémon salvajes capturados.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein behaglicher Ball, der Pokémon veranlasst,\nnach dem Fang schneller freundlicher zu werden.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une Poké Ball pratique qui permet de gagner\nrapidement l’amitié d’un Pokémon sauvage\nattrapé.","version_group":{"name":"x-y"},"language":"fr"},{"text":"잡은 야생 포켓몬이\n매우 친밀해지기 쉬운\n편안한 볼.","version_group":{"name":"x-y"},"language":"ko"},{"text":"つかまえた　やせいポケモンが\nとても　なつきやすくなる\nいごこちの　いい　ボール。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A comfortable Poké Ball that makes a\ncaught wild Pokémon quickly grow\nfriendly.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A comfortable Poké Ball that makes a\ncaught wild Pokémon quickly grow\nfriendly.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une Poké Ball pratique qui permet\nde gagner rapidement l’amitié d’un\nPokémon sauvage attrapé.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A comfortable Poké Ball that makes a\ncaught wild Pokémon quickly grow\nfriendly.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A comfortable Poké Ball that makes a\ncaught wild Pokémon quickly grow\nfriendly.","version_group":{"name":"platinum"},"language":"en"},{"text":"A comfortable Poké Ball that makes a\ncaught wild Pokémon quickly grow\nfriendly.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A comfortable BALL that makes a\ncaptured wild POKéMON quickly grow\nfriendly.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A cozy BALL that\nmakes POKéMON\nmore friendly.","version_group":{"name":"emerald"},"language":"en"},{"text":"A cozy BALL that\nmakes POKéMON\nmore friendly.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":11,"generation":{"name":"generation-vi"}},{"game_index":11,"generation":{"name":"generation-v"}},{"game_index":11,"generation":{"name":"generation-iv"}},{"game_index":11,"generation":{"name":"generation-iii"}}],"names":[{"name":"Luxury Ball","language":"en"},{"name":"Chic Ball","language":"it"},{"name":"Lujo Ball","language":"es"},{"name":"Luxusball","language":"de"},{"name":"Luxe Ball","language":"fr"},{"name":"럭셔리볼","language":"ko"},{"name":"ゴージャスボール","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 11,
+  "name": "luxury-ball",
+  "cost": 1000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "special-balls"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1×.  Whenever the caught Pokémon's [happiness]{mechanic:happiness} increases, it increases by one extra point.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+      "short_effect": "Tries to catch a wild Pokémon.  Caught Pokémon start with 200 happiness.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "捕まえた　野生ポケモンが\nとても　なつきやすくなる\nいごこちの　いい　ボール。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A particularly comfortable Poké Ball\nthat makes a wild Pokémon quickly\ngrow friendlier after being caught.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Poké Ball graziosa che rende più amichevoli\ni Pokémon selvatici catturati.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Acogedora Poké Ball que hace más amistosos a\nlos Pokémon salvajes capturados.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein behaglicher Ball, der Pokémon veranlasst,\nnach dem Fang schneller freundlicher zu werden.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une Poké Ball pratique qui permet de gagner\nrapidement l’amitié d’un Pokémon sauvage\nattrapé.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "잡은 야생 포켓몬이\n매우 친밀해지기 쉬운\n편안한 볼.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "つかまえた　やせいポケモンが\nとても　なつきやすくなる\nいごこちの　いい　ボール。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A comfortable Poké Ball that makes a\ncaught wild Pokémon quickly grow\nfriendly.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A comfortable Poké Ball that makes a\ncaught wild Pokémon quickly grow\nfriendly.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une Poké Ball pratique qui permet\nde gagner rapidement l’amitié d’un\nPokémon sauvage attrapé.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A comfortable Poké Ball that makes a\ncaught wild Pokémon quickly grow\nfriendly.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A comfortable Poké Ball that makes a\ncaught wild Pokémon quickly grow\nfriendly.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A comfortable Poké Ball that makes a\ncaught wild Pokémon quickly grow\nfriendly.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A comfortable BALL that makes a\ncaptured wild POKéMON quickly grow\nfriendly.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A cozy BALL that\nmakes POKéMON\nmore friendly.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A cozy BALL that\nmakes POKéMON\nmore friendly.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 11,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 11,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 11,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 11,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Luxury Ball",
+      "language": "en"
+    },
+    {
+      "name": "Chic Ball",
+      "language": "it"
+    },
+    {
+      "name": "Lujo Ball",
+      "language": "es"
+    },
+    {
+      "name": "Luxusball",
+      "language": "de"
+    },
+    {
+      "name": "Luxe Ball",
+      "language": "fr"
+    },
+    {
+      "name": "럭셔리볼",
+      "language": "ko"
+    },
+    {
+      "name": "ゴージャスボール",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,305 @@
-{"id":93,"name":"heart-scale","cost":100,"fling_power":30,"fling_effect":null,"attributes":[{"name":"underground"}],"category":{"name":"collectibles"},"effect_entries":[{"effect":"Trade one to the Move Relearner near the shore in []{location:pastoria-city} or with the Move Deleter in []{location:blackthorn-city} to teach one party Pokémon a prior level-up move.","short_effect":"No effect. Can be traded for prior Level-up moves.","language":"en"}],"flavor_text_entries":[{"text":"きれいな　ハートの　形の\nとても　珍しい　ウロコ。\nにじ色に　うすく　輝く。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A pretty, heart-shaped scale that is\nextremely rare. It glows faintly with\nall of the colors of the rainbow.","version_group":{"name":"x-y"},"language":"en"},{"text":"Squama graziosa, a forma di cuore e molto rara.\nRiflette tutti i colori dell’iride.","version_group":{"name":"x-y"},"language":"it"},{"text":"Bella escama con forma de corazón que brilla\nligeramente como los colores del arcoíris. Es muy\npoco común.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine hübsche, herzförmige und sehr seltene\nSchuppe. Sie erstrahlt in den Farben\ndes Regenbogens.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une très rare et jolie écaille en forme de cœur.\nElle brille légèrement d’un éclat arc-en-ciel.","version_group":{"name":"x-y"},"language":"fr"},{"text":"예쁜 하트 모양의\n무척 진귀한 비늘.\n무지개색으로 연하게 반짝인다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"きれいな　ハートの　かたちの\nとても　めずらしい　ウロコ。\nにじいろに　うすく　かがやく。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A pretty, heart-shaped scale that is\nextremely rare. It glows faintly in the\ncolors of the rainbow.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A pretty, heart-shaped scale that is\nextremely rare. It glows faintly in the\ncolors of the rainbow.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une jolie écaille en forme de cœur qui\nest très rare. Elle brille légèrement\nd’un éclat arc-en-ciel.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A pretty, heart-shaped scale that is\nextremely rare. It glows faintly in the\ncolors of the rainbow.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A pretty, heart-shaped scale that is\nextremely rare. It glows faintly in the\ncolors of the rainbow.","version_group":{"name":"platinum"},"language":"en"},{"text":"A pretty, heart-shaped scale that is\nextremely rare. It glows faintly in the\ncolors of the rainbow.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A pretty, heart-shaped scale that\nis extremely rare. It glows faintly\nin the colors of a rainbow.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A lovely scale.\nIt is coveted by\ncollectors.","version_group":{"name":"emerald"},"language":"en"},{"text":"A lovely scale.\nIt is coveted by\ncollectors.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":93,"generation":{"name":"generation-vi"}},{"game_index":93,"generation":{"name":"generation-v"}},{"game_index":93,"generation":{"name":"generation-iv"}},{"game_index":111,"generation":{"name":"generation-iii"}}],"names":[{"name":"Heart Scale","language":"en"},{"name":"Squama Cuore","language":"it"},{"name":"Escama Corazón","language":"es"},{"name":"Herzschuppe","language":"de"},{"name":"Écaille Cœur","language":"fr"},{"name":"하트비늘","language":"ko"},{"name":"ハートのウロコ","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"luvdisc"},"version_details":[{"rarity":50,"version":{"name":"y"}},{"rarity":50,"version":{"name":"x"}},{"rarity":50,"version":{"name":"white-2"}},{"rarity":50,"version":{"name":"black-2"}},{"rarity":50,"version":{"name":"white"}},{"rarity":50,"version":{"name":"black"}},{"rarity":50,"version":{"name":"soulsilver"}},{"rarity":50,"version":{"name":"heartgold"}},{"rarity":50,"version":{"name":"platinum"}},{"rarity":50,"version":{"name":"pearl"}},{"rarity":50,"version":{"name":"diamond"}},{"rarity":50,"version":{"name":"leafgreen"}},{"rarity":50,"version":{"name":"firered"}},{"rarity":50,"version":{"name":"emerald"}},{"rarity":50,"version":{"name":"sapphire"}},{"rarity":50,"version":{"name":"ruby"}}]}],"baby_trigger_for":null}
+{
+  "id": 93,
+  "name": "heart-scale",
+  "cost": 100,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "underground"
+    }
+  ],
+  "category": {
+    "name": "collectibles"
+  },
+  "effect_entries": [
+    {
+      "effect": "Trade one to the Move Relearner near the shore in []{location:pastoria-city} or with the Move Deleter in []{location:blackthorn-city} to teach one party Pokémon a prior level-up move.",
+      "short_effect": "No effect. Can be traded for prior Level-up moves.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "きれいな　ハートの　形の\nとても　珍しい　ウロコ。\nにじ色に　うすく　輝く。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A pretty, heart-shaped scale that is\nextremely rare. It glows faintly with\nall of the colors of the rainbow.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Squama graziosa, a forma di cuore e molto rara.\nRiflette tutti i colori dell’iride.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Bella escama con forma de corazón que brilla\nligeramente como los colores del arcoíris. Es muy\npoco común.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine hübsche, herzförmige und sehr seltene\nSchuppe. Sie erstrahlt in den Farben\ndes Regenbogens.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une très rare et jolie écaille en forme de cœur.\nElle brille légèrement d’un éclat arc-en-ciel.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "예쁜 하트 모양의\n무척 진귀한 비늘.\n무지개색으로 연하게 반짝인다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "きれいな　ハートの　かたちの\nとても　めずらしい　ウロコ。\nにじいろに　うすく　かがやく。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A pretty, heart-shaped scale that is\nextremely rare. It glows faintly in the\ncolors of the rainbow.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A pretty, heart-shaped scale that is\nextremely rare. It glows faintly in the\ncolors of the rainbow.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une jolie écaille en forme de cœur qui\nest très rare. Elle brille légèrement\nd’un éclat arc-en-ciel.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A pretty, heart-shaped scale that is\nextremely rare. It glows faintly in the\ncolors of the rainbow.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A pretty, heart-shaped scale that is\nextremely rare. It glows faintly in the\ncolors of the rainbow.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A pretty, heart-shaped scale that is\nextremely rare. It glows faintly in the\ncolors of the rainbow.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A pretty, heart-shaped scale that\nis extremely rare. It glows faintly\nin the colors of a rainbow.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A lovely scale.\nIt is coveted by\ncollectors.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A lovely scale.\nIt is coveted by\ncollectors.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 93,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 93,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 93,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 111,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Heart Scale",
+      "language": "en"
+    },
+    {
+      "name": "Squama Cuore",
+      "language": "it"
+    },
+    {
+      "name": "Escama Corazón",
+      "language": "es"
+    },
+    {
+      "name": "Herzschuppe",
+      "language": "de"
+    },
+    {
+      "name": "Écaille Cœur",
+      "language": "fr"
+    },
+    {
+      "name": "하트비늘",
+      "language": "ko"
+    },
+    {
+      "name": "ハートのウロコ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "luvdisc"
+      },
+      "version_details": [
+        {
+          "rarity": 50,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "firered"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 50,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

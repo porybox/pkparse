@@ -1,1 +1,125 @@
-{"id":520,"name":"tranquill","order":521,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":15,"pokedex":{"name":"updated-unova"}},{"entry_number":26,"pokedex":{"name":"original-unova"}},{"entry_number":520,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"flying"}],"color":{"name":"gray"},"shape":{"name":"wings"},"evolves_from_species":{"name":"pidove"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-v"},"names":[{"name":"ハトーボー","language":"ja"},{"name":"유토브","language":"ko"},{"name":"Colombeau","language":"fr"},{"name":"Navitaub","language":"de"},{"name":"Tranquill","language":"es"},{"name":"Tranquill","language":"it"},{"name":"Tranquill","language":"en"}],"pal_park_encounters":[],"form_descriptions":[],"genera":[{"genus":"のばと","language":"ja"},{"genus":"들비둘기","language":"ko"},{"genus":"Sauvapigeon","language":"fr"},{"genus":"Wildtaube","language":"de"},{"genus":"Torcaz","language":"es"},{"genus":"Granpiccione","language":"it"},{"genus":"Wild Pigeon","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"tranquill"}}],"first_evolution_id":519}
+{
+  "id": 520,
+  "name": "tranquill",
+  "order": 521,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 15,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 26,
+      "pokedex": {
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 520,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "flying"
+    }
+  ],
+  "color": {
+    "name": "gray"
+  },
+  "shape": {
+    "name": "wings"
+  },
+  "evolves_from_species": {
+    "name": "pidove"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "ハトーボー",
+      "language": "ja"
+    },
+    {
+      "name": "유토브",
+      "language": "ko"
+    },
+    {
+      "name": "Colombeau",
+      "language": "fr"
+    },
+    {
+      "name": "Navitaub",
+      "language": "de"
+    },
+    {
+      "name": "Tranquill",
+      "language": "es"
+    },
+    {
+      "name": "Tranquill",
+      "language": "it"
+    },
+    {
+      "name": "Tranquill",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "のばと",
+      "language": "ja"
+    },
+    {
+      "genus": "들비둘기",
+      "language": "ko"
+    },
+    {
+      "genus": "Sauvapigeon",
+      "language": "fr"
+    },
+    {
+      "genus": "Wildtaube",
+      "language": "de"
+    },
+    {
+      "genus": "Torcaz",
+      "language": "es"
+    },
+    {
+      "genus": "Granpiccione",
+      "language": "it"
+    },
+    {
+      "genus": "Wild Pigeon",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "tranquill"
+      }
+    }
+  ],
+  "first_evolution_id": 519
+}

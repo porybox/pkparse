@@ -1,1 +1,170 @@
-{"id":367,"name":"tm63","cost":2000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Embargo to a compatible Pokémon.","short_effect":"Teaches Embargo to a compatible Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"持たせた　道具を　使えなくする。\nトレーナーも　その　ポケモンには\n道具を　使えない。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"This move prevents the target from\nusing its held item. Its Trainer is\nalso prevented from using items on it.","version_group":{"name":"x-y"},"language":"en"},{"text":"Impedisce al nemico di usare il suo strumento\ne al suo Allenatore di usarne altri sul Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"text":"Arroja grandes rocas para infligir daño. También\npuede hacer retroceder al objetivo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Verhindert, dass auf das Ziel Items verwendet\nwerden.","version_group":{"name":"x-y"},"language":"de"},{"text":"Empêche l’ennemi d’utiliser un objet tenu et\nson Dresseur d’utiliser un objet sur lui.","version_group":{"name":"x-y"},"language":"fr"},{"text":"지니게 한 도구를 쓸 수 없게 한다.\n트레이너도 그 포켓몬에게는\n도구를 쓸 수 없다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"もたせた　どうぐを　つかえなくする。\nトレーナーも　その　ポケモンには\nどうぐを　つかうことが　できない。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It prevents the target from using its\nheld item. Its Trainer is also prevented\nfrom using items on it.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It prevents the target from using its\nheld item. Its Trainer is also prevented\nfrom using items on it.","version_group":{"name":"black-white"},"language":"en"},{"text":"Empêche l’ennemi d’utiliser un objet\ntenu et son Dresseur d’utiliser un\nobjet sur lui.","version_group":{"name":"black-white"},"language":"fr"},{"text":"It prevents the foe from using its\nheld item. Its Trainer is also\nprevented from using items on it.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"It prevents the foe from using its\nheld item. Its Trainer is also\nprevented from using items on it.","version_group":{"name":"platinum"},"language":"en"},{"text":"It prevents the foe from using its\nheld item. Its Trainer is also\nprevented from using items on it.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":390,"generation":{"name":"generation-vi"}},{"game_index":390,"generation":{"name":"generation-v"}},{"game_index":390,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM63","language":"en"},{"name":"MT63","language":"it"},{"name":"MT63","language":"es"},{"name":"TM63","language":"de"},{"name":"CT63","language":"fr"},{"name":"기술머신63","language":"ko"},{"name":"わざマシン６３","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 367,
+  "name": "tm63",
+  "cost": 2000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Embargo to a compatible Pokémon.",
+      "short_effect": "Teaches Embargo to a compatible Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "持たせた　道具を　使えなくする。\nトレーナーも　その　ポケモンには\n道具を　使えない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "This move prevents the target from\nusing its held item. Its Trainer is\nalso prevented from using items on it.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Impedisce al nemico di usare il suo strumento\ne al suo Allenatore di usarne altri sul Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Arroja grandes rocas para infligir daño. También\npuede hacer retroceder al objetivo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Verhindert, dass auf das Ziel Items verwendet\nwerden.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Empêche l’ennemi d’utiliser un objet tenu et\nson Dresseur d’utiliser un objet sur lui.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "지니게 한 도구를 쓸 수 없게 한다.\n트레이너도 그 포켓몬에게는\n도구를 쓸 수 없다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "もたせた　どうぐを　つかえなくする。\nトレーナーも　その　ポケモンには\nどうぐを　つかうことが　できない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It prevents the target from using its\nheld item. Its Trainer is also prevented\nfrom using items on it.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It prevents the target from using its\nheld item. Its Trainer is also prevented\nfrom using items on it.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Empêche l’ennemi d’utiliser un objet\ntenu et son Dresseur d’utiliser un\nobjet sur lui.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "It prevents the foe from using its\nheld item. Its Trainer is also\nprevented from using items on it.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It prevents the foe from using its\nheld item. Its Trainer is also\nprevented from using items on it.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It prevents the foe from using its\nheld item. Its Trainer is also\nprevented from using items on it.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 390,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 390,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 390,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM63",
+      "language": "en"
+    },
+    {
+      "name": "MT63",
+      "language": "it"
+    },
+    {
+      "name": "MT63",
+      "language": "es"
+    },
+    {
+      "name": "TM63",
+      "language": "de"
+    },
+    {
+      "name": "CT63",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신63",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン６３",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

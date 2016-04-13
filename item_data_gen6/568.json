@@ -1,1 +1,143 @@
-{"id":609,"name":"genius-wing","cost":3000,"fling_power":20,"fling_effect":null,"attributes":[],"category":{"name":"vitamins"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Increases the target's [Special Attack]{mechanic:special-attack} [effort]{mechanic:effort} by 1.","short_effect":"Increases [Special Attack]{mechanic:special-attack} [effort]{mechanic:effort} by 1.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンに　使う　道具。\nポケモン　１匹の　特攻の\n基礎ポイントを　ちょっと　あげる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item for use on a Pokémon.\nIt slightly increases the base Sp. Atk\nstat of a single Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da usare su un Pokémon.\nNe aumenta di poco i punti base dell’Attacco\nSpeciale.","version_group":{"name":"x-y"},"language":"it"},{"text":"Jarrón de más de 3000 años de antigüedad.\nMuy valorado por los coleccionistas.","version_group":{"name":"x-y"},"language":"es"},{"text":"Schenkt man einem Pokémon dieses Item, wird\ndessen Spezial-Angriffs-Basiswert dauerhaft\nerhöht.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à utiliser sur un Pokémon.\nIl augmente un peu son Attaque Spéciale\nde base.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬에게 사용하는 도구.\n포켓몬 1마리의 특수공격\n기초 포인트를 조금 올린다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンに　つかう　どうぐ。\nポケモン　１ひきの　とくこうの\nきそポイントを　ちょっと　あげる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item for use on a Pokémon. It\nslightly increases the base Sp. Atk\nstat of a single Pokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item for use on a Pokémon. It\nslightly increases the base Sp. Atk\nstat of a single Pokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à utiliser sur un Pokémon.\nIl augmente un peu son Atq. Spé.\nlors d’une montée de niveau.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":568,"generation":{"name":"generation-vi"}},{"game_index":568,"generation":{"name":"generation-v"}}],"names":[{"name":"Genius Wing","language":"en"},{"name":"Piumingegno","language":"it"},{"name":"Pluma Intelecto","language":"es"},{"name":"Geniefeder","language":"de"},{"name":"Aile Esprit","language":"fr"},{"name":"지력날개","language":"ko"},{"name":"ちりょくのハネ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 609,
+  "name": "genius-wing",
+  "cost": 3000,
+  "fling_power": 20,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "vitamins"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Increases the target's [Special Attack]{mechanic:special-attack} [effort]{mechanic:effort} by 1.",
+      "short_effect": "Increases [Special Attack]{mechanic:special-attack} [effort]{mechanic:effort} by 1.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンに　使う　道具。\nポケモン　１匹の　特攻の\n基礎ポイントを　ちょっと　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item for use on a Pokémon.\nIt slightly increases the base Sp. Atk\nstat of a single Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da usare su un Pokémon.\nNe aumenta di poco i punti base dell’Attacco\nSpeciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Jarrón de más de 3000 años de antigüedad.\nMuy valorado por los coleccionistas.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Schenkt man einem Pokémon dieses Item, wird\ndessen Spezial-Angriffs-Basiswert dauerhaft\nerhöht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à utiliser sur un Pokémon.\nIl augmente un peu son Attaque Spéciale\nde base.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬에게 사용하는 도구.\n포켓몬 1마리의 특수공격\n기초 포인트를 조금 올린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンに　つかう　どうぐ。\nポケモン　１ひきの　とくこうの\nきそポイントを　ちょっと　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item for use on a Pokémon. It\nslightly increases the base Sp. Atk\nstat of a single Pokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item for use on a Pokémon. It\nslightly increases the base Sp. Atk\nstat of a single Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à utiliser sur un Pokémon.\nIl augmente un peu son Atq. Spé.\nlors d’une montée de niveau.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 568,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 568,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Genius Wing",
+      "language": "en"
+    },
+    {
+      "name": "Piumingegno",
+      "language": "it"
+    },
+    {
+      "name": "Pluma Intelecto",
+      "language": "es"
+    },
+    {
+      "name": "Geniefeder",
+      "language": "de"
+    },
+    {
+      "name": "Aile Esprit",
+      "language": "fr"
+    },
+    {
+      "name": "지력날개",
+      "language": "ko"
+    },
+    {
+      "name": "ちりょくのハネ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

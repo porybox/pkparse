@@ -1,1 +1,85 @@
-{"id":215,"name":"heal-bell","accuracy":null,"effect_chance":null,"pp":5,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"beauty"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Removes [major status effects]{mechanic:major-status-effects} and [confusion]{mechanic:confusion} from every Pokémon in the user's party.","short_effect":"Cures the entire party of major status effects.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Heal Bell","language":"en"},{"name":"Rintoccasana","language":"it"},{"name":"Campana Cura","language":"es"},{"name":"Vitalglocke","language":"de"},{"name":"Glas de Soin","language":"fr"},{"name":"치료방울","language":"ko"},{"name":"いやしのすず","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"user-and-allies"},"type":{"name":"normal"}}
+{
+  "id": 215,
+  "name": "heal-bell",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 5,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Removes [major status effects]{mechanic:major-status-effects} and [confusion]{mechanic:confusion} from every Pokémon in the user's party.",
+      "short_effect": "Cures the entire party of major status effects.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Heal Bell",
+      "language": "en"
+    },
+    {
+      "name": "Rintoccasana",
+      "language": "it"
+    },
+    {
+      "name": "Campana Cura",
+      "language": "es"
+    },
+    {
+      "name": "Vitalglocke",
+      "language": "de"
+    },
+    {
+      "name": "Glas de Soin",
+      "language": "fr"
+    },
+    {
+      "name": "치료방울",
+      "language": "ko"
+    },
+    {
+      "name": "いやしのすず",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user-and-allies"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

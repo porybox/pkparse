@@ -1,1 +1,171 @@
-{"id":74,"name":"geodude","order":80,"gender_rate":4,"capture_rate":255,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":9,"pokedex":{"name":"kalos-mountain"}},{"entry_number":34,"pokedex":{"name":"updated-johto"}},{"entry_number":31,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":31,"pokedex":{"name":"original-sinnoh"}},{"entry_number":57,"pokedex":{"name":"hoenn"}},{"entry_number":34,"pokedex":{"name":"original-johto"}},{"entry_number":74,"pokedex":{"name":"kanto"}},{"entry_number":74,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"mineral"}],"color":{"name":"brown"},"shape":{"name":"arms"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-i"},"names":[{"name":"イシツブテ","language":"ja"},{"name":"Isitsubute","language":"roomaji"},{"name":"꼬마돌","language":"ko"},{"name":"小拳石","language":"zh"},{"name":"Racaillou","language":"fr"},{"name":"Kleinstein","language":"de"},{"name":"Geodude","language":"es"},{"name":"Geodude","language":"it"},{"name":"Geodude","language":"en"}],"pal_park_encounters":[{"base_score":30,"rate":50,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"がんせき","language":"ja"},{"genus":"암석","language":"ko"},{"genus":"Roche","language":"fr"},{"genus":"Gestein","language":"de"},{"genus":"Roca","language":"es"},{"genus":"Roccia","language":"it"},{"genus":"Rock","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"geodude"}}],"first_evolution_id":74}
+{
+  "id": 74,
+  "name": "geodude",
+  "order": 80,
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 9,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 34,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 31,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 31,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 57,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 34,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 74,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 74,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "mineral"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "arms"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "イシツブテ",
+      "language": "ja"
+    },
+    {
+      "name": "Isitsubute",
+      "language": "roomaji"
+    },
+    {
+      "name": "꼬마돌",
+      "language": "ko"
+    },
+    {
+      "name": "小拳石",
+      "language": "zh"
+    },
+    {
+      "name": "Racaillou",
+      "language": "fr"
+    },
+    {
+      "name": "Kleinstein",
+      "language": "de"
+    },
+    {
+      "name": "Geodude",
+      "language": "es"
+    },
+    {
+      "name": "Geodude",
+      "language": "it"
+    },
+    {
+      "name": "Geodude",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 30,
+      "rate": 50,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "がんせき",
+      "language": "ja"
+    },
+    {
+      "genus": "암석",
+      "language": "ko"
+    },
+    {
+      "genus": "Roche",
+      "language": "fr"
+    },
+    {
+      "genus": "Gestein",
+      "language": "de"
+    },
+    {
+      "genus": "Roca",
+      "language": "es"
+    },
+    {
+      "genus": "Roccia",
+      "language": "it"
+    },
+    {
+      "genus": "Rock",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "geodude"
+      }
+    }
+  ],
+  "first_evolution_id": 74
+}

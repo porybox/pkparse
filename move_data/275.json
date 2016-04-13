@@ -1,1 +1,85 @@
-{"id":275,"name":"ingrain","accuracy":null,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Prevents the user from [switching out]{mechanic:switching-out}.  User regains 1/16 of its max [HP]{mechanic:hp} at the end of every turn.  If the user was immune to []{type:ground} attacks, it will now take normal damage from them.\n\n[]{move:roar} and []{move:whirlwind} will not affect the user.  The user cannot use []{move:magnet-rise}.\n\nThe user may still use []{move:u-turn} to leave the [field]{mechanic:field}.\n\nThis effect can be passed with []{move:baton-pass}.","short_effect":"Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"ingrain"},"category":{"name":"ailment"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Ingrain","language":"en"},{"name":"Radicamento","language":"it"},{"name":"Arraigo","language":"es"},{"name":"Verwurzler","language":"de"},{"name":"Racines","language":"fr"},{"name":"뿌리박기","language":"ko"},{"name":"ねをはる","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"grass"}}
+{
+  "id": 275,
+  "name": "ingrain",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Prevents the user from [switching out]{mechanic:switching-out}.  User regains 1/16 of its max [HP]{mechanic:hp} at the end of every turn.  If the user was immune to []{type:ground} attacks, it will now take normal damage from them.\n\n[]{move:roar} and []{move:whirlwind} will not affect the user.  The user cannot use []{move:magnet-rise}.\n\nThe user may still use []{move:u-turn} to leave the [field]{mechanic:field}.\n\nThis effect can be passed with []{move:baton-pass}.",
+      "short_effect": "Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "ingrain"
+    },
+    "category": {
+      "name": "ailment"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Ingrain",
+      "language": "en"
+    },
+    {
+      "name": "Radicamento",
+      "language": "it"
+    },
+    {
+      "name": "Arraigo",
+      "language": "es"
+    },
+    {
+      "name": "Verwurzler",
+      "language": "de"
+    },
+    {
+      "name": "Racines",
+      "language": "fr"
+    },
+    {
+      "name": "뿌리박기",
+      "language": "ko"
+    },
+    {
+      "name": "ねをはる",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "grass"
+  }
+}

@@ -1,1 +1,163 @@
-{"id":444,"name":"gracidea","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"event-items"},"effect_entries":[{"effect":"Used by trainer on a []{pokemon:shaymin}\n:   Changes the target Shaymin from Land Forme to Sky Forme.\n\n    This item cannot be used on a [frozen]{mechanic:freezing} Shaymin or at night.  Sky Forme Shaymin will revert to Land Forme overnight, when frozen, and upon entering a link battle.  This item must be used again to change it back.","short_effect":"Changes an unfrozen Shaymin to Sky Forme in the day.","language":"en"}],"flavor_text_entries":[{"text":"誕生日や　記念日などに\n感謝の　気持ちを　伝えるため\nブーケにして　贈ることが　ある。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A flower sometimes bundled in\nbouquets to convey gratitude on\nspecial occasions like birthdays.","version_group":{"name":"x-y"},"language":"en"},{"text":"Un fiore, a volte offerto in bouquet, che\nesprime gratitudine in occasioni particolari,\ncome i compleanni.","version_group":{"name":"x-y"},"language":"it"},{"text":"Bonguri de color rojo y aroma muy penetrante.","version_group":{"name":"x-y"},"language":"es"},{"text":"Mit dieser Blume, manchmal auch als Teil eines\nBouquets, kann man an speziellen Tagen seine\nDankbarkeit ausdrücken.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une fleur que l’on offre en gage de\nreconnaissance, notamment à l’occasion\nd’un anniversaire.","version_group":{"name":"x-y"},"language":"fr"},{"text":"생일이나 기념일 등에\n감사의 마음을 전하기 위해\n부케로 만들어 보내는 일이 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"たんじょうびや　きねんび　などに\nかんしゃの　きもちを　つたえるため\nブーケにして　おくることが　ある。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A flower sometimes bundled in bouquets\nto convey gratitude on special\noccasions like birthdays.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A flower sometimes bundled in bouquets\nto convey gratitude on special\noccasions like birthdays.","version_group":{"name":"black-white"},"language":"en"},{"text":"Fleur que l’on offre en gage de\nreconnaissance, notamment à\nl’occasion d’un anniversaire.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A flower sometimes bundled in bouquets\nto convey gratitude on special\noccasions like birthdays.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A flower sometimes bundled in bouquets\nto convey gratitude on special\noccasions like birthdays.","version_group":{"name":"platinum"},"language":"en"}],"game_indices":[{"game_index":466,"generation":{"name":"generation-vi"}},{"game_index":466,"generation":{"name":"generation-v"}},{"game_index":466,"generation":{"name":"generation-iv"}}],"names":[{"name":"Gracidea","language":"en"},{"name":"Gracidea","language":"it"},{"name":"Gracídea","language":"es"},{"name":"Gracidea","language":"de"},{"name":"Gracidée","language":"fr"},{"name":"그라시데아꽃","language":"ko"},{"name":"グラシデアのはな","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 444,
+  "name": "gracidea",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "event-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used by trainer on a []{pokemon:shaymin}\n:   Changes the target Shaymin from Land Forme to Sky Forme.\n\n    This item cannot be used on a [frozen]{mechanic:freezing} Shaymin or at night.  Sky Forme Shaymin will revert to Land Forme overnight, when frozen, and upon entering a link battle.  This item must be used again to change it back.",
+      "short_effect": "Changes an unfrozen Shaymin to Sky Forme in the day.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "誕生日や　記念日などに\n感謝の　気持ちを　伝えるため\nブーケにして　贈ることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A flower sometimes bundled in\nbouquets to convey gratitude on\nspecial occasions like birthdays.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un fiore, a volte offerto in bouquet, che\nesprime gratitudine in occasioni particolari,\ncome i compleanni.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Bonguri de color rojo y aroma muy penetrante.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Mit dieser Blume, manchmal auch als Teil eines\nBouquets, kann man an speziellen Tagen seine\nDankbarkeit ausdrücken.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une fleur que l’on offre en gage de\nreconnaissance, notamment à l’occasion\nd’un anniversaire.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "생일이나 기념일 등에\n감사의 마음을 전하기 위해\n부케로 만들어 보내는 일이 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "たんじょうびや　きねんび　などに\nかんしゃの　きもちを　つたえるため\nブーケにして　おくることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A flower sometimes bundled in bouquets\nto convey gratitude on special\noccasions like birthdays.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A flower sometimes bundled in bouquets\nto convey gratitude on special\noccasions like birthdays.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Fleur que l’on offre en gage de\nreconnaissance, notamment à\nl’occasion d’un anniversaire.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A flower sometimes bundled in bouquets\nto convey gratitude on special\noccasions like birthdays.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A flower sometimes bundled in bouquets\nto convey gratitude on special\noccasions like birthdays.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 466,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 466,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 466,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Gracidea",
+      "language": "en"
+    },
+    {
+      "name": "Gracidea",
+      "language": "it"
+    },
+    {
+      "name": "Gracídea",
+      "language": "es"
+    },
+    {
+      "name": "Gracidea",
+      "language": "de"
+    },
+    {
+      "name": "Gracidée",
+      "language": "fr"
+    },
+    {
+      "name": "그라시데아꽃",
+      "language": "ko"
+    },
+    {
+      "name": "グラシデアのはな",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

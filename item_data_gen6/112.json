@@ -1,1 +1,163 @@
-{"id":442,"name":"griseous-orb","cost":10000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"species-specific"},"effect_entries":[{"effect":"Held by []{pokemon:giratina}\n:   Holder's []{type:dragon} and []{type:ghost} moves have 1.2× their base power.\n\n    Holder is in Origin Forme.\n\nThis item cannot be held by any Pokémon but Giratina.  When you enter the Union Room or connect to Wi-Fi, this item returns to your bag.","short_effect":"Boosts the damage from Giratina's Dragon-type and Ghost-type moves by 20%, and transforms it into Origin Forme.","language":"en"}],"flavor_text_entries":[{"text":"ギラティナに　持たせると　ドラゴンと\nゴーストタイプの　技の　威力が\nあがる　光り　輝く　珠。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A glowing orb to be held by Giratina.\nIt boosts the power of Dragon- and\nGhost-type moves when it is held.","version_group":{"name":"x-y"},"language":"en"},{"text":"Poliedro splendente da dare a Giratina.\nAumenta la potenza delle mosse di tipo Drago\ne Spettro.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una esfera brillante que potencia los movimientos\nde tipo Dragón y Fantasma. Debe llevarla Giratina.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein glühender Orb. Verstärkt Attacken vom Typ\nDrache und Geist, wenn Giratina ihn trägt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un mystérieux objet destiné à Giratina.\nAméliore les capacités de type Dragon\net Spectre.","version_group":{"name":"x-y"},"language":"fr"},{"text":"기라티나에게 지니게 하면 드래곤과\n고스트타입 기술의 위력이 올라가는\n반짝반짝 빛나는 구슬.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ギラティナに　もたせると　ドラゴンと\nゴーストタイプの　わざの　いりょくが\nあがる　ひかり　かがやく　たま。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A glowing orb to be held by Giratina.\nIt boosts the power of Dragon- and\nGhost-type moves.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A glowing orb to be held by Giratina.\nIt boosts the power of Dragon- and\nGhost-type moves.","version_group":{"name":"black-white"},"language":"en"},{"text":"Mystérieux objet destiné à Giratina.\nAméliore les capacités de type Dragon\net Spectre.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A glowing orb to be held by GIRATINA.\nIt boosts the power of Dragon- and\nGhost-type moves.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A glowing orb to be held by GIRATINA.\nIt boosts the power of Dragon- and\nGhost-type moves.","version_group":{"name":"platinum"},"language":"en"}],"game_indices":[{"game_index":112,"generation":{"name":"generation-vi"}},{"game_index":112,"generation":{"name":"generation-v"}},{"game_index":112,"generation":{"name":"generation-iv"}}],"names":[{"name":"Griseous Orb","language":"en"},{"name":"Grigiosfera","language":"it"},{"name":"Griseosfera","language":"es"},{"name":"Platinum-Orb","language":"de"},{"name":"Orbe Platiné","language":"fr"},{"name":"백금옥","language":"ko"},{"name":"はっきんだま","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 442,
+  "name": "griseous-orb",
+  "cost": 10000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "species-specific"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by []{pokemon:giratina}\n:   Holder's []{type:dragon} and []{type:ghost} moves have 1.2× their base power.\n\n    Holder is in Origin Forme.\n\nThis item cannot be held by any Pokémon but Giratina.  When you enter the Union Room or connect to Wi-Fi, this item returns to your bag.",
+      "short_effect": "Boosts the damage from Giratina's Dragon-type and Ghost-type moves by 20%, and transforms it into Origin Forme.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ギラティナに　持たせると　ドラゴンと\nゴーストタイプの　技の　威力が\nあがる　光り　輝く　珠。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A glowing orb to be held by Giratina.\nIt boosts the power of Dragon- and\nGhost-type moves when it is held.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Poliedro splendente da dare a Giratina.\nAumenta la potenza delle mosse di tipo Drago\ne Spettro.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una esfera brillante que potencia los movimientos\nde tipo Dragón y Fantasma. Debe llevarla Giratina.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein glühender Orb. Verstärkt Attacken vom Typ\nDrache und Geist, wenn Giratina ihn trägt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un mystérieux objet destiné à Giratina.\nAméliore les capacités de type Dragon\net Spectre.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "기라티나에게 지니게 하면 드래곤과\n고스트타입 기술의 위력이 올라가는\n반짝반짝 빛나는 구슬.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ギラティナに　もたせると　ドラゴンと\nゴーストタイプの　わざの　いりょくが\nあがる　ひかり　かがやく　たま。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A glowing orb to be held by Giratina.\nIt boosts the power of Dragon- and\nGhost-type moves.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A glowing orb to be held by Giratina.\nIt boosts the power of Dragon- and\nGhost-type moves.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Mystérieux objet destiné à Giratina.\nAméliore les capacités de type Dragon\net Spectre.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A glowing orb to be held by GIRATINA.\nIt boosts the power of Dragon- and\nGhost-type moves.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A glowing orb to be held by GIRATINA.\nIt boosts the power of Dragon- and\nGhost-type moves.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 112,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 112,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 112,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Griseous Orb",
+      "language": "en"
+    },
+    {
+      "name": "Grigiosfera",
+      "language": "it"
+    },
+    {
+      "name": "Griseosfera",
+      "language": "es"
+    },
+    {
+      "name": "Platinum-Orb",
+      "language": "de"
+    },
+    {
+      "name": "Orbe Platiné",
+      "language": "fr"
+    },
+    {
+      "name": "백금옥",
+      "language": "ko"
+    },
+    {
+      "name": "はっきんだま",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

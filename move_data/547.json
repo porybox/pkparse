@@ -1,1 +1,83 @@
-{"id":547,"name":"relic-song","accuracy":100,"effect_chance":10,"pp":10,"priority":0,"power":75,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to put the target to [sleep]{mechanic:sleep}.\nIf the user is a []{pokemon:meloetta}, it will toggle between Aria and Pirouette Forme.","short_effect":"Has a $effect_chance% chance to put the target to sleep.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"sleep"},"category":{"name":"damage+ailment"},"min_hits":null,"max_hits":null,"min_turns":2,"max_turns":4,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":10,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Relic Song","language":"en"},{"name":"Cantoantico","language":"it"},{"name":"Canto Arcaico","language":"es"},{"name":"Urgesang","language":"de"},{"name":"Chant Antique","language":"fr"},{"name":"옛노래","language":"ko"},{"name":"いにしえのうた","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"all-opponents"},"type":{"name":"normal"}}
+{
+  "id": 547,
+  "name": "relic-song",
+  "accuracy": 100,
+  "effect_chance": 10,
+  "pp": 10,
+  "priority": 0,
+  "power": 75,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to put the target to [sleep]{mechanic:sleep}.\nIf the user is a []{pokemon:meloetta}, it will toggle between Aria and Pirouette Forme.",
+      "short_effect": "Has a $effect_chance% chance to put the target to sleep.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "sleep"
+    },
+    "category": {
+      "name": "damage+ailment"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": 2,
+    "max_turns": 4,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 10,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Relic Song",
+      "language": "en"
+    },
+    {
+      "name": "Cantoantico",
+      "language": "it"
+    },
+    {
+      "name": "Canto Arcaico",
+      "language": "es"
+    },
+    {
+      "name": "Urgesang",
+      "language": "de"
+    },
+    {
+      "name": "Chant Antique",
+      "language": "fr"
+    },
+    {
+      "name": "옛노래",
+      "language": "ko"
+    },
+    {
+      "name": "いにしえのうた",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "all-opponents"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

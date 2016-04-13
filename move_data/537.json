@@ -1,1 +1,95 @@
-{"id":537,"name":"steamroller","accuracy":100,"effect_chance":30,"pp":20,"priority":0,"power":65,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target [flinch]{mechanic:flinch}.\n\nPower is doubled against Pokémon that have used []{move:minimize} since entering the [field]{mechanic:field}.","short_effect":"Has a $effect_chance% chance to make the target flinch.","language":"en"}],"effect_changes":[{"version_group":{"name":"gold-silver"},"effect_entries":[{"effect":"Does not interact with []{move:minimize}.","language":"en"}]}],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":30,"stat_chance":0},"names":[{"name":"Steamroller","language":"en"},{"name":"Rulloduro","language":"it"},{"name":"Rodillo de Púas","language":"es"},{"name":"Quetschwalze","language":"de"},{"name":"Bulldoboule","language":"fr"},{"name":"하드롤러","language":"ko"},{"name":"ハードローラー","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"bug"}}
+{
+  "id": 537,
+  "name": "steamroller",
+  "accuracy": 100,
+  "effect_chance": 30,
+  "pp": 20,
+  "priority": 0,
+  "power": 65,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target [flinch]{mechanic:flinch}.\n\nPower is doubled against Pokémon that have used []{move:minimize} since entering the [field]{mechanic:field}.",
+      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "gold-silver"
+      },
+      "effect_entries": [
+        {
+          "effect": "Does not interact with []{move:minimize}.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 30,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Steamroller",
+      "language": "en"
+    },
+    {
+      "name": "Rulloduro",
+      "language": "it"
+    },
+    {
+      "name": "Rodillo de Púas",
+      "language": "es"
+    },
+    {
+      "name": "Quetschwalze",
+      "language": "de"
+    },
+    {
+      "name": "Bulldoboule",
+      "language": "fr"
+    },
+    {
+      "name": "하드롤러",
+      "language": "ko"
+    },
+    {
+      "name": "ハードローラー",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "bug"
+  }
+}

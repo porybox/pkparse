@@ -1,1 +1,85 @@
-{"id":293,"name":"camouflage","accuracy":null,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"smart"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"User's type changes according to the terrain.\n\nTerrain        | New type\n-------------- | --------------\nBuilding       | []{type:normal}\nCave           | []{type:rock}\nDesert         | []{type:ground}\nGrass          | []{type:grass}\nMountain       | []{type:rock}\nOcean          | []{type:water}\nPond           | []{type:water}\nRoad           | []{type:ground}\nSnow           | []{type:ice}\nTall grass     | []{type:grass}\n\nIn Pokémon Battle Revolution:\n\nTerrain        | New type\n-------------- | --------------\nCourtyard      | []{type:normal}\nCrystal        | []{type:rock}\nGateway        | []{type:water}\nMagma          | []{type:rock}\nMain Street    | []{type:normal}\nNeon           | []{type:normal}\nStargazer      | []{type:rock}\nSunny Park     | []{type:grass}\nSunset         | []{type:ground}\nWaterfall      | []{type:grass}\n","short_effect":"User's type changes to match the terrain.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Camouflage","language":"en"},{"name":"Camuffamento","language":"it"},{"name":"Camuflaje","language":"es"},{"name":"Tarnung","language":"de"},{"name":"Camouflage","language":"fr"},{"name":"보호색","language":"ko"},{"name":"ほごしょく","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"normal"}}
+{
+  "id": 293,
+  "name": "camouflage",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "smart"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "User's type changes according to the terrain.\n\nTerrain        | New type\n-------------- | --------------\nBuilding       | []{type:normal}\nCave           | []{type:rock}\nDesert         | []{type:ground}\nGrass          | []{type:grass}\nMountain       | []{type:rock}\nOcean          | []{type:water}\nPond           | []{type:water}\nRoad           | []{type:ground}\nSnow           | []{type:ice}\nTall grass     | []{type:grass}\n\nIn Pokémon Battle Revolution:\n\nTerrain        | New type\n-------------- | --------------\nCourtyard      | []{type:normal}\nCrystal        | []{type:rock}\nGateway        | []{type:water}\nMagma          | []{type:rock}\nMain Street    | []{type:normal}\nNeon           | []{type:normal}\nStargazer      | []{type:rock}\nSunny Park     | []{type:grass}\nSunset         | []{type:ground}\nWaterfall      | []{type:grass}\n",
+      "short_effect": "User's type changes to match the terrain.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Camouflage",
+      "language": "en"
+    },
+    {
+      "name": "Camuffamento",
+      "language": "it"
+    },
+    {
+      "name": "Camuflaje",
+      "language": "es"
+    },
+    {
+      "name": "Tarnung",
+      "language": "de"
+    },
+    {
+      "name": "Camouflage",
+      "language": "fr"
+    },
+    {
+      "name": "보호색",
+      "language": "ko"
+    },
+    {
+      "name": "ほごしょく",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

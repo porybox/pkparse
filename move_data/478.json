@@ -1,1 +1,83 @@
-{"id":478,"name":"magic-room","accuracy":null,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"For five turns (including this one), passive effects of held items are ignored, and Pokémon will not use their held items.","short_effect":"Negates held items for five turns.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"whole-field-effect"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Magic Room","language":"en"},{"name":"Magicozona","language":"it"},{"name":"Zona Mágica","language":"es"},{"name":"Magieraum","language":"de"},{"name":"Zone Magique","language":"fr"},{"name":"매직룸","language":"ko"},{"name":"マジックルーム","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":null,"target":{"name":"entire-field"},"type":{"name":"psychic"}}
+{
+  "id": 478,
+  "name": "magic-room",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "For five turns (including this one), passive effects of held items are ignored, and Pokémon will not use their held items.",
+      "short_effect": "Negates held items for five turns.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "whole-field-effect"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Magic Room",
+      "language": "en"
+    },
+    {
+      "name": "Magicozona",
+      "language": "it"
+    },
+    {
+      "name": "Zona Mágica",
+      "language": "es"
+    },
+    {
+      "name": "Magieraum",
+      "language": "de"
+    },
+    {
+      "name": "Zone Magique",
+      "language": "fr"
+    },
+    {
+      "name": "매직룸",
+      "language": "ko"
+    },
+    {
+      "name": "マジックルーム",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": null,
+  "target": {
+    "name": "entire-field"
+  },
+  "type": {
+    "name": "psychic"
+  }
+}

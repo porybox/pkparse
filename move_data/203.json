@@ -1,1 +1,113 @@
-{"id":203,"name":"endure","accuracy":null,"effect_chance":null,"pp":10,"priority":4,"power":null,"contest_combos":{"normal":{"use_before":[{"name":"flail"},{"name":"reversal"},{"name":"destiny-bond"},{"name":"pain-split"},{"name":"endeavor"},{"name":"eruption"}],"use_after":null},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"tough"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"The user's [HP]{mechanic:hp} cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used []{move:detect}, []{move:endure}, []{move:protect}, []{move:quick-guard}, or []{move:wide-guard} on the last turn, this move has a 50% chance to [fail]{mechanic:fail}.\n\nThis move cannot be selected by []{move:assist} or []{move:metronome}.","short_effect":"Prevents the user's HP from lowering below 1 this turn.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Endure","language":"en"},{"name":"Resistenza","language":"it"},{"name":"Aguante","language":"es"},{"name":"Ausdauer","language":"de"},{"name":"Ténacité","language":"fr"},{"name":"버티기","language":"ko"},{"name":"こらえる","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"user"},"type":{"name":"normal"}}
+{
+  "id": 203,
+  "name": "endure",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 4,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "flail"
+        },
+        {
+          "name": "reversal"
+        },
+        {
+          "name": "destiny-bond"
+        },
+        {
+          "name": "pain-split"
+        },
+        {
+          "name": "endeavor"
+        },
+        {
+          "name": "eruption"
+        }
+      ],
+      "use_after": null
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "The user's [HP]{mechanic:hp} cannot be lowered below 1 by any means for the remainder of this turn.\n\nIf the user successfully used []{move:detect}, []{move:endure}, []{move:protect}, []{move:quick-guard}, or []{move:wide-guard} on the last turn, this move has a 50% chance to [fail]{mechanic:fail}.\n\nThis move cannot be selected by []{move:assist} or []{move:metronome}.",
+      "short_effect": "Prevents the user's HP from lowering below 1 this turn.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Endure",
+      "language": "en"
+    },
+    {
+      "name": "Resistenza",
+      "language": "it"
+    },
+    {
+      "name": "Aguante",
+      "language": "es"
+    },
+    {
+      "name": "Ausdauer",
+      "language": "de"
+    },
+    {
+      "name": "Ténacité",
+      "language": "fr"
+    },
+    {
+      "name": "버티기",
+      "language": "ko"
+    },
+    {
+      "name": "こらえる",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "user"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

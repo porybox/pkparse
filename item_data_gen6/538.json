@@ -1,1 +1,143 @@
-{"id":581,"name":"eviolite","cost":200,"fling_power":40,"fling_effect":null,"attributes":[],"category":{"name":"held-items"},"effect_entries":[{"effect":"Held by a Pokémon that is not fully evolved\n:   Holder has 1.5× [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense}.","short_effect":"Held: Holder has 1.5× Defense and Special Defense, as long as it's not fully evolved.","language":"en"}],"flavor_text_entries":[{"text":"進化の　不思議な　かたまり。\n持たせると　進化前　ポケモンの\n防御と　特防が　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A mysterious Evolutionary lump. When\nheld by a Pokémon that can still evolve,\nit raises both Defense and Sp. Def.","version_group":{"name":"x-y"},"language":"en"},{"text":"Misteriosa sfera evolutiva. Aumenta la Difesa\ne la Difesa Speciale di un Pokémon che può\nancora evolversi.","version_group":{"name":"x-y"},"language":"it"},{"text":"Joya de un solo uso que potencia los\nmovimientos de tipo Psíquico. Debe llevarla\nun Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein mysteriöser Klumpen, der die Verteidigung\nund Spezial-Verteidigung von Pokémon erhöht,\ndie sich noch entwickeln können.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un étrange concentré d’évolution qui augmente\nla Défense et la Défense Spéciale d’un Pokémon\npouvant évoluer.","version_group":{"name":"x-y"},"language":"fr"},{"text":"진화의 이상한 덩어리.\n지니게 하면 진화 전 포켓몬의\n방어와 특수방어가 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"しんかの　ふしぎな　かたまり。\nもたせると　しんかまえ　ポケモンの\nぼうぎょと　とくぼうが　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A mysterious evolutionary lump. When\nheld, it raises the Defense and Sp. Def\nof a Pokémon that can still evolve.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A mysterious evolutionary lump. When\nheld, it raises the Defense and Sp. Def\nof a Pokémon that can still evolve.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un étrange concentré d’évolution qui\naugmente la Défense et la Déf. Spé.\nd’un Pokémon pouvant évoluer.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":538,"generation":{"name":"generation-vi"}},{"game_index":538,"generation":{"name":"generation-v"}}],"names":[{"name":"Eviolite","language":"en"},{"name":"Evolcondensa","language":"it"},{"name":"Mineral Evol","language":"es"},{"name":"Evolith","language":"de"},{"name":"Évoluroc","language":"fr"},{"name":"진화의휘석","language":"ko"},{"name":"しんかのきせき","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 581,
+  "name": "eviolite",
+  "cost": 200,
+  "fling_power": 40,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "held-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held by a Pokémon that is not fully evolved\n:   Holder has 1.5× [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense}.",
+      "short_effect": "Held: Holder has 1.5× Defense and Special Defense, as long as it's not fully evolved.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "進化の　不思議な　かたまり。\n持たせると　進化前　ポケモンの\n防御と　特防が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A mysterious Evolutionary lump. When\nheld by a Pokémon that can still evolve,\nit raises both Defense and Sp. Def.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Misteriosa sfera evolutiva. Aumenta la Difesa\ne la Difesa Speciale di un Pokémon che può\nancora evolversi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Joya de un solo uso que potencia los\nmovimientos de tipo Psíquico. Debe llevarla\nun Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein mysteriöser Klumpen, der die Verteidigung\nund Spezial-Verteidigung von Pokémon erhöht,\ndie sich noch entwickeln können.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un étrange concentré d’évolution qui augmente\nla Défense et la Défense Spéciale d’un Pokémon\npouvant évoluer.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "진화의 이상한 덩어리.\n지니게 하면 진화 전 포켓몬의\n방어와 특수방어가 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "しんかの　ふしぎな　かたまり。\nもたせると　しんかまえ　ポケモンの\nぼうぎょと　とくぼうが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A mysterious evolutionary lump. When\nheld, it raises the Defense and Sp. Def\nof a Pokémon that can still evolve.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A mysterious evolutionary lump. When\nheld, it raises the Defense and Sp. Def\nof a Pokémon that can still evolve.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un étrange concentré d’évolution qui\naugmente la Défense et la Déf. Spé.\nd’un Pokémon pouvant évoluer.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 538,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 538,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Eviolite",
+      "language": "en"
+    },
+    {
+      "name": "Evolcondensa",
+      "language": "it"
+    },
+    {
+      "name": "Mineral Evol",
+      "language": "es"
+    },
+    {
+      "name": "Evolith",
+      "language": "de"
+    },
+    {
+      "name": "Évoluroc",
+      "language": "fr"
+    },
+    {
+      "name": "진화의휘석",
+      "language": "ko"
+    },
+    {
+      "name": "しんかのきせき",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

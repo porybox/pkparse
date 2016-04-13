@@ -1,1 +1,281 @@
-{"id":43,"name":"berry-juice","cost":100,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-overworld"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"healing"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Restores 20 [HP]{mechanic:hp}.","short_effect":"Restores 20 HP.","language":"en"}],"flavor_text_entries":[{"text":"きのみ　１００％の　ジュース。\nポケモン　１匹の　ＨＰを\n２０だけ　回復する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A 100 percent pure juice made of Berries.\nWhen consumed, it restores\n20 HP to an injured Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Bevanda di puro succo di bacche.\nRestituisce 20 PS a un Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"text":"Zumo de bayas 100% natural que restaura 20 PS\nde un Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Hundertprozentiger Fruchtsaft, aus Beeren\ngekeltert. Füllt die KP eines Pokémon\num 20 KP auf.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une boisson 100 % pur Jus de Baie.\nRestaure 20 PV d’un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"나무열매 100% 쥬스.\n포켓몬 1마리의 HP를\n20만큼 회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"きのみ　１００％の　ジュース。\nポケモン　１ひきの　ＨＰを\n２０だけ　かいふくする。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une boisson 100% pur jus de Baies.\nRestaure 20 PV à un Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.","version_group":{"name":"platinum"},"language":"en"},{"text":"A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A 100% pure juice.\nIt restores the HP of one POKéMON\nby 20 points.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A 100% pure juice\nthat restores HP\nby 20 points.","version_group":{"name":"emerald"},"language":"en"},{"text":"A 100% pure juice\nthat restores HP\nby 20 points.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":43,"generation":{"name":"generation-vi"}},{"game_index":43,"generation":{"name":"generation-v"}},{"game_index":43,"generation":{"name":"generation-iv"}},{"game_index":44,"generation":{"name":"generation-iii"}}],"names":[{"name":"Berry Juice","language":"en"},{"name":"Succodibacca","language":"it"},{"name":"Zumo de Baya","language":"es"},{"name":"Beerensaft","language":"de"},{"name":"Jus de Baie","language":"fr"},{"name":"나무열매쥬스","language":"ko"},{"name":"きのみジュース","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"shuckle"},"version_details":[{"rarity":100,"version":{"name":"y"}},{"rarity":100,"version":{"name":"x"}},{"rarity":100,"version":{"name":"white-2"}},{"rarity":100,"version":{"name":"black-2"}},{"rarity":100,"version":{"name":"white"}},{"rarity":100,"version":{"name":"black"}},{"rarity":100,"version":{"name":"soulsilver"}},{"rarity":100,"version":{"name":"heartgold"}},{"rarity":100,"version":{"name":"leafgreen"}},{"rarity":100,"version":{"name":"firered"}}]}],"baby_trigger_for":null}
+{
+  "id": 43,
+  "name": "berry-juice",
+  "cost": 100,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-overworld"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "healing"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Restores 20 [HP]{mechanic:hp}.",
+      "short_effect": "Restores 20 HP.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "きのみ　１００％の　ジュース。\nポケモン　１匹の　ＨＰを\n２０だけ　回復する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A 100 percent pure juice made of Berries.\nWhen consumed, it restores\n20 HP to an injured Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Bevanda di puro succo di bacche.\nRestituisce 20 PS a un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Zumo de bayas 100% natural que restaura 20 PS\nde un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Hundertprozentiger Fruchtsaft, aus Beeren\ngekeltert. Füllt die KP eines Pokémon\num 20 KP auf.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une boisson 100 % pur Jus de Baie.\nRestaure 20 PV d’un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "나무열매 100% 쥬스.\n포켓몬 1마리의 HP를\n20만큼 회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "きのみ　１００％の　ジュース。\nポケモン　１ひきの　ＨＰを\n２０だけ　かいふくする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une boisson 100% pur jus de Baies.\nRestaure 20 PV à un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A 100% pure juice.\nIt restores the HP of one POKéMON\nby 20 points.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A 100% pure juice\nthat restores HP\nby 20 points.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A 100% pure juice\nthat restores HP\nby 20 points.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 43,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 43,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 43,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 44,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Berry Juice",
+      "language": "en"
+    },
+    {
+      "name": "Succodibacca",
+      "language": "it"
+    },
+    {
+      "name": "Zumo de Baya",
+      "language": "es"
+    },
+    {
+      "name": "Beerensaft",
+      "language": "de"
+    },
+    {
+      "name": "Jus de Baie",
+      "language": "fr"
+    },
+    {
+      "name": "나무열매쥬스",
+      "language": "ko"
+    },
+    {
+      "name": "きのみジュース",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "shuckle"
+      },
+      "version_details": [
+        {
+          "rarity": 100,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 100,
+          "version": {
+            "name": "firered"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

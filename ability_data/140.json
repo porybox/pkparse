@@ -1,1 +1,239 @@
-{"id":140,"name":"telepathy","is_main_series":true,"generation":{"name":"generation-v"},"names":[{"name":"Telepathy","language":"en"},{"name":"Telepatia","language":"it"},{"name":"Telepatía","language":"es"},{"name":"Telepathie","language":"de"},{"name":"Télépathe","language":"fr"},{"name":"텔레파시","language":"ko"},{"name":"テレパシー","language":"ja"}],"effect_entries":[{"effect":"This Pokémon does not take damage from friendly Pokémon's moves, including single-target moves aimed at it.","short_effect":"Protects against friendly Pokémon's damaging moves.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"味方の　攻撃を\n読み取って　受けない。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Anticipates an ally’s\nattack and dodges it.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Prevede ed evita gli attacchi\ndegli alleati.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Elude los ataques de aliados en\nbatalla.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Erkennt und pariert Attacken\nvon Mitstreitern.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Anticipe et évite les attaques de\nses alliés.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"같은 편의 공격의 낌새를\n읽고 기술을 받지 않는다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"みかたの　こうげきを\nよみとって　うけない。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Anticipates an ally’s\nattack and dodges it.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Anticipates an ally’s\nattack and dodges it.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Anticipe et évite les\nattaques de ses alliés.","version_group":{"name":"black-white"},"language":"fr"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"wobbuffet"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"ralts"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"kirlia"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"gardevoir"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"meditite"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"medicham"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"wynaut"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"dialga"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"palkia"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"giratina-altered"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"munna"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"musharna"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"elgyem"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"beheeyem"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"noibat"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"noivern"}}]}
+{
+  "id": 140,
+  "name": "telepathy",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "Telepathy",
+      "language": "en"
+    },
+    {
+      "name": "Telepatia",
+      "language": "it"
+    },
+    {
+      "name": "Telepatía",
+      "language": "es"
+    },
+    {
+      "name": "Telepathie",
+      "language": "de"
+    },
+    {
+      "name": "Télépathe",
+      "language": "fr"
+    },
+    {
+      "name": "텔레파시",
+      "language": "ko"
+    },
+    {
+      "name": "テレパシー",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "This Pokémon does not take damage from friendly Pokémon's moves, including single-target moves aimed at it.",
+      "short_effect": "Protects against friendly Pokémon's damaging moves.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "味方の　攻撃を\n読み取って　受けない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Anticipates an ally’s\nattack and dodges it.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Prevede ed evita gli attacchi\ndegli alleati.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Elude los ataques de aliados en\nbatalla.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Erkennt und pariert Attacken\nvon Mitstreitern.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Anticipe et évite les attaques de\nses alliés.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "같은 편의 공격의 낌새를\n읽고 기술을 받지 않는다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "みかたの　こうげきを\nよみとって　うけない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Anticipates an ally’s\nattack and dodges it.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Anticipates an ally’s\nattack and dodges it.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Anticipe et évite les\nattaques de ses alliés.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "wobbuffet"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "ralts"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "kirlia"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "gardevoir"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "meditite"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "medicham"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "wynaut"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "dialga"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "palkia"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "giratina-altered"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "munna"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "musharna"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "elgyem"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "beheeyem"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "noibat"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "noivern"
+      }
+    }
+  ]
+}

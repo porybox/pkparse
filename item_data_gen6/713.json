@@ -1,1 +1,190 @@
-{"id":427,"name":"bicycle","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Increases movement speed outside or in caves.  In high gear, allows the trainer to hop over some rocks and ascend muddy slopes.","short_effect":"Use for fast transit.","language":"en"}],"flavor_text_entries":[{"text":"ランニングシューズ　よりも\n速く　走ることが　できる\n折りたたみ式の　じてんしゃ。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A folding Bicycle that enables a rider\nto get around much faster than a pair\nof Running Shoes will allow.","version_group":{"name":"x-y"},"language":"en"},{"text":"Bici pieghevole che permette di spostarsi\npiù velocemente che con le Scarpe da Corsa.","version_group":{"name":"x-y"},"language":"it"},{"text":"","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Klapprad, mit dem man schneller ist\nals zu Fuß.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une Bicyclette pliable permettant de se déplacer\nbien plus rapidement qu’en marchant.","version_group":{"name":"x-y"},"language":"fr"},{"text":"러닝슈즈보다도\n빨리 달릴 수 있는\n접이식 자전거다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ランニングシューズ　よりも\nはやく　はしることが　できる\nおりたたみしきの　じてんしゃ。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A folding Bicycle that enables much\nfaster movement than the Running\nShoes.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A folding Bicycle that enables much\nfaster movement than the Running\nShoes.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une Bicyclette pliable permettant de se\ndéplacer plus rapidement qu’avec les\nChaussures de Sport.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A folding Bicycle that enables much\nfaster movement than the Running\nShoes.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A folding Bicycle that enables much\nfaster movement than the Running\nShoes.","version_group":{"name":"platinum"},"language":"en"},{"text":"A folding Bicycle that enables much\nfaster movement than the Running\nShoes.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A folding bicycle that allows\nfaster movement than the RUNNING\nSHOES.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A folding bicycle\nthat is faster than\nthe RUNNING SHOES.","version_group":{"name":"emerald"},"language":"en"}],"game_indices":[{"game_index":713,"generation":{"name":"generation-vi"}},{"game_index":450,"generation":{"name":"generation-v"}},{"game_index":450,"generation":{"name":"generation-iv"}},{"game_index":360,"generation":{"name":"generation-iii"}}],"names":[{"name":"Bicycle","language":"en"},{"name":"Bicicletta","language":"it"},{"name":"Bici","language":"es"},{"name":"Fahrrad","language":"de"},{"name":"Bicyclette","language":"fr"},{"name":"자전거","language":"ko"},{"name":"じてんしゃ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 427,
+  "name": "bicycle",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Increases movement speed outside or in caves.  In high gear, allows the trainer to hop over some rocks and ascend muddy slopes.",
+      "short_effect": "Use for fast transit.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ランニングシューズ　よりも\n速く　走ることが　できる\n折りたたみ式の　じてんしゃ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A folding Bicycle that enables a rider\nto get around much faster than a pair\nof Running Shoes will allow.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Bici pieghevole che permette di spostarsi\npiù velocemente che con le Scarpe da Corsa.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Klapprad, mit dem man schneller ist\nals zu Fuß.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une Bicyclette pliable permettant de se déplacer\nbien plus rapidement qu’en marchant.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "러닝슈즈보다도\n빨리 달릴 수 있는\n접이식 자전거다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ランニングシューズ　よりも\nはやく　はしることが　できる\nおりたたみしきの　じてんしゃ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A folding Bicycle that enables much\nfaster movement than the Running\nShoes.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A folding Bicycle that enables much\nfaster movement than the Running\nShoes.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une Bicyclette pliable permettant de se\ndéplacer plus rapidement qu’avec les\nChaussures de Sport.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A folding Bicycle that enables much\nfaster movement than the Running\nShoes.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A folding Bicycle that enables much\nfaster movement than the Running\nShoes.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A folding Bicycle that enables much\nfaster movement than the Running\nShoes.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A folding bicycle that allows\nfaster movement than the RUNNING\nSHOES.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A folding bicycle\nthat is faster than\nthe RUNNING SHOES.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 713,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 450,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 450,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 360,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Bicycle",
+      "language": "en"
+    },
+    {
+      "name": "Bicicletta",
+      "language": "it"
+    },
+    {
+      "name": "Bici",
+      "language": "es"
+    },
+    {
+      "name": "Fahrrad",
+      "language": "de"
+    },
+    {
+      "name": "Bicyclette",
+      "language": "fr"
+    },
+    {
+      "name": "자전거",
+      "language": "ko"
+    },
+    {
+      "name": "じてんしゃ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,170 @@
-{"id":224,"name":"octillery","order":256,"gender_rate":4,"capture_rate":75,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":145,"pokedex":{"name":"kalos-coastal"}},{"entry_number":236,"pokedex":{"name":"updated-unova"}},{"entry_number":175,"pokedex":{"name":"updated-johto"}},{"entry_number":133,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":133,"pokedex":{"name":"original-sinnoh"}},{"entry_number":173,"pokedex":{"name":"original-johto"}},{"entry_number":224,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water2"},{"name":"water1"}],"color":{"name":"red"},"shape":{"name":"tentacles"},"evolves_from_species":{"name":"remoraid"},"evolution_chain":{},"habitat":{"name":"sea"},"generation":{"name":"generation-ii"},"names":[{"name":"オクタン","language":"ja"},{"name":"Okutank","language":"roomaji"},{"name":"대포무노","language":"ko"},{"name":"章魚桶","language":"zh"},{"name":"Octillery","language":"fr"},{"name":"Octillery","language":"de"},{"name":"Octillery","language":"es"},{"name":"Octillery","language":"it"},{"name":"Octillery","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"sea"}}],"form_descriptions":[],"genera":[{"genus":"ふんしゃ","language":"ja"},{"genus":"분사","language":"ko"},{"genus":"Jet","language":"fr"},{"genus":"Hochdruck","language":"de"},{"genus":"Reactor","language":"es"},{"genus":"Jet","language":"it"},{"genus":"Jet","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"octillery"}}],"first_evolution_id":223}
+{
+  "id": 224,
+  "name": "octillery",
+  "order": 256,
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 145,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 236,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 175,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 133,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 133,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 173,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 224,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water2"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "tentacles"
+  },
+  "evolves_from_species": {
+    "name": "remoraid"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "sea"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "オクタン",
+      "language": "ja"
+    },
+    {
+      "name": "Okutank",
+      "language": "roomaji"
+    },
+    {
+      "name": "대포무노",
+      "language": "ko"
+    },
+    {
+      "name": "章魚桶",
+      "language": "zh"
+    },
+    {
+      "name": "Octillery",
+      "language": "fr"
+    },
+    {
+      "name": "Octillery",
+      "language": "de"
+    },
+    {
+      "name": "Octillery",
+      "language": "es"
+    },
+    {
+      "name": "Octillery",
+      "language": "it"
+    },
+    {
+      "name": "Octillery",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "sea"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ふんしゃ",
+      "language": "ja"
+    },
+    {
+      "genus": "분사",
+      "language": "ko"
+    },
+    {
+      "genus": "Jet",
+      "language": "fr"
+    },
+    {
+      "genus": "Hochdruck",
+      "language": "de"
+    },
+    {
+      "genus": "Reactor",
+      "language": "es"
+    },
+    {
+      "genus": "Jet",
+      "language": "it"
+    },
+    {
+      "genus": "Jet",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "octillery"
+      }
+    }
+  ],
+  "first_evolution_id": 223
+}

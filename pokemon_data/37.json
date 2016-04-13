@@ -1,1 +1,159 @@
-{"id":37,"name":"vulpix","order":39,"gender_rate":6,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":248,"pokedex":{"name":"updated-unova"}},{"entry_number":127,"pokedex":{"name":"updated-johto"}},{"entry_number":153,"pokedex":{"name":"hoenn"}},{"entry_number":125,"pokedex":{"name":"original-johto"}},{"entry_number":37,"pokedex":{"name":"kanto"}},{"entry_number":37,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"quadruped"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-i"},"names":[{"name":"ロコン","language":"ja"},{"name":"Rokon","language":"roomaji"},{"name":"식스테일","language":"ko"},{"name":"六尾","language":"zh"},{"name":"Goupix","language":"fr"},{"name":"Vulpix","language":"de"},{"name":"Vulpix","language":"es"},{"name":"Vulpix","language":"it"},{"name":"Vulpix","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"きつね","language":"ja"},{"genus":"여우","language":"ko"},{"genus":"Renard","language":"fr"},{"genus":"Fuchs","language":"de"},{"genus":"Zorro","language":"es"},{"genus":"Volpe","language":"it"},{"genus":"Fox","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"vulpix"}}],"first_evolution_id":37}
+{
+  "id": 37,
+  "name": "vulpix",
+  "order": 39,
+  "gender_rate": 6,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 248,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 127,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 153,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 125,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 37,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 37,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ロコン",
+      "language": "ja"
+    },
+    {
+      "name": "Rokon",
+      "language": "roomaji"
+    },
+    {
+      "name": "식스테일",
+      "language": "ko"
+    },
+    {
+      "name": "六尾",
+      "language": "zh"
+    },
+    {
+      "name": "Goupix",
+      "language": "fr"
+    },
+    {
+      "name": "Vulpix",
+      "language": "de"
+    },
+    {
+      "name": "Vulpix",
+      "language": "es"
+    },
+    {
+      "name": "Vulpix",
+      "language": "it"
+    },
+    {
+      "name": "Vulpix",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "きつね",
+      "language": "ja"
+    },
+    {
+      "genus": "여우",
+      "language": "ko"
+    },
+    {
+      "genus": "Renard",
+      "language": "fr"
+    },
+    {
+      "genus": "Fuchs",
+      "language": "de"
+    },
+    {
+      "genus": "Zorro",
+      "language": "es"
+    },
+    {
+      "genus": "Volpe",
+      "language": "it"
+    },
+    {
+      "genus": "Fox",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "vulpix"
+      }
+    }
+  ],
+  "first_evolution_id": 37
+}

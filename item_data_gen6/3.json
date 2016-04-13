@@ -1,1 +1,210 @@
-{"id":3,"name":"great-ball","cost":600,"fling_power":null,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"standard-balls"},"effect_entries":[{"effect":"Used in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1.5×.\n\n    If used in a trainer battle, nothing happens and the ball is lost.","short_effect":"Tries to catch a wild Pokémon.  Success rate is 1.5×.","language":"en"}],"flavor_text_entries":[{"text":"モンスターボールよりも　さらに\nポケモンを　捕まえやすくなった\n少し　性能のいい　ボール。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A good, high-performance Poké Ball\nthat provides a higher Pokémon catch\nrate than a standard Poké Ball can.","version_group":{"name":"x-y"},"language":"en"},{"text":"Poké Ball dalle ottime prestazioni:\nfornisce maggiori probabilità di cattura rispetto\nalla normale Poké Ball.","version_group":{"name":"x-y"},"language":"it"},{"text":"Poké Ball de alto rendimiento. Tiene un índice de\néxito superior al de la Poké Ball.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Ball mit guter Erfolgsquote. Dem Pokéball in\nallen Punkten überlegen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une Ball très performante dont le taux de\nréussite est supérieur à celui de la Poké Ball.","version_group":{"name":"x-y"},"language":"fr"},{"text":"몬스터볼보다도 더욱\n포켓몬을 잡기 쉬워진\n약간 성능이 좋은 볼.","version_group":{"name":"x-y"},"language":"ko"},{"text":"モンスターボールよりも　さらに\nポケモンを　つかまえやすくなった\nすこし　せいのうのいい　ボール。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A good, high-performance Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A good, high-performance Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une Ball très performante dont le taux\nde réussite est supérieur à celui de la\nPoké Ball.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A good, high-performance Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A good, high-performance Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.","version_group":{"name":"platinum"},"language":"en"},{"text":"A good, high-performance Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A good, quality BALL that offers\na higher POKéMON catch rate than\na standard POKé BALL.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A good BALL with a\nhigher catch rate\nthan a POKé BALL.","version_group":{"name":"emerald"},"language":"en"},{"text":"A good BALL with a\nhigher catch rate\nthan a POKé BALL.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":3,"generation":{"name":"generation-vi"}},{"game_index":3,"generation":{"name":"generation-v"}},{"game_index":3,"generation":{"name":"generation-iv"}},{"game_index":3,"generation":{"name":"generation-iii"}}],"names":[{"name":"Great Ball","language":"en"},{"name":"Mega Ball","language":"it"},{"name":"Super Ball","language":"es"},{"name":"Superball","language":"de"},{"name":"Super Ball","language":"fr"},{"name":"수퍼볼","language":"ko"},{"name":"スーパーボール","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 3,
+  "name": "great-ball",
+  "cost": 600,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "standard-balls"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 1.5×.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+      "short_effect": "Tries to catch a wild Pokémon.  Success rate is 1.5×.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "モンスターボールよりも　さらに\nポケモンを　捕まえやすくなった\n少し　性能のいい　ボール。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A good, high-performance Poké Ball\nthat provides a higher Pokémon catch\nrate than a standard Poké Ball can.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Poké Ball dalle ottime prestazioni:\nfornisce maggiori probabilità di cattura rispetto\nalla normale Poké Ball.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Poké Ball de alto rendimiento. Tiene un índice de\néxito superior al de la Poké Ball.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Ball mit guter Erfolgsquote. Dem Pokéball in\nallen Punkten überlegen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une Ball très performante dont le taux de\nréussite est supérieur à celui de la Poké Ball.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "몬스터볼보다도 더욱\n포켓몬을 잡기 쉬워진\n약간 성능이 좋은 볼.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "モンスターボールよりも　さらに\nポケモンを　つかまえやすくなった\nすこし　せいのうのいい　ボール。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A good, high-performance Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A good, high-performance Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une Ball très performante dont le taux\nde réussite est supérieur à celui de la\nPoké Ball.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A good, high-performance Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A good, high-performance Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A good, high-performance Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A good, quality BALL that offers\na higher POKéMON catch rate than\na standard POKé BALL.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A good BALL with a\nhigher catch rate\nthan a POKé BALL.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A good BALL with a\nhigher catch rate\nthan a POKé BALL.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 3,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 3,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 3,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 3,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Great Ball",
+      "language": "en"
+    },
+    {
+      "name": "Mega Ball",
+      "language": "it"
+    },
+    {
+      "name": "Super Ball",
+      "language": "es"
+    },
+    {
+      "name": "Superball",
+      "language": "de"
+    },
+    {
+      "name": "Super Ball",
+      "language": "fr"
+    },
+    {
+      "name": "수퍼볼",
+      "language": "ko"
+    },
+    {
+      "name": "スーパーボール",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

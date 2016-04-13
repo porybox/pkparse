@@ -1,1 +1,171 @@
-{"id":215,"name":"sneasel","order":245,"gender_rate":4,"capture_rate":60,"base_happiness":35,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":91,"pokedex":{"name":"kalos-mountain"}},{"entry_number":181,"pokedex":{"name":"conquest-gallery"}},{"entry_number":252,"pokedex":{"name":"updated-unova"}},{"entry_number":218,"pokedex":{"name":"updated-johto"}},{"entry_number":144,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":144,"pokedex":{"name":"original-sinnoh"}},{"entry_number":213,"pokedex":{"name":"original-johto"}},{"entry_number":215,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"black"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-ii"},"names":[{"name":"ニューラ","language":"ja"},{"name":"Nyula","language":"roomaji"},{"name":"포푸니","language":"ko"},{"name":"狃拉","language":"zh"},{"name":"Farfuret","language":"fr"},{"name":"Sniebel","language":"de"},{"name":"Sneasel","language":"es"},{"name":"Sneasel","language":"it"},{"name":"Sneasel","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"かぎづめ","language":"ja"},{"genus":"갈고리손톱","language":"ko"},{"genus":"Grifacérée","language":"fr"},{"genus":"Stichklaue","language":"de"},{"genus":"Garra Filo","language":"es"},{"genus":"Lamartigli","language":"it"},{"genus":"Sharp Claw","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"sneasel"}}],"first_evolution_id":215}
+{
+  "id": 215,
+  "name": "sneasel",
+  "order": 245,
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 35,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 91,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 181,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 252,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 218,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 144,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 144,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 213,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 215,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "black"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ニューラ",
+      "language": "ja"
+    },
+    {
+      "name": "Nyula",
+      "language": "roomaji"
+    },
+    {
+      "name": "포푸니",
+      "language": "ko"
+    },
+    {
+      "name": "狃拉",
+      "language": "zh"
+    },
+    {
+      "name": "Farfuret",
+      "language": "fr"
+    },
+    {
+      "name": "Sniebel",
+      "language": "de"
+    },
+    {
+      "name": "Sneasel",
+      "language": "es"
+    },
+    {
+      "name": "Sneasel",
+      "language": "it"
+    },
+    {
+      "name": "Sneasel",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "かぎづめ",
+      "language": "ja"
+    },
+    {
+      "genus": "갈고리손톱",
+      "language": "ko"
+    },
+    {
+      "genus": "Grifacérée",
+      "language": "fr"
+    },
+    {
+      "genus": "Stichklaue",
+      "language": "de"
+    },
+    {
+      "genus": "Garra Filo",
+      "language": "es"
+    },
+    {
+      "genus": "Lamartigli",
+      "language": "it"
+    },
+    {
+      "genus": "Sharp Claw",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "sneasel"
+      }
+    }
+  ],
+  "first_evolution_id": 215
+}

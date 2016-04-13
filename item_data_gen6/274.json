@@ -1,1 +1,77 @@
-{"id":533,"name":"letter","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[{"effect":"Contains a letter to be delivered to Steven.","short_effect":"A letter to Steven from the Devon Corp president.","language":"en"}],"flavor_text_entries":[{"text":"An extremely important letter to\nSTEVEN from the PRESIDENT of the\nDEVON CORPORATION.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A letter to STEVEN\nfrom the PRESIDENT\nof the DEVON CORP.","version_group":{"name":"emerald"},"language":"en"},{"text":"A letter to STEVEN\nfrom the PRESIDENT\nof the DEVON CORP.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":274,"generation":{"name":"generation-iii"}}],"names":[{"name":"Letter","language":"en"},{"name":"Lettera","language":"it"},{"name":"Carta","language":"es"},{"name":"Brief","language":"de"},{"name":"Lettre","language":"fr"},{"name":"ダイゴへのてがみ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 533,
+  "name": "letter",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [
+    {
+      "effect": "Contains a letter to be delivered to Steven.",
+      "short_effect": "A letter to Steven from the Devon Corp president.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "An extremely important letter to\nSTEVEN from the PRESIDENT of the\nDEVON CORPORATION.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A letter to STEVEN\nfrom the PRESIDENT\nof the DEVON CORP.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A letter to STEVEN\nfrom the PRESIDENT\nof the DEVON CORP.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 274,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Letter",
+      "language": "en"
+    },
+    {
+      "name": "Lettera",
+      "language": "it"
+    },
+    {
+      "name": "Carta",
+      "language": "es"
+    },
+    {
+      "name": "Brief",
+      "language": "de"
+    },
+    {
+      "name": "Lettre",
+      "language": "fr"
+    },
+    {
+      "name": "ダイゴへのてがみ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

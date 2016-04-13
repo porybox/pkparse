@@ -1,1 +1,133 @@
-{"id":184,"name":"scary-face","accuracy":100,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":{"normal":{"use_before":[{"name":"leer"},{"name":"bite"},{"name":"super-fang"},{"name":"crunch"}],"use_after":[{"name":"leer"},{"name":"rage"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"tough"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Lowers the target's [Speed]{mechanic:speed} by two [stages]{mechanic:stage}.","short_effect":"Lowers the target's Speed by two stages.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"net-good-stats"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Scary Face","language":"en"},{"name":"Visotruce","language":"it"},{"name":"Cara Susto","language":"es"},{"name":"Grimasse","language":"de"},{"name":"Grimace","language":"fr"},{"name":"겁나는얼굴","language":"ko"},{"name":"こわいかお","language":"ja"}],"past_values":[{"accuracy":90,"power":null,"pp":null,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"black-white"}}],"stat_changes":[{"change":-2,"stat":{"name":"speed"}}],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 184,
+  "name": "scary-face",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "leer"
+        },
+        {
+          "name": "bite"
+        },
+        {
+          "name": "super-fang"
+        },
+        {
+          "name": "crunch"
+        }
+      ],
+      "use_after": [
+        {
+          "name": "leer"
+        },
+        {
+          "name": "rage"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Lowers the target's [Speed]{mechanic:speed} by two [stages]{mechanic:stage}.",
+      "short_effect": "Lowers the target's Speed by two stages.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "net-good-stats"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Scary Face",
+      "language": "en"
+    },
+    {
+      "name": "Visotruce",
+      "language": "it"
+    },
+    {
+      "name": "Cara Susto",
+      "language": "es"
+    },
+    {
+      "name": "Grimasse",
+      "language": "de"
+    },
+    {
+      "name": "Grimace",
+      "language": "fr"
+    },
+    {
+      "name": "겁나는얼굴",
+      "language": "ko"
+    },
+    {
+      "name": "こわいかお",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": 90,
+      "power": null,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "black-white"
+      }
+    }
+  ],
+  "stat_changes": [
+    {
+      "change": -2,
+      "stat": {
+        "name": "speed"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

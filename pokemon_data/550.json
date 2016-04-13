@@ -1,1 +1,140 @@
-{"id":550,"name":"basculin","order":551,"gender_rate":4,"capture_rate":25,"base_happiness":70,"is_baby":false,"hatch_counter":40,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":60,"pokedex":{"name":"kalos-mountain"}},{"entry_number":104,"pokedex":{"name":"updated-unova"}},{"entry_number":56,"pokedex":{"name":"original-unova"}},{"entry_number":550,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water2"}],"color":{"name":"green"},"shape":{"name":"fish"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-v"},"names":[{"name":"バスラオ","language":"ja"},{"name":"배쓰나이","language":"ko"},{"name":"Bargantua","language":"fr"},{"name":"Barschuft","language":"de"},{"name":"Basculin","language":"es"},{"name":"Basculin","language":"it"},{"name":"Basculin","language":"en"}],"pal_park_encounters":[],"form_descriptions":[{"description":"Forms have one different ability and different wild held items.  Blue-Striped Basculin are rarer in Black Version and Black Version 2, and Red-Striped Basculin in White Version and White Version 2.","language":"en"}],"genera":[{"genus":"らんぼう","language":"ja"},{"genus":"흉포","language":"ko"},{"genus":"Violent","language":"fr"},{"genus":"Grobheit","language":"de"},{"genus":"Violento","language":"es"},{"genus":"Irruenza","language":"it"},{"genus":"Hostile","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"basculin-red-striped"}},{"is_default":false,"pokemon":{"name":"basculin-blue-striped"}}],"first_evolution_id":550}
+{
+  "id": 550,
+  "name": "basculin",
+  "order": 551,
+  "gender_rate": 4,
+  "capture_rate": 25,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 40,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 60,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 104,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 56,
+      "pokedex": {
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 550,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water2"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "fish"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "バスラオ",
+      "language": "ja"
+    },
+    {
+      "name": "배쓰나이",
+      "language": "ko"
+    },
+    {
+      "name": "Bargantua",
+      "language": "fr"
+    },
+    {
+      "name": "Barschuft",
+      "language": "de"
+    },
+    {
+      "name": "Basculin",
+      "language": "es"
+    },
+    {
+      "name": "Basculin",
+      "language": "it"
+    },
+    {
+      "name": "Basculin",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [
+    {
+      "description": "Forms have one different ability and different wild held items.  Blue-Striped Basculin are rarer in Black Version and Black Version 2, and Red-Striped Basculin in White Version and White Version 2.",
+      "language": "en"
+    }
+  ],
+  "genera": [
+    {
+      "genus": "らんぼう",
+      "language": "ja"
+    },
+    {
+      "genus": "흉포",
+      "language": "ko"
+    },
+    {
+      "genus": "Violent",
+      "language": "fr"
+    },
+    {
+      "genus": "Grobheit",
+      "language": "de"
+    },
+    {
+      "genus": "Violento",
+      "language": "es"
+    },
+    {
+      "genus": "Irruenza",
+      "language": "it"
+    },
+    {
+      "genus": "Hostile",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "basculin-red-striped"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "basculin-blue-striped"
+      }
+    }
+  ],
+  "first_evolution_id": 550
+}

@@ -1,1 +1,197 @@
-{"id":401,"name":"hm05","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Defog to a compatible Pokémon.","short_effect":"Teaches Waterfall to a compatible Pokémon. (HS: Whirlpool DPP: Defog Gen III & II & I: Flash)","language":"en"}],"flavor_text_entries":[{"text":"すごい　勢いで　相手に　つっこみ\n攻撃する。流れ落ちる　滝も\n泳いで　のぼれる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user charges at the target and may make it\nflinch. This can also be used to climb a waterfall.","version_group":{"name":"x-y"},"language":"en"},{"text":"Carica il nemico a grande velocità e può farlo\ntentennare.\nFuori dalla lotta fa risalire le cascate.","version_group":{"name":"x-y"},"language":"it"},{"text":"Dispositivo que busca Entrenadores listos para el\ncombate. La batería se carga mientras caminas.","version_group":{"name":"x-y"},"language":"es"},{"text":"Eine mächtige Attacke, die das Ziel eventuell\nzurückschrecken lässt. Sie macht Wasserfälle\nbezwingbar.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur charge l’ennemi à une vitesse\nremarquable. Permet aussi de franchir une\ncascade.","version_group":{"name":"x-y"},"language":"fr"},{"text":"폭포를 거꾸로 오르는 듯한\n엄청난 기세로 돌진하여 공격한다.\n폭포를 오를 수도 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"たきを　さかのぼるような　すさまじい\nいきおいで　とっしん　こうげきする。\nたきを　のぼることも　できる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user charges the target at an\nawesome speed. It can also be used\nto climb a waterfall.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user charges the target at an\nawesome speed. It can also be used\nto climb a waterfall.","version_group":{"name":"black-white"},"language":"en"},{"text":"Le lanceur charge l’ennemi à une\nvitesse remarquable. Permet aussi\nde franchir une cascade.","version_group":{"name":"black-white"},"language":"fr"},{"text":"Traps foes in a violent swirling\nwhirlpool. It can also be used to\ntraverse whirlpools.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"Obstacles are moved, reducing the\nfoe’s evasion stat. It can also be\nused to clear deep fog.","version_group":{"name":"platinum"},"language":"en"},{"text":"Obstacles are moved, reducing the\nfoe’s evasion stat. It can also be\nused to clear deep fog.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A blast of light\nthat cuts the foe’s\naccuracy. It also\nilluminates caves.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Looses a powerful\nblast of light that\nreduces accuracy.","version_group":{"name":"emerald"},"language":"en"},{"text":"Looses a powerful\nblast of light that\nreduces accuracy.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":424,"generation":{"name":"generation-vi"}},{"game_index":424,"generation":{"name":"generation-v"}},{"game_index":424,"generation":{"name":"generation-iv"}},{"game_index":343,"generation":{"name":"generation-iii"}}],"names":[{"name":"HM05","language":"en"},{"name":"MN05","language":"it"},{"name":"MO05","language":"es"},{"name":"VM05","language":"de"},{"name":"CS05","language":"fr"},{"name":"비전머신05","language":"ko"},{"name":"ひでんマシン０５","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 401,
+  "name": "hm05",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Defog to a compatible Pokémon.",
+      "short_effect": "Teaches Waterfall to a compatible Pokémon. (HS: Whirlpool DPP: Defog Gen III & II & I: Flash)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "すごい　勢いで　相手に　つっこみ\n攻撃する。流れ落ちる　滝も\n泳いで　のぼれる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user charges at the target and may make it\nflinch. This can also be used to climb a waterfall.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Carica il nemico a grande velocità e può farlo\ntentennare.\nFuori dalla lotta fa risalire le cascate.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Dispositivo que busca Entrenadores listos para el\ncombate. La batería se carga mientras caminas.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Eine mächtige Attacke, die das Ziel eventuell\nzurückschrecken lässt. Sie macht Wasserfälle\nbezwingbar.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur charge l’ennemi à une vitesse\nremarquable. Permet aussi de franchir une\ncascade.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "폭포를 거꾸로 오르는 듯한\n엄청난 기세로 돌진하여 공격한다.\n폭포를 오를 수도 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "たきを　さかのぼるような　すさまじい\nいきおいで　とっしん　こうげきする。\nたきを　のぼることも　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user charges the target at an\nawesome speed. It can also be used\nto climb a waterfall.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user charges the target at an\nawesome speed. It can also be used\nto climb a waterfall.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur charge l’ennemi à une\nvitesse remarquable. Permet aussi\nde franchir une cascade.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "Traps foes in a violent swirling\nwhirlpool. It can also be used to\ntraverse whirlpools.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Obstacles are moved, reducing the\nfoe’s evasion stat. It can also be\nused to clear deep fog.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Obstacles are moved, reducing the\nfoe’s evasion stat. It can also be\nused to clear deep fog.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A blast of light\nthat cuts the foe’s\naccuracy. It also\nilluminates caves.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Looses a powerful\nblast of light that\nreduces accuracy.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Looses a powerful\nblast of light that\nreduces accuracy.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 424,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 424,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 424,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 343,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "HM05",
+      "language": "en"
+    },
+    {
+      "name": "MN05",
+      "language": "it"
+    },
+    {
+      "name": "MO05",
+      "language": "es"
+    },
+    {
+      "name": "VM05",
+      "language": "de"
+    },
+    {
+      "name": "CS05",
+      "language": "fr"
+    },
+    {
+      "name": "비전머신05",
+      "language": "ko"
+    },
+    {
+      "name": "ひでんマシン０５",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

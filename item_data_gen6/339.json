@@ -1,1 +1,197 @@
-{"id":316,"name":"tm12","cost":1500,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Taunt to a compatible Pokémon.","short_effect":"Teaches Taunt to a compatible Pokémon. (Gen II: Sweet Scent Gen I: Water Gun)","language":"en"}],"flavor_text_entries":[{"text":"相手を　怒らせる。３ターンの\nあいだ　相手は　ダメージを\n与える　技しか　だせなくなる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The target is taunted into a rage\nthat allows it to use only attack\nmoves for three turns.","version_group":{"name":"x-y"},"language":"en"},{"text":"Provoca il nemico inducendolo a usare solo\nmosse d’attacco per tre turni.","version_group":{"name":"x-y"},"language":"it"},{"text":"Ataca al objetivo con un potente ataque\ntelequinético que le puede bajar la Defensa\nEspecial.","version_group":{"name":"x-y"},"language":"es"},{"text":"Das Ziel wird so gereizt, dass es über 3 Runden\nhinweg nur Angriffsattacken einsetzt.","version_group":{"name":"x-y"},"language":"de"},{"text":"Provoque l’ennemi. L’oblige à n’utiliser que des\nattaques pendant trois tours.","version_group":{"name":"x-y"},"language":"fr"},{"text":"상대를 화나게 한다.\n3턴 동안 상대는 데미지를\n주는 기술밖에 쓸 수 없게 된다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"あいてを　おこらせる。３ターンの\nあいだ　あいては　ダメージを\nあたえる　わざしか　だせなくなる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The target is taunted into a rage that\nallows it to use only attack moves\nfor three turns.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The target is taunted into a rage that\nallows it to use only attack moves\nfor three turns.","version_group":{"name":"black-white"},"language":"en"},{"text":"Provoque l’ennemi. L’oblige à n’utiliser\nque des attaques pendant 3 tours.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The foe is taunted into a rage that\nallows it to use only attack moves for\ntwo to four turns.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The foe is taunted into a rage that\nallows it to use only attack moves for\ntwo to four turns.","version_group":{"name":"platinum"},"language":"en"},{"text":"The foe is taunted into a rage that\nallows it to use only attack moves for\ntwo to four turns.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"The foe is taunted\ninto a rage that\nallows it to use\nonly attack moves.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Enrages the foe so\nit can only use\nattack moves.","version_group":{"name":"emerald"},"language":"en"},{"text":"Enrages the foe so\nit can only use\nattack moves.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":339,"generation":{"name":"generation-vi"}},{"game_index":339,"generation":{"name":"generation-v"}},{"game_index":339,"generation":{"name":"generation-iv"}},{"game_index":300,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM12","language":"en"},{"name":"MT12","language":"it"},{"name":"MT12","language":"es"},{"name":"TM12","language":"de"},{"name":"CT12","language":"fr"},{"name":"기술머신12","language":"ko"},{"name":"わざマシン１２","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 316,
+  "name": "tm12",
+  "cost": 1500,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Taunt to a compatible Pokémon.",
+      "short_effect": "Teaches Taunt to a compatible Pokémon. (Gen II: Sweet Scent Gen I: Water Gun)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "相手を　怒らせる。３ターンの\nあいだ　相手は　ダメージを\n与える　技しか　だせなくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The target is taunted into a rage\nthat allows it to use only attack\nmoves for three turns.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Provoca il nemico inducendolo a usare solo\nmosse d’attacco per tre turni.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Ataca al objetivo con un potente ataque\ntelequinético que le puede bajar la Defensa\nEspecial.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Das Ziel wird so gereizt, dass es über 3 Runden\nhinweg nur Angriffsattacken einsetzt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Provoque l’ennemi. L’oblige à n’utiliser que des\nattaques pendant trois tours.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "상대를 화나게 한다.\n3턴 동안 상대는 데미지를\n주는 기술밖에 쓸 수 없게 된다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "あいてを　おこらせる。３ターンの\nあいだ　あいては　ダメージを\nあたえる　わざしか　だせなくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The target is taunted into a rage that\nallows it to use only attack moves\nfor three turns.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The target is taunted into a rage that\nallows it to use only attack moves\nfor three turns.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Provoque l’ennemi. L’oblige à n’utiliser\nque des attaques pendant 3 tours.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The foe is taunted into a rage that\nallows it to use only attack moves for\ntwo to four turns.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is taunted into a rage that\nallows it to use only attack moves for\ntwo to four turns.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is taunted into a rage that\nallows it to use only attack moves for\ntwo to four turns.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is taunted\ninto a rage that\nallows it to use\nonly attack moves.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Enrages the foe so\nit can only use\nattack moves.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Enrages the foe so\nit can only use\nattack moves.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 339,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 339,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 339,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 300,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM12",
+      "language": "en"
+    },
+    {
+      "name": "MT12",
+      "language": "it"
+    },
+    {
+      "name": "MT12",
+      "language": "es"
+    },
+    {
+      "name": "TM12",
+      "language": "de"
+    },
+    {
+      "name": "CT12",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신12",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン１２",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

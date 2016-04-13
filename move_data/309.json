@@ -1,1 +1,92 @@
-{"id":309,"name":"meteor-mash","accuracy":90,"effect_chance":20,"pp":10,"priority":0,"power":90,"contest_combos":null,"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}. Has a $effect_chance% chance to raise the user's [Attack]{mechanic:attack} one [stage]{mechanic:stage}.","short_effect":"Has a $effect_chance% chance to raise the user's Attack by one stage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage+raise"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":20},"names":[{"name":"Meteor Mash","language":"en"},{"name":"Meteorpugno","language":"it"},{"name":"Puño Meteoro","language":"es"},{"name":"Sternenhieb","language":"de"},{"name":"Poing Météor","language":"fr"},{"name":"코멧펀치","language":"ko"},{"name":"コメットパンチ","language":"ja"}],"past_values":[],"stat_changes":[{"change":1,"stat":{"name":"attack"}}],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"steel"}}
+{
+  "id": 309,
+  "name": "meteor-mash",
+  "accuracy": 90,
+  "effect_chance": 20,
+  "pp": 10,
+  "priority": 0,
+  "power": 90,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}. Has a $effect_chance% chance to raise the user's [Attack]{mechanic:attack} one [stage]{mechanic:stage}.",
+      "short_effect": "Has a $effect_chance% chance to raise the user's Attack by one stage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage+raise"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 20
+  },
+  "names": [
+    {
+      "name": "Meteor Mash",
+      "language": "en"
+    },
+    {
+      "name": "Meteorpugno",
+      "language": "it"
+    },
+    {
+      "name": "Puño Meteoro",
+      "language": "es"
+    },
+    {
+      "name": "Sternenhieb",
+      "language": "de"
+    },
+    {
+      "name": "Poing Météor",
+      "language": "fr"
+    },
+    {
+      "name": "코멧펀치",
+      "language": "ko"
+    },
+    {
+      "name": "コメットパンチ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": 1,
+      "stat": {
+        "name": "attack"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "steel"
+  }
+}

@@ -1,1 +1,177 @@
-{"id":293,"name":"full-incense","cost":9600,"fling_power":10,"fling_effect":null,"attributes":[{"name":"holdable"},{"name":"holdable-active"}],"category":{"name":"bad-held-items"},"effect_entries":[{"effect":"Held: The holder will go last within its move's priority bracket, regardless of Speed.  If multiple Pokémon within the same priority bracket are subject to this effect, the slower Pokémon will go first.  The holder will move after Pokémon with Stall.  If the holder has Stall, Stall is ignored.  This item ignores Trick Room.","short_effect":"Held: Holder moves last in its priority bracket. Breeding: Snorlax begets a Munchlax Egg.","language":"en"}],"flavor_text_entries":[{"text":"不思議な　香りの　御香。\n持たせた　ポケモンは　いつもより\n行動が　遅くなる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nThis exotic-smelling incense makes\nthe holder bloated and slow moving.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a un Pokémon.\nIncenso dal profumo esotico che rende gonfi\ne lenti.","version_group":{"name":"x-y"},"language":"it"},{"text":"Un movimiento altamente tóxico que envenena\ngravemente al objetivo y causa un daño mayor\nen cada turno.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item zum Tragen. Dieses exotische Duftkraut\nmacht den Träger benommen und langsam.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à tenir. Un encens au parfum exotique\nqui fait enfler son porteur et le fait se déplacer\nlentement.","version_group":{"name":"x-y"},"language":"fr"},{"text":"이상한 향기의 향로.\n지니게 한 포켓몬은 여느 때보다\n행동이 느려진다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ふしぎな　かおりの　おこう。\nもたせた　ポケモンは　いつもより\nこうどうが　おそくなる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder bloated and slow moving.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder bloated and slow moving.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à tenir. Encens au parfum\nexotique gonflant son porteur et\nle faisant se déplacer lentement.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder bloated and slow moving.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder bloated and slow moving.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder bloated and slow moving.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":316,"generation":{"name":"generation-vi"}},{"game_index":316,"generation":{"name":"generation-v"}},{"game_index":316,"generation":{"name":"generation-iv"}}],"names":[{"name":"Full Incense","language":"en"},{"name":"Gonfioaroma","language":"it"},{"name":"Incienso Lento","language":"es"},{"name":"Lahmrauch","language":"de"},{"name":"Encens Plein","language":"fr"},{"name":"만복향로","language":"ko"},{"name":"まんぷくおこう","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":{}}
+{
+  "id": 293,
+  "name": "full-incense",
+  "cost": 9600,
+  "fling_power": 10,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "category": {
+    "name": "bad-held-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held: The holder will go last within its move's priority bracket, regardless of Speed.  If multiple Pokémon within the same priority bracket are subject to this effect, the slower Pokémon will go first.  The holder will move after Pokémon with Stall.  If the holder has Stall, Stall is ignored.  This item ignores Trick Room.",
+      "short_effect": "Held: Holder moves last in its priority bracket. Breeding: Snorlax begets a Munchlax Egg.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "不思議な　香りの　御香。\n持たせた　ポケモンは　いつもより\n行動が　遅くなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nThis exotic-smelling incense makes\nthe holder bloated and slow moving.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nIncenso dal profumo esotico che rende gonfi\ne lenti.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Un movimiento altamente tóxico que envenena\ngravemente al objetivo y causa un daño mayor\nen cada turno.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Dieses exotische Duftkraut\nmacht den Träger benommen und langsam.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Un encens au parfum exotique\nqui fait enfler son porteur et le fait se déplacer\nlentement.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "이상한 향기의 향로.\n지니게 한 포켓몬은 여느 때보다\n행동이 느려진다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ふしぎな　かおりの　おこう。\nもたせた　ポケモンは　いつもより\nこうどうが　おそくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder bloated and slow moving.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder bloated and slow moving.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir. Encens au parfum\nexotique gonflant son porteur et\nle faisant se déplacer lentement.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder bloated and slow moving.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder bloated and slow moving.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder bloated and slow moving.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 316,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 316,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 316,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Full Incense",
+      "language": "en"
+    },
+    {
+      "name": "Gonfioaroma",
+      "language": "it"
+    },
+    {
+      "name": "Incienso Lento",
+      "language": "es"
+    },
+    {
+      "name": "Lahmrauch",
+      "language": "de"
+    },
+    {
+      "name": "Encens Plein",
+      "language": "fr"
+    },
+    {
+      "name": "만복향로",
+      "language": "ko"
+    },
+    {
+      "name": "まんぷくおこう",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": {}
+}

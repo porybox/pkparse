@@ -1,1 +1,143 @@
-{"id":651,"name":"x-accuracy-6","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"miracle-shooter"},"effect_entries":[{"effect":"Used on a party Pokémon in battle\n:   Raises the target's [accuracy]{mechanic:accuracy} by six [stages]{mechanic:stage}.\n\nThis item can only be obtained or used via the Wonder Launcher.","short_effect":"Raises [accuracy]{mechanic:accuracy} by six [stages]{mechanic:stage} in battle.  Wonder Launcher only.","language":"en"}],"flavor_text_entries":[{"text":"戦闘中の　ポケモンの\n命中を　ものすごく　あげる。\nひっこめると　元に　戻る。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"It raises the accuracy of a Pokémon\nin battle immensely. It wears off if the\nPokémon is withdrawn.","version_group":{"name":"x-y"},"language":"en"},{"text":"Aumenta incredibilmente la precisione di un\nPokémon in una lotta. L’effetto svanisce se il\nPokémon è sostituito.","version_group":{"name":"x-y"},"language":"it"},{"text":"Punta que permite separar a Kyurem del Pokémon\ncon el que se ha fusionado.","version_group":{"name":"x-y"},"language":"es"},{"text":"Hebt die Genauigkeit eines Pokémon im Kampf\nenorm an. Die Wirkung endet mit dem Austausch\ndes Pokémon.","version_group":{"name":"x-y"},"language":"de"},{"text":"Augmente fortement la Précision pendant\nun combat. L’effet s’estompe si le Pokémon\nse retire.","version_group":{"name":"x-y"},"language":"fr"},{"text":"배틀 중인 포켓몬의 명중률을\n엄청나게 올린다. 포켓몬을 볼에\n넣어버리면 원래대로 되돌아간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"せんとうちゅうの　ポケモンの\nめいちゅうを　ものすごく　あげる。\nひっこめると　もとに　もどる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It raises the accuracy of a Pokémon in\nbattle immensely. It wears off if the\nPokémon is withdrawn.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It raises the accuracy of a Pokémon in\nbattle immensely. It wears off if the\nPokémon is withdrawn.","version_group":{"name":"black-white"},"language":"en"},{"text":"Monte fortement la Précision pendant\nun combat. L’effet s’estompe\nsi le Pokémon se retire.","version_group":{"name":"black-white"},"language":"fr"}],"game_indices":[{"game_index":610,"generation":{"name":"generation-vi"}},{"game_index":610,"generation":{"name":"generation-v"}}],"names":[{"name":"X Accuracy 6","language":"en"},{"name":"Precisione X-6","language":"it"},{"name":"Precisión X 6","language":"es"},{"name":"X-Treffer6","language":"de"},{"name":"Précision 6","language":"fr"},{"name":"잘-맞히기6","language":"ko"},{"name":"ヨクアタール６","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 651,
+  "name": "x-accuracy-6",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "miracle-shooter"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon in battle\n:   Raises the target's [accuracy]{mechanic:accuracy} by six [stages]{mechanic:stage}.\n\nThis item can only be obtained or used via the Wonder Launcher.",
+      "short_effect": "Raises [accuracy]{mechanic:accuracy} by six [stages]{mechanic:stage} in battle.  Wonder Launcher only.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "戦闘中の　ポケモンの\n命中を　ものすごく　あげる。\nひっこめると　元に　戻る。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "It raises the accuracy of a Pokémon\nin battle immensely. It wears off if the\nPokémon is withdrawn.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Aumenta incredibilmente la precisione di un\nPokémon in una lotta. L’effetto svanisce se il\nPokémon è sostituito.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Punta que permite separar a Kyurem del Pokémon\ncon el que se ha fusionado.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Hebt die Genauigkeit eines Pokémon im Kampf\nenorm an. Die Wirkung endet mit dem Austausch\ndes Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Augmente fortement la Précision pendant\nun combat. L’effet s’estompe si le Pokémon\nse retire.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "배틀 중인 포켓몬의 명중률을\n엄청나게 올린다. 포켓몬을 볼에\n넣어버리면 원래대로 되돌아간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "せんとうちゅうの　ポケモンの\nめいちゅうを　ものすごく　あげる。\nひっこめると　もとに　もどる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It raises the accuracy of a Pokémon in\nbattle immensely. It wears off if the\nPokémon is withdrawn.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It raises the accuracy of a Pokémon in\nbattle immensely. It wears off if the\nPokémon is withdrawn.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Monte fortement la Précision pendant\nun combat. L’effet s’estompe\nsi le Pokémon se retire.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 610,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 610,
+      "generation": {
+        "name": "generation-v"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "X Accuracy 6",
+      "language": "en"
+    },
+    {
+      "name": "Precisione X-6",
+      "language": "it"
+    },
+    {
+      "name": "Precisión X 6",
+      "language": "es"
+    },
+    {
+      "name": "X-Treffer6",
+      "language": "de"
+    },
+    {
+      "name": "Précision 6",
+      "language": "fr"
+    },
+    {
+      "name": "잘-맞히기6",
+      "language": "ko"
+    },
+    {
+      "name": "ヨクアタール６",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

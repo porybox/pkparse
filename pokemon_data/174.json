@@ -1,1 +1,165 @@
-{"id":174,"name":"igglybuff","order":41,"gender_rate":6,"capture_rate":170,"base_happiness":70,"is_baby":true,"hatch_counter":10,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"fast"},"pokedex_numbers":[{"entry_number":119,"pokedex":{"name":"kalos-mountain"}},{"entry_number":20,"pokedex":{"name":"conquest-gallery"}},{"entry_number":281,"pokedex":{"name":"updated-unova"}},{"entry_number":43,"pokedex":{"name":"updated-johto"}},{"entry_number":137,"pokedex":{"name":"hoenn"}},{"entry_number":43,"pokedex":{"name":"original-johto"}},{"entry_number":174,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"no-eggs"}],"color":{"name":"pink"},"shape":{"name":"humanoid"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-ii"},"names":[{"name":"ププリン","language":"ja"},{"name":"Pupurin","language":"roomaji"},{"name":"푸푸린","language":"ko"},{"name":"寶寶丁","language":"zh"},{"name":"Toudoudou","language":"fr"},{"name":"Fluffeluff","language":"de"},{"name":"Igglybuff","language":"es"},{"name":"Igglybuff","language":"it"},{"name":"Igglybuff","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"ふうせん","language":"ja"},{"genus":"풍선","language":"ko"},{"genus":"Bouboule","language":"fr"},{"genus":"Ballon","language":"de"},{"genus":"Globo","language":"es"},{"genus":"Pallone","language":"it"},{"genus":"Balloon","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"igglybuff"}}],"first_evolution_id":174}
+{
+  "id": 174,
+  "name": "igglybuff",
+  "order": 41,
+  "gender_rate": 6,
+  "capture_rate": 170,
+  "base_happiness": 70,
+  "is_baby": true,
+  "hatch_counter": 10,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 119,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 20,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 281,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 43,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 137,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 43,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 174,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "no-eggs"
+    }
+  ],
+  "color": {
+    "name": "pink"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ププリン",
+      "language": "ja"
+    },
+    {
+      "name": "Pupurin",
+      "language": "roomaji"
+    },
+    {
+      "name": "푸푸린",
+      "language": "ko"
+    },
+    {
+      "name": "寶寶丁",
+      "language": "zh"
+    },
+    {
+      "name": "Toudoudou",
+      "language": "fr"
+    },
+    {
+      "name": "Fluffeluff",
+      "language": "de"
+    },
+    {
+      "name": "Igglybuff",
+      "language": "es"
+    },
+    {
+      "name": "Igglybuff",
+      "language": "it"
+    },
+    {
+      "name": "Igglybuff",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ふうせん",
+      "language": "ja"
+    },
+    {
+      "genus": "풍선",
+      "language": "ko"
+    },
+    {
+      "genus": "Bouboule",
+      "language": "fr"
+    },
+    {
+      "genus": "Ballon",
+      "language": "de"
+    },
+    {
+      "genus": "Globo",
+      "language": "es"
+    },
+    {
+      "genus": "Pallone",
+      "language": "it"
+    },
+    {
+      "genus": "Balloon",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "igglybuff"
+      }
+    }
+  ],
+  "first_evolution_id": 174
+}

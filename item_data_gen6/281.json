@@ -1,1 +1,77 @@
-{"id":538,"name":"rm-1-key","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"plot-advancement"},"effect_entries":[{"effect":"Unlocks room 1 on the []{location:abandoned-ship}.","short_effect":"Unlocks room 1 on the Abandoned Ship.","language":"en"}],"flavor_text_entries":[{"text":"A key that opens the door to Room\n1 inside the ABANDONED SHIP.\nIt is old and looks easily broken.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A key that opens a\ndoor inside the\nABANDONED SHIP.","version_group":{"name":"emerald"},"language":"en"},{"text":"A key that opens a\ndoor inside the\nABANDONED SHIP.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":281,"generation":{"name":"generation-iii"}}],"names":[{"name":"Rm. 1 Key","language":"en"},{"name":"Chiave Cab.1","language":"it"},{"name":"Ll. Cabina 1","language":"es"},{"name":"K1-Schlüssel","language":"de"},{"name":"Clé Salle 1","language":"fr"},{"name":"１ごうしつのカギ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 538,
+  "name": "rm-1-key",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "plot-advancement"
+  },
+  "effect_entries": [
+    {
+      "effect": "Unlocks room 1 on the []{location:abandoned-ship}.",
+      "short_effect": "Unlocks room 1 on the Abandoned Ship.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A key that opens the door to Room\n1 inside the ABANDONED SHIP.\nIt is old and looks easily broken.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A key that opens a\ndoor inside the\nABANDONED SHIP.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A key that opens a\ndoor inside the\nABANDONED SHIP.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 281,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Rm. 1 Key",
+      "language": "en"
+    },
+    {
+      "name": "Chiave Cab.1",
+      "language": "it"
+    },
+    {
+      "name": "Ll. Cabina 1",
+      "language": "es"
+    },
+    {
+      "name": "K1-Schlüssel",
+      "language": "de"
+    },
+    {
+      "name": "Clé Salle 1",
+      "language": "fr"
+    },
+    {
+      "name": "１ごうしつのカギ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

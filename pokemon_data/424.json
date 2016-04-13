@@ -1,1 +1,147 @@
-{"id":424,"name":"ambipom","order":220,"gender_rate":4,"capture_rate":45,"base_happiness":100,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"fast"},"pokedex_numbers":[{"entry_number":124,"pokedex":{"name":"updated-johto"}},{"entry_number":64,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":64,"pokedex":{"name":"original-sinnoh"}},{"entry_number":424,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"purple"},"shape":{"name":"upright"},"evolves_from_species":{"name":"aipom"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"エテボース","language":"ja"},{"name":"Eteboth","language":"roomaji"},{"name":"겟핸보숭","language":"ko"},{"name":"雙尾怪手","language":"zh"},{"name":"Capidextre","language":"fr"},{"name":"Ambidiffel","language":"de"},{"name":"Ambipom","language":"es"},{"name":"Ambipom","language":"it"},{"name":"Ambipom","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"pond"}}],"form_descriptions":[],"genera":[{"genus":"おなが","language":"ja"},{"genus":"긴꼬리","language":"ko"},{"genus":"Longqueue","language":"fr"},{"genus":"Langschweif","language":"de"},{"genus":"Cola Larga","language":"es"},{"genus":"Lungacoda","language":"it"},{"genus":"Long Tail","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"ambipom"}}],"first_evolution_id":190}
+{
+  "id": 424,
+  "name": "ambipom",
+  "order": 220,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 100,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "fast"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 124,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 64,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 64,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 424,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "purple"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "aipom"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "エテボース",
+      "language": "ja"
+    },
+    {
+      "name": "Eteboth",
+      "language": "roomaji"
+    },
+    {
+      "name": "겟핸보숭",
+      "language": "ko"
+    },
+    {
+      "name": "雙尾怪手",
+      "language": "zh"
+    },
+    {
+      "name": "Capidextre",
+      "language": "fr"
+    },
+    {
+      "name": "Ambidiffel",
+      "language": "de"
+    },
+    {
+      "name": "Ambipom",
+      "language": "es"
+    },
+    {
+      "name": "Ambipom",
+      "language": "it"
+    },
+    {
+      "name": "Ambipom",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "pond"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "おなが",
+      "language": "ja"
+    },
+    {
+      "genus": "긴꼬리",
+      "language": "ko"
+    },
+    {
+      "genus": "Longqueue",
+      "language": "fr"
+    },
+    {
+      "genus": "Langschweif",
+      "language": "de"
+    },
+    {
+      "genus": "Cola Larga",
+      "language": "es"
+    },
+    {
+      "genus": "Lungacoda",
+      "language": "it"
+    },
+    {
+      "genus": "Long Tail",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "ambipom"
+      }
+    }
+  ],
+  "first_evolution_id": 190
+}

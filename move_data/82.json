@@ -1,1 +1,111 @@
-{"id":82,"name":"dragon-rage","accuracy":100,"effect_chance":null,"pp":10,"priority":0,"power":null,"contest_combos":{"normal":{"use_before":[{"name":"dragon-breath"},{"name":"dragon-claw"},{"name":"dragon-dance"}],"use_after":[{"name":"dragon-breath"},{"name":"dragon-dance"}]},"super":{"use_before":null,"use_after":null}},"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"special"},"effect_entries":[{"effect":"Inflicts exactly 40 damage.","short_effect":"Inflicts 40 points of damage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Dragon Rage","language":"en"},{"name":"Ira di Drago","language":"it"},{"name":"Furia Dragón","language":"es"},{"name":"Drachenwut","language":"de"},{"name":"Draco-Rage","language":"fr"},{"name":"용의분노","language":"ko"},{"name":"りゅうのいかり","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"dragon"}}
+{
+  "id": 82,
+  "name": "dragon-rage",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "contest_combos": {
+    "normal": {
+      "use_before": [
+        {
+          "name": "dragon-breath"
+        },
+        {
+          "name": "dragon-claw"
+        },
+        {
+          "name": "dragon-dance"
+        }
+      ],
+      "use_after": [
+        {
+          "name": "dragon-breath"
+        },
+        {
+          "name": "dragon-dance"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": null
+    }
+  },
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "special"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts exactly 40 damage.",
+      "short_effect": "Inflicts 40 points of damage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Dragon Rage",
+      "language": "en"
+    },
+    {
+      "name": "Ira di Drago",
+      "language": "it"
+    },
+    {
+      "name": "Furia Dragón",
+      "language": "es"
+    },
+    {
+      "name": "Drachenwut",
+      "language": "de"
+    },
+    {
+      "name": "Draco-Rage",
+      "language": "fr"
+    },
+    {
+      "name": "용의분노",
+      "language": "ko"
+    },
+    {
+      "name": "りゅうのいかり",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "dragon"
+  }
+}

@@ -1,1 +1,141 @@
-{"id":160,"name":"iron-barbs","is_main_series":true,"generation":{"name":"generation-v"},"names":[{"name":"Iron Barbs","language":"en"},{"name":"Spineferrate","language":"it"},{"name":"Punta Acero","language":"es"},{"name":"Eisenstachel","language":"de"},{"name":"Épine de Fer","language":"fr"},{"name":"철가시","language":"ko"},{"name":"てつのトゲ","language":"ja"}],"effect_entries":[{"effect":"Whenever a move makes contact with this Pokémon, the move's user takes 1/8 of its maximum [HP]{mechanic:hp} in damage.\n\nThis ability functions identically to []{ability:rough-skin}.","short_effect":"Damages attacking Pokémon for 1/8 their max [HP]{mechanic:hp} on contact.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"触れた　相手を\nキズつける。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Inflicts damage to the\nattacker on contact.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Se chi attacca mette a segno una\nmossa fisica, viene danneggiato.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Hiere al hacer contacto.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Angreifer nehmen durch\nbloßes Berühren Schaden.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Blesse l’attaquant au moindre\ncontact.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"접촉한 상대에게\n상처를 입힌다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"ふれた　あいてを\nキズつける。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Inflicts damage to the\nPokémon on contact.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Inflicts damage to the\nPokémon on contact.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Blesse l’ennemi au moindre\ncontact.","version_group":{"name":"black-white"},"language":"fr"}],"pokemon":[{"is_hidden":false,"slot":1,"pokemon":{"name":"ferroseed"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"ferrothorn"}}]}
+{
+  "id": 160,
+  "name": "iron-barbs",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "Iron Barbs",
+      "language": "en"
+    },
+    {
+      "name": "Spineferrate",
+      "language": "it"
+    },
+    {
+      "name": "Punta Acero",
+      "language": "es"
+    },
+    {
+      "name": "Eisenstachel",
+      "language": "de"
+    },
+    {
+      "name": "Épine de Fer",
+      "language": "fr"
+    },
+    {
+      "name": "철가시",
+      "language": "ko"
+    },
+    {
+      "name": "てつのトゲ",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Whenever a move makes contact with this Pokémon, the move's user takes 1/8 of its maximum [HP]{mechanic:hp} in damage.\n\nThis ability functions identically to []{ability:rough-skin}.",
+      "short_effect": "Damages attacking Pokémon for 1/8 their max [HP]{mechanic:hp} on contact.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "触れた　相手を\nキズつける。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Inflicts damage to the\nattacker on contact.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Se chi attacca mette a segno una\nmossa fisica, viene danneggiato.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Hiere al hacer contacto.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Angreifer nehmen durch\nbloßes Berühren Schaden.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Blesse l’attaquant au moindre\ncontact.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "접촉한 상대에게\n상처를 입힌다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "ふれた　あいてを\nキズつける。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Inflicts damage to the\nPokémon on contact.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Inflicts damage to the\nPokémon on contact.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Blesse l’ennemi au moindre\ncontact.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "ferroseed"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "ferrothorn"
+      }
+    }
+  ]
+}

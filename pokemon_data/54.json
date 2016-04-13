@@ -1,1 +1,180 @@
-{"id":54,"name":"psyduck","order":59,"gender_rate":4,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":59,"pokedex":{"name":"kalos-central"}},{"entry_number":28,"pokedex":{"name":"updated-unova"}},{"entry_number":140,"pokedex":{"name":"updated-johto"}},{"entry_number":43,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":43,"pokedex":{"name":"original-sinnoh"}},{"entry_number":158,"pokedex":{"name":"hoenn"}},{"entry_number":138,"pokedex":{"name":"original-johto"}},{"entry_number":54,"pokedex":{"name":"kanto"}},{"entry_number":54,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"},{"name":"water1"}],"color":{"name":"yellow"},"shape":{"name":"upright"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-i"},"names":[{"name":"コダック","language":"ja"},{"name":"Koduck","language":"roomaji"},{"name":"고라파덕","language":"ko"},{"name":"可達鴨","language":"zh"},{"name":"Psykokwak","language":"fr"},{"name":"Enton","language":"de"},{"name":"Psyduck","language":"es"},{"name":"Psyduck","language":"it"},{"name":"Psyduck","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"pond"}}],"form_descriptions":[],"genera":[{"genus":"あひる","language":"ja"},{"genus":"오리","language":"ko"},{"genus":"Canard","language":"fr"},{"genus":"Ente","language":"de"},{"genus":"Pato","language":"es"},{"genus":"Papero","language":"it"},{"genus":"Duck","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"psyduck"}}],"first_evolution_id":54}
+{
+  "id": 54,
+  "name": "psyduck",
+  "order": 59,
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 59,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 28,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 140,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 43,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 43,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 158,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 138,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 54,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 54,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    },
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "yellow"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "コダック",
+      "language": "ja"
+    },
+    {
+      "name": "Koduck",
+      "language": "roomaji"
+    },
+    {
+      "name": "고라파덕",
+      "language": "ko"
+    },
+    {
+      "name": "可達鴨",
+      "language": "zh"
+    },
+    {
+      "name": "Psykokwak",
+      "language": "fr"
+    },
+    {
+      "name": "Enton",
+      "language": "de"
+    },
+    {
+      "name": "Psyduck",
+      "language": "es"
+    },
+    {
+      "name": "Psyduck",
+      "language": "it"
+    },
+    {
+      "name": "Psyduck",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "pond"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "あひる",
+      "language": "ja"
+    },
+    {
+      "genus": "오리",
+      "language": "ko"
+    },
+    {
+      "genus": "Canard",
+      "language": "fr"
+    },
+    {
+      "genus": "Ente",
+      "language": "de"
+    },
+    {
+      "genus": "Pato",
+      "language": "es"
+    },
+    {
+      "genus": "Papero",
+      "language": "it"
+    },
+    {
+      "genus": "Duck",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "psyduck"
+      }
+    }
+  ],
+  "first_evolution_id": 54
+}

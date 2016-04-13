@@ -1,1 +1,155 @@
-{"id":124,"name":"jynx","order":144,"gender_rate":8,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":25,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":84,"pokedex":{"name":"kalos-mountain"}},{"entry_number":155,"pokedex":{"name":"updated-johto"}},{"entry_number":153,"pokedex":{"name":"original-johto"}},{"entry_number":124,"pokedex":{"name":"kanto"}},{"entry_number":124,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"humanshape"}],"color":{"name":"red"},"shape":{"name":"humanoid"},"evolves_from_species":{"name":"smoochum"},"evolution_chain":{},"habitat":{"name":"urban"},"generation":{"name":"generation-i"},"names":[{"name":"ルージュラ","language":"ja"},{"name":"Rougela","language":"roomaji"},{"name":"루주라","language":"ko"},{"name":"迷唇姐","language":"zh"},{"name":"Lippoutou","language":"fr"},{"name":"Rossana","language":"de"},{"name":"Jynx","language":"es"},{"name":"Jynx","language":"it"},{"name":"Jynx","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"ひとがた","language":"ja"},{"genus":"인간형태","language":"ko"},{"genus":"Humanoïde","language":"fr"},{"genus":"Humanotyp","language":"de"},{"genus":"Forma Humana","language":"es"},{"genus":"Umanoide","language":"it"},{"genus":"Human Shape","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"jynx"}}],"first_evolution_id":238}
+{
+  "id": 124,
+  "name": "jynx",
+  "order": 144,
+  "gender_rate": 8,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 25,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 84,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 155,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 153,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 124,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 124,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "humanshape"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": {
+    "name": "smoochum"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "urban"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ルージュラ",
+      "language": "ja"
+    },
+    {
+      "name": "Rougela",
+      "language": "roomaji"
+    },
+    {
+      "name": "루주라",
+      "language": "ko"
+    },
+    {
+      "name": "迷唇姐",
+      "language": "zh"
+    },
+    {
+      "name": "Lippoutou",
+      "language": "fr"
+    },
+    {
+      "name": "Rossana",
+      "language": "de"
+    },
+    {
+      "name": "Jynx",
+      "language": "es"
+    },
+    {
+      "name": "Jynx",
+      "language": "it"
+    },
+    {
+      "name": "Jynx",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ひとがた",
+      "language": "ja"
+    },
+    {
+      "genus": "인간형태",
+      "language": "ko"
+    },
+    {
+      "genus": "Humanoïde",
+      "language": "fr"
+    },
+    {
+      "genus": "Humanotyp",
+      "language": "de"
+    },
+    {
+      "genus": "Forma Humana",
+      "language": "es"
+    },
+    {
+      "genus": "Umanoide",
+      "language": "it"
+    },
+    {
+      "genus": "Human Shape",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "jynx"
+      }
+    }
+  ],
+  "first_evolution_id": 238
+}

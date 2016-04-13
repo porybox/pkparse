@@ -1,1 +1,142 @@
-{"id":711,"name":"gourgeist","order":711,"gender_rate":4,"capture_rate":60,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":64,"pokedex":{"name":"kalos-mountain"}},{"entry_number":711,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"indeterminate"}],"color":{"name":"brown"},"shape":{"name":"blob"},"evolves_from_species":{"name":"pumpkaboo"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-vi"},"names":[{"name":"パンプジン","language":"ja"},{"name":"펌킨인","language":"ko"},{"name":"Banshitrouye","language":"fr"},{"name":"Pumpdjinn","language":"de"},{"name":"Gourgeist","language":"es"},{"name":"Gourgeist","language":"it"},{"name":"Gourgeist","language":"en"}],"pal_park_encounters":[],"form_descriptions":[{"description":"Forms have different stats.  Gourgeist's size is set as a Pumpkaboo, and cannot be changed.","language":"en"}],"genera":[{"genus":"かぼちゃ","language":"ja"},{"genus":"호박","language":"ko"},{"genus":"Citrouille","language":"fr"},{"genus":"Kürbis","language":"de"},{"genus":"Calabaza","language":"es"},{"genus":"Zucca","language":"it"},{"genus":"Pumpkin","language":"en"}],"varieties":[{"is_default":false,"pokemon":{"name":"gourgeist-super"}},{"is_default":false,"pokemon":{"name":"gourgeist-large"}},{"is_default":false,"pokemon":{"name":"gourgeist-small"}},{"is_default":true,"pokemon":{"name":"gourgeist-average"}}],"first_evolution_id":710}
+{
+  "id": 711,
+  "name": "gourgeist",
+  "order": 711,
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 64,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 711,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "indeterminate"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "blob"
+  },
+  "evolves_from_species": {
+    "name": "pumpkaboo"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "パンプジン",
+      "language": "ja"
+    },
+    {
+      "name": "펌킨인",
+      "language": "ko"
+    },
+    {
+      "name": "Banshitrouye",
+      "language": "fr"
+    },
+    {
+      "name": "Pumpdjinn",
+      "language": "de"
+    },
+    {
+      "name": "Gourgeist",
+      "language": "es"
+    },
+    {
+      "name": "Gourgeist",
+      "language": "it"
+    },
+    {
+      "name": "Gourgeist",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [
+    {
+      "description": "Forms have different stats.  Gourgeist's size is set as a Pumpkaboo, and cannot be changed.",
+      "language": "en"
+    }
+  ],
+  "genera": [
+    {
+      "genus": "かぼちゃ",
+      "language": "ja"
+    },
+    {
+      "genus": "호박",
+      "language": "ko"
+    },
+    {
+      "genus": "Citrouille",
+      "language": "fr"
+    },
+    {
+      "genus": "Kürbis",
+      "language": "de"
+    },
+    {
+      "genus": "Calabaza",
+      "language": "es"
+    },
+    {
+      "genus": "Zucca",
+      "language": "it"
+    },
+    {
+      "genus": "Pumpkin",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "gourgeist-super"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "gourgeist-large"
+      }
+    },
+    {
+      "is_default": false,
+      "pokemon": {
+        "name": "gourgeist-small"
+      }
+    },
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "gourgeist-average"
+      }
+    }
+  ],
+  "first_evolution_id": 710
+}

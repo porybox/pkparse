@@ -1,1 +1,85 @@
-{"id":229,"name":"rapid-spin","accuracy":100,"effect_chance":null,"pp":40,"priority":0,"power":20,"contest_combos":null,"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Removes []{move:leech-seed} from the user, frees the user from []{move:bind}, []{move:clamp}, []{move:fire-spin}, []{move:magma-storm}, []{move:sand-tomb}, []{move:whirlpool}, and []{move:wrap}, and clears []{move:spikes}, []{move:stealth-rock}, and []{move:toxic-spikes} from the user's side of the [field]{mechanic:field}.  If this move misses or has [no effect]{mechanic:no-effect}, its effect doesn't activate.","short_effect":"Frees the user from binding moves, removes Leech Seed, and blows away Spikes.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-ii"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Rapid Spin","language":"en"},{"name":"Rapigiro","language":"it"},{"name":"Giro Rápido","language":"es"},{"name":"Turbodreher","language":"de"},{"name":"Tour Rapide","language":"fr"},{"name":"고속스핀","language":"ko"},{"name":"こうそくスピン","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 229,
+  "name": "rapid-spin",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 40,
+  "priority": 0,
+  "power": 20,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Removes []{move:leech-seed} from the user, frees the user from []{move:bind}, []{move:clamp}, []{move:fire-spin}, []{move:magma-storm}, []{move:sand-tomb}, []{move:whirlpool}, and []{move:wrap}, and clears []{move:spikes}, []{move:stealth-rock}, and []{move:toxic-spikes} from the user's side of the [field]{mechanic:field}.  If this move misses or has [no effect]{mechanic:no-effect}, its effect doesn't activate.",
+      "short_effect": "Frees the user from binding moves, removes Leech Seed, and blows away Spikes.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-ii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Rapid Spin",
+      "language": "en"
+    },
+    {
+      "name": "Rapigiro",
+      "language": "it"
+    },
+    {
+      "name": "Giro Rápido",
+      "language": "es"
+    },
+    {
+      "name": "Turbodreher",
+      "language": "de"
+    },
+    {
+      "name": "Tour Rapide",
+      "language": "fr"
+    },
+    {
+      "name": "고속스핀",
+      "language": "ko"
+    },
+    {
+      "name": "こうそくスピン",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

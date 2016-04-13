@@ -1,1 +1,122 @@
-{"id":676,"name":"furfrou","order":677,"gender_rate":4,"capture_rate":160,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":true,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":93,"pokedex":{"name":"kalos-central"}},{"entry_number":676,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"white"},"shape":{"name":"quadruped"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-vi"},"names":[{"name":"トリミアン","language":"ja"},{"name":"트리미앙","language":"ko"},{"name":"Couafarel","language":"fr"},{"name":"Coiffwaff","language":"de"},{"name":"Furfrou","language":"es"},{"name":"Furfrou","language":"it"},{"name":"Furfrou","language":"en"}],"pal_park_encounters":[],"form_descriptions":[{"description":"Forms only differ in appearance.  Furfrou's trim can be changed at any time in Friseur Furfrou in Lumiose City.  It reverts to its Natural Form after five days unless trimmed again, or if it is deposited in the PC.","language":"en"}],"genera":[{"genus":"プードル","language":"ja"},{"genus":"푸들","language":"ko"},{"genus":"Caniche","language":"fr"},{"genus":"Pudel","language":"de"},{"genus":"Caniche","language":"es"},{"genus":"Barboncino","language":"it"},{"genus":"Poodle","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"furfrou"}}],"first_evolution_id":676}
+{
+  "id": 676,
+  "name": "furfrou",
+  "order": 677,
+  "gender_rate": 4,
+  "capture_rate": 160,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": true,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 93,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 676,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "white"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "トリミアン",
+      "language": "ja"
+    },
+    {
+      "name": "트리미앙",
+      "language": "ko"
+    },
+    {
+      "name": "Couafarel",
+      "language": "fr"
+    },
+    {
+      "name": "Coiffwaff",
+      "language": "de"
+    },
+    {
+      "name": "Furfrou",
+      "language": "es"
+    },
+    {
+      "name": "Furfrou",
+      "language": "it"
+    },
+    {
+      "name": "Furfrou",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [
+    {
+      "description": "Forms only differ in appearance.  Furfrou's trim can be changed at any time in Friseur Furfrou in Lumiose City.  It reverts to its Natural Form after five days unless trimmed again, or if it is deposited in the PC.",
+      "language": "en"
+    }
+  ],
+  "genera": [
+    {
+      "genus": "プードル",
+      "language": "ja"
+    },
+    {
+      "genus": "푸들",
+      "language": "ko"
+    },
+    {
+      "genus": "Caniche",
+      "language": "fr"
+    },
+    {
+      "genus": "Pudel",
+      "language": "de"
+    },
+    {
+      "genus": "Caniche",
+      "language": "es"
+    },
+    {
+      "genus": "Barboncino",
+      "language": "it"
+    },
+    {
+      "genus": "Poodle",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "furfrou"
+      }
+    }
+  ],
+  "first_evolution_id": 676
+}

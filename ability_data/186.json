@@ -1,1 +1,113 @@
-{"id":186,"name":"dark-aura","is_main_series":true,"generation":{"name":"generation-vi"},"names":[{"name":"Dark Aura","language":"en"},{"name":"Auratetra","language":"it"},{"name":"Aura Oscura","language":"es"},{"name":"Dunkelaura","language":"de"},{"name":"Aura Ténébreuse","language":"fr"},{"name":"다크오라","language":"ko"},{"name":"ダークオーラ","language":"ja"}],"effect_entries":[{"effect":"Strengthens []{type:dark} moves for all friendly and opposing Pokémon.","short_effect":"Strengthens []{type:dark} moves to 1.33× their power for all friendly and opposing Pokémon.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"全員の　あくタイプの\n技が　強くなる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Powers up each Pokémon’s\nDark-type moves.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Potenzia le mosse di tipo Buio\ndi tutti i Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Aumenta la potencia de todos los\nmovimientos de tipo Siniestro.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Erhöht die Stärke von allen\nAttacken des Typs Unlicht.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Renforce les attaques de type\nTénèbres de tous les Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"전원의 악타입\n기술이 강해진다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"ぜんいんの　あくタイプの\nわざが　つよくなる。","version_group":{"name":"x-y"},"language":"ja"}],"pokemon":[{"is_hidden":false,"slot":1,"pokemon":{"name":"yveltal"}}]}
+{
+  "id": 186,
+  "name": "dark-aura",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "names": [
+    {
+      "name": "Dark Aura",
+      "language": "en"
+    },
+    {
+      "name": "Auratetra",
+      "language": "it"
+    },
+    {
+      "name": "Aura Oscura",
+      "language": "es"
+    },
+    {
+      "name": "Dunkelaura",
+      "language": "de"
+    },
+    {
+      "name": "Aura Ténébreuse",
+      "language": "fr"
+    },
+    {
+      "name": "다크오라",
+      "language": "ko"
+    },
+    {
+      "name": "ダークオーラ",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Strengthens []{type:dark} moves for all friendly and opposing Pokémon.",
+      "short_effect": "Strengthens []{type:dark} moves to 1.33× their power for all friendly and opposing Pokémon.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "全員の　あくタイプの\n技が　強くなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Powers up each Pokémon’s\nDark-type moves.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Potenzia le mosse di tipo Buio\ndi tutti i Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Aumenta la potencia de todos los\nmovimientos de tipo Siniestro.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Erhöht die Stärke von allen\nAttacken des Typs Unlicht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Renforce les attaques de type\nTénèbres de tous les Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "전원의 악타입\n기술이 강해진다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "ぜんいんの　あくタイプの\nわざが　つよくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "yveltal"
+      }
+    }
+  ]
+}

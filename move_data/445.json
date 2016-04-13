@@ -1,1 +1,92 @@
-{"id":445,"name":"captivate","accuracy":100,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"beauty"},"contest_effect":null,"damage_class":{"name":"status"},"effect_entries":[{"effect":"Lowers the target's [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}.  If the user and target are the same gender, or either is genderless, this move will [fail]{mechanic:fail}.","short_effect":"Lowers the target's Special Attack by two stages if it's the opposite gender.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"net-good-stats"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Captivate","language":"en"},{"name":"Incanto","language":"it"},{"name":"Seducción","language":"es"},{"name":"Liebreiz","language":"de"},{"name":"Séduction","language":"fr"},{"name":"유혹","language":"ko"},{"name":"ゆうわく","language":"ja"}],"past_values":[],"stat_changes":[{"change":-2,"stat":{"name":"special-attack"}}],"super_contest_effect":{},"target":{"name":"all-opponents"},"type":{"name":"normal"}}
+{
+  "id": 445,
+  "name": "captivate",
+  "accuracy": 100,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Lowers the target's [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}.  If the user and target are the same gender, or either is genderless, this move will [fail]{mechanic:fail}.",
+      "short_effect": "Lowers the target's Special Attack by two stages if it's the opposite gender.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "net-good-stats"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Captivate",
+      "language": "en"
+    },
+    {
+      "name": "Incanto",
+      "language": "it"
+    },
+    {
+      "name": "Seducción",
+      "language": "es"
+    },
+    {
+      "name": "Liebreiz",
+      "language": "de"
+    },
+    {
+      "name": "Séduction",
+      "language": "fr"
+    },
+    {
+      "name": "유혹",
+      "language": "ko"
+    },
+    {
+      "name": "ゆうわく",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": -2,
+      "stat": {
+        "name": "special-attack"
+      }
+    }
+  ],
+  "super_contest_effect": {},
+  "target": {
+    "name": "all-opponents"
+  },
+  "type": {
+    "name": "normal"
+  }
+}

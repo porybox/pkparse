@@ -1,1 +1,149 @@
-{"id":186,"name":"politoed","order":68,"gender_rate":4,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":36,"pokedex":{"name":"kalos-mountain"}},{"entry_number":75,"pokedex":{"name":"updated-johto"}},{"entry_number":75,"pokedex":{"name":"original-johto"}},{"entry_number":186,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water1"}],"color":{"name":"green"},"shape":{"name":"humanoid"},"evolves_from_species":{"name":"poliwhirl"},"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-ii"},"names":[{"name":"ニョロトノ","language":"ja"},{"name":"Nyorotono","language":"roomaji"},{"name":"왕구리","language":"ko"},{"name":"牛蛙君","language":"zh"},{"name":"Tarpaud","language":"fr"},{"name":"Quaxo","language":"de"},{"name":"Politoed","language":"es"},{"name":"Politoed","language":"it"},{"name":"Politoed","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"pond"}}],"form_descriptions":[],"genera":[{"genus":"かえる","language":"ja"},{"genus":"개구리","language":"ko"},{"genus":"Grenouille","language":"fr"},{"genus":"Frosch","language":"de"},{"genus":"Rana","language":"es"},{"genus":"Rana","language":"it"},{"genus":"Frog","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"politoed"}}],"first_evolution_id":60}
+{
+  "id": 186,
+  "name": "politoed",
+  "order": 68,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 36,
+      "pokedex": {
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 75,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 75,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 186,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water1"
+    }
+  ],
+  "color": {
+    "name": "green"
+  },
+  "shape": {
+    "name": "humanoid"
+  },
+  "evolves_from_species": {
+    "name": "poliwhirl"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ニョロトノ",
+      "language": "ja"
+    },
+    {
+      "name": "Nyorotono",
+      "language": "roomaji"
+    },
+    {
+      "name": "왕구리",
+      "language": "ko"
+    },
+    {
+      "name": "牛蛙君",
+      "language": "zh"
+    },
+    {
+      "name": "Tarpaud",
+      "language": "fr"
+    },
+    {
+      "name": "Quaxo",
+      "language": "de"
+    },
+    {
+      "name": "Politoed",
+      "language": "es"
+    },
+    {
+      "name": "Politoed",
+      "language": "it"
+    },
+    {
+      "name": "Politoed",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "pond"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "かえる",
+      "language": "ja"
+    },
+    {
+      "genus": "개구리",
+      "language": "ko"
+    },
+    {
+      "genus": "Grenouille",
+      "language": "fr"
+    },
+    {
+      "genus": "Frosch",
+      "language": "de"
+    },
+    {
+      "genus": "Rana",
+      "language": "es"
+    },
+    {
+      "genus": "Rana",
+      "language": "it"
+    },
+    {
+      "genus": "Frog",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "politoed"
+      }
+    }
+  ],
+  "first_evolution_id": 60
+}

@@ -1,1 +1,150 @@
-{"id":46,"name":"paras","order":51,"gender_rate":4,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":70,"pokedex":{"name":"updated-johto"}},{"entry_number":70,"pokedex":{"name":"original-johto"}},{"entry_number":46,"pokedex":{"name":"kanto"}},{"entry_number":46,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"plant"},{"name":"bug"}],"color":{"name":"red"},"shape":{"name":"armor"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-i"},"names":[{"name":"パラス","language":"ja"},{"name":"Paras","language":"roomaji"},{"name":"파라스","language":"ko"},{"name":"派拉斯","language":"zh"},{"name":"Paras","language":"fr"},{"name":"Paras","language":"de"},{"name":"Paras","language":"es"},{"name":"Paras","language":"it"},{"name":"Paras","language":"en"}],"pal_park_encounters":[{"base_score":30,"rate":50,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"きのこ","language":"ja"},{"genus":"버섯","language":"ko"},{"genus":"Champignon","language":"fr"},{"genus":"Pilz","language":"de"},{"genus":"Hongo","language":"es"},{"genus":"Fungo","language":"it"},{"genus":"Mushroom","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"paras"}}],"first_evolution_id":46}
+{
+  "id": 46,
+  "name": "paras",
+  "order": 51,
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 70,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 70,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 46,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 46,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "plant"
+    },
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "armor"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "パラス",
+      "language": "ja"
+    },
+    {
+      "name": "Paras",
+      "language": "roomaji"
+    },
+    {
+      "name": "파라스",
+      "language": "ko"
+    },
+    {
+      "name": "派拉斯",
+      "language": "zh"
+    },
+    {
+      "name": "Paras",
+      "language": "fr"
+    },
+    {
+      "name": "Paras",
+      "language": "de"
+    },
+    {
+      "name": "Paras",
+      "language": "es"
+    },
+    {
+      "name": "Paras",
+      "language": "it"
+    },
+    {
+      "name": "Paras",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 30,
+      "rate": 50,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "きのこ",
+      "language": "ja"
+    },
+    {
+      "genus": "버섯",
+      "language": "ko"
+    },
+    {
+      "genus": "Champignon",
+      "language": "fr"
+    },
+    {
+      "genus": "Pilz",
+      "language": "de"
+    },
+    {
+      "genus": "Hongo",
+      "language": "es"
+    },
+    {
+      "genus": "Fungo",
+      "language": "it"
+    },
+    {
+      "genus": "Mushroom",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "paras"
+      }
+    }
+  ],
+  "first_evolution_id": 46
+}

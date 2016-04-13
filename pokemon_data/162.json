@@ -1,1 +1,149 @@
-{"id":162,"name":"furret","order":194,"gender_rate":4,"capture_rate":90,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":110,"pokedex":{"name":"kalos-central"}},{"entry_number":20,"pokedex":{"name":"updated-johto"}},{"entry_number":20,"pokedex":{"name":"original-johto"}},{"entry_number":162,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"sentret"},"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-ii"},"names":[{"name":"オオタチ","language":"ja"},{"name":"Ootachi","language":"roomaji"},{"name":"다꼬리","language":"ko"},{"name":"大尾立","language":"zh"},{"name":"Fouinar","language":"fr"},{"name":"Wiesenior","language":"de"},{"name":"Furret","language":"es"},{"name":"Furret","language":"it"},{"name":"Furret","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"どうなが","language":"ja"},{"genus":"긴몸통","language":"ko"},{"genus":"Allongé","language":"fr"},{"genus":"Langleib","language":"de"},{"genus":"Alargado","language":"es"},{"genus":"Lungocorpo","language":"it"},{"genus":"Long Body","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"furret"}}],"first_evolution_id":161}
+{
+  "id": 162,
+  "name": "furret",
+  "order": 194,
+  "gender_rate": 4,
+  "capture_rate": 90,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 110,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 20,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 20,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 162,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "sentret"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "オオタチ",
+      "language": "ja"
+    },
+    {
+      "name": "Ootachi",
+      "language": "roomaji"
+    },
+    {
+      "name": "다꼬리",
+      "language": "ko"
+    },
+    {
+      "name": "大尾立",
+      "language": "zh"
+    },
+    {
+      "name": "Fouinar",
+      "language": "fr"
+    },
+    {
+      "name": "Wiesenior",
+      "language": "de"
+    },
+    {
+      "name": "Furret",
+      "language": "es"
+    },
+    {
+      "name": "Furret",
+      "language": "it"
+    },
+    {
+      "name": "Furret",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "どうなが",
+      "language": "ja"
+    },
+    {
+      "genus": "긴몸통",
+      "language": "ko"
+    },
+    {
+      "genus": "Allongé",
+      "language": "fr"
+    },
+    {
+      "genus": "Langleib",
+      "language": "de"
+    },
+    {
+      "genus": "Alargado",
+      "language": "es"
+    },
+    {
+      "genus": "Lungocorpo",
+      "language": "it"
+    },
+    {
+      "genus": "Long Body",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "furret"
+      }
+    }
+  ],
+  "first_evolution_id": 161
+}

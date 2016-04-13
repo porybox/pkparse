@@ -1,1 +1,170 @@
-{"id":108,"name":"dusk-stone","cost":2100,"fling_power":80,"fling_effect":null,"attributes":[],"category":{"name":"evolution"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Evolves a []{pokemon:lampent} into []{pokemon:chandelure}, a []{pokemon:misdreavus} into []{pokemon:mismagius}, or a []{pokemon:murkrow} into []{pokemon:honchkrow}.","short_effect":"Evolves a Lampent into Chandelure, a Misdreavus into Mismagius, or a Murkrow into Honchkrow.","language":"en"}],"flavor_text_entries":[{"text":"ある　特定の　ポケモンを\n進化させる　不思議な　石。\nやみのように　暗い。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A peculiar stone that can make\ncertain species of Pokémon evolve.\nIt holds shadows as dark as can be.","version_group":{"name":"x-y"},"language":"en"},{"text":"Pietra particolare che fa evolvere determinate\nspecie di Pokémon. È scura come le tenebre.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una piedra peculiar que hace evolucionar a\nalgunos Pokémon. Es oscura como la noche.","version_group":{"name":"x-y"},"language":"es"},{"text":"Dieser besondere, düstere Stein hilft\nmanchen Pokémon bei ihrer Evolution.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une pierre étrange qui fait évoluer certaines\nespèces de Pokémon. Elle est sombre comme\nune nuit sans lune.","version_group":{"name":"x-y"},"language":"fr"},{"text":"어느 특정 포켓몬을\n진화시키는 이상한 돌.\n칠흑처럼 어둡다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ある　とくていの　ポケモンを\nしんかさせる　ふしぎな　いし。\nやみのように　くらい。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.","version_group":{"name":"black-white"},"language":"en"},{"text":"Pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle\nest sombre comme une nuit sans lune.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.","version_group":{"name":"platinum"},"language":"en"},{"text":"A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":108,"generation":{"name":"generation-vi"}},{"game_index":108,"generation":{"name":"generation-v"}},{"game_index":108,"generation":{"name":"generation-iv"}}],"names":[{"name":"Dusk Stone","language":"en"},{"name":"Neropietra","language":"it"},{"name":"Piedra Noche","language":"es"},{"name":"Finsterstein","language":"de"},{"name":"Pierre Nuit","language":"fr"},{"name":"어둠의돌","language":"ko"},{"name":"やみのいし","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 108,
+  "name": "dusk-stone",
+  "cost": 2100,
+  "fling_power": 80,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "evolution"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Evolves a []{pokemon:lampent} into []{pokemon:chandelure}, a []{pokemon:misdreavus} into []{pokemon:mismagius}, or a []{pokemon:murkrow} into []{pokemon:honchkrow}.",
+      "short_effect": "Evolves a Lampent into Chandelure, a Misdreavus into Mismagius, or a Murkrow into Honchkrow.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ある　特定の　ポケモンを\n進化させる　不思議な　石。\nやみのように　暗い。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A peculiar stone that can make\ncertain species of Pokémon evolve.\nIt holds shadows as dark as can be.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pietra particolare che fa evolvere determinate\nspecie di Pokémon. È scura come le tenebre.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una piedra peculiar que hace evolucionar a\nalgunos Pokémon. Es oscura como la noche.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Dieser besondere, düstere Stein hilft\nmanchen Pokémon bei ihrer Evolution.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une pierre étrange qui fait évoluer certaines\nespèces de Pokémon. Elle est sombre comme\nune nuit sans lune.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "어느 특정 포켓몬을\n진화시키는 이상한 돌.\n칠흑처럼 어둡다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ある　とくていの　ポケモンを\nしんかさせる　ふしぎな　いし。\nやみのように　くらい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle\nest sombre comme une nuit sans lune.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 108,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 108,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 108,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Dusk Stone",
+      "language": "en"
+    },
+    {
+      "name": "Neropietra",
+      "language": "it"
+    },
+    {
+      "name": "Piedra Noche",
+      "language": "es"
+    },
+    {
+      "name": "Finsterstein",
+      "language": "de"
+    },
+    {
+      "name": "Pierre Nuit",
+      "language": "fr"
+    },
+    {
+      "name": "어둠의돌",
+      "language": "ko"
+    },
+    {
+      "name": "やみのいし",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,156 @@
-{"id":514,"name":"photo-album","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"unused"},"effect_entries":[{"effect":"Does nothing.","short_effect":"Stores photos from your adventure.","language":"en"}],"flavor_text_entries":[{"text":"冒険中に　撮影した\n記念写真を　飾る　アルバム。\n","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A nice photo album for storing all the\nphotos taken along your adventure.","version_group":{"name":"x-y"},"language":"en"},{"text":"Album dove si possono sistemare le foto\nscattate durante quest’avventura.","version_group":{"name":"x-y"},"language":"it"},{"text":"Contiene los datos del Pokéathlon con el número\nde victorias en Fuera del Ring.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Album, in dem du Erinnerungsfotos\naufbewahren kannst, die du auf deinen\nReisen geschossen hast.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un album décoré de photos souvenir prises\npendant le voyage.","version_group":{"name":"x-y"},"language":"fr"},{"text":"모험 중에 촬영한\n기념사진을 보관하는 앨범.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ぼうけんちゅうに　さつえいした\nきねんしゃしんを　かざる　アルバム。\n","version_group":{"name":"x-y"},"language":"ja"},{"text":"A nice photo album for storing all the\nphotos taken along your adventure.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A nice photo album for storing all the\nphotos taken along your adventure.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un album décoré de photos souvenir\nprises pendant le voyage.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A nice photo album for storing all the\nphotos taken along your adventure.","version_group":{"name":"heartgold-soulsilver"},"language":"en"}],"game_indices":[{"game_index":501,"generation":{"name":"generation-vi"}},{"game_index":501,"generation":{"name":"generation-v"}},{"game_index":501,"generation":{"name":"generation-iv"}}],"names":[{"name":"Photo Album","language":"en"},{"name":"Album","language":"it"},{"name":"Álbum","language":"es"},{"name":"Fotoalbum","language":"de"},{"name":"Album Photo","language":"fr"},{"name":"포토앨범","language":"ko"},{"name":"フォトアルバム","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 514,
+  "name": "photo-album",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "unused"
+  },
+  "effect_entries": [
+    {
+      "effect": "Does nothing.",
+      "short_effect": "Stores photos from your adventure.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "冒険中に　撮影した\n記念写真を　飾る　アルバム。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A nice photo album for storing all the\nphotos taken along your adventure.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Album dove si possono sistemare le foto\nscattate durante quest’avventura.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Contiene los datos del Pokéathlon con el número\nde victorias en Fuera del Ring.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Album, in dem du Erinnerungsfotos\naufbewahren kannst, die du auf deinen\nReisen geschossen hast.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un album décoré de photos souvenir prises\npendant le voyage.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "모험 중에 촬영한\n기념사진을 보관하는 앨범.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ぼうけんちゅうに　さつえいした\nきねんしゃしんを　かざる　アルバム。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A nice photo album for storing all the\nphotos taken along your adventure.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nice photo album for storing all the\nphotos taken along your adventure.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un album décoré de photos souvenir\nprises pendant le voyage.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A nice photo album for storing all the\nphotos taken along your adventure.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 501,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 501,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 501,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Photo Album",
+      "language": "en"
+    },
+    {
+      "name": "Album",
+      "language": "it"
+    },
+    {
+      "name": "Álbum",
+      "language": "es"
+    },
+    {
+      "name": "Fotoalbum",
+      "language": "de"
+    },
+    {
+      "name": "Album Photo",
+      "language": "fr"
+    },
+    {
+      "name": "포토앨범",
+      "language": "ko"
+    },
+    {
+      "name": "フォトアルバム",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

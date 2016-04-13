@@ -1,1 +1,77 @@
-{"id":532,"name":"pokeblock-case","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Stores Pokéblocks.","short_effect":"Holds Pokéblocks.","language":"en"}],"flavor_text_entries":[{"text":"A case for holding POKéBLOCKS made\nwith a BERRY BLENDER. It releases\none POKéBLOCK when shaken.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A case for holding\nPOKéBLOCKS made with\na BERRY BLENDER.","version_group":{"name":"emerald"},"language":"en"},{"text":"A case for holding\nPOKéBLOCKS made with\na BERRY BLENDER.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":273,"generation":{"name":"generation-iii"}}],"names":[{"name":"Pokéblock Case","language":"en"},{"name":"PortaPokémelle","language":"it"},{"name":"Tubo Pokécubos","language":"es"},{"name":"Pokériegelbox","language":"de"},{"name":"Boîte Pokéblocs","language":"fr"},{"name":"ポロックケース","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 532,
+  "name": "pokeblock-case",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Stores Pokéblocks.",
+      "short_effect": "Holds Pokéblocks.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A case for holding POKéBLOCKS made\nwith a BERRY BLENDER. It releases\none POKéBLOCK when shaken.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A case for holding\nPOKéBLOCKS made with\na BERRY BLENDER.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A case for holding\nPOKéBLOCKS made with\na BERRY BLENDER.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 273,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Pokéblock Case",
+      "language": "en"
+    },
+    {
+      "name": "PortaPokémelle",
+      "language": "it"
+    },
+    {
+      "name": "Tubo Pokécubos",
+      "language": "es"
+    },
+    {
+      "name": "Pokériegelbox",
+      "language": "de"
+    },
+    {
+      "name": "Boîte Pokéblocs",
+      "language": "fr"
+    },
+    {
+      "name": "ポロックケース",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

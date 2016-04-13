@@ -1,1 +1,210 @@
-{"id":2,"name":"ultra-ball","cost":1200,"fling_power":null,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"standard-balls"},"effect_entries":[{"effect":"Used in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 2×.\n\n    If used in a trainer battle, nothing happens and the ball is lost.","short_effect":"Tries to catch a wild Pokémon.  Success rate is 2×.","language":"en"}],"flavor_text_entries":[{"text":"スーパーボールよりも　さらに\nポケモンを　捕まえやすくなった\nすごく　性能のいい　ボール。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An ultra-high-performance Poké Ball\nthat provides a higher success rate for\ncatching Pokémon than a Great Ball.","version_group":{"name":"x-y"},"language":"en"},{"text":"Poké Ball dalle prestazioni eccellenti:\nfornisce maggiori probabilità di cattura rispetto\nalla Mega Ball.","version_group":{"name":"x-y"},"language":"it"},{"text":"Poké Ball de rendimiento superior. Tiene un\níndice de éxito mayor al de la Super Ball.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Ball mit hoher Erfolgsquote. Dem Superball in\nallen Punkten überlegen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une Ball ultraperformante dont le taux de\nréussite est supérieur à celui de la Super Ball.","version_group":{"name":"x-y"},"language":"fr"},{"text":"수퍼볼보다도 더욱\n포켓몬을 잡기 쉬워진\n매우 성능이 좋은 볼.","version_group":{"name":"x-y"},"language":"ko"},{"text":"スーパーボールよりも　さらに\nポケモンを　つかまえやすくなった\nすごく　せいのうのいい　ボール。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An ultra-performance Ball that\nprovides a higher Pokémon catch rate\nthan a Great Ball.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An ultra-performance Ball that\nprovides a higher Pokémon catch rate\nthan a Great Ball.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une Ball ultraperformante dont le taux\nde réussite est supérieur à celui de la\nSuper Ball.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An ultra-performance Ball that\nprovides a higher Pokémon catch rate\nthan a Great Ball.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An ultra-performance Ball that\nprovides a higher Pokémon catch rate\nthan a Great Ball.","version_group":{"name":"platinum"},"language":"en"},{"text":"An ultra-performance Ball that\nprovides a higher Pokémon catch rate\nthan a Great Ball.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A very high-grade BALL that offers\na higher POKéMON catch rate than\na GREAT BALL.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A better BALL with\na higher catch rate\nthan a GREAT BALL.","version_group":{"name":"emerald"},"language":"en"},{"text":"A better BALL with\na higher catch rate\nthan a GREAT BALL.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":2,"generation":{"name":"generation-vi"}},{"game_index":2,"generation":{"name":"generation-v"}},{"game_index":2,"generation":{"name":"generation-iv"}},{"game_index":2,"generation":{"name":"generation-iii"}}],"names":[{"name":"Ultra Ball","language":"en"},{"name":"Ultra Ball","language":"it"},{"name":"Ultra Ball","language":"es"},{"name":"Hyperball","language":"de"},{"name":"Hyper Ball","language":"fr"},{"name":"하이퍼볼","language":"ko"},{"name":"ハイパーボール","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 2,
+  "name": "ultra-ball",
+  "cost": 1200,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "standard-balls"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used in battle\n:   Attempts to [catch]{mechanic:catch} a wild Pokémon, using a catch rate of 2×.\n\n    If used in a trainer battle, nothing happens and the ball is lost.",
+      "short_effect": "Tries to catch a wild Pokémon.  Success rate is 2×.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "スーパーボールよりも　さらに\nポケモンを　捕まえやすくなった\nすごく　性能のいい　ボール。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An ultra-high-performance Poké Ball\nthat provides a higher success rate for\ncatching Pokémon than a Great Ball.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Poké Ball dalle prestazioni eccellenti:\nfornisce maggiori probabilità di cattura rispetto\nalla Mega Ball.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Poké Ball de rendimiento superior. Tiene un\níndice de éxito mayor al de la Super Ball.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Ball mit hoher Erfolgsquote. Dem Superball in\nallen Punkten überlegen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une Ball ultraperformante dont le taux de\nréussite est supérieur à celui de la Super Ball.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "수퍼볼보다도 더욱\n포켓몬을 잡기 쉬워진\n매우 성능이 좋은 볼.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "スーパーボールよりも　さらに\nポケモンを　つかまえやすくなった\nすごく　せいのうのいい　ボール。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An ultra-performance Ball that\nprovides a higher Pokémon catch rate\nthan a Great Ball.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An ultra-performance Ball that\nprovides a higher Pokémon catch rate\nthan a Great Ball.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une Ball ultraperformante dont le taux\nde réussite est supérieur à celui de la\nSuper Ball.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An ultra-performance Ball that\nprovides a higher Pokémon catch rate\nthan a Great Ball.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An ultra-performance Ball that\nprovides a higher Pokémon catch rate\nthan a Great Ball.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An ultra-performance Ball that\nprovides a higher Pokémon catch rate\nthan a Great Ball.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A very high-grade BALL that offers\na higher POKéMON catch rate than\na GREAT BALL.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A better BALL with\na higher catch rate\nthan a GREAT BALL.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A better BALL with\na higher catch rate\nthan a GREAT BALL.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 2,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 2,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 2,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 2,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Ultra Ball",
+      "language": "en"
+    },
+    {
+      "name": "Ultra Ball",
+      "language": "it"
+    },
+    {
+      "name": "Ultra Ball",
+      "language": "es"
+    },
+    {
+      "name": "Hyperball",
+      "language": "de"
+    },
+    {
+      "name": "Hyper Ball",
+      "language": "fr"
+    },
+    {
+      "name": "하이퍼볼",
+      "language": "ko"
+    },
+    {
+      "name": "ハイパーボール",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

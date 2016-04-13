@@ -1,1 +1,213 @@
-{"id":45,"name":"hp-up","cost":9800,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-overworld"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"vitamins"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Increases [HP]{mechanic:hp} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2.","short_effect":"Raises HP effort and happiness.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンの　栄養ドリンク。\nポケモン　１匹の　ＨＰの\n基礎ポイントを　あげる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A nutritious drink for Pokémon.\nWhen consumed, it raises the\nbase HP of a single Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Bevanda nutriente per Pokémon.\nAumenta i punti base dei PS.","version_group":{"name":"x-y"},"language":"it"},{"text":"Nutritiva bebida que potencia los PS de base de\nun Pokémon.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein gehaltvolles Getränk, das den KP-Basiswert\neines Pokémon dauerhaft erhöht.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une boisson très nutritive qui augmente\nles PV de base d’un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬의 영양 드링크.\n포켓몬 1마리의 HP\n기초 포인트를 올린다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンの　えいようドリンク。\nポケモン　１ひきの　ＨＰの\nきそポイントを　あげる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A nutritious drink for Pokémon.\nIt raises the base HP of a single\nPokémon.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A nutritious drink for Pokémon.\nIt raises the base HP of a single\nPokémon.","version_group":{"name":"black-white"},"language":"en"},{"text":"Une boisson très nutritive qui monte\nles PV de base d’un Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A nutritious drink for Pokémon.\nIt raises the base HP of a single\nPokémon.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A nutritious drink for Pokémon.\nIt raises the base HP of a single\nPokémon.","version_group":{"name":"platinum"},"language":"en"},{"text":"A nutritious drink for Pokémon.\nIt raises the base HP of a single\nPokémon.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A nutritious drink for POKéMON.\nIt raises the base HP of one\nPOKéMON.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Raises the base HP\nof one POKéMON.","version_group":{"name":"emerald"},"language":"en"},{"text":"Raises the HP of\none POKéMON.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":45,"generation":{"name":"generation-vi"}},{"game_index":45,"generation":{"name":"generation-v"}},{"game_index":45,"generation":{"name":"generation-iv"}},{"game_index":63,"generation":{"name":"generation-iii"}}],"names":[{"name":"HP Up","language":"en"},{"name":"PS-Su","language":"it"},{"name":"Más PS","language":"es"},{"name":"KP-Plus","language":"de"},{"name":"PV Plus","language":"fr"},{"name":"맥스업","language":"ko"},{"name":"マックスアップ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 45,
+  "name": "hp-up",
+  "cost": 9800,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-overworld"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "vitamins"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Increases [HP]{mechanic:hp} [effort]{mechanic:effort} by 10, but won't increase it beyond 100.  Increases [happiness]{mechanic:happiness} by 5/3/2.",
+      "short_effect": "Raises HP effort and happiness.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンの　栄養ドリンク。\nポケモン　１匹の　ＨＰの\n基礎ポイントを　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nWhen consumed, it raises the\nbase HP of a single Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Bevanda nutriente per Pokémon.\nAumenta i punti base dei PS.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Nutritiva bebida que potencia los PS de base de\nun Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein gehaltvolles Getränk, das den KP-Basiswert\neines Pokémon dauerhaft erhöht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une boisson très nutritive qui augmente\nles PV de base d’un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬의 영양 드링크.\n포켓몬 1마리의 HP\n기초 포인트를 올린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンの　えいようドリンク。\nポケモン　１ひきの　ＨＰの\nきそポイントを　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base HP of a single\nPokémon.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base HP of a single\nPokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une boisson très nutritive qui monte\nles PV de base d’un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base HP of a single\nPokémon.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base HP of a single\nPokémon.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for Pokémon.\nIt raises the base HP of a single\nPokémon.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A nutritious drink for POKéMON.\nIt raises the base HP of one\nPOKéMON.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the base HP\nof one POKéMON.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the HP of\none POKéMON.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 45,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 45,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 45,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 63,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "HP Up",
+      "language": "en"
+    },
+    {
+      "name": "PS-Su",
+      "language": "it"
+    },
+    {
+      "name": "Más PS",
+      "language": "es"
+    },
+    {
+      "name": "KP-Plus",
+      "language": "de"
+    },
+    {
+      "name": "PV Plus",
+      "language": "fr"
+    },
+    {
+      "name": "맥스업",
+      "language": "ko"
+    },
+    {
+      "name": "マックスアップ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

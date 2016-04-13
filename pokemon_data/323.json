@@ -1,1 +1,143 @@
-{"id":323,"name":"camerupt","order":351,"gender_rate":4,"capture_rate":150,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":205,"pokedex":{"name":"updated-unova"}},{"entry_number":102,"pokedex":{"name":"hoenn"}},{"entry_number":323,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"red"},"shape":{"name":"quadruped"},"evolves_from_species":{"name":"numel"},"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-iii"},"names":[{"name":"バクーダ","language":"ja"},{"name":"Bakuuda","language":"roomaji"},{"name":"폭타","language":"ko"},{"name":"噴火駝","language":"zh"},{"name":"Camérupt","language":"fr"},{"name":"Camerupt","language":"de"},{"name":"Camerupt","language":"es"},{"name":"Camerupt","language":"it"},{"name":"Camerupt","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ふんか","language":"ja"},{"genus":"분화","language":"ko"},{"genus":"Éruption","language":"fr"},{"genus":"Ausbruch","language":"de"},{"genus":"Erupción","language":"es"},{"genus":"Eruzione","language":"it"},{"genus":"Eruption","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"camerupt"}}],"first_evolution_id":322}
+{
+  "id": 323,
+  "name": "camerupt",
+  "order": 351,
+  "gender_rate": 4,
+  "capture_rate": 150,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 205,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 102,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    {
+      "entry_number": 323,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": {
+    "name": "numel"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "バクーダ",
+      "language": "ja"
+    },
+    {
+      "name": "Bakuuda",
+      "language": "roomaji"
+    },
+    {
+      "name": "폭타",
+      "language": "ko"
+    },
+    {
+      "name": "噴火駝",
+      "language": "zh"
+    },
+    {
+      "name": "Camérupt",
+      "language": "fr"
+    },
+    {
+      "name": "Camerupt",
+      "language": "de"
+    },
+    {
+      "name": "Camerupt",
+      "language": "es"
+    },
+    {
+      "name": "Camerupt",
+      "language": "it"
+    },
+    {
+      "name": "Camerupt",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ふんか",
+      "language": "ja"
+    },
+    {
+      "genus": "분화",
+      "language": "ko"
+    },
+    {
+      "genus": "Éruption",
+      "language": "fr"
+    },
+    {
+      "genus": "Ausbruch",
+      "language": "de"
+    },
+    {
+      "genus": "Erupción",
+      "language": "es"
+    },
+    {
+      "genus": "Eruzione",
+      "language": "it"
+    },
+    {
+      "genus": "Eruption",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "camerupt"
+      }
+    }
+  ],
+  "first_evolution_id": 322
+}

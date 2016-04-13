@@ -1,1 +1,153 @@
-{"id":206,"name":"dunsparce","order":237,"gender_rate":4,"capture_rate":190,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":40,"pokedex":{"name":"kalos-central"}},{"entry_number":35,"pokedex":{"name":"updated-unova"}},{"entry_number":52,"pokedex":{"name":"updated-johto"}},{"entry_number":52,"pokedex":{"name":"original-johto"}},{"entry_number":206,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"yellow"},"shape":{"name":"squiggle"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"cave"},"generation":{"name":"generation-ii"},"names":[{"name":"ノコッチ","language":"ja"},{"name":"Nokocchi","language":"roomaji"},{"name":"노고치","language":"ko"},{"name":"土龍弟弟","language":"zh"},{"name":"Insolourdo","language":"fr"},{"name":"Dummisel","language":"de"},{"name":"Dunsparce","language":"es"},{"name":"Dunsparce","language":"it"},{"name":"Dunsparce","language":"en"}],"pal_park_encounters":[{"base_score":90,"rate":3,"area":{"name":"forest"}}],"form_descriptions":[],"genera":[{"genus":"つちへび","language":"ja"},{"genus":"땅뱀","language":"ko"},{"genus":"Serpent","language":"fr"},{"genus":"Schlange","language":"de"},{"genus":"Serptierra","language":"es"},{"genus":"Terraserpe","language":"it"},{"genus":"Land Snake","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"dunsparce"}}],"first_evolution_id":206}
+{
+  "id": 206,
+  "name": "dunsparce",
+  "order": 237,
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 40,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 35,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 52,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 52,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 206,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "yellow"
+  },
+  "shape": {
+    "name": "squiggle"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "cave"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ノコッチ",
+      "language": "ja"
+    },
+    {
+      "name": "Nokocchi",
+      "language": "roomaji"
+    },
+    {
+      "name": "노고치",
+      "language": "ko"
+    },
+    {
+      "name": "土龍弟弟",
+      "language": "zh"
+    },
+    {
+      "name": "Insolourdo",
+      "language": "fr"
+    },
+    {
+      "name": "Dummisel",
+      "language": "de"
+    },
+    {
+      "name": "Dunsparce",
+      "language": "es"
+    },
+    {
+      "name": "Dunsparce",
+      "language": "it"
+    },
+    {
+      "name": "Dunsparce",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 90,
+      "rate": 3,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "つちへび",
+      "language": "ja"
+    },
+    {
+      "genus": "땅뱀",
+      "language": "ko"
+    },
+    {
+      "genus": "Serpent",
+      "language": "fr"
+    },
+    {
+      "genus": "Schlange",
+      "language": "de"
+    },
+    {
+      "genus": "Serptierra",
+      "language": "es"
+    },
+    {
+      "genus": "Terraserpe",
+      "language": "it"
+    },
+    {
+      "genus": "Land Snake",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "dunsparce"
+      }
+    }
+  ],
+  "first_evolution_id": 206
+}

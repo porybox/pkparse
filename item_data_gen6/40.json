@@ -1,1 +1,213 @@
-{"id":40,"name":"elixir","cost":3000,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-overworld"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"pp-recovery"},"effect_entries":[{"effect":"Used on a party Pokémon\n:   Restores 10 [PP]{mechanic:pp} for each move.","short_effect":"Restores 10 PP for each move.","language":"en"}],"flavor_text_entries":[{"text":"ポケモンが　覚えている\n４つの　技の　ＰＰを\n１０ずつ　回復する。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"This medicine can restore 10 PP\nto each of the moves that have\nbeen learned by a Pokémon.","version_group":{"name":"x-y"},"language":"en"},{"text":"Restituisce 10 PP a ciascuna delle mosse\nconosciute dal Pokémon.","version_group":{"name":"x-y"},"language":"it"},{"text":"Restaura 10 PP de todos los movimientos\naprendidos por el Pokémon elegido.","version_group":{"name":"x-y"},"language":"es"},{"text":"Füllt die AP aller Attacken eines Pokémon\num 10 Punkte auf.","version_group":{"name":"x-y"},"language":"de"},{"text":"Restaure 10 PP de toutes les capacités\nd’un Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"text":"포켓몬이 기억하고 있는\n4개 기술의 PP를\n10씩 회복한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ポケモンが　おぼえている\n４つの　わざの　ＰＰを\n１０ずつ　かいふくする。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It restores the PP of all the\nmoves learned by the targeted Pokémon\nby 10 points each.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It restores the PP of all the\nmoves learned by the targeted Pokémon\nby 10 points each.","version_group":{"name":"black-white"},"language":"en"},{"text":"Restaure 10 PP de toutes les\ncapacités d’un Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"text":"It restores the PP of all the\nmoves learned by the targeted Pokémon\nby 10 points each.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"It restores the PP of all the\nmoves learned by the targeted Pokémon\nby 10 points each.","version_group":{"name":"platinum"},"language":"en"},{"text":"It restores the PP of all the\nmoves learned by the targeted Pokémon\nby 10 points each.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"Restores the PP of all moves for\none POKéMON by 10 points each.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Restores the PP\nof all moves by 10.","version_group":{"name":"emerald"},"language":"en"},{"text":"Restores the PP\nof all moves by 10.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":40,"generation":{"name":"generation-vi"}},{"game_index":40,"generation":{"name":"generation-v"}},{"game_index":40,"generation":{"name":"generation-iv"}},{"game_index":36,"generation":{"name":"generation-iii"}}],"names":[{"name":"Elixir","language":"en"},{"name":"Elisir","language":"it"},{"name":"Elixir","language":"es"},{"name":"Elixier","language":"de"},{"name":"Élixir","language":"fr"},{"name":"PP에이더","language":"ko"},{"name":"ピーピーエイダー","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 40,
+  "name": "elixir",
+  "cost": 3000,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-overworld"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "pp-recovery"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon\n:   Restores 10 [PP]{mechanic:pp} for each move.",
+      "short_effect": "Restores 10 PP for each move.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ポケモンが　覚えている\n４つの　技の　ＰＰを\n１０ずつ　回復する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "This medicine can restore 10 PP\nto each of the moves that have\nbeen learned by a Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Restituisce 10 PP a ciascuna delle mosse\nconosciute dal Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Restaura 10 PP de todos los movimientos\naprendidos por el Pokémon elegido.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Füllt die AP aller Attacken eines Pokémon\num 10 Punkte auf.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Restaure 10 PP de toutes les capacités\nd’un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "포켓몬이 기억하고 있는\n4개 기술의 PP를\n10씩 회복한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ポケモンが　おぼえている\n４つの　わざの　ＰＰを\n１０ずつ　かいふくする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It restores the PP of all the\nmoves learned by the targeted Pokémon\nby 10 points each.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It restores the PP of all the\nmoves learned by the targeted Pokémon\nby 10 points each.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Restaure 10 PP de toutes les\ncapacités d’un Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "It restores the PP of all the\nmoves learned by the targeted Pokémon\nby 10 points each.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It restores the PP of all the\nmoves learned by the targeted Pokémon\nby 10 points each.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It restores the PP of all the\nmoves learned by the targeted Pokémon\nby 10 points each.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Restores the PP of all moves for\none POKéMON by 10 points each.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Restores the PP\nof all moves by 10.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Restores the PP\nof all moves by 10.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 40,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 40,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 40,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 36,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Elixir",
+      "language": "en"
+    },
+    {
+      "name": "Elisir",
+      "language": "it"
+    },
+    {
+      "name": "Elixir",
+      "language": "es"
+    },
+    {
+      "name": "Elixier",
+      "language": "de"
+    },
+    {
+      "name": "Élixir",
+      "language": "fr"
+    },
+    {
+      "name": "PP에이더",
+      "language": "ko"
+    },
+    {
+      "name": "ピーピーエイダー",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,155 @@
-{"id":31,"name":"nidoqueen","order":32,"gender_rate":8,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":106,"pokedex":{"name":"kalos-coastal"}},{"entry_number":97,"pokedex":{"name":"updated-johto"}},{"entry_number":97,"pokedex":{"name":"original-johto"}},{"entry_number":31,"pokedex":{"name":"kanto"}},{"entry_number":31,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"no-eggs"}],"color":{"name":"blue"},"shape":{"name":"upright"},"evolves_from_species":{"name":"nidorina"},"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-i"},"names":[{"name":"ニドクイン","language":"ja"},{"name":"Nidoqueen","language":"roomaji"},{"name":"니드퀸","language":"ko"},{"name":"尼多后","language":"zh"},{"name":"Nidoqueen","language":"fr"},{"name":"Nidoqueen","language":"de"},{"name":"Nidoqueen","language":"es"},{"name":"Nidoqueen","language":"it"},{"name":"Nidoqueen","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"ドリル","language":"ja"},{"genus":"드릴","language":"ko"},{"genus":"Perceur","language":"fr"},{"genus":"Bohrer","language":"de"},{"genus":"Taladro","language":"es"},{"genus":"Trapano","language":"it"},{"genus":"Drill","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"nidoqueen"}}],"first_evolution_id":29}
+{
+  "id": 31,
+  "name": "nidoqueen",
+  "order": 32,
+  "gender_rate": 8,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 106,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 97,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 97,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 31,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 31,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "no-eggs"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "nidorina"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ニドクイン",
+      "language": "ja"
+    },
+    {
+      "name": "Nidoqueen",
+      "language": "roomaji"
+    },
+    {
+      "name": "니드퀸",
+      "language": "ko"
+    },
+    {
+      "name": "尼多后",
+      "language": "zh"
+    },
+    {
+      "name": "Nidoqueen",
+      "language": "fr"
+    },
+    {
+      "name": "Nidoqueen",
+      "language": "de"
+    },
+    {
+      "name": "Nidoqueen",
+      "language": "es"
+    },
+    {
+      "name": "Nidoqueen",
+      "language": "it"
+    },
+    {
+      "name": "Nidoqueen",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ドリル",
+      "language": "ja"
+    },
+    {
+      "genus": "드릴",
+      "language": "ko"
+    },
+    {
+      "genus": "Perceur",
+      "language": "fr"
+    },
+    {
+      "genus": "Bohrer",
+      "language": "de"
+    },
+    {
+      "genus": "Taladro",
+      "language": "es"
+    },
+    {
+      "genus": "Trapano",
+      "language": "it"
+    },
+    {
+      "genus": "Drill",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "nidoqueen"
+      }
+    }
+  ],
+  "first_evolution_id": 29
+}

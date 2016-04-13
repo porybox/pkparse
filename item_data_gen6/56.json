@@ -1,1 +1,210 @@
-{"id":56,"name":"dire-hit","cost":650,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"},{"name":"consumable"},{"name":"usable-in-battle"},{"name":"holdable"}],"category":{"name":"stat-boosts"},"effect_entries":[{"effect":"Used on a party Pokémon in battle\n:   Increases the target's [critical hit chance]{mechanic:critical-hit-chance} by one stage until it leaves the field.  Increases happiness by 1/1/0.","short_effect":"Increases the chance of a critical hit in battle.  Raises happiness.","language":"en"}],"flavor_text_entries":[{"text":"急所率が　大きく　あがる。\n１度しか　使うことが　できない。\nひっこめると　元に　戻る。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item that raises the critical-hit ratio\ngreatly. It can be used only once and\nwears off if the Pokémon is withdrawn.","version_group":{"name":"x-y"},"language":"en"},{"text":"Aumenta la probabilità di sferrare brutti colpi.\nSi può usare una sola volta e l’effetto svanisce\nse il Pokémon è sostituito.","version_group":{"name":"x-y"},"language":"it"},{"text":"Aumenta el índice de golpe crítico en combate.\nAl cambiar de Pokémon, el efecto desaparece.","version_group":{"name":"x-y"},"language":"es"},{"text":"Hebt einmalig die Volltrefferquote des Pokémon\nim Kampf stark an. Die Wirkung endet mit dem\nAustausch des Pokémon.","version_group":{"name":"x-y"},"language":"de"},{"text":"Augmente fortement le taux de critiques.\nUtilisable une seule fois. L’effet disparaît si\nle Pokémon se retire.","version_group":{"name":"x-y"},"language":"fr"},{"text":"급소 명중률이 크게 올라간다.\n한 번밖에 쓸 수 없다. 포켓몬을 볼에\n넣어버리면 원래대로 되돌아간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"きゅうしょりつが　おおきく　あがる。\nいちどしか　つかうことが　できない。\nひっこめると　もとに　もどる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"It raises the critical-hit ratio greatly.\nIt can be used only once and wears off\nif the Pokémon is withdrawn.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"It raises the critical-hit ratio greatly.\nIt can be used only once and wears off\nif the Pokémon is withdrawn.","version_group":{"name":"black-white"},"language":"en"},{"text":"Monte fortement le taux de critiques.\nUtilisable une seule fois. L’effet\ndisparaît si le Pokémon se retire.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item that raises the critical-hit\nratio of a Pokémon in battle. It wears\noff if the Pokémon is withdrawn.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item that raises the critical-hit\nratio of a Pokémon in battle. It wears\noff if the Pokémon is withdrawn.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item that raises the critical-hit\nratio of a Pokémon in battle. It wears\noff if the Pokémon is withdrawn.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"Raises the critical-hit ratio of\nPOKéMON in battle. Wears off if the\nPOKéMON is withdrawn.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Raises the\ncritical-hit ratio\nduring one battle.","version_group":{"name":"emerald"},"language":"en"},{"text":"Raises the\ncritical-hit ratio\nduring one battle.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":56,"generation":{"name":"generation-vi"}},{"game_index":56,"generation":{"name":"generation-v"}},{"game_index":56,"generation":{"name":"generation-iv"}},{"game_index":74,"generation":{"name":"generation-iii"}}],"names":[{"name":"Dire Hit","language":"en"},{"name":"Supercolpo","language":"it"},{"name":"Directo","language":"es"},{"name":"Angriffplus","language":"de"},{"name":"Muscle +","language":"fr"},{"name":"크리티컬커터","language":"ko"},{"name":"クリティカット","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 56,
+  "name": "dire-hit",
+  "cost": 650,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    },
+    {
+      "name": "consumable"
+    },
+    {
+      "name": "usable-in-battle"
+    },
+    {
+      "name": "holdable"
+    }
+  ],
+  "category": {
+    "name": "stat-boosts"
+  },
+  "effect_entries": [
+    {
+      "effect": "Used on a party Pokémon in battle\n:   Increases the target's [critical hit chance]{mechanic:critical-hit-chance} by one stage until it leaves the field.  Increases happiness by 1/1/0.",
+      "short_effect": "Increases the chance of a critical hit in battle.  Raises happiness.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "急所率が　大きく　あがる。\n１度しか　使うことが　できない。\nひっこめると　元に　戻る。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item that raises the critical-hit ratio\ngreatly. It can be used only once and\nwears off if the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Aumenta la probabilità di sferrare brutti colpi.\nSi può usare una sola volta e l’effetto svanisce\nse il Pokémon è sostituito.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Aumenta el índice de golpe crítico en combate.\nAl cambiar de Pokémon, el efecto desaparece.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Hebt einmalig die Volltrefferquote des Pokémon\nim Kampf stark an. Die Wirkung endet mit dem\nAustausch des Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Augmente fortement le taux de critiques.\nUtilisable une seule fois. L’effet disparaît si\nle Pokémon se retire.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "급소 명중률이 크게 올라간다.\n한 번밖에 쓸 수 없다. 포켓몬을 볼에\n넣어버리면 원래대로 되돌아간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "きゅうしょりつが　おおきく　あがる。\nいちどしか　つかうことが　できない。\nひっこめると　もとに　もどる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "It raises the critical-hit ratio greatly.\nIt can be used only once and wears off\nif the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It raises the critical-hit ratio greatly.\nIt can be used only once and wears off\nif the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Monte fortement le taux de critiques.\nUtilisable une seule fois. L’effet\ndisparaît si le Pokémon se retire.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item that raises the critical-hit\nratio of a Pokémon in battle. It wears\noff if the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item that raises the critical-hit\nratio of a Pokémon in battle. It wears\noff if the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item that raises the critical-hit\nratio of a Pokémon in battle. It wears\noff if the Pokémon is withdrawn.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the critical-hit ratio of\nPOKéMON in battle. Wears off if the\nPOKéMON is withdrawn.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the\ncritical-hit ratio\nduring one battle.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Raises the\ncritical-hit ratio\nduring one battle.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 56,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 56,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 56,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 74,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Dire Hit",
+      "language": "en"
+    },
+    {
+      "name": "Supercolpo",
+      "language": "it"
+    },
+    {
+      "name": "Directo",
+      "language": "es"
+    },
+    {
+      "name": "Angriffplus",
+      "language": "de"
+    },
+    {
+      "name": "Muscle +",
+      "language": "fr"
+    },
+    {
+      "name": "크리티컬커터",
+      "language": "ko"
+    },
+    {
+      "name": "クリティカット",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

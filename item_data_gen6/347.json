@@ -1,1 +1,197 @@
-{"id":324,"name":"tm20","cost":2000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Safeguard to a compatible Pokémon.","short_effect":"Teaches Safeguard to a compatible Pokémon. (Gen II: Endure Gen I: Rage)","language":"en"}],"flavor_text_entries":[{"text":"５ターンの　あいだ\n不思議な　力に　守られて\n状態異常に　ならなくなる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user creates a protective field\nthat prevents status conditions\nfor five turns.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa crea un campo protettivo che\nevita problemi di stato per sé e gli alleati\nper cinque turni.","version_group":{"name":"x-y"},"language":"it"},{"text":"Tormenta de arena de cinco turnos que daña a\ntodos los Pokémon excepto a los de tipo Roca,\nTierra y Acero.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Schild schützt das Team 5 Runden lang\nvor Statusproblemen jeglicher Art.","version_group":{"name":"x-y"},"language":"de"},{"text":"Crée un champ protecteur qui empêche tous les\nproblèmes de statut pendant cinq tours.","version_group":{"name":"x-y"},"language":"fr"},{"text":"5턴 동안\n이상한 힘으로 보호받아\n상태 이상이 되지 않는다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"５ターンの　あいだ\nふしぎな　ちからに　まもられて\nじょうたい　いじょうに　ならなくなる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user creates a protective field\nthat prevents status problems\nfor five turns.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user creates a protective field\nthat prevents status problems\nfor five turns.","version_group":{"name":"black-white"},"language":"en"},{"text":"Champ protecteur empêchant tous les\nproblèmes de statut pendant 5 tours.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user creates a protective field\nthat prevents status problems like\npoison, paralysis, burn, and sleep.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user creates a protective field\nthat prevents status problems like\npoison, paralysis, burn, and sleep.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user creates a protective field\nthat prevents status problems like\npoison, paralysis, burn, and sleep.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"It protects the\nuser’s party from\nall status problems\nfor five turns.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Prevents status\nabnormality with a\nmystical power.","version_group":{"name":"emerald"},"language":"en"},{"text":"Prevents status\nabnormality with a\nmystical power.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":347,"generation":{"name":"generation-vi"}},{"game_index":347,"generation":{"name":"generation-v"}},{"game_index":347,"generation":{"name":"generation-iv"}},{"game_index":308,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM20","language":"en"},{"name":"MT20","language":"it"},{"name":"MT20","language":"es"},{"name":"TM20","language":"de"},{"name":"CT20","language":"fr"},{"name":"기술머신20","language":"ko"},{"name":"わざマシン２０","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 324,
+  "name": "tm20",
+  "cost": 2000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Safeguard to a compatible Pokémon.",
+      "short_effect": "Teaches Safeguard to a compatible Pokémon. (Gen II: Endure Gen I: Rage)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "５ターンの　あいだ\n不思議な　力に　守られて\n状態異常に　ならなくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user creates a protective field\nthat prevents status conditions\nfor five turns.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa crea un campo protettivo che\nevita problemi di stato per sé e gli alleati\nper cinque turni.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Tormenta de arena de cinco turnos que daña a\ntodos los Pokémon excepto a los de tipo Roca,\nTierra y Acero.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Schild schützt das Team 5 Runden lang\nvor Statusproblemen jeglicher Art.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Crée un champ protecteur qui empêche tous les\nproblèmes de statut pendant cinq tours.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "5턴 동안\n이상한 힘으로 보호받아\n상태 이상이 되지 않는다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "５ターンの　あいだ\nふしぎな　ちからに　まもられて\nじょうたい　いじょうに　ならなくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user creates a protective field\nthat prevents status problems\nfor five turns.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user creates a protective field\nthat prevents status problems\nfor five turns.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Champ protecteur empêchant tous les\nproblèmes de statut pendant 5 tours.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user creates a protective field\nthat prevents status problems like\npoison, paralysis, burn, and sleep.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user creates a protective field\nthat prevents status problems like\npoison, paralysis, burn, and sleep.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user creates a protective field\nthat prevents status problems like\npoison, paralysis, burn, and sleep.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It protects the\nuser’s party from\nall status problems\nfor five turns.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Prevents status\nabnormality with a\nmystical power.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Prevents status\nabnormality with a\nmystical power.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 347,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 347,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 347,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 308,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM20",
+      "language": "en"
+    },
+    {
+      "name": "MT20",
+      "language": "it"
+    },
+    {
+      "name": "MT20",
+      "language": "es"
+    },
+    {
+      "name": "TM20",
+      "language": "de"
+    },
+    {
+      "name": "CT20",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신20",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン２０",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

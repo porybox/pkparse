@@ -1,1 +1,197 @@
-{"id":64,"name":"liquid-ooze","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Liquid Ooze","language":"en"},{"name":"Melma","language":"it"},{"name":"Lodo Líquido","language":"es"},{"name":"Kloakensoße","language":"de"},{"name":"Suintement","language":"fr"},{"name":"해감액","language":"ko"},{"name":"ヘドロえき","language":"ja"}],"effect_entries":[{"effect":"Whenever a Pokémon would heal after hitting this Pokémon with a leeching move like []{move:absorb}, it instead loses as many [HP]{mechanic:hp} as it would usually gain.\n\n[]{move:dream-eater} is unaffected.","short_effect":"Damages opponents using leeching moves for as much as they would heal.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"吸いとった　相手の\nＨＰを　減らす。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Damages attackers\nusing any draining move.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Danneggia i Pokémon che usano\nmosse ruba-PS.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Hiere a los Pokémon que drenan\nPS.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Schadet Angreifern,\ndie Saug-Attacken einsetzen.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Blesse l’attaquant qui draine\nl’énergie du Pokémon.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"흡수한 상대의\nHP를 줄인다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"すいとった　あいての\nＨＰを　へらす。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Damages attackers\nusing any draining move.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Damages attackers\nusing any draining move.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Blesse l’ennemi qui draine\nl’énergie du Pokémon.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Inflicts damage on foes\nusing any draining move.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Inflicts damage on foes\nusing any draining move.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Inflicts damage on foes\nusing any draining move.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"Draining causes injury.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"Draining causes injury.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"Draining causes injury.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":false,"slot":2,"pokemon":{"name":"tentacool"}},{"is_hidden":false,"slot":2,"pokemon":{"name":"tentacruel"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"gulpin"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"swalot"}}]}
+{
+  "id": 64,
+  "name": "liquid-ooze",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Liquid Ooze",
+      "language": "en"
+    },
+    {
+      "name": "Melma",
+      "language": "it"
+    },
+    {
+      "name": "Lodo Líquido",
+      "language": "es"
+    },
+    {
+      "name": "Kloakensoße",
+      "language": "de"
+    },
+    {
+      "name": "Suintement",
+      "language": "fr"
+    },
+    {
+      "name": "해감액",
+      "language": "ko"
+    },
+    {
+      "name": "ヘドロえき",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Whenever a Pokémon would heal after hitting this Pokémon with a leeching move like []{move:absorb}, it instead loses as many [HP]{mechanic:hp} as it would usually gain.\n\n[]{move:dream-eater} is unaffected.",
+      "short_effect": "Damages opponents using leeching moves for as much as they would heal.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "吸いとった　相手の\nＨＰを　減らす。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Damages attackers\nusing any draining move.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Danneggia i Pokémon che usano\nmosse ruba-PS.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Hiere a los Pokémon que drenan\nPS.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Schadet Angreifern,\ndie Saug-Attacken einsetzen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Blesse l’attaquant qui draine\nl’énergie du Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "흡수한 상대의\nHP를 줄인다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "すいとった　あいての\nＨＰを　へらす。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Damages attackers\nusing any draining move.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Damages attackers\nusing any draining move.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Blesse l’ennemi qui draine\nl’énergie du Pokémon.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Inflicts damage on foes\nusing any draining move.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Inflicts damage on foes\nusing any draining move.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Inflicts damage on foes\nusing any draining move.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Draining causes injury.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Draining causes injury.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Draining causes injury.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "tentacool"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 2,
+      "pokemon": {
+        "name": "tentacruel"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "gulpin"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "swalot"
+      }
+    }
+  ]
+}

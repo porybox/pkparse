@@ -1,1 +1,159 @@
-{"id":193,"name":"yanma","order":223,"gender_rate":4,"capture_rate":75,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":87,"pokedex":{"name":"kalos-coastal"}},{"entry_number":286,"pokedex":{"name":"updated-unova"}},{"entry_number":101,"pokedex":{"name":"updated-johto"}},{"entry_number":183,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":101,"pokedex":{"name":"original-johto"}},{"entry_number":193,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"red"},"shape":{"name":"bug-wings"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"forest"},"generation":{"name":"generation-ii"},"names":[{"name":"ヤンヤンマ","language":"ja"},{"name":"Yanyanma","language":"roomaji"},{"name":"왕자리","language":"ko"},{"name":"陽陽瑪","language":"zh"},{"name":"Yanma","language":"fr"},{"name":"Yanma","language":"de"},{"name":"Yanma","language":"es"},{"name":"Yanma","language":"it"},{"name":"Yanma","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"うすばね","language":"ja"},{"genus":"얇은날개","language":"ko"},{"genus":"Translaile","language":"fr"},{"genus":"Libelle","language":"de"},{"genus":"Ala Clara","language":"es"},{"genus":"Alachiara","language":"it"},{"genus":"Clear Wing","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"yanma"}}],"first_evolution_id":193}
+{
+  "id": 193,
+  "name": "yanma",
+  "order": 223,
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 87,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 286,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 101,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 183,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 101,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 193,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "bug-wings"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "forest"
+  },
+  "generation": {
+    "name": "generation-ii"
+  },
+  "names": [
+    {
+      "name": "ヤンヤンマ",
+      "language": "ja"
+    },
+    {
+      "name": "Yanyanma",
+      "language": "roomaji"
+    },
+    {
+      "name": "왕자리",
+      "language": "ko"
+    },
+    {
+      "name": "陽陽瑪",
+      "language": "zh"
+    },
+    {
+      "name": "Yanma",
+      "language": "fr"
+    },
+    {
+      "name": "Yanma",
+      "language": "de"
+    },
+    {
+      "name": "Yanma",
+      "language": "es"
+    },
+    {
+      "name": "Yanma",
+      "language": "it"
+    },
+    {
+      "name": "Yanma",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "うすばね",
+      "language": "ja"
+    },
+    {
+      "genus": "얇은날개",
+      "language": "ko"
+    },
+    {
+      "genus": "Translaile",
+      "language": "fr"
+    },
+    {
+      "genus": "Libelle",
+      "language": "de"
+    },
+    {
+      "genus": "Ala Clara",
+      "language": "es"
+    },
+    {
+      "genus": "Alachiara",
+      "language": "it"
+    },
+    {
+      "genus": "Clear Wing",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "yanma"
+      }
+    }
+  ],
+  "first_evolution_id": 193
+}

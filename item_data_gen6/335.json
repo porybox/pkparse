@@ -1,1 +1,197 @@
-{"id":312,"name":"tm08","cost":1500,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Bulk Up to a compatible Pokémon.","short_effect":"Teaches Bulk Up to a compatible Pokémon. (Gen II: Rock Smash Gen I: Body Slam)","language":"en"}],"flavor_text_entries":[{"text":"体に　力を　こめて\n筋肉を　ぶあつく　することで\n自分の　攻撃と　防御を　あげる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user tenses its muscles to bulk up\nits body, raising both its Attack and\nDefense stats.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa tende i muscoli per gonfiare il corpo,\naumentando Difesa e Attacco.","version_group":{"name":"x-y"},"language":"it"},{"text":"Ataca con un terrible rayo que puede paralizar al\nobjetivo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Der Anwender spannt seine Muskeln an\nund steigert damit den Angriffs- und\nden Verteidigungs-Wert.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur tend ses muscles pour se gonfler,\nce qui booste son Attaque et sa Défense.","version_group":{"name":"x-y"},"language":"fr"},{"text":"몸에 힘을 담아\n근육을 두껍게 해서\n자신의 공격과 방어를 올린다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ちからを　こめて　きんにくを\nぶあつくする　ことで　じぶんの\nこうげきと　ぼうぎょを　あげる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.","version_group":{"name":"black-white"},"language":"en"},{"text":"Le lanceur tend ses muscles pour se\ngonfler, ce qui booste son Attaque et\nsa Défense.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"The user bulks up\nits body to boost\nboth its ATTACK and\nDEFENSE stats.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Bulks up the body\nto boost both\nATTACK & DEFENSE.","version_group":{"name":"emerald"},"language":"en"},{"text":"Bulks up the body\nto boost both\nATTACK & DEFENSE.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":335,"generation":{"name":"generation-vi"}},{"game_index":335,"generation":{"name":"generation-v"}},{"game_index":335,"generation":{"name":"generation-iv"}},{"game_index":296,"generation":{"name":"generation-iii"}}],"names":[{"name":"TM08","language":"en"},{"name":"MT08","language":"it"},{"name":"MT08","language":"es"},{"name":"TM08","language":"de"},{"name":"CT08","language":"fr"},{"name":"기술머신08","language":"ko"},{"name":"わざマシン０８","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 312,
+  "name": "tm08",
+  "cost": 1500,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Bulk Up to a compatible Pokémon.",
+      "short_effect": "Teaches Bulk Up to a compatible Pokémon. (Gen II: Rock Smash Gen I: Body Slam)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "体に　力を　こめて\n筋肉を　ぶあつく　することで\n自分の　攻撃と　防御を　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user tenses its muscles to bulk up\nits body, raising both its Attack and\nDefense stats.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa tende i muscoli per gonfiare il corpo,\naumentando Difesa e Attacco.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Ataca con un terrible rayo que puede paralizar al\nobjetivo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Der Anwender spannt seine Muskeln an\nund steigert damit den Angriffs- und\nden Verteidigungs-Wert.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur tend ses muscles pour se gonfler,\nce qui booste son Attaque et sa Défense.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "몸에 힘을 담아\n근육을 두껍게 해서\n자신의 공격과 방어를 올린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ちからを　こめて　きんにくを\nぶあつくする　ことで　じぶんの\nこうげきと　ぼうぎょを　あげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur tend ses muscles pour se\ngonfler, ce qui booste son Attaque et\nsa Défense.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user bulks up\nits body to boost\nboth its ATTACK and\nDEFENSE stats.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Bulks up the body\nto boost both\nATTACK & DEFENSE.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Bulks up the body\nto boost both\nATTACK & DEFENSE.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 335,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 335,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 335,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 296,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM08",
+      "language": "en"
+    },
+    {
+      "name": "MT08",
+      "language": "it"
+    },
+    {
+      "name": "MT08",
+      "language": "es"
+    },
+    {
+      "name": "TM08",
+      "language": "de"
+    },
+    {
+      "name": "CT08",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신08",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン０８",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,150 @@
-{"id":412,"name":"burmy","order":440,"gender_rate":4,"capture_rate":120,"base_happiness":70,"is_baby":false,"hatch_counter":15,"has_gender_differences":false,"forms_switchable":true,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":44,"pokedex":{"name":"kalos-central"}},{"entry_number":45,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":45,"pokedex":{"name":"original-sinnoh"}},{"entry_number":412,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"bug"}],"color":{"name":"gray"},"shape":{"name":"squiggle"},"evolves_from_species":null,"evolution_chain":{},"habitat":null,"generation":{"name":"generation-iv"},"names":[{"name":"ミノムッチ","language":"ja"},{"name":"Minomucchi","language":"roomaji"},{"name":"도롱충이","language":"ko"},{"name":"結草兒","language":"zh"},{"name":"Cheniti","language":"fr"},{"name":"Burmy","language":"de"},{"name":"Burmy","language":"es"},{"name":"Burmy","language":"it"},{"name":"Burmy","language":"en"}],"pal_park_encounters":[{"base_score":50,"rate":30,"area":{"name":"forest"}}],"form_descriptions":[{"description":"Forms only affect appearance, although they become permanent upon evolution.  Wild and newly-hatched Burmy are always in a Plant Cloak.  Burmy's cloak changes to match the terrain after a battle it participated in: Plant Cloak by default; Sandy Cloak in sandy or rocky areas, such as beaches, caves, and trails; and Trash Cloak in buildings.","language":"en"}],"genera":[{"genus":"みのむし","language":"ja"},{"genus":"도롱이벌레","language":"ko"},{"genus":"Ver Caché","language":"fr"},{"genus":"Beutelwurm","language":"de"},{"genus":"Larva","language":"es"},{"genus":"Larva","language":"it"},{"genus":"Bagworm","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"burmy"}}],"first_evolution_id":412}
+{
+  "id": 412,
+  "name": "burmy",
+  "order": 440,
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "forms_switchable": true,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 44,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 45,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 45,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 412,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "bug"
+    }
+  ],
+  "color": {
+    "name": "gray"
+  },
+  "shape": {
+    "name": "squiggle"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-iv"
+  },
+  "names": [
+    {
+      "name": "ミノムッチ",
+      "language": "ja"
+    },
+    {
+      "name": "Minomucchi",
+      "language": "roomaji"
+    },
+    {
+      "name": "도롱충이",
+      "language": "ko"
+    },
+    {
+      "name": "結草兒",
+      "language": "zh"
+    },
+    {
+      "name": "Cheniti",
+      "language": "fr"
+    },
+    {
+      "name": "Burmy",
+      "language": "de"
+    },
+    {
+      "name": "Burmy",
+      "language": "es"
+    },
+    {
+      "name": "Burmy",
+      "language": "it"
+    },
+    {
+      "name": "Burmy",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 50,
+      "rate": 30,
+      "area": {
+        "name": "forest"
+      }
+    }
+  ],
+  "form_descriptions": [
+    {
+      "description": "Forms only affect appearance, although they become permanent upon evolution.  Wild and newly-hatched Burmy are always in a Plant Cloak.  Burmy's cloak changes to match the terrain after a battle it participated in: Plant Cloak by default; Sandy Cloak in sandy or rocky areas, such as beaches, caves, and trails; and Trash Cloak in buildings.",
+      "language": "en"
+    }
+  ],
+  "genera": [
+    {
+      "genus": "みのむし",
+      "language": "ja"
+    },
+    {
+      "genus": "도롱이벌레",
+      "language": "ko"
+    },
+    {
+      "genus": "Ver Caché",
+      "language": "fr"
+    },
+    {
+      "genus": "Beutelwurm",
+      "language": "de"
+    },
+    {
+      "genus": "Larva",
+      "language": "es"
+    },
+    {
+      "genus": "Larva",
+      "language": "it"
+    },
+    {
+      "genus": "Bagworm",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "burmy"
+      }
+    }
+  ],
+  "first_evolution_id": 412
+}

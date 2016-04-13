@@ -1,1 +1,170 @@
-{"id":418,"name":"red-chain","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"unused"},"effect_entries":[{"effect":"Unused.","short_effect":"Used to bind Palkia and Dialga.","language":"en"}],"flavor_text_entries":[{"text":"シンオウ地方を　うみだした\n伝説の　ポケモンを　つなぐと\nいわれる　神話の　道具。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A mythical chain that is said to link\nthe Legendary Pokémon that created\nthe Sinnoh region.","version_group":{"name":"x-y"},"language":"en"},{"text":"Catena mitica che pare essere collegata\nal Pokémon leggendario che ha creato\nla regione di Sinnoh.","version_group":{"name":"x-y"},"language":"it"},{"text":"Uno de los tres cupones que sirve para obtener\nun Poké-reloj.","version_group":{"name":"x-y"},"language":"es"},{"text":"Diese mythische Kette ist angeblich die\nVerbindung zu einem Legendären Pokémon.","version_group":{"name":"x-y"},"language":"de"},{"text":"Une chaîne mystique qui serait reliée au\nPokémon légendaire ayant créé la région\nde Sinnoh.","version_group":{"name":"x-y"},"language":"fr"},{"text":"신오지방을 만들어낸\n전설의 포켓몬과 이어진다고\n전해지는 신화의 도구.","version_group":{"name":"x-y"},"language":"ko"},{"text":"シンオウちほうを　うみだした\nでんせつの　ポケモンを　つなぐと\nいわれる　しんわの　どうぐ。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.","version_group":{"name":"black-white"},"language":"en"},{"text":"Chaîne mystique qui serait reliée au\nPokémon légendaire ayant créé la\nrégion de Sinnoh.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.","version_group":{"name":"platinum"},"language":"en"},{"text":"A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":441,"generation":{"name":"generation-vi"}},{"game_index":441,"generation":{"name":"generation-v"}},{"game_index":441,"generation":{"name":"generation-iv"}}],"names":[{"name":"Red Chain","language":"en"},{"name":"Rossocatena","language":"it"},{"name":"Cadena Roja","language":"es"},{"name":"Rote Kette","language":"de"},{"name":"Chaîne Rouge","language":"fr"},{"name":"빨강쇠사슬","language":"ko"},{"name":"あかいくさり","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 418,
+  "name": "red-chain",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "unused"
+  },
+  "effect_entries": [
+    {
+      "effect": "Unused.",
+      "short_effect": "Used to bind Palkia and Dialga.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "シンオウ地方を　うみだした\n伝説の　ポケモンを　つなぐと\nいわれる　神話の　道具。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A mythical chain that is said to link\nthe Legendary Pokémon that created\nthe Sinnoh region.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Catena mitica che pare essere collegata\nal Pokémon leggendario che ha creato\nla regione di Sinnoh.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Uno de los tres cupones que sirve para obtener\nun Poké-reloj.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Diese mythische Kette ist angeblich die\nVerbindung zu einem Legendären Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une chaîne mystique qui serait reliée au\nPokémon légendaire ayant créé la région\nde Sinnoh.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "신오지방을 만들어낸\n전설의 포켓몬과 이어진다고\n전해지는 신화의 도구.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "シンオウちほうを　うみだした\nでんせつの　ポケモンを　つなぐと\nいわれる　しんわの　どうぐ。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chaîne mystique qui serait reliée au\nPokémon légendaire ayant créé la\nrégion de Sinnoh.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 441,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 441,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 441,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Red Chain",
+      "language": "en"
+    },
+    {
+      "name": "Rossocatena",
+      "language": "it"
+    },
+    {
+      "name": "Cadena Roja",
+      "language": "es"
+    },
+    {
+      "name": "Rote Kette",
+      "language": "de"
+    },
+    {
+      "name": "Chaîne Rouge",
+      "language": "fr"
+    },
+    {
+      "name": "빨강쇠사슬",
+      "language": "ko"
+    },
+    {
+      "name": "あかいくさり",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

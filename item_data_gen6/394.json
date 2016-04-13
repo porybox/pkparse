@@ -1,1 +1,170 @@
-{"id":371,"name":"tm67","cost":1000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Recycle to a compatible Pokémon.","short_effect":"Teaches Retaliate to a compatible Pokémon. (Gen IV: Recycle)","language":"en"}],"flavor_text_entries":[{"text":"倒れた　味方の　かたきを　討つ。\n前の　ターンに　味方が\n倒されていると　威力が　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user gets revenge for a fainted ally.\nIf an ally fainted in the previous turn,\nthis move becomes more powerful.","version_group":{"name":"x-y"},"language":"en"},{"text":"Vendica un alleato messo KO. Se ciò è accaduto\nal turno precedente, il danno è maggiore.","version_group":{"name":"x-y"},"language":"it"},{"text":"Ataca con un tentáculo o brazo impregnado de\nveneno que puede llegar a envenenar al objetivo.","version_group":{"name":"x-y"},"language":"es"},{"text":"Anwender rächt einen besiegten Mitstreiter.\nWurde in der vorherigen Runde ein Mitstreiter\nbesiegt, steigt die Kraft.","version_group":{"name":"x-y"},"language":"de"},{"text":"Venge un Pokémon de l’équipe mis K.O.\nSi un Pokémon de l’équipe a été mis K.O.\nau tour d’avant, l’effet augmente.","version_group":{"name":"x-y"},"language":"fr"},{"text":"쓰러진 같은 편의 원수를 갚는다.\n앞 턴에서 같은 편이\n쓰러졌다면 위력이 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"たおれた　みかたの　かたきを　うつ。\nまえの　ターンに　たおされて\nいると　いりょくが　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user gets revenge for a fainted\nally. If an ally fainted in the previous\nturn, this attack’s damage increases.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user gets revenge for a fainted\nally. If an ally fainted in the previous\nturn, this attack’s damage increases.","version_group":{"name":"black-white"},"language":"en"},{"text":"Venge un Pokémon de l’équipe mis K.O.\nSi un Pokémon de l’équipe a été mis\nK.O. au tour d’avant, l’effet augmente.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user recycles a single-use item\nthat has been used in battle so it can\nbe used again.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user recycles a single-use item\nthat has been used in battle so it can\nbe used again.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user recycles a single-use item\nthat has been used in battle so it can\nbe used again.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":394,"generation":{"name":"generation-vi"}},{"game_index":394,"generation":{"name":"generation-v"}},{"game_index":394,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM67","language":"en"},{"name":"MT67","language":"it"},{"name":"MT67","language":"es"},{"name":"TM67","language":"de"},{"name":"CT67","language":"fr"},{"name":"기술머신67","language":"ko"},{"name":"わざマシン６７","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 371,
+  "name": "tm67",
+  "cost": 1000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Recycle to a compatible Pokémon.",
+      "short_effect": "Teaches Retaliate to a compatible Pokémon. (Gen IV: Recycle)",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "倒れた　味方の　かたきを　討つ。\n前の　ターンに　味方が\n倒されていると　威力が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user gets revenge for a fainted ally.\nIf an ally fainted in the previous turn,\nthis move becomes more powerful.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Vendica un alleato messo KO. Se ciò è accaduto\nal turno precedente, il danno è maggiore.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Ataca con un tentáculo o brazo impregnado de\nveneno que puede llegar a envenenar al objetivo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Anwender rächt einen besiegten Mitstreiter.\nWurde in der vorherigen Runde ein Mitstreiter\nbesiegt, steigt die Kraft.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Venge un Pokémon de l’équipe mis K.O.\nSi un Pokémon de l’équipe a été mis K.O.\nau tour d’avant, l’effet augmente.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "쓰러진 같은 편의 원수를 갚는다.\n앞 턴에서 같은 편이\n쓰러졌다면 위력이 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "たおれた　みかたの　かたきを　うつ。\nまえの　ターンに　たおされて\nいると　いりょくが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user gets revenge for a fainted\nally. If an ally fainted in the previous\nturn, this attack’s damage increases.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user gets revenge for a fainted\nally. If an ally fainted in the previous\nturn, this attack’s damage increases.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Venge un Pokémon de l’équipe mis K.O.\nSi un Pokémon de l’équipe a été mis\nK.O. au tour d’avant, l’effet augmente.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user recycles a single-use item\nthat has been used in battle so it can\nbe used again.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user recycles a single-use item\nthat has been used in battle so it can\nbe used again.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user recycles a single-use item\nthat has been used in battle so it can\nbe used again.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 394,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 394,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 394,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM67",
+      "language": "en"
+    },
+    {
+      "name": "MT67",
+      "language": "it"
+    },
+    {
+      "name": "MT67",
+      "language": "es"
+    },
+    {
+      "name": "TM67",
+      "language": "de"
+    },
+    {
+      "name": "CT67",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신67",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン６７",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

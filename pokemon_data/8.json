@@ -1,1 +1,158 @@
-{"id":8,"name":"wartortle","order":8,"gender_rate":1,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium-slow"},"pokedex_numbers":[{"entry_number":87,"pokedex":{"name":"kalos-central"}},{"entry_number":238,"pokedex":{"name":"updated-johto"}},{"entry_number":233,"pokedex":{"name":"original-johto"}},{"entry_number":8,"pokedex":{"name":"kanto"}},{"entry_number":8,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"water1"},{"name":"monster"}],"color":{"name":"blue"},"shape":{"name":"upright"},"evolves_from_species":{"name":"squirtle"},"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-i"},"names":[{"name":"カメール","language":"ja"},{"name":"Kameil","language":"roomaji"},{"name":"어니부기","language":"ko"},{"name":"卡咪龜","language":"zh"},{"name":"Carabaffe","language":"fr"},{"name":"Schillok","language":"de"},{"name":"Wartortle","language":"es"},{"name":"Wartortle","language":"it"},{"name":"Wartortle","language":"en"}],"pal_park_encounters":[{"base_score":80,"rate":10,"area":{"name":"pond"}}],"form_descriptions":[],"genera":[{"genus":"かめ","language":"ja"},{"genus":"거북","language":"ko"},{"genus":"Tortue","language":"fr"},{"genus":"Kröte","language":"de"},{"genus":"Tortuga","language":"es"},{"genus":"Tartaruga","language":"it"},{"genus":"Turtle","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"wartortle"}}],"first_evolution_id":7}
+{
+  "id": 8,
+  "name": "wartortle",
+  "order": 8,
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium-slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 87,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 238,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 233,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 8,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 8,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "water1"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "blue"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "squirtle"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "カメール",
+      "language": "ja"
+    },
+    {
+      "name": "Kameil",
+      "language": "roomaji"
+    },
+    {
+      "name": "어니부기",
+      "language": "ko"
+    },
+    {
+      "name": "卡咪龜",
+      "language": "zh"
+    },
+    {
+      "name": "Carabaffe",
+      "language": "fr"
+    },
+    {
+      "name": "Schillok",
+      "language": "de"
+    },
+    {
+      "name": "Wartortle",
+      "language": "es"
+    },
+    {
+      "name": "Wartortle",
+      "language": "it"
+    },
+    {
+      "name": "Wartortle",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 80,
+      "rate": 10,
+      "area": {
+        "name": "pond"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "かめ",
+      "language": "ja"
+    },
+    {
+      "genus": "거북",
+      "language": "ko"
+    },
+    {
+      "genus": "Tortue",
+      "language": "fr"
+    },
+    {
+      "genus": "Kröte",
+      "language": "de"
+    },
+    {
+      "genus": "Tortuga",
+      "language": "es"
+    },
+    {
+      "genus": "Tartaruga",
+      "language": "it"
+    },
+    {
+      "genus": "Turtle",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "wartortle"
+      }
+    }
+  ],
+  "first_evolution_id": 7
+}

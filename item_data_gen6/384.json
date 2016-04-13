@@ -1,1 +1,170 @@
-{"id":361,"name":"tm57","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Charge Beam to a compatible Pokémon.","short_effect":"Teaches Charge Beam to a compatible Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"電撃の　束を　相手に\n発射する。電気を　ためて　自分の\n特攻を　あげることが　ある。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa lancia un fascio di elettricità molto\nintensa. Può anche aumentare il proprio Attacco\nSpeciale.","version_group":{"name":"x-y"},"language":"it"},{"text":"Quien lo usa ataca al objetivo como un remolino.\nCuanto más lento sea quien lo usa, más daño\ncausa.","version_group":{"name":"x-y"},"language":"es"},{"text":"Greift mit einer elektrischen Entladung an.\nDer Spezial-Angriff des Angreifers steigt eventuell.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur tire un rayon chargé d’électricité.\nPeut aussi augmenter son Attaque Spéciale.","version_group":{"name":"x-y"},"language":"fr"},{"text":"전격의 다발을 상대에게\n발사한다. 전기를 모아서 자신의\n특수공격을 올릴 때가 있다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"でんげきを　あびせて　こうげきする。\nのこった　でんきを　ためて　じぶんの\nとくこうを　あげることが　ある。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.","version_group":{"name":"black-white"},"language":"en"},{"text":"Le lanceur tire un rayon chargé\nd’électricité. Peut aussi augmenter\nson Attaque Spéciale.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":384,"generation":{"name":"generation-vi"}},{"game_index":384,"generation":{"name":"generation-v"}},{"game_index":384,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM57","language":"en"},{"name":"MT57","language":"it"},{"name":"MT57","language":"es"},{"name":"TM57","language":"de"},{"name":"CT57","language":"fr"},{"name":"기술머신57","language":"ko"},{"name":"わざマシン５７","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 361,
+  "name": "tm57",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Charge Beam to a compatible Pokémon.",
+      "short_effect": "Teaches Charge Beam to a compatible Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "電撃の　束を　相手に\n発射する。電気を　ためて　自分の\n特攻を　あげることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa lancia un fascio di elettricità molto\nintensa. Può anche aumentare il proprio Attacco\nSpeciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Quien lo usa ataca al objetivo como un remolino.\nCuanto más lento sea quien lo usa, más daño\ncausa.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Greift mit einer elektrischen Entladung an.\nDer Spezial-Angriff des Angreifers steigt eventuell.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur tire un rayon chargé d’électricité.\nPeut aussi augmenter son Attaque Spéciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "전격의 다발을 상대에게\n발사한다. 전기를 모아서 자신의\n특수공격을 올릴 때가 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "でんげきを　あびせて　こうげきする。\nのこった　でんきを　ためて　じぶんの\nとくこうを　あげることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur tire un rayon chargé\nd’électricité. Peut aussi augmenter\nson Attaque Spéciale.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 384,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 384,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 384,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM57",
+      "language": "en"
+    },
+    {
+      "name": "MT57",
+      "language": "it"
+    },
+    {
+      "name": "MT57",
+      "language": "es"
+    },
+    {
+      "name": "TM57",
+      "language": "de"
+    },
+    {
+      "name": "CT57",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신57",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン５７",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

@@ -1,1 +1,148 @@
-{"id":136,"name":"high-jump-kick","accuracy":90,"effect_chance":null,"pp":10,"priority":0,"power":130,"contest_combos":{"normal":{"use_before":null,"use_after":[{"name":"mind-reader"}]},"super":{"use_before":null,"use_after":[{"name":"meditate"}]}},"contest_type":{"name":"cool"},"contest_effect":{},"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  If this move misses, is blocked by []{move:protect} or []{move:detect}, or has no effect, the user takes half the damage it would have inflicted in recoil.  This recoil damage will not exceed half the user's max HP.\n\nThis move cannot be used while []{move:gravity} is in effect.","short_effect":"If the user misses, it takes half the damage it would have inflicted in recoil.","language":"en"}],"effect_changes":[{"version_group":{"name":"gold-silver"},"effect_entries":[{"effect":"If this move misses, the user takes 1 point of damage in recoil.","language":"en"}]},{"version_group":{"name":"black-white"},"effect_entries":[{"effect":"If this move misses, the user takes half of the damage it would have inflicted in recoil.","language":"en"}]}],"generation":{"name":"generation-i"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"High Jump Kick","language":"en"},{"name":"Calcinvolo","language":"it"},{"name":"Pat. Salto Alta","language":"es"},{"name":"Turmkick","language":"de"},{"name":"Pied Voltige","language":"fr"},{"name":"무릎차기","language":"ko"},{"name":"とびひざげり","language":"ja"}],"past_values":[{"accuracy":null,"power":85,"pp":null,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"diamond-pearl"}},{"accuracy":null,"power":100,"pp":20,"effect_chance":null,"effect_entries":[],"type":null,"version_group":{"name":"black-white"}}],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"fighting"}}
+{
+  "id": 136,
+  "name": "high-jump-kick",
+  "accuracy": 90,
+  "effect_chance": null,
+  "pp": 10,
+  "priority": 0,
+  "power": 130,
+  "contest_combos": {
+    "normal": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "mind-reader"
+        }
+      ]
+    },
+    "super": {
+      "use_before": null,
+      "use_after": [
+        {
+          "name": "meditate"
+        }
+      ]
+    }
+  },
+  "contest_type": {
+    "name": "cool"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If this move misses, is blocked by []{move:protect} or []{move:detect}, or has no effect, the user takes half the damage it would have inflicted in recoil.  This recoil damage will not exceed half the user's max HP.\n\nThis move cannot be used while []{move:gravity} is in effect.",
+      "short_effect": "If the user misses, it takes half the damage it would have inflicted in recoil.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [
+    {
+      "version_group": {
+        "name": "gold-silver"
+      },
+      "effect_entries": [
+        {
+          "effect": "If this move misses, the user takes 1 point of damage in recoil.",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "version_group": {
+        "name": "black-white"
+      },
+      "effect_entries": [
+        {
+          "effect": "If this move misses, the user takes half of the damage it would have inflicted in recoil.",
+          "language": "en"
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "name": "generation-i"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "High Jump Kick",
+      "language": "en"
+    },
+    {
+      "name": "Calcinvolo",
+      "language": "it"
+    },
+    {
+      "name": "Pat. Salto Alta",
+      "language": "es"
+    },
+    {
+      "name": "Turmkick",
+      "language": "de"
+    },
+    {
+      "name": "Pied Voltige",
+      "language": "fr"
+    },
+    {
+      "name": "무릎차기",
+      "language": "ko"
+    },
+    {
+      "name": "とびひざげり",
+      "language": "ja"
+    }
+  ],
+  "past_values": [
+    {
+      "accuracy": null,
+      "power": 85,
+      "pp": null,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "diamond-pearl"
+      }
+    },
+    {
+      "accuracy": null,
+      "power": 100,
+      "pp": 20,
+      "effect_chance": null,
+      "effect_entries": [],
+      "type": null,
+      "version_group": {
+        "name": "black-white"
+      }
+    }
+  ],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "fighting"
+  }
+}

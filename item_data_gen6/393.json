@@ -1,1 +1,170 @@
-{"id":370,"name":"tm66","cost":3000,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"all-machines"},"effect_entries":[{"effect":"Teaches Payback to a compatible Pokémon.","short_effect":"Teaches Payback to a compatible Pokémon.","language":"en"}],"flavor_text_entries":[{"text":"ためこんで　攻撃する。\n相手より　後に　攻撃できると\n技の　威力は　２倍に　なる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"The user stores power, then attacks.\nIf the user moves after the target,\nthis attack’s power will be doubled.","version_group":{"name":"x-y"},"language":"en"},{"text":"Chi la usa accumula forza, poi attacca.\nLa potenza raddoppia se agisce dopo il Pokémon\nnemico.","version_group":{"name":"x-y"},"language":"it"},{"text":"Oprime al enemigo de cuatro a cinco turnos,\ndurante los cuales no podrá huir.","version_group":{"name":"x-y"},"language":"es"},{"text":"Der Anwender lädt die Attacke auf. Handelt das\nZiel vor dem Anwender, verdoppelt sich die Kraft\nder Attacke.","version_group":{"name":"x-y"},"language":"de"},{"text":"Le lanceur charge son énergie, puis attaque.\nLa puissance est doublée si le lanceur agit\naprès l’ennemi.","version_group":{"name":"x-y"},"language":"fr"},{"text":"힘을 모아 공격한다.\n상대보다 나중에 쓰면\n기술의 위력은 2배가 된다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"ちからを　ためこみ　こうげきする。\nあいてより　あとに　だせると\nわざの　いりょくは　２ばいに　なる。","version_group":{"name":"x-y"},"language":"ja"},{"text":"The user stores power, then attacks.\nIf the user can use this attack after\nthe target, its power is doubled.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"The user stores power, then attacks.\nIf the user can use this attack after\nthe target, its power is doubled.","version_group":{"name":"black-white"},"language":"en"},{"text":"Le lanceur charge son énergie, puis\nattaque. La puissance est doublée\nsi le lanceur agit après l’ennemi.","version_group":{"name":"black-white"},"language":"fr"},{"text":"The user stores power, then attacks.\nIf the user can use this attack after\nthe foe, its power is doubled.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"The user stores power, then attacks.\nIf the user can use this attack after\nthe foe, its power is doubled.","version_group":{"name":"platinum"},"language":"en"},{"text":"The user stores power, then attacks.\nIf the user can use this attack after\nthe foe, its power is doubled.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":393,"generation":{"name":"generation-vi"}},{"game_index":393,"generation":{"name":"generation-v"}},{"game_index":393,"generation":{"name":"generation-iv"}}],"names":[{"name":"TM66","language":"en"},{"name":"MT66","language":"it"},{"name":"MT66","language":"es"},{"name":"TM66","language":"de"},{"name":"CT66","language":"fr"},{"name":"기술머신66","language":"ko"},{"name":"わざマシン６６","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 370,
+  "name": "tm66",
+  "cost": 3000,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "all-machines"
+  },
+  "effect_entries": [
+    {
+      "effect": "Teaches Payback to a compatible Pokémon.",
+      "short_effect": "Teaches Payback to a compatible Pokémon.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "ためこんで　攻撃する。\n相手より　後に　攻撃できると\n技の　威力は　２倍に　なる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user stores power, then attacks.\nIf the user moves after the target,\nthis attack’s power will be doubled.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa accumula forza, poi attacca.\nLa potenza raddoppia se agisce dopo il Pokémon\nnemico.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Oprime al enemigo de cuatro a cinco turnos,\ndurante los cuales no podrá huir.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Der Anwender lädt die Attacke auf. Handelt das\nZiel vor dem Anwender, verdoppelt sich die Kraft\nder Attacke.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur charge son énergie, puis attaque.\nLa puissance est doublée si le lanceur agit\naprès l’ennemi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "힘을 모아 공격한다.\n상대보다 나중에 쓰면\n기술의 위력은 2배가 된다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "ちからを　ためこみ　こうげきする。\nあいてより　あとに　だせると\nわざの　いりょくは　２ばいに　なる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user stores power, then attacks.\nIf the user can use this attack after\nthe target, its power is doubled.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user stores power, then attacks.\nIf the user can use this attack after\nthe target, its power is doubled.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur charge son énergie, puis\nattaque. La puissance est doublée\nsi le lanceur agit après l’ennemi.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user stores power, then attacks.\nIf the user can use this attack after\nthe foe, its power is doubled.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user stores power, then attacks.\nIf the user can use this attack after\nthe foe, its power is doubled.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user stores power, then attacks.\nIf the user can use this attack after\nthe foe, its power is doubled.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 393,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 393,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 393,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "TM66",
+      "language": "en"
+    },
+    {
+      "name": "MT66",
+      "language": "it"
+    },
+    {
+      "name": "MT66",
+      "language": "es"
+    },
+    {
+      "name": "TM66",
+      "language": "de"
+    },
+    {
+      "name": "CT66",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신66",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン６６",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

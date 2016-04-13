@@ -1,1 +1,90 @@
-{"id":488,"name":"flame-charge","accuracy":100,"effect_chance":100,"pp":20,"priority":0,"power":50,"contest_combos":null,"contest_type":null,"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  Raises the user's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.","short_effect":"Inflicts regular damage.  Raises the user's Speed by one stage.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-v"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage+raise"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":100},"names":[{"name":"Flame Charge","language":"en"},{"name":"Nitrocarica","language":"it"},{"name":"Nitrocarga","language":"es"},{"name":"Nitroladung","language":"de"},{"name":"Nitrocharge","language":"fr"},{"name":"니트로차지","language":"ko"},{"name":"ニトロチャージ","language":"ja"}],"past_values":[],"stat_changes":[{"change":1,"stat":{"name":"speed"}}],"super_contest_effect":null,"target":{"name":"selected-pokemon"},"type":{"name":"fire"}}
+{
+  "id": 488,
+  "name": "flame-charge",
+  "accuracy": 100,
+  "effect_chance": 100,
+  "pp": 20,
+  "priority": 0,
+  "power": 50,
+  "contest_combos": null,
+  "contest_type": null,
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Raises the user's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
+      "short_effect": "Inflicts regular damage.  Raises the user's Speed by one stage.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-v"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage+raise"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": [
+    {
+      "name": "Flame Charge",
+      "language": "en"
+    },
+    {
+      "name": "Nitrocarica",
+      "language": "it"
+    },
+    {
+      "name": "Nitrocarga",
+      "language": "es"
+    },
+    {
+      "name": "Nitroladung",
+      "language": "de"
+    },
+    {
+      "name": "Nitrocharge",
+      "language": "fr"
+    },
+    {
+      "name": "니트로차지",
+      "language": "ko"
+    },
+    {
+      "name": "ニトロチャージ",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [
+    {
+      "change": 1,
+      "stat": {
+        "name": "speed"
+      }
+    }
+  ],
+  "super_contest_effect": null,
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "fire"
+  }
+}

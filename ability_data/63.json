@@ -1,1 +1,190 @@
-{"id":63,"name":"marvel-scale","is_main_series":true,"generation":{"name":"generation-iii"},"names":[{"name":"Marvel Scale","language":"en"},{"name":"Pelledura","language":"it"},{"name":"Escama Especial","language":"es"},{"name":"Notschutz","language":"de"},{"name":"Écaille Spéciale","language":"fr"},{"name":"이상한비늘","language":"ko"},{"name":"ふしぎなうろこ","language":"ja"}],"effect_entries":[{"effect":"Whenever this Pokémon has a [major status ailment]{mechanic:major-status-ailment}, it has 1.5× its [Defense]{mechanic:defense}.\n\nThis bonus does not count as a [stat modifier]{mechanic:stat-modifier}.","short_effect":"Increases [Defense]{mechanic:defense} to 1.5× with a [major status ailment]{mechanic:major-status-ailment}.","language":"en"}],"effect_changes":[],"flavor_text_entries":[{"flavor_text":"状態異常で\n防御が　あがる。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"flavor_text":"Boosts the Defense stat if the\nPokémon has a status condition.","version_group":{"name":"x-y"},"language":"en"},{"flavor_text":"Aumenta la Difesa in caso di\nproblemi di stato.","version_group":{"name":"x-y"},"language":"it"},{"flavor_text":"Sube la Defensa si sufre un\nproblema de estado.","version_group":{"name":"x-y"},"language":"es"},{"flavor_text":"Steigert bei Statusproblemen\ndie Verteidigung.","version_group":{"name":"x-y"},"language":"de"},{"flavor_text":"Augmente la Défense s’il y a\nun problème de statut.","version_group":{"name":"x-y"},"language":"fr"},{"flavor_text":"상태 이상이 되면\n방어가 올라간다.","version_group":{"name":"x-y"},"language":"ko"},{"flavor_text":"じょうたい　いじょうで\nぼうぎょが　あがる。","version_group":{"name":"x-y"},"language":"ja"},{"flavor_text":"Ups Defense if there is\na status problem.","version_group":{"name":"black-2-white-2"},"language":"en"},{"flavor_text":"Ups Defense if there is\na status problem.","version_group":{"name":"black-white"},"language":"en"},{"flavor_text":"Augmente la Défense s’il y\na un problème de statut.","version_group":{"name":"black-white"},"language":"fr"},{"flavor_text":"Ups Defense if there is\na status problem.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"flavor_text":"Boosts Defense if there is\na status problem.","version_group":{"name":"platinum"},"language":"en"},{"flavor_text":"Boosts Defense if there is\na status problem.","version_group":{"name":"diamond-pearl"},"language":"en"},{"flavor_text":"Ups DEFENSE if suffering.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"flavor_text":"Ups DEFENSE if suffering.","version_group":{"name":"emerald"},"language":"en"},{"flavor_text":"Ups DEFENSE if suffering.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"pokemon":[{"is_hidden":true,"slot":3,"pokemon":{"name":"dratini"}},{"is_hidden":true,"slot":3,"pokemon":{"name":"dragonair"}},{"is_hidden":false,"slot":1,"pokemon":{"name":"milotic"}}]}
+{
+  "id": 63,
+  "name": "marvel-scale",
+  "is_main_series": true,
+  "generation": {
+    "name": "generation-iii"
+  },
+  "names": [
+    {
+      "name": "Marvel Scale",
+      "language": "en"
+    },
+    {
+      "name": "Pelledura",
+      "language": "it"
+    },
+    {
+      "name": "Escama Especial",
+      "language": "es"
+    },
+    {
+      "name": "Notschutz",
+      "language": "de"
+    },
+    {
+      "name": "Écaille Spéciale",
+      "language": "fr"
+    },
+    {
+      "name": "이상한비늘",
+      "language": "ko"
+    },
+    {
+      "name": "ふしぎなうろこ",
+      "language": "ja"
+    }
+  ],
+  "effect_entries": [
+    {
+      "effect": "Whenever this Pokémon has a [major status ailment]{mechanic:major-status-ailment}, it has 1.5× its [Defense]{mechanic:defense}.\n\nThis bonus does not count as a [stat modifier]{mechanic:stat-modifier}.",
+      "short_effect": "Increases [Defense]{mechanic:defense} to 1.5× with a [major status ailment]{mechanic:major-status-ailment}.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "flavor_text_entries": [
+    {
+      "flavor_text": "状態異常で\n防御が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "flavor_text": "Boosts the Defense stat if the\nPokémon has a status condition.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Aumenta la Difesa in caso di\nproblemi di stato.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "flavor_text": "Sube la Defensa si sufre un\nproblema de estado.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "flavor_text": "Steigert bei Statusproblemen\ndie Verteidigung.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "flavor_text": "Augmente la Défense s’il y a\nun problème de statut.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "상태 이상이 되면\n방어가 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "flavor_text": "じょうたい　いじょうで\nぼうぎょが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "flavor_text": "Ups Defense if there is\na status problem.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Ups Defense if there is\na status problem.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Augmente la Défense s’il y\na un problème de statut.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "flavor_text": "Ups Defense if there is\na status problem.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Boosts Defense if there is\na status problem.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Boosts Defense if there is\na status problem.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Ups DEFENSE if suffering.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Ups DEFENSE if suffering.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "flavor_text": "Ups DEFENSE if suffering.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "pokemon": [
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "dratini"
+      }
+    },
+    {
+      "is_hidden": true,
+      "slot": 3,
+      "pokemon": {
+        "name": "dragonair"
+      }
+    },
+    {
+      "is_hidden": false,
+      "slot": 1,
+      "pokemon": {
+        "name": "milotic"
+      }
+    }
+  ]
+}

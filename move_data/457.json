@@ -1,1 +1,85 @@
-{"id":457,"name":"head-smash","accuracy":80,"effect_chance":null,"pp":5,"priority":0,"power":150,"contest_combos":null,"contest_type":{"name":"tough"},"contest_effect":null,"damage_class":{"name":"physical"},"effect_entries":[{"effect":"Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/2 the damage it inflicts in recoil.","short_effect":"User receives 1/2 the damage inflicted in recoil.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iv"},"meta":{"ailment":{"name":"none"},"category":{"name":"damage"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":-50,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Head Smash","language":"en"},{"name":"Zuccata","language":"it"},{"name":"Testarazo","language":"es"},{"name":"Kopfstoß","language":"de"},{"name":"Fracass'Tête","language":"fr"},{"name":"양날박치기","language":"ko"},{"name":"もろはのずつき","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"rock"}}
+{
+  "id": 457,
+  "name": "head-smash",
+  "accuracy": 80,
+  "effect_chance": null,
+  "pp": 5,
+  "priority": 0,
+  "power": 150,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "tough"
+  },
+  "contest_effect": null,
+  "damage_class": {
+    "name": "physical"
+  },
+  "effect_entries": [
+    {
+      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/2 the damage it inflicts in recoil.",
+      "short_effect": "User receives 1/2 the damage inflicted in recoil.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iv"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "damage"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": -50,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Head Smash",
+      "language": "en"
+    },
+    {
+      "name": "Zuccata",
+      "language": "it"
+    },
+    {
+      "name": "Testarazo",
+      "language": "es"
+    },
+    {
+      "name": "Kopfstoß",
+      "language": "de"
+    },
+    {
+      "name": "Fracass'Tête",
+      "language": "fr"
+    },
+    {
+      "name": "양날박치기",
+      "language": "ko"
+    },
+    {
+      "name": "もろはのずつき",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "rock"
+  }
+}

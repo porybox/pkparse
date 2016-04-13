@@ -1,1 +1,161 @@
-{"id":126,"name":"magmar","order":149,"gender_rate":2,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":25,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"medium"},"pokedex_numbers":[{"entry_number":54,"pokedex":{"name":"updated-unova"}},{"entry_number":153,"pokedex":{"name":"updated-johto"}},{"entry_number":201,"pokedex":{"name":"extended-sinnoh"}},{"entry_number":151,"pokedex":{"name":"original-johto"}},{"entry_number":126,"pokedex":{"name":"kanto"}},{"entry_number":126,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"humanshape"}],"color":{"name":"red"},"shape":{"name":"upright"},"evolves_from_species":{"name":"magby"},"evolution_chain":{},"habitat":{"name":"mountain"},"generation":{"name":"generation-i"},"names":[{"name":"ブーバー","language":"ja"},{"name":"Boober","language":"roomaji"},{"name":"마그마","language":"ko"},{"name":"鴨嘴火龍","language":"zh"},{"name":"Magmar","language":"fr"},{"name":"Magmar","language":"de"},{"name":"Magmar","language":"es"},{"name":"Magmar","language":"it"},{"name":"Magmar","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"mountain"}}],"form_descriptions":[],"genera":[{"genus":"ひふき","language":"ja"},{"genus":"불뿜기","language":"ko"},{"genus":"Crache-Feu","language":"fr"},{"genus":"Brenner","language":"de"},{"genus":"Escupefuego","language":"es"},{"genus":"Sputafuoco","language":"it"},{"genus":"Spitfire","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"magmar"}}],"first_evolution_id":240}
+{
+  "id": 126,
+  "name": "magmar",
+  "order": 149,
+  "gender_rate": 2,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 25,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "medium"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 54,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 153,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 201,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 151,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 126,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 126,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "humanshape"
+    }
+  ],
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "magby"
+  },
+  "evolution_chain": {},
+  "habitat": {
+    "name": "mountain"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ブーバー",
+      "language": "ja"
+    },
+    {
+      "name": "Boober",
+      "language": "roomaji"
+    },
+    {
+      "name": "마그마",
+      "language": "ko"
+    },
+    {
+      "name": "鴨嘴火龍",
+      "language": "zh"
+    },
+    {
+      "name": "Magmar",
+      "language": "fr"
+    },
+    {
+      "name": "Magmar",
+      "language": "de"
+    },
+    {
+      "name": "Magmar",
+      "language": "es"
+    },
+    {
+      "name": "Magmar",
+      "language": "it"
+    },
+    {
+      "name": "Magmar",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "mountain"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "ひふき",
+      "language": "ja"
+    },
+    {
+      "genus": "불뿜기",
+      "language": "ko"
+    },
+    {
+      "genus": "Crache-Feu",
+      "language": "fr"
+    },
+    {
+      "genus": "Brenner",
+      "language": "de"
+    },
+    {
+      "genus": "Escupefuego",
+      "language": "es"
+    },
+    {
+      "genus": "Sputafuoco",
+      "language": "it"
+    },
+    {
+      "genus": "Spitfire",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "magmar"
+      }
+    }
+  ],
+  "first_evolution_id": 240
+}

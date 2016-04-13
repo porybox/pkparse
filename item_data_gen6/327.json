@@ -1,1 +1,179 @@
-{"id":304,"name":"razor-fang","cost":2100,"fling_power":30,"fling_effect":{"name":"flinch"},"attributes":[{"name":"holdable"},{"name":"holdable-active"}],"category":{"name":"held-items"},"effect_entries":[{"effect":"Held: When the holder attacks with most damaging moves, provides an extra 11.7% (30/256) chance for the target to flinch.\nHeld by Gligar: Evolves the holder into Gliscor when it levels up.","short_effect":"Held: Damaging moves gain a 10% chance to make their target flinch. Held by a Gligar while levelling up: Holder evolves into Gliscor.","language":"en"}],"flavor_text_entries":[{"text":"鋭く　とがった　キバ。\n持たせると　ダメージを　与えたとき\nひるませることが　ある。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"An item to be held by a Pokémon.\nWhen the holder successfully inflicts\ndamage, the target may also flinch.","version_group":{"name":"x-y"},"language":"en"},{"text":"Strumento da dare a un Pokémon.\nChi ce l’ha può far tentennare il nemico colpito.","version_group":{"name":"x-y"},"language":"it"},{"text":"Bloquea todos los ataques. Puede fallar si se usa\nrepetidamente.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein Item zum Tragen. Verursacht der Träger\nSchaden, schreckt das Ziel eventuell zurück.","version_group":{"name":"x-y"},"language":"de"},{"text":"Objet à tenir. Peut apeurer l’ennemi quand\nle porteur lui inflige des dégâts.","version_group":{"name":"x-y"},"language":"fr"},{"text":"날카롭고 뾰족한 이빨.\n지니게 하면 데미지를 줬을 때\n풀죽게 하기도 한다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"するどく　とがった　キバ。\nもたせると　ダメージを　あたえたとき\nひるませることが　ある。","version_group":{"name":"x-y"},"language":"ja"},{"text":"An item to be held by a Pokémon.\nIt may make foes and allies flinch\nwhen the holder inflicts damage.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt may make foes and allies flinch\nwhen the holder inflicts damage.","version_group":{"name":"black-white"},"language":"en"},{"text":"Objet à tenir pouvant apeurer l’ennemi\nquand le porteur lui inflige des dégâts.","version_group":{"name":"black-white"},"language":"fr"},{"text":"An item to be held by a Pokémon.\nIt may cause the foe to flinch when\nthe holder inflicts damage.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt may cause the foe to flinch when\nthe holder inflicts damage.","version_group":{"name":"platinum"},"language":"en"},{"text":"An item to be held by a Pokémon.\nIt may cause the foe to flinch when\nthe holder inflicts damage.","version_group":{"name":"diamond-pearl"},"language":"en"}],"game_indices":[{"game_index":327,"generation":{"name":"generation-vi"}},{"game_index":327,"generation":{"name":"generation-v"}},{"game_index":327,"generation":{"name":"generation-iv"}}],"names":[{"name":"Razor Fang","language":"en"},{"name":"Affilodente","language":"it"},{"name":"Colmillo Agudo","language":"es"},{"name":"Scharfzahn","language":"de"},{"name":"Croc Rasoir","language":"fr"},{"name":"예리한이빨","language":"ko"},{"name":"するどいキバ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 304,
+  "name": "razor-fang",
+  "cost": 2100,
+  "fling_power": 30,
+  "fling_effect": {
+    "name": "flinch"
+  },
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "category": {
+    "name": "held-items"
+  },
+  "effect_entries": [
+    {
+      "effect": "Held: When the holder attacks with most damaging moves, provides an extra 11.7% (30/256) chance for the target to flinch.\nHeld by Gligar: Evolves the holder into Gliscor when it levels up.",
+      "short_effect": "Held: Damaging moves gain a 10% chance to make their target flinch. Held by a Gligar while levelling up: Holder evolves into Gliscor.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "鋭く　とがった　キバ。\n持たせると　ダメージを　与えたとき\nひるませることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nWhen the holder successfully inflicts\ndamage, the target may also flinch.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nChi ce l’ha può far tentennare il nemico colpito.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Bloquea todos los ataques. Puede fallar si se usa\nrepetidamente.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Verursacht der Träger\nSchaden, schreckt das Ziel eventuell zurück.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Peut apeurer l’ennemi quand\nle porteur lui inflige des dégâts.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "날카롭고 뾰족한 이빨.\n지니게 하면 데미지를 줬을 때\n풀죽게 하기도 한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "するどく　とがった　キバ。\nもたせると　ダメージを　あたえたとき\nひるませることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt may make foes and allies flinch\nwhen the holder inflicts damage.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt may make foes and allies flinch\nwhen the holder inflicts damage.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir pouvant apeurer l’ennemi\nquand le porteur lui inflige des dégâts.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt may cause the foe to flinch when\nthe holder inflicts damage.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt may cause the foe to flinch when\nthe holder inflicts damage.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt may cause the foe to flinch when\nthe holder inflicts damage.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 327,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 327,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 327,
+      "generation": {
+        "name": "generation-iv"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Razor Fang",
+      "language": "en"
+    },
+    {
+      "name": "Affilodente",
+      "language": "it"
+    },
+    {
+      "name": "Colmillo Agudo",
+      "language": "es"
+    },
+    {
+      "name": "Scharfzahn",
+      "language": "de"
+    },
+    {
+      "name": "Croc Rasoir",
+      "language": "fr"
+    },
+    {
+      "name": "예리한이빨",
+      "language": "ko"
+    },
+    {
+      "name": "するどいキバ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

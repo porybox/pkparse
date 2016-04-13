@@ -1,1 +1,201 @@
-{"id":70,"name":"shoal-salt","cost":20,"fling_power":30,"fling_effect":null,"attributes":[{"name":"countable"}],"category":{"name":"collectibles"},"effect_entries":[{"effect":"No effect.","short_effect":"No effect. Gen III: Trade four and four Shoal Shells for a Shell Bell.","language":"en"}],"flavor_text_entries":[{"text":"浅瀬の洞穴という　場所で\nみつかる　きれいな　塩。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"Pure salt that can be discovered\nonly deep inside the Shoal Cave.","version_group":{"name":"x-y"},"language":"en"},{"text":"Sale purissimo rinvenuto nella Grotta Ondosa.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una sal muy fina encontrada en la Cueva\nCardumen.","version_group":{"name":"x-y"},"language":"es"},{"text":"Reine Salzkristalle, die sich in der Küstenhöhle\nfinden lassen.","version_group":{"name":"x-y"},"language":"de"},{"text":"Du sel pur provenant des profondeurs de\nla Grotte Tréfonds.","version_group":{"name":"x-y"},"language":"fr"},{"text":"여울의 동굴이라는 장소에서\n발견할 수 있는 깨끗한 소금.","version_group":{"name":"x-y"},"language":"ko"},{"text":"あさせのほらあな　という　ばしょで\nみつかる　きれいな　しお。","version_group":{"name":"x-y"},"language":"ja"},{"text":"Pure salt that can be discovered deep\ninside the Shoal Cave.\nA maniac will buy it for a high price.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"Pure salt that can be discovered deep\ninside the Shoal Cave.\nA maniac will buy it for a high price.","version_group":{"name":"black-white"},"language":"en"},{"text":"Sel pur provenant des profondeurs\nde la Grotte Tréfonds. Les amateurs\nen donnent un bon prix.","version_group":{"name":"black-white"},"language":"fr"},{"text":"Pure salt that was discovered deep\ninside the Shoal Cave.\nIt is extremely salty.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"Pure salt that was discovered deep\ninside the Shoal Cave.\nIt is extremely salty.","version_group":{"name":"platinum"},"language":"en"},{"text":"Pure salt that was discovered deep\ninside the Shoal Cave.\nIt is extremely salty.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"Pure salt obtained from deep inside\nthe SHOAL CAVE. It is extremely\nsalty.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"Salt obtained from\ndeep inside the\nSHOAL CAVE.","version_group":{"name":"emerald"},"language":"en"},{"text":"Salt obtained from\ndeep inside the\nSHOAL CAVE.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":70,"generation":{"name":"generation-vi"}},{"game_index":70,"generation":{"name":"generation-v"}},{"game_index":70,"generation":{"name":"generation-iv"}},{"game_index":46,"generation":{"name":"generation-iii"}}],"names":[{"name":"Shoal Salt","language":"en"},{"name":"Sale Ondoso","language":"it"},{"name":"Sal Cardumen","language":"es"},{"name":"Küstensalz","language":"de"},{"name":"Sel Tréfonds","language":"fr"},{"name":"여울소금","language":"ko"},{"name":"あさせのしお","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 70,
+  "name": "shoal-salt",
+  "cost": 20,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [
+    {
+      "name": "countable"
+    }
+  ],
+  "category": {
+    "name": "collectibles"
+  },
+  "effect_entries": [
+    {
+      "effect": "No effect.",
+      "short_effect": "No effect. Gen III: Trade four and four Shoal Shells for a Shell Bell.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "浅瀬の洞穴という　場所で\nみつかる　きれいな　塩。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "Pure salt that can be discovered\nonly deep inside the Shoal Cave.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Sale purissimo rinvenuto nella Grotta Ondosa.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una sal muy fina encontrada en la Cueva\nCardumen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Reine Salzkristalle, die sich in der Küstenhöhle\nfinden lassen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Du sel pur provenant des profondeurs de\nla Grotte Tréfonds.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "여울의 동굴이라는 장소에서\n발견할 수 있는 깨끗한 소금.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "あさせのほらあな　という　ばしょで\nみつかる　きれいな　しお。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "Pure salt that can be discovered deep\ninside the Shoal Cave.\nA maniac will buy it for a high price.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pure salt that can be discovered deep\ninside the Shoal Cave.\nA maniac will buy it for a high price.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Sel pur provenant des profondeurs\nde la Grotte Tréfonds. Les amateurs\nen donnent un bon prix.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "Pure salt that was discovered deep\ninside the Shoal Cave.\nIt is extremely salty.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pure salt that was discovered deep\ninside the Shoal Cave.\nIt is extremely salty.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pure salt that was discovered deep\ninside the Shoal Cave.\nIt is extremely salty.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Pure salt obtained from deep inside\nthe SHOAL CAVE. It is extremely\nsalty.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Salt obtained from\ndeep inside the\nSHOAL CAVE.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Salt obtained from\ndeep inside the\nSHOAL CAVE.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 70,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 70,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 70,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 46,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Shoal Salt",
+      "language": "en"
+    },
+    {
+      "name": "Sale Ondoso",
+      "language": "it"
+    },
+    {
+      "name": "Sal Cardumen",
+      "language": "es"
+    },
+    {
+      "name": "Küstensalz",
+      "language": "de"
+    },
+    {
+      "name": "Sel Tréfonds",
+      "language": "fr"
+    },
+    {
+      "name": "여울소금",
+      "language": "ko"
+    },
+    {
+      "name": "あさせのしお",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

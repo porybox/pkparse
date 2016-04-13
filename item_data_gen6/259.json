@@ -1,1 +1,77 @@
-{"id":527,"name":"mach-bike","cost":0,"fling_power":null,"fling_effect":null,"attributes":[],"category":{"name":"gameplay"},"effect_entries":[{"effect":"Increases movement speed outside or in caves.  Faster than the []{item:acro-bike}.  Allows the trainer to ascend muddy slopes.","short_effect":"Faster than the Acro Bike, and can ride up sandy slopes and across cracked floors.","language":"en"}],"flavor_text_entries":[{"text":"A folding bicycle that is at least\ntwice as fast as walking.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A folding bicycle\nthat doubles your\nspeed or better.","version_group":{"name":"emerald"},"language":"en"},{"text":"A folding bicycle\nthat more than\ndoubles foot speed.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":259,"generation":{"name":"generation-iii"}}],"names":[{"name":"Mach Bike","language":"en"},{"name":"Bici Corsa","language":"it"},{"name":"Bici Carrera","language":"es"},{"name":"Eilrad","language":"de"},{"name":"Vélo Course","language":"fr"},{"name":"マッハじてんしゃ","language":"ja"}],"held_by_pokemon":[],"baby_trigger_for":null}
+{
+  "id": 527,
+  "name": "mach-bike",
+  "cost": 0,
+  "fling_power": null,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "gameplay"
+  },
+  "effect_entries": [
+    {
+      "effect": "Increases movement speed outside or in caves.  Faster than the []{item:acro-bike}.  Allows the trainer to ascend muddy slopes.",
+      "short_effect": "Faster than the Acro Bike, and can ride up sandy slopes and across cracked floors.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "A folding bicycle that is at least\ntwice as fast as walking.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A folding bicycle\nthat doubles your\nspeed or better.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A folding bicycle\nthat more than\ndoubles foot speed.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 259,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Mach Bike",
+      "language": "en"
+    },
+    {
+      "name": "Bici Corsa",
+      "language": "it"
+    },
+    {
+      "name": "Bici Carrera",
+      "language": "es"
+    },
+    {
+      "name": "Eilrad",
+      "language": "de"
+    },
+    {
+      "name": "Vélo Course",
+      "language": "fr"
+    },
+    {
+      "name": "マッハじてんしゃ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [],
+  "baby_trigger_for": null
+}

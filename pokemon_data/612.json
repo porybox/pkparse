@@ -1,1 +1,140 @@
-{"id":612,"name":"haxorus","order":613,"gender_rate":4,"capture_rate":45,"base_happiness":35,"is_baby":false,"hatch_counter":40,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":150,"pokedex":{"name":"kalos-central"}},{"entry_number":146,"pokedex":{"name":"conquest-gallery"}},{"entry_number":185,"pokedex":{"name":"updated-unova"}},{"entry_number":118,"pokedex":{"name":"original-unova"}},{"entry_number":612,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"dragon"},{"name":"monster"}],"color":{"name":"yellow"},"shape":{"name":"upright"},"evolves_from_species":{"name":"fraxure"},"evolution_chain":{},"habitat":null,"generation":{"name":"generation-v"},"names":[{"name":"オノノクス","language":"ja"},{"name":"액스라이즈","language":"ko"},{"name":"Tranchodon","language":"fr"},{"name":"Maxax","language":"de"},{"name":"Haxorus","language":"es"},{"name":"Haxorus","language":"it"},{"name":"Haxorus","language":"en"}],"pal_park_encounters":[],"form_descriptions":[],"genera":[{"genus":"あごオノ","language":"ja"},{"genus":"도끼턱","language":"ko"},{"genus":"Hachomenton","language":"fr"},{"genus":"Beilkiefer","language":"de"},{"genus":"Boca Hacha","language":"es"},{"genus":"Mascellascia","language":"it"},{"genus":"Axe Jaw","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"haxorus"}}],"first_evolution_id":610}
+{
+  "id": 612,
+  "name": "haxorus",
+  "order": 613,
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 35,
+  "is_baby": false,
+  "hatch_counter": 40,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 150,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    {
+      "entry_number": 146,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 185,
+      "pokedex": {
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 118,
+      "pokedex": {
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 612,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "dragon"
+    },
+    {
+      "name": "monster"
+    }
+  ],
+  "color": {
+    "name": "yellow"
+  },
+  "shape": {
+    "name": "upright"
+  },
+  "evolves_from_species": {
+    "name": "fraxure"
+  },
+  "evolution_chain": {},
+  "habitat": null,
+  "generation": {
+    "name": "generation-v"
+  },
+  "names": [
+    {
+      "name": "オノノクス",
+      "language": "ja"
+    },
+    {
+      "name": "액스라이즈",
+      "language": "ko"
+    },
+    {
+      "name": "Tranchodon",
+      "language": "fr"
+    },
+    {
+      "name": "Maxax",
+      "language": "de"
+    },
+    {
+      "name": "Haxorus",
+      "language": "es"
+    },
+    {
+      "name": "Haxorus",
+      "language": "it"
+    },
+    {
+      "name": "Haxorus",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "あごオノ",
+      "language": "ja"
+    },
+    {
+      "genus": "도끼턱",
+      "language": "ko"
+    },
+    {
+      "genus": "Hachomenton",
+      "language": "fr"
+    },
+    {
+      "genus": "Beilkiefer",
+      "language": "de"
+    },
+    {
+      "genus": "Boca Hacha",
+      "language": "es"
+    },
+    {
+      "genus": "Mascellascia",
+      "language": "it"
+    },
+    {
+      "genus": "Axe Jaw",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "haxorus"
+      }
+    }
+  ],
+  "first_evolution_id": 610
+}

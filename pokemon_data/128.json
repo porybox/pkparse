@@ -1,1 +1,153 @@
-{"id":128,"name":"tauros","order":152,"gender_rate":0,"capture_rate":45,"base_happiness":70,"is_baby":false,"hatch_counter":20,"has_gender_differences":false,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":[{"entry_number":125,"pokedex":{"name":"kalos-coastal"}},{"entry_number":150,"pokedex":{"name":"updated-johto"}},{"entry_number":148,"pokedex":{"name":"original-johto"}},{"entry_number":128,"pokedex":{"name":"kanto"}},{"entry_number":128,"pokedex":{"name":"national"}}],"egg_groups":[{"name":"ground"}],"color":{"name":"brown"},"shape":{"name":"quadruped"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"grassland"},"generation":{"name":"generation-i"},"names":[{"name":"ケンタロス","language":"ja"},{"name":"Kentauros","language":"roomaji"},{"name":"켄타로스","language":"ko"},{"name":"肯泰羅","language":"zh"},{"name":"Tauros","language":"fr"},{"name":"Tauros","language":"de"},{"name":"Tauros","language":"es"},{"name":"Tauros","language":"it"},{"name":"Tauros","language":"en"}],"pal_park_encounters":[{"base_score":70,"rate":20,"area":{"name":"field"}}],"form_descriptions":[],"genera":[{"genus":"あばれうし","language":"ja"},{"genus":"성난소","language":"ko"},{"genus":"Buffle","language":"fr"},{"genus":"Wildbulle","language":"de"},{"genus":"Toro Bravo","language":"es"},{"genus":"Torobrado","language":"it"},{"genus":"Wild Bull","language":"en"}],"varieties":[{"is_default":true,"pokemon":{"name":"tauros"}}],"first_evolution_id":128}
+{
+  "id": 128,
+  "name": "tauros",
+  "order": 152,
+  "gender_rate": 0,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": [
+    {
+      "entry_number": 125,
+      "pokedex": {
+        "name": "kalos-coastal"
+      }
+    },
+    {
+      "entry_number": 150,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    {
+      "entry_number": 148,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    {
+      "entry_number": 128,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    {
+      "entry_number": 128,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  ],
+  "egg_groups": [
+    {
+      "name": "ground"
+    }
+  ],
+  "color": {
+    "name": "brown"
+  },
+  "shape": {
+    "name": "quadruped"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "grassland"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": [
+    {
+      "name": "ケンタロス",
+      "language": "ja"
+    },
+    {
+      "name": "Kentauros",
+      "language": "roomaji"
+    },
+    {
+      "name": "켄타로스",
+      "language": "ko"
+    },
+    {
+      "name": "肯泰羅",
+      "language": "zh"
+    },
+    {
+      "name": "Tauros",
+      "language": "fr"
+    },
+    {
+      "name": "Tauros",
+      "language": "de"
+    },
+    {
+      "name": "Tauros",
+      "language": "es"
+    },
+    {
+      "name": "Tauros",
+      "language": "it"
+    },
+    {
+      "name": "Tauros",
+      "language": "en"
+    }
+  ],
+  "pal_park_encounters": [
+    {
+      "base_score": 70,
+      "rate": 20,
+      "area": {
+        "name": "field"
+      }
+    }
+  ],
+  "form_descriptions": [],
+  "genera": [
+    {
+      "genus": "あばれうし",
+      "language": "ja"
+    },
+    {
+      "genus": "성난소",
+      "language": "ko"
+    },
+    {
+      "genus": "Buffle",
+      "language": "fr"
+    },
+    {
+      "genus": "Wildbulle",
+      "language": "de"
+    },
+    {
+      "genus": "Toro Bravo",
+      "language": "es"
+    },
+    {
+      "genus": "Torobrado",
+      "language": "it"
+    },
+    {
+      "genus": "Wild Bull",
+      "language": "en"
+    }
+  ],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "tauros"
+      }
+    }
+  ],
+  "first_evolution_id": 128
+}

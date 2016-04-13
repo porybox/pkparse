@@ -1,1 +1,490 @@
-{"id":87,"name":"big-mushroom","cost":5000,"fling_power":30,"fling_effect":null,"attributes":[],"category":{"name":"loot"},"effect_entries":[{"effect":"Vendor trash.","short_effect":"Fire Red and Leaf Green: Trade for prior Level-up moves. Sell for 2500 Pokédollars, or to Hungry Maid for 5000 Pokédollars.","language":"en"}],"flavor_text_entries":[{"text":"おおきな　珍しい　キノコ。\n一部の　マニアの　あいだでは\nとても　人気が　高い。","version_group":{"name":"x-y"},"language":"ja-kanji"},{"text":"A very large and rare mushroom.\nIt’s popular with a certain class of\ncollectors and sought out by them.","version_group":{"name":"x-y"},"language":"en"},{"text":"Fungo grande e raro.\nÈ molto apprezzato da alcuni intenditori.","version_group":{"name":"x-y"},"language":"it"},{"text":"Una gran seta que es poco común y muy popular\nentre determinados grupos de gourmets.","version_group":{"name":"x-y"},"language":"es"},{"text":"Ein großer und seltener Pilz. Liebhaber dieses\nPilzes freuen sich ein Loch in den Bauch,\nwenn sie einen finden.","version_group":{"name":"x-y"},"language":"de"},{"text":"Un grand champignon assez rare.\nIl est très populaire parmi certains fans\ndévoués.","version_group":{"name":"x-y"},"language":"fr"},{"text":"크고 진귀한 버섯.\n일부 마니아 사이에서는\n매우 인기가 높다.","version_group":{"name":"x-y"},"language":"ko"},{"text":"おおきな　めずらしい　キノコ。\nいちぶの　マニアの　あいだでは\nとても　にんきが　たかい。","version_group":{"name":"x-y"},"language":"ja"},{"text":"A large and rare mushroom.\nIt is sought after by collectors.","version_group":{"name":"black-2-white-2"},"language":"en"},{"text":"A large and rare mushroom.\nIt is sought after by collectors.","version_group":{"name":"black-white"},"language":"en"},{"text":"Un grand champignon plutôt rare.\nIl est très populaire parmi\ncertains fans dévoués.","version_group":{"name":"black-white"},"language":"fr"},{"text":"A large and rare mushroom.\nIt is very popular among certain\nmaniacal fan segments.","version_group":{"name":"heartgold-soulsilver"},"language":"en"},{"text":"A large and rare mushroom.\nIt is very popular among certain\nmaniacal fan segments.","version_group":{"name":"platinum"},"language":"en"},{"text":"A large and rare mushroom.\nIt is very popular among certain\nmaniacal fan segments.","version_group":{"name":"diamond-pearl"},"language":"en"},{"text":"A large and rare mushroom.\nIt is very popular among certain\npeople.","version_group":{"name":"firered-leafgreen"},"language":"en"},{"text":"A rare mushroom\nthat would sell at a\nhigh price.","version_group":{"name":"emerald"},"language":"en"},{"text":"A rare mushroom\nthat would sell at a\nhigh price.","version_group":{"name":"ruby-sapphire"},"language":"en"}],"game_indices":[{"game_index":87,"generation":{"name":"generation-vi"}},{"game_index":87,"generation":{"name":"generation-v"}},{"game_index":87,"generation":{"name":"generation-iv"}},{"game_index":104,"generation":{"name":"generation-iii"}}],"names":[{"name":"Big Mushroom","language":"en"},{"name":"Grande Fungo","language":"it"},{"name":"Seta Grande","language":"es"},{"name":"Riesenpilz","language":"de"},{"name":"Gros Champi","language":"fr"},{"name":"큰버섯","language":"ko"},{"name":"おおきなキノコ","language":"ja"}],"held_by_pokemon":[{"pokemon":{"name":"paras"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}},{"rarity":5,"version":{"name":"soulsilver"}},{"rarity":5,"version":{"name":"heartgold"}},{"rarity":5,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":5,"version":{"name":"diamond"}},{"rarity":5,"version":{"name":"leafgreen"}},{"rarity":5,"version":{"name":"firered"}},{"rarity":5,"version":{"name":"emerald"}},{"rarity":5,"version":{"name":"sapphire"}},{"rarity":5,"version":{"name":"ruby"}}]},{"pokemon":{"name":"parasect"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}},{"rarity":5,"version":{"name":"soulsilver"}},{"rarity":5,"version":{"name":"heartgold"}},{"rarity":5,"version":{"name":"platinum"}},{"rarity":5,"version":{"name":"pearl"}},{"rarity":5,"version":{"name":"diamond"}},{"rarity":5,"version":{"name":"leafgreen"}},{"rarity":5,"version":{"name":"firered"}},{"rarity":5,"version":{"name":"emerald"}},{"rarity":5,"version":{"name":"sapphire"}},{"rarity":5,"version":{"name":"ruby"}}]},{"pokemon":{"name":"foongus"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}}]},{"pokemon":{"name":"amoonguss"},"version_details":[{"rarity":5,"version":{"name":"y"}},{"rarity":5,"version":{"name":"x"}},{"rarity":5,"version":{"name":"white-2"}},{"rarity":5,"version":{"name":"black-2"}},{"rarity":5,"version":{"name":"white"}},{"rarity":5,"version":{"name":"black"}}]}],"baby_trigger_for":null}
+{
+  "id": 87,
+  "name": "big-mushroom",
+  "cost": 5000,
+  "fling_power": 30,
+  "fling_effect": null,
+  "attributes": [],
+  "category": {
+    "name": "loot"
+  },
+  "effect_entries": [
+    {
+      "effect": "Vendor trash.",
+      "short_effect": "Fire Red and Leaf Green: Trade for prior Level-up moves. Sell for 2500 Pokédollars, or to Hungry Maid for 5000 Pokédollars.",
+      "language": "en"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "おおきな　珍しい　キノコ。\n一部の　マニアの　あいだでは\nとても　人気が　高い。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A very large and rare mushroom.\nIt’s popular with a certain class of\ncollectors and sought out by them.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Fungo grande e raro.\nÈ molto apprezzato da alcuni intenditori.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Una gran seta que es poco común y muy popular\nentre determinados grupos de gourmets.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein großer und seltener Pilz. Liebhaber dieses\nPilzes freuen sich ein Loch in den Bauch,\nwenn sie einen finden.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un grand champignon assez rare.\nIl est très populaire parmi certains fans\ndévoués.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "크고 진귀한 버섯.\n일부 마니아 사이에서는\n매우 인기가 높다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "おおきな　めずらしい　キノコ。\nいちぶの　マニアの　あいだでは\nとても　にんきが　たかい。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A large and rare mushroom.\nIt is sought after by collectors.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A large and rare mushroom.\nIt is sought after by collectors.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un grand champignon plutôt rare.\nIl est très populaire parmi\ncertains fans dévoués.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A large and rare mushroom.\nIt is very popular among certain\nmaniacal fan segments.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A large and rare mushroom.\nIt is very popular among certain\nmaniacal fan segments.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A large and rare mushroom.\nIt is very popular among certain\nmaniacal fan segments.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A large and rare mushroom.\nIt is very popular among certain\npeople.",
+      "version_group": {
+        "name": "firered-leafgreen"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A rare mushroom\nthat would sell at a\nhigh price.",
+      "version_group": {
+        "name": "emerald"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A rare mushroom\nthat would sell at a\nhigh price.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
+      "language": "en"
+    }
+  ],
+  "game_indices": [
+    {
+      "game_index": 87,
+      "generation": {
+        "name": "generation-vi"
+      }
+    },
+    {
+      "game_index": 87,
+      "generation": {
+        "name": "generation-v"
+      }
+    },
+    {
+      "game_index": 87,
+      "generation": {
+        "name": "generation-iv"
+      }
+    },
+    {
+      "game_index": 104,
+      "generation": {
+        "name": "generation-iii"
+      }
+    }
+  ],
+  "names": [
+    {
+      "name": "Big Mushroom",
+      "language": "en"
+    },
+    {
+      "name": "Grande Fungo",
+      "language": "it"
+    },
+    {
+      "name": "Seta Grande",
+      "language": "es"
+    },
+    {
+      "name": "Riesenpilz",
+      "language": "de"
+    },
+    {
+      "name": "Gros Champi",
+      "language": "fr"
+    },
+    {
+      "name": "큰버섯",
+      "language": "ko"
+    },
+    {
+      "name": "おおきなキノコ",
+      "language": "ja"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "pokemon": {
+        "name": "paras"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "firered"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "parasect"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "soulsilver"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "heartgold"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "platinum"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "pearl"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "diamond"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "leafgreen"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "firered"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "emerald"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "sapphire"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "ruby"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "foongus"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        }
+      ]
+    },
+    {
+      "pokemon": {
+        "name": "amoonguss"
+      },
+      "version_details": [
+        {
+          "rarity": 5,
+          "version": {
+            "name": "y"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "x"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black-2"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "white"
+          }
+        },
+        {
+          "rarity": 5,
+          "version": {
+            "name": "black"
+          }
+        }
+      ]
+    }
+  ],
+  "baby_trigger_for": null
+}

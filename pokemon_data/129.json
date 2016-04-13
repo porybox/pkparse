@@ -1,1 +1,179 @@
-{"id":129,"name":"magikarp","order":153,"gender_rate":4,"capture_rate":255,"base_happiness":70,"is_baby":false,"hatch_counter":5,"has_gender_differences":true,"forms_switchable":false,"growth_rate":{"name":"slow"},"pokedex_numbers":{"0":{"entry_number":49,"pokedex":{"name":"kalos-central"}},"1":{"entry_number":13,"pokedex":{"name":"conquest-gallery"}},"2":{"entry_number":76,"pokedex":{"name":"updated-johto"}},"3":{"entry_number":23,"pokedex":{"name":"extended-sinnoh"}},"4":{"entry_number":23,"pokedex":{"name":"original-sinnoh"}},"5":{"entry_number":52,"pokedex":{"name":"hoenn"}},"6":{"entry_number":76,"pokedex":{"name":"original-johto"}},"7":{"entry_number":129,"pokedex":{"name":"kanto"}},"8":{"entry_number":129,"pokedex":{"name":"national"}}},"egg_groups":{"0":{"name":"dragon"},"1":{"name":"water2"}},"color":{"name":"red"},"shape":{"name":"fish"},"evolves_from_species":null,"evolution_chain":{},"habitat":{"name":"waters-edge"},"generation":{"name":"generation-i"},"names":{"0":{"name":"ã‚³ã‚¤ã‚­ãƒ³ã‚°","language":"ja"},"1":{"name":"Koiking","language":"roomaji"},"2":{"name":"ìž‰ì–´í‚¹","language":"ko"},"3":{"name":"é¯‰é­šçŽ‹","language":"zh"},"4":{"name":"Magicarpe","language":"fr"},"5":{"name":"Karpador","language":"de"},"6":{"name":"Magikarp","language":"es"},"7":{"name":"Magikarp","language":"it"},"8":{"name":"Magikarp","language":"en"}},"pal_park_encounters":{"0":{"base_score":30,"rate":50,"area":{"name":"pond"}}},"form_descriptions":{},"genera":{"0":{"genus":"ã•ã‹ãª","language":"ja"},"1":{"genus":"ë¬¼ê³ ê¸°","language":"ko"},"2":{"genus":"Poisson","language":"fr"},"3":{"genus":"Fisch","language":"de"},"4":{"genus":"Pez","language":"es"},"5":{"genus":"Pesce","language":"it"},"6":{"genus":"Fish","language":"en"}},"varieties":{"0":{"is_default":true,"pokemon":{"name":"magikarp"}}}}
+{
+  "id": 129,
+  "name": "magikarp",
+  "order": 153,
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "is_baby": false,
+  "hatch_counter": 5,
+  "has_gender_differences": true,
+  "forms_switchable": false,
+  "growth_rate": {
+    "name": "slow"
+  },
+  "pokedex_numbers": {
+    "0": {
+      "entry_number": 49,
+      "pokedex": {
+        "name": "kalos-central"
+      }
+    },
+    "1": {
+      "entry_number": 13,
+      "pokedex": {
+        "name": "conquest-gallery"
+      }
+    },
+    "2": {
+      "entry_number": 76,
+      "pokedex": {
+        "name": "updated-johto"
+      }
+    },
+    "3": {
+      "entry_number": 23,
+      "pokedex": {
+        "name": "extended-sinnoh"
+      }
+    },
+    "4": {
+      "entry_number": 23,
+      "pokedex": {
+        "name": "original-sinnoh"
+      }
+    },
+    "5": {
+      "entry_number": 52,
+      "pokedex": {
+        "name": "hoenn"
+      }
+    },
+    "6": {
+      "entry_number": 76,
+      "pokedex": {
+        "name": "original-johto"
+      }
+    },
+    "7": {
+      "entry_number": 129,
+      "pokedex": {
+        "name": "kanto"
+      }
+    },
+    "8": {
+      "entry_number": 129,
+      "pokedex": {
+        "name": "national"
+      }
+    }
+  },
+  "egg_groups": {
+    "0": {
+      "name": "dragon"
+    },
+    "1": {
+      "name": "water2"
+    }
+  },
+  "color": {
+    "name": "red"
+  },
+  "shape": {
+    "name": "fish"
+  },
+  "evolves_from_species": null,
+  "evolution_chain": {},
+  "habitat": {
+    "name": "waters-edge"
+  },
+  "generation": {
+    "name": "generation-i"
+  },
+  "names": {
+    "0": {
+      "name": "ã‚³ã‚¤ã‚­ãƒ³ã‚°",
+      "language": "ja"
+    },
+    "1": {
+      "name": "Koiking",
+      "language": "roomaji"
+    },
+    "2": {
+      "name": "ìž‰ì–´í‚¹",
+      "language": "ko"
+    },
+    "3": {
+      "name": "é¯‰é­šçŽ‹",
+      "language": "zh"
+    },
+    "4": {
+      "name": "Magicarpe",
+      "language": "fr"
+    },
+    "5": {
+      "name": "Karpador",
+      "language": "de"
+    },
+    "6": {
+      "name": "Magikarp",
+      "language": "es"
+    },
+    "7": {
+      "name": "Magikarp",
+      "language": "it"
+    },
+    "8": {
+      "name": "Magikarp",
+      "language": "en"
+    }
+  },
+  "pal_park_encounters": {
+    "0": {
+      "base_score": 30,
+      "rate": 50,
+      "area": {
+        "name": "pond"
+      }
+    }
+  },
+  "form_descriptions": {},
+  "genera": {
+    "0": {
+      "genus": "ã•ã‹ãª",
+      "language": "ja"
+    },
+    "1": {
+      "genus": "ë¬¼ê³ ê¸°",
+      "language": "ko"
+    },
+    "2": {
+      "genus": "Poisson",
+      "language": "fr"
+    },
+    "3": {
+      "genus": "Fisch",
+      "language": "de"
+    },
+    "4": {
+      "genus": "Pez",
+      "language": "es"
+    },
+    "5": {
+      "genus": "Pesce",
+      "language": "it"
+    },
+    "6": {
+      "genus": "Fish",
+      "language": "en"
+    }
+  },
+  "varieties": {
+    "0": {
+      "is_default": true,
+      "pokemon": {
+        "name": "magikarp"
+      }
+    }
+  }
+}

@@ -1,1 +1,85 @@
-{"id":267,"name":"nature-power","accuracy":null,"effect_chance":null,"pp":20,"priority":0,"power":null,"contest_combos":null,"contest_type":{"name":"beauty"},"contest_effect":{},"damage_class":{"name":"status"},"effect_entries":[{"effect":"Uses another move chosen according to the terrain.\n\nTerrain                   | Selected move\n------------------------- | ------------------\nBuilding                  | []{move:tri-attack}\nCave                      | []{move:rock-slide}\nDeep water                | []{move:hydro-pump}\nDesert                    | []{move:earthquake}\nGrass                     | []{move:seed-bomb}\nMountain                  | []{move:rock-slide}\nRoad                      | []{move:earthquake}\nShallow water             | []{move:hydro-pump}\nSnow                      | []{move:blizzard}\nTall grass                | []{move:seed-bomb}\n[]{move:electric-terrain} | []{move:thunderbolt}\n[]{move:grassy-terrain}   | []{move:energy-ball}\n[]{move:misty-terrain}    | []{move:moonblast}\n\nIn Pokémon Battle Revolution:\n\nTerrain        | Selected move\n-------------- | ------------------\nCourtyard      | []{move:tri-attack}\nCrystal        | []{move:rock-slide}\nGateway        | []{move:hydro-pump}\nMagma          | []{move:rock-slide}\nMain Street    | []{move:tri-attack}\nNeon           | []{move:tri-attack}\nStargazer      | []{move:rock-slide}\nSunny Park     | []{move:seed-bomb}\nSunset         | []{move:earthquake}\nWaterfall      | []{move:seed-bomb}\n\nThis move cannot be copied by []{move:mirror-move}.","short_effect":"Uses a move which depends upon the terrain.","language":"en"}],"effect_changes":[],"generation":{"name":"generation-iii"},"meta":{"ailment":{"name":"none"},"category":{"name":"unique"},"min_hits":null,"max_hits":null,"min_turns":null,"max_turns":null,"drain":0,"healing":0,"crit_rate":0,"ailment_chance":0,"flinch_chance":0,"stat_chance":0},"names":[{"name":"Nature Power","language":"en"},{"name":"Naturforza","language":"it"},{"name":"Adaptación","language":"es"},{"name":"Natur-Kraft","language":"de"},{"name":"Force-Nature","language":"fr"},{"name":"자연의힘","language":"ko"},{"name":"しぜんのちから","language":"ja"}],"past_values":[],"stat_changes":[],"super_contest_effect":{},"target":{"name":"selected-pokemon"},"type":{"name":"normal"}}
+{
+  "id": 267,
+  "name": "nature-power",
+  "accuracy": null,
+  "effect_chance": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "contest_combos": null,
+  "contest_type": {
+    "name": "beauty"
+  },
+  "contest_effect": {},
+  "damage_class": {
+    "name": "status"
+  },
+  "effect_entries": [
+    {
+      "effect": "Uses another move chosen according to the terrain.\n\nTerrain                   | Selected move\n------------------------- | ------------------\nBuilding                  | []{move:tri-attack}\nCave                      | []{move:rock-slide}\nDeep water                | []{move:hydro-pump}\nDesert                    | []{move:earthquake}\nGrass                     | []{move:seed-bomb}\nMountain                  | []{move:rock-slide}\nRoad                      | []{move:earthquake}\nShallow water             | []{move:hydro-pump}\nSnow                      | []{move:blizzard}\nTall grass                | []{move:seed-bomb}\n[]{move:electric-terrain} | []{move:thunderbolt}\n[]{move:grassy-terrain}   | []{move:energy-ball}\n[]{move:misty-terrain}    | []{move:moonblast}\n\nIn Pokémon Battle Revolution:\n\nTerrain        | Selected move\n-------------- | ------------------\nCourtyard      | []{move:tri-attack}\nCrystal        | []{move:rock-slide}\nGateway        | []{move:hydro-pump}\nMagma          | []{move:rock-slide}\nMain Street    | []{move:tri-attack}\nNeon           | []{move:tri-attack}\nStargazer      | []{move:rock-slide}\nSunny Park     | []{move:seed-bomb}\nSunset         | []{move:earthquake}\nWaterfall      | []{move:seed-bomb}\n\nThis move cannot be copied by []{move:mirror-move}.",
+      "short_effect": "Uses a move which depends upon the terrain.",
+      "language": "en"
+    }
+  ],
+  "effect_changes": [],
+  "generation": {
+    "name": "generation-iii"
+  },
+  "meta": {
+    "ailment": {
+      "name": "none"
+    },
+    "category": {
+      "name": "unique"
+    },
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": [
+    {
+      "name": "Nature Power",
+      "language": "en"
+    },
+    {
+      "name": "Naturforza",
+      "language": "it"
+    },
+    {
+      "name": "Adaptación",
+      "language": "es"
+    },
+    {
+      "name": "Natur-Kraft",
+      "language": "de"
+    },
+    {
+      "name": "Force-Nature",
+      "language": "fr"
+    },
+    {
+      "name": "자연의힘",
+      "language": "ko"
+    },
+    {
+      "name": "しぜんのちから",
+      "language": "ja"
+    }
+  ],
+  "past_values": [],
+  "stat_changes": [],
+  "super_contest_effect": {},
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "type": {
+    "name": "normal"
+  }
+}
