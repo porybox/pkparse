@@ -31,7 +31,7 @@ function getDateFromInt (dateStorage) {
 
 exports.parseBuffer = buf => {
   if (buf.readUInt16LE(0x04) || !checksumIsValid(buf) || [232, 260].indexOf(buf.length) === -1 || buf.readUInt8(0x58) || buf.readUInt8(0x90) || buf.readUInt8(0xc8)) {
-    throw new Error('The provided buffer is not valid pk6 data');
+    throw new TypeError('The provided buffer is not valid pk6 data');
   }
   const data = {};
   data.encryptionConstant = buf.readUInt32LE(0x00);
@@ -165,10 +165,6 @@ exports.parseBuffer = buf => {
   return data;
 };
 
-exports.assignReadableNames = parsedData => {
-  parsedData.speciesName = require(`pokemon_data/${parsedData.dexNo}`).name;
-};
-
 exports.parseFile = path => {
   return exports.parseBuffer(require('fs').readFileSync(path));
 };
@@ -177,7 +173,7 @@ exports.getPokemonData = dexNo => {
   try {
     return require(`./pokemon_data/${dexNo}.json`);
   } catch (e) {
-    throw new Error(`Invalid dex number: ${dexNo}`);
+    throw new TypeError(`Invalid dex number: ${dexNo}`);
   }
 };
 
@@ -188,7 +184,7 @@ exports.getItemData = itemId => {
   try {
     return require(`./item_data_gen6/${itemId}.json`);
   } catch (e) {
-    throw new Error(`Invalid item ID: ${itemId}`);
+    throw new TypeError(`Invalid item ID: ${itemId}`);
   }
 };
 
@@ -199,7 +195,7 @@ exports.getMoveData = moveId => {
   try {
     return require(`./move_data/${moveId}.json`);
   } catch (e) {
-    throw new Error(`Invalid move ID: ${moveId}`);
+    throw new TypeError(`Invalid move ID: ${moveId}`);
   }
 };
 
@@ -210,7 +206,18 @@ exports.getAbilityData = abilityId => {
   try {
     return require(`./ability_data/${abilityId}.json`);
   } catch (e) {
-    throw `Invalid ability ID: ${abilityId}`;
+    throw new TypeError(`Invalid ability ID: ${abilityId}`);
+  }
+};
+
+exports.getNatureData = natureId => {
+  if (natureId === 0) {
+    return null;
+  }
+  try {
+    return require(`./nature_data/${natureId}.json`);
+  } catch (e) {
+    throw new TypeError(`Invalid nature ID: ${natureId}`);
   }
 };
 
