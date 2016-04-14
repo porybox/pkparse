@@ -45,7 +45,7 @@ exports.parseBuffer = buf => {
   data.superTrainingHitsRemaining = buf.readUInt8(0x16);
   data.superTrainingBag = buf.readUInt8(0x17);
   data.pid = buf.readUInt32LE(0x18);
-  data.natureId = buf.readUInt8(0x1c); // TODO: Parse
+  data.natureId = buf.readUInt8(0x1c);
 
   const genderByte = buf.readUInt8(0x1d);
   data.isFatefulEncounter = !!(genderByte & 0x01);
@@ -154,7 +154,7 @@ exports.parseBuffer = buf => {
   data.levelMet = encounterLevelByte & 0x7f;
   data.otGender = encounterLevelByte >>> 7 ? 'F' : 'M';
 
-  data.encounterTypeId = buf.readUInt8(0xde); // TODO: Parse
+  data.encounterTypeId = buf.readUInt8(0xde);
   data.otGameId = buf.readUInt8(0xdf); // TODO: Parse
   data.countryId = buf.readUInt8(0xe0); // TODO: Parse
   data.regionId = buf.readUInt8(0xe1); // TODO: Parse
@@ -162,6 +162,32 @@ exports.parseBuffer = buf => {
   data.language = [null, 'JPN', 'ENG', 'FRE', 'ITA', 'GER', '???', 'SPA', 'KOR'][buf.readUInt8(0xe3)];
   data._rawPk6 = buf.toString('base64');
 
+  return data;
+};
+
+const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
+exports.assignReadableNames = (data, language) => {
+  const findName = specificData => specificData && specificData.names.find(data => data.language === langMap[language]).name;
+  language = language || 'ENG';
+  if (!langMap.hasOwnProperty(language)) {
+    throw new TypeError(`Invalid language '${language}'`);
+  }
+  data.speciesName = findName(exports.getPokemonData(data.dexNo));
+  data.heldItemName = findName(exports.getItemData(data.heldItemId));
+  data.abilityName = findName(exports.getAbilityData(data.abilityId));
+  data.natureName = findName(exports.getNatureData(data.natureId));
+  data.move1Name = findName(exports.getMoveData(data.move1Id));
+  data.move2Name = findName(exports.getMoveData(data.move2Id));
+  data.move3Name = findName(exports.getMoveData(data.move3Id));
+  data.move4Name = findName(exports.getMoveData(data.move4Id));
+  data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
+  data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
+  data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
+  data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
+  data.medals = exports.getMedalData(data.medalData);
+  data.ribbons = exports.getRibbonData(data.ribbonData);
+  data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
+  data.otGameName = exports.getGameData(data.otGameId);
   return data;
 };
 
@@ -228,3 +254,23 @@ exports.getRibbonData = ribbonData => {
 exports.getMedalData = medalData => {
   return parseMap(medalData, require('./medalsByOrder'));
 };
+
+exports.getEncounterTypeData = encounterTypeId => {
+  return [
+    'Pal Park/Egg/Event',
+    null,
+    'Tall Grass',
+    null,
+    'Sinjoh Ruins Event',
+    'Cave/Hall of Origin',
+    null,
+    'Surfing/Fishing',
+    null,
+    'Building',
+    'Great Marsh/Safari Zone',
+    null,
+    'Starter/Gift/Fossil'
+  ][encounterTypeId];
+};
+
+exports.getGameData = gameId => require('./games.json')[gameId];
