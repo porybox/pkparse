@@ -1,4 +1,36 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+module.exports=[
+  null,
+  "Sapphire",
+  "Ruby",
+  "Emerald",
+  "FireRed",
+  "LeafGreen",
+  null,
+  "HeartGold",
+  "SoulSilver",
+  null,
+  "Diamond",
+  "Pearl",
+  "Platinum",
+  null,
+  null,
+  "Colosseum/XD",
+  null,
+  null,
+  null,
+  null,
+  "White",
+  "Black",
+  "White 2",
+  "Black 2",
+  "X",
+  "Y",
+  "Alpha Sapphire",
+  "Omega Ruby"
+]
+
+},{}],2:[function(require,module,exports){
 'use strict';
 // Reference: https://projectpokemon.org/wiki/Pokemon_X/Y_3DS_Structure
 function stripNullChars (str) {
@@ -32,7 +64,7 @@ function getDateFromInt (dateStorage) {
 
 exports.parseBuffer = buf => {
   if (buf.readUInt16LE(0x04) || !checksumIsValid(buf) || [232, 260].indexOf(buf.length) === -1 || buf.readUInt8(0x58) || buf.readUInt8(0x90) || buf.readUInt8(0xc8)) {
-    throw new Error('The provided buffer is not valid pk6 data');
+    throw new TypeError('The provided buffer is not valid pk6 data');
   }
   const data = {};
   data.encryptionConstant = buf.readUInt32LE(0x00);
@@ -46,7 +78,7 @@ exports.parseBuffer = buf => {
   data.superTrainingHitsRemaining = buf.readUInt8(0x16);
   data.superTrainingBag = buf.readUInt8(0x17);
   data.pid = buf.readUInt32LE(0x18);
-  data.natureId = buf.readUInt8(0x1c); // TODO: Parse
+  data.natureId = buf.readUInt8(0x1c);
 
   const genderByte = buf.readUInt8(0x1d);
   data.isFatefulEncounter = !!(genderByte & 0x01);
@@ -147,22 +179,50 @@ exports.parseBuffer = buf => {
   data.eggDate = getDateFromInt(buf.readUIntLE(0xd1, 3));
   data.metDate = getDateFromInt(buf.readUIntLE(0xd4, 3));
 
-  data.eggLocationId = buf.readUInt16LE(0xd8); // TODO: Parse
-  data.metLocationId = buf.readUInt32LE(0xda);
+  data.eggLocationId = buf.readUInt16LE(0xd8);
+  data.metLocationId = buf.readUInt16LE(0xda);
   data.ballId = buf.readUInt8(0xdc);
 
   const encounterLevelByte = buf.readUInt8(0xdd);
   data.levelMet = encounterLevelByte & 0x7f;
   data.otGender = encounterLevelByte >>> 7 ? 'F' : 'M';
 
-  data.encounterTypeId = buf.readUInt8(0xde); // TODO: Parse
-  data.otGameId = buf.readUInt8(0xdf); // TODO: Parse
+  data.encounterTypeId = buf.readUInt8(0xde);
+  data.otGameId = buf.readUInt8(0xdf);
   data.countryId = buf.readUInt8(0xe0); // TODO: Parse
   data.regionId = buf.readUInt8(0xe1); // TODO: Parse
   data.consoleRegion = ['J', 'U', 'E', '?', 'C', 'K', 'T'][buf.readUInt8(0xe2)];
   data.language = [null, 'JPN', 'ENG', 'FRE', 'ITA', 'GER', '???', 'SPA', 'KOR'][buf.readUInt8(0xe3)];
   data._rawPk6 = buf.toString('base64');
 
+  return data;
+};
+
+const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
+exports.assignReadableNames = (data, language) => {
+  const findName = specificData => specificData && specificData.names.find(data => data.language === langMap[language]).name;
+  language = language || 'ENG';
+  if (!langMap.hasOwnProperty(language)) {
+    throw new TypeError(`Invalid language '${language}'`);
+  }
+  data.speciesName = findName(exports.getPokemonData(data.dexNo));
+  data.heldItemName = findName(exports.getItemData(data.heldItemId));
+  data.abilityName = findName(exports.getAbilityData(data.abilityId));
+  data.natureName = findName(exports.getNatureData(data.natureId));
+  data.move1Name = findName(exports.getMoveData(data.move1Id));
+  data.move2Name = findName(exports.getMoveData(data.move2Id));
+  data.move3Name = findName(exports.getMoveData(data.move3Id));
+  data.move4Name = findName(exports.getMoveData(data.move4Id));
+  data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
+  data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
+  data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
+  data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
+  data.medals = exports.getMedalData(data.medalData);
+  data.ribbons = exports.getRibbonData(data.ribbonData);
+  data.eggLocationName = exports.getLocationData(data.eggLocationId);
+  data.metLocationName = exports.getLocationData(data.metLocationId);
+  data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
+  data.otGameName = exports.getGameData(data.otGameId);
   return data;
 };
 
@@ -174,7 +234,7 @@ exports.getPokemonData = dexNo => {
   try {
     return require(`./pokemon_data/${dexNo}.json`);
   } catch (e) {
-    throw new Error(`Invalid dex number: ${dexNo}`);
+    throw new TypeError(`Invalid dex number: ${dexNo}`);
   }
 };
 
@@ -185,7 +245,7 @@ exports.getItemData = itemId => {
   try {
     return require(`./item_data_gen6/${itemId}.json`);
   } catch (e) {
-    throw new Error(`Invalid item ID: ${itemId}`);
+    throw new TypeError(`Invalid item ID: ${itemId}`);
   }
 };
 
@@ -196,7 +256,7 @@ exports.getMoveData = moveId => {
   try {
     return require(`./move_data/${moveId}.json`);
   } catch (e) {
-    throw new Error(`Invalid move ID: ${moveId}`);
+    throw new TypeError(`Invalid move ID: ${moveId}`);
   }
 };
 
@@ -207,9 +267,22 @@ exports.getAbilityData = abilityId => {
   try {
     return require(`./ability_data/${abilityId}.json`);
   } catch (e) {
-    throw `Invalid ability ID: ${abilityId}`;
+    throw new TypeError(`Invalid ability ID: ${abilityId}`);
   }
 };
+
+exports.getNatureData = natureId => {
+  if (natureId === 0) {
+    return null;
+  }
+  try {
+    return require(`./nature_data/${natureId}.json`);
+  } catch (e) {
+    throw new TypeError(`Invalid nature ID: ${natureId}`);
+  }
+};
+
+exports.getLocationData = locationId => require('./location_data_gen6')[locationId] || null;
 
 exports.getRibbonData = ribbonData => {
   return parseMap(ribbonData, require('./ribbonsByOrder'));
@@ -219,7 +292,325 @@ exports.getMedalData = medalData => {
   return parseMap(medalData, require('./medalsByOrder'));
 };
 
-},{"./medalsByOrder":2,"./ribbonsByOrder":9,"fs":5}],2:[function(require,module,exports){
+exports.getEncounterTypeData = encounterTypeId => {
+  return [
+    'Pal Park/Egg/Event',
+    null,
+    'Tall Grass',
+    null,
+    'Sinjoh Ruins Event',
+    'Cave/Hall of Origin',
+    null,
+    'Surfing/Fishing',
+    null,
+    'Building',
+    'Great Marsh/Safari Zone',
+    null,
+    'Starter/Gift/Fossil'
+  ][encounterTypeId];
+};
+
+exports.getGameData = gameId => require('./games.json')[gameId];
+
+},{"./games.json":1,"./location_data_gen6":3,"./medalsByOrder":4,"./ribbonsByOrder":11,"fs":7}],3:[function(require,module,exports){
+module.exports={
+  "0": null,
+  "2": "Mystery Zone",
+  "4": "Faraway place",
+  "6": "Vaniville Town",
+  "8": "Route 1",
+  "9": "Vaniville Pathway",
+  "10": "Aquacorde Town",
+  "12": "Route 2",
+  "13": "Avance Trail",
+  "14": "Santalune Forest",
+  "16": "Route 3",
+  "17": "Ouvert Way",
+  "18": "Santalune City",
+  "20": "Route 4",
+  "21": "Parterre Way",
+  "22": "Lumiose City",
+  "24": "Lumiose Gym",
+  "26": "Lysandre Labs",
+  "28": "Route 5",
+  "29": "Versant Road",
+  "30": "Camphrier Town",
+  "32": "Shabboneau Castle",
+  "34": "Route 6",
+  "35": "Palais Lane",
+  "36": "Parfum Palace",
+  "38": "Route 7",
+  "39": "Rivière Walk",
+  "40": "Cyllage City",
+  "42": "Route 8",
+  "43": "Muraille Coast",
+  "44": "Ambrette Town",
+  "46": "Route 9",
+  "47": "Spikes Passage",
+  "48": "Battle Chateau",
+  "50": "Route 10",
+  "51": "Menhir Trail",
+  "52": "Geosenge Town",
+  "54": "Route 11",
+  "55": "Miroir Way",
+  "56": "Reflection Cave",
+  "58": "Shalour City",
+  "60": "Tower of Mastery",
+  "62": "Route 12",
+  "63": "Fourrage Road",
+  "64": "Coumarine City",
+  "66": "Route 13",
+  "67": "Lumiose Badlands",
+  "68": "Route 14",
+  "69": "Laverre Nature Trail",
+  "70": "Laverre City",
+  "72": "Poké Ball Factory",
+  "74": "Route 15",
+  "75": "Brun Way",
+  "76": "Dendemille Town",
+  "78": "Route 16",
+  "79": "Mélancolie Path",
+  "82": "Frost Cavern",
+  "84": "Route 17",
+  "85": "Mamoswine Road",
+  "86": "Anistar City",
+  "88": "Route 18",
+  "89": "Vallée Étroite Way",
+  "90": "Couriway Town",
+  "92": "Route 19",
+  "93": "Grande Vallée Way",
+  "94": "Snowbelle City",
+  "96": "Route 20",
+  "97": "Winding Woods",
+  "98": "Pokémon Village",
+  "100": "Route 21",
+  "101": "Dernière Way",
+  "102": "Route 22",
+  "103": "Détourner Way",
+  "104": "Victory Road",
+  "106": "Pokémon League",
+  "108": "Kiloude City",
+  "110": "Battle Maison",
+  "112": "Azure Bay",
+  "114": "Gate",
+  "116": "Gate",
+  "118": "Gate",
+  "120": "Gate",
+  "122": "Gate",
+  "124": "Gate",
+  "126": "Gate",
+  "128": "Gate",
+  "130": "Gate",
+  "132": "Glittering Cave",
+  "134": "Connecting Cave",
+  "135": "Connecting Cave",
+  "136": "Kalos Power Plant",
+  "138": "Team Flare Secret HQ",
+  "140": "Terminus Cave",
+  "142": "Lost Hotel",
+  "144": "Chamber of Emptiness",
+  "146": "Sea Spirit's Den",
+  "148": "Friend Safari",
+  "150": "Blazing Chamber",
+  "152": "Flood Chamber",
+  "154": "Ironworks Chamber",
+  "156": "Dragonmark Chamber",
+  "158": "Radiant Chamber",
+  "160": "Pokémon League Gate",
+  "162": "Lumiose Station",
+  "164": "Kiloude Station",
+  "166": "Ambrette Aquarium",
+  "168": "Unknown Dungeon",
+  "170": "Littleroot Town",
+  "172": "Oldale Town",
+  "174": "Dewford Town",
+  "176": "Lavaridge Town",
+  "178": "Fallarbor Town",
+  "180": "Verdanturf Town",
+  "182": "Pacifidlog Town",
+  "184": "Petalburg City",
+  "186": "Slateport City",
+  "188": "Mauville City",
+  "190": "Rustboro City",
+  "192": "Fortree City",
+  "194": "Lilycove City",
+  "196": "Mossdeep City",
+  "198": "Sootopolis City",
+  "200": "Ever Grande City",
+  "202": "Pokémon League",
+  "204": "Route 101",
+  "206": "Route 102",
+  "208": "Route 103",
+  "210": "Route 104",
+  "212": "Route 105",
+  "214": "Route 106",
+  "216": "Route 107",
+  "218": "Route 108",
+  "220": "Route 109",
+  "222": "Route 110",
+  "224": "Route 111",
+  "226": "Route 112",
+  "228": "Route 113",
+  "230": "Route 114",
+  "232": "Route 115",
+  "234": "Route 116",
+  "236": "Route 117",
+  "238": "Route 118",
+  "240": "Route 119",
+  "242": "Route 120",
+  "244": "Route 121",
+  "246": "Route 122",
+  "248": "Route 123",
+  "250": "Route 124",
+  "252": "Route 125",
+  "254": "Route 126",
+  "256": "Route 127",
+  "258": "Route 128",
+  "260": "Route 129",
+  "262": "Route 130",
+  "264": "Route 131",
+  "266": "Route 132",
+  "268": "Route 133",
+  "270": "Route 134",
+  "272": "Meteor Falls",
+  "274": "Rusturf Tunnel",
+  "276": "???",
+  "278": "Desert Ruins",
+  "280": "Granite Cave",
+  "282": "Petalburg Woods",
+  "284": "Mt. Chimney",
+  "286": "Jagged Pass",
+  "288": "Fiery Path",
+  "290": "Mt. Pyre",
+  "292": "Team Aqua Hideout",
+  "294": "Seafloor Cavern",
+  "296": "Cave of Origin",
+  "298": "Victory Road",
+  "300": "Shoal Cave",
+  "302": "New Mauville",
+  "304": "Sea Mauville",
+  "306": "Island Cave",
+  "308": "Ancient Tomb",
+  "310": "Sealed Chamber",
+  "312": "Scorched Slab",
+  "314": "Team Magma Hideout",
+  "316": "Sky Pillar",
+  "318": "Battle Resort",
+  "320": "Southern Island",
+  "322": "S.S. Tidal",
+  "324": "Safari Zone",
+  "326": "Mirage Forests",
+  "328": "Mirage Caves",
+  "330": "Mirage Islands",
+  "332": "Mirage Mountains",
+  "334": "Trackless Forest",
+  "336": "Pathless Plain",
+  "338": "Nameless Cavern",
+  "340": "Fabled Cave",
+  "342": "Gnarled Den",
+  "344": "Crescent Isle",
+  "346": "Secret Islet",
+  "348": "Soaring in the sky",
+  "350": "Secret Shore",
+  "352": "Secret Meadow",
+  "354": "Secret Base",
+  "30001": "a Link Trade",
+  "30002": "a Link Trade",
+  "30003": "the Kanto region",
+  "30004": "the Johto region",
+  "30005": "the Hoenn region",
+  "30006": "the Sinnoh region",
+  "30007": "a distant land",
+  "30008": "----------",
+  "30009": "the Unova region",
+  "30010": "the Kalos region",
+  "30011": "Pokémon Link",
+  "40001": "a lovely place",
+  "40002": "a faraway place",
+  "40003": "a Pokémon movie",
+  "40004": "Pokémon Movie 13",
+  "40005": "Pokémon Movie 14",
+  "40006": "Pokémon Movie 15",
+  "40007": "Pokémon Movie 16",
+  "40008": "Pokémon Movie 17",
+  "40009": "Pokémon Movie 18",
+  "40010": "a Pokémon Center",
+  "40011": "the Pokémon cartoon",
+  "40012": "PC Tokyo",
+  "40013": "PC Osaka",
+  "40014": "PC Fukuoka",
+  "40015": "PC Nagoya",
+  "40016": "PC Sapporo",
+  "40017": "PC Yokohama",
+  "40018": "PC Tohoku",
+  "40019": "PC Tokyo Bay",
+  "40020": "a Pokémon Store",
+  "40021": "a WCS",
+  "40022": "WCS 2013",
+  "40023": "WCS 2014",
+  "40024": "WCS 2015",
+  "40025": "WCS 2016",
+  "40026": "WCS 2017",
+  "40027": "WCS 2018",
+  "40028": "Worlds",
+  "40029": "Worlds 2013",
+  "40030": "Worlds 2014",
+  "40031": "Worlds 2015",
+  "40032": "Worlds 2016",
+  "40033": "Worlds 2017",
+  "40034": "Worlds 2018",
+  "40035": "a VGE",
+  "40036": "VGE 2013",
+  "40037": "VGE 2014",
+  "40038": "VGE 2015",
+  "40039": "VGE 2016",
+  "40040": "VGE 2017",
+  "40041": "VGE 2018",
+  "40042": "a Pokémon event",
+  "40043": "a Battle Competition",
+  "40044": "a game event",
+  "40045": "the Pokémon Fan Club",
+  "40046": "a Pokémon TV program",
+  "40047": "a concert",
+  "40048": "an online Present",
+  "40049": "the PGL",
+  "40050": "Pokémon Event 13",
+  "40051": "Pokémon Event 14",
+  "40052": "Pokémon Event 15",
+  "40053": "Pokémon Event 16",
+  "40054": "Pokémon Event 17",
+  "40055": "Pokémon Event 18",
+  "40056": "Pokémon Festa",
+  "40057": "Pokémon Festa 13",
+  "40058": "Pokémon Festa 14",
+  "40059": "Pokémon Festa 15",
+  "40060": "Pokémon Festa 16",
+  "40061": "Pokémon Festa 17",
+  "40062": "Pokémon Festa 18",
+  "40063": "POKÉPARK",
+  "40064": "POKÉPARK",
+  "40065": "POKÉPARK",
+  "40066": "POKÉPARK",
+  "40067": "POKÉPARK",
+  "40068": "POKÉPARK",
+  "40069": "POKÉPARK",
+  "40070": "an event site",
+  "40071": "GAME FREAK",
+  "40072": "a stadium",
+  "40073": "a VGC",
+  "40074": "the VGC 2013",
+  "40075": "the VGC 2014",
+  "40076": "the VGC 2015",
+  "40077": "the VGC 2016",
+  "40078": "the VGC 2017",
+  "40079": "the VGC 2018",
+  "60001": "a stranger",
+  "60002": "Day Care helpers",
+  "60003": "a treasure hunter",
+  "60004": "an old hot-springs visitor"
+}
+
+},{}],4:[function(require,module,exports){
 module.exports=[
   null,
   null,
@@ -254,7 +645,7 @@ module.exports=[
   "The Battle for the Best: Version X/Y!"
 ]
 
-},{}],3:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 ;(function (exports) {
   'use strict'
 
@@ -387,7 +778,7 @@ module.exports=[
   exports.fromByteArray = uint8ToBase64
 }(typeof exports === 'undefined' ? (this.base64js = {}) : exports))
 
-},{}],4:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 (function (Buffer){
 /* global Blob, FileReader */
 
@@ -412,9 +803,9 @@ module.exports = function blobToBuffer (blob, cb) {
 }
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":6}],5:[function(require,module,exports){
+},{"buffer":8}],7:[function(require,module,exports){
 
-},{}],6:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 (function (global){
 /*!
  * The buffer module from node.js, for the browser.
@@ -1872,14 +2263,14 @@ function blitBuffer (src, dst, offset, length) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"base64-js":3,"ieee754":8,"isarray":7}],7:[function(require,module,exports){
+},{"base64-js":5,"ieee754":10,"isarray":9}],9:[function(require,module,exports){
 var toString = {}.toString;
 
 module.exports = Array.isArray || function (arr) {
   return toString.call(arr) == '[object Array]';
 };
 
-},{}],8:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
   var e, m
   var eLen = nBytes * 8 - mLen - 1
@@ -1965,7 +2356,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128
 }
 
-},{}],9:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 module.exports=[
   "Kalos Champ Ribbon",
   "Champion Ribbon",
@@ -2015,7 +2406,7 @@ module.exports=[
   "Toughness Master Ribbon"
 ]
 
-},{}],10:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 'use strict';
 function setOutput (obj) {
   document.getElementById('output').innerHTML = obj instanceof Error ? obj : JSON.stringify(obj, null, 4);
@@ -2030,4 +2421,4 @@ window.parseFile = fileList => {
   });
 };
 
-},{".":1,"blob-to-buffer":4}]},{},[10]);
+},{".":2,"blob-to-buffer":6}]},{},[12]);
