@@ -1,3 +1,4 @@
+/* eslint-env browser */
 'use strict';
 function setOutput (obj) {
   document.getElementById('output').innerHTML = obj instanceof Error ? obj : JSON.stringify(obj, null, 4);

@@ -26,13 +26,18 @@ function getDateFromInt (dateStorage) {
   if (!dateStorage) {
     return null;
   }
-  return Date.UTC((dateStorage & 0xff) + 2000, (dateStorage >>> 8 & 0xff) - 1, (dateStorage >>> 16 & 0xff));
+  return Date.UTC((dateStorage & 0xff) + 2000, (dateStorage >>> 8 & 0xff) - 1, dateStorage >>> 16 & 0xff);
 }
 
-exports.parseBuffer = buf => {
-  if (buf.readUInt16LE(0x04) || !checksumIsValid(buf) || [232, 260].indexOf(buf.length) === -1 || buf.readUInt8(0x58) || buf.readUInt8(0x90) || buf.readUInt8(0xc8)) {
+exports.parseBuffer = (buf, options) => {
+  if (buf.readUInt16LE(0x04) || !checksumIsValid(buf) || [232, 260].indexOf(buf.length) === -1 || buf.readUInt8(0x58) ||
+      buf.readUInt8(0x90) || buf.readUInt8(0xc8)) {
     throw new TypeError('The provided buffer is not valid pk6 data');
   }
+  options = options || {};
+  options.parseNames = !!options.parseNames;
+  options.language = options.language || 'ENG';
+
   const data = {};
   data.encryptionConstant = buf.readUInt32LE(0x00);
   data.dexNo = buf.readUInt16LE(0x08);
@@ -102,7 +107,7 @@ exports.parseBuffer = buf => {
   data.eggMove3Id = buf.readUInt16LE(0x6e);
   data.eggMove4Id = buf.readUInt16LE(0x70);
 
-  data.canDoSecretSuperTraining = !!(buf.readUInt8(0x72));
+  data.canDoSecretSuperTraining = !!buf.readUInt8(0x72);
 
   const ivBytes = buf.readUInt32LE(0x74);
   data.ivHp = ivBytes & 0x1f;
@@ -162,39 +167,38 @@ exports.parseBuffer = buf => {
   data.language = [null, 'JPN', 'ENG', 'FRE', 'ITA', 'GER', '???', 'SPA', 'KOR'][buf.readUInt8(0xe3)];
   data._rawPk6 = buf.toString('base64');
 
-  return data;
-};
-
-const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
-exports.assignReadableNames = (data, language) => {
-  const findName = specificData => specificData && specificData.names.find(data => data.language === langMap[language]).name;
-  language = language || 'ENG';
-  if (!langMap.hasOwnProperty(language)) {
-    throw new TypeError(`Invalid language '${language}'`);
+  if (options.parseNames) {
+    const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
+    const shortLang = langMap[options.language];
+    if (shortLang) {
+      throw new TypeError(`Invalid language '${options.language}'`);
+    }
+    const findName = specificData => specificData && specificData.names.find(d => d.language === shortLang).name;
+    data.speciesName = findName(exports.getPokemonData(data.dexNo));
+    data.heldItemName = findName(exports.getItemData(data.heldItemId));
+    data.abilityName = findName(exports.getAbilityData(data.abilityId));
+    data.natureName = findName(exports.getNatureData(data.natureId));
+    data.move1Name = findName(exports.getMoveData(data.move1Id));
+    data.move2Name = findName(exports.getMoveData(data.move2Id));
+    data.move3Name = findName(exports.getMoveData(data.move3Id));
+    data.move4Name = findName(exports.getMoveData(data.move4Id));
+    data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
+    data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
+    data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
+    data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
+    data.medals = exports.getMedalData(data.medalData);
+    data.ribbons = exports.getRibbonData(data.ribbonData);
+    data.eggLocationName = exports.getLocationData(data.eggLocationId);
+    data.metLocationName = exports.getLocationData(data.metLocationId);
+    data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
+    data.otGameName = exports.getGameData(data.otGameId);
   }
-  data.speciesName = findName(exports.getPokemonData(data.dexNo));
-  data.heldItemName = findName(exports.getItemData(data.heldItemId));
-  data.abilityName = findName(exports.getAbilityData(data.abilityId));
-  data.natureName = findName(exports.getNatureData(data.natureId));
-  data.move1Name = findName(exports.getMoveData(data.move1Id));
-  data.move2Name = findName(exports.getMoveData(data.move2Id));
-  data.move3Name = findName(exports.getMoveData(data.move3Id));
-  data.move4Name = findName(exports.getMoveData(data.move4Id));
-  data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
-  data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
-  data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
-  data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
-  data.medals = exports.getMedalData(data.medalData);
-  data.ribbons = exports.getRibbonData(data.ribbonData);
-  data.eggLocationName = exports.getLocationData(data.eggLocationId);
-  data.metLocationName = exports.getLocationData(data.metLocationId);
-  data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
-  data.otGameName = exports.getGameData(data.otGameId);
+
   return data;
 };
 
-exports.parseFile = path => {
-  return exports.parseBuffer(require('fs').readFileSync(path));
+exports.parseFile = (path, options) => {
+  return exports.parseBuffer(require('fs').readFileSync(path), options);
 };
 
 exports.getPokemonData = dexNo => {
