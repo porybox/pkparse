@@ -84,7 +84,7 @@ exports.parseBuffer = (buf, options) => {
 
   data.medalData = buf.readUInt32LE(0x2c);
   data.ribbonData = buf.readUIntLE(0x30, 6);
-  data.distributionSuperTrainingFlags = buf.readUInt8(0x3a); // Not sure what these are
+  data.distributionSuperTrainingFlags = buf.readUInt8(0x3a); // TODO: Figure out what these are
   data.nickname = stripNullChars(buf.toString('utf16le', 0x40, 0x58));
 
   data.move1Id = buf.readUInt16LE(0x5a);
