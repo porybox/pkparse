@@ -147,7 +147,7 @@ exports.parseBuffer = buf => {
   data.metDate = getDateFromInt(buf.readUIntLE(0xd4, 3));
 
   data.eggLocationId = buf.readUInt16LE(0xd8);
-  data.metLocationId = buf.readUInt32LE(0xda);
+  data.metLocationId = buf.readUInt16LE(0xda);
   data.ballId = buf.readUInt8(0xdc);
 
   const encounterLevelByte = buf.readUInt8(0xdd);
@@ -249,7 +249,7 @@ exports.getNatureData = natureId => {
   }
 };
 
-exports.getLocationData = locationId => require('./location_data_gen6')[locationId & 0xffff] || null;
+exports.getLocationData = locationId => require('./location_data_gen6')[locationId] || null;
 
 exports.getRibbonData = ribbonData => {
   return parseMap(ribbonData, require('./ribbonsByOrder'));
