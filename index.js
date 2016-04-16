@@ -23,10 +23,7 @@ function checksumIsValid (buf) {
 }
 
 function getDateFromInt (dateStorage) {
-  if (!dateStorage) {
-    return null;
-  }
-  return Date.UTC((dateStorage & 0xff) + 2000, (dateStorage >>> 8 & 0xff) - 1, dateStorage >>> 16 & 0xff);
+  return dateStorage ? Date.UTC((dateStorage & 0xff) + 2000, (dateStorage >>> 8 & 0xff) - 1, dateStorage >>> 16 & 0xff) : null;
 }
 
 exports.parseBuffer = (buf, options) => {
