@@ -14,21 +14,26 @@ var pk6parse = require('pk6parse');
 ```
 ## API
 
-* `pk6parse.parseBuffer(buf)`
+* `pk6parse.parseBuffer(buf, [options])`
 * `buf` *(Buffer)*: A Buffer in .pk6 format
+* `options` *(object)*: If `options.parseNames` is set to `true`, assigns readable names the returned data in addition to property IDs.
 * Returns *(object)*: An object containing the parsed information from the buffer.
 
 ---
 
-* `pk6parse.parseFile(filepath)`
+* `pk6parse.parseFile(filepath, [options])`
 * `filepath` *(string)*: The path to a .pk6 file
-* Parses the pk6 data in a give file. This is a shim for:
+* Parses the pk6 data in a given file. This is an alias for:
 
-```javascript
-pk6parse.parseBuffer(require('fs').readFileSync(filepath))
+```js
+pk6parse.parseBuffer(require('fs').readFileSync(filepath, options))
 ```
 ---
-While most of the information in the parsed object will be in a readable format, some information (such as move data) will still be represented by an ID Number. This is because the string representation of this data can vary depending on game and language. There are a few exposed helper functions that can be used to parse this information more fully:
+While most of the information in the parsed object will be in a readable format, some information (such as move data) will still be represented by an ID Number. This is because the string representation of this data can vary depending on game and language. The data can be exposed by setting `options.parseNames` to `true`, or by using these helper functions:
+
+* `pk6parse.assignReadableNames(data)`
+* `data` *(object)* Parsed data, in the format of data returned by `pk6parse.parseBuffer`
+* Mutates the given `data` object by all supported "name" properties to it. For example, the `abilityName` property will be added based on the existing `abilityId` property. Note that future updates may support more names than are currently available.
 
 * `pk6parse.getPokemonData(dexNo)`
 * `dexNo` *(number)*: The national dex number of the desired species

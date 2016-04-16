@@ -168,32 +168,37 @@ exports.parseBuffer = (buf, options) => {
   data._rawPk6 = buf.toString('base64');
 
   if (options.parseNames) {
-    const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
-    const shortLang = langMap[options.language];
-    if (!shortLang) {
-      throw new TypeError(`Invalid language '${options.language}'`);
-    }
-    const findName = specificData => specificData && specificData.names.find(d => d.language === shortLang).name;
-    data.speciesName = findName(exports.getPokemonData(data.dexNo));
-    data.heldItemName = findName(exports.getItemData(data.heldItemId));
-    data.abilityName = findName(exports.getAbilityData(data.abilityId));
-    data.natureName = findName(exports.getNatureData(data.natureId));
-    data.move1Name = findName(exports.getMoveData(data.move1Id));
-    data.move2Name = findName(exports.getMoveData(data.move2Id));
-    data.move3Name = findName(exports.getMoveData(data.move3Id));
-    data.move4Name = findName(exports.getMoveData(data.move4Id));
-    data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
-    data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
-    data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
-    data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
-    data.medals = exports.getMedalData(data.medalData);
-    data.ribbons = exports.getRibbonData(data.ribbonData);
-    data.eggLocationName = exports.getLocationData(data.eggLocationId);
-    data.metLocationName = exports.getLocationData(data.metLocationId);
-    data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
-    data.otGameName = exports.getGameData(data.otGameId);
+    exports.assignReadableNames(data, options.language);
   }
 
+  return data;
+};
+
+exports.assignReadableNames = (data, language) => {
+  const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
+  const shortLang = langMap[language];
+  if (!shortLang) {
+    throw new TypeError(`Invalid language '${language}'`);
+  }
+  const findName = specificData => specificData && specificData.names.find(d => d.language === shortLang).name;
+  data.speciesName = findName(exports.getPokemonData(data.dexNo));
+  data.heldItemName = findName(exports.getItemData(data.heldItemId));
+  data.abilityName = findName(exports.getAbilityData(data.abilityId));
+  data.natureName = findName(exports.getNatureData(data.natureId));
+  data.move1Name = findName(exports.getMoveData(data.move1Id));
+  data.move2Name = findName(exports.getMoveData(data.move2Id));
+  data.move3Name = findName(exports.getMoveData(data.move3Id));
+  data.move4Name = findName(exports.getMoveData(data.move4Id));
+  data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
+  data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
+  data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
+  data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
+  data.medals = exports.getMedalData(data.medalData);
+  data.ribbons = exports.getRibbonData(data.ribbonData);
+  data.eggLocationName = exports.getLocationData(data.eggLocationId);
+  data.metLocationName = exports.getLocationData(data.metLocationId);
+  data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
+  data.otGameName = exports.getGameData(data.otGameId);
   return data;
 };
 
