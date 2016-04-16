@@ -18,6 +18,9 @@
   "license": "MIT",
   "devDependencies": {
     "blob-to-buffer": "^1.2.6",
-    "browserify": "^13.0.0"
+    "browserify": "^13.0.0",
+    "chai": "^3.5.0",
+    "dirty-chai": "^1.2.2",
+    "mocha": "^2.4.5"
   }
 }

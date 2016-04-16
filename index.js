@@ -199,7 +199,7 @@ exports.parseFile = path => {
 
 exports.getPokemonData = dexNo => {
   try {
-    return require(`./pokemon_data/${dexNo}.json`);
+    return require(`./data/pokemon/${dexNo}.json`);
   } catch (e) {
     throw new TypeError(`Invalid dex number: ${dexNo}`);
   }
@@ -210,7 +210,7 @@ exports.getItemData = itemId => {
     return null;
   }
   try {
-    return require(`./item_data_gen6/${itemId}.json`);
+    return require(`./data/item_gen6/${itemId}.json`);
   } catch (e) {
     throw new TypeError(`Invalid item ID: ${itemId}`);
   }
@@ -221,7 +221,7 @@ exports.getMoveData = moveId => {
     return null;
   }
   try {
-    return require(`./move_data/${moveId}.json`);
+    return require(`./data/move/${moveId}.json`);
   } catch (e) {
     throw new TypeError(`Invalid move ID: ${moveId}`);
   }
@@ -232,7 +232,7 @@ exports.getAbilityData = abilityId => {
     return null;
   }
   try {
-    return require(`./ability_data/${abilityId}.json`);
+    return require(`./data/ability/${abilityId}.json`);
   } catch (e) {
     throw new TypeError(`Invalid ability ID: ${abilityId}`);
   }
@@ -243,20 +243,20 @@ exports.getNatureData = natureId => {
     return null;
   }
   try {
-    return require(`./nature_data/${natureId}.json`);
+    return require(`./data/nature/${natureId}.json`);
   } catch (e) {
     throw new TypeError(`Invalid nature ID: ${natureId}`);
   }
 };
 
-exports.getLocationData = locationId => require('./location_data_gen6')[locationId] || null;
+exports.getLocationData = locationId => require('./data/location_gen6')[locationId] || null;
 
 exports.getRibbonData = ribbonData => {
-  return parseMap(ribbonData, require('./ribbonsByOrder'));
+  return parseMap(ribbonData, require('./data/ribbons'));
 };
 
 exports.getMedalData = medalData => {
-  return parseMap(medalData, require('./medalsByOrder'));
+  return parseMap(medalData, require('./data/medals'));
 };
 
 exports.getEncounterTypeData = encounterTypeId => {
@@ -277,4 +277,4 @@ exports.getEncounterTypeData = encounterTypeId => {
   ][encounterTypeId];
 };
 
-exports.getGameData = gameId => require('./games.json')[gameId];
+exports.getGameData = gameId => require('./data/games.json')[gameId];
