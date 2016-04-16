@@ -146,7 +146,7 @@ exports.parseBuffer = buf => {
   data.eggDate = getDateFromInt(buf.readUIntLE(0xd1, 3));
   data.metDate = getDateFromInt(buf.readUIntLE(0xd4, 3));
 
-  data.eggLocationId = buf.readUInt16LE(0xd8); // TODO: Parse
+  data.eggLocationId = buf.readUInt16LE(0xd8);
   data.metLocationId = buf.readUInt32LE(0xda);
   data.ballId = buf.readUInt8(0xdc);
 
@@ -155,7 +155,7 @@ exports.parseBuffer = buf => {
   data.otGender = encounterLevelByte >>> 7 ? 'F' : 'M';
 
   data.encounterTypeId = buf.readUInt8(0xde);
-  data.otGameId = buf.readUInt8(0xdf); // TODO: Parse
+  data.otGameId = buf.readUInt8(0xdf);
   data.countryId = buf.readUInt8(0xe0); // TODO: Parse
   data.regionId = buf.readUInt8(0xe1); // TODO: Parse
   data.consoleRegion = ['J', 'U', 'E', '?', 'C', 'K', 'T'][buf.readUInt8(0xe2)];
@@ -186,6 +186,8 @@ exports.assignReadableNames = (data, language) => {
   data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
   data.medals = exports.getMedalData(data.medalData);
   data.ribbons = exports.getRibbonData(data.ribbonData);
+  data.eggLocationName = exports.getLocationData(data.eggLocationId);
+  data.metLocationName = exports.getLocationData(data.metLocationId);
   data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
   data.otGameName = exports.getGameData(data.otGameId);
   return data;
@@ -246,6 +248,8 @@ exports.getNatureData = natureId => {
     throw new TypeError(`Invalid nature ID: ${natureId}`);
   }
 };
+
+exports.getLocationData = locationId => require('./location_data_gen6')[locationId & 0xffff] || null;
 
 exports.getRibbonData = ribbonData => {
   return parseMap(ribbonData, require('./ribbonsByOrder'));
