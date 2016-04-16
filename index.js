@@ -33,7 +33,6 @@ exports.parseBuffer = (buf, options) => {
   }
   options = options || {};
   options.parseNames = !!options.parseNames;
-  options.language = options.language || 'ENG';
 
   const data = {};
   data.encryptionConstant = buf.readUInt32LE(0x00);
@@ -173,6 +172,7 @@ exports.parseBuffer = (buf, options) => {
 
 exports.assignReadableNames = (data, language) => {
   const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
+  language = language || 'ENG';
   const shortLang = langMap[language];
   if (!shortLang) {
     throw new TypeError(`Invalid language '${language}'`);

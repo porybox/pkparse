@@ -33,4 +33,9 @@ describe('pk6parse', () => {
     expect(parsed.encounterTypeName).to.equal('Pal Park/Egg/Event');
     expect(parsed.otGameName).to.equal('Omega Ruby');
   });
+  it('allows assignReadableNames to be called on its own', () => {
+    const parsedWithNames = pk6parse.parseFile(`${__dirname}/pkmn1.pk6`, {parseNames: true});
+    const expected = _.cloneDeep(expected_pkmn1);
+    expect(pk6parse.assignReadableNames(expected)).to.eql(parsedWithNames);
+  });
 });
