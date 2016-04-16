@@ -170,7 +170,7 @@ exports.parseBuffer = (buf, options) => {
   if (options.parseNames) {
     const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
     const shortLang = langMap[options.language];
-    if (shortLang) {
+    if (!shortLang) {
       throw new TypeError(`Invalid language '${options.language}'`);
     }
     const findName = specificData => specificData && specificData.names.find(d => d.language === shortLang).name;

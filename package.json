@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "bundle": "browserify webparser.js -o browser/bundle.js"
+    "bundle": "browserify webparser.js -o browser/bundle.js",
+    "pretest": "npm run lint",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
     "browserify": "^13.0.0",
     "chai": "^3.5.0",
     "dirty-chai": "^1.2.2",
+    "lodash": "^4.11.1",
     "mocha": "^2.4.5"
   }
 }
