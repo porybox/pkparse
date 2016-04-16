@@ -253,14 +253,14 @@ exports.getNatureData = natureId => {
   }
 };
 
-exports.getLocationData = locationId => require('./data/location_gen6')[locationId] || null;
+exports.getLocationData = locationId => require('./data/location_gen6.json')[locationId] || null;
 
 exports.getRibbonData = ribbonData => {
-  return parseMap(ribbonData, require('./data/ribbons'));
+  return parseMap(ribbonData, require('./data/ribbons.json'));
 };
 
 exports.getMedalData = medalData => {
-  return parseMap(medalData, require('./data/medals'));
+  return parseMap(medalData, require('./data/medals.json'));
 };
 
 exports.getEncounterTypeData = encounterTypeId => {
