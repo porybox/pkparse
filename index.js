@@ -170,6 +170,97 @@ exports.parseBuffer = (buf, options) => {
   return data;
 };
 
+const levelToExperienceCache = {
+  'slow-then-very-fast': {},
+  fast: {},
+  medium: {},
+  'medium-slow': {},
+  slow: {},
+  'fast-then-very-slow': {}
+};
+
+function _baseLevelToExperience (level, growthRate) {
+  // Reference: http://bulbapedia.bulbagarden.net/wiki/Experience
+  if (growthRate === 'slow-then-very-fast') {
+    if (level < 50) {
+      return Math.pow(level, 3) * (100 - level) / 50;
+    }
+    if (level < 68) {
+      return Math.pow(level, 3) * (150 - level) / 100;
+    }
+    if (level < 98) {
+      return Math.pow(level, 3) * Math.floor((1911 - 10 * level) / 3) / 500;
+    }
+    return Math.pow(level, 3) * (160 - level) / 100;
+  }
+  if (growthRate === 'fast') {
+    return 4 / 5 * Math.pow(level, 3);
+  }
+  if (growthRate === 'medium') {
+    return Math.pow(level, 3);
+  }
+  if (growthRate === 'medium-slow') {
+    return 6 / 5 * Math.pow(level, 3) - 15 * Math.pow(level, 2) + 100 * level - 140;
+  }
+  if (growthRate === 'slow') {
+    return 5 / 4 * Math.pow(level, 3);
+  }
+  if (growthRate === 'fast-then-very-slow') {
+    if (level < 15) {
+      return Math.pow(level, 3) * (Math.floor((level + 1) / 3) + 24) / 50;
+    }
+    if (level < 36) {
+      return Math.pow(level, 3) * (level + 14) / 50;
+    }
+    return Math.pow(level, 3) * (Math.floor(level / 2) + 32) / 50;
+  }
+  return NaN;
+}
+function convertLevelToExperience (level, growthRate) {
+  // Reference: http://bulbapedia.bulbagarden.net/wiki/Experience
+  if (!levelToExperienceCache[growthRate]) {
+    throw new TypeError(`Unrecognized growth rate '${growthRate}'`);
+  }
+  if (levelToExperienceCache[growthRate][level] === undefined) {
+    levelToExperienceCache[growthRate][level] = Math.floor(_baseLevelToExperience(level, growthRate));
+  }
+  return levelToExperienceCache[growthRate][level];
+}
+
+const experienceToLevelCache = {
+  'slow-then-very-fast': {},
+  fast: {},
+  medium: {},
+  'medium-slow': {},
+  slow: {},
+  'fast-then-very-slow': {}
+};
+
+function _baseConvertExperienceToLevelData (exp, growthRate) {
+  let i = 1;
+  let currentLevelExperience = 0;
+  let previousLevelExperience = 0;
+  /* Checks all of the levels from 1-100 to find the correct one.
+  In theory this could also be done by (a) solving cubic equations to find the level analytically, or (b) using binary search.
+  However, given that there are always exactly 100 possible options, any performance improvement from using those would
+  be minimal anyway. */
+  while (currentLevelExperience <= exp && i <= 100) {
+    previousLevelExperience = currentLevelExperience;
+    currentLevelExperience = convertLevelToExperience(++i, growthRate);
+  }
+  return {level: i - 1, expFromPreviousLevel: exp - previousLevelExperience, expToNextLevel: currentLevelExperience - exp};
+}
+
+function convertExperienceToLevelData (exp, growthRate) {
+  if (!experienceToLevelCache[growthRate]) {
+    throw new TypeError(`Unrecognized growth rate '${growthRate}'`);
+  }
+  if (experienceToLevelCache[growthRate][exp] === undefined) {
+    experienceToLevelCache[growthRate][exp] = _baseConvertExperienceToLevelData(exp, growthRate);
+  }
+  return experienceToLevelCache[growthRate][exp];
+}
+
 exports.assignReadableNames = (data, language) => {
   const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
   language = language || 'ENG';
@@ -178,7 +269,10 @@ exports.assignReadableNames = (data, language) => {
     throw new TypeError(`Invalid language '${language}'`);
   }
   const findName = specificData => specificData && specificData.names.find(d => d.language === shortLang).name;
-  data.speciesName = findName(exports.getPokemonData(data.dexNo));
+  const pkmnData = exports.getPokemonData(data.dexNo);
+  data.speciesName = findName(pkmnData);
+  data.growthRate = pkmnData.growth_rate.name;
+  Object.assign(data, convertExperienceToLevelData(data.exp, data.growthRate));
   data.heldItemName = findName(exports.getItemData(data.heldItemId));
   data.abilityName = findName(exports.getAbilityData(data.abilityId));
   data.natureName = findName(exports.getNatureData(data.natureId));

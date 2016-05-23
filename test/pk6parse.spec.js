@@ -15,6 +15,9 @@ describe('pk6parse', () => {
     const parsed = pk6parse.parseFile(`${__dirname}/pkmn1.pk6`, {parseNames: true});
     _.forEach(expected_pkmn1, (value, key) => expect(parsed[key]).to.equal(value));
     expect(parsed.speciesName).to.equal('Pelipper');
+    expect(parsed.level).to.equal(24);
+    expect(parsed.expFromPreviousLevel).to.equal(495);
+    expect(parsed.expToNextLevel).to.equal(1306);
     expect(parsed.heldItemName).to.be.null();
     expect(parsed.abilityName).to.equal('Keen Eye');
     expect(parsed.natureName).to.equal('Rash');
