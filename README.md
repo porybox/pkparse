@@ -34,6 +34,9 @@ While most of the information in the parsed object will be in a readable format,
 * `pk6parse.assignReadableNames(data)`
 * `data` *(object)* Parsed data, in the format of data returned by `pk6parse.parseBuffer`
 * Mutates the given `data` object by all supported "name" properties to it. For example, the `abilityName` property will be added based on the existing `abilityId` property. Note that future updates may support more names than are currently available.
+* Returns *(object)*: The mutated object
+
+---
 
 * `pk6parse.getPokemonData(dexNo)`
 * `dexNo` *(number)*: The national dex number of the desired species
