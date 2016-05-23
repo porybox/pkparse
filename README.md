@@ -9,14 +9,14 @@ To install:
 ```bash
 npm install pk6parse
 ```
-```javascript
+```js
 var pk6parse = require('pk6parse');
 ```
 ## API
 
 * `pk6parse.parseBuffer(buf, [options])`
 * `buf` *(Buffer)*: A Buffer in .pk6 format
-* `options` *(object)*: If `options.parseNames` is set to `true`, assigns readable names the returned data in addition to property IDs.
+* `options` *(object)*: If `options.parseNames` is set to `true`, assigns readable names to the returned data in addition to property IDs.
 * Returns *(object)*: An object containing the parsed information from the buffer.
 
 ---
