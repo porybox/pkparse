@@ -274,6 +274,7 @@ exports.assignReadableNames = (data, language) => {
   data.growthRate = pkmnData.growth_rate.name;
   Object.assign(data, convertExperienceToLevelData(data.exp, data.growthRate));
   data.heldItemName = findName(exports.getItemData(data.heldItemId));
+  data.ballName = findName(exports.getItemData(data.ballId));
   data.abilityName = findName(exports.getAbilityData(data.abilityId));
   data.natureName = findName(exports.getNatureData(data.natureId));
   data.move1Name = findName(exports.getMoveData(data.move1Id));
@@ -347,6 +348,10 @@ exports.getNatureData = natureId => {
   } catch (e) {
     throw new TypeError(`Invalid nature ID: ${natureId}`);
   }
+};
+
+exports.getBallData = ballId => {
+  return require('./data/ballNames')[ballId];
 };
 
 exports.getLocationData = locationId => require('./data/location_gen6.json')[locationId] || null;
