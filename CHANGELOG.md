@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.2 (2016-05-30)
+
+* Fixed an issue where most `natureName` properties were incorrect.
+
 ## v0.8.1 (2016-05-30)
 
 * Fixed an issue where `ballName` would be incorrect for apricorn balls.
