@@ -1,17 +1,17 @@
 {
-  "id": 11,
-  "name": "adamant",
+  "id": 10,
+  "name": "hasty",
   "decreased_stat": {
-    "name": "special-attack"
+    "name": "defense"
   },
   "increased_stat": {
-    "name": "attack"
+    "name": "speed"
   },
   "likes_flavor": {
-    "name": "spicy"
+    "name": "sweet"
   },
   "hates_flavor": {
-    "name": "dry"
+    "name": "sour"
   },
   "pokeathlon_stat_changes": [
     {
@@ -23,28 +23,28 @@
     {
       "max_change": -2,
       "pokeathlon_stat": {
-        "name": "jump"
+        "name": "skill"
       }
     }
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 70,
-      "high_hp_preference": 38,
+      "low_hp_preference": 88,
+      "high_hp_preference": 58,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 15,
-      "high_hp_preference": 31,
+      "low_hp_preference": 6,
+      "high_hp_preference": 37,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 15,
-      "high_hp_preference": 31,
+      "low_hp_preference": 6,
+      "high_hp_preference": 5,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "いじっぱり",
+      "name": "せっかち",
       "language": "ja"
     },
     {
-      "name": "고집",
+      "name": "성급",
       "language": "ko"
     },
     {
-      "name": "Rigide",
+      "name": "Pressé",
       "language": "fr"
     },
     {
-      "name": "Hart",
+      "name": "Hastig",
       "language": "de"
     },
     {
-      "name": "Firme",
+      "name": "Activo",
       "language": "es"
     },
     {
-      "name": "Decisa",
+      "name": "Lesta",
       "language": "it"
     },
     {
-      "name": "Adamant",
+      "name": "Hasty",
       "language": "en"
     }
   ]

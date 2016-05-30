@@ -1,19 +1,19 @@
 {
-  "id": 25,
-  "name": "serious",
+  "id": 1,
+  "name": "hardy",
   "decreased_stat": null,
   "increased_stat": null,
   "likes_flavor": null,
   "hates_flavor": null,
   "pokeathlon_stat_changes": [
     {
-      "max_change": 1,
+      "max_change": -1,
       "pokeathlon_stat": {
         "name": "speed"
       }
     },
     {
-      "max_change": -1,
+      "max_change": 1,
       "pokeathlon_stat": {
         "name": "power"
       }
@@ -21,22 +21,22 @@
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 29,
-      "high_hp_preference": 34,
+      "low_hp_preference": 61,
+      "high_hp_preference": 61,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 11,
-      "high_hp_preference": 11,
+      "low_hp_preference": 7,
+      "high_hp_preference": 7,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 60,
-      "high_hp_preference": 55,
+      "low_hp_preference": 32,
+      "high_hp_preference": 32,
       "move_battle_style": {
         "name": "support"
       }
@@ -44,31 +44,31 @@
   ],
   "names": [
     {
-      "name": "まじめ",
+      "name": "がんばりや",
       "language": "ja"
     },
     {
-      "name": "성실",
+      "name": "노력",
       "language": "ko"
     },
     {
-      "name": "Sérieux",
+      "name": "Hardi",
       "language": "fr"
     },
     {
-      "name": "Ernst",
+      "name": "Robust",
       "language": "de"
     },
     {
-      "name": "Serio",
+      "name": "Fuerte",
       "language": "es"
     },
     {
-      "name": "Seria",
+      "name": "Ardita",
       "language": "it"
     },
     {
-      "name": "Serious",
+      "name": "Hardy",
       "language": "en"
     }
   ]

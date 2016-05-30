@@ -1,50 +1,42 @@
 {
-  "id": 12,
-  "name": "impish",
-  "decreased_stat": {
-    "name": "special-attack"
-  },
-  "increased_stat": {
-    "name": "defense"
-  },
-  "likes_flavor": {
-    "name": "sour"
-  },
-  "hates_flavor": {
-    "name": "dry"
-  },
+  "id": 25,
+  "name": "serious",
+  "decreased_stat": null,
+  "increased_stat": null,
+  "likes_flavor": null,
+  "hates_flavor": null,
   "pokeathlon_stat_changes": [
     {
-      "max_change": 2,
+      "max_change": 1,
       "pokeathlon_stat": {
-        "name": "skill"
+        "name": "speed"
       }
     },
     {
-      "max_change": -2,
+      "max_change": -1,
       "pokeathlon_stat": {
-        "name": "jump"
+        "name": "power"
       }
     }
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 28,
-      "high_hp_preference": 69,
+      "low_hp_preference": 29,
+      "high_hp_preference": 34,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 55,
-      "high_hp_preference": 6,
+      "low_hp_preference": 11,
+      "high_hp_preference": 11,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 17,
-      "high_hp_preference": 25,
+      "low_hp_preference": 60,
+      "high_hp_preference": 55,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +44,31 @@
   ],
   "names": [
     {
-      "name": "わんぱく",
+      "name": "まじめ",
       "language": "ja"
     },
     {
-      "name": "장난꾸러기",
+      "name": "성실",
       "language": "ko"
     },
     {
-      "name": "Malin",
+      "name": "Sérieux",
       "language": "fr"
     },
     {
-      "name": "Pfiffig",
+      "name": "Ernst",
       "language": "de"
     },
     {
-      "name": "Agitado",
+      "name": "Serio",
       "language": "es"
     },
     {
-      "name": "Scaltra",
+      "name": "Seria",
       "language": "it"
     },
     {
-      "name": "Impish",
+      "name": "Serious",
       "language": "en"
     }
   ]

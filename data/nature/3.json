@@ -1,27 +1,27 @@
 {
-  "id": 3,
-  "name": "modest",
+  "id": 11,
+  "name": "adamant",
   "decreased_stat": {
-    "name": "attack"
-  },
-  "increased_stat": {
     "name": "special-attack"
   },
+  "increased_stat": {
+    "name": "attack"
+  },
   "likes_flavor": {
-    "name": "dry"
+    "name": "spicy"
   },
   "hates_flavor": {
-    "name": "spicy"
+    "name": "dry"
   },
   "pokeathlon_stat_changes": [
     {
-      "max_change": -2,
+      "max_change": 2,
       "pokeathlon_stat": {
         "name": "speed"
       }
     },
     {
-      "max_change": 2,
+      "max_change": -2,
       "pokeathlon_stat": {
         "name": "jump"
       }
@@ -29,22 +29,22 @@
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 34,
-      "high_hp_preference": 35,
+      "low_hp_preference": 70,
+      "high_hp_preference": 38,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 60,
-      "high_hp_preference": 45,
+      "low_hp_preference": 15,
+      "high_hp_preference": 31,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 6,
-      "high_hp_preference": 20,
+      "low_hp_preference": 15,
+      "high_hp_preference": 31,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "ひかえめ",
+      "name": "いじっぱり",
       "language": "ja"
     },
     {
-      "name": "조심",
+      "name": "고집",
       "language": "ko"
     },
     {
-      "name": "Modeste",
+      "name": "Rigide",
       "language": "fr"
     },
     {
-      "name": "Mäßig",
+      "name": "Hart",
       "language": "de"
     },
     {
-      "name": "Modesto",
+      "name": "Firme",
       "language": "es"
     },
     {
-      "name": "Modesta",
+      "name": "Decisa",
       "language": "it"
     },
     {
-      "name": "Modest",
+      "name": "Adamant",
       "language": "en"
     }
   ]

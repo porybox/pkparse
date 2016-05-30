@@ -1,50 +1,50 @@
 {
-  "id": 14,
-  "name": "careful",
+  "id": 20,
+  "name": "naive",
   "decreased_stat": {
-    "name": "special-attack"
-  },
-  "increased_stat": {
     "name": "special-defense"
   },
+  "increased_stat": {
+    "name": "speed"
+  },
   "likes_flavor": {
-    "name": "bitter"
+    "name": "sweet"
   },
   "hates_flavor": {
-    "name": "dry"
+    "name": "bitter"
   },
   "pokeathlon_stat_changes": [
     {
       "max_change": 2,
       "pokeathlon_stat": {
-        "name": "power"
+        "name": "speed"
       }
     },
     {
       "max_change": -2,
       "pokeathlon_stat": {
-        "name": "jump"
+        "name": "power"
       }
     }
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 42,
-      "high_hp_preference": 42,
+      "low_hp_preference": 56,
+      "high_hp_preference": 56,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 5,
-      "high_hp_preference": 50,
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 53,
-      "high_hp_preference": 8,
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "しんちょう",
+      "name": "むじゃき",
       "language": "ja"
     },
     {
-      "name": "신중",
+      "name": "천진난만",
       "language": "ko"
     },
     {
-      "name": "Prudent",
+      "name": "Naïf",
       "language": "fr"
     },
     {
-      "name": "Sacht",
+      "name": "Naiv",
       "language": "de"
     },
     {
-      "name": "Cauto",
+      "name": "Ingenuo",
       "language": "es"
     },
     {
-      "name": "Cauta",
+      "name": "Ingenua",
       "language": "it"
     },
     {
-      "name": "Careful",
+      "name": "Naive",
       "language": "en"
     }
   ]

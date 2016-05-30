@@ -1,27 +1,27 @@
 {
-  "id": 20,
-  "name": "naive",
+  "id": 4,
+  "name": "calm",
   "decreased_stat": {
-    "name": "special-defense"
+    "name": "attack"
   },
   "increased_stat": {
-    "name": "speed"
+    "name": "special-defense"
   },
   "likes_flavor": {
-    "name": "sweet"
+    "name": "bitter"
   },
   "hates_flavor": {
-    "name": "bitter"
+    "name": "spicy"
   },
   "pokeathlon_stat_changes": [
     {
-      "max_change": 2,
+      "max_change": -2,
       "pokeathlon_stat": {
         "name": "speed"
       }
     },
     {
-      "max_change": -2,
+      "max_change": 2,
       "pokeathlon_stat": {
         "name": "power"
       }
@@ -29,22 +29,22 @@
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 56,
-      "high_hp_preference": 56,
+      "low_hp_preference": 25,
+      "high_hp_preference": 40,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 22,
-      "high_hp_preference": 22,
+      "low_hp_preference": 62,
+      "high_hp_preference": 50,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 22,
-      "high_hp_preference": 22,
+      "low_hp_preference": 13,
+      "high_hp_preference": 10,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "むじゃき",
+      "name": "おだやか",
       "language": "ja"
     },
     {
-      "name": "천진난만",
+      "name": "차분",
       "language": "ko"
     },
     {
-      "name": "Naïf",
+      "name": "Calme",
       "language": "fr"
     },
     {
-      "name": "Naiv",
+      "name": "Still",
       "language": "de"
     },
     {
-      "name": "Ingenuo",
+      "name": "Sereno",
       "language": "es"
     },
     {
-      "name": "Ingenua",
+      "name": "Calma",
       "language": "it"
     },
     {
-      "name": "Naive",
+      "name": "Calm",
       "language": "en"
     }
   ]

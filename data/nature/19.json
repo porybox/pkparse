@@ -1,42 +1,50 @@
 {
-  "id": 19,
-  "name": "quirky",
-  "decreased_stat": null,
-  "increased_stat": null,
-  "likes_flavor": null,
-  "hates_flavor": null,
+  "id": 15,
+  "name": "rash",
+  "decreased_stat": {
+    "name": "special-defense"
+  },
+  "increased_stat": {
+    "name": "special-attack"
+  },
+  "likes_flavor": {
+    "name": "dry"
+  },
+  "hates_flavor": {
+    "name": "bitter"
+  },
   "pokeathlon_stat_changes": [
     {
-      "max_change": 1,
+      "max_change": -2,
       "pokeathlon_stat": {
-        "name": "speed"
+        "name": "power"
       }
     },
     {
-      "max_change": -1,
+      "max_change": 2,
       "pokeathlon_stat": {
-        "name": "skill"
+        "name": "jump"
       }
     }
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 56,
-      "high_hp_preference": 56,
+      "low_hp_preference": 27,
+      "high_hp_preference": 30,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 22,
-      "high_hp_preference": 22,
+      "low_hp_preference": 6,
+      "high_hp_preference": 13,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 22,
-      "high_hp_preference": 22,
+      "low_hp_preference": 67,
+      "high_hp_preference": 57,
       "move_battle_style": {
         "name": "support"
       }
@@ -44,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "きまぐれ",
+      "name": "うっかりや",
       "language": "ja"
     },
     {
-      "name": "변덕",
+      "name": "덜렁",
       "language": "ko"
     },
     {
-      "name": "Bizarre",
+      "name": "Foufou",
       "language": "fr"
     },
     {
-      "name": "Kauzig",
+      "name": "Hitzig",
       "language": "de"
     },
     {
-      "name": "Raro",
+      "name": "Alocado",
       "language": "es"
     },
     {
-      "name": "Furba",
+      "name": "Ardente",
       "language": "it"
     },
     {
-      "name": "Quirky",
+      "name": "Rash",
       "language": "en"
     }
   ]

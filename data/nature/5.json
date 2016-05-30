@@ -1,50 +1,50 @@
 {
-  "id": 5,
-  "name": "timid",
+  "id": 2,
+  "name": "bold",
   "decreased_stat": {
     "name": "attack"
   },
   "increased_stat": {
-    "name": "speed"
+    "name": "defense"
   },
   "likes_flavor": {
-    "name": "sweet"
+    "name": "sour"
   },
   "hates_flavor": {
     "name": "spicy"
   },
   "pokeathlon_stat_changes": [
     {
-      "max_change": 2,
+      "max_change": -2,
       "pokeathlon_stat": {
         "name": "speed"
       }
     },
     {
-      "max_change": -2,
+      "max_change": 2,
       "pokeathlon_stat": {
-        "name": "power"
+        "name": "skill"
       }
     }
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 30,
-      "high_hp_preference": 62,
+      "low_hp_preference": 32,
+      "high_hp_preference": 30,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 20,
-      "high_hp_preference": 10,
+      "low_hp_preference": 58,
+      "high_hp_preference": 20,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 50,
-      "high_hp_preference": 28,
+      "low_hp_preference": 10,
+      "high_hp_preference": 50,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "おくびょう",
+      "name": "ずぶとい",
       "language": "ja"
     },
     {
-      "name": "겁쟁이",
+      "name": "대담",
       "language": "ko"
     },
     {
-      "name": "Timide",
+      "name": "Assuré",
       "language": "fr"
     },
     {
-      "name": "Scheu",
+      "name": "Kühn",
       "language": "de"
     },
     {
-      "name": "Miedoso",
+      "name": "Osado",
       "language": "es"
     },
     {
-      "name": "Timida",
+      "name": "Sicura",
       "language": "it"
     },
     {
-      "name": "Timid",
+      "name": "Bold",
       "language": "en"
     }
   ]

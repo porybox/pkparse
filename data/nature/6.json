@@ -1,50 +1,42 @@
 {
-  "id": 6,
-  "name": "lonely",
-  "decreased_stat": {
-    "name": "defense"
-  },
-  "increased_stat": {
-    "name": "attack"
-  },
-  "likes_flavor": {
-    "name": "spicy"
-  },
-  "hates_flavor": {
-    "name": "sour"
-  },
+  "id": 7,
+  "name": "docile",
+  "decreased_stat": null,
+  "increased_stat": null,
+  "likes_flavor": null,
+  "hates_flavor": null,
   "pokeathlon_stat_changes": [
     {
-      "max_change": 2,
+      "max_change": 1,
       "pokeathlon_stat": {
-        "name": "speed"
+        "name": "skill"
       }
     },
     {
-      "max_change": -2,
+      "max_change": -1,
       "pokeathlon_stat": {
-        "name": "skill"
+        "name": "jump"
       }
     }
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 84,
-      "high_hp_preference": 20,
+      "low_hp_preference": 56,
+      "high_hp_preference": 56,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 8,
-      "high_hp_preference": 25,
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 8,
-      "high_hp_preference": 55,
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +44,31 @@
   ],
   "names": [
     {
-      "name": "さみしがり",
+      "name": "すなお",
       "language": "ja"
     },
     {
-      "name": "외로움",
+      "name": "온순",
       "language": "ko"
     },
     {
-      "name": "Solo",
+      "name": "Docile",
       "language": "fr"
     },
     {
-      "name": "Solo",
+      "name": "Sanft",
       "language": "de"
     },
     {
-      "name": "Huraño",
+      "name": "Dócil",
       "language": "es"
     },
     {
-      "name": "Schiva",
+      "name": "Docile",
       "language": "it"
     },
     {
-      "name": "Lonely",
+      "name": "Docile",
       "language": "en"
     }
   ]

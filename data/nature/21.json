@@ -1,50 +1,50 @@
 {
-  "id": 21,
-  "name": "brave",
+  "id": 9,
+  "name": "gentle",
   "decreased_stat": {
-    "name": "speed"
+    "name": "defense"
   },
   "increased_stat": {
-    "name": "attack"
+    "name": "special-defense"
   },
   "likes_flavor": {
-    "name": "spicy"
+    "name": "bitter"
   },
   "hates_flavor": {
-    "name": "sweet"
+    "name": "sour"
   },
   "pokeathlon_stat_changes": [
     {
-      "max_change": -2,
+      "max_change": 2,
       "pokeathlon_stat": {
         "name": "speed"
       }
     },
     {
-      "max_change": 2,
+      "max_change": -2,
       "pokeathlon_stat": {
-        "name": "power"
+        "name": "skill"
       }
     }
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 32,
-      "high_hp_preference": 70,
+      "low_hp_preference": 90,
+      "high_hp_preference": 18,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 60,
-      "high_hp_preference": 15,
+      "low_hp_preference": 5,
+      "high_hp_preference": 70,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 8,
-      "high_hp_preference": 15,
+      "low_hp_preference": 5,
+      "high_hp_preference": 12,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "ゆうかん",
+      "name": "おとなしい",
       "language": "ja"
     },
     {
-      "name": "용감",
+      "name": "얌전",
       "language": "ko"
     },
     {
-      "name": "Brave",
+      "name": "Gentil",
       "language": "fr"
     },
     {
-      "name": "Mutig",
+      "name": "Zart",
       "language": "de"
     },
     {
-      "name": "Audaz",
+      "name": "Amable",
       "language": "es"
     },
     {
-      "name": "Audace",
+      "name": "Gentile",
       "language": "it"
     },
     {
-      "name": "Brave",
+      "name": "Gentle",
       "language": "en"
     }
   ]

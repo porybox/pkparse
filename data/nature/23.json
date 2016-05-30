@@ -1,27 +1,27 @@
 {
-  "id": 23,
-  "name": "quiet",
+  "id": 14,
+  "name": "careful",
   "decreased_stat": {
-    "name": "speed"
-  },
-  "increased_stat": {
     "name": "special-attack"
   },
+  "increased_stat": {
+    "name": "special-defense"
+  },
   "likes_flavor": {
-    "name": "dry"
+    "name": "bitter"
   },
   "hates_flavor": {
-    "name": "sweet"
+    "name": "dry"
   },
   "pokeathlon_stat_changes": [
     {
-      "max_change": -2,
+      "max_change": 2,
       "pokeathlon_stat": {
-        "name": "speed"
+        "name": "power"
       }
     },
     {
-      "max_change": 2,
+      "max_change": -2,
       "pokeathlon_stat": {
         "name": "jump"
       }
@@ -29,22 +29,22 @@
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 56,
-      "high_hp_preference": 56,
+      "low_hp_preference": 42,
+      "high_hp_preference": 42,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 22,
-      "high_hp_preference": 22,
+      "low_hp_preference": 5,
+      "high_hp_preference": 50,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 22,
-      "high_hp_preference": 22,
+      "low_hp_preference": 53,
+      "high_hp_preference": 8,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "れいせい",
+      "name": "しんちょう",
       "language": "ja"
     },
     {
-      "name": "냉정",
+      "name": "신중",
       "language": "ko"
     },
     {
-      "name": "Discret",
+      "name": "Prudent",
       "language": "fr"
     },
     {
-      "name": "Ruhig",
+      "name": "Sacht",
       "language": "de"
     },
     {
-      "name": "Manso",
+      "name": "Cauto",
       "language": "es"
     },
     {
-      "name": "Quieta",
+      "name": "Cauta",
       "language": "it"
     },
     {
-      "name": "Quiet",
+      "name": "Careful",
       "language": "en"
     }
   ]

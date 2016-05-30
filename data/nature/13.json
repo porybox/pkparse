@@ -1,19 +1,27 @@
 {
-  "id": 13,
-  "name": "bashful",
-  "decreased_stat": null,
-  "increased_stat": null,
-  "likes_flavor": null,
-  "hates_flavor": null,
+  "id": 16,
+  "name": "jolly",
+  "decreased_stat": {
+    "name": "special-attack"
+  },
+  "increased_stat": {
+    "name": "speed"
+  },
+  "likes_flavor": {
+    "name": "sweet"
+  },
+  "hates_flavor": {
+    "name": "dry"
+  },
   "pokeathlon_stat_changes": [
     {
-      "max_change": -1,
+      "max_change": 2,
       "pokeathlon_stat": {
         "name": "speed"
       }
     },
     {
-      "max_change": 1,
+      "max_change": -2,
       "pokeathlon_stat": {
         "name": "jump"
       }
@@ -21,22 +29,22 @@
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 30,
-      "high_hp_preference": 30,
+      "low_hp_preference": 35,
+      "high_hp_preference": 35,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 58,
-      "high_hp_preference": 58,
+      "low_hp_preference": 60,
+      "high_hp_preference": 5,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 12,
-      "high_hp_preference": 12,
+      "low_hp_preference": 5,
+      "high_hp_preference": 60,
       "move_battle_style": {
         "name": "support"
       }
@@ -44,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "てれや",
+      "name": "ようき",
       "language": "ja"
     },
     {
-      "name": "수줍음",
+      "name": "명랑",
       "language": "ko"
     },
     {
-      "name": "Pudique",
+      "name": "Jovial",
       "language": "fr"
     },
     {
-      "name": "Zaghaft",
+      "name": "Froh",
       "language": "de"
     },
     {
-      "name": "Tímido",
+      "name": "Alegre",
       "language": "es"
     },
     {
-      "name": "Ritrosa",
+      "name": "Allegra",
       "language": "it"
     },
     {
-      "name": "Bashful",
+      "name": "Jolly",
       "language": "en"
     }
   ]

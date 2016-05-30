@@ -1,27 +1,27 @@
 {
-  "id": 9,
-  "name": "gentle",
+  "id": 18,
+  "name": "lax",
   "decreased_stat": {
-    "name": "defense"
-  },
-  "increased_stat": {
     "name": "special-defense"
   },
+  "increased_stat": {
+    "name": "defense"
+  },
   "likes_flavor": {
-    "name": "bitter"
+    "name": "sour"
   },
   "hates_flavor": {
-    "name": "sour"
+    "name": "bitter"
   },
   "pokeathlon_stat_changes": [
     {
-      "max_change": 2,
+      "max_change": -2,
       "pokeathlon_stat": {
         "name": "speed"
       }
     },
     {
-      "max_change": -2,
+      "max_change": 2,
       "pokeathlon_stat": {
         "name": "skill"
       }
@@ -29,22 +29,22 @@
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 90,
-      "high_hp_preference": 18,
+      "low_hp_preference": 29,
+      "high_hp_preference": 35,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 5,
-      "high_hp_preference": 70,
+      "low_hp_preference": 6,
+      "high_hp_preference": 10,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 5,
-      "high_hp_preference": 12,
+      "low_hp_preference": 65,
+      "high_hp_preference": 55,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "おとなしい",
+      "name": "のうてんき",
       "language": "ja"
     },
     {
-      "name": "얌전",
+      "name": "촐랑",
       "language": "ko"
     },
     {
-      "name": "Gentil",
+      "name": "Lâche",
       "language": "fr"
     },
     {
-      "name": "Zart",
+      "name": "Lasch",
       "language": "de"
     },
     {
-      "name": "Amable",
+      "name": "Flojo",
       "language": "es"
     },
     {
-      "name": "Gentile",
+      "name": "Fiacca",
       "language": "it"
     },
     {
-      "name": "Gentle",
+      "name": "Lax",
       "language": "en"
     }
   ]

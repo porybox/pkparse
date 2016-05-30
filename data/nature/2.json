@@ -1,17 +1,17 @@
 {
-  "id": 2,
-  "name": "bold",
+  "id": 21,
+  "name": "brave",
   "decreased_stat": {
-    "name": "attack"
+    "name": "speed"
   },
   "increased_stat": {
-    "name": "defense"
+    "name": "attack"
   },
   "likes_flavor": {
-    "name": "sour"
+    "name": "spicy"
   },
   "hates_flavor": {
-    "name": "spicy"
+    "name": "sweet"
   },
   "pokeathlon_stat_changes": [
     {
@@ -23,28 +23,28 @@
     {
       "max_change": 2,
       "pokeathlon_stat": {
-        "name": "skill"
+        "name": "power"
       }
     }
   ],
   "move_battle_style_preferences": [
     {
       "low_hp_preference": 32,
-      "high_hp_preference": 30,
+      "high_hp_preference": 70,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 58,
-      "high_hp_preference": 20,
+      "low_hp_preference": 60,
+      "high_hp_preference": 15,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 10,
-      "high_hp_preference": 50,
+      "low_hp_preference": 8,
+      "high_hp_preference": 15,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "ずぶとい",
+      "name": "ゆうかん",
       "language": "ja"
     },
     {
-      "name": "대담",
+      "name": "용감",
       "language": "ko"
     },
     {
-      "name": "Assuré",
+      "name": "Brave",
       "language": "fr"
     },
     {
-      "name": "Kühn",
+      "name": "Mutig",
       "language": "de"
     },
     {
-      "name": "Osado",
+      "name": "Audaz",
       "language": "es"
     },
     {
-      "name": "Sicura",
+      "name": "Audace",
       "language": "it"
     },
     {
-      "name": "Bold",
+      "name": "Brave",
       "language": "en"
     }
   ]

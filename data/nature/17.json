@@ -1,50 +1,50 @@
 {
-  "id": 17,
-  "name": "naughty",
+  "id": 23,
+  "name": "quiet",
   "decreased_stat": {
-    "name": "special-defense"
+    "name": "speed"
   },
   "increased_stat": {
-    "name": "attack"
+    "name": "special-attack"
   },
   "likes_flavor": {
-    "name": "spicy"
+    "name": "dry"
   },
   "hates_flavor": {
-    "name": "bitter"
+    "name": "sweet"
   },
   "pokeathlon_stat_changes": [
     {
-      "max_change": 2,
+      "max_change": -2,
       "pokeathlon_stat": {
         "name": "speed"
       }
     },
     {
-      "max_change": -2,
+      "max_change": 2,
       "pokeathlon_stat": {
-        "name": "power"
+        "name": "jump"
       }
     }
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 70,
-      "high_hp_preference": 20,
+      "low_hp_preference": 56,
+      "high_hp_preference": 56,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
       "low_hp_preference": 22,
-      "high_hp_preference": 70,
+      "high_hp_preference": 22,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 8,
-      "high_hp_preference": 10,
+      "low_hp_preference": 22,
+      "high_hp_preference": 22,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "やんちゃ",
+      "name": "れいせい",
       "language": "ja"
     },
     {
-      "name": "개구쟁이",
+      "name": "냉정",
       "language": "ko"
     },
     {
-      "name": "Mauvais",
+      "name": "Discret",
       "language": "fr"
     },
     {
-      "name": "Frech",
+      "name": "Ruhig",
       "language": "de"
     },
     {
-      "name": "Pícaro",
+      "name": "Manso",
       "language": "es"
     },
     {
-      "name": "Birbona",
+      "name": "Quieta",
       "language": "it"
     },
     {
-      "name": "Naughty",
+      "name": "Quiet",
       "language": "en"
     }
   ]

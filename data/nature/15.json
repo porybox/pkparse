@@ -1,8 +1,8 @@
 {
-  "id": 15,
-  "name": "rash",
+  "id": 3,
+  "name": "modest",
   "decreased_stat": {
-    "name": "special-defense"
+    "name": "attack"
   },
   "increased_stat": {
     "name": "special-attack"
@@ -11,13 +11,13 @@
     "name": "dry"
   },
   "hates_flavor": {
-    "name": "bitter"
+    "name": "spicy"
   },
   "pokeathlon_stat_changes": [
     {
       "max_change": -2,
       "pokeathlon_stat": {
-        "name": "power"
+        "name": "speed"
       }
     },
     {
@@ -29,22 +29,22 @@
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 27,
-      "high_hp_preference": 30,
+      "low_hp_preference": 34,
+      "high_hp_preference": 35,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 6,
-      "high_hp_preference": 13,
+      "low_hp_preference": 60,
+      "high_hp_preference": 45,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 67,
-      "high_hp_preference": 57,
+      "low_hp_preference": 6,
+      "high_hp_preference": 20,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "うっかりや",
+      "name": "ひかえめ",
       "language": "ja"
     },
     {
-      "name": "덜렁",
+      "name": "조심",
       "language": "ko"
     },
     {
-      "name": "Foufou",
+      "name": "Modeste",
       "language": "fr"
     },
     {
-      "name": "Hitzig",
+      "name": "Mäßig",
       "language": "de"
     },
     {
-      "name": "Alocado",
+      "name": "Modesto",
       "language": "es"
     },
     {
-      "name": "Ardente",
+      "name": "Modesta",
       "language": "it"
     },
     {
-      "name": "Rash",
+      "name": "Modest",
       "language": "en"
     }
   ]

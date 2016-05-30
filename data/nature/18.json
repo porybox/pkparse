@@ -1,50 +1,42 @@
 {
-  "id": 18,
-  "name": "lax",
-  "decreased_stat": {
-    "name": "special-defense"
-  },
-  "increased_stat": {
-    "name": "defense"
-  },
-  "likes_flavor": {
-    "name": "sour"
-  },
-  "hates_flavor": {
-    "name": "bitter"
-  },
+  "id": 13,
+  "name": "bashful",
+  "decreased_stat": null,
+  "increased_stat": null,
+  "likes_flavor": null,
+  "hates_flavor": null,
   "pokeathlon_stat_changes": [
     {
-      "max_change": -2,
+      "max_change": -1,
       "pokeathlon_stat": {
         "name": "speed"
       }
     },
     {
-      "max_change": 2,
+      "max_change": 1,
       "pokeathlon_stat": {
-        "name": "skill"
+        "name": "jump"
       }
     }
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 29,
-      "high_hp_preference": 35,
+      "low_hp_preference": 30,
+      "high_hp_preference": 30,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 6,
-      "high_hp_preference": 10,
+      "low_hp_preference": 58,
+      "high_hp_preference": 58,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 65,
-      "high_hp_preference": 55,
+      "low_hp_preference": 12,
+      "high_hp_preference": 12,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +44,31 @@
   ],
   "names": [
     {
-      "name": "のうてんき",
+      "name": "てれや",
       "language": "ja"
     },
     {
-      "name": "촐랑",
+      "name": "수줍음",
       "language": "ko"
     },
     {
-      "name": "Lâche",
+      "name": "Pudique",
       "language": "fr"
     },
     {
-      "name": "Lasch",
+      "name": "Zaghaft",
       "language": "de"
     },
     {
-      "name": "Flojo",
+      "name": "Tímido",
       "language": "es"
     },
     {
-      "name": "Fiacca",
+      "name": "Ritrosa",
       "language": "it"
     },
     {
-      "name": "Lax",
+      "name": "Bashful",
       "language": "en"
     }
   ]

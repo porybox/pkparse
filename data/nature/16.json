@@ -1,27 +1,27 @@
 {
-  "id": 16,
-  "name": "jolly",
+  "id": 8,
+  "name": "mild",
   "decreased_stat": {
-    "name": "special-attack"
+    "name": "defense"
   },
   "increased_stat": {
-    "name": "speed"
+    "name": "special-attack"
   },
   "likes_flavor": {
-    "name": "sweet"
+    "name": "dry"
   },
   "hates_flavor": {
-    "name": "dry"
+    "name": "sour"
   },
   "pokeathlon_stat_changes": [
     {
-      "max_change": 2,
+      "max_change": -2,
       "pokeathlon_stat": {
-        "name": "speed"
+        "name": "skill"
       }
     },
     {
-      "max_change": -2,
+      "max_change": 2,
       "pokeathlon_stat": {
         "name": "jump"
       }
@@ -29,22 +29,22 @@
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 35,
-      "high_hp_preference": 35,
+      "low_hp_preference": 34,
+      "high_hp_preference": 44,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 60,
-      "high_hp_preference": 5,
+      "low_hp_preference": 6,
+      "high_hp_preference": 50,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 5,
-      "high_hp_preference": 60,
+      "low_hp_preference": 60,
+      "high_hp_preference": 6,
       "move_battle_style": {
         "name": "support"
       }
@@ -52,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "ようき",
+      "name": "おっとり",
       "language": "ja"
     },
     {
-      "name": "명랑",
+      "name": "의젓",
       "language": "ko"
     },
     {
-      "name": "Jovial",
+      "name": "Doux",
       "language": "fr"
     },
     {
-      "name": "Froh",
+      "name": "Mild",
       "language": "de"
     },
     {
-      "name": "Alegre",
+      "name": "Afable",
       "language": "es"
     },
     {
-      "name": "Allegra",
+      "name": "Mite",
       "language": "it"
     },
     {
-      "name": "Jolly",
+      "name": "Mild",
       "language": "en"
     }
   ]

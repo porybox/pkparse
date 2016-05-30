@@ -1,42 +1,50 @@
 {
-  "id": 7,
-  "name": "docile",
-  "decreased_stat": null,
-  "increased_stat": null,
-  "likes_flavor": null,
-  "hates_flavor": null,
+  "id": 22,
+  "name": "relaxed",
+  "decreased_stat": {
+    "name": "speed"
+  },
+  "increased_stat": {
+    "name": "defense"
+  },
+  "likes_flavor": {
+    "name": "sour"
+  },
+  "hates_flavor": {
+    "name": "sweet"
+  },
   "pokeathlon_stat_changes": [
     {
-      "max_change": 1,
+      "max_change": -2,
       "pokeathlon_stat": {
-        "name": "skill"
+        "name": "speed"
       }
     },
     {
-      "max_change": -1,
+      "max_change": 2,
       "pokeathlon_stat": {
-        "name": "jump"
+        "name": "skill"
       }
     }
   ],
   "move_battle_style_preferences": [
     {
-      "low_hp_preference": 56,
-      "high_hp_preference": 56,
+      "low_hp_preference": 75,
+      "high_hp_preference": 25,
       "move_battle_style": {
         "name": "attack"
       }
     },
     {
-      "low_hp_preference": 22,
-      "high_hp_preference": 22,
+      "low_hp_preference": 15,
+      "high_hp_preference": 15,
       "move_battle_style": {
         "name": "defense"
       }
     },
     {
-      "low_hp_preference": 22,
-      "high_hp_preference": 22,
+      "low_hp_preference": 10,
+      "high_hp_preference": 60,
       "move_battle_style": {
         "name": "support"
       }
@@ -44,31 +52,31 @@
   ],
   "names": [
     {
-      "name": "すなお",
+      "name": "のんき",
       "language": "ja"
     },
     {
-      "name": "온순",
+      "name": "무사태평",
       "language": "ko"
     },
     {
-      "name": "Docile",
+      "name": "Relax",
       "language": "fr"
     },
     {
-      "name": "Sanft",
+      "name": "Locker",
       "language": "de"
     },
     {
-      "name": "Dócil",
+      "name": "Plácido",
       "language": "es"
     },
     {
-      "name": "Docile",
+      "name": "Placida",
       "language": "it"
     },
     {
-      "name": "Docile",
+      "name": "Relaxed",
       "language": "en"
     }
   ]
