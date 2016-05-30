@@ -274,7 +274,8 @@ exports.assignReadableNames = (data, language) => {
   data.growthRate = pkmnData.growth_rate.name;
   Object.assign(data, convertExperienceToLevelData(data.exp, data.growthRate));
   data.heldItemName = findName(exports.getItemData(data.heldItemId));
-  data.ballName = findName(exports.getItemData(data.ballId));
+  const correctedBallId = data.ballId < 17 ? data.ballId : data.ballId + 475;
+  data.ballName = findName(exports.getItemData(correctedBallId));
   data.abilityName = findName(exports.getAbilityData(data.abilityId));
   data.natureName = findName(exports.getNatureData(data.natureId));
   data.move1Name = findName(exports.getMoveData(data.move1Id));
