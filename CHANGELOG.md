@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.1 (2016-05-30)
+
+* Fixed an issue where `ballName` would be incorrect for apricorn balls.
+
 ## v0.8.0 (2016-05-26)
 
 * Added a `ballName` key, which appears when using the `parseNames` option or `assignReadableNames`.
