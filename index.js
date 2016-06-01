@@ -261,6 +261,10 @@ function convertExperienceToLevelData (exp, growthRate) {
   return experienceToLevelCache[growthRate][exp];
 }
 
+function abbreviateStat (name) {
+  return {hp: 'Hp', attack: 'Atk', defense: 'Def', 'special-attack': 'SpAtk', 'special-defense': 'SpDef', speed: 'Spe'}[name];
+}
+
 exports.assignReadableNames = (data, language) => {
   const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
   language = language || 'ENG';
@@ -280,7 +284,10 @@ exports.assignReadableNames = (data, language) => {
   const correctedBallId = data.ballId < 17 ? data.ballId : data.ballId === 25 ? 576 : data.ballId + 475;
   data.ballName = findName(exports.getItemData(correctedBallId));
   data.abilityName = findName(exports.getAbilityData(data.abilityId));
-  data.natureName = findName(exports.getNatureData(data.natureId));
+  const natureData = exports.getNatureData(data.natureId);
+  data.natureName = findName(natureData);
+  data.increasedStat = abbreviateStat(natureData.increased_stat.name);
+  data.decreasedStat = abbreviateStat(natureData.decreased_stat.name);
   data.move1Name = findName(exports.getMoveData(data.move1Id));
   data.move2Name = findName(exports.getMoveData(data.move2Id));
   data.move3Name = findName(exports.getMoveData(data.move3Id));

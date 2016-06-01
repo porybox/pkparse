@@ -22,6 +22,8 @@ describe('pk6parse', () => {
     expect(parsed.ballName).to.equal('Quick Ball');
     expect(parsed.abilityName).to.equal('Keen Eye');
     expect(parsed.natureName).to.equal('Modest');
+    expect(parsed.increasedStat).to.equal('SpAtk');
+    expect(parsed.decreasedStat).to.equal('Atk');
     expect(parsed.move1Name).to.equal('Agility');
     expect(parsed.move2Name).to.equal('Water Pulse');
     expect(parsed.move3Name).to.equal('Payback');
