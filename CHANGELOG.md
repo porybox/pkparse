@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.8.3 (2016-05-31)
+
+* Fixed an issue where Dream Balls were misidentified as Park Balls.
+
 ## v0.8.2 (2016-05-30)
 
 * Fixed an issue where most `natureName` properties were incorrect.
