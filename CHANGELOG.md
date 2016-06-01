@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.9.1 (2016-06-01)
+
+* Added `increasedStat` and `decreasedStat` keys
+
 ## v0.9.0 (2016-06-01)
 
 * Added `tsv`, `esv`, and `isShiny` keys which appear when using the `parseNames` option or `assignReadableNames`.
