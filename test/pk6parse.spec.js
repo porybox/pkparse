@@ -36,6 +36,9 @@ describe('pk6parse', () => {
     expect(parsed.metLocationName).to.equal('Route 118');
     expect(parsed.encounterTypeName).to.equal('Pal Park/Egg/Event');
     expect(parsed.otGameName).to.equal('Omega Ruby');
+    expect(parsed.tsv).to.equal(2325);
+    expect(parsed.esv).to.equal(2928);
+    expect(parsed.isShiny).to.be.false();
   });
   it('allows assignReadableNames to be called on its own', () => {
     const parsedWithNames = pk6parse.parseFile(`${__dirname}/pkmn1.pk6`, {parseNames: true});
