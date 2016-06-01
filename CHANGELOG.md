@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.9.0 (2016-06-01)
+
+* Added `tsv`, `esv`, and `isShiny` keys which appear when using the `parseNames` option or `assignReadableNames`.
+
 ## v0.8.3 (2016-05-31)
 
 * Fixed an issue where Dream Balls were misidentified as Park Balls.
