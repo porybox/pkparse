@@ -274,7 +274,10 @@ exports.assignReadableNames = (data, language) => {
   data.growthRate = pkmnData.growth_rate.name;
   Object.assign(data, convertExperienceToLevelData(data.exp, data.growthRate));
   data.heldItemName = findName(exports.getItemData(data.heldItemId));
-  const correctedBallId = data.ballId < 17 ? data.ballId : data.ballId + 475;
+  /* For all the pokeballs obtainable in gen 6 (ball IDs 1-16), the ball ID is the same as the item ID for that ball.
+  For johto balls (apricorn/sport), the ball IDs are 17-24 and the corresponding item IDs are 492-499, in the same order.
+  For dream balls, the ball ID is 25 and the corresponding item ID is 576. */
+  const correctedBallId = data.ballId < 17 ? data.ballId : data.ballId === 25 ? 576 : data.ballId + 475;
   data.ballName = findName(exports.getItemData(correctedBallId));
   data.abilityName = findName(exports.getAbilityData(data.abilityId));
   data.natureName = findName(exports.getNatureData(data.natureId));
