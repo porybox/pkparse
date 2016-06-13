@@ -262,7 +262,15 @@ function convertExperienceToLevelData (exp, growthRate) {
 }
 
 function abbreviateStat (name) {
-  return {hp: 'Hp', attack: 'Atk', defense: 'Def', 'special-attack': 'SpAtk', 'special-defense': 'SpDef', speed: 'Spe'}[name];
+  return {
+    hp: 'Hp',
+    attack: 'Atk',
+    defense: 'Def',
+    'special-attack': 'SpAtk',
+    'special-defense': 'SpDef',
+    speed: 'Spe',
+    null: null
+  }[name];
 }
 
 exports.assignReadableNames = (data, language) => {
@@ -286,6 +294,8 @@ exports.assignReadableNames = (data, language) => {
   data.abilityName = findName(exports.getAbilityData(data.abilityId));
   const natureData = exports.getNatureData(data.natureId);
   data.natureName = findName(natureData);
+  const alternateForms = require('./data/alternate_forms');
+  data.formName = alternateForms[data.dexNo] && alternateForms[data.dexNo][data.formId];
   data.increasedStat = abbreviateStat(natureData.increased_stat.name);
   data.decreasedStat = abbreviateStat(natureData.decreased_stat.name);
   data.move1Name = findName(exports.getMoveData(data.move1Id));
