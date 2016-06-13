@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.9.2 (2016-06-12)
+
+* Added `formName` key
+
 ## v0.9.1 (2016-06-01)
 
 * Added `increasedStat` and `decreasedStat` keys
