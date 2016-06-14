@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.9.3 (2016-06-14)
+
+* Fixed a bug where pk6 files with neutral natures could cause TypeErrors
+
 ## v0.9.2 (2016-06-12)
 
 * Added `formName` key
