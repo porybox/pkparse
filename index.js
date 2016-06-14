@@ -296,8 +296,8 @@ exports.assignReadableNames = (data, language) => {
   data.natureName = findName(natureData);
   const alternateForms = require('./data/alternate_forms');
   data.formName = alternateForms[data.dexNo] && alternateForms[data.dexNo][data.formId];
-  data.increasedStat = abbreviateStat(natureData.increased_stat.name);
-  data.decreasedStat = abbreviateStat(natureData.decreased_stat.name);
+  data.increasedStat = abbreviateStat(natureData.increased_stat && natureData.increased_stat.name);
+  data.decreasedStat = abbreviateStat(natureData.decreased_stat && natureData.decreased_stat.name);
   data.move1Name = findName(exports.getMoveData(data.move1Id));
   data.move2Name = findName(exports.getMoveData(data.move2Id));
   data.move3Name = findName(exports.getMoveData(data.move3Id));

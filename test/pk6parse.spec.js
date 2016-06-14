@@ -54,6 +54,11 @@ describe('pk6parse', () => {
       _.forEach(expected_kyurem, (value, key) => expect(parsed[key]).to.equal(value));
       expect(parsed.formName).to.equal('White');
     });
+    it('does not crash when parsing something with a neutral nature', () => {
+      const dangerbug = pk6parse.parseFile(`${__dirname}/neutral-nature.pk6`, {parseNames: true});
+      expect(dangerbug.increasedStat).to.be.null();
+      expect(dangerbug.decreasedStat).to.be.null();
+    });
   });
   it('allows assignReadableNames to be called on its own', () => {
     const parsedWithNames = pk6parse.parseFile(`${__dirname}/pkmn1.pk6`, {parseNames: true});
