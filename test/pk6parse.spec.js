@@ -59,6 +59,21 @@ describe('pk6parse', () => {
       expect(dangerbug.increasedStat).to.be.null();
       expect(dangerbug.decreasedStat).to.be.null();
     });
+    it('uses the 5th-gen datatables for things from gen 5', () => {
+      const mienshao = pk6parse.parseFile(`${__dirname}/5th-gen-location.pk6`, {parseNames: true});
+      expect(mienshao.metLocationName).to.equal('Dragonspiral Tower');
+    });
+    it('uses "Poké transfer" for locations from before gen 5', () => {
+      const eevee = pk6parse.parseFile(`${__dirname}/eevee.pk6`, {parseNames: true});
+      expect(eevee.metLocationName).to.equal('Poké Transfer');
+      expect(eevee.metLocationId).to.equal(30001);
+      expect(eevee.eggLocationName).to.equal('Poké Transfer');
+
+      const kecleon = pk6parse.parseFile(`${__dirname}/kecleon.pk6`, {parseNames: true});
+      expect(kecleon.metLocationName).to.equal('Poké Transfer');
+      expect(kecleon.metLocationId).to.equal(30001);
+      expect(kecleon.eggLocationName).to.equal('Poké Transfer');
+    });
   });
   it('allows assignReadableNames to be called on its own', () => {
     const parsedWithNames = pk6parse.parseFile(`${__dirname}/pkmn1.pk6`, {parseNames: true});

@@ -308,8 +308,8 @@ exports.assignReadableNames = (data, language) => {
   data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
   data.medals = exports.getMedalData(data.medalData);
   data.ribbons = exports.getRibbonData(data.ribbonData);
-  data.eggLocationName = exports.getLocationData(data.eggLocationId);
-  data.metLocationName = exports.getLocationData(data.metLocationId);
+  data.eggLocationName = exports.getLocationData(data.eggLocationId, data.otGameId);
+  data.metLocationName = exports.getLocationData(data.metLocationId, data.otGameId);
   data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
   data.otGameName = exports.getGameData(data.otGameId);
   data.tsv = (data.tid ^ data.sid) >>> 4;
@@ -378,7 +378,15 @@ exports.getBallData = ballId => {
   return require('./data/ballNames')[ballId];
 };
 
-exports.getLocationData = locationId => require('./data/location_gen6.json')[locationId] || null;
+exports.getLocationData = (locationId, otGameId) => {
+  if (otGameId >= 24 && otGameId <= 29 || otGameId === undefined) {
+    return require('./data/location_gen6.json')[locationId] || null;
+  }
+  if (otGameId >= 20 && otGameId <= 23) {
+    return require('./data/location_gen5.json')[locationId] || null;
+  }
+  return 'Poké Transfer';
+};
 
 exports.getRibbonData = ribbonData => {
   return parseMap(ribbonData, require('./data/ribbons.json'));
