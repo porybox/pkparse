@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.9.4 (2016-06-16)
+
+* Fixed an issue where past-gen location IDs were parsed incorrectly
+
 ## v0.9.3 (2016-06-14)
 
 * Fixed a bug where pk6 files with neutral natures could cause TypeErrors
