@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.9.5 (2016-06-16)
+
+* Fixed an issue where ORAS items could not be parsed from their IDs
+
 ## v0.9.4 (2016-06-16)
 
 * Fixed an issue where past-gen location IDs were parsed incorrectly
