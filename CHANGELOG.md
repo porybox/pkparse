@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.0 (2016-06-18)
+
+* **[breaking]**: Split `geoLocation1`, `geoLocation2`, etc. into `geoLocation1RegionId`, `geoLocation1CountryId`, `geoLocation2RegionId`, `geoLocation2CountryId`
+
 ## v0.9.5 (2016-06-16)
 
 * Fixed an issue where ORAS items could not be parsed from their IDs
