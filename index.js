@@ -120,11 +120,16 @@ exports.parseBuffer = (buf, options) => {
 
   data.currentHandlerIsOt = !buf.readUInt8(0x93);
 
-  data.geoLocation1 = buf.readUInt16LE(0x94); // TODO: Figure out how to parse these
-  data.geoLocation2 = buf.readUInt16LE(0x96);
-  data.geoLocation3 = buf.readUInt16LE(0x98);
-  data.geoLocation4 = buf.readUInt16LE(0x9a);
-  data.geoLocation5 = buf.readUInt16LE(0x9c);
+  data.geoLocation1RegionId = buf.readUInt8(0x94);
+  data.geoLocation1CountryId = buf.readUInt8(0x95);
+  data.geoLocation2RegionId = buf.readUInt8(0x96);
+  data.geoLocation2CountryId = buf.readUInt8(0x97);
+  data.geoLocation3RegionId = buf.readUInt8(0x98);
+  data.geoLocation3CountryId = buf.readUInt8(0x99);
+  data.geoLocation4RegionId = buf.readUInt8(0x9a);
+  data.geoLocation4CountryId = buf.readUInt8(0x9b);
+  data.geoLocation5RegionId = buf.readUInt8(0x9c);
+  data.geoLocation5CountryId = buf.readUInt8(0x9d);
 
   data.notOtFriendship = buf.readUInt8(0xa2);
   data.notOtAffection = buf.readUInt8(0xa3);
@@ -372,10 +377,6 @@ exports.getNatureData = natureId => {
   } catch (e) {
     throw new TypeError(`Invalid nature ID: ${natureId}`);
   }
-};
-
-exports.getBallData = ballId => {
-  return require('./data/ballNames')[ballId];
 };
 
 exports.getLocationData = (locationId, otGameId) => {
