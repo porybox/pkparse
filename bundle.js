@@ -1,4 +1,206 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+'use strict';
+const formes = new Array(722);
+formes[0] = null;
+for (let i = 1; i < formes.length; i++) {
+  formes[i] = null;
+}
+
+formes[25] = [null, 'Rockstar', 'Belle', 'Pop', 'PhD', 'Libre', 'Cosplay'];
+
+formes[202] = [
+  'A',
+  'B',
+  'C',
+  'D',
+  'E',
+  'F',
+  'G',
+  'H',
+  'I',
+  'J',
+  'K',
+  'L',
+  'M',
+  'N',
+  'O',
+  'P',
+  'Q',
+  'R',
+  'S',
+  'T',
+  'U',
+  'V',
+  'W',
+  'X',
+  'Y',
+  'Z',
+  '!',
+  '?'
+];
+
+formes[351] = [null, 'Sunny', 'Rainy', 'Snowy'];
+
+[382, 383].forEach(i => {
+  formes[i] = [null, 'Primal'];
+});
+
+formes[386] = [null, 'Attack', 'Defense', 'Speed'];
+
+[412, 413].forEach(i => {
+  formes[i] = ['Plant', 'Sandy', 'Trash'];
+});
+
+formes[421] = ['Overcast', 'Sunshine'];
+
+[422, 423].forEach(i => {
+  formes[i] = ['West', 'East'];
+});
+
+formes[479] = [null, 'Heat', 'Wash', 'Frost', 'Fan', 'Mow'];
+
+formes[487] = ['Altered', 'Origin'];
+
+formes[492] = ['Land', 'Sky'];
+
+formes[493] = [
+  null,
+  'Fighting',
+  'Flying',
+  'Poison',
+  'Ground',
+  'Rock',
+  'Bug',
+  'Ghost',
+  'Steel',
+  'Fire',
+  'Water',
+  'Grass',
+  'Electric',
+  'Psychic',
+  'Ice',
+  'Dragon',
+  'Dark',
+  'Fairy'
+];
+
+formes[550] = ['Red', 'Blue'];
+
+formes[555] = [null, 'Zen'];
+
+[585, 586].forEach(i => {
+  formes[i] = ['Spring', 'Summer', 'Autumn', 'Winter'];
+});
+
+[641, 642, 645].forEach(i => {
+  formes[i] = ['Incarnate', 'Therian'];
+});
+
+[669, 671].forEach(i => {
+  formes[i] = ['Red', 'Yellow', 'Orange', 'Blue', 'White'];
+});
+
+formes[670] = ['Red', 'Yellow', 'Orange', 'Blue', 'White', 'Eternal'];
+
+formes[646] = [null, 'White', 'Black'];
+
+formes[647] = [null, 'Resolute'];
+
+formes[648] = ['Aria', 'Pirouette'];
+
+formes[649] = [null, 'Douse', 'Shock', 'Burn', 'Chill'];
+
+[664, 665, 666].forEach(i => {
+  formes[i] = [
+    'Icy Snow',
+    'Polar',
+    'Tundra',
+    'Continental',
+    'Garden',
+    'Elegant',
+    'Meadow',
+    'Modern',
+    'Marine',
+    'Archipelago',
+    'High-Plains',
+    'Sandstorm',
+    'River',
+    'Monsoon',
+    'Savannah',
+    'Sun',
+    'Ocean',
+    'Jungle',
+    'Fancy',
+    'Poké Ball'
+  ];
+});
+
+formes[676] = [null, 'Heart', 'Star', 'Diamond', 'Deputante', 'Matron', 'Dandy', 'La Reine', 'Kabuki', 'Pharaoh'];
+
+formes[681] = ['Shield', 'Blade'];
+
+[710, 711].forEach(i => {
+  formes[i] = ['Small', 'Average', 'Large', 'Super'];
+});
+
+formes[720] = ['Confined', 'Unbound'];
+
+[
+  3,
+  9,
+  15,
+  18,
+  65,
+  80,
+  94,
+  115,
+  127,
+  130,
+  142,
+  181,
+  208,
+  212,
+  214,
+  229,
+  248,
+  254,
+  257,
+  260,
+  282,
+  302,
+  303,
+  306,
+  308,
+  310,
+  319,
+  323,
+  334,
+  354,
+  359,
+  362,
+  373,
+  376,
+  380,
+  381,
+  384,
+  428,
+  445,
+  448,
+  460,
+  475,
+  531,
+  719
+].forEach(i => {
+  formes[i] = [null, 'Mega'];
+});
+
+[6, 150].forEach(i => {
+  formes[i] = [null, 'Mega X', 'Mega Y'];
+});
+
+module.exports = formes;
+
+},{}],2:[function(require,module,exports){
 module.exports=[
   null,
   "Sapphire",
@@ -30,289 +232,291 @@ module.exports=[
   "Omega Ruby"
 ]
 
-},{}],2:[function(require,module,exports){
-'use strict';
-// Reference: https://projectpokemon.org/wiki/Pokemon_X/Y_3DS_Structure
-function stripNullChars (str) {
-  return str.replace(/\0.*/, '');
+},{}],3:[function(require,module,exports){
+module.exports={
+  "0": null,
+  "1": "Mystery Zone",
+  "2": "Faraway place",
+  "3": "'s",
+  "4": "Nuvema Town",
+  "5": "Accumula Town",
+  "6": "Striaton City",
+  "7": "Nacrene City",
+  "8": "Castelia City",
+  "9": "Nimbasa City",
+  "10": "Driftveil City",
+  "11": "Mistralton City",
+  "12": "Icirrus City",
+  "13": "Opelucid City",
+  "14": "Route 1",
+  "15": "Route 2",
+  "16": "Route 3",
+  "17": "Route 4",
+  "18": "Route 5",
+  "19": "Route 6",
+  "20": "Route 7",
+  "21": "Route 8",
+  "22": "Route 9",
+  "23": "Route 10",
+  "24": "Route 11",
+  "25": "Route 12",
+  "26": "Route 13",
+  "27": "Route 14",
+  "28": "Route 15",
+  "29": "Route 16",
+  "30": "Route 17",
+  "31": "Route 18",
+  "32": "Dreamyard",
+  "33": "Pinwheel Forest",
+  "34": "Desert Resort",
+  "35": "Relic Castle",
+  "36": "Cold Storage",
+  "37": "Chargestone Cave",
+  "38": "Twist Mountain",
+  "39": "Dragonspiral Tower",
+  "40": "Victory Road",
+  "41": "Lacunosa Town",
+  "42": "Undella Town",
+  "43": "Anville Town",
+  "44": "Pokémon League",
+  "45": "N's Castle",
+  "46": "Royal Unova",
+  "47": "Gear Station",
+  "48": "Battle Subway",
+  "49": "Musical Theater",
+  "50": "Black City",
+  "51": "White Forest",
+  "52": "Unity Tower",
+  "53": "Wellspring Cave",
+  "54": "Mistralton Cave",
+  "55": "Rumination Field",
+  "56": "Celestial Tower",
+  "57": "Moor of Icirrus",
+  "58": "Shopping Mall",
+  "59": "Challenger's Cave",
+  "60": "Poké Transfer Lab",
+  "61": "Giant Chasm",
+  "62": "Liberty Garden",
+  "63": "P2 Laboratory",
+  "64": "Skyarrow Bridge",
+  "65": "Driftveil Drawbridge",
+  "66": "Tubeline Bridge",
+  "67": "Village Bridge",
+  "68": "Marvelous Bridge",
+  "69": "Entralink",
+  "70": "Abundant Shrine",
+  "71": "Undella Bay",
+  "72": "Lostlorn Forest",
+  "73": "Trial Chamber",
+  "74": "Guidance Chamber",
+  "75": "Entree Forest",
+  "76": "Nimbasa City (Entralink)",
+  "77": "Driftveil City (Entralink)",
+  "78": "Mistralton City (Entralink)",
+  "79": "Icirrus City (Entralink)",
+  "80": "Opelucid City (Entralink)",
+  "81": "Nuvema Town (Entralink)",
+  "82": "White Forest (Entralink)",
+  "83": "Black City (Entralink)",
+  "84": "Cold Storage (Entralink)",
+  "85": "Chargestone Cave (Entralink)",
+  "86": "Twist Mountain (Entralink)",
+  "87": "Dragonspiral Tower (Entralink)",
+  "88": "Giant Chasm (Entralink)",
+  "89": "Driftveil Drawbridge (Entralink)",
+  "90": "Tubeline Bridge (Entralink)",
+  "91": "Village Bridge (Entralink)",
+  "92": "Marvelous Bridge (Entralink)",
+  "93": "Route 5 (Entralink)",
+  "94": "Route 6 (Entralink)",
+  "95": "Route 7 (Entralink)",
+  "96": "Route 8 (Entralink)",
+  "97": "Route 9 (Entralink)",
+  "98": "Route 11 (Entralink)",
+  "99": "Route 12 (Entralink)",
+  "100": "Route 13 (Entralink)",
+  "101": "Route 14 (Entralink)",
+  "102": "Route 15 (Entralink)",
+  "103": "Route 16 (Entralink)",
+  "104": "Lacunosa Town (Entralink)",
+  "105": "Undella Town (Entralink)",
+  "106": "Accumula Gate",
+  "107": "Undella Gate",
+  "108": "Nacrene Gate",
+  "109": "Castelia Gate",
+  "110": "Nimbasa Gate",
+  "111": "Opelucid Gate",
+  "112": "Black Gate",
+  "113": "White Gate",
+  "114": "Bridge Gate",
+  "115": "Route Gate",
+  "116": "Abyssal Ruins",
+  "117": "Aspertia City",
+  "118": "Virbank City",
+  "119": "Humilau City",
+  "120": "Pokéstar Studios",
+  "121": "Join Avenue",
+  "122": "Floccesy Town",
+  "123": "Lentimas Town",
+  "124": "Route 19",
+  "125": "Route 20",
+  "126": "Route 21",
+  "127": "Route 22",
+  "128": "Route 23",
+  "129": "Castelia Sewers",
+  "130": "Floccesy Ranch",
+  "131": "Virbank Complex",
+  "132": "Reversal Mountain",
+  "133": "Strange House",
+  "134": "Victory Road",
+  "135": "Plasma Frigate",
+  "136": "Relic Passage",
+  "137": "Clay Tunnel",
+  "138": "----------",
+  "139": "White Treehollow",
+  "140": "Black Tower",
+  "141": "Seaside Cave",
+  "142": "Cave of Being",
+  "143": "Hidden Grotto",
+  "144": "Marine Tube",
+  "145": "Virbank Gate",
+  "146": "Aspertia Gate",
+  "147": "Nature Preserve",
+  "148": "Medal Office",
+  "149": "Underground Ruins",
+  "150": "Rock Peak Chamber",
+  "151": "Iceberg Chamber",
+  "152": "Iron Chamber",
+  "153": "Pledge Grove",
+  "30001": "Hoenn/Kanto/Sinnoh/Johto/Distant Land",
+  "30002": "Link Trade*",
+  "30003": "Link Trade*",
+  "30004": "Kanto",
+  "30005": "Johto",
+  "30006": "Hoenn",
+  "30007": "Sinnoh",
+  "30008": "Distant Land",
+  "30010": "a special place*",
+  "30011": "N/A",
+  "30012": "a special place*",
+  "30013": "N/A",
+  "30014": "Entralink",
+  "30015": "Pokémon Dream Radar",
+  "40001": "Lovely place",
+  "40002": "Faraway place",
+  "40003": "Pokémon Movie",
+  "40004": "Pokémon Movie 10",
+  "40005": "Pokémon Movie 11",
+  "40006": "Pokémon Movie 12",
+  "40007": "Pokémon Movie 13",
+  "40008": "Pokémon Movie 14",
+  "40009": "Pokémon Movie 15",
+  "40010": "Pokémon Movie 16",
+  "40011": "Pokémon Movie 17",
+  "40012": "Pokémon Movie 18",
+  "40013": "Pokémon Movie 19",
+  "40014": "Pokémon Movie 20",
+  "40015": "Pokémon Center",
+  "40016": "Pokémon Cartoon",
+  "40017": "PC Tokyo",
+  "40018": "PC Osaka",
+  "40019": "PC Fukuoka",
+  "40020": "PC Nagoya",
+  "40021": "PC Sapporo",
+  "40022": "PC Yokohama",
+  "40023": "WCS",
+  "40024": "WCS 2010",
+  "40025": "WCS 2011",
+  "40026": "WCS 2012",
+  "40027": "WCS 2013",
+  "40028": "WCS 2014",
+  "40029": "WCS 2015",
+  "40030": "WCS 2016",
+  "40031": "WCS 2017",
+  "40032": "WCS 2018",
+  "40033": "WCS 2019",
+  "40034": "WCS 2020",
+  "40035": "Worlds",
+  "40036": "Worlds 2010",
+  "40037": "Worlds 2011",
+  "40038": "Worlds 2012",
+  "40039": "Worlds 2013",
+  "40040": "Worlds 2014",
+  "40041": "Worlds 2015",
+  "40042": "Worlds 2016",
+  "40043": "Worlds 2017",
+  "40044": "Worlds 2018",
+  "40045": "Worlds 2019",
+  "40046": "Worlds 2020",
+  "40047": "VGE",
+  "40048": "VGE 2010",
+  "40049": "VGE 2011",
+  "40050": "VGE 2012",
+  "40051": "VGE 2013",
+  "40052": "VGE 2014",
+  "40053": "VGE 2015",
+  "40054": "VGE 2016",
+  "40055": "VGE 2017",
+  "40056": "VGE 2018",
+  "40057": "VGE 2019",
+  "40058": "VGE 2020",
+  "40059": "Pokémon Event",
+  "40060": "Battle Competition",
+  "40061": "Game Event",
+  "40062": "Pokémon Fan Club",
+  "40063": "Pokémon Sunday",
+  "40064": "Challenge Plaza",
+  "40065": "Battle Challenge",
+  "40066": "Trainers' Court",
+  "40067": "Battle Tour",
+  "40068": "Concert",
+  "40069": "Wi-Fi Gift",
+  "40070": "Pokémon Ranger",
+  "40071": "Ranger Union",
+  "40072": "PBR",
+  "40073": "Pokémon DW",
+  "40074": "Pokémon Event 10",
+  "40075": "Pokémon Event 11",
+  "40076": "Pokémon Event 12",
+  "40077": "Pokémon Event 13",
+  "40078": "Pokémon Event 14",
+  "40079": "Pokémon Event 15",
+  "40080": "Pokémon Event 16",
+  "40081": "Pokémon Event 17",
+  "40082": "Pokémon Event 18",
+  "40083": "Pokémon Event 19",
+  "40084": "Pokémon Event 20",
+  "40085": "Pokémon Festa",
+  "40086": "Pokémon Festa 10",
+  "40087": "Pokémon Festa 11",
+  "40088": "Pokémon Festa 12",
+  "40089": "Pokémon Festa 13",
+  "40090": "Pokémon Festa 14",
+  "40091": "Pokémon Festa 15",
+  "40092": "Pokémon Festa 16",
+  "40093": "Pokémon Festa 17",
+  "40094": "Pokémon Festa 18",
+  "40095": "Pokémon Festa 19",
+  "40096": "Pokémon Festa 20",
+  "40097": "POKÉPARK",
+  "40098": "POKÉPARK 10",
+  "40099": "POKÉPARK 11",
+  "40100": "POKÉPARK 12",
+  "40101": "POKÉPARK 13",
+  "40102": "POKÉPARK 14",
+  "40103": "POKÉPARK 15",
+  "40104": "POKÉPARK 16",
+  "40105": "POKÉPARK 17",
+  "40106": "POKÉPARK 18",
+  "40107": "POKÉPARK 19",
+  "40108": "POKÉPARK 20",
+  "40109": "Event Site",
+  "60001": "Stranger",
+  "60002": "Day-Care Couple",
+  "60003": "Treasure Hunter"
 }
 
-function parseMap (data, map) {
-  const parsedData = [];
-  for (let i = 0; i < map.length; i++, data = Math.floor(data / 2)) {
-    if (map[i] && data % 2) {
-      parsedData.push(map[i]);
-    }
-  }
-  return parsedData;
-}
-
-function checksumIsValid (buf) {
-  let sum = 0;
-  for (let i = 8; i < 232; i += 2) {
-    sum += buf.readUInt16LE(i);
-  }
-  return (sum & 0xffff) === buf.readUInt16LE(0x06);
-}
-
-function getDateFromInt (dateStorage) {
-  if (!dateStorage) {
-    return null;
-  }
-  return Date.UTC((dateStorage & 0xff) + 2000, (dateStorage >>> 8 & 0xff) - 1, (dateStorage >>> 16 & 0xff));
-}
-
-exports.parseBuffer = buf => {
-  if (buf.readUInt16LE(0x04) || !checksumIsValid(buf) || [232, 260].indexOf(buf.length) === -1 || buf.readUInt8(0x58) || buf.readUInt8(0x90) || buf.readUInt8(0xc8)) {
-    throw new TypeError('The provided buffer is not valid pk6 data');
-  }
-  const data = {};
-  data.encryptionConstant = buf.readUInt32LE(0x00);
-  data.dexNo = buf.readUInt16LE(0x08);
-  data.heldItemId = buf.readUInt16LE(0x0a);
-  data.tid = buf.readUInt16LE(0x0c);
-  data.sid = buf.readUInt16LE(0x0e);
-  data.exp = buf.readUInt32LE(0x10);
-  data.abilityId = buf.readUInt8(0x14);
-  data.abilityNum = buf.readUInt8(0x15);
-  data.superTrainingHitsRemaining = buf.readUInt8(0x16);
-  data.superTrainingBag = buf.readUInt8(0x17);
-  data.pid = buf.readUInt32LE(0x18);
-  data.natureId = buf.readUInt8(0x1c);
-
-  const genderByte = buf.readUInt8(0x1d);
-  data.isFatefulEncounter = !!(genderByte & 0x01);
-  const isFemale = genderByte & 0x02;
-  const isGenderless = genderByte & 0x04;
-  data.gender = isFemale ? 'F' : isGenderless ? '' : 'M';
-  data.formId = genderByte >>> 3;
-
-  data.evHp = buf.readUInt8(0x1e);
-  data.evAtk = buf.readUInt8(0x1f);
-  data.evDef = buf.readUInt8(0x20);
-  data.evSpe = buf.readUInt8(0x21);
-  data.evSpAtk = buf.readUInt8(0x22);
-  data.evSpDef = buf.readUInt8(0x23);
-
-  data.contestStatCool = buf.readUInt8(0x24);
-  data.contestStatBeauty = buf.readUInt8(0x25);
-  data.contestStatCute = buf.readUInt8(0x26);
-  data.contestStatSmart = buf.readUInt8(0x27);
-  data.contestStatTough = buf.readUInt8(0x28);
-  data.contestStatSheen = buf.readUInt8(0x29);
-
-  const markingByte = buf.readUInt8(0x2a);
-  data.hasCircleMarking = !!(markingByte & 0x01);
-  data.hasTriangleMarking = !!(markingByte & 0x02);
-  data.hasSquareMarking = !!(markingByte & 0x04);
-  data.hasHeartMarking = !!(markingByte & 0x08);
-  data.hasStarMarking = !!(markingByte & 0x10);
-  data.hasDiamondMarking = !!(markingByte & 0x20);
-
-  const pokerusByte = buf.readUInt8(0x2b);
-  data.pokerusDuration = pokerusByte & 16;
-  data.pokerusStrain = pokerusByte >>> 4;
-
-  data.medalData = buf.readUInt32LE(0x2c);
-  data.ribbonData = buf.readUIntLE(0x30, 6);
-  data.distributionSuperTrainingFlags = buf.readUInt8(0x3a); // Not sure what these are
-  data.nickname = stripNullChars(buf.toString('utf16le', 0x40, 0x58));
-
-  data.move1Id = buf.readUInt16LE(0x5a);
-  data.move2Id = buf.readUInt16LE(0x5c);
-  data.move3Id = buf.readUInt16LE(0x5e);
-  data.move4Id = buf.readUInt16LE(0x60);
-  data.move1Pp = buf.readUInt8(0x62);
-  data.move2Pp = buf.readUInt8(0x63);
-  data.move3Pp = buf.readUInt8(0x64);
-  data.move4Pp = buf.readUInt8(0x65);
-  data.move1Ppu = buf.readUInt8(0x66);
-  data.move2Ppu = buf.readUInt8(0x67);
-  data.move3Ppu = buf.readUInt8(0x68);
-  data.move4Ppu = buf.readUInt8(0x69);
-  data.eggMove1Id = buf.readUInt16LE(0x6a);
-  data.eggMove2Id = buf.readUInt16LE(0x6c);
-  data.eggMove3Id = buf.readUInt16LE(0x6e);
-  data.eggMove4Id = buf.readUInt16LE(0x70);
-
-  data.canDoSecretSuperTraining = !!(buf.readUInt8(0x72));
-
-  const ivBytes = buf.readUInt32LE(0x74);
-  data.ivHp = ivBytes & 0x1f;
-  data.ivAtk = ivBytes >>> 5 & 0x1f;
-  data.ivDef = ivBytes >>> 10 & 0x1f;
-  data.ivSpe = ivBytes >>> 15 & 0x1f;
-  data.ivSpAtk = ivBytes >>> 20 & 0x1f;
-  data.ivSpDef = ivBytes >>> 25 & 0x1f;
-  data.isEgg = (ivBytes >>> 30) % 2 !== 0;
-  data.isNicknamed = (ivBytes >>> 31) % 2 !== 0;
-
-  data.notOt = stripNullChars(buf.toString('utf16le', 0x78, 0x90));
-  data.notOtGender = buf.readUInt8(0x92) ? 'F' : 'M';
-
-  data.currentHandlerIsOt = !buf.readUInt8(0x93);
-
-  data.geoLocation1 = buf.readUInt16LE(0x94); // TODO: Figure out how to parse these
-  data.geoLocation2 = buf.readUInt16LE(0x96);
-  data.geoLocation3 = buf.readUInt16LE(0x98);
-  data.geoLocation4 = buf.readUInt16LE(0x9a);
-  data.geoLocation5 = buf.readUInt16LE(0x9c);
-
-  data.notOtFriendship = buf.readUInt8(0xa2);
-  data.notOtAffection = buf.readUInt8(0xa3);
-  data.notOtMemoryIntensity = buf.readUInt8(0xa4); // TODO: Parse
-  data.notOtMemoryLine = buf.readUInt8(0xa5);
-  data.notOtMemoryFeeling = buf.readUInt8(0xa6);
-  data.notOtMemoryTextVar = buf.readUInt16LE(0xa8);
-
-  data.fullness = buf.readUInt8(0xae);
-  data.enjoyment = buf.readUInt8(0xaf);
-
-  data.ot = stripNullChars(buf.toString('utf16le', 0xb0, 0xc8));
-  data.otFriendship = buf.readUInt8(0xca);
-  data.otAffection = buf.readUInt8(0xcb);
-  data.otMemoryIntensity = buf.readUInt8(0xcc); // TODO: Parse
-  data.otMemoryLine = buf.readUInt8(0xcd);
-  data.otMemoryTextVar = buf.readUInt16LE(0xce);
-  data.otMemoryFeeling = buf.readUInt8(0xd0);
-
-  data.eggDate = getDateFromInt(buf.readUIntLE(0xd1, 3));
-  data.metDate = getDateFromInt(buf.readUIntLE(0xd4, 3));
-
-  data.eggLocationId = buf.readUInt16LE(0xd8);
-  data.metLocationId = buf.readUInt16LE(0xda);
-  data.ballId = buf.readUInt8(0xdc);
-
-  const encounterLevelByte = buf.readUInt8(0xdd);
-  data.levelMet = encounterLevelByte & 0x7f;
-  data.otGender = encounterLevelByte >>> 7 ? 'F' : 'M';
-
-  data.encounterTypeId = buf.readUInt8(0xde);
-  data.otGameId = buf.readUInt8(0xdf);
-  data.countryId = buf.readUInt8(0xe0); // TODO: Parse
-  data.regionId = buf.readUInt8(0xe1); // TODO: Parse
-  data.consoleRegion = ['J', 'U', 'E', '?', 'C', 'K', 'T'][buf.readUInt8(0xe2)];
-  data.language = [null, 'JPN', 'ENG', 'FRE', 'ITA', 'GER', '???', 'SPA', 'KOR'][buf.readUInt8(0xe3)];
-  data._rawPk6 = buf.toString('base64');
-
-  return data;
-};
-
-const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
-exports.assignReadableNames = (data, language) => {
-  const findName = specificData => specificData && specificData.names.find(data => data.language === langMap[language]).name;
-  language = language || 'ENG';
-  if (!langMap.hasOwnProperty(language)) {
-    throw new TypeError(`Invalid language '${language}'`);
-  }
-  data.speciesName = findName(exports.getPokemonData(data.dexNo));
-  data.heldItemName = findName(exports.getItemData(data.heldItemId));
-  data.abilityName = findName(exports.getAbilityData(data.abilityId));
-  data.natureName = findName(exports.getNatureData(data.natureId));
-  data.move1Name = findName(exports.getMoveData(data.move1Id));
-  data.move2Name = findName(exports.getMoveData(data.move2Id));
-  data.move3Name = findName(exports.getMoveData(data.move3Id));
-  data.move4Name = findName(exports.getMoveData(data.move4Id));
-  data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
-  data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
-  data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
-  data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
-  data.medals = exports.getMedalData(data.medalData);
-  data.ribbons = exports.getRibbonData(data.ribbonData);
-  data.eggLocationName = exports.getLocationData(data.eggLocationId);
-  data.metLocationName = exports.getLocationData(data.metLocationId);
-  data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
-  data.otGameName = exports.getGameData(data.otGameId);
-  return data;
-};
-
-exports.parseFile = path => {
-  return exports.parseBuffer(require('fs').readFileSync(path));
-};
-
-exports.getPokemonData = dexNo => {
-  try {
-    return require(`./pokemon_data/${dexNo}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid dex number: ${dexNo}`);
-  }
-};
-
-exports.getItemData = itemId => {
-  if (itemId === 0) {
-    return null;
-  }
-  try {
-    return require(`./item_data_gen6/${itemId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid item ID: ${itemId}`);
-  }
-};
-
-exports.getMoveData = moveId => {
-  if (moveId === 0) {
-    return null;
-  }
-  try {
-    return require(`./move_data/${moveId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid move ID: ${moveId}`);
-  }
-};
-
-exports.getAbilityData = abilityId => {
-  if (abilityId === 0) {
-    return null;
-  }
-  try {
-    return require(`./ability_data/${abilityId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid ability ID: ${abilityId}`);
-  }
-};
-
-exports.getNatureData = natureId => {
-  if (natureId === 0) {
-    return null;
-  }
-  try {
-    return require(`./nature_data/${natureId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid nature ID: ${natureId}`);
-  }
-};
-
-exports.getLocationData = locationId => require('./location_data_gen6')[locationId] || null;
-
-exports.getRibbonData = ribbonData => {
-  return parseMap(ribbonData, require('./ribbonsByOrder'));
-};
-
-exports.getMedalData = medalData => {
-  return parseMap(medalData, require('./medalsByOrder'));
-};
-
-exports.getEncounterTypeData = encounterTypeId => {
-  return [
-    'Pal Park/Egg/Event',
-    null,
-    'Tall Grass',
-    null,
-    'Sinjoh Ruins Event',
-    'Cave/Hall of Origin',
-    null,
-    'Surfing/Fishing',
-    null,
-    'Building',
-    'Great Marsh/Safari Zone',
-    null,
-    'Starter/Gift/Fossil'
-  ][encounterTypeId];
-};
-
-exports.getGameData = gameId => require('./games.json')[gameId];
-
-},{"./games.json":1,"./location_data_gen6":3,"./medalsByOrder":4,"./ribbonsByOrder":11,"fs":7}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 module.exports={
   "0": null,
   "2": "Mystery Zone",
@@ -610,7 +814,7 @@ module.exports={
   "60004": "an old hot-springs visitor"
 }
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 module.exports=[
   null,
   null,
@@ -645,7 +849,477 @@ module.exports=[
   "The Battle for the Best: Version X/Y!"
 ]
 
-},{}],5:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
+module.exports=[
+  "Kalos Champ Ribbon",
+  "Champion Ribbon",
+  "Sinnoh Champ Ribbon",
+  "Best Friends Ribbon",
+  "Training Ribbon",
+  "Skillful Battler Ribbon",
+  "Expert Battler Ribbon",
+  "Effort Ribbon",
+  "Alert Ribbon",
+  "Shock Ribbon",
+  "Downcast Ribbon",
+  "Careless Ribbon",
+  "Relax Ribbon",
+  "Snooze Ribbon",
+  "Smile Ribbon",
+  "Gorgeous Ribbon",
+  "Royal Ribbon",
+  "Gorgeous Royal Ribbon",
+  "Artist Ribbon",
+  "Footprint Ribbon",
+  "Record Ribbon",
+  "Legend Ribbon",
+  "Country Ribbon",
+  "National Ribbon",
+  "Earth Ribbon",
+  "World Ribbon",
+  "Classic Ribbon",
+  "Premier Ribbon",
+  "Event Ribbon",
+  "Birthday Ribbon",
+  "Special Ribbon",
+  "Souvenir Ribbon",
+  "Wishing Ribbon",
+  "Battle Champion Ribbon",
+  "Regional Champion Ribbon",
+  "National Champion Ribbon",
+  "World Champion Ribbon",
+  null,
+  null,
+  "Hoenn Champion Ribbon",
+  "Contest Star Ribbon",
+  "Coolness Master Ribbon",
+  "Beauty Master Ribbon",
+  "Cuteness Master Ribbon",
+  "Cleverness Master Ribbon",
+  "Toughness Master Ribbon"
+]
+
+},{}],7:[function(require,module,exports){
+'use strict';
+// Reference: https://projectpokemon.org/wiki/Pokemon_X/Y_3DS_Structure
+function stripNullChars (str) {
+  return str.replace(/\0.*/, '');
+}
+
+function parseMap (data, map) {
+  const parsedData = [];
+  for (let i = 0; i < map.length; i++, data = Math.floor(data / 2)) {
+    if (map[i] && data % 2) {
+      parsedData.push(map[i]);
+    }
+  }
+  return parsedData;
+}
+
+function checksumIsValid (buf) {
+  let sum = 0;
+  for (let i = 8; i < 232; i += 2) {
+    sum += buf.readUInt16LE(i);
+  }
+  return (sum & 0xffff) === buf.readUInt16LE(0x06);
+}
+
+function getDateFromInt (dateStorage) {
+  return dateStorage ? Date.UTC((dateStorage & 0xff) + 2000, (dateStorage >>> 8 & 0xff) - 1, dateStorage >>> 16 & 0xff) : null;
+}
+
+exports.parseBuffer = (buf, options) => {
+  if (buf.readUInt16LE(0x04) || !checksumIsValid(buf) || [232, 260].indexOf(buf.length) === -1 || buf.readUInt8(0x58) ||
+      buf.readUInt8(0x90) || buf.readUInt8(0xc8)) {
+    throw new TypeError('The provided buffer is not valid pk6 data');
+  }
+  options = options || {};
+  options.parseNames = !!options.parseNames;
+
+  const data = {};
+  data.encryptionConstant = buf.readUInt32LE(0x00);
+  data.dexNo = buf.readUInt16LE(0x08);
+  data.heldItemId = buf.readUInt16LE(0x0a);
+  data.tid = buf.readUInt16LE(0x0c);
+  data.sid = buf.readUInt16LE(0x0e);
+  data.exp = buf.readUInt32LE(0x10);
+  data.abilityId = buf.readUInt8(0x14);
+  data.abilityNum = buf.readUInt8(0x15);
+  data.superTrainingHitsRemaining = buf.readUInt8(0x16);
+  data.superTrainingBag = buf.readUInt8(0x17);
+  data.pid = buf.readUInt32LE(0x18);
+  data.natureId = buf.readUInt8(0x1c);
+
+  const genderByte = buf.readUInt8(0x1d);
+  data.isFatefulEncounter = !!(genderByte & 0x01);
+  const isFemale = genderByte & 0x02;
+  const isGenderless = genderByte & 0x04;
+  data.gender = isFemale ? 'F' : isGenderless ? '' : 'M';
+  data.formId = genderByte >>> 3;
+
+  data.evHp = buf.readUInt8(0x1e);
+  data.evAtk = buf.readUInt8(0x1f);
+  data.evDef = buf.readUInt8(0x20);
+  data.evSpe = buf.readUInt8(0x21);
+  data.evSpAtk = buf.readUInt8(0x22);
+  data.evSpDef = buf.readUInt8(0x23);
+
+  data.contestStatCool = buf.readUInt8(0x24);
+  data.contestStatBeauty = buf.readUInt8(0x25);
+  data.contestStatCute = buf.readUInt8(0x26);
+  data.contestStatSmart = buf.readUInt8(0x27);
+  data.contestStatTough = buf.readUInt8(0x28);
+  data.contestStatSheen = buf.readUInt8(0x29);
+
+  const markingByte = buf.readUInt8(0x2a);
+  data.hasCircleMarking = !!(markingByte & 0x01);
+  data.hasTriangleMarking = !!(markingByte & 0x02);
+  data.hasSquareMarking = !!(markingByte & 0x04);
+  data.hasHeartMarking = !!(markingByte & 0x08);
+  data.hasStarMarking = !!(markingByte & 0x10);
+  data.hasDiamondMarking = !!(markingByte & 0x20);
+
+  const pokerusByte = buf.readUInt8(0x2b);
+  data.pokerusDuration = pokerusByte & 16;
+  data.pokerusStrain = pokerusByte >>> 4;
+
+  data.medalData = buf.readUInt32LE(0x2c);
+  data.ribbonData = buf.readUIntLE(0x30, 6);
+  data.distributionSuperTrainingFlags = buf.readUInt8(0x3a); // TODO: Figure out what these are
+  data.nickname = stripNullChars(buf.toString('utf16le', 0x40, 0x58));
+
+  data.move1Id = buf.readUInt16LE(0x5a);
+  data.move2Id = buf.readUInt16LE(0x5c);
+  data.move3Id = buf.readUInt16LE(0x5e);
+  data.move4Id = buf.readUInt16LE(0x60);
+  data.move1Pp = buf.readUInt8(0x62);
+  data.move2Pp = buf.readUInt8(0x63);
+  data.move3Pp = buf.readUInt8(0x64);
+  data.move4Pp = buf.readUInt8(0x65);
+  data.move1Ppu = buf.readUInt8(0x66);
+  data.move2Ppu = buf.readUInt8(0x67);
+  data.move3Ppu = buf.readUInt8(0x68);
+  data.move4Ppu = buf.readUInt8(0x69);
+  data.eggMove1Id = buf.readUInt16LE(0x6a);
+  data.eggMove2Id = buf.readUInt16LE(0x6c);
+  data.eggMove3Id = buf.readUInt16LE(0x6e);
+  data.eggMove4Id = buf.readUInt16LE(0x70);
+
+  data.canDoSecretSuperTraining = !!buf.readUInt8(0x72);
+
+  const ivBytes = buf.readUInt32LE(0x74);
+  data.ivHp = ivBytes & 0x1f;
+  data.ivAtk = ivBytes >>> 5 & 0x1f;
+  data.ivDef = ivBytes >>> 10 & 0x1f;
+  data.ivSpe = ivBytes >>> 15 & 0x1f;
+  data.ivSpAtk = ivBytes >>> 20 & 0x1f;
+  data.ivSpDef = ivBytes >>> 25 & 0x1f;
+  data.isEgg = (ivBytes >>> 30) % 2 !== 0;
+  data.isNicknamed = (ivBytes >>> 31) % 2 !== 0;
+
+  data.notOt = stripNullChars(buf.toString('utf16le', 0x78, 0x90));
+  data.notOtGender = buf.readUInt8(0x92) ? 'F' : 'M';
+
+  data.currentHandlerIsOt = !buf.readUInt8(0x93);
+
+  data.geoLocation1RegionId = buf.readUInt8(0x94);
+  data.geoLocation1CountryId = buf.readUInt8(0x95);
+  data.geoLocation2RegionId = buf.readUInt8(0x96);
+  data.geoLocation2CountryId = buf.readUInt8(0x97);
+  data.geoLocation3RegionId = buf.readUInt8(0x98);
+  data.geoLocation3CountryId = buf.readUInt8(0x99);
+  data.geoLocation4RegionId = buf.readUInt8(0x9a);
+  data.geoLocation4CountryId = buf.readUInt8(0x9b);
+  data.geoLocation5RegionId = buf.readUInt8(0x9c);
+  data.geoLocation5CountryId = buf.readUInt8(0x9d);
+
+  data.notOtFriendship = buf.readUInt8(0xa2);
+  data.notOtAffection = buf.readUInt8(0xa3);
+  data.notOtMemoryIntensity = buf.readUInt8(0xa4); // TODO: Parse
+  data.notOtMemoryLine = buf.readUInt8(0xa5);
+  data.notOtMemoryFeeling = buf.readUInt8(0xa6);
+  data.notOtMemoryTextVar = buf.readUInt16LE(0xa8);
+
+  data.fullness = buf.readUInt8(0xae);
+  data.enjoyment = buf.readUInt8(0xaf);
+
+  data.ot = stripNullChars(buf.toString('utf16le', 0xb0, 0xc8));
+  data.otFriendship = buf.readUInt8(0xca);
+  data.otAffection = buf.readUInt8(0xcb);
+  data.otMemoryIntensity = buf.readUInt8(0xcc); // TODO: Parse
+  data.otMemoryLine = buf.readUInt8(0xcd);
+  data.otMemoryTextVar = buf.readUInt16LE(0xce);
+  data.otMemoryFeeling = buf.readUInt8(0xd0);
+
+  data.eggDate = getDateFromInt(buf.readUIntLE(0xd1, 3));
+  data.metDate = getDateFromInt(buf.readUIntLE(0xd4, 3));
+
+  data.eggLocationId = buf.readUInt16LE(0xd8);
+  data.metLocationId = buf.readUInt16LE(0xda);
+  data.ballId = buf.readUInt8(0xdc);
+
+  const encounterLevelByte = buf.readUInt8(0xdd);
+  data.levelMet = encounterLevelByte & 0x7f;
+  data.otGender = encounterLevelByte >>> 7 ? 'F' : 'M';
+
+  data.encounterTypeId = buf.readUInt8(0xde);
+  data.otGameId = buf.readUInt8(0xdf);
+  data.countryId = buf.readUInt8(0xe0); // TODO: Parse
+  data.regionId = buf.readUInt8(0xe1); // TODO: Parse
+  data.consoleRegion = ['J', 'U', 'E', '?', 'C', 'K', 'T'][buf.readUInt8(0xe2)];
+  data.language = [null, 'JPN', 'ENG', 'FRE', 'ITA', 'GER', '???', 'SPA', 'KOR'][buf.readUInt8(0xe3)];
+  data._rawPk6 = buf.toString('base64');
+
+  if (options.parseNames) {
+    exports.assignReadableNames(data, options.language);
+  }
+
+  return data;
+};
+
+const levelToExperienceCache = {
+  'slow-then-very-fast': {},
+  fast: {},
+  medium: {},
+  'medium-slow': {},
+  slow: {},
+  'fast-then-very-slow': {}
+};
+
+function _baseLevelToExperience (level, growthRate) {
+  // Reference: http://bulbapedia.bulbagarden.net/wiki/Experience
+  if (growthRate === 'slow-then-very-fast') {
+    if (level < 50) {
+      return Math.pow(level, 3) * (100 - level) / 50;
+    }
+    if (level < 68) {
+      return Math.pow(level, 3) * (150 - level) / 100;
+    }
+    if (level < 98) {
+      return Math.pow(level, 3) * Math.floor((1911 - 10 * level) / 3) / 500;
+    }
+    return Math.pow(level, 3) * (160 - level) / 100;
+  }
+  if (growthRate === 'fast') {
+    return 4 / 5 * Math.pow(level, 3);
+  }
+  if (growthRate === 'medium') {
+    return Math.pow(level, 3);
+  }
+  if (growthRate === 'medium-slow') {
+    return 6 / 5 * Math.pow(level, 3) - 15 * Math.pow(level, 2) + 100 * level - 140;
+  }
+  if (growthRate === 'slow') {
+    return 5 / 4 * Math.pow(level, 3);
+  }
+  if (growthRate === 'fast-then-very-slow') {
+    if (level < 15) {
+      return Math.pow(level, 3) * (Math.floor((level + 1) / 3) + 24) / 50;
+    }
+    if (level < 36) {
+      return Math.pow(level, 3) * (level + 14) / 50;
+    }
+    return Math.pow(level, 3) * (Math.floor(level / 2) + 32) / 50;
+  }
+  return NaN;
+}
+function convertLevelToExperience (level, growthRate) {
+  // Reference: http://bulbapedia.bulbagarden.net/wiki/Experience
+  if (!levelToExperienceCache[growthRate]) {
+    throw new TypeError(`Unrecognized growth rate '${growthRate}'`);
+  }
+  if (levelToExperienceCache[growthRate][level] === undefined) {
+    levelToExperienceCache[growthRate][level] = Math.floor(_baseLevelToExperience(level, growthRate));
+  }
+  return levelToExperienceCache[growthRate][level];
+}
+
+const experienceToLevelCache = {
+  'slow-then-very-fast': {},
+  fast: {},
+  medium: {},
+  'medium-slow': {},
+  slow: {},
+  'fast-then-very-slow': {}
+};
+
+function _baseConvertExperienceToLevelData (exp, growthRate) {
+  let i = 1;
+  let currentLevelExperience = 0;
+  let previousLevelExperience = 0;
+  /* Checks all of the levels from 1-100 to find the correct one.
+  In theory this could also be done by (a) solving cubic equations to find the level analytically, or (b) using binary search.
+  However, given that there are always exactly 100 possible options, any performance improvement from using those would
+  be minimal anyway. */
+  while (currentLevelExperience <= exp && i <= 100) {
+    previousLevelExperience = currentLevelExperience;
+    currentLevelExperience = convertLevelToExperience(++i, growthRate);
+  }
+  return {level: i - 1, expFromPreviousLevel: exp - previousLevelExperience, expToNextLevel: currentLevelExperience - exp};
+}
+
+function convertExperienceToLevelData (exp, growthRate) {
+  if (!experienceToLevelCache[growthRate]) {
+    throw new TypeError(`Unrecognized growth rate '${growthRate}'`);
+  }
+  if (experienceToLevelCache[growthRate][exp] === undefined) {
+    experienceToLevelCache[growthRate][exp] = _baseConvertExperienceToLevelData(exp, growthRate);
+  }
+  return experienceToLevelCache[growthRate][exp];
+}
+
+function abbreviateStat (name) {
+  return {
+    hp: 'Hp',
+    attack: 'Atk',
+    defense: 'Def',
+    'special-attack': 'SpAtk',
+    'special-defense': 'SpDef',
+    speed: 'Spe',
+    null: null
+  }[name];
+}
+
+exports.assignReadableNames = (data, language) => {
+  const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
+  language = language || 'ENG';
+  const shortLang = langMap[language];
+  if (!shortLang) {
+    throw new TypeError(`Invalid language '${language}'`);
+  }
+  const findName = specificData => specificData && specificData.names.find(d => d.language === shortLang).name;
+  const pkmnData = exports.getPokemonData(data.dexNo);
+  data.speciesName = findName(pkmnData);
+  data.growthRate = pkmnData.growth_rate.name;
+  Object.assign(data, convertExperienceToLevelData(data.exp, data.growthRate));
+  data.heldItemName = findName(exports.getItemData(data.heldItemId));
+  /* For all the pokeballs obtainable in gen 6 (ball IDs 1-16), the ball ID is the same as the item ID for that ball.
+  For johto balls (apricorn/sport), the ball IDs are 17-24 and the corresponding item IDs are 492-499, in the same order.
+  For dream balls, the ball ID is 25 and the corresponding item ID is 576. */
+  const correctedBallId = data.ballId < 17 ? data.ballId : data.ballId === 25 ? 576 : data.ballId + 475;
+  data.ballName = findName(exports.getItemData(correctedBallId));
+  data.abilityName = findName(exports.getAbilityData(data.abilityId));
+  const natureData = exports.getNatureData(data.natureId);
+  data.natureName = findName(natureData);
+  const alternateForms = require('./data/alternate_forms');
+  data.formName = alternateForms[data.dexNo] && alternateForms[data.dexNo][data.formId];
+  data.increasedStat = abbreviateStat(natureData.increased_stat && natureData.increased_stat.name);
+  data.decreasedStat = abbreviateStat(natureData.decreased_stat && natureData.decreased_stat.name);
+  data.move1Name = findName(exports.getMoveData(data.move1Id));
+  data.move2Name = findName(exports.getMoveData(data.move2Id));
+  data.move3Name = findName(exports.getMoveData(data.move3Id));
+  data.move4Name = findName(exports.getMoveData(data.move4Id));
+  data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
+  data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
+  data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
+  data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
+  data.medals = exports.getMedalData(data.medalData);
+  data.ribbons = exports.getRibbonData(data.ribbonData);
+  data.eggLocationName = exports.getLocationData(data.eggLocationId, data.otGameId);
+  data.metLocationName = exports.getLocationData(data.metLocationId, data.otGameId);
+  data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
+  data.otGameName = exports.getGameData(data.otGameId);
+  data.tsv = (data.tid ^ data.sid) >>> 4;
+  data.esv = (data.pid & 0xffff ^ data.pid >>> 16) >>> 4;
+  data.isShiny = data.tsv === data.esv;
+  return data;
+};
+
+exports.parseFile = (path, options) => {
+  return exports.parseBuffer(require('fs').readFileSync(path), options);
+};
+
+exports.getPokemonData = dexNo => {
+  try {
+    return require(`./data/pokemon/${dexNo}.json`);
+  } catch (e) {
+    throw new TypeError(`Invalid dex number: ${dexNo}`);
+  }
+};
+
+exports.getItemData = itemId => {
+  if (itemId === 0) {
+    return null;
+  }
+  try {
+    return require(`./data/item_gen6/${itemId}.json`);
+  } catch (e) {
+    throw new TypeError(`Invalid item ID: ${itemId}`);
+  }
+};
+
+exports.getMoveData = moveId => {
+  if (moveId === 0) {
+    return null;
+  }
+  try {
+    return require(`./data/move/${moveId}.json`);
+  } catch (e) {
+    throw new TypeError(`Invalid move ID: ${moveId}`);
+  }
+};
+
+exports.getAbilityData = abilityId => {
+  if (abilityId === 0) {
+    return null;
+  }
+  try {
+    return require(`./data/ability/${abilityId}.json`);
+  } catch (e) {
+    throw new TypeError(`Invalid ability ID: ${abilityId}`);
+  }
+};
+
+exports.getNatureData = natureId => {
+  if (natureId === 0) {
+    return null;
+  }
+  try {
+    return require(`./data/nature/${natureId}.json`);
+  } catch (e) {
+    throw new TypeError(`Invalid nature ID: ${natureId}`);
+  }
+};
+
+exports.getLocationData = (locationId, otGameId) => {
+  if (otGameId >= 24 && otGameId <= 29 || otGameId === undefined) {
+    return require('./data/location_gen6.json')[locationId] || null;
+  }
+  if (otGameId >= 20 && otGameId <= 23) {
+    return require('./data/location_gen5.json')[locationId] || null;
+  }
+  return 'Poké Transfer';
+};
+
+exports.getRibbonData = ribbonData => {
+  return parseMap(ribbonData, require('./data/ribbons.json'));
+};
+
+exports.getMedalData = medalData => {
+  return parseMap(medalData, require('./data/medals.json'));
+};
+
+exports.getEncounterTypeData = encounterTypeId => {
+  return [
+    'Pal Park/Egg/Event',
+    null,
+    'Tall Grass',
+    null,
+    'Sinjoh Ruins Event',
+    'Cave/Hall of Origin',
+    null,
+    'Surfing/Fishing',
+    null,
+    'Building',
+    'Great Marsh/Safari Zone',
+    null,
+    'Starter/Gift/Fossil'
+  ][encounterTypeId];
+};
+
+exports.getGameData = gameId => require('./data/games.json')[gameId];
+
+},{"./data/alternate_forms":1,"./data/games.json":2,"./data/location_gen5.json":3,"./data/location_gen6.json":4,"./data/medals.json":5,"./data/ribbons.json":6,"fs":10}],8:[function(require,module,exports){
 ;(function (exports) {
   'use strict'
 
@@ -778,7 +1452,7 @@ module.exports=[
   exports.fromByteArray = uint8ToBase64
 }(typeof exports === 'undefined' ? (this.base64js = {}) : exports))
 
-},{}],6:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 (function (Buffer){
 /* global Blob, FileReader */
 
@@ -803,9 +1477,9 @@ module.exports = function blobToBuffer (blob, cb) {
 }
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":8}],7:[function(require,module,exports){
+},{"buffer":11}],10:[function(require,module,exports){
 
-},{}],8:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 (function (global){
 /*!
  * The buffer module from node.js, for the browser.
@@ -2263,14 +2937,14 @@ function blitBuffer (src, dst, offset, length) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"base64-js":5,"ieee754":10,"isarray":9}],9:[function(require,module,exports){
+},{"base64-js":8,"ieee754":13,"isarray":12}],12:[function(require,module,exports){
 var toString = {}.toString;
 
 module.exports = Array.isArray || function (arr) {
   return toString.call(arr) == '[object Array]';
 };
 
-},{}],10:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
   var e, m
   var eLen = nBytes * 8 - mLen - 1
@@ -2356,57 +3030,8 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128
 }
 
-},{}],11:[function(require,module,exports){
-module.exports=[
-  "Kalos Champ Ribbon",
-  "Champion Ribbon",
-  "Sinnoh Champ Ribbon",
-  "Best Friends Ribbon",
-  "Training Ribbon",
-  "Skillful Battler Ribbon",
-  "Expert Battler Ribbon",
-  "Effort Ribbon",
-  "Alert Ribbon",
-  "Shock Ribbon",
-  "Downcast Ribbon",
-  "Careless Ribbon",
-  "Relax Ribbon",
-  "Snooze Ribbon",
-  "Smile Ribbon",
-  "Gorgeous Ribbon",
-  "Royal Ribbon",
-  "Gorgeous Royal Ribbon",
-  "Artist Ribbon",
-  "Footprint Ribbon",
-  "Record Ribbon",
-  "Legend Ribbon",
-  "Country Ribbon",
-  "National Ribbon",
-  "Earth Ribbon",
-  "World Ribbon",
-  "Classic Ribbon",
-  "Premier Ribbon",
-  "Event Ribbon",
-  "Birthday Ribbon",
-  "Special Ribbon",
-  "Souvenir Ribbon",
-  "Wishing Ribbon",
-  "Battle Champion Ribbon",
-  "Regional Champion Ribbon",
-  "National Champion Ribbon",
-  "World Champion Ribbon",
-  null,
-  null,
-  "Hoenn Champion Ribbon",
-  "Contest Star Ribbon",
-  "Coolness Master Ribbon",
-  "Beauty Master Ribbon",
-  "Cuteness Master Ribbon",
-  "Cleverness Master Ribbon",
-  "Toughness Master Ribbon"
-]
-
-},{}],12:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
+/* eslint-env browser */
 'use strict';
 function setOutput (obj) {
   document.getElementById('output').innerHTML = obj instanceof Error ? obj : JSON.stringify(obj, null, 4);
@@ -2421,4 +3046,4 @@ window.parseFile = fileList => {
   });
 };
 
-},{".":2,"blob-to-buffer":6}]},{},[12]);
+},{".":7,"blob-to-buffer":9}]},{},[14]);
