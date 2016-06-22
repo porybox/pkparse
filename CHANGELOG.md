@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.10.1 (2016-06-22)
+
+* Added `types` key (array of strings indicating elemental types)
+* Added `baseStatHp`, `baseStatAtk`, `baseStatDef`, `baseStatSpAtk`, `baseStatSpDef`, `baseStatSpe` keys
+* Added `statHp`, `statAtk`, `statDef`, `statSpAtk`, `statSpDef`, `statSpe` keys
+* Added `move1Type`, `move2Type`, `move3Type`, `move4Type` keys
+* Fixed an issue where Pokérus duration was parsed incorrectly
+
 ## v0.10.0 (2016-06-18)
 
 * **[breaking]**: Split `geoLocation1`, `geoLocation2`, etc. into `geoLocation1RegionId`, `geoLocation1CountryId`, `geoLocation2RegionId`, `geoLocation2CountryId`
