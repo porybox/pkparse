@@ -95,12 +95,6 @@ formes[555] = [null, 'Zen'];
   formes[i] = ['Incarnate', 'Therian'];
 });
 
-[669, 671].forEach(i => {
-  formes[i] = ['Red', 'Yellow', 'Orange', 'Blue', 'White'];
-});
-
-formes[670] = ['Red', 'Yellow', 'Orange', 'Blue', 'White', 'Eternal'];
-
 formes[646] = [null, 'White', 'Black'];
 
 formes[647] = [null, 'Resolute'];
@@ -133,6 +127,12 @@ formes[649] = [null, 'Douse', 'Shock', 'Burn', 'Chill'];
     'Poké Ball'
   ];
 });
+
+[669, 671].forEach(i => {
+  formes[i] = ['Red', 'Yellow', 'Orange', 'Blue', 'White'];
+});
+
+formes[670] = ['Red', 'Yellow', 'Orange', 'Blue', 'White', 'Eternal'];
 
 formes[676] = [null, 'Heart', 'Star', 'Diamond', 'Deputante', 'Matron', 'Dandy', 'La Reine', 'Kabuki', 'Pharaoh'];
 
