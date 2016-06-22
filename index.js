@@ -303,10 +303,23 @@ exports.assignReadableNames = (data, language) => {
   data.formName = alternateForms[data.dexNo] && alternateForms[data.dexNo][data.formId];
   data.increasedStat = abbreviateStat(natureData.increased_stat && natureData.increased_stat.name);
   data.decreasedStat = abbreviateStat(natureData.decreased_stat && natureData.decreased_stat.name);
-  data.move1Name = findName(exports.getMoveData(data.move1Id));
-  data.move2Name = findName(exports.getMoveData(data.move2Id));
-  data.move3Name = findName(exports.getMoveData(data.move3Id));
-  data.move4Name = findName(exports.getMoveData(data.move4Id));
+
+  const move1Data = exports.getMoveData(data.move1Id);
+  data.move1Name = move1Data && findName(move1Data);
+  data.move1Type = move1Data && move1Data.type.name;
+
+  const move2Data = exports.getMoveData(data.move2Id);
+  data.move2Name = move2Data && findName(move2Data);
+  data.move2Type = move2Data && move2Data.type.name;
+
+  const move3Data = exports.getMoveData(data.move3Id);
+  data.move3Name = move3Data && findName(move3Data);
+  data.move3Type = move3Data && move3Data.type.name;
+
+  const move4Data = exports.getMoveData(data.move4Id);
+  data.move4Name = move4Data && findName(move4Data);
+  data.move4Type = move4Data && move4Data.type.name;
+
   data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
   data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
   data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
