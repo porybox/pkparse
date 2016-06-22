@@ -78,7 +78,7 @@ exports.parseBuffer = (buf, options) => {
   data.hasDiamondMarking = !!(markingByte & 0x20);
 
   const pokerusByte = buf.readUInt8(0x2b);
-  data.pokerusDuration = pokerusByte & 16;
+  data.pokerusDuration = pokerusByte & 15;
   data.pokerusStrain = pokerusByte >>> 4;
 
   data.medalData = buf.readUInt32LE(0x2c);
