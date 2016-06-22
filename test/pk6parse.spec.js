@@ -52,6 +52,19 @@ describe('pk6parse', () => {
       expect(parsed.tsv).to.equal(2325);
       expect(parsed.esv).to.equal(2928);
       expect(parsed.isShiny).to.be.false();
+      expect(parsed.types).to.eql(['water', 'flying']);
+      expect(parsed.baseStatHp).to.equal(60);
+      expect(parsed.baseStatAtk).to.equal(50);
+      expect(parsed.baseStatDef).to.equal(100);
+      expect(parsed.baseStatSpAtk).to.equal(85);
+      expect(parsed.baseStatSpDef).to.equal(70);
+      expect(parsed.baseStatSpe).to.equal(65);
+      expect(parsed.statHp).to.equal(70);
+      expect(parsed.statAtk).to.equal(32);
+      expect(parsed.statDef).to.equal(60);
+      expect(parsed.statSpAtk).to.equal(52);
+      expect(parsed.statSpDef).to.equal(46);
+      expect(parsed.statSpe).to.equal(40);
     });
     it('parses form data correctly', () => {
       const parsed = pk6parse.parseFile(`${__dirname}/kyurem-w.pk6`, {parseNames: true});

@@ -163,5 +163,17 @@
       }
     }
   ],
-  "first_evolution_id": 246
+  "first_evolution_id": 246,
+  "types": [
+    "rock",
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 134,
+    "defense": 110,
+    "special-attack": 95,
+    "special-defense": 100,
+    "speed": 61
+  }
 }

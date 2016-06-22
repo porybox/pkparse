@@ -125,5 +125,17 @@
       }
     }
   ],
-  "first_evolution_id": 622
+  "first_evolution_id": 622,
+  "types": [
+    "ground",
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 59,
+    "attack": 74,
+    "defense": 50,
+    "special-attack": 35,
+    "special-defense": 50,
+    "speed": 35
+  }
 }

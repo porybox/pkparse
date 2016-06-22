@@ -146,5 +146,17 @@
       }
     }
   ],
-  "first_evolution_id": 357
+  "first_evolution_id": 357,
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 99,
+    "attack": 68,
+    "defense": 83,
+    "special-attack": 72,
+    "special-defense": 87,
+    "speed": 51
+  }
 }

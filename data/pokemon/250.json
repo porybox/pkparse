@@ -137,5 +137,17 @@
       }
     }
   ],
-  "first_evolution_id": 250
+  "first_evolution_id": 250,
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 106,
+    "attack": 130,
+    "defense": 90,
+    "special-attack": 110,
+    "special-defense": 154,
+    "speed": 90
+  }
 }

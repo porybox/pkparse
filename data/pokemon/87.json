@@ -154,5 +154,17 @@
       }
     }
   ],
-  "first_evolution_id": 86
+  "first_evolution_id": 86,
+  "types": [
+    "water",
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "special-attack": 70,
+    "special-defense": 95,
+    "speed": 70
+  }
 }

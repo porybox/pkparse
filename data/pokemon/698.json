@@ -113,5 +113,17 @@
       }
     }
   ],
-  "first_evolution_id": 698
+  "first_evolution_id": 698,
+  "types": [
+    "rock",
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 77,
+    "attack": 59,
+    "defense": 50,
+    "special-attack": 67,
+    "special-defense": 63,
+    "speed": 46
+  }
 }

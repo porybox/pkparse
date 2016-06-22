@@ -130,5 +130,17 @@
       }
     }
   ],
-  "first_evolution_id": 648
+  "first_evolution_id": 648,
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 77,
+    "defense": 77,
+    "special-attack": 128,
+    "special-defense": 128,
+    "speed": 90
+  }
 }

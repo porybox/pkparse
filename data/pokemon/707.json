@@ -113,5 +113,17 @@
       }
     }
   ],
-  "first_evolution_id": 707
+  "first_evolution_id": 707,
+  "types": [
+    "steel",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 57,
+    "attack": 80,
+    "defense": 91,
+    "special-attack": 80,
+    "special-defense": 87,
+    "speed": 75
+  }
 }

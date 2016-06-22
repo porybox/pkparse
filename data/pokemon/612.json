@@ -136,5 +136,16 @@
       }
     }
   ],
-  "first_evolution_id": 610
+  "first_evolution_id": 610,
+  "types": [
+    "dragon"
+  ],
+  "base_stats": {
+    "hp": 76,
+    "attack": 147,
+    "defense": 90,
+    "special-attack": 60,
+    "special-defense": 70,
+    "speed": 97
+  }
 }

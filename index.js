@@ -278,6 +278,28 @@ function abbreviateStat (name) {
   }[name];
 }
 
+function calculateStat (baseStat, level, iv, ev, natureMultiplier, isHp) {
+  if (isHp && baseStat === 1) {
+    // shedinja hp
+    return 1;
+  }
+  if (isHp) {
+    return Math.floor((2 * baseStat + iv + Math.floor(ev / 4)) * level / 100) + level + 10;
+  }
+  return Math.floor((Math.floor((2 * baseStat + iv + Math.floor(ev / 4)) * level / 100) + 5) * natureMultiplier);
+}
+
+function assignCalculatedStat (data, statName) {
+  data[`stat${statName}`] = calculateStat(
+    data[`baseStat${statName}`],
+    data.level,
+    data[`iv${statName}`],
+    data[`ev${statName}`],
+    data.increasedStat === statName ? 1.1 : data.decreasedStat === statName ? 0.9 : 1,
+    statName === 'Hp'
+  );
+}
+
 exports.assignReadableNames = (data, language) => {
   const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
   language = language || 'ENG';
@@ -286,10 +308,29 @@ exports.assignReadableNames = (data, language) => {
     throw new TypeError(`Invalid language '${language}'`);
   }
   const findName = specificData => specificData && specificData.names.find(d => d.language === shortLang).name;
+
   const pkmnData = exports.getPokemonData(data.dexNo);
   data.speciesName = findName(pkmnData);
   data.growthRate = pkmnData.growth_rate.name;
   Object.assign(data, convertExperienceToLevelData(data.exp, data.growthRate));
+
+  const natureData = exports.getNatureData(data.natureId);
+  data.natureName = findName(natureData);
+  const alternateForms = require('./data/alternate_forms');
+  data.formName = alternateForms[data.dexNo] && alternateForms[data.dexNo][data.formId];
+  data.increasedStat = abbreviateStat(natureData.increased_stat && natureData.increased_stat.name);
+  data.decreasedStat = abbreviateStat(natureData.decreased_stat && natureData.decreased_stat.name);
+  data.types = pkmnData.types;
+
+  data.baseStatHp = pkmnData.base_stats.hp;
+  data.baseStatAtk = pkmnData.base_stats.attack;
+  data.baseStatDef = pkmnData.base_stats.defense;
+  data.baseStatSpAtk = pkmnData.base_stats['special-attack'];
+  data.baseStatSpDef = pkmnData.base_stats['special-defense'];
+  data.baseStatSpe = pkmnData.base_stats.speed;
+
+  ['Hp', 'Atk', 'Def', 'SpAtk', 'SpDef', 'Spe'].forEach(statName => assignCalculatedStat(data, statName));
+
   data.heldItemName = findName(exports.getItemData(data.heldItemId));
   /* For all the pokeballs obtainable in gen 6 (ball IDs 1-16), the ball ID is the same as the item ID for that ball.
   For johto balls (apricorn/sport), the ball IDs are 17-24 and the corresponding item IDs are 492-499, in the same order.
@@ -297,12 +338,6 @@ exports.assignReadableNames = (data, language) => {
   const correctedBallId = data.ballId < 17 ? data.ballId : data.ballId === 25 ? 576 : data.ballId + 475;
   data.ballName = findName(exports.getItemData(correctedBallId));
   data.abilityName = findName(exports.getAbilityData(data.abilityId));
-  const natureData = exports.getNatureData(data.natureId);
-  data.natureName = findName(natureData);
-  const alternateForms = require('./data/alternate_forms');
-  data.formName = alternateForms[data.dexNo] && alternateForms[data.dexNo][data.formId];
-  data.increasedStat = abbreviateStat(natureData.increased_stat && natureData.increased_stat.name);
-  data.decreasedStat = abbreviateStat(natureData.decreased_stat && natureData.decreased_stat.name);
 
   const move1Data = exports.getMoveData(data.move1Id);
   data.move1Name = move1Data && findName(move1Data);

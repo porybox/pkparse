@@ -169,5 +169,17 @@
       }
     }
   ],
-  "first_evolution_id": 174
+  "first_evolution_id": 174,
+  "types": [
+    "normal",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "special-attack": 45,
+    "special-defense": 25,
+    "speed": 20
+  }
 }

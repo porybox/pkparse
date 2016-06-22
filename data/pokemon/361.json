@@ -146,5 +146,16 @@
       }
     }
   ],
-  "first_evolution_id": 361
+  "first_evolution_id": 361,
+  "types": [
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 50,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 50
+  }
 }

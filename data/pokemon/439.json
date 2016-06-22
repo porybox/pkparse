@@ -141,5 +141,17 @@
       }
     }
   ],
-  "first_evolution_id": 439
+  "first_evolution_id": 439,
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 20,
+    "attack": 25,
+    "defense": 45,
+    "special-attack": 70,
+    "special-defense": 90,
+    "speed": 60
+  }
 }

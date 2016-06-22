@@ -119,5 +119,17 @@
       }
     }
   ],
-  "first_evolution_id": 638
+  "first_evolution_id": 638,
+  "types": [
+    "steel",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 91,
+    "attack": 90,
+    "defense": 129,
+    "special-attack": 90,
+    "special-defense": 72,
+    "speed": 108
+  }
 }

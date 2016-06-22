@@ -119,5 +119,17 @@
       }
     }
   ],
-  "first_evolution_id": 494
+  "first_evolution_id": 494,
+  "types": [
+    "psychic",
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "special-attack": 100,
+    "special-defense": 100,
+    "speed": 100
+  }
 }

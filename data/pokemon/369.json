@@ -140,5 +140,17 @@
       }
     }
   ],
-  "first_evolution_id": 369
+  "first_evolution_id": 369,
+  "types": [
+    "water",
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 90,
+    "defense": 130,
+    "special-attack": 45,
+    "special-defense": 65,
+    "speed": 55
+  }
 }

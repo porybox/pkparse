@@ -141,5 +141,17 @@
       }
     }
   ],
-  "first_evolution_id": 410
+  "first_evolution_id": 410,
+  "types": [
+    "rock",
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 30,
+    "attack": 42,
+    "defense": 118,
+    "special-attack": 42,
+    "special-defense": 88,
+    "speed": 30
+  }
 }

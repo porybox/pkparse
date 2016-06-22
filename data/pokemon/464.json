@@ -146,5 +146,17 @@
       }
     }
   ],
-  "first_evolution_id": 111
+  "first_evolution_id": 111,
+  "types": [
+    "ground",
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 115,
+    "attack": 140,
+    "defense": 130,
+    "special-attack": 55,
+    "special-defense": 55,
+    "speed": 40
+  }
 }

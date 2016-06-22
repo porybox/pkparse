@@ -150,5 +150,16 @@
       }
     }
   ],
-  "first_evolution_id": 418
+  "first_evolution_id": 418,
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 65,
+    "defense": 35,
+    "special-attack": 60,
+    "special-defense": 30,
+    "speed": 85
+  }
 }

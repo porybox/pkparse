@@ -137,5 +137,17 @@
       }
     }
   ],
-  "first_evolution_id": 380
+  "first_evolution_id": 380,
+  "types": [
+    "dragon",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 90,
+    "special-attack": 110,
+    "special-defense": 130,
+    "speed": 110
+  }
 }

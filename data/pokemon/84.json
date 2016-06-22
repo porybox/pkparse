@@ -155,5 +155,17 @@
       }
     }
   ],
-  "first_evolution_id": 84
+  "first_evolution_id": 84,
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 85,
+    "defense": 45,
+    "special-attack": 35,
+    "special-defense": 35,
+    "speed": 75
+  }
 }

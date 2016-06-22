@@ -151,5 +151,17 @@
       }
     }
   ],
-  "first_evolution_id": 13
+  "first_evolution_id": 13,
+  "types": [
+    "bug",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 25,
+    "defense": 50,
+    "special-attack": 25,
+    "special-defense": 25,
+    "speed": 35
+  }
 }

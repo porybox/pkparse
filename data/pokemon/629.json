@@ -119,5 +119,17 @@
       }
     }
   ],
-  "first_evolution_id": 629
+  "first_evolution_id": 629,
+  "types": [
+    "dark",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 55,
+    "defense": 75,
+    "special-attack": 45,
+    "special-defense": 65,
+    "speed": 60
+  }
 }

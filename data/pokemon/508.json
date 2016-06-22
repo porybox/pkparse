@@ -121,5 +121,16 @@
       }
     }
   ],
-  "first_evolution_id": 506
+  "first_evolution_id": 506,
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 110,
+    "defense": 90,
+    "special-attack": 45,
+    "special-defense": 90,
+    "speed": 80
+  }
 }

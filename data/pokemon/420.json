@@ -138,5 +138,16 @@
       }
     }
   ],
-  "first_evolution_id": 420
+  "first_evolution_id": 420,
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 35,
+    "defense": 45,
+    "special-attack": 62,
+    "special-defense": 53,
+    "speed": 35
+  }
 }

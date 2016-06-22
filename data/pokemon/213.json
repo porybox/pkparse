@@ -149,5 +149,17 @@
       }
     }
   ],
-  "first_evolution_id": 213
+  "first_evolution_id": 213,
+  "types": [
+    "bug",
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 230,
+    "special-attack": 10,
+    "special-defense": 230,
+    "speed": 5
+  }
 }

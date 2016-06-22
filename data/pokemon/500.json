@@ -127,5 +127,17 @@
       }
     }
   ],
-  "first_evolution_id": 498
+  "first_evolution_id": 498,
+  "types": [
+    "fire",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 110,
+    "attack": 123,
+    "defense": 65,
+    "special-attack": 100,
+    "special-defense": 65,
+    "speed": 65
+  }
 }

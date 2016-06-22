@@ -137,5 +137,16 @@
       }
     }
   ],
-  "first_evolution_id": 383
+  "first_evolution_id": 383,
+  "types": [
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 150,
+    "defense": 140,
+    "special-attack": 100,
+    "special-defense": 90,
+    "speed": 90
+  }
 }

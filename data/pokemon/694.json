@@ -116,5 +116,17 @@
       }
     }
   ],
-  "first_evolution_id": 694
+  "first_evolution_id": 694,
+  "types": [
+    "electric",
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 44,
+    "attack": 38,
+    "defense": 33,
+    "special-attack": 61,
+    "special-defense": 43,
+    "speed": 70
+  }
 }

@@ -149,5 +149,17 @@
       }
     }
   ],
-  "first_evolution_id": 145
+  "first_evolution_id": 145,
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 90,
+    "defense": 85,
+    "special-attack": 125,
+    "special-defense": 90,
+    "speed": 100
+  }
 }

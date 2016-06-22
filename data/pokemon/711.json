@@ -138,5 +138,17 @@
       }
     }
   ],
-  "first_evolution_id": 710
+  "first_evolution_id": 710,
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 122,
+    "special-attack": 58,
+    "special-defense": 75,
+    "speed": 84
+  }
 }

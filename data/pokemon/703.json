@@ -116,5 +116,17 @@
       }
     }
   ],
-  "first_evolution_id": 703
+  "first_evolution_id": 703,
+  "types": [
+    "rock",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 150,
+    "special-attack": 50,
+    "special-defense": 150,
+    "speed": 50
+  }
 }

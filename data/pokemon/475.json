@@ -143,5 +143,17 @@
       }
     }
   ],
-  "first_evolution_id": 280
+  "first_evolution_id": 280,
+  "types": [
+    "psychic",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 125,
+    "defense": 65,
+    "special-attack": 65,
+    "special-defense": 115,
+    "speed": 80
+  }
 }

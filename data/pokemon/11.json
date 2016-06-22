@@ -151,5 +151,16 @@
       }
     }
   ],
-  "first_evolution_id": 10
+  "first_evolution_id": 10,
+  "types": [
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 20,
+    "defense": 55,
+    "special-attack": 25,
+    "special-defense": 25,
+    "speed": 30
+  }
 }

@@ -153,5 +153,17 @@
       }
     }
   ],
-  "first_evolution_id": 453
+  "first_evolution_id": 453,
+  "types": [
+    "poison",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 48,
+    "attack": 61,
+    "defense": 40,
+    "special-attack": 61,
+    "special-defense": 40,
+    "speed": 50
+  }
 }
