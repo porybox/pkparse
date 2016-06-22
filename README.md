@@ -1,6 +1,6 @@
 # pk6parse
 
-Parses a .pk6 file into a javascript object. This also works in the browser; see [here](https://not-an-aardvark.github.io/pk6parse/) for an example.
+Parses a .pk6 file into a javascript object. This also works in the browser; see [here](https://porygonco.github.io/pk6parse/) for an example.
 
 ## Installation
 
