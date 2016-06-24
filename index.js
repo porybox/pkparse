@@ -361,7 +361,7 @@ exports.assignReadableNames = (data, language) => {
   data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
   data.medals = exports.getMedalData(data.medalData);
   data.ribbons = exports.getRibbonData(data.ribbonData);
-  data.eggLocationName = exports.getLocationData(data.eggLocationId, data.otGameId);
+  data.eggLocationName = exports.getLocationData(data.eggLocationId, data.otGameId, true);
   data.metLocationName = exports.getLocationData(data.metLocationId, data.otGameId);
   data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
   data.otGameName = exports.getGameData(data.otGameId);
@@ -427,14 +427,26 @@ exports.getNatureData = natureId => {
   }
 };
 
-exports.getLocationData = (locationId, otGameId) => {
+exports.getLocationData = (locationId, otGameId, isEggLocation) => {
+  if (!locationId && isEggLocation) {
+    return null;
+  }
   if (otGameId >= 24 && otGameId <= 29 || otGameId === undefined) {
     return require('./data/location_gen6.json')[locationId] || null;
   }
   if (otGameId >= 20 && otGameId <= 23) {
     return require('./data/location_gen5.json')[locationId] || null;
   }
-  return 'Poké Transfer';
+  if (!isEggLocation) {
+    return 'Poké Transfer';
+  }
+  if (otGameId >= 7 && otGameId <= 12) {
+    return require('./data/location_gen4.json')[locationId] || null;
+  }
+  if (otGameId >= 1 && otGameId <= 5 || otGameId === 15) {
+    return require('./data/location_gen3.json')[locationId] || null;
+  }
+  return null;
 };
 
 exports.getRibbonData = ribbonData => {

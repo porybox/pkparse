@@ -84,12 +84,12 @@ describe('pk6parse', () => {
       const eevee = pk6parse.parseFile(`${__dirname}/eevee.pk6`, {parseNames: true});
       expect(eevee.metLocationName).to.equal('Poké Transfer');
       expect(eevee.metLocationId).to.equal(30001);
-      expect(eevee.eggLocationName).to.equal('Poké Transfer');
+      expect(eevee.eggLocationName).to.equal('Day-Care Couple');
 
       const kecleon = pk6parse.parseFile(`${__dirname}/kecleon.pk6`, {parseNames: true});
       expect(kecleon.metLocationName).to.equal('Poké Transfer');
       expect(kecleon.metLocationId).to.equal(30001);
-      expect(kecleon.eggLocationName).to.equal('Poké Transfer');
+      expect(kecleon.eggLocationName).to.equal('Link Trade');
     });
   });
   it('allows assignReadableNames to be called on its own', () => {
