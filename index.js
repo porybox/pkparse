@@ -342,18 +342,22 @@ exports.assignReadableNames = (data, language) => {
   const move1Data = exports.getMoveData(data.move1Id);
   data.move1Name = move1Data && findName(move1Data);
   data.move1Type = move1Data && move1Data.type.name;
+  data.move1Power = move1Data && move1Data.power;
 
   const move2Data = exports.getMoveData(data.move2Id);
   data.move2Name = move2Data && findName(move2Data);
   data.move2Type = move2Data && move2Data.type.name;
+  data.move2Power = move2Data && move2Data.power;
 
   const move3Data = exports.getMoveData(data.move3Id);
   data.move3Name = move3Data && findName(move3Data);
   data.move3Type = move3Data && move3Data.type.name;
+  data.move3Power = move3Data && move3Data.power;
 
   const move4Data = exports.getMoveData(data.move4Id);
   data.move4Name = move4Data && findName(move4Data);
   data.move4Type = move4Data && move4Data.type.name;
+  data.move4Power = move4Data && move4Data.power;
 
   data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
   data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));

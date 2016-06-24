@@ -33,12 +33,16 @@ describe('pk6parse', () => {
       expect(parsed.decreasedStat).to.equal('Atk');
       expect(parsed.move1Name).to.equal('Agility');
       expect(parsed.move1Type).to.equal('psychic');
+      expect(parsed.move1Power).to.be.null();
       expect(parsed.move2Name).to.equal('Water Pulse');
       expect(parsed.move2Type).to.equal('water');
+      expect(parsed.move2Power).to.equal(60);
       expect(parsed.move3Name).to.equal('Payback');
       expect(parsed.move3Type).to.equal('dark');
+      expect(parsed.move3Power).to.equal(50);
       expect(parsed.move4Name).to.equal('Roost');
       expect(parsed.move4Type).to.equal('flying');
+      expect(parsed.move4Power).to.be.null();
       expect(parsed.eggMove1Name).to.equal('Agility');
       expect(parsed.eggMove2Name).to.be.null();
       expect(parsed.eggMove3Name).to.be.null();
