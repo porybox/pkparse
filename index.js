@@ -367,7 +367,7 @@ exports.assignReadableNames = (data, language) => {
   data.otGameName = exports.getGameData(data.otGameId);
   data.tsv = (data.tid ^ data.sid) >>> 4;
   data.esv = (data.pid & 0xffff ^ data.pid >>> 16) >>> 4;
-  data.isShiny = data.tsv === data.esv;
+  data.isShiny = !data.isEgg && data.tsv === data.esv;
   return data;
 };
 
