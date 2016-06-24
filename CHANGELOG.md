@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.2 (2016-06-23)
+
+* Fixed an issue where `eggLocationName` would be incorrect for pre-gen5 pk6 files
+
 ## v0.10.1 (2016-06-22)
 
 * Added `types` key (array of strings indicating elemental types)
