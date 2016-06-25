@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.3 (2016-06-25)
+
+* Added `move1Power`, `move2Power`, `move3Power`, and `move4Power` keys
+
 ## v0.10.2 (2016-06-23)
 
 * Fixed an issue where `eggLocationName` would be incorrect for pre-gen5 pk6 files
