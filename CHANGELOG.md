@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.4 (2016-06-29)
+
+* Fixed an issue where a finite `expToNextLevel` would be returned at level 100; now `Infinity` is returned instead.
+
 ## v0.10.3 (2016-06-25)
 
 * Added `move1Power`, `move2Power`, `move3Power`, and `move4Power` keys
