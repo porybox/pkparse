@@ -186,6 +186,9 @@ const levelToExperienceCache = {
 
 function _baseLevelToExperience (level, growthRate) {
   // Reference: http://bulbapedia.bulbagarden.net/wiki/Experience
+  if (level > 100) {
+    return Infinity;
+  }
   if (growthRate === 'slow-then-very-fast') {
     if (level < 50) {
       return Math.pow(level, 3) * (100 - level) / 50;
