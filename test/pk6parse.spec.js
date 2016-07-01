@@ -53,6 +53,8 @@ describe('pk6parse', () => {
       expect(parsed.metLocationName).to.equal('Route 118');
       expect(parsed.encounterTypeName).to.equal('Pal Park/Egg/Event');
       expect(parsed.otGameName).to.equal('Omega Ruby');
+      expect(parsed.countryName).to.equal('United States');
+      expect(parsed.regionName).to.equal('New York');
       expect(parsed.tsv).to.equal(2325);
       expect(parsed.esv).to.equal(2928);
       expect(parsed.isShiny).to.be.false();
@@ -89,6 +91,8 @@ describe('pk6parse', () => {
       expect(eevee.metLocationName).to.equal('Poké Transfer');
       expect(eevee.metLocationId).to.equal(30001);
       expect(eevee.eggLocationName).to.equal('Day-Care Couple');
+      expect(eevee.geoLocation1RegionName).to.equal('Aomori');
+      expect(eevee.geoLocation1CountryName).to.equal('Japan');
 
       const kecleon = pk6parse.parseFile(`${__dirname}/kecleon.pk6`, {parseNames: true});
       expect(kecleon.metLocationName).to.equal('Poké Transfer');

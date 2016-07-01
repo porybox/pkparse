@@ -162,8 +162,8 @@ exports.parseBuffer = (buf, options) => {
 
   data.encounterTypeId = buf.readUInt8(0xde);
   data.otGameId = buf.readUInt8(0xdf);
-  data.countryId = buf.readUInt8(0xe0); // TODO: Parse
-  data.regionId = buf.readUInt8(0xe1); // TODO: Parse
+  data.countryId = buf.readUInt8(0xe0);
+  data.regionId = buf.readUInt8(0xe1);
   data.consoleRegion = ['J', 'U', 'E', '?', 'C', 'K', 'T'][buf.readUInt8(0xe2)];
   data.language = [null, 'JPN', 'ENG', 'FRE', 'ITA', 'GER', '???', 'SPA', 'KOR'][buf.readUInt8(0xe3)];
   data._rawPk6 = buf.toString('base64');
@@ -303,6 +303,20 @@ function assignCalculatedStat (data, statName) {
   );
 }
 
+function assignRegionAndCountryNames (data, locationNum, language) {
+  const regionId = data[`geoLocation${locationNum}RegionId`];
+  const countryId = data[`geoLocation${locationNum}CountryId`];
+  const regionNameKey = `geoLocation${locationNum}RegionName`;
+  const countryNameKey = `geoLocation${locationNum}CountryName`;
+  if (regionId) {
+    data[regionNameKey] = exports.getSubregionName(countryId, regionId, language);
+    data[countryNameKey] = exports.getCountryName(countryId, language);
+  } else {
+    data[regionNameKey] = null;
+    data[countryNameKey] = null;
+  }
+}
+
 exports.assignReadableNames = (data, language) => {
   const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
   language = language || 'ENG';
@@ -366,12 +380,19 @@ exports.assignReadableNames = (data, language) => {
   data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
   data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
   data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
+
+  [1, 2, 3, 4, 5].forEach(num => assignRegionAndCountryNames(data, num, language));
+
   data.medals = exports.getMedalData(data.medalData);
   data.ribbons = exports.getRibbonData(data.ribbonData);
+
   data.eggLocationName = exports.getLocationData(data.eggLocationId, data.otGameId, true);
   data.metLocationName = exports.getLocationData(data.metLocationId, data.otGameId);
   data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
   data.otGameName = exports.getGameData(data.otGameId);
+
+  data.countryName = exports.getCountryName(data.countryId, language);
+  data.regionName = data.regionId ? exports.getSubregionName(data.countryId, data.regionId, language) : null;
   data.tsv = (data.tid ^ data.sid) >>> 4;
   data.esv = (data.pid & 0xffff ^ data.pid >>> 16) >>> 4;
   data.isShiny = !data.isEgg && data.tsv === data.esv;
@@ -483,3 +504,14 @@ exports.getEncounterTypeData = encounterTypeId => {
 };
 
 exports.getGameData = gameId => require('./data/games.json')[gameId];
+
+exports.getCountryName = (countryId, language) => require('./data/countries')[countryId][language];
+
+exports.getSubregionName = (countryId, subregionId, language) => {
+  try {
+    const countryData = require(`./data/subregions/${countryId}`);
+    return countryData[subregionId][language];
+  } catch (err) {
+    throw new TypeError(`Invalid country ID (${countryId}) or subregion ID (${subregionId})`);
+  }
+};
