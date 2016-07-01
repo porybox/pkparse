@@ -308,13 +308,8 @@ function assignRegionAndCountryNames (data, locationNum, language) {
   const countryId = data[`geoLocation${locationNum}CountryId`];
   const regionNameKey = `geoLocation${locationNum}RegionName`;
   const countryNameKey = `geoLocation${locationNum}CountryName`;
-  if (regionId) {
-    data[regionNameKey] = exports.getSubregionName(countryId, regionId, language);
-    data[countryNameKey] = exports.getCountryName(countryId, language);
-  } else {
-    data[regionNameKey] = null;
-    data[countryNameKey] = null;
-  }
+  data[regionNameKey] = regionId ? data[regionNameKey] = exports.getSubregionName(countryId, regionId, language) : null;
+  data[countryNameKey] = countryId ? data[countryNameKey] = exports.getCountryName(countryId, language) : null;
 }
 
 exports.assignReadableNames = (data, language) => {
