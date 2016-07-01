@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.5 (2016-06-30)
+
+* Added the ability to parse country and region IDs. The new keys are `countryName`, `regionName`, `geoLocation[1-5]RegionName`, and `geoLocation[1-5]CountryName`.
+
 ## v0.10.4 (2016-06-29)
 
 * Fixed an issue where a finite `expToNextLevel` would be returned at level 100; now `Infinity` is returned instead.
