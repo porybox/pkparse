@@ -312,8 +312,8 @@ function assignRegionAndCountryNames (data, locationNum, language) {
   data[countryNameKey] = countryId ? data[countryNameKey] = exports.getCountryName(countryId, language) : null;
 }
 
+const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
 exports.assignReadableNames = (data, language) => {
-  const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
   language = language || 'ENG';
   const shortLang = langMap[language];
   if (!shortLang) {
@@ -531,8 +531,27 @@ exports.getSubregionName = (countryId, subregionId, language) => {
   }
 };
 
+function getTextVar (lineId, textVarId, language) {
+  const shortLang = langMap[language];
+  if ([5, 15, 26, 34, 40, 51].indexOf(lineId) !== -1) {
+    return exports.getItemData(textVarId).names.find(d => d.language === shortLang).name;
+  }
+  if ([7, 13, 14, 17, 18, 21, 25, 29, 44, 50, 60].indexOf(lineId) !== -1) {
+    return exports.getPokemonData(textVarId).names.find(d => d.language === shortLang).name;
+  }
+  if ([12, 16, 49].indexOf(lineId) !== -1) {
+    return exports.getMoveData(textVarId).names.find(d => d.language === shortLang).name;
+  }
+  try {
+    return require('./data/memories/memoryTextVars')[textVarId][language];
+  } catch (err) {
+    throw new TypeError(`Invalid memory textVar ID ${textVarId}`);
+  }
+}
+
 exports.parseMemoryData = (intensityId, lineId, feelingId, textVarId, nickname, trainerName, language) => {
-  let intensity, line, feeling, textVar;
+  let intensity, line, feeling;
+  const textVar = getTextVar(lineId, textVarId, language);
   try {
     intensity = require('./data/memories/memoryIntensities')[intensityId][language];
   } catch (err) {
@@ -547,11 +566,6 @@ exports.parseMemoryData = (intensityId, lineId, feelingId, textVarId, nickname, 
     feeling = require('./data/memories/memoryFeelings')[feelingId][language];
   } catch (err) {
     throw new TypeError(`Invalid memory feeling ID ${feelingId}`);
-  }
-  try {
-    textVar = require('./data/memories/memoryTextVars')[textVarId][language];
-  } catch (err) {
-    throw new TypeError(`Invalid memory textVar ID ${textVarId}`);
   }
 
   return line
