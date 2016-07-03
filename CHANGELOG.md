@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.7 (2016-07-03)
+
+* Added support for parsing memories (`otMemory` and `notOtMemory` keys)
+
 ## v0.10.6 (2016-07-02)
 
 * Fixed an issue where country names would not get parsed if region IDs were not present
