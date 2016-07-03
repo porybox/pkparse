@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.8 (2016-07-03)
+
+* Fixed an issue where some memories were not parsed correctly
+
 ## v0.10.7 (2016-07-03)
 
 * Added support for parsing memories (`otMemory` and `notOtMemory` keys)
