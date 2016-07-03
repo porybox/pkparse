@@ -55,6 +55,11 @@ describe('pk6parse', () => {
       expect(parsed.otGameName).to.equal('Omega Ruby');
       expect(parsed.countryName).to.equal('United States');
       expect(parsed.regionName).to.equal('New York');
+      expect(parsed.otMemory).to.equal('not-aardvark met Teddy at... a riverside road. Teddy threw a Poké Ball at it, and ' +
+        'they started to travel together. The Pokémon remembers that it grinned.');
+      expect(parsed.notOtMemory).to.equal(
+        'The Pokémon seems to have a good memory, but it doesn’t seem to be able to remember...'
+      );
       expect(parsed.tsv).to.equal(2325);
       expect(parsed.esv).to.equal(2928);
       expect(parsed.isShiny).to.be.false();

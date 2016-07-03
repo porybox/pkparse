@@ -133,7 +133,7 @@ exports.parseBuffer = (buf, options) => {
 
   data.notOtFriendship = buf.readUInt8(0xa2);
   data.notOtAffection = buf.readUInt8(0xa3);
-  data.notOtMemoryIntensity = buf.readUInt8(0xa4); // TODO: Parse
+  data.notOtMemoryIntensity = buf.readUInt8(0xa4);
   data.notOtMemoryLine = buf.readUInt8(0xa5);
   data.notOtMemoryFeeling = buf.readUInt8(0xa6);
   data.notOtMemoryTextVar = buf.readUInt16LE(0xa8);
@@ -144,7 +144,7 @@ exports.parseBuffer = (buf, options) => {
   data.ot = stripNullChars(buf.toString('utf16le', 0xb0, 0xc8));
   data.otFriendship = buf.readUInt8(0xca);
   data.otAffection = buf.readUInt8(0xcb);
-  data.otMemoryIntensity = buf.readUInt8(0xcc); // TODO: Parse
+  data.otMemoryIntensity = buf.readUInt8(0xcc);
   data.otMemoryLine = buf.readUInt8(0xcd);
   data.otMemoryTextVar = buf.readUInt16LE(0xce);
   data.otMemoryFeeling = buf.readUInt8(0xd0);
@@ -378,6 +378,26 @@ exports.assignReadableNames = (data, language) => {
 
   [1, 2, 3, 4, 5].forEach(num => assignRegionAndCountryNames(data, num, language));
 
+  data.notOtMemory = exports.parseMemoryData(
+    data.notOtMemoryIntensity,
+    data.notOtMemoryLine,
+    data.notOtMemoryFeeling,
+    data.notOtMemoryTextVar,
+    data.nickname,
+    data.notOt,
+    language
+  );
+
+  data.otMemory = exports.parseMemoryData(
+    data.otMemoryIntensity,
+    data.otMemoryLine,
+    data.otMemoryFeeling,
+    data.otMemoryTextVar,
+    data.nickname,
+    data.ot,
+    language
+  );
+
   data.medals = exports.getMedalData(data.medalData);
   data.ribbons = exports.getRibbonData(data.ribbonData);
 
@@ -509,4 +529,35 @@ exports.getSubregionName = (countryId, subregionId, language) => {
   } catch (err) {
     throw new TypeError(`Invalid country ID (${countryId}) or subregion ID (${subregionId})`);
   }
+};
+
+exports.parseMemoryData = (intensityId, lineId, feelingId, textVarId, nickname, trainerName, language) => {
+  let intensity, line, feeling, textVar;
+  try {
+    intensity = require('./data/memories/memoryIntensities')[intensityId][language];
+  } catch (err) {
+    throw new TypeError(`Invalid memory intensity ID (${intensityId})`);
+  }
+  try {
+    line = require('./data/memories/memoryLines')[lineId][language];
+  } catch (err) {
+    throw new TypeError(`Invalid memory line ID (${lineId})`);
+  }
+  try {
+    feeling = require('./data/memories/memoryFeelings')[feelingId][language];
+  } catch (err) {
+    throw new TypeError(`Invalid memory feeling ID ${feelingId}`);
+  }
+  try {
+    textVar = require('./data/memories/memoryTextVars')[textVarId][language];
+  } catch (err) {
+    throw new TypeError(`Invalid memory textVar ID ${textVarId}`);
+  }
+
+  return line
+    .replace(/\{0\}/g, nickname)
+    .replace(/\{1\}/g, trainerName)
+    .replace(/\{2\}/g, textVar)
+    .replace(/\{3\}/g, feeling)
+    .replace(/\{4\}/g, intensity);
 };
