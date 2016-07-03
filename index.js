@@ -556,21 +556,22 @@ exports.parseMemoryData = (intensityId, lineId, feelingId, textVarId, nickname, 
   let intensity, line, feeling;
   const textVar = getTextVar(lineId, textVarId, language);
   try {
-    intensity = require('./data/memories/memoryIntensities')[intensityId][language];
-  } catch (err) {
-    throw new TypeError(`Invalid memory intensity ID (${intensityId})`);
-  }
-  try {
     line = require('./data/memories/memoryLines')[lineId][language];
   } catch (err) {
     throw new TypeError(`Invalid memory line ID (${lineId})`);
   }
-  try {
-    feeling = require('./data/memories/memoryFeelings')[feelingId][language];
-  } catch (err) {
-    throw new TypeError(`Invalid memory feeling ID ${feelingId}`);
+  if (lineId) {
+    try {
+      intensity = require('./data/memories/memoryIntensities')[intensityId][language];
+    } catch (err) {
+      throw new TypeError(`Invalid memory intensity ID (${intensityId})`);
+    }
+    try {
+      feeling = require('./data/memories/memoryFeelings')[feelingId][language];
+    } catch (err) {
+      throw new TypeError(`Invalid memory feeling ID ${feelingId}`);
+    }
   }
-
   return line
     .replace(/\{0\}/g, nickname)
     .replace(/\{1\}/g, trainerName)
