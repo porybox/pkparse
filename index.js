@@ -542,6 +542,9 @@ function getTextVar (lineId, textVarId, language) {
   if ([12, 16, 49].indexOf(lineId) !== -1) {
     return exports.getMoveData(textVarId).names.find(d => d.language === shortLang).name;
   }
+  if (lineId === 6) {
+    return require('./data/location_gen6.json')[textVarId];
+  }
   try {
     return require('./data/memories/memoryTextVars')[textVarId][language];
   } catch (err) {
