@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.6 (2016-07-02)
+
+* Fixed an issue where country names would not get parsed if region IDs were not present
+
 ## v0.10.5 (2016-06-30)
 
 * Added the ability to parse country and region IDs. The new keys are `countryName`, `regionName`, `geoLocation[1-5]RegionName`, and `geoLocation[1-5]CountryName`.
