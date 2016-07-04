@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.9 (2016-07-04)
+
+* Fixed an issue where some item IDs were not parsed correctly
+
 ## v0.10.8 (2016-07-03)
 
 * Fixed an issue where some memories were not parsed correctly
