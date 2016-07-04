@@ -1,80 +1,183 @@
 {
-  "id": 535,
-  "name": "scanner",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "plot-advancement"
+    "name": "bad-held-items"
   },
+  "name": "iron-ball",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "May be traded to Captain Stern for a deep sea tooth or a deep sea scale.",
-      "short_effect": "Trade to Captain Stern for a DeepSeaTooth or DeepSeaScale.",
+      "short_effect": "Held: Holder's Speed is halved. Negates all Ground-type immunities, and makes Flying-types take neutral damage from Ground-type moves. Arena Trap. Spikes, and Toxic Spikes affect the holder.",
+      "effect": "Held: Decreases the holder's Speed by 50%.  If the holder is Flying or has Levitate, it takes regular damage from Ground attacks and is suspectible to Spikes and Toxic Spikes.",
       "language": "en"
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "text": "A device used to search for\nlife-forms in water.\nIt looks too difficult to use.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "text": "A device found\ninside the\nABANDONED SHIP.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "text": "A device found\ninside the\nABANDONED SHIP.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "game_indices": [
-    {
-      "game_index": 278,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Scanner",
-      "language": "en"
-    },
-    {
-      "name": "Scanner",
-      "language": "it"
-    },
-    {
-      "name": "Escáner",
-      "language": "es"
-    },
-    {
-      "name": "Scanner",
-      "language": "de"
-    },
-    {
-      "name": "Scanner",
-      "language": "fr"
-    },
-    {
-      "name": "たんちき",
-      "language": "ja"
     }
   ],
   "held_by_pokemon": [],
   "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/scanner.png"
+    "default": "http://pokeapi.co/media/sprites/items/iron-ball.png"
   },
-  "baby_trigger_for": null
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 278
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 278
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 278
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 200,
+  "names": [
+    {
+      "name": "Iron Ball",
+      "language": "en"
+    },
+    {
+      "name": "Ferropalla",
+      "language": "it"
+    },
+    {
+      "name": "Bola Férrea",
+      "language": "es"
+    },
+    {
+      "name": "Eisenkugel",
+      "language": "de"
+    },
+    {
+      "name": "Balle Fer",
+      "language": "fr"
+    },
+    {
+      "name": "검은철구",
+      "language": "ko"
+    },
+    {
+      "name": "くろいてっきゅう",
+      "language": "ja"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    },
+    {
+      "name": "underground"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "持たせると　素早さが　さがる。\nひこうタイプや　ふゆう　ポケモンは\nじめん技が　当たってしまう。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt lowers Speed and allows Ground-type\nmoves to hit Flying-type and levitating holders.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Riduce la Velocità e rende vulnerabili\nalle mosse di tipo Terra se chi ce l’ha è\ndi tipo Volante o ha l’abilità Levitazione.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "En combate, esta concha desechada sirve para\nque un Pokémon se cambie por otro que no esté\ncombatiendo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Macht Pokémon des Typs\nFlug oder mit der Fähigkeit Schwebe anfällig für\nBoden-Attacken. Senkt den Initiative-Wert.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Réduit la Vitesse. Rend les porteurs\nde type Vol, ainsi que ceux en lévitation,\nsensibles aux capacités de type Sol.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "지니게 하면 스피드가 떨어진다.\n비행타입이나 부유포켓몬은\n땅 기술에 맞아 버린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "もたせると　すばやさが　さがる。\nひこうタイプや　ふゆう　ポケモンは\nじめんわざが　あたって　しまう。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A Pokémon held item that cuts Speed.\nIt makes Flying-type and levitating\nholders susceptible to Ground moves.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Pokémon held item that cuts Speed.\nIt makes Flying-type and levitating\nholders susceptible to Ground moves.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir réduisant la Vitesse. Rend\nles porteurs de type Vol et lévitant\nsensibles aux capacités de type Sol.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A Pokémon held item that cuts Speed.\nIt makes Flying-type and levitating\nholders susceptible to Ground moves.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Pokémon hold item that cuts Speed.\nIt makes Flying-type and levitating\nholders susceptible to Ground moves.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A Pokémon hold item that cuts Speed.\nIt makes Flying-type and levitating\nholders susceptible to Ground moves.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "id": 255,
+  "fling_power": 130
 }

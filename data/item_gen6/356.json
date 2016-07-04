@@ -1,73 +1,200 @@
 {
-  "id": 547,
-  "name": "lift-key",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "plot-advancement"
+    "name": "all-machines"
   },
+  "name": "tm29",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Operates the elevator in the Celadon Rocket Hideout.",
-      "short_effect": "Operates the elevator in Team Rocket's Celadon Hideout.",
+      "short_effect": "Teaches Psychic to a compatible Pokémon.",
+      "effect": "Teaches Psychic to a compatible Pokémon.",
       "language": "en"
     }
   ],
+  "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tm-normal.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 356
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 356
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 356
+    },
+    {
+      "generation": {
+        "name": "generation-iii"
+      },
+      "game_index": 317
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 3000,
+  "names": [
+    {
+      "name": "TM29",
+      "language": "en"
+    },
+    {
+      "name": "MT29",
+      "language": "it"
+    },
+    {
+      "name": "MT29",
+      "language": "es"
+    },
+    {
+      "name": "TM29",
+      "language": "de"
+    },
+    {
+      "name": "CT29",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신29",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン２９",
+      "language": "ja"
+    }
+  ],
+  "attributes": [],
   "flavor_text_entries": [
     {
-      "text": "A key that operates the elevator\nin TEAM ROCKET’s HIDEOUT.\nIt bears the TEAM ROCKET logo.",
+      "text": "強い　念力を　相手に　送って\n攻撃する。相手の　特防を\nさげることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The target is hit by a strong telekinetic\nforce. This may also lower the target’s\nSp. Def stat.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Il nemico viene colpito da una potente forza\ntelecinetica che può anche ridurne la Difesa\nSpeciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Quien lo usa ataca y roba el objeto que lleva su\nobjetivo simultáneamente. Si ya lleva un objeto,\nno podrá robar.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein mächtiger Strahl telekinetischer Energie trifft\ndas Ziel. Die Spezial-Verteidigung des Zieles\nsinkt eventuell.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une puissante force télékinésique frappe\nl’ennemi. Peut aussi faire baisser sa Défense\nSpéciale.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "강한 염동력을 상대에게 보내어\n공격한다. 상대의 특수방어를\n떨어뜨릴 때가 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "つよい　ねんりきを　おくって\nこうげきする。　あいての　とくぼうを\nさげることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The target is hit by a strong\ntelekinetic force. It may also reduce\nthe target’s Sp. Def stat.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The target is hit by a strong\ntelekinetic force. It may also reduce\nthe target’s Sp. Def stat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une puissante force télékinésique\nfrappe l’ennemi. Peut aussi faire\nbaisser sa Défense Spéciale.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The foe is hit by a strong telekinetic\nforce. It may also reduce the foe’s\nSp. Def stat.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is hit by a strong telekinetic\nforce. It may also reduce the foe’s\nSp. Def stat.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is hit by a strong telekinetic\nforce. It may also reduce the foe’s\nSp. Def stat.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A strong telekinetic\nattack. It may also\nlower the foe’s\nSP. DEF stat.",
       "version_group": {
         "name": "firered-leafgreen"
       },
       "language": "en"
     },
     {
-      "text": "An elevator key\nused in TEAM\nROCKET’s HIDEOUT.",
+      "text": "A powerful psychic\nattack that may\nlower SP. DEF.",
       "version_group": {
         "name": "emerald"
       },
       "language": "en"
-    }
-  ],
-  "game_indices": [
+    },
     {
-      "game_index": 356,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Lift Key",
+      "text": "A powerful psychic\nattack that may\nlower SP. DEF.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
       "language": "en"
-    },
-    {
-      "name": "Chiave Asc.",
-      "language": "it"
-    },
-    {
-      "name": "Ll. Ascensor",
-      "language": "es"
-    },
-    {
-      "name": "Liftöffner",
-      "language": "de"
-    },
-    {
-      "name": "Clé Asc.",
-      "language": "fr"
-    },
-    {
-      "name": "エレベータのカギ",
-      "language": "ja"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/lift-key.png"
-  },
-  "baby_trigger_for": null
+  "id": 333,
+  "fling_power": null
 }

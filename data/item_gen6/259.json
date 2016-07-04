@@ -1,80 +1,308 @@
 {
-  "id": 527,
-  "name": "mach-bike",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "gameplay"
+    "name": "species-specific"
   },
+  "name": "stick",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Increases movement speed outside or in caves.  Faster than the acro bike.  Allows the trainer to ascend muddy slopes.",
-      "short_effect": "Faster than the Acro Bike, and can ride up sandy slopes and across cracked floors.",
+      "short_effect": "Raises Farfetch'd's critical hit ratio by two stages.",
+      "effect": "Held by Farfetch'd: Raises the holder's critical hit counter by 2.",
       "language": "en"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "soulsilver"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "heartgold"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "platinum"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "pearl"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "diamond"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "leafgreen"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "firered"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "emerald"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "sapphire"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "ruby"
+          },
+          "rarity": 5
+        }
+      ],
+      "pokemon": {
+        "name": "farfetchd"
+      }
+    }
+  ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/stick.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 259
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 259
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 259
+    },
+    {
+      "generation": {
+        "name": "generation-iii"
+      },
+      "game_index": 225
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 200,
+  "names": [
+    {
+      "name": "Stick",
+      "language": "en"
+    },
+    {
+      "name": "Gambo",
+      "language": "it"
+    },
+    {
+      "name": "Palo",
+      "language": "es"
+    },
+    {
+      "name": "Lauchstange",
+      "language": "de"
+    },
+    {
+      "name": "Bâton",
+      "language": "fr"
+    },
+    {
+      "name": "대파",
+      "language": "ko"
+    },
+    {
+      "name": "ながねぎ",
+      "language": "ja"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "holdable"
     }
   ],
   "flavor_text_entries": [
     {
-      "text": "A folding bicycle that is at least\ntwice as fast as walking.",
+      "text": "とても　長くて　硬い　クキ。\nカモネギに　持たせると　技が\n急所に　当たりやすくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by Farfetch’d.\nThis very long and stiff stalk of\nleek boosts its critical-hit ratio.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a Farfetch’d.\nLungo gambo di porro che aumenta molto\nla probabilità di sferrare brutti colpi.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Debe llevarlo un Pokémon. Si se mueve después\ndel enemigo, aumenta la Precisión del Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item, das von Porenta getragen werden\nkann. Diese lange Lauchstange erhöht die\nVolltrefferquote stark.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à faire tenir à Canarticho.\nUn poireau très long et solide qui augmente\nson taux de critiques.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "매우 길고 단단한 줄기.\n파오리에게 지니게 하면 기술이\n급소에 맞기 쉬워진다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "とても　ながくて　かたい　クキ。\nカモネギに　もたせると　わざが\nきゅうしょに　あたりやすくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by Farfetch’d. It is\na very long and stiff stalk of leek\nthat boosts the critical-hit ratio.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by Farfetch’d. It is\na very long and stiff stalk of leek\nthat boosts the critical-hit ratio.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à faire tenir à Canarticho.\nPoireau très long et solide qui\nmonte son taux de critiques.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by FARFETCH’D. It is\na very long and stiff stalk of leek\nthat boosts the critical-hit ratio.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by FARFETCH’D. It is\na very long and stiff stalk of leek\nthat boosts the critical-hit ratio.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by FARFETCH’D. It is\na very long and stiff stalk of leek\nthat boosts the critical-hit ratio.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A stick of leek to be held by a\nFARFETCH’D. It raises FARFETCH’D’s\ncritical-hit ratio.",
       "version_group": {
         "name": "firered-leafgreen"
       },
       "language": "en"
     },
     {
-      "text": "A folding bicycle\nthat doubles your\nspeed or better.",
+      "text": "A hold item that\nraises FARFETCH’D’s\ncritical-hit ratio.",
       "version_group": {
         "name": "emerald"
       },
       "language": "en"
     },
     {
-      "text": "A folding bicycle\nthat more than\ndoubles foot speed.",
+      "text": "A stick of leek.\nIt can be sold\ncheaply.",
       "version_group": {
         "name": "ruby-sapphire"
       },
       "language": "en"
     }
   ],
-  "game_indices": [
-    {
-      "game_index": 259,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Mach Bike",
-      "language": "en"
-    },
-    {
-      "name": "Bici Corsa",
-      "language": "it"
-    },
-    {
-      "name": "Bici Carrera",
-      "language": "es"
-    },
-    {
-      "name": "Eilrad",
-      "language": "de"
-    },
-    {
-      "name": "Vélo Course",
-      "language": "fr"
-    },
-    {
-      "name": "マッハじてんしゃ",
-      "language": "ja"
-    }
-  ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/mach-bike.png"
-  },
-  "baby_trigger_for": null
+  "id": 236,
+  "fling_power": 60
 }

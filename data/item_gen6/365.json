@@ -1,73 +1,200 @@
 {
-  "id": 551,
-  "name": "berry-pouch",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "gameplay"
+    "name": "all-machines"
   },
+  "name": "tm38",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Stores Berries.",
-      "short_effect": "Holds berries.",
+      "short_effect": "Teaches Fire Blast to a compatible Pokémon.",
+      "effect": "Teaches Fire Blast to a compatible Pokémon.",
       "language": "en"
     }
   ],
+  "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tm-normal.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 365
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 365
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 365
+    },
+    {
+      "generation": {
+        "name": "generation-iii"
+      },
+      "game_index": 326
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 5500,
+  "names": [
+    {
+      "name": "TM38",
+      "language": "en"
+    },
+    {
+      "name": "MT38",
+      "language": "it"
+    },
+    {
+      "name": "MT38",
+      "language": "es"
+    },
+    {
+      "name": "TM38",
+      "language": "de"
+    },
+    {
+      "name": "CT38",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신38",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン３８",
+      "language": "ja"
+    }
+  ],
+  "attributes": [],
   "flavor_text_entries": [
     {
-      "text": "A pouch for carrying BERRIES.\nIt is attached to the BAG’s\ncompartment for important items.",
+      "text": "大の字の　炎で\n相手を　焼きつくす。\nやけど状態に　することが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The target is attacked with an intense\nblast of all-consuming fire. This may\nalso leave the target with a burn.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Investe il nemico con un’intensa fiammata\nche fa terra bruciata. Può anche scottarlo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Abrasa al objetivo con agua hirviendo y puede\ncausarle quemaduras.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Dem Ziel wird ordentlich eingeheizt.\nKann eventuell Verbrennungen hervorrufen.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Un déluge de flammes ardentes submerge\nl’ennemi. Peut aussi le brûler.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "큰 대자의 불꽃으로\n상대를 불태운다.\n화상 상태로 만들 때가 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "だいのじの　ほのおで　あいてを\nやきつくす。　やけどの　じょうたいに\nすることが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The target is attacked with an intense\nblast of all-consuming fire. It may\nalso leave the target with a burn.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The target is attacked with an intense\nblast of all-consuming fire. It may\nalso leave the target with a burn.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Un déluge de flammes ardentes submerge\nl’ennemi. Peut le brûler.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The foe is attacked with an intense\nblast of all-consuming fire. It may\nalso leave the target with a burn.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is attacked with an intense\nblast of all-consuming fire. It may\nalso leave the target with a burn.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is attacked with an intense\nblast of all-consuming fire. It may\nalso leave the target with a burn.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The foe is hit with\nan intense flame.\nIt may leave the\ntarget with a burn.",
       "version_group": {
         "name": "firered-leafgreen"
       },
       "language": "en"
     },
     {
-      "text": "A convenient\ncontainer that\nholds BERRIES.",
+      "text": "A powerful fire\nattack that may\nburn the foe.",
       "version_group": {
         "name": "emerald"
       },
       "language": "en"
-    }
-  ],
-  "game_indices": [
+    },
     {
-      "game_index": 365,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Berry Pouch",
+      "text": "A powerful fire\nattack that may\nburn the foe.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
       "language": "en"
-    },
-    {
-      "name": "Portabacche",
-      "language": "it"
-    },
-    {
-      "name": "Saco Bayas",
-      "language": "es"
-    },
-    {
-      "name": "Beerentüte",
-      "language": "de"
-    },
-    {
-      "name": "Sac à Baies",
-      "language": "fr"
-    },
-    {
-      "name": "きのみぶくろ",
-      "language": "ja"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/berry-pouch.png"
-  },
-  "baby_trigger_for": null
+  "id": 342,
+  "fling_power": null
 }

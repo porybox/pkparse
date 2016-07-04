@@ -1,80 +1,475 @@
 {
-  "id": 538,
-  "name": "rm-1-key",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "plot-advancement"
+    "name": "held-items"
   },
+  "name": "black-sludge",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Unlocks room 1 on the abandoned ship.",
-      "short_effect": "Unlocks room 1 on the Abandoned Ship.",
+      "short_effect": "Held: Poison-type holder recovers 1/16 (6.25%) max HP each turn. Non-Poison-Types take 1/8 (12.5%) max HP damage.",
+      "effect": "Held: If the holder is Poison-type, restores 1/16 max HP at the end of each turn.  Otherwise, damages the holder by 1/16 its max HP at the end of each turn.",
       "language": "en"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 5
+        }
+      ],
+      "pokemon": {
+        "name": "grimer"
+      }
+    },
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 50
+        }
+      ],
+      "pokemon": {
+        "name": "muk"
+      }
+    },
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "soulsilver"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "heartgold"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "platinum"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "pearl"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "diamond"
+          },
+          "rarity": 5
+        }
+      ],
+      "pokemon": {
+        "name": "croagunk"
+      }
+    },
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "soulsilver"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "heartgold"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "platinum"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "pearl"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "diamond"
+          },
+          "rarity": 5
+        }
+      ],
+      "pokemon": {
+        "name": "toxicroak"
+      }
+    },
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black"
+          },
+          "rarity": 5
+        }
+      ],
+      "pokemon": {
+        "name": "trubbish"
+      }
+    },
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "white"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "black"
+          },
+          "rarity": 50
+        }
+      ],
+      "pokemon": {
+        "name": "garbodor"
+      }
+    }
+  ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/black-sludge.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 281
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 281
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 281
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 200,
+  "names": [
+    {
+      "name": "Black Sludge",
+      "language": "en"
+    },
+    {
+      "name": "Fangopece",
+      "language": "it"
+    },
+    {
+      "name": "Lodo Negro",
+      "language": "es"
+    },
+    {
+      "name": "Giftschleim",
+      "language": "de"
+    },
+    {
+      "name": "Boue Noire",
+      "language": "fr"
+    },
+    {
+      "name": "검은진흙",
+      "language": "ko"
+    },
+    {
+      "name": "くろいヘドロ",
+      "language": "ja"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
     }
   ],
   "flavor_text_entries": [
     {
-      "text": "A key that opens the door to Room\n1 inside the ABANDONED SHIP.\nIt is old and looks easily broken.",
+      "text": "持たせると　どくタイプの　ポケモンは\n少しずつ　ＨＰを　回復する。\nそれ以外は　ＨＰが　減ってしまう。",
       "version_group": {
-        "name": "firered-leafgreen"
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt gradually restores HP to Poison-type\nPokémon. It damages any other type.",
+      "version_group": {
+        "name": "x-y"
       },
       "language": "en"
     },
     {
-      "text": "A key that opens a\ndoor inside the\nABANDONED SHIP.",
+      "text": "Strumento da dare a un Pokémon.\nRestituisce gradualmente PS ai Pokémon di tipo\nVeleno, ma danneggia tutti gli altri.",
       "version_group": {
-        "name": "emerald"
+        "name": "x-y"
       },
-      "language": "en"
-    },
-    {
-      "text": "A key that opens a\ndoor inside the\nABANDONED SHIP.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "game_indices": [
-    {
-      "game_index": 281,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Rm. 1 Key",
-      "language": "en"
-    },
-    {
-      "name": "Chiave Cab.1",
       "language": "it"
     },
     {
-      "name": "Ll. Cabina 1",
+      "text": "Tabla de piedra que potencia los movimientos de\ntipo Fuego. Debe llevarla un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "es"
     },
     {
-      "name": "K1-Schlüssel",
+      "text": "Ein Item zum Tragen, das einem Gift-Pokémon\nKP zurückgibt, anderen Pokémon aber Schaden\nzufügt.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "de"
     },
     {
-      "name": "Clé Salle 1",
+      "text": "Objet à tenir. Restaure peu à peu les PV des\nPokémon de type Poison. Inflige des dégâts\nà tous les autres types.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "fr"
     },
     {
-      "name": "１ごうしつのカギ",
+      "text": "지니게 하면 독타입의 포켓몬은\n조금씩 HP를 회복한다.\n그 이외의 타입은 HP가 줄어 버린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "もたせると　どくタイプの　ポケモンは\nすこしずつ　ＨＰを　かいふくする。\nそれいがいは　ＨＰが　へってしまう。",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "ja"
+    },
+    {
+      "text": "A held item that gradually restores\nthe HP of Poison-type Pokémon.\nIt inflicts damage on all other types.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A held item that gradually restores\nthe HP of Poison-type Pokémon.\nIt inflicts damage on all other types.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir restaurant peu à peu les\nPV des Pokémon de type Poison. Inflige\ndes dégâts à tous les autres types.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A held item that gradually restores\nthe HP of Poison-type Pokémon.\nIt inflicts damage on all other types.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that gradually restores\nthe HP of Poison-type Pokémon.\nIt inflicts damage on all other types.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that gradually restores\nthe HP of Poison-type Pokémon.\nIt inflicts damage on all other types.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/rm-1-key.png"
-  },
-  "baby_trigger_for": null
+  "id": 258,
+  "fling_power": 30
 }

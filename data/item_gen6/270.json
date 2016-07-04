@@ -1,80 +1,180 @@
 {
-  "id": 531,
-  "name": "soot-sack",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "gameplay"
+    "name": "held-items"
   },
+  "name": "life-orb",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Collects soot when walking through tall grass on hoenn route 113.",
-      "short_effect": "Stores volcanic ash from Route 113.",
+      "short_effect": "Held: Holder's moves inflict 30% extra damage, but cost 10% max HP.",
+      "effect": "Held: Damage from the holder's moves is increased by 30%.  On each turn the holder uses a damage-inflicting move, it takes 10% its max HP in damage.",
       "language": "en"
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "text": "A sack used to collect volcanic\nash automatically during walks\nover deep ash.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "text": "A sack used to\ngather and hold\nvolcanic ash.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "text": "A sack used to\ngather and hold\nvolcanic ash.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "game_indices": [
-    {
-      "game_index": 270,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Soot Sack",
-      "language": "en"
-    },
-    {
-      "name": "Sacco Cenere",
-      "language": "it"
-    },
-    {
-      "name": "Saco Hollín",
-      "language": "es"
-    },
-    {
-      "name": "Aschetasche",
-      "language": "de"
-    },
-    {
-      "name": "Sac à Suie",
-      "language": "fr"
-    },
-    {
-      "name": "はいぶくろ",
-      "language": "ja"
     }
   ],
   "held_by_pokemon": [],
   "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/soot-sack.png"
+    "default": "http://pokeapi.co/media/sprites/items/life-orb.png"
   },
-  "baby_trigger_for": null
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 270
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 270
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 270
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 200,
+  "names": [
+    {
+      "name": "Life Orb",
+      "language": "en"
+    },
+    {
+      "name": "Assorbisfera",
+      "language": "it"
+    },
+    {
+      "name": "Vidasfera",
+      "language": "es"
+    },
+    {
+      "name": "Leben-Orb",
+      "language": "de"
+    },
+    {
+      "name": "Orbe Vie",
+      "language": "fr"
+    },
+    {
+      "name": "생명의구슬",
+      "language": "ko"
+    },
+    {
+      "name": "いのちのたま",
+      "language": "ja"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "持たせると　攻撃する　たびに\nＨＰが　少し　減ってしまうが\n技の　威力が　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt boosts the power of moves, but\nat the cost of some HP on each hit.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nPotenzia le mosse a scapito di alcuni PS\nper ogni colpo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Debe llevarlo un Pokémon. Potencia la Velocidad,\npero solo permite usar un movimiento.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Verstärkt Attacken,\naber jede Attacke kostet den Träger KP.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. Augmente la puissance des\ncapacités, mais dépense des PV à chaque coup.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "지니게 하면 공격할 때마다\nHP가 조금씩 줄지만\n기술의 위력이 올라간다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "もたせると　こうげきする　たびに\nＨＰが　すこし　へってしまうが\nわざの　いりょくが　あがる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt boosts the power of moves, but at\nthe cost of some HP on each hit.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt boosts the power of moves, but at\nthe cost of some HP on each hit.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir augmentant la puissance\ndes capacités, mais qui dépense des\nPV à chaque coup.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt boosts the power of moves, but at\nthe cost of some HP on each hit.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt boosts the power of moves, but at\nthe cost of some HP on each hit.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt boosts the power of moves, but at\nthe cost of some HP on each hit.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "id": 247,
+  "fling_power": 30
 }

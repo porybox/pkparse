@@ -1,80 +1,180 @@
 {
-  "id": 534,
-  "name": "eon-ticket",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "event-items"
+    "name": "held-items"
   },
+  "name": "focus-sash",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Provides access to southern island and either latias or latios, whichever is not available roaming around Hoenn.",
-      "short_effect": "Provides access to Southern Island and Latias or Latios.",
+      "short_effect": "Held: Holder survives any single-hit attack at 1 HP if at max HP, then the item is consumed.",
+      "effect": "Held: If the holder has full HP and is attacked for regular damage that would faint it, this item is consumed and prevents the holder's HP from lowering below 1.  This effect works against multi-hit attacks, but does not work against the effects of Doom Desire or Future Sight.",
       "language": "en"
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "text": "The ticket required for sailing on a\nferry to a distant southern island.\nIt features a drawing of an island.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "text": "The ticket for a\nferry to a distant\nsouthern island.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "text": "The ticket for a\nferry to a distant\nsouthern island.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "game_indices": [
-    {
-      "game_index": 275,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Eon Ticket",
-      "language": "en"
-    },
-    {
-      "name": "Bigl. Eone",
-      "language": "it"
-    },
-    {
-      "name": "Ticket Eón",
-      "language": "es"
-    },
-    {
-      "name": "Äon-Ticket",
-      "language": "de"
-    },
-    {
-      "name": "Passe Éon",
-      "language": "fr"
-    },
-    {
-      "name": "むげんのチケット",
-      "language": "ja"
     }
   ],
   "held_by_pokemon": [],
   "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/eon-ticket.png"
+    "default": "http://pokeapi.co/media/sprites/items/focus-sash.png"
   },
-  "baby_trigger_for": null
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 275
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 275
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 275
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 200,
+  "names": [
+    {
+      "name": "Focus Sash",
+      "language": "en"
+    },
+    {
+      "name": "Focalnastro",
+      "language": "it"
+    },
+    {
+      "name": "Banda Focus",
+      "language": "es"
+    },
+    {
+      "name": "Fokusgurt",
+      "language": "de"
+    },
+    {
+      "name": "Ceinture Force",
+      "language": "fr"
+    },
+    {
+      "name": "기합의띠",
+      "language": "ko"
+    },
+    {
+      "name": "きあいのタスキ",
+      "language": "ja"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
+    }
+  ],
+  "flavor_text_entries": [
+    {
+      "text": "持たせると　ＨＰが　満タンのとき\nひんしになりそうな　技を　受けても\nＨＰ１で　１度だけ　耐える。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon. If the holder\nhas full HP, it will endure a potential KO\nattack with 1 HP. The item then disappears.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Strumento da dare a un Pokémon.\nSe il Pokémon ha tutti i PS, eviterà un\npotenziale KO, rimanendo con un PS.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Potencia la Defensa Especial de base, pero\nreduce la Velocidad en combate. Debe llevarla\nun Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein Item zum Tragen. Bei vollen KP bleibt\nder Träger nach einer K.O.-Attacke einmalig\nmit 1 KP im Kampf.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Objet à tenir. S’il a encore tous ses PV,\nle porteur pourra éviter d’être mis K.O. en\nun coup. Il ne conserva alors qu’un seul PV.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "지니게 하면 HP가 꽉 찼을 때\n기절할 듯한 기술을 당해도\nHP 1로 한 번은 버틴다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "もたせると　ＨＰが　まんたんのとき\nひんしになりそうな　わざを　うけても\nＨＰ１で　いちどだけ　たえる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir permettant au porteur,\ns’il a ses PV pleins, d’éviter un\npotentiel K.O. en conservant un PV.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    }
+  ],
+  "id": 252,
+  "fling_power": 10
 }

@@ -1,73 +1,200 @@
 {
-  "id": 555,
-  "name": "tea",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "plot-advancement"
+    "name": "all-machines"
   },
+  "name": "tm42",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Used to bribe the saffron city guards for entry to the city.",
-      "short_effect": "Grants access to Saffron City.",
+      "short_effect": "Teaches Facade to a compatible Pokémon. (Gen II & I: Dream Eater)",
+      "effect": "Teaches Facade to a compatible Pokémon.",
       "language": "en"
     }
   ],
+  "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tm-normal.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 369
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 369
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 369
+    },
+    {
+      "generation": {
+        "name": "generation-iii"
+      },
+      "game_index": 330
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 3000,
+  "names": [
+    {
+      "name": "TM42",
+      "language": "en"
+    },
+    {
+      "name": "MT42",
+      "language": "it"
+    },
+    {
+      "name": "MT42",
+      "language": "es"
+    },
+    {
+      "name": "TM42",
+      "language": "de"
+    },
+    {
+      "name": "CT42",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신42",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン４２",
+      "language": "ja"
+    }
+  ],
+  "attributes": [],
   "flavor_text_entries": [
     {
-      "text": "An aromatic tea prepared by an old\nlady. It will slake even the worst\nthirst.",
+      "text": "自分が　どく　まひ　やけど\n状態のとき　相手に　くりだすと\n技の　威力が　２倍に　なる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An attack move that doubles its power if\nthe user is poisoned, burned, or\nhas paralysis.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Mossa d’attacco che raddoppia la potenza\nse chi la usa è scottato, avvelenato o paralizzato.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Llamas que golpean a los objetivos adyacentes.\nSi estos llevan bayas u otros objetos, estos se\nquemarán y ya no se podrán usar.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ist der Anwender vergiftet, paralysiert oder leidet\ner unter Verbrennungen, verdoppelt sich die Kraft\nder Attacke.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Une attaque dont la puissance double lorsque\nle lanceur est empoisonné, paralysé ou brûlé.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "독, 마비, 화상 상태에서\n기술을 쓰면 2배의 위력으로\n공격할 수 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "どく　まひ　やけど　のじょうたいで\nわざを　だすと　２ばいの　いりょくで\nこうげき　できる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "An attack move that doubles its power\nif the user is poisoned, paralyzed, or\nhas a burn.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An attack move that doubles its power\nif the user is poisoned, paralyzed, or\nhas a burn.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Une attaque dont la puissance double\nlorsque le lanceur est empoisonné,\nparalysé ou brûlé.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An attack move that doubles its power\nif the user is poisoned, paralyzed, or\nhas a burn.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An attack move that doubles its power\nif the user is poisoned, paralyzed, or\nhas a burn.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An attack move that doubles its power\nif the user is poisoned, paralyzed, or\nhas a burn.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An attack that is\nboosted if user is\nburned, poisoned,\nor paralyzed.",
       "version_group": {
         "name": "firered-leafgreen"
       },
       "language": "en"
     },
     {
-      "text": "A thirst-quenching\ntea prepared by an\nold lady.",
+      "text": "Raises ATTACK when\npoisoned, burned,\nor paralyzed.",
       "version_group": {
         "name": "emerald"
       },
       "language": "en"
-    }
-  ],
-  "game_indices": [
+    },
     {
-      "game_index": 369,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Tea",
+      "text": "Raises ATTACK when\npoisoned, burned,\nor paralyzed.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
       "language": "en"
-    },
-    {
-      "name": "Tè",
-      "language": "it"
-    },
-    {
-      "name": "Té",
-      "language": "es"
-    },
-    {
-      "name": "Tee",
-      "language": "de"
-    },
-    {
-      "name": "Thé",
-      "language": "fr"
-    },
-    {
-      "name": "おちゃ",
-      "language": "ja"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/tea.png"
-  },
-  "baby_trigger_for": null
+  "id": 346,
+  "fling_power": null
 }

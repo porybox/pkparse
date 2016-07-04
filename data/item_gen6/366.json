@@ -1,73 +1,200 @@
 {
-  "id": 552,
-  "name": "teachy-tv",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "gameplay"
+    "name": "all-machines"
   },
+  "name": "tm39",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Teaches beginning trainers basic information.",
-      "short_effect": "Teachers basic trainer advice.",
+      "short_effect": "Teaches Rock Tomb to a compatible Pokémon. (Gen II & I: Swift)",
+      "effect": "Teaches Rock Tomb to a compatible Pokémon.",
       "language": "en"
     }
   ],
+  "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tm-normal.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 366
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 366
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 366
+    },
+    {
+      "generation": {
+        "name": "generation-iii"
+      },
+      "game_index": 327
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 2000,
+  "names": [
+    {
+      "name": "TM39",
+      "language": "en"
+    },
+    {
+      "name": "MT39",
+      "language": "it"
+    },
+    {
+      "name": "MT39",
+      "language": "es"
+    },
+    {
+      "name": "TM39",
+      "language": "de"
+    },
+    {
+      "name": "CT39",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신39",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン３９",
+      "language": "ja"
+    }
+  ],
+  "attributes": [],
   "flavor_text_entries": [
     {
-      "text": "A television set that is tuned to\na program with useful tips for\nnovice TRAINERS.",
+      "text": "岩石を　投げつけて　攻撃する。\n相手の　動きを　封じることで\n素早さを　さげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "Boulders are hurled at the target.\nThis also lowers the target’s Speed\nstat by preventing its movement.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Colpisce il nemico con rocce. Inoltre, lo rallenta\nriducendone la Velocità.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "El usuario ataca al objetivo arrojando el objeto\nque lleve. La potencia y los efectos dependen\ndel objeto arrojado.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Das Ziel wird mit Felsen beworfen.\nSenkt den Initiative-Wert des Zieles.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Des rochers frappent l’ennemi.\nRéduit aussi sa Vitesse en l’empêchant de se\ndéplacer.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "암석을 내던져서 공격한다.\n상대의 움직임을 봉인함으로써\n스피드를 떨어뜨린다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "いわを　なげつけ　こうげきする。\nおちた　いわが　うごきを　ふうじて\nあいての　すばやさを　さげる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "Boulders are hurled at the target. It\nalso lowers the target’s Speed by\npreventing its movement.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Boulders are hurled at the target. It\nalso lowers the target’s Speed by\npreventing its movement.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Des rochers frappent l’ennemi. Réduit\naussi sa Vitesse en l’empêchant de\nse déplacer.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "Large boulders are hurled at the foe\nto inflict damage. It lowers the foe’s\nSpeed.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Large boulders are hurled at the foe\nto inflict damage. It lowers the foe’s\nSpeed.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Large boulders are hurled at the foe\nto inflict damage. It may also make the\ntarget flinch.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Boulders are hurled\nat the foe. It also\nlowers the foe’s\nSPEED if it hits.",
       "version_group": {
         "name": "firered-leafgreen"
       },
       "language": "en"
     },
     {
-      "text": "A TV set tuned to\nan advice program\nfor TRAINERS.",
+      "text": "Stops the foe from\nmoving with rocks.\nMay lower SPEED.",
       "version_group": {
         "name": "emerald"
       },
       "language": "en"
-    }
-  ],
-  "game_indices": [
+    },
     {
-      "game_index": 366,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Teachy TV",
+      "text": "Stops the foe from\nmoving with rocks.\nMay lower SPEED.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
       "language": "en"
-    },
-    {
-      "name": "Pokétivù",
-      "language": "it"
-    },
-    {
-      "name": "Poké Tele",
-      "language": "es"
-    },
-    {
-      "name": "Lehrkanal",
-      "language": "de"
-    },
-    {
-      "name": "TV ABC",
-      "language": "fr"
-    },
-    {
-      "name": "おしえテレビ",
-      "language": "ja"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/teachy-tv.png"
-  },
-  "baby_trigger_for": null
+  "id": 343,
+  "fling_power": null
 }

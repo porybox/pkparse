@@ -1,80 +1,413 @@
 {
-  "id": 542,
-  "name": "devon-scope",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "gameplay"
+    "name": "bad-held-items"
   },
+  "name": "sticky-barb",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Reveals invisble kecleon on the overworld.",
-      "short_effect": "Allows spotting of invisible Kecleon.",
+      "short_effect": "Held: Holder takes 1/8 (12.5%) its max HP at the end of each turn. When the holder is hit by a contact move, the attacking Pokémon takes 1/8 its max HP in damage and receive the item if not holding one.",
+      "effect": "Held: Damaged the holder for 1/8 its max HP.  When the holder is struck by a contact move, damages the attacker for 1/8 its max HP; if the attacker is not holding an item, it will take this item.",
       "language": "en"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "soulsilver"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "heartgold"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "platinum"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "pearl"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "diamond"
+          },
+          "rarity": 5
+        }
+      ],
+      "pokemon": {
+        "name": "cacnea"
+      }
+    },
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "soulsilver"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "heartgold"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "platinum"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "pearl"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "diamond"
+          },
+          "rarity": 5
+        }
+      ],
+      "pokemon": {
+        "name": "cacturne"
+      }
+    },
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black"
+          },
+          "rarity": 5
+        }
+      ],
+      "pokemon": {
+        "name": "ferroseed"
+      }
+    },
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "white"
+          },
+          "rarity": 5
+        },
+        {
+          "version": {
+            "name": "black"
+          },
+          "rarity": 5
+        }
+      ],
+      "pokemon": {
+        "name": "ferrothorn"
+      }
+    }
+  ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/sticky-barb.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 288
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 288
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 288
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 200,
+  "names": [
+    {
+      "name": "Sticky Barb",
+      "language": "en"
+    },
+    {
+      "name": "Vischiopunta",
+      "language": "it"
+    },
+    {
+      "name": "Toxiestrella",
+      "language": "es"
+    },
+    {
+      "name": "Klettdorn",
+      "language": "de"
+    },
+    {
+      "name": "Piquants",
+      "language": "fr"
+    },
+    {
+      "name": "끈적끈적바늘",
+      "language": "ko"
+    },
+    {
+      "name": "くっつきバリ",
+      "language": "ja"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
     }
   ],
   "flavor_text_entries": [
     {
-      "text": "A scope that signals the presence\nof any unseeable POKéMON.\nIt is made by the DEVON CORP.",
+      "text": "持たせると　毎ターン　ダメージを\n受ける。　自分に　ふれてきた\n相手に　くっつくことも　ある。",
       "version_group": {
-        "name": "firered-leafgreen"
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt damages the holder every turn and may\nlatch on to Pokémon that touch the holder.",
+      "version_group": {
+        "name": "x-y"
       },
       "language": "en"
     },
     {
-      "text": "A device by DEVON\nthat signals any\nunseeable POKéMON.",
+      "text": "Strumento che danneggia chi ce l’ha a ogni\nturno. Può attaccarsi al nemico che lancia\nun attacco fisico.",
       "version_group": {
-        "name": "emerald"
+        "name": "x-y"
       },
-      "language": "en"
-    },
-    {
-      "text": "A device by DEVON\nthat signals any\nunseeable POKéMON.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "game_indices": [
-    {
-      "game_index": 288,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Devon Scope",
-      "language": "en"
-    },
-    {
-      "name": "Devonscopio",
       "language": "it"
     },
     {
-      "name": "Detec. Devon",
+      "text": "Tabla de piedra que potencia los movimientos de\ntipo Tierra. Debe llevarla un Pokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "es"
     },
     {
-      "name": "Devon-Scope",
+      "text": "Schadet dem Träger in jeder Runde, kann aber\nan Angreifern haften bleiben, die ihn berühren.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "de"
     },
     {
-      "name": "Devon Scope",
+      "text": "Objet à tenir. Blesse le porteur à chaque tour.\nPeut s’accrocher aux ennemis qui attaquent\nle porteur.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "fr"
     },
     {
-      "name": "デボンスコープ",
+      "text": "지니게 하면 매 턴 데미지를 입는다.\n자신에게 접촉해온 상대에게\n들러붙기도 한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "もたせると　まいターン　ダメージを\nうける。　じぶんに　ふれてきた\nあいてに　くっつくことも　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "ja"
+    },
+    {
+      "text": "A held item that damages the holder on\nevery turn. It may latch on to foes and\nallies that touch the holder.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A held item that damages the holder on\nevery turn. It may latch on to foes and\nallies that touch the holder.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir blessant le porteur à\nchaque tour. Peut s’accrocher aux\nennemis qui attaquent le porteur.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A held item that damages the holder on\nevery turn. It may latch on to foes\nthat touch the holder.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that damages the holder on\nevery turn. It may latch on to foes\nthat touch the holder.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A hold item that damages the holder on\nevery turn. It may latch on to foes\nthat touch the holder.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/devon-scope.png"
-  },
-  "baby_trigger_for": null
+  "id": 265,
+  "fling_power": 80
 }

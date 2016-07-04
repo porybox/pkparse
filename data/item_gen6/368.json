@@ -1,73 +1,200 @@
 {
-  "id": 554,
-  "name": "rainbow-pass",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "plot-advancement"
+    "name": "all-machines"
   },
+  "name": "tm41",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Provides access to the Sevii Islands.",
-      "short_effect": "Grants access to all of the Sevii Islands.",
+      "short_effect": "Teaches Torment to a compatible Pokémon. (Gen II: ThunderPunch Gen I: Softboiled)",
+      "effect": "Teaches Torment to a compatible Pokémon.",
       "language": "en"
     }
   ],
+  "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tm-normal.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 368
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 368
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 368
+    },
+    {
+      "generation": {
+        "name": "generation-iii"
+      },
+      "game_index": 329
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 1500,
+  "names": [
+    {
+      "name": "TM41",
+      "language": "en"
+    },
+    {
+      "name": "MT41",
+      "language": "it"
+    },
+    {
+      "name": "MT41",
+      "language": "es"
+    },
+    {
+      "name": "TM41",
+      "language": "de"
+    },
+    {
+      "name": "CT41",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신41",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン４１",
+      "language": "ja"
+    }
+  ],
+  "attributes": [],
   "flavor_text_entries": [
     {
-      "text": "A pass for ferries between\nVERMILION and the SEVII ISLANDS.\nIt features a drawing of a rainbow.",
+      "text": "相手に　いちゃもんを　つけて\n同じ　技を　２回　連続で\nだせなくする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user torments and enrages the\ntarget, making it incapable of using\nthe same move twice in a row.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa tormenta e fa infuriare il nemico,\nimpedendogli di usare la stessa mossa\ndue volte di seguito.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Arroja al objetivo por los aires y lo estrella contra\nel suelo en el siguiente turno, impidiéndole\nmoverse en el aire.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Der Anwender bringt das Ziel in Rage.\nDieses ist nicht mehr in der Lage, eine\nAttacke zweimal hintereinander anzuwenden.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur irrite l’ennemi pour l’empêcher\nd’utiliser la même capacité deux fois de suite.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "트집을 잡아서 똑같은 기술을\n연속으로 쓸 수 없게 한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "いちゃもんを　つけて　おなじわざを\nれんぞくで　だせない　ようにする。\n",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user torments and enrages the\ntarget, making it incapable of using the\nsame move twice in a row.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user torments and enrages the\ntarget, making it incapable of using the\nsame move twice in a row.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur irrite l’ennemi pour\nl’empêcher d’utiliser la même\ncapacité 2 fois de suite.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user torments and enrages the\nfoe, making it incapable of using the\nsame move twice in a row.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user torments and enrages the\nfoe, making it incapable of using the\nsame move twice in a row.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user torments and enrages the\nfoe, making it incapable of using the\nsame move twice in a row.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "It enrages the foe,\nmaking it incapable\nof using the same\nmove successively.",
       "version_group": {
         "name": "firered-leafgreen"
       },
       "language": "en"
     },
     {
-      "text": "For ferries serving\nVERMILION and the\nSEVII ISLANDS.",
+      "text": "Prevents the foe\nfrom using the same\nmove in a row.",
       "version_group": {
         "name": "emerald"
       },
       "language": "en"
-    }
-  ],
-  "game_indices": [
+    },
     {
-      "game_index": 368,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Rainbow Pass",
+      "text": "Prevents the foe\nfrom using the same\nmove in a row.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
       "language": "en"
-    },
-    {
-      "name": "Sette Pass",
-      "language": "it"
-    },
-    {
-      "name": "Iris-Ticket",
-      "language": "es"
-    },
-    {
-      "name": "Bunt-Pass",
-      "language": "de"
-    },
-    {
-      "name": "Passe Prisme",
-      "language": "fr"
-    },
-    {
-      "name": "レインボーパス",
-      "language": "ja"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/rainbow-pass.png"
-  },
-  "baby_trigger_for": null
+  "id": 345,
+  "fling_power": null
 }

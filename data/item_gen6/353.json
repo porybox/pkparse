@@ -1,73 +1,200 @@
 {
-  "id": 546,
-  "name": "gold-teeth",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "plot-advancement"
+    "name": "all-machines"
   },
+  "name": "tm26",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "The Safari Zone warden's teeth, to be returned to him for hm04.",
-      "short_effect": "The Safari Zone Warden's dentures. Trade for HM04 (Strength).",
+      "short_effect": "Teaches Earthquake to a compatible Pokémon.",
+      "effect": "Teaches Earthquake to a compatible Pokémon.",
       "language": "en"
     }
   ],
+  "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tm-normal.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 353
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 353
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 353
+    },
+    {
+      "generation": {
+        "name": "generation-iii"
+      },
+      "game_index": 314
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 3000,
+  "names": [
+    {
+      "name": "TM26",
+      "language": "en"
+    },
+    {
+      "name": "MT26",
+      "language": "it"
+    },
+    {
+      "name": "MT26",
+      "language": "es"
+    },
+    {
+      "name": "TM26",
+      "language": "de"
+    },
+    {
+      "name": "CT26",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신26",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン２６",
+      "language": "ja"
+    }
+  ],
+  "attributes": [],
   "flavor_text_entries": [
     {
-      "text": "A set of false teeth lost by the\nSAFARI ZONE’S WARDEN. It makes his\nsmile sparkle.",
+      "text": "自分の　周りの　ポケモンに\n地震の　衝撃を　あたえて\n攻撃する。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user sets off an earthquake that\nstrikes every Pokémon around it.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa provoca un potente sisma che colpisce\ngli altri Pokémon in campo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Ataca al objetivo envuelto en llamas. Acumula\nfuerza y hace subir la Velocidad del usuario.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Ein starkes Beben wird verursacht, das\nden anderen Pokémon in der Umgebung\ndes Angreifers Schaden zufügt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur provoque un tremblement de terre\ntouchant tous les Pokémon autour de lui.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "지진의 충격을 일으켜서\n자신의 주위에 있는 포켓몬을\n공격한다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "じぶんの　まわりの　ポケモンに\nじしんの　しょうげきを　あたえて\nこうげきする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user sets off an earthquake that\nstrikes every Pokémon around it.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user sets off an earthquake that\nstrikes every Pokémon around it.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur provoque un tremblement\nde terre touchant tous les Pokémon\nautour de lui.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user sets off an earthquake\nthat hits all the Pokémon in the\nbattle.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user sets off an earthquake\nthat hits all the Pokémon in the\nbattle.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user sets off an earthquake\nthat hits all the Pokémon in the\nbattle.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An earthquake that\nstrikes all POKéMON\nin battle excluding\nthe user.",
       "version_group": {
         "name": "firered-leafgreen"
       },
       "language": "en"
     },
     {
-      "text": "Gold dentures lost\nby the SAFARI\nZONE’s WARDEN.",
+      "text": "Causes a quake\nthat has no effect\non flying foes.",
       "version_group": {
         "name": "emerald"
       },
       "language": "en"
-    }
-  ],
-  "game_indices": [
+    },
     {
-      "game_index": 353,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Gold Teeth",
+      "text": "Causes a quake\nthat has no effect\non flying foes.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
       "language": "en"
-    },
-    {
-      "name": "Denti d'Oro",
-      "language": "it"
-    },
-    {
-      "name": "Dientes Oro",
-      "language": "es"
-    },
-    {
-      "name": "Goldzähne",
-      "language": "de"
-    },
-    {
-      "name": "Dent d'Or",
-      "language": "fr"
-    },
-    {
-      "name": "きんのいれば",
-      "language": "ja"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/gold-teeth.png"
-  },
-  "baby_trigger_for": null
+  "id": 330,
+  "fling_power": null
 }

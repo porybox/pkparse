@@ -1,73 +1,200 @@
 {
-  "id": 545,
-  "name": "bike-voucher",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "plot-advancement"
+    "name": "all-machines"
   },
+  "name": "tm25",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "May be traded for a bicycle.",
-      "short_effect": "Trade in Cerulean bike shop for a Bicycle.",
+      "short_effect": "Teaches Thunder to a compatible Pokémon.",
+      "effect": "Teaches Thunder to a compatible Pokémon.",
       "language": "en"
     }
   ],
+  "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tm-normal.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 352
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 352
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 352
+    },
+    {
+      "generation": {
+        "name": "generation-iii"
+      },
+      "game_index": 313
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 5500,
+  "names": [
+    {
+      "name": "TM25",
+      "language": "en"
+    },
+    {
+      "name": "MT25",
+      "language": "it"
+    },
+    {
+      "name": "MT25",
+      "language": "es"
+    },
+    {
+      "name": "TM25",
+      "language": "de"
+    },
+    {
+      "name": "CT25",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신25",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン２５",
+      "language": "ja"
+    }
+  ],
+  "attributes": [],
   "flavor_text_entries": [
     {
-      "text": "Take this voucher to the BIKE SHOP\nin CERULEAN CITY and exchange it\nfor a bicycle.",
+      "text": "激しい　雷を\n相手に　落として　攻撃する。\nまひ状態に　することが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "A wicked thunderbolt is dropped on\nthe target to inflict damage. This may\nalso leave the target with paralysis.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Il nemico è colpito da un lampo molto violento\nche può anche paralizzarlo.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Movimiento de ataque que dobla su potencia si\nquien lo utiliza está envenenado, quemado o\nparalizado.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Das Ziel wird von einem mächtigen Donnerschlag,\nder Paralyse bewirken kann, heimgesucht.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "La foudre tombe sur l’ennemi pour lui infliger\ndes dégâts. Peut aussi le paralyser.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "강한 번개를\n상대에게 떨어뜨려 공격한다.\n마비 상태로 만들 때가 있다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "はげしい　かみなりを　おとして\nこうげきする。　あいてを　まひの\nじょうたいに　することが　ある。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "A wicked thunderbolt is dropped\non the target to inflict damage. It may\nalso leave the target with paralysis.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A wicked thunderbolt is dropped\non the target to inflict damage. It may\nalso leave the target with paralysis.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "La foudre tombe sur l’ennemi pour\nlui infliger des dégâts. Peut aussi\nle paralyser.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "A wicked thunderbolt is dropped on the\nfoe to inflict damage. It may also\nleave the target paralyzed.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A wicked thunderbolt is dropped on the\nfoe to inflict damage. It may also\nleave the target paralyzed.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A wicked thunderbolt is dropped on the\nfoe to inflict damage. It may also\nleave the target paralyzed.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "A brutal lightning\nattack that may\nalso leave the foe\nparalyzed.",
       "version_group": {
         "name": "firered-leafgreen"
       },
       "language": "en"
     },
     {
-      "text": "A voucher for\nobtaining a bicycle\nfrom the BIKE SHOP.",
+      "text": "Strikes the foe\nwith a thunderbolt.\nIt may paralyze.",
       "version_group": {
         "name": "emerald"
       },
       "language": "en"
-    }
-  ],
-  "game_indices": [
+    },
     {
-      "game_index": 352,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Bike Voucher",
+      "text": "Strikes the foe\nwith a thunderbolt.\nIt may paralyze.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
       "language": "en"
-    },
-    {
-      "name": "Buono Bici",
-      "language": "it"
-    },
-    {
-      "name": "Bono Bici",
-      "language": "es"
-    },
-    {
-      "name": "Rad-Coupon",
-      "language": "de"
-    },
-    {
-      "name": "Bon Commande",
-      "language": "fr"
-    },
-    {
-      "name": "ひきかえけん",
-      "language": "ja"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/bike-voucher.png"
-  },
-  "baby_trigger_for": null
+  "id": 329,
+  "fling_power": null
 }

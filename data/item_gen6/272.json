@@ -1,80 +1,202 @@
 {
-  "id": 528,
-  "name": "acro-bike",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "gameplay"
+    "name": "bad-held-items"
+  },
+  "name": "toxic-orb",
+  "fling_effect": {
+    "name": "badly-poison"
   },
   "effect_entries": [
     {
-      "effect": "Increases movement speed outside or in caves.  Slower than the mach bike.  Can perform various tricks, allowing the trainer to reach certain special areas.",
-      "short_effect": "More maneuverable than the Mach Bike, and allows hopping along rails.",
+      "short_effect": "Held: Inflicts Toxic on the holder at the end of the turn. Activates after Poison damage would occur.",
+      "effect": "Held: Badly poisons the holder at the end of each turn.",
       "language": "en"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 1
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 1
+        }
+      ],
+      "pokemon": {
+        "name": "muk"
+      }
+    }
+  ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/toxic-orb.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 272
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 272
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 272
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 100,
+  "names": [
+    {
+      "name": "Toxic Orb",
+      "language": "en"
+    },
+    {
+      "name": "Tossicsfera",
+      "language": "it"
+    },
+    {
+      "name": "Toxisfera",
+      "language": "es"
+    },
+    {
+      "name": "Toxik-Orb",
+      "language": "de"
+    },
+    {
+      "name": "Orbe Toxique",
+      "language": "fr"
+    },
+    {
+      "name": "맹독구슬",
+      "language": "ko"
+    },
+    {
+      "name": "どくどくだま",
+      "language": "ja"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "holdable"
+    },
+    {
+      "name": "holdable-active"
     }
   ],
   "flavor_text_entries": [
     {
-      "text": "A folding bicycle that is capable\nof stunts like jumps and wheelies.",
+      "text": "触ると　毒をだす　不思議な玉。\n持たせると　戦闘中に\n猛毒の　状態に　なる。",
       "version_group": {
-        "name": "firered-leafgreen"
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a bizarre orb that will badly\npoison the holder during battle.",
+      "version_group": {
+        "name": "x-y"
       },
       "language": "en"
     },
     {
-      "text": "A folding bicycle\ncapable of jumps\nand wheelies.",
+      "text": "Strumento da dare a un Pokémon.\nSfera bizzarra che iperavvelena chi l’ha con sé\nin una lotta.",
       "version_group": {
-        "name": "emerald"
+        "name": "x-y"
       },
-      "language": "en"
-    },
-    {
-      "text": "A folding bicycle\ncapable of jumps\nand wheelies.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "game_indices": [
-    {
-      "game_index": 272,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Acro Bike",
-      "language": "en"
-    },
-    {
-      "name": "Bici Cross",
       "language": "it"
     },
     {
-      "name": "Bici Acrob.",
+      "text": "Potencia el Ataque de base, pero reduce la\nVelocidad en combate. Debe llevarlo un\nPokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "es"
     },
     {
-      "name": "Kunstrad",
+      "text": "Ein Item zum Tragen. Dieser bizarre Orb vergiftet\nseinen Träger im Kampf schwer.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "de"
     },
     {
-      "name": "Vélo Cross",
+      "text": "Objet à tenir. Un orbe bizarre empoisonnant\ngravement son porteur durant le combat.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "fr"
     },
     {
-      "name": "ダートじてんしゃ",
+      "text": "만지면 독을 발산하는 이상한 구슬.\n지니게 하면 배틀 중에\n맹독 상태가 된다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "さわると　どくをだす　ふしぎなたま。\nもたせると　せんとうちゅうに\nもうどくの　じょうたいに　なる。",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "ja"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a bizarre orb that badly poisons\nthe holder in battle.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a bizarre orb that badly poisons\nthe holder in battle.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à tenir. Orbe bizarre\nempoisonnant gravement son\nporteur durant le combat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a bizarre orb that badly poisons\nthe holder in battle.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a bizarre orb that badly poisons\nthe holder in battle.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by a Pokémon.\nIt is a bizarre orb that badly poisons\nthe holder in battle.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/acro-bike.png"
-  },
-  "baby_trigger_for": null
+  "id": 249,
+  "fling_power": 30
 }

@@ -1,73 +1,200 @@
 {
-  "id": 558,
-  "name": "powder-jar",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "gameplay"
+    "name": "all-machines"
   },
+  "name": "tm45",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Holds Berry Powder from Berry Crushing.",
-      "short_effect": "Stores Berry Powder made using a Berry Crusher.",
+      "short_effect": "Teaches Attract to a compatible Pokémon. (Gen I: Thunder Wave)",
+      "effect": "Teaches Attract to a compatible Pokémon.",
       "language": "en"
     }
   ],
+  "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tm-normal.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 372
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 372
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 372
+    },
+    {
+      "generation": {
+        "name": "generation-iii"
+      },
+      "game_index": 333
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 3000,
+  "names": [
+    {
+      "name": "TM45",
+      "language": "en"
+    },
+    {
+      "name": "MT45",
+      "language": "it"
+    },
+    {
+      "name": "MT45",
+      "language": "es"
+    },
+    {
+      "name": "TM45",
+      "language": "de"
+    },
+    {
+      "name": "CT45",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신45",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン４５",
+      "language": "ja"
+    }
+  ],
+  "attributes": [],
   "flavor_text_entries": [
     {
-      "text": "A jar for storing BERRY POWDER\nmade using a BERRY CRUSHER.",
+      "text": "♂なら♀を　♀なら♂を　誘惑して\nメロメロに　する。\n相手は　技が　だしにくくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "If it is the opposite gender of the user,\nthe target becomes infatuated and less\nlikely to attack.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Se il nemico è del sesso opposto, s’infatua\ne diventa riluttante ad attaccare.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Quien lo usa realiza un ataque rápido que\naumenta de potencia si el atacante no lleva\nningún objeto.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Gehört das Ziel dem anderen Geschlecht an,\nverliebt es sich und greift eventuell nicht an.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Si l’ennemi est du sexe opposé, il tombe\namoureux et rechigne alors à attaquer.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "수컷은 암컷을 암컷은 수컷을 유혹하여\n헤롱헤롱하게 만든다.\n상대가 기술을 쓰기 어려워진다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "♂なら♀を　♀なら♂を　ゆうわくして\nメロメロにする。　メロメロに　なった\nあいては　わざが　だしにくくなる。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "If it is the opposite gender of the\nuser, the target becomes infatuated\nand less likely to attack.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "If it is the opposite gender of the\nuser, the target becomes infatuated\nand less likely to attack.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Si l’ennemi est du sexe opposé, il\ntombe amoureux et rechigne alors\nà attaquer.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "If it is the opposite gender of the\nuser, the foe becomes infatuated\nand less likely to attack.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "If it is the opposite gender of the\nuser, the foe becomes infatuated\nand less likely to attack.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "If it is the opposite gender of the\nuser, the foe becomes infatuated\nand less likely to attack.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "If it is the other\ngender, the foe is\nmade infatuated and\nunlikely to attack.",
       "version_group": {
         "name": "firered-leafgreen"
       },
       "language": "en"
     },
     {
-      "text": "Stores BERRY\nPOWDER made using\na BERRY CRUSHER.",
+      "text": "Makes it tough to\nattack a foe of the\nopposite gender.",
       "version_group": {
         "name": "emerald"
       },
       "language": "en"
-    }
-  ],
-  "game_indices": [
+    },
     {
-      "game_index": 372,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Powder Jar",
+      "text": "Makes it tough to\nattack a foe of the\nopposite gender.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
       "language": "en"
-    },
-    {
-      "name": "Portafarina",
-      "language": "it"
-    },
-    {
-      "name": "Bote Polvos",
-      "language": "es"
-    },
-    {
-      "name": "Puderdöschen",
-      "language": "de"
-    },
-    {
-      "name": "Pot Poudre",
-      "language": "fr"
-    },
-    {
-      "name": "こないれ",
-      "language": "ja"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/powder-jar.png"
-  },
-  "baby_trigger_for": null
+  "id": 349,
+  "fling_power": null
 }

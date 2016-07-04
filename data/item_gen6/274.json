@@ -1,80 +1,251 @@
 {
-  "id": 533,
-  "name": "letter",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "plot-advancement"
+    "name": "species-specific"
   },
+  "name": "quick-powder",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Contains a letter to be delivered to Steven.",
-      "short_effect": "A letter to Steven from the Devon Corp president.",
+      "short_effect": "Doubles Ditto's Speed when held. The boost is lost after transforming.",
+      "effect": "Held by Ditto: Doubles the holder's initial Speed.",
       "language": "en"
+    }
+  ],
+  "held_by_pokemon": [
+    {
+      "version_details": [
+        {
+          "version": {
+            "name": "y"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "x"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "white-2"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "black-2"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "white"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "black"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "soulsilver"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "heartgold"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "platinum"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "pearl"
+          },
+          "rarity": 50
+        },
+        {
+          "version": {
+            "name": "diamond"
+          },
+          "rarity": 50
+        }
+      ],
+      "pokemon": {
+        "name": "ditto"
+      }
+    }
+  ],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/quick-powder.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 274
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 274
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 274
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 10,
+  "names": [
+    {
+      "name": "Quick Powder",
+      "language": "en"
+    },
+    {
+      "name": "Velopolvere",
+      "language": "it"
+    },
+    {
+      "name": "Polvo Veloz",
+      "language": "es"
+    },
+    {
+      "name": "Flottstaub",
+      "language": "de"
+    },
+    {
+      "name": "Poudre Vite",
+      "language": "fr"
+    },
+    {
+      "name": "스피드파우더",
+      "language": "ko"
+    },
+    {
+      "name": "スピードパウダー",
+      "language": "ja"
+    }
+  ],
+  "attributes": [
+    {
+      "name": "holdable"
     }
   ],
   "flavor_text_entries": [
     {
-      "text": "An extremely important letter to\nSTEVEN from the PRESIDENT of the\nDEVON CORPORATION.",
+      "text": "メタモンに　持たせると　素早さが\nあがる　不思議な粉。\nとても　こまかくて　硬い。",
       "version_group": {
-        "name": "firered-leafgreen"
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Speed stat.",
+      "version_group": {
+        "name": "x-y"
       },
       "language": "en"
     },
     {
-      "text": "A letter to STEVEN\nfrom the PRESIDENT\nof the DEVON CORP.",
+      "text": "Strumento da dare a Ditto.\nQuesta strana polvere, fine e al contempo dura,\naumenta la Velocità.",
       "version_group": {
-        "name": "emerald"
+        "name": "x-y"
       },
-      "language": "en"
-    },
-    {
-      "text": "A letter to STEVEN\nfrom the PRESIDENT\nof the DEVON CORP.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "game_indices": [
-    {
-      "game_index": 274,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Letter",
-      "language": "en"
-    },
-    {
-      "name": "Lettera",
       "language": "it"
     },
     {
-      "name": "Carta",
+      "text": "Potencia el Ataque Especial de base, pero reduce\nla Velocidad en combate. Debe llevarla un\nPokémon.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "es"
     },
     {
-      "name": "Brief",
+      "text": "Ein Item, das Ditto zum Tragen gegeben\nwerden kann. Fein und doch hart, erhöht\nes den Initiative-Wert.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "de"
     },
     {
-      "name": "Lettre",
+      "text": "Objet à faire tenir à Métamorph.\nCette poudre étrange, très fine mais résistante,\naugmente sa Vitesse.",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "fr"
     },
     {
-      "name": "ダイゴへのてがみ",
+      "text": "메타몽에게 지니게 하면 스피드가\n올라가는 이상한 가루.\n매우 곱고 단단하다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "メタモンに　もたせると　すばやさが\nあがる　ふしぎなこな。\nとても　こまかくて　かたい。",
+      "version_group": {
+        "name": "x-y"
+      },
       "language": "ja"
+    },
+    {
+      "text": "An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Speed stat.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Speed stat.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Objet à faire tenir à Métamorph. Cette\npoudre étrange, très fine mais\nrésistante, augmente sa Vitesse.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Speed stat.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Speed stat.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Speed stat.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/letter.png"
-  },
-  "baby_trigger_for": null
+  "id": 251,
+  "fling_power": 10
 }

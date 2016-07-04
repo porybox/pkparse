@@ -1,73 +1,200 @@
 {
-  "id": 559,
-  "name": "ruby",
-  "cost": 0,
-  "fling_power": null,
-  "fling_effect": null,
-  "attributes": [],
   "category": {
-    "name": "plot-advancement"
+    "name": "all-machines"
   },
+  "name": "tm46",
+  "fling_effect": null,
   "effect_entries": [
     {
-      "effect": "Deliver to Celio for use in the Network Machine.",
-      "short_effect": "Give to Celio with Sapphire to activate Network Machine and get Rainbow Pass.",
+      "short_effect": "Teaches Thief to a compatible Pokémon. (Gen I: Psywave)",
+      "effect": "Teaches Thief to a compatible Pokémon.",
       "language": "en"
     }
   ],
+  "held_by_pokemon": [],
+  "sprites": {
+    "default": "http://pokeapi.co/media/sprites/items/tm-normal.png"
+  },
+  "game_indices": [
+    {
+      "generation": {
+        "name": "generation-vi"
+      },
+      "game_index": 373
+    },
+    {
+      "generation": {
+        "name": "generation-v"
+      },
+      "game_index": 373
+    },
+    {
+      "generation": {
+        "name": "generation-iv"
+      },
+      "game_index": 373
+    },
+    {
+      "generation": {
+        "name": "generation-iii"
+      },
+      "game_index": 334
+    }
+  ],
+  "baby_trigger_for": null,
+  "cost": 2000,
+  "names": [
+    {
+      "name": "TM46",
+      "language": "en"
+    },
+    {
+      "name": "MT46",
+      "language": "it"
+    },
+    {
+      "name": "MT46",
+      "language": "es"
+    },
+    {
+      "name": "TM46",
+      "language": "de"
+    },
+    {
+      "name": "CT46",
+      "language": "fr"
+    },
+    {
+      "name": "기술머신46",
+      "language": "ko"
+    },
+    {
+      "name": "わざマシン４６",
+      "language": "ja"
+    }
+  ],
+  "attributes": [],
   "flavor_text_entries": [
     {
-      "text": "An exquisitely beautiful gem that\nhas a red glow.\nIt symbolizes passion.",
+      "text": "攻撃と　同時に　道具を　盗む。\n自分が　道具を　持っている　場合は\n盗めない。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja-kanji"
+    },
+    {
+      "text": "The user attacks and steals the target’s\nheld item simultaneously. The user can’t\nsteal anything if it already holds an item.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Chi la usa attacca il bersaglio e può rubargli\nlo strumento, se non ne ha già uno.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "it"
+    },
+    {
+      "text": "Impide que el objetivo utilice el objeto que lleve\ny que su Entrenador use objetos sobre él.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "es"
+    },
+    {
+      "text": "Der Anwender greift an und stiehlt dem Ziel\ngleichzeitig ein Item, sofern er selbst gerade\nkein Item trägt.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "de"
+    },
+    {
+      "text": "Le lanceur attaque la cible et vole son objet.\nLe lanceur ne peut rien voler s’il tient déjà\nun objet.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "공격과 동시에 도구를 훔친다.\n자신이 도구를 지니고 있을 경우에는\n훔칠 수 없다.",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ko"
+    },
+    {
+      "text": "こうげきと　どうじに　もちものを\nぬすむ。　じぶんに　もちものが\nあると　しっぱいする。",
+      "version_group": {
+        "name": "x-y"
+      },
+      "language": "ja"
+    },
+    {
+      "text": "The user attacks and steals the\ntarget’s held item simultaneously. It\ncan’t steal if the user holds an item.",
+      "version_group": {
+        "name": "black-2-white-2"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user attacks and steals the\ntarget’s held item simultaneously. It\ncan’t steal if the user holds an item.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "en"
+    },
+    {
+      "text": "Le lanceur attaque la cible et vole\nson objet. Le lanceur ne peut rien\nvoler s’il tient déjà un objet.",
+      "version_group": {
+        "name": "black-white"
+      },
+      "language": "fr"
+    },
+    {
+      "text": "The user attacks and steals the foe’s\nheld item simultaneously. It can’t\nsteal if the user holds an item.",
+      "version_group": {
+        "name": "heartgold-soulsilver"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user attacks and steals the foe’s\nheld item simultaneously. It can’t\nsteal if the user holds an item.",
+      "version_group": {
+        "name": "platinum"
+      },
+      "language": "en"
+    },
+    {
+      "text": "The user attacks and steals the foe’s\nheld item simultaneously. It can’t\nsteal if the user holds an item.",
+      "version_group": {
+        "name": "diamond-pearl"
+      },
+      "language": "en"
+    },
+    {
+      "text": "An attack that may\ntake the foe’s held\nitem if the user\nisn’t holding one.",
       "version_group": {
         "name": "firered-leafgreen"
       },
       "language": "en"
     },
     {
-      "text": "An exquisite, red-\nglowing gem that\nsymbolizes passion.",
+      "text": "While attacking,\nit may steal the\nfoe’s held item.",
       "version_group": {
         "name": "emerald"
       },
       "language": "en"
-    }
-  ],
-  "game_indices": [
+    },
     {
-      "game_index": 373,
-      "generation": {
-        "name": "generation-iii"
-      }
-    }
-  ],
-  "names": [
-    {
-      "name": "Ruby",
+      "text": "While attacking,\nit may steal the\nfoe’s held item.",
+      "version_group": {
+        "name": "ruby-sapphire"
+      },
       "language": "en"
-    },
-    {
-      "name": "Rubino",
-      "language": "it"
-    },
-    {
-      "name": "Rubí",
-      "language": "es"
-    },
-    {
-      "name": "Rubin",
-      "language": "de"
-    },
-    {
-      "name": "Rubis",
-      "language": "fr"
-    },
-    {
-      "name": "ルビー",
-      "language": "ja"
     }
   ],
-  "held_by_pokemon": [],
-  "sprites": {
-    "default": "http://pokeapi.co/media/sprites/items/ruby.png"
-  },
-  "baby_trigger_for": null
+  "id": 350,
+  "fling_power": null
 }
