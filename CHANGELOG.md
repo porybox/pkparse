@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.10 (2016-07-08)
+
+* Fixed an issue where the Hardy nature couldn't be parsed
+
 ## v0.10.9 (2016-07-04)
 
 * Fixed an issue where some item IDs were not parsed correctly
