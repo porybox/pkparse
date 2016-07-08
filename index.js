@@ -460,9 +460,6 @@ exports.getAbilityData = abilityId => {
 };
 
 exports.getNatureData = natureId => {
-  if (natureId === 0) {
-    return null;
-  }
   try {
     return require(`./data/nature/${natureId}.json`);
   } catch (e) {
