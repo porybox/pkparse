@@ -7,7 +7,7 @@ for (let i = 1; i < formes.length; i++) {
 
 formes[25] = [null, 'Rockstar', 'Belle', 'Pop', 'PhD', 'Libre', 'Cosplay'];
 
-formes[202] = [
+formes[201] = [
   'A',
   'B',
   'C',
