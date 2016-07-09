@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.11 (2016-07-09)
+
+* Fixed an issue where Unown forms weren't getting parsed
+
 ## v0.10.10 (2016-07-08)
 
 * Fixed an issue where the Hardy nature couldn't be parsed
