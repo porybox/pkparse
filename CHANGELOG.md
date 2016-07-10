@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.12 (2016-07-10)
+
+* Fixed an issue where data for ORAS moves was missing
+
 ## v0.10.11 (2016-07-09)
 
 * Fixed an issue where Unown forms weren't getting parsed
