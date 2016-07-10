@@ -1,0 +1,121 @@
+{
+  "effect_chance": null,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "stat_changes": [],
+  "effect_changes": [],
+  "names": [
+    {
+      "name": "Origin Pulse",
+      "language": "en"
+    },
+    {
+      "name": "Primopulsar",
+      "language": "it"
+    },
+    {
+      "name": "Pulso Primigenio",
+      "language": "es"
+    },
+    {
+      "name": "Ursprungswoge",
+      "language": "de"
+    },
+    {
+      "name": "Onde Originelle",
+      "language": "fr"
+    },
+    {
+      "name": "こんげんのはどう",
+      "language": "ja"
+    }
+  ],
+  "id": 618,
+  "machines": [],
+  "pp": 10,
+  "contest_combos": null,
+  "effect_entries": [
+    {
+      "short_effect": "Inflicts regular damage with no additional effect.",
+      "effect": "Inflicts regular damage.",
+      "language": "en"
+    }
+  ],
+  "contest_type": null,
+  "priority": 0,
+  "contest_effect": null,
+  "type": {
+    "name": "water"
+  },
+  "accuracy": 85,
+  "power": 110,
+  "past_values": [],
+  "target": {
+    "name": "all-opponents"
+  },
+  "super_contest_effect": null,
+  "name": "origin-pulse",
+  "flavor_text_entries": [
+    {
+      "flavor_text": "青白く　輝く　無数の　光線で\n相手を　攻撃する。",
+      "language": "ja-kanji",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "The user attacks opposing Pokémon with countless\nbeams of light that glow a deep and brilliant blue.",
+      "language": "en",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "Attacca i nemici intorno colpendoli\ncon miriadi di raggi di luce blu.",
+      "language": "it",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "Ataca al objetivo con una infinidad de rayos de luz \nazulada.",
+      "language": "es",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender greift das Ziel mit unzähligen\nblau leuchtenden Strahlen an.",
+      "language": "de",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "D’innombrables rayons lumineux d’un bleu étincelant \ns’abattent sur la cible.",
+      "language": "fr",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "파랗게 빛나는 무수한 광선으로\n상대를 공격한다.",
+      "language": "ko",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "あおく　かがやく　むすうの　こうせんで\nあいてを　こうげきする。",
+      "language": "ja",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    }
+  ],
+  "damage_class": {
+    "name": "special"
+  },
+  "meta": null
+}

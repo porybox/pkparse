@@ -1,0 +1,121 @@
+{
+  "effect_chance": null,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "stat_changes": [],
+  "effect_changes": [],
+  "names": [
+    {
+      "name": "Hyperspace Fury",
+      "language": "en"
+    },
+    {
+      "name": "Urtodimensionale",
+      "language": "it"
+    },
+    {
+      "name": "Cerco Dimensión",
+      "language": "es"
+    },
+    {
+      "name": "Dimensionswahn",
+      "language": "de"
+    },
+    {
+      "name": "Furie Dimension",
+      "language": "fr"
+    },
+    {
+      "name": "いじげんラッシュ",
+      "language": "ja"
+    }
+  ],
+  "id": 621,
+  "machines": [],
+  "pp": 5,
+  "contest_combos": null,
+  "effect_entries": [
+    {
+      "short_effect": "Blocks damaging attacks and lowers attacking Pokémon's Attack by two stages on contact.  Switches Aegislash to Shield Forme.",
+      "effect": "Blocks damaging attacks and lowers attacking Pokémon's Attack by two stages on contact.  Switches Aegislash to Shield Forme.",
+      "language": "en"
+    }
+  ],
+  "contest_type": null,
+  "priority": 0,
+  "contest_effect": null,
+  "type": {
+    "name": "dark"
+  },
+  "accuracy": null,
+  "power": 100,
+  "past_values": [],
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "super_contest_effect": null,
+  "name": "hyperspace-fury",
+  "flavor_text_entries": [
+    {
+      "flavor_text": "たくさんの　腕を　つかって　まもるや\n きりを　無視した　連続攻撃\n自分の　防御が　さがる。",
+      "language": "ja-kanji",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "Using its many arms, the user unleashes a barrage of\nattacks that ignore the effects of moves like Protect\nand Detect. This attack lowers the user’s Defense.",
+      "language": "en",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "Permette di attaccare ripetutamente grazie ai molti\narti, ignorando mosse come Protezione o Individua. \nRiduce la Difesa di chi la usa.",
+      "language": "it",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "Ataca al objetivo con una ráfaga de golpes que pasan \npor alto los efectos de movimientos como Protección\no Detección. Hace que baje la Defensa del usuario.",
+      "language": "es",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "Eine Angriffsserie mit vielen Armen, die die Wirkung\nvon Schutzschild und Scanner durchbricht.\nDabei sinkt die Verteidigung des Anwenders.",
+      "language": "de",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "Le Pokémon utilise sa multitude de bras pour infliger \nune nuée de coups qui ignorent les capacités telles \nqu’Abri ou Détection. Baisse la Défense du lanceur. ",
+      "language": "fr",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "많은 팔을 사용하여 방어와\n판별을 무시하는 연속 공격이다.\n자신의 방어가 떨어진다.",
+      "language": "ko",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "たくさんの　うでを　つかって　まもるや\n きりを　むしした　れんぞくこうげき。\nじぶんの　ぼうぎょが　さがる。",
+      "language": "ja",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    }
+  ],
+  "damage_class": {
+    "name": "physical"
+  },
+  "meta": null
+}

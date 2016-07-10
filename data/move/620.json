@@ -1,0 +1,121 @@
+{
+  "effect_chance": null,
+  "generation": {
+    "name": "generation-vi"
+  },
+  "stat_changes": [],
+  "effect_changes": [],
+  "names": [
+    {
+      "name": "Dragon Ascent",
+      "language": "en"
+    },
+    {
+      "name": "Ascesa del Drago",
+      "language": "it"
+    },
+    {
+      "name": "Ascenso Draco",
+      "language": "es"
+    },
+    {
+      "name": "Zenitstürmer",
+      "language": "de"
+    },
+    {
+      "name": "Draco Ascension",
+      "language": "fr"
+    },
+    {
+      "name": "ガリョウテンセイ",
+      "language": "ja"
+    }
+  ],
+  "id": 620,
+  "machines": [],
+  "pp": 5,
+  "contest_combos": null,
+  "effect_entries": [
+    {
+      "short_effect": "Lowers the user's Defense and Special Defense by one stage after inflicting damage.",
+      "effect": "Inflicts regular damage, then lowers the user's Defense and Special Defense by one stage each.",
+      "language": "en"
+    }
+  ],
+  "contest_type": null,
+  "priority": 0,
+  "contest_effect": null,
+  "type": {
+    "name": "flying"
+  },
+  "accuracy": 100,
+  "power": 120,
+  "past_values": [],
+  "target": {
+    "name": "selected-pokemon"
+  },
+  "super_contest_effect": null,
+  "name": "dragon-ascent",
+  "flavor_text_entries": [
+    {
+      "flavor_text": "大空から　急速落下　して\n相手を　攻撃する。\n自分の　防御と　特防が　さがる。",
+      "language": "ja-kanji",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "After soaring upward, the user attacks its target by\ndropping out of the sky at high speeds, although it\nlowers its own Defense and Sp. Def in the process.",
+      "language": "en",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "Permette di proiettarsi in aria e fiondarsi\nsul bersaglio attaccando ad altissima velocità.\nRiduce la Difesa e la Difesa Speciale di chi la usa.",
+      "language": "it",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "El usuario se precipita desde el cielo a una velocidad \nde vértigo para atacar al objetivo, pero hace que\nbajen la Defensa y la Defensa Especial del usuario.",
+      "language": "es",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "Der Anwender greift das Ziel aus atemberaubender\nHöhe im Sturzflug an. Senkt Verteidigung und\nSpezial-Verteidigung des Anwenders.",
+      "language": "de",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "Le Pokémon s’abat à toute vitesse sur la cible\ndepuis les hautes couches de l’atmosphère.\nBaisse la Défense et la Défense Spéciale du lanceur. ",
+      "language": "fr",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "넓은 하늘에서 급속으로 강하하여\n상대를 공격한다.\n자신의 방어와 특수방어가 떨어진다.",
+      "language": "ko",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    },
+    {
+      "flavor_text": "おおぞらから　きゅうそくらっか　して\nあいてを　こうげきする。\nじぶんの　ぼうぎょと　とくぼうが　さがる。",
+      "language": "ja",
+      "version_group": {
+        "name": "omega-ruby-alpha-sapphire"
+      }
+    }
+  ],
+  "damage_class": {
+    "name": "physical"
+  },
+  "meta": null
+}
