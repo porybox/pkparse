@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.10.13 (2016-07-10)
+
+* Fixed an issue where Magikarp's data file was incorrectly formatted
+* Fixed an issue where certain memories would cause parsing failures
+* Fixed an issue where item data for Latiasite/Latiosite was missing
+* Fixed an issue where item data for the ORAS "Bike" item was missing
+
 ## v0.10.12 (2016-07-10)
 
 * Fixed an issue where data for ORAS moves was missing
