@@ -26,6 +26,30 @@ function getDateFromInt (dateStorage) {
   return dateStorage ? Date.UTC((dateStorage & 0xff) + 2000, (dateStorage >>> 8 & 0xff) - 1, dateStorage >>> 16 & 0xff) : null;
 }
 
+const TYPES = [
+  'fighting',
+  'flying',
+  'poison',
+  'ground',
+  'rock',
+  'bug',
+  'ghost',
+  'steel',
+  'fire',
+  'water',
+  'grass',
+  'electric',
+  'psychic',
+  'ice',
+  'dragon',
+  'dark'
+];
+
+const calculateHiddenPower = (hp, atk, def, spa, spd, spe) => ({
+  type: TYPES[Math.floor((hp % 2 + 2 * (atk % 2) + 4 * (def % 2) + 8 * (spe % 2) + 16 * (spa % 2) + 32 * (spd % 2)) * 5 / 21)],
+  power: 30 + Math.floor(((hp & 2) + 2 * (atk & 2) + 4 * (def & 2) + 8 * (spe & 2) + 16 * (spa & 2) + 32 * (spd & 2)) * 20 / 63)
+});
+
 exports.parseBuffer = (buf, options) => {
   if (buf.readUInt16LE(0x04) || !checksumIsValid(buf) || [232, 260].indexOf(buf.length) === -1 || buf.readUInt8(0x58) ||
       buf.readUInt8(0x90) || buf.readUInt8(0xc8)) {
@@ -411,6 +435,11 @@ exports.assignReadableNames = (data, language) => {
   data.tsv = (data.tid ^ data.sid) >>> 4;
   data.esv = (data.pid & 0xffff ^ data.pid >>> 16) >>> 4;
   data.isShiny = !data.isEgg && data.tsv === data.esv;
+
+  const hp = calculateHiddenPower(data.ivHp, data.ivAtk, data.ivDef, data.ivSpAtk, data.ivSpDef, data.ivSpe);
+  data.hiddenPowerType = hp.type;
+  data.hiddenPowerPower = hp.power;
+
   return data;
 };
 

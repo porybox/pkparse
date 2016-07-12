@@ -76,6 +76,8 @@ describe('pk6parse', () => {
       expect(parsed.statSpAtk).to.equal(52);
       expect(parsed.statSpDef).to.equal(46);
       expect(parsed.statSpe).to.equal(40);
+      expect(parsed.hiddenPowerType).to.equal('water');
+      expect(parsed.hiddenPowerPower).to.equal(57);
     });
     it('parses form data correctly', () => {
       const parsed = pk6parse.parseFile(`${__dirname}/kyurem-w.pk6`, {parseNames: true});
