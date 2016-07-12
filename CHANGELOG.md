@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.14 (2016-07-11)
+
+* Added `hiddenPowerType` and `hiddenPowerPower` keys
+
 ## v0.10.13 (2016-07-10)
 
 * Fixed an issue where Magikarp's data file was incorrectly formatted
