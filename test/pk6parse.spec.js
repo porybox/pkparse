@@ -51,7 +51,7 @@ describe('pk6parse', () => {
       expect(parsed.ribbons).to.eql([]);
       expect(parsed.eggLocationName).to.be.null();
       expect(parsed.metLocationName).to.equal('Route 118');
-      expect(parsed.encounterTypeName).to.equal('Pal Park/Egg/Event');
+      expect(parsed.encounterTypeName).to.be.null();
       expect(parsed.otGameName).to.equal('Omega Ruby');
       expect(parsed.countryName).to.equal('United States');
       expect(parsed.regionName).to.equal('New York');

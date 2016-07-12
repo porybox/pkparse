@@ -527,21 +527,7 @@ exports.getMedalData = medalData => {
 };
 
 exports.getEncounterTypeData = encounterTypeId => {
-  return [
-    'Pal Park/Egg/Event',
-    null,
-    'Tall Grass',
-    null,
-    'Sinjoh Ruins Event',
-    'Cave/Hall of Origin',
-    null,
-    'Surfing/Fishing',
-    null,
-    'Building',
-    'Great Marsh/Safari Zone',
-    null,
-    'Starter/Gift/Fossil'
-  ][encounterTypeId];
+  return require('./data/encounterTypes')[encounterTypeId];
 };
 
 exports.getGameData = gameId => require('./data/games.json')[gameId];
