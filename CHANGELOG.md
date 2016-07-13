@@ -2,7 +2,7 @@
 
 ## v0.10.15 (2016-07-12)
 
-* Fixed an issue some encounter types were missing
+* Fixed an issue where some encounter types were missing
 
 ## v0.10.14 (2016-07-11)
 
