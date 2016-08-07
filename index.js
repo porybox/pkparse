@@ -551,7 +551,7 @@ function getTextVar (lineId, textVarId, language) {
   if ([7, 9, 13, 14, 17, 18, 21, 25, 29, 44, 45, 50, 60].indexOf(lineId) !== -1) {
     return exports.getPokemonData(textVarId).names.find(d => d.language === shortLang).name;
   }
-  if ([12, 16, 49].indexOf(lineId) !== -1) {
+  if ([12, 16, 48, 49].indexOf(lineId) !== -1) {
     return exports.getMoveData(textVarId).names.find(d => d.language === shortLang).name;
   }
   if (lineId === 6) {
