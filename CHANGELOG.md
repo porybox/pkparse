@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.16 (2016-08-07)
+
+* Fixed an issue where the memoryLine of certain Pokémon was incorrect, which could cause errors to be thrown
+
 ## v0.10.15 (2016-07-12)
 
 * Fixed an issue where some encounter types were missing
