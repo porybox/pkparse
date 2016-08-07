@@ -560,7 +560,7 @@ function getTextVar (lineId, textVarId, language) {
   try {
     return require('./data/memories/memoryTextVars')[textVarId][language];
   } catch (err) {
-    throw new TypeError(`Invalid memory textVar ID ${textVarId}`);
+    throw new TypeError(`Invalid memory textVar ID: ${textVarId}`);
   }
 }
 
@@ -570,18 +570,18 @@ exports.parseMemoryData = (intensityId, lineId, feelingId, textVarId, nickname, 
   try {
     line = require('./data/memories/memoryLines')[lineId][language];
   } catch (err) {
-    throw new TypeError(`Invalid memory line ID (${lineId})`);
+    throw new TypeError(`Invalid memory line ID: ${lineId}`);
   }
   if (lineId) {
     try {
       intensity = require('./data/memories/memoryIntensities')[intensityId][language];
     } catch (err) {
-      throw new TypeError(`Invalid memory intensity ID (${intensityId})`);
+      throw new TypeError(`Invalid memory intensity ID: ${intensityId}`);
     }
     try {
       feeling = require('./data/memories/memoryFeelings')[feelingId][language];
     } catch (err) {
-      throw new TypeError(`Invalid memory feeling ID ${feelingId}`);
+      throw new TypeError(`Invalid memory feeling ID: ${feelingId}`);
     }
   }
   return line
