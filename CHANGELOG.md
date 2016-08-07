@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.10.17 (2016-08-07)
+
+* Fixed an issue where the memoryLine of certain Pokémon was incorrect, which could cause errors to be thrown
+* Added missing subregion data for Malaysia
+
 ## v0.10.16 (2016-08-07)
 
 * Fixed an issue where the memoryLine of certain Pokémon was incorrect, which could cause errors to be thrown
