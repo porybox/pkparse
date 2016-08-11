@@ -51,7 +51,7 @@ const calculateHiddenPower = (hp, atk, def, spa, spd, spe) => ({
 });
 
 exports.parseBuffer = (buf, options) => {
-  if (buf.readUInt16LE(0x04) || !checksumIsValid(buf) || [232, 260].indexOf(buf.length) === -1 || buf.readUInt8(0x58) ||
+  if (buf.readUInt16LE(0x04) || [232, 260].indexOf(buf.length) === -1 || !checksumIsValid(buf) || buf.readUInt8(0x58) ||
       buf.readUInt8(0x90) || buf.readUInt8(0xc8)) {
     throw new TypeError('The provided buffer is not valid pk6 data');
   }
