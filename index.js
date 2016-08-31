@@ -447,54 +447,21 @@ exports.parseFile = (path, options) => {
   return exports.parseBuffer(require('fs').readFileSync(path), options);
 };
 
-exports.getPokemonData = dexNo => {
+function memSafeRequire (path, errorMessage) {
   try {
-    return require(`./data/pokemon/${dexNo}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid dex number: ${dexNo}`);
+    return require(path);
+  } catch (err) {
+    throw errorMessage ? new TypeError(errorMessage) : err;
+  } finally {
+    delete require.cache[require.resolve(path)];
   }
-};
+}
 
-exports.getItemData = itemId => {
-  if (itemId === 0) {
-    return null;
-  }
-  try {
-    return require(`./data/item_gen6/${itemId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid item ID: ${itemId}`);
-  }
-};
-
-exports.getMoveData = moveId => {
-  if (moveId === 0) {
-    return null;
-  }
-  try {
-    return require(`./data/move/${moveId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid move ID: ${moveId}`);
-  }
-};
-
-exports.getAbilityData = abilityId => {
-  if (abilityId === 0) {
-    return null;
-  }
-  try {
-    return require(`./data/ability/${abilityId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid ability ID: ${abilityId}`);
-  }
-};
-
-exports.getNatureData = natureId => {
-  try {
-    return require(`./data/nature/${natureId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid nature ID: ${natureId}`);
-  }
-};
+exports.getPokemonData = dexNo => memSafeRequire(`./data/pokemon/${dexNo}`, `Invalid dex number: ${dexNo}`);
+exports.getItemData = itemId => itemId ? memSafeRequire(`./data/item_gen6/${itemId}`, `Invalid item ID: ${itemId}`) : null;
+exports.getMoveData = moveId => moveId ? memSafeRequire(`./data/move/${moveId}`, `Invalid move ID: ${moveId}`) : null;
+exports.getAbilityData = abilId => abilId ? memSafeRequire(`./data/ability/${abilId}`, `Invalid ability ID: ${abilId}`) : null;
+exports.getNatureData = natureId => memSafeRequire(`./data/nature/${natureId}`, `Invalid nature ID: ${natureId}`);
 
 exports.getLocationData = (locationId, otGameId, isEggLocation) => {
   if (!locationId && isEggLocation) {
@@ -535,11 +502,11 @@ exports.getGameData = gameId => require('./data/games.json')[gameId];
 exports.getCountryName = (countryId, language) => require('./data/countries')[countryId][language];
 
 exports.getSubregionName = (countryId, subregionId, language) => {
+  const countryData = memSafeRequire(`./data/subregions/${countryId}`, `Invalid country ID ${countryId}`);
   try {
-    const countryData = require(`./data/subregions/${countryId}`);
     return countryData[subregionId][language];
   } catch (err) {
-    throw new TypeError(`Invalid country ID (${countryId}) or subregion ID (${subregionId})`);
+    throw new TypeError(`Invalid subregion ID ${subregionId}`);
   }
 };
 
