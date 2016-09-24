@@ -106,6 +106,32 @@ describe('pk6parse', () => {
       expect(kecleon.metLocationId).to.equal(30001);
       expect(kecleon.eggLocationName).to.equal('Link Trade');
     });
+    it('handles memory ribbons correctly', () => {
+      const noMemoryRibbons = pk6parse.parseFile(`${__dirname}/pkmn1.pk6`, {parseNames: true});
+      const halfMemoryRibbons = pk6parse.parseFile(`${__dirname}/half_memory_ribbons.pk6`, {parseNames: true});
+      const fullMemoryRibbons = pk6parse.parseFile(`${__dirname}/full_memory_ribbons.pk6`, {parseNames: true});
+
+      expect(noMemoryRibbons.contestMemoryRibbonCount).to.equal(0);
+      expect(noMemoryRibbons.battleMemoryRibbonCount).to.equal(0);
+      expect(noMemoryRibbons.ribbons).to.not.include('Contest Memory Ribbon');
+      expect(noMemoryRibbons.ribbons).to.not.include('Contest Memory Ribbon (Gold)');
+      expect(noMemoryRibbons.ribbons).to.not.include('Battle Memory Ribbon');
+      expect(noMemoryRibbons.ribbons).to.not.include('Battle Memory Ribbon (Gold)');
+
+      expect(halfMemoryRibbons.contestMemoryRibbonCount).to.equal(20);
+      expect(halfMemoryRibbons.battleMemoryRibbonCount).to.equal(4);
+      expect(halfMemoryRibbons.ribbons).to.include('Contest Memory Ribbon');
+      expect(halfMemoryRibbons.ribbons).to.not.include('Contest Memory Ribbon (Gold)');
+      expect(halfMemoryRibbons.ribbons).to.include('Battle Memory Ribbon');
+      expect(halfMemoryRibbons.ribbons).to.not.include('Battle Memory Ribbon (Gold)');
+
+      expect(fullMemoryRibbons.contestMemoryRibbonCount).to.equal(40);
+      expect(fullMemoryRibbons.battleMemoryRibbonCount).to.equal(8);
+      expect(fullMemoryRibbons.ribbons).to.not.include('Contest Memory Ribbon');
+      expect(fullMemoryRibbons.ribbons).to.include('Contest Memory Ribbon (Gold)');
+      expect(fullMemoryRibbons.ribbons).to.not.include('Battle Memory Ribbon');
+      expect(fullMemoryRibbons.ribbons).to.include('Battle Memory Ribbon (Gold)');
+    });
   });
   it('allows assignReadableNames to be called on its own', () => {
     const parsedWithNames = pk6parse.parseFile(`${__dirname}/pkmn1.pk6`, {parseNames: true});

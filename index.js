@@ -107,6 +107,8 @@ exports.parseBuffer = (buf, options) => {
 
   data.medalData = buf.readUInt32LE(0x2c);
   data.ribbonData = buf.readUIntLE(0x30, 6);
+  data.contestMemoryRibbonCount = buf.readUInt8(0x38);
+  data.battleMemoryRibbonCount = buf.readUInt8(0x39);
   data.distributionSuperTrainingFlags = buf.readUInt8(0x3a); // TODO: Figure out what these are
   data.nickname = stripNullChars(buf.toString('utf16le', 0x40, 0x58));
 
@@ -424,6 +426,18 @@ exports.assignReadableNames = (data, language) => {
 
   data.medals = exports.getMedalData(data.medalData);
   data.ribbons = exports.getRibbonData(data.ribbonData);
+
+  if (data.contestMemoryRibbonCount === 40) {
+    data.ribbons.push('Contest Memory Ribbon (Gold)');
+  } else if (data.contestMemoryRibbonCount) {
+    data.ribbons.push('Contest Memory Ribbon');
+  }
+
+  if (data.battleMemoryRibbonCount === 8) {
+    data.ribbons.push('Battle Memory Ribbon (Gold)');
+  } else if (data.battleMemoryRibbonCount) {
+    data.ribbons.push('Battle Memory Ribbon');
+  }
 
   data.eggLocationName = exports.getLocationData(data.eggLocationId, data.otGameId, true);
   data.metLocationName = exports.getLocationData(data.metLocationId, data.otGameId);
