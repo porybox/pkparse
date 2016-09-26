@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.10.18 (2016-09-26)
+
+* Fixed a bug where information on memory ribbons was missing
+
 ## v0.10.17 (2016-08-07)
 
 * Fixed an issue where the memoryLine of certain Pokémon was incorrect, which could cause errors to be thrown
