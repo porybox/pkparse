@@ -461,21 +461,20 @@ exports.parseFile = (path, options) => {
   return exports.parseBuffer(require('fs').readFileSync(path), options);
 };
 
-function memSafeRequire (path, errorMessage) {
+function tryRequire (path, errorMessage) {
   try {
     return require(path);
   } catch (err) {
     throw errorMessage ? new TypeError(errorMessage) : err;
-  } finally {
-    delete require.cache[require.resolve(path)];
   }
+  // TODO: Handle memory better if the process is running for a long time
 }
 
-exports.getPokemonData = dexNo => memSafeRequire(`./data/pokemon/${dexNo}`, `Invalid dex number: ${dexNo}`);
-exports.getItemData = itemId => itemId ? memSafeRequire(`./data/item_gen6/${itemId}`, `Invalid item ID: ${itemId}`) : null;
-exports.getMoveData = moveId => moveId ? memSafeRequire(`./data/move/${moveId}`, `Invalid move ID: ${moveId}`) : null;
-exports.getAbilityData = abilId => abilId ? memSafeRequire(`./data/ability/${abilId}`, `Invalid ability ID: ${abilId}`) : null;
-exports.getNatureData = natureId => memSafeRequire(`./data/nature/${natureId}`, `Invalid nature ID: ${natureId}`);
+exports.getPokemonData = dexNo => tryRequire(`./data/pokemon/${dexNo}`, `Invalid dex number: ${dexNo}`);
+exports.getItemData = itemId => itemId ? tryRequire(`./data/item_gen6/${itemId}`, `Invalid item ID: ${itemId}`) : null;
+exports.getMoveData = moveId => moveId ? tryRequire(`./data/move/${moveId}`, `Invalid move ID: ${moveId}`) : null;
+exports.getAbilityData = abilId => abilId ? tryRequire(`./data/ability/${abilId}`, `Invalid ability ID: ${abilId}`) : null;
+exports.getNatureData = natureId => tryRequire(`./data/nature/${natureId}`, `Invalid nature ID: ${natureId}`);
 
 exports.getLocationData = (locationId, otGameId, isEggLocation) => {
   if (!locationId && isEggLocation) {
@@ -516,7 +515,7 @@ exports.getGameData = gameId => require('./data/games.json')[gameId];
 exports.getCountryName = (countryId, language) => require('./data/countries')[countryId][language];
 
 exports.getSubregionName = (countryId, subregionId, language) => {
-  const countryData = memSafeRequire(`./data/subregions/${countryId}`, `Invalid country ID ${countryId}`);
+  const countryData = tryRequire(`./data/subregions/${countryId}`, `Invalid country ID ${countryId}`);
   try {
     return countryData[subregionId][language];
   } catch (err) {
