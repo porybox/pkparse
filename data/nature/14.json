@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "むじゃき",
-      "language": "ja"
-    },
-    {
-      "name": "천진난만",
-      "language": "ko"
-    },
-    {
-      "name": "Naïf",
-      "language": "fr"
-    },
-    {
-      "name": "Naiv",
-      "language": "de"
-    },
-    {
-      "name": "Ingenuo",
-      "language": "es"
-    },
-    {
-      "name": "Ingenua",
-      "language": "it"
-    },
-    {
-      "name": "Naive",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "むじゃき",
+    "en": "Naive",
+    "fr": "Naïf",
+    "it": "Ingenua",
+    "de": "Naiv",
+    "es": "Ingenua",
+    "ko": "천진난만",
+    "zh-CN": "天真",
+    "zh-TW": "天真"
+  }
 }

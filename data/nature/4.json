@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "やんちゃ",
-      "language": "ja"
-    },
-    {
-      "name": "개구쟁이",
-      "language": "ko"
-    },
-    {
-      "name": "Mauvais",
-      "language": "fr"
-    },
-    {
-      "name": "Frech",
-      "language": "de"
-    },
-    {
-      "name": "Pícaro",
-      "language": "es"
-    },
-    {
-      "name": "Birbona",
-      "language": "it"
-    },
-    {
-      "name": "Naughty",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "やんちゃ",
+    "en": "Naughty",
+    "fr": "Mauvais",
+    "it": "Birbona",
+    "de": "Frech",
+    "es": "Pícara",
+    "ko": "개구쟁이",
+    "zh-CN": "顽皮",
+    "zh-TW": "頑皮"
+  }
 }

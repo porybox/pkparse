@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "おだやか",
-      "language": "ja"
-    },
-    {
-      "name": "차분",
-      "language": "ko"
-    },
-    {
-      "name": "Calme",
-      "language": "fr"
-    },
-    {
-      "name": "Still",
-      "language": "de"
-    },
-    {
-      "name": "Sereno",
-      "language": "es"
-    },
-    {
-      "name": "Calma",
-      "language": "it"
-    },
-    {
-      "name": "Calm",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "おだやか",
+    "en": "Calm",
+    "fr": "Calme",
+    "it": "Calma",
+    "de": "Still",
+    "es": "Serena",
+    "ko": "차분",
+    "zh-CN": "温和",
+    "zh-TW": "溫和"
+  }
 }

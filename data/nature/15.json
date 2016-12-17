@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "ひかえめ",
-      "language": "ja"
-    },
-    {
-      "name": "조심",
-      "language": "ko"
-    },
-    {
-      "name": "Modeste",
-      "language": "fr"
-    },
-    {
-      "name": "Mäßig",
-      "language": "de"
-    },
-    {
-      "name": "Modesto",
-      "language": "es"
-    },
-    {
-      "name": "Modesta",
-      "language": "it"
-    },
-    {
-      "name": "Modest",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "ひかえめ",
+    "en": "Modest",
+    "fr": "Modeste",
+    "it": "Modesta",
+    "de": "Mäßig",
+    "es": "Modesta",
+    "ko": "조심",
+    "zh-CN": "内敛",
+    "zh-TW": "內斂"
+  }
 }

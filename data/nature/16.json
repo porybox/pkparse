@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "おっとり",
-      "language": "ja"
-    },
-    {
-      "name": "의젓",
-      "language": "ko"
-    },
-    {
-      "name": "Doux",
-      "language": "fr"
-    },
-    {
-      "name": "Mild",
-      "language": "de"
-    },
-    {
-      "name": "Afable",
-      "language": "es"
-    },
-    {
-      "name": "Mite",
-      "language": "it"
-    },
-    {
-      "name": "Mild",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "おっとり",
+    "en": "Mild",
+    "fr": "Doux",
+    "it": "Mite",
+    "de": "Mild",
+    "es": "Afable",
+    "ko": "의젓",
+    "zh-CN": "慢吞吞",
+    "zh-TW": "慢吞吞"
+  }
 }

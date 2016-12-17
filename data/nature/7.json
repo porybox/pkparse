@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "のんき",
-      "language": "ja"
-    },
-    {
-      "name": "무사태평",
-      "language": "ko"
-    },
-    {
-      "name": "Relax",
-      "language": "fr"
-    },
-    {
-      "name": "Locker",
-      "language": "de"
-    },
-    {
-      "name": "Plácido",
-      "language": "es"
-    },
-    {
-      "name": "Placida",
-      "language": "it"
-    },
-    {
-      "name": "Relaxed",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "のんき",
+    "en": "Relaxed",
+    "fr": "Relax",
+    "it": "Placida",
+    "de": "Locker",
+    "es": "Plácida",
+    "ko": "무사태평",
+    "zh-CN": "悠闲",
+    "zh-TW": "悠閒"
+  }
 }

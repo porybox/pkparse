@@ -42,34 +42,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "てれや",
-      "language": "ja"
-    },
-    {
-      "name": "수줍음",
-      "language": "ko"
-    },
-    {
-      "name": "Pudique",
-      "language": "fr"
-    },
-    {
-      "name": "Zaghaft",
-      "language": "de"
-    },
-    {
-      "name": "Tímido",
-      "language": "es"
-    },
-    {
-      "name": "Ritrosa",
-      "language": "it"
-    },
-    {
-      "name": "Bashful",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "てれや",
+    "en": "Bashful",
+    "fr": "Pudique",
+    "it": "Ritrosa",
+    "de": "Zaghaft",
+    "es": "Tímida",
+    "ko": "수줍음",
+    "zh-CN": "害羞",
+    "zh-TW": "害羞"
+  }
 }

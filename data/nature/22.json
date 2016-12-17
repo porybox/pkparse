@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "なまいき",
-      "language": "ja"
-    },
-    {
-      "name": "건방",
-      "language": "ko"
-    },
-    {
-      "name": "Malpoli",
-      "language": "fr"
-    },
-    {
-      "name": "Forsch",
-      "language": "de"
-    },
-    {
-      "name": "Grosero",
-      "language": "es"
-    },
-    {
-      "name": "Vivace",
-      "language": "it"
-    },
-    {
-      "name": "Sassy",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "なまいき",
+    "en": "Sassy",
+    "fr": "Malpoli",
+    "it": "Vivace",
+    "de": "Forsch",
+    "es": "Grosera",
+    "ko": "건방",
+    "zh-CN": "自大",
+    "zh-TW": "自大"
+  }
 }

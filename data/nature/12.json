@@ -42,34 +42,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "まじめ",
-      "language": "ja"
-    },
-    {
-      "name": "성실",
-      "language": "ko"
-    },
-    {
-      "name": "Sérieux",
-      "language": "fr"
-    },
-    {
-      "name": "Ernst",
-      "language": "de"
-    },
-    {
-      "name": "Serio",
-      "language": "es"
-    },
-    {
-      "name": "Seria",
-      "language": "it"
-    },
-    {
-      "name": "Serious",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "まじめ",
+    "en": "Serious",
+    "fr": "Sérieux",
+    "it": "Seria",
+    "de": "Ernst",
+    "es": "Seria",
+    "ko": "성실",
+    "zh-CN": "认真",
+    "zh-TW": "認真"
+  }
 }
