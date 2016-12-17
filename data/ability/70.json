@@ -1,196 +1,51 @@
 {
   "id": 70,
   "name": "drought",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "ひでり",
+    "kana": "ひでり",
+    "en": "Drought",
+    "fr": "Sécheresse",
+    "it": "Siccità",
+    "de": "Dürre",
+    "es": "Sequía",
+    "ko": "가뭄",
+    "zh-CN": "日照",
+    "zh-TW": "日照"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "登場　したときに 天気を　晴れに　する。",
+    "kana": "とうじょう　したときに てんきを　はれに　する。",
+    "en": "Turns the sunlight harsh when the Pokémon enters a battle.",
+    "fr": "Le soleil se met à briller quand le Pokémon entre au combat.",
+    "it": "Quando il Pokémon entra in campo, la luce solare diventa intensa.",
+    "de": "Erzeugt bei Kampfantritt gleißendes Sonnenlicht.",
+    "es": "Cuando el Pokémon entra en combate, el tiempo pasa a ser soleado.",
+    "ko": "등장했을 때 날씨를 맑음으로 만든다.",
+    "zh-CN": "出场时， 会将天气变为晴朗。",
+    "zh-TW": "出場時， 會將天氣變為晴朗。"
+  },
+  "past_values": [
     {
-      "name": "Drought",
-      "language": "en"
-    },
-    {
-      "name": "Siccità",
-      "language": "it"
-    },
-    {
-      "name": "Sequía",
-      "language": "es"
-    },
-    {
-      "name": "Dürre",
-      "language": "de"
-    },
-    {
-      "name": "Sécheresse",
-      "language": "fr"
-    },
-    {
-      "name": "가뭄",
-      "language": "ko"
-    },
-    {
-      "name": "ひでり",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "The [weather]{mechanic:weather} changes to [strong sunlight]{mechanic:strong-sunlight} when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, []{ability:drizzle}, []{ability:sand-stream}, or []{ability:snow-warning} are sent out at the same time, the abilities will activate in order of [Speed]{mechanic:speed}, respecting []{move:trick-room}.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
-      "short_effect": "Summons [strong sunlight]{mechanic:strong-sunlight} that lasts indefinitely upon entering battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "戦闘に　でると\n日差しが　強くなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Turns the sunlight harsh when\nthe Pokémon enters a battle.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Il sole brilla intensamente quando\nil Pokémon entra in campo.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "El sol sale si el Pokémon entra en\ncombate.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Erzeugt im Kampf gleißendes\nSonnenlicht.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Le soleil se met à briller quand\nce Pokémon rejoint le combat.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "배틀에 나가면\n햇살이 강해진다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "せんとうに　でると\nひざしが　つよくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Turns the sunlight harsh\nif it is in battle.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Turns the sunlight harsh\nif it is in battle.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Intensifie les rayons du\nsoleil pendant le combat.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "The Pokémon makes it\nsunny if it is in battle.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon makes it\nsunny if it is in battle.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon makes it\nsunny if it is in battle.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Summons sunlight in battle.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Summons sunlight in battle.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Summons sunlight in battle.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "vulpix"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "戦闘に　でると 日差しが　強くなる。",
+          "kana": "せんとうに　でると ひざしが　つよくなる。",
+          "fr": "Le soleil se met à briller quand ce Pokémon rejoint le combat.",
+          "it": "Il sole brilla intensamente quando  il Pokémon entra in campo.",
+          "de": "Erzeugt im Kampf gleißendes Sonnenlicht.",
+          "es": "El sol sale si el Pokémon entra en combate.",
+          "ko": "배틀에 나가면 햇살이 강해진다."
+        }
       }
     },
     {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "ninetales"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "groudon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "charizard-mega-y"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Il sole brilla intensamente quando il Pokémon entra in campo."
+        }
       }
     }
   ]

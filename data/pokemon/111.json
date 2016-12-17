@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 50,
@@ -63,16 +61,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "quadruped"
   },
@@ -84,44 +76,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "サイホーン",
-      "language": "ja"
-    },
-    {
-      "name": "Sihorn",
-      "language": "roomaji"
-    },
-    {
-      "name": "뿔카노",
-      "language": "ko"
-    },
-    {
-      "name": "鐵甲犀牛",
-      "language": "zh"
-    },
-    {
-      "name": "Rhinocorne",
-      "language": "fr"
-    },
-    {
-      "name": "Rihorn",
-      "language": "de"
-    },
-    {
-      "name": "Rhyhorn",
-      "language": "es"
-    },
-    {
-      "name": "Rhyhorn",
-      "language": "it"
-    },
-    {
-      "name": "Rhyhorn",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "サイホーン",
+    "en": "Rhyhorn",
+    "fr": "Rhinocorne",
+    "it": "Rhyhorn",
+    "de": "Rihorn",
+    "es": "Rhyhorn",
+    "ko": "뿔카노"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -132,36 +95,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とげとげ",
-      "language": "ja"
-    },
-    {
-      "genus": "뿔",
-      "language": "ko"
-    },
-    {
-      "genus": "Piquant",
-      "language": "fr"
-    },
-    {
-      "genus": "Stachler",
-      "language": "de"
-    },
-    {
-      "genus": "Clavos",
-      "language": "es"
-    },
-    {
-      "genus": "Punzoni",
-      "language": "it"
-    },
-    {
-      "genus": "Spikes",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とげとげ",
+    "en": "Spikes",
+    "fr": "Piquant",
+    "it": "Punzoni",
+    "de": "Stachler",
+    "es": "Clavos",
+    "ko": "뿔"
+  },
   "varieties": [
     {
       "is_default": true,

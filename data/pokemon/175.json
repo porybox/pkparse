@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 46,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "humanoid"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "トゲピー",
-      "language": "ja"
-    },
-    {
-      "name": "Togepy",
-      "language": "roomaji"
-    },
-    {
-      "name": "토게피",
-      "language": "ko"
-    },
-    {
-      "name": "波克比",
-      "language": "zh"
-    },
-    {
-      "name": "Togepi",
-      "language": "fr"
-    },
-    {
-      "name": "Togepi",
-      "language": "de"
-    },
-    {
-      "name": "Togepi",
-      "language": "es"
-    },
-    {
-      "name": "Togepi",
-      "language": "it"
-    },
-    {
-      "name": "Togepi",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "トゲピー",
+    "en": "Togepi",
+    "fr": "Togepi",
+    "it": "Togepi",
+    "de": "Togepi",
+    "es": "Togepi",
+    "ko": "토게피"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はりたま",
-      "language": "ja"
-    },
-    {
-      "genus": "바늘알",
-      "language": "ko"
-    },
-    {
-      "genus": "Balle Pic",
-      "language": "fr"
-    },
-    {
-      "genus": "Zackenball",
-      "language": "de"
-    },
-    {
-      "genus": "Bolaclavos",
-      "language": "es"
-    },
-    {
-      "genus": "Pallapunte",
-      "language": "it"
-    },
-    {
-      "genus": "Spike Ball",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はりたま",
+    "en": "Spike Ball",
+    "fr": "Balle Pic",
+    "it": "Pallapunte",
+    "de": "Zackenball",
+    "es": "Bolaclavos",
+    "ko": "바늘알"
+  },
   "varieties": [
     {
       "is_default": true,

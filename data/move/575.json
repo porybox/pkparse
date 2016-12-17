@@ -2,34 +2,13 @@
   "id": 575,
   "name": "parting-shot",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers all targets' Attack and Special Attack by one stage.  Makes the user switch out.",
-      "short_effect": "Lowers all targets' Attack and Special Attack by one stage.  Makes the user switch out.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,56 +20,40 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Parting Shot",
-      "language": "en"
-    },
-    {
-      "name": "Monito",
-      "language": "it"
-    },
-    {
-      "name": "Última Palabra",
-      "language": "es"
-    },
-    {
-      "name": "Abgangstirade",
-      "language": "de"
-    },
-    {
-      "name": "Dernier Mot",
-      "language": "fr"
-    },
-    {
-      "name": "막말내뱉기",
-      "language": "ko"
-    },
-    {
-      "name": "すてゼリフ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "すてゼリフ",
+    "kana": "すてゼリフ",
+    "en": "Parting Shot",
+    "fr": "Dernier Mot",
+    "it": "Monito",
+    "de": "Abgangstirade",
+    "es": "Última Palabra",
+    "ko": "막말내뱉기",
+    "zh-CN": "抛下狠话",
+    "zh-TW": "拋下狠話"
+  },
+  "flavor_text_entries": {
+    "ja": "すてゼリフで　相手を　いかくし 攻撃と　特攻を　さげたのち 控えの　ポケモンと　入れ替わる。",
+    "kana": "すてゼリフで　あいてを　いかくし こうげきと　とくこうを　さげたのち ひかえの　ポケモンと　いれかわる。",
+    "en": "With a parting threat, the user lowers the target’s Attack and Sp. Atk stats. Then it switches with a party Pokémon.",
+    "fr": "Menace l’ennemi dans une ultime tirade avant de changer de place avec un autre Pokémon. Réduit l’Attaque et l’Attaque Spéciale de l’ennemi.",
+    "it": "Chi la usa lancia un monito intimidatorio al bersaglio, riducendone l’Attacco e l’Attacco Speciale, e si fa sostituire da un altro Pokémon della squadra.",
+    "de": "Schüchtert das Ziel mit einer Abgangstirade ein, sodass dessen Angriffs- und Spezial-Angriffs-Wert sinken. Danach wird der Anwender ausgewechselt.",
+    "es": "El usuario se cambia por otro Pokémon de su equipo, pero antes amedrenta a su oponente y hace que disminuyan su Ataque y Ataque Especial.",
+    "ko": "막말을 내뱉어 상대를 위협하여 공격과 특수공격을 떨어뜨린 후 교대 포켓몬과 교체한다.",
+    "zh-CN": "抛下狠话威吓对手， 降低攻击和特攻后， 和后备宝可梦进行替换。",
+    "zh-TW": "拋下狠話恐嚇對手， 降低對手的攻擊和特攻後， 和後備寶可夢進行替換。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     },
     {
       "change": -1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "dark"
-  }
+  "target": "selected-pokemon",
+  "type": "dark"
 }

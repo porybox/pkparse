@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 74,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "quadruped"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ライボルト",
-      "language": "ja"
-    },
-    {
-      "name": "Livolt",
-      "language": "roomaji"
-    },
-    {
-      "name": "썬더볼트",
-      "language": "ko"
-    },
-    {
-      "name": "雷電獸",
-      "language": "zh"
-    },
-    {
-      "name": "Élecsprint",
-      "language": "fr"
-    },
-    {
-      "name": "Voltenso",
-      "language": "de"
-    },
-    {
-      "name": "Manectric",
-      "language": "es"
-    },
-    {
-      "name": "Manectric",
-      "language": "it"
-    },
-    {
-      "name": "Manectric",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ライボルト",
+    "en": "Manectric",
+    "fr": "Élecsprint",
+    "it": "Manectric",
+    "de": "Voltenso",
+    "es": "Manectric",
+    "ko": "썬더볼트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほうでん",
-      "language": "ja"
-    },
-    {
-      "genus": "방전",
-      "language": "ko"
-    },
-    {
-      "genus": "Décharge",
-      "language": "fr"
-    },
-    {
-      "genus": "Entladung",
-      "language": "de"
-    },
-    {
-      "genus": "Descarga",
-      "language": "es"
-    },
-    {
-      "genus": "Scossa",
-      "language": "it"
-    },
-    {
-      "genus": "Discharge",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほうでん",
+    "en": "Discharge",
+    "fr": "Décharge",
+    "it": "Scossa",
+    "de": "Entladung",
+    "es": "Descarga",
+    "ko": "방전"
+  },
   "varieties": [
     {
       "is_default": true,

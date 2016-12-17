@@ -2,36 +2,13 @@
   "id": 438,
   "name": "power-whip",
   "accuracy": 85,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 120,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Power Whip",
-      "language": "en"
-    },
-    {
-      "name": "Vigorcolpo",
-      "language": "it"
-    },
-    {
-      "name": "Latigazo",
-      "language": "es"
-    },
-    {
-      "name": "Blattgeißel",
-      "language": "de"
-    },
-    {
-      "name": "Mégafouet",
-      "language": "fr"
-    },
-    {
-      "name": "파워휩",
-      "language": "ko"
-    },
-    {
-      "name": "パワーウィップ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "パワーウィップ",
+    "kana": "パワーウィップ",
+    "en": "Power Whip",
+    "fr": "Mégafouet",
+    "it": "Vigorcolpo",
+    "de": "Blattgeißel",
+    "es": "Latigazo",
+    "ko": "파워휩",
+    "zh-CN": "强力鞭打",
+    "zh-TW": "強力鞭打"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "ツタや　触手を　激しく　ふるって 相手を　たたきつけ　攻撃する。",
+    "kana": "ツタや　しょくしゅを　はげしく　ふるって あいてを　たたきつけ　こうげきする。",
+    "en": "The user violently whirls its vines, tentacles, or the like to harshly lash the target.",
+    "fr": "Le lanceur fait virevolter violemment ses lianes ou ses tentacules pour fouetter l’ennemi.",
+    "it": "Chi la usa agita violentemente liane o tentacoli per sferzare il bersaglio.",
+    "de": "Anwender wirbelt seine Ranken oder Tentakel peitschenartig gegen das Ziel.",
+    "es": "El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.",
+    "ko": "덩굴이나 촉수를 세차게 흔들어 상대를 힘껏 쳐서 공격한다.",
+    "zh-CN": "激烈地挥舞青藤或触手 摔打对手进行攻击。",
+    "zh-TW": "激烈地揮舞藤蔓或觸手 向對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user violently whirls its vines or tentacles to harshly lash the target."
+        }
+      }
+    }
+  ]
 }

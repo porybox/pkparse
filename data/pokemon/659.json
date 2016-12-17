@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 10,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ホルビー",
-      "language": "ja"
-    },
-    {
-      "name": "파르빗",
-      "language": "ko"
-    },
-    {
-      "name": "Sapereau",
-      "language": "fr"
-    },
-    {
-      "name": "Scoppel",
-      "language": "de"
-    },
-    {
-      "name": "Bunnelby",
-      "language": "es"
-    },
-    {
-      "name": "Bunnelby",
-      "language": "it"
-    },
-    {
-      "name": "Bunnelby",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ホルビー",
+    "en": "Bunnelby",
+    "fr": "Sapereau",
+    "it": "Bunnelby",
+    "de": "Scoppel",
+    "es": "Bunnelby",
+    "ko": "파르빗"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あなほり",
-      "language": "ja"
-    },
-    {
-      "genus": "땅구멍파기",
-      "language": "ko"
-    },
-    {
-      "genus": "Fouisseur",
-      "language": "fr"
-    },
-    {
-      "genus": "Baugräber",
-      "language": "de"
-    },
-    {
-      "genus": "Excavador",
-      "language": "es"
-    },
-    {
-      "genus": "Scavabuche",
-      "language": "it"
-    },
-    {
-      "genus": "Digging",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あなほり",
+    "en": "Digging",
+    "fr": "Fouisseur",
+    "it": "Scavabuche",
+    "de": "Baugräber",
+    "es": "Excavador",
+    "ko": "땅구멍파기"
+  },
   "varieties": [
     {
       "is_default": true,

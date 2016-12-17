@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 14,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    }
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "タツベイ",
-      "language": "ja"
-    },
-    {
-      "name": "Tatsubay",
-      "language": "roomaji"
-    },
-    {
-      "name": "아공이",
-      "language": "ko"
-    },
-    {
-      "name": "寶貝龍",
-      "language": "zh"
-    },
-    {
-      "name": "Draby",
-      "language": "fr"
-    },
-    {
-      "name": "Kindwurm",
-      "language": "de"
-    },
-    {
-      "name": "Bagon",
-      "language": "es"
-    },
-    {
-      "name": "Bagon",
-      "language": "it"
-    },
-    {
-      "name": "Bagon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "タツベイ",
+    "en": "Bagon",
+    "fr": "Draby",
+    "it": "Bagon",
+    "de": "Kindwurm",
+    "es": "Bagon",
+    "ko": "아공이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いしあたま",
-      "language": "ja"
-    },
-    {
-      "genus": "돌머리",
-      "language": "ko"
-    },
-    {
-      "genus": "Tête de Roc",
-      "language": "fr"
-    },
-    {
-      "genus": "Steinhaupt",
-      "language": "de"
-    },
-    {
-      "genus": "Cabeza Roca",
-      "language": "es"
-    },
-    {
-      "genus": "Rocciotesta",
-      "language": "it"
-    },
-    {
-      "genus": "Rock Head",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いしあたま",
+    "en": "Rock Head",
+    "fr": "Tête de Roc",
+    "it": "Rocciotesta",
+    "de": "Steinhaupt",
+    "es": "Cabeza Roca",
+    "ko": "돌머리"
+  },
   "varieties": [
     {
       "is_default": true,

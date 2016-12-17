@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 40,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "squiggle"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ノコッチ",
-      "language": "ja"
-    },
-    {
-      "name": "Nokocchi",
-      "language": "roomaji"
-    },
-    {
-      "name": "노고치",
-      "language": "ko"
-    },
-    {
-      "name": "土龍弟弟",
-      "language": "zh"
-    },
-    {
-      "name": "Insolourdo",
-      "language": "fr"
-    },
-    {
-      "name": "Dummisel",
-      "language": "de"
-    },
-    {
-      "name": "Dunsparce",
-      "language": "es"
-    },
-    {
-      "name": "Dunsparce",
-      "language": "it"
-    },
-    {
-      "name": "Dunsparce",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ノコッチ",
+    "en": "Dunsparce",
+    "fr": "Insolourdo",
+    "it": "Dunsparce",
+    "de": "Dummisel",
+    "es": "Dunsparce",
+    "ko": "노고치"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "つちへび",
-      "language": "ja"
-    },
-    {
-      "genus": "땅뱀",
-      "language": "ko"
-    },
-    {
-      "genus": "Serpent",
-      "language": "fr"
-    },
-    {
-      "genus": "Schlange",
-      "language": "de"
-    },
-    {
-      "genus": "Serptierra",
-      "language": "es"
-    },
-    {
-      "genus": "Terraserpe",
-      "language": "it"
-    },
-    {
-      "genus": "Land Snake",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "つちへび",
+    "en": "Land Snake",
+    "fr": "Serpent",
+    "it": "Terraserpe",
+    "de": "Schlange",
+    "es": "Serptierra",
+    "ko": "땅뱀"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,45 @@
+{
+  "id": 31,
+  "name": "soda-pop",
+  "names": {
+    "ja": "サイコソーダ",
+    "kana": "サイコソーダ",
+    "en": "Soda Pop",
+    "fr": "Soda Cool",
+    "it": "Gassosa",
+    "de": "Sprudel",
+    "es": "Refresco",
+    "ko": "미네랄사이다",
+    "zh-CN": "劲爽汽水",
+    "zh-TW": "勁爽汽水"
+  },
+  "flavor_text_entries": {
+    "ja": "シュワっと　はじける　ソーダ。 ポケモン　１匹の　ＨＰを ５０だけ　回復する。",
+    "kana": "シュワっと　はじける　ソーダ。 ポケモン　１ひきの　ＨＰを ５０だけ　かいふくする。",
+    "en": "A highly carbonated soda drink. When consumed, it restores up to 50 HP to an injured Pokémon.",
+    "fr": "Une boisson pétillante. Restaure 50 PV d’un Pokémon.",
+    "it": "Bevanda frizzante. Restituisce 50 PS a un Pokémon.",
+    "de": "Ein sprudelndes Mineralwasser, das die KP eines Pokémon um 50 Punkte auffüllt.",
+    "es": "Chispeante bebida gaseosa que restaura 50 PS de un Pokémon.",
+    "ko": "싸하고 톡 쏘는 사이다. 포켓몬 1마리의 HP를 50만큼 회복한다.",
+    "zh-CN": "翻腾着气泡的汽水。 能让１只宝可梦 回复５０ＨＰ。",
+    "zh-TW": "冒著氣泡的汽水。 能讓１隻寶可夢 回復５０ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "シュワっと　はじける　ソーダ。 ポケモン　１匹の　ＨＰを ６０だけ　回復する。",
+          "kana": "シュワっと　はじける　ソーダ。 ポケモン　１ひきの　ＨＰを ６０だけ　かいふくする。",
+          "en": "A highly carbonated soda drink. When consumed, it restores 60 HP to an injured Pokémon.",
+          "fr": "Une boisson pétillante. Restaure 60 PV d’un Pokémon.",
+          "it": "Bevanda frizzante. Restituisce 60 PS a un Pokémon.",
+          "de": "Ein sprudelndes Mineralwasser, das die KP eines Pokémon um 60 Punkte auffüllt.",
+          "es": "Chispeante bebida gaseosa que restaura 60 PS de un Pokémon.",
+          "ko": "싸하고 톡 쏘는 사이다. 포켓몬 1마리의 HP를 60만큼 회복한다."
+        }
+      }
+    }
+  ]
+}

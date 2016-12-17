@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 35,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ルクシオ",
-      "language": "ja"
-    },
-    {
-      "name": "Luxio",
-      "language": "roomaji"
-    },
-    {
-      "name": "럭시오",
-      "language": "ko"
-    },
-    {
-      "name": "勒克貓",
-      "language": "zh"
-    },
-    {
-      "name": "Luxio",
-      "language": "fr"
-    },
-    {
-      "name": "Luxio",
-      "language": "de"
-    },
-    {
-      "name": "Luxio",
-      "language": "es"
-    },
-    {
-      "name": "Luxio",
-      "language": "it"
-    },
-    {
-      "name": "Luxio",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ルクシオ",
+    "en": "Luxio",
+    "fr": "Luxio",
+    "it": "Luxio",
+    "de": "Luxio",
+    "es": "Luxio",
+    "ko": "럭시오"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "でんこう",
-      "language": "ja"
-    },
-    {
-      "genus": "전광",
-      "language": "ko"
-    },
-    {
-      "genus": "Étincelle",
-      "language": "fr"
-    },
-    {
-      "genus": "Funken",
-      "language": "de"
-    },
-    {
-      "genus": "Chispa",
-      "language": "es"
-    },
-    {
-      "genus": "Favilla",
-      "language": "it"
-    },
-    {
-      "genus": "Spark",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "でんこう",
+    "en": "Spark",
+    "fr": "Étincelle",
+    "it": "Favilla",
+    "de": "Funken",
+    "es": "Chispa",
+    "ko": "전광"
+  },
   "varieties": [
     {
       "is_default": true,

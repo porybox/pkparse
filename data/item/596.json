@@ -1,0 +1,38 @@
+{
+  "id": 596,
+  "name": "x-defense-2",
+  "names": {
+    "ja": "ディフェンダー２",
+    "kana": "ディフェンダー２",
+    "en": "X Defense 2",
+    "fr": "Défense 2",
+    "it": "Difesa X-2",
+    "de": "X-Abwehr2",
+    "es": "Defensa X 2",
+    "ko": "디펜드업2",
+    "zh-CN": "防御强化２",
+    "zh-TW": "防禦強化２"
+  },
+  "flavor_text_entries": {
+    "ja": "戦闘中の　ポケモンの 防御を　それなりに　あげる。 ひっこめると　元に　戻る。",
+    "kana": "せんとうちゅうの　ポケモンの ぼうぎょを　それなりに　あげる。 ひっこめると　もとに　もどる。",
+    "en": "It sharply raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    "fr": "Augmente un peu la Défense pendant un combat. L’effet s’estompe si le Pokémon est retiré.",
+    "it": "Aumenta molto la Difesa di un Pokémon in una lotta. L’effetto svanisce se il Pokémon è sostituito.",
+    "de": "Hebt den Verteidigungs-Wert eines Pokémon im Kampf leicht an. Die Wirkung endet mit dem Austausch des Pokémon.",
+    "es": "Aumenta ligeramente la Defensa en combate. Al cambiar de Pokémon, el efecto desaparece.",
+    "ko": "배틀 중인 포켓몬의 방어를 그럭저럭 올린다. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다.",
+    "zh-CN": "能相对提高战斗中 宝可梦的防御。 离场后，效果便会消失。",
+    "zh-TW": "能相對提高戰鬥中 寶可夢的防禦。 離場後，效果便會復原。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Augmente un peu la Défense pendant un combat. L’effet s’estompe si le Pokémon se retire."
+        }
+      }
+    }
+  ]
+}

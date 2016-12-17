@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 146,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water3"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "armor"
   },
@@ -72,44 +64,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "サニーゴ",
-      "language": "ja"
-    },
-    {
-      "name": "Sunnygo",
-      "language": "roomaji"
-    },
-    {
-      "name": "코산호",
-      "language": "ko"
-    },
-    {
-      "name": "太陽珊瑚",
-      "language": "zh"
-    },
-    {
-      "name": "Corayon",
-      "language": "fr"
-    },
-    {
-      "name": "Corasonn",
-      "language": "de"
-    },
-    {
-      "name": "Corsola",
-      "language": "es"
-    },
-    {
-      "name": "Corsola",
-      "language": "it"
-    },
-    {
-      "name": "Corsola",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "サニーゴ",
+    "en": "Corsola",
+    "fr": "Corayon",
+    "it": "Corsola",
+    "de": "Corasonn",
+    "es": "Corsola",
+    "ko": "코산호"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -120,36 +83,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さんご",
-      "language": "ja"
-    },
-    {
-      "genus": "산호",
-      "language": "ko"
-    },
-    {
-      "genus": "Corail",
-      "language": "fr"
-    },
-    {
-      "genus": "Koralle",
-      "language": "de"
-    },
-    {
-      "genus": "Coral",
-      "language": "es"
-    },
-    {
-      "genus": "Corallo",
-      "language": "it"
-    },
-    {
-      "genus": "Coral",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さんご",
+    "en": "Coral",
+    "fr": "Corail",
+    "it": "Corallo",
+    "de": "Koralle",
+    "es": "Coral",
+    "ko": "산호"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -164,11 +106,23 @@
     "rock"
   ],
   "base_stats": {
-    "hp": 55,
+    "hp": 65,
     "attack": 55,
-    "defense": 85,
+    "defense": 95,
     "special-attack": 65,
-    "special-defense": 85,
+    "special-defense": 95,
     "speed": 35
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "hp": 55,
+          "defense": 85,
+          "special-defense": 85
+        }
+      }
+    }
+  ]
 }

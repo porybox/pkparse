@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 102,
@@ -69,13 +67,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -87,44 +81,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ケーシィ",
-      "language": "ja"
-    },
-    {
-      "name": "Casey",
-      "language": "roomaji"
-    },
-    {
-      "name": "캐이시",
-      "language": "ko"
-    },
-    {
-      "name": "凱西",
-      "language": "zh"
-    },
-    {
-      "name": "Abra",
-      "language": "fr"
-    },
-    {
-      "name": "Abra",
-      "language": "de"
-    },
-    {
-      "name": "Abra",
-      "language": "es"
-    },
-    {
-      "name": "Abra",
-      "language": "it"
-    },
-    {
-      "name": "Abra",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ケーシィ",
+    "en": "Abra",
+    "fr": "Abra",
+    "it": "Abra",
+    "de": "Abra",
+    "es": "Abra",
+    "ko": "캐이시"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -135,36 +100,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ねんりき",
-      "language": "ja"
-    },
-    {
-      "genus": "초능력",
-      "language": "ko"
-    },
-    {
-      "genus": "Psy",
-      "language": "fr"
-    },
-    {
-      "genus": "Psi",
-      "language": "de"
-    },
-    {
-      "genus": "Psi",
-      "language": "es"
-    },
-    {
-      "genus": "Psico",
-      "language": "it"
-    },
-    {
-      "genus": "Psi",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ねんりき",
+    "en": "Psi",
+    "fr": "Psy",
+    "it": "Psico",
+    "de": "Psi",
+    "es": "Psi",
+    "ko": "초능력"
+  },
   "varieties": [
     {
       "is_default": true,

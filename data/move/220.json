@@ -2,49 +2,13 @@
   "id": 220,
   "name": "pain-split",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "endure"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Changes the user's and target's remaining [HP]{mechanic:hp} to the average of their current remaining [HP]{mechanic:hp}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This effect does not count as inflicting damage for other moves and effects that respond to damage taken.\n\nThis effect [fail]{mechanic:fail}s against a []{move:substitute}.",
-      "short_effect": "Sets the user's and targets's HP to the average of their current HP.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Pain Split",
-      "language": "en"
-    },
-    {
-      "name": "Malcomune",
-      "language": "it"
-    },
-    {
-      "name": "Divide Dolor",
-      "language": "es"
-    },
-    {
-      "name": "Leidteiler",
-      "language": "de"
-    },
-    {
-      "name": "Balance",
-      "language": "fr"
-    },
-    {
-      "name": "아픔나누기",
-      "language": "ko"
-    },
-    {
-      "name": "いたみわけ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "いたみわけ",
+    "kana": "いたみわけ",
+    "en": "Pain Split",
+    "fr": "Balance",
+    "it": "Malcomune",
+    "de": "Leidteiler",
+    "es": "Divide Dolor",
+    "ko": "아픔나누기",
+    "zh-CN": "分担痛楚",
+    "zh-TW": "分擔痛楚"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "自分の　ＨＰと　相手の　ＨＰを あわせて　それを　自分と　相手で なかよく　わける。",
+    "kana": "じぶんの　ＨＰと　あいての　ＨＰを あわせて　それを　じぶんと　あいてで なかよく　わける。",
+    "en": "The user adds its HP to the target’s HP, then equally shares the combined HP with the target.",
+    "fr": "Le lanceur ajoute ses PV à ceux de sa cible et les répartit équitablement.",
+    "it": "Chi la usa somma i propri PS a quelli di un altro Pokémon per poi dividerli in parti uguali.",
+    "de": "Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.",
+    "es": "Suma los PS del usuario a los del objetivo y los reparte a partes iguales.",
+    "ko": "자신의 HP와 상대의 HP를 합친 것을 자신과 상대가 사이좋게 나눈다.",
+    "zh-CN": "将自己的ＨＰ和 对手的ＨＰ相加， 然后自己和对手友好地平分。",
+    "zh-TW": "將自己的ＨＰ和 對手的ＨＰ相加， 然後雙方友好地平分。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

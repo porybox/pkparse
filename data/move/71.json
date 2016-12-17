@@ -2,49 +2,13 @@
   "id": 71,
   "name": "absorb",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 25,
   "priority": 0,
   "power": 20,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "growth"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  [Drains]{mechanic:drain} half the damage inflicted to heal the user.",
-      "short_effect": "Drains half the damage inflicted to heal the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+heal"
-    },
+    "ailment": "none",
+    "category": "damage+heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,55 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Absorb",
-      "language": "en"
-    },
-    {
-      "name": "Assorbimento",
-      "language": "it"
-    },
-    {
-      "name": "Absorber",
-      "language": "es"
-    },
-    {
-      "name": "Absorber",
-      "language": "de"
-    },
-    {
-      "name": "Vol-Vie",
-      "language": "fr"
-    },
-    {
-      "name": "흡수",
-      "language": "ko"
-    },
-    {
-      "name": "すいとる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": 20,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "すいとる",
+    "kana": "すいとる",
+    "en": "Absorb",
+    "fr": "Vol-Vie",
+    "it": "Assorbimento",
+    "de": "Absorber",
+    "es": "Absorber",
+    "ko": "흡수",
+    "zh-CN": "吸取",
+    "zh-TW": "吸取"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "養分を　吸い取り　攻撃する。 相手に　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+    "kana": "ようぶんを　すいとり　こうげきする。 あいてに　あたえた　ダメージの はんぶんの　ＨＰを　かいふくできる。",
+    "en": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+    "fr": "Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur.",
+    "it": "Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+    "de": "Attacke, die die Hälfte des Schadens absorbiert.",
+    "es": "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.",
+    "ko": "양분을 흡수하여 공격한다. 상대에게 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+    "zh-CN": "吸取对手的养分进行攻击。 可以回复给予对手 伤害的一半ＨＰ。",
+    "zh-TW": "吸取對手的養分進行攻擊。 可以回復給予對手 傷害的一半ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass"
 }

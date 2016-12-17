@@ -2,48 +2,13 @@
   "id": 332,
   "name": "aerial-ace",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.",
-      "short_effect": "Never misses.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Hits Pokémon under the effects of []{move:dig} and []{move:fly}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -55,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Aerial Ace",
-      "language": "en"
-    },
-    {
-      "name": "Aeroassalto",
-      "language": "it"
-    },
-    {
-      "name": "Golpe Aéreo",
-      "language": "es"
-    },
-    {
-      "name": "Aero-Ass",
-      "language": "de"
-    },
-    {
-      "name": "Aéropique",
-      "language": "fr"
-    },
-    {
-      "name": "제비반환",
-      "language": "ko"
-    },
-    {
-      "name": "つばめがえし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "つばめがえし",
+    "kana": "つばめがえし",
+    "en": "Aerial Ace",
+    "fr": "Aéropique",
+    "it": "Aeroassalto",
+    "de": "Aero-Ass",
+    "es": "Golpe Aéreo",
+    "ko": "제비반환",
+    "zh-CN": "燕返",
+    "zh-TW": "燕返"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "素早い　動きで 相手を　ほんろうして　切りつける。 攻撃は　必ず　命中する。",
+    "kana": "すばやい　うごきで あいてを　ほんろうして　きりつける。 こうげきは　かならず　めいちゅう　する。",
+    "en": "The user confounds the target with speed, then slashes. This attack never misses.",
+    "fr": "Le lanceur prend l’ennemi de vitesse et le lacère. N’échoue jamais.",
+    "it": "Chi la usa attacca il bersaglio a grande velocità. Questa mossa è infallibile.",
+    "de": "Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.",
+    "es": "El usuario lanza un ataque muy rápido e ineludible.",
+    "ko": "재빠른 움직임으로 상대를 농락해 벤다. 공격은 반드시 명중한다.",
+    "zh-CN": "以敏捷的动作 戏弄对手后进行切斩。 攻击必定会命中。",
+    "zh-TW": "以敏捷的動作 戲弄對手後進行切斬。 攻擊必定會命中。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying"
 }

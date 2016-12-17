@@ -1,0 +1,46 @@
+{
+  "id": 476,
+  "name": "basement-key",
+  "names": {
+    "ja": "ちかのかぎ",
+    "kana": "ちかのかぎ",
+    "en": "Basement Key",
+    "fr": "Clé Sous-Sol",
+    "it": "Chiave sotterr.",
+    "de": "Kelleröffner",
+    "es": "Llave Sótano",
+    "ko": "지하의열쇠",
+    "zh-CN": "地下钥匙",
+    "zh-TW": "地下鑰匙"
+  },
+  "flavor_text_entries": {
+    "ja": "コガネ地下道に　ある　扉を 空ける　カギ。",
+    "kana": "コガネちかどうに　ある　とびらを あける　カギ。",
+    "en": "A key that opens a door in the Goldenrod Tunnel.",
+    "fr": "Une clé qui permet d’ouvrir la porte au fond du Doublon-Tunnel.",
+    "it": "Chiave che permette di aprire la porta all’interno del Fiortunnel.",
+    "de": "Ein Schlüssel, der eine Tür in der Dukatia-Passage von Dukatia City öffnet.",
+    "es": "Llave que abre la puerta que hay en el Túnel Trigal.",
+    "ko": "금빛지하도에 있는 문을 여는 열쇠.",
+    "zh-CN": "用来打开满金地道 大门的钥匙。",
+    "zh-TW": "用來打開滿金地下道的 門的鑰匙。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ein Schlüssel, der eine Tür in der Dukatia- Passage von Dukatia City öffnet."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "names": {
+          "it": "Chiave Sotterr."
+        }
+      }
+    }
+  ]
+}

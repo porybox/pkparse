@@ -1,233 +1,44 @@
 {
   "id": 36,
   "name": "trace",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "トレース",
+    "kana": "トレース",
+    "en": "Trace",
+    "fr": "Calque",
+    "it": "Traccia",
+    "de": "Fährte",
+    "es": "Rastro",
+    "ko": "트레이스",
+    "zh-CN": "复制",
+    "zh-TW": "複製"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "登場　したとき 相手の　特性を　トレースして 同じ　特性に　なる。",
+    "kana": "とうじょう　したとき あいての　とくせいを　トレースして おなじ　とくせいに　なる。",
+    "en": "When it enters a battle, the Pokémon copies an opposing Pokémon’s Ability.",
+    "fr": "Lorsque le Pokémon entre au combat, il calque le talent d’un ennemi pour remplacer le sien.",
+    "it": "Quando il Pokémon entra in campo, copia l’abilità di un nemico.",
+    "de": "Kopiert bei Kampfantritt die Fähigkeit eines Gegners.",
+    "es": "Al entrar en combate copia la habilidad del rival.",
+    "ko": "등장했을 때 상대의 특성을 트레이스해서 같은 특성이 된다.",
+    "zh-CN": "出场时，复制对手的特性， 变为与之相同的特性。",
+    "zh-TW": "出場時，複製對手的特性， 變為與之相同的特性。"
+  },
+  "past_values": [
     {
-      "name": "Trace",
-      "language": "en"
-    },
-    {
-      "name": "Traccia",
-      "language": "it"
-    },
-    {
-      "name": "Rastro",
-      "language": "es"
-    },
-    {
-      "name": "Fährte",
-      "language": "de"
-    },
-    {
-      "name": "Calque",
-      "language": "fr"
-    },
-    {
-      "name": "트레이스",
-      "language": "ko"
-    },
-    {
-      "name": "トレース",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "When this Pokémon enters battle, it copies a random opponent's ability.\n\nThis ability cannot copy []{ability:flower-gift}, []{ability:forecast}, []{ability:illusion}, []{ability:imposter}, []{ability:multitype}, []{ability:trace}, []{ability:wonder-guard}, or []{ability:zen-mode}.",
-      "short_effect": "Copies an opponent's ability upon entering battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "Can copy []{ability:flower-gift} and []{ability:wonder-guard}.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手と　同じ 特性に　なる。",
+          "kana": "あいてと　おなじ とくせいに　なる。",
+          "en": "The Pokémon copies an opposing Pokémon’s Ability.",
+          "fr": "Imite le talent de l’ennemi.",
+          "it": "Copia l’abilità del nemico.",
+          "de": "Das Pokémon kopiert die Fähigkeit des Gegners.",
+          "es": "Copia la habilidad del rival.",
+          "ko": "상대와 같은 특성이 된다."
         }
-      ]
-    },
-    {
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "effect_entries": [
-        {
-          "effect": "Can copy []{ability:forecast} and []{ability:trace}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "相手と　同じ\n特性に　なる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "The Pokémon copies an\nopposing Pokémon’s Ability.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Copia l’abilità del nemico.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Copia la habilidad del rival.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Das Pokémon kopiert\ndie Fähigkeit des Gegners.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Imite le talent de l’ennemi.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "상대와 같은\n특성이 된다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "あいてと　おなじ\nとくせいに　なる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "The Pokémon copies a\nfoe’s Ability.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon copies a\nfoe’s Ability.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Imite la capacité spéciale\nde l’ennemi.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "The Pokémon copies the\nfoe’s ability.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon copies the\nfoe’s ability.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon copies the\nfoe’s ability.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Copies special ability.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Copies special ability.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Copies special ability.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "porygon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "porygon2"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "ralts"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "kirlia"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "gardevoir"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "alakazam-mega"
       }
     }
   ]

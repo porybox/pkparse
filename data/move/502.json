@@ -2,34 +2,13 @@
   "id": 502,
   "name": "ally-switch",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 15,
-  "priority": 1,
+  "priority": 2,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User switches position on the field with the friendly Pokémon opposite it.  If the user is in the middle position in a triple battle, or there are no other friendly Pokémon, this move will [fail]{mechanic:fail}.",
-      "short_effect": "User switches places with the friendly Pokémon opposite it.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Ally Switch",
-      "language": "en"
-    },
-    {
-      "name": "Cambiaposto",
-      "language": "it"
-    },
-    {
-      "name": "Cambio Banda",
-      "language": "es"
-    },
-    {
-      "name": "Seitentausch",
-      "language": "de"
-    },
-    {
-      "name": "Interversion",
-      "language": "fr"
-    },
-    {
-      "name": "사이드체인지",
-      "language": "ko"
-    },
-    {
-      "name": "サイドチェンジ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "サイドチェンジ",
+    "kana": "サイドチェンジ",
+    "en": "Ally Switch",
+    "fr": "Interversion",
+    "it": "Cambiaposto",
+    "de": "Seitentausch",
+    "es": "Cambio Banda",
+    "ko": "사이드체인지",
+    "zh-CN": "交换场地",
+    "zh-TW": "交換場地"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "不思議な　力で　テレポートして 自分と　味方の　居場所を 入れ替える。",
+    "kana": "ふしぎな　ちからで　テレポートして じぶんと　みかたの　いばしょを いれかえる。",
+    "en": "The user teleports using a strange power and switches places with one of its allies.",
+    "fr": "Le lanceur se téléporte à l’aide d’un pouvoir mystérieux. Il échange sa place avec celle d’un allié sur le terrain.",
+    "it": "Chi la usa cambia di posto con un alleato in campo grazie a un misterioso potere.",
+    "de": "Wundersame Kräfte teleportieren den Anwender an den Platz eines Mitstreiters.",
+    "es": "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.",
+    "ko": "이상한 힘으로 순간이동하여 자신과 같은 편이 있는 장소를 바꾼다.",
+    "zh-CN": "用神奇的力量瞬间移动， 互换自己和同伴所在的位置。",
+    "zh-TW": "用神奇的力量瞬間移動， 讓自己和同伴的所在位置互換。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "priority": 1,
+        "flavor_text_entries": {
+          "it": "Chi la usa si teletrasporta al posto di un alleato in campo, grazie a un misterioso potere."
+        }
+      }
+    }
+  ]
 }

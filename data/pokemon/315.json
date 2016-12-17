@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 72,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "fairy"
-    }
+    "fairy",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -74,44 +66,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ロゼリア",
-      "language": "ja"
-    },
-    {
-      "name": "Roselia",
-      "language": "roomaji"
-    },
-    {
-      "name": "로젤리아",
-      "language": "ko"
-    },
-    {
-      "name": "毒薔薇",
-      "language": "zh"
-    },
-    {
-      "name": "Rosélia",
-      "language": "fr"
-    },
-    {
-      "name": "Roselia",
-      "language": "de"
-    },
-    {
-      "name": "Roselia",
-      "language": "es"
-    },
-    {
-      "name": "Roselia",
-      "language": "it"
-    },
-    {
-      "name": "Roselia",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ロゼリア",
+    "en": "Roselia",
+    "fr": "Rosélia",
+    "it": "Roselia",
+    "de": "Roselia",
+    "es": "Roselia",
+    "ko": "로젤리아"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -122,36 +85,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いばら",
-      "language": "ja"
-    },
-    {
-      "genus": "가시",
-      "language": "ko"
-    },
-    {
-      "genus": "Épine",
-      "language": "fr"
-    },
-    {
-      "genus": "Dorn",
-      "language": "de"
-    },
-    {
-      "genus": "Espina",
-      "language": "es"
-    },
-    {
-      "genus": "Spina",
-      "language": "it"
-    },
-    {
-      "genus": "Thorn",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いばら",
+    "en": "Thorn",
+    "fr": "Épine",
+    "it": "Spina",
+    "de": "Dorn",
+    "es": "Espina",
+    "ko": "가시"
+  },
   "varieties": [
     {
       "is_default": true,

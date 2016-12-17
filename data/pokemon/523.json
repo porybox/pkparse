@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 75,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "quadruped"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ゼブライカ",
-      "language": "ja"
-    },
-    {
-      "name": "제브라이카",
-      "language": "ko"
-    },
-    {
-      "name": "Zéblitz",
-      "language": "fr"
-    },
-    {
-      "name": "Zebritz",
-      "language": "de"
-    },
-    {
-      "name": "Zebstrika",
-      "language": "es"
-    },
-    {
-      "name": "Zebstrika",
-      "language": "it"
-    },
-    {
-      "name": "Zebstrika",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゼブライカ",
+    "en": "Zebstrika",
+    "fr": "Zéblitz",
+    "it": "Zebstrika",
+    "de": "Zebritz",
+    "es": "Zebstrika",
+    "ko": "제브라이카"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "らいでん",
-      "language": "ja"
-    },
-    {
-      "genus": "뇌전",
-      "language": "ko"
-    },
-    {
-      "genus": "Foudrélec",
-      "language": "fr"
-    },
-    {
-      "genus": "Donnerkeil",
-      "language": "de"
-    },
-    {
-      "genus": "Rayo",
-      "language": "es"
-    },
-    {
-      "genus": "Saetta",
-      "language": "it"
-    },
-    {
-      "genus": "Thunderbolt",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "らいでん",
+    "en": "Thunderbolt",
+    "fr": "Foudrélec",
+    "it": "Saetta",
+    "de": "Donnerkeil",
+    "es": "Rayo",
+    "ko": "뇌전"
+  },
   "varieties": [
     {
       "is_default": true,

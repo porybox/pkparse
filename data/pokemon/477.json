@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 71,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "arms"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ヨノワール",
-      "language": "ja"
-    },
-    {
-      "name": "Yonoir",
-      "language": "roomaji"
-    },
-    {
-      "name": "야느와르몽",
-      "language": "ko"
-    },
-    {
-      "name": "夜黑魔人",
-      "language": "zh"
-    },
-    {
-      "name": "Noctunoir",
-      "language": "fr"
-    },
-    {
-      "name": "Zwirrfinst",
-      "language": "de"
-    },
-    {
-      "name": "Dusknoir",
-      "language": "es"
-    },
-    {
-      "name": "Dusknoir",
-      "language": "it"
-    },
-    {
-      "name": "Dusknoir",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヨノワール",
+    "en": "Dusknoir",
+    "fr": "Noctunoir",
+    "it": "Dusknoir",
+    "de": "Zwirrfinst",
+    "es": "Dusknoir",
+    "ko": "야느와르몽"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "てづかみ",
-      "language": "ja"
-    },
-    {
-      "genus": "움켜쥠",
-      "language": "ko"
-    },
-    {
-      "genus": "Mainpince",
-      "language": "fr"
-    },
-    {
-      "genus": "Greifer",
-      "language": "de"
-    },
-    {
-      "genus": "Grilletes",
-      "language": "es"
-    },
-    {
-      "genus": "Pinza",
-      "language": "it"
-    },
-    {
-      "genus": "Gripper",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "てづかみ",
+    "en": "Gripper",
+    "fr": "Mainpince",
+    "it": "Pinza",
+    "de": "Greifer",
+    "es": "Grilletes",
+    "ko": "움켜쥠"
+  },
   "varieties": [
     {
       "is_default": true,

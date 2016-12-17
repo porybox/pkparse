@@ -1,0 +1,40 @@
+{
+  "id": 584,
+  "name": "relic-copper",
+  "names": {
+    "ja": "こだいのどうか",
+    "kana": "こだいのどうか",
+    "en": "Relic Copper",
+    "fr": "Vieux Sou",
+    "it": "Soldantico",
+    "de": "Alter Heller",
+    "es": "Real Cobre",
+    "ko": "고대의동화",
+    "zh-CN": "古代铜币",
+    "zh-TW": "古代銅幣"
+  },
+  "flavor_text_entries": {
+    "ja": "３０００年ほど　昔の 文明で　使われた　銅貨。",
+    "kana": "３０００ねんほど　むかしの ぶんめいで　つかわれた　どうか。",
+    "en": "A copper coin used by an ancient civilization about 3,000 years ago.",
+    "fr": "Une pièce de cuivre d’une civilisation vieille de plus de 3 000 ans.",
+    "it": "Moneta di rame usata circa 3.000 anni fa da un’antica civiltà.",
+    "de": "Eine alte Kupfermünze. Die Währung einer gut 3 000 Jahre alten Kultur.",
+    "es": "Moneda de cobre de más de 3000 años de antigüedad.",
+    "ko": "3000년 정도 된 오랜 문명에서 사용된 동화.",
+    "zh-CN": "约３０００年前的 文明使用的铜币。",
+    "zh-TW": "距今約３０００年前的 文明裡使用的銅幣。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Moneta di rame usata circa 3000 anni fa da un’antica civiltà.",
+          "de": "Eine alte Kupfermünze. Die Währung einer gut 3 000 Jahre alten Kultur.",
+          "es": "Moneda de cobre de más de 3000 años de antigüedad. Muy valorada por los coleccionistas."
+        }
+      }
+    }
+  ]
+}

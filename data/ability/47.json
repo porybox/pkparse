@@ -1,322 +1,44 @@
 {
   "id": 47,
   "name": "thick-fat",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "あついしぼう",
+    "kana": "あついしぼう",
+    "en": "Thick Fat",
+    "fr": "Isograisse",
+    "it": "Grassospesso",
+    "de": "Speckschicht",
+    "es": "Sebo",
+    "ko": "두꺼운지방",
+    "zh-CN": "厚脂肪",
+    "zh-TW": "厚脂肪"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "厚い　脂肪で　守られているので ほのおタイプと　こおりタイプの 技の　ダメージを　半減させる。",
+    "kana": "あつい　しぼうで　まもられているので ほのおタイプと　こおりタイプの わざの　ダメージを　はんげんさせる。",
+    "en": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
+    "fr": "Le Pokémon est protégé par une épaisse couche de graisse qui diminue de moitié les dégâts qu’il subit des capacités de types Feu et Glace.",
+    "it": "Il Pokémon è protetto da uno spesso strato di grasso che dimezza il danno causato da mosse di tipo Fuoco e Ghiaccio.",
+    "de": "Das Pokémon wird von einer dicken Fettschicht geschützt, was den durch Feuer- und Eis-Attacken erlittenen Schaden halbiert.",
+    "es": "Gracias a la gruesa capa de grasa que lo protege, reduce a la mitad el daño recibido por ataques de tipo Fuego y Hielo.",
+    "ko": "두꺼운 지방으로 보호되고 있어 불꽃타입과 얼음타입의 기술의 데미지를 반감시킨다.",
+    "zh-CN": "因为被厚厚的脂肪保护着， 会让火属性和冰属性的招式伤害减半。",
+    "zh-TW": "被厚厚的脂肪保護著， 能夠讓火屬性和冰屬性 招式的傷害減半。"
+  },
+  "past_values": [
     {
-      "name": "Thick Fat",
-      "language": "en"
-    },
-    {
-      "name": "Grassospesso",
-      "language": "it"
-    },
-    {
-      "name": "Sebo",
-      "language": "es"
-    },
-    {
-      "name": "Speckschicht",
-      "language": "de"
-    },
-    {
-      "name": "Isograisse",
-      "language": "fr"
-    },
-    {
-      "name": "두꺼운지방",
-      "language": "ko"
-    },
-    {
-      "name": "あついしぼう",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon takes half as much damage from []{type:fire}- and []{type:ice}-type moves.",
-      "short_effect": "Halves damage from []{type:fire} and []{type:ice} moves.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "ほのおと　こおりタイプの\n技に　強い。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Boosts resistance to Fire-​\nand Ice-type moves.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Aumenta la resistenza alle mosse\ndi tipo Fuoco e Ghiaccio.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Atenúa los ataques de tipo Fuego\ny Hielo.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Stark gegen Attacken der Typen\nFeuer und Eis.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Augmente la résistance aux\ncapacités Feu et Glace.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "불꽃과 얼음타입의\n기술에 강하다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ほのおと　こおりタイプの\nわざに　つよい。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Ups resistance to Fire-​\nand Ice-type moves.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ups resistance to Fire-​\nand Ice-type moves.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Augmente la résistance\naux cap. Feu et Glace.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Ups resistance to Fire-​\nand Ice-type moves.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises resistance to Fire-​\nand Ice-type moves.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises resistance to Fire-​\nand Ice-type moves.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Heat-and-cold protection.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Heat-and-cold protection.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Heat-and-cold protection.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "seel"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "dewgong"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "snorlax"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "marill"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "azumarill"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "swinub"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "piloswine"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "miltank"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "makuhita"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "hariyama"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "azurill"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "spoink"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "grumpig"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "spheal"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "sealeo"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "walrein"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "purugly"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "munchlax"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "mamoswine"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "tepig"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "pignite"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "venusaur-mega"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ほのおと　こおりタイプの 技に　強い。",
+          "kana": "ほのおと　こおりタイプの わざに　つよい。",
+          "en": "Boosts resistance to Fire- and Ice-type moves.",
+          "fr": "Augmente la résistance aux capacités Feu et Glace.",
+          "it": "Aumenta la resistenza alle mosse di tipo Fuoco e Ghiaccio.",
+          "de": "Stark gegen Attacken der Typen Feuer und Eis.",
+          "es": "Atenúa los ataques de tipo Fuego y Hielo.",
+          "ko": "불꽃과 얼음타입의 기술에 강하다."
+        }
       }
     }
   ]

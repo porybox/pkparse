@@ -1,0 +1,45 @@
+{
+  "id": 783,
+  "name": "hakamo-o",
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 40,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon"
+  ],
+  "color": "gray",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ジャランゴ",
+    "en": "Hakamo-o",
+    "fr": "Écaïd",
+    "it": "Hakamo-o",
+    "de": "Mediras",
+    "es": "Hakamo-o",
+    "ko": "짜랑고우"
+  },
+  "genera": {
+    "ja": "うろこ",
+    "en": "Scaly",
+    "fr": "Écailles",
+    "it": "Squama",
+    "de": "Schuppentier",
+    "es": "Escamas",
+    "ko": "비늘"
+  },
+  "types": [
+    "dragon",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 75,
+    "defense": 90,
+    "special-attack": 65,
+    "special-defense": 70,
+    "speed": 65
+  }
+}

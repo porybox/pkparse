@@ -2,36 +2,13 @@
   "id": 139,
   "name": "poison-gas",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "[Poisons]{mechanic:poisons} the target.",
-      "short_effect": "Poisons the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "poison"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "poison",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,55 +20,51 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Poison Gas",
-      "language": "en"
-    },
-    {
-      "name": "Velenogas",
-      "language": "it"
-    },
-    {
-      "name": "Gas Venenoso",
-      "language": "es"
-    },
-    {
-      "name": "Giftwolke",
-      "language": "de"
-    },
-    {
-      "name": "Gaz Toxik",
-      "language": "fr"
-    },
-    {
-      "name": "독가스",
-      "language": "ko"
-    },
-    {
-      "name": "どくガス",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "どくガス",
+    "kana": "どくガス",
+    "en": "Poison Gas",
+    "fr": "Gaz Toxik",
+    "it": "Velenogas",
+    "de": "Giftwolke",
+    "es": "Gas Venenoso",
+    "ko": "독가스",
+    "zh-CN": "毒瓦斯",
+    "zh-TW": "毒瓦斯"
+  },
+  "flavor_text_entries": {
+    "ja": "毒ガスを　相手の　顔に　吹きかけて 毒の　状態に　する。",
+    "kana": "どくガスを　あいての　かおに　ふきかけて どくの　じょうたいに　する。",
+    "en": "A cloud of poison gas is sprayed in the face of opposing Pokémon, poisoning those hit.",
+    "fr": "Un nuage de gaz toxique est projeté au visage de l’ennemi pour l’empoisonner.",
+    "it": "Spruzza in faccia ai nemici che ha intorno una nuvola di gas tossico che avvelena.",
+    "de": "Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.",
+    "es": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento.",
+    "ko": "독가스를 상대의 얼굴에 내뿜어 독 상태로 만든다.",
+    "zh-CN": "将毒瓦斯吹到对手的脸上， 从而让对手陷入中毒状态。",
+    "zh-TW": "將毒瓦斯吹到對手的臉上， 讓對手陷入中毒狀態。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "poison",
   "past_values": [
     {
-      "accuracy": 55,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A cloud of poison gas is sprayed in the face of opposing Pokémon. This may also poison those hit."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un nuage de gaz toxique est projeté au visage de l’ennemi. Peut l’empoisonner.",
+          "de": "Hüllt Ziele in der Umgebung in Gas ein, das sie eventuell vergiftet.",
+          "es": "Lanza una nube de gas tóxico a los rivales. Produce envenenamiento."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "poison"
-  }
+  ]
 }

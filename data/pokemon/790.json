@@ -1,0 +1,44 @@
+{
+  "id": 790,
+  "name": "cosmoem",
+  "gender_rate": -1,
+  "capture_rate": 45,
+  "base_happiness": 0,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "blue",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "コスモウム",
+    "en": "Cosmoem",
+    "fr": "Cosmovum",
+    "it": "Cosmoem",
+    "de": "Cosmovum",
+    "es": "Cosmoem",
+    "ko": "코스모움"
+  },
+  "genera": {
+    "ja": "げんしせい",
+    "en": "Protostar",
+    "fr": "Proto-Étoile",
+    "it": "Protostella",
+    "de": "Urgestirn",
+    "es": "Protostrella",
+    "ko": "원시성"
+  },
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 43,
+    "attack": 29,
+    "defense": 131,
+    "special-attack": 29,
+    "special-defense": 131,
+    "speed": 37
+  }
+}

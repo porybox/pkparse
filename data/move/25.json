@@ -2,52 +2,13 @@
   "id": 25,
   "name": "mega-kick",
   "accuracy": 75,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 120,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "focus-energy"
-        },
-        {
-          "name": "mind-reader"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Mega Kick",
-      "language": "en"
-    },
-    {
-      "name": "Megacalcio",
-      "language": "it"
-    },
-    {
-      "name": "Megapatada",
-      "language": "es"
-    },
-    {
-      "name": "Megakick",
-      "language": "de"
-    },
-    {
-      "name": "Ultimawashi",
-      "language": "fr"
-    },
-    {
-      "name": "메가톤킥",
-      "language": "ko"
-    },
-    {
-      "name": "メガトンキック",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "メガトンキック",
+    "kana": "メガトンキック",
+    "en": "Mega Kick",
+    "fr": "Ultimawashi",
+    "it": "Megacalcio",
+    "de": "Megakick",
+    "es": "Megapatada",
+    "ko": "메가톤킥",
+    "zh-CN": "百万吨重踢",
+    "zh-TW": "百萬噸重踢"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "ものすごい　力を　こめた　キックで 相手を　けとばして　攻撃する。",
+    "kana": "ものすごい　ちからを　こめた　キックで あいてを　けとばして　こうげきする。",
+    "en": "The target is attacked by a kick launched with muscle-packed power.",
+    "fr": "Un coup de pied surpuissant qui frappe l’ennemi.",
+    "it": "Colpisce il bersaglio con un calcio sferrato con la forza di muscoli poderosi.",
+    "de": "Das Ziel wird mit einem extrem heftigen Tritt angegriffen.",
+    "es": "Patada de extrema fuerza.",
+    "ko": "굉장한 힘을 담은 킥으로 상대를 걷어차서 공격한다.",
+    "zh-CN": "使出力大无穷的重踢 踢飞对手进行攻击。",
+    "zh-TW": "用灌注了巨大力量的重踢 踢飛對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un coup de pied surpuissant et intense qui frappe l’ennemi."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un coup de pied superpuissant et intense qui frappe l’ennemi."
+        }
+      }
+    }
+  ]
 }

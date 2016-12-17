@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 142,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    }
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "モノズ",
-      "language": "ja"
-    },
-    {
-      "name": "모노두",
-      "language": "ko"
-    },
-    {
-      "name": "Solochi",
-      "language": "fr"
-    },
-    {
-      "name": "Kapuno",
-      "language": "de"
-    },
-    {
-      "name": "Deino",
-      "language": "es"
-    },
-    {
-      "name": "Deino",
-      "language": "it"
-    },
-    {
-      "name": "Deino",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "モノズ",
+    "en": "Deino",
+    "fr": "Solochi",
+    "it": "Deino",
+    "de": "Kapuno",
+    "es": "Deino",
+    "ko": "모노두"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "そぼう",
-      "language": "ja"
-    },
-    {
-      "genus": "폭거",
-      "language": "ko"
-    },
-    {
-      "genus": "Rude",
-      "language": "fr"
-    },
-    {
-      "genus": "Haudrauf",
-      "language": "de"
-    },
-    {
-      "genus": "Tosco",
-      "language": "es"
-    },
-    {
-      "genus": "Impeto",
-      "language": "it"
-    },
-    {
-      "genus": "Irate",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "そぼう",
+    "en": "Irate",
+    "fr": "Rude",
+    "it": "Impeto",
+    "de": "Haudrauf",
+    "es": "Tosco",
+    "ko": "폭거"
+  },
   "varieties": [
     {
       "is_default": true,

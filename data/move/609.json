@@ -2,34 +2,13 @@
   "id": 609,
   "name": "nuzzle",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 20,
   "priority": 0,
   "power": 20,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.",
-      "short_effect": "Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "paralysis",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Nuzzle",
-      "language": "en"
-    },
-    {
-      "name": "Elettrococcola",
-      "language": "it"
-    },
-    {
-      "name": "Moflete Estático",
-      "language": "es"
-    },
-    {
-      "name": "Wangenrubbler",
-      "language": "de"
-    },
-    {
-      "name": "Frotte-Frimousse",
-      "language": "fr"
-    },
-    {
-      "name": "볼부비부비",
-      "language": "ko"
-    },
-    {
-      "name": "ほっぺすりすり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ほっぺすりすり",
+    "kana": "ほっぺすりすり",
+    "en": "Nuzzle",
+    "fr": "Frotte-Frimousse",
+    "it": "Elettrococcola",
+    "de": "Wangenrubbler",
+    "es": "Moflete Estático",
+    "ko": "볼부비부비",
+    "zh-CN": "蹭蹭脸颊",
+    "zh-TW": "蹭蹭臉頰"
   },
-  "type": {
-    "name": "electric"
-  }
+  "flavor_text_entries": {
+    "ja": "電気を　帯びた　ほっぺを すりつけて　攻撃。 相手を　まひ状態に　する。",
+    "kana": "でんきを　おびた　ほっぺを すりつけて　こうげき。 あいてを　まひ　じょうたいに　する。",
+    "en": "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.",
+    "fr": "Le lanceur attaque en frottant ses bajoues chargées d’électricité. Paralyse l’ennemi.",
+    "it": "Chi la usa strofina le guance elettrizzate contro il bersaglio, paralizzandolo.",
+    "de": "Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.",
+    "es": "Quien lo usa frota sus mofletes cargados de electricidad contra el objetivo y consigue paralizarlo.",
+    "ko": "전기가 흐르는 볼을 비벼서 공격한다. 상대를 마비 상태로 만든다.",
+    "zh-CN": "将带电的脸颊 蹭蹭对手进行攻击。 让对手陷入麻痹状态。",
+    "zh-TW": "用帶電的臉頰 磨蹭對手進行攻擊。 能讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Quien lo usa frota sus mofletes cargados de electricidad contra el Pokémon objetivo y consigue paralizarlo."
+        }
+      }
+    }
+  ]
 }

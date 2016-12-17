@@ -2,34 +2,13 @@
   "id": 478,
   "name": "magic-room",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "For five turns (including this one), passive effects of held items are ignored, and Pokémon will not use their held items.",
-      "short_effect": "Negates held items for five turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Magic Room",
-      "language": "en"
-    },
-    {
-      "name": "Magicozona",
-      "language": "it"
-    },
-    {
-      "name": "Zona Mágica",
-      "language": "es"
-    },
-    {
-      "name": "Magieraum",
-      "language": "de"
-    },
-    {
-      "name": "Zone Magique",
-      "language": "fr"
-    },
-    {
-      "name": "매직룸",
-      "language": "ko"
-    },
-    {
-      "name": "マジックルーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "マジックルーム",
+    "kana": "マジックルーム",
+    "en": "Magic Room",
+    "fr": "Zone Magique",
+    "it": "Magicozona",
+    "de": "Magieraum",
+    "es": "Zona Mágica",
+    "ko": "매직룸",
+    "zh-CN": "魔法空间",
+    "zh-TW": "魔法空間"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "まか不思議な　空間を　つくる。 ５ターンの間　すべてのポケモンの 道具の　効果が　なくなる。",
+    "kana": "まかふしぎな　くうかんを　つくる。 ５ターンのあいだ　すべてのポケモンの どうぐの　こうかが　なくなる。",
+    "en": "The user creates a bizarre area in which Pokémon’s held items lose their effects for five turns.",
+    "fr": "Le lanceur crée une zone étrange. Pendant cinq tours, les objets tenus par tous les Pokémon n’ont plus aucun effet.",
+    "it": "Chi la usa crea una dimensione in cui l’effetto degli strumenti di tutti i Pokémon è annullato per cinque turni.",
+    "de": "Anwender erzeugt einen bizarren Raum, in dem über fünf Runden die Wirkung aller von Pokémon getragenen Items aufgehoben ist.",
+    "es": "Crea un espacio misterioso que inutiliza todos los objetos de los Pokémon durante cinco turnos.",
+    "ko": "이상한 공간을 만든다. 5턴 동안 모든 포켓몬의 도구의 효과가 사라진다.",
+    "zh-CN": "制造出离奇的空间。 在５回合内所有宝可梦 携带道具的效果都会消失。",
+    "zh-TW": "創造出非常不可思議的空間。 在５回合內，所有寶可夢 攜帶的道具都會失去效果。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "まか不思議な　空間を　つくる。 ５ターンのあいだ　すべてのポケモンの 道具の　効果が　なくなる。"
+        }
+      }
+    }
+  ]
 }

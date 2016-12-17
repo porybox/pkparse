@@ -1,0 +1,40 @@
+{
+  "id": 586,
+  "name": "relic-gold",
+  "names": {
+    "ja": "こだいのきんか",
+    "kana": "こだいのきんか",
+    "en": "Relic Gold",
+    "fr": "Vieux Ducat",
+    "it": "Doblonantico",
+    "de": "Alter Dukat",
+    "es": "Real Oro",
+    "ko": "고대의금화",
+    "zh-CN": "古代金币",
+    "zh-TW": "古代金幣"
+  },
+  "flavor_text_entries": {
+    "ja": "３０００年ほど　昔の 文明で　使われた　金貨。",
+    "kana": "３０００ねんほど　むかしの ぶんめいで　つかわれた　きんか。",
+    "en": "A gold coin used by an ancient civilization about 3,000 years ago.",
+    "fr": "Une pièce d’or d’une civilisation vieille de plus de 3 000 ans.",
+    "it": "Moneta d’oro usata circa 3.000 anni fa da un’antica civiltà.",
+    "de": "Eine alte Goldmünze. Die Währung einer gut 3 000 Jahre alten Kultur.",
+    "es": "Moneda de oro de más de 3000 años de antigüedad.",
+    "ko": "3000년 정도 된 오랜 문명에서 사용된 금화.",
+    "zh-CN": "约３０００年前的 文明使用的金币。",
+    "zh-TW": "距今約３０００年前的 文明裡使用的金幣。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Moneta d’oro usata circa 3000 anni fa da un’antica civiltà.",
+          "de": "Eine alte Goldmünze. Die Währung einer gut 3 000 Jahre alten Kultur.",
+          "es": "Moneda de oro de más de 3000 años de antigüedad. Muy valorada por los coleccionistas."
+        }
+      }
+    }
+  ]
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 51,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "wings"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ヤミカラス",
-      "language": "ja"
-    },
-    {
-      "name": "Yamikarasu",
-      "language": "roomaji"
-    },
-    {
-      "name": "니로우",
-      "language": "ko"
-    },
-    {
-      "name": "黑暗鴉",
-      "language": "zh"
-    },
-    {
-      "name": "Cornèbre",
-      "language": "fr"
-    },
-    {
-      "name": "Kramurx",
-      "language": "de"
-    },
-    {
-      "name": "Murkrow",
-      "language": "es"
-    },
-    {
-      "name": "Murkrow",
-      "language": "it"
-    },
-    {
-      "name": "Murkrow",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヤミカラス",
+    "en": "Murkrow",
+    "fr": "Cornèbre",
+    "it": "Murkrow",
+    "de": "Kramurx",
+    "es": "Murkrow",
+    "ko": "니로우"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くらやみ",
-      "language": "ja"
-    },
-    {
-      "genus": "어둠",
-      "language": "ko"
-    },
-    {
-      "genus": "Obscurité",
-      "language": "fr"
-    },
-    {
-      "genus": "Finsternis",
-      "language": "de"
-    },
-    {
-      "genus": "Oscuridad",
-      "language": "es"
-    },
-    {
-      "genus": "Oscurità",
-      "language": "it"
-    },
-    {
-      "genus": "Darkness",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くらやみ",
+    "en": "Darkness",
+    "fr": "Obscurité",
+    "it": "Oscurità",
+    "de": "Finsternis",
+    "es": "Oscuridad",
+    "ko": "어둠"
+  },
   "varieties": [
     {
       "is_default": true,

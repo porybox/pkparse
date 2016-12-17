@@ -1,0 +1,44 @@
+{
+  "id": 328,
+  "name": "tm01",
+  "names": {
+    "ja": "わざマシン０１",
+    "kana": "わざマシン０１",
+    "en": "TM01",
+    "fr": "CT01",
+    "it": "MT01",
+    "de": "TM01",
+    "es": "MT01",
+    "ko": "기술머신01",
+    "zh-CN": "招式学习器０１",
+    "zh-TW": "招式學習器０１"
+  },
+  "flavor_text_entries": {
+    "ja": "自分を　奮いたてて 攻撃と　特攻を　あげる。",
+    "kana": "じぶんを　ふるいたてて こうげきと　とくこうを　あげる。",
+    "en": "The user is roused, and its Attack and Sp. Atk stats increase.",
+    "fr": "Le lanceur se rengorge. Augmente l’Attaque et l’Attaque Spéciale.",
+    "it": "Chi la usa si tira su di morale, aumentando il proprio Attacco e l’Attacco Speciale.",
+    "de": "Anwender erhält einen Kraftschub, der seinen Angriff und Spezial-Angriff erhöht.",
+    "es": "Lima y afila las garras. Aumenta el Ataque y la Precisión.",
+    "ko": "스스로 분발해서 공격과 특수공격을 올린다.",
+    "zh-CN": "激励自己， 从而提高攻击和特攻。",
+    "zh-TW": "激勵自己， 進而提高攻擊和特攻。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "つめを　磨いて　鋭く　する。 自分の　攻撃と 命中率を　あげる。",
+          "kana": "つめを　みがいて　するどく　する。 じぶんの　こうげきと めいちゅうりつを　あげる。",
+          "en": "The user sharpens its claws to boost its Attack stat and accuracy.",
+          "fr": "Le lanceur s’aiguise les griffes. Augmente l’Attaque et la Précision.",
+          "it": "Chi la usa affila i propri artigli, aumentando Attacco e precisione.",
+          "de": "Der Anwender wetzt seine Klauen, um sie zu schärfen. Angriff und Genauigkeit werden erhöht.",
+          "ko": "손톱을 갈아 날카롭게 만든다. 자신의 공격과 명중률을 올린다."
+        }
+      }
+    }
+  ]
+}

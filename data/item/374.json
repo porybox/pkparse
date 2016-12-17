@@ -1,0 +1,38 @@
+{
+  "id": 374,
+  "name": "tm47",
+  "names": {
+    "ja": "わざマシン４７",
+    "kana": "わざマシン４７",
+    "en": "TM47",
+    "fr": "CT47",
+    "it": "MT47",
+    "de": "TM47",
+    "es": "MT47",
+    "ko": "기술머신47",
+    "zh-CN": "招式学习器４７",
+    "zh-TW": "招式學習器４７"
+  },
+  "flavor_text_entries": {
+    "ja": "素早い　動きで　相手の　足を ねらって　攻撃する。 相手の　素早さを　さげる。",
+    "kana": "すばやい　うごきで　あいての　あしを ねらって　こうげきする。 あいての　すばやさを　さげる。",
+    "en": "The user makes a swift attack on the target’s legs, which lowers the target’s Speed stat.",
+    "fr": "Un coup rapide qui affecte la mobilité de l’ennemi et diminue sa Vitesse.",
+    "it": "Chi la usa colpisce con un attacco fulmineo la parte inferiore del corpo del bersaglio, riducendone la Velocità.",
+    "de": "Anwender greift mit blitzschnellen Bewegungen die Beine des Zieles an und senkt dessen Initiative.",
+    "es": "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.",
+    "ko": "재빠른 움직임으로 상대의 다리를 노려 공격한다. 상대의 스피드를 떨어뜨린다.",
+    "zh-CN": "以敏捷的动作瞄准 对手的脚进行攻击。 降低对手的速度。",
+    "zh-TW": "瞄準對手的腳， 以敏捷的動作進行攻擊。 可降低對手的速度。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un coup rapide qui vise les pieds de l’ennemi et diminue sa Vitesse."
+        }
+      }
+    }
+  ]
+}

@@ -1,196 +1,52 @@
 {
   "id": 59,
   "name": "forecast",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "てんきや",
+    "kana": "てんきや",
+    "en": "Forecast",
+    "fr": "Météo",
+    "it": "Previsioni",
+    "de": "Prognose",
+    "es": "Predicción",
+    "ko": "기분파",
+    "zh-CN": "阴晴不定",
+    "zh-TW": "陰晴不定"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "天気の　影響を　受けて みずタイプ　ほのおタイプ　こおりタイプの どれかに　変化する。",
+    "kana": "てんきの　えいきょうを　うけて みずタイプ　ほのおタイプ　こおりタイプの どれかに　へんかする。",
+    "en": "The Pokémon transforms with the weather to change its type to Water, Fire, or Ice.",
+    "fr": "Le Pokémon prend le type Eau, Feu ou Glace en fonction de la météo.",
+    "it": "Cambia il tipo del Pokémon in Acqua, Fuoco o Ghiaccio in base alle condizioni atmosferiche.",
+    "de": "Nimmt je nach Wetter entweder den Typ Wasser, Feuer oder Eis an.",
+    "es": "Cambia a tipo Agua, Fuego o Hielo en función del tiempo atmosférico.",
+    "ko": "날씨의 영향을 받아 물타입, 불꽃타입, 얼음타입 중 하나로 변화한다.",
+    "zh-CN": "受天气的影响， 会变为水属性、火属性 或冰属性中的某一个。",
+    "zh-TW": "在天氣的影響下， 會變成水屬性、火屬性 或冰屬性之中的一種。"
+  },
+  "past_values": [
     {
-      "name": "Forecast",
-      "language": "en"
-    },
-    {
-      "name": "Previsioni",
-      "language": "it"
-    },
-    {
-      "name": "Predicción",
-      "language": "es"
-    },
-    {
-      "name": "Prognose",
-      "language": "de"
-    },
-    {
-      "name": "Météo",
-      "language": "fr"
-    },
-    {
-      "name": "기분파",
-      "language": "ko"
-    },
-    {
-      "name": "てんきや",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "During [rain]{mechanic:rain}, [strong sunlight]{mechanic:strong-sunlight}, or [hail]{mechanic:hail}, this Pokémon's type changes to []{type:water}, []{type:fire}, or []{type:ice}, respectively, and its form changes to match.\n\nThis ability has no effect for any Pokémon other than []{pokemon:castform}.\n\nIf the [weather]{mechanic:weather} ends or becomes anything that does not trigger this ability, or a Pokémon with []{ability:air-lock} or []{ability:cloud-nine} enters battle, this Pokémon's type and form revert to their default.  If this ability is lost or disabled, this Pokémon cannot change its current type and form until it regains its ability.",
-      "short_effect": "Changes []{pokemon:castform}'s type and form to match the [weather]{mechanic:weather}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "天気で　ポワルンが\n変化する。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Castform transforms with\nthe weather.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "La forma di Castform cambia in\nbase alle condizioni atmosferiche.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Se transforma según el tiempo\natmosférico.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Formeo verändert seine Form\nabhängig vom Wetter.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Morphéo change de forme selon\nle climat.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "날씨에 따라\n캐스퐁이 변화한다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "てんきで　ポワルンが\nへんかする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Castform transforms with\nthe weather.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Castform transforms with\nthe weather.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Morphéo change de forme\nselon le climat.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "CASTFORM transforms with\nthe weather.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "CASTFORM transforms with\nthe weather.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "CASTFORM transforms with\nthe weather.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Changes with the weather.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Changes with the weather.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Changes with the weather.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "castform"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "天気で　ポワルンが 変化する。",
+          "kana": "てんきで　ポワルンが へんかする。",
+          "en": "Castform transforms with the weather.",
+          "fr": "Morphéo change de forme selon le climat.",
+          "it": "La forma di Castform cambia in  base alle condizioni atmosferiche. ",
+          "de": "Formeo verändert seine Form abhängig vom Wetter.",
+          "es": "Se transforma según el tiempo atmosférico.",
+          "ko": "날씨에 따라 캐스퐁이 변화한다."
+        }
       }
     },
     {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "castform-sunny"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "castform-rainy"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "castform-snowy"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "La forma di Castform cambia in base alle condizioni atmosferiche."
+        }
       }
     }
   ]

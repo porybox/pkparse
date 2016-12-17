@@ -1,0 +1,46 @@
+{
+  "id": 776,
+  "name": "turtonator",
+  "gender_rate": 4,
+  "capture_rate": 70,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "color": "red",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "バクガメス",
+    "en": "Turtonator",
+    "fr": "Boumata",
+    "it": "Turtonator",
+    "de": "Tortunator",
+    "es": "Turtonator",
+    "ko": "폭거북스"
+  },
+  "genera": {
+    "ja": "ばくはつがめ",
+    "en": "Blast Turtle",
+    "fr": "Tortue Boum",
+    "it": "Tartabomba",
+    "de": "Knallkröte",
+    "es": "Tortugabomba",
+    "ko": "폭발거북"
+  },
+  "types": [
+    "fire",
+    "dragon"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 78,
+    "defense": 135,
+    "special-attack": 91,
+    "special-defense": 85,
+    "speed": 36
+  }
+}

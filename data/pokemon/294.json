@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 141,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -56,44 +48,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ドゴーム",
-      "language": "ja"
-    },
-    {
-      "name": "Dogohmb",
-      "language": "roomaji"
-    },
-    {
-      "name": "노공룡",
-      "language": "ko"
-    },
-    {
-      "name": "吼爆彈",
-      "language": "zh"
-    },
-    {
-      "name": "Ramboum",
-      "language": "fr"
-    },
-    {
-      "name": "Krakeelo",
-      "language": "de"
-    },
-    {
-      "name": "Loudred",
-      "language": "es"
-    },
-    {
-      "name": "Loudred",
-      "language": "it"
-    },
-    {
-      "name": "Loudred",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドゴーム",
+    "en": "Loudred",
+    "fr": "Ramboum",
+    "it": "Loudred",
+    "de": "Krakeelo",
+    "es": "Loudred",
+    "ko": "노공룡"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -104,36 +67,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おおごえ",
-      "language": "ja"
-    },
-    {
-      "genus": "큰목소리",
-      "language": "ko"
-    },
-    {
-      "genus": "Grosse Voix",
-      "language": "fr"
-    },
-    {
-      "genus": "Lauthals",
-      "language": "de"
-    },
-    {
-      "genus": "Chillón",
-      "language": "es"
-    },
-    {
-      "genus": "Vocione",
-      "language": "it"
-    },
-    {
-      "genus": "Big Voice",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おおごえ",
+    "en": "Big Voice",
+    "fr": "Grosse Voix",
+    "it": "Vocione",
+    "de": "Lauthals",
+    "es": "Chillón",
+    "ko": "큰목소리"
+  },
   "varieties": [
     {
       "is_default": true,

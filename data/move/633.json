@@ -1,0 +1,50 @@
+{
+  "id": 633,
+  "name": "continental-crush",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ワールズエンドフォール",
+    "kana": "ワールズエンドフォール",
+    "en": "Continental Crush",
+    "fr": "Apocalypse Gigalithique",
+    "it": "Gigamacigno Polverizzante",
+    "de": "Apokalyptische Steinpresse",
+    "es": "Aplastamiento Gigalítico",
+    "ko": "월즈엔드폴",
+    "zh-CN": "毁天灭地巨岩坠",
+    "zh-TW": "毀天滅地巨岩墜"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "rock"
+}

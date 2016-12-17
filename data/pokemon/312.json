@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 97,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "upright"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "マイナン",
-      "language": "ja"
-    },
-    {
-      "name": "Minun",
-      "language": "roomaji"
-    },
-    {
-      "name": "마이농",
-      "language": "ko"
-    },
-    {
-      "name": "負電拍拍",
-      "language": "zh"
-    },
-    {
-      "name": "Négapi",
-      "language": "fr"
-    },
-    {
-      "name": "Minun",
-      "language": "de"
-    },
-    {
-      "name": "Minun",
-      "language": "es"
-    },
-    {
-      "name": "Minun",
-      "language": "it"
-    },
-    {
-      "name": "Minun",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マイナン",
+    "en": "Minun",
+    "fr": "Négapi",
+    "it": "Minun",
+    "de": "Minun",
+    "es": "Minun",
+    "ko": "마이농"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おうえん",
-      "language": "ja"
-    },
-    {
-      "genus": "응원",
-      "language": "ko"
-    },
-    {
-      "genus": "Acclameur",
-      "language": "fr"
-    },
-    {
-      "genus": "Jubel",
-      "language": "de"
-    },
-    {
-      "genus": "Ánimo",
-      "language": "es"
-    },
-    {
-      "genus": "Incitamento",
-      "language": "it"
-    },
-    {
-      "genus": "Cheering",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おうえん",
+    "en": "Cheering",
+    "fr": "Acclameur",
+    "it": "Incitamento",
+    "de": "Jubel",
+    "es": "Ánimo",
+    "ko": "응원"
+  },
   "varieties": [
     {
       "is_default": true,

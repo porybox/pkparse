@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 136,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "heads"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "タマタマ",
-      "language": "ja"
-    },
-    {
-      "name": "Tamatama",
-      "language": "roomaji"
-    },
-    {
-      "name": "아라리",
-      "language": "ko"
-    },
-    {
-      "name": "蛋蛋",
-      "language": "zh"
-    },
-    {
-      "name": "Noeunoeuf",
-      "language": "fr"
-    },
-    {
-      "name": "Owei",
-      "language": "de"
-    },
-    {
-      "name": "Exeggcute",
-      "language": "es"
-    },
-    {
-      "name": "Exeggcute",
-      "language": "it"
-    },
-    {
-      "name": "Exeggcute",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "タマタマ",
+    "en": "Exeggcute",
+    "fr": "Noeunoeuf",
+    "it": "Exeggcute",
+    "de": "Owei",
+    "es": "Exeggcute",
+    "ko": "아라리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たまご",
-      "language": "ja"
-    },
-    {
-      "genus": "알",
-      "language": "ko"
-    },
-    {
-      "genus": "Œuf",
-      "language": "fr"
-    },
-    {
-      "genus": "Ei",
-      "language": "de"
-    },
-    {
-      "genus": "Huevo",
-      "language": "es"
-    },
-    {
-      "genus": "Uovo",
-      "language": "it"
-    },
-    {
-      "genus": "Egg",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たまご",
+    "en": "Egg",
+    "fr": "Œuf",
+    "it": "Uovo",
+    "de": "Ei",
+    "es": "Huevo",
+    "ko": "알"
+  },
   "varieties": [
     {
       "is_default": true,

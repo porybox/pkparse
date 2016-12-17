@@ -2,36 +2,13 @@
   "id": 387,
   "name": "last-resort",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 140,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  This move can only be used if each of the user's other moves has been used at least once since the user entered the [field]{mechanic:field}.  If this is the user's only move, this move will [fail]{mechanic:fail}.",
-      "short_effect": "Can only be used after all of the user's other moves have been used.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,55 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Last Resort",
-      "language": "en"
-    },
-    {
-      "name": "Ultimascelta",
-      "language": "it"
-    },
-    {
-      "name": "Última Baza",
-      "language": "es"
-    },
-    {
-      "name": "Zuflucht",
-      "language": "de"
-    },
-    {
-      "name": "Dernier Recours",
-      "language": "fr"
-    },
-    {
-      "name": "뒀다쓰기",
-      "language": "ko"
-    },
-    {
-      "name": "とっておき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": 130,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "とっておき",
+    "kana": "とっておき",
+    "en": "Last Resort",
+    "fr": "Dernier Recours",
+    "it": "Ultimascelta",
+    "de": "Zuflucht",
+    "es": "Última Baza",
+    "ko": "뒀다쓰기",
+    "zh-CN": "珍藏",
+    "zh-TW": "珍藏"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "戦闘中に　おぼえている　技を すべて　使うと　はじめて　だせる とっておきの　技。",
+    "kana": "せんとうちゅうに　おぼえている　わざを すべて　つかうと　はじめて　だせる とっておきの　わざ。",
+    "en": "This move can be used only after the user has used all the other moves it knows in the battle.",
+    "fr": "Cette capacité ne peut être utilisée qu’après que le lanceur a utilisé toutes les autres.",
+    "it": "Per usare questa mossa, bisogna prima avvalersi in lotta di tutte le altre mosse conosciute.",
+    "de": "Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.",
+    "es": "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.",
+    "ko": "배틀 중에 기억하고 있는 기술을 모두 사용하면 그때부터 쓸 수 있는 필살기이다.",
+    "zh-CN": "当战斗中已学会的招式 全部使用过后， 才能开始使出珍藏的招式。",
+    "zh-TW": "在戰鬥中將其他已學會的招式 全部使用過後， 才能夠使出的珍藏招式。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

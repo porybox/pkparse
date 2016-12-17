@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 73,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "ball"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "マルマイン",
-      "language": "ja"
-    },
-    {
-      "name": "Marumine",
-      "language": "roomaji"
-    },
-    {
-      "name": "붐볼",
-      "language": "ko"
-    },
-    {
-      "name": "頑皮彈",
-      "language": "zh"
-    },
-    {
-      "name": "Électrode",
-      "language": "fr"
-    },
-    {
-      "name": "Lektrobal",
-      "language": "de"
-    },
-    {
-      "name": "Electrode",
-      "language": "es"
-    },
-    {
-      "name": "Electrode",
-      "language": "it"
-    },
-    {
-      "name": "Electrode",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マルマイン",
+    "en": "Electrode",
+    "fr": "Électrode",
+    "it": "Electrode",
+    "de": "Lektrobal",
+    "es": "Electrode",
+    "ko": "붐볼"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ボール",
-      "language": "ja"
-    },
-    {
-      "genus": "볼",
-      "language": "ko"
-    },
-    {
-      "genus": "Balle",
-      "language": "fr"
-    },
-    {
-      "genus": "Ball",
-      "language": "de"
-    },
-    {
-      "genus": "Bola",
-      "language": "es"
-    },
-    {
-      "genus": "Ball",
-      "language": "it"
-    },
-    {
-      "genus": "Ball",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ボール",
+    "en": "Ball",
+    "fr": "Balle",
+    "it": "Ball",
+    "de": "Ball",
+    "es": "Bola",
+    "ko": "볼"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -167,6 +111,16 @@
     "defense": 70,
     "special-attack": 80,
     "special-defense": 80,
-    "speed": 140
-  }
+    "speed": 150
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "speed": 140
+        }
+      }
+    }
+  ]
 }

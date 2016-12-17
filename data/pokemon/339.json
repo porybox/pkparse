@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 40,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    }
+    "water2"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "fish"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ドジョッチ",
-      "language": "ja"
-    },
-    {
-      "name": "Dojoach",
-      "language": "roomaji"
-    },
-    {
-      "name": "미꾸리",
-      "language": "ko"
-    },
-    {
-      "name": "泥泥鰍",
-      "language": "zh"
-    },
-    {
-      "name": "Barloche",
-      "language": "fr"
-    },
-    {
-      "name": "Schmerbe",
-      "language": "de"
-    },
-    {
-      "name": "Barboach",
-      "language": "es"
-    },
-    {
-      "name": "Barboach",
-      "language": "it"
-    },
-    {
-      "name": "Barboach",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドジョッチ",
+    "en": "Barboach",
+    "fr": "Barloche",
+    "it": "Barboach",
+    "de": "Schmerbe",
+    "es": "Barboach",
+    "ko": "미꾸리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひげうお",
-      "language": "ja"
-    },
-    {
-      "genus": "수염물고기",
-      "language": "ko"
-    },
-    {
-      "genus": "Barbillon",
-      "language": "fr"
-    },
-    {
-      "genus": "Barthaar",
-      "language": "de"
-    },
-    {
-      "genus": "Bigotudo",
-      "language": "es"
-    },
-    {
-      "genus": "Baffetti",
-      "language": "it"
-    },
-    {
-      "genus": "Whiskers",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひげうお",
+    "en": "Whiskers",
+    "fr": "Barbillon",
+    "it": "Baffetti",
+    "de": "Barthaar",
+    "es": "Bigotudo",
+    "ko": "수염물고기"
+  },
   "varieties": [
     {
       "is_default": true,

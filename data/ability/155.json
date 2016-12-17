@@ -1,203 +1,44 @@
 {
   "id": 155,
   "name": "rattled",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "びびり",
+    "kana": "びびり",
+    "en": "Rattled",
+    "fr": "Phobique",
+    "it": "Paura",
+    "de": "Hasenfuß",
+    "es": "Cobardía",
+    "ko": "주눅",
+    "zh-CN": "胆怯",
+    "zh-TW": "膽怯"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "あくタイプと　ゴーストタイプと むしタイプの　技を　受けると びびって　素早さが　上がる。",
+    "kana": "あくタイプと　ゴーストタイプと むしタイプの　わざを　うけると びびって　すばやさが　あがる。",
+    "en": "Dark-, Ghost-, and Bug-type moves scare the Pokémon and boost its Speed stat.",
+    "fr": "Si le Pokémon est touché par une capacité de type Ténèbres, Spectre ou Insecte, sa phobie se révèle et sa Vitesse augmente.",
+    "it": "Le mosse di tipo Buio, Spettro e Coleottero spaventano il Pokémon aumentandone la Velocità.",
+    "de": "Wird es von einer Unlicht-, Geister- oder Käfer- Attacke getroffen, bekommt es Angst und seine Initiative steigt.",
+    "es": "Si le alcanza un movimiento de tipo Siniestro, Bicho o Fantasma, el miedo hace que le suba la Velocidad.",
+    "ko": "악타입과 고스트타입과 벌레타입의 기술을 받으면 주눅이 들어 스피드가 올라간다.",
+    "zh-CN": "受到恶属性、幽灵属性 和虫属性的招式攻击时， 会因胆怯而速度提高。",
+    "zh-TW": "受到惡屬性、幽靈屬性 和蟲屬性的招式攻擊時， 會因膽怯而使得速度提高。"
+  },
+  "past_values": [
     {
-      "name": "Rattled",
-      "language": "en"
-    },
-    {
-      "name": "Paura",
-      "language": "it"
-    },
-    {
-      "name": "Cobardía",
-      "language": "es"
-    },
-    {
-      "name": "Hasenfuß",
-      "language": "de"
-    },
-    {
-      "name": "Phobique",
-      "language": "fr"
-    },
-    {
-      "name": "주눅",
-      "language": "ko"
-    },
-    {
-      "name": "びびり",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon's [Speed]{mechanic:speed} rises one stage with each hit from a damaging []{type:dark}-, []{type:ghost}-, or []{type:bug}-type move.",
-      "short_effect": "Raises [Speed]{mechanic:speed} one [stage]{mechanic:stat-modifier} upon being hit by a []{type:dark}, []{type:ghost}, or []{type:bug} move.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "びびって　素早さが\nあがる　タイプがある。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Some move types scare\nit and boost its Speed stat.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Per paura di certi tipi di mosse,\nla Velocità sale.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "El miedo a algunos ataques sube\nsu Velocidad.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Aus Angst vor manchen Attacken\nsteigt die Initiative.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Sa peur de certains types\naugmente sa Vitesse.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "주눅이 들어 스피드가\n올라가는 타입이 있다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "びびって　すばやさが\nあがる　タイプがある。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Some move types scare\nit and boost its Speed.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Some move types scare\nit and boost its Speed.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Sa peur de certains types\naugmente sa Vitesse.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "magikarp"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "ledyba"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "sudowoodo"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "dunsparce"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "snubbull"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "granbull"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "poochyena"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "whismur"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "clamperl"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "bonsly"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "cubchoo"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "びびって　素早さが あがる　タイプがある。",
+          "kana": "びびって　すばやさが あがる　タイプがある。",
+          "en": "Some move types scare it and boost its Speed stat.",
+          "fr": "Sa peur de certains types augmente sa Vitesse.",
+          "it": "Per paura di certi tipi di mosse, la Velocità sale.",
+          "de": "Aus Angst vor manchen Attacken steigt die Initiative.",
+          "es": "El miedo a algunos ataques sube su Velocidad.",
+          "ko": "주눅이 들어 스피드가 올라가는 타입이 있다."
+        }
       }
     }
   ]

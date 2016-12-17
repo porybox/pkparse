@@ -1,0 +1,50 @@
+{
+  "id": 673,
+  "name": "laser-focus",
+  "accuracy": null,
+  "pp": 30,
+  "priority": 0,
+  "power": null,
+  "damage_class": "status",
+  "meta": {
+    "ailment": "none",
+    "category": "unique",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "とぎすます",
+    "kana": "とぎすます",
+    "en": "Laser Focus",
+    "fr": "Affilage",
+    "it": "Concentrazione",
+    "de": "Konzentration",
+    "es": "Aguzar",
+    "ko": "예민해지기",
+    "zh-CN": "磨砺",
+    "zh-TW": "磨礪"
+  },
+  "flavor_text_entries": {
+    "ja": "精神を　集中して 次の　攻撃を　必ず 急所に　当てる。",
+    "kana": "せいしんを　しゅうちゅうして つぎの　こうげきを　かならず きゅうしょに　あてる。",
+    "en": "The user concentrates intensely. The attack on the next turn always results in a critical hit.",
+    "fr": "Le lanceur se concentre pour être sûr de porter un coup critique au tour suivant.",
+    "it": "Chi la usa si concentra e nel turno successivo metterà sicuramente a segno un brutto colpo.",
+    "de": "Der Anwender konzentriert sich, wodurch sein nächster Angriff garantiert ein Volltreffer wird.",
+    "es": "El usuario se concentra para que el siguiente ataque propine un golpe crítico.",
+    "ko": "정신을 집중해서 다음 공격을 반드시 급소에 맞춘다.",
+    "zh-CN": "集中精神， 下次攻击必定会击中要害。",
+    "zh-TW": "集中精神， 下次攻擊必定會擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal"
+}

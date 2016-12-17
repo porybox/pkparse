@@ -2,34 +2,13 @@
   "id": 485,
   "name": "synchronoise",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 120,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Only Pokémon that share a type with the user will take damage from this move.",
-      "short_effect": "Hits any Pokémon that shares a type with the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Synchronoise",
-      "language": "en"
-    },
-    {
-      "name": "Sincrumore",
-      "language": "it"
-    },
-    {
-      "name": "Sincrorruido",
-      "language": "es"
-    },
-    {
-      "name": "Synchrolärm",
-      "language": "de"
-    },
-    {
-      "name": "Synchropeine",
-      "language": "fr"
-    },
-    {
-      "name": "싱크로노이즈",
-      "language": "ko"
-    },
-    {
-      "name": "シンクロノイズ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-other-pokemon"
+  "names": {
+    "ja": "シンクロノイズ",
+    "kana": "シンクロノイズ",
+    "en": "Synchronoise",
+    "fr": "Synchropeine",
+    "it": "Sincrumore",
+    "de": "Synchrolärm",
+    "es": "Sincrorruido",
+    "ko": "싱크로노이즈",
+    "zh-CN": "同步干扰",
+    "zh-TW": "同步干擾"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "不思議な　電波で　周りに　いる 自分と　同じ　タイプの ポケモンに　ダメージを　与える。",
+    "kana": "ふしぎな　でんぱで　まわりに　いる じぶんと　おなじ　タイプの ポケモンに　ダメージを　あたえる。",
+    "en": "Using an odd shock wave, the user inflicts damage on any Pokémon of the same type in the area around it.",
+    "fr": "Des ondes mystérieuses blessent tous les Pokémon alentour qui sont du même type que le lanceur.",
+    "it": "Chi la usa infligge danni a tutti i Pokémon dello stesso tipo che si trovano nelle vicinanze usando misteriose onde elettromagnetiche.",
+    "de": "Fügt Pokémon vom selben Typ, die sich in der Nähe des Anwenders aufhalten, mit seltsamen Druckwellen Schaden zu.",
+    "es": "Una extraña onda que daña a todos los Pokémon adyacentes del mismo tipo que el que la ejecuta.",
+    "ko": "이상한 전파로 주위에 있는 자신과 같은 타입의 포켓몬에게 데미지를 준다.",
+    "zh-CN": "用神奇电波对 周围所有和自己属性相同的 宝可梦给予伤害。",
+    "zh-TW": "用神奇的電波， 攻擊周圍所有 和自己相同屬性的寶可夢。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "psychic"
 }

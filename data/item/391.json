@@ -1,0 +1,40 @@
+{
+  "id": 391,
+  "name": "tm64",
+  "names": {
+    "ja": "わざマシン６４",
+    "kana": "わざマシン６４",
+    "en": "TM64",
+    "fr": "CT64",
+    "it": "MT64",
+    "de": "TM64",
+    "es": "MT64",
+    "ko": "기술머신64",
+    "zh-CN": "招式学习器６４",
+    "zh-TW": "招式學習器６４"
+  },
+  "flavor_text_entries": {
+    "ja": "大きな　爆発で　自分の　周りに いるものを　攻撃する。 使ったあとに　ひんしに　なる。",
+    "kana": "おおきな　ばくはつで　じぶんの まわりに　いるものを　こうげきする。 つかった　あとに　ひんしに　なる。",
+    "en": "The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.",
+    "fr": "Le lanceur explose et inflige des dégâts à tous les Pokémon autour de lui. Met K.O. le lanceur.",
+    "it": "Chi la usa esplode per infliggere danni agli altri Pokémon attorno, ma va KO.",
+    "de": "Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.",
+    "es": "Quien lo usa explosiona en combate e inflige daño a todos los Pokémon a su alrededor. El usuario se debilita.",
+    "ko": "큰 폭발로 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서는 기절한다.",
+    "zh-CN": "引发大爆炸， 攻击自己周围所有的宝可梦。 使用后自己会陷入濒死。",
+    "zh-TW": "引起大爆炸， 攻擊自己周圍所有的寶可夢。 使用後自己會陷入瀕死。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "おおきな　ばくはつで　じぶんの まわりに　いるものを　こうげきする。 つかったあと　ひんしに　なる。",
+          "it": "Chi la usa esplode e infligge danni agli altri Pokémon in campo, ma poi va KO.",
+          "ko": "큰 폭발을 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 사용한 뒤 기절한다."
+        }
+      }
+    }
+  ]
+}

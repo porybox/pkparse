@@ -2,48 +2,13 @@
   "id": 251,
   "name": "beat-up",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [typeless]{mechanic:typeless} [regular damage]{mechanic:regular-damage}.  Every Pokémon in the user's party, excepting those that have fainted or have a [major status effect]{mechanic:major-status-effect}, attacks the target.  Calculated stats are ignored; the base stats for the target and assorted attackers are used instead.  The random factor in the damage formula is not used.  []{type:dark} Pokémon still get [STAB]{mechanic:stab}.\n\nThis effect breaks through []{ability:wonder-guard}.",
-      "short_effect": "Hits once for every conscious Pokémon the trainer has.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "Determines damage using each participant's base [Attack]{mechanic:attack} and the opponent's base [Defense]{mechanic:defense} in place of calculated stats.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": 6,
     "max_hits": 6,
     "min_turns": null,
@@ -55,55 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Beat Up",
-      "language": "en"
-    },
-    {
-      "name": "Picchiaduro",
-      "language": "it"
-    },
-    {
-      "name": "Paliza",
-      "language": "es"
-    },
-    {
-      "name": "Prügler",
-      "language": "de"
-    },
-    {
-      "name": "Baston",
-      "language": "fr"
-    },
-    {
-      "name": "집단구타",
-      "language": "ko"
-    },
-    {
-      "name": "ふくろだたき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": 10,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ふくろだたき",
+    "kana": "ふくろだたき",
+    "en": "Beat Up",
+    "fr": "Baston",
+    "it": "Picchiaduro",
+    "de": "Prügler",
+    "es": "Paliza",
+    "ko": "집단구타",
+    "zh-CN": "围攻",
+    "zh-TW": "圍攻"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "味方　全員で　攻撃する。 仲間の　ポケモンが　多いほど 技の　攻撃回数が　増える。",
+    "kana": "みかた　ぜんいんで　こうげきする。 なかまの　ポケモンが　おおいほど わざの　こうげきかいすうが　ふえる。",
+    "en": "The user gets all party Pokémon to attack the target. The more party Pokémon, the greater the number of attacks.",
+    "fr": "Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques.",
+    "it": "Chi la usa chiama in aiuto i Pokémon della squadra: più ce ne sono, maggiore è il numero di attacchi.",
+    "de": "Das gesamte Team nimmt aktiv am Kampf teil. Je mehr Pokémon, desto höher die Anzahl der Angriffe.",
+    "es": "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará.",
+    "ko": "같은 편 전원이 공격한다. 동료 포켓몬이 많을수록 기술의 공격 횟수가 증가한다.",
+    "zh-CN": "我方全员进行攻击。 同行的宝可梦越多， 招式的攻击次数越多。",
+    "zh-TW": "讓我方所有寶可夢進行攻擊。 同行的寶可夢越多， 招式的攻擊次數越多。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark"
 }

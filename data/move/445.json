@@ -2,36 +2,13 @@
   "id": 445,
   "name": "captivate",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}.  If the user and target are the same gender, or either is genderless, this move will [fail]{mechanic:fail}.",
-      "short_effect": "Lowers the target's Special Attack by two stages if it's the opposite gender.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Captivate",
-      "language": "en"
-    },
-    {
-      "name": "Incanto",
-      "language": "it"
-    },
-    {
-      "name": "Seducción",
-      "language": "es"
-    },
-    {
-      "name": "Liebreiz",
-      "language": "de"
-    },
-    {
-      "name": "Séduction",
-      "language": "fr"
-    },
-    {
-      "name": "유혹",
-      "language": "ko"
-    },
-    {
-      "name": "ゆうわく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ゆうわく",
+    "kana": "ゆうわく",
+    "en": "Captivate",
+    "fr": "Séduction",
+    "it": "Incanto",
+    "de": "Liebreiz",
+    "es": "Seducción",
+    "ko": "유혹",
+    "zh-CN": "诱惑",
+    "zh-TW": "誘惑"
+  },
+  "flavor_text_entries": {
+    "ja": "♂なら♀を　♀なら♂を　誘惑して 相手の　特攻を　がくっと　さげる。",
+    "kana": "♂なら♀を　♀なら♂を　ゆうわくして あいての　とくこうを　がくっと　さげる。",
+    "en": "If any opposing Pokémon is the opposite gender of the user, it is charmed, which harshly lowers its Sp. Atk stat.",
+    "fr": "Si l’ennemi est de sexe opposé au lanceur, il est séduit et son Attaque Spéciale baisse beaucoup.",
+    "it": "Se i nemici che ha intorno sono del sesso opposto a chi la usa, saranno ammaliati e il loro Attacco Speciale diminuirà di molto.",
+    "de": "Charme-Attacke, die den Spezial-Angriff des Zieles stark senkt, falls es dem anderen Geschlecht angehört.",
+    "es": "Si el objetivo es del sexo opuesto, queda embelesado y baja mucho su Ataque Especial.",
+    "ko": "수컷은 암컷을 암컷은 수컷을 유혹하여 상대의 특수공격을 크게 떨어뜨린다.",
+    "zh-CN": "♂诱惑♀或♀诱惑♂， 从而大幅降低对手的特攻。",
+    "zh-TW": "♂誘惑♀而♀誘惑♂， 大幅降低對手的特攻。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "all-opponents",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Si l’ennemi est de sexe opposé au lanceur, il est séduit et son Attaque Spéciale baisse fortement."
+        }
+      }
+    }
+  ]
 }

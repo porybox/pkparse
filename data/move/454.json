@@ -2,36 +2,13 @@
   "id": 454,
   "name": "attack-order",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.",
-      "short_effect": "Has an increased chance for a critical hit.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Attack Order",
-      "language": "en"
-    },
-    {
-      "name": "Comandourto",
-      "language": "it"
-    },
-    {
-      "name": "Al Ataque",
-      "language": "es"
-    },
-    {
-      "name": "Schlagbefehl",
-      "language": "de"
-    },
-    {
-      "name": "Appel Attak",
-      "language": "fr"
-    },
-    {
-      "name": "공격지령",
-      "language": "ko"
-    },
-    {
-      "name": "こうげきしれい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "こうげきしれい",
+    "kana": "こうげきしれい",
+    "en": "Attack Order",
+    "fr": "Appel Attaque",
+    "it": "Comandourto",
+    "de": "Schlagbefehl",
+    "es": "Al Ataque",
+    "ko": "공격지령",
+    "zh-CN": "攻击指令",
+    "zh-TW": "攻擊指令"
   },
-  "type": {
-    "name": "bug"
-  }
+  "flavor_text_entries": {
+    "ja": "しもべを　呼びだして 相手に　むかって　攻撃させる。 急所に　当たりやすい。",
+    "kana": "しもべを　よびだして あいてに　むかって　こうげき　させる。 きゅうしょに　あたりやすい。",
+    "en": "The user calls out its underlings to pummel the target. Critical hits land more easily.",
+    "fr": "Le lanceur appelle ses sous-fifres pour frapper l’ennemi. Taux de critique élevé.",
+    "it": "Chi la usa raduna i suoi sgherri per colpire il bersaglio. Probabile brutto colpo.",
+    "de": "Anwender ruft seine Untergebenen zum Angriff. Hat eine hohe Volltrefferquote.",
+    "es": "El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.",
+    "ko": "부하를 불러내어 상대를 향해서 공격시킨다. 급소에 맞기 쉽다.",
+    "zh-CN": "召唤手下， 让其朝对手发起攻击。 容易击中要害。",
+    "zh-TW": "呼喚手下， 向對手發動攻擊。 容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "fr": "Appel Attak"
+        },
+        "flavor_text_entries": {
+          "fr": "Le lanceur appelle ses sous-fifres pour frapper l’ennemi. Taux de critiques élevé."
+        }
+      }
+    }
+  ]
 }

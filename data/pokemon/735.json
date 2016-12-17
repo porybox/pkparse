@@ -1,0 +1,44 @@
+{
+  "id": 735,
+  "name": "gumshoos",
+  "gender_rate": 4,
+  "capture_rate": 127,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "brown",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "デカグース",
+    "en": "Gumshoos",
+    "fr": "Argouste",
+    "it": "Gumshoos",
+    "de": "Manguspektor",
+    "es": "Gumshoos",
+    "ko": "형사구스"
+  },
+  "genera": {
+    "ja": "はりこみ",
+    "en": "Stakeout",
+    "fr": "Filature",
+    "it": "Sorveglianza",
+    "de": "Beschattung",
+    "es": "Vigilante",
+    "ko": "잠복"
+  },
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 88,
+    "attack": 110,
+    "defense": 60,
+    "special-attack": 55,
+    "special-defense": 60,
+    "speed": 45
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": 436,
+  "name": "seal-bag",
+  "names": {
+    "ja": "シールぶくろ",
+    "kana": "シールぶくろ",
+    "en": "Seal Bag",
+    "fr": "Sac Sceaux",
+    "it": "Bollosacca",
+    "de": "Stickertüte",
+    "es": "Bolsa Sellos",
+    "ko": "실주머니",
+    "zh-CN": "贴纸袋",
+    "zh-TW": "貼紙袋"
+  },
+  "flavor_text_entries": {
+    "ja": "シールが　１０枚　いれられる ちっちゃな　ふくろ。",
+    "kana": "シールが　１０まい　いれられる ちっちゃな　ふくろ。",
+    "en": "A tiny bag that can hold 10 Seals for decorating Poké Balls.",
+    "fr": "Un petit sac pouvant contenir dix Sceaux pour décorer les Poké Balls.",
+    "it": "Sacchettino che può contenere dieci bolli per decorare le Poké Ball.",
+    "de": "Ein kleines Tütchen. Es bietet Platz für bis zu 10 Sticker für die Pokébälle.",
+    "es": "Bolsita con capacidad para diez sellos de los que decoran las Poké Balls.",
+    "ko": "실이 10장 들어가는 작은 주머니.",
+    "zh-CN": "可以放入１０张 贴纸的小袋子。",
+    "zh-TW": "可以放入１０張 貼紙的小袋子。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Bolsita con capacidad para diez Sellos de los que decoran las Poké Balls."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Sacchettino che può contenere dieci Bolli per decorare le Poké Ball."
+        }
+      }
+    }
+  ]
+}

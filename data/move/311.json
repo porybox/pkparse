@@ -2,58 +2,13 @@
   "id": 311,
   "name": "weather-ball",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 50,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sandstorm"
-        },
-        {
-          "name": "rain-dance"
-        },
-        {
-          "name": "sunny-day"
-        },
-        {
-          "name": "hail"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If a weather move is active, this move has double power, and its type becomes the type of the weather move.  []{move:shadow-sky} is typeless for the purposes of this move.",
-      "short_effect": "If there be weather, this move has doubled power and the weather's type.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -65,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Weather Ball",
-      "language": "en"
-    },
-    {
-      "name": "Palla Clima",
-      "language": "it"
-    },
-    {
-      "name": "Meteorobola",
-      "language": "es"
-    },
-    {
-      "name": "Meteorologe",
-      "language": "de"
-    },
-    {
-      "name": "Ball'Météo",
-      "language": "fr"
-    },
-    {
-      "name": "웨더볼",
-      "language": "ko"
-    },
-    {
-      "name": "ウェザーボール",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ウェザーボール",
+    "kana": "ウェザーボール",
+    "en": "Weather Ball",
+    "fr": "Ball’Météo",
+    "it": "Palla Clima",
+    "de": "Meteorologe",
+    "es": "Meteorobola",
+    "ko": "웨더볼",
+    "zh-CN": "气象球",
+    "zh-TW": "氣象球"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "使ったときの　天気に　よって 技の　タイプと　威力が　変わる。",
+    "kana": "つかった　ときの　てんきに　よって わざの　タイプと　いりょくが　かわる。",
+    "en": "This attack move varies in power and type depending on the weather.",
+    "fr": "Une attaque dont la puissance et le type varient en fonction du temps qu’il fait.",
+    "it": "Mossa d’attacco il cui tipo e la cui potenza variano in base alle condizioni atmosferiche.",
+    "de": "Typ und Stärke der Attacke sind vom Wetter zum Zeitpunkt der Anwendung abhängig.",
+    "es": "El tipo y fuerza del ataque varían según el tiempo que haga.",
+    "ko": "사용했을 때의 날씨에 따라서 기술 타입과 위력이 바뀐다.",
+    "zh-CN": "根据使用时的天气， 招式属性和威力会改变。",
+    "zh-TW": "招式屬性和威力會隨著 使用時天氣的不同而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An attack move that varies in power and type depending on the weather."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Mossa d’attacco che varia tipo e forza in base alle condizioni atmosferiche."
+        }
+      }
+    }
+  ]
 }

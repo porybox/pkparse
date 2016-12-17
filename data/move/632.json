@@ -1,0 +1,50 @@
+{
+  "id": 632,
+  "name": "continental-crush",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ワールズエンドフォール",
+    "kana": "ワールズエンドフォール",
+    "en": "Continental Crush",
+    "fr": "Apocalypse Gigalithique",
+    "it": "Gigamacigno Polverizzante",
+    "de": "Apokalyptische Steinpresse",
+    "es": "Aplastamiento Gigalítico",
+    "ko": "월즈엔드폴",
+    "zh-CN": "毁天灭地巨岩坠",
+    "zh-TW": "毀天滅地巨岩墜"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　大きな　岩山を　呼びだし 全力で　相手に　ぶつける。 元になった　技で　威力が　変わる。",
+    "kana": "Ｚパワーで　おおきな　いわやまを　よびだし ぜんりょくで　あいてに　ぶつける。 もとになった　わざで　いりょくが　かわる。",
+    "en": "The user summons a huge rock mountain using its Z-Power and drops it onto the target with full force. The power varies, depending on the original move.",
+    "fr": "Le Pokémon utilise la Force Z pour créer un immense rocher et écraser l’adversaire avec. La puissance varie selon celle de la capacité originale.",
+    "it": "Grazie al Potere Z, chi la usa crea un masso enorme e lo lancia sul bersaglio schiacciandolo. La potenza varia a seconda della mossa su cui si basa.",
+    "de": "Der Anwender beschwört mit Z-Kraft einen großen Felsen herbei und lässt ihn auf das Ziel fallen. Die Stärke variiert je nach zugrunde liegender Attacke.",
+    "es": "El usuario emplea el Poder Z para crear una montaña rocosa con la que aplasta al objetivo. Su potencia depende de la del movimiento original.",
+    "ko": "Z파워로 큰 바위산을 불러내 전력으로 상대에게 부딪친다. 원래 기술에 따라 위력이 변한다.",
+    "zh-CN": "通过Ｚ力量召唤大大的岩山， 全力撞向对手。 威力会根据原来的招式而改变。",
+    "zh-TW": "透過Ｚ力量召喚大大的岩山， 全力撞向對手。 威力會隨原本的招式而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "rock"
+}

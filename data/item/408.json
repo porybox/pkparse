@@ -1,0 +1,39 @@
+{
+  "id": 408,
+  "name": "tm81",
+  "names": {
+    "ja": "わざマシン８１",
+    "kana": "わざマシン８１",
+    "en": "TM81",
+    "fr": "CT81",
+    "it": "MT81",
+    "de": "TM81",
+    "es": "MT81",
+    "ko": "기술머신81",
+    "zh-CN": "招式学习器８１",
+    "zh-TW": "招式學習器８１"
+  },
+  "flavor_text_entries": {
+    "ja": "カマや　ツメを　ハサミのように 交差させながら　相手を　切り裂く。",
+    "kana": "カマや　ツメを　ハサミのように こうさ　させながら　あいてを　きりさく。",
+    "en": "The user slashes at the target by crossing its scythes or claws as if they were a pair of scissors.",
+    "fr": "Le lanceur taillade l’ennemi en utilisant ses faux ou ses griffes comme une paire de ciseaux.",
+    "it": "Chi la usa colpisce il bersaglio con un attacco che ricorda un colpo di forbici.",
+    "de": "Der Anwender greift mit gekreuzten Scheren oder Klauen an, als wären diese eine normale Schere.",
+    "es": "Ataca al objetivo con cuchillas o garras que se cruzan a modo de tijera.",
+    "ko": "낫이나 발톱을 가위처럼 교차시키면서 상대를 베어 가른다.",
+    "zh-CN": "将镰刀或爪子像剪刀般地交叉， 顺势劈开对手。",
+    "zh-TW": "將鐮刀或爪子像剪刀般地交叉， 順勢劈開對手。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "カマや　ツメを　ハサミのように こうさ　させながら　きりさいて こうげきする。",
+          "it": "Chi la usa colpisce il nemico usando le sue falci o i suoi artigli come se fossero delle forbici."
+        }
+      }
+    }
+  ]
+}

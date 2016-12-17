@@ -1,0 +1,39 @@
+{
+  "id": 688,
+  "name": "maranga-berry",
+  "names": {
+    "ja": "タラプのみ",
+    "kana": "タラプのみ",
+    "en": "Maranga Berry",
+    "fr": "Baie Rangma",
+    "it": "Baccapane",
+    "de": "Tarabeere",
+    "es": "Baya Maranga",
+    "ko": "타라프열매",
+    "zh-CN": "香罗果",
+    "zh-TW": "香羅果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると 特殊技を　受けたとき 自分の　特防が　あがる。",
+    "kana": "ポケモンに　もたせると とくしゅわざを　うけたとき じぶんの　とくぼうが　あがる。",
+    "en": "If held by a Pokémon, this Berry will increase the holder’s Sp. Def if it’s hit with a special move.",
+    "fr": "Baie à tenir augmentant la Défense Spéciale du Pokémon lorsqu’il est touché par une capacité spéciale.",
+    "it": "Se un Pokémon ha questa bacca, aumenta la propria Difesa Speciale quando subisce una mossa speciale.",
+    "de": "Als getragenes Item erhöht diese Beere die Spezial-Verteidigung des Trägers, wenn dieser von Spezial-Attacken getroffen wird.",
+    "es": "Si la lleva un Pokémon, aumenta su Defensa Especial tras recibir un ataque especial.",
+    "ko": "포켓몬에게 지니게 하면 특수 기술을 당했을 때 자신의 특수방어가 올라간다.",
+    "zh-CN": "让宝可梦携带后， 在受到特殊招式攻击时， 自己的特防就会提高。",
+    "zh-TW": "讓寶可夢攜帶後， 在受到特殊招式攻擊時， 自己的特防就會提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Baie à tenir augmentant la Défense Spéciale du Pokémon lorsqu’il est touché par une attaque spéciale.",
+          "it": "Bacca da dare a un Pokémon. Se chi ce l’ha subisce una mossa speciale, la sua Difesa Speciale aumenta."
+        }
+      }
+    }
+  ]
+}

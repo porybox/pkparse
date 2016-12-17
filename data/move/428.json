@@ -2,36 +2,13 @@
   "id": 428,
   "name": "zen-headbutt",
   "accuracy": 90,
-  "effect_chance": 20,
   "pp": 15,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 20,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Zen Headbutt",
-      "language": "en"
-    },
-    {
-      "name": "Cozzata Zen",
-      "language": "it"
-    },
-    {
-      "name": "Cabezazo Zen",
-      "language": "es"
-    },
-    {
-      "name": "Zen-Kopfstoß",
-      "language": "de"
-    },
-    {
-      "name": "Psykoud'Boul",
-      "language": "fr"
-    },
-    {
-      "name": "사념의박치기",
-      "language": "ko"
-    },
-    {
-      "name": "しねんのずつき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "しねんのずつき",
+    "kana": "しねんのずつき",
+    "en": "Zen Headbutt",
+    "fr": "Psykoud’Boul",
+    "it": "Cozzata Zen",
+    "de": "Zen-Kopfstoß",
+    "es": "Cabezazo Zen",
+    "ko": "사념의박치기",
+    "zh-CN": "意念头锤",
+    "zh-TW": "意念頭錘"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "思念の　力を 額に　集めて　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "しねんの　ちからを ひたいに　あつめて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user focuses its willpower to its head and attacks the target. This may also make the target flinch.",
+    "fr": "Le lanceur concentre sa volonté et donne un coup de tête. Peut aussi apeurer l’ennemi.",
+    "it": "Chi la usa concentra la forza nella testa e si lancia contro il bersaglio. Può anche farlo tentennare.",
+    "de": "Anwender konzentriert seinen Willen und rammt das Ziel. Dieses schreckt eventuell zurück.",
+    "es": "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda.",
+    "ko": "사념의 힘을 이마에 모아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "将思念的力量集中在 前额进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "將意念的力量集中在 前額進行攻擊。 有時會讓對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

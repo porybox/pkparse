@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 76,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ウリムー",
-      "language": "ja"
-    },
-    {
-      "name": "Urimoo",
-      "language": "roomaji"
-    },
-    {
-      "name": "꾸꾸리",
-      "language": "ko"
-    },
-    {
-      "name": "小山豬",
-      "language": "zh"
-    },
-    {
-      "name": "Marcacrin",
-      "language": "fr"
-    },
-    {
-      "name": "Quiekel",
-      "language": "de"
-    },
-    {
-      "name": "Swinub",
-      "language": "es"
-    },
-    {
-      "name": "Swinub",
-      "language": "it"
-    },
-    {
-      "name": "Swinub",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ウリムー",
+    "en": "Swinub",
+    "fr": "Marcacrin",
+    "it": "Swinub",
+    "de": "Quiekel",
+    "es": "Swinub",
+    "ko": "꾸꾸리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いのぶた",
-      "language": "ja"
-    },
-    {
-      "genus": "산돼지",
-      "language": "ko"
-    },
-    {
-      "genus": "Cochon",
-      "language": "fr"
-    },
-    {
-      "genus": "Ferkel",
-      "language": "de"
-    },
-    {
-      "genus": "Cerdo",
-      "language": "es"
-    },
-    {
-      "genus": "Maiale",
-      "language": "it"
-    },
-    {
-      "genus": "Pig",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いのぶた",
+    "en": "Pig",
+    "fr": "Cochon",
+    "it": "Maiale",
+    "de": "Ferkel",
+    "es": "Cerdo",
+    "ko": "산돼지"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 227,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water3"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "armor"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "カブト",
-      "language": "ja"
-    },
-    {
-      "name": "Kabuto",
-      "language": "roomaji"
-    },
-    {
-      "name": "투구",
-      "language": "ko"
-    },
-    {
-      "name": "化石盔",
-      "language": "zh"
-    },
-    {
-      "name": "Kabuto",
-      "language": "fr"
-    },
-    {
-      "name": "Kabuto",
-      "language": "de"
-    },
-    {
-      "name": "Kabuto",
-      "language": "es"
-    },
-    {
-      "name": "Kabuto",
-      "language": "it"
-    },
-    {
-      "name": "Kabuto",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カブト",
+    "en": "Kabuto",
+    "fr": "Kabuto",
+    "it": "Kabuto",
+    "de": "Kabuto",
+    "es": "Kabuto",
+    "ko": "투구"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こうら",
-      "language": "ja"
-    },
-    {
-      "genus": "껍질",
-      "language": "ko"
-    },
-    {
-      "genus": "Carapace",
-      "language": "fr"
-    },
-    {
-      "genus": "Schaltier",
-      "language": "de"
-    },
-    {
-      "genus": "Marisco",
-      "language": "es"
-    },
-    {
-      "genus": "Crostaceo",
-      "language": "it"
-    },
-    {
-      "genus": "Shellfish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こうら",
+    "en": "Shellfish",
+    "fr": "Carapace",
+    "it": "Crostaceo",
+    "de": "Schaltier",
+    "es": "Marisco",
+    "ko": "껍질"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,48 +2,13 @@
   "id": 273,
   "name": "wish",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "At the end of the next turn, user will be healed for half its max [HP]{mechanic:hp}.  If the user is [switched out]{mechanic:switched-out}, its replacement will be healed instead for half of the user's max HP.  If the user [faint]{mechanic:faint}s or is forcefully switched by []{move:roar} or []{move:whirlwind}, this effect will not activate.",
-      "short_effect": "User will recover half its max HP at the end of the next turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "Heals replacement Pokémon by half of their max HP.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -55,43 +20,47 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Wish",
-      "language": "en"
-    },
-    {
-      "name": "Desiderio",
-      "language": "it"
-    },
-    {
-      "name": "Deseo",
-      "language": "es"
-    },
-    {
-      "name": "Wunschtraum",
-      "language": "de"
-    },
-    {
-      "name": "Vœu",
-      "language": "fr"
-    },
-    {
-      "name": "희망사항",
-      "language": "ko"
-    },
-    {
-      "name": "ねがいごと",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "ねがいごと",
+    "kana": "ねがいごと",
+    "en": "Wish",
+    "fr": "Vœu",
+    "it": "Desiderio",
+    "de": "Wunschtraum",
+    "es": "Deseo",
+    "ko": "희망사항",
+    "zh-CN": "祈愿",
+    "zh-TW": "祈願"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "次の　ターンに　自分　もしくは 入れ替わった　ポケモンの　ＨＰを 最大ＨＰの　半分　回復する。",
+    "kana": "つぎの　ターンに　じぶん　もしくは いれかわった　ポケモンの　ＨＰを さいだい　ＨＰの　はんぶん　かいふくする。",
+    "en": "One turn after this move is used, the user’s or its replacement’s HP is restored by half the user’s max HP.",
+    "fr": "Un vœu qui permet au lanceur ou au Pokémon entrant sur le terrain au tour suivant de récupérer la moitié des PV max du lanceur.",
+    "it": "Quando un Pokémon la usa, al turno successivo la metà dei suoi PS massimi viene recuperata da lui stesso o dal Pokémon che lo sostituisce.",
+    "de": "Ein Wunsch füllt in der nächsten Runde 50 % der KP des Anwenders bei diesem oder einem eingewechselten Pokémon auf.",
+    "es": "Restaura en el siguiente turno la mitad de los PS máximos del usuario o se los pasa al Pokémon que lo sustituye.",
+    "ko": "다음 턴에 자신 또는 교체한 포켓몬의 HP를 최대 HP의 절반만큼 회복한다.",
+    "zh-CN": "在下一回合回复自己或是 替换出场的宝可梦最大ＨＰ的一半。",
+    "zh-TW": "在下一回合回復自己或是 替換上場的寶可夢最大ＨＰ的一半。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "次の　ターンに 自分の　ＨＰを　最大ＨＰの 半分　回復する。",
+          "kana": "つぎの　ターンに じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　かいふく　する。",
+          "en": "One turn after this move is used, the target’s HP is restored by half the user’s max HP.",
+          "fr": "Un vœu qui permet de récupérer la moitié des PV max au tour suivant.",
+          "it": "Permette di recuperare metà dei PS massimi al turno successivo.",
+          "es": "Restaura la mitad de los PS máximos en el siguiente turno.",
+          "ko": "다음 턴에 자신의 HP를 최대 HP의 절반만큼 회복한다."
+        }
+      }
+    }
+  ]
 }

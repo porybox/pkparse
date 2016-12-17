@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 145,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "squiggle"
   },
@@ -72,44 +64,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ミニリュウ",
-      "language": "ja"
-    },
-    {
-      "name": "Miniryu",
-      "language": "roomaji"
-    },
-    {
-      "name": "미뇽",
-      "language": "ko"
-    },
-    {
-      "name": "迷你龍",
-      "language": "zh"
-    },
-    {
-      "name": "Minidraco",
-      "language": "fr"
-    },
-    {
-      "name": "Dratini",
-      "language": "de"
-    },
-    {
-      "name": "Dratini",
-      "language": "es"
-    },
-    {
-      "name": "Dratini",
-      "language": "it"
-    },
-    {
-      "name": "Dratini",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ミニリュウ",
+    "en": "Dratini",
+    "fr": "Minidraco",
+    "it": "Dratini",
+    "de": "Dratini",
+    "es": "Dratini",
+    "ko": "미뇽"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -120,36 +83,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ドラゴン",
-      "language": "ja"
-    },
-    {
-      "genus": "드래곤",
-      "language": "ko"
-    },
-    {
-      "genus": "Dragon",
-      "language": "fr"
-    },
-    {
-      "genus": "Drache",
-      "language": "de"
-    },
-    {
-      "genus": "Dragón",
-      "language": "es"
-    },
-    {
-      "genus": "Drago",
-      "language": "it"
-    },
-    {
-      "genus": "Dragon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ドラゴン",
+    "en": "Dragon",
+    "fr": "Dragon",
+    "it": "Drago",
+    "de": "Drache",
+    "es": "Dragón",
+    "ko": "드래곤"
+  },
   "varieties": [
     {
       "is_default": true,

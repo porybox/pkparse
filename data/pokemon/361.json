@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 93,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    },
-    {
-      "name": "fairy"
-    }
+    "fairy",
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "humanoid"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ユキワラシ",
-      "language": "ja"
-    },
-    {
-      "name": "Yukiwarashi",
-      "language": "roomaji"
-    },
-    {
-      "name": "눈꼬마",
-      "language": "ko"
-    },
-    {
-      "name": "雪童子",
-      "language": "zh"
-    },
-    {
-      "name": "Stalgamin",
-      "language": "fr"
-    },
-    {
-      "name": "Schneppke",
-      "language": "de"
-    },
-    {
-      "name": "Snorunt",
-      "language": "es"
-    },
-    {
-      "name": "Snorunt",
-      "language": "it"
-    },
-    {
-      "name": "Snorunt",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ユキワラシ",
+    "en": "Snorunt",
+    "fr": "Stalgamin",
+    "it": "Snorunt",
+    "de": "Schneppke",
+    "es": "Snorunt",
+    "ko": "눈꼬마"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ゆきかさ",
-      "language": "ja"
-    },
-    {
-      "genus": "눈우산",
-      "language": "ko"
-    },
-    {
-      "genus": "Capuche",
-      "language": "fr"
-    },
-    {
-      "genus": "Schneehut",
-      "language": "de"
-    },
-    {
-      "genus": "Gorro Nieve",
-      "language": "es"
-    },
-    {
-      "genus": "Cappelneve",
-      "language": "it"
-    },
-    {
-      "genus": "Snow Hat",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ゆきかさ",
+    "en": "Snow Hat",
+    "fr": "Capuche",
+    "it": "Cappelneve",
+    "de": "Schneehut",
+    "es": "Gorro Nieve",
+    "ko": "눈우산"
+  },
   "varieties": [
     {
       "is_default": true,

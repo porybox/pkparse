@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 140,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "flying"
-    }
+    "flying",
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "wings"
   },
@@ -68,44 +60,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "チルタリス",
-      "language": "ja"
-    },
-    {
-      "name": "Tyltalis",
-      "language": "roomaji"
-    },
-    {
-      "name": "파비코리",
-      "language": "ko"
-    },
-    {
-      "name": "七夕青鳥",
-      "language": "zh"
-    },
-    {
-      "name": "Altaria",
-      "language": "fr"
-    },
-    {
-      "name": "Altaria",
-      "language": "de"
-    },
-    {
-      "name": "Altaria",
-      "language": "es"
-    },
-    {
-      "name": "Altaria",
-      "language": "it"
-    },
-    {
-      "name": "Altaria",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "チルタリス",
+    "en": "Altaria",
+    "fr": "Altaria",
+    "it": "Altaria",
+    "de": "Altaria",
+    "es": "Altaria",
+    "ko": "파비코리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -116,36 +79,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ハミング",
-      "language": "ja"
-    },
-    {
-      "genus": "허밍",
-      "language": "ko"
-    },
-    {
-      "genus": "Virevolteur",
-      "language": "fr"
-    },
-    {
-      "genus": "Summsel",
-      "language": "de"
-    },
-    {
-      "genus": "Cantor",
-      "language": "es"
-    },
-    {
-      "genus": "Canterino",
-      "language": "it"
-    },
-    {
-      "genus": "Humming",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ハミング",
+    "en": "Humming",
+    "fr": "Virevolteur",
+    "it": "Canterino",
+    "de": "Summsel",
+    "es": "Cantor",
+    "ko": "허밍"
+  },
   "varieties": [
     {
       "is_default": true,

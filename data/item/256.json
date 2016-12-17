@@ -1,0 +1,38 @@
+{
+  "id": 256,
+  "name": "lucky-punch",
+  "names": {
+    "ja": "ラッキーパンチ",
+    "kana": "ラッキーパンチ",
+    "en": "Lucky Punch",
+    "fr": "Poing Chance",
+    "it": "Fortunpugno",
+    "de": "Lucky Punch",
+    "es": "Puño Suerte",
+    "ko": "럭키펀치",
+    "zh-CN": "吉利拳",
+    "zh-TW": "吉利拳"
+  },
+  "flavor_text_entries": {
+    "ja": "幸運を　よぶ　グローブ。 ラッキーに　持たせると　技が 急所に　当たりやすくなる。",
+    "kana": "こううんを　よぶ　グローブ。 ラッキーに　もたせると　わざが きゅうしょに　あたりやすくなる。",
+    "en": "An item to be held by Chansey. This pair of lucky boxing gloves will boost Chansey’s critical-hit ratio.",
+    "fr": "Objet à faire tenir à Leveinard. Une paire de gants qui augmente son taux de critique.",
+    "it": "Strumento da dare a Chansey. Guanti che aumentano molto la probabilità di sferrare brutti colpi.",
+    "de": "Ein Item, das von Chaneira getragen werden kann. Diese Handschuhe erhöhen die Volltrefferquote des Trägers.",
+    "es": "Un par de guantes que debe llevar Chansey. Potencian mucho su índice de golpe crítico.",
+    "ko": "행운을 부르는 글러브다. 럭키에게 지니게 하면 기술이 급소에 맞기 쉬워진다.",
+    "zh-CN": "能带来幸运的拳套。 让吉利蛋携带后， 招式会变得容易击中要害。",
+    "zh-TW": "能帶來幸運的拳套。 讓吉利蛋攜帶後，招式會 變得容易擊中要害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Objet à faire tenir à Leveinard. Une paire de gants qui augmente son taux de critiques."
+        }
+      }
+    }
+  ]
+}

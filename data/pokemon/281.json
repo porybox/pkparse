@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 65,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "humanoid"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "キルリア",
-      "language": "ja"
-    },
-    {
-      "name": "Kirlia",
-      "language": "roomaji"
-    },
-    {
-      "name": "킬리아",
-      "language": "ko"
-    },
-    {
-      "name": "奇魯莉安",
-      "language": "zh"
-    },
-    {
-      "name": "Kirlia",
-      "language": "fr"
-    },
-    {
-      "name": "Kirlia",
-      "language": "de"
-    },
-    {
-      "name": "Kirlia",
-      "language": "es"
-    },
-    {
-      "name": "Kirlia",
-      "language": "it"
-    },
-    {
-      "name": "Kirlia",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "キルリア",
+    "en": "Kirlia",
+    "fr": "Kirlia",
+    "it": "Kirlia",
+    "de": "Kirlia",
+    "es": "Kirlia",
+    "ko": "킬리아"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かんじょう",
-      "language": "ja"
-    },
-    {
-      "genus": "감정",
-      "language": "ko"
-    },
-    {
-      "genus": "Émotion",
-      "language": "fr"
-    },
-    {
-      "genus": "Emotion",
-      "language": "de"
-    },
-    {
-      "genus": "Sensorio",
-      "language": "es"
-    },
-    {
-      "genus": "Emozione",
-      "language": "it"
-    },
-    {
-      "genus": "Emotion",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かんじょう",
+    "en": "Emotion",
+    "fr": "Émotion",
+    "it": "Emozione",
+    "de": "Emotion",
+    "es": "Sensorio",
+    "ko": "감정"
+  },
   "varieties": [
     {
       "is_default": true,

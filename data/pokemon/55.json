@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 60,
@@ -69,16 +67,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -92,44 +84,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ゴルダック",
-      "language": "ja"
-    },
-    {
-      "name": "Golduck",
-      "language": "roomaji"
-    },
-    {
-      "name": "골덕",
-      "language": "ko"
-    },
-    {
-      "name": "哥達鴨",
-      "language": "zh"
-    },
-    {
-      "name": "Akwakwak",
-      "language": "fr"
-    },
-    {
-      "name": "Entoron",
-      "language": "de"
-    },
-    {
-      "name": "Golduck",
-      "language": "es"
-    },
-    {
-      "name": "Golduck",
-      "language": "it"
-    },
-    {
-      "name": "Golduck",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴルダック",
+    "en": "Golduck",
+    "fr": "Akwakwak",
+    "it": "Golduck",
+    "de": "Entoron",
+    "es": "Golduck",
+    "ko": "골덕"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -140,36 +103,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あひる",
-      "language": "ja"
-    },
-    {
-      "genus": "오리",
-      "language": "ko"
-    },
-    {
-      "genus": "Canard",
-      "language": "fr"
-    },
-    {
-      "genus": "Ente",
-      "language": "de"
-    },
-    {
-      "genus": "Pato",
-      "language": "es"
-    },
-    {
-      "genus": "Papero",
-      "language": "it"
-    },
-    {
-      "genus": "Duck",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あひる",
+    "en": "Duck",
+    "fr": "Canard",
+    "it": "Papero",
+    "de": "Ente",
+    "es": "Pato",
+    "ko": "오리"
+  },
   "varieties": [
     {
       "is_default": true,

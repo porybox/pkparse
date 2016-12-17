@@ -2,34 +2,13 @@
   "id": 566,
   "name": "phantom-force",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User vanishes for one turn, becoming immune to attack, and hits on the second turn.\n\nThis move ignores the effects of []{move:detect} and []{move:protect}.\n\nThis move cannot be selected by []{move:sleep-talk}.",
-      "short_effect": "User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Phantom Force",
-      "language": "en"
-    },
-    {
-      "name": "Spettrotuffo",
-      "language": "it"
-    },
-    {
-      "name": "Golpe Fantasma",
-      "language": "es"
-    },
-    {
-      "name": "Phantomkraft",
-      "language": "de"
-    },
-    {
-      "name": "Hantise",
-      "language": "fr"
-    },
-    {
-      "name": "고스트다이브",
-      "language": "ko"
-    },
-    {
-      "name": "ゴーストダイブ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ゴーストダイブ",
+    "kana": "ゴーストダイブ",
+    "en": "Phantom Force",
+    "fr": "Hantise",
+    "it": "Spettrotuffo",
+    "de": "Phantomkraft",
+    "es": "Golpe Fantasma",
+    "ko": "고스트다이브",
+    "zh-CN": "潜灵奇袭",
+    "zh-TW": "潛靈奇襲"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "１ターンめで　どこかに　消えて ２ターンめに　相手を　攻撃する。 守りを　無視して　攻撃できる。",
+    "kana": "１ターンめで　どこかに　きえて ２ターンめに　あいてを　こうげきする。 まもりを　むしして　こうげきできる。",
+    "en": "The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",
+    "fr": "Le lanceur disparaît au premier tour et frappe au second. Cette attaque passe outre les protections.",
+    "it": "Chi la usa scompare improvvisamente per attaccare poi nel turno seguente. Questa mossa neutralizza le protezioni del bersaglio.",
+    "de": "Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.",
+    "es": "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.",
+    "ko": "1턴째에 어디론가 사라져서 2턴째에 상대를 공격한다. 기술 방어를 무시하고 공격할 수 있다.",
+    "zh-CN": "第１回合消失在某处， 第２回合攻击对手。 可以无视守护进行攻击。",
+    "zh-TW": "使用後的第１回合消失到某處， 並於第２回合攻擊對手。 可不顧對手的守護進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa scompare improvvisamente per attaccare poi nel turno seguente. Questa mossa neutralizza le difese del bersaglio."
+        }
+      }
+    }
+  ]
 }

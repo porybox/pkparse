@@ -1,37 +1,14 @@
 {
   "id": 464,
   "name": "dark-void",
-  "accuracy": 80,
-  "effect_chance": null,
+  "accuracy": 50,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Puts the target to [sleep]{mechanic:sleep}.",
-      "short_effect": "Puts the target to sleep.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "sleep"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "sleep",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -43,43 +20,39 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Dark Void",
-      "language": "en"
-    },
-    {
-      "name": "Vuototetro",
-      "language": "it"
-    },
-    {
-      "name": "Brecha Negra",
-      "language": "es"
-    },
-    {
-      "name": "Schlummerort",
-      "language": "de"
-    },
-    {
-      "name": "Trou Noir",
-      "language": "fr"
-    },
-    {
-      "name": "다크홀",
-      "language": "ko"
-    },
-    {
-      "name": "ダークホール",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
+  "names": {
+    "ja": "ダークホール",
+    "kana": "ダークホール",
+    "en": "Dark Void",
+    "fr": "Trou Noir",
+    "it": "Vuototetro",
+    "de": "Schlummerort",
+    "es": "Brecha Negra",
+    "ko": "다크홀",
+    "zh-CN": "暗黑洞",
+    "zh-TW": "暗黑洞"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "暗黒の　世界に　ひきずり　落として 相手を　眠り状態に　する。",
+    "kana": "あんこくの　せかいに　ひきずり　おとして あいてを　ねむり　じょうたいに　する。",
+    "en": "Opposing Pokémon are dragged into a world of total darkness that makes them sleep.",
+    "fr": "L’ennemi est plongé dans les ténèbres. Il tombe dans un profond sommeil.",
+    "it": "Trascina i nemici intorno in un mondo di totale oscurità e li fa addormentare.",
+    "de": "Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.",
+    "es": "El objetivo es enviado a un mundo de tinieblas que lo hace dormir.",
+    "ko": "암흑의 세계로 끌고 가서 떨어뜨려 상대를 잠듦 상태로 만든다.",
+    "zh-CN": "将对手强制拖入黑暗的世界， 从而让对手陷入睡眠状态。",
+    "zh-TW": "將對手強制拉進黑暗的世界， 讓對手陷入睡眠狀態。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "accuracy": 80
+      }
+    }
+  ]
 }

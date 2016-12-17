@@ -1,0 +1,38 @@
+{
+  "id": 400,
+  "name": "tm73",
+  "names": {
+    "ja": "わざマシン７３",
+    "kana": "わざマシン７３",
+    "en": "TM73",
+    "fr": "CT73",
+    "it": "MT73",
+    "de": "TM73",
+    "es": "MT73",
+    "ko": "기술머신73",
+    "zh-CN": "招式学习器７３",
+    "zh-TW": "招式學習器７３"
+  },
+  "flavor_text_entries": {
+    "ja": "弱い　電撃を　浴びせることで 相手を　まひ状態に　する。",
+    "kana": "よわい　でんきを　あびせることで あいてを　まひじょうたいに　する。",
+    "en": "The user launches a weak jolt of electricity that paralyzes the target.",
+    "fr": "Un faible choc électrique frappe l’ennemi. Si l’attaque le touche, celui-ci est paralysé.",
+    "it": "Colpisce il bersaglio con una debole scarica elettrica che lo paralizza.",
+    "de": "Das Ziel wird mit einem schwachen elektrischen Schlag angegriffen. Wird es getroffen, wird es paralysiert.",
+    "es": "Débil descarga eléctrica que se lanza contra el objetivo y causa parálisis si es certera.",
+    "ko": "약한 전기를 날려 상대를 마비 상태로 만든다.",
+    "zh-CN": "向对手发出 微弱的电击， 从而让对手陷入麻痹状态。",
+    "zh-TW": "放出微弱的電流。 讓對手陷入麻痺狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Il nemico viene colpito da una debole scarica elettrica che, se va a segno, ne causa la paralisi."
+        }
+      }
+    }
+  ]
+}

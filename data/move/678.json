@@ -1,0 +1,50 @@
+{
+  "id": 678,
+  "name": "psychic-terrain",
+  "accuracy": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "damage_class": "status",
+  "meta": {
+    "ailment": "none",
+    "category": "whole-field-effect",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "サイコフィールド",
+    "kana": "サイコフィールド",
+    "en": "Psychic Terrain",
+    "fr": "Champ Psychique",
+    "it": "Campo Psichico",
+    "de": "Psychofeld",
+    "es": "Campo Psíquico",
+    "ko": "사이코필드",
+    "zh-CN": "精神场地",
+    "zh-TW": "精神場地"
+  },
+  "flavor_text_entries": {
+    "ja": "５ターンの間　地面にいると 先制技を　受けない。 エスパータイプの　威力が　あがる。",
+    "kana": "５ターンの　あいだ　じめんにいると せんせいわざを　うけない。 エスパータイプの　いりょくが　あがる。",
+    "en": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns.",
+    "fr": "Pendant cinq tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance des capacités de type Psy augmente.",
+    "it": "Per cinque turni il terreno entra nello stato di Campo Psichico: i Pokémon a terra non subiscono mosse ad alta priorità e le mosse di tipo Psico sono potenziate.",
+    "de": "Verhindert für fünf Runden, dass Pokémon am Boden von Attacken mit hoher Erstschlagquote getroffen werden. Erhöht die Stärke von Psycho-Attacken.",
+    "es": "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad.",
+    "ko": "5턴 동안 땅에 있으면 선제공격을 받지 않는다. 에스퍼타입의 위력이 올라간다.",
+    "zh-CN": "在５回合内，地面上的宝可梦 不会受到先制招式的攻击。 超能力属性的招式威力会提高。",
+    "zh-TW": "在５回合內，地面上的寶可夢 不會受到先制招式攻擊。 超能力屬性的招式威力會提高。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "psychic"
+}

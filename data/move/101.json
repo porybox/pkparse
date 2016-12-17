@@ -2,36 +2,13 @@
   "id": 101,
   "name": "night-shade",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts damage equal to the user's level.  Type immunity applies, but other type effects are ignored.",
-      "short_effect": "Inflicts damage equal to the user's level.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Night Shade",
-      "language": "en"
-    },
-    {
-      "name": "Ombra Notturna",
-      "language": "it"
-    },
-    {
-      "name": "Tinieblas",
-      "language": "es"
-    },
-    {
-      "name": "Nachtnebel",
-      "language": "de"
-    },
-    {
-      "name": "Ombre Nocturne",
-      "language": "fr"
-    },
-    {
-      "name": "나이트헤드",
-      "language": "ko"
-    },
-    {
-      "name": "ナイトヘッド",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ナイトヘッド",
+    "kana": "ナイトヘッド",
+    "en": "Night Shade",
+    "fr": "Ombre Nocturne",
+    "it": "Ombra Notturna",
+    "de": "Nachtnebel",
+    "es": "Tinieblas",
+    "ko": "나이트헤드",
+    "zh-CN": "黑夜魔影",
+    "zh-TW": "黑夜魔影"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "恐ろしい　幻を　みせて 自分の　レベルと　同じだけの ダメージを　相手に　与える。",
+    "kana": "おそろしい　まぼろしを　みせて じぶんの　レベルと　おなじ　だけの ダメージを　あいてに　あたえる。",
+    "en": "The user makes the target see a frightening mirage. It inflicts damage equal to the user’s level.",
+    "fr": "Le lanceur invoque un mirage. Inflige des dégâts équivalents au niveau du lanceur.",
+    "it": "Fa apparire un orribile miraggio al bersaglio e infligge un danno pari al livello di chi la usa.",
+    "de": "Das Ziel sieht eine Illusion. Richtet Schaden gemäß dem Level des Anwenders an.",
+    "es": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el usuario.",
+    "ko": "무시무시한 환상을 보게 해서 자신의 레벨과 똑같은 만큼의 데미지를 상대에게 준다.",
+    "zh-CN": "显示恐怖幻影， 只给予对手 和自己等级相同的伤害。",
+    "zh-TW": "讓對手看見恐怖幻影， 給予對手和自己等級 相同的傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el agresor."
+        }
+      }
+    }
+  ]
 }

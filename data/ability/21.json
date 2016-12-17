@@ -1,215 +1,44 @@
 {
   "id": 21,
   "name": "suction-cups",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "きゅうばん",
+    "kana": "きゅうばん",
+    "en": "Suction Cups",
+    "fr": "Ventouse",
+    "it": "Ventose",
+    "de": "Saugnapf",
+    "es": "Ventosas",
+    "ko": "흡반",
+    "zh-CN": "吸盘",
+    "zh-TW": "吸盤"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "吸盤で　地面に　張り付き ポケモンを　入れ替えさせる 技や　道具が　効かなくなる。",
+    "kana": "きゅうばんで　じめんに　はりつき ポケモンを　いれかえさせる わざや　どうぐが　きかなくなる。",
+    "en": "This Pokémon uses suction cups to stay in one spot to negate all moves and items that force switching out.",
+    "fr": "Le Pokémon est solidement fixé au sol, ce qui le protège des capacités ou objets qui font changer de Pokémon.",
+    "it": "Resiste a strumenti e mosse che causano la sostituzione appiccicandosi al terreno con le ventose.",
+    "de": "Blockt Attacken und Items, die Pokémon austauschen, indem es sich mit einem Saugnapf am Boden verankert.",
+    "es": "Sus ventosas se aferran al suelo, con lo cual anula movimientos y objetos que fuerzan el relevo.",
+    "ko": "흡반으로 지면에 달라붙어 포켓몬을 교체시키는 기술이나 도구의 효과를 발휘하지 못하게 한다.",
+    "zh-CN": "用吸盘牢牢贴在地面上， 让替换宝可梦的招式和道具无效。",
+    "zh-TW": "用吸盤將自己牢牢吸附在地面上， 讓替換寶可夢的招式和道具失效。"
+  },
+  "past_values": [
     {
-      "name": "Suction Cups",
-      "language": "en"
-    },
-    {
-      "name": "Ventose",
-      "language": "it"
-    },
-    {
-      "name": "Ventosas",
-      "language": "es"
-    },
-    {
-      "name": "Saugnapf",
-      "language": "de"
-    },
-    {
-      "name": "Ventouse",
-      "language": "fr"
-    },
-    {
-      "name": "흡반",
-      "language": "ko"
-    },
-    {
-      "name": "きゅうばん",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon cannot be forced out of battle by moves such as []{move:whirlwind}.\n\n[]{move:dragon-tail} and []{move:circle-throw} still inflict damage against this Pokémon.\n\nOverworld: If the lead Pokémon has this ability, the success rate while fishing is increased.",
-      "short_effect": "Prevents being forced out of battle by other Pokémon's moves.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "emerald"
-      },
-      "effect_entries": [
-        {
-          "effect": "Has no overworld effect.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "入れ替えさせる　技や 道具が　効かない。",
+          "kana": "いれかえさせる　わざや どうぐが　きかない。",
+          "en": "Negates all moves and items that force switching out.",
+          "fr": "Annule les capacités ou objets qui font changer de Pokémon.",
+          "it": "Resiste a strumenti e mosse di sostituzione.",
+          "de": "Blockt Attacken und Items, die Pokémon austauschen.",
+          "es": "Anula movimientos y objetos que fuerzan el relevo.",
+          "ko": "교체시키는 기술이나 도구의 효과를 받지 않는다."
         }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "入れ替えさせる　技や\n道具が　効かない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Negates all moves and items\nthat force switching out.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Resiste a strumenti e mosse\ndi sostituzione.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Anula movimientos y objetos que\nfuerzan el relevo.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Blockt Attacken und Items,\ndie Pokémon austauschen.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Annule les capacités ou objets\nqui font changer de Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "교체시키는 기술이나 도구의\n효과를 받지 않는다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "いれかえさせる　わざや\nどうぐが　きかない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Negates all moves that\nforce switching out.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Negates all moves that\nforce switching out.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Annule les cap. et obj. qui\nfont changer de Pokémon.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Negates foes’ moves that\nforce switching out.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Negates moves that\nforce switching out.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Negates moves that\nforce switching out.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Firmly anchors the body.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Firmly anchors the body.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Firmly anchors the body.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "octillery"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "lileep"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "cradily"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "inkay"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "malamar"
       }
     }
   ]

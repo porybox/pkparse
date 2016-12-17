@@ -2,36 +2,13 @@
   "id": 348,
   "name": "leaf-blade",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.",
-      "short_effect": "Has an increased chance for a critical hit.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Leaf Blade",
-      "language": "en"
-    },
-    {
-      "name": "Fendifoglia",
-      "language": "it"
-    },
-    {
-      "name": "Hoja Aguda",
-      "language": "es"
-    },
-    {
-      "name": "Laubklinge",
-      "language": "de"
-    },
-    {
-      "name": "Lame-Feuille",
-      "language": "fr"
-    },
-    {
-      "name": "리프블레이드",
-      "language": "ko"
-    },
-    {
-      "name": "リーフブレード",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "リーフブレード",
+    "kana": "リーフブレード",
+    "en": "Leaf Blade",
+    "fr": "Lame-Feuille",
+    "it": "Fendifoglia",
+    "de": "Laubklinge",
+    "es": "Hoja Aguda",
+    "ko": "리프블레이드",
+    "zh-CN": "叶刃",
+    "zh-TW": "葉刃"
+  },
+  "flavor_text_entries": {
+    "ja": "はっぱを　剣のように　あやつり 相手を　切りつけて　攻撃する。 急所に　当たりやすい。",
+    "kana": "はっぱを　つるぎのように　あやつり あいてを　きりつけて　こうげきする。 きゅうしょに　あたりやすい。",
+    "en": "The user handles a sharp leaf like a sword and attacks by cutting its target. Critical hits land more easily.",
+    "fr": "Une feuille coupante comme une lame entaille l’ennemi. Taux de critique élevé.",
+    "it": "Colpisce il bersaglio usando una foglia affilata come una spada. Probabile brutto colpo.",
+    "de": "Hieb mit scharfkantigem Blatt. Hohe Volltrefferquote.",
+    "es": "Acuchilla con una hoja fina. Suele dar un golpe crítico.",
+    "ko": "잎사귀를 칼처럼 이용해 상대를 베어 공격한다. 급소에 맞기 쉽다.",
+    "zh-CN": "像用剑一般操纵叶片 切斩对手进行攻击。 容易击中要害。",
+    "zh-TW": "如用劍般操控葉子 切斬對手進行攻擊。 容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 70,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une feuille coupante comme une lame entaille l’ennemi. Taux de critiques élevé."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "grass"
-  }
+  ]
 }

@@ -1,0 +1,55 @@
+{
+  "id": 534,
+  "name": "red-orb",
+  "names": {
+    "ja": "べにいろのたま",
+    "kana": "べにいろのたま",
+    "en": "Red Orb",
+    "fr": "Gemme Rouge",
+    "it": "Gemma rossa",
+    "de": "Roter Edelstein",
+    "es": "Prisma Rojo",
+    "ko": "주홍구슬",
+    "zh-CN": "朱红色宝珠",
+    "zh-TW": "朱紅色寶珠"
+  },
+  "flavor_text_entries": {
+    "ja": "ホウエン地方の　伝説と 深い　関わりが　あると　いわれる あかく　かがやく　たま。",
+    "kana": "ホウエンちほうの　でんせつと ふかい　かかわりが　あると　いわれる あかく　かがやく　たま。",
+    "en": "A shiny red orb that is said to have a legend tied to it. It’s known to have a deep connection with the Hoenn region.",
+    "fr": "Une gemme incarnate dont on dit qu’elle a un lien très étroit avec les légendes de Hoenn.",
+    "it": "Gemma con riflessi rossi, che pare essere strettamente legata alle leggende della regione di Hoenn.",
+    "de": "Ein rot schimmernder Stein, von dem in den Legenden der Hoenn-Region berichtet wird.",
+    "es": "Piedra carmesí de la que se dice que guarda una estrecha relación con las leyendas de Hoenn.",
+    "ko": "호연지방의 전설과 깊은 연관이 있다고 전해지는 빨갛게 빛나는 구슬.",
+    "zh-CN": "散发着红色光辉的宝珠。 据说和丰缘地区的传说渊源颇深。",
+    "zh-TW": "據說和豐緣地區的傳說 有著很深淵源的， 散發著紅色光輝的寶珠。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une gemme incarnat dont on dit qu’elle a un lien très étroit avec les légendes de Hoenn."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "names": {
+          "fr": "Orbe Rouge",
+          "it": "Sfera Rossa",
+          "de": "Rote Kugel",
+          "es": "Esfera Roja"
+        },
+        "flavor_text_entries": {
+          "fr": "Un orbe incarnat dont on dit qu’il a un lien très étroit avec les légendes de Hoenn.",
+          "it": "Sfera con riflessi rossi, che pare essere strettamente legata alle leggende della regione di Hoenn.",
+          "de": "Eine rot schimmernde Kugel, von der in den Legenden der Hoenn-Region berichtet wird.",
+          "es": "Esfera carmesí de la que se dice que guarda una estrecha relación con las leyendas de Hoenn."
+        }
+      }
+    }
+  ]
+}

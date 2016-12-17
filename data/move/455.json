@@ -2,36 +2,13 @@
   "id": 455,
   "name": "defend-order",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Raises the user's Defense and Special Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,56 +20,50 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Defend Order",
-      "language": "en"
-    },
-    {
-      "name": "Comandoscudo",
-      "language": "it"
-    },
-    {
-      "name": "A Defender",
-      "language": "es"
-    },
-    {
-      "name": "Blockbefehl",
-      "language": "de"
-    },
-    {
-      "name": "Appel Défense",
-      "language": "fr"
-    },
-    {
-      "name": "방어지령",
-      "language": "ko"
-    },
-    {
-      "name": "ぼうぎょしれい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ぼうぎょしれい",
+    "kana": "ぼうぎょしれい",
+    "en": "Defend Order",
+    "fr": "Appel Défense",
+    "it": "Comandoscudo",
+    "de": "Blockbefehl",
+    "es": "A Defender",
+    "ko": "방어지령",
+    "zh-CN": "防御指令",
+    "zh-TW": "防禦指令"
+  },
+  "flavor_text_entries": {
+    "ja": "しもべを　呼びだして　自分の　体に おおい　つかせる。防御と　特防を あげることが　できる。",
+    "kana": "しもべを　よびだして　じぶんの　からだに おおい　つかせる。ぼうぎょと　とくぼうを あげることが　できる。",
+    "en": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
+    "fr": "Le lanceur appelle ses sous-fifres pour former un bouclier qui augmente sa Défense et sa Défense Spéciale.",
+    "it": "Chi la usa raduna i suoi sgherri per creare uno scudo, aumentando Difesa e Difesa Speciale.",
+    "de": "Untergebene bilden einen lebenden Schild um den Anwender. Erhöht Verteidigung und Spezial-Verteidigung.",
+    "es": "El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.",
+    "ko": "부하를 불러내어 자신의 몸을 뒤덮게 한다. 방어와 특수방어를 올릴 수 있다.",
+    "zh-CN": "召唤手下， 让其附在自己的身体上。 可以提高自己的防御和特防。",
+    "zh-TW": "呼喚手下，覆蓋住自己的身體。 可提高自己的防禦和特防。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "bug"
-  }
+  "target": "user",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Untergebene bilden einen lebenden Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidigung."
+        }
+      }
+    }
+  ]
 }

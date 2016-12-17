@@ -2,36 +2,13 @@
   "id": 366,
   "name": "tailwind",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "For the next three turns, all Pokémon on the user's side of the [field]{mechanic:field} have their original [Speed]{mechanic:speed} doubled.  This effect remains if the user leaves the [field]{mechanic:field}.",
-      "short_effect": "For three turns, friendly Pokémon have doubled Speed.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "field-effect"
-    },
+    "ailment": "none",
+    "category": "field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Tailwind",
-      "language": "en"
-    },
-    {
-      "name": "Ventoincoda",
-      "language": "it"
-    },
-    {
-      "name": "Viento Afín",
-      "language": "es"
-    },
-    {
-      "name": "Rückenwind",
-      "language": "de"
-    },
-    {
-      "name": "Vent Arrière",
-      "language": "fr"
-    },
-    {
-      "name": "순풍",
-      "language": "ko"
-    },
-    {
-      "name": "おいかぜ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "users-field"
+  "names": {
+    "ja": "おいかぜ",
+    "kana": "おいかぜ",
+    "en": "Tailwind",
+    "fr": "Vent Arrière",
+    "it": "Ventoincoda",
+    "de": "Rückenwind",
+    "es": "Viento Afín",
+    "ko": "순풍",
+    "zh-CN": "顺风",
+    "zh-TW": "順風"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "激しく　吹きあれる 風の渦を　つくり　４ターンの　間 味方　全員の　素早さを　あげる。",
+    "kana": "はげしく　ふきあれる かぜのうずを　つくり　４ターンの　あいだ みかた　ぜんいんの　すばやさを　あげる。",
+    "en": "The user whips up a turbulent whirlwind that ups the Speed stat of the user and its allies for four turns.",
+    "fr": "Génère une rafale de vent qui augmente la Vitesse des Pokémon de l’équipe pendant 4 tours.",
+    "it": "Chi la usa scatena un turbine che aumenta la Velocità di tutti i Pokémon della squadra per quattro turni.",
+    "de": "Anwender erzeugt einen Wirbelwind, der die Initiative aller Pokémon im Team für vier Runden erhöht.",
+    "es": "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.",
+    "ko": "세차게 불어대는 바람의 소용돌이를 만들어 4턴 동안 같은 편 모두의 스피드를 올린다.",
+    "zh-CN": "刮起猛烈的旋风， 在４回合内 提高我方全员的速度。",
+    "zh-TW": "刮起猛烈的強風， 在４回合內 提高我方全體的速度。"
+  },
+  "stat_changes": [],
+  "target": "users-field",
+  "type": "flying",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "激しく　吹きあれる 風の渦を　つくり　４ターンの　あいだ 味方　全員の　素早さを　あげる。",
+          "de": "Anwender erzeugt einen Wirbelwind, der die Initiative aller Pokémon im Team für vier Runden steigert."
+        }
+      }
+    }
+  ]
 }

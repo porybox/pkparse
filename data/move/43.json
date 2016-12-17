@@ -2,77 +2,13 @@
   "id": 43,
   "name": "leer",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "scratch"
-        },
-        {
-          "name": "stomp"
-        },
-        {
-          "name": "horn-attack"
-        },
-        {
-          "name": "tackle"
-        },
-        {
-          "name": "bite"
-        },
-        {
-          "name": "glare"
-        },
-        {
-          "name": "scary-face"
-        },
-        {
-          "name": "feint-attack"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "rage"
-        },
-        {
-          "name": "scary-face"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -84,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Leer",
-      "language": "en"
-    },
-    {
-      "name": "Fulmisguardo",
-      "language": "it"
-    },
-    {
-      "name": "Malicioso",
-      "language": "es"
-    },
-    {
-      "name": "Silberblick",
-      "language": "de"
-    },
-    {
-      "name": "Groz'Yeux",
-      "language": "fr"
-    },
-    {
-      "name": "째려보기",
-      "language": "ko"
-    },
-    {
-      "name": "にらみつける",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "にらみつける",
+    "kana": "にらみつける",
+    "en": "Leer",
+    "fr": "Groz’Yeux",
+    "it": "Fulmisguardo",
+    "de": "Silberblick",
+    "es": "Malicioso",
+    "ko": "째려보기",
+    "zh-CN": "瞪眼",
+    "zh-TW": "瞪眼"
+  },
+  "flavor_text_entries": {
+    "ja": "鋭い　目つきで　おびえさせて 相手の　防御を　さげる。",
+    "kana": "するどい　めつきで　おびえさせて あいての　ぼうぎょを　さげる。",
+    "en": "The user gives opposing Pokémon an intimidating leer that lowers the Defense stat.",
+    "fr": "Le lanceur fait les gros yeux à l’ennemi pour l’intimider et baisser sa Défense.",
+    "it": "Terrorizza i nemici intorno con uno sguardo fulminante e intimidatorio, riducendone la Difesa.",
+    "de": "Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.",
+    "es": "Intimida a los rivales para bajar su Defensa.",
+    "ko": "날카로운 눈초리로 겁을 주어 상대의 방어를 떨어뜨린다.",
+    "zh-CN": "用犀利的眼神使其害怕， 从而降低对手的防御。",
+    "zh-TW": "用犀利的眼神使對手害怕， 降低對手的防禦。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "all-opponents",
+  "type": "normal"
 }

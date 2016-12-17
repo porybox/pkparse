@@ -2,34 +2,13 @@
   "id": 527,
   "name": "electroweb",
   "accuracy": 95,
-  "effect_chance": 100,
   "pp": 15,
   "priority": 0,
   "power": 55,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Speed by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Electroweb",
-      "language": "en"
-    },
-    {
-      "name": "Elettrotela",
-      "language": "it"
-    },
-    {
-      "name": "Electrotela",
-      "language": "es"
-    },
-    {
-      "name": "Elektronetz",
-      "language": "de"
-    },
-    {
-      "name": "Toile Élek",
-      "language": "fr"
-    },
-    {
-      "name": "일렉트릭네트",
-      "language": "ko"
-    },
-    {
-      "name": "エレキネット",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "エレキネット",
+    "kana": "エレキネット",
+    "en": "Electroweb",
+    "fr": "Toile Élek",
+    "it": "Elettrotela",
+    "de": "Elektronetz",
+    "es": "Electrotela",
+    "ko": "일렉트릭네트",
+    "zh-CN": "电网",
+    "zh-TW": "電網"
+  },
+  "flavor_text_entries": {
+    "ja": "電気の　ネットで 相手を　捕まえて　攻撃する。 相手の　素早さを　さげる。",
+    "kana": "でんきの　ネットで あいてを　つかまえて　こうげきする。 あいての　すばやさを　さげる。",
+    "en": "The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.",
+    "fr": "Attrape l’ennemi dans un filet électrique. Baisse aussi la Vitesse de l’ennemi.",
+    "it": "Chi la usa attacca i nemici intorno a sé catturandoli con una ragnatela elettrica e riducendone la Velocità.",
+    "de": "Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.",
+    "es": "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.",
+    "ko": "전기 네트로 상대를 붙잡아서 공격한다. 상대의 스피드를 떨어뜨린다.",
+    "zh-CN": "用电网捉住对手进行攻击。 降低对手的速度。",
+    "zh-TW": "用電網捉住對手進行攻擊。 可降低對手的速度。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "electric"
-  }
+  "target": "all-opponents",
+  "type": "electric"
 }

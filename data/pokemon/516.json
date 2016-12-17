@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 34,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ヒヤッキー",
-      "language": "ja"
-    },
-    {
-      "name": "앗차키",
-      "language": "ko"
-    },
-    {
-      "name": "Flotoutan",
-      "language": "fr"
-    },
-    {
-      "name": "Sodachita",
-      "language": "de"
-    },
-    {
-      "name": "Simipour",
-      "language": "es"
-    },
-    {
-      "name": "Simipour",
-      "language": "it"
-    },
-    {
-      "name": "Simipour",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒヤッキー",
+    "en": "Simipour",
+    "fr": "Flotoutan",
+    "it": "Simipour",
+    "de": "Sodachita",
+    "es": "Simipour",
+    "ko": "앗차키"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほうすい",
-      "language": "ja"
-    },
-    {
-      "genus": "방수",
-      "language": "ko"
-    },
-    {
-      "genus": "Drainage",
-      "language": "fr"
-    },
-    {
-      "genus": "Drainage",
-      "language": "de"
-    },
-    {
-      "genus": "Drenaje",
-      "language": "es"
-    },
-    {
-      "genus": "Spruzzacqua",
-      "language": "it"
-    },
-    {
-      "genus": "Geyser",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほうすい",
+    "en": "Geyser",
+    "fr": "Drainage",
+    "it": "Spruzzacqua",
+    "de": "Drainage",
+    "es": "Drenaje",
+    "ko": "방수"
+  },
   "varieties": [
     {
       "is_default": true,

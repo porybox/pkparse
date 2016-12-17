@@ -1,0 +1,40 @@
+{
+  "id": 336,
+  "name": "tm09",
+  "names": {
+    "ja": "わざマシン０９",
+    "kana": "わざマシン０９",
+    "en": "TM09",
+    "fr": "CT09",
+    "it": "MT09",
+    "de": "TM09",
+    "es": "MT09",
+    "ko": "기술머신09",
+    "zh-CN": "招式学习器０９",
+    "zh-TW": "招式學習器０９"
+  },
+  "flavor_text_entries": {
+    "ja": "特殊な　毒液を　浴びせかける。 毒状態の　相手には 威力が　２倍に　なる。",
+    "kana": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいてには いりょくが　２ばいに　なる。",
+    "en": "The user drenches the target in a special poisonous liquid. This move’s power is doubled if the target is poisoned.",
+    "fr": "Le lanceur inocule un poison spécial à l’ennemi. L’effet est doublé si l’ennemi est déjà empoisonné.",
+    "it": "Lancia uno speciale liquido tossico sul bersaglio. Se questi è avvelenato, il danno provocato raddoppia.",
+    "de": "Überschüttet das Ziel mit einer speziellen toxischen Flüssigkeit. Doppelt so stark gegen bereits vergiftete Ziele.",
+    "es": "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.",
+    "ko": "특수한 독액을 끼얹는다. 독 상태의 상대에게는 위력이 2배가 된다.",
+    "zh-CN": "将特殊的毒液泼向对手。 对处于中毒状态的对手， 威力会变成２倍。",
+    "zh-TW": "將特殊的毒液潑向對手。 攻擊陷入中毒狀態的對手時， 威力會變成２倍。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "とくしゅな　どくえきを　あびせる。 どく　じょうたいの　あいてには いりょくが　２ばいに　なる。",
+          "es": "Un líquido venenoso que cubre al objetivo y provoca un daño doble si este ya estaba envenenado.",
+          "ko": "특수한 독액을 날린다. 독 상태의 상대에게는 위력이 2배가 된다."
+        }
+      }
+    }
+  ]
+}

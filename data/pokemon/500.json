@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 123,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "エンブオー",
-      "language": "ja"
-    },
-    {
-      "name": "염무왕",
-      "language": "ko"
-    },
-    {
-      "name": "Roitiflam",
-      "language": "fr"
-    },
-    {
-      "name": "Flambirex",
-      "language": "de"
-    },
-    {
-      "name": "Emboar",
-      "language": "es"
-    },
-    {
-      "name": "Emboar",
-      "language": "it"
-    },
-    {
-      "name": "Emboar",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エンブオー",
+    "en": "Emboar",
+    "fr": "Roitiflam",
+    "it": "Emboar",
+    "de": "Flambirex",
+    "es": "Emboar",
+    "ko": "염무왕"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おおひぶた",
-      "language": "ja"
-    },
-    {
-      "genus": "큰불돼지",
-      "language": "ko"
-    },
-    {
-      "genus": "Grochon Feu",
-      "language": "fr"
-    },
-    {
-      "genus": "Feuerschwein",
-      "language": "de"
-    },
-    {
-      "genus": "Cerdo Ígneo",
-      "language": "es"
-    },
-    {
-      "genus": "Suincendio",
-      "language": "it"
-    },
-    {
-      "genus": "Mega Fire Pig",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おおひぶた",
+    "en": "Mega Fire Pig",
+    "fr": "Grochon Feu",
+    "it": "Suincendio",
+    "de": "Feuerschwein",
+    "es": "Cerdo Ígneo",
+    "ko": "큰불돼지"
+  },
   "varieties": [
     {
       "is_default": true,

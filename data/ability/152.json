@@ -1,140 +1,44 @@
 {
   "id": 152,
   "name": "mummy",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "ミイラ",
+    "kana": "ミイラ",
+    "en": "Mummy",
+    "fr": "Momie",
+    "it": "Mummia",
+    "de": "Mumie",
+    "es": "Momia",
+    "ko": "미라",
+    "zh-CN": "木乃伊",
+    "zh-TW": "木乃伊"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "相手に　触られると 相手を　ミイラに　してしまう。",
+    "kana": "あいてに　さわられると あいてを　ミイラに　してしまう。",
+    "en": "Contact with the Pokémon changes the attacker’s Ability to Mummy.",
+    "fr": "Remplace le talent de l’attaquant par « Momie » lorsque le Pokémon subit une attaque directe.",
+    "it": "L’abilità del nemico diventa Mummia dopo il contatto.",
+    "de": "Überträgt bei Berührung die Fähigkeit Mumie auf den Angreifer.",
+    "es": "Contagia la habilidad Momia al rival que entre en contacto con él.",
+    "ko": "상대가 접촉하면 상대를 미라로 만들어버린다.",
+    "zh-CN": "被对手接触到后， 会将对手变为木乃伊。",
+    "zh-TW": "被對手接觸到時， 會將對手變成木乃伊。"
+  },
+  "past_values": [
     {
-      "name": "Mummy",
-      "language": "en"
-    },
-    {
-      "name": "Mummia",
-      "language": "it"
-    },
-    {
-      "name": "Momia",
-      "language": "es"
-    },
-    {
-      "name": "Mumie",
-      "language": "de"
-    },
-    {
-      "name": "Momie",
-      "language": "fr"
-    },
-    {
-      "name": "미라",
-      "language": "ko"
-    },
-    {
-      "name": "ミイラ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Whenever a contact move hits this Pokémon, the attacking Pokémon's ability changes to Mummy.\n\n[]{ability:multitype} is unaffected.  If a Pokémon with []{ability:moxie} knocks this Pokémon out, the former's ability will change without taking effect.",
-      "short_effect": "Changes attacking Pokémon's abilities to Mummy on contact.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "相手に　触られると\n相手を　ミイラにする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Contact with the Pokémon\nspreads this Ability.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "L’abilità del nemico cambia\nin Mummia dopo il contatto.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Contagia Momia al rival que lo\ntoque.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Berührt man das Pokémon,\nübernimmt man seine Fähigkeit.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Momifie le talent de l’ennemi qui\nle touche.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "상대의 기술을 받으면\n상대를 미라로 만든다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "あいてに　さわられると\nあいてを　ミイラにする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Contact with this Pokémon\nspreads this Ability.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Contact with this Pokémon\nspreads this Ability.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Momifie la cap. spé. de\nl’ennemi qui le touche.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "yamask"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "cofagrigus"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手に　触られると 相手を　ミイラにする。",
+          "kana": "あいてに　さわられると あいてを　ミイラにする。",
+          "en": "Contact with the Pokémon spreads this Ability.",
+          "fr": "Momifie le talent de l’ennemi qui le touche.",
+          "it": "L’abilità del nemico cambia in Mummia dopo il contatto.",
+          "de": "Berührt man das Pokémon, übernimmt man seine Fähigkeit.",
+          "es": "Contagia Momia al rival que lo toque.",
+          "ko": "상대의 기술을 받으면 상대를 미라로 만든다."
+        }
       }
     }
   ]

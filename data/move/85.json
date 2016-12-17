@@ -2,49 +2,13 @@
   "id": 85,
   "name": "thunderbolt",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 15,
   "priority": 0,
   "power": 90,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "charge"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.",
-      "short_effect": "Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "paralysis",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,43 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Thunderbolt",
-      "language": "en"
-    },
-    {
-      "name": "Fulmine",
-      "language": "it"
-    },
-    {
-      "name": "Rayo",
-      "language": "es"
-    },
-    {
-      "name": "Donnerblitz",
-      "language": "de"
-    },
-    {
-      "name": "Tonnerre",
-      "language": "fr"
-    },
-    {
-      "name": "10만볼트",
-      "language": "ko"
-    },
-    {
-      "name": "１０まんボルト",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "１０まんボルト",
+    "kana": "１０まんボルト",
+    "en": "Thunderbolt",
+    "fr": "Tonnerre",
+    "it": "Fulmine",
+    "de": "Donnerblitz",
+    "es": "Rayo",
+    "ko": "10만볼트",
+    "zh-CN": "十万伏特",
+    "zh-TW": "十萬伏特"
   },
-  "type": {
-    "name": "electric"
-  }
+  "flavor_text_entries": {
+    "ja": "強い　電撃を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+    "kana": "つよい　でんげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+    "en": "A strong electric blast crashes down on the target. This may also leave the target with paralysis.",
+    "fr": "Une grosse décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+    "it": "Il bersaglio viene colpito da una potente scarica elettrica che può anche paralizzarlo.",
+    "de": "Eine starke Elektro-Attacke, die das Ziel eventuell paralysiert.",
+    "es": "Potente ataque eléctrico que puede paralizar al objetivo.",
+    "ko": "강한 전격을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+    "zh-CN": "向对手发出 强力电击进行攻击。 有时会让对手陷入麻痹状态。",
+    "zh-TW": "向對手放出強力電流進行攻擊。 有時會讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "names": {
+          "ja": "じゅうまんボルト",
+          "kana": "じゅうまんボルト",
+          "ko": "십만볼트"
+        }
+      }
+    }
+  ]
 }

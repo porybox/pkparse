@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 94,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "humanoid"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ドテッコツ",
-      "language": "ja"
-    },
-    {
-      "name": "토쇠골",
-      "language": "ko"
-    },
-    {
-      "name": "Ouvrifier",
-      "language": "fr"
-    },
-    {
-      "name": "Strepoli",
-      "language": "de"
-    },
-    {
-      "name": "Gurdurr",
-      "language": "es"
-    },
-    {
-      "name": "Gurdurr",
-      "language": "it"
-    },
-    {
-      "name": "Gurdurr",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドテッコツ",
+    "en": "Gurdurr",
+    "fr": "Ouvrifier",
+    "it": "Gurdurr",
+    "de": "Strepoli",
+    "es": "Gurdurr",
+    "ko": "토쇠골"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きんこつ",
-      "language": "ja"
-    },
-    {
-      "genus": "근골",
-      "language": "ko"
-    },
-    {
-      "genus": "Costaud",
-      "language": "fr"
-    },
-    {
-      "genus": "Muskel",
-      "language": "de"
-    },
-    {
-      "genus": "Musculoso",
-      "language": "es"
-    },
-    {
-      "genus": "Forzaimmane",
-      "language": "it"
-    },
-    {
-      "genus": "Muscular",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きんこつ",
+    "en": "Muscular",
+    "fr": "Costaud",
+    "it": "Forzaimmane",
+    "de": "Muskel",
+    "es": "Musculoso",
+    "ko": "근골"
+  },
   "varieties": [
     {
       "is_default": true,

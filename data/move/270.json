@@ -2,36 +2,13 @@
   "id": 270,
   "name": "helping-hand",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 5,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Boosts the power of the target's moves by 50% until the end of this turn.\n\nThis move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "Ally's next move inflicts half more damage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Helping Hand",
-      "language": "en"
-    },
-    {
-      "name": "Altruismo",
-      "language": "it"
-    },
-    {
-      "name": "Refuerzo",
-      "language": "es"
-    },
-    {
-      "name": "Rechte Hand",
-      "language": "de"
-    },
-    {
-      "name": "Coup d'Main",
-      "language": "fr"
-    },
-    {
-      "name": "도우미",
-      "language": "ko"
-    },
-    {
-      "name": "てだすけ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "ally"
+  "names": {
+    "ja": "てだすけ",
+    "kana": "てだすけ",
+    "en": "Helping Hand",
+    "fr": "Coup d’Main",
+    "it": "Altruismo",
+    "de": "Rechte Hand",
+    "es": "Refuerzo",
+    "ko": "도우미",
+    "zh-CN": "帮助",
+    "zh-TW": "幫助"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "仲間を　助ける。 てだすけ　された　ポケモンの　技の 威力は　いつもより　大きくなる。",
+    "kana": "なかまを　たすける。 てだすけ　された　ポケモンの　わざの いりょくは　いつもより　おおきく　なる。",
+    "en": "The user assists an ally by boosting the power of that ally’s attack.",
+    "fr": "Une capacité qui augmente la puissance d’attaque d’un allié.",
+    "it": "Mossa che aumenta la potenza dell’attacco di un alleato.",
+    "de": "Anwender steigert die Kraft eines Angriffes eines Mitstreiters.",
+    "es": "El usuario ayuda a un aliado reforzando la potencia de su ataque.",
+    "ko": "동료를 돕는다. 도움받은 포켓몬이 쓰는 기술의 위력은 여느 때보다 커진다.",
+    "zh-CN": "帮助伙伴。 被帮助的宝可梦， 其招式威力变得比平时大。",
+    "zh-TW": "幫助夥伴。 被幫助的寶可夢， 招式的威力會比原來更大。"
+  },
+  "stat_changes": [],
+  "target": "ally",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender steigert die Kraft eines Angriffes eines Freundes."
+        }
+      }
+    }
+  ]
 }

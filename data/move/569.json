@@ -2,34 +2,13 @@
   "id": 569,
   "name": "ion-deluge",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 25,
   "priority": 1,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Changes all Pokémon's []{type:normal} moves to []{type:electric} moves for the rest of the turn.",
-      "short_effect": "Changes all []{type:normal} moves to []{type:electric} moves for the rest of the turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Ion Deluge",
-      "language": "en"
-    },
-    {
-      "name": "Pioggiaplasma",
-      "language": "it"
-    },
-    {
-      "name": "Cortina Plasma",
-      "language": "es"
-    },
-    {
-      "name": "Plasmaschauer",
-      "language": "de"
-    },
-    {
-      "name": "DélugePlasmique",
-      "language": "fr"
-    },
-    {
-      "name": "플라스마샤워",
-      "language": "ko"
-    },
-    {
-      "name": "プラズマシャワー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "プラズマシャワー",
+    "kana": "プラズマシャワー",
+    "en": "Ion Deluge",
+    "fr": "DélugePlasmique",
+    "it": "Pioggiaplasma",
+    "de": "Plasmaschauer",
+    "es": "Cortina Plasma",
+    "ko": "플라스마샤워",
+    "zh-CN": "等离子浴",
+    "zh-TW": "等離子浴"
   },
-  "type": {
-    "name": "electric"
-  }
+  "flavor_text_entries": {
+    "ja": "電気を　帯びた　粒子を 拡散し　ノーマルタイプの　技を でんきタイプに　してしまう。",
+    "kana": "でんきを　おびた　りゅうしを かくさんし　ノーマルタイプの　わざを でんきタイプに　してしまう。",
+    "en": "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.",
+    "fr": "Diffuse des particules saturées d’électricité qui transforment les capacités de type Normal en capacités de type Électrik.",
+    "it": "Chi la usa disperde delle particelle elettrizzate che trasformano le mosse di tipo Normale in mosse di tipo Elettro.",
+    "de": "Versprüht elektrisch geladene Partikel und bewirkt, dass Normal-Attacken den Typ Elektro annehmen.",
+    "es": "El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.",
+    "ko": "전기를 띤 입자를 확산시켜 노말타입 기술을 전기타입으로 바꿔버린다.",
+    "zh-CN": "将带电粒子扩散开来， 使一般属性的招式变成电属性。",
+    "zh-TW": "讓帶電粒子擴散開來， 使一般屬性的招式 變成電屬性。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "electric"
 }

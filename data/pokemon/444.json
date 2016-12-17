@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 7,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -66,44 +58,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ガバイト",
-      "language": "ja"
-    },
-    {
-      "name": "Gabite",
-      "language": "roomaji"
-    },
-    {
-      "name": "한바이트",
-      "language": "ko"
-    },
-    {
-      "name": "尖牙陸鲨",
-      "language": "zh"
-    },
-    {
-      "name": "Carmache",
-      "language": "fr"
-    },
-    {
-      "name": "Knarksel",
-      "language": "de"
-    },
-    {
-      "name": "Gabite",
-      "language": "es"
-    },
-    {
-      "name": "Gabite",
-      "language": "it"
-    },
-    {
-      "name": "Gabite",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ガバイト",
+    "en": "Gabite",
+    "fr": "Carmache",
+    "it": "Gabite",
+    "de": "Knarksel",
+    "es": "Gabite",
+    "ko": "한바이트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -114,36 +77,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほらあな",
-      "language": "ja"
-    },
-    {
-      "genus": "동굴",
-      "language": "ko"
-    },
-    {
-      "genus": "Caverne",
-      "language": "fr"
-    },
-    {
-      "genus": "Höhle",
-      "language": "de"
-    },
-    {
-      "genus": "Cueva",
-      "language": "es"
-    },
-    {
-      "genus": "Grotta",
-      "language": "it"
-    },
-    {
-      "genus": "Cave",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほらあな",
+    "en": "Cave",
+    "fr": "Caverne",
+    "it": "Grotta",
+    "de": "Höhle",
+    "es": "Cueva",
+    "ko": "동굴"
+  },
   "varieties": [
     {
       "is_default": true,

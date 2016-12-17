@@ -2,100 +2,13 @@
   "id": 241,
   "name": "sunny-day",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "fire-punch"
-        },
-        {
-          "name": "rolling-kick"
-        },
-        {
-          "name": "ember"
-        },
-        {
-          "name": "flamethrower"
-        },
-        {
-          "name": "solar-beam"
-        },
-        {
-          "name": "fire-spin"
-        },
-        {
-          "name": "fire-blast"
-        },
-        {
-          "name": "flame-wheel"
-        },
-        {
-          "name": "sacred-fire"
-        },
-        {
-          "name": "morning-sun"
-        },
-        {
-          "name": "synthesis"
-        },
-        {
-          "name": "moonlight"
-        },
-        {
-          "name": "heat-wave"
-        },
-        {
-          "name": "eruption"
-        },
-        {
-          "name": "blaze-kick"
-        },
-        {
-          "name": "blast-burn"
-        },
-        {
-          "name": "weather-ball"
-        },
-        {
-          "name": "overheat"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Changes the weather to sunshine for five turns, during which []{type:fire} moves inflict 50% extra damage, and []{type:water} moves inflict half damage.\n\nIf the user is holding []{item:heat-rock}, this effect lasts for eight turns.\n\nPokémon cannot become [frozen]{mechanic:frozen}.\n\n[]{move:thunder} has 50% accuracy.\n\n[]{move:solar-beam} skips its charge turn.\n\n[]{move:moonlight}, []{move:morning-sun}, and []{move:synthesis} heal 2/3 of the user's max [HP]{mechanic:hp}.\n\nPokémon with []{ability:chlorophyll} have doubled original [Speed]{mechanic:speed}.\n\nPokémon with []{ability:forecast} become []{type:fire}.\n\nPokémon with []{ability:leaf-guard} are not affected by [major status effects]{mechanic:major-status-effects}.\n\nPokémon with []{ability:flower-gift} change form; every Pokémon on their side of the [field]{mechanic:field} have their original [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} increased by 50%.\n\nPokémon with []{ability:dry-skin} lose 1/8 max [HP]{mechanic:hp} at the end of each turn.\n\nPokémon with []{ability:solar-power} have their original [Special Attack]{mechanic:special-attack} raised by 50% but lose 1/8 their max [HP]{mechanic:hp} at the end of each turn.",
-      "short_effect": "Changes the weather to sunny for five turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -107,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sunny Day",
-      "language": "en"
-    },
-    {
-      "name": "Giornodisole",
-      "language": "it"
-    },
-    {
-      "name": "Día Soleado",
-      "language": "es"
-    },
-    {
-      "name": "Sonnentag",
-      "language": "de"
-    },
-    {
-      "name": "Zénith",
-      "language": "fr"
-    },
-    {
-      "name": "쾌청",
-      "language": "ko"
-    },
-    {
-      "name": "にほんばれ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "にほんばれ",
+    "kana": "にほんばれ",
+    "en": "Sunny Day",
+    "fr": "Zénith",
+    "it": "Giornodisole",
+    "de": "Sonnentag",
+    "es": "Día Soleado",
+    "ko": "쾌청",
+    "zh-CN": "大晴天",
+    "zh-TW": "大晴天"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "５ターンの　間　日差しを　強くして ほのおタイプの　威力を　あげる。 みずタイプの　威力は　さがる。",
+    "kana": "５ターンの　あいだ　ひざしを　つよくして ほのおタイプの　いりょくを　あげる。 みずタイプの　いりょくは　さがる。",
+    "en": "The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves.",
+    "fr": "Fait briller le soleil pendant cinq tours, augmentant la puissance des capacités de type Feu et baissant celle des capacités de type Eau.",
+    "it": "Chi la usa intensifica i raggi solari per cinque turni, potenziando le mosse di tipo Fuoco e riducendo la potenza di quelle di tipo Acqua.",
+    "de": "Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt, während Wasser-Attacken abgeschwächt werden.",
+    "es": "Hace que se intensifique el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego y debilita los de tipo Agua.",
+    "ko": "5턴 동안 햇살을 강하게 해서 불꽃타입 기술의 위력을 올린다. 물타입의 위력은 떨어진다.",
+    "zh-CN": "在５回合内阳光变得强烈， 从而提高火属性的招式威力。 水属性的招式威力则降低。",
+    "zh-TW": "讓陽光增強，在５回合內 提高火屬性招式的威力。 水屬性招式的威力會降低。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "５ターンの　あいだ　日差しを 強くして　ほのおタイプの 技の　威力を　あげる。",
+          "kana": "５ターンの　あいだ　ひざしを つよくして　ほのおタイプの わざの　いりょくを　あげる。",
+          "en": "The user intensifies the sun for five turns, powering up Fire-type moves.",
+          "fr": "Fait briller le soleil pendant cinq tours, augmentant la puissance des capacités de type Feu.",
+          "it": "Chi la usa intensifica i raggi solari per cinque turni, potenziando le mosse di tipo Fuoco.",
+          "de": "Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.",
+          "es": "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego.",
+          "ko": "5턴 동안 햇살을 강하게 해서 불꽃타입 기술의 위력을 올린다."
+        }
+      }
+    }
+  ]
 }

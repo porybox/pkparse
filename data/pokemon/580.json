@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 127,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "flying"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "wings"
   },
@@ -58,68 +50,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "コアルヒー",
-      "language": "ja"
-    },
-    {
-      "name": "꼬지보리",
-      "language": "ko"
-    },
-    {
-      "name": "Couaneton",
-      "language": "fr"
-    },
-    {
-      "name": "Piccolente",
-      "language": "de"
-    },
-    {
-      "name": "Ducklett",
-      "language": "es"
-    },
-    {
-      "name": "Ducklett",
-      "language": "it"
-    },
-    {
-      "name": "Ducklett",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コアルヒー",
+    "en": "Ducklett",
+    "fr": "Couaneton",
+    "it": "Ducklett",
+    "de": "Piccolente",
+    "es": "Ducklett",
+    "ko": "꼬지보리"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みずどり",
-      "language": "ja"
-    },
-    {
-      "genus": "물새",
-      "language": "ko"
-    },
-    {
-      "genus": "Oiseaudo",
-      "language": "fr"
-    },
-    {
-      "genus": "Wasservogel",
-      "language": "de"
-    },
-    {
-      "genus": "Ave Agua",
-      "language": "es"
-    },
-    {
-      "genus": "Alacquatico",
-      "language": "it"
-    },
-    {
-      "genus": "Water Bird",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みずどり",
+    "en": "Water Bird",
+    "fr": "Oiseaudo",
+    "it": "Alacquatico",
+    "de": "Wasservogel",
+    "es": "Ave Agua",
+    "ko": "물새"
+  },
   "varieties": [
     {
       "is_default": true,

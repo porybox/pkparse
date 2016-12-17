@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 48,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "bug"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "bug-wings"
   },
@@ -56,44 +48,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "アメモース",
-      "language": "ja"
-    },
-    {
-      "name": "Amemoth",
-      "language": "roomaji"
-    },
-    {
-      "name": "비나방",
-      "language": "ko"
-    },
-    {
-      "name": "雨翅蛾",
-      "language": "zh"
-    },
-    {
-      "name": "Maskadra",
-      "language": "fr"
-    },
-    {
-      "name": "Maskeregen",
-      "language": "de"
-    },
-    {
-      "name": "Masquerain",
-      "language": "es"
-    },
-    {
-      "name": "Masquerain",
-      "language": "it"
-    },
-    {
-      "name": "Masquerain",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アメモース",
+    "en": "Masquerain",
+    "fr": "Maskadra",
+    "it": "Masquerain",
+    "de": "Maskeregen",
+    "es": "Masquerain",
+    "ko": "비나방"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -104,36 +67,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "めだま",
-      "language": "ja"
-    },
-    {
-      "genus": "안구",
-      "language": "ko"
-    },
-    {
-      "genus": "Boule Œil",
-      "language": "fr"
-    },
-    {
-      "genus": "Auge",
-      "language": "de"
-    },
-    {
-      "genus": "Globocular",
-      "language": "es"
-    },
-    {
-      "genus": "Occhi",
-      "language": "it"
-    },
-    {
-      "genus": "Eyeball",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "めだま",
+    "en": "Eyeball",
+    "fr": "Boule Œil",
+    "it": "Occhi",
+    "de": "Auge",
+    "es": "Globocular",
+    "ko": "안구"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -151,8 +93,19 @@
     "hp": 70,
     "attack": 60,
     "defense": 62,
-    "special-attack": 80,
+    "special-attack": 100,
     "special-defense": 82,
-    "speed": 60
-  }
+    "speed": 80
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "special-attack": 80,
+          "speed": 60
+        }
+      }
+    }
+  ]
 }

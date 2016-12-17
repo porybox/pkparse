@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 110,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "fairy"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "upright"
   },
@@ -46,68 +38,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "デデンネ",
-      "language": "ja"
-    },
-    {
-      "name": "데덴네",
-      "language": "ko"
-    },
-    {
-      "name": "Dedenne",
-      "language": "fr"
-    },
-    {
-      "name": "Dedenne",
-      "language": "de"
-    },
-    {
-      "name": "Dedenne",
-      "language": "es"
-    },
-    {
-      "name": "Dedenne",
-      "language": "it"
-    },
-    {
-      "name": "Dedenne",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "デデンネ",
+    "en": "Dedenne",
+    "fr": "Dedenne",
+    "it": "Dedenne",
+    "de": "Dedenne",
+    "es": "Dedenne",
+    "ko": "데덴네"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "アンテナ",
-      "language": "ja"
-    },
-    {
-      "genus": "안테나",
-      "language": "ko"
-    },
-    {
-      "genus": "Antenne",
-      "language": "fr"
-    },
-    {
-      "genus": "Antennen",
-      "language": "de"
-    },
-    {
-      "genus": "Antenas",
-      "language": "es"
-    },
-    {
-      "genus": "Antenna",
-      "language": "it"
-    },
-    {
-      "genus": "Antenna",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "アンテナ",
+    "en": "Antenna",
+    "fr": "Antenne",
+    "it": "Antenna",
+    "de": "Antennen",
+    "es": "Antenas",
+    "ko": "안테나"
+  },
   "varieties": [
     {
       "is_default": true,

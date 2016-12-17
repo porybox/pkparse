@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 103,
@@ -69,13 +67,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -89,44 +83,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ユンゲラー",
-      "language": "ja"
-    },
-    {
-      "name": "Yungerer",
-      "language": "roomaji"
-    },
-    {
-      "name": "윤겔라",
-      "language": "ko"
-    },
-    {
-      "name": "勇吉拉",
-      "language": "zh"
-    },
-    {
-      "name": "Kadabra",
-      "language": "fr"
-    },
-    {
-      "name": "Kadabra",
-      "language": "de"
-    },
-    {
-      "name": "Kadabra",
-      "language": "es"
-    },
-    {
-      "name": "Kadabra",
-      "language": "it"
-    },
-    {
-      "name": "Kadabra",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ユンゲラー",
+    "en": "Kadabra",
+    "fr": "Kadabra",
+    "it": "Kadabra",
+    "de": "Kadabra",
+    "es": "Kadabra",
+    "ko": "윤겔라"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -137,36 +102,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ねんりき",
-      "language": "ja"
-    },
-    {
-      "genus": "초능력",
-      "language": "ko"
-    },
-    {
-      "genus": "Psy",
-      "language": "fr"
-    },
-    {
-      "genus": "Psi",
-      "language": "de"
-    },
-    {
-      "genus": "Psi",
-      "language": "es"
-    },
-    {
-      "genus": "Psico",
-      "language": "it"
-    },
-    {
-      "genus": "Psi",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ねんりき",
+    "en": "Psi",
+    "fr": "Psy",
+    "it": "Psico",
+    "de": "Psi",
+    "es": "Psi",
+    "ko": "초능력"
+  },
   "varieties": [
     {
       "is_default": true,

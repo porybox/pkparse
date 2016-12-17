@@ -2,36 +2,13 @@
   "id": 304,
   "name": "hyper-voice",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Hyper Voice",
-      "language": "en"
-    },
-    {
-      "name": "Granvoce",
-      "language": "it"
-    },
-    {
-      "name": "Vozarrón",
-      "language": "es"
-    },
-    {
-      "name": "Schallwelle",
-      "language": "de"
-    },
-    {
-      "name": "Mégaphone",
-      "language": "fr"
-    },
-    {
-      "name": "하이퍼보이스",
-      "language": "ko"
-    },
-    {
-      "name": "ハイパーボイス",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
+  "names": {
+    "ja": "ハイパーボイス",
+    "kana": "ハイパーボイス",
+    "en": "Hyper Voice",
+    "fr": "Mégaphone",
+    "it": "Granvoce",
+    "de": "Schallwelle",
+    "es": "Vozarrón",
+    "ko": "하이퍼보이스",
+    "zh-CN": "巨声",
+    "zh-TW": "巨聲"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "うるさく　響く　大きな　振動を 相手に　与えて　攻撃する。",
+    "kana": "うるさく　ひびく　おおきな　しんどうを あいてに　あたえて　こうげきする。",
+    "en": "The user lets loose a horribly echoing shout with the power to inflict damage.",
+    "fr": "Le lanceur pousse un cri dont l’écho terrifiant a le pouvoir d’infliger des dégâts à l’ennemi.",
+    "it": "Chi la usa lancia un urlo straziante che danneggia i nemici intorno a sé.",
+    "de": "Laute Attacke mit Schallwellen.",
+    "es": "Grito desgarrador que inflige daño al objetivo.",
+    "ko": "시끄럽게 울리는 큰 진동을 상대에게 전달하여 공격한다.",
+    "zh-CN": "给予对手又吵又响的 巨大震动进行攻击。",
+    "zh-TW": "製造出震耳欲聾的 巨大聲波攻擊對手。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur pousse un cri dont l’écho terrifiant a le pouvoir d’infliger des dégâts."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "시끄럽게 울려서 큰 진동을 상대에게 전달하여 공격한다."
+        }
+      }
+    }
+  ]
 }

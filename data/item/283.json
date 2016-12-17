@@ -1,0 +1,38 @@
+{
+  "id": 283,
+  "name": "smooth-rock",
+  "names": {
+    "ja": "さらさらいわ",
+    "kana": "さらさらいわ",
+    "en": "Smooth Rock",
+    "fr": "Roche Lisse",
+    "it": "Roccialiscia",
+    "de": "Glattbrocken",
+    "es": "Roca Suave",
+    "ko": "보송보송바위",
+    "zh-CN": "沙沙岩石",
+    "zh-TW": "沙沙岩石"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせた　ポケモンが　すなあらしを 使うと　いつもより　すなあらしの 時間が　長くなる。",
+    "kana": "もたせた　ポケモンが　すなあらしを つかうと　いつもより　すなあらしの じかんが　ながくなる。",
+    "en": "An item to be held by a Pokémon. It extends the duration of the move Sandstorm when used by the holder.",
+    "fr": "Objet à tenir. Augmente la durée de la capacité Tempête de Sable utilisée par le porteur.",
+    "it": "Strumento da dare a un Pokémon. Allunga la durata della mossa Terrempesta.",
+    "de": "Ein Item zum Tragen. Verlängert die Dauer von Sandsturm, wenn der Träger diese Attacke einsetzt.",
+    "es": "Prolonga la duración del movimiento Tormenta de Arena que use el Pokémon que la lleva.",
+    "ko": "지니게 한 포켓몬이 모래바람을 쓰면 여느 때보다 모래바람의 시간이 길어진다.",
+    "zh-CN": "携带它的宝可梦使出沙暴的话， 沙暴的时间就会比平时更长。",
+    "zh-TW": "攜帶它的寶可夢 使出沙暴的話， 沙暴的時間就會比平時更長。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ein Item zum Tragen. Verlängert die Dauer von Sandsturm, wenn der Träger es einsetzt."
+        }
+      }
+    }
+  ]
+}

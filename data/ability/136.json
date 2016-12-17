@@ -1,140 +1,50 @@
 {
   "id": 136,
   "name": "multiscale",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "マルチスケイル",
+    "kana": "マルチスケイル",
+    "en": "Multiscale",
+    "fr": "Multiécaille",
+    "it": "Multisquame",
+    "de": "Multischuppe",
+    "es": "Compensación",
+    "ko": "멀티스케일",
+    "zh-CN": "多重鳞片",
+    "zh-TW": "多重鱗片"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "ＨＰが　満タンの　ときに 受ける　ダメージが　少なくなる。",
+    "kana": "ＨＰが　まんたんの　ときに うける　ダメージが　すくなくなる。",
+    "en": "Reduces the amount of damage the Pokémon takes when its HP is full.",
+    "fr": "Le Pokémon reçoit moins de dégâts quand ses PV sont au maximum.",
+    "it": "Se i PS sono al massimo, riduce il danno subito.",
+    "de": "Verringert den erlittenen Schaden bei vollen KP.",
+    "es": "Reduce el daño sufrido si los PS están al máximo.",
+    "ko": "HP가 꽉 찼을 때 받는 데미지가 줄어든다.",
+    "zh-CN": "ＨＰ全满时， 受到的伤害会变少。",
+    "zh-TW": "ＨＰ全滿時， 受到的傷害會變少。"
+  },
+  "past_values": [
     {
-      "name": "Multiscale",
-      "language": "en"
-    },
-    {
-      "name": "Multisquame",
-      "language": "it"
-    },
-    {
-      "name": "Compensación",
-      "language": "es"
-    },
-    {
-      "name": "Multischuppe",
-      "language": "de"
-    },
-    {
-      "name": "Multiécaille",
-      "language": "fr"
-    },
-    {
-      "name": "멀티스케일",
-      "language": "ko"
-    },
-    {
-      "name": "マルチスケイル",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon takes half as much damage when it is hit having full [HP]{mechanic:hp}.",
-      "short_effect": "Halves damage taken from full [HP]{mechanic:hp}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "ＨＰが　満タンのときに\nダメージが　少なくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Reduces damage the Pokémon\ntakes when its HP is full.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Riduce il danno subito se i PS\nsono al massimo.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Reduce el daño sufrido si los PS\nestán al máximo.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Verringert den erlittenen Schaden\nbei vollen KP.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Reçoit moins de dégâts si les PV\nsont au maximum.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "HP가 꽉 찼을 때\n데미지가 줄어든다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ＨＰが　まんたんのときに\nダメージが　すくなくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Reduces damage when HP\nis full.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Reduces damage when HP\nis full.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Reçoit moins de dégâts si\nles PV sont au maximum.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "dragonite"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ＨＰが　満タンのときに ダメージが　少なくなる。",
+          "kana": "ＨＰが　まんたんのときに ダメージが　すくなくなる。",
+          "en": "Reduces the damage taken by the Pokémon when its HP is full.",
+          "fr": "Reçoit moins de dégâts si les PV sont au maximum.",
+          "it": "Riduce il danno subito se i PS sono al massimo.",
+          "ko": "HP가 꽉 찼을 때 데미지가 줄어든다."
+        }
       }
     },
     {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "lugia"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "Reduces damage the Pokémon takes when its HP is full."
+        }
       }
     }
   ]

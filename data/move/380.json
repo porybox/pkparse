@@ -2,36 +2,13 @@
   "id": 380,
   "name": "gastro-acid",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "The target's ability is disabled as long as it remains on the [field]{mechanic:field}.\n\nThis effect is passed on by []{move:baton-pass}.",
-      "short_effect": "Nullifies target's ability until it leaves battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Gastro Acid",
-      "language": "en"
-    },
-    {
-      "name": "Gastroacido",
-      "language": "it"
-    },
-    {
-      "name": "Bilis",
-      "language": "es"
-    },
-    {
-      "name": "Magensäfte",
-      "language": "de"
-    },
-    {
-      "name": "Suc Digestif",
-      "language": "fr"
-    },
-    {
-      "name": "위액",
-      "language": "ko"
-    },
-    {
-      "name": "いえき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "いえき",
+    "kana": "いえき",
+    "en": "Gastro Acid",
+    "fr": "Suc Digestif",
+    "it": "Gastroacido",
+    "de": "Magensäfte",
+    "es": "Bilis",
+    "ko": "위액",
+    "zh-CN": "胃液",
+    "zh-TW": "胃液"
   },
-  "type": {
-    "name": "poison"
-  }
+  "flavor_text_entries": {
+    "ja": "胃液を　相手の 体に　吐きつける。　ついた　胃液は 相手の　特性の　効果を　消す。",
+    "kana": "いえきを　あいての からだに　はきつける。　ついた　いえきは あいての　とくせいの　こうかを　けす。",
+    "en": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability.",
+    "fr": "Le lanceur répand ses sucs digestifs sur l’ennemi. Le fluide neutralise le talent de l’ennemi.",
+    "it": "Chi la usa lancia acidi gastrici sul bersaglio. Il fluido annulla l’abilità del Pokémon colpito.",
+    "de": "Anwender greift das Ziel mit eigenen Magensäften an. Entfernt Effekte von dessen Fähigkeit.",
+    "es": "El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso.",
+    "ko": "상대의 몸에 위액을 내뱉는다. 달라붙은 위액은 상대의 특성 효과를 지운다.",
+    "zh-CN": "将胃液吐向对手的身体。 沾上的胃液会消除 对手的特性效果。",
+    "zh-TW": "將胃液吐向對手的身體。 沾到的胃液會消除 對手的特性效果。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "poison",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "胃液を　相手の 体に　吐きつける。ついた　胃液は 相手の　特性の　効果を　消す。",
+          "kana": "いえきを　あいての からだに　はきつける。ついた　いえきは あいての　とくせいの　こうかを　けす。"
+        }
+      }
+    }
+  ]
 }

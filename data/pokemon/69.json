@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 26,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "マダツボミ",
-      "language": "ja"
-    },
-    {
-      "name": "Madatsubomi",
-      "language": "roomaji"
-    },
-    {
-      "name": "모다피",
-      "language": "ko"
-    },
-    {
-      "name": "喇叭芽",
-      "language": "zh"
-    },
-    {
-      "name": "Chétiflor",
-      "language": "fr"
-    },
-    {
-      "name": "Knofensa",
-      "language": "de"
-    },
-    {
-      "name": "Bellsprout",
-      "language": "es"
-    },
-    {
-      "name": "Bellsprout",
-      "language": "it"
-    },
-    {
-      "name": "Bellsprout",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マダツボミ",
+    "en": "Bellsprout",
+    "fr": "Chétiflor",
+    "it": "Bellsprout",
+    "de": "Knofensa",
+    "es": "Bellsprout",
+    "ko": "모다피"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "フラワー",
-      "language": "ja"
-    },
-    {
-      "genus": "꽃",
-      "language": "ko"
-    },
-    {
-      "genus": "Fleur",
-      "language": "fr"
-    },
-    {
-      "genus": "Blume",
-      "language": "de"
-    },
-    {
-      "genus": "Flor",
-      "language": "es"
-    },
-    {
-      "genus": "Fiore",
-      "language": "it"
-    },
-    {
-      "genus": "Flower",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "フラワー",
+    "en": "Flower",
+    "fr": "Fleur",
+    "it": "Fiore",
+    "de": "Blume",
+    "es": "Flor",
+    "ko": "꽃"
+  },
   "varieties": [
     {
       "is_default": true,

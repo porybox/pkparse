@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 138,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "wings"
   },
@@ -55,44 +49,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ペラップ",
-      "language": "ja"
-    },
-    {
-      "name": "Perap",
-      "language": "roomaji"
-    },
-    {
-      "name": "페라페",
-      "language": "ko"
-    },
-    {
-      "name": "聒噪鳥",
-      "language": "zh"
-    },
-    {
-      "name": "Pijako",
-      "language": "fr"
-    },
-    {
-      "name": "Plaudagei",
-      "language": "de"
-    },
-    {
-      "name": "Chatot",
-      "language": "es"
-    },
-    {
-      "name": "Chatot",
-      "language": "it"
-    },
-    {
-      "name": "Chatot",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ペラップ",
+    "en": "Chatot",
+    "fr": "Pijako",
+    "it": "Chatot",
+    "de": "Plaudagei",
+    "es": "Chatot",
+    "ko": "페라페"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -103,36 +68,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おんぷ",
-      "language": "ja"
-    },
-    {
-      "genus": "음표",
-      "language": "ko"
-    },
-    {
-      "genus": "Note Musique",
-      "language": "fr"
-    },
-    {
-      "genus": "Musiknote",
-      "language": "de"
-    },
-    {
-      "genus": "Corchea",
-      "language": "es"
-    },
-    {
-      "genus": "Musicale",
-      "language": "it"
-    },
-    {
-      "genus": "Music Note",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おんぷ",
+    "en": "Music Note",
+    "fr": "Note Musique",
+    "it": "Musicale",
+    "de": "Musiknote",
+    "es": "Corchea",
+    "ko": "음표"
+  },
   "varieties": [
     {
       "is_default": true,

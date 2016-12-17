@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 96,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "コータス",
-      "language": "ja"
-    },
-    {
-      "name": "Cotoise",
-      "language": "roomaji"
-    },
-    {
-      "name": "코터스",
-      "language": "ko"
-    },
-    {
-      "name": "煤炭龜",
-      "language": "zh"
-    },
-    {
-      "name": "Chartor",
-      "language": "fr"
-    },
-    {
-      "name": "Qurtel",
-      "language": "de"
-    },
-    {
-      "name": "Torkoal",
-      "language": "es"
-    },
-    {
-      "name": "Torkoal",
-      "language": "it"
-    },
-    {
-      "name": "Torkoal",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コータス",
+    "en": "Torkoal",
+    "fr": "Chartor",
+    "it": "Torkoal",
+    "de": "Qurtel",
+    "es": "Torkoal",
+    "ko": "코터스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "せきたん",
-      "language": "ja"
-    },
-    {
-      "genus": "석탄",
-      "language": "ko"
-    },
-    {
-      "genus": "Charbon",
-      "language": "fr"
-    },
-    {
-      "genus": "Kohle",
-      "language": "de"
-    },
-    {
-      "genus": "Carbón",
-      "language": "es"
-    },
-    {
-      "genus": "Carbone",
-      "language": "it"
-    },
-    {
-      "genus": "Coal",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "せきたん",
+    "en": "Coal",
+    "fr": "Charbon",
+    "it": "Carbone",
+    "de": "Kohle",
+    "es": "Carbón",
+    "ko": "석탄"
+  },
   "varieties": [
     {
       "is_default": true,

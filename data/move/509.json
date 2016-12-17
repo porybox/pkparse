@@ -2,34 +2,13 @@
   "id": 509,
   "name": "circle-throw",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 10,
   "priority": -6,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}, then [switches]{mechanic:switch-out} the target out for another of its trainer's Pokémon, selected at random.\n\nIf the target is under the effect of []{move:ingrain} or []{ability:suction-cups}, or it has a []{move:substitute}, or its Trainer has no more usable Pokémon, it will not be switched out.  If the target is a wild Pokémon, the battle ends instead.",
-      "short_effect": "Ends wild battles.  Forces trainers to switch Pokémon.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Circle Throw",
-      "language": "en"
-    },
-    {
-      "name": "Ribaltiro",
-      "language": "it"
-    },
-    {
-      "name": "Llave Giro",
-      "language": "es"
-    },
-    {
-      "name": "Überkopfwurf",
-      "language": "de"
-    },
-    {
-      "name": "Projection",
-      "language": "fr"
-    },
-    {
-      "name": "배대뒤치기",
-      "language": "ko"
-    },
-    {
-      "name": "ともえなげ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ともえなげ",
+    "kana": "ともえなげ",
+    "en": "Circle Throw",
+    "fr": "Projection",
+    "it": "Ribaltiro",
+    "de": "Überkopfwurf",
+    "es": "Llave Giro",
+    "ko": "배대뒤치기",
+    "zh-CN": "巴投",
+    "zh-TW": "巴投"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "相手を　投げとばして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。",
+    "kana": "あいてを　なげとばして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。",
+    "en": "The target is thrown, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+    "fr": "Projette le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat.",
+    "it": "Il bersaglio è scaraventato via ed è costretto a lasciare il posto a un altro. Mette fine alle lotte contro singoli Pokémon selvatici.",
+    "de": "Schleudert das Ziel davon und bewirkt damit, dass ein anderes Pokémon eingewechselt wird. Beendet Kämpfe gegen wilde Pokémon.",
+    "es": "Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate.",
+    "ko": "상대를 내던져서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다.",
+    "zh-CN": "扔飞对手，强制拉后备宝可梦上场。 如果对手为野生宝可梦， 战斗将直接结束。",
+    "zh-TW": "摔飛對手， 強制讓後備寶可夢上場。 對手為野生寶可夢時，戰鬥將直接結束。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Projette le Pokémon ennemi et le remplace par un autre. Dans la nature, met fin au combat."
+        }
+      }
+    }
+  ]
 }

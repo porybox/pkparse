@@ -2,49 +2,13 @@
   "id": 173,
   "name": "snore",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 15,
   "priority": 0,
   "power": 50,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rest"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Only usable if the user is [sleep]{mechanic:sleep}ing.  Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.  Only works if the user is sleeping.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,49 @@
     "flinch_chance": 30,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Snore",
-      "language": "en"
-    },
-    {
-      "name": "Russare",
-      "language": "it"
-    },
-    {
-      "name": "Ronquido",
-      "language": "es"
-    },
-    {
-      "name": "Schnarcher",
-      "language": "de"
-    },
-    {
-      "name": "Ronflement",
-      "language": "fr"
-    },
-    {
-      "name": "코골기",
-      "language": "ko"
-    },
-    {
-      "name": "いびき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "いびき",
+    "kana": "いびき",
+    "en": "Snore",
+    "fr": "Ronflement",
+    "it": "Russare",
+    "de": "Schnarcher",
+    "es": "Ronquido",
+    "ko": "코골기",
+    "zh-CN": "打鼾",
+    "zh-TW": "打鼾"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "自分が　寝ているときに 雑音を　だして　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "じぶんが　ねている　ときに ざつおんを　だして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "This attack can be used only if the user is asleep. The harsh noise may also make the target flinch.",
+    "fr": "Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan peut aussi apeurer l’ennemi.",
+    "it": "Mossa da usare solo mentre si dorme. Il chiasso assordante può anche far tentennare il bersaglio.",
+    "de": "Attacke nur im Schlaf möglich. Ziel schreckt eventuell zurück.",
+    "es": "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.",
+    "ko": "자신이 잠들어 있을 때 소음을 내어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "在自己睡觉时， 发出噪音进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "在自己睡著時， 發出噪音進行攻擊。 有時會讓對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An attack that can be used only if the user is asleep. The harsh noise may also make the target flinch."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "자신이 잠들어있을 때 소음을 내어 공격한다. 상대를 풀죽게 만들 때가 있다."
+        }
+      }
+    }
+  ]
 }

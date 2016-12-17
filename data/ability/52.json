@@ -1,254 +1,44 @@
 {
   "id": 52,
   "name": "hyper-cutter",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "かいりきバサミ",
+    "kana": "かいりきバサミ",
+    "en": "Hyper Cutter",
+    "fr": "Hyper Cutter",
+    "it": "Ipertaglio",
+    "de": "Scherenmacht",
+    "es": "Corte Fuerte",
+    "ko": "괴력집게",
+    "zh-CN": "怪力钳",
+    "zh-TW": "怪力鉗"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "力自慢の　ハサミを　持っているので 相手に　攻撃を　下げられない。",
+    "kana": "ちからじまんの　ハサミを　もっているので あいてに　こうげきを　さげられない。",
+    "en": "The Pokémon’s proud of its powerful pincers. They prevent other Pokémon from lowering its Attack stat.",
+    "fr": "Le Pokémon est armé de lames tranchantes qui font sa fierté et empêchent son Attaque de baisser.",
+    "it": "L’Attacco del Pokémon non può diminuire grazie alla morsa micidiale in cui è in grado di stringere i nemici.",
+    "de": "Hindert Angreifer durch mächtige Scheren daran, den Angriffs-Wert zu senken.",
+    "es": "Evita que el rival le baje el Ataque.",
+    "ko": "힘이 자랑인 집게를 가지고 있어 상대가 공격을 떨어뜨리지 못한다.",
+    "zh-CN": "因为拥有以力量自豪的钳子， 不会被对手降低攻击。",
+    "zh-TW": "因為擁有以力量為傲的鉗子， 不會被對手降低攻擊。"
+  },
+  "past_values": [
     {
-      "name": "Hyper Cutter",
-      "language": "en"
-    },
-    {
-      "name": "Ipertaglio",
-      "language": "it"
-    },
-    {
-      "name": "Corte Fuerte",
-      "language": "es"
-    },
-    {
-      "name": "Scherenmacht",
-      "language": "de"
-    },
-    {
-      "name": "Hyper Cutter",
-      "language": "fr"
-    },
-    {
-      "name": "괴력집게",
-      "language": "ko"
-    },
-    {
-      "name": "かいりきバサミ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon's [Attack]{mechanic:attack} cannot be [lowered]{mechanic:stat-modifier} by other Pokémon.\n\nThis ability does not prevent any Attack losses other than [stat modifiers]{mechanic:stat-modifiers}, such as the Attack cut from a [burn]{mechanic:burn}.  This Pokémon can still be passed negative Attack modifiers through []{move:heart-swap} or []{move:power-swap}.",
-      "short_effect": "Prevents [Attack]{mechanic:attack} from being [lowered]{mechanic:stat-modifiers} by other Pokémon.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "emerald"
-      },
-      "effect_entries": [
-        {
-          "effect": "Has no overworld effect.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手に　攻撃を さげられない。",
+          "kana": "あいてに　こうげきを さげられない。",
+          "en": "Prevents other Pokémon from lowering its Attack stat.",
+          "fr": "Empêche la réduction de l’Attaque.",
+          "it": "Evita che la statistica Attacco venga ridotta.",
+          "de": "Hindert Angreifer daran, den Angriffs-Wert zu senken.",
+          "es": "Evita que disminuya el Ataque.",
+          "ko": "상대가 공격을 떨어뜨리지 못한다."
         }
-      ]
-    },
-    {
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "effect_entries": [
-        {
-          "effect": "Doubles []{move:cut}'s grass-cutting radius on the overworld if any party Pokémon has this ability.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "相手に　攻撃を\nさげられない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Prevents other Pokémon\nfrom lowering its Attack stat.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Evita che la statistica Attacco\nvenga ridotta.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Evita que disminuya el Ataque.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Hindert Angreifer daran,\nden Angriffs-Wert zu senken.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Empêche la réduction de\nl’Attaque.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "상대가 공격을\n떨어뜨리지 못한다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "あいてに　こうげきを\nさげられない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Prevents other Pokémon\nfrom lowering Attack stat.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents other Pokémon\nfrom lowering Attack stat.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Empêche la réduction de\nl’Attaque.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Prevents the Attack\nstat from being lowered.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the Attack stat\nfrom being lowered.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the Attack stat\nfrom being lowered.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents ATTACK reduction.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents ATTACK reduction.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents ATTACK reduction.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "krabby"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "kingler"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "pinsir"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gligar"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "mawile"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "trapinch"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "corphish"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "crawdaunt"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gliscor"
       }
     }
   ]

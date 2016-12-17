@@ -2,49 +2,13 @@
   "id": 61,
   "name": "bubble-beam",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 20,
   "priority": 0,
   "power": 65,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rain-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Speed by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 10
   },
-  "names": [
-    {
-      "name": "Bubble Beam",
-      "language": "en"
-    },
-    {
-      "name": "Bollaraggio",
-      "language": "it"
-    },
-    {
-      "name": "Rayo Burbuja",
-      "language": "es"
-    },
-    {
-      "name": "Blubbstrahl",
-      "language": "de"
-    },
-    {
-      "name": "Bulles d'O",
-      "language": "fr"
-    },
-    {
-      "name": "거품광선",
-      "language": "ko"
-    },
-    {
-      "name": "バブルこうせん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "バブルこうせん",
+    "kana": "バブルこうせん",
+    "en": "Bubble Beam",
+    "fr": "Bulles d’O",
+    "it": "Bollaraggio",
+    "de": "Blubbstrahl",
+    "es": "Rayo Burbuja",
+    "ko": "거품광선",
+    "zh-CN": "泡沫光线",
+    "zh-TW": "泡沫光線"
+  },
+  "flavor_text_entries": {
+    "ja": "泡を　勢いよく 相手に　発射して　攻撃する。 素早さを　さげる　ことが　ある。",
+    "kana": "あわを　いきおいよく あいてに　はっしゃして　こうげきする。 すばやさを　さげる　ことが　ある。",
+    "en": "A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.",
+    "fr": "Des bulles sont envoyées avec puissance sur l’ennemi. Peut aussi baisser sa Vitesse.",
+    "it": "Colpisce il bersaglio con una forte scarica di bolle. Può anche ridurne la Velocità.",
+    "de": "Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.",
+    "es": "Diluvio de burbujas que puede bajar la Velocidad.",
+    "ko": "거품을 기세 좋게 상대에게 발사하여 공격한다. 스피드를 떨어뜨릴 때가 있다.",
+    "zh-CN": "向对手猛烈地喷射 泡沫进行攻击。 有时会降低对手的速度。",
+    "zh-TW": "向對手猛烈地噴射 泡沫進行攻擊。 有時會降低對手的速度。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "water"
-  }
+  "target": "selected-pokemon",
+  "type": "water"
 }

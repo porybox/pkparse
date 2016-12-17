@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 119,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "blob"
   },
@@ -49,68 +43,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "マラカッチ",
-      "language": "ja"
-    },
-    {
-      "name": "마라카치",
-      "language": "ko"
-    },
-    {
-      "name": "Maracachi",
-      "language": "fr"
-    },
-    {
-      "name": "Maracamba",
-      "language": "de"
-    },
-    {
-      "name": "Maractus",
-      "language": "es"
-    },
-    {
-      "name": "Maractus",
-      "language": "it"
-    },
-    {
-      "name": "Maractus",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マラカッチ",
+    "en": "Maractus",
+    "fr": "Maracachi",
+    "it": "Maractus",
+    "de": "Maracamba",
+    "es": "Maractus",
+    "ko": "마라카치"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "サボテン",
-      "language": "ja"
-    },
-    {
-      "genus": "선인장",
-      "language": "ko"
-    },
-    {
-      "genus": "Cactus",
-      "language": "fr"
-    },
-    {
-      "genus": "Kaktus",
-      "language": "de"
-    },
-    {
-      "genus": "Cactus",
-      "language": "es"
-    },
-    {
-      "genus": "Cactus",
-      "language": "it"
-    },
-    {
-      "genus": "Cactus",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "サボテン",
+    "en": "Cactus",
+    "fr": "Cactus",
+    "it": "Cactus",
+    "de": "Kaktus",
+    "es": "Cactus",
+    "ko": "선인장"
+  },
   "varieties": [
     {
       "is_default": true,

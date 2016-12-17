@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 44,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ワルビル",
-      "language": "ja"
-    },
-    {
-      "name": "악비르",
-      "language": "ko"
-    },
-    {
-      "name": "Escroco",
-      "language": "fr"
-    },
-    {
-      "name": "Rokkaiman",
-      "language": "de"
-    },
-    {
-      "name": "Krokorok",
-      "language": "es"
-    },
-    {
-      "name": "Krokorok",
-      "language": "it"
-    },
-    {
-      "name": "Krokorok",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ワルビル",
+    "en": "Krokorok",
+    "fr": "Escroco",
+    "it": "Krokorok",
+    "de": "Rokkaiman",
+    "es": "Krokorok",
+    "ko": "악비르"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さばくワニ",
-      "language": "ja"
-    },
-    {
-      "genus": "사막악어",
-      "language": "ko"
-    },
-    {
-      "genus": "Croco Sable",
-      "language": "fr"
-    },
-    {
-      "genus": "Wüstenkroko",
-      "language": "de"
-    },
-    {
-      "genus": "Desierdrilo",
-      "language": "es"
-    },
-    {
-      "genus": "Sabbiadrillo",
-      "language": "it"
-    },
-    {
-      "genus": "Desert Croc",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さばくワニ",
+    "en": "Desert Croc",
+    "fr": "Croco Sable",
+    "it": "Sabbiadrillo",
+    "de": "Wüstenkroko",
+    "es": "Desierdrilo",
+    "ko": "사막악어"
+  },
   "varieties": [
     {
       "is_default": true,

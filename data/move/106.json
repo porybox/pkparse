@@ -2,61 +2,13 @@
   "id": 106,
   "name": "harden",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "tackle"
-        },
-        {
-          "name": "take-down"
-        },
-        {
-          "name": "double-edge"
-        },
-        {
-          "name": "protect"
-        },
-        {
-          "name": "rollout"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Raises the user's Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -68,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Harden",
-      "language": "en"
-    },
-    {
-      "name": "Rafforzatore",
-      "language": "it"
-    },
-    {
-      "name": "Fortaleza",
-      "language": "es"
-    },
-    {
-      "name": "Härtner",
-      "language": "de"
-    },
-    {
-      "name": "Armure",
-      "language": "fr"
-    },
-    {
-      "name": "단단해지기",
-      "language": "ko"
-    },
-    {
-      "name": "かたくなる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "かたくなる",
+    "kana": "かたくなる",
+    "en": "Harden",
+    "fr": "Armure",
+    "it": "Rafforzatore",
+    "de": "Härtner",
+    "es": "Fortaleza",
+    "ko": "단단해지기",
+    "zh-CN": "变硬",
+    "zh-TW": "變硬"
+  },
+  "flavor_text_entries": {
+    "ja": "全身に　力を　こめて 体を　硬くして 自分の　防御を　あげる。",
+    "kana": "ぜんしんに　ちからを　こめて からだを　かたくして じぶんの　ぼうぎょを　あげる。",
+    "en": "The user stiffens all the muscles in its body to raise its Defense stat.",
+    "fr": "Le lanceur contracte tous ses muscles pour augmenter sa Défense.",
+    "it": "Tutti i muscoli del corpo si tonificano per aumentare la Difesa.",
+    "de": "Stärkt die Muskulatur und erhöht den Verteidigungs-Wert.",
+    "es": "Tensa la musculatura del usuario para aumentar la Defensa.",
+    "ko": "전신에 힘을 담아 몸을 단단하게 해서 자신의 방어를 올린다.",
+    "zh-CN": "全身使劲，让身体变硬， 从而提高自己的防御。",
+    "zh-TW": "使用全身的力量讓身體硬化， 提高自己的防禦。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "user",
+  "type": "normal"
 }

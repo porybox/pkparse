@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 61,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "flying"
-    }
+    "flying",
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "wings"
   },
@@ -66,44 +58,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "カモネギ",
-      "language": "ja"
-    },
-    {
-      "name": "Kamonegi",
-      "language": "roomaji"
-    },
-    {
-      "name": "파오리",
-      "language": "ko"
-    },
-    {
-      "name": "大蔥鴨",
-      "language": "zh"
-    },
-    {
-      "name": "Canarticho",
-      "language": "fr"
-    },
-    {
-      "name": "Porenta",
-      "language": "de"
-    },
-    {
-      "name": "Farfetch'd",
-      "language": "es"
-    },
-    {
-      "name": "Farfetch'd",
-      "language": "it"
-    },
-    {
-      "name": "Farfetch'd",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カモネギ",
+    "en": "Farfetch’d",
+    "fr": "Canarticho",
+    "it": "Farfetch’d",
+    "de": "Porenta",
+    "es": "Farfetch’d",
+    "ko": "파오리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -114,36 +77,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かるがも",
-      "language": "ja"
-    },
-    {
-      "genus": "천둥오리",
-      "language": "ko"
-    },
-    {
-      "genus": "Canard Fou",
-      "language": "fr"
-    },
-    {
-      "genus": "Wildente",
-      "language": "de"
-    },
-    {
-      "genus": "Pato Salvaje",
-      "language": "es"
-    },
-    {
-      "genus": "Selvanatra",
-      "language": "it"
-    },
-    {
-      "genus": "Wild Duck",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かるがも",
+    "en": "Wild Duck",
+    "fr": "Canard Fou",
+    "it": "Selvanatra",
+    "de": "Wildente",
+    "es": "Pato Salvaje",
+    "ko": "천둥오리"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -159,10 +101,20 @@
   ],
   "base_stats": {
     "hp": 52,
-    "attack": 65,
+    "attack": 90,
     "defense": 55,
     "special-attack": 58,
     "special-defense": 62,
     "speed": 60
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "attack": 65
+        }
+      }
+    }
+  ]
 }

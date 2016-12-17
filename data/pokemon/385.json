@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 201,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "humanoid"
   },
@@ -45,44 +39,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ジラーチ",
-      "language": "ja"
-    },
-    {
-      "name": "Jirachi",
-      "language": "roomaji"
-    },
-    {
-      "name": "지라치",
-      "language": "ko"
-    },
-    {
-      "name": "基拉祈",
-      "language": "zh"
-    },
-    {
-      "name": "Jirachi",
-      "language": "fr"
-    },
-    {
-      "name": "Jirachi",
-      "language": "de"
-    },
-    {
-      "name": "Jirachi",
-      "language": "es"
-    },
-    {
-      "name": "Jirachi",
-      "language": "it"
-    },
-    {
-      "name": "Jirachi",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ジラーチ",
+    "en": "Jirachi",
+    "fr": "Jirachi",
+    "it": "Jirachi",
+    "de": "Jirachi",
+    "es": "Jirachi",
+    "ko": "지라치"
+  },
   "pal_park_encounters": [
     {
       "base_score": 100,
@@ -93,36 +58,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ねがいごと",
-      "language": "ja"
-    },
-    {
-      "genus": "희망사항",
-      "language": "ko"
-    },
-    {
-      "genus": "Souhait",
-      "language": "fr"
-    },
-    {
-      "genus": "Wünscher",
-      "language": "de"
-    },
-    {
-      "genus": "Deseo",
-      "language": "es"
-    },
-    {
-      "genus": "Desiderio",
-      "language": "it"
-    },
-    {
-      "genus": "Wish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ねがいごと",
+    "en": "Wish",
+    "fr": "Souhait",
+    "it": "Desiderio",
+    "de": "Wünscher",
+    "es": "Deseo",
+    "ko": "희망사항"
+  },
   "varieties": [
     {
       "is_default": true,

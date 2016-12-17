@@ -1,0 +1,44 @@
+{
+  "id": 736,
+  "name": "grubbin",
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "color": "gray",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "アゴジムシ",
+    "en": "Grubbin",
+    "fr": "Larvibule",
+    "it": "Grubbin",
+    "de": "Mabula",
+    "es": "Grubbin",
+    "ko": "턱지충이"
+  },
+  "genera": {
+    "ja": "ようちゅう",
+    "en": "Larva",
+    "fr": "Larve",
+    "it": "Coleolarva",
+    "de": "Larve",
+    "es": "Pupa",
+    "ko": "유충"
+  },
+  "types": [
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 47,
+    "attack": 62,
+    "defense": 45,
+    "special-attack": 55,
+    "special-defense": 45,
+    "speed": 46
+  }
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 4,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "humanoid"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ヒノアラシ",
-      "language": "ja"
-    },
-    {
-      "name": "Hinoarashi",
-      "language": "roomaji"
-    },
-    {
-      "name": "브케인",
-      "language": "ko"
-    },
-    {
-      "name": "火球鼠",
-      "language": "zh"
-    },
-    {
-      "name": "Héricendre",
-      "language": "fr"
-    },
-    {
-      "name": "Feurigel",
-      "language": "de"
-    },
-    {
-      "name": "Cyndaquil",
-      "language": "es"
-    },
-    {
-      "name": "Cyndaquil",
-      "language": "it"
-    },
-    {
-      "name": "Cyndaquil",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒノアラシ",
+    "en": "Cyndaquil",
+    "fr": "Héricendre",
+    "it": "Cyndaquil",
+    "de": "Feurigel",
+    "es": "Cyndaquil",
+    "ko": "브케인"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひねずみ",
-      "language": "ja"
-    },
-    {
-      "genus": "불쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Souris Feu",
-      "language": "fr"
-    },
-    {
-      "genus": "Feuermaus",
-      "language": "de"
-    },
-    {
-      "genus": "Ratón Fuego",
-      "language": "es"
-    },
-    {
-      "genus": "Fuocotopo",
-      "language": "it"
-    },
-    {
-      "genus": "Fire Mouse",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひねずみ",
+    "en": "Fire Mouse",
+    "fr": "Souris Feu",
+    "it": "Fuocotopo",
+    "de": "Feuermaus",
+    "es": "Ratón Fuego",
+    "ko": "불쥐"
+  },
   "varieties": [
     {
       "is_default": true,

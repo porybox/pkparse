@@ -1,0 +1,38 @@
+{
+  "id": 33,
+  "name": "moomoo-milk",
+  "names": {
+    "ja": "モーモーミルク",
+    "kana": "モーモーミルク",
+    "en": "Moomoo Milk",
+    "fr": "Lait Meumeu",
+    "it": "Latte Mumu",
+    "de": "Kuhmuh-Milch",
+    "es": "Leche Mu-mu",
+    "ko": "튼튼밀크",
+    "zh-CN": "哞哞鲜奶",
+    "zh-TW": "哞哞鮮奶"
+  },
+  "flavor_text_entries": {
+    "ja": "栄養満点の　ミルク。 ポケモン　１匹の　ＨＰを １００だけ　回復する。",
+    "kana": "えいよう　まんてんの　ミルク。 ポケモン　１ひきの　ＨＰを １００だけ　かいふくする。",
+    "en": "A bottle of highly nutritious milk. When consumed, it restores up to 100 HP to an injured Pokémon.",
+    "fr": "Un lait très nourrissant. Restaure 100 PV d’un Pokémon.",
+    "it": "Latte ricco di sostanze nutrienti. Restituisce 100 PS a un Pokémon.",
+    "de": "Eine äußerst nährstoffreiche Milch, die die KP eines Pokémon um 100 Punkte auffüllt.",
+    "es": "Leche de alto valor nutritivo que restaura 100 PS de un Pokémon.",
+    "ko": "영양 만점의 우유. 포켓몬 1마리의 HP를 100만큼 회복한다.",
+    "zh-CN": "营养百分百的牛奶。 能让１只宝可梦 回复１００ＨＰ。",
+    "zh-TW": "營養滿分的鮮奶。 能讓１隻寶可夢 回復１００ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A bottle of highly nutritious milk. When consumed, it restores 100 HP to an injured Pokémon."
+        }
+      }
+    }
+  ]
+}

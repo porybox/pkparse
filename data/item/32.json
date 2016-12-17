@@ -1,0 +1,45 @@
+{
+  "id": 32,
+  "name": "lemonade",
+  "names": {
+    "ja": "ミックスオレ",
+    "kana": "ミックスオレ",
+    "en": "Lemonade",
+    "fr": "Limonade",
+    "it": "Lemonsucco",
+    "de": "Limonade",
+    "es": "Limonada",
+    "ko": "후르츠밀크",
+    "zh-CN": "果汁牛奶",
+    "zh-TW": "果汁牛奶"
+  },
+  "flavor_text_entries": {
+    "ja": "とても　あまい　ジュース。 ポケモン　１匹の　ＨＰを ７０だけ　回復する。",
+    "kana": "とても　あまい　ジュース。 ポケモン　１ひきの　ＨＰを ７０だけ　かいふくする。",
+    "en": "A very sweet and refreshing drink. When consumed, it restores up to 70 HP to an injured Pokémon.",
+    "fr": "Une boisson très sucrée. Restaure 70 PV d’un Pokémon.",
+    "it": "Bevanda molto dolce. Restituisce 70 PS a un Pokémon.",
+    "de": "Ein sehr süßes Getränk, das die KP eines Pokémon um 70 Punkte auffüllt.",
+    "es": "Bebida muy dulce que restaura 70 PS de un Pokémon.",
+    "ko": "매우 달콤한 쥬스. 포켓몬 1마리의 HP를 70만큼 회복한다.",
+    "zh-CN": "非常香甜的牛奶。 能让１只宝可梦 回复７０ＨＰ。",
+    "zh-TW": "非常甜的果汁。 能讓１隻寶可夢 回復７０ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "とても　あまい　ジュース。 ポケモン　１匹の　ＨＰを ８０だけ　回復する。",
+          "kana": "とても　あまい　ジュース。 ポケモン　１ひきの　ＨＰを ８０だけ　かいふくする。",
+          "en": "A very sweet and refreshing drink. When consumed, it restores 80 HP to an injured Pokémon.",
+          "fr": "Une boisson très sucrée. Restaure 80 PV d’un Pokémon.",
+          "it": "Bevanda molto dolce. Restituisce 80 PS a un Pokémon.",
+          "de": "Ein sehr süßes Getränk, das die KP eines Pokémon um 80 Punkte auffüllt.",
+          "es": "Bebida muy dulce que restaura 80 PS de un Pokémon.",
+          "ko": "매우 달콤한 쥬스. 포켓몬 1마리의 HP를 80만큼 회복한다."
+        }
+      }
+    }
+  ]
+}

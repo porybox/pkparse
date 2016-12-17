@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 139,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "dragon"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "squiggle"
   },
@@ -62,44 +54,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ミロカロス",
-      "language": "ja"
-    },
-    {
-      "name": "Milokaross",
-      "language": "roomaji"
-    },
-    {
-      "name": "밀로틱",
-      "language": "ko"
-    },
-    {
-      "name": "美納斯",
-      "language": "zh"
-    },
-    {
-      "name": "Milobellus",
-      "language": "fr"
-    },
-    {
-      "name": "Milotic",
-      "language": "de"
-    },
-    {
-      "name": "Milotic",
-      "language": "es"
-    },
-    {
-      "name": "Milotic",
-      "language": "it"
-    },
-    {
-      "name": "Milotic",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ミロカロス",
+    "en": "Milotic",
+    "fr": "Milobellus",
+    "it": "Milotic",
+    "de": "Milotic",
+    "es": "Milotic",
+    "ko": "밀로틱"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -110,36 +73,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いつくしみ",
-      "language": "ja"
-    },
-    {
-      "genus": "사랑",
-      "language": "ko"
-    },
-    {
-      "genus": "Tendre",
-      "language": "fr"
-    },
-    {
-      "genus": "Zartheit",
-      "language": "de"
-    },
-    {
-      "genus": "Tierno",
-      "language": "es"
-    },
-    {
-      "genus": "Tenerezza",
-      "language": "it"
-    },
-    {
-      "genus": "Tender",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いつくしみ",
+    "en": "Tender",
+    "fr": "Tendre",
+    "it": "Tenerezza",
+    "de": "Zartheit",
+    "es": "Tierno",
+    "ko": "사랑"
+  },
   "varieties": [
     {
       "is_default": true,

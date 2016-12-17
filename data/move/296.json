@@ -2,49 +2,13 @@
   "id": 296,
   "name": "mist-ball",
   "accuracy": 100,
-  "effect_chance": 50,
   "pp": 5,
   "priority": 0,
   "power": 70,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "calm-mind"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Special Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,47 @@
     "flinch_chance": 0,
     "stat_chance": 50
   },
-  "names": [
-    {
-      "name": "Mist Ball",
-      "language": "en"
-    },
-    {
-      "name": "Foschisfera",
-      "language": "it"
-    },
-    {
-      "name": "Bola Neblina",
-      "language": "es"
-    },
-    {
-      "name": "Nebelball",
-      "language": "de"
-    },
-    {
-      "name": "Ball'Brume",
-      "language": "fr"
-    },
-    {
-      "name": "미스트볼",
-      "language": "ko"
-    },
-    {
-      "name": "ミストボール",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ミストボール",
+    "kana": "ミストボール",
+    "en": "Mist Ball",
+    "fr": "Ball’Brume",
+    "it": "Foschisfera",
+    "de": "Nebelball",
+    "es": "Bola Neblina",
+    "ko": "미스트볼",
+    "zh-CN": "薄雾球",
+    "zh-TW": "薄霧球"
+  },
+  "flavor_text_entries": {
+    "ja": "霧状の　羽毛で　包みこみ 攻撃する。 相手の　特攻を　さげることが　ある。",
+    "kana": "きりじょうの　うもうで　つつみこみ こうげきする。　あいての　とくこうを さげることが　ある。",
+    "en": "A mist-like flurry of down envelops and damages the target. This may also lower the target’s Sp. Atk stat.",
+    "fr": "Une bulle de brume inflige des dégâts à l’ennemi. Peut aussi réduire son Attaque Spéciale.",
+    "it": "Una sfera di nebbia avvolge e danneggia il bersaglio. Può anche ridurne l’Attacco Speciale.",
+    "de": "Angriff mit einer Nebelwolke aus Daunen. Senkt eventuell den Spezial-Angriff des Zieles.",
+    "es": "Banco de niebla que puede bajar el Ataque Especial del objetivo.",
+    "ko": "안개의 깃털로 둘러싸 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+    "zh-CN": "用围绕着雾状 羽毛的球进行攻击。 有时会降低对手的特攻。",
+    "zh-TW": "將霧狀的羽毛聚集成團進行攻擊。 有時會降低對手的特攻。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "psychic"
-  }
+  "target": "selected-pokemon",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "きりじょうの　うもうで　つつみこみ こうげきする。あいての　とくこうを さげることが　ある。",
+          "de": "Angriff mit einer Kugel aus Wasser, die Nebel enthält. Senkt eventuell den Spezial-Angriff des Zieles."
+        }
+      }
+    }
+  ]
 }

@@ -2,64 +2,13 @@
   "id": 14,
   "name": "swords-dance",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "cut"
-        },
-        {
-          "name": "crabhammer"
-        },
-        {
-          "name": "slash"
-        },
-        {
-          "name": "false-swipe"
-        },
-        {
-          "name": "fury-cutter"
-        },
-        {
-          "name": "crush-claw"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Attack]{mechanic:attack} by two [stages]{mechanic:stage}.",
-      "short_effect": "Raises the user's Attack by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -71,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Swords Dance",
-      "language": "en"
-    },
-    {
-      "name": "Danzaspada",
-      "language": "it"
-    },
-    {
-      "name": "Danza Espada",
-      "language": "es"
-    },
-    {
-      "name": "Schwerttanz",
-      "language": "de"
-    },
-    {
-      "name": "Danse-Lames",
-      "language": "fr"
-    },
-    {
-      "name": "칼춤",
-      "language": "ko"
-    },
-    {
-      "name": "つるぎのまい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "つるぎのまい",
+    "kana": "つるぎのまい",
+    "en": "Swords Dance",
+    "fr": "Danse-Lames",
+    "it": "Danzaspada",
+    "de": "Schwerttanz",
+    "es": "Danza Espada",
+    "ko": "칼춤",
+    "zh-CN": "剑舞",
+    "zh-TW": "劍舞"
+  },
+  "flavor_text_entries": {
+    "ja": "戦いの舞を　激しく　おどって 気合を　高める。 自分の　攻撃を　ぐーんと　あげる。",
+    "kana": "たたかいのまいを　はげしく　おどって きあいを　たかめる。 じぶんの　こうげきを　ぐーんと　あげる。",
+    "en": "A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.",
+    "fr": "Danse frénétique qui exalte l’esprit combatif. Augmente beaucoup l’Attaque du lanceur.",
+    "it": "Danza frenetica che incrementa lo spirito combattivo. Chi la usa aumenta di molto il suo Attacco.",
+    "de": "Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.",
+    "es": "Baile frenético que aumenta mucho el Ataque.",
+    "ko": "싸움의 춤을 격렬하게 춰서 기세를 높인다. 자신의 공격을 크게 올린다.",
+    "zh-CN": "激烈地跳起战舞提高气势。 大幅提高自己的攻击。",
+    "zh-TW": "激烈地跳起戰舞提升氣勢。 大幅提高自己的攻擊。"
+  },
   "stat_changes": [
     {
       "change": 2,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "싸움의 춤을 격렬하게 추며 기세를 높인다. 자신의 공격을 크게 올린다."
+        }
+      }
+    }
+  ]
 }

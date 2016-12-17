@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 24,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    },
-    {
-      "name": "bug"
-    }
+    "bug",
+    "mineral"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "armor"
   },
@@ -60,68 +52,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "イワパレス",
-      "language": "ja"
-    },
-    {
-      "name": "암팰리스",
-      "language": "ko"
-    },
-    {
-      "name": "Crabaraque",
-      "language": "fr"
-    },
-    {
-      "name": "Castellith",
-      "language": "de"
-    },
-    {
-      "name": "Crustle",
-      "language": "es"
-    },
-    {
-      "name": "Crustle",
-      "language": "it"
-    },
-    {
-      "name": "Crustle",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "イワパレス",
+    "en": "Crustle",
+    "fr": "Crabaraque",
+    "it": "Crustle",
+    "de": "Castellith",
+    "es": "Crustle",
+    "ko": "암팰리스"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いわやど",
-      "language": "ja"
-    },
-    {
-      "genus": "바위집",
-      "language": "ko"
-    },
-    {
-      "genus": "Lapidicole",
-      "language": "fr"
-    },
-    {
-      "genus": "Felshaus",
-      "language": "de"
-    },
-    {
-      "genus": "Casarroca",
-      "language": "es"
-    },
-    {
-      "genus": "Scogliocasa",
-      "language": "it"
-    },
-    {
-      "genus": "Stone Home",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いわやど",
+    "en": "Stone Home",
+    "fr": "Lapidicole",
+    "it": "Scogliocasa",
+    "de": "Felshaus",
+    "es": "Casarroca",
+    "ko": "바위집"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -137,10 +87,20 @@
   ],
   "base_stats": {
     "hp": 70,
-    "attack": 95,
+    "attack": 105,
     "defense": 125,
     "special-attack": 65,
     "special-defense": 75,
     "speed": 45
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "attack": 95
+        }
+      }
+    }
+  ]
 }

@@ -2,49 +2,13 @@
   "id": 62,
   "name": "aurora-beam",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 20,
   "priority": 0,
   "power": 65,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "hail"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 10
   },
-  "names": [
-    {
-      "name": "Aurora Beam",
-      "language": "en"
-    },
-    {
-      "name": "Raggiaurora",
-      "language": "it"
-    },
-    {
-      "name": "Rayo Aurora",
-      "language": "es"
-    },
-    {
-      "name": "Aurorastrahl",
-      "language": "de"
-    },
-    {
-      "name": "Onde Boréale",
-      "language": "fr"
-    },
-    {
-      "name": "오로라빔",
-      "language": "ko"
-    },
-    {
-      "name": "オーロラビーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "オーロラビーム",
+    "kana": "オーロラビーム",
+    "en": "Aurora Beam",
+    "fr": "Onde Boréale",
+    "it": "Raggiaurora",
+    "de": "Aurorastrahl",
+    "es": "Rayo Aurora",
+    "ko": "오로라빔",
+    "zh-CN": "极光束",
+    "zh-TW": "極光束"
+  },
+  "flavor_text_entries": {
+    "ja": "にじいろの　ビームを 相手に　発射して　攻撃する。 攻撃を　さげる　ことが　ある。",
+    "kana": "にじいろの　ビームを あいてに　はっしゃして　こうげきする。 こうげきを　さげる　ことが　ある。",
+    "en": "The target is hit with a rainbow-colored beam. This may also lower the target’s Attack stat.",
+    "fr": "Envoie un rayon arc-en-ciel sur l’ennemi. Peut aussi baisser son Attaque.",
+    "it": "Colpisce il bersaglio con un raggio dai colori dell’iride. Può anche ridurne l’Attacco.",
+    "de": "Regenbogenfarbener Strahl, der eventuell den Angriffs-Wert des Zieles senkt.",
+    "es": "Rayo multicolor que puede reducir el Ataque.",
+    "ko": "무지개색의 빔을 상대에게 발사하여 공격한다. 공격을 떨어뜨릴 때가 있다.",
+    "zh-CN": "向对手发射 虹色光束进行攻击。 有时会降低对手的攻击。",
+    "zh-TW": "向對手發射 七彩光束進行攻擊。 有時會降低對手的攻擊。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "ice"
-  }
+  "target": "selected-pokemon",
+  "type": "ice"
 }

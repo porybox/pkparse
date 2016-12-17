@@ -1,0 +1,45 @@
+{
+  "id": 748,
+  "name": "toxapex",
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1"
+  ],
+  "color": "blue",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ドヒドイデ",
+    "en": "Toxapex",
+    "fr": "Prédastérie",
+    "it": "Toxapex",
+    "de": "Aggrostella",
+    "es": "Toxapex",
+    "ko": "더시마사리"
+  },
+  "genera": {
+    "ja": "ヒトデナシ",
+    "en": "Brutal Star",
+    "fr": "Cruel",
+    "it": "Stellatroce",
+    "de": "Quäl-Stern",
+    "es": "Estrellatroz",
+    "ko": "깨비사리"
+  },
+  "types": [
+    "poison",
+    "water"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 63,
+    "defense": 152,
+    "special-attack": 53,
+    "special-defense": 142,
+    "speed": 35
+  }
+}

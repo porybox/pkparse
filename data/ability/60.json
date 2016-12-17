@@ -1,236 +1,44 @@
 {
   "id": 60,
   "name": "sticky-hold",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "ねんちゃく",
+    "kana": "ねんちゃく",
+    "en": "Sticky Hold",
+    "fr": "Glue",
+    "it": "Antifurto",
+    "de": "Wertehalter",
+    "es": "Viscosidad",
+    "ko": "점착",
+    "zh-CN": "黏着",
+    "zh-TW": "黏著"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "粘着質の　体に 道具が　くっついているため 相手に　道具を　奪われない。",
+    "kana": "ねんちゃくしつの　からだに どうぐが　くっついているため あいてに　どうぐを　うばわれない。",
+    "en": "Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon.",
+    "fr": "Les objets sont collés au corps gluant du Pokémon, ce qui empêche ses adversaires de les dérober.",
+    "it": "Gli strumenti restano appiccicati al corpo adesivo del Pokémon e non possono essere rubati.",
+    "de": "Trägt es ein Item, bleibt dieses an seinem klebrigen Körper haften, wodurch Item-Diebstahl verhindert wird.",
+    "es": "Protege al Pokémon del robo de objetos al quedarse pegados a su cuerpo.",
+    "ko": "점착질의 몸에 도구가 달라붙어 있어 상대에게 도구를 뺏기지 않는다.",
+    "zh-CN": "因为道具是粘在黏性身体上的， 所以不会被对手夺走。",
+    "zh-TW": "道具會黏在 具有黏性的身體上， 不會被對手奪走。"
+  },
+  "past_values": [
     {
-      "name": "Sticky Hold",
-      "language": "en"
-    },
-    {
-      "name": "Antifurto",
-      "language": "it"
-    },
-    {
-      "name": "Viscosidad",
-      "language": "es"
-    },
-    {
-      "name": "Wertehalter",
-      "language": "de"
-    },
-    {
-      "name": "Glue",
-      "language": "fr"
-    },
-    {
-      "name": "점착",
-      "language": "ko"
-    },
-    {
-      "name": "ねんちゃく",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon's hold item cannot be removed by other Pokémon.\n\nDamaging moves that would remove this Pokémon's item can still inflict damage against this Pokémon, e.g. []{move:knock-off} or []{move:pluck}.  This Pokémon can still use moves that involve the loss of its own item, e.g. []{move:fling} or []{move:trick}.\n\nOverworld: If the lead Pokémon has this ability, the encounter rate while fishing is increased.",
-      "short_effect": "Prevents a held item from being removed by other Pokémon.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "emerald"
-      },
-      "effect_entries": [
-        {
-          "effect": "Has no overworld effect.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ねんちゃくして 道具を　守る。",
+          "kana": "ねんちゃくして どうぐを　まもる。",
+          "en": "Protects the Pokémon from item theft.",
+          "fr": "Fait s’agripper à l’objet pour en empêcher le vol.",
+          "it": "Protegge il Pokémon dal furto di strumenti.",
+          "de": "Verhindert durch Klebe-Effekt Item-Diebstähle.",
+          "es": "Protege al Pokémon del robo de objetos.",
+          "ko": "달라붙어서 도구를 지킨다."
         }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "ねんちゃくして\n道具を　守る。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Protects the Pokémon\nfrom item theft.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Protegge il Pokémon dal furto\ndi strumenti.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Protege al Pokémon del robo\nde objetos.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Verhindert durch Klebe-Effekt\nItem-Diebstähle.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Fait s’agripper à l’objet pour\nen empêcher le vol.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "달라붙어서\n도구를 지킨다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ねんちゃくして\nどうぐを　まもる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Protects the Pokémon\nfrom item theft.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Protects the Pokémon\nfrom item theft.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Fait s’agripper à l’objet\npour en empêcher le vol.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Protects the Pokémon\nfrom item theft.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Protects the Pokémon\nfrom item theft.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Protects the Pokémon\nfrom item theft.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents item theft.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents item theft.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents item theft.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "grimer"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "muk"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "gulpin"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "swalot"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "shellos"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gastrodon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "trubbish"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "accelgor"
       }
     }
   ]

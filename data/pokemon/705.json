@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 20,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    }
+    "dragon"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "squiggle"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ヌメイル",
-      "language": "ja"
-    },
-    {
-      "name": "미끄네일",
-      "language": "ko"
-    },
-    {
-      "name": "Colimucus",
-      "language": "fr"
-    },
-    {
-      "name": "Viscargot",
-      "language": "de"
-    },
-    {
-      "name": "Sliggoo",
-      "language": "es"
-    },
-    {
-      "name": "Sliggoo",
-      "language": "it"
-    },
-    {
-      "name": "Sliggoo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヌメイル",
+    "en": "Sliggoo",
+    "fr": "Colimucus",
+    "it": "Sliggoo",
+    "de": "Viscargot",
+    "es": "Sliggoo",
+    "ko": "미끄네일"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "なんたい",
-      "language": "ja"
-    },
-    {
-      "genus": "연체",
-      "language": "ko"
-    },
-    {
-      "genus": "Mollusque",
-      "language": "fr"
-    },
-    {
-      "genus": "Schneckedei",
-      "language": "de"
-    },
-    {
-      "genus": "Molusco",
-      "language": "es"
-    },
-    {
-      "genus": "Mollusco",
-      "language": "it"
-    },
-    {
-      "genus": "Soft Tissue",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "なんたい",
+    "en": "Soft Tissue",
+    "fr": "Mollusque",
+    "it": "Mollusco",
+    "de": "Schneckedei",
+    "es": "Molusco",
+    "ko": "연체"
+  },
   "varieties": [
     {
       "is_default": true,

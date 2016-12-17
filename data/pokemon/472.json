@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 116,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "wings"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "グライオン",
-      "language": "ja"
-    },
-    {
-      "name": "Glion",
-      "language": "roomaji"
-    },
-    {
-      "name": "글라이온",
-      "language": "ko"
-    },
-    {
-      "name": "天蠍王",
-      "language": "zh"
-    },
-    {
-      "name": "Scorvol",
-      "language": "fr"
-    },
-    {
-      "name": "Skorgro",
-      "language": "de"
-    },
-    {
-      "name": "Gliscor",
-      "language": "es"
-    },
-    {
-      "name": "Gliscor",
-      "language": "it"
-    },
-    {
-      "name": "Gliscor",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "グライオン",
+    "en": "Gliscor",
+    "fr": "Scorvol",
+    "it": "Gliscor",
+    "de": "Skorgro",
+    "es": "Gliscor",
+    "ko": "글라이온"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "キバさそり",
-      "language": "ja"
-    },
-    {
-      "genus": "송곳니전갈",
-      "language": "ko"
-    },
-    {
-      "genus": "Scorpicroc",
-      "language": "fr"
-    },
-    {
-      "genus": "Zahnskorpi",
-      "language": "de"
-    },
-    {
-      "genus": "Colmicorpio",
-      "language": "es"
-    },
-    {
-      "genus": "Scorpidente",
-      "language": "it"
-    },
-    {
-      "genus": "Fang Scorpion",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "キバさそり",
+    "en": "Fang Scorpion",
+    "fr": "Scorpicroc",
+    "it": "Scorpidente",
+    "de": "Zahnskorpi",
+    "es": "Colmicorpio",
+    "ko": "송곳니전갈"
+  },
   "varieties": [
     {
       "is_default": true,

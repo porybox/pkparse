@@ -1,0 +1,45 @@
+{
+  "id": 788,
+  "name": "tapufini",
+  "gender_rate": -1,
+  "capture_rate": 3,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "purple",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "カプ・レヒレ",
+    "en": "Tapu Fini",
+    "fr": "Tokopisco",
+    "it": "Tapu Fini",
+    "de": "Kapu-Kime",
+    "es": "Tapu Fini",
+    "ko": "카푸느지느"
+  },
+  "genera": {
+    "ja": "とちがみ",
+    "en": "Land Spirit",
+    "fr": "Tutélaire",
+    "it": "Nume Locale",
+    "de": "Schutzpatron",
+    "es": "Dios Nativo",
+    "ko": "토속신"
+  },
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 75,
+    "defense": 115,
+    "special-attack": 95,
+    "special-defense": 130,
+    "speed": 85
+  }
+}

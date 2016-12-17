@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 110,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "bug-wings"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "モルフォン",
-      "language": "ja"
-    },
-    {
-      "name": "Morphon",
-      "language": "roomaji"
-    },
-    {
-      "name": "도나리",
-      "language": "ko"
-    },
-    {
-      "name": "末入蛾",
-      "language": "zh"
-    },
-    {
-      "name": "Aéromite",
-      "language": "fr"
-    },
-    {
-      "name": "Omot",
-      "language": "de"
-    },
-    {
-      "name": "Venomoth",
-      "language": "es"
-    },
-    {
-      "name": "Venomoth",
-      "language": "it"
-    },
-    {
-      "name": "Venomoth",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "モルフォン",
+    "en": "Venomoth",
+    "fr": "Aéromite",
+    "it": "Venomoth",
+    "de": "Omot",
+    "es": "Venomoth",
+    "ko": "도나리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どくが",
-      "language": "ja"
-    },
-    {
-      "genus": "독나방",
-      "language": "ko"
-    },
-    {
-      "genus": "Papipoison",
-      "language": "fr"
-    },
-    {
-      "genus": "Giftmotte",
-      "language": "de"
-    },
-    {
-      "genus": "Polilla Ven.",
-      "language": "es"
-    },
-    {
-      "genus": "Velentarma",
-      "language": "it"
-    },
-    {
-      "genus": "Poison Moth",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どくが",
+    "en": "Poison Moth",
+    "fr": "Papipoison",
+    "it": "Velentarma",
+    "de": "Giftmotte",
+    "es": "Polilla Ven.",
+    "ko": "독나방"
+  },
   "varieties": [
     {
       "is_default": true,

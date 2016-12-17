@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 227,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -49,68 +43,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ビリジオン",
-      "language": "ja"
-    },
-    {
-      "name": "비리디온",
-      "language": "ko"
-    },
-    {
-      "name": "Viridium",
-      "language": "fr"
-    },
-    {
-      "name": "Viridium",
-      "language": "de"
-    },
-    {
-      "name": "Virizion",
-      "language": "es"
-    },
-    {
-      "name": "Virizion",
-      "language": "it"
-    },
-    {
-      "name": "Virizion",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ビリジオン",
+    "en": "Virizion",
+    "fr": "Viridium",
+    "it": "Virizion",
+    "de": "Viridium",
+    "es": "Virizion",
+    "ko": "비리디온"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "そうげん",
-      "language": "ja"
-    },
-    {
-      "genus": "초원",
-      "language": "ko"
-    },
-    {
-      "genus": "Plaine Verte",
-      "language": "fr"
-    },
-    {
-      "genus": "Wiese",
-      "language": "de"
-    },
-    {
-      "genus": "Prado",
-      "language": "es"
-    },
-    {
-      "genus": "Prateria",
-      "language": "it"
-    },
-    {
-      "genus": "Grassland",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "そうげん",
+    "en": "Grassland",
+    "fr": "Plaine Verte",
+    "it": "Prateria",
+    "de": "Wiese",
+    "es": "Prado",
+    "ko": "초원"
+  },
   "varieties": [
     {
       "is_default": true,

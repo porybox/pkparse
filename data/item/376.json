@@ -1,0 +1,48 @@
+{
+  "id": 376,
+  "name": "tm49",
+  "names": {
+    "ja": "わざマシン４９",
+    "kana": "わざマシン４９",
+    "en": "TM49",
+    "fr": "CT49",
+    "it": "MT49",
+    "de": "TM49",
+    "es": "MT49",
+    "ko": "기술머신49",
+    "zh-CN": "招式学习器４９",
+    "zh-TW": "招式學習器４９"
+  },
+  "flavor_text_entries": {
+    "ja": "響く　声で　相手を　攻撃する。 毎ターン　だれかが　使い続けると 威力が　あがる。",
+    "kana": "ひびく　こえで　あいてを　こうげきする。 まいターン　だれかが　わざを つかい　つづけると　いりょくが　あがる。",
+    "en": "The user attacks the target with an echoing voice. If this move is used every turn, its power is increased.",
+    "fr": "Un cri retentissant blesse l’ennemi. Si le lanceur ou d’autres Pokémon l’utilisent à chaque tour, l’effet augmente.",
+    "it": "Attacca il bersaglio con la propria voce echeggiante. Se usata a ripetizione da uno o più Pokémon il danno aumenta.",
+    "de": "Angriff mit widerhallender Stimme. Wird dieser in jeder Runde von jemandem wiederholt, steigt die Stärke.",
+    "es": "Ataca al objetivo con un susurro. Su fuerza aumenta si cualquiera de los Pokémon lo usa en cada turno.",
+    "ko": "울리는 목소리로 상대를 공격한다. 매 턴 누군가 이 기술을 계속해서 쓰면 위력이 올라간다.",
+    "zh-CN": "用回声攻击对手。 如果每回合都有宝可梦接着 使用该招式，威力就会提高。",
+    "zh-TW": "用回聲攻擊對手。 每回合有寶可夢持續使用回聲時， 招式的威力會提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "こえで　あいてを　こうげきする。 まいターン　だれかが　つかうと いりょくが　あがる。",
+          "en": "The user attacks the target with an echoing voice. If this move is used every turn, it does greater damage.",
+          "ko": "목소리로 상대를 공격한다. 매 턴 누군가 이 기술을 계속해서 쓰면 위력이 올라간다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "목소리로 상대를 공격한다. 매 턴 누군가 기술을 계속해서 쓰면 위력이 올라간다."
+        }
+      }
+    }
+  ]
+}

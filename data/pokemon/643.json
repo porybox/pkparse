@@ -3,15 +3,13 @@
   "name": "reshiram",
   "order": 644,
   "gender_rate": -1,
-  "capture_rate": 45,
+  "capture_rate": 3,
   "base_happiness": 0,
   "is_baby": false,
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 197,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "wings"
   },
@@ -55,72 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "レシラム",
-      "language": "ja"
-    },
-    {
-      "name": "레시라무",
-      "language": "ko"
-    },
-    {
-      "name": "雷希拉姆",
-      "language": "zh"
-    },
-    {
-      "name": "Reshiram",
-      "language": "fr"
-    },
-    {
-      "name": "Reshiram",
-      "language": "de"
-    },
-    {
-      "name": "Reshiram",
-      "language": "es"
-    },
-    {
-      "name": "Reshiram",
-      "language": "it"
-    },
-    {
-      "name": "Reshiram",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "レシラム",
+    "en": "Reshiram",
+    "fr": "Reshiram",
+    "it": "Reshiram",
+    "de": "Reshiram",
+    "es": "Reshiram",
+    "ko": "레시라무"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はくよう",
-      "language": "ja"
-    },
-    {
-      "genus": "백양",
-      "language": "ko"
-    },
-    {
-      "genus": "Blanc Réel",
-      "language": "fr"
-    },
-    {
-      "genus": "Wahres Weiß",
-      "language": "de"
-    },
-    {
-      "genus": "Blanco Veraz",
-      "language": "es"
-    },
-    {
-      "genus": "Bianco Verità",
-      "language": "it"
-    },
-    {
-      "genus": "Vast White",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はくよう",
+    "en": "Vast White",
+    "fr": "Blanc Réel",
+    "it": "Bianco Verità",
+    "de": "Wahres Weiß",
+    "es": "Blanco Veraz",
+    "ko": "백양"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -141,5 +89,13 @@
     "special-attack": 150,
     "special-defense": 120,
     "speed": 90
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 28,
+      "prior_values": {
+        "capture_rate": 45
+      }
+    }
+  ]
 }

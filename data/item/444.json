@@ -1,0 +1,38 @@
+{
+  "id": 444,
+  "name": "coin-case",
+  "names": {
+    "ja": "コインケース",
+    "kana": "コインケース",
+    "en": "Coin Case",
+    "fr": "Boîte Jetons",
+    "it": "Salvadanaio",
+    "de": "Münzkorb",
+    "es": "Monedero",
+    "ko": "동전케이스",
+    "zh-CN": "代币盒",
+    "zh-TW": "代幣盒"
+  },
+  "flavor_text_entries": {
+    "ja": "ゲームコーナーで　てにいれた コインを　５００００枚まで いれることが　できる　ケース。",
+    "kana": "ゲームコーナーで　てにいれた コインを　５００００まい　まで いれることが　できる　ケース。",
+    "en": "A case for holding coins obtained at the Game Corner. It can hold up to 50,000 coins.",
+    "fr": "Une boîte pour conserver les Jetons obtenus au Casino. Peut contenir jusqu’à 50 000 Jetons.",
+    "it": "Contenitore ottenuto al Casinò che può contenere fino a 50.000 Gettoni.",
+    "de": "Im Korb finden bis zu 50 000 Münzen der Spielhalle Platz.",
+    "es": "Puedes obtenerlo en el Casino. Tiene capacidad para 50 000 Fichas.",
+    "ko": "게임코너에서 손에 넣은 동전을 50000개 까지 넣을 수 있는 케이스.",
+    "zh-CN": "可以存放代币的盒子。 最多能放入５００００枚 在游戏城获得的代币。",
+    "zh-TW": "最多可以放入５００００枚 在遊戲城獲得的代幣的盒子。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Im Korb finden bis zu 50 000 Münzen der Spielhalle Platz."
+        }
+      }
+    }
+  ]
+}

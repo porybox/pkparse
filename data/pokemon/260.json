@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 9,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -50,44 +42,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ラグラージ",
-      "language": "ja"
-    },
-    {
-      "name": "Laglarge",
-      "language": "roomaji"
-    },
-    {
-      "name": "대짱이",
-      "language": "ko"
-    },
-    {
-      "name": "巨沼怪",
-      "language": "zh"
-    },
-    {
-      "name": "Laggron",
-      "language": "fr"
-    },
-    {
-      "name": "Sumpex",
-      "language": "de"
-    },
-    {
-      "name": "Swampert",
-      "language": "es"
-    },
-    {
-      "name": "Swampert",
-      "language": "it"
-    },
-    {
-      "name": "Swampert",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ラグラージ",
+    "en": "Swampert",
+    "fr": "Laggron",
+    "it": "Swampert",
+    "de": "Sumpex",
+    "es": "Swampert",
+    "ko": "대짱이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -98,36 +61,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ぬまうお",
-      "language": "ja"
-    },
-    {
-      "genus": "늪물고기",
-      "language": "ko"
-    },
-    {
-      "genus": "Poissonboue",
-      "language": "fr"
-    },
-    {
-      "genus": "Lehmhüpfer",
-      "language": "de"
-    },
-    {
-      "genus": "Pez Lodo",
-      "language": "es"
-    },
-    {
-      "genus": "Fango Pesce",
-      "language": "it"
-    },
-    {
-      "genus": "Mud Fish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ぬまうお",
+    "en": "Mud Fish",
+    "fr": "Poissonboue",
+    "it": "Fango Pesce",
+    "de": "Lehmhüpfer",
+    "es": "Pez Lodo",
+    "ko": "늪물고기"
+  },
   "varieties": [
     {
       "is_default": true,

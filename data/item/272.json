@@ -1,0 +1,38 @@
+{
+  "id": 272,
+  "name": "toxic-orb",
+  "names": {
+    "ja": "どくどくだま",
+    "kana": "どくどくだま",
+    "en": "Toxic Orb",
+    "fr": "Orbe Toxique",
+    "it": "Tossicsfera",
+    "de": "Toxik-Orb",
+    "es": "Toxisfera",
+    "ko": "맹독구슬",
+    "zh-CN": "剧毒宝珠",
+    "zh-TW": "劇毒寶珠"
+  },
+  "flavor_text_entries": {
+    "ja": "触ると　毒をだす　不思議な玉。 持たせると　戦闘中に 猛毒の　状態に　なる。",
+    "kana": "さわると　どくをだす　ふしぎなたま。 もたせると　せんとうちゅうに もうどくの　じょうたいに　なる。",
+    "en": "An item to be held by a Pokémon. It’s a bizarre orb that will badly poison the holder during battle.",
+    "fr": "Objet à tenir. Un orbe bizarre empoisonnant gravement son porteur durant le combat.",
+    "it": "Strumento da dare a un Pokémon. Sfera bizzarra che iperavvelena chi l’ha con sé in una lotta.",
+    "de": "Ein Item zum Tragen. Dieser bizarre Orb vergiftet seinen Träger im Kampf schwer.",
+    "es": "Extraña esfera que envenena gravemente al Pokémon que la lleva en combate.",
+    "ko": "만지면 독을 발산하는 이상한 구슬. 지니게 하면 배틀 중에 맹독 상태가 된다.",
+    "zh-CN": "触碰后会放出毒的神奇宝珠。 携带后，在战斗时会变成剧毒状态。",
+    "zh-TW": "觸碰後會放出毒的神奇寶珠。 攜帶後，在戰鬥時 會變成劇毒狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An item to be held by a Pokémon. It is a bizarre orb that will badly poison the holder during battle."
+        }
+      }
+    }
+  ]
+}

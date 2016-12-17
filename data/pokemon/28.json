@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 98,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "upright"
   },
@@ -77,44 +71,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "サンドパン",
-      "language": "ja"
-    },
-    {
-      "name": "Sandpan",
-      "language": "roomaji"
-    },
-    {
-      "name": "고지",
-      "language": "ko"
-    },
-    {
-      "name": "穿山王",
-      "language": "zh"
-    },
-    {
-      "name": "Sablaireau",
-      "language": "fr"
-    },
-    {
-      "name": "Sandamer",
-      "language": "de"
-    },
-    {
-      "name": "Sandslash",
-      "language": "es"
-    },
-    {
-      "name": "Sandslash",
-      "language": "it"
-    },
-    {
-      "name": "Sandslash",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "サンドパン",
+    "en": "Sandslash",
+    "fr": "Sablaireau",
+    "it": "Sandslash",
+    "de": "Sandamer",
+    "es": "Sandslash",
+    "ko": "고지"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -125,36 +90,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ねずみ",
-      "language": "ja"
-    },
-    {
-      "genus": "쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Souris",
-      "language": "fr"
-    },
-    {
-      "genus": "Maus",
-      "language": "de"
-    },
-    {
-      "genus": "Ratón",
-      "language": "es"
-    },
-    {
-      "genus": "Topo",
-      "language": "it"
-    },
-    {
-      "genus": "Mouse",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ねずみ",
+    "en": "Mouse",
+    "fr": "Souris",
+    "it": "Topo",
+    "de": "Maus",
+    "es": "Ratón",
+    "ko": "쥐"
+  },
   "varieties": [
     {
       "is_default": true,

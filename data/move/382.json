@@ -2,36 +2,13 @@
   "id": 382,
   "name": "me-first",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "If the target has selected a damaging move this turn, the user will copy that move and use it against the target, with a 50% increase in power.\n\nIf the target moves before the user, this move will [fail]{mechanic:fail}.\n\nThis move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.",
-      "short_effect": "Uses the target's move against it before it attacks, with power increased by half.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,55 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Me First",
-      "language": "en"
-    },
-    {
-      "name": "Precedenza",
-      "language": "it"
-    },
-    {
-      "name": "Yo Primero",
-      "language": "es"
-    },
-    {
-      "name": "Egotrip",
-      "language": "de"
-    },
-    {
-      "name": "Moi d'Abord",
-      "language": "fr"
-    },
-    {
-      "name": "선취",
-      "language": "ko"
-    },
-    {
-      "name": "さきどり",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "さきどり",
+    "kana": "さきどり",
+    "en": "Me First",
+    "fr": "Moi d’Abord",
+    "it": "Precedenza",
+    "de": "Egotrip",
+    "es": "Yo Primero",
+    "ko": "선취",
+    "zh-CN": "抢先一步",
+    "zh-TW": "搶先一步"
+  },
+  "flavor_text_entries": {
+    "ja": "威力を　あげて　相手が だそうとする　技を　先にだす。 先に　だせないと　失敗する。",
+    "kana": "いりょくを　あげて　あいてが だそうとする　わざを　さきにだす。 さきに　だせないと　しっぱい　する。",
+    "en": "The user cuts ahead of the target to copy and use the target’s intended move with greater power. This move fails if it isn’t used first.",
+    "fr": "Le lanceur vole la capacité prévue par l’ennemi et l’utilise en faisant plus de dégâts. Il doit frapper en premier.",
+    "it": "Se chi la usa è più veloce del nemico, gli ruba la mossa e gliela ritorce contro con potenza persino maggiore.",
+    "de": "Anwender führt die Attacke des Zieles zuerst und mit höherer Stärke aus. Dies schlägt fehl, falls der Anwender nicht vor dem Ziel zum Zug kommt.",
+    "es": "Se adelanta al movimiento que pretende usar el objetivo y lo lanza antes con más fuerza. Si el usuario es más lento, falla.",
+    "ko": "위력을 올려 상대가 쓰려고 하는 기술을 먼저 쓴다. 먼저 쓰지 않으면 실패한다.",
+    "zh-CN": "提高威力，抢先使出 对手想要使出的招式。 如果不先使出则会失败。",
+    "zh-TW": "以更高的威力，搶先發動 對手準備使出的招式。 若行動順序在對手之後則會失敗。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon-me-first",
+  "type": "normal",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 0,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user cuts ahead of the target to steal and use the target’s intended move with greater power. This move fails if it isn’t used first.",
+          "de": "Anwender stiehlt und führt die Attacke eines langsameren Zieles zuerst und mit größerer Kraft aus."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon-me-first"
-  },
-  "type": {
-    "name": "normal"
-  }
+  ]
 }

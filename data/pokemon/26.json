@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 37,
@@ -69,16 +67,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "fairy"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "upright"
   },
@@ -92,44 +84,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ライチュウ",
-      "language": "ja"
-    },
-    {
-      "name": "Raichu",
-      "language": "roomaji"
-    },
-    {
-      "name": "라이츄",
-      "language": "ko"
-    },
-    {
-      "name": "雷丘",
-      "language": "zh"
-    },
-    {
-      "name": "Raichu",
-      "language": "fr"
-    },
-    {
-      "name": "Raichu",
-      "language": "de"
-    },
-    {
-      "name": "Raichu",
-      "language": "es"
-    },
-    {
-      "name": "Raichu",
-      "language": "it"
-    },
-    {
-      "name": "Raichu",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ライチュウ",
+    "en": "Raichu",
+    "fr": "Raichu",
+    "it": "Raichu",
+    "de": "Raichu",
+    "es": "Raichu",
+    "ko": "라이츄"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -140,36 +103,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ねずみ",
-      "language": "ja"
-    },
-    {
-      "genus": "쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Souris",
-      "language": "fr"
-    },
-    {
-      "genus": "Maus",
-      "language": "de"
-    },
-    {
-      "genus": "Ratón",
-      "language": "es"
-    },
-    {
-      "genus": "Topo",
-      "language": "it"
-    },
-    {
-      "genus": "Mouse",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ねずみ",
+    "en": "Mouse",
+    "fr": "Souris",
+    "it": "Topo",
+    "de": "Maus",
+    "es": "Ratón",
+    "ko": "쥐"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 92,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "humanshape"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "humanoid"
   },
@@ -48,68 +40,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ゴロンダ",
-      "language": "ja"
-    },
-    {
-      "name": "부란다",
-      "language": "ko"
-    },
-    {
-      "name": "Pandarbare",
-      "language": "fr"
-    },
-    {
-      "name": "Pandagro",
-      "language": "de"
-    },
-    {
-      "name": "Pangoro",
-      "language": "es"
-    },
-    {
-      "name": "Pangoro",
-      "language": "it"
-    },
-    {
-      "name": "Pangoro",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴロンダ",
+    "en": "Pangoro",
+    "fr": "Pandarbare",
+    "it": "Pangoro",
+    "de": "Pandagro",
+    "es": "Pangoro",
+    "ko": "부란다"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こわもて",
-      "language": "ja"
-    },
-    {
-      "genus": "무서운얼굴",
-      "language": "ko"
-    },
-    {
-      "genus": "Patibulaire",
-      "language": "fr"
-    },
-    {
-      "genus": "Gaunerblick",
-      "language": "de"
-    },
-    {
-      "genus": "Rostro Fiero",
-      "language": "es"
-    },
-    {
-      "genus": "Occhiotruce",
-      "language": "it"
-    },
-    {
-      "genus": "Daunting",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こわもて",
+    "en": "Daunting",
+    "fr": "Patibulaire",
+    "it": "Occhiotruce",
+    "de": "Gaunerblick",
+    "es": "Rostro Fiero",
+    "ko": "무서운얼굴"
+  },
   "varieties": [
     {
       "is_default": true,

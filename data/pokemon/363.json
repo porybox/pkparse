@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 60,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "タマザラシ",
-      "language": "ja"
-    },
-    {
-      "name": "Tamazarashi",
-      "language": "roomaji"
-    },
-    {
-      "name": "대굴레오",
-      "language": "ko"
-    },
-    {
-      "name": "海豹球",
-      "language": "zh"
-    },
-    {
-      "name": "Obalie",
-      "language": "fr"
-    },
-    {
-      "name": "Seemops",
-      "language": "de"
-    },
-    {
-      "name": "Spheal",
-      "language": "es"
-    },
-    {
-      "name": "Spheal",
-      "language": "it"
-    },
-    {
-      "name": "Spheal",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "タマザラシ",
+    "en": "Spheal",
+    "fr": "Obalie",
+    "it": "Spheal",
+    "de": "Seemops",
+    "es": "Spheal",
+    "ko": "대굴레오"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "てたたき",
-      "language": "ja"
-    },
-    {
-      "genus": "손뼉",
-      "language": "ko"
-    },
-    {
-      "genus": "Clap Clap",
-      "language": "fr"
-    },
-    {
-      "genus": "Applaus",
-      "language": "de"
-    },
-    {
-      "genus": "Aplauso",
-      "language": "es"
-    },
-    {
-      "genus": "Rotolante",
-      "language": "it"
-    },
-    {
-      "genus": "Clap",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "てたたき",
+    "en": "Clap",
+    "fr": "Clap Clap",
+    "it": "Rotolante",
+    "de": "Applaus",
+    "es": "Aplauso",
+    "ko": "손뼉"
+  },
   "varieties": [
     {
       "is_default": true,

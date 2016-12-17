@@ -2,56 +2,13 @@
   "id": 30,
   "name": "horn-attack",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 25,
   "priority": 0,
   "power": 65,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "fury-attack"
-        },
-        {
-          "name": "horn-drill"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "leer"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -63,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Horn Attack",
-      "language": "en"
-    },
-    {
-      "name": "Incornata",
-      "language": "it"
-    },
-    {
-      "name": "Cornada",
-      "language": "es"
-    },
-    {
-      "name": "Hornattacke",
-      "language": "de"
-    },
-    {
-      "name": "Koud'Korne",
-      "language": "fr"
-    },
-    {
-      "name": "뿔찌르기",
-      "language": "ko"
-    },
-    {
-      "name": "つのでつく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "つのでつく",
+    "kana": "つのでつく",
+    "en": "Horn Attack",
+    "fr": "Koud’Korne",
+    "it": "Incornata",
+    "de": "Hornattacke",
+    "es": "Cornada",
+    "ko": "뿔찌르기",
+    "zh-CN": "角撞",
+    "zh-TW": "角撞"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "鋭く　とがった　つので 相手を　攻撃する。",
+    "kana": "するどく　とがった　つので あいてを　こうげきする。",
+    "en": "The target is jabbed with a sharply pointed horn to inflict damage.",
+    "fr": "Frappe l’ennemi d’un coup de corne pointue pour infliger des dégâts.",
+    "it": "Danneggia il bersaglio infilzandolo con un corno affilato.",
+    "de": "Spießt das Ziel mit einem spitzen Horn auf.",
+    "es": "Ataca al objetivo con una cornada.",
+    "ko": "날카롭고 뾰족한 뿔로 상대를 공격한다.",
+    "zh-CN": "用尖锐的角攻击对手。",
+    "zh-TW": "用尖銳的角攻擊對手。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

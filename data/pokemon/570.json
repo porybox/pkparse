@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 124,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "quadruped"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ゾロア",
-      "language": "ja"
-    },
-    {
-      "name": "조로아",
-      "language": "ko"
-    },
-    {
-      "name": "Zorua",
-      "language": "fr"
-    },
-    {
-      "name": "Zorua",
-      "language": "de"
-    },
-    {
-      "name": "Zorua",
-      "language": "es"
-    },
-    {
-      "name": "Zorua",
-      "language": "it"
-    },
-    {
-      "name": "Zorua",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゾロア",
+    "en": "Zorua",
+    "fr": "Zorua",
+    "it": "Zorua",
+    "de": "Zorua",
+    "es": "Zorua",
+    "ko": "조로아"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "わるぎつね",
-      "language": "ja"
-    },
-    {
-      "genus": "나쁜여우",
-      "language": "ko"
-    },
-    {
-      "genus": "Sombrenard",
-      "language": "fr"
-    },
-    {
-      "genus": "Lausefuchs",
-      "language": "de"
-    },
-    {
-      "genus": "Zorropillo",
-      "language": "es"
-    },
-    {
-      "genus": "Malavolpe",
-      "language": "it"
-    },
-    {
-      "genus": "Tricky Fox",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "わるぎつね",
+    "en": "Tricky Fox",
+    "fr": "Sombrenard",
+    "it": "Malavolpe",
+    "de": "Lausefuchs",
+    "es": "Zorro Pillo",
+    "ko": "나쁜여우"
+  },
   "varieties": [
     {
       "is_default": true,

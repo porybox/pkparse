@@ -2,49 +2,13 @@
   "id": 172,
   "name": "flame-wheel",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 25,
   "priority": 0,
   "power": 60,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sunny-day"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.  [Frozen]{mechanic:frozen} Pokémon may use this move, in which case they will thaw.",
-      "short_effect": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.  Lets frozen Pokémon thaw themselves.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "burn",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Flame Wheel",
-      "language": "en"
-    },
-    {
-      "name": "Ruotafuoco",
-      "language": "it"
-    },
-    {
-      "name": "Rueda Fuego",
-      "language": "es"
-    },
-    {
-      "name": "Flammenrad",
-      "language": "de"
-    },
-    {
-      "name": "Roue de Feu",
-      "language": "fr"
-    },
-    {
-      "name": "화염자동차",
-      "language": "ko"
-    },
-    {
-      "name": "かえんぐるま",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "かえんぐるま",
+    "kana": "かえんぐるま",
+    "en": "Flame Wheel",
+    "fr": "Roue de Feu",
+    "it": "Ruotafuoco",
+    "de": "Flammenrad",
+    "es": "Rueda Fuego",
+    "ko": "화염자동차",
+    "zh-CN": "火焰轮",
+    "zh-TW": "火焰輪"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "炎を　まとい 相手に　突進して　攻撃する。 やけど状態に　することが　ある。",
+    "kana": "ほのおを　まとい あいてに　とっしんして　こうげきする。 やけど　じょうたいに　することが　ある。",
+    "en": "The user cloaks itself in fire and charges at the target. This may also leave the target with a burn.",
+    "fr": "Le lanceur s’entoure de feu et charge l’ennemi. Peut aussi le brûler.",
+    "it": "Chi la usa si copre di fuoco e carica il bersaglio. Può anche scottarlo.",
+    "de": "Feuer-Attacke, die beim Ziel eventuell Verbrennungen verursacht.",
+    "es": "Ataca envuelto en fuego. Puede causar quemaduras.",
+    "ko": "불꽃을 둘러 상대에게 돌진하여 공격한다. 화상 상태로 만들 때가 있다.",
+    "zh-CN": "让火焰覆盖全身， 猛撞向对手进行攻击。 有时会让对手陷入灼伤状态。",
+    "zh-TW": "用火焰圍繞身體， 猛撞對手進行攻擊。 有時會讓對手陷入灼傷狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Feuer-Attacke, die das Ziel eventuell verbrennt."
+        }
+      }
+    }
+  ]
 }

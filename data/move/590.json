@@ -2,34 +2,13 @@
   "id": 590,
   "name": "confide",
   "accuracy": null,
-  "effect_chance": 100,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's Special Attack by one stage.",
-      "short_effect": "Lowers the target's Special Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Confide",
-      "language": "en"
-    },
-    {
-      "name": "Confidenza",
-      "language": "it"
-    },
-    {
-      "name": "Confidencia",
-      "language": "es"
-    },
-    {
-      "name": "Vertrauenssache",
-      "language": "de"
-    },
-    {
-      "name": "Confidence",
-      "language": "fr"
-    },
-    {
-      "name": "비밀이야기",
-      "language": "ko"
-    },
-    {
-      "name": "ないしょばなし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ないしょばなし",
+    "kana": "ないしょばなし",
+    "en": "Confide",
+    "fr": "Confidence",
+    "it": "Confidenza",
+    "de": "Vertrauenssache",
+    "es": "Confidencia",
+    "ko": "비밀이야기",
+    "zh-CN": "密语",
+    "zh-TW": "密語"
+  },
+  "flavor_text_entries": {
+    "ja": "ないしょばなしを　することで　相手の 集中力を　失わせ 相手の　特攻を　さげる。",
+    "kana": "ないしょばなしを　することで　あいての しゅうちゅうりょくを　うしなわせ あいての　とくこうを　さげる。",
+    "en": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat.",
+    "fr": "Dévoile des secrets à l’ennemi, qui perd alors sa concentration et voit son Attaque Spéciale diminuer.",
+    "it": "Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l’Attacco Speciale.",
+    "de": "Der Anwender vertraut dem Ziel ein Geheimnis an und stört auf diese Weise dessen Konzentration. Der Spezial-Angriff des Zieles sinkt.",
+    "es": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+    "ko": "비밀 이야기를 해서 상대의 집중력을 잃게 하여 특수공격을 떨어뜨린다.",
+    "zh-CN": "和对手进行密语， 使其失去集中力， 从而降低对手的特攻。",
+    "zh-TW": "向對手低聲密語， 使對手失去集中力， 降低對手的特攻。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Dévoile des secrets à l’ennemi qui perd sa concentration et voit son Attaque Spéciale diminuer.",
+          "de": "Der Anwender vertraut dem Ziel ein Geheimnis an und stört auf diese Weise seine Konzentration. Der Spezial-Angriff des Zieles sinkt.",
+          "ko": "비밀 이야기를 하면서 상대의 집중력을 잃게 하여 상대의 특수공격을 떨어뜨린다."
+        }
+      }
+    }
+  ]
 }

@@ -1,0 +1,41 @@
+{
+  "id": 388,
+  "name": "tm61",
+  "names": {
+    "ja": "わざマシン６１",
+    "kana": "わざマシン６１",
+    "en": "TM61",
+    "fr": "CT61",
+    "it": "MT61",
+    "de": "TM61",
+    "es": "MT61",
+    "ko": "기술머신61",
+    "zh-CN": "招式学习器６１",
+    "zh-TW": "招式學習器６１"
+  },
+  "flavor_text_entries": {
+    "ja": "不気味で　怪しい　炎を　放って 相手を　やけどの　状態に　する。",
+    "kana": "ぶきみで　あやしい　ほのおを　はなって あいてを　やけどの　じょうたいに　する。",
+    "en": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
+    "fr": "Lance un bouquet de flammes maléfiques à l’ennemi pour lui infliger une brûlure.",
+    "it": "Fiamme intense di colore viola causano una scottatura al bersaglio.",
+    "de": "Feuert eine fiese, unheimliche Flamme auf das Ziel ab, um Verbrennungen zu verursachen.",
+    "es": "Lanza una siniestra llamarada morada que provoca quemaduras al objetivo.",
+    "ko": "으스스하고 괴상한 불꽃을 쏘아 상대를 화상 상태로 만든다.",
+    "zh-CN": "放出怪异的火焰， 从而让对手陷入灼伤状态。",
+    "zh-TW": "放出詭異的火焰， 讓對手陷入灼傷狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "あおじろく　もえる　あやしげな ほのおを　はなつ。　あいてを やけどの　じょうたいに　する。",
+          "fr": "Lance une sinistre flamme violette à l’ennemi pour lui infliger une brûlure.",
+          "it": "Fiamme intense di colore viola causano una scottatura al nemico.",
+          "de": "Feuert eine fiese, blauweiße Flamme auf das Ziel ab, um Verbrennungen zu verursachen."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": 329,
+  "name": "tm02",
+  "names": {
+    "ja": "わざマシン０２",
+    "kana": "わざマシン０２",
+    "en": "TM02",
+    "fr": "CT02",
+    "it": "MT02",
+    "de": "TM02",
+    "es": "MT02",
+    "ko": "기술머신02",
+    "zh-CN": "招式学习器０２",
+    "zh-TW": "招式學習器０２"
+  },
+  "flavor_text_entries": {
+    "ja": "鋭く　とがった　巨大な　ツメで 相手を　切り裂いて　攻撃する。",
+    "kana": "するどく　とがった　きょだいな　ツメで あいてを　きりさいて　こうげきする。",
+    "en": "The user slashes the target with huge sharp claws.",
+    "fr": "Le lanceur lacère l’ennemi de ses grandes griffes aiguisées.",
+    "it": "Chi la usa attacca con artigli affilati che graffiano il bersaglio rapidamente e con grande forza.",
+    "de": "Das Ziel wird mit langen, scharfen Krallen brutal attackiert.",
+    "es": "Engancha y araña al objetivo con unas potentes y enormes garras afiladas.",
+    "ko": "날카롭고 뾰족하며 거대한 발톱으로 상대를 베어 갈라서 공격한다.",
+    "zh-CN": "用尖锐的巨爪 劈开对手进行攻击。",
+    "zh-TW": "用尖銳的巨爪 撕裂對手進行攻擊。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "するどく　とがった　きょだいな ツメで　ひっかいて　こうげきする。",
+          "en": "The user slashes the target with huge, sharp claws.",
+          "it": "Chi la usa attacca con artigli affilati che graffiano il nemico rapidamente e con grande forza."
+        }
+      }
+    }
+  ]
+}

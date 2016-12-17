@@ -1,0 +1,38 @@
+{
+  "id": 639,
+  "name": "weakness-policy",
+  "names": {
+    "ja": "じゃくてんほけん",
+    "kana": "じゃくてんほけん",
+    "en": "Weakness Policy",
+    "fr": "Vulné-Assurance",
+    "it": "Vulneropolizza",
+    "de": "Schwächenschutz",
+    "es": "Seguro Debilidad",
+    "ko": "약점보험",
+    "zh-CN": "弱点保险",
+    "zh-TW": "弱點保險"
+  },
+  "flavor_text_entries": {
+    "ja": "弱点を　つかれたとき 攻撃と　特攻が それぞれ　ぐーんと　あがる。",
+    "kana": "じゃくてんを　つかれたとき こうげきと　とくこうが それぞれ　ぐーんと　あがる。",
+    "en": "An item to be held by a Pokémon. Attack and Sp. Atk sharply increase if the holder is hit with a move it’s weak to.",
+    "fr": "Objet à tenir. Augmente beaucoup l’Attaque et l’Attaque Spéciale du Pokémon lorsqu’il est touché par une capacité d’un type auquel il est vulnérable.",
+    "it": "Se il Pokémon viene colpito da una mossa contro cui è debole, l’Attacco e l’Attacco Speciale aumentano considerevolmente.",
+    "de": "Erhöht den Angriff und den Spezial-Angriff des Trägers stark, wenn er von einer sehr effektiven Attacke getroffen wird.",
+    "es": "Aumenta mucho el Ataque y el Ataque Especial cuando el Pokémon que lo lleva recibe un ataque frente al cual es débil.",
+    "ko": "약점을 공격당했을 때 공격과 특수공격이 각각 크게 올라간다.",
+    "zh-CN": "被针对弱点时， 攻击和特攻就会大幅提高。",
+    "zh-TW": "被攻擊到弱點時， 攻擊和特攻就會 分別大幅提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Objet à tenir. Augmente beaucoup l’Attaque et l’Attaque Spéciale du Pokémon lorsqu’il reçoit un coup d’un type auquel il est vulnérable."
+        }
+      }
+    }
+  ]
+}

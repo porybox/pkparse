@@ -2,34 +2,13 @@
   "id": 521,
   "name": "volt-switch",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 70,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}, then the user immediately [switches out]{mechanic:switches-out}, and the trainer selects a replacement Pokémon from the party.  If the target [faint]{mechanic:faint}s from this attack, the user's trainer selects the new Pokémon to send out first.  If the user is the last Pokémon in its party that can battle, it will not [switch out]{mechanic:switch-out}.\n\nThe user may be hit by []{move:pursuit} when it [switches out]{mechanic:switches-out}, if it has been targeted and []{move:pursuit} has not yet been used.\n\nThis move may be used even if the user is under the effect of []{move:ingrain}.  []{move:ingrain}'s effect will end.",
-      "short_effect": "User must switch out after attacking.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Volt Switch",
-      "language": "en"
-    },
-    {
-      "name": "Invertivolt",
-      "language": "it"
-    },
-    {
-      "name": "Voltiocambio",
-      "language": "es"
-    },
-    {
-      "name": "Voltwechsel",
-      "language": "de"
-    },
-    {
-      "name": "Change Éclair",
-      "language": "fr"
-    },
-    {
-      "name": "볼트체인지",
-      "language": "ko"
-    },
-    {
-      "name": "ボルトチェンジ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ボルトチェンジ",
+    "kana": "ボルトチェンジ",
+    "en": "Volt Switch",
+    "fr": "Change Éclair",
+    "it": "Invertivolt",
+    "de": "Voltwechsel",
+    "es": "Voltiocambio",
+    "ko": "볼트체인지",
+    "zh-CN": "伏特替换",
+    "zh-TW": "伏特替換"
   },
-  "type": {
-    "name": "electric"
-  }
+  "flavor_text_entries": {
+    "ja": "攻撃したあと ものすごい　スピードで　もどってきて 控えポケモンと　入れ替わる。",
+    "kana": "こうげき　したあと ものすごい　スピードで　もどってきて ひかえ　ポケモンと　いれかわる。",
+    "en": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+    "fr": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat.",
+    "it": "Chi usa questa mossa si tira indietro per farsi sostituire dopo aver sferrato l’attacco.",
+    "de": "Anwender kehrt nach dem Angriff mit atemberaubender Geschwindigkeit zurück und tauscht Platz mit einem anderen Pokémon.",
+    "es": "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo.",
+    "ko": "공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다.",
+    "zh-CN": "在攻击之后急速返回， 和后备宝可梦进行替换。",
+    "zh-TW": "攻擊後迅速返回， 和後備寶可夢進行替換。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric"
 }

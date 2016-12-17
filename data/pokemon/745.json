@@ -1,0 +1,44 @@
+{
+  "id": 745,
+  "name": "lycanroc",
+  "gender_rate": 4,
+  "capture_rate": 90,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "brown",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ルガルガン",
+    "en": "Lycanroc",
+    "fr": "Lougaroc",
+    "it": "Lycanroc",
+    "de": "Wolwerock",
+    "es": "Lycanroc",
+    "ko": "루가루암"
+  },
+  "genera": {
+    "ja": "オオカミ",
+    "en": "Wolf",
+    "fr": "Loup",
+    "it": "Lupo",
+    "de": "Wolf",
+    "es": "Lobo",
+    "ko": "늑대"
+  },
+  "types": [
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 115,
+    "defense": 65,
+    "special-attack": 55,
+    "special-defense": 65,
+    "speed": 112
+  }
+}

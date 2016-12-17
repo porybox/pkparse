@@ -1,0 +1,50 @@
+{
+  "id": 641,
+  "name": "inferno-overdrive",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ダイナミックフルフレイム",
+    "kana": "ダイナミックフルフレイム",
+    "en": "Inferno Overdrive",
+    "fr": "Pyro-Explosion Cataclysmique",
+    "it": "Fiammobomba Detonante",
+    "de": "Dynamische Maxiflamme",
+    "es": "Hecatombe Pírica",
+    "ko": "다이내믹풀플레임",
+    "zh-CN": "超强极限爆焰弹",
+    "zh-TW": "超強極限爆焰彈"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire"
+}

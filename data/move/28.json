@@ -2,56 +2,13 @@
   "id": 28,
   "name": "sand-attack",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "mud-slap"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "mud-slap"
-        },
-        {
-          "name": "sandstorm"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's accuracy by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -63,64 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sand Attack",
-      "language": "en"
-    },
-    {
-      "name": "Turbosabbia",
-      "language": "it"
-    },
-    {
-      "name": "Ataque Arena",
-      "language": "es"
-    },
-    {
-      "name": "Sandwirbel",
-      "language": "de"
-    },
-    {
-      "name": "Jet de Sable",
-      "language": "fr"
-    },
-    {
-      "name": "모래뿌리기",
-      "language": "ko"
-    },
-    {
-      "name": "すなかけ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": {
-        "name": "normal"
-      },
-      "version_group": {
-        "name": "gold-silver"
-      }
-    }
-  ],
+  "names": {
+    "ja": "すなかけ",
+    "kana": "すなかけ",
+    "en": "Sand Attack",
+    "fr": "Jet de Sable",
+    "it": "Turbosabbia",
+    "de": "Sandwirbel",
+    "es": "Ataque Arena",
+    "ko": "모래뿌리기",
+    "zh-CN": "泼沙",
+    "zh-TW": "潑沙"
+  },
+  "flavor_text_entries": {
+    "ja": "相手の　顔に　砂を　かけて 命中率を　さげる。",
+    "kana": "あいての　かおに　すなを　かけて めいちゅうりつを　さげる。",
+    "en": "Sand is hurled in the target’s face, reducing the target’s accuracy.",
+    "fr": "Lance du sable au visage de l’ennemi pour baisser sa Précision.",
+    "it": "Getta sabbia in faccia al bersaglio e ne riduce la precisione.",
+    "de": "Senkt Genauigkeit des Zieles, indem ihm Sand ins Gesicht geworfen wird.",
+    "es": "Arroja arena a la cara y baja la Precisión.",
+    "ko": "상대의 얼굴에 모래를 뿌려서 명중률을 떨어뜨린다.",
+    "zh-CN": "向对手脸上泼沙子， 从而降低命中率。",
+    "zh-TW": "向對手的臉上潑沙， 降低對手的命中率。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "accuracy"
-      }
+      "stat": "accuracy"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "ground"
-  }
+  "target": "selected-pokemon",
+  "type": "ground"
 }

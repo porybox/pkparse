@@ -2,36 +2,13 @@
   "id": 297,
   "name": "feather-dance",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Attack]{mechanic:attack} by two [stages]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Attack by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,47 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Feather Dance",
-      "language": "en"
-    },
-    {
-      "name": "Danzadipiume",
-      "language": "it"
-    },
-    {
-      "name": "Danza Pluma",
-      "language": "es"
-    },
-    {
-      "name": "Daunenreigen",
-      "language": "de"
-    },
-    {
-      "name": "Danse-Plume",
-      "language": "fr"
-    },
-    {
-      "name": "깃털댄스",
-      "language": "ko"
-    },
-    {
-      "name": "フェザーダンス",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "フェザーダンス",
+    "kana": "フェザーダンス",
+    "en": "Feather Dance",
+    "fr": "Danse-Plume",
+    "it": "Danzadipiume",
+    "de": "Daunenreigen",
+    "es": "Danza Pluma",
+    "ko": "깃털댄스",
+    "zh-CN": "羽毛舞",
+    "zh-TW": "羽毛舞"
+  },
+  "flavor_text_entries": {
+    "ja": "羽毛を　ふりまいて 相手の　体に　からませる。 相手の　攻撃を　がくっと　さげる。",
+    "kana": "うもうを　ふりまいて あいての　からだに　からませる。 あいての　こうげきを　がくっと　さげる。",
+    "en": "The user covers the target’s body with a mass of down that harshly lowers its Attack stat.",
+    "fr": "Une montagne de plumes ensevelit l’ennemi et réduit beaucoup son Attaque.",
+    "it": "Chi la usa circonda il bersaglio con un turbinio di piume riducendo di molto il suo Attacco.",
+    "de": "Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.",
+    "es": "Envuelve al objetivo con un manto de plumas para reducir mucho su Ataque.",
+    "ko": "깃털을 흩뿌려 상대의 몸에 휘감는다. 상대의 공격을 크게 떨어뜨린다.",
+    "zh-CN": "撒出羽毛， 笼罩在对手的周围。 大幅降低对手的攻击。",
+    "zh-TW": "撒出羽毛， 纏住對手的身體。 大幅降低對手的攻擊。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "flying"
-  }
+  "target": "selected-pokemon",
+  "type": "flying",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une montagne de plumes ensevelit l’ennemi et réduit considérablement son Attaque.",
+          "it": "Chi la usa copre il bersaglio con un manto di piume che riduce di molto il suo Attacco."
+        }
+      }
+    }
+  ]
 }

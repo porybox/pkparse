@@ -2,34 +2,13 @@
   "id": 585,
   "name": "moonblast",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 15,
   "priority": 0,
   "power": 95,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Special Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 30
   },
-  "names": [
-    {
-      "name": "Moonblast",
-      "language": "en"
-    },
-    {
-      "name": "Forza Lunare",
-      "language": "it"
-    },
-    {
-      "name": "Fuerza Lunar",
-      "language": "es"
-    },
-    {
-      "name": "Mondgewalt",
-      "language": "de"
-    },
-    {
-      "name": "Pouvoir Lunaire",
-      "language": "fr"
-    },
-    {
-      "name": "문포스",
-      "language": "ko"
-    },
-    {
-      "name": "ムーンフォース",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ムーンフォース",
+    "kana": "ムーンフォース",
+    "en": "Moonblast",
+    "fr": "Pouvoir Lunaire",
+    "it": "Forza Lunare",
+    "de": "Mondgewalt",
+    "es": "Fuerza Lunar",
+    "ko": "문포스",
+    "zh-CN": "月亮之力",
+    "zh-TW": "月亮之力"
+  },
+  "flavor_text_entries": {
+    "ja": "月の　パワーを　かりて 相手を　攻撃する。　相手の 特攻を　さげる　ことがある。",
+    "kana": "つきの　パワーを　かりて あいてを　こうげきする。　あいての とくこうを　さげる　ことがある。",
+    "en": "Borrowing the power of the moon, the user attacks the target. This may also lower the target’s Sp. Atk stat.",
+    "fr": "Attaque l’ennemi grâce au pouvoir de la lune. Peut diminuer son Attaque Spéciale.",
+    "it": "Chi la usa sfrutta il potere della luna per attaccare il bersaglio. Può anche ridurne l’Attacco Speciale.",
+    "de": "Der Anwender macht sich die Kraft des Mondes zunutze, um anzugreifen. Gelegentlich wird dabei der Spezial-Angriff des Zieles gesenkt.",
+    "es": "Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.",
+    "ko": "달의 파워를 빌려서 상대를 공격한다. 상대의 특수공격을 떨어뜨릴 때가 있다.",
+    "zh-CN": "借用月亮的力量攻击对手。 有时会降低对手的特攻。",
+    "zh-TW": "借用月亮的力量攻擊對手。 有時會降低對手的特攻。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fairy"
-  }
+  "target": "selected-pokemon",
+  "type": "fairy"
 }

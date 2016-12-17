@@ -1,0 +1,38 @@
+{
+  "id": 116,
+  "name": "douse-drive",
+  "names": {
+    "ja": "アクアカセット",
+    "kana": "アクアカセット",
+    "en": "Douse Drive",
+    "fr": "Module Aqua",
+    "it": "Idromodulo",
+    "de": "Aquamodul",
+    "es": "HidroROM",
+    "ko": "아쿠아카세트",
+    "zh-CN": "水流卡带",
+    "zh-TW": "水流卡帶"
+  },
+  "flavor_text_entries": {
+    "ja": "ゲノセクトに　持たせると テクノバスターという　技が みずタイプになる　カセット。",
+    "kana": "ゲノセクトに　もたせると テクノバスターという　わざが みずタイプになる　カセット。",
+    "en": "A cassette to be held by Genesect. It changes Genesect’s Techno Blast move so it becomes Water type.",
+    "fr": "Tenu par Genesect, ce module change la capacité Techno-Buster en une capacité de type Eau.",
+    "it": "Modulo da dare a Genesect. Trasforma Tecnobotto in una mossa di tipo Acqua.",
+    "de": "Gibt man es Genesect zum Tragen, wandelt es den Typ der Attacke Techblaster in Wasser um.",
+    "es": "Cartucho que convierte Tecno Shock de Genesect en un movimiento de tipo Agua.",
+    "ko": "게노세크트에게 지니게 하면 테크노버스터라는 기술이 물타입으로 바뀌는 카세트.",
+    "zh-CN": "这是让盖诺赛克特携带的卡带。 携带后，高科技光炮这招式 就会变为水属性。",
+    "zh-TW": "讓蓋諾賽克特攜帶的卡帶。 攜帶後，招式高科技光炮 會變為水屬性。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Tenu par Genesect, ce module change la capacité TechnoBuster en une capacité de type Eau."
+        }
+      }
+    }
+  ]
+}

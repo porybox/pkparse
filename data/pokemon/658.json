@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 9,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    }
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ゲッコウガ",
-      "language": "ja"
-    },
-    {
-      "name": "개굴닌자",
-      "language": "ko"
-    },
-    {
-      "name": "Amphinobi",
-      "language": "fr"
-    },
-    {
-      "name": "Quajutsu",
-      "language": "de"
-    },
-    {
-      "name": "Greninja",
-      "language": "es"
-    },
-    {
-      "name": "Greninja",
-      "language": "it"
-    },
-    {
-      "name": "Greninja",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゲッコウガ",
+    "en": "Greninja",
+    "fr": "Amphinobi",
+    "it": "Greninja",
+    "de": "Quajutsu",
+    "es": "Greninja",
+    "ko": "개굴닌자"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しのび",
-      "language": "ja"
-    },
-    {
-      "genus": "시노비",
-      "language": "ko"
-    },
-    {
-      "genus": "Ninja",
-      "language": "fr"
-    },
-    {
-      "genus": "Ninja",
-      "language": "de"
-    },
-    {
-      "genus": "Ninja",
-      "language": "es"
-    },
-    {
-      "genus": "Ninja",
-      "language": "it"
-    },
-    {
-      "genus": "Ninja",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しのび",
+    "en": "Ninja",
+    "fr": "Ninja",
+    "it": "Ninja",
+    "de": "Ninja",
+    "es": "Ninja",
+    "ko": "시노비"
+  },
   "varieties": [
     {
       "is_default": true,

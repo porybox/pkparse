@@ -2,34 +2,13 @@
   "id": 505,
   "name": "heal-pulse",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Heals the target for half its max [HP]{mechanic:hp}.",
-      "short_effect": "Heals the target for half its max HP.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "heal"
-    },
+    "ailment": "none",
+    "category": "heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,43 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Heal Pulse",
-      "language": "en"
-    },
-    {
-      "name": "Ondasana",
-      "language": "it"
-    },
-    {
-      "name": "Pulso Cura",
-      "language": "es"
-    },
-    {
-      "name": "Heilwoge",
-      "language": "de"
-    },
-    {
-      "name": "Vibra Soin",
-      "language": "fr"
-    },
-    {
-      "name": "치유파동",
-      "language": "ko"
-    },
-    {
-      "name": "いやしのはどう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "いやしのはどう",
+    "kana": "いやしのはどう",
+    "en": "Heal Pulse",
+    "fr": "Vibra Soin",
+    "it": "Ondasana",
+    "de": "Heilwoge",
+    "es": "Pulso Cura",
+    "ko": "치유파동",
+    "zh-CN": "治愈波动",
+    "zh-TW": "治癒波動"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "いやしのはどうを　とばして 最大ＨＰの　半分 相手の　ＨＰを　回復する。",
+    "kana": "いやしのはどうを　とばして さいだい　ＨＰの　はんぶん あいての　ＨＰを　かいふく　する。",
+    "en": "The user emits a healing pulse that restores the target’s HP by up to half of its max HP.",
+    "fr": "Une aura de bien-être fait récupérer la moitié de ses PV max à la cible.",
+    "it": "Chi la usa lancia un’onda rilassante che fa recuperare al bersaglio metà dei suoi PS massimi.",
+    "de": "Anwender löst eine Schmerzen lindernde Welle aus und heilt dabei das Ziel mit der Hälfte von dessen maximalen KP.",
+    "es": "Una onda curativa restaura la mitad de los PS máximos del objetivo.",
+    "ko": "치유파동을 날려서 최대 HP의 절반만큼 상대의 HP를 회복한다.",
+    "zh-CN": "放出治愈波动， 从而回复对手 最大ＨＰ的一半。",
+    "zh-TW": "釋放出治癒波動， 讓對手回復 最大ＨＰ的一半。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user emits a healing pulse which restores the target’s HP by up to half of its max HP.",
+          "de": "Anwender löst eine Schmerzen lindernde Welle aus und heilt dabei das Ziel mit der Hälfte seiner maximalen KP.",
+          "es": "Una onda curativa restaura los PS del objetivo a la mitad de su máximo."
+        }
+      }
+    }
+  ]
 }

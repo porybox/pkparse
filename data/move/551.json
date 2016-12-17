@@ -2,34 +2,13 @@
   "id": 551,
   "name": "blue-flare",
   "accuracy": 85,
-  "effect_chance": 20,
   "pp": 5,
   "priority": 0,
   "power": 130,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "short_effect": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "burn",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Blue Flare",
-      "language": "en"
-    },
-    {
-      "name": "Fuocoblu",
-      "language": "it"
-    },
-    {
-      "name": "Llama Azul",
-      "language": "es"
-    },
-    {
-      "name": "Blauflammen",
-      "language": "de"
-    },
-    {
-      "name": "Flamme Bleue",
-      "language": "fr"
-    },
-    {
-      "name": "푸른불꽃",
-      "language": "ko"
-    },
-    {
-      "name": "あおいほのお",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "あおいほのお",
+    "kana": "あおいほのお",
+    "en": "Blue Flare",
+    "fr": "Flamme Bleue",
+    "it": "Fuocoblu",
+    "de": "Blauflammen",
+    "es": "Llama Azul",
+    "ko": "푸른불꽃",
+    "zh-CN": "青焰",
+    "zh-TW": "青焰"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "美しくも　激しい　青い炎で 相手を　包みこんで　攻撃する。 やけど状態に　することが　ある。",
+    "kana": "うつくしくも　はげしい　あおいほのおで あいてを　つつみこんで　こうげきする。 やけど　じょうたいに　することが　ある。",
+    "en": "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn.",
+    "fr": "De magnifiques et redoutables flammes bleues fondent sur l’ennemi. Peut aussi le brûler.",
+    "it": "Chi la usa attacca il bersaglio avvolgendolo con magnifiche e intense fiamme blu che possono anche scottarlo.",
+    "de": "Anwender greift an, indem er das Ziel in wunderschöne, intensivblaue Flammen hüllt, durch die es eventuell Verbrennungen erleidet.",
+    "es": "Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.",
+    "ko": "아름다우면서도 격렬한 푸른불꽃으로 상대를 둘러싸서 공격한다. 화상 상태로 만들 때가 있다.",
+    "zh-CN": "用美丽而激烈的青焰 包裹住对手进行攻击。 有时会让对手陷入灼伤状态。",
+    "zh-TW": "用美麗而激烈的青焰 燃燒對手進行攻擊。 有時會讓對手陷入灼傷狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender greift an, indem er das Ziel in wunderschöne, intensivblaue Flammen hüllt, die es eventuell verbrennen."
+        }
+      }
+    }
+  ]
 }

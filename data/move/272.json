@@ -2,36 +2,13 @@
   "id": 272,
   "name": "role-play",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User's ability is replaced with the target's until the user leaves the [field]{mechanic:field}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.\n\nIf the target has []{ability:flower-gift}, []{ability:forecast}, []{ability:illusion}, []{ability:imposter}, []{ability:multitype}, []{ability:stance-change}, []{ability:trace}, []{ability:wonder-guard}, or []{ability:zen-mode}, this move will [fail]{mechanic:fail}.\n\nThis move cannot be copied by []{move:mirror-move}.",
-      "short_effect": "Copies the target's ability.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Role Play",
-      "language": "en"
-    },
-    {
-      "name": "Giocodiruolo",
-      "language": "it"
-    },
-    {
-      "name": "Imitación",
-      "language": "es"
-    },
-    {
-      "name": "Rollentausch",
-      "language": "de"
-    },
-    {
-      "name": "Imitation",
-      "language": "fr"
-    },
-    {
-      "name": "역할",
-      "language": "ko"
-    },
-    {
-      "name": "なりきり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "なりきり",
+    "kana": "なりきり",
+    "en": "Role Play",
+    "fr": "Imitation",
+    "it": "Giocodiruolo",
+    "de": "Rollentausch",
+    "es": "Imitación",
+    "ko": "역할",
+    "zh-CN": "扮演",
+    "zh-TW": "扮演"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "相手に　なりきって　自分も　相手と 同じ　特性に　変化する。",
+    "kana": "あいてに　なりきって　じぶんも　あいてと おなじ　とくせいに　へんかする。",
+    "en": "The user mimics the target completely, copying the target’s natural Ability.",
+    "fr": "Imite la cible et copie son talent.",
+    "it": "Chi la usa mima in tutto il bersaglio, copiandone l’abilità.",
+    "de": "Ahmt das Ziel nach und kopiert seine Fähigkeit.",
+    "es": "Imita al objetivo por completo y copia su habilidad.",
+    "ko": "상대의 역할을 하여 자신도 상대와 같은 특성으로 변화한다.",
+    "zh-CN": "扮演对手， 让自己的特性 变得和对手相同。",
+    "zh-TW": "扮演成對手， 讓自己的特性 也變得和對手相同。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Parodiert das Ziel und kopiert seine Fähigkeit."
+        }
+      }
+    }
+  ]
 }

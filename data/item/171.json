@@ -1,0 +1,38 @@
+{
+  "id": 171,
+  "name": "qualot-berry",
+  "names": {
+    "ja": "タポルのみ",
+    "kana": "タポルのみ",
+    "en": "Qualot Berry",
+    "fr": "Baie Qualot",
+    "it": "Baccaloquat",
+    "de": "Qualotbeere",
+    "es": "Baya Ispero",
+    "ko": "파비열매",
+    "zh-CN": "比巴果",
+    "zh-TW": "比巴果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　あげると とても　なつき　やすくなるが 防御の　基礎ポイントは　さがる。",
+    "kana": "ポケモンに　あげると とても　なつき　やすくなるが ぼうぎょの　きそポイントは　さがる。",
+    "en": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its base Defense.",
+    "fr": "Une Baie qui rend les Pokémon plus amicaux, mais baisse leur Défense de base.",
+    "it": "Usata su un Pokémon, lo rende più affezionato, ma ne diminuisce i punti base della Difesa.",
+    "de": "Isst ein Pokémon diese Beere, stärkt dies eure Freundschaft, verringert aber seinen Verteidigungs-Basiswert.",
+    "es": "Al usarla con un Pokémon, se gana su amistad, pero también reduce su Defensa de base.",
+    "ko": "포켓몬에게 주면 매우 친밀해지기 쉬워지지만 방어의 기초 포인트가 떨어진다.",
+    "zh-CN": "如果把它交给宝可梦， 宝可梦就会变得非常容易和训练家亲密， 但防御的基础点数会降低。",
+    "zh-TW": "如果把它餵給寶可夢， 寶可夢會非常容易和訓練家變得親密， 但防禦的基礎點數會降低。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Usata su un Pokémon, lo rende più amichevole, ma ne diminuisce i punti base della Difesa."
+        }
+      }
+    }
+  ]
+}

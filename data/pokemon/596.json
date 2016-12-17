@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 148,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "armor"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "デンチュラ",
-      "language": "ja"
-    },
-    {
-      "name": "전툴라",
-      "language": "ko"
-    },
-    {
-      "name": "Mygavolt",
-      "language": "fr"
-    },
-    {
-      "name": "Voltula",
-      "language": "de"
-    },
-    {
-      "name": "Galvantula",
-      "language": "es"
-    },
-    {
-      "name": "Galvantula",
-      "language": "it"
-    },
-    {
-      "name": "Galvantula",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "デンチュラ",
+    "en": "Galvantula",
+    "fr": "Mygavolt",
+    "it": "Galvantula",
+    "de": "Voltula",
+    "es": "Galvantula",
+    "ko": "전툴라"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "でんきグモ",
-      "language": "ja"
-    },
-    {
-      "genus": "전기거미",
-      "language": "ko"
-    },
-    {
-      "genus": "Araclectrik",
-      "language": "fr"
-    },
-    {
-      "genus": "Stromspinne",
-      "language": "de"
-    },
-    {
-      "genus": "Electroaraña",
-      "language": "es"
-    },
-    {
-      "genus": "Elettroragno",
-      "language": "it"
-    },
-    {
-      "genus": "EleSpider",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "でんきグモ",
+    "en": "EleSpider",
+    "fr": "Araclectrik",
+    "it": "Elettroragno",
+    "de": "Stromspinne",
+    "es": "Electroaraña",
+    "ko": "전기거미"
+  },
   "varieties": [
     {
       "is_default": true,

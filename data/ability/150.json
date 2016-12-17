@@ -1,133 +1,40 @@
 {
   "id": 150,
   "name": "imposter",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "かわりもの",
+    "kana": "かわりもの",
+    "en": "Imposter",
+    "fr": "Imposteur",
+    "it": "Sosia",
+    "de": "Doppelgänger",
+    "es": "Impostor",
+    "ko": "괴짜",
+    "zh-CN": "变身者",
+    "zh-TW": "變身者"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "目の前の　ポケモンに 変身　してしまう。",
+    "kana": "めのまえの　ポケモンに へんしん　してしまう。",
+    "en": "The Pokémon transforms itself into the Pokémon it’s facing.",
+    "fr": "Donne l’apparence du Pokémon adverse.",
+    "it": "Il Pokémon si trasforma nel nemico che ha davanti.",
+    "de": "Kämpft als Kopie seines Gegenübers.",
+    "es": "El Pokémon se transforma en el que tiene enfrente.",
+    "ko": "눈앞의 포켓몬으로 변신해버린다.",
+    "zh-CN": "变身为当前面对的宝可梦。",
+    "zh-TW": "變身為當前面對的寶可夢。"
+  },
+  "past_values": [
     {
-      "name": "Imposter",
-      "language": "en"
-    },
-    {
-      "name": "Sosia",
-      "language": "it"
-    },
-    {
-      "name": "Impostor",
-      "language": "es"
-    },
-    {
-      "name": "Doppelgänger",
-      "language": "de"
-    },
-    {
-      "name": "Imposteur",
-      "language": "fr"
-    },
-    {
-      "name": "괴짜",
-      "language": "ko"
-    },
-    {
-      "name": "かわりもの",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon transforms into a random opponent upon entering battle.  This effect is identical to the move []{move:transform}.",
-      "short_effect": "[Transforms]{move:transform} upon entering battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "目の前の　ポケモンに\n変身してしまう。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "The Pokémon transforms itself\ninto the Pokémon it’s facing.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Si trasforma nel Pokémon che ha\ndavanti.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Se transforma en el Pokémon que\ntiene enfrente.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Kämpft als Kopie seines\nGegenübers.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Adopte l’apparence du Pokémon\nadverse.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "눈앞의 포켓몬으로\n변신해버린다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "めのまえの　ポケモンに\nへんしん　してしまう。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "It transforms itself into\nthe Pokémon it is facing.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "It transforms itself into\nthe Pokémon it is facing.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Adopte l’apparence du\nPokémon adverse.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "ditto"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "目の前の　ポケモンに 変身してしまう。",
+          "fr": "Adopte l’apparence du Pokémon adverse.",
+          "it": "Si trasforma nel Pokémon che ha davanti.",
+          "es": "Se transforma en el Pokémon que tiene enfrente."
+        }
       }
     }
   ]

@@ -1,0 +1,45 @@
+{
+  "id": 727,
+  "name": "incineroar",
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "red",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ガオガエン",
+    "en": "Incineroar",
+    "fr": "Félinferno",
+    "it": "Incineroar",
+    "de": "Fuegro",
+    "es": "Incineroar",
+    "ko": "어흥염"
+  },
+  "genera": {
+    "ja": "ヒール",
+    "en": "Heel",
+    "fr": "Vil Catcheur",
+    "it": "Colpibassi",
+    "de": "Fiesling",
+    "es": "Rudo",
+    "ko": "힐"
+  },
+  "types": [
+    "fire",
+    "dark"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 115,
+    "defense": 90,
+    "special-attack": 80,
+    "special-defense": 90,
+    "speed": 60
+  }
+}

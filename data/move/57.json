@@ -2,56 +2,13 @@
   "id": 57,
   "name": "surf",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 90,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "dive"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "rain-dance"
-        },
-        {
-          "name": "dive"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.\n\nIf the target is in the first turn of []{move:dive}, this move will hit with double power.",
-      "short_effect": "Inflicts regular damage and can hit Dive users.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -63,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Surf",
-      "language": "en"
-    },
-    {
-      "name": "Surf",
-      "language": "it"
-    },
-    {
-      "name": "Surf",
-      "language": "es"
-    },
-    {
-      "name": "Surfer",
-      "language": "de"
-    },
-    {
-      "name": "Surf",
-      "language": "fr"
-    },
-    {
-      "name": "파도타기",
-      "language": "ko"
-    },
-    {
-      "name": "なみのり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-other-pokemon"
+  "names": {
+    "ja": "なみのり",
+    "kana": "なみのり",
+    "en": "Surf",
+    "fr": "Surf",
+    "it": "Surf",
+    "de": "Surfer",
+    "es": "Surf",
+    "ko": "파도타기",
+    "zh-CN": "冲浪",
+    "zh-TW": "衝浪"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "大きな　波で　自分の 周りに　いるものを　攻撃する。",
+    "kana": "おおきな　なみで　じぶんの まわりに　いるものを　こうげきする。",
+    "en": "The user attacks everything around it by swamping its surroundings with a giant wave.",
+    "fr": "Une énorme vague s’abat sur le champ de bataille et inflige des dégâts à tous les Pokémon autour du lanceur.",
+    "it": "Un’onda enorme sommerge il campo di lotta, colpendo tutti i Pokémon intorno a chi la scatena.",
+    "de": "Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein.",
+    "es": "Inunda el terreno de combate con una ola gigante.",
+    "ko": "큰 파도로 자신의 주위에 있는 포켓몬을 공격한다.",
+    "zh-CN": "利用大浪 攻击自己周围所有的宝可梦。",
+    "zh-TW": "使用大浪 攻擊自己周圍所有的寶可夢。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "water",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "大きな　波で　自分の 周りに　いるものを　攻撃する。 水上も　泳いで　進める。",
+          "kana": "おおきな　なみで　じぶんの まわりに　いるものを　こうげきする。 みずの　うえも　およいで　すすめる。",
+          "en": "The user attacks everything around it by swamping its surroundings with a giant wave. This can also be used for crossing water.",
+          "fr": "Une énorme vague s’abat sur le champ de bataille. Permet aussi de voyager sur l’eau.",
+          "it": "Un’onda enorme sommerge il campo di lotta, colpendo tutti i Pokémon intorno a chi la scatena. Fuori dalla lotta si usa per spostarsi sull’acqua.",
+          "de": "Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein. Macht Surfen möglich.",
+          "es": "Inunda el campo de batalla con una ola gigante. Fuera de batalla sirve para moverse sobre el agua.",
+          "ko": "큰 파도로 자신의 주위에 있는 포켓몬을 공격한다. 물 위도 헤엄쳐서 나아간다."
+        }
+      }
+    }
+  ]
 }

@@ -2,49 +2,13 @@
   "id": 206,
   "name": "false-swipe",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": 40,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "swords-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Will not reduce the target's [HP]{mechanic:hp} below 1.",
-      "short_effect": "Cannot lower the target's HP below 1.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "False Swipe",
-      "language": "en"
-    },
-    {
-      "name": "Falsofinale",
-      "language": "it"
-    },
-    {
-      "name": "Falsotortazo",
-      "language": "es"
-    },
-    {
-      "name": "Trugschlag",
-      "language": "de"
-    },
-    {
-      "name": "Faux-Chage",
-      "language": "fr"
-    },
-    {
-      "name": "칼등치기",
-      "language": "ko"
-    },
-    {
-      "name": "みねうち",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "みねうち",
+    "kana": "みねうち",
+    "en": "False Swipe",
+    "fr": "Faux-Chage",
+    "it": "Falsofinale",
+    "de": "Trugschlag",
+    "es": "Falsotortazo",
+    "ko": "칼등치기",
+    "zh-CN": "点到为止",
+    "zh-TW": "點到為止"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　ＨＰが 必ず　１だけ　残るように 手加減して　攻撃する。",
+    "kana": "あいての　ＨＰが かならず　１だけ　のこる　ように てかげん　して　こうげきする。",
+    "en": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+    "fr": "Le lanceur retient ses coups pour que l’ennemi garde au moins 1 PV et ne tombe pas K.O.",
+    "it": "Chi la usa trattiene il colpo per impedire al bersaglio di andare KO, lasciandolo con almeno un PS.",
+    "de": "Ein Angriff, der dem Ziel zumindest 1 KP lässt.",
+    "es": "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.",
+    "ko": "상대의 HP가 반드시 1만큼 남도록 조절하여 공격한다.",
+    "zh-CN": "对手的ＨＰ 至少会留下１ＨＰ， 如此般手下留情地攻击。",
+    "zh-TW": "手下留情地攻擊對手， 一定會讓對手剩下１ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

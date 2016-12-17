@@ -2,34 +2,13 @@
   "id": 472,
   "name": "wonder-room",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "For five turns (including this one), every Pokémon's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} are swapped.",
-      "short_effect": "All Pokémon's Defense and Special Defense are swapped for 5 turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Wonder Room",
-      "language": "en"
-    },
-    {
-      "name": "Mirabilzona",
-      "language": "it"
-    },
-    {
-      "name": "Zona Extraña",
-      "language": "es"
-    },
-    {
-      "name": "Wunderraum",
-      "language": "de"
-    },
-    {
-      "name": "Zone Étrange",
-      "language": "fr"
-    },
-    {
-      "name": "원더룸",
-      "language": "ko"
-    },
-    {
-      "name": "ワンダールーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "ワンダールーム",
+    "kana": "ワンダールーム",
+    "en": "Wonder Room",
+    "fr": "Zone Étrange",
+    "it": "Mirabilzona",
+    "de": "Wunderraum",
+    "es": "Zona Extraña",
+    "ko": "원더룸",
+    "zh-CN": "奇妙空间",
+    "zh-TW": "奇妙空間"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "まか不思議な　空間を　つくる。 ５ターンのあいだ　すべてのポケモンの 防御と　特防が　入れ替わる。",
+    "kana": "まかふしぎな　くうかんを　つくる。 ５ターンのあいだ　すべてのポケモンの ぼうぎょと　とくぼうが　いれかわる。",
+    "en": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
+    "fr": "Crée une zone étrange où pendant cinq tours, la Défense et la Défense Spéciale de tous les Pokémon sont inversées.",
+    "it": "Chi la usa crea una dimensione in cui Difesa e Difesa Speciale di tutti i Pokémon vengono scambiate per cinque turni.",
+    "de": "Anwender erzeugt bizarren Raum, in dem über fünf Runden die Verteidigung aller Pokémon mit ihrer Spezial-Verteidigung getauscht wird.",
+    "es": "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.",
+    "ko": "이상한 공간을 만든다. 5턴 동안 모든 포켓몬의 방어와 특수방어가 바뀐다.",
+    "zh-CN": "制造出离奇的空间。 在５回合内互换 所有宝可梦的防御和特防。",
+    "zh-TW": "創造出非常不可思議的空間。 在５回合內，讓所有寶可夢的 防禦和特防互相交換。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "psychic"
 }

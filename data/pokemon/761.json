@@ -1,0 +1,44 @@
+{
+  "id": 761,
+  "name": "bounsweet",
+  "gender_rate": 8,
+  "capture_rate": 235,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "color": "purple",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "アマカジ",
+    "en": "Bounsweet",
+    "fr": "Croquine",
+    "it": "Bounsweet",
+    "de": "Frubberl",
+    "es": "Bounsweet",
+    "ko": "달콤아"
+  },
+  "genera": {
+    "ja": "フルーツ",
+    "en": "Fruit",
+    "fr": "Fruit",
+    "it": "Frutto",
+    "de": "Obst",
+    "es": "Fruto",
+    "ko": "후르츠"
+  },
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 42,
+    "attack": 30,
+    "defense": 38,
+    "special-attack": 30,
+    "special-defense": 38,
+    "speed": 32
+  }
+}

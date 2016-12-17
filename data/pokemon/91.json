@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 37,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "ball"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "パルシェン",
-      "language": "ja"
-    },
-    {
-      "name": "Parshen",
-      "language": "roomaji"
-    },
-    {
-      "name": "파르셀",
-      "language": "ko"
-    },
-    {
-      "name": "鐵甲貝",
-      "language": "zh"
-    },
-    {
-      "name": "Crustabri",
-      "language": "fr"
-    },
-    {
-      "name": "Austos",
-      "language": "de"
-    },
-    {
-      "name": "Cloyster",
-      "language": "es"
-    },
-    {
-      "name": "Cloyster",
-      "language": "it"
-    },
-    {
-      "name": "Cloyster",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "パルシェン",
+    "en": "Cloyster",
+    "fr": "Crustabri",
+    "it": "Cloyster",
+    "de": "Austos",
+    "es": "Cloyster",
+    "ko": "파르셀"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "２まいがい",
-      "language": "ja"
-    },
-    {
-      "genus": "두조개",
-      "language": "ko"
-    },
-    {
-      "genus": "Bivalve",
-      "language": "fr"
-    },
-    {
-      "genus": "Muschel",
-      "language": "de"
-    },
-    {
-      "genus": "Bivalvo",
-      "language": "es"
-    },
-    {
-      "genus": "Bivalve",
-      "language": "it"
-    },
-    {
-      "genus": "Bivalve",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "２まいがい",
+    "en": "Bivalve",
+    "fr": "Bivalve",
+    "it": "Bivalve",
+    "de": "Muschel",
+    "es": "Bivalvo",
+    "ko": "두조개"
+  },
   "varieties": [
     {
       "is_default": true,

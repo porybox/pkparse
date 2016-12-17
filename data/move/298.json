@@ -2,36 +2,13 @@
   "id": 298,
   "name": "teeter-dance",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "[Confuse]{mechanic:confuse}s all targets.",
-      "short_effect": "Confuses the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "confusion",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Teeter Dance",
-      "language": "en"
-    },
-    {
-      "name": "Strampadanza",
-      "language": "it"
-    },
-    {
-      "name": "Danza Caos",
-      "language": "es"
-    },
-    {
-      "name": "Taumeltanz",
-      "language": "de"
-    },
-    {
-      "name": "Danse-Folle",
-      "language": "fr"
-    },
-    {
-      "name": "흔들흔들댄스",
-      "language": "ko"
-    },
-    {
-      "name": "フラフラダンス",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-other-pokemon"
+  "names": {
+    "ja": "フラフラダンス",
+    "kana": "フラフラダンス",
+    "en": "Teeter Dance",
+    "fr": "Danse-Folle",
+    "it": "Strampadanza",
+    "de": "Taumeltanz",
+    "es": "Danza Caos",
+    "ko": "흔들흔들댄스",
+    "zh-CN": "摇晃舞",
+    "zh-TW": "搖晃舞"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "フラフラと　ダンスを　おどって 自分の　周りに　いるものを 混乱状態に　させる。",
+    "kana": "フラフラと　ダンスを　おどって じぶんの　まわりに　いるものを こんらん　じょうたいに　させる。",
+    "en": "The user performs a wobbly dance that confuses the Pokémon around it.",
+    "fr": "Danse qui rend confus tous les Pokémon autour du lanceur.",
+    "it": "Chi la usa esegue una danza goffa che confonde tutti i Pokémon attorno.",
+    "de": "Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.",
+    "es": "Danza histérica que confunde a los Pokémon que están alrededor del usuario.",
+    "ko": "흔들흔들 댄스를 춰서 주위에 있는 포켓몬을 혼란 상태로 만든다.",
+    "zh-CN": "摇摇晃晃地跳起舞蹈， 让自己周围的宝可梦 陷入混乱状态。",
+    "zh-TW": "搖搖晃晃地跳起舞， 讓自己周圍的寶可夢 陷入混亂狀態。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "normal"
 }

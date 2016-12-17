@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 16,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    }
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ボーマンダ",
-      "language": "ja"
-    },
-    {
-      "name": "Bohmander",
-      "language": "roomaji"
-    },
-    {
-      "name": "보만다",
-      "language": "ko"
-    },
-    {
-      "name": "暴蠑螈",
-      "language": "zh"
-    },
-    {
-      "name": "Drattak",
-      "language": "fr"
-    },
-    {
-      "name": "Brutalanda",
-      "language": "de"
-    },
-    {
-      "name": "Salamence",
-      "language": "es"
-    },
-    {
-      "name": "Salamence",
-      "language": "it"
-    },
-    {
-      "name": "Salamence",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ボーマンダ",
+    "en": "Salamence",
+    "fr": "Drattak",
+    "it": "Salamence",
+    "de": "Brutalanda",
+    "es": "Salamence",
+    "ko": "보만다"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ドラゴン",
-      "language": "ja"
-    },
-    {
-      "genus": "드래곤",
-      "language": "ko"
-    },
-    {
-      "genus": "Dragon",
-      "language": "fr"
-    },
-    {
-      "genus": "Drache",
-      "language": "de"
-    },
-    {
-      "genus": "Dragón",
-      "language": "es"
-    },
-    {
-      "genus": "Drago",
-      "language": "it"
-    },
-    {
-      "genus": "Dragon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ドラゴン",
+    "en": "Dragon",
+    "fr": "Dragon",
+    "it": "Drago",
+    "de": "Drache",
+    "es": "Dragón",
+    "ko": "드래곤"
+  },
   "varieties": [
     {
       "is_default": true,

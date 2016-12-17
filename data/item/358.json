@@ -1,0 +1,41 @@
+{
+  "id": 358,
+  "name": "tm31",
+  "names": {
+    "ja": "わざマシン３１",
+    "kana": "わざマシン３１",
+    "en": "TM31",
+    "fr": "CT31",
+    "it": "MT31",
+    "de": "TM31",
+    "es": "MT31",
+    "ko": "기술머신31",
+    "zh-CN": "招式学习器３１",
+    "zh-TW": "招式學習器３１"
+  },
+  "flavor_text_entries": {
+    "ja": "手刀を　勢いよく　振りおろして 攻撃する。　ひかりのかべや リフレクター　なども　破壊できる。",
+    "kana": "しゅとうを　いきおいよく　ふりおろして こうげきする。　ひかりのかべや リフレクター　なども　はかいできる。",
+    "en": "The user attacks with a swift chop. It can also break barriers, such as Light Screen and Reflect.",
+    "fr": "Une attaque avec le tranchant de la main. Permet aussi de briser les barrières comme Mur Lumière et Protection.",
+    "it": "Colpisce il bersaglio con una mano e rompe barriere come Riflesso e Schermoluce.",
+    "de": "Das Ziel wird mit der Handkante angegriffen. Barrieren wie Lichtschild oder Reflektor werden zerstört.",
+    "es": "Ataca con contundentes puñetazos. Puede destruir barreras como Pantalla de Luz y Reflejo.",
+    "ko": "수도로 기세 좋게 내려쳐서 상대를 공격한다. 빛의장막이나 리플렉터 등도 파괴할 수 있다.",
+    "zh-CN": "将手刀猛烈地挥下攻击对手。 还可以破坏光墙和反射壁等。",
+    "zh-TW": "猛烈地揮下手刀 攻擊對手。還可以破壞 光牆和反射壁等。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "硬い　こぶしなどで 相手を　攻撃する。ひかりのかべや リフレクターも　破壊できる。",
+          "kana": "こぶしなどで　こうげきする。 ひかりのかべや　リフレクターも はかいできる。",
+          "it": "Colpisce il nemico con una mano e rompe barriere come Riflesso e Schermoluce.",
+          "ko": "주먹 등으로 공격한다. 빛의장막이나 리플렉터도 파괴할 수 있다."
+        }
+      }
+    }
+  ]
+}

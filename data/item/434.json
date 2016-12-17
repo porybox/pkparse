@@ -1,0 +1,50 @@
+{
+  "id": 434,
+  "name": "seal-case",
+  "names": {
+    "ja": "シールいれ",
+    "kana": "シールいれ",
+    "en": "Seal Case",
+    "fr": "Boîte Sceaux",
+    "it": "Portabolli",
+    "de": "Stickerkoffer",
+    "es": "Caja Sellos",
+    "ko": "실상자",
+    "zh-CN": "贴纸盒",
+    "zh-TW": "貼紙盒"
+  },
+  "flavor_text_entries": {
+    "ja": "ボールカプセルに　はりつけられる シールが　はいった　いれもの。",
+    "kana": "ボールカプセルに　はりつけられる シールが　はいった　いれもの。",
+    "en": "A case for storing Seals that can be applied to the exteriors of Poké Balls.",
+    "fr": "Une boîte pouvant contenir des Sceaux à placer sur les capsules des Poké Balls.",
+    "it": "Contenitore per conservare i bolli che possono essere applicati sulle capsule delle Poké Ball.",
+    "de": "In diesem Koffer kannst du die Sticker für die Ballkapseln der Pokébälle aufbewahren.",
+    "es": "Caja en la que se pueden guardar los sellos que se aplican a las cápsulas de las Poké Balls.",
+    "ko": "볼캡슐에 붙일 수 있는 실이 들어 있는 용기.",
+    "zh-CN": "放有贴在球壳上的 贴纸的容器。",
+    "zh-TW": "放有貼在球殼上的 貼紙的容器。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une boîte contenant les Sceaux pouvant être placés sur les capsules des Poké Balls.",
+          "es": "Caja en la que se pueden guardar los Sellos que se aplican a las Cápsulas de las Poké Balls."
+        },
+        "names": {
+          "de": "Stick.Koffer"
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Contenitore per conservare i Bolli che possono essere applicati sulle Capsule delle Poké Ball."
+        }
+      }
+    }
+  ]
+}

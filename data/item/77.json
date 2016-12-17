@@ -1,0 +1,45 @@
+{
+  "id": 77,
+  "name": "max-repel",
+  "names": {
+    "ja": "ゴールドスプレー",
+    "kana": "ゴールドスプレー",
+    "en": "Max Repel",
+    "fr": "Max Repousse",
+    "it": "Repellente Max",
+    "de": "Top-Schutz",
+    "es": "Repelente Máximo",
+    "ko": "골드스프레이",
+    "zh-CN": "黄金喷雾",
+    "zh-TW": "黃金噴霧"
+  },
+  "flavor_text_entries": {
+    "ja": "弱い　野生の　ポケモンが まったく　でて　こなくなる。 シルバースプレーより　長く　効く。",
+    "kana": "よわい　やせいの　ポケモンが まったく　でて　こなくなる。 シルバースプレーより　ながく　きく。",
+    "en": "An item that prevents any low-level wild Pokémon from jumping out at you for a while. It lasts longer than Super Repel.",
+    "fr": "Repousse les Pokémon sauvages faibles pendant une durée plus longue que celle du Super Repousse.",
+    "it": "Strumento che evita a chi lo usa di incontrare Pokémon selvatici deboli. Il suo effetto dura più a lungo di quello del Superrepellente.",
+    "de": "Hält schwache wilde Pokémon ab. Wirkt länger als das Item Superschutz.",
+    "es": "Evita encuentros con Pokémon salvajes débiles durante más tiempo que un Superrepelente.",
+    "ko": "약한 야생 포켓몬이 전혀 나오지 않게 된다. 실버스프레이보다 효과가 오래간다.",
+    "zh-CN": "弱小的野生宝可梦 将完全不会出现。 效果比白银喷雾更持久。",
+    "zh-TW": "弱小的野生寶可夢 變得完全不會出現。 效果比白銀噴霧更持久。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "２５０歩　進む　あいだ 弱い　野生の　ポケモンが まったく　でて　こなくなる。",
+          "kana": "２５０ぽ　すすむ　あいだ よわい　やせいの　ポケモンが まったく　でて　こなくなる。",
+          "en": "An item that prevents any low-level wild Pokémon from jumping out at you for 250 steps after its use.",
+          "fr": "Repousse les Pokémon sauvages faibles pendant 250 pas.",
+          "it": "Strumento che evita l’incontro con i Pokémon selvatici deboli per 250 passi dopo l’utilizzo.",
+          "de": "Hält 250 Schritte lang schwache, wilde Pokémon ab.",
+          "es": "Repele Pokémon salvajes débiles en un recorrido de 250 pasos.",
+          "ko": "250보 걸어가는 동안 약한 야생 포켓몬이 전혀 나오지 않게 된다."
+        }
+      }
+    }
+  ]
+}

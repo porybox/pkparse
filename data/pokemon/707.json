@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 50,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "ball"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "クレッフィ",
-      "language": "ja"
-    },
-    {
-      "name": "클레피",
-      "language": "ko"
-    },
-    {
-      "name": "Trousselin",
-      "language": "fr"
-    },
-    {
-      "name": "Clavion",
-      "language": "de"
-    },
-    {
-      "name": "Klefki",
-      "language": "es"
-    },
-    {
-      "name": "Klefki",
-      "language": "it"
-    },
-    {
-      "name": "Klefki",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クレッフィ",
+    "en": "Klefki",
+    "fr": "Trousselin",
+    "it": "Klefki",
+    "de": "Clavion",
+    "es": "Klefki",
+    "ko": "클레피"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かぎたば",
-      "language": "ja"
-    },
-    {
-      "genus": "열쇠꾸러미",
-      "language": "ko"
-    },
-    {
-      "genus": "Trousseau",
-      "language": "fr"
-    },
-    {
-      "genus": "Schlüssel",
-      "language": "de"
-    },
-    {
-      "genus": "Llavero",
-      "language": "es"
-    },
-    {
-      "genus": "Portachiavi",
-      "language": "it"
-    },
-    {
-      "genus": "Key Ring",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かぎたば",
+    "en": "Key Ring",
+    "fr": "Trousseau",
+    "it": "Portachiavi",
+    "de": "Schlüssel",
+    "es": "Llavero",
+    "ko": "열쇠꾸러미"
+  },
   "varieties": [
     {
       "is_default": true,

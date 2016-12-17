@@ -1,0 +1,48 @@
+{
+  "id": 356,
+  "name": "tm29",
+  "names": {
+    "ja": "わざマシン２９",
+    "kana": "わざマシン２９",
+    "en": "TM29",
+    "fr": "CT29",
+    "it": "MT29",
+    "de": "TM29",
+    "es": "MT29",
+    "ko": "기술머신29",
+    "zh-CN": "招式学习器２９",
+    "zh-TW": "招式學習器２９"
+  },
+  "flavor_text_entries": {
+    "ja": "強い　念力を　相手に　送って 攻撃する。　相手の　特防を さげることが　ある。",
+    "kana": "つよい　ねんりきを　あいてに　おくって こうげきする。　あいての　とくぼうを さげることが　ある。",
+    "en": "The target is hit by a strong telekinetic force. This may also lower the target’s Sp. Def stat.",
+    "fr": "Une puissante force télékinétique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+    "it": "Il bersaglio viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.",
+    "de": "Ein mächtiger Strahl telekinetischer Energie trifft das Ziel. Die Spezial-Verteidigung des Zieles sinkt eventuell.",
+    "es": "Ataca al objetivo con un potente ataque telequinético que le puede bajar la Defensa Especial.",
+    "ko": "강한 염동력을 상대에게 보내어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+    "zh-CN": "向对手发送 强大的念力进行攻击。 有时会降低对手的特防。",
+    "zh-TW": "向對手發送 強大的念力進行攻擊。 有時會降低對手的特防。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "強い　念力を　相手に　送って 攻撃する。相手の　特防を さげることが　ある。",
+          "kana": "つよい　ねんりきを　おくって こうげきする。　あいての　とくぼうを さげることが　ある。",
+          "it": "Il nemico viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une puissante force télékinésique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale."
+        }
+      }
+    }
+  ]
+}

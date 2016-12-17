@@ -1,0 +1,53 @@
+{
+  "id": 355,
+  "name": "tm28",
+  "names": {
+    "ja": "わざマシン２８",
+    "kana": "わざマシン２８",
+    "en": "TM28",
+    "fr": "CT28",
+    "it": "MT28",
+    "de": "TM28",
+    "es": "MT28",
+    "ko": "기술머신28",
+    "zh-CN": "招式学习器２８",
+    "zh-TW": "招式學習器２８"
+  },
+  "flavor_text_entries": {
+    "ja": "血を　吸い取って　相手を 攻撃する。　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+    "kana": "ちを　すいとって　あいてを こうげきする。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+    "en": "The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target.",
+    "fr": "Une attaque qui aspire le sang de l’ennemi. La moitié des dégâts sont convertis en PV pour le lanceur.",
+    "it": "Mossa succhiasangue. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+    "de": "Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+    "es": "El usuario recupera los PS equivalentes a la mitad del daño causado al objetivo.",
+    "ko": "피를 빨아서 상대를 공격한다. 준 데미지의 절반을 HP로 회복한다.",
+    "zh-CN": "吸取血液攻击对手。 可以回复给予对手 伤害的一半ＨＰ。",
+    "zh-TW": "吸取對手的血液進行攻擊。 可以回復給予對手 傷害的一半ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "１ターン目に　潜り　２ターン目で 相手を　攻撃する。 どうくつからの　脱出も　できる。",
+          "kana": "１ターンめに　もぐり　２ターンめで こうげきする。　どうくつで　つかうと そとに　だっしゅつ　できる。",
+          "en": "The user burrows, then attacks on the next turn. It can also be used to exit dungeons.",
+          "fr": "Le lanceur creuse au premier tour et frappe au second. Permet aussi de sortir des grottes.",
+          "it": "Chi la usa scava al primo turno e attacca al successivo. Fuori dalla lotta fa uscire da alcuni luoghi.",
+          "de": "In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an. Macht Flucht aus Höhlen möglich.",
+          "es": "Quien lo usa cava en el primer turno y ataca en el segundo. También se puede usar para escapar de lugares cerrados.",
+          "ko": "1턴째에 파고들어 2턴째에 상대를 공격한다. 동굴에서 탈출할 수도 있다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff."
+        }
+      }
+    }
+  ]
+}

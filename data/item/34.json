@@ -1,0 +1,45 @@
+{
+  "id": 34,
+  "name": "energy-powder",
+  "names": {
+    "ja": "ちからのこな",
+    "kana": "ちからのこな",
+    "en": "Energy Powder",
+    "fr": "Poudrénergie",
+    "it": "Polvenergia",
+    "de": "Energiestaub",
+    "es": "Polvo Energía",
+    "ko": "힘의가루",
+    "zh-CN": "元气粉",
+    "zh-TW": "元氣粉"
+  },
+  "flavor_text_entries": {
+    "ja": "とても　にがい　粉薬。 ポケモン　１匹の　ＨＰを ６０だけ　回復する。",
+    "kana": "とても　にがい　こなぐすり。 ポケモン　１ひきの　ＨＰを ６０だけ　かいふくする。",
+    "en": "A very bitter medicinal powder. When consumed, it restores up to 60 HP to an injured Pokémon.",
+    "fr": "Une poudre médicinale très amère. Restaure 60 PV d’un Pokémon.",
+    "it": "Rimedio amarissimo in polvere. Restituisce 60 PS a un Pokémon.",
+    "de": "Ein bitteres medizinisches Pulver, das die KP eines Pokémon um 60 Punkte auffüllt.",
+    "es": "Polvo medicinal muy amargo que restaura 60 PS de un Pokémon.",
+    "ko": "매우 쓴 가루약. 포켓몬 1마리의 HP를 60만큼 회복한다.",
+    "zh-CN": "非常苦的药粉。 能让１只宝可梦 回复６０ＨＰ。",
+    "zh-TW": "非常苦的藥粉。 能讓１隻寶可夢 回復６０ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "とても　にがい　粉薬。 ポケモン　１匹の　ＨＰを ５０だけ　回復する。",
+          "kana": "とても　にがい　こなぐすり。 ポケモン　１ひきの　ＨＰを ５０だけ　かいふくする。",
+          "en": "A bitter medicine powder. When consumed, it restores 50 HP to an injured Pokémon.",
+          "fr": "Une poudre médicinale très amère. Restaure 50 PV d’un Pokémon.",
+          "it": "Rimedio amarissimo in polvere. Restituisce 50 PS a un Pokémon.",
+          "de": "Ein bitteres medizinisches Pulver, das die KP eines Pokémon um 50 Punkte auffüllt.",
+          "es": "Polvo medicinal muy amargo que restaura 50 PS de un Pokémon.",
+          "ko": "매우 쓴 가루약. 포켓몬 1마리의 HP를 50만큼 회복한다."
+        }
+      }
+    }
+  ]
+}

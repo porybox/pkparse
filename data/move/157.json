@@ -2,49 +2,13 @@
   "id": 157,
   "name": "rock-slide",
   "accuracy": 90,
-  "effect_chance": 30,
   "pp": 10,
   "priority": 0,
   "power": 75,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rock-throw"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,61 +20,41 @@
     "flinch_chance": 30,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Rock Slide",
-      "language": "en"
-    },
-    {
-      "name": "Frana",
-      "language": "it"
-    },
-    {
-      "name": "Avalancha",
-      "language": "es"
-    },
-    {
-      "name": "Steinhagel",
-      "language": "de"
-    },
-    {
-      "name": "Éboulement",
-      "language": "fr"
-    },
-    {
-      "name": "스톤샤워",
-      "language": "ko"
-    },
-    {
-      "name": "いわなだれ",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "いわなだれ",
+    "kana": "いわなだれ",
+    "en": "Rock Slide",
+    "fr": "Éboulement",
+    "it": "Frana",
+    "de": "Steinhagel",
+    "es": "Avalancha",
+    "ko": "스톤샤워",
+    "zh-CN": "岩崩",
+    "zh-TW": "岩崩"
+  },
+  "flavor_text_entries": {
+    "ja": "大きな　岩を 激しく　ぶつけて　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "おおきな　いわを はげしく　ぶつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+    "fr": "Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer.",
+    "it": "I nemici vengono colpiti con violenza da grandi massi che possono anche farli tentennare.",
+    "de": "Schleudert riesige Felsen auf Ziele in der Umgebung, die eventuell zurückschrecken.",
+    "es": "Lanza grandes pedruscos. Puede hacer retroceder a los rivales.",
+    "ko": "큰 바위를 세차게 부딪쳐서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "将大岩石 猛烈地撞向对手进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "將大岩石 猛烈地砸向對手進行攻擊。 有時會讓對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "rock",
   "past_values": [
     {
-      "accuracy": null,
-      "power": null,
-      "pp": null,
-      "effect_chance": 0,
-      "effect_entries": [
-        {
-          "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-          "short_effect": "Inflicts regular damage with no additional effect.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "I nemici intorno a chi la usa vengono colpiti da grandi massi che possono anche farli tentennare."
         }
-      ],
-      "type": null,
-      "version_group": {
-        "name": "gold-silver"
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "rock"
-  }
+  ]
 }

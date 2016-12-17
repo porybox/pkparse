@@ -2,34 +2,13 @@
   "id": 498,
   "name": "chip-away",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 70,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Damage calculation ignores the target's [stat modifiers]{mechanic:stat-modifiers}, including [evasion]{mechanic:evasion}.",
-      "short_effect": "Ignores the target's stat modifiers.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Chip Away",
-      "language": "en"
-    },
-    {
-      "name": "Insidia",
-      "language": "it"
-    },
-    {
-      "name": "Guardia Baja",
-      "language": "es"
-    },
-    {
-      "name": "Zermürben",
-      "language": "de"
-    },
-    {
-      "name": "Attrition",
-      "language": "fr"
-    },
-    {
-      "name": "야금야금",
-      "language": "ko"
-    },
-    {
-      "name": "なしくずし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "なしくずし",
+    "kana": "なしくずし",
+    "en": "Chip Away",
+    "fr": "Attrition",
+    "it": "Insidia",
+    "de": "Zermürben",
+    "es": "Guardia Baja",
+    "ko": "야금야금",
+    "zh-CN": "逐步击破",
+    "zh-TW": "逐步擊破"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "すきを　みて　堅実に　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+    "kana": "すきを　みて　けんじつに　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+    "en": "Looking for an opening, the user strikes consistently. The target’s stat changes don’t affect this attack’s damage.",
+    "fr": "Une attaque puissante quand l’ennemi baisse sa garde. Inflige des dégâts sans tenir compte des changements de stats.",
+    "it": "Chi la usa attacca non appena il bersaglio abbassa la guardia. Il danno inflitto prescinde dalle modifiche alle statistiche del bersaglio.",
+    "de": "Eine durchdachte Attacke zur rechten Zeit. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an.",
+    "es": "Un ataque que busca los puntos débiles del objetivo y puede causarle daño aunque cambien sus características.",
+    "ko": "틈을 보며 착실하게 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+    "zh-CN": "看准机会稳步攻击。 无视对手的能力变化， 直接给予伤害。",
+    "zh-TW": "看準時機，確實地攻擊對手。 可不顧對手的能力變化 給予傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Eine durchdachte Attacke zu rechter Zeit. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an."
+        }
+      }
+    }
+  ]
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 10,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water2"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "tentacles"
   },
@@ -46,68 +38,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "マーイーカ",
-      "language": "ja"
-    },
-    {
-      "name": "오케이징",
-      "language": "ko"
-    },
-    {
-      "name": "Sepiatop",
-      "language": "fr"
-    },
-    {
-      "name": "Iscalar",
-      "language": "de"
-    },
-    {
-      "name": "Inkay",
-      "language": "es"
-    },
-    {
-      "name": "Inkay",
-      "language": "it"
-    },
-    {
-      "name": "Inkay",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マーイーカ",
+    "en": "Inkay",
+    "fr": "Sepiatop",
+    "it": "Inkay",
+    "de": "Iscalar",
+    "es": "Inkay",
+    "ko": "오케이징"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かいてん",
-      "language": "ja"
-    },
-    {
-      "genus": "회전",
-      "language": "ko"
-    },
-    {
-      "genus": "Rotation",
-      "language": "fr"
-    },
-    {
-      "genus": "Rotation",
-      "language": "de"
-    },
-    {
-      "genus": "Rotación",
-      "language": "es"
-    },
-    {
-      "genus": "Volteggio",
-      "language": "it"
-    },
-    {
-      "genus": "Revolving",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かいてん",
+    "en": "Revolving",
+    "fr": "Rotation",
+    "it": "Volteggio",
+    "de": "Rotation",
+    "es": "Rotación",
+    "ko": "회전"
+  },
   "varieties": [
     {
       "is_default": true,

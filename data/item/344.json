@@ -1,0 +1,38 @@
+{
+  "id": 344,
+  "name": "tm17",
+  "names": {
+    "ja": "わざマシン１７",
+    "kana": "わざマシン１７",
+    "en": "TM17",
+    "fr": "CT17",
+    "it": "MT17",
+    "de": "TM17",
+    "es": "MT17",
+    "ko": "기술머신17",
+    "zh-CN": "招式学习器１７",
+    "zh-TW": "招式學習器１７"
+  },
+  "flavor_text_entries": {
+    "ja": "相手の　攻撃を まったく　受けない。 連続で　だすと　失敗しやすい。",
+    "kana": "あいての　こうげきを まったく　うけない。 れんぞくで　だすと　しっぱい　しやすい。",
+    "en": "Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+    "fr": "Le lanceur esquive toutes les attaques. Le risque d’échec augmente lorsque la capacité est utilisée plusieurs fois de suite.",
+    "it": "Permette di eludere tutti gli attacchi. Se usata in successione può fallire.",
+    "de": "Garantierter Schutz in der Runde, in der die Attacke eingesetzt wird. Könnte bei häufigem Einsatz versagen.",
+    "es": "Bloquea todos los ataques. Puede fallar si se usa repetidamente.",
+    "ko": "상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다.",
+    "zh-CN": "完全抵挡 对手的攻击。 连续使出则容易失败。",
+    "zh-TW": "完全防住對手的所有攻擊。 連續使用時容易失敗。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "こうげきを　まったく　うけない。 わざを　れんぞくで　だすと しっぱい　しやすくなる。"
+        }
+      }
+    }
+  ]
+}

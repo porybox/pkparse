@@ -1,0 +1,38 @@
+{
+  "id": 351,
+  "name": "tm24",
+  "names": {
+    "ja": "わざマシン２４",
+    "kana": "わざマシン２４",
+    "en": "TM24",
+    "fr": "CT24",
+    "it": "MT24",
+    "de": "TM24",
+    "es": "MT24",
+    "ko": "기술머신24",
+    "zh-CN": "招式学习器２４",
+    "zh-TW": "招式學習器２４"
+  },
+  "flavor_text_entries": {
+    "ja": "強い　電撃を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+    "kana": "つよい　でんげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+    "en": "A strong electric blast crashes down on the target. This may also leave the target with paralysis.",
+    "fr": "Une grosse décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+    "it": "Il bersaglio viene colpito da una potente scarica elettrica che può anche paralizzarlo.",
+    "de": "Das Ziel wird von einem verheerenden Stromschlag getroffen. Kann eventuell Paralyse bewirken.",
+    "es": "Ataca al objetivo con una fuerte descarga eléctrica que puede llegar a paralizar.",
+    "ko": "강한 전격을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+    "zh-CN": "向对手发出 强力电击进行攻击。 有时会让对手陷入麻痹状态。",
+    "zh-TW": "向對手放出強力電流進行攻擊。 有時會讓對手陷入麻痺狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "つよい　でんげきを　あびせて こうげきする。　あいてを　まひの じょうたいに　することが　ある。"
+        }
+      }
+    }
+  ]
+}

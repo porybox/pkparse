@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 1,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "blob"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ディグダ",
-      "language": "ja"
-    },
-    {
-      "name": "Digda",
-      "language": "roomaji"
-    },
-    {
-      "name": "디그다",
-      "language": "ko"
-    },
-    {
-      "name": "地鼠",
-      "language": "zh"
-    },
-    {
-      "name": "Taupiqueur",
-      "language": "fr"
-    },
-    {
-      "name": "Digda",
-      "language": "de"
-    },
-    {
-      "name": "Diglett",
-      "language": "es"
-    },
-    {
-      "name": "Diglett",
-      "language": "it"
-    },
-    {
-      "name": "Diglett",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ディグダ",
+    "en": "Diglett",
+    "fr": "Taupiqueur",
+    "it": "Diglett",
+    "de": "Digda",
+    "es": "Diglett",
+    "ko": "디그다"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "もぐら",
-      "language": "ja"
-    },
-    {
-      "genus": "두더지",
-      "language": "ko"
-    },
-    {
-      "genus": "Taupe",
-      "language": "fr"
-    },
-    {
-      "genus": "Maulwurf",
-      "language": "de"
-    },
-    {
-      "genus": "Topo",
-      "language": "es"
-    },
-    {
-      "genus": "Talpa",
-      "language": "it"
-    },
-    {
-      "genus": "Mole",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "もぐら",
+    "en": "Mole",
+    "fr": "Taupe",
+    "it": "Talpa",
+    "de": "Maulwurf",
+    "es": "Topo",
+    "ko": "두더지"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,46 @@
+{
+  "id": 780,
+  "name": "drampa",
+  "gender_rate": 4,
+  "capture_rate": 70,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "color": "white",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ジジーロン",
+    "en": "Drampa",
+    "fr": "Draïeul",
+    "it": "Drampa",
+    "de": "Sen-Long",
+    "es": "Drampa",
+    "ko": "할비롱"
+  },
+  "genera": {
+    "ja": "ゆうゆう",
+    "en": "Placid",
+    "fr": "Nonchalant",
+    "it": "Tuttacalma",
+    "de": "Gelassenheit",
+    "es": "Sosiego",
+    "ko": "느긋누긋"
+  },
+  "types": [
+    "normal",
+    "dragon"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 60,
+    "defense": 85,
+    "special-attack": 135,
+    "special-defense": 91,
+    "speed": 36
+  }
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 77,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "イノムー",
-      "language": "ja"
-    },
-    {
-      "name": "Inomoo",
-      "language": "roomaji"
-    },
-    {
-      "name": "메꾸리",
-      "language": "ko"
-    },
-    {
-      "name": "長毛豬",
-      "language": "zh"
-    },
-    {
-      "name": "Cochignon",
-      "language": "fr"
-    },
-    {
-      "name": "Keifel",
-      "language": "de"
-    },
-    {
-      "name": "Piloswine",
-      "language": "es"
-    },
-    {
-      "name": "Piloswine",
-      "language": "it"
-    },
-    {
-      "name": "Piloswine",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "イノムー",
+    "en": "Piloswine",
+    "fr": "Cochignon",
+    "it": "Piloswine",
+    "de": "Keifel",
+    "es": "Piloswine",
+    "ko": "메꾸리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いのしし",
-      "language": "ja"
-    },
-    {
-      "genus": "멧돼지",
-      "language": "ko"
-    },
-    {
-      "genus": "Porc",
-      "language": "fr"
-    },
-    {
-      "genus": "Schwein",
-      "language": "de"
-    },
-    {
-      "genus": "Puerco",
-      "language": "es"
-    },
-    {
-      "genus": "Suino",
-      "language": "it"
-    },
-    {
-      "genus": "Swine",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いのしし",
+    "en": "Swine",
+    "fr": "Porc",
+    "it": "Suino",
+    "de": "Schwein",
+    "es": "Puerco",
+    "ko": "멧돼지"
+  },
   "varieties": [
     {
       "is_default": true,

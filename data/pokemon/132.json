@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 138,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ditto"
-    }
+    "ditto"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "ball"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "メタモン",
-      "language": "ja"
-    },
-    {
-      "name": "Metamon",
-      "language": "roomaji"
-    },
-    {
-      "name": "메타몽",
-      "language": "ko"
-    },
-    {
-      "name": "百變怪",
-      "language": "zh"
-    },
-    {
-      "name": "Métamorph",
-      "language": "fr"
-    },
-    {
-      "name": "Ditto",
-      "language": "de"
-    },
-    {
-      "name": "Ditto",
-      "language": "es"
-    },
-    {
-      "name": "Ditto",
-      "language": "it"
-    },
-    {
-      "name": "Ditto",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "メタモン",
+    "en": "Ditto",
+    "fr": "Métamorph",
+    "it": "Ditto",
+    "de": "Ditto",
+    "es": "Ditto",
+    "ko": "메타몽"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "へんしん",
-      "language": "ja"
-    },
-    {
-      "genus": "변신",
-      "language": "ko"
-    },
-    {
-      "genus": "Morphing",
-      "language": "fr"
-    },
-    {
-      "genus": "Transform",
-      "language": "de"
-    },
-    {
-      "genus": "Transform.",
-      "language": "es"
-    },
-    {
-      "genus": "Mutante",
-      "language": "it"
-    },
-    {
-      "genus": "Transform",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "へんしん",
+    "en": "Transform",
+    "fr": "Morphing",
+    "it": "Mutante",
+    "de": "Transform",
+    "es": "Transform.",
+    "ko": "변신"
+  },
   "varieties": [
     {
       "is_default": true,

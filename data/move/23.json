@@ -2,61 +2,13 @@
   "id": 23,
   "name": "stomp",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 20,
   "priority": 0,
   "power": 65,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "leer"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target [flinch]{mechanic:flinch}.\n\nPower is doubled against Pokémon that have used []{move:minimize} since entering the [field]{mechanic:field}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Does not interact with []{move:minimize}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -68,43 +20,31 @@
     "flinch_chance": 30,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Stomp",
-      "language": "en"
-    },
-    {
-      "name": "Pestone",
-      "language": "it"
-    },
-    {
-      "name": "Pisotón",
-      "language": "es"
-    },
-    {
-      "name": "Stampfer",
-      "language": "de"
-    },
-    {
-      "name": "Écrasement",
-      "language": "fr"
-    },
-    {
-      "name": "짓밟기",
-      "language": "ko"
-    },
-    {
-      "name": "ふみつけ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ふみつけ",
+    "kana": "ふみつけ",
+    "en": "Stomp",
+    "fr": "Écrasement",
+    "it": "Pestone",
+    "de": "Stampfer",
+    "es": "Pisotón",
+    "ko": "짓밟기",
+    "zh-CN": "踩踏",
+    "zh-TW": "踩踏"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "大きな　足で 相手を　踏みつけて　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "おおきな　あしで あいてを　ふみつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The target is stomped with a big foot. This may also make the target flinch.",
+    "fr": "Écrase l’ennemi avec un énorme pied. Peut aussi l’apeurer.",
+    "it": "Colpisce il bersaglio con un grosso piede e può anche farlo tentennare.",
+    "de": "Stampfen mit dem Fuß. Das Ziel schreckt eventuell zurück.",
+    "es": "Tremendo pisotón que puede hacer retroceder al objetivo.",
+    "ko": "큰 발로 상대를 짓밟아서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "用大脚踩踏对手进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "用大腳踩踏對手進行攻擊。 有時會讓對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

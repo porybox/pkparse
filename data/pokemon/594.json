@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 149,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water2"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "fish"
   },
@@ -58,68 +50,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ママンボウ",
-      "language": "ja"
-    },
-    {
-      "name": "맘복치",
-      "language": "ko"
-    },
-    {
-      "name": "Mamanbo",
-      "language": "fr"
-    },
-    {
-      "name": "Mamolida",
-      "language": "de"
-    },
-    {
-      "name": "Alomomola",
-      "language": "es"
-    },
-    {
-      "name": "Alomomola",
-      "language": "it"
-    },
-    {
-      "name": "Alomomola",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ママンボウ",
+    "en": "Alomomola",
+    "fr": "Mamanbo",
+    "it": "Alomomola",
+    "de": "Mamolida",
+    "es": "Alomomola",
+    "ko": "맘복치"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かいほう",
-      "language": "ja"
-    },
-    {
-      "genus": "돌보기",
-      "language": "ko"
-    },
-    {
-      "genus": "Soigneur",
-      "language": "fr"
-    },
-    {
-      "genus": "Fürsorge",
-      "language": "de"
-    },
-    {
-      "genus": "Socorrista",
-      "language": "es"
-    },
-    {
-      "genus": "Assistenza",
-      "language": "it"
-    },
-    {
-      "genus": "Caring",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かいほう",
+    "en": "Caring",
+    "fr": "Soigneur",
+    "it": "Assistenza",
+    "de": "Fürsorge",
+    "es": "Socorrista",
+    "ko": "돌보기"
+  },
   "varieties": [
     {
       "is_default": true,

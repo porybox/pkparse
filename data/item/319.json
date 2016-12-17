@@ -1,0 +1,38 @@
+{
+  "id": 319,
+  "name": "luck-incense",
+  "names": {
+    "ja": "こううんのおこう",
+    "kana": "こううんのおこう",
+    "en": "Luck Incense",
+    "fr": "Encens Veine",
+    "it": "Fortunaroma",
+    "de": "Glücksrauch",
+    "es": "Incienso Duplo",
+    "ko": "행운의향로",
+    "zh-CN": "幸运薰香",
+    "zh-TW": "幸運薰香"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせた　ポケモンが　１度でも 戦闘に　顔を　だすと お金が　２倍　もらえる。",
+    "kana": "もたせた　ポケモンが　いちどでも せんとうに　かおを　だすと おかねが　２ばい　もらえる。",
+    "en": "An item to be held by a Pokémon. It doubles any prize money received if the holding Pokémon joins a battle.",
+    "fr": "Objet à tenir. Double l’argent gagné si le porteur se joint au combat.",
+    "it": "Strumento da dare a un Pokémon. Se chi ce l’ha partecipa alla lotta, i guadagni raddoppiano.",
+    "de": "Ein Item zum Tragen. Dieses exotische Duftkraut verdoppelt das Preisgeld, wenn der Träger am Kampf teilnimmt.",
+    "es": "Si el Pokémon que lo lleva lucha en un combate, duplica las ganancias.",
+    "ko": "지니게 한 포켓몬이 한 번이라도 배틀에 나가면 돈을 2배로 받을 수 있다.",
+    "zh-CN": "只要携带它的宝可梦 在战斗时出场一次， 就能获得２倍金钱。",
+    "zh-TW": "只要攜帶它的寶可夢 在戰鬥時出場一次， 就能獲得２倍金錢。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ein Item, das ein Pokémon trägt und das doppeltes Preisgeld bringt, wenn der Träger am Kampf teilnimmt."
+        }
+      }
+    }
+  ]
+}

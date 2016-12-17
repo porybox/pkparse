@@ -1,0 +1,42 @@
+{
+  "id": 190,
+  "name": "desolate-land",
+  "names": {
+    "ja": "おわりのだいち",
+    "kana": "おわりのだいち",
+    "en": "Desolate Land",
+    "fr": "Terre Finale",
+    "it": "Terra Estrema",
+    "de": "Endland",
+    "es": "Tierra del Ocaso",
+    "ko": "끝의대지",
+    "zh-CN": "终结之地",
+    "zh-TW": "終結之地"
+  },
+  "flavor_text_entries": {
+    "ja": "みずタイプの　攻撃を 受けない　天気にする。",
+    "kana": "みずタイプの　こうげきを うけない　てんきにする。",
+    "en": "The Pokémon changes the weather to nullify Water-type attacks.",
+    "fr": "Altère les conditions météo et rend inefficaces les attaques de type Eau.",
+    "it": "Crea un clima che rende inefficaci gli attacchi di tipo Acqua.",
+    "de": "Ändert das Wetter, um Wasser-Attacken wirkungslos zu machen.",
+    "es": "Altera el clima para anular los ataques de tipo Agua.",
+    "ko": "물타입의 공격을 받지 않는 날씨로 만든다.",
+    "zh-CN": "变为不会受到 水属性攻击的天气。",
+    "zh-TW": "變為讓水屬性攻擊 失效的天氣。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "みずタイプの　こうげきを うけない　てんきに　する。",
+          "en": "Affects weather and nullifies any Water-type attacks.",
+          "fr": "Altère les conditions météo et rend inefficaces les attaques Eau.",
+          "it": "Crea un clima che rende inefficaci   gli attacchi di tipo Acqua.",
+          "de": "Ändert das Wetter. Unterbindet direkte Wasser-Attacken."
+        }
+      }
+    }
+  ]
+}

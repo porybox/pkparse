@@ -2,56 +2,13 @@
   "id": 10,
   "name": "scratch",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 35,
   "priority": 0,
   "power": 40,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "fury-swipes"
-        },
-        {
-          "name": "slash"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "leer"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -63,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Scratch",
-      "language": "en"
-    },
-    {
-      "name": "Graffio",
-      "language": "it"
-    },
-    {
-      "name": "Arañazo",
-      "language": "es"
-    },
-    {
-      "name": "Kratzer",
-      "language": "de"
-    },
-    {
-      "name": "Griffe",
-      "language": "fr"
-    },
-    {
-      "name": "할퀴기",
-      "language": "ko"
-    },
-    {
-      "name": "ひっかく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ひっかく",
+    "kana": "ひっかく",
+    "en": "Scratch",
+    "fr": "Griffe",
+    "it": "Graffio",
+    "de": "Kratzer",
+    "es": "Arañazo",
+    "ko": "할퀴기",
+    "zh-CN": "抓",
+    "zh-TW": "抓"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "硬く　とがった　鋭い　ツメで 相手を　ひっかいて　攻撃する。",
+    "kana": "かたく　とがった　するどい　ツメで あいてを　ひっかいて　こうげきする。",
+    "en": "Hard, pointed, sharp claws rake the target to inflict damage.",
+    "fr": "Lacère l’ennemi avec des griffes acérées pour lui infliger des dégâts.",
+    "it": "Infligge danni al bersaglio con artigli acuminati, duri e affilati.",
+    "de": "Das Ziel wird mit scharfen Klauen zerkratzt.",
+    "es": "Araña con afiladas garras.",
+    "ko": "단단하고 뾰족한 날카로운 손톱으로 상대를 할퀴어서 공격한다.",
+    "zh-CN": "用坚硬且无比锋利的爪子 抓对手进行攻击。",
+    "zh-TW": "用堅硬且無比鋒利的爪子 抓對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

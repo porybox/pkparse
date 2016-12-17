@@ -2,49 +2,13 @@
   "id": 137,
   "name": "glare",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "leer"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "[Paralyzes]{mechanic:paralyzes} the target.",
-      "short_effect": "Paralyzes the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "paralysis",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Glare",
-      "language": "en"
-    },
-    {
-      "name": "Sguardo Feroce",
-      "language": "it"
-    },
-    {
-      "name": "Deslumbrar",
-      "language": "es"
-    },
-    {
-      "name": "Giftblick",
-      "language": "de"
-    },
-    {
-      "name": "Regard Médusant",
-      "language": "fr"
-    },
-    {
-      "name": "뱀눈초리",
-      "language": "ko"
-    },
-    {
-      "name": "へびにらみ",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "へびにらみ",
+    "kana": "へびにらみ",
+    "en": "Glare",
+    "fr": "Regard Médusant",
+    "it": "Sguardo Feroce",
+    "de": "Giftblick",
+    "es": "Deslumbrar",
+    "ko": "뱀눈초리",
+    "zh-CN": "大蛇瞪眼",
+    "zh-TW": "大蛇瞪眼"
+  },
+  "flavor_text_entries": {
+    "ja": "おなかの　模様で　おびえさせて 相手を　まひの　状態に　する。",
+    "kana": "おなかの　もようで　おびえさせて あいてを　まひの　じょうたいに　する。",
+    "en": "The user intimidates the target with the pattern on its belly to cause paralysis.",
+    "fr": "Le lanceur intimide l’ennemi grâce à son regard terrifiant pour le paralyser.",
+    "it": "Chi la usa spaventa il bersaglio con uno sguardo terrificante e ne causa la paralisi.",
+    "de": "Schüchtert Ziel ein, sodass dieses paralysiert wird.",
+    "es": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado.",
+    "ko": "배의 무늬로 겁을 주어 상대를 마비 상태로 만든다.",
+    "zh-CN": "用腹部的花纹使对手害怕， 从而让其陷入麻痹状态。",
+    "zh-TW": "用腹部的花紋使對手心生恐懼， 讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
   "past_values": [
     {
-      "accuracy": 75,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Schüchtert Ziel mit dem Muster auf seinem Bauch ein, sodass dieses paralysiert wird."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  ]
 }

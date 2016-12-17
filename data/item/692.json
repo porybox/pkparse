@@ -1,0 +1,53 @@
+{
+  "id": 692,
+  "name": "tm98",
+  "names": {
+    "ja": "わざマシン９８",
+    "kana": "わざマシン９８",
+    "en": "TM98",
+    "fr": "CT98",
+    "it": "MT98",
+    "de": "TM98",
+    "es": "MT98",
+    "ko": "기술머신98",
+    "zh-CN": "招式学习器９８",
+    "zh-TW": "招式學習器９８"
+  },
+  "flavor_text_entries": {
+    "ja": "すごい　勢いで　相手に　つっこむ。 相手を　ひるませることが　ある。",
+    "kana": "すごい　いきおいで　あいてに　つっこむ。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user charges at the target and may make it flinch.",
+    "fr": "Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer.",
+    "it": "Carica il bersaglio a grande velocità e può farlo tentennare.",
+    "de": "Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt.",
+    "es": "Embiste con un gran impulso que puede hacer retroceder.",
+    "ko": "굉장한 기세로 상대에게 돌진한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "以惊人的气势扑向对手。 有时会使对手畏缩。",
+    "zh-TW": "以驚人的氣勢撲向對手。 有時會讓對手畏縮。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "くり返し　打つことで だんだん　こぶしが　固くなる。 相手に　あてると　攻撃が　あがる。",
+          "kana": "くりかえし　うつことで だんだん　こぶしが　かたくなる。 あいてに　あてると　こうげきが　あがる。",
+          "en": "Striking opponents over and over makes the user’s fists harder. Hitting a target raises the Attack stat.",
+          "fr": "À force de frapper, les poings deviennent plus durs. Augmente l’Attaque du lanceur si l’ennemi est touché.",
+          "it": "Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, l’Attacco di chi la usa aumenta.",
+          "de": "Durch wiederholtes Zuschlagen werden die Fäuste des Anwenders allmählich härter. Trifft er den Gegner, steigt sein Angriffs-Wert.",
+          "es": "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta.",
+          "ko": "반복해서 쓰면 점점 주먹이 단단해진다. 상대에게 맞히면 공격이 올라간다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Rende i pugni più duri a ogni colpo inferto. Se i pugni vanno a segno, aumenta l’Attacco."
+        }
+      }
+    }
+  ]
+}

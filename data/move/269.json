@@ -2,55 +2,13 @@
   "id": 269,
   "name": "taunt",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "counter"
-        },
-        {
-          "name": "detect"
-        },
-        {
-          "name": "mirror-coat"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Target is forced to only use damaging moves for the next 3–5 turns, selected at random.  Moves that select other moves not known in advance do not count as damaging.\n\n[]{move:assist}, []{move:copycat}, []{move:me-first}, []{move:metronome}, []{move:mirror-move}, and []{move:sleep-talk} do not directly inflict damage and thus may not be used.\n\n[]{move:bide}, []{move:counter}, []{move:endeavor}, []{move:metal-burst}, and []{move:mirror-coat} are allowed.",
-      "short_effect": "For the next few turns, the target can only use damaging moves.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -62,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Taunt",
-      "language": "en"
-    },
-    {
-      "name": "Provocazione",
-      "language": "it"
-    },
-    {
-      "name": "Mofa",
-      "language": "es"
-    },
-    {
-      "name": "Verhöhner",
-      "language": "de"
-    },
-    {
-      "name": "Provoc",
-      "language": "fr"
-    },
-    {
-      "name": "도발",
-      "language": "ko"
-    },
-    {
-      "name": "ちょうはつ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ちょうはつ",
+    "kana": "ちょうはつ",
+    "en": "Taunt",
+    "fr": "Provoc",
+    "it": "Provocazione",
+    "de": "Verhöhner",
+    "es": "Mofa",
+    "ko": "도발",
+    "zh-CN": "挑衅",
+    "zh-TW": "挑釁"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "相手を　怒らせる。　３ターンの 間　相手は　ダメージを 与える　技しか　だせなくなる。",
+    "kana": "あいてを　おこらせる。　３ターンの あいだ　あいては　ダメージを あたえる　わざしか　だせなく　なる。",
+    "en": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+    "fr": "Provoque l’ennemi. L’oblige à n’utiliser que des attaques pendant trois tours.",
+    "it": "Provoca il bersaglio inducendolo a usare solo mosse d’attacco per tre turni.",
+    "de": "Bringt das Ziel in Rage. Dieses kann über drei Runden hinweg nur noch angreifen.",
+    "es": "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.",
+    "ko": "상대를 화나게 한다. 3턴 동안 상대는 데미지를 주는 기술밖에 쓸 수 없게 된다.",
+    "zh-CN": "使对手愤怒。 在３回合内让对手 只能使出给予伤害的招式。",
+    "zh-TW": "激怒對手。 在３回合內讓對手 只能使出給予傷害的招式。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手を　怒らせる。３ターンの あいだ　相手は　ダメージを 与える　技しか　だせなくなる。",
+          "kana": "あいてを　おこらせる。３ターンの あいだ　あいては　ダメージを あたえる　わざしか　だせなく　なる。"
+        }
+      }
+    }
+  ]
 }

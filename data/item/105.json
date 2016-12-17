@@ -1,0 +1,39 @@
+{
+  "id": 105,
+  "name": "skull-fossil",
+  "names": {
+    "ja": "ずがいのカセキ",
+    "kana": "ずがいのカセキ",
+    "en": "Skull Fossil",
+    "fr": "Fossile Crâne",
+    "it": "Fossilcranio",
+    "de": "Kopffossil",
+    "es": "Fósil Cráneo",
+    "ko": "두개의화석",
+    "zh-CN": "头盖化石",
+    "zh-TW": "頭蓋化石"
+  },
+  "flavor_text_entries": {
+    "ja": "大昔　地上で　暮らした 古代ポケモンの　カセキ。 頭の　一部らしい。",
+    "kana": "おおむかし　ちじょうで　くらした こだい　ポケモンの　カセキ。 あたまの　いちぶ　らしい。",
+    "en": "A fossil from a prehistoric Pokémon that once lived on the land. It appears as though it’s part of a head.",
+    "fr": "Le fossile d’un Pokémon préhistorique terrestre. On dirait un morceau de crâne.",
+    "it": "Fossile di un Pokémon preistorico che viveva sulla terraferma. Sembra essere parte di un teschio.",
+    "de": "Das Fossil eines uralten Pokémon, das an Land lebte. Es sieht wie ein Schädel aus.",
+    "es": "Fósil de un Pokémon prehistórico terrestre. Parece ser parte de una cabeza.",
+    "ko": "오랜 옛날 지상에서 살았던 고대 포켓몬의 화석. 머리의 일부인 듯하다.",
+    "zh-CN": "很久以前生活在地上的 古代宝可梦的化石。 好像是头部的一部分。",
+    "zh-TW": "很久以前生活在地上的 古代寶可夢的化石。 好像是頭部的一部分。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le fossile d’un Pokémon préhistorique terrestre. On dirait une partie d’un crâne.",
+          "it": "Fossile di un Pokémon preistorico che viveva sulla terraferma. Sembra far parte di un teschio."
+        }
+      }
+    }
+  ]
+}

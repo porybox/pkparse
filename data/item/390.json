@@ -1,0 +1,45 @@
+{
+  "id": 390,
+  "name": "tm63",
+  "names": {
+    "ja": "わざマシン６３",
+    "kana": "わざマシン６３",
+    "en": "TM63",
+    "fr": "CT63",
+    "it": "MT63",
+    "de": "TM63",
+    "es": "MT63",
+    "ko": "기술머신63",
+    "zh-CN": "招式学习器６３",
+    "zh-TW": "招式學習器６３"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせた　どうぐを　５ターンの　あいだ 使えなくする。　トレーナーも　その ポケモンには　道具を　使えない。",
+    "kana": "もたせた　どうぐを　５ターンの　あいだ つかえなくする。　トレーナーも　その ポケモンには　どうぐを　つかえない。",
+    "en": "This move prevents the target from using its held item for five turns. Its Trainer is also prevented from using items on it.",
+    "fr": "Empêche la cible d’utiliser un objet tenu et son Dresseur d’utiliser un objet sur lui pendant cinq tours.",
+    "it": "Impedisce al bersaglio di usare il suo strumento e al suo Allenatore di usarne altri sul Pokémon per cinque turni.",
+    "de": "Das Ziel kann 5 Runden lang sein getragenes Item nicht einsetzen und es können auch keine Items auf es angewendet werden.",
+    "es": "Impide durante cinco turnos que el objetivo utilice el objeto que lleve y que su Entrenador use objetos con él.",
+    "ko": "지니게 한 도구를 5턴 동안 쓸 수 없게 한다. 트레이너도 그 포켓몬에게는 도구를 쓸 수 없다.",
+    "zh-CN": "让对手在５回合内不能使用 宝可梦携带的道具。训练家也 不能给那只宝可梦使用道具。",
+    "zh-TW": "讓對手在５回合內無法使用攜帶的道具。 訓練家也不能對 該寶可夢使用道具。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "持たせた　道具を　使えなくする。 トレーナーも　その　ポケモンには 道具を　使えない。",
+          "kana": "もたせた　どうぐを　つかえなくする。 トレーナーも　その　ポケモンには どうぐを　つかうことが　できない。",
+          "en": "This move prevents the target from using its held item. Its Trainer is also prevented from using items on it.",
+          "fr": "Empêche l’ennemi d’utiliser un objet tenu et son Dresseur d’utiliser un objet sur lui.",
+          "it": "Impedisce al nemico di usare il suo strumento e al suo Allenatore di usarne altri sul Pokémon.",
+          "de": "Verhindert, dass auf das Ziel Items verwendet werden.",
+          "es": "Impide que el objetivo utilice el objeto que lleve y que su Entrenador use objetos sobre él.",
+          "ko": "지니게 한 도구를 쓸 수 없게 한다. 트레이너도 그 포켓몬에게는 도구를 쓸 수 없다."
+        }
+      }
+    }
+  ]
+}

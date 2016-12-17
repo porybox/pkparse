@@ -2,48 +2,13 @@
   "id": 117,
   "name": "bide",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 1,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "User waits for two turns.  On the second turn, the user inflicts twice the damage it accumulated on the last Pokémon to hit it.  Damage inflicted is [typeless]{mechanic:typeless}.\n\nThis move cannot be selected by []{move:sleep-talk}.",
-      "short_effect": "User waits for two turns, then hits back for twice the damage it took.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "effect_entries": [
-        {
-          "effect": "Lasts either two or three turns.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -55,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Bide",
-      "language": "en"
-    },
-    {
-      "name": "Pazienza",
-      "language": "it"
-    },
-    {
-      "name": "Venganza",
-      "language": "es"
-    },
-    {
-      "name": "Geduld",
-      "language": "de"
-    },
-    {
-      "name": "Patience",
-      "language": "fr"
-    },
-    {
-      "name": "참기",
-      "language": "ko"
-    },
-    {
-      "name": "がまん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "がまん",
+    "kana": "がまん",
+    "en": "Bide",
+    "fr": "Patience",
+    "it": "Pazienza",
+    "de": "Geduld",
+    "es": "Venganza",
+    "ko": "참기",
+    "zh-CN": "忍耐",
+    "zh-TW": "忍耐"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "２ターンの　間　攻撃に　たえて 受けた　ダメージを　２倍にして 相手に　返す。",
+    "kana": "２ターンの　あいだ　こうげきに　たえて うけた　ダメージを　２ばいに　して あいてに　かえす。",
+    "en": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
+    "fr": "Le lanceur encaisse les coups durant deux tours et réplique en infligeant le double des dégâts subis.",
+    "it": "Chi la usa subisce attacchi per due turni e poi restituisce il danno moltiplicato per due.",
+    "de": "Erträgt zwei Runden Angriffe und schlägt dann mit dem doppelten Wert des erlittenen Schadens zurück.",
+    "es": "Espera dos turnos para atacar con el doble de potencia del daño recibido.",
+    "ko": "2턴 동안 공격을 견뎌 입은 데미지를 2배로 만들어 상대에게 돌려준다.",
+    "zh-CN": "在２回合内忍受攻击， 受到的伤害会 ２倍返还给对手。",
+    "zh-TW": "在２回合內忍受攻擊， 然後將受到的傷害 加倍返還給對手。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "２ターンの　あいだ　攻撃に　たえて 受けた　ダメージを　２倍にして 相手に　返す。"
+        }
+      }
+    }
+  ]
 }

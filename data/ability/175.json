@@ -1,119 +1,38 @@
 {
   "id": 175,
   "name": "sweet-veil",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-vi"
+  "names": {
+    "ja": "スイートベール",
+    "kana": "スイートベール",
+    "en": "Sweet Veil",
+    "fr": "Gluco-Voile",
+    "it": "Dolcevelo",
+    "de": "Zuckerhülle",
+    "es": "Velo Dulce",
+    "ko": "스위트베일",
+    "zh-CN": "甜幕",
+    "zh-TW": "甜幕"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "味方の　ポケモンは 眠らなくなる。",
+    "kana": "みかたの　ポケモンは ねむらなくなる。",
+    "en": "Prevents itself and ally Pokémon from falling asleep.",
+    "fr": "Les Pokémon de l’équipe ne peuvent pas s’endormir.",
+    "it": "Impedisce a sé e agli alleati di addormentarsi.",
+    "de": "Alle Team-Pokémon können nicht einschlafen.",
+    "es": "Evita que el equipo Pokémon se duerma.",
+    "ko": "같은 편의 포켓몬이 잠들지 않게 된다.",
+    "zh-CN": "我方的宝可梦 不会变为睡眠状态。",
+    "zh-TW": "我方的寶可夢 不會陷入睡眠狀態。"
+  },
+  "past_values": [
     {
-      "name": "Sweet Veil",
-      "language": "en"
-    },
-    {
-      "name": "Dolcevelo",
-      "language": "it"
-    },
-    {
-      "name": "Velo Dulce",
-      "language": "es"
-    },
-    {
-      "name": "Zuckerhülle",
-      "language": "de"
-    },
-    {
-      "name": "Gluco-Voile",
-      "language": "fr"
-    },
-    {
-      "name": "스위트베일",
-      "language": "ko"
-    },
-    {
-      "name": "スイートベール",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Prevents friendly Pokémon from sleeping.",
-      "short_effect": "Prevents friendly Pokémon from sleeping.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "味方の　ポケモンは\n眠らなくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Prevents itself and ally Pokémon\nfrom falling asleep.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Impedisce a sé e agli alleati\ndi addormentarsi.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Evita que tu equipo Pokémon\nse duerma.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Alle Pokémon im Team können\nnicht einschlafen.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Les Pokémon de l’équipe ne\npeuvent pas s’endormir.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "같은 편의 포켓몬이\n잠들지 않게 된다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "みかたの　ポケモンは\nねむらなくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "swirlix"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "slurpuff"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Alle Pokémon im Team können nicht einschlafen.",
+          "es": "Evita que tu equipo Pokémon se duerma."
+        }
       }
     }
   ]

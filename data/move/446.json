@@ -2,36 +2,13 @@
   "id": 446,
   "name": "stealth-rock",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Spreads sharp rocks around the opposing [field]{mechanic:field}, damaging any Pokémon that enters the [field]{mechanic:field} for 1/8 its max [HP]{mechanic:hp}.  This damage is affected by the entering Pokémon's susceptibility to []{type:rock} moves.\n\n[]{move:rapid-spin} removes this effect from its user's side of the [field]{mechanic:field}.",
-      "short_effect": "Causes damage when opposing Pokémon switch in.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "field-effect"
-    },
+    "ailment": "none",
+    "category": "field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Stealth Rock",
-      "language": "en"
-    },
-    {
-      "name": "Levitoroccia",
-      "language": "it"
-    },
-    {
-      "name": "Trampa Rocas",
-      "language": "es"
-    },
-    {
-      "name": "Tarnsteine",
-      "language": "de"
-    },
-    {
-      "name": "Piège de Roc",
-      "language": "fr"
-    },
-    {
-      "name": "스텔스록",
-      "language": "ko"
-    },
-    {
-      "name": "ステルスロック",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "opponents-field"
+  "names": {
+    "ja": "ステルスロック",
+    "kana": "ステルスロック",
+    "en": "Stealth Rock",
+    "fr": "Piège de Roc",
+    "it": "Levitoroccia",
+    "de": "Tarnsteine",
+    "es": "Trampa Rocas",
+    "ko": "스텔스록",
+    "zh-CN": "隐形岩",
+    "zh-TW": "隱形岩"
   },
-  "type": {
-    "name": "rock"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　周りに　無数の　岩を 浮かべて　交代で　でてきた　相手の ポケモンに　ダメージを　与える。",
+    "kana": "あいての　まわりに　むすうの　いわを うかべて　こうたいで　でてきた　あいての ポケモンに　ダメージを　あたえる。",
+    "en": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.",
+    "fr": "Lance des pierres flottantes autour de l’ennemi, qui blessent tout adversaire entrant au combat.",
+    "it": "Chi la usa piazza una trappola di rocce sospese che danneggia i nemici che entrano in campo.",
+    "de": "Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.",
+    "es": "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.",
+    "ko": "상대의 주위에 무수한 바위를 띄워 교체해서 나온 상대 포켓몬에게 데미지를 준다.",
+    "zh-CN": "将无数岩石悬浮在对手的周围， 从而对替换出场的对手的 宝可梦给予伤害。",
+    "zh-TW": "在對手周圍撒下無數飄浮的岩石， 讓對手替換出場的寶可夢受到傷害。"
+  },
+  "stat_changes": [],
+  "target": "opponents-field",
+  "type": "rock"
 }

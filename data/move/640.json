@@ -1,0 +1,50 @@
+{
+  "id": 640,
+  "name": "inferno-overdrive",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ダイナミックフルフレイム",
+    "kana": "ダイナミックフルフレイム",
+    "en": "Inferno Overdrive",
+    "fr": "Pyro-Explosion Cataclysmique",
+    "it": "Fiammobomba Detonante",
+    "de": "Dynamische Maxiflamme",
+    "es": "Hecatombe Pírica",
+    "ko": "다이내믹풀플레임",
+    "zh-CN": "超强极限爆焰弹",
+    "zh-TW": "超強極限爆焰彈"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　燃えさかる　炎を　吐きだし 全力で　相手に　ぶつける。 元になった　技で　威力が　変わる。",
+    "kana": "Ｚパワーで　もえさかる　ほのおを　はきだし ぜんりょくで　あいてに　ぶつける。 もとになった　わざで　いりょくが　かわる。",
+    "en": "The user breathes a stream of intense fire toward the target with the full force of its Z-Power. The power varies depending on the original move.",
+    "fr": "Le Pokémon utilise la Force Z pour cracher une boule de feu qui réduit l’adversaire en cendres. La puissance varie selon celle de la capacité originale.",
+    "it": "Chi la usa sfrutta il Potere Z per emettere fiamme incandescenti che inceneriscono il bersaglio. La potenza varia a seconda della mossa su cui si basa.",
+    "de": "Der Anwender speit dank Z-Kraft eine gewaltige Kugel aus Flammen auf das Ziel. Die Stärke variiert je nach zugrunde liegender Attacke.",
+    "es": "El usuario emplea el Poder Z para lanzar una enorme llamarada con la que calcina a su objetivo. Su potencia depende de la del movimiento original.",
+    "ko": "Z파워로 활활 타는 불꽃을 뱉어내 전력으로 상대에게 부딪친다. 원래 기술에 따라 위력이 변한다.",
+    "zh-CN": "通过Ｚ力量喷出熊熊烈火， 全力撞向对手。 威力会根据原来的招式而改变。",
+    "zh-TW": "透過Ｚ力量噴出熊熊烈火， 全力撞向對手。 威力會隨原本的招式而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire"
+}

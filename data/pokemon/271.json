@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 56,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -56,44 +48,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ハスブレロ",
-      "language": "ja"
-    },
-    {
-      "name": "Hasubrero",
-      "language": "roomaji"
-    },
-    {
-      "name": "로토스",
-      "language": "ko"
-    },
-    {
-      "name": "蓮帽小童",
-      "language": "zh"
-    },
-    {
-      "name": "Lombre",
-      "language": "fr"
-    },
-    {
-      "name": "Lombrero",
-      "language": "de"
-    },
-    {
-      "name": "Lombre",
-      "language": "es"
-    },
-    {
-      "name": "Lombre",
-      "language": "it"
-    },
-    {
-      "name": "Lombre",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハスブレロ",
+    "en": "Lombre",
+    "fr": "Lombre",
+    "it": "Lombre",
+    "de": "Lombrero",
+    "es": "Lombre",
+    "ko": "로토스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -104,36 +67,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ようき",
-      "language": "ja"
-    },
-    {
-      "genus": "명랑함",
-      "language": "ko"
-    },
-    {
-      "genus": "Jovial",
-      "language": "fr"
-    },
-    {
-      "genus": "Frohmut",
-      "language": "de"
-    },
-    {
-      "genus": "Alegre",
-      "language": "es"
-    },
-    {
-      "genus": "Giocoso",
-      "language": "it"
-    },
-    {
-      "genus": "Jolly",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ようき",
+    "en": "Jolly",
+    "fr": "Jovial",
+    "it": "Giocoso",
+    "de": "Frohmut",
+    "es": "Alegre",
+    "ko": "명랑함"
+  },
   "varieties": [
     {
       "is_default": true,

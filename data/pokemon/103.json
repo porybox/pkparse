@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 137,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "legs"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ナッシー",
-      "language": "ja"
-    },
-    {
-      "name": "Nassy",
-      "language": "roomaji"
-    },
-    {
-      "name": "나시",
-      "language": "ko"
-    },
-    {
-      "name": "椰蛋樹",
-      "language": "zh"
-    },
-    {
-      "name": "Noadkoko",
-      "language": "fr"
-    },
-    {
-      "name": "Kokowei",
-      "language": "de"
-    },
-    {
-      "name": "Exeggutor",
-      "language": "es"
-    },
-    {
-      "name": "Exeggutor",
-      "language": "it"
-    },
-    {
-      "name": "Exeggutor",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ナッシー",
+    "en": "Exeggutor",
+    "fr": "Noadkoko",
+    "it": "Exeggutor",
+    "de": "Kokowei",
+    "es": "Exeggutor",
+    "ko": "나시"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "やしのみ",
-      "language": "ja"
-    },
-    {
-      "genus": "야자열매",
-      "language": "ko"
-    },
-    {
-      "genus": "Fruitpalme",
-      "language": "fr"
-    },
-    {
-      "genus": "Palmfrucht",
-      "language": "de"
-    },
-    {
-      "genus": "Coco",
-      "language": "es"
-    },
-    {
-      "genus": "Nocecocco",
-      "language": "it"
-    },
-    {
-      "genus": "Coconut",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "やしのみ",
+    "en": "Coconut",
+    "fr": "Fruitpalme",
+    "it": "Nocecocco",
+    "de": "Palmfrucht",
+    "es": "Coco",
+    "ko": "야자열매"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -161,7 +105,17 @@
     "attack": 95,
     "defense": 85,
     "special-attack": 125,
-    "special-defense": 65,
+    "special-defense": 75,
     "speed": 55
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "special-defense": 65
+        }
+      }
+    }
+  ]
 }

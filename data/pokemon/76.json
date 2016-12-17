@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 11,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "humanoid"
   },
@@ -83,44 +77,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ゴローニャ",
-      "language": "ja"
-    },
-    {
-      "name": "Golonya",
-      "language": "roomaji"
-    },
-    {
-      "name": "딱구리",
-      "language": "ko"
-    },
-    {
-      "name": "隆隆岩",
-      "language": "zh"
-    },
-    {
-      "name": "Grolem",
-      "language": "fr"
-    },
-    {
-      "name": "Geowaz",
-      "language": "de"
-    },
-    {
-      "name": "Golem",
-      "language": "es"
-    },
-    {
-      "name": "Golem",
-      "language": "it"
-    },
-    {
-      "name": "Golem",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴローニャ",
+    "en": "Golem",
+    "fr": "Grolem",
+    "it": "Golem",
+    "de": "Geowaz",
+    "es": "Golem",
+    "ko": "딱구리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -131,36 +96,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "メガトン",
-      "language": "ja"
-    },
-    {
-      "genus": "메가톤",
-      "language": "ko"
-    },
-    {
-      "genus": "Titanesque",
-      "language": "fr"
-    },
-    {
-      "genus": "Urgestein",
-      "language": "de"
-    },
-    {
-      "genus": "Megatón",
-      "language": "es"
-    },
-    {
-      "genus": "Megatone",
-      "language": "it"
-    },
-    {
-      "genus": "Megaton",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "メガトン",
+    "en": "Megaton",
+    "fr": "Titanesque",
+    "it": "Megatone",
+    "de": "Urgestein",
+    "es": "Megatón",
+    "ko": "메가톤"
+  },
   "varieties": [
     {
       "is_default": true,

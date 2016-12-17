@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 52,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ウインディ",
-      "language": "ja"
-    },
-    {
-      "name": "Windie",
-      "language": "roomaji"
-    },
-    {
-      "name": "윈디",
-      "language": "ko"
-    },
-    {
-      "name": "風速狗",
-      "language": "zh"
-    },
-    {
-      "name": "Arcanin",
-      "language": "fr"
-    },
-    {
-      "name": "Arkani",
-      "language": "de"
-    },
-    {
-      "name": "Arcanine",
-      "language": "es"
-    },
-    {
-      "name": "Arcanine",
-      "language": "it"
-    },
-    {
-      "name": "Arcanine",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ウインディ",
+    "en": "Arcanine",
+    "fr": "Arcanin",
+    "it": "Arcanine",
+    "de": "Arkani",
+    "es": "Arcanine",
+    "ko": "윈디"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "でんせつ",
-      "language": "ja"
-    },
-    {
-      "genus": "전설",
-      "language": "ko"
-    },
-    {
-      "genus": "Légendaire",
-      "language": "fr"
-    },
-    {
-      "genus": "Legendär",
-      "language": "de"
-    },
-    {
-      "genus": "Legendario",
-      "language": "es"
-    },
-    {
-      "genus": "Leggenda",
-      "language": "it"
-    },
-    {
-      "genus": "Legendary",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "でんせつ",
+    "en": "Legendary",
+    "fr": "Légendaire",
+    "it": "Leggenda",
+    "de": "Legendär",
+    "es": "Legendario",
+    "ko": "전설"
+  },
   "varieties": [
     {
       "is_default": true,

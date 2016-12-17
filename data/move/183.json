@@ -2,36 +2,13 @@
   "id": 183,
   "name": "mach-punch",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 30,
   "priority": 1,
   "power": 40,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Mach Punch",
-      "language": "en"
-    },
-    {
-      "name": "Pugnorapido",
-      "language": "it"
-    },
-    {
-      "name": "Ultrapuño",
-      "language": "es"
-    },
-    {
-      "name": "Tempohieb",
-      "language": "de"
-    },
-    {
-      "name": "Mach Punch",
-      "language": "fr"
-    },
-    {
-      "name": "마하펀치",
-      "language": "ko"
-    },
-    {
-      "name": "マッハパンチ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "マッハパンチ",
+    "kana": "マッハパンチ",
+    "en": "Mach Punch",
+    "fr": "Mach Punch",
+    "it": "Pugnorapido",
+    "de": "Tempohieb",
+    "es": "Ultrapuño",
+    "ko": "마하펀치",
+    "zh-CN": "音速拳",
+    "zh-TW": "音速拳"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "目にも　留まらぬ　ものすごい　速さで パンチを　くりだす。 必ず　先制攻撃　できる。",
+    "kana": "めにも　とまらぬ　ものすごい　はやさで パンチを　くりだす。 かならず　せんせい　こうげき　できる。",
+    "en": "The user throws a punch at blinding speed. This move always goes first.",
+    "fr": "Coup de poing fulgurant. Frappe en priorité.",
+    "it": "Chi la usa tira un pugno a una velocità impressionante. Questa mossa ha priorità alta.",
+    "de": "Extrem schneller Hieb mit hoher Erstschlagquote.",
+    "es": "Puñetazo de velocidad fulminante. Este movimiento tiene prioridad alta.",
+    "ko": "눈에 보이지 않는 굉장한 속도로 펀치를 날린다. 반드시 선제공격을 할 수 있다.",
+    "zh-CN": "以迅雷不及掩耳之势出拳。 必定能够先制攻击。",
+    "zh-TW": "以迅雷不及掩耳之勢出拳。 必定能夠發動先制攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Coup de poing fulgurant. Frappe toujours en premier.",
+          "it": "Chi la usa tira un pugno a una velocità impressionante e colpisce sempre per primo.",
+          "de": "Extrem schneller Hieb, der stets zuerst trifft.",
+          "es": "Puñetazo que se da rápido para golpear primero."
+        }
+      }
+    }
+  ]
 }

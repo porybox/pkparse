@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 149,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "wings"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "イベルタル",
-      "language": "ja"
-    },
-    {
-      "name": "이벨타르",
-      "language": "ko"
-    },
-    {
-      "name": "Yveltal",
-      "language": "fr"
-    },
-    {
-      "name": "Yveltal",
-      "language": "de"
-    },
-    {
-      "name": "Yveltal",
-      "language": "es"
-    },
-    {
-      "name": "Yveltal",
-      "language": "it"
-    },
-    {
-      "name": "Yveltal",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "イベルタル",
+    "en": "Yveltal",
+    "fr": "Yveltal",
+    "it": "Yveltal",
+    "de": "Yveltal",
+    "es": "Yveltal",
+    "ko": "이벨타르"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はかい",
-      "language": "ja"
-    },
-    {
-      "genus": "파괴",
-      "language": "ko"
-    },
-    {
-      "genus": "Annihilation",
-      "language": "fr"
-    },
-    {
-      "genus": "Zerstörung",
-      "language": "de"
-    },
-    {
-      "genus": "Destrucción",
-      "language": "es"
-    },
-    {
-      "genus": "Distruzione",
-      "language": "it"
-    },
-    {
-      "genus": "Destruction",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はかい",
+    "en": "Destruction",
+    "fr": "Annihilation",
+    "it": "Distruzione",
+    "de": "Zerstörung",
+    "es": "Destrucción",
+    "ko": "파괴"
+  },
   "varieties": [
     {
       "is_default": true,

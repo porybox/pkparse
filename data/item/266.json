@@ -1,0 +1,39 @@
+{
+  "id": 266,
+  "name": "muscle-band",
+  "names": {
+    "ja": "ちからのハチマキ",
+    "kana": "ちからのハチマキ",
+    "en": "Muscle Band",
+    "fr": "Bandeau Muscle",
+    "it": "Muscolbanda",
+    "de": "Muskelband",
+    "es": "Cinta Fuerte",
+    "ko": "힘의머리띠",
+    "zh-CN": "力量头带",
+    "zh-TW": "力量頭帶"
+  },
+  "flavor_text_entries": {
+    "ja": "ちからが　わいてくる　ハチマキ。 持たせると　物理技の 威力が　少し　あがる。",
+    "kana": "ちからが　わいてくる　ハチマキ。 もたせると　ぶつりわざの いりょくが　すこし　あがる。",
+    "en": "An item to be held by a Pokémon. This headband exudes strength, slightly boosting the power of physical moves.",
+    "fr": "Objet à tenir. Un bandeau augmentant légèrement la puissance des capacités physiques.",
+    "it": "Strumento da dare a un Pokémon. Fascia che potenzia di poco le mosse fisiche.",
+    "de": "Ein Item zum Tragen. Dieses Stirnband verstärkt physische Attacken etwas.",
+    "es": "Cinta del pelo que aumenta ligeramente la potencia de los ataques físicos. Debe llevarla un Pokémon.",
+    "ko": "힘이 끓어오르는 머리띠. 지니게 하면 물리 기술의 위력이 조금 올라간다.",
+    "zh-CN": "力如泉涌的头带。 携带后，物理招式的 威力就会少量提高。",
+    "zh-TW": "力如泉湧的頭帶。 攜帶後，物理招式的 威力就會少量提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Objet à tenir. Un bandeau augmentant légèrement la puissance des attaques physiques.",
+          "es": "Cinta de pelo que aumenta ligeramente la potencia de los movimientos físicos. Debe llevarla un Pokémon."
+        }
+      }
+    }
+  ]
+}

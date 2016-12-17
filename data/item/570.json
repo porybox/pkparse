@@ -1,0 +1,38 @@
+{
+  "id": 570,
+  "name": "swift-wing",
+  "names": {
+    "ja": "しゅんぱつのハネ",
+    "kana": "しゅんぱつのハネ",
+    "en": "Swift Wing",
+    "fr": "Aile Sprint",
+    "it": "Piumreazione",
+    "de": "Flinkfeder",
+    "es": "Pluma Ímpetu",
+    "ko": "순발력날개",
+    "zh-CN": "瞬发之羽",
+    "zh-TW": "瞬發之羽"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　使う　道具。 ポケモン　１匹の　素早さの 基礎ポイントを　ちょっと　あげる。",
+    "kana": "ポケモンに　つかう　どうぐ。 ポケモン　１ひきの　すばやさの きそポイントを　ちょっと　あげる。",
+    "en": "An item for use on a Pokémon. It slightly increases the base Speed stat of a single Pokémon.",
+    "fr": "Objet à utiliser sur un Pokémon. Il augmente un peu sa Vitesse de base.",
+    "it": "Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Velocità.",
+    "de": "Wendet man dieses Item auf ein Pokémon an, wird dessen Initiative-Basiswert dauerhaft erhöht.",
+    "es": "Pluma que aumenta un poco la Velocidad de base de un Pokémon.",
+    "ko": "포켓몬에게 사용하는 도구. 포켓몬 1마리의 스피드 기초 포인트를 조금 올린다.",
+    "zh-CN": "用于宝可梦的道具。 能稍微提高１只宝可梦的 速度的基础点数。",
+    "zh-TW": "用於寶可夢的道具。 能稍微提高１隻寶可夢的 速度的基礎點數。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Schenkt man einem Pokémon dieses Item, wird dessen Initiative-Basiswert dauerhaft erhöht."
+        }
+      }
+    }
+  ]
+}

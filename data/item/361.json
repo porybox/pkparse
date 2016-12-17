@@ -1,0 +1,39 @@
+{
+  "id": 361,
+  "name": "tm34",
+  "names": {
+    "ja": "わざマシン３４",
+    "kana": "わざマシン３４",
+    "en": "TM34",
+    "fr": "CT34",
+    "it": "MT34",
+    "de": "TM34",
+    "es": "MT34",
+    "ko": "기술머신34",
+    "zh-CN": "招式学习器３４",
+    "zh-TW": "招式學習器３４"
+  },
+  "flavor_text_entries": {
+    "ja": "ヘドロの　波で　自分の　周りに いるものを　攻撃する。 毒状態に　することが　ある。",
+    "kana": "ヘドロの　なみで　じぶんの　まわりに いるものを　こうげきする。 どくに　することが　ある。",
+    "en": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+    "fr": "Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi les empoisonner.",
+    "it": "Lancia un’onda di fango che attacca tutti i Pokémon nelle vicinanze. Può anche avvelenarli.",
+    "de": "Greift Pokémon in der Nähe des Anwenders mit einer Schlammwelle an. Diese werden eventuell vergiftet.",
+    "es": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+    "ko": "오물의 파장으로 자신의 주위에 있는 포켓몬을 공격한다. 독 상태로 만들기도 한다.",
+    "zh-CN": "用污泥波攻击 自己周围所有的宝可梦。 有时会陷入中毒状态。",
+    "zh-TW": "用污泥波攻擊 自己周圍所有的寶可夢。 有時會讓對手陷入中毒狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner.",
+          "es": "Onda de porquería que afecta a todos los Pokémon de alrededor y puede causar envenenamiento."
+        }
+      }
+    }
+  ]
+}

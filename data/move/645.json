@@ -1,0 +1,50 @@
+{
+  "id": 645,
+  "name": "bloom-doom",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ブルームシャインエクストラ",
+    "kana": "ブルームシャインエクストラ",
+    "en": "Bloom Doom",
+    "fr": "Pétalexplosion Éblouissante",
+    "it": "Floriscoppio Sfolgorante",
+    "de": "Brillante Blütenpracht",
+    "es": "Megatón Floral",
+    "ko": "블룸샤인엑스트라",
+    "zh-CN": "绚烂缤纷花怒放",
+    "zh-TW": "絢爛繽紛花怒放"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass"
+}

@@ -1,0 +1,54 @@
+{
+  "id": 67,
+  "name": "red-flute",
+  "names": {
+    "ja": "あかいビードロ",
+    "kana": "あかいビードロ",
+    "en": "Red Flute",
+    "fr": "Flûte Rouge",
+    "it": "Flauto Rosso",
+    "de": "Rote Flöte",
+    "es": "Flauta Roja",
+    "ko": "빨강비드로",
+    "zh-CN": "红色玻璃哨",
+    "zh-TW": "紅色玻璃哨"
+  },
+  "flavor_text_entries": {
+    "ja": "赤いガラスで　できた　笛。 メロメロ状態を　回復する。",
+    "kana": "あかいガラスで　できた　ふえ。 メロメロ　じょうたいを かいふくする。",
+    "en": "A flute made from red glass that snaps Pokémon out of infatuation.",
+    "fr": "Un jouet en forme de flûte en verre rouge. Annule l’effet du statut attraction.",
+    "it": "Flauto fatto di vetro rosso. Ha il potere di guarire dall’infatuazione.",
+    "de": "Eine Spielzeugflöte aus rotem Glas. Heilt Anziehung.",
+    "es": "Una flauta de cristal rojo cuyas notas vuelven en sí a un Pokémon enamorado.",
+    "ko": "빨간 유리로 만들어진 피리. 헤롱헤롱 상태를 회복한다.",
+    "zh-CN": "以红色玻璃制成的哨子。 可以治愈着迷状态。",
+    "zh-TW": "以紅色玻璃製成的笛子。 可以治癒著迷狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un jouet en forme de flûte en verre rouge. Annule l’effet de la capacité Attraction.",
+          "it": "Flauto fatto di vetro rosso. Ha il potere di guarire dall’innamoramento."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "赤い　ガラスで　できている おもちゃの　笛。",
+          "kana": "あかい　ガラスで　できている おもちゃの　ふえ。",
+          "en": "A lovely toy flute to admire. It’s made from red glass.",
+          "fr": "Un jouet en forme de flûte en verre rouge.",
+          "it": "Flauto giocattolo fatto di vetro rosso.",
+          "de": "Eine Spielzeugflöte aus rotem Glas.",
+          "es": "Una flauta de juguete de cristal rojo.",
+          "ko": "빨간 유리로 만들어진 장난감 피리."
+        }
+      }
+    }
+  ]
+}

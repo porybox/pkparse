@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 102,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ヨーギラス",
-      "language": "ja"
-    },
-    {
-      "name": "Yogiras",
-      "language": "roomaji"
-    },
-    {
-      "name": "애버라스",
-      "language": "ko"
-    },
-    {
-      "name": "由基拉",
-      "language": "zh"
-    },
-    {
-      "name": "Embrylex",
-      "language": "fr"
-    },
-    {
-      "name": "Larvitar",
-      "language": "de"
-    },
-    {
-      "name": "Larvitar",
-      "language": "es"
-    },
-    {
-      "name": "Larvitar",
-      "language": "it"
-    },
-    {
-      "name": "Larvitar",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヨーギラス",
+    "en": "Larvitar",
+    "fr": "Embrylex",
+    "it": "Larvitar",
+    "de": "Larvitar",
+    "es": "Larvitar",
+    "ko": "애버라스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いわはだ",
-      "language": "ja"
-    },
-    {
-      "genus": "바위표면",
-      "language": "ko"
-    },
-    {
-      "genus": "Peaupierre",
-      "language": "fr"
-    },
-    {
-      "genus": "Felshaut",
-      "language": "de"
-    },
-    {
-      "genus": "Piel Roca",
-      "language": "es"
-    },
-    {
-      "genus": "Peldisasso",
-      "language": "it"
-    },
-    {
-      "genus": "Rock Skin",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いわはだ",
+    "en": "Rock Skin",
+    "fr": "Peaupierre",
+    "it": "Peldisasso",
+    "de": "Felshaut",
+    "es": "Piel Roca",
+    "ko": "바위표면"
+  },
   "varieties": [
     {
       "is_default": true,

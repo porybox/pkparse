@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 49,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "humanoid"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "キリキザン",
-      "language": "ja"
-    },
-    {
-      "name": "절각참",
-      "language": "ko"
-    },
-    {
-      "name": "Scalproie",
-      "language": "fr"
-    },
-    {
-      "name": "Caesurio",
-      "language": "de"
-    },
-    {
-      "name": "Bisharp",
-      "language": "es"
-    },
-    {
-      "name": "Bisharp",
-      "language": "it"
-    },
-    {
-      "name": "Bisharp",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "キリキザン",
+    "en": "Bisharp",
+    "fr": "Scalproie",
+    "it": "Bisharp",
+    "de": "Caesurio",
+    "es": "Bisharp",
+    "ko": "절각참"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とうじん",
-      "language": "ja"
-    },
-    {
-      "genus": "도인",
-      "language": "ko"
-    },
-    {
-      "genus": "Tranchant",
-      "language": "fr"
-    },
-    {
-      "genus": "Schwertklinge",
-      "language": "de"
-    },
-    {
-      "genus": "Filo",
-      "language": "es"
-    },
-    {
-      "genus": "Fildilama",
-      "language": "it"
-    },
-    {
-      "genus": "Sword Blade",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とうじん",
+    "en": "Sword Blade",
+    "fr": "Tranchant",
+    "it": "Fildilama",
+    "de": "Schwertklinge",
+    "es": "Filo",
+    "ko": "도인"
+  },
   "varieties": [
     {
       "is_default": true,

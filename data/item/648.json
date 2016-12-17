@@ -1,0 +1,38 @@
+{
+  "id": 648,
+  "name": "luminous-moss",
+  "names": {
+    "ja": "ひかりごけ",
+    "kana": "ひかりごけ",
+    "en": "Luminous Moss",
+    "fr": "Lichen Lumineux",
+    "it": "Muschioluce",
+    "de": "Leuchtmoos",
+    "es": "Musgo Brillante",
+    "ko": "빛이끼",
+    "zh-CN": "光苔",
+    "zh-TW": "光苔"
+  },
+  "flavor_text_entries": {
+    "ja": "使い捨ての　ひかりごけ。 持たせて　みずの　技を　受けると 特防が　あがる。",
+    "kana": "つかいすての　ひかりごけ。 もたせて　みずの　わざを　うけると とくぼうが　あがる。",
+    "en": "An item to be held by a Pokémon. It boosts Sp. Def if hit with a Water-type attack. It can only be used once.",
+    "fr": "Du lichen à usage unique. Tenu, il augmente la Défense Spéciale lorsque le Pokémon subit une attaque de type Eau.",
+    "it": "Muschio luminoso monouso. Se il Pokémon che ha questo strumento subisce una mossa di tipo Acqua, la sua Difesa Speciale aumenta.",
+    "de": "Wird der Träger von einer Wasser-Attacke getroffen, steigt seine Spezial-Verteidigung und das Item verschwindet.",
+    "es": "Objeto de un solo uso. Aumenta la Defensa Especial del Pokémon que lo lleva si este recibe un ataque de tipo Agua.",
+    "ko": "단 한 번 쓰면 없어지는 빛이끼. 지니게 하고 물 기술을 받으면 특수방어가 올라간다.",
+    "zh-CN": "一次性使用的光苔。 携带它的宝可梦如果受到水属性 招式攻击，特防就会提高。",
+    "zh-TW": "只能使用一次的光苔。 攜帶它的寶可夢如果受到水屬性 招式攻擊，特防就會提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An item to be held by a Pokémon. It boosts Sp. Def if hit with a Water- type attack. It can only be used once."
+        }
+      }
+    }
+  ]
+}

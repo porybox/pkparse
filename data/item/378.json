@@ -1,0 +1,47 @@
+{
+  "id": 378,
+  "name": "tm51",
+  "names": {
+    "ja": "わざマシン５１",
+    "kana": "わざマシン５１",
+    "en": "TM51",
+    "fr": "CT51",
+    "it": "MT51",
+    "de": "TM51",
+    "es": "MT51",
+    "ko": "기술머신51",
+    "zh-CN": "招式学习器５１",
+    "zh-TW": "招式學習器５１"
+  },
+  "flavor_text_entries": {
+    "ja": "硬い　翼を　相手に　たたきつけて 攻撃する。　自分の　防御が あがることが　ある。",
+    "kana": "かたい　つばさを　あいてに　たたきつけて こうげきする。　じぶんの　ぼうぎょが あがることが　ある。",
+    "en": "The target is hit with wings of steel. This may also raise the user’s Defense stat.",
+    "fr": "Le lanceur frappe l’ennemi avec des ailes d’acier. Peut aussi augmenter la Défense du lanceur.",
+    "it": "Colpisce il bersaglio con ali d’acciaio. Può anche aumentare la Difesa di chi la usa.",
+    "de": "Trifft das Ziel mit Stahlflügeln. Verteidigungs-Wert des Anwenders steigt eventuell.",
+    "es": "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.",
+    "ko": "단단한 날개를 상대에게 부딪쳐서 공격한다. 자신의 방어가 올라갈 때가 있다.",
+    "zh-CN": "用坚硬的翅膀敲打 对手进行攻击。 有时会提高自己的防御。",
+    "zh-TW": "用堅硬的翅膀撞擊 對手進行攻擊。 有時會提高自己的防禦。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "硬い　翼を　相手に　たたきつけて 攻撃する。自分の　防御が あがることが　ある。",
+          "kana": "かたい　つばさを　あいてに　たたきつけて こうげきする。じぶんの　ぼうぎょが あがることが　ある。"
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Colpisce il nemico con ali d’acciaio. Può anche aumentare la Difesa di chi la usa."
+        }
+      }
+    }
+  ]
+}

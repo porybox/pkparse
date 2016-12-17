@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 42,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water2"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "fish"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ジーランス",
-      "language": "ja"
-    },
-    {
-      "name": "Glanth",
-      "language": "roomaji"
-    },
-    {
-      "name": "시라칸",
-      "language": "ko"
-    },
-    {
-      "name": "古空棘魚",
-      "language": "zh"
-    },
-    {
-      "name": "Relicanth",
-      "language": "fr"
-    },
-    {
-      "name": "Relicanth",
-      "language": "de"
-    },
-    {
-      "name": "Relicanth",
-      "language": "es"
-    },
-    {
-      "name": "Relicanth",
-      "language": "it"
-    },
-    {
-      "name": "Relicanth",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ジーランス",
+    "en": "Relicanth",
+    "fr": "Relicanth",
+    "it": "Relicanth",
+    "de": "Relicanth",
+    "es": "Relicanth",
+    "ko": "시라칸"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ちょうじゅ",
-      "language": "ja"
-    },
-    {
-      "genus": "장수",
-      "language": "ko"
-    },
-    {
-      "genus": "Longévité",
-      "language": "fr"
-    },
-    {
-      "genus": "Bestand",
-      "language": "de"
-    },
-    {
-      "genus": "Longevo",
-      "language": "es"
-    },
-    {
-      "genus": "Longevità",
-      "language": "it"
-    },
-    {
-      "genus": "Longevity",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ちょうじゅ",
+    "en": "Longevity",
+    "fr": "Longévité",
+    "it": "Longevità",
+    "de": "Bestand",
+    "es": "Longevo",
+    "ko": "장수"
+  },
   "varieties": [
     {
       "is_default": true,

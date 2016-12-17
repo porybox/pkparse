@@ -2,36 +2,13 @@
   "id": 398,
   "name": "poison-jab",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 20,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [poison]{mechanic:poison} the target.",
-      "short_effect": "Has a $effect_chance% chance to [poison]{mechanic:poison} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "poison"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "poison",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Poison Jab",
-      "language": "en"
-    },
-    {
-      "name": "Velenpuntura",
-      "language": "it"
-    },
-    {
-      "name": "Puya Nociva",
-      "language": "es"
-    },
-    {
-      "name": "Gifthieb",
-      "language": "de"
-    },
-    {
-      "name": "Direct Toxik",
-      "language": "fr"
-    },
-    {
-      "name": "독찌르기",
-      "language": "ko"
-    },
-    {
-      "name": "どくづき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "どくづき",
+    "kana": "どくづき",
+    "en": "Poison Jab",
+    "fr": "Direct Toxik",
+    "it": "Velenpuntura",
+    "de": "Gifthieb",
+    "es": "Puya Nociva",
+    "ko": "독찌르기",
+    "zh-CN": "毒击",
+    "zh-TW": "毒擊"
   },
-  "type": {
-    "name": "poison"
-  }
+  "flavor_text_entries": {
+    "ja": "毒に　そまった　触手や　腕で 相手を　突き刺す。 毒状態に　することが　ある。",
+    "kana": "どくに　そまった　しょくしゅや　うでで あいてを　つきさす。 どく　じょうたいに　することが　ある。",
+    "en": "The target is stabbed with a tentacle or arm steeped in poison. This may also poison the target.",
+    "fr": "Attaque l’ennemi avec un tentacule, un bras, ou un autre membre plein de poison. Peut aussi l’empoisonner.",
+    "it": "Il bersaglio è colpito da un tentacolo o da un arto intriso di una sostanza tossica che può anche avvelenarlo.",
+    "de": "Ziel wird mit vergiftetem Arm oder Tentakel verletzt. Es wird dabei eventuell vergiftet.",
+    "es": "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.",
+    "ko": "독에 물든 촉수나 팔로 상대를 꿰찌른다. 독 상태로 만들 때가 있다.",
+    "zh-CN": "用带毒的触手或手臂刺入对手。 有时会让对手陷入中毒状态。",
+    "zh-TW": "以帶有毒性的觸手或手臂刺進對手。 有時會讓對手陷入中毒狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "poison",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Attaque l’ennemi avec un tentacule ou un bras plein de poison. Peut aussi l’empoisonner."
+        }
+      }
+    }
+  ]
 }

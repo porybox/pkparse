@@ -1,208 +1,52 @@
 {
   "id": 114,
   "name": "storm-drain",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "よびみず",
+    "kana": "よびみず",
+    "en": "Storm Drain",
+    "fr": "Lavabo",
+    "it": "Acquascolo",
+    "de": "Sturmsog",
+    "es": "Colector",
+    "ko": "마중물",
+    "zh-CN": "引水",
+    "zh-TW": "引水"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "みずタイプの　技を　自分に　よせつけ ダメージは　受けずに　特攻が　上がる。",
+    "kana": "みずタイプの　わざを　じぶんに　よせつけ ダメージは　うけずに　とくこうが　あがる。",
+    "en": "Draws in all Water-type moves. Instead of being hit  by Water-type moves, it boosts its Sp. Atk.",
+    "fr": "Le Pokémon détourne sur lui les capacités de type Eau et les neutralise, tout en montant son Attaque Spéciale.",
+    "it": "Attira e neutralizza mosse di tipo Acqua e aumenta l’Attacco Speciale.",
+    "de": "Zieht Wasser-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff.",
+    "es": "Además de atraer y neutralizar los movimientos de tipo Agua, sube el Ataque Especial.",
+    "ko": "물타입의 기술을 자신에게 끌어모아 데미지는 받지 않고 특수공격이 올라간다.",
+    "zh-CN": "将水属性的招式引到自己身上， 不会受到伤害，而是会提高特攻。",
+    "zh-TW": "將水屬性的招式引到自己身上， 不但不會受到傷害， 反而會提高特攻。"
+  },
+  "past_values": [
     {
-      "name": "Storm Drain",
-      "language": "en"
-    },
-    {
-      "name": "Acquascolo",
-      "language": "it"
-    },
-    {
-      "name": "Colector",
-      "language": "es"
-    },
-    {
-      "name": "Sturmsog",
-      "language": "de"
-    },
-    {
-      "name": "Lavabo",
-      "language": "fr"
-    },
-    {
-      "name": "마중물",
-      "language": "ko"
-    },
-    {
-      "name": "よびみず",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "All other Pokémon's single-target []{type:water}-type moves are redirected to this Pokémon, if it is an eligible target.  Other Pokémon's Water moves raise this Pokémon's [Special Attack]{mechanic:special-attack} one [stage]{mechanic:stat-modifier}, negating any other effect on it, and cannot miss it.\n\nIf the move's intended target also has this ability, the move is not redirected.  When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest [Speed]{mechanic:speed} stat, or, in the case of a tie, to a random tied Pokémon.  []{move:follow-me} takes precedence over this ability.",
-      "short_effect": "Redirects single-target []{type:water} moves to this Pokémon where possible.  Absorbs Water moves, raising [Special Attack]{mechanic:special-attack} one [stage]{mechanic:stat-modifier}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "Redirects []{type:water} moves without negating them or granting any [Special Attack]{mechanic:special-attack} boost.  Does not redirect []{move:hidden-power}.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "みずを　呼び込んで 特攻を　あげる。",
+          "kana": "みずを　よびこんで とくこうを　あげる。",
+          "en": "Draws in all Water-type moves to boost its Sp. Atk stat.",
+          "fr": "Attire et neutralise les attaques Eau, et monte l’Attaque Spéciale.",
+          "it": "Neutralizza mosse di tipo Acqua per aumentare l’Attacco Speciale. ",
+          "de": "Absorbiert Wasser-Attacken und steigert den Spezial-Angriff.",
+          "es": "Atrae y neutraliza los movimientos de tipo Agua y sube el At. Esp.",
+          "ko": "물을 끌어모아 특수공격을 올린다."
         }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "みずを　呼び込んで\n特攻を　あげる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Draws in all Water-type moves\nto boost its Sp. Atk stat.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Neutralizza mosse di tipo Acqua\nper aumentare l’Attacco Speciale.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Atrae y neutraliza los movimientos\nde tipo Agua y sube el At. Esp.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Absorbiert Wasser-Attacken\nund steigert den Spezial-Angriff.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Attire et neutralise les attaques\nEau, et monte l’Attaque Spéciale.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "물을 끌어모아\n특수공격을 올린다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "みずを　よびこんで\nとくこうを　あげる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Draws in all Water-type\nmoves to up Sp. Attack.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Draws in all Water-type\nmoves to up Sp. Attack.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Attire l’eau et augmente\nl’Atq. Spé.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "The Pokémon draws in all\nWater-type moves.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon draws in all\nWater-type moves.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon draws in all\nWater-type moves.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "lileep"
       }
     },
     {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "cradily"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "shellos"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "gastrodon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "finneon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "lumineon"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "maractus"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Neutralizza mosse di tipo Acqua per aumentare l’Attacco Speciale."
+        }
       }
     }
   ]

@@ -1,37 +1,14 @@
 {
   "id": 207,
   "name": "swagger",
-  "accuracy": 90,
-  "effect_chance": null,
+  "accuracy": 85,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the target's [Attack]{mechanic:attack} by two [stages]{mechanic:stage}, then [confuses]{mechanic:confuses} it.  If the target's [Attack]{mechanic:attack} cannot be [raised]{mechanic:raised} by two [stages]{mechanic:stage}, the [confusion]{mechanic:confusion} is not applied.",
-      "short_effect": "Raises the target's Attack by two stages and confuses the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "swagger"
-    },
+    "ailment": "confusion",
+    "category": "swagger",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -43,50 +20,47 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Swagger",
-      "language": "en"
-    },
-    {
-      "name": "Bullo",
-      "language": "it"
-    },
-    {
-      "name": "Contoneo",
-      "language": "es"
-    },
-    {
-      "name": "Angeberei",
-      "language": "de"
-    },
-    {
-      "name": "Vantardise",
-      "language": "fr"
-    },
-    {
-      "name": "뽐내기",
-      "language": "ko"
-    },
-    {
-      "name": "いばる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "いばる",
+    "kana": "いばる",
+    "en": "Swagger",
+    "fr": "Vantardise",
+    "it": "Bullo",
+    "de": "Angeberei",
+    "es": "Contoneo",
+    "ko": "뽐내기",
+    "zh-CN": "虚张声势",
+    "zh-TW": "虛張聲勢"
+  },
+  "flavor_text_entries": {
+    "ja": "相手を　怒らせて　混乱させる。 怒りで　相手の　攻撃は ぐーんと　あがってしまう。",
+    "kana": "あいてを　おこらせて　こんらん　させる。 いかりで　あいての　こうげきは ぐーんと　あがってしまう。",
+    "en": "The user enrages and confuses the target. However, this also sharply raises the target’s Attack stat.",
+    "fr": "Fait enrager la cible et la plonge dans la confusion, mais augmente beaucoup son Attaque.",
+    "it": "Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco.",
+    "de": "Verwirrt das Ziel und erhöht dessen Angriffs-Wert stark.",
+    "es": "Provoca confusión en el objetivo, pero también sube mucho su Ataque.",
+    "ko": "상대를 화내게 해서 혼란시킨다. 분노로 상대의 공격은 크게 올라가 버린다.",
+    "zh-CN": "激怒对手，使其混乱。 因为愤怒，对手的攻击 会大幅提高。",
+    "zh-TW": "讓對手火大並陷入混亂。 但對手的攻擊會因憤怒 而大幅提高。"
+  },
   "stat_changes": [
     {
       "change": 2,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "accuracy": 90,
+        "flavor_text_entries": {
+          "fr": "Fait enrager la cible et la plonge dans la confusion, mais augmente fortement son Attaque."
+        }
+      }
+    }
+  ]
 }

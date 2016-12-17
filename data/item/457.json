@@ -1,0 +1,50 @@
+{
+  "id": 457,
+  "name": "contest-pass",
+  "names": {
+    "ja": "コンテストパス",
+    "kana": "コンテストパス",
+    "en": "Contest Pass",
+    "fr": "Passe Concours",
+    "it": "Tessera Gare",
+    "de": "Wettbewerbskarte",
+    "es": "Pase Concurso",
+    "ko": "콘테스트패스",
+    "zh-CN": "华丽大赛参加证",
+    "zh-TW": "華麗大賽參加證"
+  },
+  "flavor_text_entries": {
+    "ja": "持っていれば　ポケモンコンテストに 参加することが　できる。 記念リボンが　描かれている。",
+    "kana": "もっていれば　ポケモンコンテストに さんか　することが　できる。 きねんリボンが　かかれている。",
+    "en": "A pass required for entering Pokémon Contests. It has a drawing of an award ribbon on its front.",
+    "fr": "La carte requise pour participer aux Concours Pokémon. Il y a un ruban dessiné dessus.",
+    "it": "Tessera necessaria per partecipare alle Gare Pokémon. Riporta il disegno di un fiocco.",
+    "de": "Ausweis zur Teilnahme an Pokémon-Wettbewerben. Die Zeichnung eines Bandes ist aufgedruckt.",
+    "es": "Es necesario para participar en Concursos Pokémon. Tiene una cinta de ganador dibujada.",
+    "ko": "지니고 있으면 포켓몬 콘테스트에 참가할 수 있다. 기념리본이 그려져 있다.",
+    "zh-CN": "拿着它就可以参加宝可梦华丽大赛。 上面印有纪念奖章。",
+    "zh-TW": "拿著它就可以參加 寶可夢華麗大賽。 上面印有紀念獎章。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ausweis zur Teilnahme an Pokémon- Wettbewerben. Die Zeichnung eines Bandes ist aufgedruckt."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "names": {
+          "de": "Wettb.-Karte"
+        },
+        "flavor_text_entries": {
+          "es": "Es necesario para participar en Concursos Pokémon. Tiene una Cinta de ganador dibujada.",
+          "ko": "지니고 있으면 포켓몬 콘테스트에 참가할 수 있다. 기념 리본이 그려져 있다."
+        }
+      }
+    }
+  ]
+}

@@ -2,34 +2,13 @@
   "id": 565,
   "name": "fell-stinger",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 25,
   "priority": 0,
-  "power": 30,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts regular damage.  Raises the user's Attack by two stages if it KOs the target.",
-      "short_effect": "Raises the user's Attack by two stages if it KOs the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "power": 50,
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Fell Stinger",
-      "language": "en"
-    },
-    {
-      "name": "Pungiglione",
-      "language": "it"
-    },
-    {
-      "name": "Aguijón Letal",
-      "language": "es"
-    },
-    {
-      "name": "Stachelfinale",
-      "language": "de"
-    },
-    {
-      "name": "Dard Mortel",
-      "language": "fr"
-    },
-    {
-      "name": "마지막일침",
-      "language": "ko"
-    },
-    {
-      "name": "とどめばり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "とどめばり",
+    "kana": "とどめばり",
+    "en": "Fell Stinger",
+    "fr": "Dard Mortel",
+    "it": "Pungiglione",
+    "de": "Stachelfinale",
+    "es": "Aguijón Letal",
+    "ko": "마지막일침",
+    "zh-CN": "致命针刺",
+    "zh-TW": "致命針刺"
   },
-  "type": {
-    "name": "bug"
-  }
+  "flavor_text_entries": {
+    "ja": "この　技を　使って 相手を　倒すと 攻撃が　ぐぐーんと　あがる。",
+    "kana": "この　わざを　つかって あいてを　たおすと こうげきが　ぐぐーんと　あがる。",
+    "en": "When the user knocks out a target with this move, the user’s Attack stat rises drastically.",
+    "fr": "Augmente beaucoup l’Attaque du lanceur si un ennemi est mis K.O. avec cette capacité.",
+    "it": "L’Attacco di chi la usa aumenta moltissimo se grazie alla mossa il bersaglio va KO.",
+    "de": "Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert drastisch.",
+    "es": "Si se derrota al objetivo utilizando este movimiento, aumenta muchísimo el Ataque del usuario.",
+    "ko": "이 기술을 사용하여 상대를 쓰러뜨리면 공격이 매우 크게 오른다.",
+    "zh-CN": "如果使用此招式打倒对手， 攻击会巨幅提高。",
+    "zh-TW": "使用此招式打倒對手時， 自己的攻擊會極大幅提高。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "power": 30,
+        "flavor_text_entries": {
+          "ja": "この　技を　使って 相手を　倒すと 攻撃が　ぐーんと　あがる。",
+          "kana": "この　わざを　つかって あいてを　たおすと こうげきが　ぐーんと　あがる。",
+          "en": "When the user knocks out a target with this move, the user’s Attack stat rises sharply.",
+          "fr": "Augmente fortement l’Attaque du lanceur si un ennemi est mis K.O. avec cette capacité.",
+          "it": "L’Attacco di chi la usa aumenta notevolmente se grazie alla mossa il bersaglio va KO.",
+          "de": "Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert stark.",
+          "es": "Al derrotar al objetivo utilizando este movimiento, aumenta mucho el Ataque del usuario.",
+          "ko": "이 기술을 사용하여 상대를 쓰러뜨리면 공격이 크게 오른다."
+        }
+      }
+    }
+  ]
 }

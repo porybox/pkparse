@@ -1,0 +1,38 @@
+{
+  "id": 734,
+  "name": "storage-key",
+  "names": {
+    "ja": "そうこのカギ",
+    "kana": "そうこのカギ",
+    "en": "Storage Key",
+    "fr": "Clé Stockage",
+    "it": "Chiave magazzino",
+    "de": "Lagerschlüssel",
+    "es": "Llave Almacén",
+    "ko": "창고열쇠",
+    "zh-CN": "仓库钥匙",
+    "zh-TW": "倉庫鑰匙"
+  },
+  "flavor_text_entries": {
+    "ja": "シーキンセツの　倉庫に 入るための　カギ。",
+    "kana": "シーキンセツの　そうこに はいる　ための　カギ。",
+    "en": "A key that opens the storage hold inside Sea Mauville.",
+    "fr": "La clé de la réserve de Lavandia Sea.",
+    "it": "Chiave per accedere al magazzino di Ciclamare.",
+    "de": "Ein Schlüssel, der in das Schloss des Lagerraums auf Seewoge Malvenfroh passt.",
+    "es": "Llave de acceso al almacén de Malvamar.",
+    "ko": "씨보라의 창고로 들어가기 위한 열쇠.",
+    "zh-CN": "进入海紫堇的仓库时 所需的钥匙。",
+    "zh-TW": "用於進入 海紫菫的房間的鑰匙。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Llave de acceso a una de las habitaciones de Malvamar."
+        }
+      }
+    }
+  ]
+}

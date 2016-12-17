@@ -2,34 +2,13 @@
   "id": 519,
   "name": "fire-pledge",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If a friendly Pokémon used []{move:water-pledge} earlier this turn, moves used by any friendly Pokémon have doubled effect chance for four turns (including this one).",
-      "short_effect": "With [Water Pledge]{move:water-pledge}, doubles the effect chance of friendly Pokémon's moves for four turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Fire Pledge",
-      "language": "en"
-    },
-    {
-      "name": "Fiammapatto",
-      "language": "it"
-    },
-    {
-      "name": "Voto Fuego",
-      "language": "es"
-    },
-    {
-      "name": "Feuersäulen",
-      "language": "de"
-    },
-    {
-      "name": "Aire de Feu",
-      "language": "fr"
-    },
-    {
-      "name": "불꽃의맹세",
-      "language": "ko"
-    },
-    {
-      "name": "ほのおのちかい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ほのおのちかい",
+    "kana": "ほのおのちかい",
+    "en": "Fire Pledge",
+    "fr": "Aire de Feu",
+    "it": "Fiammapatto",
+    "de": "Feuersäulen",
+    "es": "Voto Fuego",
+    "ko": "불꽃의맹세",
+    "zh-CN": "火之誓约",
+    "zh-TW": "火之誓約"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "炎の柱で　攻撃する。 くさと　組みあわせると　威力が あがって　周りが　火の海に　なる。",
+    "kana": "ほのおの　はしらで　こうげきする。 くさと　くみあわせると　いりょくが あがって　あたりが　ひの　うみに　なる。",
+    "en": "A column of fire hits the target. When used with its grass equivalent, its power increases and a vast sea of fire appears.",
+    "fr": "Une masse de feu s’abat sur l’ennemi. En l’utilisant avec Aire d’Herbe, l’effet augmente et une mer de feu apparaît.",
+    "it": "Attacca il bersaglio con una colonna di fuoco. Se usata con Erbapatto, gli effetti aumentano e il campo diventa un mare di fuoco.",
+    "de": "Ein Angriff mit Feuersäulen. Mit Pflanzensäulen kombiniert steigt die Wirkung und die Umgebung wird zu einem Meer aus Feuer.",
+    "es": "Ataca con columnas de fuego. Combinado con Voto Planta, crea un mar de llamas y aumenta su potencia.",
+    "ko": "불꽃기둥으로 공격한다. 풀과 조합하면 위력이 올라가고 주위가 불바다가 된다.",
+    "zh-CN": "用火柱进行攻击。 如果和草组合，威力就会提高， 周围会变成火海。",
+    "zh-TW": "用火柱進行攻擊。 和草之誓約同時使用時，威力會提高， 周圍會變成火海。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A column of fire hits the target. When used with its grass equivalent, its damage increases and a vast sea of fire appears.",
+          "de": "Ein Angriff mit Feuersäulen. Mit Pflanzsäulen kombiniert steigt die Wirkung und die Umgebung wird zu einem Meer aus Feuer."
+        }
+      }
+    }
+  ]
 }

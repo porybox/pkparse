@@ -2,48 +2,13 @@
   "id": 153,
   "name": "explosion",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 250,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "User [faint]{mechanic:faint}s, even if the attack [fail]{mechanic:fail}s or [miss]{mechanic:miss}es.  Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "User faints.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "Halves the target's [Defense]{mechanic:defense} for damage calculation, which is similar to doubling the attack's [power]{mechanic:power}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -55,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Explosion",
-      "language": "en"
-    },
-    {
-      "name": "Esplosione",
-      "language": "it"
-    },
-    {
-      "name": "Explosión",
-      "language": "es"
-    },
-    {
-      "name": "Explosion",
-      "language": "de"
-    },
-    {
-      "name": "Explosion",
-      "language": "fr"
-    },
-    {
-      "name": "대폭발",
-      "language": "ko"
-    },
-    {
-      "name": "だいばくはつ",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "だいばくはつ",
+    "kana": "だいばくはつ",
+    "en": "Explosion",
+    "fr": "Explosion",
+    "it": "Esplosione",
+    "de": "Explosion",
+    "es": "Explosión",
+    "ko": "대폭발",
+    "zh-CN": "大爆炸",
+    "zh-TW": "大爆炸"
+  },
+  "flavor_text_entries": {
+    "ja": "大きな　爆発で　自分の 周りに　いるものを　攻撃する。 使ったあとに　ひんしに　なる。",
+    "kana": "おおきな　ばくはつで　じぶんの まわりに　いるものを　こうげきする。 つかった　あとに　ひんしに　なる。",
+    "en": "The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.",
+    "fr": "Le lanceur explose et inflige des dégâts à tous les Pokémon autour de lui. Met K.O. le lanceur.",
+    "it": "Chi la usa esplode per infliggere danni agli altri Pokémon attorno, ma va KO.",
+    "de": "Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird selbst kampfunfähig.",
+    "es": "El atacante causa una grandísima explosión y hiere a todos a su alrededor. El usuario se debilita de inmediato.",
+    "ko": "큰 폭발로 자신의 주위에 있는 포켓몬을 공격한다. 쓰고 나서는 기절한다.",
+    "zh-CN": "引发大爆炸， 攻击自己周围所有的宝可梦。 使用后自己会陷入濒死。",
+    "zh-TW": "引起大爆炸， 攻擊自己周圍所有的寶可夢。 使用後自己會陷入瀕死。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "normal",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 170,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "gold-silver"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird besiegt."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-other-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  ]
 }

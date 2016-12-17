@@ -2,36 +2,13 @@
   "id": 147,
   "name": "spore",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Puts the target to [sleep]{mechanic:sleep}.",
-      "short_effect": "Puts the target to sleep.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "sleep"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "sleep",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Spore",
-      "language": "en"
-    },
-    {
-      "name": "Spora",
-      "language": "it"
-    },
-    {
-      "name": "Espora",
-      "language": "es"
-    },
-    {
-      "name": "Pilzspore",
-      "language": "de"
-    },
-    {
-      "name": "Spore",
-      "language": "fr"
-    },
-    {
-      "name": "버섯포자",
-      "language": "ko"
-    },
-    {
-      "name": "キノコのほうし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "キノコのほうし",
+    "kana": "キノコのほうし",
+    "en": "Spore",
+    "fr": "Spore",
+    "it": "Spora",
+    "de": "Pilzspore",
+    "es": "Espora",
+    "ko": "버섯포자",
+    "zh-CN": "蘑菇孢子",
+    "zh-TW": "蘑菇孢子"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "催眠効果の　ある 胞子を　パラパラと　ふりまき 相手を　眠り状態に　する。",
+    "kana": "さいみん　こうかの　ある ほうしを　パラパラと　ふりまき あいてを　ねむり　じょうたいに　する。",
+    "en": "The user scatters bursts of spores that induce sleep.",
+    "fr": "Le lanceur répand un nuage de spores qui endort.",
+    "it": "Nube di spore che fa sempre addormentare il bersaglio.",
+    "de": "Erzeugt eine Sporenwolke, die das Ziel in Schlaf versetzt.",
+    "es": "Esparce esporas que inducen al sueño.",
+    "ko": "최면 효과가 있는 포자를 훌훌 흩뿌려서 상대를 잠듦 상태로 만든다.",
+    "zh-CN": "沙沙沙地撒满具有 催眠效果的孢子， 从而让对手陷入睡眠状态。",
+    "zh-TW": "大把撒出有催眠效果的孢子， 讓對手陷入睡眠狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Erzeugt eine Wolke aus einschläfernden Sporen."
+        }
+      }
+    }
+  ]
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 41,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "blob"
   },
@@ -68,44 +60,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "キングドラ",
-      "language": "ja"
-    },
-    {
-      "name": "Kingdra",
-      "language": "roomaji"
-    },
-    {
-      "name": "킹드라",
-      "language": "ko"
-    },
-    {
-      "name": "刺龍王",
-      "language": "zh"
-    },
-    {
-      "name": "Hyporoi",
-      "language": "fr"
-    },
-    {
-      "name": "Seedraking",
-      "language": "de"
-    },
-    {
-      "name": "Kingdra",
-      "language": "es"
-    },
-    {
-      "name": "Kingdra",
-      "language": "it"
-    },
-    {
-      "name": "Kingdra",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "キングドラ",
+    "en": "Kingdra",
+    "fr": "Hyporoi",
+    "it": "Kingdra",
+    "de": "Seedraking",
+    "es": "Kingdra",
+    "ko": "킹드라"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -116,36 +79,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ドラゴン",
-      "language": "ja"
-    },
-    {
-      "genus": "드래곤",
-      "language": "ko"
-    },
-    {
-      "genus": "Dragon",
-      "language": "fr"
-    },
-    {
-      "genus": "Drache",
-      "language": "de"
-    },
-    {
-      "genus": "Dragón",
-      "language": "es"
-    },
-    {
-      "genus": "Drago",
-      "language": "it"
-    },
-    {
-      "genus": "Dragon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ドラゴン",
+    "en": "Dragon",
+    "fr": "Dragon",
+    "it": "Drago",
+    "de": "Drache",
+    "es": "Dragón",
+    "ko": "드래곤"
+  },
   "varieties": [
     {
       "is_default": true,

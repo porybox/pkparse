@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 89,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "plant"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "upright"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ユキノオー",
-      "language": "ja"
-    },
-    {
-      "name": "Yukinooh",
-      "language": "roomaji"
-    },
-    {
-      "name": "눈설왕",
-      "language": "ko"
-    },
-    {
-      "name": "暴雪王",
-      "language": "zh"
-    },
-    {
-      "name": "Blizzaroi",
-      "language": "fr"
-    },
-    {
-      "name": "Rexblisar",
-      "language": "de"
-    },
-    {
-      "name": "Abomasnow",
-      "language": "es"
-    },
-    {
-      "name": "Abomasnow",
-      "language": "it"
-    },
-    {
-      "name": "Abomasnow",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ユキノオー",
+    "en": "Abomasnow",
+    "fr": "Blizzaroi",
+    "it": "Abomasnow",
+    "de": "Rexblisar",
+    "es": "Abomasnow",
+    "ko": "눈설왕"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "じゅひょう",
-      "language": "ja"
-    },
-    {
-      "genus": "얼음나무",
-      "language": "ko"
-    },
-    {
-      "genus": "Arbregelé",
-      "language": "fr"
-    },
-    {
-      "genus": "Frostbaum",
-      "language": "de"
-    },
-    {
-      "genus": "Árbol Nieve",
-      "language": "es"
-    },
-    {
-      "genus": "Albergelo",
-      "language": "it"
-    },
-    {
-      "genus": "Frost Tree",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "じゅひょう",
+    "en": "Frost Tree",
+    "fr": "Arbregelé",
+    "it": "Albergelo",
+    "de": "Frostbaum",
+    "es": "Árbol Nieve",
+    "ko": "얼음나무"
+  },
   "varieties": [
     {
       "is_default": true,

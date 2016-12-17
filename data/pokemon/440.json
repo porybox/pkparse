@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 96,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "humanoid"
   },
@@ -49,44 +43,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ピンプク",
-      "language": "ja"
-    },
-    {
-      "name": "Pinpuku",
-      "language": "roomaji"
-    },
-    {
-      "name": "핑복",
-      "language": "ko"
-    },
-    {
-      "name": "好運蛋",
-      "language": "zh"
-    },
-    {
-      "name": "Ptiravi",
-      "language": "fr"
-    },
-    {
-      "name": "Wonneira",
-      "language": "de"
-    },
-    {
-      "name": "Happiny",
-      "language": "es"
-    },
-    {
-      "name": "Happiny",
-      "language": "it"
-    },
-    {
-      "name": "Happiny",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ピンプク",
+    "en": "Happiny",
+    "fr": "Ptiravi",
+    "it": "Happiny",
+    "de": "Wonneira",
+    "es": "Happiny",
+    "ko": "핑복"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -97,36 +62,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ままごと",
-      "language": "ja"
-    },
-    {
-      "genus": "소꿉놀이",
-      "language": "ko"
-    },
-    {
-      "genus": "Maisonjouet",
-      "language": "fr"
-    },
-    {
-      "genus": "Spielhaus",
-      "language": "de"
-    },
-    {
-      "genus": "Casita",
-      "language": "es"
-    },
-    {
-      "genus": "Ovettino",
-      "language": "it"
-    },
-    {
-      "genus": "Playhouse",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ままごと",
+    "en": "Playhouse",
+    "fr": "Maisonjouet",
+    "it": "Ovettino",
+    "de": "Spielhaus",
+    "es": "Casita",
+    "ko": "소꿉놀이"
+  },
   "varieties": [
     {
       "is_default": true,

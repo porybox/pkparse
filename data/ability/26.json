@@ -1,448 +1,52 @@
 {
   "id": 26,
   "name": "levitate",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "ふゆう",
+    "kana": "ふゆう",
+    "en": "Levitate",
+    "fr": "Lévitation",
+    "it": "Levitazione",
+    "de": "Schwebe",
+    "es": "Levitación",
+    "ko": "부유",
+    "zh-CN": "飘浮",
+    "zh-TW": "飄浮"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "地面から　浮くことによって じめんタイプの　技を　受けない。",
+    "kana": "じめんから　うくことによって じめんタイプの　わざを　うけない。",
+    "en": "By floating in the air, the Pokémon receives full immunity to all Ground-type moves.",
+    "fr": "Le Pokémon flotte, ce qui l’immunise contre les capacités de type Sol.",
+    "it": "La capacità di levitare senza toccare il suolo conferisce immunità agli attacchi di tipo Terra.",
+    "de": "Verleiht volle Immunität gegen alle Boden-Attacken durch Schwebezustand.",
+    "es": "Su capacidad de flotar sobre el suelo le proporciona inmunidad frente a los movimientos de tipo Tierra.",
+    "ko": "땅에서 뜨는 것으로 땅타입의 기술을 받지 않는다.",
+    "zh-CN": "从地面浮起， 从而不会受到地面属性招式的攻击。",
+    "zh-TW": "從地面浮起， 從而不會受到地面屬性招式的攻擊。"
+  },
+  "past_values": [
     {
-      "name": "Levitate",
-      "language": "en"
-    },
-    {
-      "name": "Levitazione",
-      "language": "it"
-    },
-    {
-      "name": "Levitación",
-      "language": "es"
-    },
-    {
-      "name": "Schwebe",
-      "language": "de"
-    },
-    {
-      "name": "Lévitation",
-      "language": "fr"
-    },
-    {
-      "name": "부유",
-      "language": "ko"
-    },
-    {
-      "name": "ふゆう",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon is immune to []{type:ground}-type moves, []{move:spikes}, []{move:toxic-spikes}, and []{ability:arena-trap}.\n\nThis ability is disabled during []{move:gravity} or []{move:ingrain}, or while holding an []{item:iron-ball}.  This ability is not disabled during []{move:roost}.",
-      "short_effect": "Evades []{type:ground} moves.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "じめんタイプの　技を\n受けない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Gives full immunity to all\nGround-type moves.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Conferisce immunità dagli attacchi\ndi tipo Terra.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Proporciona inmunidad frente a\nlos ataques de tipo Tierra.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Volle Immunität gegen\nalle Boden-Attacken.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Immunise contre toutes les\ncapacités de type Sol.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "땅타입의 기술을\n받지 않는다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "じめんタイプの　わざを\nうけない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Gives full immunity to all\nGround-type moves.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Gives full immunity to all\nGround-type moves.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Immunise contre toutes\nles capacités de type Sol.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Gives full immunity to all\nGround-type moves.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Gives full immunity to all\nGround-type moves.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Gives full immunity to all\nGround-type moves.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Not hit by GROUND attacks.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Not hit by GROUND attacks.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Not hit by GROUND attacks.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gastly"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "じめんタイプの　技を 受けない。",
+          "kana": "じめんタイプの　わざを うけない。",
+          "en": "Gives full immunity to all Ground-type moves.",
+          "fr": "Immunise contre toutes les capacités de type Sol.",
+          "it": "Conferisce immunità agli attacchi  di tipo Terra.",
+          "de": "Volle Immunität gegen alle Boden-Attacken.",
+          "es": "Proporciona inmunidad frente a los ataques de tipo Tierra.",
+          "ko": "땅타입의 기술을 받지 않는다."
+        }
       }
     },
     {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "haunter"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gengar"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "koffing"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "weezing"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "misdreavus"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "unown"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "vibrava"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "flygon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "lunatone"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "solrock"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "baltoy"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "claydol"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "duskull"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "chimecho"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "latias"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "latios"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "mismagius"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "chingling"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "bronzor"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "bronzong"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "carnivine"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "rotom"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "uxie"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "mesprit"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "azelf"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "cresselia"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "tynamo"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "eelektrik"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "eelektross"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "cryogonal"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "hydreigon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "giratina-origin"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "rotom-heat"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "rotom-wash"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "rotom-frost"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "rotom-fan"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "rotom-mow"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "latias-mega"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "latios-mega"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Conferisce immunità dagli attacchi di tipo Terra."
+        }
       }
     }
   ]

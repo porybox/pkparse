@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 144,
@@ -57,16 +55,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water2"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "fish"
   },
@@ -78,44 +70,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "テッポウオ",
-      "language": "ja"
-    },
-    {
-      "name": "Teppouo",
-      "language": "roomaji"
-    },
-    {
-      "name": "총어",
-      "language": "ko"
-    },
-    {
-      "name": "鐵砲魚",
-      "language": "zh"
-    },
-    {
-      "name": "Rémoraid",
-      "language": "fr"
-    },
-    {
-      "name": "Remoraid",
-      "language": "de"
-    },
-    {
-      "name": "Remoraid",
-      "language": "es"
-    },
-    {
-      "name": "Remoraid",
-      "language": "it"
-    },
-    {
-      "name": "Remoraid",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "テッポウオ",
+    "en": "Remoraid",
+    "fr": "Rémoraid",
+    "it": "Remoraid",
+    "de": "Remoraid",
+    "es": "Remoraid",
+    "ko": "총어"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -126,36 +89,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふんしゃ",
-      "language": "ja"
-    },
-    {
-      "genus": "분사",
-      "language": "ko"
-    },
-    {
-      "genus": "Jet",
-      "language": "fr"
-    },
-    {
-      "genus": "Hochdruck",
-      "language": "de"
-    },
-    {
-      "genus": "Reactor",
-      "language": "es"
-    },
-    {
-      "genus": "Jet",
-      "language": "it"
-    },
-    {
-      "genus": "Jet",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふんしゃ",
+    "en": "Jet",
+    "fr": "Jet",
+    "it": "Jet",
+    "de": "Hochdruck",
+    "es": "Reactor",
+    "ko": "분사"
+  },
   "varieties": [
     {
       "is_default": true,

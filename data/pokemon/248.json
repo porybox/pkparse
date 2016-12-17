@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 104,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "バンギラス",
-      "language": "ja"
-    },
-    {
-      "name": "Bangiras",
-      "language": "roomaji"
-    },
-    {
-      "name": "마기라스",
-      "language": "ko"
-    },
-    {
-      "name": "班吉拉",
-      "language": "zh"
-    },
-    {
-      "name": "Tyranocif",
-      "language": "fr"
-    },
-    {
-      "name": "Despotar",
-      "language": "de"
-    },
-    {
-      "name": "Tyranitar",
-      "language": "es"
-    },
-    {
-      "name": "Tyranitar",
-      "language": "it"
-    },
-    {
-      "name": "Tyranitar",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バンギラス",
+    "en": "Tyranitar",
+    "fr": "Tyranocif",
+    "it": "Tyranitar",
+    "de": "Despotar",
+    "es": "Tyranitar",
+    "ko": "마기라스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "よろい",
-      "language": "ja"
-    },
-    {
-      "genus": "갑옷",
-      "language": "ko"
-    },
-    {
-      "genus": "Armure",
-      "language": "fr"
-    },
-    {
-      "genus": "Panzer",
-      "language": "de"
-    },
-    {
-      "genus": "Coraza",
-      "language": "es"
-    },
-    {
-      "genus": "Armatura",
-      "language": "it"
-    },
-    {
-      "genus": "Armor",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "よろい",
+    "en": "Armor",
+    "fr": "Armure",
+    "it": "Armatura",
+    "de": "Panzer",
+    "es": "Coraza",
+    "ko": "갑옷"
+  },
   "varieties": [
     {
       "is_default": true,

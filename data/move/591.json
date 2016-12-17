@@ -2,34 +2,13 @@
   "id": 591,
   "name": "diamond-storm",
   "accuracy": 95,
-  "effect_chance": 50,
   "pp": 5,
   "priority": 0,
   "power": 100,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}. Has a $effect_chance% chance to raise the user's [Defense]{mechanic:defense} one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to raise the user's Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,58 @@
     "flinch_chance": 0,
     "stat_chance": 50
   },
-  "names": [
-    {
-      "name": "Diamond Storm",
-      "language": "en"
-    },
-    {
-      "name": "Diamantempesta",
-      "language": "it"
-    },
-    {
-      "name": "Torm. Diamantes",
-      "language": "es"
-    },
-    {
-      "name": "Diamantsturm",
-      "language": "de"
-    },
-    {
-      "name": "Orage Adamantin",
-      "language": "fr"
-    },
-    {
-      "name": "다이아스톰",
-      "language": "ko"
-    },
-    {
-      "name": "ダイヤストーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ダイヤストーム",
+    "kana": "ダイヤストーム",
+    "en": "Diamond Storm",
+    "fr": "Orage Adamantin",
+    "it": "Diamantempesta",
+    "de": "Diamantsturm",
+    "es": "Torm. Diamantes",
+    "ko": "다이아스톰",
+    "zh-CN": "钻石风暴",
+    "zh-TW": "鑽石風暴"
+  },
+  "flavor_text_entries": {
+    "ja": "ダイヤの　嵐を　巻き起こし ダメージを　与える。　自分の 防御を　ぐーんと　あげることが　ある。",
+    "kana": "ダイヤの　あらしを　まきおこし ダメージを　あたえる。　じぶんの ぼうぎょを　ぐーんと　あげることが　ある。",
+    "en": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also sharply raise the user’s Defense stat.",
+    "fr": "Provoque une tempête de diamants qui inflige des dégâts. Peut beaucoup augmenter la Défense du lanceur.",
+    "it": "Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare di molto la Difesa di chi la usa.",
+    "de": "Der Anwender beschwört einen zerstörerischen Diamantsturm herauf. Kann die Verteidigung des Anwenders stark erhöhen.",
+    "es": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar mucho la Defensa del usuario.",
+    "ko": "다이아 폭풍을 일으켜 데미지를 준다. 자신의 방어를 크게 올릴 때가 있다.",
+    "zh-CN": "掀起钻石风暴给予伤害。 有时会大幅提高自己的防御。",
+    "zh-TW": "吹起鑽石風暴給予對手傷害。 有時會大幅提高自己的防禦。"
+  },
   "stat_changes": [
     {
-      "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "change": 2,
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "rock"
-  }
+  "target": "all-opponents",
+  "type": "rock",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ダイヤの　嵐を　巻き起こし ダメージを　与える。　自分の 防御を　あげることが　ある。",
+          "kana": "ダイヤの　あらしを　まきおこし ダメージを　あたえる。　じぶんの ぼうぎょを　あげることが　ある。",
+          "en": "The user whips up a storm of diamonds to damage opposing Pokémon. This may also raise the user’s Defense stat.",
+          "fr": "Provoque une tempête de diamants qui inflige des dégâts. Peut augmenter la Défense du lanceur.",
+          "it": "Colpisce i nemici che ha intorno con una tempesta di diamanti. Può anche aumentare la Difesa di chi la usa.",
+          "de": "Der Anwender beschwört einen zerstörerischen Diamantsturm herauf. Kann die Verteidigung des Anwenders erhöhen.",
+          "es": "Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar la Defensa del usuario.",
+          "ko": "다이아 폭풍을 일으켜 데미지를 준다. 자신의 방어를 올릴 때가 있다."
+        },
+        "stat_changes": [
+          {
+            "change": 1
+          }
+        ]
+      }
+    }
+  ]
 }

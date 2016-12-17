@@ -1,0 +1,50 @@
+{
+  "id": 377,
+  "name": "tm50",
+  "names": {
+    "ja": "わざマシン５０",
+    "kana": "わざマシン５０",
+    "en": "TM50",
+    "fr": "CT50",
+    "it": "MT50",
+    "de": "TM50",
+    "es": "MT50",
+    "ko": "기술머신50",
+    "zh-CN": "招式学习器５０",
+    "zh-TW": "招式學習器５０"
+  },
+  "flavor_text_entries": {
+    "ja": "フルパワーで　相手を　攻撃する。 使うと　反動で 自分の　特攻が　がくっと　さがる。",
+    "kana": "フルパワーで　あいてを　こうげきする。 つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+    "en": "The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+    "fr": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse beaucoup l’Attaque Spéciale du lanceur.",
+    "it": "Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.",
+    "de": "Angriff mit maximaler Kraft, der gleichzeitig den Spezial-Angriff des Angreifers stark senkt.",
+    "es": "Quien lo usa ataca con toda su fuerza, pero ve muy reducido su Ataque Especial.",
+    "ko": "풀 파워로 상대를 공격한다. 쓰면 반동으로 자신의 특수공격이 크게 떨어진다.",
+    "zh-CN": "使出全部力量攻击对手。 使用之后会因为反作用力， 自己的特攻大幅降低。",
+    "zh-TW": "釋放全部能量攻擊對手。 使用後因為反作用力， 自己的特攻會大幅降低。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "フルパワーで　ほのおの　こうげき。 つかったあと　じぶんの　とくこうは がくっと　さがる。",
+          "fr": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse fortement l’Attaque Spéciale du lanceur.",
+          "de": "Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers stark senkt.",
+          "ko": "풀 파워로 불꽃 공격을 한다. 사용한 뒤 자신의 특수공격이 크게 떨어진다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse énormément l’Attaque Spéciale du lanceur.",
+          "de": "Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt."
+        }
+      }
+    }
+  ]
+}

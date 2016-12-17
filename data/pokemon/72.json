@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 25,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "tentacles"
   },
@@ -81,44 +75,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "メノクラゲ",
-      "language": "ja"
-    },
-    {
-      "name": "Menokurage",
-      "language": "roomaji"
-    },
-    {
-      "name": "왕눈해",
-      "language": "ko"
-    },
-    {
-      "name": "瑪瑙水母",
-      "language": "zh"
-    },
-    {
-      "name": "Tentacool",
-      "language": "fr"
-    },
-    {
-      "name": "Tentacha",
-      "language": "de"
-    },
-    {
-      "name": "Tentacool",
-      "language": "es"
-    },
-    {
-      "name": "Tentacool",
-      "language": "it"
-    },
-    {
-      "name": "Tentacool",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "メノクラゲ",
+    "en": "Tentacool",
+    "fr": "Tentacool",
+    "it": "Tentacool",
+    "de": "Tentacha",
+    "es": "Tentacool",
+    "ko": "왕눈해"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -129,36 +94,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くらげ",
-      "language": "ja"
-    },
-    {
-      "genus": "해파리",
-      "language": "ko"
-    },
-    {
-      "genus": "Mollusque",
-      "language": "fr"
-    },
-    {
-      "genus": "Qualle",
-      "language": "de"
-    },
-    {
-      "genus": "Medusa",
-      "language": "es"
-    },
-    {
-      "genus": "Medusa",
-      "language": "it"
-    },
-    {
-      "genus": "Jellyfish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くらげ",
+    "en": "Jellyfish",
+    "fr": "Mollusque",
+    "it": "Medusa",
+    "de": "Qualle",
+    "es": "Medusa",
+    "ko": "해파리"
+  },
   "varieties": [
     {
       "is_default": true,

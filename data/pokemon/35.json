@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 89,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "upright"
   },
@@ -77,44 +71,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ピッピ",
-      "language": "ja"
-    },
-    {
-      "name": "Pippi",
-      "language": "roomaji"
-    },
-    {
-      "name": "삐삐",
-      "language": "ko"
-    },
-    {
-      "name": "皮皮",
-      "language": "zh"
-    },
-    {
-      "name": "Mélofée",
-      "language": "fr"
-    },
-    {
-      "name": "Piepi",
-      "language": "de"
-    },
-    {
-      "name": "Clefairy",
-      "language": "es"
-    },
-    {
-      "name": "Clefairy",
-      "language": "it"
-    },
-    {
-      "name": "Clefairy",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ピッピ",
+    "en": "Clefairy",
+    "fr": "Mélofée",
+    "it": "Clefairy",
+    "de": "Piepi",
+    "es": "Clefairy",
+    "ko": "삐삐"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -125,36 +90,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ようせい",
-      "language": "ja"
-    },
-    {
-      "genus": "요정",
-      "language": "ko"
-    },
-    {
-      "genus": "Fée",
-      "language": "fr"
-    },
-    {
-      "genus": "Fee",
-      "language": "de"
-    },
-    {
-      "genus": "Hada",
-      "language": "es"
-    },
-    {
-      "genus": "Fata",
-      "language": "it"
-    },
-    {
-      "genus": "Fairy",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ようせい",
+    "en": "Fairy",
+    "fr": "Fée",
+    "it": "Fata",
+    "de": "Fee",
+    "es": "Hada",
+    "ko": "요정"
+  },
   "varieties": [
     {
       "is_default": true,

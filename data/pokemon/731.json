@@ -1,0 +1,45 @@
+{
+  "id": 731,
+  "name": "pikipek",
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "color": "black",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ツツケラ",
+    "en": "Pikipek",
+    "fr": "Picassaut",
+    "it": "Pikipek",
+    "de": "Peppeck",
+    "es": "Pikipek",
+    "ko": "콕코구리"
+  },
+  "genera": {
+    "ja": "きつつき",
+    "en": "Woodpecker",
+    "fr": "Pivert",
+    "it": "Picchio",
+    "de": "Specht",
+    "es": "Carpintero",
+    "ko": "딱따구리"
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 75,
+    "defense": 30,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 65
+  }
+}

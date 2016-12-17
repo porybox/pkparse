@@ -1,0 +1,38 @@
+{
+  "id": 626,
+  "name": "xtransceiver",
+  "names": {
+    "ja": "ライブキャスター",
+    "kana": "ライブキャスター",
+    "en": "Xtransceiver",
+    "fr": "Vokit",
+    "it": "Interpoké",
+    "de": "Viso-Caster",
+    "es": "Videomisor",
+    "ko": "라이브캐스터",
+    "zh-CN": "即时通讯器",
+    "zh-TW": "即時通訊器"
+  },
+  "flavor_text_entries": {
+    "ja": "最大４人で　通話ができる テレビカメラ機能つきの 最新型トランシーバー。",
+    "kana": "さいだい　４にんで　つうわができる テレビカメラきのうつきの さいしんがた　トランシーバー。",
+    "en": "A high-tech transceiver with a camera function. It allows up to four-way calls.",
+    "fr": "Un transmetteur high-tech permettant à quatre personnes de communiquer par le son et l’image.",
+    "it": "Ricetrasmittente all’avanguardia che permette di fare videochiamate con un gruppo massimo di quattro persone.",
+    "de": "Ein hochmodernes Gerät, mit dem bis zu vier Personen miteinander kommunizieren können. Es ermöglicht sogar Video-Chat!",
+    "es": "Comunicador de alta tecnología con cámara que permite hablar a cuatro personas a la vez.",
+    "ko": "영상 통화 기능이 내장된 최신식 무전기. 최대 4명이 동시에 통화할 수 있다.",
+    "zh-CN": "带摄像头功能， 最多能让４人进行通话的 最新型对讲机。",
+    "zh-TW": "附影像鏡頭功能， 最多能讓４人進行通話的 最新型對講機。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ein hochmodernes Gerät, mit dem bis zu 4 Personen miteinander kommunizieren können. Es ermöglicht sogar Video-Chat!"
+        }
+      }
+    }
+  ]
+}

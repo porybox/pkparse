@@ -2,48 +2,13 @@
   "id": 16,
   "name": "gust",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 35,
   "priority": 0,
   "power": 40,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.\n\nIf the target is under the effect of []{move:bounce}, []{move:fly}, or []{move:sky-drop}, this move will hit with double power.",
-      "short_effect": "Inflicts regular damage and can hit Pokémon in the air.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Does not hit Pokémon under the effects of []{move:fly}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -55,63 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Gust",
-      "language": "en"
-    },
-    {
-      "name": "Raffica",
-      "language": "it"
-    },
-    {
-      "name": "Tornado",
-      "language": "es"
-    },
-    {
-      "name": "Windstoß",
-      "language": "de"
-    },
-    {
-      "name": "Tornade",
-      "language": "fr"
-    },
-    {
-      "name": "바람일으키기",
-      "language": "ko"
-    },
-    {
-      "name": "かぜおこし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [
-        {
-          "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-          "short_effect": "Inflicts regular damage with no additional effect.",
-          "language": "en"
-        }
-      ],
-      "type": {
-        "name": "normal"
-      },
-      "version_group": {
-        "name": "gold-silver"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "かぜおこし",
+    "kana": "かぜおこし",
+    "en": "Gust",
+    "fr": "Tornade",
+    "it": "Raffica",
+    "de": "Windstoß",
+    "es": "Tornado",
+    "ko": "바람일으키기",
+    "zh-CN": "起风",
+    "zh-TW": "起風"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "翼で　おこした　激しい　風を 相手に　ぶつけて　攻撃する。",
+    "kana": "つばさで　おこした　はげしい　かぜを あいてに　ぶつけて　こうげきする。",
+    "en": "A gust of wind is whipped up by wings and launched at the target to inflict damage.",
+    "fr": "Le lanceur bat des ailes pour générer une bourrasque qui blesse l’ennemi.",
+    "it": "Infligge danni al bersaglio con una folata di vento sollevata dalle ali.",
+    "de": "Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.",
+    "es": "Crea un tornado con las alas y lo lanza contra el objetivo.",
+    "ko": "날개로 일으킨 격한 바람을 상대에게 부딪쳐서 공격한다.",
+    "zh-CN": "用翅膀将刮起的狂风 袭向对手进行攻击。",
+    "zh-TW": "用翅膀刮起狂風， 吹向對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying"
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 121,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "ball"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ホイーガ",
-      "language": "ja"
-    },
-    {
-      "name": "휠구",
-      "language": "ko"
-    },
-    {
-      "name": "Scobolide",
-      "language": "fr"
-    },
-    {
-      "name": "Rollum",
-      "language": "de"
-    },
-    {
-      "name": "Whirlipede",
-      "language": "es"
-    },
-    {
-      "name": "Whirlipede",
-      "language": "it"
-    },
-    {
-      "name": "Whirlipede",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ホイーガ",
+    "en": "Whirlipede",
+    "fr": "Scobolide",
+    "it": "Whirlipede",
+    "de": "Rollum",
+    "es": "Whirlipede",
+    "ko": "휠구"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "まゆムカデ",
-      "language": "ja"
-    },
-    {
-      "genus": "눈썹지네",
-      "language": "ko"
-    },
-    {
-      "genus": "Coconplopode",
-      "language": "fr"
-    },
-    {
-      "genus": "Kokonfüßer",
-      "language": "de"
-    },
-    {
-      "genus": "Pupaciempiés",
-      "language": "es"
-    },
-    {
-      "genus": "Rotopede",
-      "language": "it"
-    },
-    {
-      "genus": "Curlipede",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "まゆムカデ",
+    "en": "Curlipede",
+    "fr": "Coconplopode",
+    "it": "Rotopede",
+    "de": "Kokonfüßer",
+    "es": "Pupaciempiés",
+    "ko": "눈썹지네"
+  },
   "varieties": [
     {
       "is_default": true,

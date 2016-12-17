@@ -1,0 +1,38 @@
+{
+  "id": 406,
+  "name": "tm79",
+  "names": {
+    "ja": "わざマシン７９",
+    "kana": "わざマシン７９",
+    "en": "TM79",
+    "fr": "CT79",
+    "it": "MT79",
+    "de": "TM79",
+    "es": "MT79",
+    "ko": "기술머신79",
+    "zh-CN": "招式学习器７９",
+    "zh-TW": "招式學習器７９"
+  },
+  "flavor_text_entries": {
+    "ja": "冷たい　息を 相手に　吹きつけて　攻撃する。 必ず　急所に　当たる。",
+    "kana": "つめたい　いきを あいてに　ふきつけて　こうげきする。 かならず　きゅうしょに　あたる。",
+    "en": "The user blows its cold breath on the target. This attack always results in a critical hit.",
+    "fr": "Un souffle froid blesse l’ennemi. L’effet est toujours critique.",
+    "it": "Chi la usa attacca il bersaglio con un soffio d’aria gelida. Brutto colpo assicurato.",
+    "de": "Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.",
+    "es": "Quien lo usa ataca lanzando un aliento gélido. Siempre asesta un golpe crítico.",
+    "ko": "차가운 숨결을 상대에게 내뿜어 공격한다. 반드시 급소에 맞는다.",
+    "zh-CN": "将冰冷的气息 吹向对手进行攻击。 必定会击中要害。",
+    "zh-TW": "將冰冷的氣息 吹向對手進行攻擊。 必定會擊中要害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Quien lo usa ataca lanzando un aliento gélido. Siempre resulta en un golpe crítico."
+        }
+      }
+    }
+  ]
+}

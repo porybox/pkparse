@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 6,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -47,44 +41,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "バシャーモ",
-      "language": "ja"
-    },
-    {
-      "name": "Bursyamo",
-      "language": "roomaji"
-    },
-    {
-      "name": "번치코",
-      "language": "ko"
-    },
-    {
-      "name": "火焰雞",
-      "language": "zh"
-    },
-    {
-      "name": "Braségali",
-      "language": "fr"
-    },
-    {
-      "name": "Lohgock",
-      "language": "de"
-    },
-    {
-      "name": "Blaziken",
-      "language": "es"
-    },
-    {
-      "name": "Blaziken",
-      "language": "it"
-    },
-    {
-      "name": "Blaziken",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バシャーモ",
+    "en": "Blaziken",
+    "fr": "Braségali",
+    "it": "Blaziken",
+    "de": "Lohgock",
+    "es": "Blaziken",
+    "ko": "번치코"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -95,36 +60,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "もうか",
-      "language": "ja"
-    },
-    {
-      "genus": "맹화",
-      "language": "ko"
-    },
-    {
-      "genus": "Ardent",
-      "language": "fr"
-    },
-    {
-      "genus": "Großbrand",
-      "language": "de"
-    },
-    {
-      "genus": "Llameante",
-      "language": "es"
-    },
-    {
-      "genus": "Vampe",
-      "language": "it"
-    },
-    {
-      "genus": "Blaze",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "もうか",
+    "en": "Blaze",
+    "fr": "Ardent",
+    "it": "Vampe",
+    "de": "Großbrand",
+    "es": "Llameante",
+    "ko": "맹화"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 3,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -56,44 +48,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "メガニウム",
-      "language": "ja"
-    },
-    {
-      "name": "Meganium",
-      "language": "roomaji"
-    },
-    {
-      "name": "메가니움",
-      "language": "ko"
-    },
-    {
-      "name": "大菊花",
-      "language": "zh"
-    },
-    {
-      "name": "Méganium",
-      "language": "fr"
-    },
-    {
-      "name": "Meganie",
-      "language": "de"
-    },
-    {
-      "name": "Meganium",
-      "language": "es"
-    },
-    {
-      "name": "Meganium",
-      "language": "it"
-    },
-    {
-      "name": "Meganium",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "メガニウム",
+    "en": "Meganium",
+    "fr": "Méganium",
+    "it": "Meganium",
+    "de": "Meganie",
+    "es": "Meganium",
+    "ko": "메가니움"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -104,36 +67,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ハーブ",
-      "language": "ja"
-    },
-    {
-      "genus": "허브",
-      "language": "ko"
-    },
-    {
-      "genus": "Herbe",
-      "language": "fr"
-    },
-    {
-      "genus": "Kräuter",
-      "language": "de"
-    },
-    {
-      "genus": "Hierba",
-      "language": "es"
-    },
-    {
-      "genus": "Erbe",
-      "language": "it"
-    },
-    {
-      "genus": "Herb",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ハーブ",
+    "en": "Herb",
+    "fr": "Herbe",
+    "it": "Erbe",
+    "de": "Kräuter",
+    "es": "Hierba",
+    "ko": "허브"
+  },
   "varieties": [
     {
       "is_default": true,

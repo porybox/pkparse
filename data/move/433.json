@@ -2,36 +2,13 @@
   "id": 433,
   "name": "trick-room",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": -7,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "For five turns (including this one), slower Pokémon will act before faster Pokémon.  Move priority is not affected.  Using this move when its effect is already active will end the effect.\n\nPokémon holding []{item:full-incense}, []{item:lagging-tail}, or []{item:quick-claw} and Pokémon with []{ability:stall} ignore this effect.",
-      "short_effect": "For five turns, slower Pokémon will act before faster Pokémon.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Trick Room",
-      "language": "en"
-    },
-    {
-      "name": "Distortozona",
-      "language": "it"
-    },
-    {
-      "name": "Espacio Raro",
-      "language": "es"
-    },
-    {
-      "name": "Bizarroraum",
-      "language": "de"
-    },
-    {
-      "name": "Distorsion",
-      "language": "fr"
-    },
-    {
-      "name": "트릭룸",
-      "language": "ko"
-    },
-    {
-      "name": "トリックルーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "トリックルーム",
+    "kana": "トリックルーム",
+    "en": "Trick Room",
+    "fr": "Distorsion",
+    "it": "Distortozona",
+    "de": "Bizarroraum",
+    "es": "Espacio Raro",
+    "ko": "트릭룸",
+    "zh-CN": "戏法空间",
+    "zh-TW": "戲法空間"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "まか不思議な　空間を　つくる。 ５ターンの　間 遅い　ポケモンから　行動できる。",
+    "kana": "まかふしぎな　くうかんを　つくる。 ５ターンの　あいだ おそい　ポケモンから　こうどう　できる。",
+    "en": "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
+    "fr": "Le lanceur crée une zone étrange où les Pokémon les plus lents frappent en priorité pendant cinq tours.",
+    "it": "Chi la usa crea una dimensione in cui i Pokémon più lenti agiscono per primi per cinque turni.",
+    "de": "Anwender erzeugt einen bizarren Raum, in dem langsame Pokémon fünf Runden lang zuerst agieren.",
+    "es": "Se crea un espacio extraño en el que los Pokémon lentos se mueven primero durante cinco turnos.",
+    "ko": "이상한 공간을 만든다. 5턴 동안 느린 포켓몬부터 행동할 수 있다.",
+    "zh-CN": "制造出离奇的空间。 在５回合内 速度慢的宝可梦可以先行动。",
+    "zh-TW": "創造出非常不可思議的空間。 在５回合內， 速度慢的寶可夢可以先行動。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "まか不思議な　空間を　つくる。 ５ターンの　あいだ 遅い　ポケモンから　行動できる。",
+          "fr": "Le lanceur crée une zone étrange où les Pokémon les plus lents frappent en premier pendant cinq tours."
+        }
+      }
+    }
+  ]
 }

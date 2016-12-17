@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 7,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ワニノコ",
-      "language": "ja"
-    },
-    {
-      "name": "Waninoko",
-      "language": "roomaji"
-    },
-    {
-      "name": "리아코",
-      "language": "ko"
-    },
-    {
-      "name": "小鋸鱷",
-      "language": "zh"
-    },
-    {
-      "name": "Kaiminus",
-      "language": "fr"
-    },
-    {
-      "name": "Karnimani",
-      "language": "de"
-    },
-    {
-      "name": "Totodile",
-      "language": "es"
-    },
-    {
-      "name": "Totodile",
-      "language": "it"
-    },
-    {
-      "name": "Totodile",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ワニノコ",
+    "en": "Totodile",
+    "fr": "Kaiminus",
+    "it": "Totodile",
+    "de": "Karnimani",
+    "es": "Totodile",
+    "ko": "리아코"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おおあご",
-      "language": "ja"
-    },
-    {
-      "genus": "큰턱",
-      "language": "ko"
-    },
-    {
-      "genus": "Mâchoire",
-      "language": "fr"
-    },
-    {
-      "genus": "Großmaul",
-      "language": "de"
-    },
-    {
-      "genus": "Fauces",
-      "language": "es"
-    },
-    {
-      "genus": "Mascellone",
-      "language": "it"
-    },
-    {
-      "genus": "Big Jaw",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おおあご",
+    "en": "Big Jaw",
+    "fr": "Mâchoire",
+    "it": "Mascellone",
+    "de": "Großmaul",
+    "es": "Fauces",
+    "ko": "큰턱"
+  },
   "varieties": [
     {
       "is_default": true,

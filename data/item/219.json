@@ -1,0 +1,49 @@
+{
+  "id": 219,
+  "name": "mental-herb",
+  "names": {
+    "ja": "メンタルハーブ",
+    "kana": "メンタルハーブ",
+    "en": "Mental Herb",
+    "fr": "Herbe Mental",
+    "it": "Mentalerba",
+    "de": "Mentalkraut",
+    "es": "Hierba Mental",
+    "ko": "멘탈허브",
+    "zh-CN": "心灵香草",
+    "zh-TW": "心靈香草"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせた　ポケモンが　自由に 技を　だせなくなったときに １度だけ　回復する。",
+    "kana": "もたせた　ポケモンが　じゆうに わざを　だせなくなったときに いちどだけ　かいふくする。",
+    "en": "An item to be held by a Pokémon. The holder shakes off move-binding effects to move freely. It can be used only once.",
+    "fr": "Objet à tenir. Guérit de certaines attaques limitant le choix des capacités. Ne peut être utilisé qu’une fois.",
+    "it": "Strumento monouso che guarisce il Pokémon dalle condizioni che gli impediscono di usare le sue mosse.",
+    "de": "Ein Item, das von einem Pokémon getragen werden kann. Befreit den Träger einmalig von Effekten, die ihn vom Einsatz von Attacken abhalten.",
+    "es": "El Pokémon que la lleva se libera del efecto de movimientos que restringen sus acciones. Solo puede usarse una vez.",
+    "ko": "지니게 한 포켓몬은 헤롱헤롱 상태가 되었을 때 한 번만 회복한다.",
+    "zh-CN": "当携带它的宝可梦 无法自由使出招式时， 仅会回复１次。",
+    "zh-TW": "當攜帶它的寶可夢 無法自由使出招式時， 會僅回復１次。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ein Item, das einem Pokémon zum Tragen gegeben werden kann. Hilft einmalig bei eingeschränktem Handlungsspielraum."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.",
+          "fr": "Objet à tenir. Empêche le Pokémon de tomber amoureux. Ne peut être utilisé qu’une fois.",
+          "it": "Strumento monouso da dare a un Pokémon. Ne annulla l’infatuazione.",
+          "es": "El Pokémon que la lleva se libera del enamoramiento. Solo puede usarse una vez."
+        }
+      }
+    }
+  ]
+}

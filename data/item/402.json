@@ -1,0 +1,40 @@
+{
+  "id": 402,
+  "name": "tm75",
+  "names": {
+    "ja": "わざマシン７５",
+    "kana": "わざマシン７５",
+    "en": "TM75",
+    "fr": "CT75",
+    "it": "MT75",
+    "de": "TM75",
+    "es": "MT75",
+    "ko": "기술머신75",
+    "zh-CN": "招式学习器７５",
+    "zh-TW": "招式學習器７５"
+  },
+  "flavor_text_entries": {
+    "ja": "戦いの舞を　激しく　踊って 気合を　高める。 自分の　攻撃を　ぐーんと　あげる。",
+    "kana": "たたかいのまいを　はげしく　おどって きあいを　たかめる。 じぶんの　こうげきを　ぐーんと　あげる。",
+    "en": "A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.",
+    "fr": "Danse frénétique qui exalte l’esprit combatif. Augmente beaucoup l’Attaque du lanceur.",
+    "it": "Danza frenetica che incrementa lo spirito combattivo. Chi la usa aumenta di molto il suo Attacco.",
+    "de": "Ein wilder Tanz, der den Kampfgeist wecken soll. Der Angriffs-Wert des Anwenders wird stark erhöht.",
+    "es": "Danza frenética que eleva el espíritu combativo. Aumenta mucho el Ataque de quien lo usa.",
+    "ko": "싸움의 춤을 격렬하게 춰서 기세를 높인다. 자신의 공격을 크게 올린다.",
+    "zh-CN": "激烈地跳起战舞提高气势。 大幅提高自己的攻击。",
+    "zh-TW": "激烈地跳起戰舞提升氣勢。 大幅提高自己的攻擊。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "たたかいのまいを　はげしく　おどり きあいを　たかめる。　じぶんの こうげきを　ぐーんと　あげる。",
+          "it": "Danza frenetica che incrementa lo spirito combattivo. Chi la usa aumenta di molto il proprio Attacco.",
+          "de": "Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich."
+        }
+      }
+    }
+  ]
+}

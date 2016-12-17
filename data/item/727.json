@@ -1,0 +1,38 @@
+{
+  "id": 727,
+  "name": "scanner",
+  "names": {
+    "ja": "たんちき",
+    "kana": "たんちき",
+    "en": "Scanner",
+    "fr": "Scanner",
+    "it": "Scanner",
+    "de": "Scanner",
+    "es": "Escáner",
+    "ko": "탐지기",
+    "zh-CN": "探测器",
+    "zh-TW": "探測器"
+  },
+  "flavor_text_entries": {
+    "ja": "シーキンセツの　中で みつけた　道具。",
+    "kana": "シーキンセツの　なかで みつけた　どうぐ。",
+    "en": "A device found inside Sea Mauville.",
+    "fr": "Un objet trouvé à Lavandia Sea.",
+    "it": "Dispositivo trovato nella scogliera artificiale Ciclamare.",
+    "de": "Ein Gerät, das du in Seewoge Malvenfroh gefunden hast.",
+    "es": "Objeto hallado en el interior de Malvamar.",
+    "ko": "씨보라 안에서 발견한 도구.",
+    "zh-CN": "在海紫堇中 找到的道具。",
+    "zh-TW": "在海紫菫中 找到的道具。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "シーキンセツの　中で 見つけた　道具。"
+        }
+      }
+    }
+  ]
+}

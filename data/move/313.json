@@ -2,36 +2,13 @@
   "id": 313,
   "name": "fake-tears",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Special Defense by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Fake Tears",
-      "language": "en"
-    },
-    {
-      "name": "Falselacrime",
-      "language": "it"
-    },
-    {
-      "name": "Llanto Falso",
-      "language": "es"
-    },
-    {
-      "name": "Trugträne",
-      "language": "de"
-    },
-    {
-      "name": "Croco Larme",
-      "language": "fr"
-    },
-    {
-      "name": "거짓울음",
-      "language": "ko"
-    },
-    {
-      "name": "うそなき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "うそなき",
+    "kana": "うそなき",
+    "en": "Fake Tears",
+    "fr": "Croco Larme",
+    "it": "Falselacrime",
+    "de": "Trugträne",
+    "es": "Llanto Falso",
+    "ko": "거짓울음",
+    "zh-CN": "假哭",
+    "zh-TW": "假哭"
+  },
+  "flavor_text_entries": {
+    "ja": "ないた　ふりをして　涙を　流す。 こまらせる　ことで 相手の　特防を　がくっと　さげる。",
+    "kana": "ないた　ふりをして　なみだを　ながす。 こまらせる　ことで あいての　とくぼうを　がくっと　さげる。",
+    "en": "The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.",
+    "fr": "Le lanceur fait semblant de pleurer pour troubler l’ennemi et beaucoup baisser sa Défense Spéciale.",
+    "it": "Chi la usa inscena un pianto teatrale per commuovere il bersaglio. Ne riduce di molto la Difesa Speciale.",
+    "de": "Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.",
+    "es": "Lágrimas de cocodrilo que bajan mucho la Defensa Especial del objetivo.",
+    "ko": "우는 척을 하며 눈물을 흘린다. 난처하게 만들어 상대의 특수방어를 크게 떨어뜨린다.",
+    "zh-CN": "装哭流泪。 使对手不知所措， 从而大幅降低对手的特防。",
+    "zh-TW": "裝哭掉眼淚。 讓對手不知所措， 大幅降低對手的特防。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "dark"
-  }
+  "target": "selected-pokemon",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur fait semblant de pleurer pour troubler l’ennemi et baisser fortement sa Défense Spéciale."
+        }
+      }
+    }
+  ]
 }

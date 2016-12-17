@@ -1,0 +1,47 @@
+{
+  "id": 258,
+  "name": "thick-club",
+  "names": {
+    "ja": "ふといホネ",
+    "kana": "ふといホネ",
+    "en": "Thick Club",
+    "fr": "Masse Os",
+    "it": "Ossospesso",
+    "de": "Kampfknochen",
+    "es": "Hueso Grueso",
+    "ko": "굵은뼈",
+    "zh-CN": "粗骨头",
+    "zh-TW": "粗骨頭"
+  },
+  "flavor_text_entries": {
+    "ja": "なにかの　硬い　ホネ。 カラカラ　または　ガラガラに 持たせると　攻撃が　あがる。",
+    "kana": "なにかの　かたい　ホネ。 カラカラ　または　ガラガラに もたせると　こうげきが　あがる。",
+    "en": "An item to be held by Cubone or Marowak. It’s a hard bone of some sort that boosts the Attack stat.",
+    "fr": "Objet à faire tenir à Osselait ou Ossatueur. Un os dur qui augmente leur Attaque.",
+    "it": "Strumento da dare a Cubone o Marowak. Osso duro che migliora la potenza delle mosse fisiche.",
+    "de": "Ein harter Knochen, der den Angriffs-Wert von Tragosso oder Knogga erhöht, wenn sie ihn tragen.",
+    "es": "Un extraño tipo de hueso que potencia los ataques físicos de Cubone y Marowak cuando lo llevan.",
+    "ko": "무언가의 단단한 뼈. 탕구리 혹은 텅구리에게 지니게 하면 공격이 올라간다.",
+    "zh-CN": "某种坚硬的骨头。 让卡拉卡拉或嘎啦嘎啦携带后， 攻击就会提高。",
+    "zh-TW": "某種堅硬的骨頭。 讓卡拉卡拉或嘎啦嘎啦攜帶後， 攻擊就會提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An item to be held by Cubone or Marowak. It is a hard bone of some sort that boosts the Attack stat."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Strumento da dare a Cubone o Marowak. Osso duro che migliora l’Attacco.",
+          "es": "Un extraño tipo de hueso que potencia el Ataque. Deben llevarlo Cubone o Marowak."
+        }
+      }
+    }
+  ]
+}

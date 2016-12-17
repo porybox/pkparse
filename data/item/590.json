@@ -1,0 +1,40 @@
+{
+  "id": 590,
+  "name": "relic-crown",
+  "names": {
+    "ja": "こだいのおうかん",
+    "kana": "こだいのおうかん",
+    "en": "Relic Crown",
+    "fr": "Vieux Tortil",
+    "it": "Coronantica",
+    "de": "Alte Krone",
+    "es": "Corona Antigua",
+    "ko": "고대의왕관",
+    "zh-CN": "古代王冠",
+    "zh-TW": "古代王冠"
+  },
+  "flavor_text_entries": {
+    "ja": "３０００年ほど　昔の 文明で　つくられた　王冠。",
+    "kana": "３０００ねんほど　むかしの ぶんめいで　つくられた　おうかん。",
+    "en": "A heavy crown made by an ancient civilization about 3,000 years ago.",
+    "fr": "Une couronne d’une civilisation vieille de plus de 3 000 ans.",
+    "it": "Corona forgiata circa 3.000 anni fa da un’antica civiltà.",
+    "de": "Die Krone eines Königs, angefertigt von einer gut 3 000 Jahre alten Kultur.",
+    "es": "Corona de más de 3000 años de antigüedad.",
+    "ko": "3000년 정도 된 오랜 문명에서 만들어진 왕관.",
+    "zh-CN": "约３０００年前的 文明制造的王冠。",
+    "zh-TW": "距今約３０００年前的 文明裡製造的王冠。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Corona forgiata circa 3000 anni fa. da un’antica civiltà.",
+          "de": "Die Krone eines Königs, angefertigt von einer gut 3 000 Jahre alten Kultur.",
+          "es": "Corona de más de 3000 años de antigüedad. Muy valorada por los coleccionistas."
+        }
+      }
+    }
+  ]
+}

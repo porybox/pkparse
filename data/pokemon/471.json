@@ -9,9 +9,7 @@
   "hatch_counter": 35,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 84,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "グレイシア",
-      "language": "ja"
-    },
-    {
-      "name": "Glacia",
-      "language": "roomaji"
-    },
-    {
-      "name": "글레이시아",
-      "language": "ko"
-    },
-    {
-      "name": "冰精靈",
-      "language": "zh"
-    },
-    {
-      "name": "Givrali",
-      "language": "fr"
-    },
-    {
-      "name": "Glaziola",
-      "language": "de"
-    },
-    {
-      "name": "Glaceon",
-      "language": "es"
-    },
-    {
-      "name": "Glaceon",
-      "language": "it"
-    },
-    {
-      "name": "Glaceon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "グレイシア",
+    "en": "Glaceon",
+    "fr": "Givrali",
+    "it": "Glaceon",
+    "de": "Glaziola",
+    "es": "Glaceon",
+    "ko": "글레이시아"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しんせつ",
-      "language": "ja"
-    },
-    {
-      "genus": "신설",
-      "language": "ko"
-    },
-    {
-      "genus": "Poudreuse",
-      "language": "fr"
-    },
-    {
-      "genus": "Neuschnee",
-      "language": "de"
-    },
-    {
-      "genus": "Nieve Fresca",
-      "language": "es"
-    },
-    {
-      "genus": "Nevefresca",
-      "language": "it"
-    },
-    {
-      "genus": "Fresh Snow",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しんせつ",
+    "en": "Fresh Snow",
+    "fr": "Poudreuse",
+    "it": "Nevefresca",
+    "de": "Neuschnee",
+    "es": "Nieve Fresca",
+    "ko": "신설"
+  },
   "varieties": [
     {
       "is_default": true,

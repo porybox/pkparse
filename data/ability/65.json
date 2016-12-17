@@ -1,308 +1,52 @@
 {
   "id": 65,
   "name": "overgrow",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "しんりょく",
+    "kana": "しんりょく",
+    "en": "Overgrow",
+    "fr": "Engrais",
+    "it": "Erbaiuto",
+    "de": "Notdünger",
+    "es": "Espesura",
+    "ko": "심록",
+    "zh-CN": "茂盛",
+    "zh-TW": "茂盛"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "ＨＰが　減ったとき くさタイプの　技の 威力が　上がる。",
+    "kana": "ＨＰが　へったとき くさタイプの　わざの いりょくが　あがる。",
+    "en": "Powers up Grass-type moves when the Pokémon’s HP is low.",
+    "fr": "Augmente la puissance des capacités de type Plante du Pokémon quand il a perdu une certaine quantité de PV.",
+    "it": "Quando il Pokémon ha pochi PS, la potenza delle sue mosse di tipo Erba aumenta.",
+    "de": "Erhöht die Stärke von Pflanzen-Attacken, wenn die KP auf einen gewissen Wert fallen.",
+    "es": "Potencia los movimientos de tipo Planta del Pokémon cuando le quedan pocos PS.",
+    "ko": "HP가 줄었을 때 풀타입 기술의 위력이 올라간다.",
+    "zh-CN": "ＨＰ减少的时候， 草属性的招式威力会提高。",
+    "zh-TW": "ＨＰ減少的時候， 草屬性的招式威力會提高。"
+  },
+  "past_values": [
     {
-      "name": "Overgrow",
-      "language": "en"
-    },
-    {
-      "name": "Erbaiuto",
-      "language": "it"
-    },
-    {
-      "name": "Espesura",
-      "language": "es"
-    },
-    {
-      "name": "Notdünger",
-      "language": "de"
-    },
-    {
-      "name": "Engrais",
-      "language": "fr"
-    },
-    {
-      "name": "심록",
-      "language": "ko"
-    },
-    {
-      "name": "しんりょく",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "When this Pokémon has 1/3 or less of its [HP]{mechanic:hp} remaining, its []{type:grass}-type moves inflict 1.5× as much [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Strengthens []{type:grass} moves to inflict 1.5× damage at 1/3 max [HP]{mechanic:hp} or less.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "ピンチのとき　くさの\n威力が　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Powers up Grass-type moves\nwhen the Pokémon is in trouble.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Quando si è in difficoltà, potenzia\nle mosse di tipo Erba.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Potencia los ataques de tipo\nPlanta en un apuro.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Erhöht in Notfällen die Stärke\nvon Pflanzen-Attacken.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Booste les capacités Plante en\ncas de besoin.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "위급할 때 풀타입의\n위력이 올라간다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ピンチのとき　くさの\nいりょくが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Powers up Grass-type\nmoves in a pinch.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up Grass-type\nmoves in a pinch.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Booste les capacités\nPlante en cas de besoin.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Powers up Grass-type\nmoves in a pinch.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up Grass-type\nmoves in a pinch.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up Grass-type\nmoves in a pinch.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ups GRASS moves in a pinch.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ups GRASS moves in a pinch.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ups GRASS moves in a pinch.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "bulbasaur"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ピンチのとき　くさの 威力が　あがる。",
+          "kana": "ピンチのとき　くさの いりょくが　あがる。",
+          "en": "Powers up Grass-type moves when the Pokémon is in trouble.",
+          "fr": "Booste les capacités Plante en cas de besoin.",
+          "it": "Quando si è in difficoltà, potenzia   le mosse di tipo Erba.",
+          "de": "Erhöht in Notfällen die Stärke von Pflanzen-Attacken.",
+          "es": "Potencia los ataques de tipo Planta en un apuro.",
+          "ko": "위급할 때 풀타입의 위력이 올라간다."
+        }
       }
     },
     {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "ivysaur"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "venusaur"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "chikorita"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "bayleef"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "meganium"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "treecko"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "grovyle"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "sceptile"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "turtwig"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "grotle"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "torterra"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "snivy"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "servine"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "serperior"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "pansage"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "simisage"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "chespin"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "quilladin"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "chesnaught"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Quando si è in difficoltà, potenzia le mosse di tipo Erba."
+        }
       }
     }
   ]

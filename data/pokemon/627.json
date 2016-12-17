@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 169,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "wings"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ワシボン",
-      "language": "ja"
-    },
-    {
-      "name": "수리둥보",
-      "language": "ko"
-    },
-    {
-      "name": "Furaiglon",
-      "language": "fr"
-    },
-    {
-      "name": "Geronimatz",
-      "language": "de"
-    },
-    {
-      "name": "Rufflet",
-      "language": "es"
-    },
-    {
-      "name": "Rufflet",
-      "language": "it"
-    },
-    {
-      "name": "Rufflet",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ワシボン",
+    "en": "Rufflet",
+    "fr": "Furaiglon",
+    "it": "Rufflet",
+    "de": "Geronimatz",
+    "es": "Rufflet",
+    "ko": "수리둥보"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ヒナわし",
-      "language": "ja"
-    },
-    {
-      "genus": "새끼독수리",
-      "language": "ko"
-    },
-    {
-      "genus": "Aiglon",
-      "language": "fr"
-    },
-    {
-      "genus": "Adlerküken",
-      "language": "de"
-    },
-    {
-      "genus": "Aguilucho",
-      "language": "es"
-    },
-    {
-      "genus": "Aquilotto",
-      "language": "it"
-    },
-    {
-      "genus": "Eaglet",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ヒナわし",
+    "en": "Eaglet",
+    "fr": "Aiglon",
+    "it": "Aquilotto",
+    "de": "Adlerküken",
+    "es": "Aguilucho",
+    "ko": "새끼독수리"
+  },
   "varieties": [
     {
       "is_default": true,

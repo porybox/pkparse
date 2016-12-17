@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 76,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "heads"
   },
@@ -61,44 +55,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ミツハニー",
-      "language": "ja"
-    },
-    {
-      "name": "Mitsuhoney",
-      "language": "roomaji"
-    },
-    {
-      "name": "세꿀버리",
-      "language": "ko"
-    },
-    {
-      "name": "三蜜蜂",
-      "language": "zh"
-    },
-    {
-      "name": "Apitrini",
-      "language": "fr"
-    },
-    {
-      "name": "Wadribie",
-      "language": "de"
-    },
-    {
-      "name": "Combee",
-      "language": "es"
-    },
-    {
-      "name": "Combee",
-      "language": "it"
-    },
-    {
-      "name": "Combee",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ミツハニー",
+    "en": "Combee",
+    "fr": "Apitrini",
+    "it": "Combee",
+    "de": "Wadribie",
+    "es": "Combee",
+    "ko": "세꿀버리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -109,36 +74,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はちのこ",
-      "language": "ja"
-    },
-    {
-      "genus": "꼬마벌",
-      "language": "ko"
-    },
-    {
-      "genus": "Miniabeille",
-      "language": "fr"
-    },
-    {
-      "genus": "Kleinbiene",
-      "language": "de"
-    },
-    {
-      "genus": "Abejita",
-      "language": "es"
-    },
-    {
-      "genus": "Apetta",
-      "language": "it"
-    },
-    {
-      "genus": "Tiny Bee",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はちのこ",
+    "en": "Tiny Bee",
+    "fr": "Miniabeille",
+    "it": "Apetta",
+    "de": "Kleinbiene",
+    "es": "Abejita",
+    "ko": "꼬마벌"
+  },
   "varieties": [
     {
       "is_default": true,

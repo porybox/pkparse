@@ -1,0 +1,50 @@
+{
+  "id": 651,
+  "name": "subzero-slammer",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "レイジングジオフリーズ",
+    "kana": "レイジングジオフリーズ",
+    "en": "Subzero Slammer",
+    "fr": "Laser Cryogénique",
+    "it": "Criodistruzione Polare",
+    "de": "Tobender Geofrost",
+    "es": "Crioaliento Despiadado",
+    "ko": "레이징지오프리즈",
+    "zh-CN": "激狂大地万里冰",
+    "zh-TW": "激狂大地萬里冰"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ice"
+}

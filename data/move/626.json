@@ -1,0 +1,50 @@
+{
+  "id": 626,
+  "name": "supersonic-skystrike",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ファイナルダイブクラッシュ",
+    "kana": "ファイナルダイブクラッシュ",
+    "en": "Supersonic Skystrike",
+    "fr": "Piqué Supersonique",
+    "it": "Picchiata Devastante",
+    "de": "Finaler Steilflug",
+    "es": "Picado Supersónico",
+    "ko": "파이널다이브클래시",
+    "zh-CN": "极速俯冲轰烈撞",
+    "zh-TW": "極速俯衝轟烈撞"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　勢いよく　飛びあがり 相手に　向かって　全力で　落下。 元になった　技で　威力が　変わる。",
+    "kana": "Ｚパワーで　いきおいよく　とびあがり あいてに　むかって　ぜんりょくで　らっか。 もとになった　わざで　いりょくが　かわる。",
+    "en": "The user soars up with its Z-Power and plummets toward the target at full speed. The power varies, depending on the original move.",
+    "fr": "Le Pokémon utilise la Force Z pour s’envoler très haut dans le ciel avant de plonger sur l’adversaire. La puissance varie selon celle de la capacité originale.",
+    "it": "Chi la usa si serve del Potere Z per alzarsi in volo e attaccare il bersaglio piombandogli addosso. La potenza varia a seconda della mossa su cui si basa.",
+    "de": "Der Anwender schwingt sich durch Z-Kraft in die Lüfte und stürzt sich dann auf das Ziel hinab. Die Stärke variiert je nach zugrunde liegender Attacke.",
+    "es": "El usuario emplea el Poder Z para volar muy alto y abalanzarse en picado sobre el objetivo. Su potencia depende de la del movimiento original.",
+    "ko": "Z파워로 기세 좋게 날아올라 상대를 향해 전력으로 낙하한다. 원래 기술에 따라 위력이 변한다.",
+    "zh-CN": "通过Ｚ力量猛烈地飞向天空， 朝对手全力落下。 威力会根据原来的招式而改变。",
+    "zh-TW": "透過Ｚ力量猛烈地飛向天空， 向著對手全力墜下。 威力會隨原本的招式而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying"
+}

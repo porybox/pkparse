@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 69,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    },
-    {
-      "name": "plant"
-    }
+    "plant",
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "ball"
   },
@@ -58,68 +50,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "テッシード",
-      "language": "ja"
-    },
-    {
-      "name": "철시드",
-      "language": "ko"
-    },
-    {
-      "name": "Grindur",
-      "language": "fr"
-    },
-    {
-      "name": "Kastadur",
-      "language": "de"
-    },
-    {
-      "name": "Ferroseed",
-      "language": "es"
-    },
-    {
-      "name": "Ferroseed",
-      "language": "it"
-    },
-    {
-      "name": "Ferroseed",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "テッシード",
+    "en": "Ferroseed",
+    "fr": "Grindur",
+    "it": "Ferroseed",
+    "de": "Kastadur",
+    "es": "Ferroseed",
+    "ko": "철시드"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とげのみ",
-      "language": "ja"
-    },
-    {
-      "genus": "가시열매",
-      "language": "ko"
-    },
-    {
-      "genus": "Graine Épine",
-      "language": "fr"
-    },
-    {
-      "genus": "Dornfrucht",
-      "language": "de"
-    },
-    {
-      "genus": "Fruto Espina",
-      "language": "es"
-    },
-    {
-      "genus": "Spinaseme",
-      "language": "it"
-    },
-    {
-      "genus": "Thorn Seed",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とげのみ",
+    "en": "Thorn Seed",
+    "fr": "Graine Épine",
+    "it": "Spinaseme",
+    "de": "Dornfrucht",
+    "es": "Fruto Espina",
+    "ko": "가시열매"
+  },
   "varieties": [
     {
       "is_default": true,

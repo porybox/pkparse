@@ -2,49 +2,13 @@
   "id": 66,
   "name": "submission",
   "accuracy": 80,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 80,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "mind-reader"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/4 the damage it inflicts in recoil.",
-      "short_effect": "User receives 1/4 the damage it inflicts in recoil.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Submission",
-      "language": "en"
-    },
-    {
-      "name": "Sottomissione",
-      "language": "it"
-    },
-    {
-      "name": "Sumisión",
-      "language": "es"
-    },
-    {
-      "name": "Überroller",
-      "language": "de"
-    },
-    {
-      "name": "Sacrifice",
-      "language": "fr"
-    },
-    {
-      "name": "지옥의바퀴",
-      "language": "ko"
-    },
-    {
-      "name": "じごくぐるま",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "じごくぐるま",
+    "kana": "じごくぐるま",
+    "en": "Submission",
+    "fr": "Sacrifice",
+    "it": "Sottomissione",
+    "de": "Überroller",
+    "es": "Sumisión",
+    "ko": "지옥의바퀴",
+    "zh-CN": "地狱翻滚",
+    "zh-TW": "地獄翻滾"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "地面に　自分ごと 相手を　投げつけて　攻撃する。 自分も　少し　ダメージを　受ける。",
+    "kana": "じめんに　じぶんごと あいてを　なげつけて　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+    "en": "The user grabs the target and recklessly dives for the ground. This also damages the user a little.",
+    "fr": "Le lanceur agrippe l’ennemi et l’écrase au sol. Blesse aussi légèrement le lanceur.",
+    "it": "Chi la usa carica il bersaglio in modo spericolato, ma danneggia anche se stesso.",
+    "de": "Harte Körperattacke, bei der sich der Angreifer selbst leicht verletzt.",
+    "es": "El usuario se lanza al suelo con el oponente en brazos y también se hace un poco de daño.",
+    "ko": "땅에 자신과 함께 상대를 내던져 공격한다. 자신도 조금 데미지를 입는다.",
+    "zh-CN": "将对手连同自己一起 摔向地面进行攻击。 自己也会受到少许伤害。",
+    "zh-TW": "將對手連同自己一起 摔向地面進行攻擊。 自己也會受到少許傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Tira al objetivo al suelo. También hiere al agresor."
+        }
+      }
+    }
+  ]
 }

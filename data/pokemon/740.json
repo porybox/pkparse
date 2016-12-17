@@ -1,0 +1,45 @@
+{
+  "id": 740,
+  "name": "crabominable",
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water3"
+  ],
+  "color": "white",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ケケンカニ",
+    "en": "Crabominable",
+    "fr": "Crabominable",
+    "it": "Crabominable",
+    "de": "Krawell",
+    "es": "Crabominable",
+    "ko": "모단단게"
+  },
+  "genera": {
+    "ja": "けがに",
+    "en": "Woolly Crab",
+    "fr": "Crabe Velu",
+    "it": "Peligranchio",
+    "de": "Fellkrabbe",
+    "es": "Cangrejopelo",
+    "ko": "털게"
+  },
+  "types": [
+    "fighting",
+    "ice"
+  ],
+  "base_stats": {
+    "hp": 97,
+    "attack": 132,
+    "defense": 77,
+    "special-attack": 62,
+    "special-defense": 67,
+    "speed": 43
+  }
+}

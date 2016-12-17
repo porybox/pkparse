@@ -2,36 +2,13 @@
   "id": 70,
   "name": "strength",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Strength",
-      "language": "en"
-    },
-    {
-      "name": "Forza",
-      "language": "it"
-    },
-    {
-      "name": "Fuerza",
-      "language": "es"
-    },
-    {
-      "name": "Stärke",
-      "language": "de"
-    },
-    {
-      "name": "Force",
-      "language": "fr"
-    },
-    {
-      "name": "괴력",
-      "language": "ko"
-    },
-    {
-      "name": "かいりき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "かいりき",
+    "kana": "かいりき",
+    "en": "Strength",
+    "fr": "Force",
+    "it": "Forza",
+    "de": "Stärke",
+    "es": "Fuerza",
+    "ko": "괴력",
+    "zh-CN": "怪力",
+    "zh-TW": "怪力"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "こん身の　力で 相手を　なぐりつけて　攻撃する。",
+    "kana": "こんしんの　ちからで あいてを　なぐりつけて　こうげきする。",
+    "en": "The target is slugged with a punch thrown at maximum power.",
+    "fr": "Le lanceur cogne l’ennemi de toutes ses forces.",
+    "it": "Colpisce il bersaglio con un’enorme energia.",
+    "de": "Das Ziel wird extrem stark getroffen.",
+    "es": "Propina un potente puñetazo con todas sus fuerzas.",
+    "ko": "혼신의 힘으로 상대를 세게 때려서 공격한다.",
+    "zh-CN": "使出浑身力气 殴打对手进行攻击。",
+    "zh-TW": "使出渾身力量 毆打對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "こん身の　力で 相手を　なぐりつけて　攻撃する。 重たい　岩を　押すことも　できる。",
+          "kana": "こんしんの　ちからで あいてを　なぐりつけて　こうげきする。 おもたい　いわを　おすことも　できる。",
+          "en": "The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.",
+          "fr": "Le lanceur cogne l’ennemi de toutes ses forces. Permet aussi de déplacer des rochers.",
+          "it": "Colpisce il bersaglio con un’enorme energia. Fuori dalla lotta si usa per spostare i massi.",
+          "de": "Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich.",
+          "es": "Potente puñetazo. Fuera de combate sirve para mover rocas.",
+          "ko": "혼신의 힘으로 상대를 세게 때려서 공격한다. 무거운 돌을 밀 수도 있다."
+        }
+      }
+    }
+  ]
 }

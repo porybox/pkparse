@@ -1,0 +1,39 @@
+{
+  "id": 354,
+  "name": "tm27",
+  "names": {
+    "ja": "わざマシン２７",
+    "kana": "わざマシン２７",
+    "en": "TM27",
+    "fr": "CT27",
+    "it": "MT27",
+    "de": "TM27",
+    "es": "MT27",
+    "ko": "기술머신27",
+    "zh-CN": "招式学习器２７",
+    "zh-TW": "招式學習器２７"
+  },
+  "flavor_text_entries": {
+    "ja": "トレーナーの　ために　全力で 攻撃する。　なついて　いるほど 威力は　あがる。",
+    "kana": "トレーナーのために　ぜんりょくで こうげきする。　なついて　いるほど いりょくは　あがる。",
+    "en": "This full-power attack grows more powerful the more the user likes its Trainer.",
+    "fr": "Plus le Pokémon apprécie son Dresseur, plus la puissance de cette attaque furieuse augmente.",
+    "it": "Mossa che diventa tanto più potente quanto maggiore è il grado di affezione del Pokémon per il proprio Allenatore.",
+    "de": "Je beliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.",
+    "es": "Un ataque de gran potencia que resulta más fuerte cuanto mayor sea la amistad entre el Entrenador y el Pokémon que lo usa.",
+    "ko": "트레이너를 위해 전력으로 공격한다. 친밀할수록 위력이 올라간다.",
+    "zh-CN": "为了训练家而 全力攻击对手。 亲密度越高，威力越大。",
+    "zh-TW": "為了訓練家而 全力攻擊對手。 親密度越高，威力越大。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A full-power attack that grows more powerful the more the user likes its Trainer.",
+          "es": "Un ataque de gran potencia que resulta más fuerte cuanto más le guste el Entrenador al Pokémon que lo usa."
+        }
+      }
+    }
+  ]
+}

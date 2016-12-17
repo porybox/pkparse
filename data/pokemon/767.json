@@ -1,0 +1,46 @@
+{
+  "id": 767,
+  "name": "wimpod",
+  "gender_rate": 4,
+  "capture_rate": 90,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug",
+    "water3"
+  ],
+  "color": "gray",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "コソクムシ",
+    "en": "Wimpod",
+    "fr": "Sovkipou",
+    "it": "Wimpod",
+    "de": "Reißlaus",
+    "es": "Wimpod",
+    "ko": "꼬시레"
+  },
+  "genera": {
+    "ja": "そうこう",
+    "en": "Turn Tail",
+    "fr": "Cavaleur",
+    "it": "Lestopode",
+    "de": "Laufschritt",
+    "es": "Huidizo",
+    "ko": "주행"
+  },
+  "types": [
+    "bug",
+    "water"
+  ],
+  "base_stats": {
+    "hp": 25,
+    "attack": 35,
+    "defense": 40,
+    "special-attack": 20,
+    "special-defense": 30,
+    "speed": 80
+  }
+}

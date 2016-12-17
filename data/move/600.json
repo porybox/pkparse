@@ -2,34 +2,13 @@
   "id": 600,
   "name": "powder",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 1,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Explodes if the target uses a []{type:fire} move this turn, damaging it for 1/4 its max HP and preventing the move.",
-      "short_effect": "Explodes if the target uses a []{type:fire} move this turn, damaging it for 1/4 its max HP and preventing the move.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Powder",
-      "language": "en"
-    },
-    {
-      "name": "Pulviscoppio",
-      "language": "it"
-    },
-    {
-      "name": "Polvo Explosivo",
-      "language": "es"
-    },
-    {
-      "name": "Pulverschleuder",
-      "language": "de"
-    },
-    {
-      "name": "Nuée de Poudre",
-      "language": "fr"
-    },
-    {
-      "name": "분진",
-      "language": "ko"
-    },
-    {
-      "name": "ふんじん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ふんじん",
+    "kana": "ふんじん",
+    "en": "Powder",
+    "fr": "Nuée de Poudre",
+    "it": "Pulviscoppio",
+    "de": "Pulverschleuder",
+    "es": "Polvo Explosivo",
+    "ko": "분진",
+    "zh-CN": "粉尘",
+    "zh-TW": "粉塵"
   },
-  "type": {
-    "name": "bug"
-  }
+  "flavor_text_entries": {
+    "ja": "ふんじんを　浴びせた　相手が ほのお技を　使うと 爆発して　ダメージを　与える。",
+    "kana": "ふんじんを　あびせた　あいてが ほのおわざを　つかうと ばくはつして　ダメージを　あたえる。",
+    "en": "The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target.",
+    "fr": "L’ennemi est pris dans un nuage de poudre. S’il utilise une capacité de type Feu lors du même tour, le nuage explose et lui inflige des dégâts.",
+    "it": "Il bersaglio viene coperto da un pulviscolo che esplode danneggiandolo se questi utilizza una mossa di tipo Fuoco nello stesso turno.",
+    "de": "Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.",
+    "es": "Esparce un polvo sobre el objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño.",
+    "ko": "분진을 뒤집어쓴 상대가 불꽃 기술을 쓰면 폭발하여 데미지를 준다.",
+    "zh-CN": "如果被撒到粉尘的对手 使用火招式， 则会爆炸并给予伤害。",
+    "zh-TW": "被撒到粉塵的對手 使用火屬性招式時， 會發生爆炸並受到傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.",
+          "es": "Esparce un polvo sobre el Pokémon objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño."
+        }
+      }
+    }
+  ]
 }

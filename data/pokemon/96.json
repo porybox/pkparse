@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 87,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "humanoid"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "スリープ",
-      "language": "ja"
-    },
-    {
-      "name": "Sleep",
-      "language": "roomaji"
-    },
-    {
-      "name": "슬리프",
-      "language": "ko"
-    },
-    {
-      "name": "素利普",
-      "language": "zh"
-    },
-    {
-      "name": "Soporifik",
-      "language": "fr"
-    },
-    {
-      "name": "Traumato",
-      "language": "de"
-    },
-    {
-      "name": "Drowzee",
-      "language": "es"
-    },
-    {
-      "name": "Drowzee",
-      "language": "it"
-    },
-    {
-      "name": "Drowzee",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "スリープ",
+    "en": "Drowzee",
+    "fr": "Soporifik",
+    "it": "Drowzee",
+    "de": "Traumato",
+    "es": "Drowzee",
+    "ko": "슬리프"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さいみん",
-      "language": "ja"
-    },
-    {
-      "genus": "최면",
-      "language": "ko"
-    },
-    {
-      "genus": "Hypnose",
-      "language": "fr"
-    },
-    {
-      "genus": "Hypnose",
-      "language": "de"
-    },
-    {
-      "genus": "Hipnosis",
-      "language": "es"
-    },
-    {
-      "genus": "Ipnosi",
-      "language": "it"
-    },
-    {
-      "genus": "Hypnosis",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さいみん",
+    "en": "Hypnosis",
+    "fr": "Hypnose",
+    "it": "Ipnosi",
+    "de": "Hypnose",
+    "es": "Hipnosis",
+    "ko": "최면"
+  },
   "varieties": [
     {
       "is_default": true,

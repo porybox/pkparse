@@ -2,36 +2,13 @@
   "id": 363,
   "name": "natural-gift",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power and type are determined by the user's held berry.  The berry is consumed.  If the user is not holding a berry, this move will [fail]{mechanic:fail}.",
-      "short_effect": "Power and type depend on the held berry.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Natural Gift",
-      "language": "en"
-    },
-    {
-      "name": "Dononaturale",
-      "language": "it"
-    },
-    {
-      "name": "Don Natural",
-      "language": "es"
-    },
-    {
-      "name": "Beerenkräfte",
-      "language": "de"
-    },
-    {
-      "name": "Don Naturel",
-      "language": "fr"
-    },
-    {
-      "name": "자연의은혜",
-      "language": "ko"
-    },
-    {
-      "name": "しぜんのめぐみ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "しぜんのめぐみ",
+    "kana": "しぜんのめぐみ",
+    "en": "Natural Gift",
+    "fr": "Don Naturel",
+    "it": "Dononaturale",
+    "de": "Beerenkräfte",
+    "es": "Don Natural",
+    "ko": "자연의은혜",
+    "zh-CN": "自然之恩",
+    "zh-TW": "自然之恩"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "きのみから　力を　もらい 攻撃する。持たせた　きのみで 技の　タイプと　威力が　変わる。",
+    "kana": "きのみから　ちからを　もらい こうげきする。もたせた　きのみで わざの　タイプと　いりょくが　かわる。",
+    "en": "The user draws power to attack by using its held Berry. The Berry determines the move’s type and power.",
+    "fr": "Avant d’attaquer, le lanceur rassemble ses forces grâce à sa Baie. Elle détermine le type et la puissance de l’attaque.",
+    "it": "Chi la usa trae forza dalla bacca che ha. Da questa dipendono il tipo e la potenza dell’attacco.",
+    "de": "Anwender zieht aus seiner derzeitigen Beere Kraft. Sie bestimmt Typ und Stärke der Attacke.",
+    "es": "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.",
+    "ko": "나무열매에서 힘을 얻어 공격한다. 지니게 한 나무열매에 따라 기술의 타입과 위력이 바뀐다.",
+    "zh-CN": "从树果上获得力量进行攻击。 根据携带的树果， 招式属性和威力会改变。",
+    "zh-TW": "從樹果上獲得力量進行攻擊。 招式屬性和威力會隨著 攜帶的樹果不同而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

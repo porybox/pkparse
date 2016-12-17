@@ -1,161 +1,42 @@
 {
   "id": 130,
   "name": "cursed-body",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "のろわれボディ",
+    "kana": "のろわれボディ",
+    "en": "Cursed Body",
+    "fr": "Corps Maudit",
+    "it": "Corpofunesto",
+    "de": "Tastfluch",
+    "es": "Cuerpo Maldito",
+    "ko": "저주받은바디",
+    "zh-CN": "诅咒之躯",
+    "zh-TW": "詛咒之軀"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "攻撃を　受けると　相手の　技を かなしばり状態に することが　ある。",
+    "kana": "こうげきを　うけると　あいての　わざを かなしばり　じょうたいに することが　ある。",
+    "en": "May disable a move used on the Pokémon.",
+    "fr": "Quand le Pokémon est touché par une capacité, il inflige parfois Entrave sur celle-ci.",
+    "it": "A volte blocca l’ultima mossa usata dal nemico.",
+    "de": "Blockiert eventuell die Attacke, mit welcher der Angreifer es getroffen hat.",
+    "es": "Puede anular el movimiento usado en su contra.",
+    "ko": "공격을 받으면 상대의 기술을 사슬묶기 상태로 만들 때가 있다.",
+    "zh-CN": "受到攻击时， 有时会把对手的招式 变为定身法状态。",
+    "zh-TW": "受到攻擊時， 有時會把對手的招式 變為定身法狀態。"
+  },
+  "past_values": [
     {
-      "name": "Cursed Body",
-      "language": "en"
-    },
-    {
-      "name": "Corpofunesto",
-      "language": "it"
-    },
-    {
-      "name": "Cuerpo Maldito",
-      "language": "es"
-    },
-    {
-      "name": "Tastfluch",
-      "language": "de"
-    },
-    {
-      "name": "Corps Maudit",
-      "language": "fr"
-    },
-    {
-      "name": "저주받은바디",
-      "language": "ko"
-    },
-    {
-      "name": "のろわれボディ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Moves that hit this Pokémon have a 30% chance of being [Disabled]{move:disable} afterward.",
-      "short_effect": "Has a 30% chance of [Disabling]{move:disable} any move that hits the Pokémon.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "攻撃されると　たまに\nかなしばりにする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "May disable a move used\non the Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "A volte inibisce l’ultima mossa\nusata dal nemico.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Puede anular el movimiento\nusado en su contra.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Blockiert gelegentlich Attacken.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Peut empêcher l’ennemi de\nréutiliser une attaque.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "공격받으면 가끔 상대를\n사슬묶기 상태로 만든다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "こうげきされると　たまに\nかなしばりにする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "May disable a move used\non the Pokémon.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "May disable a move used\non the Pokémon.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Peut empêcher l’ennemi de\nréutiliser une attaque.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "shuppet"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "banette"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "froslass"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "frillish"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "jellicent"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "攻撃されると　たまに かなしばりにする。",
+          "kana": "こうげきされると　たまに かなしばりにする。",
+          "fr": "Peut empêcher l’ennemi de réutiliser une attaque.",
+          "it": "A volte inibisce l’ultima mossa usata dal nemico.",
+          "de": "Blockiert gelegentlich Attacken.",
+          "ko": "공격받으면 가끔 상대를 사슬묶기 상태로 만든다."
+        }
       }
     }
   ]

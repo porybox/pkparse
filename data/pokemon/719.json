@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 719,
@@ -21,13 +19,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "arms"
   },
@@ -37,68 +31,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ディアンシー",
-      "language": "ja"
-    },
-    {
-      "name": "디안시",
-      "language": "ko"
-    },
-    {
-      "name": "Diancie",
-      "language": "fr"
-    },
-    {
-      "name": "Diancie",
-      "language": "de"
-    },
-    {
-      "name": "Diancie",
-      "language": "es"
-    },
-    {
-      "name": "Diancie",
-      "language": "it"
-    },
-    {
-      "name": "Diancie",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ディアンシー",
+    "en": "Diancie",
+    "fr": "Diancie",
+    "it": "Diancie",
+    "de": "Diancie",
+    "es": "Diancie",
+    "ko": "디안시"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほうせき",
-      "language": "ja"
-    },
-    {
-      "genus": "보석",
-      "language": "ko"
-    },
-    {
-      "genus": "Joyau",
-      "language": "fr"
-    },
-    {
-      "genus": "Edelstein",
-      "language": "de"
-    },
-    {
-      "genus": "Joya",
-      "language": "es"
-    },
-    {
-      "genus": "Gemma",
-      "language": "it"
-    },
-    {
-      "genus": "Jewel",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほうせき",
+    "en": "Jewel",
+    "fr": "Joyau",
+    "it": "Gemma",
+    "de": "Edelstein",
+    "es": "Joya",
+    "ko": "보석"
+  },
   "varieties": [
     {
       "is_default": true,

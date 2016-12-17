@@ -2,36 +2,13 @@
   "id": 452,
   "name": "wood-hammer",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 120,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/3 the damage it inflicts in recoil.",
-      "short_effect": "User receives 1/3 the damage inflicted in recoil.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Wood Hammer",
-      "language": "en"
-    },
-    {
-      "name": "Mazzuolegno",
-      "language": "it"
-    },
-    {
-      "name": "Mazazo",
-      "language": "es"
-    },
-    {
-      "name": "Holzhammer",
-      "language": "de"
-    },
-    {
-      "name": "Martobois",
-      "language": "fr"
-    },
-    {
-      "name": "우드해머",
-      "language": "ko"
-    },
-    {
-      "name": "ウッドハンマー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ウッドハンマー",
+    "kana": "ウッドハンマー",
+    "en": "Wood Hammer",
+    "fr": "Martobois",
+    "it": "Mazzuolegno",
+    "de": "Holzhammer",
+    "es": "Mazazo",
+    "ko": "우드해머",
+    "zh-CN": "木槌",
+    "zh-TW": "木槌"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "硬い　胴体を 相手に　たたきつけて　攻撃する。 自分も　かなり　ダメージを　受ける。",
+    "kana": "かたい　どうたいを あいてに　たたきつけて　こうげきする。 じぶんも　かなり　ダメージを　うける。",
+    "en": "The user slams its rugged body into the target to attack. This also damages the user quite a lot.",
+    "fr": "Le lanceur heurte l’ennemi de son corps robuste. Blesse aussi gravement le lanceur.",
+    "it": "Chi la usa si lancia con tutto il corpo contro il bersaglio, ma subisce anche considerevoli danni.",
+    "de": "Anwender attackiert mit seinem robusten Körper. Er erleidet dabei auch selbst großen Schaden.",
+    "es": "Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.",
+    "ko": "단단한 몸통을 상대에게 부딪쳐서 공격한다. 자신도 상당한 데미지를 입는다.",
+    "zh-CN": "用坚硬的躯体 撞击对手进行攻击。 自己也会受到不小的伤害。",
+    "zh-TW": "用堅硬的軀體 撞擊對手進行攻擊。 自己也會受到不小的傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass"
 }

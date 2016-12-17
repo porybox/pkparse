@@ -2,36 +2,13 @@
   "id": 312,
   "name": "aromatherapy",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Removes [major status effects]{mechanic:major-status-effects} and [confusion]{mechanic:confusion} from every Pokémon in the user's party.",
-      "short_effect": "Cures the entire party of major status effects.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Aromatherapy",
-      "language": "en"
-    },
-    {
-      "name": "Aromaterapia",
-      "language": "it"
-    },
-    {
-      "name": "Aromaterapia",
-      "language": "es"
-    },
-    {
-      "name": "Aromakur",
-      "language": "de"
-    },
-    {
-      "name": "Aromathérapie",
-      "language": "fr"
-    },
-    {
-      "name": "아로마테라피",
-      "language": "ko"
-    },
-    {
-      "name": "アロマセラピー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user-and-allies"
+  "names": {
+    "ja": "アロマセラピー",
+    "kana": "アロマセラピー",
+    "en": "Aromatherapy",
+    "fr": "Aromathérapie",
+    "it": "Aromaterapia",
+    "de": "Aromakur",
+    "es": "Aromaterapia",
+    "ko": "아로마테라피",
+    "zh-CN": "芳香治疗",
+    "zh-TW": "芳香治療"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "心地好い　やすらぐ　香りを　かがせて 味方全員の　状態異常を　回復する。",
+    "kana": "ここちよい　やすらぐ　かおりを　かがせて みかた　ぜんいんの じょうたい　いじょうを　かいふく　する。",
+    "en": "The user releases a soothing scent that heals all status conditions affecting the user’s party.",
+    "fr": "Le lanceur libère un parfum apaisant qui guérit tous les problèmes de statut de l’équipe.",
+    "it": "Chi la usa rilascia un dolce profumo che cura tutti i problemi di stato propri e degli alleati.",
+    "de": "Heilt alle Statusprobleme des Teams mit beruhigendem Duft.",
+    "es": "Cura todos los problemas de estado del equipo con un suave aroma.",
+    "ko": "기분 좋은 평온한 향기를 맡게 하여 같은 편 모두의 상태 이상을 회복한다.",
+    "zh-CN": "让同伴闻沁人心脾的香气， 从而治愈我方全员的异常状态。",
+    "zh-TW": "釋放出宜人的香氣， 治癒我方全體的異常狀態。"
+  },
+  "stat_changes": [],
+  "target": "user-and-allies",
+  "type": "grass"
 }

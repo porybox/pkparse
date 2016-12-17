@@ -2,36 +2,13 @@
   "id": 103,
   "name": "screech",
   "accuracy": 85,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Defense]{mechanic:defense} by two [stages]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Defense by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Screech",
-      "language": "en"
-    },
-    {
-      "name": "Stridio",
-      "language": "it"
-    },
-    {
-      "name": "Chirrido",
-      "language": "es"
-    },
-    {
-      "name": "Kreideschrei",
-      "language": "de"
-    },
-    {
-      "name": "Grincement",
-      "language": "fr"
-    },
-    {
-      "name": "싫은소리",
-      "language": "ko"
-    },
-    {
-      "name": "いやなおと",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "いやなおと",
+    "kana": "いやなおと",
+    "en": "Screech",
+    "fr": "Grincement",
+    "it": "Stridio",
+    "de": "Kreideschrei",
+    "es": "Chirrido",
+    "ko": "싫은소리",
+    "zh-CN": "刺耳声",
+    "zh-TW": "刺耳聲"
+  },
+  "flavor_text_entries": {
+    "ja": "おもわず　耳を　ふさぎたくなる いやなおとを　だして 相手の　防御を　がくっと　さげる。",
+    "kana": "おもわず　みみを　ふさぎたくなる いやなおとを　だして あいての　ぼうぎょを　がくっと　さげる。",
+    "en": "An earsplitting screech harshly lowers the target’s Defense stat.",
+    "fr": "Cri strident qui baisse beaucoup la Défense de l’ennemi.",
+    "it": "Stridio assordante che riduce di molto la Difesa del bersaglio.",
+    "de": "Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.",
+    "es": "Alarido agudo que reduce mucho la Defensa del objetivo.",
+    "ko": "그만 귀를 막아버리고 싶은 싫은 소리를 내어 상대의 방어를 크게 떨어뜨린다.",
+    "zh-CN": "发出不由自主想要 捂起耳朵的刺耳声， 从而大幅降低对手的防御。",
+    "zh-TW": "發出令人不由自主想要 摀起耳朵的刺耳聲， 大幅降低對手的防禦。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "selected-pokemon",
+  "type": "normal"
 }

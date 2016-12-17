@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 114,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "wings"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "オンバーン",
-      "language": "ja"
-    },
-    {
-      "name": "음번",
-      "language": "ko"
-    },
-    {
-      "name": "Bruyverne",
-      "language": "fr"
-    },
-    {
-      "name": "UHaFnir",
-      "language": "de"
-    },
-    {
-      "name": "Noivern",
-      "language": "es"
-    },
-    {
-      "name": "Noivern",
-      "language": "it"
-    },
-    {
-      "name": "Noivern",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オンバーン",
+    "en": "Noivern",
+    "fr": "Bruyverne",
+    "it": "Noivern",
+    "de": "UHaFnir",
+    "es": "Noivern",
+    "ko": "음번"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おんぱ",
-      "language": "ja"
-    },
-    {
-      "genus": "음파",
-      "language": "ko"
-    },
-    {
-      "genus": "Ondes",
-      "language": "fr"
-    },
-    {
-      "genus": "Schallwellen",
-      "language": "de"
-    },
-    {
-      "genus": "Onda Sónica",
-      "language": "es"
-    },
-    {
-      "genus": "Ondasonora",
-      "language": "it"
-    },
-    {
-      "genus": "Sound Wave",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おんぱ",
+    "en": "Sound Wave",
+    "fr": "Ondes",
+    "it": "Ondasonora",
+    "de": "Schallwellen",
+    "es": "Onda Sónica",
+    "ko": "음파"
+  },
   "varieties": [
     {
       "is_default": true,

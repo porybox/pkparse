@@ -2,68 +2,13 @@
   "id": 93,
   "name": "confusion",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 25,
   "priority": 0,
   "power": 50,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "psychic"
-        },
-        {
-          "name": "teleport"
-        },
-        {
-          "name": "kinesis"
-        },
-        {
-          "name": "future-sight"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "psychic"
-        },
-        {
-          "name": "kinesis"
-        },
-        {
-          "name": "calm-mind"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [confuse]{mechanic:confuse} the target.",
-      "short_effect": "Has a $effect_chance% chance to confuse the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "confusion",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -75,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Confusion",
-      "language": "en"
-    },
-    {
-      "name": "Confusione",
-      "language": "it"
-    },
-    {
-      "name": "Confusión",
-      "language": "es"
-    },
-    {
-      "name": "Konfusion",
-      "language": "de"
-    },
-    {
-      "name": "Choc Mental",
-      "language": "fr"
-    },
-    {
-      "name": "염동력",
-      "language": "ko"
-    },
-    {
-      "name": "ねんりき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ねんりき",
+    "kana": "ねんりき",
+    "en": "Confusion",
+    "fr": "Choc Mental",
+    "it": "Confusione",
+    "de": "Konfusion",
+    "es": "Confusión",
+    "ko": "염동력",
+    "zh-CN": "念力",
+    "zh-TW": "念力"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "弱い　念力を 相手に　送って　攻撃する。 相手を　混乱させることが　ある。",
+    "kana": "よわい　ねんりきを あいてに　おくって　こうげきする。 あいてを　こんらん　させることが　ある。",
+    "en": "The target is hit by a weak telekinetic force. This may also confuse the target.",
+    "fr": "Une faible vague télékinétique frappe l’ennemi. Peut aussi le plonger dans la confusion.",
+    "it": "Colpisce il bersaglio con una leggera forza telecinetica e può anche confonderlo.",
+    "de": "Das Ziel wird von schwacher telekinetischer Energie getroffen und eventuell verwirrt.",
+    "es": "Débil ataque telequinético que puede causar confusión.",
+    "ko": "약한 염동력을 상대에게 보내어 공격한다. 상대를 혼란시킬 때가 있다.",
+    "zh-CN": "向对手发送 微弱的念力进行攻击。 有时会使对手混乱。",
+    "zh-TW": "向對手發送 微弱的念力進行攻擊。 有時會使對手混亂。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une faible vague télékinésique frappe l’ennemi. Peut aussi le plonger dans la confusion."
+        }
+      }
+    }
+  ]
 }

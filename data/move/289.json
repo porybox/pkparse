@@ -2,36 +2,13 @@
   "id": 289,
   "name": "snatch",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 4,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "The next time a Pokémon uses a beneficial move on itself or itself and its ally this turn, the user of this move will steal the move and use it itself.  Moves which may be stolen by this move are identified by the \"snatchable\" flag.\n\nIf two Pokémon use this move on the same turn, the faster Pokémon will steal the first beneficial move, and the slower Pokémon will then steal it again—thus, only the slowest Pokémon using this move ultimately gains a stolen move's effect.\n\nIf the user steals []{move:psych-up}, it will target the Pokémon that used []{move:psych-up}.  If the user was the original target of []{move:psych-up}, and the Pokémon that originally used it's affected by []{ability:pressure}, it will only lose 1 [PP]{mechanic:pp}.\n\nThis move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "Steals the target's move, if it's self-targeted.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Snatch",
-      "language": "en"
-    },
-    {
-      "name": "Scippo",
-      "language": "it"
-    },
-    {
-      "name": "Robo",
-      "language": "es"
-    },
-    {
-      "name": "Übernahme",
-      "language": "de"
-    },
-    {
-      "name": "Saisie",
-      "language": "fr"
-    },
-    {
-      "name": "가로챔",
-      "language": "ko"
-    },
-    {
-      "name": "よこどり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "よこどり",
+    "kana": "よこどり",
+    "en": "Snatch",
+    "fr": "Saisie",
+    "it": "Scippo",
+    "de": "Übernahme",
+    "es": "Robo",
+    "ko": "가로챔",
+    "zh-CN": "抢夺",
+    "zh-TW": "搶奪"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "相手が　使おうと　した 回復技や　能力変化の 技を　うばって　自分に　使う。",
+    "kana": "あいてが　つかおうと　した かいふくわざや　のうりょく　へんかの わざを　うばって　じぶんに　つかう。",
+    "en": "The user steals the effects of any attempts to use a healing or stat-changing move.",
+    "fr": "Lorsqu’une capacité de soin ou de changement de stats est utilisée, le lanceur vole ses effets.",
+    "it": "Chi la usa ruba e utilizza la mossa curativa o modifica-statistiche che un altro Pokémon stava per usare.",
+    "de": "Raubt den Effekt heilender oder Werte verändernder Attacken des Zieles.",
+    "es": "Roba el efecto de los movimientos de curación o de cambio de características que se usen.",
+    "ko": "상대가 사용하려고 한 회복 기술이나 능력 변화의 기술을 빼앗아 자신에게 쓴다.",
+    "zh-CN": "将对手打算使用的回复招式 或能力变化招式夺为己用。",
+    "zh-TW": "將對手打算使用的回復招式 或能力變化招式奪為己用。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Raubt den Effekt eingesetzter heilender oder Werte verändernder Attacken."
+        }
+      }
+    }
+  ]
 }

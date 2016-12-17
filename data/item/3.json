@@ -1,0 +1,38 @@
+{
+  "id": 3,
+  "name": "great-ball",
+  "names": {
+    "ja": "スーパーボール",
+    "kana": "スーパーボール",
+    "en": "Great Ball",
+    "fr": "Super Ball",
+    "it": "Mega Ball",
+    "de": "Superball",
+    "es": "Super Ball",
+    "ko": "수퍼볼",
+    "zh-CN": "超级球",
+    "zh-TW": "超級球"
+  },
+  "flavor_text_entries": {
+    "ja": "モンスターボールよりも　さらに ポケモンを　捕まえやすくなった 少し　性能のいい　ボール。",
+    "kana": "モンスターボールよりも　さらに ポケモンを　つかまえやすくなった すこし　せいのうのいい　ボール。",
+    "en": "A good, high-performance Poké Ball that provides a higher Pokémon catch rate than a standard Poké Ball.",
+    "fr": "Une Ball très performante dont le taux de réussite est supérieur à celui de la Poké Ball.",
+    "it": "Poké Ball dalle ottime prestazioni: fornisce maggiori probabilità di cattura rispetto alla normale Poké Ball.",
+    "de": "Ein Ball mit guter Erfolgsquote. Dem Pokéball in allen Punkten überlegen.",
+    "es": "Poké Ball de alto rendimiento. Tiene un índice de éxito superior al de la Poké Ball.",
+    "ko": "몬스터볼보다도 더욱 포켓몬을 잡기 쉬워진 약간 성능이 좋은 볼.",
+    "zh-CN": "比起精灵球来 更容易捉到宝可梦的， 性能还算不错的球。",
+    "zh-TW": "性能還算不錯的球。 比起精靈球 更容易捉到寶可夢。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A good, high-performance Poké Ball that provides a higher Pokémon catch rate than a standard Poké Ball can."
+        }
+      }
+    }
+  ]
+}

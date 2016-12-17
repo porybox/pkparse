@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 147,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "upright"
   },
@@ -49,44 +43,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "エムリット",
-      "language": "ja"
-    },
-    {
-      "name": "Emrit",
-      "language": "roomaji"
-    },
-    {
-      "name": "엠라이트",
-      "language": "ko"
-    },
-    {
-      "name": "艾姆利多",
-      "language": "zh"
-    },
-    {
-      "name": "Créfollet",
-      "language": "fr"
-    },
-    {
-      "name": "Vesprit",
-      "language": "de"
-    },
-    {
-      "name": "Mesprit",
-      "language": "es"
-    },
-    {
-      "name": "Mesprit",
-      "language": "it"
-    },
-    {
-      "name": "Mesprit",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エムリット",
+    "en": "Mesprit",
+    "fr": "Créfollet",
+    "it": "Mesprit",
+    "de": "Vesprit",
+    "es": "Mesprit",
+    "ko": "엠라이트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -97,36 +62,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かんじょう",
-      "language": "ja"
-    },
-    {
-      "genus": "감정",
-      "language": "ko"
-    },
-    {
-      "genus": "Émotion",
-      "language": "fr"
-    },
-    {
-      "genus": "Emotion",
-      "language": "de"
-    },
-    {
-      "genus": "Sensorio",
-      "language": "es"
-    },
-    {
-      "genus": "Emozione",
-      "language": "it"
-    },
-    {
-      "genus": "Emotion",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かんじょう",
+    "en": "Emotion",
+    "fr": "Émotion",
+    "it": "Emozione",
+    "de": "Emotion",
+    "es": "Sensorio",
+    "ko": "감정"
+  },
   "varieties": [
     {
       "is_default": true,

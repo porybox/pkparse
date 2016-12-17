@@ -2,34 +2,13 @@
   "id": 552,
   "name": "fiery-dance",
   "accuracy": 100,
-  "effect_chance": 50,
   "pp": 10,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to raise the user's [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to raise the user's Special Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 50
   },
-  "names": [
-    {
-      "name": "Fiery Dance",
-      "language": "en"
-    },
-    {
-      "name": "Voldifuoco",
-      "language": "it"
-    },
-    {
-      "name": "Danza Llama",
-      "language": "es"
-    },
-    {
-      "name": "Feuerreigen",
-      "language": "de"
-    },
-    {
-      "name": "Danse du Feu",
-      "language": "fr"
-    },
-    {
-      "name": "불꽃춤",
-      "language": "ko"
-    },
-    {
-      "name": "ほのおのまい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ほのおのまい",
+    "kana": "ほのおのまい",
+    "en": "Fiery Dance",
+    "fr": "Danse du Feu",
+    "it": "Voldifuoco",
+    "de": "Feuerreigen",
+    "es": "Danza Llama",
+    "ko": "불꽃춤",
+    "zh-CN": "火之舞",
+    "zh-TW": "火之舞"
+  },
+  "flavor_text_entries": {
+    "ja": "炎を　まとい　はばたいて　相手を 攻撃する。自分の　特攻が あがることが　ある。",
+    "kana": "ほのおを　まとい　はばたいて　あいてを こうげきする。じぶんの　とくこうが あがることが　ある。",
+    "en": "Cloaked in flames, the user dances and flaps its wings. This may also raise the user’s Sp. Atk stat.",
+    "fr": "Le lanceur enveloppe l’ennemi de flammes. Peut aussi augmenter l’Attaque Spéciale du lanceur.",
+    "it": "Chi la usa viene avvolto da fiamme che scaglia contro il bersaglio, sbattendo le ali. Può anche aumentare l’Attacco Speciale.",
+    "de": "Hüllt das Ziel mit einer Feuerhose in Flammen. Kann den Spezial-Angriff des Anwenders erhöhen.",
+    "es": "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.",
+    "ko": "불꽃을 두른 날개를 쳐서 공격한다. 자신의 특수공격이 오를 때가 있다.",
+    "zh-CN": "让火焰覆盖全身， 振翅攻击对手。 有时会提高自己的特攻。",
+    "zh-TW": "讓火焰圍繞全身後， 振翅攻擊對手。 有時會提高自己的特攻。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fire"
-  }
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "불꽃을 둘러 날개를 쳐서 공격한다. 자신의 특수공격이 오를 때가 있다."
+        }
+      }
+    }
+  ]
 }

@@ -1,196 +1,44 @@
 {
   "id": 45,
   "name": "sand-stream",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "すなおこし",
+    "kana": "すなおこし",
+    "en": "Sand Stream",
+    "fr": "Sable Volant",
+    "it": "Sabbiafiume",
+    "de": "Sandsturm",
+    "es": "Chorro Arena",
+    "ko": "모래날림",
+    "zh-CN": "扬沙",
+    "zh-TW": "揚沙"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "登場　したとき 天気を　砂あらしにする。",
+    "kana": "とうじょう　したとき てんきを　すなあらしに　する。",
+    "en": "The Pokémon summons a sandstorm when it enters a battle.",
+    "fr": "Le Pokémon invoque une tempête de sable quand il entre au combat.",
+    "it": "Quando il Pokémon entra in campo, scatena una tempesta di sabbia.",
+    "de": "Erzeugt bei Kampfantritt Sandstürme.",
+    "es": "Crea una tormenta de arena al entrar en combate.",
+    "ko": "등장했을 때 날씨를 모래바람으로 만든다.",
+    "zh-CN": "出场时， 会把天气变为沙暴。",
+    "zh-TW": "出場時， 會把天氣變為沙暴。"
+  },
+  "past_values": [
     {
-      "name": "Sand Stream",
-      "language": "en"
-    },
-    {
-      "name": "Sabbiafiume",
-      "language": "it"
-    },
-    {
-      "name": "Chorro Arena",
-      "language": "es"
-    },
-    {
-      "name": "Sandsturm",
-      "language": "de"
-    },
-    {
-      "name": "Sable Volant",
-      "language": "fr"
-    },
-    {
-      "name": "모래날림",
-      "language": "ko"
-    },
-    {
-      "name": "すなおこし",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "The [weather]{mechanic:weather} changes to a [sandstorm]{mechanic:sandstorm} when this Pokémon enters battle and does not end unless cancelled by another weather condition.\n\nIf multiple Pokémon with this ability, []{ability:drizzle}, []{ability:drought}, or []{ability:snow-warning} are sent out at the same time, the abilities will activate in order of [Speed]{mechanic:speed}, respecting []{move:trick-room}.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.\n\nOverworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm.",
-      "short_effect": "Summons a [sandstorm]{mechanic:sandstorm} that lasts indefinitely upon entering battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "戦闘で　砂あらしを\nおこす。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "The Pokémon summons a\nsandstorm in battle.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Causa una tempesta di sabbia\ndurante la lotta.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Crea una tormenta de arena en\nel combate.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Erzeugt im Kampf Sandstürme.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Le Pokémon invoque une\ntempête de sable.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "배틀에서 모래바람을\n일으킨다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "せんとうで　すなあらしを\nおこす。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "The Pokémon summons a\nsandstorm in battle.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon summons a\nsandstorm in battle.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Le Pokémon invoque une\ntempête de sable.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "The Pokémon summons a\nsandstorm in battle.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon summons a\nsandstorm in battle.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon summons a\nsandstorm in battle.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Summons a sandstorm.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Summons a sandstorm.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Summons a sandstorm.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "tyranitar"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "hippopotas"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "hippowdon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "tyranitar-mega"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "戦闘で　砂あらしを おこす。",
+          "kana": "せんとうで　すなあらしを おこす。",
+          "en": "The Pokémon summons a sandstorm in battle.",
+          "fr": "Le Pokémon invoque une tempête de sable.",
+          "it": "Causa una tempesta di sabbia durante la lotta.",
+          "de": "Erzeugt im Kampf Sandstürme.",
+          "es": "Crea una tormenta de arena en el combate.",
+          "ko": "배틀에서 모래바람을 일으킨다."
+        }
       }
     }
   ]

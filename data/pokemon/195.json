@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 18,
@@ -57,16 +55,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -80,44 +72,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ヌオー",
-      "language": "ja"
-    },
-    {
-      "name": "Nuoh",
-      "language": "roomaji"
-    },
-    {
-      "name": "누오",
-      "language": "ko"
-    },
-    {
-      "name": "沼王",
-      "language": "zh"
-    },
-    {
-      "name": "Maraiste",
-      "language": "fr"
-    },
-    {
-      "name": "Morlord",
-      "language": "de"
-    },
-    {
-      "name": "Quagsire",
-      "language": "es"
-    },
-    {
-      "name": "Quagsire",
-      "language": "it"
-    },
-    {
-      "name": "Quagsire",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヌオー",
+    "en": "Quagsire",
+    "fr": "Maraiste",
+    "it": "Quagsire",
+    "de": "Morlord",
+    "es": "Quagsire",
+    "ko": "누오"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -128,36 +91,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みずうお",
-      "language": "ja"
-    },
-    {
-      "genus": "수어",
-      "language": "ko"
-    },
-    {
-      "genus": "Poisson",
-      "language": "fr"
-    },
-    {
-      "genus": "Fisch",
-      "language": "de"
-    },
-    {
-      "genus": "Pez Agua",
-      "language": "es"
-    },
-    {
-      "genus": "Acquapesce",
-      "language": "it"
-    },
-    {
-      "genus": "Water Fish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みずうお",
+    "en": "Water Fish",
+    "fr": "Poisson",
+    "it": "Acquapesce",
+    "de": "Fisch",
+    "es": "Pez Agua",
+    "ko": "수어"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,61 +2,13 @@
   "id": 351,
   "name": "shock-wave",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 60,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "charge"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.",
-      "short_effect": "Never misses.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Hits Pokémon under the effects of []{move:dig} and []{move:fly}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -68,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Shock Wave",
-      "language": "en"
-    },
-    {
-      "name": "Ondashock",
-      "language": "it"
-    },
-    {
-      "name": "Onda Voltio",
-      "language": "es"
-    },
-    {
-      "name": "Schockwelle",
-      "language": "de"
-    },
-    {
-      "name": "Onde de Choc",
-      "language": "fr"
-    },
-    {
-      "name": "전격파",
-      "language": "ko"
-    },
-    {
-      "name": "でんげきは",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "でんげきは",
+    "kana": "でんげきは",
+    "en": "Shock Wave",
+    "fr": "Onde de Choc",
+    "it": "Ondashock",
+    "de": "Schockwelle",
+    "es": "Onda Voltio",
+    "ko": "전격파",
+    "zh-CN": "电击波",
+    "zh-TW": "電擊波"
   },
-  "type": {
-    "name": "electric"
-  }
+  "flavor_text_entries": {
+    "ja": "電撃を　素早く 相手に　浴びせる。 攻撃は　必ず　命中する。",
+    "kana": "でんげきを　すばやく あいてに　あびせる。 こうげきは　かならず　めいちゅう　する。",
+    "en": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
+    "fr": "Le lanceur envoie un choc électrique rapide à l’ennemi. Impossible à esquiver.",
+    "it": "Chi la usa colpisce il bersaglio con una scossa di elettricità. È impossibile eludere questa mossa.",
+    "de": "Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.",
+    "es": "Ataque eléctrico muy rápido e ineludible.",
+    "ko": "전격을 재빠르게 상대에게 날린다. 공격은 반드시 명중한다.",
+    "zh-CN": "向对手快速发出电击。 攻击必定会命中。",
+    "zh-TW": "向對手迅速放出電流。 攻擊一定會命中。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric"
 }

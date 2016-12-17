@@ -1,0 +1,39 @@
+{
+  "id": 726,
+  "name": "eon-ticket",
+  "names": {
+    "ja": "むげんのチケット",
+    "kana": "むげんのチケット",
+    "en": "Eon Ticket",
+    "fr": "Passe Éon",
+    "it": "Biglietto Eone",
+    "de": "Äon-Ticket",
+    "es": "Ticket Eón",
+    "ko": "무한티켓",
+    "zh-CN": "无限船票",
+    "zh-TW": "無限船票"
+  },
+  "flavor_text_entries": {
+    "ja": "南の孤島へ　行く　船の チケット。トウカジムの　ジムリーダー センリが　秘密を　知っている！？",
+    "kana": "みなみのことうへ　いく　ふねの チケット。トウカジムの　ジムリーダー センリが　ひみつを　しっている！？",
+    "en": "The ticket required for sailing on a ferry to the Southern Island. Does Norman, the Petalburg Gym Leader, know a secret?!",
+    "fr": "Un billet de ferry pour l’Île du Sud. Norman, le Champion de l’Arène de Clémenti-Ville, semble savoir quelque chose à son sujet.",
+    "it": "Biglietto per il traghetto che porta all’Isola Remota. Norman, il Capopalestra di Petalipoli, dovrebbe sapere come usarlo.",
+    "de": "Ein Bootsticket, mit dem du zu einer fernen Insel im Süden schippern kannst. Kennt der Arenaleiter von Blütenburg, Norman, ein Geheimnis?!",
+    "es": "Billete de barco para viajar a Isla del Sur. Es posible que Norman, Líder del Gimnasio de Ciudad Petalia, sepa algo al respecto.",
+    "ko": "남쪽의 외딴섬으로 가는 배의 승선티켓. 등화체육관 관장 종길이 비밀을 알고 있다!?",
+    "zh-CN": "前往南方孤岛的船票。 橙华道馆的馆主千里 知道其中的秘密！？",
+    "zh-TW": "前往南方孤島的船票。 橙華道館的館主千里 知道其中的秘密！？"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Billete de barco para viajar a la Isla del Sur. Es posible que Norman, Líder del Gimnasio de Ciudad Petalia, sepa algo al respecto.",
+          "ko": "남쪽의 외딴섬으로 가는 배의 승선티켓. 등화체육관 관장 종길이 비밀을 알고있다!?"
+        }
+      }
+    }
+  ]
+}

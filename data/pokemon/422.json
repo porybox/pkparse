@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 60,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "indeterminate"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "armor"
   },
@@ -52,44 +44,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "カラナクシ",
-      "language": "ja"
-    },
-    {
-      "name": "Karanakushi",
-      "language": "roomaji"
-    },
-    {
-      "name": "깝질무",
-      "language": "ko"
-    },
-    {
-      "name": "無殼海牛",
-      "language": "zh"
-    },
-    {
-      "name": "Sancoki",
-      "language": "fr"
-    },
-    {
-      "name": "Schalellos",
-      "language": "de"
-    },
-    {
-      "name": "Shellos",
-      "language": "es"
-    },
-    {
-      "name": "Shellos",
-      "language": "it"
-    },
-    {
-      "name": "Shellos",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カラナクシ",
+    "en": "Shellos",
+    "fr": "Sancoki",
+    "it": "Shellos",
+    "de": "Schalellos",
+    "es": "Shellos",
+    "ko": "깝질무"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +68,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "ウミウシ",
-      "language": "ja"
-    },
-    {
-      "genus": "갯민숭달팽이",
-      "language": "ko"
-    },
-    {
-      "genus": "Aqualimace",
-      "language": "fr"
-    },
-    {
-      "genus": "Seeschnecke",
-      "language": "de"
-    },
-    {
-      "genus": "Babosa Mar.",
-      "language": "es"
-    },
-    {
-      "genus": "Lumacomare",
-      "language": "it"
-    },
-    {
-      "genus": "Sea Slug",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ウミウシ",
+    "en": "Sea Slug",
+    "fr": "Aqualimace",
+    "it": "Lumacomare",
+    "de": "Seeschnecke",
+    "es": "Babosa Mar.",
+    "ko": "갯민숭달팽이"
+  },
   "varieties": [
     {
       "is_default": true,

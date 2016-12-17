@@ -2,36 +2,13 @@
   "id": 334,
   "name": "iron-defense",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Defense]{mechanic:defense} by two [stages]{mechanic:stage}.",
-      "short_effect": "Raises the user's Defense by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Iron Defense",
-      "language": "en"
-    },
-    {
-      "name": "Ferroscudo",
-      "language": "it"
-    },
-    {
-      "name": "Defensa Férrea",
-      "language": "es"
-    },
-    {
-      "name": "Eisenabwehr",
-      "language": "de"
-    },
-    {
-      "name": "Mur de Fer",
-      "language": "fr"
-    },
-    {
-      "name": "철벽",
-      "language": "ko"
-    },
-    {
-      "name": "てっぺき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "てっぺき",
+    "kana": "てっぺき",
+    "en": "Iron Defense",
+    "fr": "Mur de Fer",
+    "it": "Ferroscudo",
+    "de": "Eisenabwehr",
+    "es": "Defensa Férrea",
+    "ko": "철벽",
+    "zh-CN": "铁壁",
+    "zh-TW": "鐵壁"
+  },
+  "flavor_text_entries": {
+    "ja": "皮膚を　鉄のように 硬くする　ことで 自分の　防御を　ぐーんと　あげる。",
+    "kana": "ひふを　てつのように かたくする　ことで じぶんの　ぼうぎょを　ぐーんと　あげる。",
+    "en": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
+    "fr": "L’épiderme du lanceur devient dur comme du fer, ce qui augmente beaucoup sa Défense.",
+    "it": "Il corpo di chi la usa si indurisce come il ferro, facendone salire di molto la Difesa.",
+    "de": "Anwender stärkt den Körper, um den Verteidigungs-Wert stark zu erhöhen.",
+    "es": "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.",
+    "ko": "피부를 쇠처럼 단단하게 함으로써 자신의 방어를 크게 올린다.",
+    "zh-CN": "将皮肤变得坚硬如铁， 从而大幅提高自己的防御。",
+    "zh-TW": "將皮膚變得堅硬如鐵， 大幅提高自己的防禦。"
+  },
   "stat_changes": [
     {
       "change": 2,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "steel"
-  }
+  "target": "user",
+  "type": "steel",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "L’épiderme du lanceur devient dur comme du fer, ce qui augmente considérablement sa Défense."
+        }
+      }
+    }
+  ]
 }

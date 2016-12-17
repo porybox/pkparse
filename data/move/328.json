@@ -2,49 +2,13 @@
   "id": 328,
   "name": "sand-tomb",
   "accuracy": 85,
-  "effect_chance": 100,
   "pp": 15,
   "priority": 0,
   "power": 35,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sandstorm"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the [field]{mechanic:field}, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\n[]{move:rapid-spin} cancels this effect.",
-      "short_effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "trap"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "trap",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 5,
@@ -56,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sand Tomb",
-      "language": "en"
-    },
-    {
-      "name": "Sabbiotomba",
-      "language": "it"
-    },
-    {
-      "name": "Bucle Arena",
-      "language": "es"
-    },
-    {
-      "name": "Sandgrab",
-      "language": "de"
-    },
-    {
-      "name": "Tourbi-Sable",
-      "language": "fr"
-    },
-    {
-      "name": "모래지옥",
-      "language": "ko"
-    },
-    {
-      "name": "すなじごく",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "すなじごく",
+    "kana": "すなじごく",
+    "en": "Sand Tomb",
+    "fr": "Tourbi-Sable",
+    "it": "Sabbiotomba",
+    "de": "Sandgrab",
+    "es": "Bucle Arena",
+    "ko": "모래지옥",
+    "zh-CN": "流沙地狱",
+    "zh-TW": "流沙地獄"
+  },
+  "flavor_text_entries": {
+    "ja": "激しく　吹きあれる　砂あらしの 中に　４ー５ターンの　間 相手を　閉じこめて　攻撃する。",
+    "kana": "はげしく　ふきあれる　すなあらしの なかに　４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+    "en": "The user traps the target inside a harshly raging sandstorm for four to five turns.",
+    "fr": "Le lanceur emprisonne l’ennemi dans une tempête de sable terrifiante qui dure de quatre à cinq tours.",
+    "it": "Chi la usa intrappola il bersaglio in un turbine di sabbia per quattro o cinque turni.",
+    "de": "Das Ziel leidet für vier bis fünf Runden in einer Sandhose.",
+    "es": "Enreda al objetivo en un remolino de arena de cuatro a cinco turnos.",
+    "ko": "세차게 불어대는 모래바람 속에 4-5턴 동안 상대를 가두어 공격한다.",
+    "zh-CN": "将对手困在 铺天盖地的沙暴中， 在４～５回合内进行攻击。",
+    "zh-TW": "將對手困在 鋪天蓋地的沙暴中， 在４～５回合內進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ground",
   "past_values": [
     {
-      "accuracy": 70,
-      "power": 15,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "激しく　吹きあれる　砂あらしの 中に　４ー５ターンの　あいだ 相手を　閉じこめて　攻撃する。"
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "ground"
-  }
+  ]
 }

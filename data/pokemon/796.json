@@ -1,0 +1,44 @@
+{
+  "id": 796,
+  "name": "xurkitree",
+  "gender_rate": -1,
+  "capture_rate": 30,
+  "base_happiness": 0,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "black",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "デンジュモク",
+    "en": "Xurkitree",
+    "fr": "Câblifère",
+    "it": "Xurkitree",
+    "de": "Voltriant",
+    "es": "Xurkitree",
+    "ko": "전수목"
+  },
+  "genera": {
+    "ja": "でんしょく",
+    "en": "Glowing",
+    "fr": "Luminaire",
+    "it": "Luminaria",
+    "de": "Illumination",
+    "es": "Luminaria",
+    "ko": "전기장식"
+  },
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 83,
+    "attack": 89,
+    "defense": 71,
+    "special-attack": 173,
+    "special-defense": 71,
+    "speed": 83
+  }
+}

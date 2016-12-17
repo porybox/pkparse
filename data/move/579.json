@@ -2,34 +2,13 @@
   "id": 579,
   "name": "flower-shield",
   "accuracy": null,
-  "effect_chance": 100,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the Defense of all []{type:grass} Pokémon in battle.",
-      "short_effect": "Raises the Defense of all []{type:grass} Pokémon in battle",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Flower Shield",
-      "language": "en"
-    },
-    {
-      "name": "Fiordifesa",
-      "language": "it"
-    },
-    {
-      "name": "Defensa Floral",
-      "language": "es"
-    },
-    {
-      "name": "Floraschutz",
-      "language": "de"
-    },
-    {
-      "name": "Garde Florale",
-      "language": "fr"
-    },
-    {
-      "name": "플라워가드",
-      "language": "ko"
-    },
-    {
-      "name": "フラワーガード",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "フラワーガード",
+    "kana": "フラワーガード",
+    "en": "Flower Shield",
+    "fr": "Garde Florale",
+    "it": "Fiordifesa",
+    "de": "Floraschutz",
+    "es": "Defensa Floral",
+    "ko": "플라워가드",
+    "zh-CN": "鲜花防守",
+    "zh-TW": "鮮花防守"
+  },
+  "flavor_text_entries": {
+    "ja": "不思議な　力を　使って 場にいる　くさタイプの　ポケモン 全員の　防御を　あげる。",
+    "kana": "ふしぎな　ちからを　つかって ばにいる　くさタイプの　ポケモン ぜんいんの　ぼうぎょを　あげる。",
+    "en": "The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.",
+    "fr": "Grâce à une force mystérieuse, la Défense de tous les Pokémon Plante au combat augmente.",
+    "it": "Grazie a un misterioso potere, aumenta la Difesa di tutti i Pokémon di tipo Erba presenti in campo.",
+    "de": "Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.",
+    "es": "Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.",
+    "ko": "이상한 힘을 사용하여 배틀에 나와 있는 모든 풀타입 포켓몬의 방어를 올린다.",
+    "zh-CN": "使用神奇的力量 提高在场的所有 草属性宝可梦的防御。",
+    "zh-TW": "使用神奇的力量， 提高場上全體 草屬性寶可夢的防禦。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-pokemon"
-  },
-  "type": {
-    "name": "fairy"
-  }
+  "target": "all-pokemon",
+  "type": "fairy",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "이상한 힘을 사용하여 배틀에 나와있는 모든 풀타입 포켓몬의 방어를 올린다."
+        }
+      }
+    }
+  ]
 }

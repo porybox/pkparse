@@ -1,0 +1,46 @@
+{
+  "id": 415,
+  "name": "tm88",
+  "names": {
+    "ja": "わざマシン８８",
+    "kana": "わざマシン８８",
+    "en": "TM88",
+    "fr": "CT88",
+    "it": "MT88",
+    "de": "TM88",
+    "es": "MT88",
+    "ko": "기술머신88",
+    "zh-CN": "招式学习器８８",
+    "zh-TW": "招式學習器８８"
+  },
+  "flavor_text_entries": {
+    "ja": "自分が　おぼえている　技の　うち どれか　１つを　くりだす。 自分が　寝ているときだけ　使える。",
+    "kana": "じぶんが　おぼえている　わざの　うち どれか　１つを　くりだす。 じぶんが　ねている　ときだけ　つかえる。",
+    "en": "While it is asleep, the user randomly uses one of the moves it knows.",
+    "fr": "Le lanceur utilise une de ses capacités au hasard pendant qu’il dort.",
+    "it": "Chi la usa sfodera a caso una delle proprie mosse mentre sta dormendo.",
+    "de": "Der Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.",
+    "es": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+    "ko": "자신이 배운 기술 중 하나를 무작위로 날린다. 자신이 잠들어 있을 때만 쓸 수 있다.",
+    "zh-CN": "从自己已学会的招式中 任意使出１个。 只能在自己睡觉时使用。",
+    "zh-TW": "從自己已學會的招式中 隨機選出１個使出。 只有在睡眠狀態時可以使用。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur utilise un de ses coups au hasard pendant qu’il dort."
+        }
+      }
+    }
+  ]
+}

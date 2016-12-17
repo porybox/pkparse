@@ -2,52 +2,13 @@
   "id": 47,
   "name": "sing",
   "accuracy": 55,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "perish-song"
-        },
-        {
-          "name": "refresh"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Puts the target to [sleep]{mechanic:sleep}.",
-      "short_effect": "Puts the target to sleep.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "sleep"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "sleep",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -59,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sing",
-      "language": "en"
-    },
-    {
-      "name": "Canto",
-      "language": "it"
-    },
-    {
-      "name": "Canto",
-      "language": "es"
-    },
-    {
-      "name": "Gesang",
-      "language": "de"
-    },
-    {
-      "name": "Berceuse",
-      "language": "fr"
-    },
-    {
-      "name": "노래하기",
-      "language": "ko"
-    },
-    {
-      "name": "うたう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "うたう",
+    "kana": "うたう",
+    "en": "Sing",
+    "fr": "Berceuse",
+    "it": "Canto",
+    "de": "Gesang",
+    "es": "Canto",
+    "ko": "노래하기",
+    "zh-CN": "唱歌",
+    "zh-TW": "唱歌"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "心地好い　きれいな 歌声を　聞かせて 相手を　眠り状態に　する。",
+    "kana": "ここちよい　きれいな うたごえを　きかせて あいてを　ねむり　じょうたいに　する。",
+    "en": "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber.",
+    "fr": "Une berceuse plonge l’ennemi dans un profond sommeil.",
+    "it": "Dolce ninnananna, cantata da una voce suadente, che fa addormentare il bersaglio.",
+    "de": "Ein Lied, das das Ziel in tiefen Schlaf versetzt.",
+    "es": "Cancioncilla que hace dormir profundamente al objetivo.",
+    "ko": "기분 좋은 예쁜 노랫소리를 들려주고 상대를 잠듦 상태로 만든다.",
+    "zh-CN": "让对手听舒适、 美妙的歌声， 从而陷入睡眠状态。",
+    "zh-TW": "唱出舒服美妙的歌聲， 讓對手陷入睡眠狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

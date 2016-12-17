@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 73,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "humanoid"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ムシャーナ",
-      "language": "ja"
-    },
-    {
-      "name": "몽얌나",
-      "language": "ko"
-    },
-    {
-      "name": "Mushana",
-      "language": "fr"
-    },
-    {
-      "name": "Somnivora",
-      "language": "de"
-    },
-    {
-      "name": "Musharna",
-      "language": "es"
-    },
-    {
-      "name": "Musharna",
-      "language": "it"
-    },
-    {
-      "name": "Musharna",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ムシャーナ",
+    "en": "Musharna",
+    "fr": "Mushana",
+    "it": "Musharna",
+    "de": "Somnivora",
+    "es": "Musharna",
+    "ko": "몽얌나"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ゆめうつつ",
-      "language": "ja"
-    },
-    {
-      "genus": "꿈결",
-      "language": "ko"
-    },
-    {
-      "genus": "Rêveur",
-      "language": "fr"
-    },
-    {
-      "genus": "Halbschlaf",
-      "language": "de"
-    },
-    {
-      "genus": "Duermevela",
-      "language": "es"
-    },
-    {
-      "genus": "Dormiveglia",
-      "language": "it"
-    },
-    {
-      "genus": "Drowsing",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ゆめうつつ",
+    "en": "Drowsing",
+    "fr": "Rêveur",
+    "it": "Dormiveglia",
+    "de": "Halbschlaf",
+    "es": "Duermevela",
+    "ko": "꿈결"
+  },
   "varieties": [
     {
       "is_default": true,

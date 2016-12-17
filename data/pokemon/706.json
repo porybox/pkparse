@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 21,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    }
+    "dragon"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "upright"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ヌメルゴン",
-      "language": "ja"
-    },
-    {
-      "name": "미끄래곤",
-      "language": "ko"
-    },
-    {
-      "name": "Muplodocus",
-      "language": "fr"
-    },
-    {
-      "name": "Viscogon",
-      "language": "de"
-    },
-    {
-      "name": "Goodra",
-      "language": "es"
-    },
-    {
-      "name": "Goodra",
-      "language": "it"
-    },
-    {
-      "name": "Goodra",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヌメルゴン",
+    "en": "Goodra",
+    "fr": "Muplodocus",
+    "it": "Goodra",
+    "de": "Viscogon",
+    "es": "Goodra",
+    "ko": "미끄래곤"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ドラゴン",
-      "language": "ja"
-    },
-    {
-      "genus": "드래곤",
-      "language": "ko"
-    },
-    {
-      "genus": "Dragon",
-      "language": "fr"
-    },
-    {
-      "genus": "Drache",
-      "language": "de"
-    },
-    {
-      "genus": "Dragón",
-      "language": "es"
-    },
-    {
-      "genus": "Drago",
-      "language": "it"
-    },
-    {
-      "genus": "Dragon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ドラゴン",
+    "en": "Dragon",
+    "fr": "Dragon",
+    "it": "Drago",
+    "de": "Drache",
+    "es": "Dragón",
+    "ko": "드래곤"
+  },
   "varieties": [
     {
       "is_default": true,

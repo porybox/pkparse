@@ -1,0 +1,50 @@
+{
+  "id": 623,
+  "name": "breakneck-blitz",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ウルトラダッシュアタック",
+    "kana": "ウルトラダッシュアタック",
+    "en": "Breakneck Blitz",
+    "fr": "Turbo-Charge Bulldozer",
+    "it": "Carica Travolgente",
+    "de": "Hyper-Sprintangriff",
+    "es": "Carrera Arrolladora",
+    "ko": "울트라대시어택",
+    "zh-CN": "究极无敌大冲撞",
+    "zh-TW": "究極無敵大衝撞"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
+}

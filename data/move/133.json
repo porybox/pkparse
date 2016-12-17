@@ -2,36 +2,13 @@
   "id": 133,
   "name": "amnesia",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}.",
-      "short_effect": "Raises the user's Special Defense by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Amnesia",
-      "language": "en"
-    },
-    {
-      "name": "Amnesia",
-      "language": "it"
-    },
-    {
-      "name": "Amnesia",
-      "language": "es"
-    },
-    {
-      "name": "Amnesie",
-      "language": "de"
-    },
-    {
-      "name": "Amnésie",
-      "language": "fr"
-    },
-    {
-      "name": "망각술",
-      "language": "ko"
-    },
-    {
-      "name": "ドわすれ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ドわすれ",
+    "kana": "ドわすれ",
+    "en": "Amnesia",
+    "fr": "Amnésie",
+    "it": "Amnesia",
+    "de": "Amnesie",
+    "es": "Amnesia",
+    "ko": "망각술",
+    "zh-CN": "瞬间失忆",
+    "zh-TW": "瞬間失憶"
+  },
+  "flavor_text_entries": {
+    "ja": "頭を　からにして 一瞬　なにかを　忘れることで 自分の　特防を　ぐーんと　あげる。",
+    "kana": "あたまを　からにして いっしゅん　なにかを　わすれる　ことで じぶんの　とくぼうを　ぐーんと　あげる。",
+    "en": "The user temporarily empties its mind to forget its concerns. This sharply raises the user’s Sp. Def stat.",
+    "fr": "Le lanceur fait le vide dans son esprit pour oublier ses soucis. Augmente beaucoup sa Défense Spéciale.",
+    "it": "Chi la usa svuota per un po’ la mente per dimenticare i problemi. La Difesa Speciale aumenta di molto.",
+    "de": "Gedächtnisverlust, der die Spezial-Verteidigung stark erhöht.",
+    "es": "El usuario olvida sus preocupaciones y aumenta mucho la Defensa Especial.",
+    "ko": "머리를 비워서 순간적으로 무언가를 잊어버림으로써 자신의 특수방어를 크게 올린다.",
+    "zh-CN": "将头脑清空， 瞬间忘记某事， 从而大幅提高自己的特防。",
+    "zh-TW": "將頭腦清空， 藉由在一瞬間遺忘某些事 大幅提高自己的特防。"
+  },
   "stat_changes": [
     {
       "change": 2,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "psychic"
-  }
+  "target": "user",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur fait le vide dans son esprit pour oublier ses soucis. Augmente fortement sa Défense Spéciale."
+        }
+      }
+    }
+  ]
 }

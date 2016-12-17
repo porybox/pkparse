@@ -1,0 +1,38 @@
+{
+  "id": 545,
+  "name": "absorb-bulb",
+  "names": {
+    "ja": "きゅうこん",
+    "kana": "きゅうこん",
+    "en": "Absorb Bulb",
+    "fr": "Bulbe",
+    "it": "Bulbo",
+    "de": "Knolle",
+    "es": "Tubérculo",
+    "ko": "구근",
+    "zh-CN": "球根",
+    "zh-TW": "球根"
+  },
+  "flavor_text_entries": {
+    "ja": "使い捨ての　きゅうこん。 持たせて　みずの　技を　受けると 特攻が　あがる。",
+    "kana": "つかいすての　きゅうこん。 もたせて　みずの　わざを　うけると とくこうが　あがる。",
+    "en": "An item to be held by a Pokémon. It boosts Sp. Atk if hit with a Water-type attack. It can only be used once.",
+    "fr": "Un bulbe jetable. Tenu, il augmente l’Attaque Spéciale lorsque le Pokémon subit une attaque de type Eau.",
+    "it": "Bulbo monouso. Se il Pokémon che ha questo strumento subisce una mossa di tipo Acqua, il suo Attacco Speciale aumenta.",
+    "de": "Eine einmalig einsetzbare Knolle. Erhöht den Spezial-Angriff des Trägers, wenn ihn eine Wasser-Attacke trifft.",
+    "es": "Raíz de usar y tirar que sube el Ataque Especial cuando se recibe un ataque de tipo Agua.",
+    "ko": "단 한 번 쓰면 없어지는 구근. 지니게 하고 물 기술을 받으면 특수공격이 올라간다.",
+    "zh-CN": "一次性使用的球根。 携带它的宝可梦如果受到水属性 招式的攻击，特攻就会提高。",
+    "zh-TW": "只能使用一次的球根。 攜帶它的寶可夢如果受到水屬性 招式的攻擊，特攻就會提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An item to be held by a Pokémon. It boosts Sp. Atk if hit with a Water- type attack. It can only be used once."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 717,
+  "name": "natures-madness",
+  "accuracy": 90,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "しぜんのいかり",
+    "kana": "しぜんのいかり",
+    "en": "Nature’s Madness",
+    "fr": "Ire de la Nature",
+    "it": "Ira della Natura",
+    "de": "Naturzorn",
+    "es": "Furia Natural",
+    "ko": "자연의분노",
+    "zh-CN": "自然之怒",
+    "zh-TW": "自然之怒"
+  },
+  "flavor_text_entries": {
+    "ja": "自然の　怒りを　相手に　ぶつける。 相手の　ＨＰは　半分に　なる。",
+    "kana": "しぜんの　いかりを　あいてに　ぶつける。 あいての　ＨＰは　はんぶんに　なる。",
+    "en": "The user hits the target with the force of nature. It halves the target’s HP.",
+    "fr": "Le lanceur déchaîne toute la colère de la nature pour baisser les PV de la cible de moitié.",
+    "it": "Scatena l’ira della natura sul bersaglio e ne dimezza i PS.",
+    "de": "Das Ziel wird vom Zorn der Natur getroffen und verliert dadurch die Hälfte seiner KP.",
+    "es": "Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad.",
+    "ko": "자연의 분노를 상대에게 부딪친다. 상대의 HP는 절반이 된다.",
+    "zh-CN": "向对手释放自然之怒。 对手的ＨＰ会减半。",
+    "zh-TW": "向對手發洩自然之怒。 會使對手的ＨＰ減半。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fairy"
+}

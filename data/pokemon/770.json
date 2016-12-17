@@ -1,0 +1,45 @@
+{
+  "id": 770,
+  "name": "palossand",
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "color": "brown",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "シロデスナ",
+    "en": "Palossand",
+    "fr": "Trépassable",
+    "it": "Palossand",
+    "de": "Colossand",
+    "es": "Palossand",
+    "ko": "모래성이당"
+  },
+  "genera": {
+    "ja": "すなのしろ",
+    "en": "Sand Castle",
+    "fr": "Châtod’Sable",
+    "it": "Castelsabbia",
+    "de": "Sandschloss",
+    "es": "Castiarena",
+    "ko": "모래성"
+  },
+  "types": [
+    "ghost",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 85,
+    "attack": 75,
+    "defense": 110,
+    "special-attack": 100,
+    "special-defense": 75,
+    "speed": 35
+  }
+}

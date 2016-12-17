@@ -2,36 +2,13 @@
   "id": 24,
   "name": "double-kick",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": 30,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Hits twice in one turn.",
-      "short_effect": "Hits twice in one turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": 2,
     "max_hits": 2,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Double Kick",
-      "language": "en"
-    },
-    {
-      "name": "Doppiocalcio",
-      "language": "it"
-    },
-    {
-      "name": "Doble Patada",
-      "language": "es"
-    },
-    {
-      "name": "Doppelkick",
-      "language": "de"
-    },
-    {
-      "name": "Double Pied",
-      "language": "fr"
-    },
-    {
-      "name": "두번치기",
-      "language": "ko"
-    },
-    {
-      "name": "にどげり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "にどげり",
+    "kana": "にどげり",
+    "en": "Double Kick",
+    "fr": "Double Pied",
+    "it": "Doppiocalcio",
+    "de": "Doppelkick",
+    "es": "Doble Patada",
+    "ko": "두번치기",
+    "zh-CN": "二连踢",
+    "zh-TW": "二連踢"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "２本の　足で　相手を　けとばして 攻撃する。　２回連続で ダメージを　与える。",
+    "kana": "２ほんの　あしで　あいてを　けとばして こうげきする。　２かい　れんぞくで ダメージを　あたえる。",
+    "en": "The target is quickly kicked twice in succession using both feet.",
+    "fr": "Deux coups de pied qui frappent l’ennemi deux fois d’affilée.",
+    "it": "Colpisce il bersaglio due volte con una raffica di calci inferti con entrambi i piedi.",
+    "de": "Der Anwender tritt in einer Runde zweimal schnell zu.",
+    "es": "Una patada doble. Golpea dos veces.",
+    "ko": "2개의 다리로 상대를 걷어차서 공격한다. 2회 연속으로 데미지를 준다.",
+    "zh-CN": "用２只脚踢飞对手进行攻击。 连续２次给予伤害。",
+    "zh-TW": "用２隻腳踢飛對手進行攻擊。 連續２次給予傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "２本の　足で　相手を　けとばして 攻撃する。２回連続で ダメージを　与える。",
+          "kana": "２ほんの　あしで　あいてを　けとばして こうげきする。２かい　れんぞくで ダメージを　あたえる。"
+        }
+      }
+    }
+  ]
 }

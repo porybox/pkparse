@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 129,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "upright"
   },
@@ -74,44 +66,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "デンリュウ",
-      "language": "ja"
-    },
-    {
-      "name": "Denryu",
-      "language": "roomaji"
-    },
-    {
-      "name": "전룡",
-      "language": "ko"
-    },
-    {
-      "name": "電龍",
-      "language": "zh"
-    },
-    {
-      "name": "Pharamp",
-      "language": "fr"
-    },
-    {
-      "name": "Ampharos",
-      "language": "de"
-    },
-    {
-      "name": "Ampharos",
-      "language": "es"
-    },
-    {
-      "name": "Ampharos",
-      "language": "it"
-    },
-    {
-      "name": "Ampharos",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "デンリュウ",
+    "en": "Ampharos",
+    "fr": "Pharamp",
+    "it": "Ampharos",
+    "de": "Ampharos",
+    "es": "Ampharos",
+    "ko": "전룡"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -122,36 +85,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ライト",
-      "language": "ja"
-    },
-    {
-      "genus": "라이트",
-      "language": "ko"
-    },
-    {
-      "genus": "Lumière",
-      "language": "fr"
-    },
-    {
-      "genus": "Leuchte",
-      "language": "de"
-    },
-    {
-      "genus": "Luz",
-      "language": "es"
-    },
-    {
-      "genus": "Luce",
-      "language": "it"
-    },
-    {
-      "genus": "Light",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ライト",
+    "en": "Light",
+    "fr": "Lumière",
+    "it": "Luce",
+    "de": "Leuchte",
+    "es": "Luz",
+    "ko": "라이트"
+  },
   "varieties": [
     {
       "is_default": true,

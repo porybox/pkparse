@@ -2,36 +2,13 @@
   "id": 399,
   "name": "dark-pulse",
   "accuracy": 100,
-  "effect_chance": 20,
   "pp": 15,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 20,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Dark Pulse",
-      "language": "en"
-    },
-    {
-      "name": "Neropulsar",
-      "language": "it"
-    },
-    {
-      "name": "Pulso Umbrío",
-      "language": "es"
-    },
-    {
-      "name": "Finsteraura",
-      "language": "de"
-    },
-    {
-      "name": "Vibrobscur",
-      "language": "fr"
-    },
-    {
-      "name": "악의파동",
-      "language": "ko"
-    },
-    {
-      "name": "あくのはどう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "あくのはどう",
+    "kana": "あくのはどう",
+    "en": "Dark Pulse",
+    "fr": "Vibrobscur",
+    "it": "Neropulsar",
+    "de": "Finsteraura",
+    "es": "Pulso Umbrío",
+    "ko": "악의파동",
+    "zh-CN": "恶之波动",
+    "zh-TW": "惡之波動"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "体から　悪意に　みちた 恐ろしい　オーラを　発する。 相手を　ひるませることが　ある。",
+    "kana": "からだから　あくいに みちた　おそろしい　オーラを　はっする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user releases a horrible aura imbued with dark thoughts. This may also make the target flinch.",
+    "fr": "Le lanceur dégage une horrible aura chargée d’idées noires. Peut aussi apeurer l’ennemi.",
+    "it": "Chi la usa emana un’aura impregnata di oscuri pensieri. Può anche far tentennare il Pokémon colpito.",
+    "de": "Anwender greift mit fürchterlicher Aura schlechter Gedanken an. Ziel schreckt eventuell zurück.",
+    "es": "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.",
+    "ko": "몸에서 악의로 가득한 무서운 오라를 발한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "从体内发出 充满恶意的恐怖气场。 有时会使对手畏缩。",
+    "zh-TW": "從身體散發出 充滿惡意的恐怖氣場。 有時會使對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark"
 }

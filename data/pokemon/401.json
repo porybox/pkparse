@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 15,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "humanoid"
   },
@@ -49,44 +43,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "コロボーシ",
-      "language": "ja"
-    },
-    {
-      "name": "Korobohshi",
-      "language": "roomaji"
-    },
-    {
-      "name": "귀뚤뚜기",
-      "language": "ko"
-    },
-    {
-      "name": "圓法師",
-      "language": "zh"
-    },
-    {
-      "name": "Crikzik",
-      "language": "fr"
-    },
-    {
-      "name": "Zirpurze",
-      "language": "de"
-    },
-    {
-      "name": "Kricketot",
-      "language": "es"
-    },
-    {
-      "name": "Kricketot",
-      "language": "it"
-    },
-    {
-      "name": "Kricketot",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コロボーシ",
+    "en": "Kricketot",
+    "fr": "Crikzik",
+    "it": "Kricketot",
+    "de": "Zirpurze",
+    "es": "Kricketot",
+    "ko": "귀뚤뚜기"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -97,36 +62,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こおろぎ",
-      "language": "ja"
-    },
-    {
-      "genus": "귀뚜라미",
-      "language": "ko"
-    },
-    {
-      "genus": "Criquet",
-      "language": "fr"
-    },
-    {
-      "genus": "Zirper",
-      "language": "de"
-    },
-    {
-      "genus": "Grillo",
-      "language": "es"
-    },
-    {
-      "genus": "Grillo",
-      "language": "it"
-    },
-    {
-      "genus": "Cricket",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こおろぎ",
+    "en": "Cricket",
+    "fr": "Criquet",
+    "it": "Grillo",
+    "de": "Zirper",
+    "es": "Grillo",
+    "ko": "귀뚜라미"
+  },
   "varieties": [
     {
       "is_default": true,

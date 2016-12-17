@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 93,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "humanoid"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ノズパス",
-      "language": "ja"
-    },
-    {
-      "name": "Nosepass",
-      "language": "roomaji"
-    },
-    {
-      "name": "코코파스",
-      "language": "ko"
-    },
-    {
-      "name": "朝北鼻",
-      "language": "zh"
-    },
-    {
-      "name": "Tarinor",
-      "language": "fr"
-    },
-    {
-      "name": "Nasgnet",
-      "language": "de"
-    },
-    {
-      "name": "Nosepass",
-      "language": "es"
-    },
-    {
-      "name": "Nosepass",
-      "language": "it"
-    },
-    {
-      "name": "Nosepass",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ノズパス",
+    "en": "Nosepass",
+    "fr": "Tarinor",
+    "it": "Nosepass",
+    "de": "Nasgnet",
+    "es": "Nosepass",
+    "ko": "코코파스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "コンパス",
-      "language": "ja"
-    },
-    {
-      "genus": "콤파스",
-      "language": "ko"
-    },
-    {
-      "genus": "Boussole",
-      "language": "fr"
-    },
-    {
-      "genus": "Kompass",
-      "language": "de"
-    },
-    {
-      "genus": "Brújula",
-      "language": "es"
-    },
-    {
-      "genus": "Bussola",
-      "language": "it"
-    },
-    {
-      "genus": "Compass",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "コンパス",
+    "en": "Compass",
+    "fr": "Boussole",
+    "it": "Bussola",
+    "de": "Kompass",
+    "es": "Brújula",
+    "ko": "콤파스"
+  },
   "varieties": [
     {
       "is_default": true,

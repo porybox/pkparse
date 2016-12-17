@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 106,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "クサイハナ",
-      "language": "ja"
-    },
-    {
-      "name": "Kusaihana",
-      "language": "roomaji"
-    },
-    {
-      "name": "냄새꼬",
-      "language": "ko"
-    },
-    {
-      "name": "臭臭花",
-      "language": "zh"
-    },
-    {
-      "name": "Ortide",
-      "language": "fr"
-    },
-    {
-      "name": "Duflor",
-      "language": "de"
-    },
-    {
-      "name": "Gloom",
-      "language": "es"
-    },
-    {
-      "name": "Gloom",
-      "language": "it"
-    },
-    {
-      "name": "Gloom",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クサイハナ",
+    "en": "Gloom",
+    "fr": "Ortide",
+    "it": "Gloom",
+    "de": "Duflor",
+    "es": "Gloom",
+    "ko": "냄새꼬"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ざっそう",
-      "language": "ja"
-    },
-    {
-      "genus": "잡초",
-      "language": "ko"
-    },
-    {
-      "genus": "Racine",
-      "language": "fr"
-    },
-    {
-      "genus": "Unkraut",
-      "language": "de"
-    },
-    {
-      "genus": "Hierbajo",
-      "language": "es"
-    },
-    {
-      "genus": "Malerba",
-      "language": "it"
-    },
-    {
-      "genus": "Weed",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ざっそう",
+    "en": "Weed",
+    "fr": "Racine",
+    "it": "Malerba",
+    "de": "Unkraut",
+    "es": "Hierbajo",
+    "ko": "잡초"
+  },
   "varieties": [
     {
       "is_default": true,

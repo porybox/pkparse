@@ -2,36 +2,13 @@
   "id": 227,
   "name": "encore",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "The next 4–8 times (selected at random) the target attempts to move, it is forced to repeat its last used move.  If the selected move allows the trainer to select a target, an opponent will be selected at random each turn.  If the target is prevented from using the selected move by some other effect, []{move:struggle} will be used instead.  This effect ends if the selected move runs out of [PP]{mechanic:pp}.\n\nIf the target hasn't used a move since entering the [field]{mechanic:field}, if it tried to use a move this turn and [failed]{mechanic:failed}, if it does not know the selected move, or if the selected move has 0 [PP]{mechanic:pp} remaining, this move will fail.  If the target's last used move was []{move:encore}, []{move:mimic}, []{move:mirror-move}, []{move:sketch}, []{move:struggle}, or []{move:transform}, this move will fail.",
-      "short_effect": "Forces the target to repeat its last used move every turn for 2 to 6 turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Encore",
-      "language": "en"
-    },
-    {
-      "name": "Ripeti",
-      "language": "it"
-    },
-    {
-      "name": "Otra Vez",
-      "language": "es"
-    },
-    {
-      "name": "Zugabe",
-      "language": "de"
-    },
-    {
-      "name": "Encore",
-      "language": "fr"
-    },
-    {
-      "name": "앵콜",
-      "language": "ko"
-    },
-    {
-      "name": "アンコール",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "アンコール",
+    "kana": "アンコール",
+    "en": "Encore",
+    "fr": "Encore",
+    "it": "Ripeti",
+    "de": "Zugabe",
+    "es": "Otra Vez",
+    "ko": "앵콜",
+    "zh-CN": "再来一次",
+    "zh-TW": "再來一次"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "相手に　アンコールした　技を ３回　続けて　出させる。",
+    "kana": "あいてに　アンコールした　わざを ３かい　つづけて　ださせる。",
+    "en": "The user compels the target to keep using the move it encored for three turns.",
+    "fr": "Oblige l’ennemi à répéter durant trois tours la dernière capacité utilisée.",
+    "it": "Chi la usa obbliga il bersaglio a ripetere per tre turni l’ultima mossa eseguita.",
+    "de": "Das Ziel wiederholt die letzte Attacke drei Runden lang.",
+    "es": "El objetivo repite su último movimiento durante tres turnos.",
+    "ko": "상대에게 앵콜시킨 기술을 3번 연속으로 쓰게 한다.",
+    "zh-CN": "让对手接受再来一次， 连续３次使出最后使用的招式。",
+    "zh-TW": "要求對手再來一次， 讓對手連續３次 使出最近一次使用的招式。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手が　最後に　使った技を ３ターンの　あいだ ずっと　ださせる。",
+          "kana": "あいてが　さいごに　つかった　わざを ３ターンの　あいだ ずっと　ださせる。",
+          "en": "The user compels the target to keep using only the move it last used for three turns.",
+          "ko": "상대가 마지막으로 사용한 기술을 3턴 동안 계속 쓰게 한다."
+        }
+      }
+    }
+  ]
 }

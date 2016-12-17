@@ -1,0 +1,50 @@
+{
+  "id": 693,
+  "name": "brutal-swing",
+  "accuracy": 100,
+  "pp": 20,
+  "priority": 0,
+  "power": 60,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ぶんまわす",
+    "kana": "ぶんまわす",
+    "en": "Brutal Swing",
+    "fr": "Centrifugifle",
+    "it": "Vorticolpo",
+    "de": "Wirbler",
+    "es": "Giro Vil",
+    "ko": "세차게휘두르기",
+    "zh-CN": "狂舞挥打",
+    "zh-TW": "狂舞揮打"
+  },
+  "flavor_text_entries": {
+    "ja": "自分の　体を ぶんまわして　相手に ダメージを　与える。",
+    "kana": "じぶんの　からだを ぶんまわして　あいてに ダメージを　あたえる。",
+    "en": "The user swings its body around violently to inflict damage on everything in its vicinity.",
+    "fr": "Le lanceur pivote pour prendre de l’élan et infliger des dégâts.",
+    "it": "Chi la usa infligge danni intorno a sé facendo ruotare una parte del suo corpo.",
+    "de": "Der Anwender dreht schwungvoll seinen Körper und fügt den Pokémon in seiner Nähe dabei Schaden zu.",
+    "es": "Hace pivotar su cuerpo para infligir daño a su rival.",
+    "ko": "자신의 몸을 세차게 휘둘러서 상대에게 데미지를 준다.",
+    "zh-CN": "用自己的身体狂舞挥打， 给予对手伤害。",
+    "zh-TW": "用自己的身體狂舞揮打， 給予對手傷害。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "dark"
+}

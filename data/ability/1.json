@@ -1,229 +1,44 @@
 {
   "id": 1,
   "name": "stench",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "あくしゅう",
+    "kana": "あくしゅう",
+    "en": "Stench",
+    "fr": "Puanteur",
+    "it": "Tanfo",
+    "de": "Duftnote",
+    "es": "Hedor",
+    "ko": "악취",
+    "zh-CN": "恶臭",
+    "zh-TW": "惡臭"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "臭い　においを　放つことによって 攻撃した　ときに　相手を ひるませることが　ある。",
+    "kana": "くさい　においを　はなつことによって こうげきした　ときに　あいてを ひるませることが　ある。",
+    "en": "By releasing stench when attacking, this Pokémon may cause the target to flinch.",
+    "fr": "Le Pokémon émet une odeur si nauséabonde qu’il peut effrayer sa cible.",
+    "it": "A volte il cattivo odore emesso dal Pokémon fa tentennare i nemici quando attacca.",
+    "de": "Lässt das Ziel beim Angriff eventuell durch Gestank zurückschrecken.",
+    "es": "Debido al mal olor que emana, al atacar al rival puede hacerlo retroceder.",
+    "ko": "악취를 풍겨서 공격했을 때 상대가 풀죽을 때가 있다.",
+    "zh-CN": "通过释放臭臭的气味， 在攻击的时候， 有时会使对手畏缩。",
+    "zh-TW": "發出臭氣， 在攻擊的時候， 有時會使對手畏縮。"
+  },
+  "past_values": [
     {
-      "name": "Stench",
-      "language": "en"
-    },
-    {
-      "name": "Tanfo",
-      "language": "it"
-    },
-    {
-      "name": "Hedor",
-      "language": "es"
-    },
-    {
-      "name": "Duftnote",
-      "language": "de"
-    },
-    {
-      "name": "Puanteur",
-      "language": "fr"
-    },
-    {
-      "name": "악취",
-      "language": "ko"
-    },
-    {
-      "name": "あくしゅう",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon's damaging moves have a 10% chance to make the target [flinch]{mechanic:flinch} with each hit if they do not already cause flinching as a secondary effect.\n\nThis ability does not stack with a held item.\n\nOverworld: The wild encounter rate is halved while this Pokémon is first in the party.",
-      "short_effect": "Has a 10% chance of making target Pokémon [flinch]{mechanic:flinch} with each hit.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "Has no effect in battle.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "臭くて　相手が ひるむ　ことがある。",
+          "kana": "くさくて　あいてが ひるむ　ことがある。",
+          "en": "The stench may cause the target to flinch.",
+          "fr": "La puanteur peut effrayer l’adversaire.",
+          "it": "A volte il cattivo odore fa tentennare i nemici.",
+          "de": "Lässt den Gegner durch Gestank zurückschrecken.",
+          "es": "Es posible que el rival retroceda por el mal olor.",
+          "ko": "악취 때문에 상대가 풀죽을 때가 있다."
         }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "臭くて　相手が\nひるむ　ことがある。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "The stench may cause\nthe target to flinch.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "A volte il cattivo odore\nfa tentennare i nemici.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Es posible que el rival retroceda\npor el mal olor.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Lässt den Gegner durch Gestank\nzurückschrecken.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "La puanteur peut effrayer\nl’adversaire.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "악취 때문에 상대가\n풀죽을 때가 있다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "くさくて　あいてが\nひるむ　ことがある。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "The stench may cause\nthe target to flinch.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The stench may cause\nthe target to flinch.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "La puanteur peut\neffrayer l’adversaire.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "The stench helps keep\nwild Pokémon away.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The stench helps keep\nwild Pokémon away.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The stench helps keep\nwild Pokémon away.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Helps repel wild POKéMON.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Helps repel wild POKéMON.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Helps repel wild POKéMON.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "gloom"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "grimer"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "muk"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "stunky"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "skuntank"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "trubbish"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "garbodor"
       }
     }
   ]

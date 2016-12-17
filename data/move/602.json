@@ -2,34 +2,13 @@
   "id": 602,
   "name": "magnetic-flux",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the Defense and Special Defense of all friendly Pokémon with []{ability:plus} or []{ability:minus} by one stage.",
-      "short_effect": "Raises the Defense and Special Defense of all friendly Pokémon with []{ability:plus} or []{ability:minus} by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,56 +20,50 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Magnetic Flux",
-      "language": "en"
-    },
-    {
-      "name": "Controllo Polare",
-      "language": "it"
-    },
-    {
-      "name": "Aura Magnética",
-      "language": "es"
-    },
-    {
-      "name": "Magnetregler",
-      "language": "de"
-    },
-    {
-      "name": "Magné-Contrôle",
-      "language": "fr"
-    },
-    {
-      "name": "자기장조작",
-      "language": "ko"
-    },
-    {
-      "name": "じばそうさ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "じばそうさ",
+    "kana": "じばそうさ",
+    "en": "Magnetic Flux",
+    "fr": "Magné-Contrôle",
+    "it": "Controllo Polare",
+    "de": "Magnetregler",
+    "es": "Aura Magnética",
+    "ko": "자기장조작",
+    "zh-CN": "磁场操控",
+    "zh-TW": "磁場操控"
+  },
+  "flavor_text_entries": {
+    "ja": "磁場を　操作　することによって 特性　プラスと　マイナスの 防御　特防が　あがる。",
+    "kana": "じばを　そうさ　することによって とくせい　プラスと　マイナスの ぼうぎょ　とくぼうが　あがる。",
+    "en": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.",
+    "fr": "Manipule les champs magnétiques pour augmenter la Défense et la Défense Spéciale des Pokémon alliés dotés du talent Plus ou du talent Minus.",
+    "it": "Tramite il controllo dei campi magnetici, aumenta la Difesa e la Difesa Speciale dei Pokémon alleati dotati delle abilità Più o Meno.",
+    "de": "Das Magnetfeld wird so manipuliert, dass Spezial- Verteidigung und Verteidigung von Team-Pokémon mit der Fähigkeit Plus oder Minus steigen.",
+    "es": "Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+    "ko": "자기장 조작으로 인해 특성 플러스와 마이너스의 방어, 특수방어가 오른다.",
+    "zh-CN": "通过操控磁场， 会提高特性为正电和负电的 宝可梦的防御和特防。",
+    "zh-TW": "操控磁場， 提高特性是正電和負電的 寶可夢的防禦和特防。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "user-and-allies"
-  },
-  "type": {
-    "name": "electric"
-  }
+  "target": "user-and-allies",
+  "type": "electric",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Tramite il controllo dei campi magnetici, aumenta la Difesa e la Difesa Speciale dei Pokémon alleati dotati dell’abilità Più o Meno."
+        }
+      }
+    }
+  ]
 }

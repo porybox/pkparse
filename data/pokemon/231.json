@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 200,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ゴマゾウ",
-      "language": "ja"
-    },
-    {
-      "name": "Gomazou",
-      "language": "roomaji"
-    },
-    {
-      "name": "코코리",
-      "language": "ko"
-    },
-    {
-      "name": "小小象",
-      "language": "zh"
-    },
-    {
-      "name": "Phanpy",
-      "language": "fr"
-    },
-    {
-      "name": "Phanpy",
-      "language": "de"
-    },
-    {
-      "name": "Phanpy",
-      "language": "es"
-    },
-    {
-      "name": "Phanpy",
-      "language": "it"
-    },
-    {
-      "name": "Phanpy",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴマゾウ",
+    "en": "Phanpy",
+    "fr": "Phanpy",
+    "it": "Phanpy",
+    "de": "Phanpy",
+    "es": "Phanpy",
+    "ko": "코코리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ながはな",
-      "language": "ja"
-    },
-    {
-      "genus": "긴코",
-      "language": "ko"
-    },
-    {
-      "genus": "Long-Nez",
-      "language": "fr"
-    },
-    {
-      "genus": "Langrüssel",
-      "language": "de"
-    },
-    {
-      "genus": "Narizotas",
-      "language": "es"
-    },
-    {
-      "genus": "Nasone",
-      "language": "it"
-    },
-    {
-      "genus": "Long Nose",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ながはな",
+    "en": "Long Nose",
+    "fr": "Long-Nez",
+    "it": "Nasone",
+    "de": "Langrüssel",
+    "es": "Narizotas",
+    "ko": "긴코"
+  },
   "varieties": [
     {
       "is_default": true,

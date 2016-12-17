@@ -2,34 +2,13 @@
   "id": 606,
   "name": "celebrate",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "This move has a unique effect, but it is unreleased, so the specific effect is unknown.",
-      "short_effect": "Unknown.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Celebrate",
-      "language": "en"
-    },
-    {
-      "name": "Auguri",
-      "language": "it"
-    },
-    {
-      "name": "Celebración",
-      "language": "es"
-    },
-    {
-      "name": "Ehrentag",
-      "language": "de"
-    },
-    {
-      "name": "Célébration",
-      "language": "fr"
-    },
-    {
-      "name": "축하",
-      "language": "ko"
-    },
-    {
-      "name": "おいわい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "おいわい",
+    "kana": "おいわい",
+    "en": "Celebrate",
+    "fr": "Célébration",
+    "it": "Auguri",
+    "de": "Ehrentag",
+    "es": "Celebración",
+    "ko": "축하",
+    "zh-CN": "庆祝",
+    "zh-TW": "慶祝"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "ポケモンが　とっても ハッピーな　あなたのことを お祝い　してくれる。",
+    "kana": "ポケモンが　とっても ハッピーな　あなたのことを おいわい　してくれる。",
+    "en": "The Pokémon congratulates you on your special day!",
+    "fr": "Le Pokémon vous souhaite plein de bonnes choses pour cet événement spécial.",
+    "it": "Il Pokémon ti fa gli auguri nel tuo giorno speciale.",
+    "de": "Das Pokémon gratuliert dir zu deinem Geburtstag!",
+    "es": "El Pokémon te felicita en un día muy especial para ti.",
+    "ko": "포켓몬이 매우 행복한 당신을 축하해 준다.",
+    "zh-CN": "宝可梦为十分 开心的你庆祝。",
+    "zh-TW": "寶可夢會為了 非常開心的你而慶祝。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal"
 }

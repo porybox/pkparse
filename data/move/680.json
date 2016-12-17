@@ -1,0 +1,55 @@
+{
+  "id": 680,
+  "name": "fire-lash",
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "power": 80,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage+lower",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": {
+    "ja": "ほのおのムチ",
+    "kana": "ほのおのムチ",
+    "en": "Fire Lash",
+    "fr": "Fouet de Feu",
+    "it": "Frusta di Fuoco",
+    "de": "Feuerpeitsche",
+    "es": "Látigo Ígneo",
+    "ko": "불꽃채찍",
+    "zh-CN": "火焰鞭",
+    "zh-TW": "火焰鞭"
+  },
+  "flavor_text_entries": {
+    "ja": "焼けたムチで　相手を　打ちつける。 攻撃を　受けた　相手は 防御が　さがる。",
+    "kana": "やけたムチで　あいてを　うちつける。 こうげきを　うけた　あいては ぼうぎょが　さがる。",
+    "en": "The user strikes the target with a burning lash. This also lowers the target’s Defense stat.",
+    "fr": "Frappe la cible avec un fouet incandescent et baisse sa Défense.",
+    "it": "Colpisce il bersaglio con una frusta infuocata e ne riduce la Difesa.",
+    "de": "Der Anwender greift das Ziel mit einer brennenden Peitsche an und senkt dabei zusätzlich dessen Verteidigungs-Wert.",
+    "es": "Golpea al oponente con un látigo incandescente y reduce su Defensa.",
+    "ko": "불타는 채찍으로 상대를 친다. 공격을 받은 상대는 방어가 떨어진다.",
+    "zh-CN": "用燃烧的鞭子抽打对手。 受到攻击的对手防御会降低。",
+    "zh-TW": "用燃燒的鞭子抽打對手。 受到攻擊的對手防禦會降低。"
+  },
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": "defense"
+    }
+  ],
+  "target": "selected-pokemon",
+  "type": "fire"
+}

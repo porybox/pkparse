@@ -1,0 +1,40 @@
+{
+  "id": 368,
+  "name": "tm41",
+  "names": {
+    "ja": "わざマシン４１",
+    "kana": "わざマシン４１",
+    "en": "TM41",
+    "fr": "CT41",
+    "it": "MT41",
+    "de": "TM41",
+    "es": "MT41",
+    "ko": "기술머신41",
+    "zh-CN": "招式学习器４１",
+    "zh-TW": "招式學習器４１"
+  },
+  "flavor_text_entries": {
+    "ja": "相手に　いちゃもんを　つけて 同じ　技を　２回　連続で だせなくする。",
+    "kana": "あいてに　いちゃもんを　つけて おなじ　わざを　２かい　れんぞくで だせなくする。",
+    "en": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+    "fr": "Le lanceur irrite l’ennemi pour l’empêcher d’utiliser la même capacité deux fois de suite.",
+    "it": "Chi la usa tormenta e fa infuriare il bersaglio, impedendogli di usare la stessa mossa due volte di seguito.",
+    "de": "Der Anwender bringt das Ziel in Rage. Dieses ist nicht mehr in der Lage, eine Attacke zweimal hintereinander anzuwenden.",
+    "es": "Atormenta al objetivo y le provoca un ataque de ira que le impide usar el mismo movimiento dos veces seguidas.",
+    "ko": "상대에게 트집을 잡아서 똑같은 기술을 2회 연속으로 쓸 수 없게 한다.",
+    "zh-CN": "向对手无理取闹， 令其不能连续２次 使出相同招式。",
+    "zh-TW": "無理取鬧， 讓對手不能連續２次 使出相同招式。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "いちゃもんを　つけて　おなじわざを れんぞくで　だせない　ようにする。",
+          "it": "Chi la usa tormenta e fa infuriare il nemico, impedendogli di usare la stessa mossa due volte di seguito.",
+          "ko": "트집을 잡아서 똑같은 기술을 연속으로 쓸 수 없게 한다."
+        }
+      }
+    }
+  ]
+}

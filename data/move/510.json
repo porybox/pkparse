@@ -2,34 +2,13 @@
   "id": 510,
   "name": "incinerate",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target is [holding]{mechanic:held-item} a [berry]{mechanic:berry}, it's destroyed and cannot be used in response to this move.",
-      "short_effect": "Destroys the target's held berry.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Incinerate",
-      "language": "en"
-    },
-    {
-      "name": "Bruciatutto",
-      "language": "it"
-    },
-    {
-      "name": "Calcinación",
-      "language": "es"
-    },
-    {
-      "name": "Einäschern",
-      "language": "de"
-    },
-    {
-      "name": "Calcination",
-      "language": "fr"
-    },
-    {
-      "name": "불태우기",
-      "language": "ko"
-    },
-    {
-      "name": "やきつくす",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-opponents"
+  "names": {
+    "ja": "やきつくす",
+    "kana": "やきつくす",
+    "en": "Incinerate",
+    "fr": "Calcination",
+    "it": "Bruciatutto",
+    "de": "Einäschern",
+    "es": "Calcinación",
+    "ko": "불태우기",
+    "zh-CN": "烧尽",
+    "zh-TW": "燒盡"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "炎で　相手を　攻撃する。 相手が　きのみなどを　持っているとき 燃やして　使えなくする。",
+    "kana": "ほのおで　あいてを　こうげきする。 あいてが　きのみなどを　もっている　とき もやして　つかえなく　する。",
+    "en": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+    "fr": "Des flammes calcinent l’ennemi. S’il tient un objet, une Baie par exemple, celui-ci est brûlé et devient inutilisable.",
+    "it": "Attacca i nemici che ha intorno con una fiammata. Il fuoco distruggerà le bacche o alcuni tipi di strumenti che i Pokémon hanno con sé.",
+    "de": "Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.",
+    "es": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas u otros objetos, estos se quemarán y ya no se podrán usar.",
+    "ko": "불꽃으로 상대를 공격한다. 상대가 나무열매 등을 지니고 있을 때 불태워서 쓸 수 없게 만든다.",
+    "zh-CN": "用火焰攻击对手。 对手携带树果等时， 会烧掉，使其不能使用。",
+    "zh-TW": "用火焰攻擊對手。 能夠燒掉對手攜帶的樹果等道具， 讓對手無法使用。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "fire"
 }

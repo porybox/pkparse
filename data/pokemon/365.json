@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 62,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -62,44 +54,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "トドゼルガ",
-      "language": "ja"
-    },
-    {
-      "name": "Todoseruga",
-      "language": "roomaji"
-    },
-    {
-      "name": "씨카이저",
-      "language": "ko"
-    },
-    {
-      "name": "帝牙海獅",
-      "language": "zh"
-    },
-    {
-      "name": "Kaimorse",
-      "language": "fr"
-    },
-    {
-      "name": "Walraisa",
-      "language": "de"
-    },
-    {
-      "name": "Walrein",
-      "language": "es"
-    },
-    {
-      "name": "Walrein",
-      "language": "it"
-    },
-    {
-      "name": "Walrein",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "トドゼルガ",
+    "en": "Walrein",
+    "fr": "Kaimorse",
+    "it": "Walrein",
+    "de": "Walraisa",
+    "es": "Walrein",
+    "ko": "씨카이저"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -110,36 +73,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こおりわり",
-      "language": "ja"
-    },
-    {
-      "genus": "얼음깨기",
-      "language": "ko"
-    },
-    {
-      "genus": "Brise Glace",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisbrecher",
-      "language": "de"
-    },
-    {
-      "genus": "Rompehielo",
-      "language": "es"
-    },
-    {
-      "genus": "Spaccagelo",
-      "language": "it"
-    },
-    {
-      "genus": "Ice Break",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こおりわり",
+    "en": "Ice Break",
+    "fr": "Brise Glace",
+    "it": "Spaccagelo",
+    "de": "Eisbrecher",
+    "es": "Rompehielo",
+    "ko": "얼음깨기"
+  },
   "varieties": [
     {
       "is_default": true,

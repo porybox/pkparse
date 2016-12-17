@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 51,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ガーディ",
-      "language": "ja"
-    },
-    {
-      "name": "Gardie",
-      "language": "roomaji"
-    },
-    {
-      "name": "가디",
-      "language": "ko"
-    },
-    {
-      "name": "卡蒂狗",
-      "language": "zh"
-    },
-    {
-      "name": "Caninos",
-      "language": "fr"
-    },
-    {
-      "name": "Fukano",
-      "language": "de"
-    },
-    {
-      "name": "Growlithe",
-      "language": "es"
-    },
-    {
-      "name": "Growlithe",
-      "language": "it"
-    },
-    {
-      "name": "Growlithe",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ガーディ",
+    "en": "Growlithe",
+    "fr": "Caninos",
+    "it": "Growlithe",
+    "de": "Fukano",
+    "es": "Growlithe",
+    "ko": "가디"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こいぬ",
-      "language": "ja"
-    },
-    {
-      "genus": "강아지",
-      "language": "ko"
-    },
-    {
-      "genus": "Chiot",
-      "language": "fr"
-    },
-    {
-      "genus": "Hund",
-      "language": "de"
-    },
-    {
-      "genus": "Perrito",
-      "language": "es"
-    },
-    {
-      "genus": "Cagnolino",
-      "language": "it"
-    },
-    {
-      "genus": "Puppy",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こいぬ",
+    "en": "Puppy",
+    "fr": "Chiot",
+    "it": "Cagnolino",
+    "de": "Hund",
+    "es": "Perrito",
+    "ko": "강아지"
+  },
   "varieties": [
     {
       "is_default": true,

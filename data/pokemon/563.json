@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 125,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    },
-    {
-      "name": "mineral"
-    }
+    "mineral",
+    "indeterminate"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "blob"
   },
@@ -54,68 +46,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "デスカーン",
-      "language": "ja"
-    },
-    {
-      "name": "데스니칸",
-      "language": "ko"
-    },
-    {
-      "name": "Tutankafer",
-      "language": "fr"
-    },
-    {
-      "name": "Echnatoll",
-      "language": "de"
-    },
-    {
-      "name": "Cofagrigus",
-      "language": "es"
-    },
-    {
-      "name": "Cofagrigus",
-      "language": "it"
-    },
-    {
-      "name": "Cofagrigus",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "デスカーン",
+    "en": "Cofagrigus",
+    "fr": "Tutankafer",
+    "it": "Cofagrigus",
+    "de": "Echnatoll",
+    "es": "Cofagrigus",
+    "ko": "데스니칸"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かんおけ",
-      "language": "ja"
-    },
-    {
-      "genus": "관",
-      "language": "ko"
-    },
-    {
-      "genus": "Cercueil",
-      "language": "fr"
-    },
-    {
-      "genus": "Sarkophag",
-      "language": "de"
-    },
-    {
-      "genus": "Sepultura",
-      "language": "es"
-    },
-    {
-      "genus": "Bara",
-      "language": "it"
-    },
-    {
-      "genus": "Coffin",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かんおけ",
+    "en": "Coffin",
+    "fr": "Cercueil",
+    "it": "Bara",
+    "de": "Sarkophag",
+    "es": "Sepultura",
+    "ko": "관"
+  },
   "varieties": [
     {
       "is_default": true,

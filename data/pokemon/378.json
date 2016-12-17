@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 194,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -45,44 +39,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "レジアイス",
-      "language": "ja"
-    },
-    {
-      "name": "Regice",
-      "language": "roomaji"
-    },
-    {
-      "name": "레지아이스",
-      "language": "ko"
-    },
-    {
-      "name": "雷吉艾斯",
-      "language": "zh"
-    },
-    {
-      "name": "Regice",
-      "language": "fr"
-    },
-    {
-      "name": "Regice",
-      "language": "de"
-    },
-    {
-      "name": "Regice",
-      "language": "es"
-    },
-    {
-      "name": "Regice",
-      "language": "it"
-    },
-    {
-      "name": "Regice",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "レジアイス",
+    "en": "Regice",
+    "fr": "Regice",
+    "it": "Regice",
+    "de": "Regice",
+    "es": "Regice",
+    "ko": "레지아이스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -93,36 +58,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひょうざん",
-      "language": "ja"
-    },
-    {
-      "genus": "빙산",
-      "language": "ko"
-    },
-    {
-      "genus": "Iceberg",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisberg",
-      "language": "de"
-    },
-    {
-      "genus": "Iceberg",
-      "language": "es"
-    },
-    {
-      "genus": "Iceberg",
-      "language": "it"
-    },
-    {
-      "genus": "Iceberg",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひょうざん",
+    "en": "Iceberg",
+    "fr": "Iceberg",
+    "it": "Iceberg",
+    "de": "Eisberg",
+    "es": "Iceberg",
+    "ko": "빙산"
+  },
   "varieties": [
     {
       "is_default": true,

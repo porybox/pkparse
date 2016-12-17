@@ -1,308 +1,44 @@
 {
   "id": 12,
   "name": "oblivious",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "どんかん",
+    "kana": "どんかん",
+    "en": "Oblivious",
+    "fr": "Benêt",
+    "it": "Indifferenza",
+    "de": "Dösigkeit",
+    "es": "Despiste",
+    "ko": "둔감",
+    "zh-CN": "迟钝",
+    "zh-TW": "遲鈍"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "鈍感なので メロメロや　ちょうはつ状態に ならない。",
+    "kana": "どんかん　なので メロメロや　ちょうはつ　じょうたいに ならない。",
+    "en": "The Pokémon is oblivious, and that keeps it from being infatuated or falling for taunts.",
+    "fr": "Le Pokémon est un grand benêt, ce qui l’immunise contre l’attraction ou la provocation.",
+    "it": "L’imperturbabilità del Pokémon lo protegge da infatuazioni e provocazioni.",
+    "de": "Das Pokémon ist so apathisch, dass es nicht betört oder provoziert werden kann.",
+    "es": "La indiferencia del Pokémon evita que sea atraído o provocado.",
+    "ko": "둔감해서 헤롱헤롱이나 도발 상태가 되지 않는다.",
+    "zh-CN": "因为感觉迟钝， 不会变为着迷和被挑衅状态。",
+    "zh-TW": "感覺遲鈍， 不會陷入著迷和被挑釁狀態。"
+  },
+  "past_values": [
     {
-      "name": "Oblivious",
-      "language": "en"
-    },
-    {
-      "name": "Indifferenza",
-      "language": "it"
-    },
-    {
-      "name": "Despiste",
-      "language": "es"
-    },
-    {
-      "name": "Dösigkeit",
-      "language": "de"
-    },
-    {
-      "name": "Benêt",
-      "language": "fr"
-    },
-    {
-      "name": "둔감",
-      "language": "ko"
-    },
-    {
-      "name": "どんかん",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon cannot be [infatuated]{mechanic:infatuation} and is immune to []{move:captivate}.\n\nIf a Pokémon is infatuated and acquires this ability, its infatuation is cleared.",
-      "short_effect": "Prevents [infatuation]{mechanic:infatuation} and protects against []{move:captivate}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "メロメロや　ちょうはつ\n状態に　ならない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Keeps the Pokémon from being\ninfatuated or falling for taunts.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Protegge il Pokémon da\ninfatuazioni e provocazioni.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Evita que el Pokémon sea\natraído o provocado.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Verhindert, dass das Pokémon\nbetört oder provoziert wird.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Immunise le Pokémon contre\nl’attraction ou la provocation.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "헤롱헤롱이나 도발 상태가\n되지 않는다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "メロメロや　ちょうはつ\nじょうたいに　ならない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Prevents it from\nbecoming infatuated.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents it from\nbecoming infatuated.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Empêche le Pokémon de\ntomber amoureux.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Prevents it from\nbecoming infatuated.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom becoming infatuated.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom becoming infatuated.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents attraction.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents attraction.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents attraction.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "slowpoke"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "slowbro"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "lickitung"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "jynx"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "slowking"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "swinub"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "piloswine"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "smoochum"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "illumise"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "wailmer"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "wailord"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "numel"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "barboach"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "whiscash"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "feebas"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "spheal"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "sealeo"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "walrein"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "lickilicky"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "mamoswine"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "メロメロや　ちょうはつ 状態に　ならない。",
+          "kana": "メロメロや　ちょうはつ じょうたいに　ならない。",
+          "en": "Keeps the Pokémon from being infatuated or falling for taunts.",
+          "fr": "Immunise le Pokémon contre l’attraction ou la provocation.",
+          "it": "Protegge il Pokémon da infatuazioni e provocazioni.",
+          "de": "Verhindert, dass das Pokémon betört oder provoziert wird.",
+          "es": "Evita que el Pokémon sea atraído o provocado.",
+          "ko": "헤롱헤롱이나 도발 상태가 되지 않는다."
+        }
       }
     }
   ]

@@ -1,0 +1,50 @@
+{
+  "id": 686,
+  "name": "revelation-dance",
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "power": 90,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "めざめるダンス",
+    "kana": "めざめるダンス",
+    "en": "Revelation Dance",
+    "fr": "Danse Éveil",
+    "it": "Mutadanza",
+    "de": "Wecktanz",
+    "es": "Danza Despertar",
+    "ko": "잠재댄스",
+    "zh-CN": "觉醒之舞",
+    "zh-TW": "覺醒之舞"
+  },
+  "flavor_text_entries": {
+    "ja": "全力で　踊って　攻撃する。 この　技の　タイプは 自分の　タイプと　同じになる。",
+    "kana": "ぜんりょくで　おどって　こうげきする。 この　わざの　タイプは じぶんの　タイプと　おなじに　なる。",
+    "en": "The user attacks the target by dancing very hard. The user’s type determines the type of this move.",
+    "fr": "Le lanceur attaque en dansant avec enthousiasme. Le type de la capacité est le même que celui du lanceur.",
+    "it": "Chi la usa si lancia in una danza e attacca il nemico con tutte le sue forze. Il tipo della mossa corrisponde al tipo del Pokémon che la usa.",
+    "de": "Der Anwender tanzt und greift dabei das Ziel mit voller Kraft an. Die Attacke hat denselben Typ wie das Pokémon, das sie einsetzt.",
+    "es": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del Pokémon que lo ejecuta.",
+    "ko": "전력으로 춤추며 공격한다. 이 기술의 타입은 자신의 타입과 같아진다.",
+    "zh-CN": "全力跳舞进行攻击。 此招式的属性将 变得和自己的属性相同。",
+    "zh-TW": "全力跳舞進行攻擊。 此招式的屬性將 變得和自己的屬性相同。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
+}

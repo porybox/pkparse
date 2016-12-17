@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 58,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "カエンジシ",
-      "language": "ja"
-    },
-    {
-      "name": "화염레오",
-      "language": "ko"
-    },
-    {
-      "name": "Némélios",
-      "language": "fr"
-    },
-    {
-      "name": "Pyroleo",
-      "language": "de"
-    },
-    {
-      "name": "Pyroar",
-      "language": "es"
-    },
-    {
-      "name": "Pyroar",
-      "language": "it"
-    },
-    {
-      "name": "Pyroar",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カエンジシ",
+    "en": "Pyroar",
+    "fr": "Némélios",
+    "it": "Pyroar",
+    "de": "Pyroleo",
+    "es": "Pyroar",
+    "ko": "화염레오"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おうじゃ",
-      "language": "ja"
-    },
-    {
-      "genus": "임금",
-      "language": "ko"
-    },
-    {
-      "genus": "Royal",
-      "language": "fr"
-    },
-    {
-      "genus": "Monarch",
-      "language": "de"
-    },
-    {
-      "genus": "Regio",
-      "language": "es"
-    },
-    {
-      "genus": "Reale",
-      "language": "it"
-    },
-    {
-      "genus": "Royal",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おうじゃ",
+    "en": "Royal",
+    "fr": "Royal",
+    "it": "Reale",
+    "de": "Monarch",
+    "es": "Regio",
+    "ko": "임금"
+  },
   "varieties": [
     {
       "is_default": true,

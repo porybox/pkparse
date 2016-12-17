@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 112,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "wings"
   },
@@ -51,68 +45,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "バルジーナ",
-      "language": "ja"
-    },
-    {
-      "name": "버랜지나",
-      "language": "ko"
-    },
-    {
-      "name": "Vaututrice",
-      "language": "fr"
-    },
-    {
-      "name": "Grypheldis",
-      "language": "de"
-    },
-    {
-      "name": "Mandibuzz",
-      "language": "es"
-    },
-    {
-      "name": "Mandibuzz",
-      "language": "it"
-    },
-    {
-      "name": "Mandibuzz",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バルジーナ",
+    "en": "Mandibuzz",
+    "fr": "Vaututrice",
+    "it": "Mandibuzz",
+    "de": "Grypheldis",
+    "es": "Mandibuzz",
+    "ko": "버랜지나"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほねわし",
-      "language": "ja"
-    },
-    {
-      "genus": "뼈독수리",
-      "language": "ko"
-    },
-    {
-      "genus": "Vostour",
-      "language": "fr"
-    },
-    {
-      "genus": "Knochenadler",
-      "language": "de"
-    },
-    {
-      "genus": "Aguilahueso",
-      "language": "es"
-    },
-    {
-      "genus": "Ossaquila",
-      "language": "it"
-    },
-    {
-      "genus": "Bone Vulture",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほねわし",
+    "en": "Bone Vulture",
+    "fr": "Vostour",
+    "it": "Ossaquila",
+    "de": "Knochenadler",
+    "es": "Águila Hueso",
+    "ko": "뼈독수리"
+  },
   "varieties": [
     {
       "is_default": true,

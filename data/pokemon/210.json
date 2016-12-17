@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 72,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "fairy"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "upright"
   },
@@ -62,44 +54,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "グランブル",
-      "language": "ja"
-    },
-    {
-      "name": "Granbulu",
-      "language": "roomaji"
-    },
-    {
-      "name": "그랑블루",
-      "language": "ko"
-    },
-    {
-      "name": "布盧皇",
-      "language": "zh"
-    },
-    {
-      "name": "Granbull",
-      "language": "fr"
-    },
-    {
-      "name": "Granbull",
-      "language": "de"
-    },
-    {
-      "name": "Granbull",
-      "language": "es"
-    },
-    {
-      "name": "Granbull",
-      "language": "it"
-    },
-    {
-      "name": "Granbull",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "グランブル",
+    "en": "Granbull",
+    "fr": "Granbull",
+    "it": "Granbull",
+    "de": "Granbull",
+    "es": "Granbull",
+    "ko": "그랑블루"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -110,36 +73,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ようせい",
-      "language": "ja"
-    },
-    {
-      "genus": "요정",
-      "language": "ko"
-    },
-    {
-      "genus": "Fée",
-      "language": "fr"
-    },
-    {
-      "genus": "Fee",
-      "language": "de"
-    },
-    {
-      "genus": "Hada",
-      "language": "es"
-    },
-    {
-      "genus": "Fata",
-      "language": "it"
-    },
-    {
-      "genus": "Fairy",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ようせい",
+    "en": "Fairy",
+    "fr": "Fée",
+    "it": "Fata",
+    "de": "Fee",
+    "es": "Hada",
+    "ko": "요정"
+  },
   "varieties": [
     {
       "is_default": true,

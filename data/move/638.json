@@ -1,0 +1,50 @@
+{
+  "id": 638,
+  "name": "corkscrew-crash",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ちょうぜつらせんれんげき",
+    "kana": "ちょうぜつらせんれんげき",
+    "en": "Corkscrew Crash",
+    "fr": "Vrille Maximum",
+    "it": "Spirale Perforante",
+    "de": "Turbo-Spiralkombo",
+    "es": "Hélice Trepanadora",
+    "ko": "초월나선연격",
+    "zh-CN": "超绝螺旋连击",
+    "zh-TW": "超絕螺旋連擊"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　高速回転を　おこない 全力で　相手に　ぶつかる。 元になった　技で　威力が　変わる。",
+    "kana": "Ｚパワーで　こうそくかいてんを　おこない ぜんりょくで　あいてに　ぶつかる。 もとになった　わざで　いりょくが　かわる。",
+    "en": "The user spins very fast and rams into the target with the full force of its Z-Power. The power varies, depending on the original move.",
+    "fr": "Le Pokémon utilise la Force Z pour tourner à toute vitesse et écraser l’adversaire. La puissance varie selon celle de la capacité originale.",
+    "it": "Grazie al Potere Z, chi la usa vortica su se stesso e si scaglia sul bersaglio con tutte le sue forze. La potenza varia a seconda della mossa su cui si basa.",
+    "de": "Der Anwender wirbelt durch Z-Kraft sehr schnell umher und prallt mit dem Ziel zusammen. Die Stärke variiert je nach zugrunde liegender Attacke.",
+    "es": "El usuario emplea el Poder Z para girar a toda velocidad y perforar al objetivo. Su potencia depende de la del movimiento original.",
+    "ko": "Z파워로 고속 회전을 하여 전력으로 상대에게 부딪친다. 원래 기술에 따라 위력이 변한다.",
+    "zh-CN": "通过Ｚ力量进行高速旋转， 全力撞上对手。 威力会根据原来的招式而改变。",
+    "zh-TW": "透過Ｚ力量進行高速旋轉， 全力撞擊對手。 威力會隨原本的招式而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "steel"
+}

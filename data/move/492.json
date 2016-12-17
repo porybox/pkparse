@@ -2,34 +2,13 @@
   "id": 492,
   "name": "foul-play",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 95,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Damage is calculated using the target's attacking stat rather than the user's.",
-      "short_effect": "Calculates damage with the target's attacking stat.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Foul Play",
-      "language": "en"
-    },
-    {
-      "name": "Ripicca",
-      "language": "it"
-    },
-    {
-      "name": "Juego Sucio",
-      "language": "es"
-    },
-    {
-      "name": "Schmarotzer",
-      "language": "de"
-    },
-    {
-      "name": "Tricherie",
-      "language": "fr"
-    },
-    {
-      "name": "속임수",
-      "language": "ko"
-    },
-    {
-      "name": "イカサマ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "イカサマ",
+    "kana": "イカサマ",
+    "en": "Foul Play",
+    "fr": "Tricherie",
+    "it": "Ripicca",
+    "de": "Schmarotzer",
+    "es": "Juego Sucio",
+    "ko": "속임수",
+    "zh-CN": "欺诈",
+    "zh-TW": "欺詐"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　力を　利用する。 戦っている　相手の　攻撃が 高いほど　ダメージが　あがる。",
+    "kana": "あいての　ちからを　りようする。 たたかっている　あいての　こうげきが たかいほど　ダメージが　あがる。",
+    "en": "The user turns the target’s power against it. The higher the target’s Attack stat, the greater the move’s power.",
+    "fr": "Le lanceur utilise la force de l’ennemi. Plus l’Attaque de l’ennemi est élevée, plus le lanceur inflige de dégâts.",
+    "it": "Chi la usa sfrutta la forza del bersaglio. Il danno inflitto è proporzionale all’Attacco del nemico.",
+    "de": "Anwender macht sich die Kraft des Zieles zunutze. Je höher dessen Angriff, desto mehr Schaden richtet die Attacke an.",
+    "es": "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca.",
+    "ko": "상대의 힘을 이용한다. 싸우고 있는 상대의 공격이 높을수록 데미지가 올라간다.",
+    "zh-CN": "利用对手的力量进行攻击。 正和自己战斗的对手， 其攻击越高，伤害越大。",
+    "zh-TW": "利用對手的力量進行攻擊。 對手的攻擊越高， 給予對手的傷害越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark"
 }

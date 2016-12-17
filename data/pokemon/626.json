@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 269,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -49,68 +43,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "バッフロン",
-      "language": "ja"
-    },
-    {
-      "name": "버프론",
-      "language": "ko"
-    },
-    {
-      "name": "Frison",
-      "language": "fr"
-    },
-    {
-      "name": "Bisofank",
-      "language": "de"
-    },
-    {
-      "name": "Bouffalant",
-      "language": "es"
-    },
-    {
-      "name": "Bouffalant",
-      "language": "it"
-    },
-    {
-      "name": "Bouffalant",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バッフロン",
+    "en": "Bouffalant",
+    "fr": "Frison",
+    "it": "Bouffalant",
+    "de": "Bisofank",
+    "es": "Bouffalant",
+    "ko": "버프론"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ずつきうし",
-      "language": "ja"
-    },
-    {
-      "genus": "박치기소",
-      "language": "ko"
-    },
-    {
-      "genus": "Coup d'Bœuf",
-      "language": "fr"
-    },
-    {
-      "genus": "Kopfstoßrind",
-      "language": "de"
-    },
-    {
-      "genus": "Torocabezazo",
-      "language": "es"
-    },
-    {
-      "genus": "Sfondatoro",
-      "language": "it"
-    },
-    {
-      "genus": "Bash Buffalo",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ずつきうし",
+    "en": "Bash Buffalo",
+    "fr": "Coup d’Bœuf",
+    "it": "Sfondatoro",
+    "de": "Kopfstoßrind",
+    "es": "Torocabezazo",
+    "ko": "박치기소"
+  },
   "varieties": [
     {
       "is_default": true,

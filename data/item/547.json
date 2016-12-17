@@ -1,0 +1,38 @@
+{
+  "id": 547,
+  "name": "eject-button",
+  "names": {
+    "ja": "だっしゅつボタン",
+    "kana": "だっしゅつボタン",
+    "en": "Eject Button",
+    "fr": "Bouton Fuite",
+    "it": "Pulsantefuga",
+    "de": "Fluchtknopf",
+    "es": "Botón Escape",
+    "ko": "탈출버튼",
+    "zh-CN": "逃脱按键",
+    "zh-TW": "逃脫按鍵"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせて　技を　受けると 戦闘から　脱出して 手持ちと　入れ替わる　ことができる。",
+    "kana": "もたせて　わざを　うけると せんとうから　だっしゅつして てもちと　いれかわる　ことができる。",
+    "en": "An item to be held by a Pokémon. If the holder is hit by an attack, it will be switched out of battle.",
+    "fr": "Si le Pokémon qui le tient subit une attaque, il s’enfuit pour être remplacé par un autre membre de l’équipe.",
+    "it": "Se il Pokémon che ha questo strumento è colpito da un attacco, viene immediatamente sostituito da un altro membro della squadra.",
+    "de": "Wird der Träger getroffen, flieht er aus dem Kampf und wird mit einem Team-Pokémon ausgetauscht.",
+    "es": "Si el portador es alcanzado por un ataque, saldrá del combate y será sustituido por otro Pokémon del equipo.",
+    "ko": "지니게 하고 기술을 받으면 배틀에서 탈출하여 지닌 포켓몬과 교체할 수 있다.",
+    "zh-CN": "携带它的宝可梦如果受到招式攻击， 就能逃脱战斗，并和同行的 其他宝可梦进行替换。",
+    "zh-TW": "攜帶它的寶可夢如果受到招式攻擊， 就能從戰鬥中逃脫，並和同行的 其他寶可夢進行替換。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Se il Pokémon che ha questo strumento è colpito da un attacco, viene immediatamente sostituito da un compagno."
+        }
+      }
+    }
+  ]
+}

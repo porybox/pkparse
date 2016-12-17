@@ -2,36 +2,13 @@
   "id": 249,
   "name": "rock-smash",
   "accuracy": 100,
-  "effect_chance": 50,
   "pp": 15,
   "priority": 0,
   "power": 40,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,62 +20,61 @@
     "flinch_chance": 0,
     "stat_chance": 50
   },
-  "names": [
-    {
-      "name": "Rock Smash",
-      "language": "en"
-    },
-    {
-      "name": "Spaccaroccia",
-      "language": "it"
-    },
-    {
-      "name": "Golpe Roca",
-      "language": "es"
-    },
-    {
-      "name": "Zertrümmerer",
-      "language": "de"
-    },
-    {
-      "name": "Éclate-Roc",
-      "language": "fr"
-    },
-    {
-      "name": "바위깨기",
-      "language": "ko"
-    },
-    {
-      "name": "いわくだき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": 20,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
-      }
-    }
-  ],
+  "names": {
+    "ja": "いわくだき",
+    "kana": "いわくだき",
+    "en": "Rock Smash",
+    "fr": "Éclate-Roc",
+    "it": "Spaccaroccia",
+    "de": "Zertrümmerer",
+    "es": "Golpe Roca",
+    "ko": "바위깨기",
+    "zh-CN": "碎岩",
+    "zh-TW": "碎岩"
+  },
+  "flavor_text_entries": {
+    "ja": "パンチで　攻撃する。相手の 防御を　さげる　ことが　ある。",
+    "kana": "パンチで　こうげき。　あいての ぼうぎょを　さげる　ことが　ある。",
+    "en": "The user attacks with a punch. This may also lower the target’s Defense stat.",
+    "fr": "Porte un coup de poing à l’ennemi qui peut baisser sa Défense.",
+    "it": "Chi la usa colpisce il bersaglio con un pugno che può anche ridurne la Difesa.",
+    "de": "Diese steinbrechende Attacke kann den Verteidigungs-Wert des Zieles senken.",
+    "es": "Ataque con los puños. Puede bajar la Defensa del objetivo.",
+    "ko": "펀치로 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+    "zh-CN": "用拳头进行攻击。 有时会降低对手的防御。",
+    "zh-TW": "用拳頭進行攻擊。 有時會降低對手的防禦。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fighting"
-  }
+  "target": "selected-pokemon",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "パンチで　攻撃する。相手の 防御を　さげる　ことが　ある。 岩を　砕くことも　できる。",
+          "kana": "パンチで　こうげき。　あいての ぼうぎょを　さげる　ことが　ある。 いわを　くだくことも　できる。",
+          "en": "The user attacks with a punch. This may also lower the target’s Defense stat. This move can also shatter rocks in the field.",
+          "fr": "Porte un coup de poing à l’ennemi qui peut baisser sa Défense. Peut aussi briser des rochers fissurés.",
+          "it": "Chi la usa colpisce il bersaglio con un pugno in grado di frantumare anche la roccia. Può anche ridurne la Difesa.",
+          "de": "Diese steinbrechende Attacke kann den Verteidigungs-Wert des Zieles senken und außerhalb von Kämpfen rissige Felsen zertrümmern.",
+          "es": "Ataque con los puños. Puede bajar la Defensa del objetivo. Puede romper rocas fuera del combate.",
+          "ko": "펀치로 공격한다. 상대의 방어를 떨어뜨릴 때가 있다. 바위를 깰 수도 있다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "パンチで　攻撃する。相手の 防御を　さげる　ことが　ある。 岩を　砕くことも　ある。"
+        }
+      }
+    }
+  ]
 }

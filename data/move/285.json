@@ -2,36 +2,13 @@
   "id": 285,
   "name": "skill-swap",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User and target switch abilities.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.\n\nIf either Pokémon has []{ability:multitype} or []{ability:wonder-guard}, this move will [fail]{mechanic:fail}.",
-      "short_effect": "User and target swap abilities.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Skill Swap",
-      "language": "en"
-    },
-    {
-      "name": "Baratto",
-      "language": "it"
-    },
-    {
-      "name": "Intercambio",
-      "language": "es"
-    },
-    {
-      "name": "Wertewechsel",
-      "language": "de"
-    },
-    {
-      "name": "Échange",
-      "language": "fr"
-    },
-    {
-      "name": "스킬스웹",
-      "language": "ko"
-    },
-    {
-      "name": "スキルスワップ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "スキルスワップ",
+    "kana": "スキルスワップ",
+    "en": "Skill Swap",
+    "fr": "Échange",
+    "it": "Baratto",
+    "de": "Wertewechsel",
+    "es": "Intercambio",
+    "ko": "스킬스웹",
+    "zh-CN": "特性互换",
+    "zh-TW": "特性互換"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "超能力で　自分の　特性と 相手の　特性を　入れ替える。",
+    "kana": "ちょうのうりょくで　じぶんの　とくせいと あいての　とくせいを　いれかえる。",
+    "en": "The user employs its psychic power to exchange Abilities with the target.",
+    "fr": "Le lanceur utilise ses pouvoirs psychiques pour échanger son talent avec la cible.",
+    "it": "Chi la usa sfrutta le sue facoltà mentali per scambiare l’abilità con il bersaglio.",
+    "de": "Anwender tauscht Fähigkeit mit dem Ziel.",
+    "es": "Usa el poder psíquico para intercambiar habilidades con el objetivo.",
+    "ko": "초능력으로 자신의 특성과 상대의 특성을 바꾼다.",
+    "zh-CN": "利用超能力互换 自己和对手的特性。",
+    "zh-TW": "用超能力將自己和 對手的特性互相交換。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

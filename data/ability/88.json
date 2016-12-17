@@ -1,175 +1,44 @@
 {
   "id": 88,
   "name": "download",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "ダウンロード",
+    "kana": "ダウンロード",
+    "en": "Download",
+    "fr": "Télécharge",
+    "it": "Download",
+    "de": "Download",
+    "es": "Descarga",
+    "ko": "다운로드",
+    "zh-CN": "下载",
+    "zh-TW": "下載"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "相手の　防御と　特防を　くらべて 低い　ほうの　能力に　あわせて 自分の　攻撃か　特攻を　上げる。",
+    "kana": "あいての　ぼうぎょと　とくぼうを　くらべて ひくい　ほうの　のうりょくに　あわせて じぶんの　こうげきか　とくこうを　あげる。",
+    "en": "Compares an opposing Pokémon’s Defense and Sp. Def stats before raising its own Attack or Sp. Atk stat—whichever will be more effective.",
+    "fr": "Le Pokémon compare la Défense et la Défense Spéciale de l’adversaire et augmente son Attaque ou son Attaque Spéciale en conséquence.",
+    "it": "Analizza Difesa e Difesa Speciale del nemico e, a seconda di qual è più bassa, aumenta il proprio Attacco o Attacco Speciale.",
+    "de": "Ist die Spezial-Verteidigung des Gegners höher als seine Verteidigung, wird der eigene Spezial-Angriff erhöht. Ist die Verteidigung höher, steigt der Angriff.",
+    "es": "Compara la Defensa y la Defensa Especial del rival para ver cuál es inferior y aumenta su propio Ataque o Ataque Especial, según corresponda.",
+    "ko": "상대의 방어와 특수방어를 비교해서 낮은 쪽 능력에 맞춰서 자신의 공격이나 특수공격을 올린다.",
+    "zh-CN": "比较对手的防御和特防， 根据较低的那项能力 相应地提高自己的攻击或特攻。",
+    "zh-TW": "比較對手的防禦和特防， 根據較低的那項能力 相應地提高自己的攻擊或特攻。"
+  },
+  "past_values": [
     {
-      "name": "Download",
-      "language": "en"
-    },
-    {
-      "name": "Download",
-      "language": "it"
-    },
-    {
-      "name": "Descarga",
-      "language": "es"
-    },
-    {
-      "name": "Download",
-      "language": "de"
-    },
-    {
-      "name": "Télécharge",
-      "language": "fr"
-    },
-    {
-      "name": "다운로드",
-      "language": "ko"
-    },
-    {
-      "name": "ダウンロード",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "When this Pokémon enters battle, its [Attack]{mechanic:attack} or [Special Attack]{mechanic:special-attack}, whichever corresponds to its opponents' weaker total defensive stat, rises one [stage]{mechanic:stat-modifier}.  In the event of a tie, Special Attack is raised.\n\nThis ability also takes effect when acquired during a battle.",
-      "short_effect": "Raises the attack stat corresponding to the opponents' weaker defense one [stage]{mechanic:stat-modifier} upon entering battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "相手の　能力を　みて\n強さを　変える。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Adjusts power based on an\nopposing Pokémon’s stats.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Regola la potenza in base\nal nemico.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Adapta su fuerza para cada rival.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Passt Kraft entsprechend den\ngegnerischen Statuswerten an.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Ajuste la puissance selon\nl’ennemi.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "상대의 능력을 보고\n능력치를 바꾼다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "あいての　のうりょくを\nみて　つよさを　かえる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Adjusts power according\nto a foe’s defenses.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Adjusts power according\nto a foe’s defenses.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ajuste la puissance selon\nl’ennemi.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Adjusts power according\nto the foe’s ability.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Adjusts power according\nto the foe’s ability.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Adjusts power according\nto the foe’s ability.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "porygon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "porygon2"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "porygon-z"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "genesect"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手の　能力を　みて 強さを　変える。",
+          "kana": "あいての　のうりょくを みて　つよさを　かえる。",
+          "en": "Adjusts power based on an opposing Pokémon’s stats.",
+          "fr": "Ajuste la puissance selon l’ennemi.",
+          "it": "Regola la potenza in base al nemico.",
+          "de": "Passt Kraft entsprechend den gegnerischen Statuswerten an.",
+          "es": "Adapta su fuerza para cada rival.",
+          "ko": "상대의 능력을 보고 능력치를 바꾼다."
+        }
       }
     }
   ]

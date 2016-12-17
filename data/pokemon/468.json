@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 175,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "flying"
-    }
+    "flying",
+    "fairy"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "wings"
   },
@@ -48,44 +40,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "トゲキッス",
-      "language": "ja"
-    },
-    {
-      "name": "Togekiss",
-      "language": "roomaji"
-    },
-    {
-      "name": "토게키스",
-      "language": "ko"
-    },
-    {
-      "name": "波克基斯",
-      "language": "zh"
-    },
-    {
-      "name": "Togekiss",
-      "language": "fr"
-    },
-    {
-      "name": "Togekiss",
-      "language": "de"
-    },
-    {
-      "name": "Togekiss",
-      "language": "es"
-    },
-    {
-      "name": "Togekiss",
-      "language": "it"
-    },
-    {
-      "name": "Togekiss",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "トゲキッス",
+    "en": "Togekiss",
+    "fr": "Togekiss",
+    "it": "Togekiss",
+    "de": "Togekiss",
+    "es": "Togekiss",
+    "ko": "토게키스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -96,36 +59,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しゅくふく",
-      "language": "ja"
-    },
-    {
-      "genus": "축복",
-      "language": "ko"
-    },
-    {
-      "genus": "Célébration",
-      "language": "fr"
-    },
-    {
-      "genus": "Jubilierer",
-      "language": "de"
-    },
-    {
-      "genus": "Festejo",
-      "language": "es"
-    },
-    {
-      "genus": "Festa",
-      "language": "it"
-    },
-    {
-      "genus": "Jubilee",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しゅくふく",
+    "en": "Jubilee",
+    "fr": "Célébration",
+    "it": "Festa",
+    "de": "Jubilierer",
+    "es": "Festejo",
+    "ko": "축복"
+  },
   "varieties": [
     {
       "is_default": true,

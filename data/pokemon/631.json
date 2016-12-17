@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 105,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "クイタラン",
-      "language": "ja"
-    },
-    {
-      "name": "앤티골",
-      "language": "ko"
-    },
-    {
-      "name": "Aflamanoir",
-      "language": "fr"
-    },
-    {
-      "name": "Furnifraß",
-      "language": "de"
-    },
-    {
-      "name": "Heatmor",
-      "language": "es"
-    },
-    {
-      "name": "Heatmor",
-      "language": "it"
-    },
-    {
-      "name": "Heatmor",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クイタラン",
+    "en": "Heatmor",
+    "fr": "Aflamanoir",
+    "it": "Heatmor",
+    "de": "Furnifraß",
+    "es": "Heatmor",
+    "ko": "앤티골"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "アリクイ",
-      "language": "ja"
-    },
-    {
-      "genus": "개미핥기",
-      "language": "ko"
-    },
-    {
-      "genus": "Tamanoir",
-      "language": "fr"
-    },
-    {
-      "genus": "Ameisenbär",
-      "language": "de"
-    },
-    {
-      "genus": "Hormiguero",
-      "language": "es"
-    },
-    {
-      "genus": "Formichiere",
-      "language": "it"
-    },
-    {
-      "genus": "Anteater",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "アリクイ",
+    "en": "Anteater",
+    "fr": "Tamanoir",
+    "it": "Formichiere",
+    "de": "Ameisenbär",
+    "es": "Hormiguero",
+    "ko": "개미핥기"
+  },
   "varieties": [
     {
       "is_default": true,

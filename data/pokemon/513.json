@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 31,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "バオップ",
-      "language": "ja"
-    },
-    {
-      "name": "바오프",
-      "language": "ko"
-    },
-    {
-      "name": "Flamajou",
-      "language": "fr"
-    },
-    {
-      "name": "Grillmak",
-      "language": "de"
-    },
-    {
-      "name": "Pansear",
-      "language": "es"
-    },
-    {
-      "name": "Pansear",
-      "language": "it"
-    },
-    {
-      "name": "Pansear",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バオップ",
+    "en": "Pansear",
+    "fr": "Flamajou",
+    "it": "Pansear",
+    "de": "Grillmak",
+    "es": "Pansear",
+    "ko": "바오프"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こうおん",
-      "language": "ja"
-    },
-    {
-      "genus": "고온",
-      "language": "ko"
-    },
-    {
-      "genus": "Brûlant",
-      "language": "fr"
-    },
-    {
-      "genus": "Hitze",
-      "language": "de"
-    },
-    {
-      "genus": "Ardiente",
-      "language": "es"
-    },
-    {
-      "genus": "Testacalda",
-      "language": "it"
-    },
-    {
-      "genus": "High Temp",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こうおん",
+    "en": "High Temp",
+    "fr": "Brûlant",
+    "it": "Testacalda",
+    "de": "Hitze",
+    "es": "Ardiente",
+    "ko": "고온"
+  },
   "varieties": [
     {
       "is_default": true,

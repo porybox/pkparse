@@ -1,140 +1,37 @@
 {
   "id": 170,
   "name": "magician",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-vi"
+  "names": {
+    "ja": "マジシャン",
+    "kana": "マジシャン",
+    "en": "Magician",
+    "fr": "Magicien",
+    "it": "Prestigiatore",
+    "de": "Zauberer",
+    "es": "Prestidigitador",
+    "ko": "매지션",
+    "zh-CN": "魔术师",
+    "zh-TW": "魔術師"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "技を　当てた　相手の 道具を　奪ってしまう。",
+    "kana": "わざを　あてた　あいての どうぐを　うばってしまう。",
+    "en": "The Pokémon steals the held item of a Pokémon it hits with a move.",
+    "fr": "Les capacités volent aussi l’objet tenu par la cible.",
+    "it": "Ruba lo strumento del Pokémon su cui è stata usata una mossa.",
+    "de": "Trifft das Pokémon ein Ziel mit einer Attacke, kann es ihm dabei sein Item stehlen.",
+    "es": "Roba el objeto del Pokémon al que alcance con un movimiento.",
+    "ko": "기술을 맞은 상대의 도구를 빼앗아 버린다.",
+    "zh-CN": "夺走被自己的招式 击中的对手的道具。",
+    "zh-TW": "奪走被自己招式 擊中的對手的道具。"
+  },
+  "past_values": [
     {
-      "name": "Magician",
-      "language": "en"
-    },
-    {
-      "name": "Prestigiatore",
-      "language": "it"
-    },
-    {
-      "name": "Prestidigitador",
-      "language": "es"
-    },
-    {
-      "name": "Zauberer",
-      "language": "de"
-    },
-    {
-      "name": "Magicien",
-      "language": "fr"
-    },
-    {
-      "name": "매지션",
-      "language": "ko"
-    },
-    {
-      "name": "マジシャン",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Steals the target's held item when the bearer uses a damaging move.",
-      "short_effect": "Steals the target's held item when the bearer uses a damaging move.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "技を　当てた　相手の\n道具を　奪ってしまう。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "The Pokémon steals the held item\nof a Pokémon it hits with a move.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ruba lo strumento del Pokémon\nsu cui è stata usata una mossa.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Roba el objeto del Pokémon al\nque alcance con un movimiento.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Stiehlt Items von Pokémon, die\ndurch Attacken getroffen wurden.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Les capacités volent aussi l’objet\ntenu par la cible.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "기술을 맞은 상대의\n도구를 빼앗아 버린다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "わざを　あてた　あいての\nどうぐを　うばってしまう。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "fennekin"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "braixen"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "delphox"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "klefki"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "hoopa"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Stiehlt Items von Pokémon, die durch Attacken getroffen wurden."
+        }
       }
     }
   ]

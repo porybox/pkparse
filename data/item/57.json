@@ -1,0 +1,45 @@
+{
+  "id": 57,
+  "name": "x-attack",
+  "names": {
+    "ja": "プラスパワー",
+    "kana": "プラスパワー",
+    "en": "X Attack",
+    "fr": "Attaque +",
+    "it": "Attacco X",
+    "de": "X-Angriff",
+    "es": "Ataque X",
+    "ko": "플러스파워",
+    "zh-CN": "力量强化",
+    "zh-TW": "力量強化"
+  },
+  "flavor_text_entries": {
+    "ja": "戦闘中の　ポケモンの 攻撃を　大きく　あげる　道具。 ひっこめると　元に　戻る。",
+    "kana": "せんとうちゅうの　ポケモンの こうげきを　おおきく　あげる　どうぐ。 ひっこめると　もとに　もどる。",
+    "en": "An item that sharply boosts the Attack stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.",
+    "fr": "Augmente beaucoup l’Attaque pendant un combat. L’effet disparaît si le Pokémon est retiré.",
+    "it": "Aumenta di molto l’Attacco di un Pokémon in una lotta. L’effetto svanisce se il Pokémon è sostituito.",
+    "de": "Hebt den Angriffs-Wert eines Pokémon im Kampf stark an. Die Wirkung wird mit dem Austausch des Pokémon beendet.",
+    "es": "Aumenta mucho el Ataque en combate. Al cambiar de Pokémon, el efecto desaparece.",
+    "ko": "배틀 중인 포켓몬의 공격을 크게 올리는 도구. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다.",
+    "zh-CN": "大幅提高战斗中 宝可梦攻击的道具。 离场后，效果便会消失。",
+    "zh-TW": "大大提高戰鬥中 寶可夢攻擊的道具。 離場後，效果便會消失。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "戦闘中の　ポケモンの 攻撃を　あげる　道具。 ひっこめると　元に　戻る。",
+          "kana": "せんとうちゅうの　ポケモンの こうげきを　あげる　どうぐ。 ひっこめると　もとに　もどる。",
+          "en": "An item that boosts the Attack stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.",
+          "fr": "Augmente l’Attaque pendant un combat. L’effet disparaît si le Pokémon se retire.",
+          "it": "Aumenta l’Attacco di un Pokémon in una lotta. L’effetto svanisce se il Pokémon è sostituito.",
+          "de": "Hebt den Angriffs-Wert eines Pokémon im Kampf. Die Wirkung wird mit dem Austausch des Pokémon beendet.",
+          "es": "Aumenta el Ataque en combate. Al cambiar de Pokémon, el efecto desaparece.",
+          "ko": "배틀 중인 포켓몬의 공격을 올리는 도구. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다."
+        }
+      }
+    }
+  ]
+}

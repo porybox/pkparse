@@ -2,65 +2,13 @@
   "id": 184,
   "name": "scary-face",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "leer"
-        },
-        {
-          "name": "bite"
-        },
-        {
-          "name": "super-fang"
-        },
-        {
-          "name": "crunch"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "leer"
-        },
-        {
-          "name": "rage"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Speed]{mechanic:speed} by two [stages]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Speed by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -72,62 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Scary Face",
-      "language": "en"
-    },
-    {
-      "name": "Visotruce",
-      "language": "it"
-    },
-    {
-      "name": "Cara Susto",
-      "language": "es"
-    },
-    {
-      "name": "Grimasse",
-      "language": "de"
-    },
-    {
-      "name": "Grimace",
-      "language": "fr"
-    },
-    {
-      "name": "겁나는얼굴",
-      "language": "ko"
-    },
-    {
-      "name": "こわいかお",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": 90,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
-      }
-    }
-  ],
+  "names": {
+    "ja": "こわいかお",
+    "kana": "こわいかお",
+    "en": "Scary Face",
+    "fr": "Grimace",
+    "it": "Visotruce",
+    "de": "Grimasse",
+    "es": "Cara Susto",
+    "ko": "겁나는얼굴",
+    "zh-CN": "鬼面",
+    "zh-TW": "鬼面"
+  },
+  "flavor_text_entries": {
+    "ja": "恐ろしい　顔で　にらみ　おびえさせて 相手の　素早さを　がくっと　さげる。",
+    "kana": "おそろしい　かおで　にらみ　おびえさせて あいての　すばやさを　がくっと　さげる。",
+    "en": "The user frightens the target with a scary face to harshly lower its Speed stat.",
+    "fr": "Une grimace qui effraie l’ennemi et réduit beaucoup sa Vitesse.",
+    "it": "Chi la usa spaventa il bersaglio con una faccia terribile e ne riduce di molto la Velocità.",
+    "de": "Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.",
+    "es": "Asusta al objetivo para reducir mucho su Velocidad.",
+    "ko": "무서운 얼굴로 노려보고 겁주어 상대의 스피드를 크게 떨어뜨린다.",
+    "zh-CN": "用恐怖的脸瞪着对手， 使其害怕， 从而大幅降低对手的速度。",
+    "zh-TW": "用恐怖的表情瞪著對手， 讓對手害怕， 大幅降低對手的速度。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une grimace qui effraie l’ennemi et réduit fortement sa Vitesse."
+        }
+      }
+    }
+  ]
 }

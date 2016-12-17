@@ -2,36 +2,13 @@
   "id": 423,
   "name": "ice-fang",
   "accuracy": 95,
-  "effect_chance": 10,
   "pp": 15,
   "priority": 0,
   "power": 65,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target and a separate $effect_chance% chance to make the target [flinch]{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to freeze the target and a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "freeze"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "freeze",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 10,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Ice Fang",
-      "language": "en"
-    },
-    {
-      "name": "Gelodenti",
-      "language": "it"
-    },
-    {
-      "name": "Colmillo Hielo",
-      "language": "es"
-    },
-    {
-      "name": "Eiszahn",
-      "language": "de"
-    },
-    {
-      "name": "Crocs Givre",
-      "language": "fr"
-    },
-    {
-      "name": "얼음엄니",
-      "language": "ko"
-    },
-    {
-      "name": "こおりのキバ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "こおりのキバ",
+    "kana": "こおりのキバ",
+    "en": "Ice Fang",
+    "fr": "Crocs Givre",
+    "it": "Gelodenti",
+    "de": "Eiszahn",
+    "es": "Colmillo Hielo",
+    "ko": "얼음엄니",
+    "zh-CN": "冰冻牙",
+    "zh-TW": "冰凍牙"
   },
-  "type": {
-    "name": "ice"
-  }
+  "flavor_text_entries": {
+    "ja": "冷気を　ひめた　キバで　かみつく。 相手を　ひるませたり こおり状態に　することが　ある。",
+    "kana": "れいきを　ひめた　キバで　かみつく。 あいてを　ひるませたり こおり　じょうたいに　することが　ある。",
+    "en": "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen.",
+    "fr": "Le lanceur utilise une morsure glaciale. Peut aussi geler ou apeurer l’ennemi.",
+    "it": "Chi la usa morde con denti ghiacciati. Può anche congelare o far tentennare il bersaglio.",
+    "de": "Anwender beißt mit eiskalten Reißzähnen zu. Ziel schreckt eventuell zurück oder friert ein.",
+    "es": "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.",
+    "ko": "냉기를 품은 이빨로 문다. 상대를 풀죽게 하거나 얼음 상태로 만들 때가 있다.",
+    "zh-CN": "用藏有冷气的牙齿咬住对手。 有时会使对手畏缩 或陷入冰冻状态。",
+    "zh-TW": "用帶有寒氣的牙齒咬住對手。 有時會讓對手畏縮 或陷入冰凍狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ice"
 }

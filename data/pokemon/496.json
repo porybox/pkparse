@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 119,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -60,68 +52,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ジャノビー",
-      "language": "ja"
-    },
-    {
-      "name": "샤비",
-      "language": "ko"
-    },
-    {
-      "name": "Lianaja",
-      "language": "fr"
-    },
-    {
-      "name": "Efoserp",
-      "language": "de"
-    },
-    {
-      "name": "Servine",
-      "language": "es"
-    },
-    {
-      "name": "Servine",
-      "language": "it"
-    },
-    {
-      "name": "Servine",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ジャノビー",
+    "en": "Servine",
+    "fr": "Lianaja",
+    "it": "Servine",
+    "de": "Efoserp",
+    "es": "Servine",
+    "ko": "샤비"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くさへび",
-      "language": "ja"
-    },
-    {
-      "genus": "풀뱀",
-      "language": "ko"
-    },
-    {
-      "genus": "Serpenterbe",
-      "language": "fr"
-    },
-    {
-      "genus": "Grasschlange",
-      "language": "de"
-    },
-    {
-      "genus": "Serp. Hierba",
-      "language": "es"
-    },
-    {
-      "genus": "Serperba",
-      "language": "it"
-    },
-    {
-      "genus": "Grass Snake",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くさへび",
+    "en": "Grass Snake",
+    "fr": "Serpenterbe",
+    "it": "Serperba",
+    "de": "Grasschlange",
+    "es": "Serp. Hierba",
+    "ko": "풀뱀"
+  },
   "varieties": [
     {
       "is_default": true,

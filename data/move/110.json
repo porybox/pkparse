@@ -2,36 +2,13 @@
   "id": 110,
   "name": "withdraw",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Raises the user's Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Withdraw",
-      "language": "en"
-    },
-    {
-      "name": "Ritirata",
-      "language": "it"
-    },
-    {
-      "name": "Refugio",
-      "language": "es"
-    },
-    {
-      "name": "Panzerschutz",
-      "language": "de"
-    },
-    {
-      "name": "Repli",
-      "language": "fr"
-    },
-    {
-      "name": "껍질에숨기",
-      "language": "ko"
-    },
-    {
-      "name": "からにこもる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "からにこもる",
+    "kana": "からにこもる",
+    "en": "Withdraw",
+    "fr": "Repli",
+    "it": "Ritirata",
+    "de": "Panzerschutz",
+    "es": "Refugio",
+    "ko": "껍질에숨기",
+    "zh-CN": "缩入壳中",
+    "zh-TW": "縮入殼中"
+  },
+  "flavor_text_entries": {
+    "ja": "殻に　潜りこんで　身を守り 自分の　防御を　あげる。",
+    "kana": "からに　もぐりこんで　みをまもり じぶんの　ぼうぎょを　あげる。",
+    "en": "The user withdraws its body into its hard shell, raising its Defense stat.",
+    "fr": "Le lanceur se recroqueville dans sa carapace, ce qui augmente sa Défense.",
+    "it": "Il corpo si ritira nel suo duro guscio per aumentare la Difesa.",
+    "de": "Rückzug in den harten Panzer. Erhöht den Verteidigungs-Wert.",
+    "es": "El usuario se resguarda en su coraza por lo que le sube la Defensa.",
+    "ko": "껍질에 숨어 몸을 보호하여 자신의 방어를 올린다.",
+    "zh-CN": "缩入壳里保护身体， 从而提高自己的防御。",
+    "zh-TW": "縮入殼中保護身體， 提高自己的防禦。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "water"
-  }
+  "target": "user",
+  "type": "water",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "El usuario se protege en su coraza y sube la Defensa."
+        }
+      }
+    }
+  ]
 }

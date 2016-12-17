@@ -1,126 +1,42 @@
 {
   "id": 167,
   "name": "cheek-pouch",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-vi"
+  "names": {
+    "ja": "ほおぶくろ",
+    "kana": "ほおぶくろ",
+    "en": "Cheek Pouch",
+    "fr": "Bajoues",
+    "it": "Guancegonfie",
+    "de": "Backentaschen",
+    "es": "Carrillo",
+    "ko": "볼주머니",
+    "zh-CN": "颊囊",
+    "zh-TW": "頰囊"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "どんな　きのみでも 食べると　ＨＰも　回復する。",
+    "kana": "どんな　きのみでも たべると　ＨＰも　かいふくする。",
+    "en": "Restores HP as well when the Pokémon eats a Berry.",
+    "fr": "Restaure des PV lorsque le Pokémon consomme une Baie, quelle qu’elle soit.",
+    "it": "Fa recuperare PS quando il Pokémon mangia una bacca.",
+    "de": "Regeneriert beim Konsum von Beeren ungeachtet der Beerensorte KP.",
+    "es": "Recupera PS al comer cualquier baya.",
+    "ko": "어떤 나무열매라도 먹으면 HP도 회복한다.",
+    "zh-CN": "无论是哪种树果， 食用后，ＨＰ都会回复。",
+    "zh-TW": "無論是哪種樹果， 吃下去後ＨＰ都會回復。"
+  },
+  "past_values": [
     {
-      "name": "Cheek Pouch",
-      "language": "en"
-    },
-    {
-      "name": "Guancegonfie",
-      "language": "it"
-    },
-    {
-      "name": "Carrillo",
-      "language": "es"
-    },
-    {
-      "name": "Backentaschen",
-      "language": "de"
-    },
-    {
-      "name": "Bajoues",
-      "language": "fr"
-    },
-    {
-      "name": "볼주머니",
-      "language": "ko"
-    },
-    {
-      "name": "ほおぶくろ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Restores HP upon eating a Berry, in addition to the Berry's effect.",
-      "short_effect": "Restores HP upon eating a Berry, in addition to the Berry's effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "きのみを　食べると\nＨＰも　回復する。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Restores HP as well when\nthe Pokémon eats a Berry.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Fa recuperare PS quando\nil Pokémon mangia una bacca.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Recupera PS al comer bayas.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Heilt beim Konsum\nvon Beeren KP.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Rend des PV lorsque le Pokémon\nconsomme une Baie.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "나무열매를 먹으면\nHP도 회복한다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "きのみを　たべると\nＨＰも　かいふくする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "bunnelby"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "diggersby"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "dedenne"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "きのみを　食べると ＨＰも　回復する。",
+          "kana": "きのみを　たべると ＨＰも　かいふくする。",
+          "fr": "Rend des PV lorsque le Pokémon consomme une Baie.",
+          "de": "Heilt beim Konsum von Beeren KP.",
+          "es": "Recupera PS al comer bayas.",
+          "ko": "나무열매를 먹으면 HP도 회복한다."
+        }
       }
     }
   ]

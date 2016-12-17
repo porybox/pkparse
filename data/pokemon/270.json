@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 55,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "armor"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ハスボー",
-      "language": "ja"
-    },
-    {
-      "name": "Hassboh",
-      "language": "roomaji"
-    },
-    {
-      "name": "연꽃몬",
-      "language": "ko"
-    },
-    {
-      "name": "蓮葉童子",
-      "language": "zh"
-    },
-    {
-      "name": "Nénupiot",
-      "language": "fr"
-    },
-    {
-      "name": "Loturzel",
-      "language": "de"
-    },
-    {
-      "name": "Lotad",
-      "language": "es"
-    },
-    {
-      "name": "Lotad",
-      "language": "it"
-    },
-    {
-      "name": "Lotad",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハスボー",
+    "en": "Lotad",
+    "fr": "Nénupiot",
+    "it": "Lotad",
+    "de": "Loturzel",
+    "es": "Lotad",
+    "ko": "연꽃몬"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "うきくさ",
-      "language": "ja"
-    },
-    {
-      "genus": "개구리밥",
-      "language": "ko"
-    },
-    {
-      "genus": "Aquaplante",
-      "language": "fr"
-    },
-    {
-      "genus": "Wasserlinse",
-      "language": "de"
-    },
-    {
-      "genus": "Alga",
-      "language": "es"
-    },
-    {
-      "genus": "Alga",
-      "language": "it"
-    },
-    {
-      "genus": "Water Weed",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "うきくさ",
+    "en": "Water Weed",
+    "fr": "Aquaplante",
+    "it": "Alga",
+    "de": "Wasserlinse",
+    "es": "Alga",
+    "ko": "개구리밥"
+  },
   "varieties": [
     {
       "is_default": true,

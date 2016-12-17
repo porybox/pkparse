@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 138,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "humanoid"
   },
@@ -61,44 +55,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ゴンベ",
-      "language": "ja"
-    },
-    {
-      "name": "Gonbe",
-      "language": "roomaji"
-    },
-    {
-      "name": "먹고자",
-      "language": "ko"
-    },
-    {
-      "name": "小卡比獸",
-      "language": "zh"
-    },
-    {
-      "name": "Goinfrex",
-      "language": "fr"
-    },
-    {
-      "name": "Mampfaxo",
-      "language": "de"
-    },
-    {
-      "name": "Munchlax",
-      "language": "es"
-    },
-    {
-      "name": "Munchlax",
-      "language": "it"
-    },
-    {
-      "name": "Munchlax",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴンベ",
+    "en": "Munchlax",
+    "fr": "Goinfrex",
+    "it": "Munchlax",
+    "de": "Mampfaxo",
+    "es": "Munchlax",
+    "ko": "먹고자"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -109,36 +74,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おおぐい",
-      "language": "ja"
-    },
-    {
-      "genus": "대식가",
-      "language": "ko"
-    },
-    {
-      "genus": "Goinfre",
-      "language": "fr"
-    },
-    {
-      "genus": "Nimmersatt",
-      "language": "de"
-    },
-    {
-      "genus": "Comilón",
-      "language": "es"
-    },
-    {
-      "genus": "Ghiottone",
-      "language": "it"
-    },
-    {
-      "genus": "Big Eater",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おおぐい",
+    "en": "Big Eater",
+    "fr": "Goinfre",
+    "it": "Ghiottone",
+    "de": "Nimmersatt",
+    "es": "Comilón",
+    "ko": "대식가"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 97,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "quadruped"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "チラチーノ",
-      "language": "ja"
-    },
-    {
-      "name": "치라치노",
-      "language": "ko"
-    },
-    {
-      "name": "Pashmilla",
-      "language": "fr"
-    },
-    {
-      "name": "Chillabell",
-      "language": "de"
-    },
-    {
-      "name": "Cinccino",
-      "language": "es"
-    },
-    {
-      "name": "Cinccino",
-      "language": "it"
-    },
-    {
-      "name": "Cinccino",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "チラチーノ",
+    "en": "Cinccino",
+    "fr": "Pashmilla",
+    "it": "Cinccino",
+    "de": "Chillabell",
+    "es": "Cinccino",
+    "ko": "치라치노"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "スカーフ",
-      "language": "ja"
-    },
-    {
-      "genus": "스카프",
-      "language": "ko"
-    },
-    {
-      "genus": "Écharpe",
-      "language": "fr"
-    },
-    {
-      "genus": "Schal",
-      "language": "de"
-    },
-    {
-      "genus": "Estola",
-      "language": "es"
-    },
-    {
-      "genus": "Sciarpa",
-      "language": "it"
-    },
-    {
-      "genus": "Scarf",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "スカーフ",
+    "en": "Scarf",
+    "fr": "Écharpe",
+    "it": "Sciarpa",
+    "de": "Schal",
+    "es": "Estola",
+    "ko": "스카프"
+  },
   "varieties": [
     {
       "is_default": true,

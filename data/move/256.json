@@ -2,49 +2,13 @@
   "id": 256,
   "name": "swallow",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "stockpile"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Heals the user depending on the amount of energy stored by []{move:stockpile}: 1/4 its max [HP]{mechanic:hp} after one use, 1/2 its max [HP]{mechanic:hp} after two uses, or fully after three uses.  Stored energy is consumed, and the user's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} are reset to what they would be if []{move:stockpile} had not been used.  If the user has no energy stored, this move will [fail]{mechanic:fail}.",
-      "short_effect": "Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "heal"
-    },
+    "ailment": "none",
+    "category": "heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Swallow",
-      "language": "en"
-    },
-    {
-      "name": "Introenergia",
-      "language": "it"
-    },
-    {
-      "name": "Tragar",
-      "language": "es"
-    },
-    {
-      "name": "Verzehrer",
-      "language": "de"
-    },
-    {
-      "name": "Avale",
-      "language": "fr"
-    },
-    {
-      "name": "꿀꺽",
-      "language": "ko"
-    },
-    {
-      "name": "のみこむ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "のみこむ",
+    "kana": "のみこむ",
+    "en": "Swallow",
+    "fr": "Avale",
+    "it": "Introenergia",
+    "de": "Verzehrer",
+    "es": "Tragar",
+    "ko": "꿀꺽",
+    "zh-CN": "吞下",
+    "zh-TW": "吞下"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "蓄えた　力を　のみこんで 自分の　ＨＰを　回復する。 蓄えているほど　回復する。",
+    "kana": "たくわえた　ちからを　のみこんで じぶんの　ＨＰを　かいふく　する。 たくわえて　いるほど　かいふく　する。",
+    "en": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
+    "fr": "Le lanceur absorbe la puissance accumulée avec Stockage pour restaurer ses PV.",
+    "it": "Chi la usa assorbe l’energia raccolta con la mossa Accumulo e recupera PS. Maggiore è l’energia, più PS si recuperano.",
+    "de": "Absorbiert die gehortete Kraft, um KP aufzufüllen. Je mehr Energie gehortet wurde, desto mehr KP werden aufgefüllt.",
+    "es": "Absorbe la energía acumulada con Reserva para recobrar salud. Cuanta más se haya acumulado, mayor será el número de PS que se recuperen.",
+    "ko": "비축된 힘을 꿀꺽해서 자신의 HP를 회복한다. 비축된 만큼 회복한다.",
+    "zh-CN": "将积蓄的力量吞下， 从而回复自己的ＨＰ。 积蓄得越多，回复越大。",
+    "zh-TW": "將蓄積的力量吞下， 回復自己的ＨＰ。 蓄積得越多，回復越多。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Absorbiert die gehortete Kraft, um KP aufzufüllen.",
+          "es": "Absorbe la energía acumulada con Reserva y restaura PS."
+        }
+      }
+    }
+  ]
 }

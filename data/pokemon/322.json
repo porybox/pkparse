@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 204,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "quadruped"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ドンメル",
-      "language": "ja"
-    },
-    {
-      "name": "Donmel",
-      "language": "roomaji"
-    },
-    {
-      "name": "둔타",
-      "language": "ko"
-    },
-    {
-      "name": "呆火駝",
-      "language": "zh"
-    },
-    {
-      "name": "Chamallot",
-      "language": "fr"
-    },
-    {
-      "name": "Camaub",
-      "language": "de"
-    },
-    {
-      "name": "Numel",
-      "language": "es"
-    },
-    {
-      "name": "Numel",
-      "language": "it"
-    },
-    {
-      "name": "Numel",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドンメル",
+    "en": "Numel",
+    "fr": "Chamallot",
+    "it": "Numel",
+    "de": "Camaub",
+    "es": "Numel",
+    "ko": "둔타"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どんかん",
-      "language": "ja"
-    },
-    {
-      "genus": "둔감",
-      "language": "ko"
-    },
-    {
-      "genus": "Engourdi",
-      "language": "fr"
-    },
-    {
-      "genus": "Taubheit",
-      "language": "de"
-    },
-    {
-      "genus": "Torpe",
-      "language": "es"
-    },
-    {
-      "genus": "Torpore",
-      "language": "it"
-    },
-    {
-      "genus": "Numb",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どんかん",
+    "en": "Numb",
+    "fr": "Engourdi",
+    "it": "Torpore",
+    "de": "Taubheit",
+    "es": "Torpe",
+    "ko": "둔감"
+  },
   "varieties": [
     {
       "is_default": true,

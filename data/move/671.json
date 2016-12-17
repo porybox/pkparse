@@ -1,0 +1,50 @@
+{
+  "id": 671,
+  "name": "spotlight",
+  "accuracy": null,
+  "pp": 15,
+  "priority": 3,
+  "power": null,
+  "damage_class": "status",
+  "meta": {
+    "ailment": "none",
+    "category": "unique",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "スポットライト",
+    "kana": "スポットライト",
+    "en": "Spotlight",
+    "fr": "Projecteur",
+    "it": "Riflettore",
+    "de": "Rampenlicht",
+    "es": "Foco",
+    "ko": "스포트라이트",
+    "zh-CN": "聚光灯",
+    "zh-TW": "聚光燈"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　スポットライトを　当て そのターンに　そのポケモンしか 狙えない　ようにする。",
+    "kana": "ポケモンに　スポットライトを　あて そのターンに　そのポケモンしか ねらえない　ようにする。",
+    "en": "The user shines a spotlight on the target so that only the target will be attacked during the turn.",
+    "fr": "Met un Pokémon sous le feu des projecteurs et force tout le monde à le viser.",
+    "it": "Chi la usa accende un riflettore sopra il bersaglio deviando su di lui per quel turno tutti gli attacchi dei suoi nemici.",
+    "de": "Der Anwender lenkt die Aufmerksamkeit auf das Ziel, sodass in dieser Runde nur noch dieses Pokémon angegriffen wird.",
+    "es": "Convierte a uno de los Pokémon que están combatiendo en el foco de atención, de modo que todos los ataques se dirijan hacia él.",
+    "ko": "포켓몬에게 스포트라이트를 비춰 그 턴에서 그 포켓몬만 공격할 수 있게 한다.",
+    "zh-CN": "给宝可梦打上聚光灯， 该回合只能瞄准该宝可梦。",
+    "zh-TW": "幫寶可夢打聚光燈， 該回合只能瞄準該寶可夢。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
+}

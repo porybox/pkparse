@@ -2,36 +2,13 @@
   "id": 358,
   "name": "wake-up-slap",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 70,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target is [sleep]{mechanic:sleep}ing, this move has double power, and the target wakes up.",
-      "short_effect": "If the target is asleep, has double power and wakes it up.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Wake-Up Slap",
-      "language": "en"
-    },
-    {
-      "name": "Svegliopacca",
-      "language": "it"
-    },
-    {
-      "name": "Espabila",
-      "language": "es"
-    },
-    {
-      "name": "Weckruf",
-      "language": "de"
-    },
-    {
-      "name": "Réveil Forcé",
-      "language": "fr"
-    },
-    {
-      "name": "잠깨움뺨치기",
-      "language": "ko"
-    },
-    {
-      "name": "めざましビンタ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "めざましビンタ",
+    "kana": "めざましビンタ",
+    "en": "Wake-Up Slap",
+    "fr": "Réveil Forcé",
+    "it": "Svegliopacca",
+    "de": "Weckruf",
+    "es": "Espabila",
+    "ko": "잠깨움뺨치기",
+    "zh-CN": "唤醒巴掌",
+    "zh-TW": "喚醒巴掌"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "眠り状態の　相手に 大きな　ダメージを　与える。 かわりに　相手は　眠りから　さめる。",
+    "kana": "ねむり　じょうたいの　あいてに おおきな　ダメージを　あたえる。 かわりに　あいては　ねむりから　さめる。",
+    "en": "This attack inflicts big damage on a sleeping target. This also wakes the target up, however.",
+    "fr": "Cette attaque inflige d’importants dégâts à un Pokémon endormi. Mais elle le réveille également.",
+    "it": "Questa mossa infligge un danno doppio a un bersaglio addormentato, ma allo stesso tempo lo risveglia.",
+    "de": "Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.",
+    "es": "Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan.",
+    "ko": "잠듦 상태의 상대에게 큰 데미지를 준다. 대신 상대는 잠에서 깬다.",
+    "zh-CN": "给予睡眠状态下的对手较大的伤害。 但相反对手会从睡眠中醒过来。",
+    "zh-TW": "攻擊陷入睡眠狀態的對手時， 可以給予較大的傷害。 但對手也會從睡眠中醒過來。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting"
 }

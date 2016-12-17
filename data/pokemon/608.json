@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 66,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "arms"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ランプラー",
-      "language": "ja"
-    },
-    {
-      "name": "램프라",
-      "language": "ko"
-    },
-    {
-      "name": "Mélancolux",
-      "language": "fr"
-    },
-    {
-      "name": "Laternecto",
-      "language": "de"
-    },
-    {
-      "name": "Lampent",
-      "language": "es"
-    },
-    {
-      "name": "Lampent",
-      "language": "it"
-    },
-    {
-      "name": "Lampent",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ランプラー",
+    "en": "Lampent",
+    "fr": "Mélancolux",
+    "it": "Lampent",
+    "de": "Laternecto",
+    "es": "Lampent",
+    "ko": "램프라"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ランプ",
-      "language": "ja"
-    },
-    {
-      "genus": "램프",
-      "language": "ko"
-    },
-    {
-      "genus": "Lampe",
-      "language": "fr"
-    },
-    {
-      "genus": "Lampe",
-      "language": "de"
-    },
-    {
-      "genus": "Farolillo",
-      "language": "es"
-    },
-    {
-      "genus": "Lanterna",
-      "language": "it"
-    },
-    {
-      "genus": "Lamp",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ランプ",
+    "en": "Lamp",
+    "fr": "Lampe",
+    "it": "Lanterna",
+    "de": "Lampe",
+    "es": "Farolillo",
+    "ko": "램프"
+  },
   "varieties": [
     {
       "is_default": true,

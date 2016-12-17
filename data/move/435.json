@@ -2,36 +2,13 @@
   "id": 435,
   "name": "discharge",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 15,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.",
-      "short_effect": "Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "paralysis",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Discharge",
-      "language": "en"
-    },
-    {
-      "name": "Scarica",
-      "language": "it"
-    },
-    {
-      "name": "Chispazo",
-      "language": "es"
-    },
-    {
-      "name": "Ladungsstoß",
-      "language": "de"
-    },
-    {
-      "name": "Coup d'Jus",
-      "language": "fr"
-    },
-    {
-      "name": "방전",
-      "language": "ko"
-    },
-    {
-      "name": "ほうでん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-other-pokemon"
+  "names": {
+    "ja": "ほうでん",
+    "kana": "ほうでん",
+    "en": "Discharge",
+    "fr": "Coup d’Jus",
+    "it": "Scarica",
+    "de": "Ladungsstoß",
+    "es": "Chispazo",
+    "ko": "방전",
+    "zh-CN": "放电",
+    "zh-TW": "放電"
   },
-  "type": {
-    "name": "electric"
-  }
+  "flavor_text_entries": {
+    "ja": "まばゆい　電撃で　自分の 周りに　いるものを　攻撃する。 まひ状態に　することが　ある。",
+    "kana": "まばゆい　でんげきで　じぶんの まわりに　いるものを　こうげきする。 まひ　じょうたいに　することが　ある。",
+    "en": "The user strikes everything around it by letting loose a flare of electricity. This may also cause paralysis.",
+    "fr": "Un flamboiement d’électricité frappe tous les Pokémon autour du lanceur. Peut aussi les paralyser.",
+    "it": "Chi la usa colpisce i Pokémon che ha intorno con un bagliore elettrico. Può anche paralizzarli.",
+    "de": "Anwender greift die Pokémon in seiner Umgebung mit Elektrizität an. Paralysiert eventuell.",
+    "es": "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.",
+    "ko": "눈부신 전격으로 자신의 주위에 있는 포켓몬을 공격한다. 마비 상태로 만들 때가 있다.",
+    "zh-CN": "用耀眼的电击 攻击自己周围所有的宝可梦。 有时会陷入麻痹状态。",
+    "zh-TW": "用耀眼的電流 攻擊自己周圍所有的寶可夢。 有時會讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "electric"
 }

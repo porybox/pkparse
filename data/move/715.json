@@ -1,0 +1,59 @@
+{
+  "id": 715,
+  "name": "tearful-look",
+  "accuracy": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "damage_class": "status",
+  "meta": {
+    "ailment": "none",
+    "category": "net-good-stats",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": {
+    "ja": "なみだめ",
+    "kana": "なみだめ",
+    "en": "Tearful Look",
+    "fr": "Larme à l’Œil",
+    "it": "Occhionilucidi",
+    "de": "Tränendrüse",
+    "es": "Ojos Llorosos",
+    "ko": "눈물그렁그렁",
+    "zh-CN": "泪眼汪汪",
+    "zh-TW": "淚眼汪汪"
+  },
+  "flavor_text_entries": {
+    "ja": "なみだめに　なって 相手の　戦力を　喪失させる。 相手の　攻撃と　特攻が　さがる。",
+    "kana": "なみだめに　なって あいての　せんりょくを　そうしつさせる。 あいての　こうげきと　とくこうが　さがる。",
+    "en": "The user gets teary eyed to make the target lose its combative spirit. This lowers the target’s Attack and Sp. Atk stats.",
+    "fr": "Le lanceur jette un regard plein de larmes à la cible. Celle-ci perd toute velléité de combat et voit son Attaque et son Attaque Spéciale baisser.",
+    "it": "Chi la usa guarda il bersaglio con gli occhi pieni di lacrime e gli fa perdere lo spirito combattivo, riducendone l’Attacco e l’Attacco Speciale.",
+    "de": "Dem Anwender stehen Tränen in den Augen, wodurch das Ziel seinen Kampfeswillen verliert. Angriff und Spezial-Angriff des Zieles sinken.",
+    "es": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su Ataque y Ataque Especial.",
+    "ko": "눈물을 그렁그렁거려 상대의 전의를 상실하게 한다. 상대의 공격과 특수공격이 떨어진다.",
+    "zh-CN": "变得泪眼汪汪， 让对手丧失斗志。 从而降低对手的攻击和特攻。",
+    "zh-TW": "變得淚眼汪汪， 令對手喪失鬥志。 進而降低對手的攻擊和特攻。"
+  },
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": "attack"
+    },
+    {
+      "change": -1,
+      "stat": "special-attack"
+    }
+  ],
+  "target": "selected-pokemon",
+  "type": "normal"
+}

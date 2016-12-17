@@ -2,49 +2,13 @@
   "id": 73,
   "name": "leech-seed",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "growth"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Plants a seed on the target that [drains]{mechanic:drain} 1/8 of its max [HP]{mechanic:hp} at the end of every turn and heals the user for the amount taken.  Has no effect on []{type:grass} Pokémon.  The seed remains until the target leaves the field.\n\nThe user takes damage instead of being healed if the target has []{ability:liquid-ooze}.\n\n[]{move:rapid-spin} will remove this effect.\n\nThis effect is passed on by []{move:baton-pass}.",
-      "short_effect": "Seeds the target, stealing HP from it every turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "leech-seed"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "leech-seed",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Leech Seed",
-      "language": "en"
-    },
-    {
-      "name": "Parassiseme",
-      "language": "it"
-    },
-    {
-      "name": "Drenadoras",
-      "language": "es"
-    },
-    {
-      "name": "Egelsamen",
-      "language": "de"
-    },
-    {
-      "name": "Vampigraine",
-      "language": "fr"
-    },
-    {
-      "name": "씨뿌리기",
-      "language": "ko"
-    },
-    {
-      "name": "やどりぎのタネ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "やどりぎのタネ",
+    "kana": "やどりぎのタネ",
+    "en": "Leech Seed",
+    "fr": "Vampigraine",
+    "it": "Parassiseme",
+    "de": "Egelsamen",
+    "es": "Drenadoras",
+    "ko": "씨뿌리기",
+    "zh-CN": "寄生种子",
+    "zh-TW": "寄生種子"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "植えつけた　相手の　ＨＰを 毎ターン　少しだけ　吸い取り 自分の　ＨＰを　回復する。",
+    "kana": "うえつけた　あいての　ＨＰを まいターン　すこしだけ　すいとり じぶんの　ＨＰを　かいふく　する。",
+    "en": "A seed is planted on the target. It steals some HP from the target every turn.",
+    "fr": "Une graine est semée sur l’ennemi. À chaque tour, elle lui dérobe des PV que le lanceur récupère.",
+    "it": "Vengono piantati semi sul bersaglio. Questi sottraggono PS a ogni turno permettendo a chi la usa di curarsi.",
+    "de": "Ziel wird bepflanzt und verliert jede Runde KP, die ein Pokémon aus dem Team des Anwenders heilen.",
+    "es": "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.",
+    "ko": "씨가 뿌려진 상대의 HP를 매 턴 조금씩 흡수하여 자신의 HP를 회복한다.",
+    "zh-CN": "植入寄生种子后，将在每回合 一点一点吸取对手的ＨＰ， 从而用来回复自己的ＨＰ。",
+    "zh-TW": "在對手身上植入種子， 每回合吸取對手少許的ＨＰ， 用來回復自己的ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass"
 }

@@ -1,0 +1,38 @@
+{
+  "id": 751,
+  "name": "meteorite",
+  "names": {
+    "ja": "いんせき",
+    "kana": "いんせき",
+    "en": "Meteorite",
+    "fr": "Météorite",
+    "it": "Meteorite",
+    "de": "Meteorit",
+    "es": "Meteorito",
+    "ko": "운석",
+    "zh-CN": "陨石",
+    "zh-TW": "隕石"
+  },
+  "flavor_text_entries": {
+    "ja": "えんとつ山で　手に入れた　いんせき。 ほのかに　輝きを　放っている。",
+    "kana": "えんとつやまで　てにいれた　いんせき。 ほのかに　かがやきを　はなっている。",
+    "en": "A Meteorite that you got at Mt. Chimney. It gives off a faint glow.",
+    "fr": "Une météorite trouvée au Mont Chimnée. Elle émet une légère lueur.",
+    "it": "Meteorite ottenuto sul Monte Camino. Emette una debole luminescenza.",
+    "de": "Ein Meteorit, den du beim Schlotberg erhalten hast. Vom ihm geht ein schwaches Leuchten aus.",
+    "es": "Meteorito obtenido en el Monte Cenizo. Desprende un tenue brillo.",
+    "ko": "굴뚝산에서 손에 넣은 운석. 은은하게 빛을 발하고 있다.",
+    "zh-CN": "在烟囱山上获得的陨石。 隐约散发着光辉。",
+    "zh-TW": "在煙囪山上獲得的隕石。 隱約散發著光芒。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "えんとつやまで　手に入れた　いんせき。 ほのかに　輝きを　放っている。"
+        }
+      }
+    }
+  ]
+}

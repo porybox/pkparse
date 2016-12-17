@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 76,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "quadruped"
   },
@@ -49,44 +43,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ニャルマー",
-      "language": "ja"
-    },
-    {
-      "name": "Nyarmar",
-      "language": "roomaji"
-    },
-    {
-      "name": "나옹마",
-      "language": "ko"
-    },
-    {
-      "name": "魅力喵",
-      "language": "zh"
-    },
-    {
-      "name": "Chaglam",
-      "language": "fr"
-    },
-    {
-      "name": "Charmian",
-      "language": "de"
-    },
-    {
-      "name": "Glameow",
-      "language": "es"
-    },
-    {
-      "name": "Glameow",
-      "language": "it"
-    },
-    {
-      "name": "Glameow",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ニャルマー",
+    "en": "Glameow",
+    "fr": "Chaglam",
+    "it": "Glameow",
+    "de": "Charmian",
+    "es": "Glameow",
+    "ko": "나옹마"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -97,36 +62,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ねこかぶり",
-      "language": "ja"
-    },
-    {
-      "genus": "내숭",
-      "language": "ko"
-    },
-    {
-      "genus": "Chafouin",
-      "language": "fr"
-    },
-    {
-      "genus": "Fies",
-      "language": "de"
-    },
-    {
-      "genus": "Gastuto",
-      "language": "es"
-    },
-    {
-      "genus": "Felide",
-      "language": "it"
-    },
-    {
-      "genus": "Catty",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ねこかぶり",
+    "en": "Catty",
+    "fr": "Chafouin",
+    "it": "Felide",
+    "de": "Fies",
+    "es": "Gastuto",
+    "ko": "내숭"
+  },
   "varieties": [
     {
       "is_default": true,

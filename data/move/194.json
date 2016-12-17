@@ -2,55 +2,13 @@
   "id": 194,
   "name": "destiny-bond",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "curse"
-        },
-        {
-          "name": "endure"
-        },
-        {
-          "name": "mean-look"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "If the user [faints]{mechanic:faints} before its next move, the Pokémon that [faint]{mechanic:faint}ed it will automatically [faint]{mechanic:faint}.  End-of-turn damage is ignored.\n\nThis move cannot be selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "If the user faints this turn, the target automatically will, too.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -62,43 +20,57 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Destiny Bond",
-      "language": "en"
-    },
-    {
-      "name": "Destinobbligato",
-      "language": "it"
-    },
-    {
-      "name": "Mismo Destino",
-      "language": "es"
-    },
-    {
-      "name": "Abgangsbund",
-      "language": "de"
-    },
-    {
-      "name": "Prélèvem. Destin",
-      "language": "fr"
-    },
-    {
-      "name": "길동무",
-      "language": "ko"
-    },
-    {
-      "name": "みちづれ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "みちづれ",
+    "kana": "みちづれ",
+    "en": "Destiny Bond",
+    "fr": "Prélèvem. Destin",
+    "it": "Destinobbligato",
+    "de": "Abgangsbund",
+    "es": "Mismo Destino",
+    "ko": "길동무",
+    "zh-CN": "同命",
+    "zh-TW": "同命"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "技のあと　相手の　攻撃で　ひんしに なると　攻撃　相手も　ひんしにする。 連続して　出すと　失敗する。",
+    "kana": "わざのあと　あいての　こうげきで　ひんしに なると　こうげき　あいても　ひんしにする。 れんぞくして　だすと　しっぱいする。",
+    "en": "After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.",
+    "fr": "Quand cette capacité est activée, elle met K.O. un ennemi qui porte un coup fatal au lanceur. Elle échoue si elle est réutilisée après activation.",
+    "it": "Se chi la usa va KO prima del turno successivo, chi ha sferrato il colpo da KO fa la stessa fine. Se usata in successione fallisce.",
+    "de": "Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Pokémon, das ihn besiegt hat, zum K.O. Scheitert bei Wiederholung.",
+    "es": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también. Puede fallar si se usa repetidamente.",
+    "ko": "기술을 쓴 뒤 상대의 공격으로 기절했을 때 공격 상대도 기절하게 한다. 연속으로 쓰면 실패한다.",
+    "zh-CN": "使出招式后，当受到对手攻击 陷入濒死时，对手也会一同濒死。 连续使出则会失败。",
+    "zh-TW": "使出招式後，當受到對手攻擊 陷入瀕死時，對手也會一同陷入瀕死。 連續使用時會失敗。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "ghost",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "技を　だしたあと　攻撃を　受けて ひんしに　なったとき 攻撃　相手も　ひんしに　する。",
+          "kana": "わざを　だしたあと　こうげきを　うけて ひんしに　なったとき こうげき　あいても　ひんしに　する。",
+          "en": "When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.",
+          "fr": "Quand cette capacité est activée, elle met K.O. un ennemi qui porte un coup fatal au lanceur.",
+          "it": "Se chi la usa va KO prima del turno successivo, chi ha sferrato il colpo da KO fa la stessa fine.",
+          "de": "Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Gegner, der ihn besiegt hat, zum K.O.",
+          "es": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también.",
+          "ko": "기술을 쓴 뒤 공격을 받아 기절했을 때 공격 상대도 기절하게 한다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Wird der Anwender nach Einsatz dieser Attacke besiegt, führt dies auch beim Ziel zum K.O.",
+          "ko": "기술을 쓴 뒤 공격을 받아 기절했을 때 길동무의 대상도 기절하게 한다."
+        }
+      }
+    }
+  ]
 }

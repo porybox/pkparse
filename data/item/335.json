@@ -1,0 +1,39 @@
+{
+  "id": 335,
+  "name": "tm08",
+  "names": {
+    "ja": "わざマシン０８",
+    "kana": "わざマシン０８",
+    "en": "TM08",
+    "fr": "CT08",
+    "it": "MT08",
+    "de": "TM08",
+    "es": "MT08",
+    "ko": "기술머신08",
+    "zh-CN": "招式学习器０８",
+    "zh-TW": "招式學習器０８"
+  },
+  "flavor_text_entries": {
+    "ja": "体に　力を　こめて 筋肉を　ぶあつく　することで 自分の　攻撃と　防御を　あげる。",
+    "kana": "からだに　ちからを　こめて　きんにくを ぶあつく　することで　じぶんの こうげきと　ぼうぎょを　あげる。",
+    "en": "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
+    "fr": "Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense.",
+    "it": "Chi la usa tende i muscoli per gonfiare il corpo, aumentando Difesa e Attacco.",
+    "de": "Der Anwender spannt seine Muskeln an und erhöht damit den Angriffs- und den Verteidigungs-Wert.",
+    "es": "Tensa los músculos de quien lo usa y potencia su Ataque y su Defensa.",
+    "ko": "몸에 힘을 담아 근육을 두껍게 해서 자신의 공격과 방어를 올린다.",
+    "zh-CN": "使出全身力气绷紧肌肉， 从而提高自己的攻击和防御。",
+    "zh-TW": "將力量集中於體內，增厚肌肉， 提高自己的攻擊和防禦。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "ちからを　こめて　きんにくを ぶあつくする　ことで　じぶんの こうげきと　ぼうぎょを　あげる。",
+          "de": "Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert."
+        }
+      }
+    }
+  ]
+}

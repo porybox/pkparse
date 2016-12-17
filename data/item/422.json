@@ -1,0 +1,45 @@
+{
+  "id": 422,
+  "name": "hm03",
+  "names": {
+    "ja": "ひでんマシン０３",
+    "kana": "ひでんマシン０３",
+    "en": "HM03",
+    "fr": "CS03",
+    "it": "MN03",
+    "de": "VM03",
+    "es": "MO03",
+    "ko": "비전머신03",
+    "zh-CN": "秘传学习器０３",
+    "zh-TW": "秘傳學習器０３"
+  },
+  "flavor_text_entries": {
+    "ja": "大きな　波で　自分の　周りに いるものを　攻撃する。",
+    "kana": "おおきな　なみで　じぶんの　まわりに いるものを　こうげきする。",
+    "en": "The user attacks everything around it by swamping its surroundings with a giant wave.",
+    "fr": "Une énorme vague s’abat sur le champ de bataille.",
+    "it": "Un’onda enorme sommerge il campo di lotta, colpendo tutti i Pokémon intorno a chi la scatena.",
+    "de": "Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders.",
+    "es": "Inunda el terreno de combate con una ola gigante.",
+    "ko": "큰 파도로 자신의 주위에 있는 포켓몬을 공격한다.",
+    "zh-CN": "利用大浪 攻击自己周围所有的宝可梦。",
+    "zh-TW": "使用大浪 攻擊自己周圍所有的寶可夢。 也可以在水面上游泳前進。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "大きな　波で　自分の　周りに いるものを　攻撃する。 水上も　泳いで　進める。",
+          "kana": "おおきな　なみで　じぶんの　まわりに いるものを　こうげきする。 みずのうえを　すすむことも　できる。",
+          "en": "The user attacks everything around it by swamping its surroundings with a giant wave. This can also be used for crossing water.",
+          "fr": "Une énorme vague s’abat sur le champ de bataille. Permet aussi de voyager sur l’eau.",
+          "it": "Un’onda enorme sommerge il campo di lotta, colpendo tutti i Pokémon intorno a chi la scatena. Fuori dalla lotta si usa per spostarsi sull’acqua.",
+          "de": "Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders. Ermöglicht das Surfen auf dem Wasser.",
+          "es": "Inunda el campo de batalla con una ola gigante. También se puede usar para desplazarse por el agua.",
+          "ko": "큰 파도를 일으켜서 자신의 주위에 있는 포켓몬을 공격한다. 물 위를 나아갈 수도 있다."
+        }
+      }
+    }
+  ]
+}

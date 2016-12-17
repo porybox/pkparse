@@ -2,34 +2,13 @@
   "id": 479,
   "name": "smack-down",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 15,
   "priority": 0,
   "power": 50,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Removes the target's [immunity]{mechanic:immune} to []{type:ground}-type damage.  This effect removes any existing Ground immunity due to []{ability:levitate}, []{move:magnet-rise}, or []{move:telekinesis}, and causes the target's []{type:flying} type to be ignored when it takes Ground damage.\n\nIf the target isn't immune to Ground damage, this move will [fail]{mechanic:fail}.\n\nThis move can hit Pokémon under the effect of []{move:bounce}, []{move:fly}, or []{move:sky-drop}, and ends the effect of Bounce or Fly.",
-      "short_effect": "Removes any immunity to Ground damage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "unknown"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "unknown",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Smack Down",
-      "language": "en"
-    },
-    {
-      "name": "Abbattimento",
-      "language": "it"
-    },
-    {
-      "name": "Antiaéreo",
-      "language": "es"
-    },
-    {
-      "name": "Katapult",
-      "language": "de"
-    },
-    {
-      "name": "Anti-Air",
-      "language": "fr"
-    },
-    {
-      "name": "떨어뜨리기",
-      "language": "ko"
-    },
-    {
-      "name": "うちおとす",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "うちおとす",
+    "kana": "うちおとす",
+    "en": "Smack Down",
+    "fr": "Anti-Air",
+    "it": "Abbattimento",
+    "de": "Katapult",
+    "es": "Antiaéreo",
+    "ko": "떨어뜨리기",
+    "zh-CN": "击落",
+    "zh-TW": "擊落"
   },
-  "type": {
-    "name": "rock"
-  }
+  "flavor_text_entries": {
+    "ja": "石や　弾を　投げて　飛んでいる 相手を　攻撃する。　相手は うち落とされて　地面に　落ちる。",
+    "kana": "いしや　たまを　なげて　とんでいる あいてを　こうげきする。　あいては うちおとされて　じめんに　おちる。",
+    "en": "The user throws a stone or similar projectile to attack an opponent. A flying Pokémon will fall to the ground when it’s hit.",
+    "fr": "Le lanceur jette toutes sortes de projectiles à un ennemi. Si ce dernier vole, il tombe au sol.",
+    "it": "Chi la usa lancia una pietra o un proiettile. Può colpire anche un bersaglio in volo e farlo cadere.",
+    "de": "Greift das Ziel mit Steinen und Wurfgeschossen an. Fliegende Ziele fallen dabei vom Himmel und landen auf dem Boden.",
+    "es": "El usuario ataca lanzando una piedra o un proyectil. Puede estrellar contra el suelo al objetivo si vuela.",
+    "ko": "돌이나 구슬을 던져서 날고 있는 상대를 공격한다. 맞은 상대는 땅에 떨어진다.",
+    "zh-CN": "扔石头或炮弹， 攻击飞行的对手。 对手会被击落，掉到地面。",
+    "zh-TW": "向空中的對手投擲石頭或炮彈等物體 進行攻擊。對手會被擊落，掉到地面。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "rock",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "石や　弾を　投げて　飛んでいる 相手を　攻撃する。相手は うち落とされて　地面に　落ちる。",
+          "kana": "いしや　たまを　なげて　とんでいる あいてを　こうげきする。あいては うちおとされて　じめんに　おちる。"
+        }
+      }
+    }
+  ]
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 13,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "squiggle"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "マグカルゴ",
-      "language": "ja"
-    },
-    {
-      "name": "Magcargot",
-      "language": "roomaji"
-    },
-    {
-      "name": "마그카르고",
-      "language": "ko"
-    },
-    {
-      "name": "熔岩蝸牛",
-      "language": "zh"
-    },
-    {
-      "name": "Volcaropod",
-      "language": "fr"
-    },
-    {
-      "name": "Magcargo",
-      "language": "de"
-    },
-    {
-      "name": "Magcargo",
-      "language": "es"
-    },
-    {
-      "name": "Magcargo",
-      "language": "it"
-    },
-    {
-      "name": "Magcargo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マグカルゴ",
+    "en": "Magcargo",
+    "fr": "Volcaropod",
+    "it": "Magcargo",
+    "de": "Magcargo",
+    "es": "Magcargo",
+    "ko": "마그카르고"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ようがん",
-      "language": "ja"
-    },
-    {
-      "genus": "용암",
-      "language": "ko"
-    },
-    {
-      "genus": "Lave",
-      "language": "fr"
-    },
-    {
-      "genus": "Lava",
-      "language": "de"
-    },
-    {
-      "genus": "Lava",
-      "language": "es"
-    },
-    {
-      "genus": "Lava",
-      "language": "it"
-    },
-    {
-      "genus": "Lava",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ようがん",
+    "en": "Lava",
+    "fr": "Lave",
+    "it": "Lava",
+    "de": "Lava",
+    "es": "Lava",
+    "ko": "용암"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -157,11 +101,22 @@
     "rock"
   ],
   "base_stats": {
-    "hp": 50,
+    "hp": 60,
     "attack": 50,
     "defense": 120,
-    "special-attack": 80,
+    "special-attack": 90,
     "special-defense": 80,
     "speed": 30
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "hp": 50,
+          "special-attack": 80
+        }
+      }
+    }
+  ]
 }

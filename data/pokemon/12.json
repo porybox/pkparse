@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 25,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "bug-wings"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "バタフリー",
-      "language": "ja"
-    },
-    {
-      "name": "Butterfree",
-      "language": "roomaji"
-    },
-    {
-      "name": "버터플",
-      "language": "ko"
-    },
-    {
-      "name": "巴大蝴",
-      "language": "zh"
-    },
-    {
-      "name": "Papilusion",
-      "language": "fr"
-    },
-    {
-      "name": "Smettbo",
-      "language": "de"
-    },
-    {
-      "name": "Butterfree",
-      "language": "es"
-    },
-    {
-      "name": "Butterfree",
-      "language": "it"
-    },
-    {
-      "name": "Butterfree",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バタフリー",
+    "en": "Butterfree",
+    "fr": "Papilusion",
+    "it": "Butterfree",
+    "de": "Smettbo",
+    "es": "Butterfree",
+    "ko": "버터플"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ちょうちょ",
-      "language": "ja"
-    },
-    {
-      "genus": "나비",
-      "language": "ko"
-    },
-    {
-      "genus": "Papillon",
-      "language": "fr"
-    },
-    {
-      "genus": "Falter",
-      "language": "de"
-    },
-    {
-      "genus": "Mariposa",
-      "language": "es"
-    },
-    {
-      "genus": "Farfalla",
-      "language": "it"
-    },
-    {
-      "genus": "Butterfly",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ちょうちょ",
+    "en": "Butterfly",
+    "fr": "Papillon",
+    "it": "Farfalla",
+    "de": "Falter",
+    "es": "Mariposa",
+    "ko": "나비"
+  },
   "varieties": [
     {
       "is_default": true,

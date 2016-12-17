@@ -1,0 +1,50 @@
+{
+  "id": 657,
+  "name": "twinkle-tackle",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ラブリースターインパクト",
+    "kana": "ラブリースターインパクト",
+    "en": "Twinkle Tackle",
+    "fr": "Impact Choupinova",
+    "it": "Astroimpatto Fatato",
+    "de": "Entzückender Sternenstoß",
+    "es": "Arrumaco Sideral",
+    "ko": "러블리스타임팩트",
+    "zh-CN": "可爱星星飞天撞",
+    "zh-TW": "可愛星星飛天撞"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fairy"
+}

@@ -2,36 +2,13 @@
   "id": 131,
   "name": "spike-cannon",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 20,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-      "short_effect": "Hits 2-5 times in one turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": 2,
     "max_hits": 5,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Spike Cannon",
-      "language": "en"
-    },
-    {
-      "name": "Sparalance",
-      "language": "it"
-    },
-    {
-      "name": "Clavo Cañón",
-      "language": "es"
-    },
-    {
-      "name": "Dornkanone",
-      "language": "de"
-    },
-    {
-      "name": "Picanon",
-      "language": "fr"
-    },
-    {
-      "name": "가시대포",
-      "language": "ko"
-    },
-    {
-      "name": "とげキャノン",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "とげキャノン",
+    "kana": "とげキャノン",
+    "en": "Spike Cannon",
+    "fr": "Picanon",
+    "it": "Sparalance",
+    "de": "Dornkanone",
+    "es": "Clavo Cañón",
+    "ko": "가시대포",
+    "zh-CN": "尖刺加农炮",
+    "zh-TW": "尖刺加農炮"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　間　連続で　だす。",
+    "kana": "するどい　ハリを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+    "en": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
+    "fr": "Envoie une rafale de dards. Peut toucher de deux à cinq fois.",
+    "it": "Il bersaglio viene colpito da due a cinque volte in rapida successione con delle spine.",
+    "de": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander.",
+    "es": "Lanza finas púas que hieren de dos a cinco veces.",
+    "ko": "날카로운 침을 상대에게 발사해서 공격한다. 2-5회 동안 연속으로 쓴다.",
+    "zh-CN": "向对手发射 锐针进行攻击。 连续攻击２～５次。",
+    "zh-TW": "向對手發射 銳利的針進行攻擊。 可連續攻擊２～５次。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "鋭い　ハリを 相手に　発射して　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+          "it": "Il bersaglio viene colpito da due a cinque volte con spilli appuntiti in rapida successione."
+        }
+      }
+    }
+  ]
 }

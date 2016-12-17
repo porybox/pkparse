@@ -1,0 +1,46 @@
+{
+  "id": 693,
+  "name": "tm99",
+  "names": {
+    "ja": "わざマシン９９",
+    "kana": "わざマシン９９",
+    "en": "TM99",
+    "fr": "CT99",
+    "it": "MT99",
+    "de": "TM99",
+    "es": "MT99",
+    "ko": "기술머신99",
+    "zh-CN": "招式学习器９９",
+    "zh-TW": "招式學習器９９"
+  },
+  "flavor_text_entries": {
+    "ja": "強力な　光を　放ち 相手に　ダメージを　与える。",
+    "kana": "きょうりょくな　ひかりを　はなち あいてに　ダメージを　あたえる。",
+    "en": "The user damages opposing Pokémon by emitting a powerful flash.",
+    "fr": "Libère une puissante décharge lumineuse qui inflige des dégâts à l’ennemi.",
+    "it": "Chi la usa emette una luce potentissima che infligge danni ai nemici intorno.",
+    "de": "Angriff mit einem starken Lichtstrahl, der dem Gegner Schaden zufügt.",
+    "es": "Inflige daño a los oponentes con una potente luz.",
+    "ko": "강력한 빛을 쏴서 상대에게 데미지를 준다.",
+    "zh-CN": "向对手发出强光， 并给予伤害。",
+    "zh-TW": "向對手發出強光， 並給予傷害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Emette una luce potentissima che infligge danni ai nemici vicini a chi la usa."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Emette una luce potentissima che infligge danni al bersaglio."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 682,
+  "name": "burn-up",
+  "accuracy": 100,
+  "pp": 5,
+  "priority": 0,
+  "power": 130,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "もえつきる",
+    "kana": "もえつきる",
+    "en": "Burn Up",
+    "fr": "Flamme Ultime",
+    "it": "Ultima Fiamma",
+    "de": "Ausbrennen",
+    "es": "Llama Final",
+    "ko": "불사르기",
+    "zh-CN": "燃尽",
+    "zh-TW": "燃盡"
+  },
+  "flavor_text_entries": {
+    "ja": "全身の　ほのおを　すべて 燃やして　大ダメージを　与える。 自分の　ほのおタイプが　なくなる。",
+    "kana": "ぜんしんの　ほのおを　すべて もやして　だいダメージを　あたえる。 じぶんの　ほのおタイプが　なくなる。",
+    "en": "To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type.",
+    "fr": "Le Pokémon se consume et les flammes de son corps infligent des dégâts élevés à la cible. Le lanceur perd le type Feu.",
+    "it": "Chi la usa attacca sfruttando tutta la sua potenza incendiaria per infliggere gravi danni al bersaglio, ma come conseguenza perde il tipo Fuoco.",
+    "de": "Der Anwender nutzt das gesamte Feuer in seinem Körper, um großen Schaden auszuteilen. Die restliche Kampfdauer gehört er nicht mehr dem Typ Feuer an.",
+    "es": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente. Tras el ataque, el usuario deja de ser de tipo Fuego.",
+    "ko": "전신의 불꽃을 모두 태워서 큰 데미지를 준다. 자신의 불꽃타입이 없어진다.",
+    "zh-CN": "将自己全身燃烧起火焰来， 给予对手大大的伤害。 自己的火属性将会消失。",
+    "zh-TW": "燃盡全身的火焰， 給予對手巨大的傷害。 自己的火屬性將會消失。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire"
+}

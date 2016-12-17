@@ -2,36 +2,13 @@
   "id": 245,
   "name": "extreme-speed",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 5,
   "priority": 2,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Extreme Speed",
-      "language": "en"
-    },
-    {
-      "name": "Extrarapido",
-      "language": "it"
-    },
-    {
-      "name": "Veloc. Extrema",
-      "language": "es"
-    },
-    {
-      "name": "Turbotempo",
-      "language": "de"
-    },
-    {
-      "name": "Vitesse Extrême",
-      "language": "fr"
-    },
-    {
-      "name": "신속",
-      "language": "ko"
-    },
-    {
-      "name": "しんそく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "しんそく",
+    "kana": "しんそく",
+    "en": "Extreme Speed",
+    "fr": "Vitesse Extrême",
+    "it": "Extrarapido",
+    "de": "Turbotempo",
+    "es": "Veloc. Extrema",
+    "ko": "신속",
+    "zh-CN": "神速",
+    "zh-TW": "神速"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "目にも　留まらぬ　ものすごい　速さで 相手に　突進して　攻撃する。 必ず　先制攻撃　できる。",
+    "kana": "めにも　とまらぬ　ものすごい　はやさで あいてに　とっしんして　こうげきする。 かならず　せんせい　こうげき　できる。",
+    "en": "The user charges the target at blinding speed. This move always goes first.",
+    "fr": "Le lanceur charge à une vitesse renversante. Frappe en priorité.",
+    "it": "Chi la usa carica il bersaglio a una velocità impressionante. Questa mossa ha priorità alta.",
+    "de": "Extrem schnelle und kraftvolle Attacke mit hoher Erstschlagquote.",
+    "es": "Ataque de una velocidad extrema. Este movimiento tiene prioridad alta.",
+    "ko": "눈에 보이지 않는 굉장한 속도로 상대에게 돌진하여 공격한다. 반드시 선제공격을 할 수 있다.",
+    "zh-CN": "以迅雷不及掩耳之势 猛撞向对手进行攻击。 必定能够先制攻击。",
+    "zh-TW": "以迅雷不及掩耳之勢 猛撞向對手進行攻擊。 必定能夠發動先制攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur charge à une vitesse renversante. Frappe toujours en premier.",
+          "it": "Chi la usa carica il bersaglio a una velocità impressionante e attacca sempre per primo.",
+          "de": "Extrem schnelle und kraftvolle Attacke, die stets zuerst trifft.",
+          "es": "Ataque muy rápido que siempre se realiza el primero."
+        }
+      }
+    }
+  ]
 }

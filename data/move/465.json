@@ -2,36 +2,13 @@
   "id": 465,
   "name": "seed-flare",
   "accuracy": 85,
-  "effect_chance": 40,
   "pp": 5,
   "priority": 0,
   "power": 120,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Special Defense by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,56 @@
     "flinch_chance": 0,
     "stat_chance": 40
   },
-  "names": [
-    {
-      "name": "Seed Flare",
-      "language": "en"
-    },
-    {
-      "name": "Infuriaseme",
-      "language": "it"
-    },
-    {
-      "name": "Fogonazo",
-      "language": "es"
-    },
-    {
-      "name": "Schocksamen",
-      "language": "de"
-    },
-    {
-      "name": "Fulmigraine",
-      "language": "fr"
-    },
-    {
-      "name": "시드플레어",
-      "language": "ko"
-    },
-    {
-      "name": "シードフレア",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "シードフレア",
+    "kana": "シードフレア",
+    "en": "Seed Flare",
+    "fr": "Fulmigraine",
+    "it": "Infuriaseme",
+    "de": "Schocksamen",
+    "es": "Fogonazo",
+    "ko": "시드플레어",
+    "zh-CN": "种子闪光",
+    "zh-TW": "種子閃光"
+  },
+  "flavor_text_entries": {
+    "ja": "体の　中から　衝撃波を 発生させる。相手の　特防を がくっと　さげることが　ある。",
+    "kana": "からだの　なかから　しょうげきはを はっせい　させる。あいての　とくぼうを がくっと　さげることが　ある。",
+    "en": "The user emits a shock wave from its body to attack its target. This may also harshly lower the target’s Sp. Def stat.",
+    "fr": "Le corps du lanceur émet une onde de choc. Peut aussi beaucoup baisser la Défense Spéciale de la cible.",
+    "it": "Chi la usa genera un’onda d’urto dal suo corpo. Può anche ridurre di molto la Difesa Speciale del bersaglio.",
+    "de": "Anwender erzeugt eine Schockwelle. Spezial-Verteidigung des Zieles wird eventuell stark gesenkt.",
+    "es": "Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.",
+    "ko": "몸속에서 충격파를 발생시킨다. 상대의 특수방어를 크게 떨어뜨릴 때가 있다.",
+    "zh-CN": "从身体里产生冲击波。 有时会大幅降低对手的特防。",
+    "zh-TW": "從身體裡發出衝擊波攻擊對手。 有時會大幅降低對手的特防。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "grass"
-  }
+  "target": "selected-pokemon",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user emits a shock wave from its body to attack its target. This may also harshly lower the target’s Sp. Def.",
+          "fr": "Le corps du lanceur émet une onde de choc. Peut aussi baisser fortement la Défense Spéciale de la cible.",
+          "de": "Anwender erzeugt eine Schockwelle. Spezial-Verteidigung des Zieles wird stark gesenkt."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le corps du lanceur émet une onde de choc. Peut aussi baisser grandement la Défense Spéciale de la cible."
+        }
+      }
+    }
+  ]
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 93,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "quadruped"
   },
@@ -43,36 +37,15 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "トリミアン",
-      "language": "ja"
-    },
-    {
-      "name": "트리미앙",
-      "language": "ko"
-    },
-    {
-      "name": "Couafarel",
-      "language": "fr"
-    },
-    {
-      "name": "Coiffwaff",
-      "language": "de"
-    },
-    {
-      "name": "Furfrou",
-      "language": "es"
-    },
-    {
-      "name": "Furfrou",
-      "language": "it"
-    },
-    {
-      "name": "Furfrou",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "トリミアン",
+    "en": "Furfrou",
+    "fr": "Couafarel",
+    "it": "Furfrou",
+    "de": "Coiffwaff",
+    "es": "Furfrou",
+    "ko": "트리미앙"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [
     {
@@ -80,36 +53,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "プードル",
-      "language": "ja"
-    },
-    {
-      "genus": "푸들",
-      "language": "ko"
-    },
-    {
-      "genus": "Caniche",
-      "language": "fr"
-    },
-    {
-      "genus": "Pudel",
-      "language": "de"
-    },
-    {
-      "genus": "Caniche",
-      "language": "es"
-    },
-    {
-      "genus": "Barboncino",
-      "language": "it"
-    },
-    {
-      "genus": "Poodle",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "プードル",
+    "en": "Poodle",
+    "fr": "Caniche",
+    "it": "Barboncino",
+    "de": "Pudel",
+    "es": "Caniche",
+    "ko": "푸들"
+  },
   "varieties": [
     {
       "is_default": true,

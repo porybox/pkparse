@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 52,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water3"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "armor"
   },
@@ -62,44 +54,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "シザリガー",
-      "language": "ja"
-    },
-    {
-      "name": "Shizariger",
-      "language": "roomaji"
-    },
-    {
-      "name": "가재장군",
-      "language": "ko"
-    },
-    {
-      "name": "鐵螯龍蝦",
-      "language": "zh"
-    },
-    {
-      "name": "Colhomard",
-      "language": "fr"
-    },
-    {
-      "name": "Krebutack",
-      "language": "de"
-    },
-    {
-      "name": "Crawdaunt",
-      "language": "es"
-    },
-    {
-      "name": "Crawdaunt",
-      "language": "it"
-    },
-    {
-      "name": "Crawdaunt",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "シザリガー",
+    "en": "Crawdaunt",
+    "fr": "Colhomard",
+    "it": "Crawdaunt",
+    "de": "Krebutack",
+    "es": "Crawdaunt",
+    "ko": "가재장군"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -110,36 +73,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ならずもの",
-      "language": "ja"
-    },
-    {
-      "genus": "불량배",
-      "language": "ko"
-    },
-    {
-      "genus": "Crapule",
-      "language": "fr"
-    },
-    {
-      "genus": "Schlingel",
-      "language": "de"
-    },
-    {
-      "genus": "Granuja",
-      "language": "es"
-    },
-    {
-      "genus": "Canaglia",
-      "language": "it"
-    },
-    {
-      "genus": "Rogue",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ならずもの",
+    "en": "Rogue",
+    "fr": "Crapule",
+    "it": "Canaglia",
+    "de": "Schlingel",
+    "es": "Granuja",
+    "ko": "불량배"
+  },
   "varieties": [
     {
       "is_default": true,

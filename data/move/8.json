@@ -2,59 +2,13 @@
   "id": 8,
   "name": "ice-punch",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 15,
   "priority": 0,
   "power": 75,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "fire-punch"
-        },
-        {
-          "name": "thunder-punch"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "fire-punch"
-        },
-        {
-          "name": "thunder-punch"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.",
-      "short_effect": "Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "freeze"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "freeze",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -66,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Ice Punch",
-      "language": "en"
-    },
-    {
-      "name": "Gelopugno",
-      "language": "it"
-    },
-    {
-      "name": "Puño Hielo",
-      "language": "es"
-    },
-    {
-      "name": "Eishieb",
-      "language": "de"
-    },
-    {
-      "name": "Poing-Glace",
-      "language": "fr"
-    },
-    {
-      "name": "냉동펀치",
-      "language": "ko"
-    },
-    {
-      "name": "れいとうパンチ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "れいとうパンチ",
+    "kana": "れいとうパンチ",
+    "en": "Ice Punch",
+    "fr": "Poing-Glace",
+    "it": "Gelopugno",
+    "de": "Eishieb",
+    "es": "Puño Hielo",
+    "ko": "냉동펀치",
+    "zh-CN": "冰冻拳",
+    "zh-TW": "冰凍拳"
   },
-  "type": {
-    "name": "ice"
-  }
+  "flavor_text_entries": {
+    "ja": "冷気を　こめた　パンチで 相手を　攻撃する。 こおり状態に　することが　ある。",
+    "kana": "れいきを　こめた　パンチで あいてを　こうげきする。 こおり　じょうたいに　することが　ある。",
+    "en": "The target is punched with an icy fist. This may also leave the target frozen.",
+    "fr": "Un coup de poing glacé vient frapper l’ennemi. Peut le geler.",
+    "it": "Colpisce il bersaglio con un pugno di ghiaccio che può congelarlo.",
+    "de": "Ein eisiger Schlag, der das Ziel eventuell einfriert.",
+    "es": "Puñetazo helado. Puede congelar.",
+    "ko": "냉기를 담은 펀치로 상대를 공격한다. 얼음 상태로 만들 때가 있다.",
+    "zh-CN": "用充满寒气的拳头攻击对手。 有时会让对手陷入冰冻状态。",
+    "zh-TW": "用帶有寒氣的拳頭 攻擊對手。 有時會讓對手陷入冰凍狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ice"
 }

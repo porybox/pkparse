@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 100,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "dragon"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "upright"
   },
@@ -64,68 +56,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ズルッグ",
-      "language": "ja"
-    },
-    {
-      "name": "곤율랭",
-      "language": "ko"
-    },
-    {
-      "name": "Baggiguane",
-      "language": "fr"
-    },
-    {
-      "name": "Zurrokex",
-      "language": "de"
-    },
-    {
-      "name": "Scraggy",
-      "language": "es"
-    },
-    {
-      "name": "Scraggy",
-      "language": "it"
-    },
-    {
-      "name": "Scraggy",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ズルッグ",
+    "en": "Scraggy",
+    "fr": "Baggiguane",
+    "it": "Scraggy",
+    "de": "Zurrokex",
+    "es": "Scraggy",
+    "ko": "곤율랭"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "だっぴ",
-      "language": "ja"
-    },
-    {
-      "genus": "탈피",
-      "language": "ko"
-    },
-    {
-      "genus": "Mue",
-      "language": "fr"
-    },
-    {
-      "genus": "Hautwechsel",
-      "language": "de"
-    },
-    {
-      "genus": "Mudapiel",
-      "language": "es"
-    },
-    {
-      "genus": "Mutapelle",
-      "language": "it"
-    },
-    {
-      "genus": "Shedding",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "だっぴ",
+    "en": "Shedding",
+    "fr": "Mue",
+    "it": "Mutapelle",
+    "de": "Hautwechsel",
+    "es": "Mudapiel",
+    "ko": "탈피"
+  },
   "varieties": [
     {
       "is_default": true,

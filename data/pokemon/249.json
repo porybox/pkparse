@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 252,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "wings"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ルギア",
-      "language": "ja"
-    },
-    {
-      "name": "Lugia",
-      "language": "roomaji"
-    },
-    {
-      "name": "루기아",
-      "language": "ko"
-    },
-    {
-      "name": "洛奇亞",
-      "language": "zh"
-    },
-    {
-      "name": "Lugia",
-      "language": "fr"
-    },
-    {
-      "name": "Lugia",
-      "language": "de"
-    },
-    {
-      "name": "Lugia",
-      "language": "es"
-    },
-    {
-      "name": "Lugia",
-      "language": "it"
-    },
-    {
-      "name": "Lugia",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ルギア",
+    "en": "Lugia",
+    "fr": "Lugia",
+    "it": "Lugia",
+    "de": "Lugia",
+    "es": "Lugia",
+    "ko": "루기아"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "せんすい",
-      "language": "ja"
-    },
-    {
-      "genus": "잠수",
-      "language": "ko"
-    },
-    {
-      "genus": "Plongeon",
-      "language": "fr"
-    },
-    {
-      "genus": "Taucher",
-      "language": "de"
-    },
-    {
-      "genus": "Buceo",
-      "language": "es"
-    },
-    {
-      "genus": "Immersione",
-      "language": "it"
-    },
-    {
-      "genus": "Diving",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "せんすい",
+    "en": "Diving",
+    "fr": "Plongeon",
+    "it": "Immersione",
+    "de": "Taucher",
+    "es": "Buceo",
+    "ko": "잠수"
+  },
   "varieties": [
     {
       "is_default": true,

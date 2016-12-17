@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 161,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "wings"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ネイティ",
-      "language": "ja"
-    },
-    {
-      "name": "Naty",
-      "language": "roomaji"
-    },
-    {
-      "name": "네이티",
-      "language": "ko"
-    },
-    {
-      "name": "天然雀",
-      "language": "zh"
-    },
-    {
-      "name": "Natu",
-      "language": "fr"
-    },
-    {
-      "name": "Natu",
-      "language": "de"
-    },
-    {
-      "name": "Natu",
-      "language": "es"
-    },
-    {
-      "name": "Natu",
-      "language": "it"
-    },
-    {
-      "name": "Natu",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ネイティ",
+    "en": "Natu",
+    "fr": "Natu",
+    "it": "Natu",
+    "de": "Natu",
+    "es": "Natu",
+    "ko": "네이티"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ことり",
-      "language": "ja"
-    },
-    {
-      "genus": "아기새",
-      "language": "ko"
-    },
-    {
-      "genus": "Minoiseau",
-      "language": "fr"
-    },
-    {
-      "genus": "Kleinvogel",
-      "language": "de"
-    },
-    {
-      "genus": "Pajarito",
-      "language": "es"
-    },
-    {
-      "genus": "Uccellino",
-      "language": "it"
-    },
-    {
-      "genus": "Tiny Bird",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ことり",
+    "en": "Tiny Bird",
+    "fr": "Minoiseau",
+    "it": "Uccellino",
+    "de": "Kleinvogel",
+    "es": "Pajarito",
+    "ko": "아기새"
+  },
   "varieties": [
     {
       "is_default": true,

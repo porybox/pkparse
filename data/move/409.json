@@ -2,36 +2,13 @@
   "id": 409,
   "name": "drain-punch",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 75,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  [Drains]{mechanic:drain} half the damage inflicted to heal the user.",
-      "short_effect": "Drains half the damage inflicted to heal the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+heal"
-    },
+    "ailment": "none",
+    "category": "damage+heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Drain Punch",
-      "language": "en"
-    },
-    {
-      "name": "Assorbipugno",
-      "language": "it"
-    },
-    {
-      "name": "Puño Drenaje",
-      "language": "es"
-    },
-    {
-      "name": "Ableithieb",
-      "language": "de"
-    },
-    {
-      "name": "Vampipoing",
-      "language": "fr"
-    },
-    {
-      "name": "드레인펀치",
-      "language": "ko"
-    },
-    {
-      "name": "ドレインパンチ",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "ドレインパンチ",
+    "kana": "ドレインパンチ",
+    "en": "Drain Punch",
+    "fr": "Vampipoing",
+    "it": "Assorbipugno",
+    "de": "Ableithieb",
+    "es": "Puño Drenaje",
+    "ko": "드레인펀치",
+    "zh-CN": "吸取拳",
+    "zh-TW": "吸取拳"
+  },
+  "flavor_text_entries": {
+    "ja": "こぶしから　相手の　力を　吸い取る。 与えた　ダメージの 半分の　ＨＰを　回復できる。",
+    "kana": "こぶしから　あいての　ちからを すいとる。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+    "en": "An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",
+    "fr": "Un coup de poing qui draine l’énergie. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+    "it": "Pugno che assorbe energia. Fa recuperare una quantità di PS pari alla metà del danno inferto.",
+    "de": "Entzieht dem Ziel Energie. Die Hälfte des Schadens wird den KP des Anwenders zugerechnet.",
+    "es": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+    "ko": "주먹으로 상대의 힘을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+    "zh-CN": "用拳头吸取对手的力量。 可以回复给予对手 伤害的一半ＨＰ。",
+    "zh-TW": "從拳頭吸取對手的力量。 可以回復給予對手 傷害的一半ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 60,
-      "pp": 5,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "こぶしから　あいての　ちからを すいとる。あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。"
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fighting"
-  }
+  ]
 }

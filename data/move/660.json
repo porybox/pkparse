@@ -1,0 +1,50 @@
+{
+  "id": 660,
+  "name": "first-impression",
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 2,
+  "power": 90,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "であいがしら",
+    "kana": "であいがしら",
+    "en": "First Impression",
+    "fr": "Escarmouche",
+    "it": "Schermaglia",
+    "de": "Überrumpler",
+    "es": "Escaramuza",
+    "ko": "만나자마자",
+    "zh-CN": "迎头一击",
+    "zh-TW": "迎頭一擊"
+  },
+  "flavor_text_entries": {
+    "ja": "威力が　高い　技　だが 戦闘に　出たら すぐに　出さないと　成功　しない。",
+    "kana": "いりょくが　たかい　わざ　だが せんとうに　でたら すぐに　ださないと　せいこう　しない。",
+    "en": "Although this move has great power, it only works the first turn the user is in battle.",
+    "fr": "Une capacité très puissante, mais qui ne fonctionne qu’au premier tour.",
+    "it": "È una mossa molto potente, ma funziona solo appena scesi in campo.",
+    "de": "Eine sehr starke Attacke, die jedoch nur erfolgreich ist, wenn sie sofort eingesetzt wird, nachdem der Anwender das Kampffeld betreten hat.",
+    "es": "Movimiento de gran potencia que solo puede usarse en el turno en que el usuario sale al combate.",
+    "ko": "위력이 높은 기술이지만 배틀에 나가서 바로 쓰지 않으면 성공할 수 없다.",
+    "zh-CN": "威力很高的招式， 但只有在出场战斗时， 立刻使出才能成功。",
+    "zh-TW": "招式的威力雖高， 但只有在出場戰鬥時， 立刻使出才能成功。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "bug"
+}

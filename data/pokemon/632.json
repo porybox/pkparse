@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 106,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "armor"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "アイアント",
-      "language": "ja"
-    },
-    {
-      "name": "아이앤트",
-      "language": "ko"
-    },
-    {
-      "name": "Fermite",
-      "language": "fr"
-    },
-    {
-      "name": "Fermicula",
-      "language": "de"
-    },
-    {
-      "name": "Durant",
-      "language": "es"
-    },
-    {
-      "name": "Durant",
-      "language": "it"
-    },
-    {
-      "name": "Durant",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アイアント",
+    "en": "Durant",
+    "fr": "Fermite",
+    "it": "Durant",
+    "de": "Fermicula",
+    "es": "Durant",
+    "ko": "아이앤트"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "てつアリ",
-      "language": "ja"
-    },
-    {
-      "genus": "철개미",
-      "language": "ko"
-    },
-    {
-      "genus": "Fourmi Dure",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisenameise",
-      "language": "de"
-    },
-    {
-      "genus": "Hormigacero",
-      "language": "es"
-    },
-    {
-      "genus": "Ferformica",
-      "language": "it"
-    },
-    {
-      "genus": "Iron Ant",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "てつアリ",
+    "en": "Iron Ant",
+    "fr": "Fourmi Dure",
+    "it": "Ferformica",
+    "de": "Eisenameise",
+    "es": "Hormigacero",
+    "ko": "철개미"
+  },
   "varieties": [
     {
       "is_default": true,

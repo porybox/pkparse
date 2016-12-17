@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 226,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water3"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "tentacles"
   },
@@ -62,44 +54,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "オムスター",
-      "language": "ja"
-    },
-    {
-      "name": "Omstar",
-      "language": "roomaji"
-    },
-    {
-      "name": "암스타",
-      "language": "ko"
-    },
-    {
-      "name": "多刺菊石獸",
-      "language": "zh"
-    },
-    {
-      "name": "Amonistar",
-      "language": "fr"
-    },
-    {
-      "name": "Amoroso",
-      "language": "de"
-    },
-    {
-      "name": "Omastar",
-      "language": "es"
-    },
-    {
-      "name": "Omastar",
-      "language": "it"
-    },
-    {
-      "name": "Omastar",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オムスター",
+    "en": "Omastar",
+    "fr": "Amonistar",
+    "it": "Omastar",
+    "de": "Amoroso",
+    "es": "Omastar",
+    "ko": "암스타"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -110,36 +73,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "うずまき",
-      "language": "ja"
-    },
-    {
-      "genus": "소용돌이",
-      "language": "ko"
-    },
-    {
-      "genus": "Spirale",
-      "language": "fr"
-    },
-    {
-      "genus": "Spirale",
-      "language": "de"
-    },
-    {
-      "genus": "Espiral",
-      "language": "es"
-    },
-    {
-      "genus": "Spirale",
-      "language": "it"
-    },
-    {
-      "genus": "Spiral",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "うずまき",
+    "en": "Spiral",
+    "fr": "Spirale",
+    "it": "Spirale",
+    "de": "Spirale",
+    "es": "Espiral",
+    "ko": "소용돌이"
+  },
   "varieties": [
     {
       "is_default": true,

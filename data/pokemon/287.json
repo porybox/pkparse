@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 276,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ナマケロ",
-      "language": "ja"
-    },
-    {
-      "name": "Namakero",
-      "language": "roomaji"
-    },
-    {
-      "name": "게을로",
-      "language": "ko"
-    },
-    {
-      "name": "懶人翁",
-      "language": "zh"
-    },
-    {
-      "name": "Parecool",
-      "language": "fr"
-    },
-    {
-      "name": "Bummelz",
-      "language": "de"
-    },
-    {
-      "name": "Slakoth",
-      "language": "es"
-    },
-    {
-      "name": "Slakoth",
-      "language": "it"
-    },
-    {
-      "name": "Slakoth",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ナマケロ",
+    "en": "Slakoth",
+    "fr": "Parecool",
+    "it": "Slakoth",
+    "de": "Bummelz",
+    "es": "Slakoth",
+    "ko": "게을로"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "なまけもの",
-      "language": "ja"
-    },
-    {
-      "genus": "게으름뱅이",
-      "language": "ko"
-    },
-    {
-      "genus": "Flâneur",
-      "language": "fr"
-    },
-    {
-      "genus": "Faulpelz",
-      "language": "de"
-    },
-    {
-      "genus": "Gandul",
-      "language": "es"
-    },
-    {
-      "genus": "Ozioso",
-      "language": "it"
-    },
-    {
-      "genus": "Slacker",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "なまけもの",
+    "en": "Slacker",
+    "fr": "Flâneur",
+    "it": "Ozioso",
+    "de": "Faulpelz",
+    "es": "Gandul",
+    "ko": "게으름뱅이"
+  },
   "varieties": [
     {
       "is_default": true,

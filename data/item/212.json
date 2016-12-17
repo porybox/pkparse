@@ -1,0 +1,38 @@
+{
+  "id": 212,
+  "name": "rowap-berry",
+  "names": {
+    "ja": "レンブのみ",
+    "kana": "レンブのみ",
+    "en": "Rowap Berry",
+    "fr": "Baie Pommo",
+    "it": "Baccaroam",
+    "de": "Roselbeere",
+    "es": "Baya Magua",
+    "ko": "애터열매",
+    "zh-CN": "雾莲果",
+    "zh-TW": "霧蓮果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると 特殊技を　受けたとき 相手にも　ダメージを　あたえる。",
+    "kana": "ポケモンに　もたせると とくしゅわざを　うけたとき あいてにも　ダメージを　あたえる。",
+    "en": "A Berry to be consumed by Pokémon. If a special attack hits the Pokémon holding it, the attacker will also be hurt.",
+    "fr": "Tenue, cette Baie inflige des dégâts à l’attaquant s’il utilise une capacité spéciale qui atteint sa cible.",
+    "it": "Se un Pokémon ha questa bacca, chi attacca subirà danni se la sua mossa speciale va a segno.",
+    "de": "Als getragenes Item bewirkt diese Beere Schaden bei jenen, die den Träger mit einer Spezial-Attacke treffen.",
+    "es": "Si la lleva un Pokémon cuando otro lanza un ataque especial, este último también recibe daño.",
+    "ko": "포켓몬에게 지니게 하면 특수 기술을 당했을 때 상대에게도 데미지를 준다.",
+    "zh-CN": "让宝可梦携带后， 在受到特殊招式攻击时， 能给予对手伤害。",
+    "zh-TW": "讓寶可夢攜帶後， 在受到特殊招式攻擊時， 也能給予對手傷害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Tenue, cette Baie inflige des dégâts à l’attaquant s’il utilise une attaque spéciale qui atteint son but."
+        }
+      }
+    }
+  ]
+}

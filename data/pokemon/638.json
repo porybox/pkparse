@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 225,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -49,68 +43,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "コバルオン",
-      "language": "ja"
-    },
-    {
-      "name": "코바르온",
-      "language": "ko"
-    },
-    {
-      "name": "Cobaltium",
-      "language": "fr"
-    },
-    {
-      "name": "Kobalium",
-      "language": "de"
-    },
-    {
-      "name": "Cobalion",
-      "language": "es"
-    },
-    {
-      "name": "Cobalion",
-      "language": "it"
-    },
-    {
-      "name": "Cobalion",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コバルオン",
+    "en": "Cobalion",
+    "fr": "Cobaltium",
+    "it": "Cobalion",
+    "de": "Kobalium",
+    "es": "Cobalion",
+    "ko": "코바르온"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "てっしん",
-      "language": "ja"
-    },
-    {
-      "genus": "철심",
-      "language": "ko"
-    },
-    {
-      "genus": "Cœur de Fer",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisenkern",
-      "language": "de"
-    },
-    {
-      "genus": "Tesón Acero",
-      "language": "es"
-    },
-    {
-      "genus": "Metalcuore",
-      "language": "it"
-    },
-    {
-      "genus": "Iron Will",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "てっしん",
+    "en": "Iron Will",
+    "fr": "Cœur de Fer",
+    "it": "Metalcuore",
+    "de": "Eisenkern",
+    "es": "Tesón Acero",
+    "ko": "철심"
+  },
   "varieties": [
     {
       "is_default": true,

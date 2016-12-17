@@ -1,0 +1,40 @@
+{
+  "id": 413,
+  "name": "tm86",
+  "names": {
+    "ja": "わざマシン８６",
+    "kana": "わざマシン８６",
+    "en": "TM86",
+    "fr": "CT86",
+    "it": "MT86",
+    "de": "TM86",
+    "es": "MT86",
+    "ko": "기술머신86",
+    "zh-CN": "招式学习器８６",
+    "zh-TW": "招式學習器８６"
+  },
+  "flavor_text_entries": {
+    "ja": "草を　からませて　相手を 転ばせる。　相手が　重いほど 威力が　あがる。",
+    "kana": "くさを　からませて　あいてを ころばせる。　あいてが　おもいほど いりょくが　あがる。",
+    "en": "The user snares the target with grass and trips it. The heavier the target, the greater the move’s power.",
+    "fr": "L’ennemi est piégé dans de l’herbe qui le fait trébucher. Plus il est lourd, plus il reçoit de dégâts.",
+    "it": "Chi la usa intrappola il bersaglio con l’erba e lo fa cadere. Danneggia maggiormente i Pokémon più pesanti.",
+    "de": "Gras lässt das Ziel straucheln. Je schwerer das Ziel, desto mehr Schaden wird verursacht.",
+    "es": "Atrapa al objetivo con hierbas y lo derriba. Cuanto más pesado sea el objetivo, más daño causa.",
+    "ko": "풀을 휘감아서 상대를 쓰러뜨린다. 상대가 무거울수록 위력이 올라간다.",
+    "zh-CN": "用草缠住并绊倒对手。 对手越重，威力越大。",
+    "zh-TW": "用打結的草絆倒對手。 對手越重，威力越大。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "草を　からませて　相手を 転ばせる。相手が　重いほど 威力が　あがる。",
+          "kana": "くさを　からませて　ころばせる。 あいてが　おもいほど　わざの いりょくは　あがる。",
+          "it": "Chi la usa intrappola il nemico con l’erba e lo fa cadere. Danneggia maggiormente i nemici più pesanti."
+        }
+      }
+    }
+  ]
+}

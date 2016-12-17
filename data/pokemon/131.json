@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 150,
@@ -57,16 +55,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -78,44 +70,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ラプラス",
-      "language": "ja"
-    },
-    {
-      "name": "Laplace",
-      "language": "roomaji"
-    },
-    {
-      "name": "라프라스",
-      "language": "ko"
-    },
-    {
-      "name": "乘龍",
-      "language": "zh"
-    },
-    {
-      "name": "Lokhlass",
-      "language": "fr"
-    },
-    {
-      "name": "Lapras",
-      "language": "de"
-    },
-    {
-      "name": "Lapras",
-      "language": "es"
-    },
-    {
-      "name": "Lapras",
-      "language": "it"
-    },
-    {
-      "name": "Lapras",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ラプラス",
+    "en": "Lapras",
+    "fr": "Lokhlass",
+    "it": "Lapras",
+    "de": "Lapras",
+    "es": "Lapras",
+    "ko": "라프라스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -126,36 +89,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "のりもの",
-      "language": "ja"
-    },
-    {
-      "genus": "탈것",
-      "language": "ko"
-    },
-    {
-      "genus": "Transport",
-      "language": "fr"
-    },
-    {
-      "genus": "Transport",
-      "language": "de"
-    },
-    {
-      "genus": "Transporte",
-      "language": "es"
-    },
-    {
-      "genus": "Trasporto",
-      "language": "it"
-    },
-    {
-      "genus": "Transport",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "のりもの",
+    "en": "Transport",
+    "fr": "Transport",
+    "it": "Trasporto",
+    "de": "Transport",
+    "es": "Transporte",
+    "ko": "탈것"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 13,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "ball"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ソルロック",
-      "language": "ja"
-    },
-    {
-      "name": "Solrock",
-      "language": "roomaji"
-    },
-    {
-      "name": "솔록",
-      "language": "ko"
-    },
-    {
-      "name": "太陽岩",
-      "language": "zh"
-    },
-    {
-      "name": "Solaroc",
-      "language": "fr"
-    },
-    {
-      "name": "Sonnfel",
-      "language": "de"
-    },
-    {
-      "name": "Solrock",
-      "language": "es"
-    },
-    {
-      "name": "Solrock",
-      "language": "it"
-    },
-    {
-      "name": "Solrock",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ソルロック",
+    "en": "Solrock",
+    "fr": "Solaroc",
+    "it": "Solrock",
+    "de": "Sonnfel",
+    "es": "Solrock",
+    "ko": "솔록"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いんせき",
-      "language": "ja"
-    },
-    {
-      "genus": "별똥별",
-      "language": "ko"
-    },
-    {
-      "genus": "Météorite",
-      "language": "fr"
-    },
-    {
-      "genus": "Meteorit",
-      "language": "de"
-    },
-    {
-      "genus": "Meteorito",
-      "language": "es"
-    },
-    {
-      "genus": "Meteorite",
-      "language": "it"
-    },
-    {
-      "genus": "Meteorite",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いんせき",
+    "en": "Meteorite",
+    "fr": "Météorite",
+    "it": "Meteorite",
+    "de": "Meteorit",
+    "es": "Meteorito",
+    "ko": "별똥별"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -149,11 +93,21 @@
     "psychic"
   ],
   "base_stats": {
-    "hp": 70,
+    "hp": 90,
     "attack": 95,
     "defense": 85,
     "special-attack": 55,
     "special-defense": 65,
     "speed": 70
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "hp": 70
+        }
+      }
+    }
+  ]
 }

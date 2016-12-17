@@ -2,36 +2,13 @@
   "id": 263,
   "name": "facade",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 70,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the user is [burned]{mechanic:burned}, [paralyzed]{mechanic:paralyzed}, or [poisoned]{mechanic:poisoned}, this move has double power.",
-      "short_effect": "Power doubles if user is burned, paralyzed, or poisoned.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Facade",
-      "language": "en"
-    },
-    {
-      "name": "Facciata",
-      "language": "it"
-    },
-    {
-      "name": "Imagen",
-      "language": "es"
-    },
-    {
-      "name": "Fassade",
-      "language": "de"
-    },
-    {
-      "name": "Façade",
-      "language": "fr"
-    },
-    {
-      "name": "객기",
-      "language": "ko"
-    },
-    {
-      "name": "からげんき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "からげんき",
+    "kana": "からげんき",
+    "en": "Facade",
+    "fr": "Façade",
+    "it": "Facciata",
+    "de": "Fassade",
+    "es": "Imagen",
+    "ko": "객기",
+    "zh-CN": "硬撑",
+    "zh-TW": "硬撐"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "自分が　毒　まひ　やけど 状態のとき　相手に　くりだすと 技の　威力が　２倍に　なる。",
+    "kana": "じぶんが　どく　まひ　やけど じょうたいの　とき　あいてに　くりだすと わざの　いりょくが　２ばいに　なる。",
+    "en": "This attack move doubles its power if the user is poisoned, burned, or paralyzed.",
+    "fr": "Une attaque dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brûlé.",
+    "it": "Mossa d’attacco che raddoppia la potenza se chi la usa è scottato, avvelenato o paralizzato.",
+    "de": "Ist der Anwender vergiftet, paralysiert oder leidet er unter Verbrennungen, verdoppelt sich die Kraft der Attacke.",
+    "es": "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado.",
+    "ko": "자신이 독, 마비, 화상 상태일 때 날리면 기술의 위력이 2배가 된다.",
+    "zh-CN": "当自己处于中毒、麻痹、灼伤状态时， 向对手使出此招式的话， 威力会变成２倍。",
+    "zh-TW": "當自己陷入中毒、麻痺、灼傷等 狀態時，向對手使用此招式， 威力會變成２倍。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An attack move that doubles its power if the user is poisoned, burned, or has paralysis."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Doppelte Stärke nach Verbrennung, Paralyse oder Vergiftung."
+        }
+      }
+    }
+  ]
 }

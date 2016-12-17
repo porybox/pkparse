@@ -2,48 +2,13 @@
   "id": 443,
   "name": "magnet-bomb",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.",
-      "short_effect": "Never misses.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Hits Pokémon under the effects of []{move:dig} and []{move:fly}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -55,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Magnet Bomb",
-      "language": "en"
-    },
-    {
-      "name": "Bombagnete",
-      "language": "it"
-    },
-    {
-      "name": "Bomba Imán",
-      "language": "es"
-    },
-    {
-      "name": "Magnetbombe",
-      "language": "de"
-    },
-    {
-      "name": "Bombaimant",
-      "language": "fr"
-    },
-    {
-      "name": "마그넷봄",
-      "language": "ko"
-    },
-    {
-      "name": "マグネットボム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "マグネットボム",
+    "kana": "マグネットボム",
+    "en": "Magnet Bomb",
+    "fr": "Bombaimant",
+    "it": "Bombagnete",
+    "de": "Magnetbombe",
+    "es": "Bomba Imán",
+    "ko": "마그넷봄",
+    "zh-CN": "磁铁炸弹",
+    "zh-TW": "磁鐵炸彈"
   },
-  "type": {
-    "name": "steel"
-  }
+  "flavor_text_entries": {
+    "ja": "相手に　吸いつく 鋼の　爆弾を　発射する。 攻撃は　必ず　命中　する。",
+    "kana": "あいてに　すいつく はがねの　ばくだんを　はっしゃする。 こうげきは　かならず　めいちゅう　する。",
+    "en": "The user launches steel bombs that stick to the target. This attack never misses.",
+    "fr": "Le lanceur projette des bombes d’acier qui collent à l’ennemi. N’échoue jamais.",
+    "it": "Chi la usa lancia bombe d’acciaio che si attaccano al bersaglio. Una mossa infallibile.",
+    "de": "Ziel wird durch Haftbomben getroffen. Diese Attacke trifft immer.",
+    "es": "Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.",
+    "ko": "상대에게 달라붙는 강철의 폭탄을 발사한다. 공격은 반드시 명중한다.",
+    "zh-CN": "发射吸住对手的 钢铁炸弹。 攻击必定会命中。",
+    "zh-TW": "發射能吸住對手的 鋼鐵炸彈。 攻擊必定會命中。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "steel"
 }

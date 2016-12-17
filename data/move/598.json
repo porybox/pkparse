@@ -2,34 +2,13 @@
   "id": 598,
   "name": "eerie-impulse",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Attack]{mechanic:attack} by two [stages]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Attack by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Eerie Impulse",
-      "language": "en"
-    },
-    {
-      "name": "Elettromistero",
-      "language": "it"
-    },
-    {
-      "name": "Onda Anómala",
-      "language": "es"
-    },
-    {
-      "name": "Mystowellen",
-      "language": "de"
-    },
-    {
-      "name": "Ondes Étranges",
-      "language": "fr"
-    },
-    {
-      "name": "괴전파",
-      "language": "ko"
-    },
-    {
-      "name": "かいでんぱ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "かいでんぱ",
+    "kana": "かいでんぱ",
+    "en": "Eerie Impulse",
+    "fr": "Ondes Étranges",
+    "it": "Elettromistero",
+    "de": "Mystowellen",
+    "es": "Onda Anómala",
+    "ko": "괴전파",
+    "zh-CN": "怪异电波",
+    "zh-TW": "怪異電波"
+  },
+  "flavor_text_entries": {
+    "ja": "体から　かいでんぱを　放ち 相手に　浴びせる　ことによって 特攻を　がくっと　さげる。",
+    "kana": "からだから　かいでんぱを　はなち あいてに　あびせる　ことによって とくこうを　がくっと　さげる。",
+    "en": "The user’s body generates an eerie impulse. Exposing the target to it harshly lowers the target’s Sp. Atk stat.",
+    "fr": "Le corps du lanceur produit des ondes anormales qui enveloppent l’ennemi et diminuent beaucoup son Attaque Spéciale.",
+    "it": "Il corpo di chi la usa emette onde anomale che investono il bersaglio, riducendone di molto l’Attacco Speciale.",
+    "de": "Der Körper des Anwenders erzeugt mysteriöse Wellen und senkt den Spezial-Angriff des Zieles dadurch stark.",
+    "es": "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial.",
+    "ko": "몸에서 괴전파를 내어 상대에게 쏨으로써 특수공격을 크게 떨어뜨린다.",
+    "zh-CN": "从身体放射出怪异电波， 让对手沐浴其中， 从而大幅降低其特攻。",
+    "zh-TW": "從身體發出怪異電波 影響對手， 大幅降低對手的特攻。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "electric"
-  }
+  "target": "selected-pokemon",
+  "type": "electric",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le corps du lanceur produit des ondes anormales qui enveloppent l’ennemi et diminuent fortement son Attaque Spéciale."
+        }
+      }
+    }
+  ]
 }

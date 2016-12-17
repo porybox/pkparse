@@ -2,36 +2,13 @@
   "id": 302,
   "name": "needle-arm",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 15,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 30,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Needle Arm",
-      "language": "en"
-    },
-    {
-      "name": "Pugnospine",
-      "language": "it"
-    },
-    {
-      "name": "Brazo Pincho",
-      "language": "es"
-    },
-    {
-      "name": "Nietenranke",
-      "language": "de"
-    },
-    {
-      "name": "Poing Dard",
-      "language": "fr"
-    },
-    {
-      "name": "바늘팔",
-      "language": "ko"
-    },
-    {
-      "name": "ニードルアーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ニードルアーム",
+    "kana": "ニードルアーム",
+    "en": "Needle Arm",
+    "fr": "Poing Dard",
+    "it": "Pugnospine",
+    "de": "Nietenranke",
+    "es": "Brazo Pincho",
+    "ko": "바늘팔",
+    "zh-CN": "尖刺臂",
+    "zh-TW": "尖刺臂"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "トゲの　腕を 激しく　ふるって　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "トゲの　うでを はげしく　ふるって　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user attacks by wildly swinging its thorny arms. This may also make the target flinch.",
+    "fr": "Le lanceur attaque en fouettant l’ennemi de ses bras épineux. Peut aussi l’apeurer.",
+    "it": "Chi la usa attacca colpendo il bersaglio con i suoi arti pieni di spine. Può far tentennare il Pokémon colpito.",
+    "de": "Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.",
+    "es": "Pega con brazos de pinchos y puede hacer retroceder al objetivo.",
+    "ko": "바늘팔을 세차게 흔들어 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "用带刺的手臂 猛烈地挥舞进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "用帶刺的手臂 猛烈揮打進行攻擊。 有時會使對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass"
 }

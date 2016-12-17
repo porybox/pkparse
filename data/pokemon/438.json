@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 129,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "legs"
   },
@@ -55,44 +49,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ウソハチ",
-      "language": "ja"
-    },
-    {
-      "name": "Usohachi",
-      "language": "roomaji"
-    },
-    {
-      "name": "꼬지지",
-      "language": "ko"
-    },
-    {
-      "name": "愛哭樹",
-      "language": "zh"
-    },
-    {
-      "name": "Manzaï",
-      "language": "fr"
-    },
-    {
-      "name": "Mobai",
-      "language": "de"
-    },
-    {
-      "name": "Bonsly",
-      "language": "es"
-    },
-    {
-      "name": "Bonsly",
-      "language": "it"
-    },
-    {
-      "name": "Bonsly",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ウソハチ",
+    "en": "Bonsly",
+    "fr": "Manzaï",
+    "it": "Bonsly",
+    "de": "Mobai",
+    "es": "Bonsly",
+    "ko": "꼬지지"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -103,36 +68,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ぼんさい",
-      "language": "ja"
-    },
-    {
-      "genus": "분재",
-      "language": "ko"
-    },
-    {
-      "genus": "Bonsaï",
-      "language": "fr"
-    },
-    {
-      "genus": "Bonsai",
-      "language": "de"
-    },
-    {
-      "genus": "Bonsái",
-      "language": "es"
-    },
-    {
-      "genus": "Bonsai",
-      "language": "it"
-    },
-    {
-      "genus": "Bonsai",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ぼんさい",
+    "en": "Bonsai",
+    "fr": "Bonsaï",
+    "it": "Bonsai",
+    "de": "Bonsai",
+    "es": "Bonsái",
+    "ko": "분재"
+  },
   "varieties": [
     {
       "is_default": true,

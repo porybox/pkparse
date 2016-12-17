@@ -1,0 +1,45 @@
+{
+  "id": 729,
+  "name": "brionne",
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "color": "blue",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "オシャマリ",
+    "en": "Brionne",
+    "fr": "Otarlette",
+    "it": "Brionne",
+    "de": "Marikeck",
+    "es": "Brionne",
+    "ko": "키요공"
+  },
+  "genera": {
+    "ja": "アイドル",
+    "en": "Pop Star",
+    "fr": "Starlette",
+    "it": "Pop Star",
+    "de": "Popsternchen",
+    "es": "Fama",
+    "ko": "아이돌"
+  },
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 69,
+    "defense": 69,
+    "special-attack": 91,
+    "special-defense": 81,
+    "speed": 50
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": 705,
+  "name": "lens-case",
+  "names": {
+    "ja": "レンズケース",
+    "kana": "レンズケース",
+    "en": "Lens Case",
+    "fr": "Boîte Lentilles",
+    "it": "Portalenti",
+    "de": "Linsenetui",
+    "es": "Portalentillas",
+    "ko": "렌즈케이스",
+    "zh-CN": "隐形眼镜盒",
+    "zh-TW": "隱形眼鏡盒"
+  },
+  "flavor_text_entries": {
+    "ja": "コンタクトレンズを　しまっておける ちょっと　おしゃれな　ケース。",
+    "kana": "コンタクトレンズを　しまっておける ちょっと　おしゃれな　ケース。",
+    "en": "A rather chic-looking case for carrying contact lenses.",
+    "fr": "Un étui plutôt chic destiné aux lentilles de contact.",
+    "it": "Un elegante astuccio per lenti a contatto.",
+    "de": "Ein stilvolles Etui zur Aufbewahrung von Kontaktlinsen.",
+    "es": "Estuche de aspecto sofisticado para llevar tus lentes de contacto.",
+    "ko": "콘택트렌즈를 담아둘 수 있는 살짝 멋진 케이스.",
+    "zh-CN": "可以存放隐形眼镜的， 有点漂亮的盒子。",
+    "zh-TW": "可以存放隱形眼鏡的， 有點漂亮的盒子。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Un’elegante custodia per lenti a contatto.",
+          "de": "Ein sehr stilvolles Etui zur Aufbewahrung von Kontaktlinsen.",
+          "es": "Estuche de aspecto sofisticado para llevar las lentes de contacto."
+        }
+      }
+    }
+  ]
+}

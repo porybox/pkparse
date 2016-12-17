@@ -2,49 +2,13 @@
   "id": 243,
   "name": "mirror-coat",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": -5,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "taunt"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Targets the last opposing Pokémon to hit the user with a [special]{mechanic:special} move this turn.  Inflicts twice the damage that move did to the user.  If there is no eligible target, this move will [fail]{mechanic:fail}.  Type immunity applies, but other type effects are ignored.\n\nThis move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "Inflicts twice the damage the user received from the last special hit it took.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Mirror Coat",
-      "language": "en"
-    },
-    {
-      "name": "Specchiovelo",
-      "language": "it"
-    },
-    {
-      "name": "Manto Espejo",
-      "language": "es"
-    },
-    {
-      "name": "Spiegelcape",
-      "language": "de"
-    },
-    {
-      "name": "Voile Miroir",
-      "language": "fr"
-    },
-    {
-      "name": "미러코트",
-      "language": "ko"
-    },
-    {
-      "name": "ミラーコート",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "specific-move"
+  "names": {
+    "ja": "ミラーコート",
+    "kana": "ミラーコート",
+    "en": "Mirror Coat",
+    "fr": "Voile Miroir",
+    "it": "Specchiovelo",
+    "de": "Spiegelcape",
+    "es": "Manto Espejo",
+    "ko": "미러코트",
+    "zh-CN": "镜面反射",
+    "zh-TW": "鏡面反射"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "相手から　受けた　特殊攻撃の ダメージを　２倍に　して その相手に　返す。",
+    "kana": "あいてから　うけた　とくしゅ　こうげきの ダメージを　２ばいに　して そのあいてに　かえす。",
+    "en": "A retaliation move that counters any special attack, inflicting double the damage taken.",
+    "fr": "Une riposte qui contre n’importe quelle capacité spéciale en infligeant le double des dégâts subis.",
+    "it": "Mossa che replica ogni attacco speciale, arrecando il doppio del danno ricevuto.",
+    "de": "Kontert den Spezial-Angriff des Gegners mit doppeltem Schaden.",
+    "es": "Responde a un ataque especial ocasionando el doble del daño recibido.",
+    "ko": "상대에게 받은 특수공격의 데미지를 2배로 만들어 그 상대에게 돌려준다.",
+    "zh-CN": "从对手那里受到 特殊攻击的伤害将以 ２倍返还给同一个对手。",
+    "zh-TW": "將來自對手的特殊攻擊傷害加倍後， 返還給該對手。"
+  },
+  "stat_changes": [],
+  "target": "specific-move",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une riposte qui contre n’importe quelle attaque spéciale en infligeant le double des dégâts subis."
+        }
+      }
+    }
+  ]
 }

@@ -2,82 +2,13 @@
   "id": 347,
   "name": "calm-mind",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "psybeam"
-        },
-        {
-          "name": "confusion"
-        },
-        {
-          "name": "psychic"
-        },
-        {
-          "name": "meditate"
-        },
-        {
-          "name": "light-screen"
-        },
-        {
-          "name": "reflect"
-        },
-        {
-          "name": "dream-eater"
-        },
-        {
-          "name": "psywave"
-        },
-        {
-          "name": "future-sight"
-        },
-        {
-          "name": "luster-purge"
-        },
-        {
-          "name": "mist-ball"
-        },
-        {
-          "name": "psycho-boost"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Special Attack]{mechanic:special-attack} and [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage} each.",
-      "short_effect": "Raises the user's Special Attack and Special Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -89,56 +20,50 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Calm Mind",
-      "language": "en"
-    },
-    {
-      "name": "Calmamente",
-      "language": "it"
-    },
-    {
-      "name": "Paz Mental",
-      "language": "es"
-    },
-    {
-      "name": "Gedankengut",
-      "language": "de"
-    },
-    {
-      "name": "Plénitude",
-      "language": "fr"
-    },
-    {
-      "name": "명상",
-      "language": "ko"
-    },
-    {
-      "name": "めいそう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "めいそう",
+    "kana": "めいそう",
+    "en": "Calm Mind",
+    "fr": "Plénitude",
+    "it": "Calmamente",
+    "de": "Gedankengut",
+    "es": "Paz Mental",
+    "ko": "명상",
+    "zh-CN": "冥想",
+    "zh-TW": "冥想"
+  },
+  "flavor_text_entries": {
+    "ja": "静かに　精神を　統一し 心を　鎮めることで　自分の 特攻と　特防を　あげる。",
+    "kana": "しずかに　せいしんを　とういつし こころを　しずめる　ことで　じぶんの とくこうと　とくぼうを　あげる。",
+    "en": "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
+    "fr": "Le lanceur se concentre et fait le vide dans son esprit pour augmenter son Attaque Spéciale et sa Défense Spéciale.",
+    "it": "Chi la usa placa il proprio spirito meditando per aumentare l’Attacco Speciale e la Difesa Speciale.",
+    "de": "Erhöht Spezial-Angriff und Spezial-Verteidigung durch Konzentration.",
+    "es": "Aumenta la concentración y calma el espíritu para subir el Ataque Especial y la Defensa Especial.",
+    "ko": "조용히 정신을 통일하고 마음을 가라앉혀서 자신의 특수공격과 특수방어를 올린다.",
+    "zh-CN": "静心凝神， 从而提高自己的特攻和特防。",
+    "zh-TW": "屏氣凝神， 提高自己的特攻和特防。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "psychic"
-  }
+  "target": "user",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa, meditando, placa il proprio spirito per aumentare l’Attacco Speciale e la Difesa Speciale."
+        }
+      }
+    }
+  ]
 }

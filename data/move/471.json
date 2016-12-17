@@ -2,34 +2,13 @@
   "id": 471,
   "name": "power-split",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Averages the user's unmodified [Attack]{mechanic:attack} with the target's unmodified Attack; the value becomes the unmodified Attack for both Pokémon. Unmodified [Special Attack]{mechanic:special-attack} is averaged the same way.\n\nThis effect applies before any other persistent changes to unmodified Attack or Special Attack, such as []{ability:flower-gift} during []{move:sunny-day}.",
-      "short_effect": "Averages Attack and Special Attack with the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Power Split",
-      "language": "en"
-    },
-    {
-      "name": "Pariattacco",
-      "language": "it"
-    },
-    {
-      "name": "Isofuerza",
-      "language": "es"
-    },
-    {
-      "name": "Kraftteiler",
-      "language": "de"
-    },
-    {
-      "name": "Partage Force",
-      "language": "fr"
-    },
-    {
-      "name": "파워셰어",
-      "language": "ko"
-    },
-    {
-      "name": "パワーシェア",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "パワーシェア",
+    "kana": "パワーシェア",
+    "en": "Power Split",
+    "fr": "Partage Force",
+    "it": "Pariattacco",
+    "de": "Kraftteiler",
+    "es": "Isofuerza",
+    "ko": "파워셰어",
+    "zh-CN": "力量平分",
+    "zh-TW": "力量平分"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "超能力で　自分と　相手の 攻撃と　特攻を　たして 半分に　わける。",
+    "kana": "ちょうのうりょくで　じぶんと　あいての こうげきと　とくこうを　たして はんぶんに　わける。",
+    "en": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.",
+    "fr": "Additionne l’Attaque Spéciale et l’Attaque du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+    "it": "Chi la usa sfrutta la sua forza psichica per sommare Attacco e Attacco Speciale a quelli del bersaglio e dividerli equamente.",
+    "de": "Durch Psycho-Kräfte werden Angriff und Spezial-Angriff des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+    "es": "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.",
+    "ko": "초능력으로 자신과 상대의 공격과 특수공격을 더해서 반으로 나눈다.",
+    "zh-CN": "利用超能力将自己和对手的 攻击和特攻相加， 再进行平分。",
+    "zh-TW": "用超能力將自己和對手的 攻擊和特攻各別相加後， 再進行平分。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

@@ -1,0 +1,38 @@
+{
+  "id": 327,
+  "name": "razor-fang",
+  "names": {
+    "ja": "するどいキバ",
+    "kana": "するどいキバ",
+    "en": "Razor Fang",
+    "fr": "Croc Rasoir",
+    "it": "Affilodente",
+    "de": "Scharfzahn",
+    "es": "Colmillo Agudo",
+    "ko": "예리한이빨",
+    "zh-CN": "锐利之牙",
+    "zh-TW": "銳利之牙"
+  },
+  "flavor_text_entries": {
+    "ja": "鋭く　とがった　キバ。 持たせると　ダメージを　与えたとき ひるませることが　ある。",
+    "kana": "するどく　とがった　キバ。 もたせると　ダメージを　あたえたとき ひるませることが　ある。",
+    "en": "An item to be held by a Pokémon. When the holder successfully inflicts damage, the target may also flinch.",
+    "fr": "Objet à tenir. Peut apeurer l’ennemi quand le porteur lui inflige des dégâts.",
+    "it": "Strumento da dare a un Pokémon. Chi ce l’ha può far tentennare il nemico colpito.",
+    "de": "Ein Item zum Tragen. Verursacht der Träger Schaden, schreckt das Ziel eventuell zurück.",
+    "es": "Si lo lleva un Pokémon cuando inflige daño al objetivo, puede hacerle retroceder.",
+    "ko": "날카롭고 뾰족한 이빨. 지니게 하면 데미지를 줬을 때 풀죽게 하기도 한다.",
+    "zh-CN": "尖锐的牙齿。 携带后，在给予伤害时， 有时会让对手畏缩。",
+    "zh-TW": "尖銳的牙齒。 攜帶後，在給予傷害時， 有時會讓對手畏縮。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Si lo lleva un Pokémon cuando inflige daño a otro, puede hacer retroceder a este último."
+        }
+      }
+    }
+  ]
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 143,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    }
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ジヘッド",
-      "language": "ja"
-    },
-    {
-      "name": "디헤드",
-      "language": "ko"
-    },
-    {
-      "name": "Diamat",
-      "language": "fr"
-    },
-    {
-      "name": "Duodino",
-      "language": "de"
-    },
-    {
-      "name": "Zweilous",
-      "language": "es"
-    },
-    {
-      "name": "Zweilous",
-      "language": "it"
-    },
-    {
-      "name": "Zweilous",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ジヘッド",
+    "en": "Zweilous",
+    "fr": "Diamat",
+    "it": "Zweilous",
+    "de": "Duodino",
+    "es": "Zweilous",
+    "ko": "디헤드"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "らんぼう",
-      "language": "ja"
-    },
-    {
-      "genus": "흉포",
-      "language": "ko"
-    },
-    {
-      "genus": "Violent",
-      "language": "fr"
-    },
-    {
-      "genus": "Grobheit",
-      "language": "de"
-    },
-    {
-      "genus": "Violento",
-      "language": "es"
-    },
-    {
-      "genus": "Irruenza",
-      "language": "it"
-    },
-    {
-      "genus": "Hostile",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "らんぼう",
+    "en": "Hostile",
+    "fr": "Violent",
+    "it": "Irruenza",
+    "de": "Grobheit",
+    "es": "Violento",
+    "ko": "흉포"
+  },
   "varieties": [
     {
       "is_default": true,

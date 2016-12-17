@@ -2,49 +2,13 @@
   "id": 21,
   "name": "slam",
   "accuracy": 75,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 80,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "focus-energy"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Slam",
-      "language": "en"
-    },
-    {
-      "name": "Schianto",
-      "language": "it"
-    },
-    {
-      "name": "Atizar",
-      "language": "es"
-    },
-    {
-      "name": "Slam",
-      "language": "de"
-    },
-    {
-      "name": "Souplesse",
-      "language": "fr"
-    },
-    {
-      "name": "힘껏치기",
-      "language": "ko"
-    },
-    {
-      "name": "たたきつける",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "たたきつける",
+    "kana": "たたきつける",
+    "en": "Slam",
+    "fr": "Souplesse",
+    "it": "Schianto",
+    "de": "Slam",
+    "es": "Atizar",
+    "ko": "힘껏치기",
+    "zh-CN": "摔打",
+    "zh-TW": "摔打"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "長い　しっぽや　つるなどを　使い 相手を　たたきつけて　攻撃する。",
+    "kana": "ながい　しっぽや　つるなどを　つかい あいてを　たたきつけて　こうげきする。",
+    "en": "The target is slammed with a long tail, vines, or the like to inflict damage.",
+    "fr": "Fouette l’ennemi avec la queue ou une liane, par exemple, pour infliger des dégâts.",
+    "it": "Infligge danni al bersaglio con la coda, con una liana o con qualcosa di simile.",
+    "de": "Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.",
+    "es": "Golpea con la cola o con lianas, por ejemplo, para causar daño al objetivo.",
+    "ko": "긴 꼬리나 덩굴 등을 사용해 상대를 힘껏 쳐서 공격한다.",
+    "zh-CN": "使用长长的尾巴或藤蔓等 摔打对手进行攻击。",
+    "zh-TW": "將長長的尾巴或藤蔓等 甩向對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Infligge danni al bersaglio con la coda, con una liana o simili.",
+          "es": "Golpea con las extremidades."
+        }
+      }
+    }
+  ]
 }

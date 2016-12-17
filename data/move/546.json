@@ -2,34 +2,13 @@
   "id": 546,
   "name": "techno-blast",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 120,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the user is holding a plate or a drive, this move's type is the type corresponding to that item.\n\nNote: This effect is technically shared by both []{move:techno-blast} and []{move:judgment}; however, Techno Blast is only affected by drives, and Judgment is only affected by plates.",
-      "short_effect": "If the user is holding a appropriate plate or drive, the damage inflicted will match it.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Techno Blast",
-      "language": "en"
-    },
-    {
-      "name": "Tecnobotto",
-      "language": "it"
-    },
-    {
-      "name": "Tecno Shock",
-      "language": "es"
-    },
-    {
-      "name": "Techblaster",
-      "language": "de"
-    },
-    {
-      "name": "TechnoBuster",
-      "language": "fr"
-    },
-    {
-      "name": "테크노버스터",
-      "language": "ko"
-    },
-    {
-      "name": "テクノバスター",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "テクノバスター",
+    "kana": "テクノバスター",
+    "en": "Techno Blast",
+    "fr": "Techno-Buster",
+    "it": "Tecnobotto",
+    "de": "Techblaster",
+    "es": "Tecno Shock",
+    "ko": "테크노버스터",
+    "zh-CN": "高科技光炮",
+    "zh-TW": "高科技光炮"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "光弾を　相手に　放出する。 自分の　持つ カセットにより　タイプが　変わる。",
+    "kana": "こうだんを　あいてに ほうしゅつする。じぶんの　もつ カセットに　より　タイプが　かわる。",
+    "en": "The user fires a beam of light at its target. The move’s type changes depending on the Drive the user holds.",
+    "fr": "Le lanceur projette un rayon lumineux sur l’ennemi. Le type varie selon le Module que tient le lanceur.",
+    "it": "Chi la usa rilascia un colpo di luce contro il bersaglio. Il tipo varia a seconda del modulo che ha.",
+    "de": "Anwender feuert ein Lichtgeschoss auf das Ziel ab. Der Typ der Attacke hängt von dem des Moduls ab.",
+    "es": "Ataca al objetivo con un gran láser. El tipo del ataque lo determina el cartucho que porta el usuario.",
+    "ko": "광탄을 상대에게 방출한다. 자신이 지니고 있는 카세트에 의해 타입이 바뀐다.",
+    "zh-CN": "向对手放出光弹。 属性会根据自己 携带的卡带不同而改变。",
+    "zh-TW": "向對手發射光彈。 招式的屬性會隨著自己 攜帶的卡帶不同而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "fr": "TechnoBuster"
+        }
+      }
+    }
+  ]
 }

@@ -1,175 +1,44 @@
 {
   "id": 78,
   "name": "motor-drive",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "でんきエンジン",
+    "kana": "でんきエンジン",
+    "en": "Motor Drive",
+    "fr": "Motorisé",
+    "it": "Elettrorapid",
+    "de": "Starthilfe",
+    "es": "Electromotor",
+    "ko": "전기엔진",
+    "zh-CN": "电气引擎",
+    "zh-TW": "電氣引擎"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "でんきタイプの　技を　受けると ダメージを　受けずに　 素早さが　上がる。",
+    "kana": "でんきタイプの　わざを　うけると ダメージを　うけずに　 すばやさが　あがる。",
+    "en": "Boosts its Speed stat if hit by an Electric-type move, instead of taking damage.",
+    "fr": "Si le Pokémon est touché par une capacité Électrik, il ne subit aucun dégât et sa Vitesse augmente.",
+    "it": "Se il Pokémon viene colpito da una mossa di tipo Elettro, la neutralizza e sfrutta la carica elettrica per aumentare la propria Velocità.",
+    "de": "Treffer durch Elektro-Attacken verursachen keinen Schaden, sondern geben dem Pokémon eine Starthilfe und erhöhen so seine Initiative.",
+    "es": "Si le alcanza un movimiento de tipo Eléctrico, le sube la Velocidad en vez de sufrir daño.",
+    "ko": "전기타입의 기술을 받으면 데미지를 받지 않고 스피드가 올라간다.",
+    "zh-CN": "受到电属性的招式攻击时， 不会受到伤害，而是速度会提高。",
+    "zh-TW": "受到電屬性的招式攻擊時， 不但不會受到傷害，反而速度會提高。"
+  },
+  "past_values": [
     {
-      "name": "Motor Drive",
-      "language": "en"
-    },
-    {
-      "name": "Elettrorapid",
-      "language": "it"
-    },
-    {
-      "name": "Electromotor",
-      "language": "es"
-    },
-    {
-      "name": "Starthilfe",
-      "language": "de"
-    },
-    {
-      "name": "Motorisé",
-      "language": "fr"
-    },
-    {
-      "name": "전기엔진",
-      "language": "ko"
-    },
-    {
-      "name": "でんきエンジン",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Whenever an []{type:electric}-type move hits this Pokémon, its [Speed]{mechanic:speed} rises one [stage]{mechanic:stat-modifier}, negating any other effect on it.\n\nThis ability will not take effect if this Pokémon is immune to Electric moves.  Electric moves will ignore this Pokémon's []{move:substitute}.\n\nThis effect includes non-damaging moves, i.e. []{move:thunder-wave}.",
-      "short_effect": "Absorbs []{type:electric} moves, raising [Speed]{mechanic:speed} one [stage]{mechanic:stat-modifier}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "でんきを　受けると\n素早さが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Boosts the Speed stat when it’s\nhit by an Electric-type move.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Le mosse di tipo Elettro subite\nfanno aumentare la Velocità.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Sube la Velocidad si le alcanza\nun ataque eléctrico.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Erhöht nach einem Treffer durch\neine Elektro-Attacke die Initiative.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Augmente la Vitesse si touché\npar une capacité Électrik.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "전기를 받으면\n스피드가 올라간다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "でんきを　うけると\nすばやさが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Raises Speed if hit by an\nElectric-type move.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises Speed if hit by an\nElectric-type move.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Augmente la Vit. si touché\npar une cap. Électrik.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Raises Speed if hit by an\nElectric-type move.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises Speed if hit by an\nElectric-type move.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises Speed if hit by an\nElectric-type move.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "electivire"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "blitzle"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "zebstrika"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "emolga"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "でんきを　受けると 素早さが　あがる。",
+          "kana": "でんきを　うけると すばやさが　あがる。",
+          "en": "Boosts the Speed stat when it’s hit by an Electric-type move.",
+          "fr": "Augmente la Vitesse si touché par une capacité Électrik.",
+          "it": "Le mosse di tipo Elettro subite fanno aumentare la Velocità.",
+          "de": "Erhöht nach einem Treffer durch eine Elektro-Attacke die Initiative.",
+          "es": "Sube la Velocidad si le alcanza un ataque eléctrico.",
+          "ko": "전기를 받으면 스피드가 올라간다."
+        }
       }
     }
   ]

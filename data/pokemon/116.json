@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 39,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "blob"
   },
@@ -72,44 +64,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "タッツー",
-      "language": "ja"
-    },
-    {
-      "name": "Tattu",
-      "language": "roomaji"
-    },
-    {
-      "name": "쏘드라",
-      "language": "ko"
-    },
-    {
-      "name": "墨海馬",
-      "language": "zh"
-    },
-    {
-      "name": "Hypotrempe",
-      "language": "fr"
-    },
-    {
-      "name": "Seeper",
-      "language": "de"
-    },
-    {
-      "name": "Horsea",
-      "language": "es"
-    },
-    {
-      "name": "Horsea",
-      "language": "it"
-    },
-    {
-      "name": "Horsea",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "タッツー",
+    "en": "Horsea",
+    "fr": "Hypotrempe",
+    "it": "Horsea",
+    "de": "Seeper",
+    "es": "Horsea",
+    "ko": "쏘드라"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -120,36 +83,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ドラゴン",
-      "language": "ja"
-    },
-    {
-      "genus": "드래곤",
-      "language": "ko"
-    },
-    {
-      "genus": "Dragon",
-      "language": "fr"
-    },
-    {
-      "genus": "Drache",
-      "language": "de"
-    },
-    {
-      "genus": "Dragón",
-      "language": "es"
-    },
-    {
-      "genus": "Drago",
-      "language": "it"
-    },
-    {
-      "genus": "Dragon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ドラゴン",
+    "en": "Dragon",
+    "fr": "Dragon",
+    "it": "Drago",
+    "de": "Drache",
+    "es": "Dragón",
+    "ko": "드래곤"
+  },
   "varieties": [
     {
       "is_default": true,

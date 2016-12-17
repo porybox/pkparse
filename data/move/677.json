@@ -1,0 +1,50 @@
+{
+  "id": 677,
+  "name": "anchor-shot",
+  "accuracy": 100,
+  "pp": 20,
+  "priority": 0,
+  "power": 80,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "アンカーショット",
+    "kana": "アンカーショット",
+    "en": "Anchor Shot",
+    "fr": "Ancrage",
+    "it": "Colpo d’Ancora",
+    "de": "Ankerschuss",
+    "es": "Anclaje",
+    "ko": "앵커숏",
+    "zh-CN": "掷锚",
+    "zh-TW": "擲錨"
+  },
+  "flavor_text_entries": {
+    "ja": "アンカーを　相手に　からませて 攻撃する。　相手は 逃げることが　できなくなる。",
+    "kana": "アンカーを　あいてに　からませて こうげきする。　あいては にげることが　できなくなる。",
+    "en": "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.",
+    "fr": "Le lanceur jette son ancre sur la cible pour l’attaquer. Une fois accrochée, elle l’empêche de s’enfuir.",
+    "it": "Chi la usa attacca il nemico con un’ancora e lo intrappola nella catena impedendogli di fuggire.",
+    "de": "Der Anwender greift das Ziel an, indem er es mit einer Ankerkette umwickelt. Dadurch wird das Ziel an der Flucht gehindert.",
+    "es": "Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir.",
+    "ko": "앵커를 상대에게 휘감아서 공격한다. 상대는 도망칠 수 없게 된다.",
+    "zh-CN": "将锚缠住对手进行攻击。 使对手无法逃走。",
+    "zh-TW": "將錨纏住對手進行攻擊。 使對手無法逃走。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "steel"
+}

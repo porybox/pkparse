@@ -2,36 +2,13 @@
   "id": 275,
   "name": "ingrain",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Prevents the user from [switching out]{mechanic:switching-out}.  User regains 1/16 of its max [HP]{mechanic:hp} at the end of every turn.  If the user was immune to []{type:ground} attacks, it will now take normal damage from them.\n\n[]{move:roar} and []{move:whirlwind} will not affect the user.  The user cannot use []{move:magnet-rise}.\n\nThe user may still use []{move:u-turn} to leave the [field]{mechanic:field}.\n\nThis effect can be passed with []{move:baton-pass}.",
-      "short_effect": "Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "ingrain"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "ingrain",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Ingrain",
-      "language": "en"
-    },
-    {
-      "name": "Radicamento",
-      "language": "it"
-    },
-    {
-      "name": "Arraigo",
-      "language": "es"
-    },
-    {
-      "name": "Verwurzler",
-      "language": "de"
-    },
-    {
-      "name": "Racines",
-      "language": "fr"
-    },
-    {
-      "name": "뿌리박기",
-      "language": "ko"
-    },
-    {
-      "name": "ねをはる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "ねをはる",
+    "kana": "ねをはる",
+    "en": "Ingrain",
+    "fr": "Racines",
+    "it": "Radicamento",
+    "de": "Verwurzler",
+    "es": "Arraigo",
+    "ko": "뿌리박기",
+    "zh-CN": "扎根",
+    "zh-TW": "扎根"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "大地に　根を　張り 毎ターン　自分の　ＨＰを　回復する。 根を　張っているので　入れ替えられない。",
+    "kana": "だいちに　ねを　はり　まいターン じぶんの　ＨＰを　かいふく　する。 ねを　はっているので　いれかえられない。",
+    "en": "The user lays roots that restore its HP on every turn. Because it’s rooted, it can’t switch out.",
+    "fr": "Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir.",
+    "it": "Chi la usa mette delle radici che gli fanno recuperare PS a ogni turno. Non può essere sostituito.",
+    "de": "Verwurzelung füllt jede Runde KP auf. Austausch und Flucht sind unmöglich.",
+    "es": "Echa raíces para recuperar PS en cada turno, pero impide el relevo.",
+    "ko": "대지에 뿌리를 박아 매 턴마다 자신의 HP를 회복한다. 뿌리 박고 있으므로 교체할 수 없다.",
+    "zh-CN": "在大地上扎根， 每回合回复自己的ＨＰ。 因为扎根了，所以不能替换宝可梦。",
+    "zh-TW": "在大地上扎根， 每回合會回復自己的ＨＰ。 但扎根之後無法進行替換。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user lays roots that restore its HP on every turn. Because it is rooted, it can’t switch out."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Verwurzelung füllt jede Runde KP auf. Austausch ist unmöglich."
+        }
+      }
+    }
+  ]
 }

@@ -1,245 +1,40 @@
 {
   "id": 44,
   "name": "rain-dish",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "あめうけざら",
+    "kana": "あめうけざら",
+    "en": "Rain Dish",
+    "fr": "Cuvette",
+    "it": "Copripioggia",
+    "de": "Regengenuss",
+    "es": "Cura Lluvia",
+    "ko": "젖은접시",
+    "zh-CN": "雨盘",
+    "zh-TW": "雨盤"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "天気が　雨のとき 少しずつ　ＨＰを　回復する。",
+    "kana": "てんきが　あめのとき すこしずつ　ＨＰを　かいふくする。",
+    "en": "The Pokémon gradually regains HP in rain.",
+    "fr": "Le Pokémon récupère progressivement des PV lorsqu’il pleut.",
+    "it": "Il Pokémon recupera PS quando piove.",
+    "de": "Stellt bei Regen langsam und stetig KP wieder her.",
+    "es": "Recupera PS de forma gradual cuando llueve.",
+    "ko": "비가 오는 날씨일 때 조금씩 HP를 회복한다.",
+    "zh-CN": "下雨天气时， 会缓缓回复ＨＰ。",
+    "zh-TW": "天氣為下雨時， 會漸漸回復ＨＰ。"
+  },
+  "past_values": [
     {
-      "name": "Rain Dish",
-      "language": "en"
-    },
-    {
-      "name": "Copripioggia",
-      "language": "it"
-    },
-    {
-      "name": "Cura Lluvia",
-      "language": "es"
-    },
-    {
-      "name": "Regengenuss",
-      "language": "de"
-    },
-    {
-      "name": "Cuvette",
-      "language": "fr"
-    },
-    {
-      "name": "젖은접시",
-      "language": "ko"
-    },
-    {
-      "name": "あめうけざら",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon heals for 1/16 of its maximum [HP]{mechanic:hp} after each turn during [rain]{mechanic:rain}.",
-      "short_effect": "Heals for 1/16 max [HP]{mechanic:hp} after each turn during [rain]{mechanic:rain}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "雨のとき　少しずつ\nＨＰを　回復する。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "The Pokémon gradually\nregains HP in rain.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Il Pokémon recupera PS\nquando piove.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Recupera PS de forma gradual\ncuando llueve.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Stellt bei Regen langsam\nund stetig KP wieder her.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Récupère progressivement des\nPV par temps de pluie.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "비가 올 때 조금씩\nHP를 회복한다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "あめのとき　すこしずつ\nＨＰを　かいふくする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "The Pokémon gradually\nregains HP in rain.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon gradually\nregains HP in rain.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Récupère progressivement\ndes PV par temps de pluie.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "The Pokémon gradually\nrecovers HP in rain.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon gradually\nrecovers HP in rain.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon gradually\nrecovers HP in rain.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Slight HP recovery in rain.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Slight HP recovery in rain.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Slight HP recovery in rain.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "squirtle"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "wartortle"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "blastoise"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "tentacool"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "tentacruel"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "lotad"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "lombre"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "ludicolo"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "wingull"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "pelipper"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "surskit"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "雨のとき　少しずつ ＨＰを　回復する。",
+          "kana": "あめのとき　すこしずつ ＨＰを　かいふくする。",
+          "fr": "Récupère progressivement des PV par temps de pluie.",
+          "ko": "비가 올 때 조금씩 HP를 회복한다."
+        }
       }
     }
   ]

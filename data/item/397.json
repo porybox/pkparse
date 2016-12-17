@@ -1,0 +1,45 @@
+{
+  "id": 397,
+  "name": "tm70",
+  "names": {
+    "ja": "わざマシン７０",
+    "kana": "わざマシン７０",
+    "en": "TM70",
+    "fr": "CT70",
+    "it": "MT70",
+    "de": "TM70",
+    "es": "MT70",
+    "ko": "기술머신70",
+    "zh-CN": "招式学习器７０",
+    "zh-TW": "招式學習器７０"
+  },
+  "flavor_text_entries": {
+    "ja": "５ターンの　間　物理と 特殊の　ダメージを　弱める。 あられの　時しか　出せない。",
+    "kana": "５ターンの　あいだ　ぶつりと とくしゅの　ダメージを　よわめる。 あられの　ときしか　だせない。",
+    "en": "This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm.",
+    "fr": "Réduit les dégâts causés par les capacités physiques et spéciales durant cinq tours. Ne peut être utilisé que lorsqu’il grêle.",
+    "it": "Riduce i danni subiti dalle mosse fisiche e dalle mosse speciali per cinque turni. Si può usare solo quando grandina.",
+    "de": "Schwächt fünf Runden lang den Schaden durch physische sowie Spezial-Attacken ab. Diese Attacke kann nur bei Hagel eingesetzt werden.",
+    "es": "Reduce el daño de los ataques físicos y especiales durante 5 turnos. Solo puede usarse cuando está granizando.",
+    "ko": "5턴 동안 물리와 특수 기술의 데미지를 약하게 한다. 싸라기눈일 때만 쓸 수 있다.",
+    "zh-CN": "在５回合内减弱 物理和特殊的伤害。 只有冰雹时才能使出。",
+    "zh-TW": "在５回合內減弱 物理和特殊的傷害。 在下冰雹時才有效果。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "まぶしい　光で　相手の 命中率を　さげる。",
+          "kana": "まぶしい　ひかりで　あいての めいちゅうりつを　さげる。",
+          "en": "The user flashes a bright light that cuts the target’s accuracy.",
+          "fr": "Explosion lumineuse qui fait baisser la Précision de l’ennemi.",
+          "it": "Investe il nemico con una luce abbagliante che ne riduce la precisione.",
+          "de": "Ein blendendes Licht reduziert die Genauigkeit des Zieles.",
+          "es": "Lanza una luz cegadora que reduce la Precisión del objetivo.",
+          "ko": "눈이 부신 빛으로 상대의 명중률을 떨어뜨린다."
+        }
+      }
+    }
+  ]
+}

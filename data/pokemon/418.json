@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 58,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -64,44 +56,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ブイゼル",
-      "language": "ja"
-    },
-    {
-      "name": "Buoysel",
-      "language": "roomaji"
-    },
-    {
-      "name": "브이젤",
-      "language": "ko"
-    },
-    {
-      "name": "泳氣鼬",
-      "language": "zh"
-    },
-    {
-      "name": "Mustébouée",
-      "language": "fr"
-    },
-    {
-      "name": "Bamelin",
-      "language": "de"
-    },
-    {
-      "name": "Buizel",
-      "language": "es"
-    },
-    {
-      "name": "Buizel",
-      "language": "it"
-    },
-    {
-      "name": "Buizel",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ブイゼル",
+    "en": "Buizel",
+    "fr": "Mustébouée",
+    "it": "Buizel",
+    "de": "Bamelin",
+    "es": "Buizel",
+    "ko": "브이젤"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -112,36 +75,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "うみイタチ",
-      "language": "ja"
-    },
-    {
-      "genus": "바다족제비",
-      "language": "ko"
-    },
-    {
-      "genus": "Aquabelette",
-      "language": "fr"
-    },
-    {
-      "genus": "Meereswiesel",
-      "language": "de"
-    },
-    {
-      "genus": "Nutria Mar.",
-      "language": "es"
-    },
-    {
-      "genus": "Maridonnola",
-      "language": "it"
-    },
-    {
-      "genus": "Sea Weasel",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "うみイタチ",
+    "en": "Sea Weasel",
+    "fr": "Aquabelette",
+    "it": "Maridonnola",
+    "de": "Meereswiesel",
+    "es": "Nutria Mar.",
+    "ko": "바다족제비"
+  },
   "varieties": [
     {
       "is_default": true,

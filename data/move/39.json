@@ -2,49 +2,13 @@
   "id": 39,
   "name": "tail-whip",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "charm"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Tail Whip",
-      "language": "en"
-    },
-    {
-      "name": "Colpocoda",
-      "language": "it"
-    },
-    {
-      "name": "Látigo",
-      "language": "es"
-    },
-    {
-      "name": "Rutenschlag",
-      "language": "de"
-    },
-    {
-      "name": "Mimi-Queue",
-      "language": "fr"
-    },
-    {
-      "name": "꼬리흔들기",
-      "language": "ko"
-    },
-    {
-      "name": "しっぽをふる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "しっぽをふる",
+    "kana": "しっぽをふる",
+    "en": "Tail Whip",
+    "fr": "Mimi-Queue",
+    "it": "Colpocoda",
+    "de": "Rutenschlag",
+    "es": "Látigo",
+    "ko": "꼬리흔들기",
+    "zh-CN": "摇尾巴",
+    "zh-TW": "搖尾巴"
+  },
+  "flavor_text_entries": {
+    "ja": "しっぽを　左右に　かわいく　ふって 油断を　誘う。 相手の　防御を　さげる。",
+    "kana": "しっぽを　さゆうに　かわいく　ふって ゆだんを　さそう。 あいての　ぼうぎょを　さげる。",
+    "en": "The user wags its tail cutely, making opposing Pokémon less wary and lowering their Defense stat.",
+    "fr": "Le lanceur remue son adorable queue pour tromper la vigilance de l’ennemi et baisser sa Défense.",
+    "it": "Chi la usa agita la coda per distrarre i nemici che ha intorno, riducendone la Difesa.",
+    "de": "Hieb mit dem Schweif. Senkt die Verteidigung des Zieles.",
+    "es": "Agita la cola para bajar la Defensa del equipo rival.",
+    "ko": "꼬리를 좌우로 귀엽게 흔들어 방심을 유도한다. 상대의 방어를 떨어뜨린다.",
+    "zh-CN": "可爱地左右摇晃尾巴， 诱使对手疏忽大意。 会降低对手的防御。",
+    "zh-TW": "可愛地左右搖晃尾巴， 誘使對手疏忽大意。 可降低對手的防禦。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "all-opponents",
+  "type": "normal"
 }

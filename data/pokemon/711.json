@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 64,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "blob"
   },
@@ -45,36 +39,15 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "パンプジン",
-      "language": "ja"
-    },
-    {
-      "name": "펌킨인",
-      "language": "ko"
-    },
-    {
-      "name": "Banshitrouye",
-      "language": "fr"
-    },
-    {
-      "name": "Pumpdjinn",
-      "language": "de"
-    },
-    {
-      "name": "Gourgeist",
-      "language": "es"
-    },
-    {
-      "name": "Gourgeist",
-      "language": "it"
-    },
-    {
-      "name": "Gourgeist",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "パンプジン",
+    "en": "Gourgeist",
+    "fr": "Banshitrouye",
+    "it": "Gourgeist",
+    "de": "Pumpdjinn",
+    "es": "Gourgeist",
+    "ko": "펌킨인"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [
     {
@@ -82,36 +55,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "かぼちゃ",
-      "language": "ja"
-    },
-    {
-      "genus": "호박",
-      "language": "ko"
-    },
-    {
-      "genus": "Citrouille",
-      "language": "fr"
-    },
-    {
-      "genus": "Kürbis",
-      "language": "de"
-    },
-    {
-      "genus": "Calabaza",
-      "language": "es"
-    },
-    {
-      "genus": "Zucca",
-      "language": "it"
-    },
-    {
-      "genus": "Pumpkin",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かぼちゃ",
+    "en": "Pumpkin",
+    "fr": "Citrouille",
+    "it": "Zucca",
+    "de": "Kürbis",
+    "es": "Calabaza",
+    "ko": "호박"
+  },
   "varieties": [
     {
       "is_default": false,

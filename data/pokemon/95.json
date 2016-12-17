@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 53,
@@ -69,13 +67,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "squiggle"
   },
@@ -87,44 +81,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "イワーク",
-      "language": "ja"
-    },
-    {
-      "name": "Iwark",
-      "language": "roomaji"
-    },
-    {
-      "name": "롱스톤",
-      "language": "ko"
-    },
-    {
-      "name": "大岩蛇",
-      "language": "zh"
-    },
-    {
-      "name": "Onix",
-      "language": "fr"
-    },
-    {
-      "name": "Onix",
-      "language": "de"
-    },
-    {
-      "name": "Onix",
-      "language": "es"
-    },
-    {
-      "name": "Onix",
-      "language": "it"
-    },
-    {
-      "name": "Onix",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "イワーク",
+    "en": "Onix",
+    "fr": "Onix",
+    "it": "Onix",
+    "de": "Onix",
+    "es": "Onix",
+    "ko": "롱스톤"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -135,36 +100,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いわへび",
-      "language": "ja"
-    },
-    {
-      "genus": "돌뱀",
-      "language": "ko"
-    },
-    {
-      "genus": "Serpenroc",
-      "language": "fr"
-    },
-    {
-      "genus": "Felsnatter",
-      "language": "de"
-    },
-    {
-      "genus": "Serp. Roca",
-      "language": "es"
-    },
-    {
-      "genus": "Serpesasso",
-      "language": "it"
-    },
-    {
-      "genus": "Rock Snake",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いわへび",
+    "en": "Rock Snake",
+    "fr": "Serpenroc",
+    "it": "Serpesasso",
+    "de": "Felsnatter",
+    "es": "Serp. Roca",
+    "ko": "돌뱀"
+  },
   "varieties": [
     {
       "is_default": true,

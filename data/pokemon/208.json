@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 54,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "squiggle"
   },
@@ -83,44 +77,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ハガネール",
-      "language": "ja"
-    },
-    {
-      "name": "Haganeil",
-      "language": "roomaji"
-    },
-    {
-      "name": "강철톤",
-      "language": "ko"
-    },
-    {
-      "name": "大鋼蛇",
-      "language": "zh"
-    },
-    {
-      "name": "Steelix",
-      "language": "fr"
-    },
-    {
-      "name": "Stahlos",
-      "language": "de"
-    },
-    {
-      "name": "Steelix",
-      "language": "es"
-    },
-    {
-      "name": "Steelix",
-      "language": "it"
-    },
-    {
-      "name": "Steelix",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハガネール",
+    "en": "Steelix",
+    "fr": "Steelix",
+    "it": "Steelix",
+    "de": "Stahlos",
+    "es": "Steelix",
+    "ko": "강철톤"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -131,36 +96,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "てつへび",
-      "language": "ja"
-    },
-    {
-      "genus": "철뱀",
-      "language": "ko"
-    },
-    {
-      "genus": "Serpenfer",
-      "language": "fr"
-    },
-    {
-      "genus": "Stahlboa",
-      "language": "de"
-    },
-    {
-      "genus": "Serpférrea",
-      "language": "es"
-    },
-    {
-      "genus": "Ferroserpe",
-      "language": "it"
-    },
-    {
-      "genus": "Iron Snake",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "てつへび",
+    "en": "Iron Snake",
+    "fr": "Serpenfer",
+    "it": "Ferroserpe",
+    "de": "Stahlboa",
+    "es": "Serpférrea",
+    "ko": "철뱀"
+  },
   "varieties": [
     {
       "is_default": true,

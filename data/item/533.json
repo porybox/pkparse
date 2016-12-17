@@ -1,0 +1,38 @@
+{
+  "id": 533,
+  "name": "lock-capsule",
+  "names": {
+    "ja": "ロックカプセル",
+    "kana": "ロックカプセル",
+    "en": "Lock Capsule",
+    "fr": "Poké Écrin",
+    "it": "Capsula Scrigno",
+    "de": "Tresorkapsel",
+    "es": "Cápsula Candado",
+    "ko": "록캡슐",
+    "zh-CN": "上锁的容器",
+    "zh-TW": "上鎖的容器"
+  },
+  "flavor_text_entries": {
+    "ja": "特殊な　カギで　あけられる 頑丈な　カプセル。",
+    "kana": "とくしゅな　カギで　あけられる がんじょうな　カプセル。",
+    "en": "A sturdy Capsule that can only be opened with a special key.",
+    "fr": "Un écrin résistant qui ne s’ouvre qu’avec une clé spéciale.",
+    "it": "Scrigno blindato che si apre solo con una chiave speciale.",
+    "de": "Eine äußerst robuste Kapsel, die sich nur mit einem ganz speziellen Schlüssel öffnen lässt.",
+    "es": "Una cápsula resistente que solo puede abrirse con una llave especial.",
+    "ko": "특수한 열쇠로 열 수 있는 튼튼한 캡슐.",
+    "zh-CN": "需用特殊钥匙打开的 坚固的容器。",
+    "zh-TW": "需用特殊鑰匙打開的 堅固的容器。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Una Cápsula resistente que solo puede abrirse con una llave especial."
+        }
+      }
+    }
+  ]
+}

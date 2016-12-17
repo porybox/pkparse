@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 53,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ブビィ",
-      "language": "ja"
-    },
-    {
-      "name": "Buby",
-      "language": "roomaji"
-    },
-    {
-      "name": "마그비",
-      "language": "ko"
-    },
-    {
-      "name": "小鴨嘴龍",
-      "language": "zh"
-    },
-    {
-      "name": "Magby",
-      "language": "fr"
-    },
-    {
-      "name": "Magby",
-      "language": "de"
-    },
-    {
-      "name": "Magby",
-      "language": "es"
-    },
-    {
-      "name": "Magby",
-      "language": "it"
-    },
-    {
-      "name": "Magby",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ブビィ",
+    "en": "Magby",
+    "fr": "Magby",
+    "it": "Magby",
+    "de": "Magby",
+    "es": "Magby",
+    "ko": "마그비"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひだね",
-      "language": "ja"
-    },
-    {
-      "genus": "불씨",
-      "language": "ko"
-    },
-    {
-      "genus": "Charbon",
-      "language": "fr"
-    },
-    {
-      "genus": "Glutherd",
-      "language": "de"
-    },
-    {
-      "genus": "Ascuas",
-      "language": "es"
-    },
-    {
-      "genus": "Carbonvivo",
-      "language": "it"
-    },
-    {
-      "genus": "Live Coal",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひだね",
+    "en": "Live Coal",
+    "fr": "Charbon",
+    "it": "Carbonvivo",
+    "de": "Glutherd",
+    "es": "Ascuas",
+    "ko": "불씨"
+  },
   "varieties": [
     {
       "is_default": true,

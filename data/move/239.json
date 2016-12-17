@@ -2,36 +2,13 @@
   "id": 239,
   "name": "twister",
   "accuracy": 100,
-  "effect_chance": 20,
   "pp": 20,
   "priority": 0,
   "power": 40,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make each target [flinch]{mechanic:flinch}.\n\nIf the target is under the effect of []{move:bounce}, []{move:fly}, or []{move:sky-drop}, this move will hit with double power.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 20,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Twister",
-      "language": "en"
-    },
-    {
-      "name": "Tornado",
-      "language": "it"
-    },
-    {
-      "name": "Ciclón",
-      "language": "es"
-    },
-    {
-      "name": "Windhose",
-      "language": "de"
-    },
-    {
-      "name": "Ouragan",
-      "language": "fr"
-    },
-    {
-      "name": "회오리",
-      "language": "ko"
-    },
-    {
-      "name": "たつまき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
+  "names": {
+    "ja": "たつまき",
+    "kana": "たつまき",
+    "en": "Twister",
+    "fr": "Ouragan",
+    "it": "Tornado",
+    "de": "Windhose",
+    "es": "Ciclón",
+    "ko": "회오리",
+    "zh-CN": "龙卷风",
+    "zh-TW": "龍捲風"
   },
-  "type": {
-    "name": "dragon"
-  }
+  "flavor_text_entries": {
+    "ja": "竜巻を　おこして 相手を　まきこみ　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "たつまきを　おこして あいてを　まきこみ　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user whips up a vicious tornado to tear at the opposing Pokémon. This may also make them flinch.",
+    "fr": "Déclenche un terrible ouragan sur l’ennemi. Peut aussi l’apeurer.",
+    "it": "Un potente tornado si abbatte sui nemici nei paraggi. Può anche farli tentennare.",
+    "de": "Trifft Ziele in der Umgebung mit einem heftigen Wirbelsturm, was diese eventuell zurückschrecken lässt.",
+    "es": "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.",
+    "ko": "회오리를 일으켜 상대를 끌어들여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "兴起龙卷风， 将对手卷入进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "刮起龍捲風， 將對手捲入進行攻擊。 有時會使對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "dragon"
 }

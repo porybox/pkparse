@@ -1,0 +1,45 @@
+{
+  "id": 781,
+  "name": "dhelmise",
+  "gender_rate": -1,
+  "capture_rate": 25,
+  "base_happiness": 70,
+  "hatch_counter": 25,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "mineral"
+  ],
+  "color": "green",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ダダリン",
+    "en": "Dhelmise",
+    "fr": "Sinistrail",
+    "it": "Dhelmise",
+    "de": "Moruda",
+    "es": "Dhelmise",
+    "ko": "타타륜"
+  },
+  "genera": {
+    "ja": "もくず",
+    "en": "Sea Creeper",
+    "fr": "Varech",
+    "it": "Brandellalga",
+    "de": "Seetang",
+    "es": "Alga Ancla",
+    "ko": "해초조각"
+  },
+  "types": [
+    "ghost",
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 131,
+    "defense": 100,
+    "special-attack": 86,
+    "special-defense": 90,
+    "speed": 40
+  }
+}

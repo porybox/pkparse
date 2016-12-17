@@ -2,36 +2,13 @@
   "id": 246,
   "name": "ancient-power",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 5,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}. Has a $effect_chance% chance to raise all of the user's stats one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to raise all of the user's stats by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,80 +20,52 @@
     "flinch_chance": 0,
     "stat_chance": 10
   },
-  "names": [
-    {
-      "name": "Ancient Power",
-      "language": "en"
-    },
-    {
-      "name": "Forzantica",
-      "language": "it"
-    },
-    {
-      "name": "Poder Pasado",
-      "language": "es"
-    },
-    {
-      "name": "Antik-Kraft",
-      "language": "de"
-    },
-    {
-      "name": "Pouvoir Antique",
-      "language": "fr"
-    },
-    {
-      "name": "원시의힘",
-      "language": "ko"
-    },
-    {
-      "name": "げんしのちから",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "げんしのちから",
+    "kana": "げんしのちから",
+    "en": "Ancient Power",
+    "fr": "Pouvoir Antique",
+    "it": "Forzantica",
+    "de": "Antik-Kraft",
+    "es": "Poder Pasado",
+    "ko": "원시의힘",
+    "zh-CN": "原始之力",
+    "zh-TW": "原始之力"
+  },
+  "flavor_text_entries": {
+    "ja": "原始の　力で　攻撃する。 自分の　すべての 能力が　あがることが　ある。",
+    "kana": "げんしの　ちからで　こうげきする。 じぶんの　すべての のうりょくが　あがることが　ある。",
+    "en": "The user attacks with a prehistoric power. This may also raise all the user’s stats at once.",
+    "fr": "Une attaque préhistorique qui peut augmenter toutes les stats du lanceur d’un seul coup.",
+    "it": "Colpisce il bersaglio con una forza primordiale. Può aumentare tutte le statistiche.",
+    "de": "Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.",
+    "es": "Ataque prehistórico que puede subir todas las características.",
+    "ko": "원시의 힘으로 공격한다. 자신의 모든 능력이 오를 때가 있다.",
+    "zh-CN": "用原始之力进行攻击。 有时会提高 自己所有的能力。",
+    "zh-TW": "用原始之力進行攻擊。 有時會提高 自己的所有能力。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "hp"
-      }
+      "stat": "attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "defense"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "special-attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-defense"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-defense"
-      }
-    },
-    {
-      "change": 1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "rock"
-  }
+  "target": "selected-pokemon",
+  "type": "rock"
 }

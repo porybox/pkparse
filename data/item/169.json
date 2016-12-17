@@ -1,0 +1,38 @@
+{
+  "id": 169,
+  "name": "pomeg-berry",
+  "names": {
+    "ja": "ザロクのみ",
+    "kana": "ザロクのみ",
+    "en": "Pomeg Berry",
+    "fr": "Baie Grena",
+    "it": "Baccagrana",
+    "de": "Granabeere",
+    "es": "Baya Grana",
+    "ko": "유석열매",
+    "zh-CN": "榴石果",
+    "zh-TW": "榴石果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　あげると とても　なつき　やすくなるが ＨＰの　基礎ポイントは　さがる。",
+    "kana": "ポケモンに　あげると とても　なつき　やすくなるが ＨＰの　きそポイントは　さがる。",
+    "en": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its base HP.",
+    "fr": "Une Baie qui rend les Pokémon plus amicaux, mais baisse leurs PV de base.",
+    "it": "Usata su un Pokémon, lo rende più affezionato, ma ne diminuisce i punti base dei PS.",
+    "de": "Isst ein Pokémon diese Beere, stärkt dies eure Freundschaft, verringert aber seinen KP-Basiswert.",
+    "es": "Al usarla con un Pokémon, se gana su amistad, pero también reduce sus PS de base.",
+    "ko": "포켓몬에게 주면 매우 친밀해지기 쉬워지지만 HP의 기초 포인트가 떨어진다.",
+    "zh-CN": "如果把它交给宝可梦， 宝可梦就会变得非常容易和训练家亲密， 但ＨＰ的基础点数会降低。",
+    "zh-TW": "如果把它餵給寶可夢， 寶可夢會非常容易和訓練家變得親密， 但ＨＰ的基礎點數會降低。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Usata su un Pokémon, lo rende più amichevole, ma ne riduce i punti base dei PS."
+        }
+      }
+    }
+  ]
+}

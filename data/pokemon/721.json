@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 721,
@@ -21,13 +19,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "ball"
   },
@@ -37,68 +31,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ボルケニオン",
-      "language": "ja"
-    },
-    {
-      "name": "볼케니온",
-      "language": "ko"
-    },
-    {
-      "name": "Volcanion",
-      "language": "fr"
-    },
-    {
-      "name": "Volcanion",
-      "language": "de"
-    },
-    {
-      "name": "Volcanion",
-      "language": "es"
-    },
-    {
-      "name": "Volcanion",
-      "language": "it"
-    },
-    {
-      "name": "Volcanion",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ボルケニオン",
+    "en": "Volcanion",
+    "fr": "Volcanion",
+    "it": "Volcanion",
+    "de": "Volcanion",
+    "es": "Volcanion",
+    "ko": "볼케니온"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "スチーム",
-      "language": "ja"
-    },
-    {
-      "genus": "스팀",
-      "language": "ko"
-    },
-    {
-      "genus": "Vapeur",
-      "language": "fr"
-    },
-    {
-      "genus": "Dampf",
-      "language": "de"
-    },
-    {
-      "genus": "Vapor",
-      "language": "es"
-    },
-    {
-      "genus": "Vapore",
-      "language": "it"
-    },
-    {
-      "genus": "Steam",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "スチーム",
+    "en": "Steam",
+    "fr": "Vapeur",
+    "it": "Vapore",
+    "de": "Dampf",
+    "es": "Vapor",
+    "ko": "스팀"
+  },
   "varieties": [
     {
       "is_default": true,

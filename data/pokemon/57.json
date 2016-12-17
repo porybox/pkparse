@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 137,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "オコリザル",
-      "language": "ja"
-    },
-    {
-      "name": "Okorizaru",
-      "language": "roomaji"
-    },
-    {
-      "name": "성원숭",
-      "language": "ko"
-    },
-    {
-      "name": "火爆猴",
-      "language": "zh"
-    },
-    {
-      "name": "Colossinge",
-      "language": "fr"
-    },
-    {
-      "name": "Rasaff",
-      "language": "de"
-    },
-    {
-      "name": "Primeape",
-      "language": "es"
-    },
-    {
-      "name": "Primeape",
-      "language": "it"
-    },
-    {
-      "name": "Primeape",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オコリザル",
+    "en": "Primeape",
+    "fr": "Colossinge",
+    "it": "Primeape",
+    "de": "Rasaff",
+    "es": "Primeape",
+    "ko": "성원숭"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ぶたざる",
-      "language": "ja"
-    },
-    {
-      "genus": "돈숭이",
-      "language": "ko"
-    },
-    {
-      "genus": "Porsinge",
-      "language": "fr"
-    },
-    {
-      "genus": "Schw./ Affe",
-      "language": "de"
-    },
-    {
-      "genus": "Mono Cerdo",
-      "language": "es"
-    },
-    {
-      "genus": "Suinpanzé",
-      "language": "it"
-    },
-    {
-      "genus": "Pig Monkey",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ぶたざる",
+    "en": "Pig Monkey",
+    "fr": "Porsinge",
+    "it": "Suinpanzé",
+    "de": "Schwein\/Affe",
+    "es": "Mono Cerdo",
+    "ko": "돈숭이"
+  },
   "varieties": [
     {
       "is_default": true,

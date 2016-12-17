@@ -1,0 +1,38 @@
+{
+  "id": 72,
+  "name": "red-shard",
+  "names": {
+    "ja": "あかいかけら",
+    "kana": "あかいかけら",
+    "en": "Red Shard",
+    "fr": "Tesson Rouge",
+    "it": "Coccio Rosso",
+    "de": "Purpurstück",
+    "es": "Parte Roja",
+    "ko": "빨강조각",
+    "zh-CN": "红色碎片",
+    "zh-TW": "紅色碎片"
+  },
+  "flavor_text_entries": {
+    "ja": "赤い　小さな　かけら。 昔に　つくられた　なにかの 道具の　一部らしい。",
+    "kana": "あかい　ちいさな　かけら。 むかしに　つくられた　なにかの どうぐの　いちぶ　らしい。",
+    "en": "A small red shard. It appears to be a fragment of some sort of implement made long ago.",
+    "fr": "Un petit tesson rouge. Il semble provenir d’un objet très ancien.",
+    "it": "Un piccolo coccio rosso che con ogni probabilità è un frammento di un antico strumento.",
+    "de": "Eine rote Scherbe eines antiken Werkzeugs, das vor langer Zeit angefertigt wurde.",
+    "es": "Un pequeño fragmento rojo. Parece formar parte de algún tipo de herramienta antigua.",
+    "ko": "빨간 작은 조각. 옛날에 만들어진 어떤 도구의 일부인 듯하다.",
+    "zh-CN": "红色的小碎片。 好像是以前制作的 某道具的一部分。",
+    "zh-TW": "紅色的小碎片。 好像是以前製作的 某道具的一部分。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un petit tesson rouge. Il semble provenir d’un outil très ancien."
+        }
+      }
+    }
+  ]
+}

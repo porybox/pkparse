@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 142,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -56,44 +48,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "バクオング",
-      "language": "ja"
-    },
-    {
-      "name": "Bakuong",
-      "language": "roomaji"
-    },
-    {
-      "name": "폭음룡",
-      "language": "ko"
-    },
-    {
-      "name": "爆音怪",
-      "language": "zh"
-    },
-    {
-      "name": "Brouhabam",
-      "language": "fr"
-    },
-    {
-      "name": "Krawumms",
-      "language": "de"
-    },
-    {
-      "name": "Exploud",
-      "language": "es"
-    },
-    {
-      "name": "Exploud",
-      "language": "it"
-    },
-    {
-      "name": "Exploud",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バクオング",
+    "en": "Exploud",
+    "fr": "Brouhabam",
+    "it": "Exploud",
+    "de": "Krawumms",
+    "es": "Exploud",
+    "ko": "폭음룡"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -104,36 +67,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "そうおん",
-      "language": "ja"
-    },
-    {
-      "genus": "소음",
-      "language": "ko"
-    },
-    {
-      "genus": "Bruit Sourd",
-      "language": "fr"
-    },
-    {
-      "genus": "Krach",
-      "language": "de"
-    },
-    {
-      "genus": "Escandaloso",
-      "language": "es"
-    },
-    {
-      "genus": "Fragore",
-      "language": "it"
-    },
-    {
-      "genus": "Loud Noise",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "そうおん",
+    "en": "Loud Noise",
+    "fr": "Bruit Sourd",
+    "it": "Fragore",
+    "de": "Krach",
+    "es": "Escandaloso",
+    "ko": "소음"
+  },
   "varieties": [
     {
       "is_default": true,

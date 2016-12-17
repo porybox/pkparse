@@ -2,34 +2,13 @@
   "id": 483,
   "name": "quiver-dance",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Special Attack]{mechanic:special-attack}, [Special Defense]{mechanic:special-defense}, and [Speed]{mechanic:speed} by one [stage]{mechanic:stage} each.",
-      "short_effect": "Raises the user's Special Attack, Special Defense, and Speed by one stage each.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,62 +20,55 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Quiver Dance",
-      "language": "en"
-    },
-    {
-      "name": "Eledanza",
-      "language": "it"
-    },
-    {
-      "name": "Danza Aleteo",
-      "language": "es"
-    },
-    {
-      "name": "Falterreigen",
-      "language": "de"
-    },
-    {
-      "name": "Papillodanse",
-      "language": "fr"
-    },
-    {
-      "name": "나비춤",
-      "language": "ko"
-    },
-    {
-      "name": "ちょうのまい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ちょうのまい",
+    "kana": "ちょうのまい",
+    "en": "Quiver Dance",
+    "fr": "Papillodanse",
+    "it": "Eledanza",
+    "de": "Falterreigen",
+    "es": "Danza Aleteo",
+    "ko": "나비춤",
+    "zh-CN": "蝶舞",
+    "zh-TW": "蝶舞"
+  },
+  "flavor_text_entries": {
+    "ja": "神秘的で　美しい　舞を 軽やかに　おどる。　自分の　特攻と 特防と　素早さを　あげる。",
+    "kana": "しんぴてきで　うつくしい　まいを かろやかに　おどる。　じぶんの　とくこうと とくぼうと　すばやさを　あげる。",
+    "en": "The user lightly performs a beautiful, mystic dance. This boosts the user’s Sp. Atk, Sp. Def, and Speed stats.",
+    "fr": "Une danse mystique dont le rythme parfait augmente l’Attaque Spéciale, la Défense Spéciale et la Vitesse du lanceur.",
+    "it": "Danza leggiadra ed elegante che aumenta l’Attacco Speciale, la Difesa Speciale e la Velocità di chi la usa.",
+    "de": "Anwender legt behände einen mystischen, formvollendeten Tanz aufs Parkett. Spezial-Angriff, Spezial-Verteidigung und Initiative steigen.",
+    "es": "Danza mística que sube el Ataque Especial, la Defensa Especial y la Velocidad.",
+    "ko": "신비롭고 아름다운 춤을 경쾌하게 춘다. 자신의 특수공격과 특수방어와 스피드를 올린다.",
+    "zh-CN": "轻巧地跳起神秘而又美丽的舞蹈。 提高自己的特攻、特防和速度。",
+    "zh-TW": "輕巧地跳起神秘又美麗的舞蹈。 提高自己的特攻、特防和速度。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "bug"
-  }
+  "target": "user",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "神秘的で　美しい　舞を 軽やかに　おどる。自分の　特攻と 特防と　素早さを　あげる。",
+          "kana": "しんぴてきで　うつくしい　まいを かろやかに　おどる。じぶんの　とくこうと とくぼうと　すばやさを　あげる。"
+        }
+      }
+    }
+  ]
 }

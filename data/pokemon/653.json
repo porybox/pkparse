@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 4,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "quadruped"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "フォッコ",
-      "language": "ja"
-    },
-    {
-      "name": "푸호꼬",
-      "language": "ko"
-    },
-    {
-      "name": "Feunnec",
-      "language": "fr"
-    },
-    {
-      "name": "Fynx",
-      "language": "de"
-    },
-    {
-      "name": "Fennekin",
-      "language": "es"
-    },
-    {
-      "name": "Fennekin",
-      "language": "it"
-    },
-    {
-      "name": "Fennekin",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フォッコ",
+    "en": "Fennekin",
+    "fr": "Feunnec",
+    "it": "Fennekin",
+    "de": "Fynx",
+    "es": "Fennekin",
+    "ko": "푸호꼬"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "キツネ",
-      "language": "ja"
-    },
-    {
-      "genus": "여우",
-      "language": "ko"
-    },
-    {
-      "genus": "Renard",
-      "language": "fr"
-    },
-    {
-      "genus": "Fuchs",
-      "language": "de"
-    },
-    {
-      "genus": "Zorro",
-      "language": "es"
-    },
-    {
-      "genus": "Volpe",
-      "language": "it"
-    },
-    {
-      "genus": "Fox",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "キツネ",
+    "en": "Fox",
+    "fr": "Renard",
+    "it": "Volpe",
+    "de": "Fuchs",
+    "es": "Zorro",
+    "ko": "여우"
+  },
   "varieties": [
     {
       "is_default": true,

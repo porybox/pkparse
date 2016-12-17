@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 101,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "dragon"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -66,68 +58,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ズルズキン",
-      "language": "ja"
-    },
-    {
-      "name": "곤율거니",
-      "language": "ko"
-    },
-    {
-      "name": "Baggaïd",
-      "language": "fr"
-    },
-    {
-      "name": "Irokex",
-      "language": "de"
-    },
-    {
-      "name": "Scrafty",
-      "language": "es"
-    },
-    {
-      "name": "Scrafty",
-      "language": "it"
-    },
-    {
-      "name": "Scrafty",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ズルズキン",
+    "en": "Scrafty",
+    "fr": "Baggaïd",
+    "it": "Scrafty",
+    "de": "Irokex",
+    "es": "Scrafty",
+    "ko": "곤율거니"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あくとう",
-      "language": "ja"
-    },
-    {
-      "genus": "악당",
-      "language": "ko"
-    },
-    {
-      "genus": "Gang",
-      "language": "fr"
-    },
-    {
-      "genus": "Halunke",
-      "language": "de"
-    },
-    {
-      "genus": "Gamberro",
-      "language": "es"
-    },
-    {
-      "genus": "Furfante",
-      "language": "it"
-    },
-    {
-      "genus": "Hoodlum",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あくとう",
+    "en": "Hoodlum",
+    "fr": "Gang",
+    "it": "Furfante",
+    "de": "Halunke",
+    "es": "Gamberro",
+    "ko": "악당"
+  },
   "varieties": [
     {
       "is_default": true,

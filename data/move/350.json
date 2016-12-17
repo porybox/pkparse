@@ -2,36 +2,13 @@
   "id": 350,
   "name": "rock-blast",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 25,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-      "short_effect": "Hits 2-5 times in one turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": 2,
     "max_hits": 5,
     "min_turns": null,
@@ -43,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Rock Blast",
-      "language": "en"
-    },
-    {
-      "name": "Cadutamassi",
-      "language": "it"
-    },
-    {
-      "name": "Pedrada",
-      "language": "es"
-    },
-    {
-      "name": "Felswurf",
-      "language": "de"
-    },
-    {
-      "name": "Boule Roc",
-      "language": "fr"
-    },
-    {
-      "name": "락블레스트",
-      "language": "ko"
-    },
-    {
-      "name": "ロックブラスト",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "ロックブラスト",
+    "kana": "ロックブラスト",
+    "en": "Rock Blast",
+    "fr": "Boule Roc",
+    "it": "Cadutamassi",
+    "de": "Felswurf",
+    "es": "Pedrada",
+    "ko": "락블레스트",
+    "zh-CN": "岩石爆击",
+    "zh-TW": "岩石爆擊"
+  },
+  "flavor_text_entries": {
+    "ja": "硬い　岩石を 相手に　発射して　攻撃する。 ２ー５回の　間　連続で　だす。",
+    "kana": "かたい　がんせきを あいてに　はっしゃして　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+    "en": "The user hurls hard rocks at the target. Two to five rocks are launched in a row.",
+    "fr": "Le lanceur projette un rocher sur l’ennemi de deux à cinq fois d’affilée.",
+    "it": "Colpisce il bersaglio con dei massi pesanti lanciati in rapida successione. Il numero di massi varia da due a cinque.",
+    "de": "Wirft zwei- bis fünfmal in Folge Felsblöcke auf das Ziel.",
+    "es": "Lanza pedruscos al objetivo de dos a cinco veces consecutivas.",
+    "ko": "단단한 암석을 상대에게 발사하여 공격한다. 2-5회 동안 연속으로 쓴다.",
+    "zh-CN": "向对手发射 坚硬的岩石进行攻击。 连续攻击２～５次。",
+    "zh-TW": "向對手發射 堅硬的岩石進行攻擊。 連續攻擊２～５次。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "rock",
   "past_values": [
     {
-      "accuracy": 80,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "硬い　岩石を 相手に　発射して　攻撃する。 ２ー５回の　あいだ　連続で　だす。"
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "rock"
-  }
+  ]
 }

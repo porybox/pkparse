@@ -2,49 +2,13 @@
   "id": 12,
   "name": "guillotine",
   "accuracy": 30,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "vice-grip"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts damage equal to the target's max [HP]{mechanic:hp}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This move's [accuracy]{mechanic:accuracy} is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will [fail]{mechanic:fail}.\n\nBecause this move inflicts a specific and finite amount of damage, []{move:endure} still prevents the target from fainting.\n\nThe effects of []{move:lock-on}, []{move:mind-reader}, and []{ability:no-guard} still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through []{move:detect} or []{move:protect}.",
-      "short_effect": "Causes a one-hit KO.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "ohko"
-    },
+    "ailment": "none",
+    "category": "ohko",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Guillotine",
-      "language": "en"
-    },
-    {
-      "name": "Ghigliottina",
-      "language": "it"
-    },
-    {
-      "name": "Guillotina",
-      "language": "es"
-    },
-    {
-      "name": "Guillotine",
-      "language": "de"
-    },
-    {
-      "name": "Guillotine",
-      "language": "fr"
-    },
-    {
-      "name": "가위자르기",
-      "language": "ko"
-    },
-    {
-      "name": "ハサミギロチン",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ハサミギロチン",
+    "kana": "ハサミギロチン",
+    "en": "Guillotine",
+    "fr": "Guillotine",
+    "it": "Ghigliottina",
+    "de": "Guillotine",
+    "es": "Guillotina",
+    "ko": "가위자르기",
+    "zh-CN": "断头钳",
+    "zh-TW": "斷頭鉗"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "大きな　ハサミで 相手を　切り裂いて　攻撃する。 当たれば　一撃で　ひんしに　する。",
+    "kana": "おおきな　ハサミで あいてを　きりさいて　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+    "en": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits.",
+    "fr": "Des pinces lacèrent violemment l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+    "it": "Attacca il bersaglio con pericolose tenaglie. Se l’attacco va a segno, il Pokémon colpito va subito KO.",
+    "de": "Kräftige Scheren-Attacke. Führt beim Ziel sofort zum K.O.",
+    "es": "Ataque cortante que debilita al oponente de un golpe si acierta.",
+    "ko": "큰 집게로 상대를 베어 갈라 공격한다. 맞으면 일격에 기절한다.",
+    "zh-CN": "用大钳子或剪刀等 夹断对手进行攻击。 只要命中就会一击濒死。",
+    "zh-TW": "用巨大的鉗子或剪刀等 撕裂對手進行攻擊。 只要命中就會一擊瀕死。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "De méchantes pinces lacèrent l’ennemi, le mettant K.O. sur le coup s’il est touché.",
+          "es": "Ataque con pinzas que debilita al oponente de un golpe si acierta."
+        }
+      }
+    }
+  ]
 }

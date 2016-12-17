@@ -2,36 +2,13 @@
   "id": 372,
   "name": "assurance",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target takes damage this turn for any reason before this move is used, this move has double power.",
-      "short_effect": "Power is doubled if the target has already received damage this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Assurance",
-      "language": "en"
-    },
-    {
-      "name": "Garanzia",
-      "language": "it"
-    },
-    {
-      "name": "Buena Baza",
-      "language": "es"
-    },
-    {
-      "name": "Gewissheit",
-      "language": "de"
-    },
-    {
-      "name": "Assurance",
-      "language": "fr"
-    },
-    {
-      "name": "승부굳히기",
-      "language": "ko"
-    },
-    {
-      "name": "ダメおし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ダメおし",
+    "kana": "ダメおし",
+    "en": "Assurance",
+    "fr": "Assurance",
+    "it": "Garanzia",
+    "de": "Gewissheit",
+    "es": "Buena Baza",
+    "ko": "승부굳히기",
+    "zh-CN": "恶意追击",
+    "zh-TW": "惡意追擊"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "そのターンに　相手が すでに　ダメージを　受けていたら 技の　威力は　２倍に　なる。",
+    "kana": "そのターンに　あいてが すでに　ダメージを　うけて　いたら わざの　いりょくは　２ばいに　なる。",
+    "en": "If the target has already taken some damage in the same turn, this attack’s power is doubled.",
+    "fr": "Cette attaque est deux fois plus efficace si l’ennemi a déjà été blessé durant ce tour.",
+    "it": "Se il bersaglio ha già subito dei danni nello stesso turno, la potenza di questa mossa raddoppia.",
+    "de": "Hat das Ziel während der Runde schon Schaden genommen, wird die Stärke der Attacke verdoppelt.",
+    "es": "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica.",
+    "ko": "그 턴에 상대가 이미 데미지를 입었다면 기술의 위력은 2배가 된다.",
+    "zh-CN": "如果此回合内对手 已经受到伤害的话， 招式威力会变成２倍。",
+    "zh-TW": "如果此回合內對手 已受到傷害， 招式威力會變成２倍。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Hat das Ziel während der Runde schon Schaden genommen, wird die Kraft der Attacke verdoppelt."
+        }
+      }
+    }
+  ]
 }

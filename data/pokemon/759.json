@@ -1,0 +1,45 @@
+{
+  "id": 759,
+  "name": "stufful",
+  "gender_rate": 4,
+  "capture_rate": 140,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "pink",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ヌイコグマ",
+    "en": "Stufful",
+    "fr": "Nounourson",
+    "it": "Stufful",
+    "de": "Velursi",
+    "es": "Stufful",
+    "ko": "포곰곰"
+  },
+  "genera": {
+    "ja": "じたばた",
+    "en": "Flailing",
+    "fr": "Gigoteur",
+    "it": "Bizzoso",
+    "de": "Wildfang",
+    "es": "Rabieta",
+    "ko": "바둥바둥"
+  },
+  "types": [
+    "normal",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 75,
+    "defense": 50,
+    "special-attack": 45,
+    "special-defense": 50,
+    "speed": 50
+  }
+}

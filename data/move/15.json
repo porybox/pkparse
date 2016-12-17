@@ -2,49 +2,13 @@
   "id": 15,
   "name": "cut",
   "accuracy": 95,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": 50,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "swords-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Cut",
-      "language": "en"
-    },
-    {
-      "name": "Taglio",
-      "language": "it"
-    },
-    {
-      "name": "Corte",
-      "language": "es"
-    },
-    {
-      "name": "Zerschneider",
-      "language": "de"
-    },
-    {
-      "name": "Coupe",
-      "language": "fr"
-    },
-    {
-      "name": "풀베기",
-      "language": "ko"
-    },
-    {
-      "name": "いあいぎり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "いあいぎり",
+    "kana": "いあいぎり",
+    "en": "Cut",
+    "fr": "Coupe",
+    "it": "Taglio",
+    "de": "Zerschneider",
+    "es": "Corte",
+    "ko": "풀베기",
+    "zh-CN": "居合斩",
+    "zh-TW": "居合斬"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "カマや　ツメなどで 相手を　切りつけて　攻撃する。",
+    "kana": "カマや　ツメなどで あいてを　きりつけて　こうげきする。",
+    "en": "The target is cut with a scythe or claw.",
+    "fr": "Coupe l’ennemi avec des lames ou des griffes.",
+    "it": "Attacca il bersaglio con artigli o falci affilate.",
+    "de": "Ein Basisangriff mit Schere oder Klaue.",
+    "es": "Corta al adversario con garras, guadañas, etc.",
+    "ko": "낫이나 발톱 등으로 상대를 베어 공격한다.",
+    "zh-CN": "用镰刀或爪子等 切斩对手进行攻击。",
+    "zh-TW": "用鐮刀或爪子等 斬切對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "カマや　ツメなどで 相手を　切りつけて　攻撃する。 細い木も　切ることが　できる。",
+          "kana": "カマや　ツメなどで あいてを　きりつけて　こうげきする。 ほそいきも　きることが　できる。",
+          "en": "The target is cut with a scythe or claw. This can also be used to cut down thin trees.",
+          "fr": "Coupe l’ennemi avec des lames ou des griffes. Hors combat, permet de couper des arbres fins.",
+          "it": "Attacca il bersaglio con artigli o falci affilate. Fuori dalla lotta si usa per tagliare piccoli alberi.",
+          "de": "Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.",
+          "es": "Corta con garras, guadañas, etc. También sirve para cortar árboles finos.",
+          "ko": "낫이나 발톱 등으로 상대를 베어 공격한다. 가느다란 나무도 자를 수 있다."
+        }
+      }
+    }
+  ]
 }

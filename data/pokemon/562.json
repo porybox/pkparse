@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 124,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    },
-    {
-      "name": "mineral"
-    }
+    "mineral",
+    "indeterminate"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "arms"
   },
@@ -52,68 +44,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "デスマス",
-      "language": "ja"
-    },
-    {
-      "name": "데스마스",
-      "language": "ko"
-    },
-    {
-      "name": "Tutafeh",
-      "language": "fr"
-    },
-    {
-      "name": "Makabaja",
-      "language": "de"
-    },
-    {
-      "name": "Yamask",
-      "language": "es"
-    },
-    {
-      "name": "Yamask",
-      "language": "it"
-    },
-    {
-      "name": "Yamask",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "デスマス",
+    "en": "Yamask",
+    "fr": "Tutafeh",
+    "it": "Yamask",
+    "de": "Makabaja",
+    "es": "Yamask",
+    "ko": "데스마스"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たましい",
-      "language": "ja"
-    },
-    {
-      "genus": "영혼",
-      "language": "ko"
-    },
-    {
-      "genus": "Âme",
-      "language": "fr"
-    },
-    {
-      "genus": "Seele",
-      "language": "de"
-    },
-    {
-      "genus": "Espíritu",
-      "language": "es"
-    },
-    {
-      "genus": "Fatuanima",
-      "language": "it"
-    },
-    {
-      "genus": "Spirit",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たましい",
+    "en": "Spirit",
+    "fr": "Âme",
+    "it": "Fatuanima",
+    "de": "Seele",
+    "es": "Espíritu",
+    "ko": "영혼"
+  },
   "varieties": [
     {
       "is_default": true,

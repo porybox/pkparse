@@ -2,49 +2,13 @@
   "id": 77,
   "name": "poison-powder",
   "accuracy": 75,
-  "effect_chance": null,
   "pp": 35,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sweet-scent"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "[Poisons]{mechanic:poisons} the target.",
-      "short_effect": "Poisons the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "poison"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "poison",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Poison Powder",
-      "language": "en"
-    },
-    {
-      "name": "Velenpolvere",
-      "language": "it"
-    },
-    {
-      "name": "Polvo Veneno",
-      "language": "es"
-    },
-    {
-      "name": "Giftpuder",
-      "language": "de"
-    },
-    {
-      "name": "Poudre Toxik",
-      "language": "fr"
-    },
-    {
-      "name": "독가루",
-      "language": "ko"
-    },
-    {
-      "name": "どくのこな",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "どくのこな",
+    "kana": "どくのこな",
+    "en": "Poison Powder",
+    "fr": "Poudre Toxik",
+    "it": "Velenpolvere",
+    "de": "Giftpuder",
+    "es": "Polvo Veneno",
+    "ko": "독가루",
+    "zh-CN": "毒粉",
+    "zh-TW": "毒粉"
   },
-  "type": {
-    "name": "poison"
-  }
+  "flavor_text_entries": {
+    "ja": "毒の　ある　粉を たくさん　ふりまいて 相手を　毒状態に　する。",
+    "kana": "どくの　ある　こなを たくさん　ふりまいて あいてを　どく　じょうたいに　する。",
+    "en": "The user scatters a cloud of poisonous dust that poisons the target.",
+    "fr": "Une poudre toxique empoisonne l’ennemi.",
+    "it": "Investe il bersaglio con una nuvola di polvere tossica che avvelena.",
+    "de": "Verstreut giftigen Puder, der das Ziel eventuell vergiftet.",
+    "es": "Polvo tóxico que envenena al objetivo.",
+    "ko": "독이 있는 가루를 많이 흩뿌려서 상대를 독 상태로 만든다.",
+    "zh-CN": "撒出毒粉， 从而让对手陷入中毒状态。",
+    "zh-TW": "撒出大量的有毒粉末 讓對手陷入中毒狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "poison",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user scatters a cloud of poisonous dust on the target. This may also poison the target.",
+          "de": "Verstreut giftigen Puder auf das Ziel."
+        }
+      }
+    }
+  ]
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 39,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "indeterminate"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "fish"
   },
@@ -58,68 +50,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "マッギョ",
-      "language": "ja"
-    },
-    {
-      "name": "메더",
-      "language": "ko"
-    },
-    {
-      "name": "Limonde",
-      "language": "fr"
-    },
-    {
-      "name": "Flunschlik",
-      "language": "de"
-    },
-    {
-      "name": "Stunfisk",
-      "language": "es"
-    },
-    {
-      "name": "Stunfisk",
-      "language": "it"
-    },
-    {
-      "name": "Stunfisk",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マッギョ",
+    "en": "Stunfisk",
+    "fr": "Limonde",
+    "it": "Stunfisk",
+    "de": "Flunschlik",
+    "es": "Stunfisk",
+    "ko": "메더"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "トラップ",
-      "language": "ja"
-    },
-    {
-      "genus": "트랩",
-      "language": "ko"
-    },
-    {
-      "genus": "Piège",
-      "language": "fr"
-    },
-    {
-      "genus": "Falle",
-      "language": "de"
-    },
-    {
-      "genus": "Trampa",
-      "language": "es"
-    },
-    {
-      "genus": "Trappola",
-      "language": "it"
-    },
-    {
-      "genus": "Trap",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "トラップ",
+    "en": "Trap",
+    "fr": "Piège",
+    "it": "Trappola",
+    "de": "Falle",
+    "es": "Trampa",
+    "ko": "트랩"
+  },
   "varieties": [
     {
       "is_default": true,

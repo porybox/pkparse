@@ -2,49 +2,13 @@
   "id": 58,
   "name": "ice-beam",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "hail"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.",
-      "short_effect": "Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "freeze"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "freeze",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Ice Beam",
-      "language": "en"
-    },
-    {
-      "name": "Geloraggio",
-      "language": "it"
-    },
-    {
-      "name": "Rayo Hielo",
-      "language": "es"
-    },
-    {
-      "name": "Eisstrahl",
-      "language": "de"
-    },
-    {
-      "name": "Laser Glace",
-      "language": "fr"
-    },
-    {
-      "name": "냉동빔",
-      "language": "ko"
-    },
-    {
-      "name": "れいとうビーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "れいとうビーム",
+    "kana": "れいとうビーム",
+    "en": "Ice Beam",
+    "fr": "Laser Glace",
+    "it": "Geloraggio",
+    "de": "Eisstrahl",
+    "es": "Rayo Hielo",
+    "ko": "냉동빔",
+    "zh-CN": "冰冻光束",
+    "zh-TW": "冰凍光束"
   },
-  "type": {
-    "name": "ice"
-  }
+  "flavor_text_entries": {
+    "ja": "凍える　ビームを 相手に　発射して　攻撃する。 こおり状態に　することが　ある。",
+    "kana": "こごえる　ビームを あいてに　はっしゃして　こうげきする。 こおり　じょうたいに　することが　ある。",
+    "en": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+    "fr": "Un rayon de glace frappe l’ennemi. Peut aussi le geler.",
+    "it": "Il bersaglio è colpito da un raggio di energia gelida che può anche congelarlo.",
+    "de": "Das Ziel wird von einem Eisstrahl getroffen und friert eventuell ein.",
+    "es": "Rayo de hielo que puede llegar a congelar.",
+    "ko": "냉동빔을 상대에게 발사하여 공격한다. 얼음 상태로 만들 때가 있다.",
+    "zh-CN": "向对手发射 冰冻光束进行攻击。 有时会让对手陷入冰冻状态。",
+    "zh-TW": "向對手發射 冰凍光束進行攻擊。 有時會讓對手陷入冰凍狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ice"
 }

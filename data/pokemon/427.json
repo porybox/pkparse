@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 80,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "humanshape"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -58,44 +50,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ミミロル",
-      "language": "ja"
-    },
-    {
-      "name": "Mimirol",
-      "language": "roomaji"
-    },
-    {
-      "name": "이어롤",
-      "language": "ko"
-    },
-    {
-      "name": "捲捲耳",
-      "language": "zh"
-    },
-    {
-      "name": "Laporeille",
-      "language": "fr"
-    },
-    {
-      "name": "Haspiror",
-      "language": "de"
-    },
-    {
-      "name": "Buneary",
-      "language": "es"
-    },
-    {
-      "name": "Buneary",
-      "language": "it"
-    },
-    {
-      "name": "Buneary",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ミミロル",
+    "en": "Buneary",
+    "fr": "Laporeille",
+    "it": "Buneary",
+    "de": "Haspiror",
+    "es": "Buneary",
+    "ko": "이어롤"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -106,36 +69,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "うさぎ",
-      "language": "ja"
-    },
-    {
-      "genus": "토끼",
-      "language": "ko"
-    },
-    {
-      "genus": "Lapin",
-      "language": "fr"
-    },
-    {
-      "genus": "Hase",
-      "language": "de"
-    },
-    {
-      "genus": "Conejo",
-      "language": "es"
-    },
-    {
-      "genus": "Coniglio",
-      "language": "it"
-    },
-    {
-      "genus": "Rabbit",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "うさぎ",
+    "en": "Rabbit",
+    "fr": "Lapin",
+    "it": "Coniglio",
+    "de": "Hase",
+    "es": "Conejo",
+    "ko": "토끼"
+  },
   "varieties": [
     {
       "is_default": true,

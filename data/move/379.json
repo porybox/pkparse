@@ -2,36 +2,13 @@
   "id": 379,
   "name": "power-trick",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "The user's original [Attack]{mechanic:attack} and [Defense]{mechanic:defense} are swapped.\n\nThis effect is passed on by []{move:baton-pass}.",
-      "short_effect": "User swaps Attack and Defense.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Power Trick",
-      "language": "en"
-    },
-    {
-      "name": "Ingannoforza",
-      "language": "it"
-    },
-    {
-      "name": "Truco Fuerza",
-      "language": "es"
-    },
-    {
-      "name": "Krafttrick",
-      "language": "de"
-    },
-    {
-      "name": "Astuce Force",
-      "language": "fr"
-    },
-    {
-      "name": "파워트릭",
-      "language": "ko"
-    },
-    {
-      "name": "パワートリック",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "パワートリック",
+    "kana": "パワートリック",
+    "en": "Power Trick",
+    "fr": "Astuce Force",
+    "it": "Ingannoforza",
+    "de": "Krafttrick",
+    "es": "Truco Fuerza",
+    "ko": "파워트릭",
+    "zh-CN": "力量戏法",
+    "zh-TW": "力量戲法"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "超能力で 自分の　攻撃と　防御の 力を　交換する。",
+    "kana": "ちょうのうりょくで じぶんの　こうげきと　ぼうぎょの ちからを　こうかん　する。",
+    "en": "The user employs its psychic power to switch its Attack stat with its Defense stat.",
+    "fr": "Le lanceur utilise ses pouvoirs psychiques pour échanger sa Défense et son Attaque.",
+    "it": "Mossa psichica che permette a chi la usa di scambiare i valori delle sue statistiche di Attacco e Difesa.",
+    "de": "Anwender setzt Psycho-Kräfte ein, um eigenen Angriffs- mit Verteidigungs-Wert auszutauschen.",
+    "es": "Usa sus poderes mentales para intercambiar su característica de Ataque por Defensa.",
+    "ko": "초능력으로 자신의 공격과 방어의 힘을 교환한다.",
+    "zh-CN": "利用超能力交换 自己的攻击和 防御的力量。",
+    "zh-TW": "利用超能力， 將自己的攻擊和 防禦互相交換。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user employs its psychic power to switch its Attack with its Defense stat."
+        }
+      }
+    }
+  ]
 }

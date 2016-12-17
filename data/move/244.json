@@ -2,49 +2,13 @@
   "id": 244,
   "name": "psych-up",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": null
-    },
-    "super": {
-      "use_before": [
-        {
-          "name": "hydro-pump"
-        }
-      ],
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Discards the user's [stat changes]{mechanic:stat-changes} and copies the target's.\n\nThis move cannot be copied by []{move:mirror-move}.",
-      "short_effect": "Discards the user's stat changes and copies the target's.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Psych Up",
-      "language": "en"
-    },
-    {
-      "name": "Psicamisù",
-      "language": "it"
-    },
-    {
-      "name": "Más Psique",
-      "language": "es"
-    },
-    {
-      "name": "Psycho-Plus",
-      "language": "de"
-    },
-    {
-      "name": "Boost",
-      "language": "fr"
-    },
-    {
-      "name": "자기암시",
-      "language": "ko"
-    },
-    {
-      "name": "じこあんじ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "じこあんじ",
+    "kana": "じこあんじ",
+    "en": "Psych Up",
+    "fr": "Boost",
+    "it": "Psicamisù",
+    "de": "Psycho-Plus",
+    "es": "Más Psique",
+    "ko": "자기암시",
+    "zh-CN": "自我暗示",
+    "zh-TW": "自我暗示"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "自分に　暗示を　かけることで 能力変化の　状態を 相手と　同じにする。",
+    "kana": "じぶんに　あんじを　かけることで のうりょく　へんかの　じょうたいを あいてと　おなじにする。",
+    "en": "The user hypnotizes itself into copying any stat change made by the target.",
+    "fr": "Une autohypnose qui permet au lanceur de copier les changements de stats de la cible.",
+    "it": "Chi la usa s’ipnotizza per copiare ogni modifica alle statistiche del bersaglio.",
+    "de": "Der Anwender hypnotisiert sich selbst, um die Statusveränderungen des Zieles zu kopieren.",
+    "es": "Quien lo usa se sume en un trance y copia cualquier cambio que haya en las características de su objetivo.",
+    "ko": "자신에게 암시를 걸어서 능력 변화 상태를 상대와 똑같은 상태로 만든다.",
+    "zh-CN": "向自己施以自我暗示， 将能力变化的状态 变得和对手一样。",
+    "zh-TW": "向自己施加自我暗示， 讓能力變化的狀態 變得與對手相同。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Quien lo usa se hipnotiza y copia cualquier cambio que haya en las características de su objetivo."
+        }
+      }
+    }
+  ]
 }

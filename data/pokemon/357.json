@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 288,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "トロピウス",
-      "language": "ja"
-    },
-    {
-      "name": "Tropius",
-      "language": "roomaji"
-    },
-    {
-      "name": "트로피우스",
-      "language": "ko"
-    },
-    {
-      "name": "熱帶龍",
-      "language": "zh"
-    },
-    {
-      "name": "Tropius",
-      "language": "fr"
-    },
-    {
-      "name": "Tropius",
-      "language": "de"
-    },
-    {
-      "name": "Tropius",
-      "language": "es"
-    },
-    {
-      "name": "Tropius",
-      "language": "it"
-    },
-    {
-      "name": "Tropius",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "トロピウス",
+    "en": "Tropius",
+    "fr": "Tropius",
+    "it": "Tropius",
+    "de": "Tropius",
+    "es": "Tropius",
+    "ko": "트로피우스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "フルーツ",
-      "language": "ja"
-    },
-    {
-      "genus": "후르츠",
-      "language": "ko"
-    },
-    {
-      "genus": "Fruit",
-      "language": "fr"
-    },
-    {
-      "genus": "Obst",
-      "language": "de"
-    },
-    {
-      "genus": "Fruto",
-      "language": "es"
-    },
-    {
-      "genus": "Frutto",
-      "language": "it"
-    },
-    {
-      "genus": "Fruit",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "フルーツ",
+    "en": "Fruit",
+    "fr": "Fruit",
+    "it": "Frutto",
+    "de": "Obst",
+    "es": "Fruto",
+    "ko": "후르츠"
+  },
   "varieties": [
     {
       "is_default": true,

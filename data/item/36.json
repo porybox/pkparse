@@ -1,0 +1,38 @@
+{
+  "id": 36,
+  "name": "heal-powder",
+  "names": {
+    "ja": "ばんのうごな",
+    "kana": "ばんのうごな",
+    "en": "Heal Powder",
+    "fr": "Poudre Soin",
+    "it": "Polvocura",
+    "de": "Heilpuder",
+    "es": "Polvo Curación",
+    "ko": "만능가루",
+    "zh-CN": "万能粉",
+    "zh-TW": "萬能粉"
+  },
+  "flavor_text_entries": {
+    "ja": "とても　にがい　粉薬。 ポケモン　１匹の　状態の 異常を　すべて　回復する。",
+    "kana": "とても　にがい　こなぐすり。 ポケモン　１ひきの　じょうたいの いじょうを　すべて　かいふくする。",
+    "en": "A very bitter medicinal powder. It can be used once to heal all the status conditions of a Pokémon.",
+    "fr": "Une poudre médicinale très amère. Soigne tous les problèmes de statut d’un Pokémon.",
+    "it": "Rimedio amarissimo in polvere. Cura tutti i problemi di stato di un Pokémon.",
+    "de": "Ein bitteres medizinisches Pulver, das alle Statusprobleme eines Pokémon aufhebt.",
+    "es": "Polvos medicinales muy amargos que curan todos los problemas de estado de un Pokémon.",
+    "ko": "매우 쓴 가루약. 포켓몬 1마리의 상태 이상을 모두 회복한다.",
+    "zh-CN": "非常苦的药粉。 能治愈１只宝可梦的 所有异常状态。",
+    "zh-TW": "非常苦的藥粉。 能治癒１隻寶可夢的 所有異常狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A very bitter medicine powder. When consumed, it heals all of a Pokémon’s status conditions."
+        }
+      }
+    }
+  ]
+}

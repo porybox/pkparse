@@ -2,34 +2,13 @@
   "id": 495,
   "name": "after-you",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "The target will act next this turn, regardless of [Speed]{mechanic:speed} or move priority.\nIf the target has already acted this turn, this move will [fail]{mechanic:fail}.",
-      "short_effect": "Makes the target act next this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "After You",
-      "language": "en"
-    },
-    {
-      "name": "Cortesia",
-      "language": "it"
-    },
-    {
-      "name": "Cede Paso",
-      "language": "es"
-    },
-    {
-      "name": "Galanterie",
-      "language": "de"
-    },
-    {
-      "name": "Après Vous",
-      "language": "fr"
-    },
-    {
-      "name": "당신먼저",
-      "language": "ko"
-    },
-    {
-      "name": "おさきにどうぞ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "おさきにどうぞ",
+    "kana": "おさきにどうぞ",
+    "en": "After You",
+    "fr": "Après Vous",
+    "it": "Cortesia",
+    "de": "Galanterie",
+    "es": "Cede Paso",
+    "ko": "당신먼저",
+    "zh-CN": "您先请",
+    "zh-TW": "您先請"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　行動を　サポートして 自分の　行動の　あとに 続けて　動けるように　する。",
+    "kana": "あいての　こうどうを　サポートして じぶんの　こうどうの　あとに つづけて　うごけるように　する。",
+    "en": "The user helps the target and makes it use its move right after the user.",
+    "fr": "S’il est le premier à agir, le lanceur permet à sa cible d’utiliser une capacité juste après lui.",
+    "it": "Chi la usa aiuta un bersaglio più lento permettendogli di agire subito dopo.",
+    "de": "Anwender ermöglicht dem Ziel direkt nach ihm zu handeln, solange der Anwender als Erstes zum Zug kommt.",
+    "es": "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos.",
+    "ko": "상대의 행동을 도와서 자신이 행동한 뒤에 바로 움직일 수 있도록 한다.",
+    "zh-CN": "支援我方或对手的行动， 使其紧接着此招式之后行动。",
+    "zh-TW": "支援對手， 讓對手緊接在自己之後行動。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

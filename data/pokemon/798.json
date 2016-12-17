@@ -1,0 +1,45 @@
+{
+  "id": 798,
+  "name": "kartana",
+  "gender_rate": -1,
+  "capture_rate": 255,
+  "base_happiness": 0,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "white",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "カミツルギ",
+    "en": "Kartana",
+    "fr": "Katagami",
+    "it": "Kartana",
+    "de": "Katagami",
+    "es": "Kartana",
+    "ko": "종이신도"
+  },
+  "genera": {
+    "ja": "ばっとう",
+    "en": "Drawn Sword",
+    "fr": "Battô",
+    "it": "Spadatratta",
+    "de": "Schwertkunst",
+    "es": "Desenvaine",
+    "ko": "발도"
+  },
+  "types": [
+    "grass",
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 59,
+    "attack": 181,
+    "defense": 131,
+    "special-attack": 59,
+    "special-defense": 31,
+    "speed": 109
+  }
+}

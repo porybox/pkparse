@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 22,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "plant"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "legs"
   },
@@ -48,44 +40,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "タネボー",
-      "language": "ja"
-    },
-    {
-      "name": "Taneboh",
-      "language": "roomaji"
-    },
-    {
-      "name": "도토링",
-      "language": "ko"
-    },
-    {
-      "name": "橡實果",
-      "language": "zh"
-    },
-    {
-      "name": "Grainipiot",
-      "language": "fr"
-    },
-    {
-      "name": "Samurzel",
-      "language": "de"
-    },
-    {
-      "name": "Seedot",
-      "language": "es"
-    },
-    {
-      "name": "Seedot",
-      "language": "it"
-    },
-    {
-      "name": "Seedot",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "タネボー",
+    "en": "Seedot",
+    "fr": "Grainipiot",
+    "it": "Seedot",
+    "de": "Samurzel",
+    "es": "Seedot",
+    "ko": "도토링"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -96,36 +59,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どんぐり",
-      "language": "ja"
-    },
-    {
-      "genus": "도토리",
-      "language": "ko"
-    },
-    {
-      "genus": "Gland",
-      "language": "fr"
-    },
-    {
-      "genus": "Eichelnuss",
-      "language": "de"
-    },
-    {
-      "genus": "Bellota",
-      "language": "es"
-    },
-    {
-      "genus": "Ghianda",
-      "language": "it"
-    },
-    {
-      "genus": "Acorn",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どんぐり",
+    "en": "Acorn",
+    "fr": "Gland",
+    "it": "Ghianda",
+    "de": "Eichelnuss",
+    "es": "Bellota",
+    "ko": "도토리"
+  },
   "varieties": [
     {
       "is_default": true,

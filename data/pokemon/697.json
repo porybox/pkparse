@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 65,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "dragon"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -48,68 +40,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ガチゴラス",
-      "language": "ja"
-    },
-    {
-      "name": "견고라스",
-      "language": "ko"
-    },
-    {
-      "name": "Rexillius",
-      "language": "fr"
-    },
-    {
-      "name": "Monargoras",
-      "language": "de"
-    },
-    {
-      "name": "Tyrantrum",
-      "language": "es"
-    },
-    {
-      "name": "Tyrantrum",
-      "language": "it"
-    },
-    {
-      "name": "Tyrantrum",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ガチゴラス",
+    "en": "Tyrantrum",
+    "fr": "Rexillius",
+    "it": "Tyrantrum",
+    "de": "Monargoras",
+    "es": "Tyrantrum",
+    "ko": "견고라스"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ぼうくん",
-      "language": "ja"
-    },
-    {
-      "genus": "폭군",
-      "language": "ko"
-    },
-    {
-      "genus": "Tyran",
-      "language": "fr"
-    },
-    {
-      "genus": "Tyrann",
-      "language": "de"
-    },
-    {
-      "genus": "Tirano",
-      "language": "es"
-    },
-    {
-      "genus": "Tiranno",
-      "language": "it"
-    },
-    {
-      "genus": "Despot",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ぼうくん",
+    "en": "Despot",
+    "fr": "Tyran",
+    "it": "Tiranno",
+    "de": "Tyrann",
+    "es": "Tirano",
+    "ko": "폭군"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,41 @@
+{
+  "id": 393,
+  "name": "tm66",
+  "names": {
+    "ja": "わざマシン６６",
+    "kana": "わざマシン６６",
+    "en": "TM66",
+    "fr": "CT66",
+    "it": "MT66",
+    "de": "TM66",
+    "es": "MT66",
+    "ko": "기술머신66",
+    "zh-CN": "招式学习器６６",
+    "zh-TW": "招式學習器６６"
+  },
+  "flavor_text_entries": {
+    "ja": "ためこんで　攻撃する。 相手より　後に　攻撃できると 技の　威力は　２倍に　なる。",
+    "kana": "ためこんで　こうげきする。 あいてより　あとに　こうげき　できると わざの　いりょくは　２ばいに　なる。",
+    "en": "The user stores power, then attacks. If the user moves after the target, this attack’s power will be doubled.",
+    "fr": "Le lanceur charge son énergie, puis attaque. La puissance est doublée si le lanceur agit après l’ennemi.",
+    "it": "Chi la usa accumula forza, poi attacca. La potenza raddoppia se il Pokémon agisce dopo il bersaglio.",
+    "de": "Der Anwender lädt die Attacke auf. Handelt das Ziel vor dem Anwender, verdoppelt sich die Stärke der Attacke.",
+    "es": "Quien lo usa se carga de energía y luego ataca. Y, si ataca después del objetivo, dobla la potencia del ataque.",
+    "ko": "모아서 공격한다. 상대보다 뒤에 공격할 수 있으면 기술의 위력은 2배가 된다.",
+    "zh-CN": "蓄力攻击。 如果能在对手之后攻击， 招式的威力会变成２倍。",
+    "zh-TW": "累積力量進行攻擊。 若在對手之後進行攻擊， 招式的威力會變成２倍。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "ちからを　ためこみ　こうげきする。 あいてより　あとに　だせると わざの　いりょくは　２ばいに　なる。",
+          "it": "Chi la usa accumula forza, poi attacca. La potenza raddoppia se agisce dopo il Pokémon nemico.",
+          "de": "Der Anwender lädt die Attacke auf. Handelt das Ziel vor dem Anwender, verdoppelt sich die Kraft der Attacke.",
+          "ko": "힘을 모아 공격한다. 상대보다 나중에 쓰면 기술의 위력은 2배가 된다."
+        }
+      }
+    }
+  ]
+}

@@ -2,36 +2,13 @@
   "id": 451,
   "name": "charge-beam",
   "accuracy": 90,
-  "effect_chance": 70,
   "pp": 10,
   "priority": 0,
   "power": 50,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to raise the user's [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to raise the user's Special Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 70
   },
-  "names": [
-    {
-      "name": "Charge Beam",
-      "language": "en"
-    },
-    {
-      "name": "Raggioscossa",
-      "language": "it"
-    },
-    {
-      "name": "Rayo Carga",
-      "language": "es"
-    },
-    {
-      "name": "Ladestrahl",
-      "language": "de"
-    },
-    {
-      "name": "Rayon Chargé",
-      "language": "fr"
-    },
-    {
-      "name": "차지빔",
-      "language": "ko"
-    },
-    {
-      "name": "チャージビーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "チャージビーム",
+    "kana": "チャージビーム",
+    "en": "Charge Beam",
+    "fr": "Rayon Chargé",
+    "it": "Raggioscossa",
+    "de": "Ladestrahl",
+    "es": "Rayo Carga",
+    "ko": "차지빔",
+    "zh-CN": "充电光束",
+    "zh-TW": "充電光束"
+  },
+  "flavor_text_entries": {
+    "ja": "電撃の　束を　相手に 発射する。電気を　ためて　自分の 特攻を　あげることが　ある。",
+    "kana": "でんげきの　たばを　あいてに はっしゃする。でんきを　ためて　じぶんの とくこうを　あげることが　ある。",
+    "en": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+    "fr": "Le lanceur tire un rayon chargé d’électricité. Peut aussi augmenter son Attaque Spéciale.",
+    "it": "Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il suo Attacco Speciale.",
+    "de": "Ziel wird von einem Elektrostrahl getroffen. Erhöht eventuell Spezial-Angriff des Anwenders.",
+    "es": "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.",
+    "ko": "전격의 다발을 상대에게 발사한다. 전기를 모아서 자신의 특수공격을 올릴 때가 있다.",
+    "zh-CN": "向对手发射电击光束。 由于蓄满电流， 有时会提高自己的特攻。",
+    "zh-TW": "向對手發射電擊光束。 有時會因電流蓄積， 提高自己的特攻。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "electric"
-  }
+  "target": "selected-pokemon",
+  "type": "electric",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ziel wird von einem Elektrostrahl getroffen. Steigert eventuell Spezial-Angriff des Anwenders."
+        }
+      }
+    }
+  ]
 }

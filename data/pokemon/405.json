@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 36,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "レントラー",
-      "language": "ja"
-    },
-    {
-      "name": "Rentorar",
-      "language": "roomaji"
-    },
-    {
-      "name": "렌트라",
-      "language": "ko"
-    },
-    {
-      "name": "倫琴貓",
-      "language": "zh"
-    },
-    {
-      "name": "Luxray",
-      "language": "fr"
-    },
-    {
-      "name": "Luxtra",
-      "language": "de"
-    },
-    {
-      "name": "Luxray",
-      "language": "es"
-    },
-    {
-      "name": "Luxray",
-      "language": "it"
-    },
-    {
-      "name": "Luxray",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "レントラー",
+    "en": "Luxray",
+    "fr": "Luxray",
+    "it": "Luxray",
+    "de": "Luxtra",
+    "es": "Luxray",
+    "ko": "렌트라"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "がんこう",
-      "language": "ja"
-    },
-    {
-      "genus": "안광",
-      "language": "ko"
-    },
-    {
-      "genus": "Brillœil",
-      "language": "fr"
-    },
-    {
-      "genus": "Glühauge",
-      "language": "de"
-    },
-    {
-      "genus": "Chispa Ojos",
-      "language": "es"
-    },
-    {
-      "genus": "Occhiluce",
-      "language": "it"
-    },
-    {
-      "genus": "Gleam Eyes",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "がんこう",
+    "en": "Gleam Eyes",
+    "fr": "Brillœil",
+    "it": "Occhiluce",
+    "de": "Glühauge",
+    "es": "Chispa Ojos",
+    "ko": "안광"
+  },
   "varieties": [
     {
       "is_default": true,

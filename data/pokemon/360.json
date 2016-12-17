@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 118,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ソーナノ",
-      "language": "ja"
-    },
-    {
-      "name": "Sohnano",
-      "language": "roomaji"
-    },
-    {
-      "name": "마자",
-      "language": "ko"
-    },
-    {
-      "name": "小果然",
-      "language": "zh"
-    },
-    {
-      "name": "Okéoké",
-      "language": "fr"
-    },
-    {
-      "name": "Isso",
-      "language": "de"
-    },
-    {
-      "name": "Wynaut",
-      "language": "es"
-    },
-    {
-      "name": "Wynaut",
-      "language": "it"
-    },
-    {
-      "name": "Wynaut",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ソーナノ",
+    "en": "Wynaut",
+    "fr": "Okéoké",
+    "it": "Wynaut",
+    "de": "Isso",
+    "es": "Wynaut",
+    "ko": "마자"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほがらか",
-      "language": "ja"
-    },
-    {
-      "genus": "명랑",
-      "language": "ko"
-    },
-    {
-      "genus": "Ravi",
-      "language": "fr"
-    },
-    {
-      "genus": "Strahlekind",
-      "language": "de"
-    },
-    {
-      "genus": "Radiante",
-      "language": "es"
-    },
-    {
-      "genus": "Brillante",
-      "language": "it"
-    },
-    {
-      "genus": "Bright",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほがらか",
+    "en": "Bright",
+    "fr": "Ravi",
+    "it": "Brillante",
+    "de": "Strahlekind",
+    "es": "Radiante",
+    "ko": "명랑"
+  },
   "varieties": [
     {
       "is_default": true,

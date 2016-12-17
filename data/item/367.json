@@ -1,0 +1,39 @@
+{
+  "id": 367,
+  "name": "tm40",
+  "names": {
+    "ja": "わざマシン４０",
+    "kana": "わざマシン４０",
+    "en": "TM40",
+    "fr": "CT40",
+    "it": "MT40",
+    "de": "TM40",
+    "es": "MT40",
+    "ko": "기술머신40",
+    "zh-CN": "招式学习器４０",
+    "zh-TW": "招式學習器４０"
+  },
+  "flavor_text_entries": {
+    "ja": "素早い　動きで 相手を　ほんろうして　切りつける。 攻撃は　必ず　命中する。",
+    "kana": "すばやい　うごきで あいてを　ほんろうして　きりつける。 こうげきは　かならず　めいちゅう　する。",
+    "en": "The user confounds the target with speed, then slashes. This attack never misses.",
+    "fr": "Le lanceur prend l’ennemi de vitesse et le lacère. N’échoue jamais.",
+    "it": "Chi la usa attacca il bersaglio a grande velocità. Questa mossa è infallibile.",
+    "de": "Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft ihr Ziel immer.",
+    "es": "Ataque que desconcierta por su rapidez y que no falla nunca.",
+    "ko": "재빠른 움직임으로 상대를 농락해 벤다. 공격은 반드시 명중한다.",
+    "zh-CN": "以敏捷的动作 戏弄对手后进行切斩。 攻击必定会命中。",
+    "zh-TW": "以敏捷的動作 戲弄對手後進行切斬。 攻擊必定會命中。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "すばやい　うごきで　ほんろうする。 こうげきは　かならず　あいてに めいちゅうする。",
+          "it": "Chi la usa attacca il nemico a grande velocità. Questa mossa è infallibile."
+        }
+      }
+    }
+  ]
+}

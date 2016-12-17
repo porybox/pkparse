@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 245,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "スイクン",
-      "language": "ja"
-    },
-    {
-      "name": "Suikun",
-      "language": "roomaji"
-    },
-    {
-      "name": "스이쿤",
-      "language": "ko"
-    },
-    {
-      "name": "水君",
-      "language": "zh"
-    },
-    {
-      "name": "Suicune",
-      "language": "fr"
-    },
-    {
-      "name": "Suicune",
-      "language": "de"
-    },
-    {
-      "name": "Suicune",
-      "language": "es"
-    },
-    {
-      "name": "Suicune",
-      "language": "it"
-    },
-    {
-      "name": "Suicune",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "スイクン",
+    "en": "Suicune",
+    "fr": "Suicune",
+    "it": "Suicune",
+    "de": "Suicune",
+    "es": "Suicune",
+    "ko": "스이쿤"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "オーロラ",
-      "language": "ja"
-    },
-    {
-      "genus": "오로라",
-      "language": "ko"
-    },
-    {
-      "genus": "Aurore",
-      "language": "fr"
-    },
-    {
-      "genus": "Polarlicht",
-      "language": "de"
-    },
-    {
-      "genus": "Aurora",
-      "language": "es"
-    },
-    {
-      "genus": "Aurora",
-      "language": "it"
-    },
-    {
-      "genus": "Aurora",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "オーロラ",
+    "en": "Aurora",
+    "fr": "Aurore",
+    "it": "Aurora",
+    "de": "Polarlicht",
+    "es": "Aurora",
+    "ko": "오로라"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,48 @@
+{
+  "id": 90,
+  "name": "stardust",
+  "names": {
+    "ja": "ほしのすな",
+    "kana": "ほしのすな",
+    "en": "Stardust",
+    "fr": "Poussière Étoile",
+    "it": "Polvostella",
+    "de": "Sternenstaub",
+    "es": "Polvo Estelar",
+    "ko": "별의모래",
+    "zh-CN": "星星沙子",
+    "zh-TW": "星星沙子"
+  },
+  "flavor_text_entries": {
+    "ja": "てざわりが　サラサラの 赤くて　きれいな　砂。 ショップで　安く　売れる。",
+    "kana": "てざわりが　サラサラの あかくて　きれいな　すな。 ショップで　やすく　うれる。",
+    "en": "Lovely red sand that flows between the fingers with a loose, silky feel. It can be sold at a low price to shops.",
+    "fr": "Du sable rouge ravissant, aux grains très fins. Peut être vendu aux magasins pour un peu d’argent.",
+    "it": "Bella sabbia rossa dalla consistenza leggera e farinosa. Si può vendere a un prezzo piuttosto basso nei negozi.",
+    "de": "Schöner, roter Sand, der sich seidenweich anfühlt. Er ist von geringem Wert.",
+    "es": "Bonita arena roja de tacto sedoso que no alcanza un buen precio en las tiendas.",
+    "ko": "감촉이 보슬보슬한 빨갛고 예쁜 모래. 상점에서 싸게 팔린다.",
+    "zh-CN": "手感细腻且十分 美丽的红色沙子。 可以在商店低价出售。",
+    "zh-TW": "手感細緻且十分 美麗的紅色沙子。 可以在商店低價出售。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "てざわりが　サラサラの 赤くて　きれいな　砂。 ショップで　高く　売れる。",
+          "kana": "てざわりが　サラサラの あかくて　きれいな　すな。 ショップで　たかく　うれる。",
+          "en": "Lovely, red sand that flows between the fingers with a loose, silky feel. It can be sold at a high price to shops.",
+          "fr": "Du sable rouge ravissant, aux grains très fins. Peut être vendu à bon prix aux magasins.",
+          "it": "Bella sabbia rossa dalla consistenza leggera e farinosa. Si può vendere a un prezzo piuttosto alto nei negozi.",
+          "de": "Schöner, roter Sand, der sich seidenweich anfühlt. Er ist von hohem Wert.",
+          "es": "Bonita arena roja de tacto sedoso que alcanza un alto precio en las tiendas.",
+          "ko": "감촉이 보슬보슬한 빨갛고 예쁜 모래. 상점에서 비싸게 팔린다."
+        },
+        "names": {
+          "es": "Polvoestelar"
+        }
+      }
+    }
+  ]
+}

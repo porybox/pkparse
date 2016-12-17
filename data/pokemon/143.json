@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 139,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "humanoid"
   },
@@ -83,44 +77,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "カビゴン",
-      "language": "ja"
-    },
-    {
-      "name": "Kabigon",
-      "language": "roomaji"
-    },
-    {
-      "name": "잠만보",
-      "language": "ko"
-    },
-    {
-      "name": "卡比獸",
-      "language": "zh"
-    },
-    {
-      "name": "Ronflex",
-      "language": "fr"
-    },
-    {
-      "name": "Relaxo",
-      "language": "de"
-    },
-    {
-      "name": "Snorlax",
-      "language": "es"
-    },
-    {
-      "name": "Snorlax",
-      "language": "it"
-    },
-    {
-      "name": "Snorlax",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カビゴン",
+    "en": "Snorlax",
+    "fr": "Ronflex",
+    "it": "Snorlax",
+    "de": "Relaxo",
+    "es": "Snorlax",
+    "ko": "잠만보"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -131,36 +96,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いねむり",
-      "language": "ja"
-    },
-    {
-      "genus": "졸음",
-      "language": "ko"
-    },
-    {
-      "genus": "Pionceur",
-      "language": "fr"
-    },
-    {
-      "genus": "Tagträumer",
-      "language": "de"
-    },
-    {
-      "genus": "Dormir",
-      "language": "es"
-    },
-    {
-      "genus": "Sonno",
-      "language": "it"
-    },
-    {
-      "genus": "Sleeping",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いねむり",
+    "en": "Sleeping",
+    "fr": "Pionceur",
+    "it": "Sonno",
+    "de": "Tagträumer",
+    "es": "Dormir",
+    "ko": "졸음"
+  },
   "varieties": [
     {
       "is_default": true,

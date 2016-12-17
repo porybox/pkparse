@@ -2,36 +2,13 @@
   "id": 253,
   "name": "uproar",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User is forced to use this move for 2–5 turns, selected at random.  All Pokémon on the [field]{mechanic:field} wake up, and none can fall to [sleep]{mechanic:sleep} until the lock-in ends.\n\nPokémon cannot use []{move:rest} during this effect.\n\nThis move cannot be selected by []{move:sleep-talk}.",
-      "short_effect": "Forced to use this move for several turns.  Pokémon cannot fall asleep in that time.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,55 +20,50 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Uproar",
-      "language": "en"
-    },
-    {
-      "name": "Baraonda",
-      "language": "it"
-    },
-    {
-      "name": "Alboroto",
-      "language": "es"
-    },
-    {
-      "name": "Aufruhr",
-      "language": "de"
-    },
-    {
-      "name": "Brouhaha",
-      "language": "fr"
-    },
-    {
-      "name": "소란피기",
-      "language": "ko"
-    },
-    {
-      "name": "さわぐ",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "さわぐ",
+    "kana": "さわぐ",
+    "en": "Uproar",
+    "fr": "Brouhaha",
+    "it": "Baraonda",
+    "de": "Aufruhr",
+    "es": "Alboroto",
+    "ko": "소란피기",
+    "zh-CN": "吵闹",
+    "zh-TW": "吵鬧"
+  },
+  "flavor_text_entries": {
+    "ja": "３ターンの　間 騒いで　相手を　攻撃する。 そのあいだは　だれも　眠れなくなる。",
+    "kana": "３ターンの　あいだ さわいで　あいてを　こうげきする。 そのあいだは　だれも　ねむれなく　なる。",
+    "en": "The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",
+    "fr": "Le lanceur attaque en rugissant durant trois tours. Pendant ce temps, aucun Pokémon ne peut s’endormir.",
+    "it": "Chi la usa attacca per tre turni con un frastuono che non fa dormire nessuno.",
+    "de": "Anwender greift an, indem er über drei Runden hinweg einen Aufruhr erzeugt. Verhindert Schlaf.",
+    "es": "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.",
+    "ko": "3턴 동안 소란 피워 공격한다. 그동안은 아무도 잠들지 않게 된다.",
+    "zh-CN": "在３回合内 用骚乱攻击对手。 在此期间谁都不能入眠。",
+    "zh-TW": "在３回合內 大吵大鬧攻擊對手。 在此期間誰都無法入眠。"
+  },
+  "stat_changes": [],
+  "target": "random-opponent",
+  "type": "normal",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 50,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "３ターンの　あいだ 騒いで　相手を　攻撃する。 そのあいだは　だれも　眠れなくなる。",
+          "en": "The user attacks in an uproar for three turns. During that time, no one can fall asleep."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "3턴 동안 소란 피워 공격한다. 그 동안은 아무도 잠들지 않게 된다."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "random-opponent"
-  },
-  "type": {
-    "name": "normal"
-  }
+  ]
 }

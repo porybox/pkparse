@@ -1,0 +1,48 @@
+{
+  "id": 61,
+  "name": "x-sp-atk",
+  "names": {
+    "ja": "スペシャルアップ",
+    "kana": "スペシャルアップ",
+    "en": "X Sp. Atk",
+    "fr": "Spécial +",
+    "it": "Att. Speciale X",
+    "de": "X-Spezial",
+    "es": "Especial X",
+    "ko": "스페셜업",
+    "zh-CN": "特攻强化",
+    "zh-TW": "特攻強化"
+  },
+  "flavor_text_entries": {
+    "ja": "戦闘中の　ポケモンの 特攻を　大きく　あげる　道具。 ひっこめると　元に　戻る。",
+    "kana": "せんとうちゅうの　ポケモンの とくこうを　おおきく　あげる　どうぐ。 ひっこめると　もとに　もどる。",
+    "en": "An item that sharply boosts the Sp. Atk stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.",
+    "fr": "Augmente beaucoup l’Attaque Spéciale pendant un combat. L’effet disparaît si le Pokémon est retiré.",
+    "it": "Aumenta di molto l’Attacco Speciale di un Pokémon in una lotta. L’effetto svanisce se il Pokémon è sostituito.",
+    "de": "Hebt den Spezial-Angriff eines Pokémon im Kampf stark an. Die Wirkung wird mit dem Austausch des Pokémon beendet.",
+    "es": "Aumenta mucho el Ataque Especial en combate. Al cambiar de Pokémon, el efecto desaparece.",
+    "ko": "배틀 중인 포켓몬의 특수공격을 크게 올리는 도구. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다.",
+    "zh-CN": "大幅提高战斗中 宝可梦特攻的道具。 离场后，效果便会消失。",
+    "zh-TW": "大大提高戰鬥中 寶可夢特攻的道具。 離場後，效果便會消失。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "戦闘中の　ポケモンの 特攻を　あげる　道具。 ひっこめると　元に　戻る。",
+          "kana": "せんとうちゅうの　ポケモンの とくこうを　あげる　どうぐ。 ひっこめると　もとに　もどる。",
+          "en": "An item that boosts the Sp. Atk stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.",
+          "fr": "Augmente l’Attaque Spéciale pendant un combat. L’effet disparaît si le Pokémon se retire.",
+          "it": "Aumenta l’Attacco Speciale di un Pokémon in una lotta. L’effetto svanisce se il Pokémon è sostituito.",
+          "de": "Hebt den Spezial-Angriff eines Pokémon im Kampf. Die Wirkung wird mit dem Austausch des Pokémon beendet.",
+          "es": "Aumenta el Ataque Especial en combate. Al cambiar de Pokémon, el efecto desaparece.",
+          "ko": "배틀 중인 포켓몬의 특수공격을 올리는 도구. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다."
+        },
+        "names": {
+          "it": "Special X"
+        }
+      }
+    }
+  ]
+}

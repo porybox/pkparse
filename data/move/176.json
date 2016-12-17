@@ -2,36 +2,13 @@
   "id": 176,
   "name": "conversion-2",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Changes the user's type to a type either resistant or immune to the last damaging move that hit it.  The new type is selected at random and cannot be a type the user already is.  If there is no eligible new type, this move will [fail]{mechanic:fail}.",
-      "short_effect": "Changes the user's type to a random type either resistant or immune to the last move used against it.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Conversion 2",
-      "language": "en"
-    },
-    {
-      "name": "Conversione2",
-      "language": "it"
-    },
-    {
-      "name": "Conversión2",
-      "language": "es"
-    },
-    {
-      "name": "Umwandlung2",
-      "language": "de"
-    },
-    {
-      "name": "Conversion 2",
-      "language": "fr"
-    },
-    {
-      "name": "텍스처2",
-      "language": "ko"
-    },
-    {
-      "name": "テクスチャー２",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "テクスチャー２",
+    "kana": "テクスチャー２",
+    "en": "Conversion 2",
+    "fr": "Conversion 2",
+    "it": "Conversione2",
+    "de": "Umwandlung2",
+    "es": "Conversión2",
+    "ko": "텍스처2",
+    "zh-CN": "纹理２",
+    "zh-TW": "紋理２"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "相手が　最後に　使った技に 抵抗できる　ように 自分の　タイプを　変化させる。",
+    "kana": "あいてが　さいごに　つかった　わざに ていこう　できる　ように じぶんの　タイプを　へんか　させる。",
+    "en": "The user changes its type to make itself resistant to the type of the attack the opponent used last.",
+    "fr": "Le lanceur change de type pour être résistant au type de la dernière attaque lancée par sa cible.",
+    "it": "Chi la usa cambia tipo per rendersi resistente al tipo dell’ultima mossa usata dal bersaglio.",
+    "de": "Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.",
+    "es": "El usuario cambia de tipo para hacerse resistente al último tipo de movimiento usado por el objetivo.",
+    "ko": "상대가 마지막으로 쓴 기술에 저항할 수 있도록 자신의 타입을 변화시킨다.",
+    "zh-CN": "为了可以抵抗对手 最后使用的招式， 从而使自己的属性发生变化。",
+    "zh-TW": "改變屬性， 讓自己能夠抵抗對手 最近一次使出的招式。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

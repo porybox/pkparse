@@ -2,36 +2,13 @@
   "id": 267,
   "name": "nature-power",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Uses another move chosen according to the terrain.\n\nTerrain                   | Selected move\n------------------------- | ------------------\nBuilding                  | []{move:tri-attack}\nCave                      | []{move:rock-slide}\nDeep water                | []{move:hydro-pump}\nDesert                    | []{move:earthquake}\nGrass                     | []{move:seed-bomb}\nMountain                  | []{move:rock-slide}\nRoad                      | []{move:earthquake}\nShallow water             | []{move:hydro-pump}\nSnow                      | []{move:blizzard}\nTall grass                | []{move:seed-bomb}\n[]{move:electric-terrain} | []{move:thunderbolt}\n[]{move:grassy-terrain}   | []{move:energy-ball}\n[]{move:misty-terrain}    | []{move:moonblast}\n\nIn Pokémon Battle Revolution:\n\nTerrain        | Selected move\n-------------- | ------------------\nCourtyard      | []{move:tri-attack}\nCrystal        | []{move:rock-slide}\nGateway        | []{move:hydro-pump}\nMagma          | []{move:rock-slide}\nMain Street    | []{move:tri-attack}\nNeon           | []{move:tri-attack}\nStargazer      | []{move:rock-slide}\nSunny Park     | []{move:seed-bomb}\nSunset         | []{move:earthquake}\nWaterfall      | []{move:seed-bomb}\n\nThis move cannot be copied by []{move:mirror-move}.",
-      "short_effect": "Uses a move which depends upon the terrain.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,50 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Nature Power",
-      "language": "en"
-    },
-    {
-      "name": "Naturforza",
-      "language": "it"
-    },
-    {
-      "name": "Adaptación",
-      "language": "es"
-    },
-    {
-      "name": "Natur-Kraft",
-      "language": "de"
-    },
-    {
-      "name": "Force-Nature",
-      "language": "fr"
-    },
-    {
-      "name": "자연의힘",
-      "language": "ko"
-    },
-    {
-      "name": "しぜんのちから",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "しぜんのちから",
+    "kana": "しぜんのちから",
+    "en": "Nature Power",
+    "fr": "Force-Nature",
+    "it": "Naturforza",
+    "de": "Natur-Kraft",
+    "es": "Adaptación",
+    "ko": "자연의힘",
+    "zh-CN": "自然之力",
+    "zh-TW": "自然之力"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "自然の　力で　攻撃する。 使う　場所で でてくる　技が　変化する。",
+    "kana": "しぜんの　ちからで　こうげきする。 つかう　ばしょで でてくる　わざが　へんかする。",
+    "en": "This attack makes use of nature’s power. Its effects vary depending on the user’s environment.",
+    "fr": "Une attaque qui tire sa force de la nature. Son type varie selon le terrain.",
+    "it": "Mossa che fa uso della forza della natura. Il suo effetto varia in base all’ambiente.",
+    "de": "Angriff mit der Kraft der Natur. Die Wirkung dieser Attacke ist ortsabhängig.",
+    "es": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+    "ko": "자연의 힘으로 공격한다. 사용하는 장소에 따라 나오는 기술이 변화한다.",
+    "zh-CN": "用自然之力进行攻击。 根据所使用场所的不同， 使出的招式也会有所变化。",
+    "zh-TW": "用自然之力進行攻擊。 隨著使用地點的不同， 使出的招式也會改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.",
+          "de": "Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, an dem er durchgeführt wird."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, wo er durchgeführt wird."
+        }
+      }
+    }
+  ]
 }

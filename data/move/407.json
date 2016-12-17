@@ -2,36 +2,13 @@
   "id": 407,
   "name": "dragon-rush",
   "accuracy": 75,
-  "effect_chance": 20,
   "pp": 10,
   "priority": 0,
   "power": 100,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,49 @@
     "flinch_chance": 20,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Dragon Rush",
-      "language": "en"
-    },
-    {
-      "name": "Dragofuria",
-      "language": "it"
-    },
-    {
-      "name": "Carga Dragón",
-      "language": "es"
-    },
-    {
-      "name": "Drachenstoß",
-      "language": "de"
-    },
-    {
-      "name": "Dracocharge",
-      "language": "fr"
-    },
-    {
-      "name": "드래곤다이브",
-      "language": "ko"
-    },
-    {
-      "name": "ドラゴンダイブ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ドラゴンダイブ",
+    "kana": "ドラゴンダイブ",
+    "en": "Dragon Rush",
+    "fr": "Dracocharge",
+    "it": "Dragofuria",
+    "de": "Drachenstoß",
+    "es": "Carga Dragón",
+    "ko": "드래곤다이브",
+    "zh-CN": "龙之俯冲",
+    "zh-TW": "龍之俯衝"
   },
-  "type": {
-    "name": "dragon"
-  }
+  "flavor_text_entries": {
+    "ja": "すさまじい　殺気で　威圧しながら 体当たりする。 相手を　ひるませることが　ある。",
+    "kana": "すさまじい　さっきで　いあつ　しながら たいあたりする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user tackles the target while exhibiting overwhelming menace. This may also make the target flinch.",
+    "fr": "Le lanceur frappe l’ennemi en prenant un air menaçant. Peut aussi l’apeurer.",
+    "it": "Chi la usa attacca con fare minaccioso e in questo modo può anche far tentennare il bersaglio.",
+    "de": "Anwender führt einen furchteinflößenden Angriff aus. Das Ziel schreckt eventuell zurück.",
+    "es": "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.",
+    "ko": "굉장한 살기로 위압하면서 몸통박치기한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "释放出骇人的杀气， 一边威慑一边撞击对手。 有时会使对手畏缩。",
+    "zh-TW": "釋放出駭人的殺氣， 威嚇並撞擊對手。 有時會使對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dragon",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender führt einen Furcht einflößenden Angriff aus. Das Ziel schreckt eventuell zurück."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender führt einen gefährlichen Angriff aus. Das Ziel schreckt eventuell zurück."
+        }
+      }
+    }
+  ]
 }

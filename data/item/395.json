@@ -1,0 +1,39 @@
+{
+  "id": 395,
+  "name": "tm68",
+  "names": {
+    "ja": "わざマシン６８",
+    "kana": "わざマシン６８",
+    "en": "TM68",
+    "fr": "CT68",
+    "it": "MT68",
+    "de": "TM68",
+    "es": "MT68",
+    "ko": "기술머신68",
+    "zh-CN": "招式学习器６８",
+    "zh-TW": "招式學習器６８"
+  },
+  "flavor_text_entries": {
+    "ja": "持てる　力を　すべて　使って 相手に　突撃する。 次の　ターンは　動けなくなる。",
+    "kana": "もてる　ちからを　すべて　つかって あいてに　とつげきする。 つぎの　ターンは　うごけなく　なる。",
+    "en": "The user charges at the target using every bit of its power. The user can’t move on the next turn.",
+    "fr": "Le lanceur charge l’ennemi de toute sa puissance et doit ensuite se reposer au tour suivant.",
+    "it": "Chi la usa carica il bersaglio usando tutta la sua forza, ma al turno successivo deve riposarsi.",
+    "de": "Ein harter Angriff mit aller Energie. Danach muss der Anwender sich ausruhen und neue Energie sammeln.",
+    "es": "Quien lo usa carga contra el objetivo usando toda su energía y en el turno siguiente tiene que descansar.",
+    "ko": "가진 힘을 모두 사용해서 상대에게 돌격한다. 다음 턴은 움직일 수 없다.",
+    "zh-CN": "使出自己浑身力量突击对手。 下一回合自己将无法动弹。",
+    "zh-TW": "使出全身上下所有力量突擊對手。 下一回合自己將無法動彈。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "もてる　ちからの　すべてを　あつめて とつげきする。　つぎの　ターン はんどうで　うごけなくなる。",
+          "it": "Chi la usa carica il nemico usando tutta la sua forza, ma al turno successivo deve riposarsi."
+        }
+      }
+    }
+  ]
+}

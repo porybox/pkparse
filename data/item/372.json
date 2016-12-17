@@ -1,0 +1,39 @@
+{
+  "id": 372,
+  "name": "tm45",
+  "names": {
+    "ja": "わざマシン４５",
+    "kana": "わざマシン４５",
+    "en": "TM45",
+    "fr": "CT45",
+    "it": "MT45",
+    "de": "TM45",
+    "es": "MT45",
+    "ko": "기술머신45",
+    "zh-CN": "招式学习器４５",
+    "zh-TW": "招式學習器４５"
+  },
+  "flavor_text_entries": {
+    "ja": "♂なら♀を　♀なら♂を　誘惑して メロメロに　する。 相手は　技が　だしにくくなる。",
+    "kana": "♂なら♀を　♀なら♂を　ゆうわくして メロメロに　する。 あいては　わざが　だしにくく　なる。",
+    "en": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+    "fr": "Si l’ennemi est du sexe opposé, il tombe amoureux et rechigne alors à attaquer.",
+    "it": "Se il bersaglio è del sesso opposto, s’infatua e diventa riluttante ad attaccare.",
+    "de": "Gehört das Ziel dem anderen Geschlecht an, verliebt es sich und greift eventuell nicht an.",
+    "es": "Si el objetivo es del sexo opuesto, el enamoramiento reducirá las probabilidades de que ataque.",
+    "ko": "수컷은 암컷을 암컷은 수컷을 유혹하여 헤롱헤롱하게 만든다. 상대가 기술을 쓰기 어려워진다.",
+    "zh-CN": "♂诱惑♀或♀诱惑♂， 让对手着迷。 对手将很难使出招式。",
+    "zh-TW": "♂誘惑♀而♀誘惑♂， 讓對手著迷。 對手將難以使用招式。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "♂なら♀を　♀なら♂を　ゆうわくして メロメロにする。　メロメロに　なった あいては　わざが　だしにくくなる。",
+          "it": "Se il nemico è del sesso opposto, s’infatua e diventa riluttante ad attaccare."
+        }
+      }
+    }
+  ]
+}

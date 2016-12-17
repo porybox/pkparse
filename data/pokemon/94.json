@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 32,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "upright"
   },
@@ -83,44 +77,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ゲンガー",
-      "language": "ja"
-    },
-    {
-      "name": "Gangar",
-      "language": "roomaji"
-    },
-    {
-      "name": "팬텀",
-      "language": "ko"
-    },
-    {
-      "name": "耿鬼",
-      "language": "zh"
-    },
-    {
-      "name": "Ectoplasma",
-      "language": "fr"
-    },
-    {
-      "name": "Gengar",
-      "language": "de"
-    },
-    {
-      "name": "Gengar",
-      "language": "es"
-    },
-    {
-      "name": "Gengar",
-      "language": "it"
-    },
-    {
-      "name": "Gengar",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゲンガー",
+    "en": "Gengar",
+    "fr": "Ectoplasma",
+    "it": "Gengar",
+    "de": "Gengar",
+    "es": "Gengar",
+    "ko": "팬텀"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -131,36 +96,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "シャドー",
-      "language": "ja"
-    },
-    {
-      "genus": "그림자",
-      "language": "ko"
-    },
-    {
-      "genus": "Ombre",
-      "language": "fr"
-    },
-    {
-      "genus": "Schatten",
-      "language": "de"
-    },
-    {
-      "genus": "Sombra",
-      "language": "es"
-    },
-    {
-      "genus": "Ombra",
-      "language": "it"
-    },
-    {
-      "genus": "Shadow",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "シャドー",
+    "en": "Shadow",
+    "fr": "Ombre",
+    "it": "Ombra",
+    "de": "Schatten",
+    "es": "Sombra",
+    "ko": "그림자"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 33,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water3"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "squiggle"
   },
@@ -48,68 +40,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ブロスター",
-      "language": "ja"
-    },
-    {
-      "name": "블로스터",
-      "language": "ko"
-    },
-    {
-      "name": "Gamblast",
-      "language": "fr"
-    },
-    {
-      "name": "Wummer",
-      "language": "de"
-    },
-    {
-      "name": "Clawitzer",
-      "language": "es"
-    },
-    {
-      "name": "Clawitzer",
-      "language": "it"
-    },
-    {
-      "name": "Clawitzer",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ブロスター",
+    "en": "Clawitzer",
+    "fr": "Gamblast",
+    "it": "Clawitzer",
+    "de": "Wummer",
+    "es": "Clawitzer",
+    "ko": "블로스터"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ランチャー",
-      "language": "ja"
-    },
-    {
-      "genus": "런처",
-      "language": "ko"
-    },
-    {
-      "genus": "Blaster",
-      "language": "fr"
-    },
-    {
-      "genus": "Aquawumme",
-      "language": "de"
-    },
-    {
-      "genus": "Lanzachorro",
-      "language": "es"
-    },
-    {
-      "genus": "Acqualancio",
-      "language": "it"
-    },
-    {
-      "genus": "Howitzer",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ランチャー",
+    "en": "Howitzer",
+    "fr": "Blaster",
+    "it": "Acqualancio",
+    "de": "Aquawumme",
+    "es": "Lanzachorro",
+    "ko": "런처"
+  },
   "varieties": [
     {
       "is_default": true,

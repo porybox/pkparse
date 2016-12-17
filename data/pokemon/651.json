@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 2,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ハリボーグ",
-      "language": "ja"
-    },
-    {
-      "name": "도치보구",
-      "language": "ko"
-    },
-    {
-      "name": "Boguérisse",
-      "language": "fr"
-    },
-    {
-      "name": "Igastarnish",
-      "language": "de"
-    },
-    {
-      "name": "Quilladin",
-      "language": "es"
-    },
-    {
-      "name": "Quilladin",
-      "language": "it"
-    },
-    {
-      "name": "Quilladin",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハリボーグ",
+    "en": "Quilladin",
+    "fr": "Boguérisse",
+    "it": "Quilladin",
+    "de": "Igastarnish",
+    "es": "Quilladin",
+    "ko": "도치보구"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とげよろい",
-      "language": "ja"
-    },
-    {
-      "genus": "가시갑옷",
-      "language": "ko"
-    },
-    {
-      "genus": "Épinarmure",
-      "language": "fr"
-    },
-    {
-      "genus": "Spitzpanzer",
-      "language": "de"
-    },
-    {
-      "genus": "Corazaespín",
-      "language": "es"
-    },
-    {
-      "genus": "Spincorazza",
-      "language": "it"
-    },
-    {
-      "genus": "Spiny Armor",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とげよろい",
+    "en": "Spiny Armor",
+    "fr": "Épinarmure",
+    "it": "Spincorazza",
+    "de": "Spitzpanzer",
+    "es": "Corazaespín",
+    "ko": "가시갑옷"
+  },
   "varieties": [
     {
       "is_default": true,

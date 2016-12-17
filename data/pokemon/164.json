@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 118,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "wings"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ヨルノズク",
-      "language": "ja"
-    },
-    {
-      "name": "Yorunozuku",
-      "language": "roomaji"
-    },
-    {
-      "name": "야부엉",
-      "language": "ko"
-    },
-    {
-      "name": "貓頭夜鷹",
-      "language": "zh"
-    },
-    {
-      "name": "Noarfang",
-      "language": "fr"
-    },
-    {
-      "name": "Noctuh",
-      "language": "de"
-    },
-    {
-      "name": "Noctowl",
-      "language": "es"
-    },
-    {
-      "name": "Noctowl",
-      "language": "it"
-    },
-    {
-      "name": "Noctowl",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヨルノズク",
+    "en": "Noctowl",
+    "fr": "Noarfang",
+    "it": "Noctowl",
+    "de": "Noctuh",
+    "es": "Noctowl",
+    "ko": "야부엉"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふくろう",
-      "language": "ja"
-    },
-    {
-      "genus": "부엉이",
-      "language": "ko"
-    },
-    {
-      "genus": "Hibou",
-      "language": "fr"
-    },
-    {
-      "genus": "Eule",
-      "language": "de"
-    },
-    {
-      "genus": "Búho",
-      "language": "es"
-    },
-    {
-      "genus": "Gufo",
-      "language": "it"
-    },
-    {
-      "genus": "Owl",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふくろう",
+    "en": "Owl",
+    "fr": "Hibou",
+    "it": "Gufo",
+    "de": "Eule",
+    "es": "Búho",
+    "ko": "부엉이"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -166,8 +110,18 @@
     "hp": 100,
     "attack": 50,
     "defense": 50,
-    "special-attack": 76,
+    "special-attack": 86,
     "special-defense": 96,
     "speed": 70
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "special-attack": 76
+        }
+      }
+    }
+  ]
 }

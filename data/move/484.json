@@ -2,34 +2,13 @@
   "id": 484,
   "name": "heavy-slam",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  The greater the user's weight compared to the target's, the higher power this move has, to a maximum of 120.\n\nUser's weight                    | Power\n-------------------------------- | ----:\nUp to 2× the target's weight     |    40\nUp to 3× the target's weight     |    60\nUp to 4× the target's weight     |    80\nUp to 5× the target's weight     |   100\nMore than 5× the target's weight |   120\n",
-      "short_effect": "Power is higher when the user weighs more than the target, up to a maximum of 120.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Heavy Slam",
-      "language": "en"
-    },
-    {
-      "name": "Pesobomba",
-      "language": "it"
-    },
-    {
-      "name": "Cuerpo Pesado",
-      "language": "es"
-    },
-    {
-      "name": "Rammboss",
-      "language": "de"
-    },
-    {
-      "name": "Tacle Lourd",
-      "language": "fr"
-    },
-    {
-      "name": "헤비봄버",
-      "language": "ko"
-    },
-    {
-      "name": "ヘビーボンバー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ヘビーボンバー",
+    "kana": "ヘビーボンバー",
+    "en": "Heavy Slam",
+    "fr": "Tacle Lourd",
+    "it": "Pesobomba",
+    "de": "Rammboss",
+    "es": "Cuerpo Pesado",
+    "ko": "헤비봄버",
+    "zh-CN": "重磅冲撞",
+    "zh-TW": "重磅衝撞"
   },
-  "type": {
-    "name": "steel"
-  }
+  "flavor_text_entries": {
+    "ja": "重たい　体で　相手に　ぶつかって 攻撃する。　自分が　相手より 重いほど　威力が　あがる。",
+    "kana": "おもたい　からだで　あいてに　ぶつかって こうげきする。　じぶんが　あいてより おもいほど　いりょくが　あがる。",
+    "en": "The user slams into the target with its heavy body. The more the user outweighs the target, the greater the move’s power.",
+    "fr": "Le lanceur se jette sur l’ennemi de tout son poids. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence.",
+    "it": "Chi la usa si lancia contro il bersaglio con tutto il proprio peso. Più è pesante rispetto ad esso, più danni causa.",
+    "de": "Anwender rammt das Ziel mit massivem Körper. Je schwerer er im Vergleich zum Ziel ist, desto stärker die Attacke.",
+    "es": "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+    "ko": "무거운 몸으로 상대에게 부딪쳐 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다.",
+    "zh-CN": "用沉重的身体撞向对手进行攻击。 自己比对手越重，威力越大。",
+    "zh-TW": "用沉重的身體衝撞對手進行攻擊。 體重比對手重越多，威力越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "steel",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "重たい　体で　相手に　ぶつかって 攻撃する。自分が　相手より 重いほど　威力が　あがる。",
+          "kana": "おもたい　からだで　あいてに　ぶつかって こうげきする。じぶんが　あいてより おもいほど　いりょくが　あがる。"
+        }
+      }
+    }
+  ]
 }

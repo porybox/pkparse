@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 55,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ブーバーン",
-      "language": "ja"
-    },
-    {
-      "name": "Booburn",
-      "language": "roomaji"
-    },
-    {
-      "name": "마그마번",
-      "language": "ko"
-    },
-    {
-      "name": "鴨嘴焰龍",
-      "language": "zh"
-    },
-    {
-      "name": "Maganon",
-      "language": "fr"
-    },
-    {
-      "name": "Magbrant",
-      "language": "de"
-    },
-    {
-      "name": "Magmortar",
-      "language": "es"
-    },
-    {
-      "name": "Magmortar",
-      "language": "it"
-    },
-    {
-      "name": "Magmortar",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ブーバーン",
+    "en": "Magmortar",
+    "fr": "Maganon",
+    "it": "Magmortar",
+    "de": "Magbrant",
+    "es": "Magmortar",
+    "ko": "마그마번"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ばくえん",
-      "language": "ja"
-    },
-    {
-      "genus": "폭염",
-      "language": "ko"
-    },
-    {
-      "genus": "Explosion",
-      "language": "fr"
-    },
-    {
-      "genus": "Detonation",
-      "language": "de"
-    },
-    {
-      "genus": "Explosión",
-      "language": "es"
-    },
-    {
-      "genus": "Esplosivo",
-      "language": "it"
-    },
-    {
-      "genus": "Blast",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ばくえん",
+    "en": "Blast",
+    "fr": "Explosion",
+    "it": "Esplosivo",
+    "de": "Detonation",
+    "es": "Explosión",
+    "ko": "폭염"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,38 @@
+{
+  "id": 234,
+  "name": "leftovers",
+  "names": {
+    "ja": "たべのこし",
+    "kana": "たべのこし",
+    "en": "Leftovers",
+    "fr": "Restes",
+    "it": "Avanzi",
+    "de": "Überreste",
+    "es": "Restos",
+    "ko": "먹다남은음식",
+    "zh-CN": "吃剩的东西",
+    "zh-TW": "吃剩的東西"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせると　ポケモンの　ＨＰが 戦闘の　あいだ　少しずつ 回復する。",
+    "kana": "もたせると　ポケモンの　ＨＰが せんとうの　あいだ　すこしずつ かいふくする。",
+    "en": "An item to be held by a Pokémon. The holder’s HP is slowly but steadily restored throughout every battle.",
+    "fr": "Objet à tenir. Permet de restaurer graduellement les PV du porteur durant le combat.",
+    "it": "Strumento da dare a un Pokémon. Fa recuperare gradualmente i PS durante la lotta.",
+    "de": "Ein Item, das einem Pokémon zum Tragen gegeben werden kann. Es füllt im Kampf stetig KP auf.",
+    "es": "Este objeto restaura gradualmente durante el combate los PS del Pokémon que lo lleva.",
+    "ko": "지니게 하면 포켓몬의 HP가 배틀을 하는 동안 조금씩 회복된다.",
+    "zh-CN": "携带后，宝可梦的ＨＰ 会在战斗期间缓缓回复。",
+    "zh-TW": "攜帶後，寶可夢的ＨＰ 會在戰鬥期間緩緩回復。"
+  },
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Restaura gradualmente los PS del Pokémon que lo lleva durante el combate."
+        }
+      }
+    }
+  ]
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 146,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "upright"
   },
@@ -49,44 +43,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ユクシー",
-      "language": "ja"
-    },
-    {
-      "name": "Yuxie",
-      "language": "roomaji"
-    },
-    {
-      "name": "유크시",
-      "language": "ko"
-    },
-    {
-      "name": "由克希",
-      "language": "zh"
-    },
-    {
-      "name": "Créhelf",
-      "language": "fr"
-    },
-    {
-      "name": "Selfe",
-      "language": "de"
-    },
-    {
-      "name": "Uxie",
-      "language": "es"
-    },
-    {
-      "name": "Uxie",
-      "language": "it"
-    },
-    {
-      "name": "Uxie",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ユクシー",
+    "en": "Uxie",
+    "fr": "Créhelf",
+    "it": "Uxie",
+    "de": "Selfe",
+    "es": "Uxie",
+    "ko": "유크시"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -97,36 +62,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ちしき",
-      "language": "ja"
-    },
-    {
-      "genus": "지식",
-      "language": "ko"
-    },
-    {
-      "genus": "Savoir",
-      "language": "fr"
-    },
-    {
-      "genus": "Wissen",
-      "language": "de"
-    },
-    {
-      "genus": "Sabiduría",
-      "language": "es"
-    },
-    {
-      "genus": "Sapienza",
-      "language": "it"
-    },
-    {
-      "genus": "Knowledge",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ちしき",
+    "en": "Knowledge",
+    "fr": "Savoir",
+    "it": "Sapienza",
+    "de": "Wissen",
+    "es": "Sabiduría",
+    "ko": "지식"
+  },
   "varieties": [
     {
       "is_default": true,

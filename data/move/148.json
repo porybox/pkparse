@@ -2,36 +2,13 @@
   "id": 148,
   "name": "flash",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's accuracy by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,62 +20,68 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Flash",
-      "language": "en"
-    },
-    {
-      "name": "Flash",
-      "language": "it"
-    },
-    {
-      "name": "Destello",
-      "language": "es"
-    },
-    {
-      "name": "Blitz",
-      "language": "de"
-    },
-    {
-      "name": "Flash",
-      "language": "fr"
-    },
-    {
-      "name": "플래시",
-      "language": "ko"
-    },
-    {
-      "name": "フラッシュ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": 70,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
-      }
-    }
-  ],
+  "names": {
+    "ja": "フラッシュ",
+    "kana": "フラッシュ",
+    "en": "Flash",
+    "fr": "Flash",
+    "it": "Flash",
+    "de": "Blitz",
+    "es": "Destello",
+    "ko": "플래시",
+    "zh-CN": "闪光",
+    "zh-TW": "閃光"
+  },
+  "flavor_text_entries": {
+    "ja": "まぶしい　光で　相手の 命中率を　さげる。",
+    "kana": "まぶしい　ひかりで　あいての めいちゅうりつを　さげる。",
+    "en": "The user flashes a bright light that cuts the target’s accuracy.",
+    "fr": "Explosion lumineuse qui fait baisser la Précision de l’ennemi.",
+    "it": "Investe il bersaglio con una luce abbagliante che ne riduce la precisione.",
+    "de": "Erzeugt helles Licht, das die Genauigkeit des Zieles senkt.",
+    "es": "Luz cegadora que baja la Precisión del objetivo.",
+    "ko": "눈이 부신 빛으로 상대의 명중률을 떨어뜨린다.",
+    "zh-CN": "使出耀眼光芒， 从而降低对手的命中率。",
+    "zh-TW": "放出耀眼的光芒， 降低對手的命中率。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "accuracy"
-      }
+      "stat": "accuracy"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "まぶしい　光で　相手の 命中率を　さげる。 暗い場所も　明るく　照らせる。",
+          "kana": "まぶしい　ひかりで　あいての めいちゅうりつを　さげる。 くらいばしょも　あかるく　てらせる。",
+          "en": "The user flashes a bright light that cuts the target’s accuracy. It can also be used to illuminate dark caves.",
+          "fr": "Explosion lumineuse qui fait baisser la Précision de l’ennemi. Illumine les endroits sombres.",
+          "it": "Investe il bersaglio con una luce abbagliante che ne riduce la precisione. Serve anche per illuminare i luoghi bui.",
+          "de": "Erzeugt helles Licht, das die Genauigkeit des Zieles senkt. Erhellt dunkle Orte.",
+          "es": "Luz cegadora que baja la Precisión del objetivo. También puede usarse para iluminar lugares oscuros.",
+          "ko": "눈이 부신 빛으로 상대의 명중률을 떨어뜨린다. 어두운 곳도 밝게 비출 수 있다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "まぶしい　光で　相手の 命中率を　さげる。",
+          "kana": "まぶしい　ひかりで　あいての めいちゅうりつを　さげる。",
+          "en": "The user flashes a bright light that cuts the target’s accuracy.",
+          "fr": "Une explosion lumineuse qui fait baisser la Précision de l’ennemi.",
+          "it": "Investe il bersaglio con una luce abbagliante che ne riduce la precisione.",
+          "de": "Erzeugt helles Licht, das die Genauigkeit des Zieles senkt.",
+          "es": "Luz cegadora que baja la Precisión del objetivo.",
+          "ko": "눈이 부신 빛으로 상대의 명중률을 떨어뜨린다."
+        }
+      }
+    }
+  ]
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 29,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    }
+    "water2"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "fish"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ラブカス",
-      "language": "ja"
-    },
-    {
-      "name": "Lovecus",
-      "language": "roomaji"
-    },
-    {
-      "name": "사랑동이",
-      "language": "ko"
-    },
-    {
-      "name": "愛心魚",
-      "language": "zh"
-    },
-    {
-      "name": "Lovdisc",
-      "language": "fr"
-    },
-    {
-      "name": "Liebiskus",
-      "language": "de"
-    },
-    {
-      "name": "Luvdisc",
-      "language": "es"
-    },
-    {
-      "name": "Luvdisc",
-      "language": "it"
-    },
-    {
-      "name": "Luvdisc",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ラブカス",
+    "en": "Luvdisc",
+    "fr": "Lovdisc",
+    "it": "Luvdisc",
+    "de": "Liebiskus",
+    "es": "Luvdisc",
+    "ko": "사랑동이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ランデブー",
-      "language": "ja"
-    },
-    {
-      "genus": "랑데부",
-      "language": "ko"
-    },
-    {
-      "genus": "Rendezvous",
-      "language": "fr"
-    },
-    {
-      "genus": "Rendezvous",
-      "language": "de"
-    },
-    {
-      "genus": "Cita",
-      "language": "es"
-    },
-    {
-      "genus": "Rendezvous",
-      "language": "it"
-    },
-    {
-      "genus": "Rendezvous",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ランデブー",
+    "en": "Rendezvous",
+    "fr": "Rendezvous",
+    "it": "Rendezvous",
+    "de": "Rendezvous",
+    "es": "Cita",
+    "ko": "랑데부"
+  },
   "varieties": [
     {
       "is_default": true,

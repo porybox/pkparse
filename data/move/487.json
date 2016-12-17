@@ -2,34 +2,13 @@
   "id": 487,
   "name": "soak",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Changes the target to pure []{type:water}-type until it leaves the field.  If the target has []{ability:multitype}, this move will [fail]{mechanic:fail}.",
-      "short_effect": "Changes the target's type to Water.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Soak",
-      "language": "en"
-    },
-    {
-      "name": "Inondazione",
-      "language": "it"
-    },
-    {
-      "name": "Anegar",
-      "language": "es"
-    },
-    {
-      "name": "Überflutung",
-      "language": "de"
-    },
-    {
-      "name": "Détrempage",
-      "language": "fr"
-    },
-    {
-      "name": "물붓기",
-      "language": "ko"
-    },
-    {
-      "name": "みずびたし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "みずびたし",
+    "kana": "みずびたし",
+    "en": "Soak",
+    "fr": "Détrempage",
+    "it": "Inondazione",
+    "de": "Überflutung",
+    "es": "Anegar",
+    "ko": "물붓기",
+    "zh-CN": "浸水",
+    "zh-TW": "浸水"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "たくさんの　水を　浴びせかけて 相手を　みずタイプに　する。",
+    "kana": "たくさんの　みずを　あびせかけて あいてを　みずタイプに　する。",
+    "en": "The user shoots a torrent of water at the target and changes the target’s type to Water.",
+    "fr": "Le lanceur projette beaucoup d’eau sur sa cible, qui devient de type Eau.",
+    "it": "Chi la usa proietta un lungo getto d’acqua contro il bersaglio e lo rende un Pokémon di tipo Acqua.",
+    "de": "Überschüttet das Ziel mit Unmengen an Wasser und ändert den Typ damit in Wasser um.",
+    "es": "Potente lluvia que transforma al objetivo en un Pokémon de tipo Agua.",
+    "ko": "많은 물을 끼얹어서 상대를 물타입으로 바꾼다.",
+    "zh-CN": "将大量的水泼向对手， 从而使其变成水属性。",
+    "zh-TW": "朝對手灑下大量的水， 讓對手變成水屬性。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water"
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 78,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "fairy"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "quadruped"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "エネコ",
-      "language": "ja"
-    },
-    {
-      "name": "Eneco",
-      "language": "roomaji"
-    },
-    {
-      "name": "에나비",
-      "language": "ko"
-    },
-    {
-      "name": "向尾喵",
-      "language": "zh"
-    },
-    {
-      "name": "Skitty",
-      "language": "fr"
-    },
-    {
-      "name": "Eneco",
-      "language": "de"
-    },
-    {
-      "name": "Skitty",
-      "language": "es"
-    },
-    {
-      "name": "Skitty",
-      "language": "it"
-    },
-    {
-      "name": "Skitty",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エネコ",
+    "en": "Skitty",
+    "fr": "Skitty",
+    "it": "Skitty",
+    "de": "Eneco",
+    "es": "Skitty",
+    "ko": "에나비"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こねこ",
-      "language": "ja"
-    },
-    {
-      "genus": "작은고양이",
-      "language": "ko"
-    },
-    {
-      "genus": "Chaton",
-      "language": "fr"
-    },
-    {
-      "genus": "Kätzchen",
-      "language": "de"
-    },
-    {
-      "genus": "Gatito",
-      "language": "es"
-    },
-    {
-      "genus": "Micio",
-      "language": "it"
-    },
-    {
-      "genus": "Kitten",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こねこ",
+    "en": "Kitten",
+    "fr": "Chaton",
+    "it": "Micio",
+    "de": "Kätzchen",
+    "es": "Gatito",
+    "ko": "작은고양이"
+  },
   "varieties": [
     {
       "is_default": true,

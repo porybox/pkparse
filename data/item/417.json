@@ -1,0 +1,38 @@
+{
+  "id": 417,
+  "name": "tm90",
+  "names": {
+    "ja": "わざマシン９０",
+    "kana": "わざマシン９０",
+    "en": "TM90",
+    "fr": "CT90",
+    "it": "MT90",
+    "de": "TM90",
+    "es": "MT90",
+    "ko": "기술머신90",
+    "zh-CN": "招式学习器９０",
+    "zh-TW": "招式學習器９０"
+  },
+  "flavor_text_entries": {
+    "ja": "自分の　ＨＰを　少し　削って 分身を　だす。 分身は　自分の　身代わりに　なる。",
+    "kana": "じぶんの　ＨＰを　すこし　けずって ぶんしんを　だす。 ぶんしんは　じぶんの　みがわりに　なる。",
+    "en": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+    "fr": "Le lanceur fait une copie de lui-même en sacrifiant quelques PV. La copie sert de leurre.",
+    "it": "Chi la usa crea una copia di se stesso usando alcuni PS. La copia serve come esca per il nemico.",
+    "de": "Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.",
+    "es": "Quien lo usa utiliza parte de sus PS para hacer una copia de sí mismo que sirve como señuelo.",
+    "ko": "자신의 HP를 조금 깎아서 분신을 만든다. 분신은 자신의 대타가 된다.",
+    "zh-CN": "削减少许自己的ＨＰ， 制造分身。 分身将成为自己的替身。",
+    "zh-TW": "消耗一些自己的ＨＰ， 製造分身。 分身將成為自己的替身。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "じぶんの　ＨＰを　すこし　けずって ぶんしんを　だす。　じぶんの かわりに　こうげきを　うける。"
+        }
+      }
+    }
+  ]
+}

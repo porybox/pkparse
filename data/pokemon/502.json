@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 107,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "フタチマル",
-      "language": "ja"
-    },
-    {
-      "name": "쌍검자비",
-      "language": "ko"
-    },
-    {
-      "name": "Mateloutre",
-      "language": "fr"
-    },
-    {
-      "name": "Zwottronin",
-      "language": "de"
-    },
-    {
-      "name": "Dewott",
-      "language": "es"
-    },
-    {
-      "name": "Dewott",
-      "language": "it"
-    },
-    {
-      "name": "Dewott",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フタチマル",
+    "en": "Dewott",
+    "fr": "Mateloutre",
+    "it": "Dewott",
+    "de": "Zwottronin",
+    "es": "Dewott",
+    "ko": "쌍검자비"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しゅぎょう",
-      "language": "ja"
-    },
-    {
-      "genus": "수행",
-      "language": "ko"
-    },
-    {
-      "genus": "Entraînement",
-      "language": "fr"
-    },
-    {
-      "genus": "Schulung",
-      "language": "de"
-    },
-    {
-      "genus": "Superación",
-      "language": "es"
-    },
-    {
-      "genus": "Apprendista",
-      "language": "it"
-    },
-    {
-      "genus": "Discipline",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しゅぎょう",
+    "en": "Discipline",
+    "fr": "Entraînement",
+    "it": "Apprendista",
+    "de": "Schulung",
+    "es": "Superación",
+    "ko": "수행"
+  },
   "varieties": [
     {
       "is_default": true,

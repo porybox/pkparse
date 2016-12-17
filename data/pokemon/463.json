@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 135,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "humanoid"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ベロベルト",
-      "language": "ja"
-    },
-    {
-      "name": "Beroberto",
-      "language": "roomaji"
-    },
-    {
-      "name": "내룸벨트",
-      "language": "ko"
-    },
-    {
-      "name": "大舌舔",
-      "language": "zh"
-    },
-    {
-      "name": "Coudlangue",
-      "language": "fr"
-    },
-    {
-      "name": "Schlurplek",
-      "language": "de"
-    },
-    {
-      "name": "Lickilicky",
-      "language": "es"
-    },
-    {
-      "name": "Lickilicky",
-      "language": "it"
-    },
-    {
-      "name": "Lickilicky",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ベロベルト",
+    "en": "Lickilicky",
+    "fr": "Coudlangue",
+    "it": "Lickilicky",
+    "de": "Schlurplek",
+    "es": "Lickilicky",
+    "ko": "내룸벨트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "なめまわし",
-      "language": "ja"
-    },
-    {
-      "genus": "핥기",
-      "language": "ko"
-    },
-    {
-      "genus": "Lécheur",
-      "language": "fr"
-    },
-    {
-      "genus": "Schlecker",
-      "language": "de"
-    },
-    {
-      "genus": "Lametazo",
-      "language": "es"
-    },
-    {
-      "genus": "Linguaccia",
-      "language": "it"
-    },
-    {
-      "genus": "Licking",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "なめまわし",
+    "en": "Licking",
+    "fr": "Lécheur",
+    "it": "Linguaccia",
+    "de": "Schlecker",
+    "es": "Lametazo",
+    "ko": "핥기"
+  },
   "varieties": [
     {
       "is_default": true,

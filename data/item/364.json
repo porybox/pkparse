@@ -1,0 +1,45 @@
+{
+  "id": 364,
+  "name": "tm37",
+  "names": {
+    "ja": "わざマシン３７",
+    "kana": "わざマシン３７",
+    "en": "TM37",
+    "fr": "CT37",
+    "it": "MT37",
+    "de": "TM37",
+    "es": "MT37",
+    "ko": "기술머신37",
+    "zh-CN": "招式学习器３７",
+    "zh-TW": "招式學習器３７"
+  },
+  "flavor_text_entries": {
+    "ja": "５ターンの　あいだ　いわ　じめん はがねタイプ　以外に　ダメージ。 いわタイプの　特防が　あがる。",
+    "kana": "５ターンの　あいだ　いわ　じめん はがねタイプ　いがいに　ダメージ。 いわタイプの　とくぼうが　あがる。",
+    "en": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types. Raises the Sp. Def of Rock types.",
+    "fr": "Une tempête de sable qui blesse tous les Pokémon durant cinq tours, sauf ceux de type Roche, Sol ou Acier. Augmente la Déf. Spé. des Pokémon Roche.",
+    "it": "Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi esclusi Terra, Roccia e Acciaio. Aumenta la Dif. Speciale dei Pokémon di tipo Roccia.",
+    "de": "Ein Sandsturm trifft für 5 Runden alle Pokémon, bis auf jene vom Typ Boden, Gestein und Stahl. Erhöht die Sp.-Vert. von Gesteins-Pokémon.",
+    "es": "Daña durante cinco turnos a todos los Pokémon excepto a los de tipo Roca, Tierra y Acero. Aumenta la Defensa Especial de los Pokémon de tipo Roca.",
+    "ko": "5턴 동안 바위, 땅, 강철타입 이외에 데미지를 준다. 바위타입의 특수방어가 올라간다.",
+    "zh-CN": "在５回合内，除岩石、地面和 钢属性以外的宝可梦，都会受到伤害。 岩石属性的特防还会提高。",
+    "zh-TW": "在５回合內給予 岩石、地面和鋼屬性以外的寶可夢傷害。 岩石屬性寶可夢的特防會提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "５ターンの　あいだ　砂あらしで いわ　じめん　はがねタイプ　以外の ポケモンに　ダメージを　与える。",
+          "kana": "５ターンの　あいだ　すなあらしで じめん　いわ　はがね　タイプいがいに ダメージを　あたえる。",
+          "en": "A five-turn sandstorm is summoned to hurt all combatants except for Rock, Ground, and Steel types.",
+          "fr": "Une tempête de sable qui blesse tous les Pokémon durant cinq tours, sauf ceux de types Roche, Sol et Acier.",
+          "it": "Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi in campo esclusi Terra, Roccia e Acciaio.",
+          "de": "Ein Sandsturm trifft für 5 Runden alle Pokémon, außer die vom Typ Boden, Gestein und Stahl.",
+          "es": "Tormenta de arena de cinco turnos que daña a todos los Pokémon excepto a los de tipo Roca, Tierra y Acero.",
+          "ko": "5턴 동안 모래바람으로 바위, 땅, 강철타입 이외의 포켓몬에게 데미지를 준다."
+        }
+      }
+    }
+  ]
+}

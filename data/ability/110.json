@@ -1,210 +1,43 @@
 {
   "id": 110,
   "name": "tinted-lens",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "いろめがね",
+    "kana": "いろめがね",
+    "en": "Tinted Lens",
+    "fr": "Lentiteintée",
+    "it": "Lentifumé",
+    "de": "Aufwertung",
+    "es": "Cromolente",
+    "ko": "색안경",
+    "zh-CN": "有色眼镜",
+    "zh-TW": "有色眼鏡"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "効果が　いまひとつの　技を 通常の　威力で 出すことが　できる。",
+    "kana": "こうかが　いまひとつの　わざを つうじょうの　いりょくで だすことが　できる。",
+    "en": "The Pokémon can use “not very effective” moves to deal regular damage. ",
+    "fr": "Permet à une capacité « pas très efficace » d’infliger des dégâts comme si elle était efficace normalement.",
+    "it": "Permette alle mosse non molto efficaci di infliggere danni normalmente senza essere penalizzate dalla compatibilità di tipo sfavorevole.",
+    "de": "Bewirkt, dass nicht sehr effektive Attacken dem Ziel trotz des Typennachteils normalen Schaden zufügen.",
+    "es": "Potencia los movimientos que no son muy eficaces.",
+    "ko": "효과가 별로인 기술을 통상의 위력으로 쓸 수 있다.",
+    "zh-CN": "可以将效果不好的招式 以通常的威力使出。",
+    "zh-TW": "可將效果不好的招式 以正常的威力使出。"
+  },
+  "past_values": [
     {
-      "name": "Tinted Lens",
-      "language": "en"
-    },
-    {
-      "name": "Lentifumé",
-      "language": "it"
-    },
-    {
-      "name": "Cromolente",
-      "language": "es"
-    },
-    {
-      "name": "Aufwertung",
-      "language": "de"
-    },
-    {
-      "name": "Lentiteintée",
-      "language": "fr"
-    },
-    {
-      "name": "색안경",
-      "language": "ko"
-    },
-    {
-      "name": "いろめがね",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon deals twice as much damage with moves that are [not very effective]{mechanic:not-very-effective} against the target.",
-      "short_effect": "Doubles damage inflicted with [not-very-effective]{mechanic:not-very-effective} moves.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "効果いまひとつ　のとき\n技を　強める。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Powers up “not very\neffective” moves.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Potenzia le mosse non molto\nefficaci.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Potencia los movimientos que no\nson muy eficaces.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Verstärkt nicht sehr effektive\nAttacken.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Améliore les capacités « pas très\nefficaces ».",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "효과가 별로인 기술이\n강해진다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "こうかいまひとつ　のとき\nわざを　つよめる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Powers up “not very\neffective” moves.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up “not very\neffective” moves.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Améliore les capacités\n“pas très efficaces”.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Powers up “not very\neffective” moves.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up “not very\neffective” moves.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up “not very\neffective” moves.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "butterfree"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "venonat"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "venomoth"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "hoothoot"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "noctowl"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "illumise"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "mothim"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "yanmega"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "sigilyph"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "効果いまひとつ　のとき 技を　強める。",
+          "kana": "こうかいまひとつ　のとき わざを　つよめる。",
+          "en": "Powers up “not very effective” moves.",
+          "fr": "Améliore les capacités « pas très efficaces ».",
+          "it": "Potenzia le mosse non molto efficaci.",
+          "de": "Verstärkt nicht sehr effektive Attacken.",
+          "ko": "효과가 별로인 기술이 강해진다."
+        }
       }
     }
   ]

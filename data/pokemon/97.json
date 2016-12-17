@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 88,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "humanoid"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "スリーパー",
-      "language": "ja"
-    },
-    {
-      "name": "Sleeper",
-      "language": "roomaji"
-    },
-    {
-      "name": "슬리퍼",
-      "language": "ko"
-    },
-    {
-      "name": "素利拍",
-      "language": "zh"
-    },
-    {
-      "name": "Hypnomade",
-      "language": "fr"
-    },
-    {
-      "name": "Hypno",
-      "language": "de"
-    },
-    {
-      "name": "Hypno",
-      "language": "es"
-    },
-    {
-      "name": "Hypno",
-      "language": "it"
-    },
-    {
-      "name": "Hypno",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "スリーパー",
+    "en": "Hypno",
+    "fr": "Hypnomade",
+    "it": "Hypno",
+    "de": "Hypno",
+    "es": "Hypno",
+    "ko": "슬리퍼"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さいみん",
-      "language": "ja"
-    },
-    {
-      "genus": "최면",
-      "language": "ko"
-    },
-    {
-      "genus": "Hypnose",
-      "language": "fr"
-    },
-    {
-      "genus": "Hypnose",
-      "language": "de"
-    },
-    {
-      "genus": "Hipnosis",
-      "language": "es"
-    },
-    {
-      "genus": "Ipnosi",
-      "language": "it"
-    },
-    {
-      "genus": "Hypnosis",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さいみん",
+    "en": "Hypnosis",
+    "fr": "Hypnose",
+    "it": "Ipnosi",
+    "de": "Hypnose",
+    "es": "Hipnosis",
+    "ko": "최면"
+  },
   "varieties": [
     {
       "is_default": true,

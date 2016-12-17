@@ -1,0 +1,38 @@
+{
+  "id": 14,
+  "name": "heal-ball",
+  "names": {
+    "ja": "ヒールボール",
+    "kana": "ヒールボール",
+    "en": "Heal Ball",
+    "fr": "Soin Ball",
+    "it": "Cura Ball",
+    "de": "Heilball",
+    "es": "Sana Ball",
+    "ko": "힐볼",
+    "zh-CN": "治愈球",
+    "zh-TW": "治癒球"
+  },
+  "flavor_text_entries": {
+    "ja": "捕まえた　ポケモンの　ＨＰと 状態異常を　回復する ちょっと　やさしい　ボール。",
+    "kana": "つかまえた　ポケモンの　ＨＰと じょうたい　いじょうを　かいふくする ちょっと　やさしい　ボール。",
+    "en": "A remedial Poké Ball that restores the HP of a Pokémon caught with it and eliminates any status conditions.",
+    "fr": "Une Poké Ball de soin qui rend tous ses PV au Pokémon attrapé et qui soigne tous ses changements de statut.",
+    "it": "Poké Ball curativa che ridà PS al Pokémon catturato e cura tutti i problemi di stato.",
+    "de": "Ein wohltuender Ball. Er füllt alle KP des gefangenen Pokémon auf und behebt alle Statusprobleme.",
+    "es": "Poké Ball curativa que restaura los PS y cura todos los problemas de estado de un Pokémon después de capturarlo.",
+    "ko": "잡은 포켓몬의 HP와 상태 이상을 회복시키는 조금 다정한 볼.",
+    "zh-CN": "有点温柔的球。 能回复捉到的宝可梦的 ＨＰ并治愈异常状态。",
+    "zh-TW": "有點溫柔的球。 能回復捉到的寶可夢的 ＨＰ並治癒異常狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une Poké Ball de soin qui rend tous les PV du Pokémon attrapé et qui soigne tous les changements de statut."
+        }
+      }
+    }
+  ]
+}

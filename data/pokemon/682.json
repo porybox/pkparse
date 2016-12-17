@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 129,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "arms"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "シュシュプ",
-      "language": "ja"
-    },
-    {
-      "name": "슈쁘",
-      "language": "ko"
-    },
-    {
-      "name": "Fluvetin",
-      "language": "fr"
-    },
-    {
-      "name": "Parfi",
-      "language": "de"
-    },
-    {
-      "name": "Spritzee",
-      "language": "es"
-    },
-    {
-      "name": "Spritzee",
-      "language": "it"
-    },
-    {
-      "name": "Spritzee",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "シュシュプ",
+    "en": "Spritzee",
+    "fr": "Fluvetin",
+    "it": "Spritzee",
+    "de": "Parfi",
+    "es": "Spritzee",
+    "ko": "슈쁘"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こうすい",
-      "language": "ja"
-    },
-    {
-      "genus": "향수",
-      "language": "ko"
-    },
-    {
-      "genus": "Fragrance",
-      "language": "fr"
-    },
-    {
-      "genus": "Parfüm",
-      "language": "de"
-    },
-    {
-      "genus": "Aroma",
-      "language": "es"
-    },
-    {
-      "genus": "Profumo",
-      "language": "it"
-    },
-    {
-      "genus": "Perfume",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こうすい",
+    "en": "Perfume",
+    "fr": "Fragrance",
+    "it": "Profumo",
+    "de": "Parfüm",
+    "es": "Aroma",
+    "ko": "향수"
+  },
   "varieties": [
     {
       "is_default": true,

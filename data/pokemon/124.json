@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 84,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "humanoid"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ルージュラ",
-      "language": "ja"
-    },
-    {
-      "name": "Rougela",
-      "language": "roomaji"
-    },
-    {
-      "name": "루주라",
-      "language": "ko"
-    },
-    {
-      "name": "迷唇姐",
-      "language": "zh"
-    },
-    {
-      "name": "Lippoutou",
-      "language": "fr"
-    },
-    {
-      "name": "Rossana",
-      "language": "de"
-    },
-    {
-      "name": "Jynx",
-      "language": "es"
-    },
-    {
-      "name": "Jynx",
-      "language": "it"
-    },
-    {
-      "name": "Jynx",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ルージュラ",
+    "en": "Jynx",
+    "fr": "Lippoutou",
+    "it": "Jynx",
+    "de": "Rossana",
+    "es": "Jynx",
+    "ko": "루주라"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひとがた",
-      "language": "ja"
-    },
-    {
-      "genus": "인간형태",
-      "language": "ko"
-    },
-    {
-      "genus": "Humanoïde",
-      "language": "fr"
-    },
-    {
-      "genus": "Humanotyp",
-      "language": "de"
-    },
-    {
-      "genus": "Forma Humana",
-      "language": "es"
-    },
-    {
-      "genus": "Umanoide",
-      "language": "it"
-    },
-    {
-      "genus": "Human Shape",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひとがた",
+    "en": "Human Shape",
+    "fr": "Humanoïde",
+    "it": "Umanoide",
+    "de": "Humanotyp",
+    "es": "Forma Humana",
+    "ko": "인간형태"
+  },
   "varieties": [
     {
       "is_default": true,

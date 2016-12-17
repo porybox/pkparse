@@ -2,34 +2,13 @@
   "id": 480,
   "name": "storm-throw",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Always scores a [critical hit]{mechanic:critical-hit}.",
-      "short_effect": "Always scores a critical hit.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Storm Throw",
-      "language": "en"
-    },
-    {
-      "name": "Tempestretta",
-      "language": "it"
-    },
-    {
-      "name": "Llave Corsé",
-      "language": "es"
-    },
-    {
-      "name": "Bergsturm",
-      "language": "de"
-    },
-    {
-      "name": "Yama Arashi",
-      "language": "fr"
-    },
-    {
-      "name": "업어후리기",
-      "language": "ko"
-    },
-    {
-      "name": "やまあらし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "やまあらし",
+    "kana": "やまあらし",
+    "en": "Storm Throw",
+    "fr": "Yama Arashi",
+    "it": "Tempestretta",
+    "de": "Bergsturm",
+    "es": "Llave Corsé",
+    "ko": "업어후리기",
+    "zh-CN": "山岚摔",
+    "zh-TW": "山嵐摔"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "強烈な　一撃を 相手に　くりだす。攻撃は 必ず　急所に　当たる。",
+    "kana": "きょうれつな　いちげきを あいてに　くりだす。こうげきは かならず　きゅうしょに　あたる。",
+    "en": "The user strikes the target with a fierce blow. This attack always results in a critical hit.",
+    "fr": "Un coup très puissant dont l’effet est toujours critique.",
+    "it": "Chi la usa sferra un colpo micidiale al bersaglio. Brutto colpo assicurato.",
+    "de": "Ein Angriff mit voller Wucht und Volltreffergarantie.",
+    "es": "Lanza un golpe fulminante. Siempre asesta un golpe crítico.",
+    "ko": "강렬한 일격을 상대에게 날린다. 공격은 반드시 급소에 맞는다.",
+    "zh-CN": "向对手使出强烈的一击。 攻击必定会击中要害。",
+    "zh-TW": "向對手發動強烈的一擊。 一定會擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa sferra un colpo micidiale al bersaglio, stritolandolo. Brutto colpo assicurato.",
+          "es": "Lanza un golpe fulminante. Siempre resulta en un golpe crítico."
+        }
+      }
+    }
+  ]
 }

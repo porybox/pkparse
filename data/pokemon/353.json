@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 122,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "ball"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "カゲボウズ",
-      "language": "ja"
-    },
-    {
-      "name": "Kagebouzu",
-      "language": "roomaji"
-    },
-    {
-      "name": "어둠대신",
-      "language": "ko"
-    },
-    {
-      "name": "怨影娃娃",
-      "language": "zh"
-    },
-    {
-      "name": "Polichombr",
-      "language": "fr"
-    },
-    {
-      "name": "Shuppet",
-      "language": "de"
-    },
-    {
-      "name": "Shuppet",
-      "language": "es"
-    },
-    {
-      "name": "Shuppet",
-      "language": "it"
-    },
-    {
-      "name": "Shuppet",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カゲボウズ",
+    "en": "Shuppet",
+    "fr": "Polichombr",
+    "it": "Shuppet",
+    "de": "Shuppet",
+    "es": "Shuppet",
+    "ko": "어둠대신"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "にんぎょう",
-      "language": "ja"
-    },
-    {
-      "genus": "인형",
-      "language": "ko"
-    },
-    {
-      "genus": "Poupée",
-      "language": "fr"
-    },
-    {
-      "genus": "Puppe",
-      "language": "de"
-    },
-    {
-      "genus": "Títere",
-      "language": "es"
-    },
-    {
-      "genus": "Pupazzo",
-      "language": "it"
-    },
-    {
-      "genus": "Puppet",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "にんぎょう",
+    "en": "Puppet",
+    "fr": "Poupée",
+    "it": "Pupazzo",
+    "de": "Puppe",
+    "es": "Títere",
+    "ko": "인형"
+  },
   "varieties": [
     {
       "is_default": true,

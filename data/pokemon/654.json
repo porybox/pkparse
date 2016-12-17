@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 5,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "テールナー",
-      "language": "ja"
-    },
-    {
-      "name": "테르나",
-      "language": "ko"
-    },
-    {
-      "name": "Roussil",
-      "language": "fr"
-    },
-    {
-      "name": "Rutena",
-      "language": "de"
-    },
-    {
-      "name": "Braixen",
-      "language": "es"
-    },
-    {
-      "name": "Braixen",
-      "language": "it"
-    },
-    {
-      "name": "Braixen",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "テールナー",
+    "en": "Braixen",
+    "fr": "Roussil",
+    "it": "Braixen",
+    "de": "Rutena",
+    "es": "Braixen",
+    "ko": "테르나"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "キツネ",
-      "language": "ja"
-    },
-    {
-      "genus": "여우",
-      "language": "ko"
-    },
-    {
-      "genus": "Renard",
-      "language": "fr"
-    },
-    {
-      "genus": "Fuchs",
-      "language": "de"
-    },
-    {
-      "genus": "Zorro",
-      "language": "es"
-    },
-    {
-      "genus": "Volpe",
-      "language": "it"
-    },
-    {
-      "genus": "Fox",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "キツネ",
+    "en": "Fox",
+    "fr": "Renard",
+    "it": "Volpe",
+    "de": "Fuchs",
+    "es": "Zorro",
+    "ko": "여우"
+  },
   "varieties": [
     {
       "is_default": true,

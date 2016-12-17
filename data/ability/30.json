@@ -1,273 +1,41 @@
 {
   "id": 30,
   "name": "natural-cure",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "しぜんかいふく",
+    "kana": "しぜんかいふく",
+    "en": "Natural Cure",
+    "fr": "Médic Nature",
+    "it": "Alternacura",
+    "de": "Innere Kraft",
+    "es": "Cura Natural",
+    "ko": "자연회복",
+    "zh-CN": "自然回复",
+    "zh-TW": "自然回復"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "手持ちに　ひっこむと 状態異常が　治る。",
+    "kana": "てもちに　ひっこむと じょうたい　いじょうが　なおる。",
+    "en": "All status conditions heal when the Pokémon switches out.",
+    "fr": "Le Pokémon soigne ses altérations de statut en quittant le combat.",
+    "it": "Cura i problemi di stato quando il Pokémon viene sostituito.",
+    "de": "Wird das Pokémon ausgewechselt, werden seine Statusprobleme geheilt.",
+    "es": "Cura problemas de estado al cambiar de Pokémon.",
+    "ko": "지닌 포켓몬으로 돌아오면 상태 이상이 회복된다.",
+    "zh-CN": "回到同行队伍后， 异常状态就会被治愈。",
+    "zh-TW": "異常狀態會在 離場後治癒。"
+  },
+  "past_values": [
     {
-      "name": "Natural Cure",
-      "language": "en"
-    },
-    {
-      "name": "Alternacura",
-      "language": "it"
-    },
-    {
-      "name": "Cura Natural",
-      "language": "es"
-    },
-    {
-      "name": "Innere Kraft",
-      "language": "de"
-    },
-    {
-      "name": "Médic Nature",
-      "language": "fr"
-    },
-    {
-      "name": "자연회복",
-      "language": "ko"
-    },
-    {
-      "name": "しぜんかいふく",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon is cured of any [major status ailment]{mechanic:major-status-ailment} when it is switched out for another Pokémon.\n\nIf this ability is acquired during battle, the Pokémon is cured upon leaving battle before losing the temporary ability.",
-      "short_effect": "Cures any [major status ailment]{mechanic:major-status-ailment} upon switching out.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "状態異常が\nひっこむと　治る。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "All status conditions heal when\nthe Pokémon switches out.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Cura i problemi di stato quando\nil Pokémon viene sostituito.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Cura problemas de estado al\ncambiar de Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Heilt bei Austausch\nStatusprobleme.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Quitter le combat soigne les\nproblèmes de statut.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "배틀에서 일단 물러나면\n상태 이상이 회복된다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "じょうたい　いじょうが\nひっこむと　なおる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "All status problems heal\nwhen it switches out.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "All status problems heal\nwhen it switches out.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Quitter le combat soigne\nles problèmes de statut.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "All status problems heal\nwhen it switches out.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "All status problems are\nhealed upon switching out.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "All status problems are\nhealed upon switching out.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Heals upon switching out.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Heals upon switching out.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Heals upon switching out.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "chansey"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "staryu"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "starmie"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "corsola"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "blissey"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "celebi"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "roselia"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "swablu"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "altaria"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "budew"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "roserade"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "happiny"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "shaymin-land"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "phantump"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "trevenant"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "状態異常が ひっこむと　治る。",
+          "kana": "じょうたい　いじょうが ひっこむと　なおる。",
+          "fr": "Quitter le combat soigne les problèmes de statut.",
+          "de": "Heilt bei Austausch Statusprobleme.",
+          "ko": "배틀에서 일단 물러나면 상태 이상이 회복된다."
+        }
       }
     }
   ]

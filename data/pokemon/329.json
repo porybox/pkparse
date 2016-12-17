@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 4,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "bug-wings"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ビブラーバ",
-      "language": "ja"
-    },
-    {
-      "name": "Vibrava",
-      "language": "roomaji"
-    },
-    {
-      "name": "비브라바",
-      "language": "ko"
-    },
-    {
-      "name": "超音波幼蟲",
-      "language": "zh"
-    },
-    {
-      "name": "Vibraninf",
-      "language": "fr"
-    },
-    {
-      "name": "Vibrava",
-      "language": "de"
-    },
-    {
-      "name": "Vibrava",
-      "language": "es"
-    },
-    {
-      "name": "Vibrava",
-      "language": "it"
-    },
-    {
-      "name": "Vibrava",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ビブラーバ",
+    "en": "Vibrava",
+    "fr": "Vibraninf",
+    "it": "Vibrava",
+    "de": "Vibrava",
+    "es": "Vibrava",
+    "ko": "비브라바"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しんどう",
-      "language": "ja"
-    },
-    {
-      "genus": "진동",
-      "language": "ko"
-    },
-    {
-      "genus": "Vibration",
-      "language": "fr"
-    },
-    {
-      "genus": "Vibration",
-      "language": "de"
-    },
-    {
-      "genus": "Vibrante",
-      "language": "es"
-    },
-    {
-      "genus": "Vibrazione",
-      "language": "it"
-    },
-    {
-      "genus": "Vibration",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しんどう",
+    "en": "Vibration",
+    "fr": "Vibration",
+    "it": "Vibrazione",
+    "de": "Vibration",
+    "es": "Vibrante",
+    "ko": "진동"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,49 +2,13 @@
   "id": 52,
   "name": "ember",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 25,
   "priority": 0,
   "power": 40,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sunny-day"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "short_effect": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "burn",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Ember",
-      "language": "en"
-    },
-    {
-      "name": "Braciere",
-      "language": "it"
-    },
-    {
-      "name": "Ascuas",
-      "language": "es"
-    },
-    {
-      "name": "Glut",
-      "language": "de"
-    },
-    {
-      "name": "Flammèche",
-      "language": "fr"
-    },
-    {
-      "name": "불꽃세례",
-      "language": "ko"
-    },
-    {
-      "name": "ひのこ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ひのこ",
+    "kana": "ひのこ",
+    "en": "Ember",
+    "fr": "Flammèche",
+    "it": "Braciere",
+    "de": "Glut",
+    "es": "Ascuas",
+    "ko": "불꽃세례",
+    "zh-CN": "火花",
+    "zh-TW": "火花"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "小さな　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+    "kana": "ちいさな　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+    "en": "The target is attacked with small flames. This may also leave the target with a burn.",
+    "fr": "L’ennemi est attaqué par une faible flamme. Peut aussi le brûler.",
+    "it": "Il bersaglio viene colpito da fiammelle che possono anche scottarlo.",
+    "de": "Schwache Feuer-Attacke, durch die das Ziel eventuell Verbrennungen erleidet.",
+    "es": "Ataca con llamas pequeñas que pueden causar quemaduras.",
+    "ko": "작은 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+    "zh-CN": "向对手发射 小型火焰进行攻击。 有时会让对手陷入灼伤状态。",
+    "zh-TW": "向對手發射 小火焰進行攻擊。 有時會讓對手陷入灼傷狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "L’ennemi est attaqué par de faibles flammes. Peut aussi le brûler."
+        }
+      }
+    }
+  ]
 }

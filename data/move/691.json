@@ -1,0 +1,55 @@
+{
+  "id": 691,
+  "name": "clanging-scales",
+  "accuracy": 100,
+  "pp": 5,
+  "priority": 0,
+  "power": 110,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage+raise",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": {
+    "ja": "スケイルノイズ",
+    "kana": "スケイルノイズ",
+    "en": "Clanging Scales",
+    "fr": "Vibrécaille",
+    "it": "Clamorsquame",
+    "de": "Schuppenrasseln",
+    "es": "Fragor Escamas",
+    "ko": "스케일노이즈",
+    "zh-CN": "鳞片噪音",
+    "zh-TW": "鱗片噪音"
+  },
+  "flavor_text_entries": {
+    "ja": "全身の　うろこを　こすり 大きな　音を　出して　攻撃する。 攻撃後　自分の　防御が　さがる。",
+    "kana": "ぜんしんの　うろこを　こすり おおきな　おとを　だして　こうげきする。 こうげきご　じぶんの　ぼうぎょが　さがる。",
+    "en": "The user rubs the scales on its entire body and makes a huge noise to attack the opposing Pokémon. The user’s Defense stat goes down after the attack.",
+    "fr": "Le lanceur déclenche un vacarme en frottant ses écailles les unes contre les autres pour attaquer. Baisse la Défense du lanceur.",
+    "it": "Chi la usa attacca il bersaglio con un suono fortissimo che genera sfregando le scaglie del corpo. Dopo aver attaccato, la sua Difesa diminuisce.",
+    "de": "Der Anwender erzeugt durch das Rasseln mit seinen Schuppen ein lautes Geräusch und greift an. Anschließend sinkt seine Verteidigung.",
+    "es": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, su Defensa se ve reducida.",
+    "ko": "전신의 비늘을 비벼서 큰 소리를 내 공격한다. 공격 후 자신의 방어가 떨어진다.",
+    "zh-CN": "摩擦全身鳞片， 发出响亮的声音进行攻击。 攻击后自己的防御会降低。",
+    "zh-TW": "摩擦全身鱗片， 發出響亮的聲音並進行攻擊。 攻擊後自己的防禦會降低。"
+  },
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": "defense"
+    }
+  ],
+  "target": "all-opponents",
+  "type": "dragon"
+}

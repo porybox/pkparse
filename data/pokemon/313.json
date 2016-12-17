@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 133,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    },
-    {
-      "name": "bug"
-    }
+    "bug",
+    "humanshape"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "upright"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "バルビート",
-      "language": "ja"
-    },
-    {
-      "name": "Barubeat",
-      "language": "roomaji"
-    },
-    {
-      "name": "볼비트",
-      "language": "ko"
-    },
-    {
-      "name": "電螢蟲",
-      "language": "zh"
-    },
-    {
-      "name": "Muciole",
-      "language": "fr"
-    },
-    {
-      "name": "Volbeat",
-      "language": "de"
-    },
-    {
-      "name": "Volbeat",
-      "language": "es"
-    },
-    {
-      "name": "Volbeat",
-      "language": "it"
-    },
-    {
-      "name": "Volbeat",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バルビート",
+    "en": "Volbeat",
+    "fr": "Muciole",
+    "it": "Volbeat",
+    "de": "Volbeat",
+    "es": "Volbeat",
+    "ko": "볼비트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほたる",
-      "language": "ja"
-    },
-    {
-      "genus": "반딧불",
-      "language": "ko"
-    },
-    {
-      "genus": "Luciole",
-      "language": "fr"
-    },
-    {
-      "genus": "Libelle",
-      "language": "de"
-    },
-    {
-      "genus": "Luciérnaga",
-      "language": "es"
-    },
-    {
-      "genus": "Lucciola",
-      "language": "it"
-    },
-    {
-      "genus": "Firefly",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほたる",
+    "en": "Firefly",
+    "fr": "Luciole",
+    "it": "Lucciola",
+    "de": "Glühwürmchen",
+    "es": "Luciérnaga",
+    "ko": "반딧불"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -147,9 +89,20 @@
   "base_stats": {
     "hp": 65,
     "attack": 73,
-    "defense": 55,
+    "defense": 75,
     "special-attack": 47,
-    "special-defense": 75,
+    "special-defense": 85,
     "speed": 85
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "defense": 55,
+          "special-defense": 75
+        }
+      }
+    }
+  ]
 }

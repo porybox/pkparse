@@ -1,0 +1,38 @@
+{
+  "id": 43,
+  "name": "berry-juice",
+  "names": {
+    "ja": "きのみジュース",
+    "kana": "きのみジュース",
+    "en": "Berry Juice",
+    "fr": "Jus de Baie",
+    "it": "Succodibacca",
+    "de": "Beerensaft",
+    "es": "Zumo de Baya",
+    "ko": "나무열매쥬스",
+    "zh-CN": "树果汁",
+    "zh-TW": "樹果汁"
+  },
+  "flavor_text_entries": {
+    "ja": "きのみ　１００％の　ジュース。 ポケモン　１匹の　ＨＰを ２０だけ　回復する。",
+    "kana": "きのみ　１００％の　ジュース。 ポケモン　１ひきの　ＨＰを ２０だけ　かいふくする。",
+    "en": "A 100 percent pure juice made of Berries. When consumed, it restores 20 HP to an injured Pokémon.",
+    "fr": "Une boisson 100 % pur Jus de Baie. Restaure 20 PV d’un Pokémon.",
+    "it": "Bevanda di puro succo di bacche. Restituisce 20 PS a un Pokémon.",
+    "de": "Hundertprozentiger Fruchtsaft, aus Beeren gekeltert. Füllt die KP eines Pokémon um 20 Punkte auf.",
+    "es": "Zumo de bayas 100% natural que restaura 20 PS de un Pokémon.",
+    "ko": "나무열매 100% 쥬스. 포켓몬 1마리의 HP를 20만큼 회복한다.",
+    "zh-CN": "１００％树果果汁。 能让１只宝可梦 回复２０ＨＰ。",
+    "zh-TW": "１００％樹果果汁。 能讓１隻寶可夢 回復２０ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Hundertprozentiger Fruchtsaft, aus Beeren gekeltert. Füllt die KP eines Pokémon um 20 KP auf."
+        }
+      }
+    }
+  ]
+}

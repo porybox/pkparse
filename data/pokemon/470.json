@@ -9,9 +9,7 @@
   "hatch_counter": 35,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 83,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "リーフィア",
-      "language": "ja"
-    },
-    {
-      "name": "Leafia",
-      "language": "roomaji"
-    },
-    {
-      "name": "리피아",
-      "language": "ko"
-    },
-    {
-      "name": "葉精靈",
-      "language": "zh"
-    },
-    {
-      "name": "Phyllali",
-      "language": "fr"
-    },
-    {
-      "name": "Folipurba",
-      "language": "de"
-    },
-    {
-      "name": "Leafeon",
-      "language": "es"
-    },
-    {
-      "name": "Leafeon",
-      "language": "it"
-    },
-    {
-      "name": "Leafeon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "リーフィア",
+    "en": "Leafeon",
+    "fr": "Phyllali",
+    "it": "Leafeon",
+    "de": "Folipurba",
+    "es": "Leafeon",
+    "ko": "리피아"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しんりょく",
-      "language": "ja"
-    },
-    {
-      "genus": "심록",
-      "language": "ko"
-    },
-    {
-      "genus": "Verdoyant",
-      "language": "fr"
-    },
-    {
-      "genus": "Unreif",
-      "language": "de"
-    },
-    {
-      "genus": "Verdor",
-      "language": "es"
-    },
-    {
-      "genus": "Rigoglioso",
-      "language": "it"
-    },
-    {
-      "genus": "Verdant",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しんりょく",
+    "en": "Verdant",
+    "fr": "Verdoyant",
+    "it": "Rigoglioso",
+    "de": "Unreif",
+    "es": "Verdor",
+    "ko": "심록"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,39 @@
+{
+  "id": 257,
+  "name": "metal-powder",
+  "names": {
+    "ja": "メタルパウダー",
+    "kana": "メタルパウダー",
+    "en": "Metal Powder",
+    "fr": "Poudre Métal",
+    "it": "Metalpolvere",
+    "de": "Metallstaub",
+    "es": "Polvo Metálico",
+    "ko": "금속파우더",
+    "zh-CN": "金属粉",
+    "zh-TW": "金屬粉"
+  },
+  "flavor_text_entries": {
+    "ja": "メタモンに　持たせると　防御が あがる　不思議な粉。 とても　こまかくて　硬い。",
+    "kana": "メタモンに　もたせると　ぼうぎょが あがる　ふしぎなこな。 とても　こまかくて　かたい。",
+    "en": "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Defense stat.",
+    "fr": "Objet à faire tenir à Métamorph. Cette poudre étrange, très fine mais résistante, augmente sa Défense.",
+    "it": "Strumento da dare a Ditto. Strana polvere finissima e al tempo stesso dura che migliora la Difesa.",
+    "de": "Ein Item, das Ditto zum Tragen gegeben werden kann. Fein und doch hart, erhöht es den Verteidigungs-Wert.",
+    "es": "Debe llevarlo Ditto. Es un polvo muy fino, pero a la vez poderoso, que aumenta su Defensa.",
+    "ko": "메타몽에게 지니게 하면 방어가 올라가는 이상한 가루. 매우 잘고 단단하다.",
+    "zh-CN": "让百变怪携带后， 防御就会提高的神奇粉末。 非常细腻坚硬。",
+    "zh-TW": "讓百變怪攜帶後， 防禦就會提高的神奇粉末。 非常細緻堅硬。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ein Item, das von Ditto getragen werden kann. Es erhöht seinen Verteidigungs-Wert.",
+          "es": "Debe llevarlo Ditto. Es un polvo muy fino, pero a la vez resistente, que aumenta su Defensa."
+        }
+      }
+    }
+  ]
+}

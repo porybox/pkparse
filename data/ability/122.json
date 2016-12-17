@@ -1,154 +1,54 @@
 {
   "id": 122,
   "name": "flower-gift",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "フラワーギフト",
+    "kana": "フラワーギフト",
+    "en": "Flower Gift",
+    "fr": "Don Floral",
+    "it": "Regalfiore",
+    "de": "Pflanzengabe",
+    "es": "Don Floral",
+    "ko": "플라워기프트",
+    "zh-CN": "花之礼",
+    "zh-TW": "花之禮"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "天気が　晴れのとき 自分と　味方の　攻撃と 特防の　能力が　上がる。",
+    "kana": "てんきが　はれのとき じぶんと　みかたの　こうげきと とくぼうの　のうりょくが　あがる。",
+    "en": "Boosts the Attack and Sp. Def stats of itself and allies when it is sunny.",
+    "fr": "Augmente l’Attaque et la Défense Spéciale du Pokémon et de ses alliés lorsque le soleil brille.",
+    "it": "Se la luce del sole è intensa, aumenta la Difesa Speciale e l’Attacco del Pokémon e dei suoi alleati.",
+    "de": "Erhöht bei Sonnenschein den Angriff und die Spezial-Verteidigung aller Team-Pokémon.",
+    "es": "Aumenta el Ataque y la Defensa Especial de todos los Pokémon del equipo si hace sol.",
+    "ko": "날씨가 맑을 때 자신과 같은 편의 공격과 특수방어의 능력이 올라간다.",
+    "zh-CN": "晴朗天气时， 自己与同伴的攻击和 特防能力会提高。",
+    "zh-TW": "天氣為晴朗時， 自己和同伴的攻擊和 特防能力會提高。"
+  },
+  "past_values": [
     {
-      "name": "Flower Gift",
-      "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "晴れのとき　自分と 味方が　強くなる。",
+          "kana": "はれのとき　じぶんと みかたが　つよくなる。",
+          "en": "Powers up party Pokémon when it is sunny.",
+          "fr": "Rend les Pokémon de l’équipe plus puissants au soleil.",
+          "it": "Se c’è il sole, potenzia chi la usa e gli alleati.",
+          "de": "Steigert bei Sonne die Effektivität aller Team-Pokémon.",
+          "es": "Potencia a todos los Pokémon del equipo si está soleado.",
+          "ko": "맑을 때 자신과 같은 편이 강해진다."
+        }
+      }
     },
     {
-      "name": "Regalfiore",
-      "language": "it"
-    },
-    {
-      "name": "Don Floral",
-      "language": "es"
-    },
-    {
-      "name": "Pflanzengabe",
-      "language": "de"
-    },
-    {
-      "name": "Don Floral",
-      "language": "fr"
-    },
-    {
-      "name": "플라워기프트",
-      "language": "ko"
-    },
-    {
-      "name": "フラワーギフト",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Friendly Pokémon have 1.5× their [Attack]{mechanic:attack} and [Special Defense]{mechanic:special-defense} during [strong sunlight]{mechanic:strong-sunlight} if any friendly Pokémon has this ability.\n\nUnlike []{ability:forecast}, []{ability:multitype}, and []{ability:zen-mode}, this ability is not tied to its Pokémon's form change; []{pokemon:cherrim} will switch between its forms even if it loses this ability.  As such, this ability also works if obtained by a Pokémon other than Cherrim.",
-      "short_effect": "Increases friendly Pokémon's [Attack]{mechanic:attack} and [Special Defense]{mechanic:special-defense} to 1.5× during [strong sunlight]{mechanic:strong-sunlight}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "晴れのとき　自分と\n味方が　強くなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Powers up party Pokémon\nwhen it is sunny.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Se c’è il sole, potenzia\ni Pokémon alleati.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Potencia los Pokémon del equipo\nsi está soleado.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Steigert bei Sonne die Effektivität\nvon allen Team-Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Rend les Pokémon de l’équipe\nplus puissants au soleil.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "맑을 때 자신과\n같은 편이 강해진다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "はれのとき　じぶんと\nみかたが　つよくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Powers up party Pokémon\nwhen it is sunny.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up party Pokémon\nwhen it is sunny.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Pokémon de l’équipe plus\npuissants au soleil.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Powers up party Pokémon\nwhen it is sunny.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up party Pokémon\nwhen it is sunny.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up party Pokémon\nwhen it is sunny.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "cherrim"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Se c’è il sole, potenzia i Pokémon alleati.",
+          "de": "Steigert bei Sonne die Effektivität von allen Team-Pokémon.",
+          "es": "Potencia los Pokémon del equipo si está soleado."
+        }
       }
     }
   ]

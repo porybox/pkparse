@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 193,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "humanoid"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "レジスチル",
-      "language": "ja"
-    },
-    {
-      "name": "Registeel",
-      "language": "roomaji"
-    },
-    {
-      "name": "레지스틸",
-      "language": "ko"
-    },
-    {
-      "name": "雷吉斯奇魯",
-      "language": "zh"
-    },
-    {
-      "name": "Registeel",
-      "language": "fr"
-    },
-    {
-      "name": "Registeel",
-      "language": "de"
-    },
-    {
-      "name": "Registeel",
-      "language": "es"
-    },
-    {
-      "name": "Registeel",
-      "language": "it"
-    },
-    {
-      "name": "Registeel",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "レジスチル",
+    "en": "Registeel",
+    "fr": "Registeel",
+    "it": "Registeel",
+    "de": "Registeel",
+    "es": "Registeel",
+    "ko": "레지스틸"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くろがね",
-      "language": "ja"
-    },
-    {
-      "genus": "쇠철",
-      "language": "ko"
-    },
-    {
-      "genus": "Fer",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisen",
-      "language": "de"
-    },
-    {
-      "genus": "Hierro",
-      "language": "es"
-    },
-    {
-      "genus": "Ferro",
-      "language": "it"
-    },
-    {
-      "genus": "Iron",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くろがね",
+    "en": "Iron",
+    "fr": "Fer",
+    "it": "Ferro",
+    "de": "Eisen",
+    "es": "Hierro",
+    "ko": "쇠철"
+  },
   "varieties": [
     {
       "is_default": true,

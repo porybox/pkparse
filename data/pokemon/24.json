@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 38,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "dragon"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "squiggle"
   },
@@ -74,44 +66,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "アーボック",
-      "language": "ja"
-    },
-    {
-      "name": "Arbok",
-      "language": "roomaji"
-    },
-    {
-      "name": "아보크",
-      "language": "ko"
-    },
-    {
-      "name": "阿柏怪",
-      "language": "zh"
-    },
-    {
-      "name": "Arbok",
-      "language": "fr"
-    },
-    {
-      "name": "Arbok",
-      "language": "de"
-    },
-    {
-      "name": "Arbok",
-      "language": "es"
-    },
-    {
-      "name": "Arbok",
-      "language": "it"
-    },
-    {
-      "name": "Arbok",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アーボック",
+    "en": "Arbok",
+    "fr": "Arbok",
+    "it": "Arbok",
+    "de": "Arbok",
+    "es": "Arbok",
+    "ko": "아보크"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -122,36 +85,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "コブラ",
-      "language": "ja"
-    },
-    {
-      "genus": "코브라",
-      "language": "ko"
-    },
-    {
-      "genus": "Cobra",
-      "language": "fr"
-    },
-    {
-      "genus": "Kobra",
-      "language": "de"
-    },
-    {
-      "genus": "Cobra",
-      "language": "es"
-    },
-    {
-      "genus": "Cobra",
-      "language": "it"
-    },
-    {
-      "genus": "Cobra",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "コブラ",
+    "en": "Cobra",
+    "fr": "Cobra",
+    "it": "Cobra",
+    "de": "Kobra",
+    "es": "Cobra",
+    "ko": "코브라"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -166,10 +108,20 @@
   ],
   "base_stats": {
     "hp": 60,
-    "attack": 85,
+    "attack": 95,
     "defense": 69,
     "special-attack": 65,
     "special-defense": 79,
     "speed": 80
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "attack": 85
+        }
+      }
+    }
+  ]
 }

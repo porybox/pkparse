@@ -2,36 +2,13 @@
   "id": 259,
   "name": "torment",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Prevents the target from attempting to use the same move twice in a row.  When the target leaves the [field]{mechanic:field}, this effect ends.\n\nIf the target is forced to attempt a repeated move due to []{item:choice-band}, []{item:choice-scarf}, []{item:choice-specs}, []{move:disable}, []{move:encore}, []{move:taunt}, only having [PP]{mechanic:pp} remaining for one move, or any other effect, the target will use []{move:struggle} instead.  The target is then free to use the forced move next turn, as it didn't use that move this turn.",
-      "short_effect": "Prevents the target from using the same move twice in a row.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "torment"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "torment",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Torment",
-      "language": "en"
-    },
-    {
-      "name": "Attaccalite",
-      "language": "it"
-    },
-    {
-      "name": "Tormento",
-      "language": "es"
-    },
-    {
-      "name": "Folterknecht",
-      "language": "de"
-    },
-    {
-      "name": "Tourmente",
-      "language": "fr"
-    },
-    {
-      "name": "트집",
-      "language": "ko"
-    },
-    {
-      "name": "いちゃもん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "いちゃもん",
+    "kana": "いちゃもん",
+    "en": "Torment",
+    "fr": "Tourmente",
+    "it": "Attaccalite",
+    "de": "Folterknecht",
+    "es": "Tormento",
+    "ko": "트집",
+    "zh-CN": "无理取闹",
+    "zh-TW": "無理取鬧"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "相手に　いちゃもんを　つけて 同じ　技を　２回連続で だせなくする。",
+    "kana": "あいてに　いちゃもんを　つけて おなじ　わざを　２かい　れんぞくで だせなくする。",
+    "en": "The user torments and enrages the target, making it incapable of using the same move twice in a row.",
+    "fr": "Le lanceur irrite l’ennemi pour l’empêcher d’utiliser la même capacité deux fois de suite.",
+    "it": "Chi la usa tormenta e fa infuriare il bersaglio, impedendogli di usare la stessa mossa due volte di seguito.",
+    "de": "Erzürnt das Ziel, um wiederholten Einsatz derselben Attacke zu verhindern.",
+    "es": "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento.",
+    "ko": "상대에게 트집을 잡아서 똑같은 기술을 2회 연속으로 쓸 수 없게 한다.",
+    "zh-CN": "向对手无理取闹， 令其不能连续２次 使出相同招式。",
+    "zh-TW": "無理取鬧， 讓對手不能連續２次 使出相同招式。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark"
 }

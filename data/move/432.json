@@ -2,36 +2,13 @@
   "id": 432,
   "name": "defog",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [evasion]{mechanic:evasion} by one [stage]{mechanic:stage}.  Clears away fog.  Removes the effects of []{move:mist}, []{move:light-screen}, []{move:reflect}, []{move:safeguard}, []{move:spikes}, []{move:stealth-rock}, and []{move:toxic-spikes} from the target's side of the [field]{mechanic:field}.\n\nIf the target is protected by []{move:mist}, it will prevent the [evasion]{mechanic:evasion} change, then be removed by this move.",
-      "short_effect": "Lowers the target's evasion by one stage.  Removes field effects from the enemy field.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Defog",
-      "language": "en"
-    },
-    {
-      "name": "Scacciabruma",
-      "language": "it"
-    },
-    {
-      "name": "Despejar",
-      "language": "es"
-    },
-    {
-      "name": "Auflockern",
-      "language": "de"
-    },
-    {
-      "name": "Anti-Brume",
-      "language": "fr"
-    },
-    {
-      "name": "안개제거",
-      "language": "ko"
-    },
-    {
-      "name": "きりばらい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "きりばらい",
+    "kana": "きりばらい",
+    "en": "Defog",
+    "fr": "Anti-Brume",
+    "it": "Scacciabruma",
+    "de": "Auflockern",
+    "es": "Despejar",
+    "ko": "안개제거",
+    "zh-CN": "清除浓雾",
+    "zh-TW": "清除濃霧"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "強い風で　相手の　リフレクターや ひかりのかべ　などを　はらいのける。 回避率も　さげる。",
+    "kana": "つよいかぜで　あいての　リフレクターや ひかりのかべ　などを　はらいのける。 かいひりつも　さげる。",
+    "en": "A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.",
+    "fr": "Un grand coup de vent qui disperse la Protection ou le Mur Lumière de l’ennemi. Diminue aussi son Esquive.",
+    "it": "Chi la usa spazza via barriere come Riflesso e Schermoluce con un forte vento e riduce la capacità d’elusione del bersaglio.",
+    "de": "Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.",
+    "es": "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión.",
+    "ko": "강한 바람으로 상대의 리플렉터나 빛의장막 등을 제거한다. 회피율도 떨어뜨린다.",
+    "zh-CN": "用强风吹开对手的 反射壁或光墙等。 也会降低对手的闪避率。",
+    "zh-TW": "用強風吹開對手的 反射壁或光牆等。 也會降低對手的閃避率。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying"
 }

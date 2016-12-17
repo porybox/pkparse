@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 82,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "blob"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ダンバル",
-      "language": "ja"
-    },
-    {
-      "name": "Dumbber",
-      "language": "roomaji"
-    },
-    {
-      "name": "메탕",
-      "language": "ko"
-    },
-    {
-      "name": "鐵啞鈴",
-      "language": "zh"
-    },
-    {
-      "name": "Terhal",
-      "language": "fr"
-    },
-    {
-      "name": "Tanhel",
-      "language": "de"
-    },
-    {
-      "name": "Beldum",
-      "language": "es"
-    },
-    {
-      "name": "Beldum",
-      "language": "it"
-    },
-    {
-      "name": "Beldum",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ダンバル",
+    "en": "Beldum",
+    "fr": "Terhal",
+    "it": "Beldum",
+    "de": "Tanhel",
+    "es": "Beldum",
+    "ko": "메탕"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "てっきゅう",
-      "language": "ja"
-    },
-    {
-      "genus": "철공",
-      "language": "ko"
-    },
-    {
-      "genus": "Boulefer",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisenkugel",
-      "language": "de"
-    },
-    {
-      "genus": "Bola Hierro",
-      "language": "es"
-    },
-    {
-      "genus": "Ferrosfera",
-      "language": "it"
-    },
-    {
-      "genus": "Iron Ball",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "てっきゅう",
+    "en": "Iron Ball",
+    "fr": "Boulefer",
+    "it": "Ferrosfera",
+    "de": "Eisenkugel",
+    "es": "Bola Hierro",
+    "ko": "철공"
+  },
   "varieties": [
     {
       "is_default": true,

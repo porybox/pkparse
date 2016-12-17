@@ -2,36 +2,13 @@
   "id": 417,
   "name": "nasty-plot",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}.",
-      "short_effect": "Raises the user's Special Attack by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Nasty Plot",
-      "language": "en"
-    },
-    {
-      "name": "Congiura",
-      "language": "it"
-    },
-    {
-      "name": "Maquinación",
-      "language": "es"
-    },
-    {
-      "name": "Ränkeschmied",
-      "language": "de"
-    },
-    {
-      "name": "Machination",
-      "language": "fr"
-    },
-    {
-      "name": "나쁜음모",
-      "language": "ko"
-    },
-    {
-      "name": "わるだくみ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "わるだくみ",
+    "kana": "わるだくみ",
+    "en": "Nasty Plot",
+    "fr": "Machination",
+    "it": "Congiura",
+    "de": "Ränkeschmied",
+    "es": "Maquinación",
+    "ko": "나쁜음모",
+    "zh-CN": "诡计",
+    "zh-TW": "詭計"
+  },
+  "flavor_text_entries": {
+    "ja": "悪いことを　考えて 頭を　活性化させる。 自分の　特攻を　ぐーんと　あげる。",
+    "kana": "わるいことを　かんがえて あたまを　かっせいか　させる。 じぶんの　とくこうを　ぐーんと　あげる。",
+    "en": "The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk stat.",
+    "fr": "Stimule l’esprit par de mauvaises pensées. Augmente beaucoup l’Attaque Spéciale du lanceur.",
+    "it": "Chi la usa stimola il cervello pensando a cose cattive. Aumenta di molto l’Attacco Speciale.",
+    "de": "Anwender stimuliert sein Gehirn und hat finstere Gedanken. Erhöht Spezial-Angriff stark.",
+    "es": "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.",
+    "ko": "나쁜 일을 생각해서 머리를 활성화시킨다. 자신의 특수공격을 크게 올린다.",
+    "zh-CN": "谋划诡计，激活头脑。 大幅提高自己的特攻。",
+    "zh-TW": "動歪腦筋，活化大腦。 大幅提高自己的特攻。"
+  },
   "stat_changes": [
     {
       "change": 2,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "dark"
-  }
+  "target": "user",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk.",
+          "fr": "Stimule l’esprit par de mauvaises pensées. Augmente fortement l’Attaque Spéciale du lanceur.",
+          "de": "Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spezial-Angriff stark."
+        }
+      }
+    }
+  ]
 }

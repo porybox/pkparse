@@ -2,52 +2,13 @@
   "id": 11,
   "name": "vice-grip",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": 55,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "guillotine"
-        },
-        {
-          "name": "bind"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Vice Grip",
-      "language": "en"
-    },
-    {
-      "name": "Presa",
-      "language": "it"
-    },
-    {
-      "name": "Agarre",
-      "language": "es"
-    },
-    {
-      "name": "Klammer",
-      "language": "de"
-    },
-    {
-      "name": "Force Poigne",
-      "language": "fr"
-    },
-    {
-      "name": "찝기",
-      "language": "ko"
-    },
-    {
-      "name": "はさむ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "はさむ",
+    "kana": "はさむ",
+    "en": "Vice Grip",
+    "fr": "Force Poigne",
+    "it": "Presa",
+    "de": "Klammer",
+    "es": "Agarre",
+    "ko": "찝기",
+    "zh-CN": "夹住",
+    "zh-TW": "夾住"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "相手を　両側から　はさんで ダメージを　あたえる。",
+    "kana": "あいてを　りょうがわから　はさんで ダメージを　あたえる。",
+    "en": "The target is gripped and squeezed from both sides to inflict damage.",
+    "fr": "L’ennemi est attrapé et compressé par les côtés.",
+    "it": "Stringe il bersaglio in una morsa.",
+    "de": "Das Ziel wird umklammert und zusammengequetscht.",
+    "es": "Atrapa y atenaza al objetivo.",
+    "ko": "상대를 양쪽에서 집어서 데미지를 준다.",
+    "zh-CN": "将对手从两侧夹住， 给予伤害。",
+    "zh-TW": "從兩側夾住對手， 給予傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Stringe il bersaglio in una morsa usando enormi e possenti tenaglie."
+        }
+      }
+    }
+  ]
 }

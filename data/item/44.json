@@ -1,0 +1,38 @@
+{
+  "id": 44,
+  "name": "sacred-ash",
+  "names": {
+    "ja": "せいなるはい",
+    "kana": "せいなるはい",
+    "en": "Sacred Ash",
+    "fr": "Cendre Sacrée",
+    "it": "Ceneremagica",
+    "de": "Zauberasche",
+    "es": "Ceniza Sagrada",
+    "ko": "성스러운분말",
+    "zh-CN": "圣灰",
+    "zh-TW": "聖灰"
+  },
+  "flavor_text_entries": {
+    "ja": "ひんしに　なってしまった ポケモン　全員の　ＨＰを すべて　回復する。",
+    "kana": "ひんしに　なってしまった ポケモン　ぜんいんの　ＨＰを すべて　かいふくする。",
+    "en": "This rare ash can revive all fainted Pokémon in a party. In doing so, it also fully restores their maximum HP.",
+    "fr": "Ranime tous les Pokémon K.O. et restaure tous leurs PV.",
+    "it": "Rimedio che rianima tutti i Pokémon esausti, restituendo loro anche tutti i PS.",
+    "de": "Belebt und erfrischt alle besiegten Pokémon und füllt deren KP wieder vollständig auf.",
+    "es": "Reanima completamente a todos los Pokémon debilitados y restaura todos sus PS.",
+    "ko": "기절해 버린 포켓몬 전원의 HP를 모두 회복한다.",
+    "zh-CN": "能让陷入濒死的 全部宝可梦 回复所有ＨＰ。",
+    "zh-TW": "能讓所有 陷入瀕死的寶可夢 回復所有ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Rianima tutti i Pokémon esausti, restituendo loro anche tutti i PS."
+        }
+      }
+    }
+  ]
+}

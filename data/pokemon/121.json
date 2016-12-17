@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 35,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "blob"
   },
@@ -77,44 +71,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "スターミー",
-      "language": "ja"
-    },
-    {
-      "name": "Starmie",
-      "language": "roomaji"
-    },
-    {
-      "name": "아쿠스타",
-      "language": "ko"
-    },
-    {
-      "name": "寶石海星",
-      "language": "zh"
-    },
-    {
-      "name": "Staross",
-      "language": "fr"
-    },
-    {
-      "name": "Starmie",
-      "language": "de"
-    },
-    {
-      "name": "Starmie",
-      "language": "es"
-    },
-    {
-      "name": "Starmie",
-      "language": "it"
-    },
-    {
-      "name": "Starmie",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "スターミー",
+    "en": "Starmie",
+    "fr": "Staross",
+    "it": "Starmie",
+    "de": "Starmie",
+    "es": "Starmie",
+    "ko": "아쿠스타"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -125,36 +90,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "なぞの",
-      "language": "ja"
-    },
-    {
-      "genus": "수수께끼",
-      "language": "ko"
-    },
-    {
-      "genus": "Mystérieux",
-      "language": "fr"
-    },
-    {
-      "genus": "Mysteriös",
-      "language": "de"
-    },
-    {
-      "genus": "Misterioso",
-      "language": "es"
-    },
-    {
-      "genus": "Misterioso",
-      "language": "it"
-    },
-    {
-      "genus": "Mysterious",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "なぞの",
+    "en": "Mysterious",
+    "fr": "Mystérieux",
+    "it": "Misterioso",
+    "de": "Mysteriös",
+    "es": "Misterioso",
+    "ko": "수수께끼"
+  },
   "varieties": [
     {
       "is_default": true,

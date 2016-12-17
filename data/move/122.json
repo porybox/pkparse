@@ -2,36 +2,13 @@
   "id": 122,
   "name": "lick",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 30,
   "priority": 0,
   "power": 30,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.",
-      "short_effect": "Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "paralysis",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Lick",
-      "language": "en"
-    },
-    {
-      "name": "Leccata",
-      "language": "it"
-    },
-    {
-      "name": "Lengüetazo",
-      "language": "es"
-    },
-    {
-      "name": "Schlecker",
-      "language": "de"
-    },
-    {
-      "name": "Léchouille",
-      "language": "fr"
-    },
-    {
-      "name": "핥기",
-      "language": "ko"
-    },
-    {
-      "name": "したでなめる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "したでなめる",
+    "kana": "したでなめる",
+    "en": "Lick",
+    "fr": "Léchouille",
+    "it": "Leccata",
+    "de": "Schlecker",
+    "es": "Lengüetazo",
+    "ko": "핥기",
+    "zh-CN": "舌舔",
+    "zh-TW": "舌舔"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "長い　舌で 相手を　なめまわして　攻撃する。 まひ状態に　することが　ある。",
+    "kana": "ながい　したで あいてを　なめまわして　こうげきする。 まひ　じょうたいに　することが　ある。",
+    "en": "The target is licked with a long tongue, causing damage. This may also leave the target with paralysis.",
+    "fr": "Un grand coup de langue qui inflige des dégâts à l’ennemi. Peut aussi le paralyser.",
+    "it": "Una lingua lunga infligge danni al bersaglio e può anche paralizzarlo.",
+    "de": "Leck-Attacke mit langer Zunge. Das Ziel wird eventuell paralysiert.",
+    "es": "Una lengua ataca al objetivo. Puede causar parálisis.",
+    "ko": "긴 혀로 상대를 핥아서 공격한다. 마비 상태로 만들 때가 있다.",
+    "zh-CN": "用长长的舌头， 舔遍对手进行攻击。 有时会让对手陷入麻痹状态。",
+    "zh-TW": "用長長的舌頭， 舔遍對手進行攻擊。 有時會讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost"
 }

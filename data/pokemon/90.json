@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 36,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "ball"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "シェルダー",
-      "language": "ja"
-    },
-    {
-      "name": "Shellder",
-      "language": "roomaji"
-    },
-    {
-      "name": "셀러",
-      "language": "ko"
-    },
-    {
-      "name": "大舌貝",
-      "language": "zh"
-    },
-    {
-      "name": "Kokiyas",
-      "language": "fr"
-    },
-    {
-      "name": "Muschas",
-      "language": "de"
-    },
-    {
-      "name": "Shellder",
-      "language": "es"
-    },
-    {
-      "name": "Shellder",
-      "language": "it"
-    },
-    {
-      "name": "Shellder",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "シェルダー",
+    "en": "Shellder",
+    "fr": "Kokiyas",
+    "it": "Shellder",
+    "de": "Muschas",
+    "es": "Shellder",
+    "ko": "셀러"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "２まいがい",
-      "language": "ja"
-    },
-    {
-      "genus": "두조개",
-      "language": "ko"
-    },
-    {
-      "genus": "Bivalve",
-      "language": "fr"
-    },
-    {
-      "genus": "Muschel",
-      "language": "de"
-    },
-    {
-      "genus": "Bivalvo",
-      "language": "es"
-    },
-    {
-      "genus": "Bivalve",
-      "language": "it"
-    },
-    {
-      "genus": "Bivalve",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "２まいがい",
+    "en": "Bivalve",
+    "fr": "Bivalve",
+    "it": "Bivalve",
+    "de": "Muschel",
+    "es": "Bivalvo",
+    "ko": "두조개"
+  },
   "varieties": [
     {
       "is_default": true,

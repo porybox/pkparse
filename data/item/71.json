@@ -1,0 +1,53 @@
+{
+  "id": 71,
+  "name": "shoal-shell",
+  "names": {
+    "ja": "あさせのかいがら",
+    "kana": "あさせのかいがら",
+    "en": "Shoal Shell",
+    "fr": "CoquilleTréfonds",
+    "it": "Gusciondoso",
+    "de": "Küstenschale",
+    "es": "Concha Cardumen",
+    "ko": "여울조개껍질",
+    "zh-CN": "浅滩贝壳",
+    "zh-TW": "淺灘貝殼"
+  },
+  "flavor_text_entries": {
+    "ja": "浅瀬の洞穴で みつけた　貝殻。",
+    "kana": "あさせのほらあなで みつけた　かいがら。",
+    "en": "A seashell that you found inside Shoal Cave.",
+    "fr": "Un coquillage provenant de la Grotte Tréfonds.",
+    "it": "Guscio rinvenuto nella Grotta Ondosa.",
+    "de": "Eine hübsche Muschelschale, die du in der Küstenhöhle gefunden hast.",
+    "es": "Concha que se encuentra en la Cueva Cardumen.",
+    "ko": "여울의 동굴에서 발견한 조개껍질.",
+    "zh-CN": "在浅滩洞穴这地方 找到的贝壳。",
+    "zh-TW": "在名為淺灘洞穴的地方 找到的貝殼。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "浅瀬の洞穴という　場所で みつけた　貝殻。"
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "浅瀬の洞穴という　場所で みつかる　きれいな　貝殻。",
+          "kana": "あさせのほらあな　という　ばしょで みつかる　きれいな　かいがら。",
+          "en": "A pretty seashell that can be found deep inside the Shoal Cave.",
+          "fr": "Un joli coquillage provenant des profondeurs de la Grotte Tréfonds.",
+          "it": "Un bel guscio rinvenuto nella Grotta Ondosa.",
+          "de": "Eine hübsche Muschelschale, die sich in der Küstenhöhle finden lässt.",
+          "es": "Concha encontrada en la Cueva Cardumen.",
+          "ko": "여울의 동굴이라는 장소에서 발견할 수 있는 예쁜 조개껍질."
+        }
+      }
+    }
+  ]
+}

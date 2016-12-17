@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 221,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "legs"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ポリゴン２",
-      "language": "ja"
-    },
-    {
-      "name": "Porygon2",
-      "language": "roomaji"
-    },
-    {
-      "name": "폴리곤2",
-      "language": "ko"
-    },
-    {
-      "name": "3D龍2",
-      "language": "zh"
-    },
-    {
-      "name": "Porygon2",
-      "language": "fr"
-    },
-    {
-      "name": "Porygon2",
-      "language": "de"
-    },
-    {
-      "name": "Porygon2",
-      "language": "es"
-    },
-    {
-      "name": "Porygon2",
-      "language": "it"
-    },
-    {
-      "name": "Porygon2",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ポリゴン２",
+    "en": "Porygon2",
+    "fr": "Porygon2",
+    "it": "Porygon2",
+    "de": "Porygon2",
+    "es": "Porygon2",
+    "ko": "폴리곤2"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "バーチャル",
-      "language": "ja"
-    },
-    {
-      "genus": "가상",
-      "language": "ko"
-    },
-    {
-      "genus": "Virtuel",
-      "language": "fr"
-    },
-    {
-      "genus": "Virtuell",
-      "language": "de"
-    },
-    {
-      "genus": "Virtual",
-      "language": "es"
-    },
-    {
-      "genus": "Virtuale",
-      "language": "it"
-    },
-    {
-      "genus": "Virtual",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "バーチャル",
+    "en": "Virtual",
+    "fr": "Virtuel",
+    "it": "Virtuale",
+    "de": "Virtuell",
+    "es": "Virtual",
+    "ko": "가상"
+  },
   "varieties": [
     {
       "is_default": true,

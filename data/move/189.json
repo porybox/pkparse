@@ -2,62 +2,13 @@
   "id": 189,
   "name": "mud-slap",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 10,
   "priority": 0,
   "power": 20,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "sand-attack"
-        },
-        {
-          "name": "mud-sport"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "sand-attack"
-        },
-        {
-          "name": "sandstorm"
-        },
-        {
-          "name": "mud-sport"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's accuracy by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -69,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Mud-Slap",
-      "language": "en"
-    },
-    {
-      "name": "Fangosberla",
-      "language": "it"
-    },
-    {
-      "name": "Bofetón Lodo",
-      "language": "es"
-    },
-    {
-      "name": "Lehmschelle",
-      "language": "de"
-    },
-    {
-      "name": "Coud'Boue",
-      "language": "fr"
-    },
-    {
-      "name": "진흙뿌리기",
-      "language": "ko"
-    },
-    {
-      "name": "どろかけ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "どろかけ",
+    "kana": "どろかけ",
+    "en": "Mud-Slap",
+    "fr": "Coud’Boue",
+    "it": "Fangosberla",
+    "de": "Lehmschelle",
+    "es": "Bofetón Lodo",
+    "ko": "진흙뿌리기",
+    "zh-CN": "掷泥",
+    "zh-TW": "擲泥"
+  },
+  "flavor_text_entries": {
+    "ja": "相手の　顔などに 泥を　投げつけて　攻撃する。 命中率を　さげる。",
+    "kana": "あいての　かおなどに ドロを　なげつけて　こうげきする。 めいちゅうりつを　さげる。",
+    "en": "The user hurls mud in the target’s face to inflict damage and lower its accuracy.",
+    "fr": "Le lanceur envoie de la boue au visage de l’ennemi pour infliger des dégâts et baisser sa Précision.",
+    "it": "Chi la usa butta fango in faccia al bersaglio per arrecargli danni e ridurne la precisione.",
+    "de": "Schadet dem Ziel durch Matsch. Dessen Genauigkeit sinkt.",
+    "es": "Echa lodo en la cara para bajar la Precisión.",
+    "ko": "상대의 얼굴 등에 진흙을 내던져서 공격한다. 명중률을 떨어뜨린다.",
+    "zh-CN": "向对手的脸等 投掷泥块进行攻击。 会降低对手的命中率。",
+    "zh-TW": "向對手的臉等處 投擲泥巴進行攻擊。 可降低對手的命中率。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "accuracy"
-      }
+      "stat": "accuracy"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "ground"
-  }
+  "target": "selected-pokemon",
+  "type": "ground"
 }

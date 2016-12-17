@@ -2,36 +2,13 @@
   "id": 353,
   "name": "doom-desire",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 140,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [typeless]{mechanic:typeless} [regular damage]{mechanic:regular-damage} at the end of the third turn, starting with this one.  This move cannot score a [critical hit]{mechanic:critical-hit}.  If the target [switches out]{mechanic:switches-out}, its replacement will be hit instead.  Damage is calculated at the time this move is used; [stat changes]{mechanic:stat-changes} and [switching out]{mechanic:switching-out} during the delay won't change the damage inflicted.  No move with this effect can be used against the same target again until after the end of the third turn.\n\nThis effect breaks through []{ability:wonder-guard}.\n\nIf the target is protected by []{move:protect} or []{move:detect} on the turn this move is used, this move will [fail]{mechanic:fail}.  However, the damage on the third turn will break through protection.\n\nThe damage is applied at the end of the turn, so it ignores []{move:endure} and []{item:focus-sash}.\n\nThis move cannot be copied by []{move:mirror-move}.",
-      "short_effect": "Hits the target two turns later.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,55 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Doom Desire",
-      "language": "en"
-    },
-    {
-      "name": "Obbliderio",
-      "language": "it"
-    },
-    {
-      "name": "Deseo Oculto",
-      "language": "es"
-    },
-    {
-      "name": "Kismetwunsch",
-      "language": "de"
-    },
-    {
-      "name": "Carnareket",
-      "language": "fr"
-    },
-    {
-      "name": "파멸의소원",
-      "language": "ko"
-    },
-    {
-      "name": "はめつのねがい",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "はめつのねがい",
+    "kana": "はめつのねがい",
+    "en": "Doom Desire",
+    "fr": "Carnareket",
+    "it": "Obbliderio",
+    "de": "Kismetwunsch",
+    "es": "Deseo Oculto",
+    "ko": "파멸의소원",
+    "zh-CN": "破灭之愿",
+    "zh-TW": "破滅之願"
+  },
+  "flavor_text_entries": {
+    "ja": "技を　使った　２ターン後に 無数の　光の　束で 相手を　攻撃する。",
+    "kana": "わざを　つかった　２ターン　あとに むすうの　ひかりの　たばで あいてを　こうげきする。",
+    "en": "Two turns after this move is used, a concentrated bundle of light blasts the target.",
+    "fr": "Le lanceur génère une sphère lumineuse qu’il projette sur l’ennemi deux tours plus tard.",
+    "it": "Intenso fascio di luce che colpisce il bersaglio dopo due turni dall’uso della mossa.",
+    "de": "Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.",
+    "es": "Concentra un haz de luz y ataca dos turnos después.",
+    "ko": "기술을 사용한 2턴 뒤에 무수한 빛의 다발이 상대를 공격한다.",
+    "zh-CN": "使用招式２回合后， 会用无数道光束攻击对手。",
+    "zh-TW": "使用招式的２回合後， 向對手發射無數道光束 進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "steel",
   "past_values": [
     {
-      "accuracy": 85,
-      "power": 120,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "Two turns after this move is used, the user blasts the target with a concentrated bundle of light.",
+          "it": "Intensa luce solare che colpisce il bersaglio dopo due turni dall’uso della mossa."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "steel"
-  }
+  ]
 }

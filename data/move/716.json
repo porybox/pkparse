@@ -1,0 +1,50 @@
+{
+  "id": 716,
+  "name": "zing-zap",
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "power": 80,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 30,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "びりびりちくちく",
+    "kana": "びりびりちくちく",
+    "en": "Zing Zap",
+    "fr": "Électrikipik",
+    "it": "Elettropizzico",
+    "de": "Elektropikser",
+    "es": "Electropunzada",
+    "ko": "찌리리따끔따끔",
+    "zh-CN": "麻麻刺刺",
+    "zh-TW": "麻麻刺刺"
+  },
+  "flavor_text_entries": {
+    "ja": "相手に　ぶつかって　強力な 電気を浴びせ　びりびりちくちく　させる。 相手を　ひるませる　ことが　ある。",
+    "kana": "あいてに　ぶつかって　きょうりょくな でんきをあびせ　びりびりちくちく　させる。 あいてを　ひるませる　ことが　ある。",
+    "en": "A strong electric blast crashes down on the target, giving it an electric shock. This may also make the target flinch.",
+    "fr": "Le lanceur fonce sur la cible et lui envoie un puissant choc électrique. Peut aussi l’effrayer.",
+    "it": "Chi la usa colpisce il bersaglio investendolo con una potente scarica elettrica che può anche farlo tentennare.",
+    "de": "Der Anwender rammt das Ziel und schockt es mit starkem Strom. Das Ziel schreckt eventuell zurück.",
+    "es": "El usuario se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede hacerlo retroceder.",
+    "ko": "상대에게 부딪쳐 강력한 전기를 날려서 찌리리따끔따끔하게 만든다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "撞向对手，并发出强电， 使其感到麻麻刺刺的。 有时会使对手畏缩。",
+    "zh-TW": "撞向對手，並利用 強電流使其感到麻麻刺刺的。 有時會使對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric"
+}

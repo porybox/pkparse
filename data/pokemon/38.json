@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 249,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "quadruped"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "キュウコン",
-      "language": "ja"
-    },
-    {
-      "name": "Kyukon",
-      "language": "roomaji"
-    },
-    {
-      "name": "나인테일",
-      "language": "ko"
-    },
-    {
-      "name": "九尾",
-      "language": "zh"
-    },
-    {
-      "name": "Feunard",
-      "language": "fr"
-    },
-    {
-      "name": "Vulnona",
-      "language": "de"
-    },
-    {
-      "name": "Ninetales",
-      "language": "es"
-    },
-    {
-      "name": "Ninetales",
-      "language": "it"
-    },
-    {
-      "name": "Ninetales",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "キュウコン",
+    "en": "Ninetales",
+    "fr": "Feunard",
+    "it": "Ninetales",
+    "de": "Vulnona",
+    "es": "Ninetales",
+    "ko": "나인테일"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きつね",
-      "language": "ja"
-    },
-    {
-      "genus": "여우",
-      "language": "ko"
-    },
-    {
-      "genus": "Renard",
-      "language": "fr"
-    },
-    {
-      "genus": "Fuchs",
-      "language": "de"
-    },
-    {
-      "genus": "Zorro",
-      "language": "es"
-    },
-    {
-      "genus": "Volpe",
-      "language": "it"
-    },
-    {
-      "genus": "Fox",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きつね",
+    "en": "Fox",
+    "fr": "Renard",
+    "it": "Volpe",
+    "de": "Fuchs",
+    "es": "Zorro",
+    "ko": "여우"
+  },
   "varieties": [
     {
       "is_default": true,
