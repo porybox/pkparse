@@ -1,4 +1,6 @@
 'use strict';
+const _ = require('lodash');
+
 // Reference: https://projectpokemon.org/wiki/Pokemon_X/Y_3DS_Structure
 function stripNullChars (str) {
   return str.replace(/\0.*/, '');
@@ -324,23 +326,23 @@ function assignRegionAndCountryNames (data, locationNum, language) {
   data[countryNameKey] = countryId ? data[countryNameKey] = exports.getCountryName(countryId, language) : null;
 }
 
-const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
-exports.assignReadableNames = (data, language) => {
+const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko', CHS: 'zh-CN', CHT: 'zh-TW'};
+exports.assignReadableNames = (data, language, params = {gen: 6}) => {
+  const gen = params.gen;
   language = language || 'ENG';
   const shortLang = langMap[language];
   if (!shortLang) {
     throw new TypeError(`Invalid language '${language}'`);
   }
-  const findName = specificData => specificData && specificData.names.find(d => d.language === shortLang).name;
+  const findName = specificData => specificData && specificData.names[shortLang];
 
-  const pkmnData = exports.getPokemonData(data.dexNo);
+  const pkmnData = exports.getPokemonData(data.dexNo, {gen});
   data.speciesName = findName(pkmnData);
-  data.growthRate = pkmnData.growth_rate.name;
+  data.growthRate = pkmnData.growth_rate;
   Object.assign(data, convertExperienceToLevelData(data.exp, data.growthRate));
-
   const natureData = exports.getNatureData(data.natureId);
   data.natureName = findName(natureData);
-  const alternateForms = require('./data/alternate_forms');
+  const alternateForms = require(gen > 6 ? './data/alternate_forms_gen7' : './data/alternate_forms_gen6');
   data.formName = alternateForms[data.dexNo] && alternateForms[data.dexNo][data.formId];
   data.increasedStat = abbreviateStat(natureData.increased_stat && natureData.increased_stat.name);
   data.decreasedStat = abbreviateStat(natureData.decreased_stat && natureData.decreased_stat.name);
@@ -358,35 +360,37 @@ exports.assignReadableNames = (data, language) => {
   data.heldItemName = findName(exports.getItemData(data.heldItemId));
   /* For all the pokeballs obtainable in gen 6 (ball IDs 1-16), the ball ID is the same as the item ID for that ball.
   For johto balls (apricorn/sport), the ball IDs are 17-24 and the corresponding item IDs are 492-499, in the same order.
-  For dream balls, the ball ID is 25 and the corresponding item ID is 576. */
-  const correctedBallId = data.ballId < 17 ? data.ballId : data.ballId === 25 ? 576 : data.ballId + 475;
-  data.ballName = findName(exports.getItemData(correctedBallId));
-  data.abilityName = findName(exports.getAbilityData(data.abilityId));
+  For dream balls, the ball ID is 25 and the corresponding item ID is 576.
+  For beast balls, the ball ID is 26 and the corresponding item ID is 851. */
+  const correctedBallId = data.ballId < 17 ? data.ballId : data.ballId === 25 ? 576 :
+                          data.ballId === 26 ? 851 : data.ballId + 475;
+  data.ballName = findName(exports.getItemData(correctedBallId, {gen}));
+  data.abilityName = findName(exports.getAbilityData(data.abilityId, {gen}));
 
-  const move1Data = exports.getMoveData(data.move1Id);
+  const move1Data = exports.getMoveData(data.move1Id, {gen});
   data.move1Name = move1Data && findName(move1Data);
-  data.move1Type = move1Data && move1Data.type.name;
+  data.move1Type = move1Data && move1Data.type;
   data.move1Power = move1Data && move1Data.power;
 
-  const move2Data = exports.getMoveData(data.move2Id);
+  const move2Data = exports.getMoveData(data.move2Id, {gen});
   data.move2Name = move2Data && findName(move2Data);
-  data.move2Type = move2Data && move2Data.type.name;
+  data.move2Type = move2Data && move2Data.type;
   data.move2Power = move2Data && move2Data.power;
 
-  const move3Data = exports.getMoveData(data.move3Id);
+  const move3Data = exports.getMoveData(data.move3Id, {gen});
   data.move3Name = move3Data && findName(move3Data);
-  data.move3Type = move3Data && move3Data.type.name;
+  data.move3Type = move3Data && move3Data.type;
   data.move3Power = move3Data && move3Data.power;
 
-  const move4Data = exports.getMoveData(data.move4Id);
+  const move4Data = exports.getMoveData(data.move4Id, {gen});
   data.move4Name = move4Data && findName(move4Data);
-  data.move4Type = move4Data && move4Data.type.name;
+  data.move4Type = move4Data && move4Data.type;
   data.move4Power = move4Data && move4Data.power;
 
-  data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
-  data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
-  data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
-  data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
+  data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id, {gen}));
+  data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id, {gen}));
+  data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id, {gen}));
+  data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id, {gen}));
 
   [1, 2, 3, 4, 5].forEach(num => assignRegionAndCountryNames(data, num, language));
 
@@ -447,6 +451,21 @@ exports.parseFile = (path, options) => {
   return exports.parseBuffer(require('fs').readFileSync(path), options);
 };
 
+function parseForGen (gen, data) {
+  const result = JSON.parse(JSON.stringify(data));
+  const genMap = {6: 30}; // Maps gen numbers to the first game NOT in that gen
+  if (gen in genMap && 'past_values' in data) {
+    for (let i = 0; i < data.past_values.length; i++) {
+      if (data.past_values[i].changed_in >= genMap[gen]) {
+        _.merge(result, data.past_values[i].prior_values);
+      } else {
+        break;
+      }
+    }
+  }
+  return result;
+}
+
 function tryRequire (path, errorMessage) {
   try {
     return require(path);
@@ -456,15 +475,23 @@ function tryRequire (path, errorMessage) {
   // TODO: Handle memory better if the process is running for a long time
 }
 
-exports.getPokemonData = dexNo => tryRequire(`./data/pokemon/${dexNo}`, `Invalid dex number: ${dexNo}`);
-exports.getItemData = itemId => itemId ? tryRequire(`./data/item_gen6/${itemId}`, `Invalid item ID: ${itemId}`) : null;
-exports.getMoveData = moveId => moveId ? tryRequire(`./data/move/${moveId}`, `Invalid move ID: ${moveId}`) : null;
-exports.getAbilityData = abilId => abilId ? tryRequire(`./data/ability/${abilId}`, `Invalid ability ID: ${abilId}`) : null;
-exports.getNatureData = natureId => tryRequire(`./data/nature/${natureId}`, `Invalid nature ID: ${natureId}`);
+exports.getPokemonData = (dexNo, params = {gen: 6}) =>
+  parseForGen(params.gen, tryRequire(`./data/pokemon/${dexNo}`, `Invalid dex number: ${dexNo}`));
+exports.getItemData = (itemId, params = {gen: 6}) =>
+  itemId ? parseForGen(params.gen, tryRequire(`./data/item/${itemId}`, `Invalid item ID: ${itemId}`)) : null;
+exports.getMoveData = (moveId, params = {gen: 6}) =>
+  moveId ? parseForGen(params.gen, tryRequire(`./data/move/${moveId}`, `Invalid move ID: ${moveId}`)) : null;
+exports.getAbilityData = (abilId, params = {gen: 6}) =>
+  abilId ? parseForGen(params.gen, tryRequire(`./data/ability/${abilId}`, `Invalid ability ID: ${abilId}`)) : null;
+exports.getNatureData = natureId =>
+  tryRequire(`./data/nature/${natureId}`, `Invalid nature ID: ${natureId}`);
 
 exports.getLocationData = (locationId, otGameId, isEggLocation) => {
   if (!locationId && isEggLocation) {
     return null;
+  }
+  if (otGameId >= 30) {
+    return require('./data/location_gen7.json')[locationId] || null;
   }
   if (otGameId >= 24 && otGameId <= 29 || otGameId === undefined) {
     return require('./data/location_gen6.json')[locationId] || null;
@@ -512,13 +539,13 @@ exports.getSubregionName = (countryId, subregionId, language) => {
 function getTextVar (lineId, textVarId, language) {
   const shortLang = langMap[language];
   if ([5, 15, 26, 34, 40, 51].indexOf(lineId) !== -1) {
-    return exports.getItemData(textVarId).names.find(d => d.language === shortLang).name;
+    return exports.getItemData(textVarId).names[shortLang];
   }
   if ([7, 9, 13, 14, 17, 18, 21, 25, 29, 44, 45, 50, 60].indexOf(lineId) !== -1) {
-    return exports.getPokemonData(textVarId).names.find(d => d.language === shortLang).name;
+    return exports.getPokemonData(textVarId).names[shortLang];
   }
   if ([12, 16, 48, 49].indexOf(lineId) !== -1) {
-    return exports.getMoveData(textVarId).names.find(d => d.language === shortLang).name;
+    return exports.getMoveData(textVarId).names[shortLang];
   }
   if (lineId === 6) {
     return require('./data/location_gen6.json')[textVarId];

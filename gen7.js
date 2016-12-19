@@ -38,7 +38,7 @@ exports.parseBuffer = (buf, {parseNames = false, language} = {}) => {
   data.language = [null, 'JPN', 'ENG', 'FRE', 'ITA', 'GER', '???', 'SPA', 'KOR', 'CHS', 'CHT'][buf.readUInt8(0xe3)];
 
   if (parseNames) {
-    common.assignReadableNames(data, language);
+    common.assignReadableNames(data, language, {gen: 7});
   }
 
   return data;
