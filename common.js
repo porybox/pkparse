@@ -8,8 +8,11 @@ function stripNullChars (str) {
 
 function parseMap (data, map) {
   const parsedData = [];
-  for (let i = 0; i < map.length; i++, data = Math.floor(data / 2)) {
-    if (map[i] && data % 2) {
+  if (typeof data === 'number') {
+    data = [data];
+  }
+  for (let i = 0; i < map.length; i++) {
+    if (map[i] && data[i >>> 5] >>> (i & 31) & 1) {
       parsedData.push(map[i]);
     }
   }
@@ -99,7 +102,7 @@ exports.parseBuffer = buf => {
   data.pokerusStrain = pokerusByte >>> 4;
 
   data.medalData = buf.readUInt32LE(0x2c);
-  data.ribbonData = buf.readUIntLE(0x30, 6);
+  data.ribbonData = [buf.readUInt32LE(0x30), buf.readUInt32LE(0x34)];
   data.contestMemoryRibbonCount = buf.readUInt8(0x38);
   data.battleMemoryRibbonCount = buf.readUInt8(0x39);
   data.distributionSuperTrainingFlags = buf.readUInt8(0x3a); // TODO: Figure out what these are
