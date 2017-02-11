@@ -8,7 +8,7 @@ for (let i = 1; i < formes.length; i++) {
 
 formes[25] = [null, 'Rockstar', 'Belle', 'Pop', 'PhD', 'Libre', 'Cosplay'];
 
-formes[202] = [
+formes[201] = [
   'A',
   'B',
   'C',
@@ -96,12 +96,6 @@ formes[555] = [null, 'Zen'];
   formes[i] = ['Incarnate', 'Therian'];
 });
 
-[669, 671].forEach(i => {
-  formes[i] = ['Red', 'Yellow', 'Orange', 'Blue', 'White'];
-});
-
-formes[670] = ['Red', 'Yellow', 'Orange', 'Blue', 'White', 'Eternal'];
-
 formes[646] = [null, 'White', 'Black'];
 
 formes[647] = [null, 'Resolute'];
@@ -122,11 +116,11 @@ formes[649] = [null, 'Douse', 'Shock', 'Burn', 'Chill'];
     'Modern',
     'Marine',
     'Archipelago',
-    'High-Plains',
+    'High Plains',
     'Sandstorm',
     'River',
     'Monsoon',
-    'Savannah',
+    'Savanna',
     'Sun',
     'Ocean',
     'Jungle',
@@ -135,7 +129,13 @@ formes[649] = [null, 'Douse', 'Shock', 'Burn', 'Chill'];
   ];
 });
 
-formes[676] = [null, 'Heart', 'Star', 'Diamond', 'Deputante', 'Matron', 'Dandy', 'La Reine', 'Kabuki', 'Pharaoh'];
+[669, 671].forEach(i => {
+  formes[i] = ['Red', 'Yellow', 'Orange', 'Blue', 'White'];
+});
+
+formes[670] = ['Red', 'Yellow', 'Orange', 'Blue', 'White', 'Eternal'];
+
+formes[676] = [null, 'Heart', 'Star', 'Diamond', 'Debutante', 'Matron', 'Dandy', 'La Reine', 'Kabuki', 'Pharaoh'];
 
 formes[681] = ['Shield', 'Blade'];
 
@@ -203,6 +203,1323 @@ module.exports = formes;
 },{}],2:[function(require,module,exports){
 module.exports=[
   null,
+  {
+    "JPN": "日本",
+    "ENG": "Japan",
+    "FRE": "Japon",
+    "GER": "Japan",
+    "ITA": "Giappone",
+    "SPA": "Japón",
+    "CHN": "日本",
+    "KOR": "일본"
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "JPN": "アンギラ",
+    "ENG": "Anguilla",
+    "FRE": "Anguilla",
+    "GER": "Anguilla",
+    "ITA": "Anguilla",
+    "SPA": "Anguila",
+    "CHN": "安圭拉",
+    "KOR": "앵귈라"
+  },
+  {
+    "JPN": "アンティグア・バーブーダ",
+    "ENG": "Antigua and Barbuda",
+    "FRE": "Antigua-et-Barbuda",
+    "GER": "Antigua und Barbuda",
+    "ITA": "Antigua e Barbuda",
+    "SPA": "Antigua y Barbuda",
+    "CHN": "安提瓜和巴布达",
+    "KOR": "앤티가 바부다"
+  },
+  {
+    "JPN": "アルゼンチン",
+    "ENG": "Argentina",
+    "FRE": "Argentine",
+    "GER": "Argentinien",
+    "ITA": "Argentina",
+    "SPA": "Argentina",
+    "CHN": "阿根廷",
+    "KOR": "아르헨티나"
+  },
+  {
+    "JPN": "アルバ",
+    "ENG": "Aruba",
+    "FRE": "Aruba",
+    "GER": "Aruba",
+    "ITA": "Aruba",
+    "SPA": "Aruba",
+    "CHN": "阿鲁巴",
+    "KOR": "아루바"
+  },
+  {
+    "JPN": "バハマ",
+    "ENG": "Bahamas",
+    "FRE": "Bahamas",
+    "GER": "Bahamas",
+    "ITA": "Bahamas",
+    "SPA": "Bahamas",
+    "CHN": "巴哈马",
+    "KOR": "바하마"
+  },
+  {
+    "JPN": "バルバドス",
+    "ENG": "Barbados",
+    "FRE": "Barbade",
+    "GER": "Barbados",
+    "ITA": "Barbados",
+    "SPA": "Barbados",
+    "CHN": "巴巴多斯",
+    "KOR": "바베이도스"
+  },
+  {
+    "JPN": "ベリーズ",
+    "ENG": "Belize",
+    "FRE": "Belize",
+    "GER": "Belize",
+    "ITA": "Belize",
+    "SPA": "Belice",
+    "CHN": "伯利兹",
+    "KOR": "벨리즈"
+  },
+  {
+    "JPN": "ボリビア",
+    "ENG": "Bolivia",
+    "FRE": "Bolivie",
+    "GER": "Bolivien",
+    "ITA": "Bolivia",
+    "SPA": "Bolivia",
+    "CHN": "玻利维亚",
+    "KOR": "볼리비아"
+  },
+  {
+    "JPN": "ブラジル",
+    "ENG": "Brazil",
+    "FRE": "Brésil",
+    "GER": "Brasilien",
+    "ITA": "Brasile",
+    "SPA": "Brasil",
+    "CHN": "巴西",
+    "KOR": "브라질"
+  },
+  {
+    "JPN": "英領ヴァージン諸島",
+    "ENG": "British Virgin Islands",
+    "FRE": "Îles Vierges britanniques",
+    "GER": "Britische Jungferninseln",
+    "ITA": "Isole Vergini Britanniche",
+    "SPA": "Islas Vírgenes Británicas",
+    "CHN": "英属维尔京群岛",
+    "KOR": "영국령 버진아일랜드"
+  },
+  {
+    "JPN": "カナダ",
+    "ENG": "Canada",
+    "FRE": "Canada",
+    "GER": "Kanada",
+    "ITA": "Canada",
+    "SPA": "Canadá",
+    "CHN": "加拿大",
+    "KOR": "캐나다"
+  },
+  {
+    "JPN": "ケイマン諸島",
+    "ENG": "Cayman Islands",
+    "FRE": "Îles Caïmans",
+    "GER": "Kaimaninseln",
+    "ITA": "Isole Cayman",
+    "SPA": "Islas Caimán",
+    "CHN": "开曼群岛",
+    "KOR": "케이맨 제도"
+  },
+  {
+    "JPN": "チリ",
+    "ENG": "Chile",
+    "FRE": "Chili",
+    "GER": "Chile",
+    "ITA": "Cile",
+    "SPA": "Chile",
+    "CHN": "智利",
+    "KOR": "칠레"
+  },
+  {
+    "JPN": "コロンビア",
+    "ENG": "Colombia",
+    "FRE": "Colombie",
+    "GER": "Kolumbien",
+    "ITA": "Colombia",
+    "SPA": "Colombia",
+    "CHN": "哥伦比亚",
+    "KOR": "콜롬비아"
+  },
+  {
+    "JPN": "コスタリカ",
+    "ENG": "Costa Rica",
+    "FRE": "Costa Rica",
+    "GER": "Costa Rica",
+    "ITA": "Costa Rica",
+    "SPA": "Costa Rica",
+    "CHN": "哥斯达黎加",
+    "KOR": "코스타리카"
+  },
+  {
+    "JPN": "ドミニカ国",
+    "ENG": "Dominica",
+    "FRE": "Dominique",
+    "GER": "Dominica",
+    "ITA": "Dominica",
+    "SPA": "Dominica",
+    "CHN": "多米尼克",
+    "KOR": "도미니카 연방"
+  },
+  {
+    "JPN": "ドミニカ共和国",
+    "ENG": "Dominican Republic",
+    "FRE": "République dominicaine",
+    "GER": "Dominikanische Republik",
+    "ITA": "Repubblica Dominicana",
+    "SPA": "República Dominicana",
+    "CHN": "多米尼加共和国",
+    "KOR": "도미니카 공화국"
+  },
+  {
+    "JPN": "エクアドル",
+    "ENG": "Ecuador",
+    "FRE": "Équateur",
+    "GER": "Ecuador",
+    "ITA": "Ecuador",
+    "SPA": "Ecuador",
+    "CHN": "厄瓜多尔",
+    "KOR": "에콰도르"
+  },
+  {
+    "JPN": "エルサルバドル",
+    "ENG": "El Salvador",
+    "FRE": "Salvador",
+    "GER": "El Salvador",
+    "ITA": "El Salvador",
+    "SPA": "El Salvador",
+    "CHN": "萨尔瓦多",
+    "KOR": "엘살바도르"
+  },
+  {
+    "JPN": "フランス領ギアナ",
+    "ENG": "French Guiana",
+    "FRE": "Guyane",
+    "GER": "Französisch-Guyana",
+    "ITA": "Guyana Francese",
+    "SPA": "Guayana Francesa",
+    "CHN": "法属圭亚那",
+    "KOR": "프랑스령 기아나"
+  },
+  {
+    "JPN": "グレナダ",
+    "ENG": "Grenada",
+    "FRE": "Grenade",
+    "GER": "Grenada",
+    "ITA": "Grenada",
+    "SPA": "Granada",
+    "CHN": "格林纳达",
+    "KOR": "그레나다"
+  },
+  {
+    "JPN": "グアドループ",
+    "ENG": "Guadeloupe",
+    "FRE": "Guadeloupe",
+    "GER": "Guadeloupe",
+    "ITA": "Guadalupa",
+    "SPA": "Guadalupe",
+    "CHN": "瓜德罗普",
+    "KOR": "과들루프"
+  },
+  {
+    "JPN": "グアテマラ",
+    "ENG": "Guatemala",
+    "FRE": "Guatemala",
+    "GER": "Guatemala",
+    "ITA": "Guatemala",
+    "SPA": "Guatemala",
+    "CHN": "危地马拉",
+    "KOR": "과테말라"
+  },
+  {
+    "JPN": "ガイアナ",
+    "ENG": "Guyana",
+    "FRE": "République coopérative de Guyana",
+    "GER": "Guyana",
+    "ITA": "Guyana",
+    "SPA": "Guyana",
+    "CHN": "圭亚那",
+    "KOR": "가이아나"
+  },
+  {
+    "JPN": "ハイチ",
+    "ENG": "Haiti",
+    "FRE": "Haïti",
+    "GER": "Haiti",
+    "ITA": "Haiti",
+    "SPA": "Haití",
+    "CHN": "海地",
+    "KOR": "아이티"
+  },
+  {
+    "JPN": "ホンジュラス",
+    "ENG": "Honduras",
+    "FRE": "Honduras",
+    "GER": "Honduras",
+    "ITA": "Honduras",
+    "SPA": "Honduras",
+    "CHN": "洪都拉斯",
+    "KOR": "온두라스"
+  },
+  {
+    "JPN": "ジャマイカ",
+    "ENG": "Jamaica",
+    "FRE": "Jamaïque",
+    "GER": "Jamaika",
+    "ITA": "Giamaica",
+    "SPA": "Jamaica",
+    "CHN": "牙买加",
+    "KOR": "자메이카"
+  },
+  {
+    "JPN": "マルティニーク",
+    "ENG": "Martinique",
+    "FRE": "Martinique",
+    "GER": "Martinique",
+    "ITA": "Martinica",
+    "SPA": "Martinica",
+    "CHN": "马提尼克",
+    "KOR": "마르티니크"
+  },
+  {
+    "JPN": "メキシコ",
+    "ENG": "Mexico",
+    "FRE": "Mexique",
+    "GER": "Mexiko",
+    "ITA": "Messico",
+    "SPA": "México",
+    "CHN": "墨西哥",
+    "KOR": "멕시코"
+  },
+  {
+    "JPN": "モントセラト",
+    "ENG": "Montserrat",
+    "FRE": "Montserrat",
+    "GER": "Montserrat",
+    "ITA": "Montserrat",
+    "SPA": "Montserrat",
+    "CHN": "蒙特塞拉特",
+    "KOR": "몬트세랫"
+  },
+  {
+    "JPN": "オランダ領アンティル",
+    "ENG": "Netherlands Antilles",
+    "FRE": "Antilles néerlandaises",
+    "GER": "Niederländische Antillen",
+    "ITA": "Antille Olandesi",
+    "SPA": "Antillas Neerlandesas",
+    "CHN": "荷属安的列斯",
+    "KOR": "네덜란드령 앤틸리스"
+  },
+  {
+    "JPN": "ニカラグア",
+    "ENG": "Nicaragua",
+    "FRE": "Nicaragua",
+    "GER": "Nicaragua",
+    "ITA": "Nicaragua",
+    "SPA": "Nicaragua",
+    "CHN": "尼加拉瓜",
+    "KOR": "니카라과"
+  },
+  {
+    "JPN": "パナマ",
+    "ENG": "Panama",
+    "FRE": "Panama",
+    "GER": "Panama",
+    "ITA": "Panamá",
+    "SPA": "Panamá",
+    "CHN": "巴拿马",
+    "KOR": "파나마"
+  },
+  {
+    "JPN": "パラグアイ",
+    "ENG": "Paraguay",
+    "FRE": "Paraguay",
+    "GER": "Paraguay",
+    "ITA": "Paraguay",
+    "SPA": "Paraguay",
+    "CHN": "巴拉圭",
+    "KOR": "파라과이"
+  },
+  {
+    "JPN": "ペルー",
+    "ENG": "Peru",
+    "FRE": "Pérou",
+    "GER": "Peru",
+    "ITA": "Perù",
+    "SPA": "Perú",
+    "CHN": "秘鲁",
+    "KOR": "페루"
+  },
+  {
+    "JPN": "セントキッツ・ネイビス",
+    "ENG": "St. Kitts and Nevis",
+    "FRE": "Saint-Christophe-et-Niévès",
+    "GER": "St. Kitts und Nevis",
+    "ITA": "Saint Kitts e Nevis",
+    "SPA": "San Cristóbal y Nieves",
+    "CHN": "圣基茨和尼维斯",
+    "KOR": "세인트키츠네비스"
+  },
+  {
+    "JPN": "セントルシア",
+    "ENG": "St. Lucia",
+    "FRE": "Sainte-Lucie",
+    "GER": "St. Lucia",
+    "ITA": "Santa Lucia",
+    "SPA": "Santa Lucía",
+    "CHN": "圣卢西亚",
+    "KOR": "세인트루시아"
+  },
+  {
+    "JPN": "セントビンセント・グレナディーン",
+    "ENG": "St. Vincent and the Grenadines",
+    "FRE": "Saint-Vincent-et-les-Grenadines",
+    "GER": "St. Vincent und die Grenadinen",
+    "ITA": "Saint Vincent e Grenadine",
+    "SPA": "San Vicente y las Granadinas",
+    "CHN": "圣文森特和格林纳丁斯",
+    "KOR": "세인트빈센트 그레나딘"
+  },
+  {
+    "JPN": "スリナム",
+    "ENG": "Suriname",
+    "FRE": "Suriname",
+    "GER": "Suriname",
+    "ITA": "Suriname",
+    "SPA": "Surinam",
+    "CHN": "苏里南",
+    "KOR": "수리남"
+  },
+  {
+    "JPN": "トリニダード・トバゴ",
+    "ENG": "Trinidad and Tobago",
+    "FRE": "Trinité-et-Tobago",
+    "GER": "Trinidad und Tobago",
+    "ITA": "Trinidad e Tobago",
+    "SPA": "Trinidad y Tobago",
+    "CHN": "特立尼达和多巴哥",
+    "KOR": "트리니다드토바고"
+  },
+  {
+    "JPN": "タークス・カイコス諸島",
+    "ENG": "Turks and Caicos Islands",
+    "FRE": "Îles Turques-et-Caïques",
+    "GER": "Turks- und Caicosinseln",
+    "ITA": "Isole Turks e Caicos",
+    "SPA": "Islas Turcas y Caicos",
+    "CHN": "特克斯和凯科斯群岛",
+    "KOR": "터크스 케이커스 제도"
+  },
+  {
+    "JPN": "アメリカ",
+    "ENG": "United States",
+    "FRE": "États-Unis d’Amérique",
+    "GER": "Vereinigte Staaten",
+    "ITA": "Stati Uniti d'America",
+    "SPA": "Estados Unidos de América",
+    "CHN": "美国",
+    "KOR": "미국"
+  },
+  {
+    "JPN": "ウルグアイ",
+    "ENG": "Uruguay",
+    "FRE": "Uruguay",
+    "GER": "Uruguay",
+    "ITA": "Uruguay",
+    "SPA": "Uruguay",
+    "CHN": "乌拉圭",
+    "KOR": "우루과이"
+  },
+  {
+    "JPN": "米領バージン諸島",
+    "ENG": "US Virgin Islands",
+    "FRE": "Îles Vierges américaines",
+    "GER": "Amerikanische Jungferninseln",
+    "ITA": "Isole Vergini Statunitensi",
+    "SPA": "Islas Vírgenes de los EE. UU.",
+    "CHN": "美属维尔京群岛",
+    "KOR": "미국령 버진아일랜드"
+  },
+  {
+    "JPN": "ベネズエラ",
+    "ENG": "Venezuela",
+    "FRE": "Venezuela",
+    "GER": "Venezuela",
+    "ITA": "Venezuela",
+    "SPA": "Venezuela",
+    "CHN": "委内瑞拉",
+    "KOR": "베네수엘라"
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "JPN": "アルバニア",
+    "ENG": "Albania",
+    "FRE": "Albanie",
+    "GER": "Albanien",
+    "ITA": "Albania",
+    "SPA": "Albania",
+    "CHN": "阿尔巴尼亚",
+    "KOR": "알바니아"
+  },
+  {
+    "JPN": "オーストラリア",
+    "ENG": "Australia",
+    "FRE": "Australie",
+    "GER": "Australien",
+    "ITA": "Australia",
+    "SPA": "Australia",
+    "CHN": "澳大利亚",
+    "KOR": "오스트레일리아"
+  },
+  {
+    "JPN": "オーストリア",
+    "ENG": "Austria",
+    "FRE": "Autriche",
+    "GER": "Österreich",
+    "ITA": "Austria",
+    "SPA": "Austria",
+    "CHN": "奥地利",
+    "KOR": "오스트리아"
+  },
+  {
+    "JPN": "ベルギー",
+    "ENG": "Belgium",
+    "FRE": "Belgique",
+    "GER": "Belgien",
+    "ITA": "Belgio",
+    "SPA": "Bélgica",
+    "CHN": "比利时",
+    "KOR": "벨기에"
+  },
+  {
+    "JPN": "ボスニア・ヘルツェゴビナ",
+    "ENG": "Bosnia and Herzegovina",
+    "FRE": "Bosnie-Herzégovine",
+    "GER": "Bosnien-Herzegowina",
+    "ITA": "Bosnia-Erzegovina",
+    "SPA": "Bosnia-Herzegovina",
+    "CHN": "波斯尼亚和黑塞哥维那",
+    "KOR": "보스니아헤르체고비나"
+  },
+  {
+    "JPN": "ボツワナ",
+    "ENG": "Botswana",
+    "FRE": "Botswana",
+    "GER": "Botsuana",
+    "ITA": "Botswana",
+    "SPA": "Botsuana",
+    "CHN": "博茨瓦纳",
+    "KOR": "보츠와나"
+  },
+  {
+    "JPN": "ブルガリア",
+    "ENG": "Bulgaria",
+    "FRE": "Bulgarie",
+    "GER": "Bulgarien",
+    "ITA": "Bulgaria",
+    "SPA": "Bulgaria",
+    "CHN": "保加利亚",
+    "KOR": "불가리아"
+  },
+  {
+    "JPN": "クロアチア",
+    "ENG": "Croatia",
+    "FRE": "Croatie",
+    "GER": "Kroatien",
+    "ITA": "Croazia",
+    "SPA": "Croacia",
+    "CHN": "克罗地亚",
+    "KOR": "크로아티아"
+  },
+  {
+    "JPN": "キプロス",
+    "ENG": "Cyprus",
+    "FRE": "Chypre",
+    "GER": "Zypern",
+    "ITA": "Cipro",
+    "SPA": "Chipre",
+    "CHN": "塞浦路斯",
+    "KOR": "키프로스"
+  },
+  {
+    "JPN": "チェコ",
+    "ENG": "Czech Republic",
+    "FRE": "République tchèque",
+    "GER": "Tschechische Republik",
+    "ITA": "Repubblica Ceca",
+    "SPA": "República Checa",
+    "CHN": "捷克共和国",
+    "KOR": "체코"
+  },
+  {
+    "JPN": "デンマーク",
+    "ENG": "Denmark (Kingdom of)",
+    "FRE": "Danemark (Royaume)",
+    "GER": "Dänemark (Königreich)",
+    "ITA": "Danimarca (Regno di)",
+    "SPA": "Dinamarca (Reino)",
+    "CHN": "丹麦",
+    "KOR": "덴마크"
+  },
+  {
+    "JPN": "エストニア",
+    "ENG": "Estonia",
+    "FRE": "Estonie",
+    "GER": "Estland",
+    "ITA": "Estonia",
+    "SPA": "Estonia",
+    "CHN": "爱沙尼亚",
+    "KOR": "에스토니아"
+  },
+  {
+    "JPN": "フィンランド",
+    "ENG": "Finland",
+    "FRE": "Finlande",
+    "GER": "Finnland",
+    "ITA": "Finlandia",
+    "SPA": "Finlandia",
+    "CHN": "芬兰",
+    "KOR": "핀란드"
+  },
+  {
+    "JPN": "フランス",
+    "ENG": "France",
+    "FRE": "France",
+    "GER": "Frankreich",
+    "ITA": "Francia",
+    "SPA": "Francia",
+    "CHN": "法国",
+    "KOR": "프랑스"
+  },
+  {
+    "JPN": "ドイツ",
+    "ENG": "Germany",
+    "FRE": "Allemagne",
+    "GER": "Deutschland",
+    "ITA": "Germania",
+    "SPA": "Alemania",
+    "CHN": "德国",
+    "KOR": "독일"
+  },
+  {
+    "JPN": "ギリシャ",
+    "ENG": "Greece",
+    "FRE": "Grèce",
+    "GER": "Griechenland",
+    "ITA": "Grecia",
+    "SPA": "Grecia",
+    "CHN": "希腊",
+    "KOR": "그리스"
+  },
+  {
+    "JPN": "ハンガリー",
+    "ENG": "Hungary",
+    "FRE": "Hongrie",
+    "GER": "Ungarn",
+    "ITA": "Ungheria",
+    "SPA": "Hungría",
+    "CHN": "匈牙利",
+    "KOR": "헝가리"
+  },
+  {
+    "JPN": "アイスランド",
+    "ENG": "Iceland",
+    "FRE": "Islande",
+    "GER": "Island",
+    "ITA": "Islanda",
+    "SPA": "Islandia",
+    "CHN": "冰岛",
+    "KOR": "아이슬란드"
+  },
+  {
+    "JPN": "アイルランド",
+    "ENG": "Ireland",
+    "FRE": "Irlande",
+    "GER": "Irland",
+    "ITA": "Irlanda",
+    "SPA": "Irlanda",
+    "CHN": "爱尔兰",
+    "KOR": "아일랜드"
+  },
+  {
+    "JPN": "イタリア",
+    "ENG": "Italy",
+    "FRE": "Italie",
+    "GER": "Italien",
+    "ITA": "Italia",
+    "SPA": "Italia",
+    "CHN": "意大利",
+    "KOR": "이탈리아"
+  },
+  {
+    "JPN": "ラトビア",
+    "ENG": "Latvia",
+    "FRE": "Lettonie",
+    "GER": "Lettland",
+    "ITA": "Lettonia",
+    "SPA": "Letonia",
+    "CHN": "拉脱维亚",
+    "KOR": "라트비아"
+  },
+  {
+    "JPN": "レソト",
+    "ENG": "Lesotho",
+    "FRE": "Lesotho",
+    "GER": "Lesotho",
+    "ITA": "Lesotho",
+    "SPA": "Lesoto",
+    "CHN": "莱索托",
+    "KOR": "레소토"
+  },
+  {
+    "JPN": "リヒテンシュタイン",
+    "ENG": "Liechtenstein",
+    "FRE": "Liechtenstein",
+    "GER": "Liechtenstein",
+    "ITA": "Liechtenstein",
+    "SPA": "Liechtenstein",
+    "CHN": "列支敦士登",
+    "KOR": "리히텐슈타인"
+  },
+  {
+    "JPN": "リトアニア",
+    "ENG": "Lithuania",
+    "FRE": "Lituanie",
+    "GER": "Litauen",
+    "ITA": "Lituania",
+    "SPA": "Lituania",
+    "CHN": "立陶宛",
+    "KOR": "리투아니아"
+  },
+  {
+    "JPN": "ルクセンブルク",
+    "ENG": "Luxembourg",
+    "FRE": "Luxembourg",
+    "GER": "Luxemburg",
+    "ITA": "Lussemburgo",
+    "SPA": "Luxemburgo",
+    "CHN": "卢森堡",
+    "KOR": "룩셈부르크"
+  },
+  {
+    "JPN": "マケドニア",
+    "ENG": "Macedonia (Republic of)",
+    "FRE": "Macédoine (République)",
+    "GER": "Mazedonien (Republik)",
+    "ITA": "Macedonia (Repubblica di)",
+    "SPA": "Macedonia (República)",
+    "CHN": "马其顿",
+    "KOR": "마케도니아 공화국"
+  },
+  {
+    "JPN": "マルタ",
+    "ENG": "Malta",
+    "FRE": "Malte",
+    "GER": "Malta",
+    "ITA": "Malta",
+    "SPA": "Malta",
+    "CHN": "马耳他",
+    "KOR": "몰타"
+  },
+  {
+    "JPN": "モンテネグロ",
+    "ENG": "Montenegro",
+    "FRE": "Monténégro",
+    "GER": "Montenegro",
+    "ITA": "Montenegro",
+    "SPA": "Montenegro",
+    "CHN": "黑山",
+    "KOR": "몬테네그로"
+  },
+  {
+    "JPN": "モザンビーク",
+    "ENG": "Mozambique",
+    "FRE": "Mozambique",
+    "GER": "Mosambik",
+    "ITA": "Mozambico",
+    "SPA": "Mozambique",
+    "CHN": "莫桑比克",
+    "KOR": "모잠비크"
+  },
+  {
+    "JPN": "ナミビア",
+    "ENG": "Namibia",
+    "FRE": "Namibie",
+    "GER": "Namibia",
+    "ITA": "Namibia",
+    "SPA": "Namibia",
+    "CHN": "纳米比亚",
+    "KOR": "나미비아"
+  },
+  {
+    "JPN": "オランダ",
+    "ENG": "Netherlands",
+    "FRE": "Pays-Bas",
+    "GER": "Niederlande",
+    "ITA": "Paesi Bassi",
+    "SPA": "Países Bajos",
+    "CHN": "荷兰",
+    "KOR": "네덜란드"
+  },
+  {
+    "JPN": "ニュージーランド",
+    "ENG": "New Zealand",
+    "FRE": "Nouvelle-Zélande",
+    "GER": "Neuseeland",
+    "ITA": "Nuova Zelanda",
+    "SPA": "Nueva Zelanda",
+    "CHN": "新西兰",
+    "KOR": "뉴질랜드"
+  },
+  {
+    "JPN": "ノルウェー",
+    "ENG": "Norway",
+    "FRE": "Norvège",
+    "GER": "Norwegen",
+    "ITA": "Norvegia",
+    "SPA": "Noruega",
+    "CHN": "挪威",
+    "KOR": "노르웨이"
+  },
+  {
+    "JPN": "ポーランド",
+    "ENG": "Poland",
+    "FRE": "Pologne",
+    "GER": "Polen",
+    "ITA": "Polonia",
+    "SPA": "Polonia",
+    "CHN": "波兰",
+    "KOR": "폴란드"
+  },
+  {
+    "JPN": "ポルトガル",
+    "ENG": "Portugal",
+    "FRE": "Portugal",
+    "GER": "Portugal",
+    "ITA": "Portogallo",
+    "SPA": "Portugal",
+    "CHN": "葡萄牙",
+    "KOR": "포르투갈"
+  },
+  {
+    "JPN": "ルーマニア",
+    "ENG": "Romania",
+    "FRE": "Roumanie",
+    "GER": "Rumänien",
+    "ITA": "Romania",
+    "SPA": "Rumanía",
+    "CHN": "罗马尼亚",
+    "KOR": "루마니아"
+  },
+  {
+    "JPN": "ロシア",
+    "ENG": "Russia",
+    "FRE": "Russie",
+    "GER": "Russland",
+    "ITA": "Russia",
+    "SPA": "Rusia",
+    "CHN": "俄罗斯",
+    "KOR": "러시아"
+  },
+  {
+    "JPN": "セルビア・コソヴォ",
+    "ENG": "Serbia and Kosovo",
+    "FRE": "Serbie et Kosovo",
+    "GER": "Serbien und Kosovo",
+    "ITA": "Serbia e Kosovo",
+    "SPA": "Serbia y Kosovo",
+    "CHN": "塞尔维亚及科索沃",
+    "KOR": "세르비아 코소보"
+  },
+  {
+    "JPN": "スロバキア",
+    "ENG": "Slovakia",
+    "FRE": "Slovaquie",
+    "GER": "Slowakei",
+    "ITA": "Slovacchia",
+    "SPA": "Eslovaquia",
+    "CHN": "斯洛伐克",
+    "KOR": "슬로바키아"
+  },
+  {
+    "JPN": "スロベニア",
+    "ENG": "Slovenia",
+    "FRE": "Slovénie",
+    "GER": "Slowenien",
+    "ITA": "Slovenia",
+    "SPA": "Eslovenia",
+    "CHN": "斯洛文尼亚",
+    "KOR": "슬로베니아"
+  },
+  {
+    "JPN": "南アフリカ",
+    "ENG": "South Africa",
+    "FRE": "Afrique du Sud",
+    "GER": "Südafrika",
+    "ITA": "Sudafrica",
+    "SPA": "Sudáfrica",
+    "CHN": "南非",
+    "KOR": "남아프리카 공화국"
+  },
+  {
+    "JPN": "スペイン",
+    "ENG": "Spain",
+    "FRE": "Espagne",
+    "GER": "Spanien",
+    "ITA": "Spagna",
+    "SPA": "España",
+    "CHN": "西班牙",
+    "KOR": "스페인"
+  },
+  {
+    "JPN": "スワジランド",
+    "ENG": "Swaziland",
+    "FRE": "Swaziland",
+    "GER": "Swasiland",
+    "ITA": "Swaziland",
+    "SPA": "Suazilandia",
+    "CHN": "斯威士兰",
+    "KOR": "스와질란드"
+  },
+  {
+    "JPN": "スウェーデン",
+    "ENG": "Sweden",
+    "FRE": "Suède",
+    "GER": "Schweden",
+    "ITA": "Svezia",
+    "SPA": "Suecia",
+    "CHN": "瑞典",
+    "KOR": "스웨덴"
+  },
+  {
+    "JPN": "スイス",
+    "ENG": "Switzerland",
+    "FRE": "Suisse",
+    "GER": "Schweiz",
+    "ITA": "Svizzera",
+    "SPA": "Suiza",
+    "CHN": "瑞士",
+    "KOR": "스위스"
+  },
+  {
+    "JPN": "トルコ",
+    "ENG": "Turkey",
+    "FRE": "Turquie",
+    "GER": "Türkei",
+    "ITA": "Turchia",
+    "SPA": "Turquía",
+    "CHN": "土耳其",
+    "KOR": "터키"
+  },
+  {
+    "JPN": "イギリス",
+    "ENG": "United Kingdom",
+    "FRE": "Royaume-Uni",
+    "GER": "Vereinigtes Königreich",
+    "ITA": "Regno Unito",
+    "SPA": "Reino Unido",
+    "CHN": "英国",
+    "KOR": "영국"
+  },
+  {
+    "JPN": "ザンビア",
+    "ENG": "Zambia",
+    "FRE": "Zambie",
+    "GER": "Sambia",
+    "ITA": "Zambia",
+    "SPA": "Zambia",
+    "CHN": "赞比亚",
+    "KOR": "잠비아"
+  },
+  {
+    "JPN": "ジンバブエ",
+    "ENG": "Zimbabwe",
+    "FRE": "Zimbabwe",
+    "GER": "Simbabwe",
+    "ITA": "Zimbabwe",
+    "SPA": "Zimbabue",
+    "CHN": "津巴布韦",
+    "KOR": "짐바브웨"
+  },
+  {
+    "JPN": "アゼルバイジャン",
+    "ENG": "Azerbaijan",
+    "FRE": "Azerbaïdjan",
+    "GER": "Aserbaidschan",
+    "ITA": "Azerbaigian",
+    "SPA": "Azerbaiyán",
+    "CHN": "阿塞拜疆",
+    "KOR": "아제르바이잔"
+  },
+  {
+    "JPN": "モーリタニア",
+    "ENG": "Mauritania",
+    "FRE": "Mauritanie",
+    "GER": "Mauretanien",
+    "ITA": "Mauritania",
+    "SPA": "Mauritania",
+    "CHN": "毛里塔尼亚",
+    "KOR": "모리타니"
+  },
+  {
+    "JPN": "マリ",
+    "ENG": "Mali",
+    "FRE": "Mali",
+    "GER": "Mali",
+    "ITA": "Mali",
+    "SPA": "Malí",
+    "CHN": "马里",
+    "KOR": "말리"
+  },
+  {
+    "JPN": "ニジェール",
+    "ENG": "Niger",
+    "FRE": "Niger",
+    "GER": "Niger",
+    "ITA": "Niger",
+    "SPA": "Níger",
+    "CHN": "尼日尔",
+    "KOR": "니제르"
+  },
+  {
+    "JPN": "チャド",
+    "ENG": "Chad",
+    "FRE": "Tchad",
+    "GER": "Tschad",
+    "ITA": "Ciad",
+    "SPA": "Chad",
+    "CHN": "乍得",
+    "KOR": "차드"
+  },
+  {
+    "JPN": "スーダン",
+    "ENG": "Sudan",
+    "FRE": "Soudan",
+    "GER": "Sudan",
+    "ITA": "Sudan",
+    "SPA": "Sudán",
+    "CHN": "苏丹",
+    "KOR": "수단"
+  },
+  {
+    "JPN": "エリトリア",
+    "ENG": "Eritrea",
+    "FRE": "Érythrée",
+    "GER": "Eritrea",
+    "ITA": "Eritrea",
+    "SPA": "Eritrea",
+    "CHN": "厄立特里亚",
+    "KOR": "에리트레아"
+  },
+  {
+    "JPN": "ジブチ",
+    "ENG": "Djibouti",
+    "FRE": "Djibouti",
+    "GER": "Dschibuti",
+    "ITA": "Gibuti",
+    "SPA": "Yibuti",
+    "CHN": "吉布提",
+    "KOR": "지부티"
+  },
+  {
+    "JPN": "ソマリア",
+    "ENG": "Somalia",
+    "FRE": "Somalie",
+    "GER": "Somalia",
+    "ITA": "Somalia",
+    "SPA": "Somalia",
+    "CHN": "索马里",
+    "KOR": "소말리아"
+  },
+  {
+    "JPN": "アンドラ",
+    "ENG": "Andorra",
+    "FRE": "Andorre",
+    "GER": "Andorra",
+    "ITA": "Andorra",
+    "SPA": "Andorra",
+    "CHN": "安道尔",
+    "KOR": "안도라"
+  },
+  {
+    "JPN": "ジブラルタル",
+    "ENG": "Gibraltar",
+    "FRE": "Gibraltar",
+    "GER": "Gibraltar",
+    "ITA": "Gibilterra",
+    "SPA": "Gibraltar",
+    "CHN": "直布罗陀",
+    "KOR": "지브롤터"
+  },
+  {
+    "JPN": "ガーンジー島",
+    "ENG": "Guernsey",
+    "FRE": "Guernesey",
+    "GER": "Guernsey",
+    "ITA": "Guernsey",
+    "SPA": "Guernsey",
+    "CHN": "根西",
+    "KOR": "건지 섬"
+  },
+  {
+    "JPN": "マン島",
+    "ENG": "Isle of Man",
+    "FRE": "Île de Man",
+    "GER": "Isle of Man",
+    "ITA": "Isola di Man",
+    "SPA": "Isla de Man",
+    "CHN": "马恩岛",
+    "KOR": "맨 섬"
+  },
+  {
+    "JPN": "ジャージー島",
+    "ENG": "Jersey",
+    "FRE": "Jersey",
+    "GER": "Jersey",
+    "ITA": "Jersey",
+    "SPA": "Jersey",
+    "CHN": "泽西",
+    "KOR": "저지 섬"
+  },
+  {
+    "JPN": "モナコ",
+    "ENG": "Monaco",
+    "FRE": "Monaco",
+    "GER": "Monaco",
+    "ITA": "Monaco (Principato di)",
+    "SPA": "Mónaco",
+    "CHN": "摩纳哥",
+    "KOR": "모나코"
+  },
+  {
+    "JPN": "台湾",
+    "ENG": "Taiwan",
+    "FRE": "Taïwan",
+    "GER": "Taiwan",
+    "ITA": "Taiwan",
+    "SPA": "Taiwán",
+    "CHN": "中国 台湾",
+    "KOR": "타이완"
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "JPN": "韓国",
+    "ENG": "South Korea",
+    "FRE": "Corée du Sud",
+    "GER": "Südkorea",
+    "ITA": "Corea del Sud",
+    "SPA": "Corea del Sur",
+    "CHN": "韩国",
+    "KOR": "대한민국"
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "JPN": "ホンコン",
+    "ENG": "Hong Kong",
+    "FRE": "Hong Kong",
+    "GER": "Hongkong",
+    "ITA": "Hong Kong",
+    "SPA": "Hong Kong",
+    "CHN": "中国 香港",
+    "KOR": "홍콩"
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "JPN": "シンガポール",
+    "ENG": "Singapore",
+    "FRE": "Singapour",
+    "GER": "Singapur",
+    "ITA": "Singapore",
+    "SPA": "Singapur",
+    "CHN": "新加坡",
+    "KOR": "싱가포르"
+  },
+  null,
+  null,
+  {
+    "JPN": "マレーシア",
+    "ENG": "Malaysia",
+    "FRE": "Malaisie",
+    "GER": "Malaysia",
+    "ITA": "Malesia",
+    "SPA": "Malasia",
+    "CHN": "马来西亚",
+    "KOR": "말레이시아"
+  },
+  null,
+  null,
+  null,
+  {
+    "JPN": "中国",
+    "ENG": "China",
+    "FRE": "Chine",
+    "GER": "China",
+    "ITA": "Cina",
+    "SPA": "China",
+    "CHN": "中国",
+    "KOR": "중국"
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "JPN": "アラブ首長国連邦",
+    "ENG": "U.A.E.",
+    "FRE": "Émirats arabes unis",
+    "GER": "Vereinigte Arabische Emirate",
+    "ITA": "Emirati Arabi Uniti",
+    "SPA": "Emiratos Árabes Unidos",
+    "CHN": "阿拉伯联合酋长国",
+    "KOR": "아랍에미리트"
+  },
+  {
+    "JPN": "インド",
+    "ENG": "India",
+    "FRE": "Inde",
+    "GER": "Indien",
+    "ITA": "India",
+    "SPA": "India",
+    "CHN": "印度",
+    "KOR": "인도"
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+    "JPN": "サウジアラビア",
+    "ENG": "Saudi Arabia",
+    "FRE": "Arabie saoudite",
+    "GER": "Saudi-Arabien",
+    "ITA": "Arabia Saudita",
+    "SPA": "Arabia Saudí",
+    "CHN": "沙特阿拉伯",
+    "KOR": "사우디아라비아"
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "JPN": "サンマリノ",
+    "ENG": "San Marino",
+    "FRE": "Saint-Marin",
+    "GER": "San Marino",
+    "ITA": "San Marino",
+    "SPA": "San Marino",
+    "CHN": "圣马力诺",
+    "KOR": "산마리노"
+  },
+  {
+    "JPN": "バチカン",
+    "ENG": "Vatican City",
+    "FRE": "Vatican",
+    "GER": "Vatikanstadt",
+    "ITA": "Vaticano (Città del)",
+    "SPA": "Vaticano",
+    "CHN": "梵蒂冈",
+    "KOR": "바티칸"
+  },
+  {
+    "JPN": "バーミューダ",
+    "ENG": "Bermuda",
+    "FRE": "Bermudes",
+    "GER": "Bermuda",
+    "ITA": "Bermude",
+    "SPA": "Bermudas",
+    "CHN": "百慕大",
+    "KOR": "버뮤다"
+  }
+]
+},{}],3:[function(require,module,exports){
+module.exports=[
+  null,
+  "Rock Smash",
+  "Tall Grass",
+  null,
+  "Spear Pillar",
+  "Cave/Hall of Origin",
+  null,
+  "Surfing/Fishing",
+  null,
+  "Building/Enigma Stone",
+  "Safari Zone/Great Marsh",
+  null,
+  "Starter/Fossil/Gift",
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  "Distortion World",
+  "Starter/Fossil/Gift"
+]
+
+},{}],4:[function(require,module,exports){
+module.exports=[
+  null,
   "Sapphire",
   "Ruby",
   "Emerald",
@@ -232,7 +1549,557 @@ module.exports=[
   "Omega Ruby"
 ]
 
-},{}],3:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
+module.exports={
+  "0": "Littleroot Town",
+  "1": "Oldale Town",
+  "2": "Dewford Town",
+  "3": "Lavaridge Town",
+  "4": "Fallarbor Town",
+  "5": "Verdanturf Town",
+  "6": "Pacifidlog Town",
+  "7": "Petalburg City",
+  "8": "Slateport City",
+  "9": "Mauville City",
+  "10": "Rustboro City",
+  "11": "Fortree City",
+  "12": "Lilycove City",
+  "13": "Mossdeep City",
+  "14": "Sootopolis City",
+  "15": "Ever Grande City",
+  "16": "Route 101",
+  "17": "Route 102",
+  "18": "Route 103",
+  "19": "Route 104",
+  "20": "Route 105",
+  "21": "Route 106",
+  "22": "Route 107",
+  "23": "Route 108",
+  "24": "Route 109",
+  "25": "Route 110",
+  "26": "Route 111",
+  "27": "Route 112",
+  "28": "Route 113",
+  "29": "Route 114",
+  "30": "Route 115",
+  "31": "Route 116",
+  "32": "Route 117",
+  "33": "Route 118",
+  "34": "Route 119",
+  "35": "Route 120",
+  "36": "Route 121",
+  "37": "Route 122",
+  "38": "Route 123",
+  "39": "Route 124",
+  "40": "Route 125",
+  "41": "Route 126",
+  "42": "Route 127",
+  "43": "Route 128",
+  "44": "Route 129",
+  "45": "Route 130",
+  "46": "Route 131",
+  "47": "Route 132",
+  "48": "Route 133",
+  "49": "Route 134",
+  "50": "Underwater (Route 124)",
+  "51": "Underwater (Route 126)",
+  "52": "Underwater (Route 127)",
+  "53": "Underwater (Route 128)",
+  "54": "Underwater (Sootopolis City)",
+  "55": "Granite Cave",
+  "56": "Mt. Chimney",
+  "57": "Safari Zone",
+  "58": "Battle Frontier",
+  "59": "Petalburg Woods",
+  "60": "Rusturf Tunnel",
+  "61": "Abandoned Ship",
+  "62": "New Mauville",
+  "63": "Meteor Falls",
+  "64": "Meteor Falls",
+  "65": "Mt. Pyre",
+  "66": "Hideout",
+  "67": "Shoal Cave",
+  "68": "Seafloor Cavern",
+  "69": "Underwater",
+  "70": "Victory Road",
+  "71": "Mirage Island",
+  "72": "Cave of Origin",
+  "73": "Southern Island",
+  "74": "Fiery Path",
+  "75": "Fiery Path",
+  "76": "Jagged Pass",
+  "77": "Jagged Pass",
+  "78": "Sealed Chamber",
+  "79": "Underwater",
+  "80": "Scorched Slab",
+  "81": "Island Cave",
+  "82": "Desert Ruins",
+  "83": "Ancient Tomb",
+  "84": "Inside of Truck",
+  "85": "Sky Pillar",
+  "86": "Secret Base",
+  "87": "Ferry",
+  "88": "Pallet Town",
+  "89": "Viridian City",
+  "90": "Pewter City",
+  "91": "Cerulean City",
+  "92": "Lavender Town",
+  "93": "Vermilion City",
+  "94": "Celadon City",
+  "95": "Fuchsia City",
+  "96": "Cinnabar Island",
+  "97": "Indigo Plateau",
+  "98": "Saffron City",
+  "99": "Route 4",
+  "100": "Route 10",
+  "101": "Route 1",
+  "102": "Route 2",
+  "103": "Route 3",
+  "104": "Route 4",
+  "105": "Route 5",
+  "106": "Route 6",
+  "107": "Route 7",
+  "108": "Route 8",
+  "109": "Route 9",
+  "110": "Route 10",
+  "111": "Route 11",
+  "112": "Route 12",
+  "113": "Route 13",
+  "114": "Route 14",
+  "115": "Route 15",
+  "116": "Route 16",
+  "117": "Route 17",
+  "118": "Route 18",
+  "119": "Route 19",
+  "120": "Route 20",
+  "121": "Route 21",
+  "122": "Route 22",
+  "123": "Route 23",
+  "124": "Route 24",
+  "125": "Route 25",
+  "126": "Viridian Forest",
+  "127": "Mt. Moon",
+  "128": "S.S. Anne",
+  "129": "Underground Path",
+  "130": "Underground Path",
+  "131": "Diglett's Cave",
+  "132": "Victory Road",
+  "133": "Rocket Hideout",
+  "134": "Silph Co.",
+  "135": "Pokémon Mansion",
+  "136": "Safari Zone",
+  "137": "Pokémon League",
+  "138": "Rock Tunnel",
+  "139": "Seafoam Islands",
+  "140": "Pokémon Tower",
+  "141": "Cerulean Cave",
+  "142": "Power Plant",
+  "143": "One Island",
+  "144": "Two Island",
+  "145": "Three Island",
+  "146": "Four Island",
+  "147": "Five Island",
+  "148": "Seven Island",
+  "149": "Six Island",
+  "150": "Kindle Road",
+  "151": "Treasure Beach",
+  "152": "Cape Brink",
+  "153": "Bond Bridge",
+  "154": "Three Isle Port",
+  "155": "Sevii Isle 6",
+  "156": "Sevii Isle 7",
+  "157": "Sevii Isle 8",
+  "158": "Sevii Isle 9",
+  "159": "Resort Gorgeous",
+  "160": "Water Labyrinth",
+  "161": "Five Isle Meadow",
+  "162": "Memorial Pillar",
+  "163": "Outcast Island",
+  "164": "Green Path",
+  "165": "Water Path",
+  "166": "Ruin Valley",
+  "167": "Trainer Tower",
+  "168": "Canyon Entrance",
+  "169": "Sevault Canyon",
+  "170": "Tanoby Ruins",
+  "171": "Sevii Isle 22",
+  "172": "Sevii Isle 23",
+  "173": "Sevii Isle 24",
+  "174": "Navel Rock",
+  "175": "Mt. Ember",
+  "176": "Berry Forest",
+  "177": "Icefall Cave",
+  "178": "Rocket Warehouse",
+  "179": "Trainer Tower",
+  "180": "Dotted Hole",
+  "181": "Lost Cave",
+  "182": "Pattern Bush",
+  "183": "Altering Cave",
+  "184": "Tanoby Chambers",
+  "185": "Three Isle Path",
+  "186": "Tanoby Key",
+  "187": "Birth Island",
+  "188": "Monean Chamber",
+  "189": "Liptoo Chamber",
+  "190": "Weepth Chamber",
+  "191": "Dilford Chamber",
+  "192": "Scufib Chamber",
+  "193": "Rixy Chamber",
+  "194": "Viapois Chamber",
+  "195": "Ember Spa",
+  "196": "Celadon Dept.",
+  "197": "Aqua Hideout",
+  "198": "Magma Hideout",
+  "199": "Mirage Tower",
+  "200": "Birth Island",
+  "201": "Faraway Island",
+  "202": "Artisan Cave",
+  "203": "Marine Cave",
+  "204": "Underwater",
+  "205": "Terra Cave",
+  "206": "Underwater",
+  "207": "Underwater",
+  "208": "Underwater",
+  "209": "Desert Underpass",
+  "210": "Altering Cave",
+  "211": "Navel Rock",
+  "212": "Trainer Hill",
+  "254": "(in-game trade)",
+  "255": "(fateful encounter)"
+}
+
+},{}],6:[function(require,module,exports){
+module.exports={
+  "0": "Mystery Zone",
+  "1": "Twinleaf Town",
+  "2": "Sandgem Town",
+  "3": "Floaroma Town",
+  "4": "Solaceon Town",
+  "5": "Celestic Town",
+  "6": "Jubilife City",
+  "7": "Canalave City",
+  "8": "Oreburgh City",
+  "9": "Eterna City",
+  "10": "Hearthome City",
+  "11": "Pastoria City",
+  "12": "Veilstone City",
+  "13": "Sunyshore City",
+  "14": "Snowpoint City",
+  "15": "Pokémon League",
+  "16": "Route 201",
+  "17": "Route 202",
+  "18": "Route 203",
+  "19": "Route 204",
+  "20": "Route 205",
+  "21": "Route 206",
+  "22": "Route 207",
+  "23": "Route 208",
+  "24": "Route 209",
+  "25": "Route 210",
+  "26": "Route 211",
+  "27": "Route 212",
+  "28": "Route 213",
+  "29": "Route 214",
+  "30": "Route 215",
+  "31": "Route 216",
+  "32": "Route 217",
+  "33": "Route 218",
+  "34": "Route 219",
+  "35": "Route 220",
+  "36": "Route 221",
+  "37": "Route 222",
+  "38": "Route 223",
+  "39": "Route 224",
+  "40": "Route 225",
+  "41": "Route 226",
+  "42": "Route 227",
+  "43": "Route 228",
+  "44": "Route 229",
+  "45": "Route 230",
+  "46": "Oreburgh Mine",
+  "47": "Valley Windworks",
+  "48": "Eterna Forest",
+  "49": "Fuego Ironworks",
+  "50": "Mt. Coronet",
+  "51": "Spear Pillar",
+  "52": "Great Marsh",
+  "53": "Solaceon Ruins",
+  "54": "Victory Road",
+  "55": "Pal Park",
+  "56": "Amity Square",
+  "57": "Ravaged Path",
+  "58": "Floaroma Meadow",
+  "59": "Oreburgh Gate",
+  "60": "Fullmoon Island",
+  "61": "Sendoff Spring",
+  "62": "Turnback Cave",
+  "63": "Flower Paradise",
+  "64": "Snowpoint Temple",
+  "65": "Wayward Cave",
+  "66": "Ruin Maniac Cave",
+  "67": "Maniac Tunnel",
+  "68": "Trophy Garden",
+  "69": "Iron Island",
+  "70": "Old Chateau",
+  "71": "Galactic HQ",
+  "72": "Verity Lakefront",
+  "73": "Valor Lakefront",
+  "74": "Acuity Lakefront",
+  "75": "Spring Path",
+  "76": "Lake Verity",
+  "77": "Lake Valor",
+  "78": "Lake Acuity",
+  "79": "Newmoon Island",
+  "80": "Battle Tower",
+  "81": "Fight Area",
+  "82": "Survival Area",
+  "83": "Resort Area",
+  "84": "Stark Mountain",
+  "85": "Seabreak Path",
+  "86": "Hall of Origin",
+  "87": "Verity Cavern",
+  "88": "Valor Cavern",
+  "89": "Acuity Cavern",
+  "90": "Jubilife TV",
+  "91": "Pokétch Co.",
+  "92": "GTS",
+  "93": "Trainers' School",
+  "94": "Mining Museum",
+  "95": "Flower Shop",
+  "96": "Cycle Shop",
+  "97": "Contest Hall",
+  "98": "Poffin House",
+  "99": "Foreign Building",
+  "100": "Pokémon Day Care",
+  "101": "Veilstone Store",
+  "102": "Game Corner",
+  "103": "Canalave Library",
+  "104": "Vista Lighthouse",
+  "105": "Sunyshore Market",
+  "106": "Pokémon Mansion",
+  "107": "Footstep House",
+  "108": "Café",
+  "109": "Grand Lake",
+  "110": "Restaurant",
+  "111": "Battle Park",
+  "112": "Battle Frontier",
+  "113": "Battle Factory",
+  "114": "Battle Castle",
+  "115": "Battle Arcade",
+  "116": "Battle Hall",
+  "117": "Distortion World",
+  "118": "Global Terminal",
+  "119": "Villa",
+  "120": "Battleground",
+  "121": "ROTOM's Room",
+  "122": "T.G. Eterna Bldg",
+  "123": "Iron Ruins",
+  "124": "Iceberg Ruins",
+  "125": "Rock Peak Ruins",
+  "126": "New Bark Town",
+  "127": "Cherrygrove City",
+  "128": "Violet City",
+  "129": "Azalea Town",
+  "130": "Cianwood City",
+  "131": "Goldenrod City",
+  "132": "Olivine City",
+  "133": "Ecruteak City",
+  "134": "Mahogany Town",
+  "135": "Lake of Rage",
+  "136": "Blackthorn City",
+  "137": "Mt. Silver",
+  "138": "Pallet Town",
+  "139": "Viridian City",
+  "140": "Pewter City",
+  "141": "Cerulean City",
+  "142": "Lavender Town",
+  "143": "Vermilion City",
+  "144": "Celadon City",
+  "145": "Fuchsia City",
+  "146": "Cinnabar Island",
+  "147": "Indigo Plateau",
+  "148": "Saffron City",
+  "149": "Route 1",
+  "150": "Route 2",
+  "151": "Route 3",
+  "152": "Route 4",
+  "153": "Route 5",
+  "154": "Route 6",
+  "155": "Route 7",
+  "156": "Route 8",
+  "157": "Route 9",
+  "158": "Route 10",
+  "159": "Route 11",
+  "160": "Route 12",
+  "161": "Route 13",
+  "162": "Route 14",
+  "163": "Route 15",
+  "164": "Route 16",
+  "165": "Route 17",
+  "166": "Route 18",
+  "167": "Route 19",
+  "168": "Route 20",
+  "169": "Route 21",
+  "170": "Route 22",
+  "171": "Route 23",
+  "172": "Route 24",
+  "173": "Route 25",
+  "174": "Route 26",
+  "175": "Route 27",
+  "176": "Route 28",
+  "177": "Route 29",
+  "178": "Route 30",
+  "179": "Route 31",
+  "180": "Route 32",
+  "181": "Route 33",
+  "182": "Route 34",
+  "183": "Route 35",
+  "184": "Route 36",
+  "185": "Route 37",
+  "186": "Route 38",
+  "187": "Route 39",
+  "188": "Route 40",
+  "189": "Route 41",
+  "190": "Route 42",
+  "191": "Route 43",
+  "192": "Route 44",
+  "193": "Route 45",
+  "194": "Route 46",
+  "195": "Route 47",
+  "196": "Route 48",
+  "197": "DIGLETT's Cave",
+  "198": "Mt. Moon",
+  "199": "Cerulean Cave",
+  "200": "Rock Tunnel",
+  "201": "Power Plant",
+  "202": "Safari Zone",
+  "203": "Seafoam Islands",
+  "204": "Sprout Tower",
+  "205": "Bell Tower",
+  "206": "Burned Tower",
+  "207": "National Park",
+  "208": "Radio Tower",
+  "209": "Ruins of Alph",
+  "210": "Union Cave",
+  "211": "SLOWPOKE Well",
+  "212": "Lighthouse",
+  "213": "Team Rocket HQ",
+  "214": "Ilex Forest",
+  "215": "Goldenrod Tunnel",
+  "216": "Mt. Mortar",
+  "217": "Ice Path",
+  "218": "Whirl Islands",
+  "219": "Mt. Silver Cave",
+  "220": "Dark Cave",
+  "221": "Victory Road",
+  "222": "Dragon's Den",
+  "223": "Tohjo Falls",
+  "224": "Viridian Forest",
+  "225": "Pokéathlon Dome",
+  "226": "S.S. Aqua",
+  "227": "Safari Zone Gate",
+  "228": "Cliff Cave",
+  "229": "Frontier Access",
+  "230": "Bellchime Trail",
+  "231": "Sinjoh Ruins",
+  "232": "Embedded Tower",
+  "233": "Pokéwalker",
+  "234": "Cliff Edge Gate",
+  "2000": "Day-Care Couple",
+  "2001": "Link Trade",
+  "2002": "Link Trade",
+  "2003": "Kanto",
+  "2004": "Johto",
+  "2005": "Hoenn",
+  "2006": "Sinnoh",
+  "2007": "----------",
+  "2008": "Distant land",
+  "2009": "Traveling Man",
+  "2010": "Riley",
+  "2011": "Cynthia",
+  "2012": "Mystery Zone",
+  "2013": "Mr. Pokémon",
+  "2014": "Primo",
+  "3000": "Lovely place",
+  "3001": "Pokémon Ranger",
+  "3002": "Faraway place",
+  "3003": "Pokémon Movie",
+  "3004": "Pokémon Movie 06",
+  "3005": "Pokémon Movie 07",
+  "3006": "Pokémon Movie 08",
+  "3007": "Pokémon Movie 09",
+  "3008": "Pokémon Movie 10",
+  "3009": "Pokémon Movie 11",
+  "3010": "Pokémon Movie 12",
+  "3011": "Pokémon Movie 13",
+  "3012": "Pokémon Movie 14",
+  "3013": "Pokémon Movie 15",
+  "3014": "Pokémon Movie 16",
+  "3015": "Pokémon Cartoon",
+  "3016": "Space World",
+  "3017": "Space World 06",
+  "3018": "Space World 07",
+  "3019": "Space World 08",
+  "3020": "Space World 09",
+  "3021": "Space World 10",
+  "3022": "Space World 11",
+  "3023": "Space World 12",
+  "3024": "Space World 13",
+  "3025": "Space World 14",
+  "3026": "Space World 15",
+  "3027": "Space World 16",
+  "3028": "Pokémon Festa",
+  "3029": "Pokémon Festa 06",
+  "3030": "Pokémon Festa 07",
+  "3031": "Pokémon Festa 08",
+  "3032": "Pokémon Festa 09",
+  "3033": "Pokémon Festa 10",
+  "3034": "Pokémon Festa 11",
+  "3035": "Pokémon Festa 12",
+  "3036": "Pokémon Festa 13",
+  "3037": "Pokémon Festa 14",
+  "3038": "Pokémon Festa 15",
+  "3039": "Pokémon Festa 16",
+  "3040": "POKéPARK",
+  "3041": "POKéPARK 06",
+  "3042": "POKéPARK 07",
+  "3043": "POKéPARK 08",
+  "3044": "POKéPARK 09",
+  "3045": "POKéPARK 10",
+  "3046": "POKéPARK 11",
+  "3047": "POKéPARK 12",
+  "3048": "POKéPARK 13",
+  "3049": "POKéPARK 14",
+  "3050": "POKéPARK 15",
+  "3051": "POKéPARK 16",
+  "3052": "Pokémon Center",
+  "3053": "PC Tokyo",
+  "3054": "PC Osaka",
+  "3055": "PC Fukuoka",
+  "3056": "PC Nagoya",
+  "3057": "PC Sapporo",
+  "3058": "PC Yokohama",
+  "3059": "Nintendo World",
+  "3060": "Pokémon Event",
+  "3061": "Pokémon Event 06",
+  "3062": "Pokémon Event 07",
+  "3063": "Pokémon Event 08",
+  "3064": "Pokémon Event 09",
+  "3065": "Pokémon Event 10",
+  "3066": "Pokémon Event 11",
+  "3067": "Pokémon Event 12",
+  "3068": "Pokémon Event 13",
+  "3069": "Pokémon Event 14",
+  "3070": "Pokémon Event 15",
+  "3071": "Pokémon Event 16",
+  "3072": "Wi-Fi Event",
+  "3073": "Wi-Fi Gift",
+  "3074": "Pokémon Fan Club",
+  "3075": "Event Site",
+  "3076": "Concert Event"
+}
+
+},{}],7:[function(require,module,exports){
 module.exports={
   "0": null,
   "1": "Mystery Zone",
@@ -516,7 +2383,7 @@ module.exports={
   "60003": "Treasure Hunter"
 }
 
-},{}],4:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 module.exports={
   "0": null,
   "2": "Mystery Zone",
@@ -814,7 +2681,7 @@ module.exports={
   "60004": "an old hot-springs visitor"
 }
 
-},{}],5:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 module.exports=[
   null,
   null,
@@ -849,7 +2716,1741 @@ module.exports=[
   "The Battle for the Best: Version X/Y!"
 ]
 
-},{}],6:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
+module.exports=[
+  {
+    "ENG": "it was happy",
+    "SPA": "cuánto se alegró",
+    "FRE": "ça lui a fait plaisir",
+    "GER": "wie glücklich es war",
+    "ITA": "la sua felicità",
+    "JPN": "うれしかった",
+    "KOR": "고마웠던",
+    "CHN": "うれしかった"
+  },
+  {
+    "ENG": "it had fun",
+    "SPA": "lo bien que lo pasó",
+    "FRE": "c’était amusant",
+    "GER": "wie viel Spaß es hatte",
+    "ITA": "quanto sia stato divertente",
+    "JPN": "たのしかった",
+    "KOR": "즐거웠던",
+    "CHN": "たのしかった"
+  },
+  {
+    "ENG": "it was glad",
+    "SPA": "la felicidad que sintió",
+    "FRE": "ça l’a rendu heureux",
+    "GER": "wie sehr es sich gefreut hat",
+    "ITA": "la sua gioia",
+    "JPN": "よろこんだ",
+    "KOR": "기뻤던",
+    "CHN": "よろこんだ"
+  },
+  {
+    "ENG": "it grinned",
+    "SPA": "la sonrisa que esbozó",
+    "FRE": "ça l’a fait sourire",
+    "GER": "wie es gegrinst hat",
+    "ITA": "le sue risate",
+    "JPN": "ニヤニヤした",
+    "KOR": "히죽히죽 웃었던",
+    "CHN": "ニヤニヤした"
+  },
+  {
+    "ENG": "it got overwhelmed by emotion",
+    "SPA": "cómo le embargó la emoción",
+    "FRE": "ça l’a ému",
+    "GER": "wie überwältigt es war",
+    "ITA": "la sua emozione",
+    "JPN": "たまらない　きもちになった",
+    "KOR": "참을 수 없는 기분이 되었던",
+    "CHN": "たまらない　きもちになった"
+  },
+  {
+    "ENG": "its feelings were indescribable",
+    "SPA": "la sensación inenarrable que experimentó",
+    "FRE": "c’était une drôle de sensation",
+    "GER": "wie unbeschreiblich seine Gefühle waren",
+    "ITA": "quella sensazione indescrivibile",
+    "JPN": "なんともいえない　きもちだった",
+    "KOR": "말로는 표현할 수 없는 기분이 되었던",
+    "CHN": "なんともいえない　きもちだった"
+  },
+  {
+    "ENG": "it felt good",
+    "SPA": "lo mucho que le agradó",
+    "FRE": "c’était agréable",
+    "GER": "wie gut gelaunt es war",
+    "ITA": "quanto è stato piacevole",
+    "JPN": "いい　きぶんになった",
+    "KOR": "좋은 기분이 되었던",
+    "CHN": "いい　きぶんになった"
+  },
+  {
+    "ENG": "it got teary eyed",
+    "SPA": "las lágrimas que le vinieron a los ojos",
+    "FRE": "ça lui a mis les larmes aux yeux",
+    "GER": "dass es feuchte Augen bekommen hat",
+    "ITA": "la sua commozione",
+    "JPN": "うるうるした",
+    "KOR": "눈물이 글썽글썽했던",
+    "CHN": "うるうるした"
+  },
+  {
+    "ENG": "it got lighthearted",
+    "SPA": "la ilusión que le hizo",
+    "FRE": "ça lui a donné du baume au cœur",
+    "GER": "wie sehr es sich amüsiert hat",
+    "ITA": "la sua allegria",
+    "JPN": "うかれてしまった",
+    "KOR": "마음이 들뜨고 말았던",
+    "CHN": "うかれてしまった"
+  },
+  {
+    "ENG": "it got nervous",
+    "SPA": "lo nervioso que se puso",
+    "FRE": "ça l’a rendu nerveux",
+    "GER": "wie nervös es war",
+    "ITA": "quanto era nervoso",
+    "JPN": "きんちょうした",
+    "KOR": "긴장했던",
+    "CHN": "きんちょうした"
+  },
+  {
+    "ENG": "it felt comfortable",
+    "SPA": "lo bien que se sintió",
+    "FRE": "c’était apaisant",
+    "GER": "wie wohl es sich gefühlt hat",
+    "ITA": "quella bella sensazione",
+    "JPN": "きもちよかった",
+    "KOR": "기분이 좋았던",
+    "CHN": "きもちよかった"
+  },
+  {
+    "ENG": "it was restless",
+    "SPA": "el hormigueo que sintió",
+    "FRE": "ça chatouillait",
+    "GER": "wie unruhig es war",
+    "ITA": "che non riusciva a star fermo",
+    "JPN": "もぞもぞした",
+    "KOR": "꼼지락거렸던",
+    "CHN": "もぞもぞした"
+  },
+  {
+    "ENG": "it got a bit carried away",
+    "SPA": "la experiencia y le gustaría revivirla",
+    "FRE": "ça ne lui a laissé aucun regret",
+    "GER": "wie sehr es das genossen hat",
+    "ITA": "il suo entusiasmo",
+    "JPN": "クセになりそうに　なった",
+    "KOR": "완전히 푹 빠졌던",
+    "CHN": "クセになりそうに　なった"
+  },
+  {
+    "ENG": "it felt sorry",
+    "SPA": "el regusto amargo que le quedó",
+    "FRE": "ça lui a laissé un goût amer",
+    "GER": "wie leid es ihm getan hat",
+    "ITA": "il suo dispiacere",
+    "JPN": "もうしわけない　きぶんになった",
+    "KOR": "미안한 기분이 들었던",
+    "CHN": "もうしわけない　きぶんになった"
+  },
+  {
+    "ENG": "it got emotional",
+    "SPA": "la pena que sintió",
+    "FRE": "ça lui a fait beaucoup de peine",
+    "GER": "wie herzzerreißend das war",
+    "ITA": "la sua tristezza",
+    "JPN": "せつない　きもちになった",
+    "KOR": "슬픈 기분이 되었던",
+    "CHN": "せつない　きもちになった"
+  },
+  {
+    "ENG": "it felt nostalgic",
+    "SPA": "la nostalgia que sintió",
+    "FRE": "ça l’a rendu nostalgique",
+    "GER": "wie nostalgisch es geworden ist",
+    "ITA": "quella sensazione di malinconia",
+    "JPN": "なつかしい　きもちになった",
+    "KOR": "그리운 기분이 되었던",
+    "CHN": "なつかしい　きもちになった"
+  },
+  {
+    "ENG": "it had some difficulty",
+    "SPA": "lo difícil que le pareció",
+    "FRE": "c’était difficile",
+    "GER": "was für Schwierigkeiten es hatte",
+    "ITA": "la sua preoccupazione",
+    "JPN": "てこずった",
+    "KOR": "어려웠던",
+    "CHN": "てこずった"
+  },
+  {
+    "ENG": "it felt exhausted",
+    "SPA": "lo extenuante que resultó",
+    "FRE": "c’était épuisant",
+    "GER": "wie anstrengend das war",
+    "ITA": "la sensazione di sfinimento",
+    "JPN": "きつかった",
+    "KOR": "힘들었던",
+    "CHN": "きつかった"
+  },
+  {
+    "ENG": "it couldn’t be true to its feelings",
+    "SPA": "cómo le costó aceptar lo que sentía",
+    "FRE": "ça n’était pas facile à accepter",
+    "GER": "wie es im Unreinen mit sich war",
+    "ITA": "il suo dilemma",
+    "JPN": "すなおに　なれなかった",
+    "KOR": "솔직할 수 없었던",
+    "CHN": "すなおに　なれなかった"
+  },
+  {
+    "ENG": "it felt proud",
+    "SPA": "el orgullo que sintió",
+    "FRE": "ça l’a rendu fier",
+    "GER": "wie stolz es war",
+    "ITA": "quanto questo lo abbia reso orgoglioso",
+    "JPN": "ほこらしく　おもった",
+    "KOR": "자랑스럽게 생각했던",
+    "CHN": "ほこらしく　おもった"
+  },
+  {
+    "ENG": "they ended up in a foul mood",
+    "SPA": "el mal humor que le sobrevino",
+    "FRE": "ça l’a mis de mauvaise humeur",
+    "GER": "wie schlecht gelaunt es war",
+    "ITA": "la tensione di quei momenti",
+    "JPN": "けんあくな　ムードになった",
+    "KOR": "험악한 분위기가 되었던",
+    "CHN": "けんあくな　ムードになった"
+  },
+  {
+    "ENG": "it got angry",
+    "SPA": "cuánto se enfadó",
+    "FRE": "ça l’a rendu furieux",
+    "GER": "wie wütend es war",
+    "ITA": "quanto questo lo abbia fatto arrabbiare",
+    "JPN": "おこってしまった",
+    "KOR": "화를 내고 말았던",
+    "CHN": "おこってしまった"
+  },
+  {
+    "ENG": "it got jealous",
+    "SPA": "los celos que sintió",
+    "FRE": "ça l’a rendu jaloux",
+    "GER": "wie eifersüchtig es war",
+    "ITA": "quanto questo lo abbia reso geloso",
+    "JPN": "しっとした",
+    "KOR": "질투했던",
+    "CHN": "しっとした"
+  },
+  {
+    "ENG": "it got sleepy",
+    "SPA": "el sueño que le entró",
+    "FRE": "ça lui a donné sommeil",
+    "GER": "wie müde es war",
+    "ITA": "quanto sonno gli era venuto",
+    "JPN": "ねむくなった",
+    "KOR": "졸렸던",
+    "CHN": "ねむくなった"
+  }
+]
+},{}],11:[function(require,module,exports){
+module.exports=[
+  null,
+  {
+    "ENG": "The Pokémon remembers",
+    "SPA": "El Pokémon recuerda muy vagamente",
+    "FRE": "se souvient vaguement que",
+    "GER": "Es erinnert sich daran,",
+    "ITA": "Il Pokémon ricorda ancora",
+    "JPN": "おもいで　らしいわ",
+    "KOR": "추억인 것 같아",
+    "CHN": "おもいで　らしいわ"
+  },
+  {
+    "ENG": "The Pokémon remembers",
+    "SPA": "El Pokémon recuerda vagamente",
+    "FRE": "se souvient vaguement que",
+    "GER": "Es erinnert sich daran,",
+    "ITA": "Il Pokémon ricorda ancora",
+    "JPN": "おもいで　らしいわ",
+    "KOR": "추억인 것 같아",
+    "CHN": "おもいで　らしいわ"
+  },
+  {
+    "ENG": "The Pokémon remembers",
+    "SPA": "El Pokémon recuerda más o menos",
+    "FRE": "se souvient vaguement que",
+    "GER": "Es erinnert sich daran,",
+    "ITA": "Il Pokémon ricorda ancora",
+    "JPN": "おもいで　らしいわ",
+    "KOR": "추억인 것 같아",
+    "CHN": "おもいで　らしいわ"
+  },
+  {
+    "ENG": "The Pokémon remembers",
+    "SPA": "El Pokémon recuerda bastante bien",
+    "FRE": "se souvient vaguement que",
+    "GER": "Es erinnert sich daran,",
+    "ITA": "Il Pokémon ricorda ancora",
+    "JPN": "おもいで　らしいわ",
+    "KOR": "추억인 것 같아",
+    "CHN": "おもいで　らしいわ"
+  },
+  {
+    "ENG": "The Pokémon clearly remembers",
+    "SPA": "El Pokémon recuerda con claridad",
+    "FRE": "se souvient clairement que",
+    "GER": "Es erinnert sich klar und deutlich daran,",
+    "ITA": "Il Pokémon ricorda molto bene",
+    "JPN": "きおくにのこる　おもいで　らしいわ",
+    "KOR": "기억에 남는 추억인 것 같아",
+    "CHN": "きおくにのこる　おもいで　らしいわ"
+  },
+  {
+    "ENG": "The Pokémon definitely remembers",
+    "SPA": "El Pokémon recuerda intensamente",
+    "FRE": "se souvient très bien que",
+    "GER": "Es erinnert sich ergriffen daran zurück,",
+    "ITA": "Il Pokémon ricorda distintamente",
+    "JPN": "かんがいぶかい　おもいで　だって",
+    "KOR": "마음에 깊이 남았던 추억이래",
+    "CHN": "かんがいぶかい　おもいで　だって"
+  },
+  {
+    "ENG": "The Pokémon fondly remembers",
+    "SPA": "El Pokémon recuerda a la perfección",
+    "FRE": "n’oubliera jamais que",
+    "GER": "Es erinnert sich sehr gern daran,",
+    "ITA": "Il Pokémon ricorderà per sempre",
+    "JPN": "さいこうの　おもいで　だって！",
+    "KOR": "최고의 추억이었대!",
+    "CHN": "さいこうの　おもいで　だって！"
+  }
+]
+
+},{}],12:[function(require,module,exports){
+module.exports=[
+  {
+    "ENG": "The Pokémon seems to have a good memory, but it doesn’t seem to be able to remember...",
+    "SPA": "Aunque parece guardar un grato recuerdo, no es capaz de rescatarlo de la memoria, por lo que veo.",
+    "FRE": "Il se rappelle un bon souvenir, mais les détails lui semblent flous.",
+    "GER": "Es scheint ein gutes Gedächtnis zu haben, aber es sieht so aus, als könnte es sich nicht erinnern...",
+    "ITA": "Questo Pokémon ha dei bei ricordi, ma adesso non è possibile richiamarli...",
+    "JPN": "いい　おもいでが　あるようだけど ちょっと　おもいおこせないみたい……",
+    "KOR": "좋은 추억이 있는 것 같은데 기억이 잘 떠오르지 않는 것 같아...",
+    "CHN": "いい　おもいでが　あるようだけど ちょっと　おもいおこせないみたい……"
+  },
+  {
+    "ENG": "{0} met {1} at... {2}. {1} threw a Poké Ball at it, and they started to travel together. {4} that {3}.",
+    "SPA": "Los caminos de {0} y {1} se cruzaron en {2}. La Poké Ball lanzada por {1} marcó el punto de partida de su viaje conjunto. {4} {3}.",
+    "FRE": "{0} a fait la rencontre de {1} {2}. Il a accepté d’entrer dans sa Poké Ball, et c’est ainsi que leur amitié a commencé. Il {4} {3}.",
+    "GER": "{0} ist {1} {2} begegnet. {1} warf einen Pokéball und ihre gemeinsame Reise begann. {4} {3}.",
+    "ITA": "Un giorno {0} ha incontrato {1} {2}. {1} ha lanciato una Poké Ball per catturarlo e da quel momento hanno iniziato a viaggiare insieme. {4} {3}.",
+    "JPN": "{0}は　{1}に {2}で　であい　 モンスターボールを　なげられて いっしょに　たびする　ことになり　 {3}ことが {4}",
+    "KOR": "{0} {1} {2}에서 만나 몬스터볼에 들어가게 되고 함께 여행하게 되어 {3} 게 {4}",
+    "CHN": "{0}は　{1}に {2}で　であい　 モンスターボールを　なげられて いっしょに　たびする　ことになり　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} hatched from an Egg and saw {1} for the first time at... {2}. {4} that {3}.",
+    "SPA": "Lo primero que vio {0} cuando salió del cascarón en {2} fue la cara de {1}. {4} {3}.",
+    "FRE": "{0} a brisé la coquille de son Œuf et a fait la rencontre de {1} {2}. Il {4} {3}.",
+    "GER": "{0} sah {1} zum ersten Mal, als es {2} aus seinem Ei geschlüpft ist. {4} {3}.",
+    "ITA": "{0} uscì dal suo Uovo incontrando {1} per la prima volta {2}. {4} {3}.",
+    "JPN": "{0}は {2}で　 タマゴの　からをやぶって　でてきたとき はじめて　{1}と　であい　 {3}ことが {4}",
+    "KOR": "{0} {2}에서 알의 껍데기를 깨고 나왔을 때 처음 {1} 만나서 {3} 게 {4}",
+    "CHN": "{0}は {2}で　 タマゴの　からをやぶって　でてきたとき はじめて　{1}と　であい　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} met {1} at... {2}. {4} that {3}.",
+    "SPA": "Los caminos de {0} y {1} se cruzaron en {2}. {4} {3}.",
+    "FRE": "{0} a fait la rencontre de {1} {2}. Il {4} {3}.",
+    "GER": "{0} ist {1} {2} begegnet. {4} {3}.",
+    "ITA": "{0} ha incontrato {1} {2}. {4} {3}.",
+    "JPN": "{0}は　{1}と {2}で　であえて　 {3}ことが {4}",
+    "KOR": "{0} {1} {2}에서 만나서 {3} 게 {4}",
+    "CHN": "{0}は　{1}と {2}で　であえて　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} became {1}’s friend when it arrived via Link Trade at... {2}. {4} that {3}.",
+    "SPA": "{0} y {1} se conocieron como consecuencia de un intercambio Pokémon en {2} y ambos sintieron que era el comienzo de una gran amistad. {4} {3}.",
+    "FRE": "{0} est devenu l’ami de {1} lors d’un échange {2}. Il {4} {3}.",
+    "GER": "{0} gelangte per Tausch {2} in das Team von {1}. {4} {3}.",
+    "ITA": "{0} ha fatto amicizia con {1} {2} grazie a uno scambio di Pokémon. {4} {3}.",
+    "JPN": "{0}は {2}で　 ポケモンこうかんに　よって {1}の　なかまとなり　 {3}ことが {4}",
+    "KOR": "{0} {2}에서 포켓몬 교환으로 {1}의 동료가 되어 {3} 게 {4}",
+    "CHN": "{0}は {2}で　 ポケモンこうかんに　よって {1}の　なかまとなり　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} went to a Pokémon Center with {1} to buy {2}. {4} that {3}.",
+    "SPA": "En una ocasión, {0} y {1} fueron juntos a un Centro Pokémon para comprar  {2}. {4} {3}.",
+    "FRE": "{0} est allé dans un Centre Pokémon avec {1} pour acheter {2}. Il {4} {3}.",
+    "GER": "{0} ist mit {1} in ein Pokémon-Center gegangen, um {2} zu kaufen. {4} {3}.",
+    "ITA": "Una volta {0} ha visitato con {1} il Centro Pokémon per comprare {2}. {4} {3}.",
+    "JPN": "{0}は　{1}と ポケモンセンターに　{2}を　 かいに　いって {3}ことが {4}",
+    "KOR": "{0} {1} 포켓몬센터에 {2} 사러가서 {3} 게 {4}",
+    "CHN": "{0}は　{1}と ポケモンセンターに　{2}を　 かいに　いって {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} went to the Pokémon Center in {2} with {1} and had its tired body healed there. {4} that {3}.",
+    "SPA": "{1} llevó a {0} al Centro Pokémon de {2} en una ocasión, para que pudiese reponerse. {4} {3}.",
+    "FRE": "{0} est allé dans un Centre Pokémon ( {2} ) avec {1} pour se reposer un moment. Il {4} {3}.",
+    "GER": "{0} wurde von {1} irgendwo in ein Pokémon-Center gebracht und dort wieder aufgepäppelt.Wo war das noch gleich? Ach ja, {2}! {4} {3}.",
+    "ITA": "Una volta {0} ha visitato con {1} il Centro Pokémon di {2} per rimettersi in forze. {4} {3}.",
+    "JPN": "{0}は　{1}と ~の　 ポケモンセンターに　いって つかれた　からだを　かいふくしてもらい　 {3}ことが {4}",
+    "KOR": "{0} {1} {2}의 포켓몬센터에 가서 지친 몸을 회복하고 {3} 게 {4}",
+    "CHN": "{0}は　{1}と ~の　 ポケモンセンターに　いって つかれた　からだを　かいふくしてもらい　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} went fishing with {1}, and they caught {2}. {4} that {3}.",
+    "SPA": "En una ocasión, {1} y {0} pescaron juntos un ejemplar de {2}. {4} {3}.",
+    "FRE": "{0} est allé à la pêche avec {1} et ils ont attrapé un {2}. Il {4} {3}.",
+    "GER": "{0} war mit {1} fischen. Zusammen haben sie ein {2} geangelt! {4} {3}.",
+    "ITA": "Quando {1} ha pescato {2}, {0} era con (lui/lei). {4} {3}.",
+    "JPN": "{0}は　{1}と いっしょに　つりをして　 {2}を つりあげ　 {3}ことが {4}",
+    "KOR": "{0} {1} 함께 낚시로 {2} 낚아 올려 {3} 게 {4}",
+    "CHN": "{0}は　{1}と いっしょに　つりをして　 {2}を つりあげ　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} went fishing with {1}, but the hooked Pokémon got away! {4} that {3}.",
+    "SPA": "Cuando {1} y {0} fueron juntos de pesca en una ocasión, {1} dejó escapar un Pokémon que ya tenía en el bote. {4} {3}.",
+    "FRE": "{0} est allé à la pêche avec {1}.Quelque chose a mordu à l’hameçon, mais la prise s’est échappée. Il {4} {3}.",
+    "GER": "{0} war mit {1} angeln und {1} hat ein mühsam an Land gezogenes Pokémon entkommen lassen. {4} {3}.",
+    "ITA": "Una volta {0} stava pescando con {1}, ma si è lasciato sfuggire il Pokémon che aveva trovato. {4} {3}.",
+    "JPN": "{0}は　{1}と いっしょに　つりをしたとき　 {1}が　せっかく　つれた ポケモンを　のがしてしまって　 {3}ことが {4}",
+    "KOR": "{0} {1} 함께 낚시했을 때 {1} 모처럼 낚은 포켓몬을 놓쳐 버려 {3} 게 {4}",
+    "CHN": "{0}は　{1}と いっしょに　つりをしたとき　 {1}が　せっかく　つれた ポケモンを　のがしてしまって　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} saw {1} paying attention to {2}. {4} that {3}.",
+    "SPA": "En una ocasión, {0} presenció cómo {1} mimaba a {2}. {4} {3}.",
+    "FRE": "{0} a vu {1} jouer avec un {2}. Il {4} {3}.",
+    "GER": "{0} hat gesehen, wie {1} sich um ein {2} gekümmert hat. {4} {3}.",
+    "ITA": "Una volta {0} ha visto {1} colmare di attenzioni {2}. {4} {3}.",
+    "JPN": "{0}は　{1}が {2}のことを　 かまって　いたときに {3}ことが {4}",
+    "KOR": "{0} {1} {2} 놀고 있을 때 {3} 게 {4}",
+    "CHN": "{0}は　{1}が {2}のことを　 かまって　いたときに {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} got treats from {1}. {4} that {3}.",
+    "SPA": "En una ocasión, {1} le dio un dulce a {0}. {4} {3}.",
+    "FRE": "{0} a reçu une sucrerie de {1}. Il {4} {3}.",
+    "GER": "{0} hat von {1} Süßigkeiten bekommen. {4} {3}.",
+    "ITA": "Una volta {0} ha ricevuto un dolcetto da {1}. {4} {3}.",
+    "JPN": "{0}は {1}に　 おかしを　もらって {3}ことが {4}",
+    "KOR": "{0} {1}에게 과자를 받고 {3} 게 {4}",
+    "CHN": "{0}は {1}に　 おかしを　もらって {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} went clothes shopping with {1}. {4} that {3}.",
+    "SPA": "En una ocasión, {0} y {1} fueron juntos a comprar ropa. {4} {3}.",
+    "FRE": "{0} est allé acheter des vêtements avec {1}. Il {4} {3}.",
+    "GER": "{0} war mit {1} shoppen. {4} {3}.",
+    "ITA": "Una volta {0} è andato a comprare dei vestiti con {1}. {4} {3}.",
+    "JPN": "{0}は {1}と　 いっしょに　ようふくを　かいにいって {3}ことが {4}",
+    "KOR": "{0} {1} 함께 옷을 사러 가서 {3} 게 {4}",
+    "CHN": "{0}は {1}と　 いっしょに　ようふくを　かいにいって {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} learned {2} from {1}. {4} that {3}.",
+    "SPA": "{1} enseñó {2} a {0}. {4} {3}.",
+    "FRE": "{0} a appris {2} grâce à {1}. Il {4} {3}.",
+    "GER": "{0} hat von {1} {2} gelernt. {4} {3}.",
+    "ITA": "Una volta {0} ha imparato {2} grazie a {1}. {4} {3}.",
+    "JPN": "{0}は　{1}に {2}を　 おぼえさせてもらい {3}ことが {4}",
+    "KOR": "{0} {1} 덕분에 {2} 배울 수 있어서 {3} 게 {4}",
+    "CHN": "{0}は　{1}に {2}を　 おぼえさせてもらい {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} helped {1} hatch {2} from an Egg. {4} that {3}.",
+    "SPA": "{0} ayudó una vez a {1} a eclosionar el Huevo de {2}. {4} {3}.",
+    "FRE": "{0} était avec {1} quand il a aidé un {2} à sortir de son Œuf. Il {4} {3}.",
+    "GER": "{0} hat {1} dabei geholfen, ein {2} aus einem Ei schlüpfen zu lassen. {4} {3}.",
+    "ITA": "Una volta {0} ha aiutato {1} a far schiudere un Uovo di {2}. {4} {3}.",
+    "JPN": "{0}は　{1}が {2}の　 タマゴを　かえすのを　てつだって {3}ことが {4}",
+    "KOR": "{0} {1} {2}의 알을 부화시키는 걸 돕고 {3} 게 {4}",
+    "CHN": "{0}は　{1}が {2}の　 タマゴを　かえすのを　てつだって {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was with {1} when (he/she) caught {2}. {4} that {3}.",
+    "SPA": "{0} estaba presente cuando {1} atrapó a {2}. {4} {3}.",
+    "FRE": "{0} était avec {1} lorsque ce Dresseur a attrapé un {2}. Il {4} {3}.",
+    "GER": "{0} war dabei, als {1} ein {2} gefangen hat. {4} {3}.",
+    "ITA": "Quando {1} ha catturato {2}, {0} era con (lui/lei). {4} {3}.",
+    "JPN": "{0}は　{1}が {2}を　 つかまえた　ときに {3}ことが {4}",
+    "KOR": "{0} {1} {2} 잡았을 때 {3} 게 {4}",
+    "CHN": "{0}は　{1}が {2}を　 つかまえた　ときに {3}ことが {4}"
+  },
+  {
+    "ENG": "{1} used {2} when {0} was in trouble. {4} that {3}.",
+    "SPA": "Cuando {0} estaba contra las cuerdas, {1} usó  {2}. {4} {3}.",
+    "FRE": "{0} était en mauvaise posture, quand {1} a utilisé {2}. Il {4} {3}.",
+    "GER": "Als {0} nur noch wenige KP hatte, setzte {1} ein Item ein.Wie hieß das Item noch gleich? Ach ja, {2}! {4} {3}.",
+    "ITA": "Una volta {1} ha usato {2} quando {0} era in difficoltà. {4} {3}.",
+    "JPN": "{0}は ピンチの　ときに　 {1}に {2}を　つかってもらって　 {3}ことが {4}",
+    "KOR": "{0} 위기에 몰렸을 때 {1} {2} 써줘서 {3} 게 {4}",
+    "CHN": "{0}は ピンチの　ときに　 {1}に {2}を　つかってもらって　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} used {2} at {1}’s instruction, but it had no effect. {4} that {3}.",
+    "SPA": "Siguiendo las instrucciones de {1}, en una ocasión {0} ejecutó {2} en vano, sin efecto alguno. {4} {3}.",
+    "FRE": "{0} a utilisé {2} sur les indications de {1}, mais ça n’a eu aucun effet. Il {4} {3}.",
+    "GER": "{0} hat auf Anweisung von {1} {2} eingesetzt, aber die Attacke hat keinerlei Wirkung gezeigt. {4} {3}.",
+    "ITA": "Una volta {0} ha usato {2} seguendo le indicazioni di {1}, ma la mossa non ha avuto effetto. {4} {3}.",
+    "JPN": "{0}は　{1}の しじで　だした　{2}が　 あいてに　こうかが　なくて {3}ことが {4}",
+    "KOR": "{0} {1}의 명령으로 썼던 {2} 상대방에게 효과가 없어서 {3} 게 {4}",
+    "CHN": "{0}は　{1}の しじで　だした　{2}が　 あいてに　こうかが　なくて {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} battled at {1}’s side and defeated {2}. {4} that {3}.",
+    "SPA": "{0} y {1} lucharon codo con codo para derrotar a {2}. {4} {3}.",
+    "FRE": "{0} a aidé {1} à vaincre un {2}. Il {4} {3}.",
+    "GER": "{0} hat zusammen mit {1} gekämpft und ein {2} besiegt. {4} {3}.",
+    "ITA": "Una volta {0} ha lottato insieme a {1} e ha sconfitto {2}. {4} {3}.",
+    "JPN": "{0}は　{1}と いっしょに　たたかい　 {2}を たおして　 {3}ことが {4}",
+    "KOR": "{0} {1} 함께 {2} 쓰러뜨려서 {3} 게 {4}",
+    "CHN": "{0}は　{1}と いっしょに　たたかい　 {2}を たおして　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was defeated by {2} and {1} ran away. {4} that {3}.",
+    "SPA": "Cuando {0} perdió el combate contra {2}, {1} se vio obligad(o/a) a poner pies en polvorosa. {4} {3}.",
+    "FRE": "{0} a été battu par un {2} et s’est enfui avec {1}. Il {4} {3}.",
+    "GER": "{0} wurde von einem {2} besiegt und ist mit {1} geflüchtet. {4} {3}.",
+    "ITA": "Una volta {0}, lottando contro {2}, è stato sconfitto ed è fuggito con {1}. {4} {3}.",
+    "JPN": "{0}は {2}との　 たたかいに　やぶれて {1}と　 いっしょに　にげかえり {3}ことが {4}",
+    "KOR": "{0} {2}의 싸움에서 지고 {1} 함께 도망치고 돌아와서 {3} 게 {4}",
+    "CHN": "{0}は {2}との　 たたかいに　やぶれて {1}と　 いっしょに　にげかえり {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was raised by {1} and evolved at {2}. {4} that {3}.",
+    "SPA": "Gracias al entrenamiento de {1}, llegó el día en que {0} logró evolucionar. Todo ocurrió en {2}. {4} {3}.",
+    "FRE": "{0} a été entraîné par {1} et a évolué {2}. Il {4} {3}.",
+    "GER": "{0} wurde von {1} trainiert und hat sich {2} entwickelt. {4} {3}.",
+    "ITA": "{0} si è allenato con {1} fino a evolversi {2}. {4} {3}.",
+    "JPN": "{0}は　{1}に そだてられ　 {2}で しんかして　 {3}ことが {4}",
+    "KOR": "{0} {1}에게 키워지고 {2}에서 진화해서 {3} 게 {4}",
+    "CHN": "{0}は　{1}に そだてられ　 {2}で しんかして　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} surfed across the water, carrying {1} on its back. {4} that {3}.",
+    "SPA": "En cierta ocasión, {1} surcó las aguas a lomos de {0}. {4} {3}.",
+    "FRE": "{0} a transporté {1} sur son dos pour lui permettre de traverser une étendue d’eau. Il {4} {3}.",
+    "GER": "{0} ist mit {1} auf seinem Rücken übers Wasser gesurft. {4} {3}.",
+    "ITA": "Una volta {0} ha usato Surf trasportando sul dorso {1}. {4} {3}.",
+    "JPN": "{0}は なみのりで　{1}を　 じぶんの　せなかに　のせて {3}ことが {4}",
+    "KOR": "{0} 파도타기로 {1} 자기 등에 태워서 {3} 게 {4}",
+    "CHN": "{0}は なみのりで　{1}を　 じぶんの　せなかに　のせて {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} saw {2} carrying {1} on its back. {4} that {3}.",
+    "SPA": "En cierta ocasión, {0} vio como {1} iba a lomos de {2}. {4} {3}.",
+    "FRE": "{0} a vu un {2} porter {1} sur son dos. Il {4} {3}.",
+    "GER": "{0} hat gesehen, wie {1} von einem {2} auf dessen Rücken getragen wurde. {4} {3}.",
+    "ITA": "Una volta {0} ha visto {2} portare sul dorso {1}. {4} {3}.",
+    "JPN": "{0}は {2}が　 {1}を せなかに　のせているのを　みて　 {3}ことが {4}",
+    "KOR": "{0} {2} {1} 등위에 태우고 있는 걸 보고 {3} 게 {4}",
+    "CHN": "{0}は {2}が　 {1}を せなかに　のせているのを　みて　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} battled at {1}’s side and defeated a Gym Leader. {4} that {3}.",
+    "SPA": "{0} y {1} lucharon codo con codo para derrotar a un Líder de Gimnasio. {4} {3}.",
+    "FRE": "{0} a aidé {1} à vaincre un Champion d’Arène. Il {4} {3}.",
+    "GER": "{0} und {1} haben zusammen einen Arenaorden errungen. {4} {3}.",
+    "ITA": "Una volta {0}, lottando con {1}, ha sconfitto la squadra di un Capopalestra. {4} {3}.",
+    "JPN": "{0}は　{1}と いっしょに　たたかって　 ジムリーダーに　かったとき {3}ことが {4}",
+    "KOR": "{0} {1} 함께 싸워 체육관 관장을 이겼을 때 {3} 게 {4}",
+    "CHN": "{0}は　{1}と いっしょに　たたかって　 ジムリーダーに　かったとき {3}ことが {4}"
+  },
+  {
+    "ENG": "When {1} challenged the Battle Maison, {0} got so nervous. {4} that {3}.",
+    "SPA": "Cuando {1} afrontó el reto de la Mansión Batalla, {0} era un manojo de nervios. {4} {3}.",
+    "FRE": "{0} a aidé {1} à relever le défi de la Maison de Combat. Il {4} {3}.",
+    "GER": "Als {1} sich der Herausforderung im Kampfhaus gestellt hat, war {0} extrem nervös. {4} {3}.",
+    "ITA": "Una volta {0} ha affrontato le sfide della Villa Lotta con {1} in un’atmosfera di grande tensione. {4} {3}.",
+    "JPN": "{0}は　{1}が バトルハウスに　いどんだとき　 あまりにも　きんちょうして {3}ことが {4}",
+    "KOR": "{0} {1} 배틀하우스에 도전했을 때 너무 긴장해서 {3} 게 {4}",
+    "CHN": "{0}は　{1}が バトルハウスに　いどんだとき　 あまりにも　きんちょうして {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} flew, carrying {1} on its back, to {2}. {4} that {3}.",
+    "SPA": "{0} llevó volando a {1} hasta {2} en cierta ocasión. {4} {3}.",
+    "FRE": "{0} a amené {1} {2} en volant. Il {4} {3}.",
+    "GER": "{0} ist mit {1} auf seinem Rücken geflogen und sie landeten {2}. {4} {3}.",
+    "ITA": "Una volta {0} ha usato Volo per trasportare {1} {2}. {4} {3}.",
+    "JPN": "{0}は そらをとぶで　{1}を　 {2}へ　はこび {3}ことが {4}",
+    "KOR": "{0} 공중날기로 {1} {2}로 옮겨서 {3} 게 {4}",
+    "CHN": "{0}は そらをとぶで　{1}を　 {2}へ　はこび {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} and {1} were surprised when {2} jumped out! {4} that {3}.",
+    "SPA": "En una ocasión, {0} y {1} se llevaron un susto de campeonato cuando, de repente, {2} se abalanzó sobre ellos. {4} {3}.",
+    "FRE": "{0} et {1} ont été surpris quand un {2} a jailli sur leur route. Il {4} {3}.",
+    "GER": "{0} wurde zusammen mit {1} von einem wilden {2} überrascht. {4} {3}.",
+    "ITA": "Una volta {0} e {1} si sono presi un bello spavento quando è sbucato fuori all’improvviso {2}. {4} {3}.",
+    "JPN": "{0}は とびだしてきた　{2}に　 {1}と いっしょに　おどろいてしまい　 {3}ことが {4}",
+    "KOR": "{0} 튀어나온 {2}에 {1} 함께 깜짝 놀라서 {3} 게 {4}",
+    "CHN": "{0}は とびだしてきた　{2}に　 {1}と いっしょに　おどろいてしまい　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} saw {1} using {2}. {4} that {3}.",
+    "SPA": "Una vez {0} vio como {1} utilizaba  {2}. {4} {3}.",
+    "FRE": "{0} a vu {1} utiliser {2}. Il {4} {3}.",
+    "GER": "{0} hat gesehen, wie {1} ein Item eingesetzt hat.Wie hieß das Item noch gleich? Ach ja, {2}! {4} {3}.",
+    "ITA": "Una volta {0} ha visto {1} usare {2}. {4} {3}.",
+    "JPN": "{0}は　{1}が {2}を　つかったのを　みて　 {3}ことが {4}",
+    "KOR": "{0} {1} {2} 쓰는 걸 보고 {3} 게 {4}",
+    "CHN": "{0}は　{1}が {2}を　つかったのを　みて　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} battled at {1}’s side and defeated the Champion. {4} that {3}.",
+    "SPA": "{0} y {1} lucharon codo con codo para derrotar a la Campeona. {4} {3}.",
+    "FRE": "{0} a aidé {1} à vaincre le Maître de la Ligue. Il {4} {3}.",
+    "GER": "{0} hat zusammen mit {1} den Champ besiegt. {4} {3}.",
+    "ITA": "Una volta {0} ha lottato insieme a {1} e ha sconfitto la Campionessa. {4} {3}.",
+    "JPN": "{0}は　{1}と いっしょに　たたかって　 チャンピオンを　たおしたとき {3}ことが {4}",
+    "KOR": "{0} {1} 함께 싸워 챔피언을 쓰러뜨리고 {3} 게 {4}",
+    "CHN": "{0}は　{1}と いっしょに　たたかって　 チャンピオンを　たおしたとき {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was with {1} when (he/she) completed (his/her) Pokédex. {4} that {3}.",
+    "SPA": "{0} estaba junto a {1} cuando consiguió completar su Pokédex. {4} {3}.",
+    "FRE": "{0} était avec {1} quand ce Dresseur a complété son Pokédex. Il {4} {3}.",
+    "GER": "{0} war dabei, als {1} den Pokédex vervollständigt hat. {4} {3}.",
+    "ITA": "Quando {1} ha completato il Pokédex, {0} era con (lui/lei). {4} {3}.",
+    "JPN": "{0}は　{1}が ポケモンずかんを　かんせい　させたとき　 {3}ことが {4}",
+    "KOR": "{0} {1} 포켓몬 도감을 완성했을 때 {3} 게 {4}",
+    "CHN": "{0}は　{1}が ポケモンずかんを　かんせい　させたとき　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} encountered {2} when it was with {1}. {4} that {3}.",
+    "SPA": "{0} se hallaba junto a {1} cuando ambos se toparon con {2}. {4} {3}.",
+    "FRE": "{0} était aux côtés de {1} quand ce Dresseur a croisé un {2}. Il {4} {3}.",
+    "GER": "{0} und {1} sind zusammen {2} begegnet. {4} {3}.",
+    "ITA": "Mentre era con {1}, {0} ha incontrato {2}. {4} {3}.",
+    "JPN": "{0}は {2}と　そうぐうして　 {1}と　いっしょに {3}ことが {4}",
+    "KOR": "{0} {2} 조우해서 {1} 함께 {3} 게 {4}",
+    "CHN": "{0}は {2}と　そうぐうして　 {1}と　いっしょに {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} battled at {1}’s side and defeated a Battle Chatelaine. {4} that {3}.",
+    "SPA": "En una ocasión, {1} derrotó a una Dama del Combate. {4} {3}.",
+    "FRE": "{0} a aidé {1} à vaincre une Châtelaine Combat. Il {4} {3}.",
+    "GER": "{0} war dabei, als {1} eine Kampf-Châtelaine besiegt hat. {4} {3}.",
+    "ITA": "Una volta {0}, lottando insieme a {1}, ha sconfitto la squadra di una Dama della lotta. {4} {3}.",
+    "JPN": "{0}は　{1}が バトルシャトレーヌを　たおしたとき　 {3}ことが {4}",
+    "KOR": "{0} {1} 배틀샤틀레느를 쓰러뜨렸을 때 {3} 게 {4}",
+    "CHN": "{0}は　{1}が バトルシャトレーヌを　たおしたとき　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} searched for hidden items with {1} using the Dowsing Machine at... {2}. {4} that {3}.",
+    "SPA": "{0} y {1} utilizaron el Zahorí para buscar juntos objetos ocultos en {2}. {4} {3}.",
+    "FRE": "{0} était aux côtés de {1} quand ce Dresseur a utilisé le Cherch’Objet, {2}. Il {4} {3}.",
+    "GER": "{0} hat mit {1} {2} mit dem Itemradar nach versteckten Items gesucht. {4} {3}.",
+    "ITA": "{0} e {1} una volta hanno usato il Ricerca Strumenti {2}. {4} {3}.",
+    "JPN": "{0}は　{1}と {2}で　 ダウジングマシンを　つかって かくされた　どうぐを　さがし　 {3}ことが {4}",
+    "KOR": "{0} {1} {2}에서 다우징머신으로 숨겨진 도구를 찾아서 {3} 게 {4}",
+    "CHN": "{0}は　{1}と {2}で　 ダウジングマシンを　つかって かくされた　どうぐを　さがし　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} rode a Bicycle with {1} at... {2}. {4} that {3}.",
+    "SPA": "{0} se montó en Bici con {1} en {2}. {4} {3}.",
+    "FRE": "{0} est monté à Bicyclette avec {1} {2}. Il {4} {3}.",
+    "GER": "{0} war mit {1} {2} Radfahren. {4} {3}.",
+    "ITA": "Una volta {1} ha portato {0} in Bicicletta {2}. {4} {3}.",
+    "JPN": "{0}は　{1}と {2}で　 じてんしゃに　のって {3}ことが {4}",
+    "KOR": "{0} {1} {2}에서 자전거를 타고 {3} 게 {4}",
+    "CHN": "{0}は　{1}と {2}で　 じてんしゃに　のって {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} checked a destination with {1} using the Town Map at... {2}. {4} that {3}.",
+    "SPA": "{0} y {1} utilizaron el Mapa en {2} para comprobar adónde se dirigían. {4} {3}.",
+    "FRE": "{0} a consulté la Carte avec {1} {2}. Il {4} {3}.",
+    "GER": "{0} hat mit {1} {2} ein neues Reiseziel auf der Karte festgelegt. {4} {3}.",
+    "ITA": "Una volta {0} ha controllato la mappa con {1} {2}. {4} {3}.",
+    "JPN": "{0}は　{1}と {2}で　 タウンマップを　つかって もくてきの　ばしょを　かくにんし　 {3}ことが {4}",
+    "KOR": "{0} {1} {2}에서 타운맵으로 목적지를 확인하고 {3} 게 {4}",
+    "CHN": "{0}は　{1}と {2}で　 タウンマップを　つかって もくてきの　ばしょを　かくにんし　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} planted {2} with {1} and imagined a big harvest. {4} that {3}.",
+    "SPA": "Mientras plantaba una {2} con {1}, {0} se imaginaba lo abundante que sería la cosecha. {4} {3}.",
+    "FRE": "{0} a planté des Baies avec {1}, et s’est imaginé à quel point les arbustes seraient jolis à l’heure de la récolte. Il {4} {3}.",
+    "GER": "{0} hat zusammen mit {1} eine {2} gepflanzt und sich vorgestellt, wie reich die Ernte sein würde. {4} {3}.",
+    "ITA": "{0} ha piantato con {1} {2} ed è impaziente di vederne spuntare i frutti. {4} {3}.",
+    "JPN": "{0}は　{1}と {2}を　つちに　うめて　 たくさんの　みが　なったときの ことを　そうぞうしながら　 {3}ことが {4}",
+    "KOR": "{0} {1} {2} 땅에 묻고 열매가 많이 열렸을 때를 상상하며 {3} 게 {4}",
+    "CHN": "{0}は　{1}と {2}を　つちに　うめて　 たくさんの　みが　なったときの ことを　そうぞうしながら　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} proudly used Strength at {1}’s instruction in... {2}. {4} that {3}.",
+    "SPA": "Siguiendo las indicaciones de {1}, {0} se sintió muy orgulloso una vez al usar Fuerza en {2}. {4} {3}.",
+    "FRE": "{0} a utilisé Force {2} sur les instructions de {1}. Il {4} {3}.",
+    "GER": "{0} hat auf Befehl von {1} {2} die Attacke Stärke eingesetzt. {4} {3}.",
+    "ITA": "Una volta {0}, su indicazione di {1}, ha usato Forza, la sua mossa migliore, {2}. {4} {3}.",
+    "JPN": "{0}は {1}に　しじされ　 {2}で じまんの　かいりきを　つかい　 {3}ことが {4}",
+    "KOR": "{0} {1}에게 명령받아 {2}에서 특기인 괴력을 쓰고 {3} 게 {4}",
+    "CHN": "{0}は {1}に　しじされ　 {2}で じまんの　かいりきを　つかい　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} proudly used Cut at {1}’s instruction in... {2}. {4} that {3}.",
+    "SPA": "Siguiendo las indicaciones de {1}, una vez {0} hizo gala de su destreza al usar Corte en {2}. {4} {3}.",
+    "FRE": "{0} a utilisé Coupe {2} sur les instructions de {1}. Il {4} {3}.",
+    "GER": "{0} hat auf Befehl von {1} {2} die Attacke Zerschneider eingesetzt. {4} {3}.",
+    "ITA": "Una volta {0}, su indicazione di {1}, ha usato fieramente Taglio {2}. {4} {3}.",
+    "JPN": "{0}は {1}に　しじされ　 {2}で いあいぎりを　ひろうして　 {3}ことが {4}",
+    "KOR": "{0} {1}에게 명령받아 {2}에서 풀베기를 펼쳐서 {3} 게 {4}",
+    "CHN": "{0}は {1}に　しじされ　 {2}で いあいぎりを　ひろうして　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} shattered rocks to its heart’s content at {1}’s instruction in... {2}. {4} that {3}.",
+    "SPA": "Siguiendo las indicaciones de {1}, una vez {0} hizo añicos una roca en {2}. {4} {3}.",
+    "FRE": "{0} a utilisé Éclate-Roc {2} sur les instructions de {1}. Il {4} {3}.",
+    "GER": "{0} hat auf Befehl von {1} {2} einen Felsen zertrümmert. {4} {3}.",
+    "ITA": "Una volta {0}, su indicazione di {1}, ha spaccato una roccia {2}. {4} {3}.",
+    "JPN": "{0}は {1}に　しじされ　 {2}で おもいっきり　いわをくだき　 {3}ことが {4}",
+    "KOR": "{0} {1}에게 명령받아 {2}에서 힘껏 바위를 깨서 {3} 게 {4}",
+    "CHN": "{0}は {1}に　しじされ　 {2}で おもいっきり　いわをくだき　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} used Waterfall while carrying {1} on its back in... {2}. {4} that {3}.",
+    "SPA": "Una vez {0} utilizó Cascada en {2} llevando a cuestas a {1}. {4} {3}.",
+    "FRE": "{0} a utilisé Cascade pour aider {1} à remonter le courant {2}. Il {4} {3}.",
+    "GER": "{0} hat mit {1} auf seinem Rücken {2} die Attacke Kaskade eingesetzt. {4} {3}.",
+    "ITA": "Una volta {0} ha usato Cascata mentre trasportava {1} {2}. {4} {3}.",
+    "JPN": "{0}は {2}で　 {1}を　のせて たきのぼりを　つかい　 {3}ことが {4}",
+    "KOR": "{0} {2}에서 {1} 태우고 폭포오르기를 써서 {3} 게 {4}",
+    "CHN": "{0}は {2}で　 {1}を　のせて たきのぼりを　つかい　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} saw {1} secretly picking up something in... {2}. {4} that {3}.",
+    "SPA": "Una vez {0} vio como {1} recogía un objeto sin que nadie se diese cuenta en {2}. {4} {3}.",
+    "FRE": "{0} a vu {1} ramasser un objet {2}. Il {4} {3}.",
+    "GER": "{0} hat gesehen, wie {1} {2} heimlich etwas aufgehoben hat. {4} {3}.",
+    "ITA": "Una volta {0} ha visto {1} raccogliere di nascosto qualcosa {2}. {4} {3}.",
+    "JPN": "{0}は {2}で　 {1}が　なにかを こそっと　ひろったのを　みて　 {3}ことが {4}",
+    "KOR": "{0} {2}에서 {1} 뭔가를 슬쩍 줍는 걸 보고 {3} 게 {4}",
+    "CHN": "{0}は {2}で　 {1}が　なにかを こそっと　ひろったのを　みて　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{1} had {0} hold items like {2} to help it along. {4} that {3}.",
+    "SPA": "En cierta ocasión, {1} equipó a {0} con  {2}. {4} {3}.",
+    "FRE": "{0} a reçu {2} des mains de {1}. Il {4} {3}.",
+    "GER": "{0} hat von {1} ein Item zum Tragen bekommen.Wie hieß das Item noch gleich? Ach ja, {2}! {4} {3}.",
+    "ITA": "Una volta {1} ha dato a{0} {2}. {4} {3}.",
+    "JPN": "{0}は {1}に　 {2}を おもむろに　もたされて　 {3}ことが {4}",
+    "KOR": "{0} {1}에게 {2} 조심스럽게 받고 {3} 게 {4}",
+    "CHN": "{0}は {1}に　 {2}を おもむろに　もたされて　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} headed for Victory Road with {1}. {4} that {3}.",
+    "SPA": "En cierto momento, {0} emprendió el camino hacia la Calle Victoria con {1}. {4} {3}.",
+    "FRE": "{0} a aidé {1} à relever le défi de la Route Victoire. Il {4} {3}.",
+    "GER": "{0} ist mit {1} zur Siegesstraße aufgebrochen. {4} {3}.",
+    "ITA": "Una volta {0} si è diretto verso Via Vittoria assieme a {1}. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに　 チャンピオンロードへ　むかい {3}ことが {4}",
+    "KOR": "{0} {1} 함께 챔피언로드에 가서 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに　 チャンピオンロードへ　むかい {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} checked the sign with {1} at... {2}. {4} that {3}.",
+    "SPA": "En una ocasión, {0} y {1} examinaron juntos cierto cartel en {2}. {4} {3}.",
+    "FRE": "{0} était avec {1} quand ce Dresseur a regardé un panneau {2}. Il {4} {3}.",
+    "GER": "{0} hat mit {1} ein Schild {2} gelesen. {4} {3}.",
+    "ITA": "Una volta {0} ha letto un cartello insieme a {1} {2}. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに　 {2}にある かんばんを　かくにんし　 {3}ことが {4}",
+    "KOR": "{0} {1} 함께 {2}에 있는 간판을 확인하고 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに　 {2}にある かんばんを　かくにんし　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was impressed by the speed of the train it took with {1}. {4} that {3}.",
+    "SPA": "Cuando {0} montó en el tren junto a {1}, se quedó de piedra por la velocidad vertiginosa que podía alcanzar. {4} {3}.",
+    "FRE": "{0} a été impressionné par la vitesse du train qu’il a pris avec {1}. Il {4} {3}.",
+    "GER": "{0} war sehr beeindruckt von der Geschwindigkeit des Zugs, den es mit {1} genommen hatte. {4} {3}.",
+    "ITA": "Una volta {0} ha preso il treno con {1} ed è rimasto colpito dalla velocità a cui sfrecciava. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに　 のった　でんしゃの　スピードが とても　はやいことに　かんどうし　 {3}ことが {4}",
+    "KOR": "{0} {1} 함께 탄 열차의 엄청나게 빠른 스피드에 감동해서 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに　 のった　でんしゃの　スピードが とても　はやいことに　かんどうし　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} encountered {2} with {1} using the Poké Radar. {4} that {3}.",
+    "SPA": "Cuando {0} y {1} usaron el Pokéradar, se toparon con {2}. {4} {3}.",
+    "FRE": "{0} était avec {1} quand ce Dresseur a trouvé un {2} avec le Poké Radar. Il {4} {3}.",
+    "GER": "{0} hat mit {1} das Pokéradar benutzt und zusammen sind sie einem {2} begegnet. {4} {3}.",
+    "ITA": "Una volta {0} ha incontrato {2} con {1} usando il Poké Radar. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに　 ポケトレを　つかって {2}と　そうぐうし　 {3}ことが {4}",
+    "KOR": "{0} {1} 함께 포켓트레로 {2} 조우해서 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに　 ポケトレを　つかって {2}と　そうぐうし　 {3}ことが {4}"
+  },
+  {
+    "ENG": "When {2} jumped out, {0} was surprised and ran away with {1}. {4} that {3}.",
+    "SPA": "{0} y {1} tomaron las de Villadiego cuando {2} les sorprendió con su repentina emboscada. {4} {3}.",
+    "FRE": "{0} a fui avec {1} face à un {2} sorti de nulle part. Il {4} {3}.",
+    "GER": "{0} war mit {1} unterwegs, als sie plötzlich von einem wilden {2} angegriffen wurden. Völlig überrumpelt haben sie das Weite gesucht. {4} {3}.",
+    "ITA": "Una volta {0} e {1} sono fuggiti via spaventati da {2} sbucato fuori all’improvviso. {4} {3}.",
+    "JPN": "{0}は {2}が　とびだしてきたとき　 びっくりして　{1}と いっしょに　にげたし　 {3}ことが {4}",
+    "KOR": "{0} {2} 튀어나왔을 때 깜짝 놀라서 {1} 함께 도망치고 {3} 게 {4}",
+    "CHN": "{0}は {2}が　とびだしてきたとき　 びっくりして　{1}と いっしょに　にげたし　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} got a high score at the Battle Institute where it challenged with {1}. {4} that {3}.",
+    "SPA": "{0} se hallaba junto a {1} cuando ambos obtuvieron una puntuación alta en la Casa Examinadora. {4} {3}.",
+    "FRE": "{0} a aidé {1} à obtenir un bon score à un Test Combat, au Club des Épreuves. Il {4} {3}.",
+    "GER": "{0} hat mit {1} im Haus der Prüfung eine hohe Punktzahl erzielt. {4} {3}.",
+    "ITA": "Una volta {0} ha affrontato la Casa Esami con {1} e ha ottenuto un ottimo punteggio. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに　 チャレンジした　トライアルハウスで こうとくてんを　だして　 {3}ことが {4}",
+    "KOR": "{0} {1} 함께 도전한 트라이얼하우스에서 높은 점수를 얻고 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに　 チャレンジした　トライアルハウスで こうとくてんを　だして　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was stared at by the Judge intensely when it met him with {1}. {4} that {3}.",
+    "SPA": "Cuando {1} llevó a {0} ante el Juez, este realizó un riguroso examen. {4} {3}.",
+    "FRE": "{0} s’est fait examiner de près par le Juge, que {1} lui avait présenté. Il {4} {3}.",
+    "GER": "{0} hat über {1} den Richter kennengelernt, der es unverwandt angestarrt hat. {4} {3}.",
+    "ITA": "Una volta {0} è stato attentamente esaminato da un Giudice da cui lo aveva portato {1}. {4} {3}.",
+    "JPN": "{0}は {1}の　しょうかいで　 あった　ジャッジに じろじろと　みられすぎて　 {3}ことが {4}",
+    "KOR": "{0} {1}의 소개로 만난 심판이 너무 빤히 쳐다봐서 {3} 게 {4}",
+    "CHN": "{0}は {1}の　しょうかいで　 あった　ジャッジに じろじろと　みられすぎて　 {3}ことが {4}"
+  },
+  {
+    "ENG": "The Move Deleter that {0} met through {1} made it forget {2}. {4} that {3}.",
+    "SPA": "Cuando {0} se encontró con el Quita-Movimientos gracias a {1}, olvidó {2}. {4} {3}.",
+    "FRE": "{0} a oublié {2} grâce à l’Effaceur de Capacités, que {1} lui avait présenté. Il {4} {3}.",
+    "GER": "{0} hat über {1} den Attacken-Verlerner kennengelernt, durch den es {2} vergessen hat. {4} {3}.",
+    "ITA": "Una volta {0} ha dimenticato {2} grazie ad Amnesio, il Cancellamosse presentatogli da {1}. {4} {3}.",
+    "JPN": "{0}は {1}の　しょうかいで　 あった　わすれジイさんに {2}を　わすれさせられ　 {3}ことが {4}",
+    "KOR": "{0} {1}의 소개로 만난 깜빡할아버지가 {2} 잊어버리게 해서 {3} 게 {4}",
+    "CHN": "{0}は {1}の　しょうかいで　 あった　わすれジイさんに {2}を　わすれさせられ　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was able to remember {2} at {1}’s instruction. {4} that {3}.",
+    "SPA": "Siguiendo las instrucciones de {1}, {0} fue capaz de recordar {2}. {4} {3}.",
+    "FRE": "{0} s’est remémoré {2}, à la demande de {1}. Il {4} {3}.",
+    "GER": "{0} konnte sich unter Anleitung von {1} wieder an {2} erinnern. {4} {3}.",
+    "ITA": "Una volta {0} ha ricordato {2} su indicazione di {1}. {4} {3}.",
+    "JPN": "{0}は {1}の　しじによって　 {2}を おもいだすことが　でき　 {3}ことが {4}",
+    "KOR": "{0} {1}의 명령으로 {2} 떠올릴 수 있어서 {3} 게 {4}",
+    "CHN": "{0}は {1}の　しじによって　 {2}を おもいだすことが　でき　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was taken to Pokémon Day Care by {1} and left with {2}. {4} that {3}.",
+    "SPA": "{1} llevó a {0} a una Guardería Pokémon para que se criara junto a {2}. {4} {3}.",
+    "FRE": "{0} a été amené à la Pension Pokémon par {1}. Il y est resté avec un {2}. Il {4} {3}.",
+    "GER": "{0} wurde von {1} in der Pokémon-Pension abgegeben und verbrachte seine Zeit dort zusammen mit einem {2}. {4} {3}.",
+    "ITA": "Una volta {1} ha affidato {0} alla Pensione Pokémon assieme a {2}. {4} {3}.",
+    "JPN": "{0}は　{1}に そだてやさんへ　つれていかれて　 {2}と いっしょに　あずけられ　 {3}ことが {4}",
+    "KOR": "{0} {1} 데리고 간 키우미집에 {2} 함께 맡겨져 {3} 게 {4}",
+    "CHN": "{0}は　{1}に そだてやさんへ　つれていかれて　 {2}と いっしょに　あずけられ　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was excited when {1} won with (his/her) Loto Ticket and won prizes like {2}. {4} that {3}.",
+    "SPA": "Cuando a {1} le tocó la lotería, {0} vio con envidia que se llevaba  {2} como premio. {4} {3}.",
+    "FRE": "{0} a vu {1} gagner {2} à la Loterie ID. Il {4} {3}.",
+    "GER": "{0} war neidisch, als {1} mit einem Los ein Item gewonnen hat.Wie hieß das Item noch gleich? Ach ja, {2}! {4} {3}.",
+    "ITA": "Una volta {0} ha visto {1} vincere {2} al Centro Lotteria ID. {4} {3}.",
+    "JPN": "{0}は {1}が　 くじびきで　{2}を もらったことを　うらやましく　おもい　 {3}ことが {4}",
+    "KOR": "{0} {1} 추첨에 당첨되어 {2} 받은 게 부러워서 {3} 게 {4}",
+    "CHN": "{0}は {1}が　 くじびきで　{2}を もらったことを　うらやましく　おもい　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was with {1} when (he/she) used a Repel at... {2}. {4} that {3}.",
+    "SPA": "Cuando {1} usó un Repelente en {2}, {0} se hallaba junto a (él/ella). {4} {3}.",
+    "FRE": "{0} était avec {1} quand ce Dresseur a utilisé un Repousse {2}. Il {4} {3}.",
+    "GER": "{0} war dabei, als {1} {2} das Item Schutz eingesetzt hat. {4} {3}.",
+    "ITA": "Una volta {1} ha usato un Repellente {2} quando {0} era con (lui/lei). {4} {3}.",
+    "JPN": "{0}は　{1}が {2}で　 むしよけスプレーを　ふりまいたとき {3}ことが {4}",
+    "KOR": "{0} {1} {2}에서 벌레회피스프레이를 주변에 뿌렸을 때 {3} 게 {4}",
+    "CHN": "{0}は　{1}が {2}で　 むしよけスプレーを　ふりまいたとき {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} had a very hard training session with {1}. {4} that {3}.",
+    "SPA": "En una ocasión, {0} se sometió a un duro entrenamiento impartido por {1}. {4} {3}.",
+    "FRE": "{0} se rappelle d’une session d’entraînement particulièrement dure avec {1}. Il {4} {3}.",
+    "GER": "{0} hatte ein anstrengendes Spezialtraining mit {1}. {4} {3}.",
+    "ITA": "Una volta {0} ha fatto un allenamento faticoso con {1}. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに　 ハードな　とっくんを　して {3}ことが {4}",
+    "KOR": "{0} {1} 함께 하드한 특훈을 해서 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに　 ハードな　とっくんを　して {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} took an elevator with {1}. {4} that {3}.",
+    "SPA": "En una ocasión, {0} se subió a un ascensor junto a {1}. {4} {3}.",
+    "FRE": "{0} est monté dans un ascenseur avec {1}. Il {4} {3}.",
+    "GER": "{0} ist mit {1} Fahrstuhl gefahren. {4} {3}.",
+    "ITA": "Una volta {0} ha preso l’ascensore con {1}. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに　 エレベータに　のって {3}ことが {4}",
+    "KOR": "{0} {1} 함께 엘리베이터를 타고 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに　 エレベータに　のって {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was taken to the Name Rater by {1} and given a fateful name. {4} that {3}.",
+    "SPA": "En una ocasión, {1} y {0} fueron a ver juntos al Inspector de Motes, y este le puso un nombre de buen augurio. {4} {3}.",
+    "FRE": "{0} est allé voir le Spécialiste des Noms avec {1}, et s’est vu attribuer un très joli surnom. Il {4} {3}.",
+    "GER": "{0} wurde von {1} zum Namenbewerter gebracht und hat einen schicksalhaften Namen erhalten. {4} {3}.",
+    "ITA": "Una volta {1} ha portato {0} dal Giudice Onomastico per dargli un nome significativo. {4} {3}.",
+    "JPN": "{0}は {1}に　つれられ　 せいめいはんだんしの　ところへ　いき うんめいてきな　なまえを　つけられて　 {3}ことが {4}",
+    "KOR": "{0} {1}에게 이끌려 이름 감정사에게 가서 운명적인 이름을 받아 {3} 게 {4}",
+    "CHN": "{0}は {1}に　つれられ　 せいめいはんだんしの　ところへ　いき うんめいてきな　なまえを　つけられて　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was with {1} when (he/she) went to a boutique and tried on clothes, but (he/she) left the boutique without buying anything. {4} that {3}.",
+    "SPA": "En una ocasión, {0} acompañó a {1} cuando fue a una boutique para probarse ropa, aunque al final no compró nada. {4} {3}.",
+    "FRE": "{0} était avec {1} quand ce Dresseur a essayé des vêtements dans une boutique, mais n’a rien acheté. Il {4} {3}.",
+    "GER": "{0} war mit {1} in einer Boutique. {1} hat einiges anprobiert, aber nichts gekauft. {4} {3}.",
+    "ITA": "Una volta {0} e {1} sono andati in un negozio di vestiti. {1} ha provato degli abiti, ma non ha comprato nulla. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに　 ブティックにいき　しちゃくしたけど なにも　かわずに　でてきて　 {3}ことが {4}",
+    "KOR": "{0} {1} 함께 부티크에 가서 착용해 보고도 아무것도 사지 않고 나와서 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに　 ブティックにいき　しちゃくしたけど なにも　かわずに　でてきて　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} went to a nice restaurant with {1} and ate until it got totally full. {4} that {3}.",
+    "SPA": "Una vez {0} y {1} fueron juntos a un restaurante y se pusieron las botas. {4} {3}.",
+    "FRE": "{0} était avec {1} quand ce Dresseur est allé dans un grand restaurant s’offrir un menu gastronomique. Il {4} {3}.",
+    "GER": "{0} war mit {1} in einem tollen Restaurant und hat dort ordentlich gemampft. {4} {3}.",
+    "ITA": "Una volta {0} è andato con {1} in un bel ristorante dove hanno mangiato a volontà. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに　 すてきな　レストランに　いき おなか　いっぱい　たべて　 {3}ことが {4}",
+    "KOR": "{0} {1} 함께 멋진 레스토랑에서 잔뜩 먹고 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに　 すてきな　レストランに　いき おなか　いっぱい　たべて　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was taken to a nice lady by {1} and pampered. {4} that {3}.",
+    "SPA": "Una vez {1} llevó a {0} a un sitio donde una chica encantadora le dio todo tipo de mimos. {4} {3}.",
+    "FRE": "{0} a été amené par {1} chez une gentille dame qui aime les Pokémon. Il {4} {3}.",
+    "GER": "{0} wurde von {1} zu einer freundlichen Frau gebracht, die sich liebevoll um es gekümmert hat. {4} {3}.",
+    "ITA": "Una volta {1} ha portato {0} da una signorina molto carina che lo ha riempito di coccole. {4} {3}.",
+    "JPN": "{0}は {1}に　つれられて　 すてきな　おねえさんに かわいがって　もらい　 {3}ことが {4}",
+    "KOR": "{0} {1}에게 이끌려 멋진 아가씨에게 귀여움을 받고 {3} 게 {4}",
+    "CHN": "{0}は {1}に　つれられて　 すてきな　おねえさんに かわいがって　もらい　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} checked a trash can with {1} at... {2}. {4} that {3}.",
+    "SPA": "En una ocasión, {0} y {1} rebuscaron juntos en una papelera que hay en {2}. {4} {3}.",
+    "FRE": "{0} a fouillé les poubelles avec {1} {2}. Il {4} {3}.",
+    "GER": "{0} hat zusammen mit {1} {2} einen Abfalleimer durchstöbert. {4} {3}.",
+    "ITA": "Una volta {0} e {1} hanno esaminato insieme un cestino dei rifiuti {2}. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに　 {2}に　あった ゴミばこを　あさって　 {3}ことが {4}",
+    "KOR": "{0} {1} 함께 {2}에 있었던 쓰레기통을 뒤지고 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに　 {2}に　あった ゴミばこを　あさって　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} fought hard until it had to use Struggle when it battled at {1}’s side against {2}. {4} that {3}.",
+    "SPA": "Cuando una vez {1} y {0} se enfrentaron a {2}, {0} resistió cuanto pudo antes de recurrir a Combate. {4} {3}.",
+    "FRE": "{0} a combattu aux côtés de {1} contre un {2}, et a fini par utiliser la capacité Lutte. Il {4} {3}.",
+    "GER": "{0} hat mit {1} gegen ein {2} gekämpft und sich dabei so sehr angestrengt, dass es sogar Verzweifler eingesetzt hat. {4} {3}.",
+    "ITA": "Una volta {0} ha lottato duramente insieme a {1} contro {2} fino a dover usare la mossa Scontro. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに　 {2}と　たたかったとき わるあがきを　だすまで　がんばって　 {3}ことが {4}",
+    "KOR": "{0} {1} 함께 {2} 싸웠을 때 발버둥을 쓸 때까지 노력해서 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに　 {2}と　たたかったとき わるあがきを　だすまで　がんばって　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} looked down at the world from a tall tower where it went with {1}. {4} that {3}.",
+    "SPA": "Cuando {1} y {0} estaban en una torre muy alta, {0} miró hacia abajo y todo le pareció muy pequeñito. {4} {3}.",
+    "FRE": "{0} a admiré le monde du haut d’une grande tour aux côtés de {1}. Il {4} {3}.",
+    "GER": "{0} war mit {1} auf einem hohen Turm und hat von dort auf die Welt hinabgeblickt. {4} {3}.",
+    "ITA": "Una volta {0} è salito su una torre altissima con {1} e insieme hanno guardato il mondo da lassù. {4} {3}.",
+    "JPN": "{0}は {1}と　いった　 たかい　タワーの　おくじょうから げかいを　みおろし　 {3}ことが {4}",
+    "KOR": "{0} {1} 간 높은 타워의 옥상에서 세상을 내려다보고 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いった　 たかい　タワーの　おくじょうから げかいを　みおろし　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} saw itself in a mirror in a mirror cave that it went to with {1}. {4} that {3}.",
+    "SPA": "Cuando {1} y {0} estaban en la Cueva de los Reflejos, {0} contempló su reflejo. {4} {3}.",
+    "FRE": "{0} est allé avec {1} dans une grotte qui semblait couverte de miroirs, et y a aperçu son reflet. Il {4} {3}.",
+    "GER": "{0} war mit {1} in der Spiegelhöhle und hat dort sein Spiegelbild gesehen. {4} {3}.",
+    "ITA": "Una volta {0} è andato con {1} in una grotta piena di specchi e ha visto la propria immagine riflessa. {4} {3}.",
+    "JPN": "{0}は {1}と　いった　 かがみの　どうくつの　なかで かがみに　うつった　じぶんを　みて　 {3}ことが {4}",
+    "KOR": "{0} {1} 간 거울로 된 동굴 안에서 거울에 비친 자신을 보고 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いった　 かがみの　どうくつの　なかで かがみに　うつった　じぶんを　みて　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} almost got lost when it explored a forest with {1}. {4} that {3}.",
+    "SPA": "{0} estuvo a punto de perderse al explorar un bosque junto a {1}. {4} {3}.",
+    "FRE": "{0} a failli se perdre dans une forêt avec {1}. Il {4} {3}.",
+    "GER": "{0} hat sich mit {1} fast verlaufen, als sie gemeinsam einen Wald erkundet haben. {4} {3}.",
+    "ITA": "Una volta {0} e {1} hanno smarrito la strada durante un’escursione nel bosco. {4} {3}.",
+    "JPN": "{0}は {1}と　 もりの　なかを　たんさくしたとき まよいそうに　なって　 {3}ことが {4}",
+    "KOR": "{0} {1} 숲 속을 탐색하러 갔을 때 길을 잃을 뻔해서 {3} 게 {4}",
+    "CHN": "{0}は {1}と　 もりの　なかを　たんさくしたとき まよいそうに　なって　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} went to a factory with {1} and saw a lot of machines that looked very complicated. {4} that {3}.",
+    "SPA": "Al acompañar a {1} hasta una fábrica, {0} se encontró allí con un montón de máquinas que parecían muy complejas. {4} {3}.",
+    "FRE": "{0} est allé avec {1} dans une usine remplie de machines étranges. Il {4} {3}.",
+    "GER": "{0} war mit {1} in einer Fabrik und hat dort viele kompliziert erscheinende Maschinen gesehen. {4} {3}.",
+    "ITA": "Una volta {0} è andato con {1} in una fabbrica dove c’erano un sacco di macchinari complicati. {4} {3}.",
+    "JPN": "{0}は {1}と　こうじょうに　いき　 たくさんの　むずかしそうな　きかいを まのあたりにして　 {3}ことが {4}",
+    "KOR": "{0} {1} 공장에 가서 수많은 어려워 보이는 기계를 눈앞에서 보고 {3} 게 {4}",
+    "CHN": "{0}は {1}と　こうじょうに　いき　 たくさんの　むずかしそうな　きかいを まのあたりにして　 {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} was with {1} when (he/she) built a Secret Base. {4} that {3}.",
+    "SPA": "En cierto momento, {0} y {1} construyeron juntos una Base Secreta. {4} {3}.",
+    "FRE": "{0} a vu {1} créer sa propre Base Secrète. Il {4} {3}.",
+    "GER": "{0} hat mit {1} an einem Wettbewerb teilgenommen und dabei viele Leute beeindruckt. {4} {3}.",
+    "ITA": "Una volta {0} e {1} hanno costruito una Base Segreta. {4} {3}.",
+    "JPN": "{0}は {1}が ひみつきちを　つくったとき {3}ことが {4}",
+    "KOR": "{0} {1} 비밀기지를 만들었을 때 {3} 게 {4}",
+    "CHN": "{0}は {1}が ひみつきちを　つくったとき {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} participated in a contest with {1} and impressed many people. {4} that {3}.",
+    "SPA": "En una ocasión, {0} y {1} participaron en un concurso y se exhibieron delante de muchas personas. {4} {3}.",
+    "FRE": "{0} a participé à un Concours Pokémon aux côtés de {1}. Il a pu faire son show en faisant toutes sortes de Démonstrations devant un large public. Il {4} {3}.",
+    "GER": "{0} hat mit {1} an einem Wettbewerb teilgenommen und einen spektakulären Sieg errungen. {4} {3}.",
+    "ITA": "Una volta {0} e {1} hanno partecipato a una gara con un’esibizione che ha conquistato il pubblico. {4} {3}.",
+    "JPN": "{0}は {1}と コンテストに　さんかして たくさんの　ひとに　アピールしたとき {3}ことが {4}",
+    "KOR": "{0} {1} 콘테스트에 참가해서 많은 사람들에게 어필했을 때 {3} 게 {4}",
+    "CHN": "{0}は {1}と コンテストに　さんかして たくさんの　ひとに　アピールしたとき {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} participated in a contest with {1} and won the title. {4} that {3}.",
+    "SPA": "En determinado momento, {0} y {1} participaron en un concurso y se alzaron con la victoria. {4} {3}.",
+    "FRE": "{0} a participé à un Concours Pokémon aux côtés de {1} et il a réussi à gagner ! Il {4} {3}.",
+    "GER": "{0} ist zusammen mit {1} per Überflieger durch die Lüfte gesaust und zu verschiedenen Orten geflogen. {4} {3}.",
+    "ITA": "Una volta {0} e {1} hanno partecipato a una gara riportando una splendida vittoria. {4} {3}.",
+    "JPN": "{0}は {1}と コンテストに　さんかして みごと　ゆうしょう　したとき {3}ことが {4}",
+    "KOR": "{0} {1} 콘테스트에 참가해서 멋지게 우승했을 때 {3} 게 {4}",
+    "CHN": "{0}は {1}と コンテストに　さんかして みごと　ゆうしょう　したとき {3}ことが {4}"
+  },
+  {
+    "ENG": "{0} soared through the sky with {1} and went to many different places. {4} that {3}.",
+    "SPA": "En cierta ocasión, {0} y {1} visitaron numerosos lugares gracias al Ultravuelo. {4} {3}.",
+    "FRE": "{0} a pris son Grand Envol aux côtés de {1} et a visité quelques endroits exotiques. Il {4} {3}.",
+    "GER": "{0} wurde von {1} gebeten, in die Tiefe hinabzutauchen und den Meeresboden zu erkunden. {4} {3}.",
+    "ITA": "Una volta {0} e {1} hanno visitato posti meravigliosi usando Ipervolo. {4} {3}.",
+    "JPN": "{0}は {1}と　いっしょに おおぞらを　とんで いろんなばしょに　いったとき {3}ことが {4}",
+    "KOR": "{0} {1} 함께 넓은 하늘을 날고 여러 장소에 갔을 때 {3} 게 {4}",
+    "CHN": "{0}は {1}と　いっしょに おおぞらを　とんで いろんなばしょに　いったとき {3}ことが {4}"
+  },
+  {
+    "ENG": "{1} asked {0} to dive. Down it went, deep into the ocean, to explore the bottom of the sea. {4} that {3}.",
+    "SPA": "Una vez, {0}, siguiendo las instrucciones de {1} se sumergió en las profundidades del mar para explorar el fondo oceánico. {4} {3}.",
+    "FRE": "{0} a plongé au cœur de l’océan sur les instructions de {1}. Il {4} {3}.",
+    "ITA": "Una volta {0}, su indicazione di {1}, si è immerso negli abissi e ha esplorato il fondale marino. {4} {3}.",
+    "JPN": "{0}は {1}に　たのまれて ふかいうみに　もぐって うみのそこを　たんさくしたとき {3}ことが {4}",
+    "KOR": "{0} {1}에게 부탁받아 깊은 바다에 잠수하여 해저 바닥을 탐사했을 때 {3} 게 {4}",
+    "CHN": "{0}は {1}に　たのまれて ふかいうみに　もぐって うみのそこを　たんさくしたとき {3}ことが {4}"
+  }
+]
+},{}],13:[function(require,module,exports){
+module.exports=[
+  {
+    "ENG": "somewhere",
+    "SPA": "algún lugar",
+    "FRE": "quelque part",
+    "GER": "irgendwo",
+    "ITA": "da qualche parte",
+    "JPN": "どこか",
+    "KOR": "어딘가",
+    "CHN": "どこか"
+  },
+  {
+    "ENG": "the first town",
+    "SPA": "el pueblo de partida",
+    "FRE": "dans la ville de départ",
+    "GER": "in der ersten Stadt",
+    "ITA": "nella città iniziale",
+    "JPN": "さいしょのまち",
+    "KOR": "최초의 마을",
+    "CHN": "さいしょのまち"
+  },
+  {
+    "ENG": "home",
+    "SPA": "casa",
+    "FRE": "dans sa maison",
+    "GER": "in dessenderen Zuhause",
+    "ITA": "a casa",
+    "JPN": "うち",
+    "KOR": "집",
+    "CHN": "うち"
+  },
+  {
+    "ENG": "a friend’s house",
+    "SPA": "casa de un amigo",
+    "FRE": "chez un ami",
+    "GER": "im Zuhause eines Freundes",
+    "ITA": "a casa di amici",
+    "JPN": "ともだちのいえ",
+    "KOR": "친구의 집",
+    "CHN": "ともだちのいえ"
+  },
+  {
+    "ENG": "someone’s house",
+    "SPA": "una casa ajena",
+    "FRE": "chez quelqu’un",
+    "GER": "in irgendjemandes Zuhause",
+    "ITA": "a casa di qualcuno",
+    "JPN": "ひとのうち",
+    "KOR": "다른 사람의 집",
+    "CHN": "ひとのうち"
+  },
+  {
+    "ENG": "a lively town",
+    "SPA": "una ciudad concurrida",
+    "FRE": "dans une ville animée",
+    "GER": "in einer lebhaften Stadt",
+    "ITA": "in una città animata",
+    "JPN": "にぎやかなまち",
+    "KOR": "번화한 마을",
+    "CHN": "にぎやかなまち"
+  },
+  {
+    "ENG": "a boutique",
+    "SPA": "una boutique",
+    "FRE": "dans une boutique",
+    "GER": "in einer Boutique",
+    "ITA": "in un negozio di vestiti",
+    "JPN": "ブティック",
+    "KOR": "부티크",
+    "CHN": "ブティック"
+  },
+  {
+    "ENG": "a shop",
+    "SPA": "una tienda",
+    "FRE": "dans un magasin",
+    "GER": "in einem Geschäft",
+    "ITA": "in un negozio",
+    "JPN": "ショップ",
+    "KOR": "숍",
+    "CHN": "ショップ"
+  },
+  {
+    "ENG": "a simple town",
+    "SPA": "un pueblo sencillo",
+    "FRE": "dans une ville ordinaire",
+    "GER": "in einer unscheinbaren Stadt",
+    "ITA": "in una città tranquilla",
+    "JPN": "そぼくなまち",
+    "KOR": "소박한 마을",
+    "CHN": "そぼくなまち"
+  },
+  {
+    "ENG": "a Pokémon Center",
+    "SPA": "un Centro Pokémon",
+    "FRE": "dans un Centre Pokémon",
+    "GER": "in einem Pokémon-Center",
+    "ITA": "in un Centro Pokémon",
+    "JPN": "ポケモンセンター",
+    "KOR": "포켓몬센터",
+    "CHN": "ポケモンセンター"
+  },
+  {
+    "ENG": "a castle",
+    "SPA": "un castillo",
+    "FRE": "dans un château",
+    "GER": "in einem Schloss",
+    "ITA": "in un castello",
+    "JPN": "おしろ",
+    "KOR": "성",
+    "CHN": "おしろ"
+  },
+  {
+    "ENG": "a hotel",
+    "SPA": "un hotel",
+    "FRE": "dans un hôtel",
+    "GER": "in einem Hotel",
+    "ITA": "in un hotel",
+    "JPN": "ホテル",
+    "KOR": "호텔",
+    "CHN": "ホテル"
+  },
+  {
+    "ENG": "a town with a mysterious air",
+    "SPA": "un pueblo misterioso",
+    "FRE": "dans une ville mystérieuse",
+    "GER": "in einer geheimnisvollen Stadt",
+    "ITA": "in una città dall’aria misteriosa",
+    "JPN": "ふしぎなふんいきのまち",
+    "KOR": "이상한 분위기의 마을",
+    "CHN": "ふしぎなふんいきのまち"
+  },
+  {
+    "ENG": "a windswept town",
+    "SPA": "un pueblo donde sopla el viento",
+    "FRE": "dans une ville très venteuse",
+    "GER": "in einer windumtosten Stadt",
+    "ITA": "in una città ventosa",
+    "JPN": "かぜのふくまち",
+    "KOR": "바람이 부는 마을",
+    "CHN": "かぜのふくまち"
+  },
+  {
+    "ENG": "a gate",
+    "SPA": "un acceso",
+    "FRE": "à une porte",
+    "GER": "an einem Tor",
+    "ITA": "in un varco",
+    "JPN": "ゲート",
+    "KOR": "게이트",
+    "CHN": "ゲート"
+  },
+  {
+    "ENG": "a town on a river",
+    "SPA": "un pueblo ribereño",
+    "FRE": "dans une ville en bord de rivière",
+    "GER": "in einer Stadt am Fluss",
+    "ITA": "in una città in riva al fiume",
+    "JPN": "かわべりのまち",
+    "KOR": "물가의 마을",
+    "CHN": "かわべりのまち"
+  },
+  {
+    "ENG": "a lab",
+    "SPA": "un laboratorio",
+    "FRE": "dans un laboratoire",
+    "GER": "in einem Labor",
+    "ITA": "in un laboratorio",
+    "JPN": "けんきゅうじょ",
+    "KOR": "연구소",
+    "CHN": "けんきゅうじょ"
+  },
+  {
+    "ENG": "an aquarium",
+    "SPA": "un acuario",
+    "FRE": "dans un aquarium",
+    "GER": "in einem Aquarium",
+    "ITA": "in un acquario",
+    "JPN": "すいぞくかん",
+    "KOR": "수족관",
+    "CHN": "すいぞくかん"
+  },
+  {
+    "ENG": "a town on a cliff",
+    "SPA": "un pueblo junto a un acantilado",
+    "FRE": "dans une ville près d’une falaise",
+    "GER": "in einer Stadt an einem Abhang",
+    "ITA": "in una città sulla scogliera",
+    "JPN": "がけにあるまち",
+    "KOR": "벼랑에 세워진 마을",
+    "CHN": "がけにあるまち"
+  },
+  {
+    "ENG": "a gorgeous city",
+    "SPA": "una ciudad hermosa y gloriosa",
+    "FRE": "dans une ville resplendissante",
+    "GER": "in einer prachtvollen Stadt",
+    "ITA": "in una splendida città",
+    "JPN": "はなやかなまち",
+    "KOR": "화려한 마을",
+    "CHN": "はなやかなまち"
+  },
+  {
+    "ENG": "a Pokémon Gym",
+    "SPA": "un Gimnasio Pokémon",
+    "FRE": "dans une Arène Pokémon",
+    "GER": "in einer Pokémon-Arena",
+    "ITA": "in una Palestra",
+    "JPN": "ポケモンジム",
+    "KOR": "포켓몬체육관",
+    "CHN": "ポケモンジム"
+  },
+  {
+    "ENG": "a school",
+    "SPA": "una escuela",
+    "FRE": "dans une école",
+    "GER": "in einer Schule",
+    "ITA": "in una scuola",
+    "JPN": "がっこう",
+    "KOR": "학교",
+    "CHN": "がっこう"
+  },
+  {
+    "ENG": "a large city",
+    "SPA": "una metrópoli",
+    "FRE": "dans une ville immense",
+    "GER": "in einer großen Stadt",
+    "ITA": "in una grande città",
+    "JPN": "きょだいなまち",
+    "KOR": "거대한 마을",
+    "CHN": "きょだいなまち"
+  },
+  {
+    "ENG": "a building",
+    "SPA": "un edificio",
+    "FRE": "dans un immeuble",
+    "GER": "in einem Gebäude",
+    "ITA": "in un edificio",
+    "JPN": "ビル",
+    "KOR": "빌딩",
+    "CHN": "ビル"
+  },
+  {
+    "ENG": "a stylish café",
+    "SPA": "una cafetería elegante",
+    "FRE": "dans un café à la mode",
+    "GER": "in einem eleganten Café",
+    "ITA": "in un caffè elegante",
+    "JPN": "オシャレなカフェ",
+    "KOR": "세련된 카페",
+    "CHN": "オシャレなカフェ"
+  },
+  {
+    "ENG": "a hideout",
+    "SPA": "una guarida",
+    "FRE": "dans une planque",
+    "GER": "in einem Geheimversteck",
+    "ITA": "in un covo segreto",
+    "JPN": "アジト",
+    "KOR": "아지트",
+    "CHN": "アジト"
+  },
+  {
+    "ENG": "a museum",
+    "SPA": "un museo",
+    "FRE": "dans un musée",
+    "GER": "in einem Museum",
+    "ITA": "in un museo",
+    "JPN": "びじゅつかん",
+    "KOR": "미술관",
+    "CHN": "びじゅつかん"
+  },
+  {
+    "ENG": "a studio",
+    "SPA": "un estudio de grabación",
+    "FRE": "dans un studio vidéo",
+    "GER": "in einem Filmstudio",
+    "ITA": "in uno studio",
+    "JPN": "スタジオ",
+    "KOR": "스튜디오",
+    "CHN": "スタジオ"
+  },
+  {
+    "ENG": "a train station",
+    "SPA": "una estación",
+    "FRE": "dans une gare",
+    "GER": "in einem Bahnhof",
+    "ITA": "in una stazione",
+    "JPN": "えき",
+    "KOR": "역",
+    "CHN": "えき"
+  },
+  {
+    "ENG": "a battling spot",
+    "SPA": "un terreno de combate",
+    "FRE": "dans un lieu où l’on se bat",
+    "GER": "an einem Kampfschauplatz",
+    "ITA": "sul campo di lotta",
+    "JPN": "たたかいのば",
+    "KOR": "배틀 장소",
+    "CHN": "たたかいのば"
+  },
+  {
+    "ENG": "a beauty salon",
+    "SPA": "un salón de belleza",
+    "FRE": "dans un salon de beauté",
+    "GER": "in einem Schönheitssalon",
+    "ITA": "in un salone di bellezza",
+    "JPN": "びようしつ",
+    "KOR": "미용실",
+    "CHN": "びようしつ"
+  },
+  {
+    "ENG": "a restaurant",
+    "SPA": "un restaurante",
+    "FRE": "dans un restaurant",
+    "GER": "in einem Restaurant",
+    "ITA": "in un ristorante",
+    "JPN": "レストラン",
+    "KOR": "레스토랑",
+    "CHN": "レストラン"
+  },
+  {
+    "ENG": "a high-class restaurant",
+    "SPA": "un restaurante refinado",
+    "FRE": "dans un grand restaurant",
+    "GER": "in einem Edelrestaurant",
+    "ITA": "in un ristorante di lusso",
+    "JPN": "こうきゅうレストラン",
+    "KOR": "고급 레스토랑",
+    "CHN": "こうきゅうレストラン"
+  },
+  {
+    "ENG": "a seaside city",
+    "SPA": "una ciudad costera",
+    "FRE": "dans une ville en bord de mer",
+    "GER": "in einer Küstenstadt",
+    "ITA": "in una città in riva al mare",
+    "JPN": "うみべのまち",
+    "KOR": "해변의 마을",
+    "CHN": "うみべのまち"
+  },
+  {
+    "ENG": "the inside of a tall building",
+    "SPA": "un edificio alto",
+    "FRE": "dans un bâtiment élevé",
+    "GER": "im Inneren eines hohen Gebäudes",
+    "ITA": "in un edificio alto",
+    "JPN": "たかいたてもののなか",
+    "KOR": "높은 건물 안",
+    "CHN": "たかいたてもののなか"
+  },
+  {
+    "ENG": "a city with a mysterious air",
+    "SPA": "una ciudad misteriosa",
+    "FRE": "dans une ville mystérieuse",
+    "GER": "in einer geheimnisvollen Stadt",
+    "ITA": "in una città dall’aria misteriosa",
+    "JPN": "ふしぎなふんいきのまち",
+    "KOR": "이상한 분위기의 마을",
+    "CHN": "ふしぎなふんいきのまち"
+  },
+  {
+    "ENG": "a riverside city",
+    "SPA": "una ciudad a la orilla del río",
+    "FRE": "dans une ville au bord de l’eau",
+    "GER": "in einer Stadt am Fluss",
+    "ITA": "in una città lungo il fiume",
+    "JPN": "かわぞいのまち",
+    "KOR": "강가의 마을",
+    "CHN": "かわぞいのまち"
+  },
+  {
+    "ENG": "a snowcapped city",
+    "SPA": "una ciudad cubierta de nieve",
+    "FRE": "dans une ville enneigée",
+    "GER": "in einer schneebedeckten Stadt",
+    "ITA": "in una città innevata",
+    "JPN": "ゆきのふりつもるまち",
+    "KOR": "눈이 내려 쌓이는 마을",
+    "CHN": "ゆきのふりつもるまち"
+  },
+  {
+    "ENG": "the Pokémon League",
+    "SPA": "la Liga Pokémon",
+    "FRE": "à la Ligue Pokémon",
+    "GER": "in der Pokémon Liga",
+    "ITA": "alla Lega Pokémon",
+    "JPN": "ポケモンリーグ",
+    "KOR": "포켓몬리그",
+    "CHN": "ポケモンリーグ"
+  },
+  {
+    "ENG": "a palace",
+    "SPA": "un palacio",
+    "FRE": "dans un palais",
+    "GER": "in einem Palast",
+    "ITA": "in una reggia",
+    "JPN": "きゅうでん",
+    "KOR": "궁전",
+    "CHN": "きゅうでん"
+  },
+  {
+    "ENG": "a cave",
+    "SPA": "una cueva",
+    "FRE": "dans une grotte",
+    "GER": "in einer Höhle",
+    "ITA": "in una grotta",
+    "JPN": "どうくつ",
+    "KOR": "동굴",
+    "CHN": "どうくつ"
+  },
+  {
+    "ENG": "a forest",
+    "SPA": "un bosque",
+    "FRE": "dans une forêt",
+    "GER": "in einem Wald",
+    "ITA": "in un bosco",
+    "JPN": "もり",
+    "KOR": "숲",
+    "CHN": "もり"
+  },
+  {
+    "ENG": "a tree-lined road",
+    "SPA": "una alameda",
+    "FRE": "sur un chemin bordé d’arbres",
+    "GER": "auf einer Allee",
+    "ITA": "in un viale alberato",
+    "JPN": "がいろじゅのつづくみち",
+    "KOR": "가로수가 늘어선 길",
+    "CHN": "がいろじゅのつづくみち"
+  },
+  {
+    "ENG": "a riverside road",
+    "SPA": "un camino ribereño",
+    "FRE": "sur un chemin au bord de l’eau",
+    "GER": "auf einem Weg am Fluss",
+    "ITA": "su un lungofiume",
+    "JPN": "かわぞいのみち",
+    "KOR": "강가의 길",
+    "CHN": "かわぞいのみち"
+  },
+  {
+    "ENG": "a tranquil road",
+    "SPA": "un sendero tranquilo",
+    "FRE": "sur un chemin tranquille",
+    "GER": "auf einem ruhigen Weg",
+    "ITA": "in una strada tranquilla",
+    "JPN": "のどかなみち",
+    "KOR": "평온한 길",
+    "CHN": "のどかなみち"
+  },
+  {
+    "ENG": "a road in bloom",
+    "SPA": "un camino florido",
+    "FRE": "sur un chemin fleuri",
+    "GER": "auf einem Weg voller Blumen",
+    "ITA": "in una strada piena di fiori",
+    "JPN": "はなさくみち",
+    "KOR": "꽃 피는 길",
+    "CHN": "はなさくみち"
+  },
+  {
+    "ENG": "the Pokémon Day Care",
+    "SPA": "una Guardería Pokémon",
+    "FRE": "à la Pension Pokémon",
+    "GER": "in einer Pokémon-Pension",
+    "ITA": "in una Pensione Pokémon",
+    "JPN": "そだてや",
+    "KOR": "키우미집",
+    "CHN": "そだてや"
+  },
+  {
+    "ENG": "a rugged mountain pass",
+    "SPA": "un paso de montaña",
+    "FRE": "sur un chemin escarpé",
+    "GER": "auf einem steilen Bergweg",
+    "ITA": "in un’erta strada di montagna",
+    "JPN": "けわしいやまみち",
+    "KOR": "험한 산길",
+    "CHN": "けわしいやまみち"
+  },
+  {
+    "ENG": "a stone-lined area",
+    "SPA": "una zona repleta de menhires",
+    "FRE": "dans un champ de pierres levées",
+    "GER": "in einem steinigen Gebiet",
+    "ITA": "in un luogo con pietre allineate",
+    "JPN": "いしのたちならぶばしょ",
+    "KOR": "돌이 늘어선 장소",
+    "CHN": "いしのたちならぶばしょ"
+  },
+  {
+    "ENG": "a road above the sea",
+    "SPA": "un sendero con vistas al mar",
+    "FRE": "sur un chemin surplombant la mer",
+    "GER": "auf einem Weg mit Meerblick",
+    "ITA": "in una via da cui si vede il mare",
+    "JPN": "うみのみえるみち",
+    "KOR": "바다가 보이는 길",
+    "CHN": "うみのみえるみち"
+  },
+  {
+    "ENG": "a mired road",
+    "SPA": "un sendero cenagoso",
+    "FRE": "sur un chemin boueux",
+    "GER": "auf einem schlammigen Weg",
+    "ITA": "in una strada fangosa",
+    "JPN": "ぬかるんだみち",
+    "KOR": "질퍽거리는 길",
+    "CHN": "ぬかるんだみち"
+  },
+  {
+    "ENG": "a sand-swept road",
+    "SPA": "un sendero con arena por doquier",
+    "FRE": "sur un chemin balayé par le sable",
+    "GER": "auf einem Weg voller Sandwehen",
+    "ITA": "in una strada piena di sabbia",
+    "JPN": "すなのふきあれるみち",
+    "KOR": "거친 모래바람이 부는 길",
+    "CHN": "すなのふきあれるみち"
+  },
+  {
+    "ENG": "a leaf-strewn road",
+    "SPA": "un sendero otoñal",
+    "FRE": "sur un chemin couvert de feuilles",
+    "GER": "auf einem laubbedeckten Weg",
+    "ITA": "in una via piena di foglie secche",
+    "JPN": "おちばみち",
+    "KOR": "낙엽이 쌓인 길",
+    "CHN": "おちばみち"
+  },
+  {
+    "ENG": "a snow-swept road",
+    "SPA": "un sendero nevado",
+    "FRE": "sur un chemin enneigé",
+    "GER": "auf einem schneebedeckten Weg",
+    "ITA": "in una strada innevata",
+    "JPN": "ゆきみち",
+    "KOR": "눈이 쌓인 길",
+    "CHN": "ゆきみち"
+  },
+  {
+    "ENG": "a factory",
+    "SPA": "una fábrica",
+    "FRE": "dans une usine",
+    "GER": "in einer Fabrik",
+    "ITA": "in una fabbrica",
+    "JPN": "こうじょう",
+    "KOR": "공장",
+    "CHN": "こうじょう"
+  },
+  {
+    "ENG": "Victory Road",
+    "SPA": "la Calle Victoria",
+    "FRE": "sur la Route Victoire",
+    "GER": "auf der Siegesstraße",
+    "ITA": "in Via Vittoria",
+    "JPN": "チャンピオンロード",
+    "KOR": "챔피언로드",
+    "CHN": "チャンピオンロード"
+  },
+  {
+    "ENG": "a snowy mountain",
+    "SPA": "una montaña nevada",
+    "FRE": "sur une montagne enneigée",
+    "GER": "auf einem schneebedeckten Berg",
+    "ITA": "su una montagna innevata",
+    "JPN": "ゆきやま",
+    "KOR": "설산",
+    "CHN": "ゆきやま"
+  },
+  {
+    "ENG": "a power plant",
+    "SPA": "una central eléctrica",
+    "FRE": "dans une centrale électrique",
+    "GER": "in einem Kraftwerk",
+    "ITA": "in una centrale elettrica",
+    "JPN": "はつでんしょ",
+    "KOR": "발전소",
+    "CHN": "はつでんしょ"
+  },
+  {
+    "ENG": "a field",
+    "SPA": "un huerto",
+    "FRE": "dans un champ",
+    "GER": "auf einem Feld",
+    "ITA": "in un orto",
+    "JPN": "はたけ",
+    "KOR": "밭",
+    "CHN": "はたけ"
+  },
+  {
+    "ENG": "a ruin",
+    "SPA": "unas ruinas",
+    "FRE": "dans des ruines",
+    "GER": "in einer Ruine",
+    "ITA": "in mezzo a delle rovine",
+    "JPN": "はいきょ",
+    "KOR": "폐허",
+    "CHN": "はいきょ"
+  },
+  {
+    "ENG": "a watery route",
+    "SPA": "unas alcantarillas",
+    "FRE": "dans un Chenal",
+    "GER": "auf einer Wasserroute",
+    "ITA": "in una via d’acqua",
+    "JPN": "すいどう",
+    "KOR": "수로",
+    "CHN": "すいどう"
+  },
+  {
+    "ENG": "a safari",
+    "SPA": "un safari",
+    "FRE": "au cours d’un safari",
+    "GER": "auf einer Safari",
+    "ITA": "in un safari",
+    "JPN": "サファリ",
+    "KOR": "사파리",
+    "CHN": "サファリ"
+  },
+  {
+    "ENG": "a Secret Base",
+    "SPA": "una Base Secreta",
+    "FRE": "dans une Base Secrète",
+    "GER": "in einer Geheimbasis",
+    "ITA": "in una Base Segreta",
+    "JPN": "ひみつきち",
+    "KOR": "비밀기지",
+    "CHN": "ひみつきち"
+  },
+  {
+    "ENG": "a Contest Spectacular Hall",
+    "SPA": "un Auditorio del Gran Concurso",
+    "FRE": "au Concours Pokémon",
+    "GER": "in einer Wettbewerbshalle",
+    "ITA": "in un’Arena delle Virtù",
+    "JPN": "コンテストライブかいじょう",
+    "KOR": "콘테스트 라이브 회장",
+    "CHN": "コンテストライブかいじょう"
+  },
+  {
+    "ENG": "a place deep in the ocean",
+    "SPA": "el fondo del mar",
+    "FRE": "tout au fond de la mer",
+    "GER": "in der Tiefe des Meeres",
+    "ITA": "sul fondo del mare",
+    "JPN": "ふかいうみのそこ",
+    "KOR": "깊은 바다 밑",
+    "CHN": "ふかいうみのそこ"
+  },
+  {
+    "ENG": "a Mirage spot",
+    "SPA": "un paraje irreal",
+    "FRE": "dans un endroit irréel",
+    "GER": "an einem wundersamen Ort",
+    "ITA": "in una zona miraggio",
+    "JPN": "マボロシのばしょ",
+    "KOR": "환상의 장소",
+    "CHN": "マボロシのばしょ"
+  },
+  {
+    "ENG": "a large ship",
+    "SPA": "un gran navío",
+    "FRE": "dans un grand bateau",
+    "GER": "auf einem großen Schiff",
+    "ITA": "in una grande nave",
+    "JPN": "おおきなふね",
+    "KOR": "커다란 배",
+    "CHN": "おおきなふね"
+  },
+  {
+    "ENG": "an ash-covered path",
+    "SPA": "una ruta cubierta de ceniza",
+    "FRE": "sur une route pleine de cendres",
+    "GER": "auf einem aschebedeckten Weg",
+    "ITA": "in una strada coperta di cenere",
+    "JPN": "はいがふりつもるみち",
+    "KOR": "재가 떨어져 쌓이는 길",
+    "CHN": "はいがふりつもるみち"
+  },
+  {
+    "ENG": "a tiny island",
+    "SPA": "un islote",
+    "FRE": "sur un tout petit îlot",
+    "GER": "auf einer kleinen Insel",
+    "ITA": "su una piccola isola",
+    "JPN": "ちいさなしま",
+    "KOR": "작은 섬",
+    "CHN": "ちいさなしま"
+  },
+  {
+    "ENG": "a mystical place",
+    "SPA": "un lugar misterioso",
+    "FRE": "dans un lieu très impressionnant",
+    "GER": "an einem geheimnisvollen Ort",
+    "ITA": "in un luogo misterioso",
+    "JPN": "しんぴてきなばしょ",
+    "KOR": "신비스러운 장소",
+    "CHN": "しんぴてきなばしょ"
+  },
+  {
+    "ENG": "oh, while soaring in the sky",
+    "SPA": "el firmamento",
+    "FRE": "dans le Grand Ciel",
+    "GER": "beim Flug durch die Lüfte",
+    "ITA": "nell’Ipersfera",
+    "JPN": "おおぞら",
+    "KOR": "창공",
+    "CHN": "おおぞら"
+  }
+]
+
+},{}],14:[function(require,module,exports){
 module.exports=[
   "Kalos Champ Ribbon",
   "Champion Ribbon",
@@ -899,7 +4500,7 @@ module.exports=[
   "Toughness Master Ribbon"
 ]
 
-},{}],7:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 'use strict';
 // Reference: https://projectpokemon.org/wiki/Pokemon_X/Y_3DS_Structure
 function stripNullChars (str) {
@@ -928,8 +4529,32 @@ function getDateFromInt (dateStorage) {
   return dateStorage ? Date.UTC((dateStorage & 0xff) + 2000, (dateStorage >>> 8 & 0xff) - 1, dateStorage >>> 16 & 0xff) : null;
 }
 
+const TYPES = [
+  'fighting',
+  'flying',
+  'poison',
+  'ground',
+  'rock',
+  'bug',
+  'ghost',
+  'steel',
+  'fire',
+  'water',
+  'grass',
+  'electric',
+  'psychic',
+  'ice',
+  'dragon',
+  'dark'
+];
+
+const calculateHiddenPower = (hp, atk, def, spa, spd, spe) => ({
+  type: TYPES[Math.floor((hp % 2 + 2 * (atk % 2) + 4 * (def % 2) + 8 * (spe % 2) + 16 * (spa % 2) + 32 * (spd % 2)) * 5 / 21)],
+  power: 30 + Math.floor(((hp & 2) + 2 * (atk & 2) + 4 * (def & 2) + 8 * (spe & 2) + 16 * (spa & 2) + 32 * (spd & 2)) * 20 / 63)
+});
+
 exports.parseBuffer = (buf, options) => {
-  if (buf.readUInt16LE(0x04) || !checksumIsValid(buf) || [232, 260].indexOf(buf.length) === -1 || buf.readUInt8(0x58) ||
+  if (buf.readUInt16LE(0x04) || [232, 260].indexOf(buf.length) === -1 || !checksumIsValid(buf) || buf.readUInt8(0x58) ||
       buf.readUInt8(0x90) || buf.readUInt8(0xc8)) {
     throw new TypeError('The provided buffer is not valid pk6 data');
   }
@@ -980,11 +4605,13 @@ exports.parseBuffer = (buf, options) => {
   data.hasDiamondMarking = !!(markingByte & 0x20);
 
   const pokerusByte = buf.readUInt8(0x2b);
-  data.pokerusDuration = pokerusByte & 16;
+  data.pokerusDuration = pokerusByte & 15;
   data.pokerusStrain = pokerusByte >>> 4;
 
   data.medalData = buf.readUInt32LE(0x2c);
   data.ribbonData = buf.readUIntLE(0x30, 6);
+  data.contestMemoryRibbonCount = buf.readUInt8(0x38);
+  data.battleMemoryRibbonCount = buf.readUInt8(0x39);
   data.distributionSuperTrainingFlags = buf.readUInt8(0x3a); // TODO: Figure out what these are
   data.nickname = stripNullChars(buf.toString('utf16le', 0x40, 0x58));
 
@@ -1035,7 +4662,7 @@ exports.parseBuffer = (buf, options) => {
 
   data.notOtFriendship = buf.readUInt8(0xa2);
   data.notOtAffection = buf.readUInt8(0xa3);
-  data.notOtMemoryIntensity = buf.readUInt8(0xa4); // TODO: Parse
+  data.notOtMemoryIntensity = buf.readUInt8(0xa4);
   data.notOtMemoryLine = buf.readUInt8(0xa5);
   data.notOtMemoryFeeling = buf.readUInt8(0xa6);
   data.notOtMemoryTextVar = buf.readUInt16LE(0xa8);
@@ -1046,7 +4673,7 @@ exports.parseBuffer = (buf, options) => {
   data.ot = stripNullChars(buf.toString('utf16le', 0xb0, 0xc8));
   data.otFriendship = buf.readUInt8(0xca);
   data.otAffection = buf.readUInt8(0xcb);
-  data.otMemoryIntensity = buf.readUInt8(0xcc); // TODO: Parse
+  data.otMemoryIntensity = buf.readUInt8(0xcc);
   data.otMemoryLine = buf.readUInt8(0xcd);
   data.otMemoryTextVar = buf.readUInt16LE(0xce);
   data.otMemoryFeeling = buf.readUInt8(0xd0);
@@ -1064,8 +4691,8 @@ exports.parseBuffer = (buf, options) => {
 
   data.encounterTypeId = buf.readUInt8(0xde);
   data.otGameId = buf.readUInt8(0xdf);
-  data.countryId = buf.readUInt8(0xe0); // TODO: Parse
-  data.regionId = buf.readUInt8(0xe1); // TODO: Parse
+  data.countryId = buf.readUInt8(0xe0);
+  data.regionId = buf.readUInt8(0xe1);
   data.consoleRegion = ['J', 'U', 'E', '?', 'C', 'K', 'T'][buf.readUInt8(0xe2)];
   data.language = [null, 'JPN', 'ENG', 'FRE', 'ITA', 'GER', '???', 'SPA', 'KOR'][buf.readUInt8(0xe3)];
   data._rawPk6 = buf.toString('base64');
@@ -1088,6 +4715,9 @@ const levelToExperienceCache = {
 
 function _baseLevelToExperience (level, growthRate) {
   // Reference: http://bulbapedia.bulbagarden.net/wiki/Experience
+  if (level > 100) {
+    return Infinity;
+  }
   if (growthRate === 'slow-then-very-fast') {
     if (level < 50) {
       return Math.pow(level, 3) * (100 - level) / 50;
@@ -1180,18 +4810,68 @@ function abbreviateStat (name) {
   }[name];
 }
 
+function calculateStat (baseStat, level, iv, ev, natureMultiplier, isHp) {
+  if (isHp && baseStat === 1) {
+    // shedinja hp
+    return 1;
+  }
+  if (isHp) {
+    return Math.floor((2 * baseStat + iv + Math.floor(ev / 4)) * level / 100) + level + 10;
+  }
+  return Math.floor((Math.floor((2 * baseStat + iv + Math.floor(ev / 4)) * level / 100) + 5) * natureMultiplier);
+}
+
+function assignCalculatedStat (data, statName) {
+  data[`stat${statName}`] = calculateStat(
+    data[`baseStat${statName}`],
+    data.level,
+    data[`iv${statName}`],
+    data[`ev${statName}`],
+    data.increasedStat === statName ? 1.1 : data.decreasedStat === statName ? 0.9 : 1,
+    statName === 'Hp'
+  );
+}
+
+function assignRegionAndCountryNames (data, locationNum, language) {
+  const regionId = data[`geoLocation${locationNum}RegionId`];
+  const countryId = data[`geoLocation${locationNum}CountryId`];
+  const regionNameKey = `geoLocation${locationNum}RegionName`;
+  const countryNameKey = `geoLocation${locationNum}CountryName`;
+  data[regionNameKey] = regionId ? data[regionNameKey] = exports.getSubregionName(countryId, regionId, language) : null;
+  data[countryNameKey] = countryId ? data[countryNameKey] = exports.getCountryName(countryId, language) : null;
+}
+
+const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
 exports.assignReadableNames = (data, language) => {
-  const langMap = {ENG: 'en', SPA: 'es', FRE: 'fr', GER: 'de', ITA: 'it', JPN: 'ja', KOR: 'ko'};
   language = language || 'ENG';
   const shortLang = langMap[language];
   if (!shortLang) {
     throw new TypeError(`Invalid language '${language}'`);
   }
   const findName = specificData => specificData && specificData.names.find(d => d.language === shortLang).name;
+
   const pkmnData = exports.getPokemonData(data.dexNo);
   data.speciesName = findName(pkmnData);
   data.growthRate = pkmnData.growth_rate.name;
   Object.assign(data, convertExperienceToLevelData(data.exp, data.growthRate));
+
+  const natureData = exports.getNatureData(data.natureId);
+  data.natureName = findName(natureData);
+  const alternateForms = require('./data/alternate_forms');
+  data.formName = alternateForms[data.dexNo] && alternateForms[data.dexNo][data.formId];
+  data.increasedStat = abbreviateStat(natureData.increased_stat && natureData.increased_stat.name);
+  data.decreasedStat = abbreviateStat(natureData.decreased_stat && natureData.decreased_stat.name);
+  data.types = pkmnData.types;
+
+  data.baseStatHp = pkmnData.base_stats.hp;
+  data.baseStatAtk = pkmnData.base_stats.attack;
+  data.baseStatDef = pkmnData.base_stats.defense;
+  data.baseStatSpAtk = pkmnData.base_stats['special-attack'];
+  data.baseStatSpDef = pkmnData.base_stats['special-defense'];
+  data.baseStatSpe = pkmnData.base_stats.speed;
+
+  ['Hp', 'Atk', 'Def', 'SpAtk', 'SpDef', 'Spe'].forEach(statName => assignCalculatedStat(data, statName));
+
   data.heldItemName = findName(exports.getItemData(data.heldItemId));
   /* For all the pokeballs obtainable in gen 6 (ball IDs 1-16), the ball ID is the same as the item ID for that ball.
   For johto balls (apricorn/sport), the ball IDs are 17-24 and the corresponding item IDs are 492-499, in the same order.
@@ -1199,29 +4879,84 @@ exports.assignReadableNames = (data, language) => {
   const correctedBallId = data.ballId < 17 ? data.ballId : data.ballId === 25 ? 576 : data.ballId + 475;
   data.ballName = findName(exports.getItemData(correctedBallId));
   data.abilityName = findName(exports.getAbilityData(data.abilityId));
-  const natureData = exports.getNatureData(data.natureId);
-  data.natureName = findName(natureData);
-  const alternateForms = require('./data/alternate_forms');
-  data.formName = alternateForms[data.dexNo] && alternateForms[data.dexNo][data.formId];
-  data.increasedStat = abbreviateStat(natureData.increased_stat && natureData.increased_stat.name);
-  data.decreasedStat = abbreviateStat(natureData.decreased_stat && natureData.decreased_stat.name);
-  data.move1Name = findName(exports.getMoveData(data.move1Id));
-  data.move2Name = findName(exports.getMoveData(data.move2Id));
-  data.move3Name = findName(exports.getMoveData(data.move3Id));
-  data.move4Name = findName(exports.getMoveData(data.move4Id));
+
+  const move1Data = exports.getMoveData(data.move1Id);
+  data.move1Name = move1Data && findName(move1Data);
+  data.move1Type = move1Data && move1Data.type.name;
+  data.move1Power = move1Data && move1Data.power;
+
+  const move2Data = exports.getMoveData(data.move2Id);
+  data.move2Name = move2Data && findName(move2Data);
+  data.move2Type = move2Data && move2Data.type.name;
+  data.move2Power = move2Data && move2Data.power;
+
+  const move3Data = exports.getMoveData(data.move3Id);
+  data.move3Name = move3Data && findName(move3Data);
+  data.move3Type = move3Data && move3Data.type.name;
+  data.move3Power = move3Data && move3Data.power;
+
+  const move4Data = exports.getMoveData(data.move4Id);
+  data.move4Name = move4Data && findName(move4Data);
+  data.move4Type = move4Data && move4Data.type.name;
+  data.move4Power = move4Data && move4Data.power;
+
   data.eggMove1Name = findName(exports.getMoveData(data.eggMove1Id));
   data.eggMove2Name = findName(exports.getMoveData(data.eggMove2Id));
   data.eggMove3Name = findName(exports.getMoveData(data.eggMove3Id));
   data.eggMove4Name = findName(exports.getMoveData(data.eggMove4Id));
+
+  [1, 2, 3, 4, 5].forEach(num => assignRegionAndCountryNames(data, num, language));
+
+  data.notOtMemory = exports.parseMemoryData(
+    data.notOtMemoryIntensity,
+    data.notOtMemoryLine,
+    data.notOtMemoryFeeling,
+    data.notOtMemoryTextVar,
+    data.nickname,
+    data.notOt,
+    language
+  );
+
+  data.otMemory = exports.parseMemoryData(
+    data.otMemoryIntensity,
+    data.otMemoryLine,
+    data.otMemoryFeeling,
+    data.otMemoryTextVar,
+    data.nickname,
+    data.ot,
+    language
+  );
+
   data.medals = exports.getMedalData(data.medalData);
   data.ribbons = exports.getRibbonData(data.ribbonData);
-  data.eggLocationName = exports.getLocationData(data.eggLocationId, data.otGameId);
+
+  if (data.contestMemoryRibbonCount === 40) {
+    data.ribbons.push('Contest Memory Ribbon (Gold)');
+  } else if (data.contestMemoryRibbonCount) {
+    data.ribbons.push('Contest Memory Ribbon');
+  }
+
+  if (data.battleMemoryRibbonCount === 8) {
+    data.ribbons.push('Battle Memory Ribbon (Gold)');
+  } else if (data.battleMemoryRibbonCount) {
+    data.ribbons.push('Battle Memory Ribbon');
+  }
+
+  data.eggLocationName = exports.getLocationData(data.eggLocationId, data.otGameId, true);
   data.metLocationName = exports.getLocationData(data.metLocationId, data.otGameId);
   data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
   data.otGameName = exports.getGameData(data.otGameId);
+
+  data.countryName = exports.getCountryName(data.countryId, language);
+  data.regionName = data.regionId ? exports.getSubregionName(data.countryId, data.regionId, language) : null;
   data.tsv = (data.tid ^ data.sid) >>> 4;
   data.esv = (data.pid & 0xffff ^ data.pid >>> 16) >>> 4;
-  data.isShiny = data.tsv === data.esv;
+  data.isShiny = !data.isEgg && data.tsv === data.esv;
+
+  const hp = calculateHiddenPower(data.ivHp, data.ivAtk, data.ivDef, data.ivSpAtk, data.ivSpDef, data.ivSpe);
+  data.hiddenPowerType = hp.type;
+  data.hiddenPowerPower = hp.power;
+
   return data;
 };
 
@@ -1229,66 +4964,41 @@ exports.parseFile = (path, options) => {
   return exports.parseBuffer(require('fs').readFileSync(path), options);
 };
 
-exports.getPokemonData = dexNo => {
+function tryRequire (path, errorMessage) {
   try {
-    return require(`./data/pokemon/${dexNo}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid dex number: ${dexNo}`);
+    return require(path);
+  } catch (err) {
+    throw errorMessage ? new TypeError(errorMessage) : err;
   }
-};
+  // TODO: Handle memory better if the process is running for a long time
+}
 
-exports.getItemData = itemId => {
-  if (itemId === 0) {
+exports.getPokemonData = dexNo => tryRequire(`./data/pokemon/${dexNo}`, `Invalid dex number: ${dexNo}`);
+exports.getItemData = itemId => itemId ? tryRequire(`./data/item_gen6/${itemId}`, `Invalid item ID: ${itemId}`) : null;
+exports.getMoveData = moveId => moveId ? tryRequire(`./data/move/${moveId}`, `Invalid move ID: ${moveId}`) : null;
+exports.getAbilityData = abilId => abilId ? tryRequire(`./data/ability/${abilId}`, `Invalid ability ID: ${abilId}`) : null;
+exports.getNatureData = natureId => tryRequire(`./data/nature/${natureId}`, `Invalid nature ID: ${natureId}`);
+
+exports.getLocationData = (locationId, otGameId, isEggLocation) => {
+  if (!locationId && isEggLocation) {
     return null;
   }
-  try {
-    return require(`./data/item_gen6/${itemId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid item ID: ${itemId}`);
-  }
-};
-
-exports.getMoveData = moveId => {
-  if (moveId === 0) {
-    return null;
-  }
-  try {
-    return require(`./data/move/${moveId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid move ID: ${moveId}`);
-  }
-};
-
-exports.getAbilityData = abilityId => {
-  if (abilityId === 0) {
-    return null;
-  }
-  try {
-    return require(`./data/ability/${abilityId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid ability ID: ${abilityId}`);
-  }
-};
-
-exports.getNatureData = natureId => {
-  if (natureId === 0) {
-    return null;
-  }
-  try {
-    return require(`./data/nature/${natureId}.json`);
-  } catch (e) {
-    throw new TypeError(`Invalid nature ID: ${natureId}`);
-  }
-};
-
-exports.getLocationData = (locationId, otGameId) => {
   if (otGameId >= 24 && otGameId <= 29 || otGameId === undefined) {
     return require('./data/location_gen6.json')[locationId] || null;
   }
   if (otGameId >= 20 && otGameId <= 23) {
     return require('./data/location_gen5.json')[locationId] || null;
   }
-  return 'Poké Transfer';
+  if (!isEggLocation) {
+    return 'Poké Transfer';
+  }
+  if (otGameId >= 7 && otGameId <= 12) {
+    return require('./data/location_gen4.json')[locationId] || null;
+  }
+  if (otGameId >= 1 && otGameId <= 5 || otGameId === 15) {
+    return require('./data/location_gen3.json')[locationId] || null;
+  }
+  return null;
 };
 
 exports.getRibbonData = ribbonData => {
@@ -1300,26 +5010,72 @@ exports.getMedalData = medalData => {
 };
 
 exports.getEncounterTypeData = encounterTypeId => {
-  return [
-    'Pal Park/Egg/Event',
-    null,
-    'Tall Grass',
-    null,
-    'Sinjoh Ruins Event',
-    'Cave/Hall of Origin',
-    null,
-    'Surfing/Fishing',
-    null,
-    'Building',
-    'Great Marsh/Safari Zone',
-    null,
-    'Starter/Gift/Fossil'
-  ][encounterTypeId];
+  return require('./data/encounterTypes')[encounterTypeId];
 };
 
 exports.getGameData = gameId => require('./data/games.json')[gameId];
 
-},{"./data/alternate_forms":1,"./data/games.json":2,"./data/location_gen5.json":3,"./data/location_gen6.json":4,"./data/medals.json":5,"./data/ribbons.json":6,"fs":10}],8:[function(require,module,exports){
+exports.getCountryName = (countryId, language) => require('./data/countries')[countryId][language];
+
+exports.getSubregionName = (countryId, subregionId, language) => {
+  const countryData = tryRequire(`./data/subregions/${countryId}`, `Invalid country ID ${countryId}`);
+  try {
+    return countryData[subregionId][language];
+  } catch (err) {
+    throw new TypeError(`Invalid subregion ID ${subregionId}`);
+  }
+};
+
+function getTextVar (lineId, textVarId, language) {
+  const shortLang = langMap[language];
+  if ([5, 15, 26, 34, 40, 51].indexOf(lineId) !== -1) {
+    return exports.getItemData(textVarId).names.find(d => d.language === shortLang).name;
+  }
+  if ([7, 9, 13, 14, 17, 18, 21, 25, 29, 44, 45, 50, 60].indexOf(lineId) !== -1) {
+    return exports.getPokemonData(textVarId).names.find(d => d.language === shortLang).name;
+  }
+  if ([12, 16, 48, 49].indexOf(lineId) !== -1) {
+    return exports.getMoveData(textVarId).names.find(d => d.language === shortLang).name;
+  }
+  if (lineId === 6) {
+    return require('./data/location_gen6.json')[textVarId];
+  }
+  try {
+    return require('./data/memories/memoryTextVars')[textVarId][language];
+  } catch (err) {
+    throw new TypeError(`Invalid memory textVar ID: ${textVarId}`);
+  }
+}
+
+exports.parseMemoryData = (intensityId, lineId, feelingId, textVarId, nickname, trainerName, language) => {
+  let intensity, line, feeling;
+  const textVar = getTextVar(lineId, textVarId, language);
+  try {
+    line = require('./data/memories/memoryLines')[lineId][language];
+  } catch (err) {
+    throw new TypeError(`Invalid memory line ID: ${lineId}`);
+  }
+  if (lineId) {
+    try {
+      intensity = require('./data/memories/memoryIntensities')[intensityId][language];
+    } catch (err) {
+      throw new TypeError(`Invalid memory intensity ID: ${intensityId}`);
+    }
+    try {
+      feeling = require('./data/memories/memoryFeelings')[feelingId][language];
+    } catch (err) {
+      throw new TypeError(`Invalid memory feeling ID: ${feelingId}`);
+    }
+  }
+  return line
+    .replace(/\{0\}/g, nickname)
+    .replace(/\{1\}/g, trainerName)
+    .replace(/\{2\}/g, textVar)
+    .replace(/\{3\}/g, feeling)
+    .replace(/\{4\}/g, intensity);
+};
+
+},{"./data/alternate_forms":1,"./data/countries":2,"./data/encounterTypes":3,"./data/games.json":4,"./data/location_gen3.json":5,"./data/location_gen4.json":6,"./data/location_gen5.json":7,"./data/location_gen6.json":8,"./data/medals.json":9,"./data/memories/memoryFeelings":10,"./data/memories/memoryIntensities":11,"./data/memories/memoryLines":12,"./data/memories/memoryTextVars":13,"./data/ribbons.json":14,"fs":18}],16:[function(require,module,exports){
 ;(function (exports) {
   'use strict'
 
@@ -1452,7 +5208,7 @@ exports.getGameData = gameId => require('./data/games.json')[gameId];
   exports.fromByteArray = uint8ToBase64
 }(typeof exports === 'undefined' ? (this.base64js = {}) : exports))
 
-},{}],9:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 (function (Buffer){
 /* global Blob, FileReader */
 
@@ -1477,9 +5233,9 @@ module.exports = function blobToBuffer (blob, cb) {
 }
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":11}],10:[function(require,module,exports){
+},{"buffer":19}],18:[function(require,module,exports){
 
-},{}],11:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 (function (global){
 /*!
  * The buffer module from node.js, for the browser.
@@ -2937,14 +6693,14 @@ function blitBuffer (src, dst, offset, length) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"base64-js":8,"ieee754":13,"isarray":12}],12:[function(require,module,exports){
+},{"base64-js":16,"ieee754":21,"isarray":20}],20:[function(require,module,exports){
 var toString = {}.toString;
 
 module.exports = Array.isArray || function (arr) {
   return toString.call(arr) == '[object Array]';
 };
 
-},{}],13:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
   var e, m
   var eLen = nBytes * 8 - mLen - 1
@@ -3030,7 +6786,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128
 }
 
-},{}],14:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 /* eslint-env browser */
 'use strict';
 function setOutput (obj) {
@@ -3046,4 +6802,4 @@ window.parseFile = fileList => {
   });
 };
 
-},{".":7,"blob-to-buffer":9}]},{},[14]);
+},{".":15,"blob-to-buffer":17}]},{},[22]);
