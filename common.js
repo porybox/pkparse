@@ -526,7 +526,13 @@ exports.getEncounterTypeData = encounterTypeId => {
   return require('./data/encounterTypes')[encounterTypeId];
 };
 
-exports.getGameData = gameId => require('./data/games.json')[gameId];
+exports.getGameData = (gameId, language) => {
+  let name = require('./data/games.json')[gameId];
+  if (name.includes('/')) {
+    name = name.split('/')[language === 'JPN' ? 1 : 0];
+  }
+  return name;
+};
 
 exports.getCountryName = (countryId, language) => require('./data/countries')[countryId][language];
 
