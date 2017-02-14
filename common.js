@@ -8,11 +8,8 @@ function stripNullChars (str) {
 
 function parseMap (data, map) {
   const parsedData = [];
-  if (typeof data === 'number') {
-    data = [data];
-  }
-  for (let i = 0; i < map.length; i++) {
-    if (map[i] && data[i >>> 5] >>> (i & 31) & 1) {
+  for (let i = 0; i < map.length; i++, data = Math.floor(data / 2)) {
+    if (map[i] && data % 2) {
       parsedData.push(map[i]);
     }
   }
@@ -54,6 +51,20 @@ const calculateHiddenPower = (hp, atk, def, spa, spd, spe) => ({
   type: TYPES[Math.floor((hp % 2 + 2 * (atk % 2) + 4 * (def % 2) + 8 * (spe % 2) + 16 * (spa % 2) + 32 * (spd % 2)) * 5 / 21)],
   power: 30 + Math.floor(((hp & 2) + 2 * (atk & 2) + 4 * (def & 2) + 8 * (spe & 2) + 16 * (spa & 2) + 32 * (spd & 2)) * 20 / 63)
 });
+
+function getBitflagData (buf, start, length) {
+  if (length > 53) {
+    throw new TypeError('The bitflag array provided is too large to return a safe integer.');
+  }
+  let res = 0, add = 1;
+  for (let i = 0; i < length; i++) {
+    if (buf[start + (i >>> 3)] >>> (i & 7) & 1) {
+      res += add;
+    }
+    add *= 2;
+  }
+  return res;
+}
 
 exports.parseBuffer = buf => {
   if (buf.readUInt16LE(0x04) || [232, 260].indexOf(buf.length) === -1 || !checksumIsValid(buf) || buf.readUInt8(0x58) ||
@@ -102,7 +113,7 @@ exports.parseBuffer = buf => {
   data.pokerusStrain = pokerusByte >>> 4;
 
   data.medalData = buf.readUInt32LE(0x2c);
-  data.ribbonData = [buf.readUInt32LE(0x30), buf.readUInt32LE(0x34)];
+  data.ribbonData = getBitflagData(buf, 0x30, require('./data/ribbons.json').length);
   data.contestMemoryRibbonCount = buf.readUInt8(0x38);
   data.battleMemoryRibbonCount = buf.readUInt8(0x39);
   data.distributionSuperTrainingFlags = buf.readUInt8(0x3a); // TODO: Figure out what these are
