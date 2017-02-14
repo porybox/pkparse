@@ -3,7 +3,7 @@ const _ = require('lodash');
 
 // Reference: https://projectpokemon.org/wiki/Pokemon_X/Y_3DS_Structure
 
-const hanzi = require('fs').readFileSync('data/hanzi.bin');
+const hanzi = require('fs').readFileSync(`${__dirname}/data/hanzi.bin`);
 const HANZI_OFFSET = 0xE800;
 
 function getHanziChar (offset) {
