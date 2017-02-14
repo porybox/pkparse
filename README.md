@@ -16,7 +16,7 @@ var pkparse = require('pkparse');
 
 * `pkparse.parseBuffer(buf, [options])`
 * `buf` *(Buffer)*: A Buffer in .pk6 format
-* `options` *(object)*: If `options.parseNames` is set to `true`, assigns readable names to the returned data in addition to property IDs.
+* `options` *(object)*: If `options.parseNames` is set to `true`, assigns readable names to the returned data in addition to property IDs. `options.gen` defines the generation to use. Defaults to gen 6, supports gen 6 and 7.
 * Returns *(object)*: An object containing the parsed information from the buffer.
 
 ---
