@@ -1,0 +1,46 @@
+{
+  "id": 459,
+  "name": "parcel",
+  "names": {
+    "ja": "おとどけもの",
+    "kana": "おとどけもの",
+    "en": "Parcel",
+    "fr": "Colis",
+    "it": "Pacco",
+    "de": "Paket",
+    "es": "Paquete",
+    "ko": "전해줄물건",
+    "zh-CN": "包裹",
+    "zh-TW": "包裹"
+  },
+  "flavor_text_entries": {
+    "ja": "フタバタウンから　旅立った 幼なじみに　渡すように 頼まれた　おとどけもの。",
+    "kana": "フタバタウンから　たびだった おさななじみに　わたすように たのまれた　おとどけもの。",
+    "en": "A parcel entrusted into your care. You’re supposed to deliver it to your childhood friend who left Twinleaf Town.",
+    "fr": "Un paquet qu’on vous a confié. Vous devez le remettre à votre ami d’enfance qui a quitté Bonaugure.",
+    "it": "Pacchetto da consegnare al tuo amico d’infanzia che ha lasciato Duefoglie.",
+    "de": "Ein Paket, das dir anvertraut wurde. Du sollst es deinem besten Freund geben, der Zweiblattdorf verließ.",
+    "es": "Paquete encomendado a tu cuidado que tienes que entregar a tu amigo de la infancia que dejó Pueblo Hojaverde.",
+    "ko": "떡잎마을에서 여행을 떠난 소꿉친구에게 건네주도록 부탁받은 물건.",
+    "zh-CN": "这是别人托付给你的包裹。 需要将它交给从双叶镇启程 踏上旅途的青梅竹马。",
+    "zh-TW": "受人之託要交給從雙葉鎮 啟程踏上旅途的 青梅竹馬的包裹。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A parcel entrusted into your care. You are supposed to deliver it to your childhood friend who left Twinleaf Town."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Pacchetto che sei stato incaricato di consegnare al tuo amico d’infanzia che ha lasciato Duefoglie."
+        }
+      }
+    }
+  ]
+}

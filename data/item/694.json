@@ -1,0 +1,39 @@
+{
+  "id": 694,
+  "name": "tm100",
+  "names": {
+    "ja": "わざマシン１００",
+    "kana": "わざマシン１００",
+    "en": "TM100",
+    "fr": "CT100",
+    "it": "MT100",
+    "de": "TM100",
+    "es": "MT100",
+    "ko": "기술머신100",
+    "zh-CN": "招式学习器１００",
+    "zh-TW": "招式學習器１００"
+  },
+  "flavor_text_entries": {
+    "ja": "ないしょばなしを　することで　相手の 集中力を　失わせ 相手の　特攻を　さげる。",
+    "kana": "ないしょばなしを　することで　あいての しゅうちゅうりょくを　うしなわせ あいての　とくこうを　さげる。",
+    "en": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat.",
+    "fr": "Dévoile des secrets à l’ennemi, qui perd alors sa concentration et voit son Attaque Spéciale diminuer.",
+    "it": "Chi la usa svela dei segreti al bersaglio, distraendolo e riducendone l’Attacco Speciale.",
+    "de": "Der Anwender vertraut dem Ziel ein Geheimnis an. Dadurch stört er dessen Konzentration und senkt dessen Spezial-Angriff.",
+    "es": "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.",
+    "ko": "비밀 이야기를 해서 상대의 집중력을 잃게 하여 특수공격을 떨어뜨린다.",
+    "zh-CN": "和对手进行密语， 使其失去集中力， 从而降低对手的特攻。",
+    "zh-TW": "向對手低聲密語， 使其失去集中力， 進而降低對手的特攻。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Dévoile des secrets à l’ennemi qui perd sa concentration et voit son Attaque Spéciale diminuer.",
+          "ko": "비밀 이야기를 함으로써 상대의 집중력을 잃게 하여 특수공격을 떨어뜨린다."
+        }
+      }
+    }
+  ]
+}

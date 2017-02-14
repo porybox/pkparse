@@ -1,0 +1,38 @@
+{
+  "id": 39,
+  "name": "max-ether",
+  "names": {
+    "ja": "ピーピーリカバー",
+    "kana": "ピーピーリカバー",
+    "en": "Max Ether",
+    "fr": "Huile Max",
+    "it": "Etere Max",
+    "de": "Top-Äther",
+    "es": "Éter Máximo",
+    "ko": "PP회복",
+    "zh-CN": "ＰＰ单项全补剂",
+    "zh-TW": "ＰＰ單項全補劑"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンが　覚えている 技のうち　１つの　ＰＰを すべて　回復する。",
+    "kana": "ポケモンが　おぼえている わざのうち　１つの　ＰＰを すべて　かいふくする。",
+    "en": "This medicine can fully restore the PP of a single selected move that has been learned by a Pokémon.",
+    "fr": "Restaure tous les PP d’une capacité sélectionnée.",
+    "it": "Restituisce tutti i PP a una mossa a scelta tra quelle conosciute dal Pokémon.",
+    "de": "Füllt die AP einer ausgewählten Attacke eines Pokémon vollständig auf.",
+    "es": "Restaura completamente los PP del movimiento elegido de un Pokémon.",
+    "ko": "포켓몬이 기억하고 있는 기술 중 1개의 PP를 모두 회복한다.",
+    "zh-CN": "能让宝可梦学会的 其中１个招式 回复所有ＰＰ。",
+    "zh-TW": "能讓寶可夢已學會的 其中１個招式 回復所有ＰＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "ko": "피피회복"
+        }
+      }
+    }
+  ]
+}

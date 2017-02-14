@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 22,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "カブルモ",
-      "language": "ja"
-    },
-    {
-      "name": "딱정곤",
-      "language": "ko"
-    },
-    {
-      "name": "Carabing",
-      "language": "fr"
-    },
-    {
-      "name": "Laukaps",
-      "language": "de"
-    },
-    {
-      "name": "Karrablast",
-      "language": "es"
-    },
-    {
-      "name": "Karrablast",
-      "language": "it"
-    },
-    {
-      "name": "Karrablast",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カブルモ",
+    "en": "Karrablast",
+    "fr": "Carabing",
+    "it": "Karrablast",
+    "de": "Laukaps",
+    "es": "Karrablast",
+    "ko": "딱정곤"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かぶりつき",
-      "language": "ja"
-    },
-    {
-      "genus": "덥석물기",
-      "language": "ko"
-    },
-    {
-      "genus": "Carabe",
-      "language": "fr"
-    },
-    {
-      "genus": "Schnappbiss",
-      "language": "de"
-    },
-    {
-      "genus": "Bocado",
-      "language": "es"
-    },
-    {
-      "genus": "Addentatore",
-      "language": "it"
-    },
-    {
-      "genus": "Clamping",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かぶりつき",
+    "en": "Clamping",
+    "fr": "Carabe",
+    "it": "Addentatore",
+    "de": "Schnappbiss",
+    "es": "Bocado",
+    "ko": "덥석물기"
+  },
   "varieties": [
     {
       "is_default": true,

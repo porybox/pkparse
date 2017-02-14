@@ -1,0 +1,38 @@
+{
+  "id": 610,
+  "name": "x-accuracy-6",
+  "names": {
+    "ja": "ヨクアタール６",
+    "kana": "ヨクアタール６",
+    "en": "X Accuracy 6",
+    "fr": "Précision 6",
+    "it": "Precisione X-6",
+    "de": "X-Treffer6",
+    "es": "Precisión X 6",
+    "ko": "잘-맞히기6",
+    "zh-CN": "命中强化６",
+    "zh-TW": "命中強化６"
+  },
+  "flavor_text_entries": {
+    "ja": "戦闘中の　ポケモンの 命中を　ものすごく　あげる。 ひっこめると　元に　戻る。",
+    "kana": "せんとうちゅうの　ポケモンの めいちゅうを　ものすごく　あげる。 ひっこめると　もとに　もどる。",
+    "en": "It raises the accuracy of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
+    "fr": "Augmente fortement la Précision pendant un combat. L’effet s’estompe si le Pokémon est retiré.",
+    "it": "Aumenta incredibilmente la precisione di un Pokémon in una lotta. L’effetto svanisce se il Pokémon è sostituito.",
+    "de": "Hebt die Genauigkeit eines Pokémon im Kampf enorm an. Die Wirkung endet mit dem Austausch des Pokémon.",
+    "es": "Aumenta mucho la Precisión en combate. Al cambiar de Pokémon, el efecto desaparece.",
+    "ko": "배틀 중인 포켓몬의 명중률을 엄청나게 올린다. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다.",
+    "zh-CN": "能极大提高战斗中 宝可梦的命中。 离场后，效果便会消失。",
+    "zh-TW": "能極大幅提高戰鬥中 寶可夢的命中。 離場後，效果便會復原。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Augmente fortement la Précision pendant un combat. L’effet s’estompe si le Pokémon se retire."
+        }
+      }
+    }
+  ]
+}

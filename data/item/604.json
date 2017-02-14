@@ -1,0 +1,38 @@
+{
+  "id": 604,
+  "name": "x-accuracy-3",
+  "names": {
+    "ja": "ヨクアタール３",
+    "kana": "ヨクアタール３",
+    "en": "X Accuracy 3",
+    "fr": "Précision 3",
+    "it": "Precisione X-3",
+    "de": "X-Treffer3",
+    "es": "Precisión X 3",
+    "ko": "잘-맞히기3",
+    "zh-CN": "命中强化３",
+    "zh-TW": "命中強化３"
+  },
+  "flavor_text_entries": {
+    "ja": "戦闘中の　ポケモンの 命中を　かなり　あげる。 ひっこめると　元に　戻る。",
+    "kana": "せんとうちゅうの　ポケモンの めいちゅうを　かなり　あげる。 ひっこめると　もとに　もどる。",
+    "en": "It drastically raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    "fr": "Augmente sensiblement la Précision pendant un combat. L’effet s’estompe si le Pokémon est retiré.",
+    "it": "Aumenta moltissimo la precisione di un Pokémon in una lotta. L’effetto svanisce se il Pokémon è sostituito.",
+    "de": "Hebt die Genauigkeit eines Pokémon im Kampf stark an. Die Wirkung endet mit dem Austausch des Pokémon.",
+    "es": "Aumenta bastante la Precisión en combate. Al cambiar de Pokémon, el efecto desaparece.",
+    "ko": "배틀 중인 포켓몬의 명중률을 상당히 올린다. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다.",
+    "zh-CN": "能大量提高战斗中 宝可梦的命中。 离场后，效果便会消失。",
+    "zh-TW": "能大幅提高戰鬥中 寶可夢的命中。 離場後，效果便會復原。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Augmente sensiblement la Précision pendant un combat. L’effet s’estompe si le Pokémon se retire."
+        }
+      }
+    }
+  ]
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 128,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    },
-    {
-      "name": "flying"
-    }
+    "flying",
+    "water3"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "wings"
   },
@@ -52,68 +44,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "アーケン",
-      "language": "ja"
-    },
-    {
-      "name": "아켄",
-      "language": "ko"
-    },
-    {
-      "name": "Arkéapti",
-      "language": "fr"
-    },
-    {
-      "name": "Flapteryx",
-      "language": "de"
-    },
-    {
-      "name": "Archen",
-      "language": "es"
-    },
-    {
-      "name": "Archen",
-      "language": "it"
-    },
-    {
-      "name": "Archen",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アーケン",
+    "en": "Archen",
+    "fr": "Arkéapti",
+    "it": "Archen",
+    "de": "Flapteryx",
+    "es": "Archen",
+    "ko": "아켄"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さいこどり",
-      "language": "ja"
-    },
-    {
-      "genus": "최초새",
-      "language": "ko"
-    },
-    {
-      "genus": "Oisancien",
-      "language": "fr"
-    },
-    {
-      "genus": "Urzeitvogel",
-      "language": "de"
-    },
-    {
-      "genus": "Protopájaro",
-      "language": "es"
-    },
-    {
-      "genus": "Paleouccello",
-      "language": "it"
-    },
-    {
-      "genus": "First Bird",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さいこどり",
+    "en": "First Bird",
+    "fr": "Oisancien",
+    "it": "Paleouccello",
+    "de": "Urzeitvogel",
+    "es": "Protopájaro",
+    "ko": "최초새"
+  },
   "varieties": [
     {
       "is_default": true,

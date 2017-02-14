@@ -1,0 +1,41 @@
+{
+  "id": 450,
+  "name": "bike",
+  "names": {
+    "ja": "じてんしゃ",
+    "kana": "じてんしゃ",
+    "en": "Bike",
+    "fr": "Bicyclette",
+    "it": "Bicicletta",
+    "de": "Fahrrad",
+    "es": "Bici",
+    "ko": "자전거",
+    "zh-CN": "自行车",
+    "zh-TW": "自行車"
+  },
+  "flavor_text_entries": {
+    "ja": "ランニングシューズ　よりも 速く　走ることが　できる 折りたたみ式の　じてんしゃ。",
+    "kana": "ランニングシューズ　よりも はやく　はしることが　できる おりたたみしきの　じてんしゃ。",
+    "en": "A folding Bike that enables a rider to get around much faster than with Running Shoes.",
+    "fr": "Une Bicyclette pliable permettant de se déplacer bien plus rapidement qu’en marchant.",
+    "it": "Bici pieghevole che permette di spostarsi più velocemente che con le Scarpe da Corsa.",
+    "de": "Ein Klapprad, mit dem man schneller ist als zu Fuß.",
+    "es": "Bicicleta plegable con la que se va más rápido que corriendo.",
+    "ko": "러닝슈즈보다도 빨리 달릴 수 있는 접이식 자전거다.",
+    "zh-CN": "能比跑步鞋跑得还快的 折叠式自行车。",
+    "zh-TW": "能跑得比跑步鞋還快的 折疊式自行車。"
+  },
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "names": {
+          "en": "Bicycle"
+        },
+        "flavor_text_entries": {
+          "en": "A folding Bicycle that enables a rider to get around much faster than a pair of Running Shoes will allow."
+        }
+      }
+    }
+  ]
+}

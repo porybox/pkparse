@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 121,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "humanoid"
   },
@@ -83,44 +77,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "プクリン",
-      "language": "ja"
-    },
-    {
-      "name": "Pukurin",
-      "language": "roomaji"
-    },
-    {
-      "name": "푸크린",
-      "language": "ko"
-    },
-    {
-      "name": "胖可丁",
-      "language": "zh"
-    },
-    {
-      "name": "Grodoudou",
-      "language": "fr"
-    },
-    {
-      "name": "Knuddeluff",
-      "language": "de"
-    },
-    {
-      "name": "Wigglytuff",
-      "language": "es"
-    },
-    {
-      "name": "Wigglytuff",
-      "language": "it"
-    },
-    {
-      "name": "Wigglytuff",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "プクリン",
+    "en": "Wigglytuff",
+    "fr": "Grodoudou",
+    "it": "Wigglytuff",
+    "de": "Knuddeluff",
+    "es": "Wigglytuff",
+    "ko": "푸크린"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -131,36 +96,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふうせん",
-      "language": "ja"
-    },
-    {
-      "genus": "풍선",
-      "language": "ko"
-    },
-    {
-      "genus": "Bouboule",
-      "language": "fr"
-    },
-    {
-      "genus": "Ballon",
-      "language": "de"
-    },
-    {
-      "genus": "Globo",
-      "language": "es"
-    },
-    {
-      "genus": "Pallone",
-      "language": "it"
-    },
-    {
-      "genus": "Balloon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふうせん",
+    "en": "Balloon",
+    "fr": "Bouboule",
+    "it": "Pallone",
+    "de": "Ballon",
+    "es": "Globo",
+    "ko": "풍선"
+  },
   "varieties": [
     {
       "is_default": true,

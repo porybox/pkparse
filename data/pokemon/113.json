@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 222,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "upright"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ラッキー",
-      "language": "ja"
-    },
-    {
-      "name": "Lucky",
-      "language": "roomaji"
-    },
-    {
-      "name": "럭키",
-      "language": "ko"
-    },
-    {
-      "name": "吉利蛋",
-      "language": "zh"
-    },
-    {
-      "name": "Leveinard",
-      "language": "fr"
-    },
-    {
-      "name": "Chaneira",
-      "language": "de"
-    },
-    {
-      "name": "Chansey",
-      "language": "es"
-    },
-    {
-      "name": "Chansey",
-      "language": "it"
-    },
-    {
-      "name": "Chansey",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ラッキー",
+    "en": "Chansey",
+    "fr": "Leveinard",
+    "it": "Chansey",
+    "de": "Chaneira",
+    "es": "Chansey",
+    "ko": "럭키"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たまご",
-      "language": "ja"
-    },
-    {
-      "genus": "알",
-      "language": "ko"
-    },
-    {
-      "genus": "Œuf",
-      "language": "fr"
-    },
-    {
-      "genus": "Ei",
-      "language": "de"
-    },
-    {
-      "genus": "Huevo",
-      "language": "es"
-    },
-    {
-      "genus": "Uovo",
-      "language": "it"
-    },
-    {
-      "genus": "Egg",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たまご",
+    "en": "Egg",
+    "fr": "Œuf",
+    "it": "Uovo",
+    "de": "Ei",
+    "es": "Huevo",
+    "ko": "알"
+  },
   "varieties": [
     {
       "is_default": true,

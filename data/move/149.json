@@ -2,49 +2,13 @@
   "id": 149,
   "name": "psywave",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "calm-mind"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [typeless]{mechanic:typeless} damage between 50% and 150% of the user's level, selected at random in increments of 10%.",
-      "short_effect": "Inflicts damage between 50% and 150% of the user's level.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Psywave",
-      "language": "en"
-    },
-    {
-      "name": "Psiconda",
-      "language": "it"
-    },
-    {
-      "name": "Psicoonda",
-      "language": "es"
-    },
-    {
-      "name": "Psywelle",
-      "language": "de"
-    },
-    {
-      "name": "Vague Psy",
-      "language": "fr"
-    },
-    {
-      "name": "사이코웨이브",
-      "language": "ko"
-    },
-    {
-      "name": "サイコウェーブ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "サイコウェーブ",
+    "kana": "サイコウェーブ",
+    "en": "Psywave",
+    "fr": "Vague Psy",
+    "it": "Psiconda",
+    "de": "Psywelle",
+    "es": "Psicoonda",
+    "ko": "사이코웨이브",
+    "zh-CN": "精神波",
+    "zh-TW": "精神波"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "不思議な　念波を 相手に　発射して　攻撃する。 使うたびに　ダメージが　変わる。",
+    "kana": "ふしぎな　ねんぱを あいてに　はっしゃして　こうげきする。 つかう　たびに　ダメージが　かわる。",
+    "en": "The target is attacked with an odd psychic wave. The attack varies in intensity.",
+    "fr": "Une étrange onde d’énergie chaude frappe l’ennemi. Cette attaque est d’intensité variable.",
+    "it": "Colpisce il bersaglio con una strana onda psichica. Ha un’intensità variabile.",
+    "de": "Anwender erzeugt eine mysteriöse Energiewelle, deren Intensität von Mal zu Mal anders ausfällt.",
+    "es": "Ataque con una onda de energía de intensidad variable.",
+    "ko": "이상한 염력파를 상대에게 발사하여 공격한다. 사용할 때마다 데미지가 바뀐다.",
+    "zh-CN": "向对手发射 神奇的念波进行攻击。 每次使用，伤害都会改变。",
+    "zh-TW": "向對手發射 神奇的念力波進行攻擊。 每次給予的傷害都不同。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

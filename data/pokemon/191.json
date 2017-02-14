@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 20,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "ball"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ヒマナッツ",
-      "language": "ja"
-    },
-    {
-      "name": "Himanuts",
-      "language": "roomaji"
-    },
-    {
-      "name": "해너츠",
-      "language": "ko"
-    },
-    {
-      "name": "向日種子",
-      "language": "zh"
-    },
-    {
-      "name": "Tournegrin",
-      "language": "fr"
-    },
-    {
-      "name": "Sonnkern",
-      "language": "de"
-    },
-    {
-      "name": "Sunkern",
-      "language": "es"
-    },
-    {
-      "name": "Sunkern",
-      "language": "it"
-    },
-    {
-      "name": "Sunkern",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒマナッツ",
+    "en": "Sunkern",
+    "fr": "Tournegrin",
+    "it": "Sunkern",
+    "de": "Sonnkern",
+    "es": "Sunkern",
+    "ko": "해너츠"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たね",
-      "language": "ja"
-    },
-    {
-      "genus": "씨앗",
-      "language": "ko"
-    },
-    {
-      "genus": "Graine",
-      "language": "fr"
-    },
-    {
-      "genus": "Samen",
-      "language": "de"
-    },
-    {
-      "genus": "Semilla",
-      "language": "es"
-    },
-    {
-      "genus": "Seme",
-      "language": "it"
-    },
-    {
-      "genus": "Seed",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たね",
+    "en": "Seed",
+    "fr": "Graine",
+    "it": "Seme",
+    "de": "Samen",
+    "es": "Semilla",
+    "ko": "씨앗"
+  },
   "varieties": [
     {
       "is_default": true,

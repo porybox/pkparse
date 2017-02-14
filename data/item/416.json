@@ -1,0 +1,39 @@
+{
+  "id": 416,
+  "name": "tm89",
+  "names": {
+    "ja": "わざマシン８９",
+    "kana": "わざマシン８９",
+    "en": "TM89",
+    "fr": "CT89",
+    "it": "MT89",
+    "de": "TM89",
+    "es": "MT89",
+    "ko": "기술머신89",
+    "zh-CN": "招式学习器８９",
+    "zh-TW": "招式學習器８９"
+  },
+  "flavor_text_entries": {
+    "ja": "攻撃したあと ものすごい　スピードで　もどってきて 控えの　ポケモンと　入れ替わる。",
+    "kana": "こうげき　したあと ものすごい　スピードで　もどってきて ひかえ　ポケモンと　いれかわる。",
+    "en": "After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",
+    "fr": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat.",
+    "it": "Chi usa questa mossa fa marcia indietro per farsi sostituire dopo aver sferrato l’attacco.",
+    "de": "Direkt nach der Attacke tauscht der Angreifer blitzschnell mit einem wartenden Pokémon den Platz.",
+    "es": "Después de atacar, quien lo usa cambia rápidamente su puesto con un compañero que no esté combatiendo.",
+    "ko": "공격한 뒤 굉장한 스피드로 돌아와서 교대 포켓몬과 교체한다.",
+    "zh-CN": "在攻击之后急速返回， 和后备宝可梦进行替换。",
+    "zh-TW": "攻擊後迅速返回， 和後備寶可夢進行替換。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "あいてを　こうげきした　あとに ひかえの　ポケモンと　いれかわる。",
+          "de": "Direkt nach der Attacke tauscht der Angreifer mit einem wartenden Pokémon den Platz."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 802,
+  "name": "marshadow",
+  "gender_rate": -1,
+  "capture_rate": 3,
+  "base_happiness": 0,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "gray",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "マーシャドー",
+    "en": "Marshadow",
+    "fr": "Marshadow",
+    "it": "Marshadow",
+    "de": "Marshadow",
+    "es": "Marshadow",
+    "ko": "마샤도"
+  },
+  "genera": {
+    "ja": "かげすみ",
+    "en": "Gloomdweller",
+    "fr": "Ombrefuge",
+    "it": "Vivinombra",
+    "de": "Dunkelwesen",
+    "es": "Morasombra",
+    "ko": "그림자살이"
+  },
+  "types": [
+    "fighting",
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 125,
+    "defense": 80,
+    "special-attack": 90,
+    "special-defense": 90,
+    "speed": 125
+  }
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 12,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "squiggle"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "マグマッグ",
-      "language": "ja"
-    },
-    {
-      "name": "Magmag",
-      "language": "roomaji"
-    },
-    {
-      "name": "마그마그",
-      "language": "ko"
-    },
-    {
-      "name": "熔岩蟲",
-      "language": "zh"
-    },
-    {
-      "name": "Limagma",
-      "language": "fr"
-    },
-    {
-      "name": "Schneckmag",
-      "language": "de"
-    },
-    {
-      "name": "Slugma",
-      "language": "es"
-    },
-    {
-      "name": "Slugma",
-      "language": "it"
-    },
-    {
-      "name": "Slugma",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マグマッグ",
+    "en": "Slugma",
+    "fr": "Limagma",
+    "it": "Slugma",
+    "de": "Schneckmag",
+    "es": "Slugma",
+    "ko": "마그마그"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ようがん",
-      "language": "ja"
-    },
-    {
-      "genus": "용암",
-      "language": "ko"
-    },
-    {
-      "genus": "Lave",
-      "language": "fr"
-    },
-    {
-      "genus": "Lava",
-      "language": "de"
-    },
-    {
-      "genus": "Lava",
-      "language": "es"
-    },
-    {
-      "genus": "Lava",
-      "language": "it"
-    },
-    {
-      "genus": "Lava",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ようがん",
+    "en": "Lava",
+    "fr": "Lave",
+    "it": "Lava",
+    "de": "Lava",
+    "es": "Lava",
+    "ko": "용암"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 57,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "ball"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "フォレトス",
-      "language": "ja"
-    },
-    {
-      "name": "Foretos",
-      "language": "roomaji"
-    },
-    {
-      "name": "쏘콘",
-      "language": "ko"
-    },
-    {
-      "name": "佛烈托斯",
-      "language": "zh"
-    },
-    {
-      "name": "Foretress",
-      "language": "fr"
-    },
-    {
-      "name": "Forstellka",
-      "language": "de"
-    },
-    {
-      "name": "Forretress",
-      "language": "es"
-    },
-    {
-      "name": "Forretress",
-      "language": "it"
-    },
-    {
-      "name": "Forretress",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フォレトス",
+    "en": "Forretress",
+    "fr": "Foretress",
+    "it": "Forretress",
+    "de": "Forstellka",
+    "es": "Forretress",
+    "ko": "쏘콘"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みのむし",
-      "language": "ja"
-    },
-    {
-      "genus": "도롱이벌레",
-      "language": "ko"
-    },
-    {
-      "genus": "Ver Caché",
-      "language": "fr"
-    },
-    {
-      "genus": "Beutelwurm",
-      "language": "de"
-    },
-    {
-      "genus": "Larva",
-      "language": "es"
-    },
-    {
-      "genus": "Larva",
-      "language": "it"
-    },
-    {
-      "genus": "Bagworm",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みのむし",
+    "en": "Bagworm",
+    "fr": "Ver Caché",
+    "it": "Larva",
+    "de": "Beutelwurm",
+    "es": "Larva",
+    "ko": "도롱이벌레"
+  },
   "varieties": [
     {
       "is_default": true,

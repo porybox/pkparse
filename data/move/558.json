@@ -2,34 +2,13 @@
   "id": 558,
   "name": "fusion-flare",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 100,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If a friendly Pokémon used []{move:fusion-bolt} earlier this turn, this move has double power.",
-      "short_effect": "With [Fusion Bolt]{move:fusion-bolt}, inflicts double damage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Fusion Flare",
-      "language": "en"
-    },
-    {
-      "name": "Incrofiamma",
-      "language": "it"
-    },
-    {
-      "name": "Llama Fusión",
-      "language": "es"
-    },
-    {
-      "name": "Kreuzflamme",
-      "language": "de"
-    },
-    {
-      "name": "Flamme Croix",
-      "language": "fr"
-    },
-    {
-      "name": "크로스플레임",
-      "language": "ko"
-    },
-    {
-      "name": "クロスフレイム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "クロスフレイム",
+    "kana": "クロスフレイム",
+    "en": "Fusion Flare",
+    "fr": "Flamme Croix",
+    "it": "Incrofiamma",
+    "de": "Kreuzflamme",
+    "es": "Llama Fusión",
+    "ko": "크로스플레임",
+    "zh-CN": "交错火焰",
+    "zh-TW": "交錯火焰"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "巨大な　炎を　たたきつける。 巨大な　雷の　影響を受け 技の　威力が　あがる。",
+    "kana": "きょだいな　ほのおを　たたきつける。 きょだいな　いかずちの　えいきょうをうけ わざの　いりょくが　あがる。",
+    "en": "The user brings down a giant flame. This move’s power is increased when influenced by an enormous lightning bolt.",
+    "fr": "Projette une boule de feu gigantesque. L’effet augmente sous l’influence d’Éclair Croix.",
+    "it": "Chi la usa lancia una fiammata enorme. Se usata in combinazione con Incrotuono, il danno provocato dalla mossa aumenta.",
+    "de": "Feuert eine monströse Flamme ab. Wird die Attacke durch einen gigantischen Blitz modifiziert, steigt die Stärke.",
+    "es": "Ataca con una llamarada gigantesca. Aumenta su potencia si es influenciada por una gran energía eléctrica.",
+    "ko": "거대한 불꽃을 내리친다. 거대한 천둥의 영향을 받아 기술의 위력이 올라간다.",
+    "zh-CN": "释放出巨大的火焰。 受到巨大的闪电影响时， 招式威力会提高。",
+    "zh-TW": "放出巨大的火焰攻擊對手。 受到巨大的閃電影響時， 招式的威力會提高。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user brings down a giant flame. This move is more powerful when influenced by an enormous thunderbolt."
+        }
+      }
+    }
+  ]
 }

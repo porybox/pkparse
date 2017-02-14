@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 112,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "bug-wings"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "テッカニン",
-      "language": "ja"
-    },
-    {
-      "name": "Tekkanin",
-      "language": "roomaji"
-    },
-    {
-      "name": "아이스크",
-      "language": "ko"
-    },
-    {
-      "name": "鐵面忍者",
-      "language": "zh"
-    },
-    {
-      "name": "Ninjask",
-      "language": "fr"
-    },
-    {
-      "name": "Ninjask",
-      "language": "de"
-    },
-    {
-      "name": "Ninjask",
-      "language": "es"
-    },
-    {
-      "name": "Ninjask",
-      "language": "it"
-    },
-    {
-      "name": "Ninjask",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "テッカニン",
+    "en": "Ninjask",
+    "fr": "Ninjask",
+    "it": "Ninjask",
+    "de": "Ninjask",
+    "es": "Ninjask",
+    "ko": "아이스크"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しのび",
-      "language": "ja"
-    },
-    {
-      "genus": "시노비",
-      "language": "ko"
-    },
-    {
-      "genus": "Ninja",
-      "language": "fr"
-    },
-    {
-      "genus": "Ninja",
-      "language": "de"
-    },
-    {
-      "genus": "Ninja",
-      "language": "es"
-    },
-    {
-      "genus": "Ninja",
-      "language": "it"
-    },
-    {
-      "genus": "Ninja",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しのび",
+    "en": "Ninja",
+    "fr": "Ninja",
+    "it": "Ninja",
+    "de": "Ninja",
+    "es": "Ninja",
+    "ko": "시노비"
+  },
   "varieties": [
     {
       "is_default": true,

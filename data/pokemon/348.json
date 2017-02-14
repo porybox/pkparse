@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 172,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "upright"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "アーマルド",
-      "language": "ja"
-    },
-    {
-      "name": "Armaldo",
-      "language": "roomaji"
-    },
-    {
-      "name": "아말도",
-      "language": "ko"
-    },
-    {
-      "name": "太古盔甲",
-      "language": "zh"
-    },
-    {
-      "name": "Armaldo",
-      "language": "fr"
-    },
-    {
-      "name": "Armaldo",
-      "language": "de"
-    },
-    {
-      "name": "Armaldo",
-      "language": "es"
-    },
-    {
-      "name": "Armaldo",
-      "language": "it"
-    },
-    {
-      "name": "Armaldo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アーマルド",
+    "en": "Armaldo",
+    "fr": "Armaldo",
+    "it": "Armaldo",
+    "de": "Armaldo",
+    "es": "Armaldo",
+    "ko": "아말도"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かっちゅう",
-      "language": "ja"
-    },
-    {
-      "genus": "갑주",
-      "language": "ko"
-    },
-    {
-      "genus": "Blindage",
-      "language": "fr"
-    },
-    {
-      "genus": "Schild",
-      "language": "de"
-    },
-    {
-      "genus": "Armadura",
-      "language": "es"
-    },
-    {
-      "genus": "Piastre",
-      "language": "it"
-    },
-    {
-      "genus": "Plate",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かっちゅう",
+    "en": "Plate",
+    "fr": "Blindage",
+    "it": "Piastre",
+    "de": "Schild",
+    "es": "Armadura",
+    "ko": "갑주"
+  },
   "varieties": [
     {
       "is_default": true,

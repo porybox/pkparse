@@ -2,68 +2,13 @@
   "id": 94,
   "name": "psychic",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "confusion"
-        },
-        {
-          "name": "teleport"
-        },
-        {
-          "name": "kinesis"
-        },
-        {
-          "name": "future-sight"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "confusion"
-        },
-        {
-          "name": "kinesis"
-        },
-        {
-          "name": "calm-mind"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -75,62 +20,55 @@
     "flinch_chance": 0,
     "stat_chance": 10
   },
-  "names": [
-    {
-      "name": "Psychic",
-      "language": "en"
-    },
-    {
-      "name": "Psichico",
-      "language": "it"
-    },
-    {
-      "name": "Psíquico",
-      "language": "es"
-    },
-    {
-      "name": "Psychokinese",
-      "language": "de"
-    },
-    {
-      "name": "Psyko",
-      "language": "fr"
-    },
-    {
-      "name": "사이코키네시스",
-      "language": "ko"
-    },
-    {
-      "name": "サイコキネシス",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": null,
-      "effect_chance": 30,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "gold-silver"
-      }
-    }
-  ],
+  "names": {
+    "ja": "サイコキネシス",
+    "kana": "サイコキネシス",
+    "en": "Psychic",
+    "fr": "Psyko",
+    "it": "Psichico",
+    "de": "Psychokinese",
+    "es": "Psíquico",
+    "ko": "사이코키네시스",
+    "zh-CN": "精神强念",
+    "zh-TW": "精神強念"
+  },
+  "flavor_text_entries": {
+    "ja": "強い　念力を　相手に　送って 攻撃する。　相手の　特防を さげることが　ある。",
+    "kana": "つよい　ねんりきを　あいてに　おくって こうげきする。　あいての　とくぼうを さげることが　ある。",
+    "en": "The target is hit by a strong telekinetic force. This may also lower the target’s Sp. Def stat.",
+    "fr": "Une puissante force télékinétique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale.",
+    "it": "Il bersaglio viene colpito da una potente forza telecinetica che può anche ridurne la Difesa Speciale.",
+    "de": "Starke Psycho-Attacke, die eventuell die Spezial-Verteidigung des Zieles senkt.",
+    "es": "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.",
+    "ko": "강한 염동력을 상대에게 보내어 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+    "zh-CN": "向对手发送 强大的念力进行攻击。 有时会降低对手的特防。",
+    "zh-TW": "向對手發送 強大的念力進行攻擊。 有時會降低對手的特防。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "psychic"
-  }
+  "target": "selected-pokemon",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "強い　念力を　相手に　送って 攻撃する。相手の　特防を さげることが　ある。",
+          "kana": "つよい　ねんりきを　あいてに　おくって こうげきする。あいての　とくぼうを さげることが　ある。"
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une puissante force télékinésique frappe l’ennemi. Peut aussi faire baisser sa Défense Spéciale."
+        }
+      }
+    }
+  ]
 }

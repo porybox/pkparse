@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 7,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    }
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ケロマツ",
-      "language": "ja"
-    },
-    {
-      "name": "개구마르",
-      "language": "ko"
-    },
-    {
-      "name": "Grenousse",
-      "language": "fr"
-    },
-    {
-      "name": "Froxy",
-      "language": "de"
-    },
-    {
-      "name": "Froakie",
-      "language": "es"
-    },
-    {
-      "name": "Froakie",
-      "language": "it"
-    },
-    {
-      "name": "Froakie",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ケロマツ",
+    "en": "Froakie",
+    "fr": "Grenousse",
+    "it": "Froakie",
+    "de": "Froxy",
+    "es": "Froakie",
+    "ko": "개구마르"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あわがえる",
-      "language": "ja"
-    },
-    {
-      "genus": "거품개구리",
-      "language": "ko"
-    },
-    {
-      "genus": "Crapobulle",
-      "language": "fr"
-    },
-    {
-      "genus": "Blubbfrosch",
-      "language": "de"
-    },
-    {
-      "genus": "Burburrana",
-      "language": "es"
-    },
-    {
-      "genus": "Schiumorana",
-      "language": "it"
-    },
-    {
-      "genus": "Bubble Frog",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あわがえる",
+    "en": "Bubble Frog",
+    "fr": "Crapobulle",
+    "it": "Schiumorana",
+    "de": "Blubbfrosch",
+    "es": "Burburrana",
+    "ko": "거품개구리"
+  },
   "varieties": [
     {
       "is_default": true,

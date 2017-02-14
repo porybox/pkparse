@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 115,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "ball"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ユニラン",
-      "language": "ja"
-    },
-    {
-      "name": "유니란",
-      "language": "ko"
-    },
-    {
-      "name": "Nucléos",
-      "language": "fr"
-    },
-    {
-      "name": "Monozyto",
-      "language": "de"
-    },
-    {
-      "name": "Solosis",
-      "language": "es"
-    },
-    {
-      "name": "Solosis",
-      "language": "it"
-    },
-    {
-      "name": "Solosis",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ユニラン",
+    "en": "Solosis",
+    "fr": "Nucléos",
+    "it": "Solosis",
+    "de": "Monozyto",
+    "es": "Solosis",
+    "ko": "유니란"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さいぼう",
-      "language": "ja"
-    },
-    {
-      "genus": "세포",
-      "language": "ko"
-    },
-    {
-      "genus": "Cellule",
-      "language": "fr"
-    },
-    {
-      "genus": "Zelle",
-      "language": "de"
-    },
-    {
-      "genus": "Célula",
-      "language": "es"
-    },
-    {
-      "genus": "Cellula",
-      "language": "it"
-    },
-    {
-      "genus": "Cell",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さいぼう",
+    "en": "Cell",
+    "fr": "Cellule",
+    "it": "Cellula",
+    "de": "Zelle",
+    "es": "Célula",
+    "ko": "세포"
+  },
   "varieties": [
     {
       "is_default": true,

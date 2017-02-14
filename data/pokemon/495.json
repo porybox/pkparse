@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 118,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -58,72 +50,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ツタージャ",
-      "language": "ja"
-    },
-    {
-      "name": "주리비얀",
-      "language": "ko"
-    },
-    {
-      "name": "藤藤蛇",
-      "language": "zh"
-    },
-    {
-      "name": "Vipélierre",
-      "language": "fr"
-    },
-    {
-      "name": "Serpifeu",
-      "language": "de"
-    },
-    {
-      "name": "Snivy",
-      "language": "es"
-    },
-    {
-      "name": "Snivy",
-      "language": "it"
-    },
-    {
-      "name": "Snivy",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ツタージャ",
+    "en": "Snivy",
+    "fr": "Vipélierre",
+    "it": "Snivy",
+    "de": "Serpifeu",
+    "es": "Snivy",
+    "ko": "주리비얀"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くさへび",
-      "language": "ja"
-    },
-    {
-      "genus": "풀뱀",
-      "language": "ko"
-    },
-    {
-      "genus": "Serpenterbe",
-      "language": "fr"
-    },
-    {
-      "genus": "Grasschlange",
-      "language": "de"
-    },
-    {
-      "genus": "Serp. Hierba",
-      "language": "es"
-    },
-    {
-      "genus": "Serperba",
-      "language": "it"
-    },
-    {
-      "genus": "Grass Snake",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くさへび",
+    "en": "Grass Snake",
+    "fr": "Serpenterbe",
+    "it": "Serperba",
+    "de": "Grasschlange",
+    "es": "Serp. Hierba",
+    "ko": "풀뱀"
+  },
   "varieties": [
     {
       "is_default": true,

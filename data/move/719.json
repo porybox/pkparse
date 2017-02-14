@@ -1,0 +1,50 @@
+{
+  "id": 719,
+  "name": "10000000-volt-thunderbolt",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": 195,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 2,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "１０００まんボルト",
+    "kana": "１０００まんボルト",
+    "en": "10,000,000 Volt Thunderbolt",
+    "fr": "Giga-Tonnerre",
+    "it": "Iperfulmine",
+    "de": "Tausendfacher Donnerblitz",
+    "es": "Gigarrayo Fulminante",
+    "ko": "1000만볼트",
+    "zh-CN": "千万伏特",
+    "zh-TW": "千萬伏特"
+  },
+  "flavor_text_entries": {
+    "ja": "帽子を　かぶった　ピカチュウが Ｚパワーで　パワーアップした　電撃を 放つ。　急所に　当たりやすい。",
+    "kana": "ぼうしを　かぶった　ピカチュウが Ｚパワーで　パワーアップした　でんげきを はなつ。　きゅうしょに　あたりやすい。",
+    "en": "The user, Pikachu wearing a cap, powers up a jolt of electricity using its Z-Power and unleashes it. Critical hits land more easily.",
+    "fr": "Le Pikachu à casquette utilise la Force Z pour augmenter sa puissance électrique avant de la déchaîner sur la cible. Taux de critique élevé.",
+    "it": "Grazie al Potere Z, Pikachu con il berretto scatena una potentissima scarica elettrica. Probabile brutto colpo.",
+    "de": "Das eine Kappe tragende Pikachu greift das Ziel mit einem durch Z-Kraft verstärkten Elektroschock an. Hohe Volltrefferquote.",
+    "es": "Los Pikachu con gorra acumulan una carga eléctrica descomunal gracias al Poder Z y la lanzan contra el objetivo. Suele ser crítico.",
+    "ko": "모자를 쓴 피카츄가 Z파워로 파워업한 전격을 쏜다. 급소에 맞기 쉽다.",
+    "zh-CN": "戴着帽子的皮卡丘将通过Ｚ力量 增强的电击全力释放给对手。 容易击中要害。",
+    "zh-TW": "戴著帽子的皮卡丘向對手 釋放出藉由Ｚ力量增強的電流。 容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric"
+}

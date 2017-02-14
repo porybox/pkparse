@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 2,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "heads"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ダグトリオ",
-      "language": "ja"
-    },
-    {
-      "name": "Dugtrio",
-      "language": "roomaji"
-    },
-    {
-      "name": "닥트리오",
-      "language": "ko"
-    },
-    {
-      "name": "三地鼠",
-      "language": "zh"
-    },
-    {
-      "name": "Triopikeur",
-      "language": "fr"
-    },
-    {
-      "name": "Digdri",
-      "language": "de"
-    },
-    {
-      "name": "Dugtrio",
-      "language": "es"
-    },
-    {
-      "name": "Dugtrio",
-      "language": "it"
-    },
-    {
-      "name": "Dugtrio",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ダグトリオ",
+    "en": "Dugtrio",
+    "fr": "Triopikeur",
+    "it": "Dugtrio",
+    "de": "Digdri",
+    "es": "Dugtrio",
+    "ko": "닥트리오"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "もぐら",
-      "language": "ja"
-    },
-    {
-      "genus": "두더지",
-      "language": "ko"
-    },
-    {
-      "genus": "Taupe",
-      "language": "fr"
-    },
-    {
-      "genus": "Maulwurf",
-      "language": "de"
-    },
-    {
-      "genus": "Topo",
-      "language": "es"
-    },
-    {
-      "genus": "Talpa",
-      "language": "it"
-    },
-    {
-      "genus": "Mole",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "もぐら",
+    "en": "Mole",
+    "fr": "Taupe",
+    "it": "Talpa",
+    "de": "Maulwurf",
+    "es": "Topo",
+    "ko": "두더지"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -157,10 +101,20 @@
   ],
   "base_stats": {
     "hp": 35,
-    "attack": 80,
+    "attack": 100,
     "defense": 50,
     "special-attack": 50,
     "special-defense": 70,
     "speed": 120
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "attack": 80
+        }
+      }
+    }
+  ]
 }

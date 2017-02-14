@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 71,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "fairy"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "humanoid"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ブルー",
-      "language": "ja"
-    },
-    {
-      "name": "Bulu",
-      "language": "roomaji"
-    },
-    {
-      "name": "블루",
-      "language": "ko"
-    },
-    {
-      "name": "布盧",
-      "language": "zh"
-    },
-    {
-      "name": "Snubbull",
-      "language": "fr"
-    },
-    {
-      "name": "Snubbull",
-      "language": "de"
-    },
-    {
-      "name": "Snubbull",
-      "language": "es"
-    },
-    {
-      "name": "Snubbull",
-      "language": "it"
-    },
-    {
-      "name": "Snubbull",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ブルー",
+    "en": "Snubbull",
+    "fr": "Snubbull",
+    "it": "Snubbull",
+    "de": "Snubbull",
+    "es": "Snubbull",
+    "ko": "블루"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ようせい",
-      "language": "ja"
-    },
-    {
-      "genus": "요정",
-      "language": "ko"
-    },
-    {
-      "genus": "Fée",
-      "language": "fr"
-    },
-    {
-      "genus": "Fee",
-      "language": "de"
-    },
-    {
-      "genus": "Hada",
-      "language": "es"
-    },
-    {
-      "genus": "Fata",
-      "language": "it"
-    },
-    {
-      "genus": "Fairy",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ようせい",
+    "en": "Fairy",
+    "fr": "Fée",
+    "it": "Fata",
+    "de": "Fee",
+    "es": "Hada",
+    "ko": "요정"
+  },
   "varieties": [
     {
       "is_default": true,

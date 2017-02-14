@@ -1,0 +1,44 @@
+{
+  "id": 725,
+  "name": "litten",
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "red",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ニャビー",
+    "en": "Litten",
+    "fr": "Flamiaou",
+    "it": "Litten",
+    "de": "Flamiau",
+    "es": "Litten",
+    "ko": "냐오불"
+  },
+  "genera": {
+    "ja": "ひねこ",
+    "en": "Fire Cat",
+    "fr": "Chat Feu",
+    "it": "Pirofelino",
+    "de": "Feuerkatze",
+    "es": "Gato Fuego",
+    "ko": "불고양이"
+  },
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 65,
+    "defense": 40,
+    "special-attack": 60,
+    "special-defense": 40,
+    "speed": 70
+  }
+}

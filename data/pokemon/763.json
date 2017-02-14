@@ -1,0 +1,44 @@
+{
+  "id": 763,
+  "name": "tsareena",
+  "gender_rate": 8,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "plant"
+  ],
+  "color": "purple",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "アマージョ",
+    "en": "Tsareena",
+    "fr": "Sucreine",
+    "it": "Tsareena",
+    "de": "Fruyal",
+    "es": "Tsareena",
+    "ko": "달코퀸"
+  },
+  "genera": {
+    "ja": "フルーツ",
+    "en": "Fruit",
+    "fr": "Fruit",
+    "it": "Frutto",
+    "de": "Obst",
+    "es": "Fruto",
+    "ko": "후르츠"
+  },
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 72,
+    "attack": 120,
+    "defense": 98,
+    "special-attack": 50,
+    "special-defense": 98,
+    "speed": 72
+  }
+}

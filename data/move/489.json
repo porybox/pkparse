@@ -2,34 +2,13 @@
   "id": 489,
   "name": "coil",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Attack]{mechanic:attack}, [Defense]{mechanic:defense}, and [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage} each.",
-      "short_effect": "Raises the user's Attack, Defense, and accuracy by one stage each.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,62 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Coil",
-      "language": "en"
-    },
-    {
-      "name": "Arrotola",
-      "language": "it"
-    },
-    {
-      "name": "Enrosque",
-      "language": "es"
-    },
-    {
-      "name": "Einrollen",
-      "language": "de"
-    },
-    {
-      "name": "Enroulement",
-      "language": "fr"
-    },
-    {
-      "name": "똬리틀기",
-      "language": "ko"
-    },
-    {
-      "name": "とぐろをまく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "とぐろをまく",
+    "kana": "とぐろをまく",
+    "en": "Coil",
+    "fr": "Enroulement",
+    "it": "Arrotola",
+    "de": "Einrollen",
+    "es": "Enrosque",
+    "ko": "똬리틀기",
+    "zh-CN": "盘蜷",
+    "zh-TW": "盤蜷"
+  },
+  "flavor_text_entries": {
+    "ja": "とぐろを　まいて　集中する。 自分の　攻撃と　防御と 命中率を　あげる。",
+    "kana": "とぐろを　まいて　しゅうちゅう　する。 じぶんの　こうげきと　ぼうぎょと めいちゅうりつを　あげる。",
+    "en": "The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy.",
+    "fr": "Le lanceur s’enroule sur lui-même et se concentre. Son Attaque, sa Défense et sa Précision augmentent.",
+    "it": "Chi la usa si concentra aumentando Attacco, Difesa e precisione.",
+    "de": "Anwender rollt sich zusammen und sammelt sich. Dabei werden Angriff, Verteidigung und Genauigkeit erhöht.",
+    "es": "El usuario se concentra, lo que le permite aumentar su Ataque, Defensa y Precisión.",
+    "ko": "똬리를 틀어서 집중한다. 자신의 공격과 방어와 명중률을 올린다.",
+    "zh-CN": "盘蜷着集中精神。 提高自己的攻击、防御和命中率。",
+    "zh-TW": "盤蜷身體集中精神。 可提高自己的攻擊、防禦和命中率。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "accuracy"
-      }
+      "stat": "accuracy"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "poison"
-  }
+  "target": "user",
+  "type": "poison"
 }

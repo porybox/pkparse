@@ -2,56 +2,13 @@
   "id": 212,
   "name": "mean-look",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "destiny-bond"
-        },
-        {
-          "name": "perish-song"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "curse"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "The target cannot [switch out]{mechanic:switch-out} normally.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This effect ends when the user leaves the [field]{mechanic:field}.\n\nThe target may still escape by using []{move:baton-pass}, []{move:u-turn}, or a []{item:shed-shell}.\n\nBoth the user and the target pass on this effect with []{move:baton-pass}.",
-      "short_effect": "Prevents the target from leaving battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -63,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Mean Look",
-      "language": "en"
-    },
-    {
-      "name": "Malosguardo",
-      "language": "it"
-    },
-    {
-      "name": "Mal de Ojo",
-      "language": "es"
-    },
-    {
-      "name": "Horrorblick",
-      "language": "de"
-    },
-    {
-      "name": "Regard Noir",
-      "language": "fr"
-    },
-    {
-      "name": "검은눈빛",
-      "language": "ko"
-    },
-    {
-      "name": "くろいまなざし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "くろいまなざし",
+    "kana": "くろいまなざし",
+    "en": "Mean Look",
+    "fr": "Regard Noir",
+    "it": "Malosguardo",
+    "de": "Horrorblick",
+    "es": "Mal de Ojo",
+    "ko": "검은눈빛",
+    "zh-CN": "黑色目光",
+    "zh-TW": "黑色目光"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "吸いこまれるような　黒い　まなざしで じっと　みつめて　相手を 戦闘から　逃げられなくする。",
+    "kana": "すいこまれる　ような　くろい　まなざしで じっと　みつめて　あいてを せんとうから　にげられなく　する。",
+    "en": "The user pins the target with a dark, arresting look. The target becomes unable to flee.",
+    "fr": "Le lanceur pétrifie l’ennemi en lui lançant un regard noir. Il devient incapable de s’enfuir.",
+    "it": "Chi la usa blocca il bersaglio con uno sguardo oscuro e ammaliante, impedendogli la fuga.",
+    "de": "Böser Blick, der die Flucht des Zieles vereitelt.",
+    "es": "Mal de ojo que impide al objetivo huir del combate.",
+    "ko": "빨려 들어갈 것 같은 까만 눈빛으로 가만히 응시하여 상대를 배틀에서 도망갈 수 없게 한다.",
+    "zh-CN": "用好似要勾人心魂的黑色目光 一动不动地凝视对手， 使其不能从战斗中逃走。",
+    "zh-TW": "用漆黑深邃的眼神 一動也不動地凝視對手， 讓對手無法從戰鬥中逃走。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Mal de ojo que impide al objetivo huir de la batalla."
+        }
+      }
+    }
+  ]
 }

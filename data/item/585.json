@@ -1,0 +1,40 @@
+{
+  "id": 585,
+  "name": "relic-silver",
+  "names": {
+    "ja": "こだいのぎんか",
+    "kana": "こだいのぎんか",
+    "en": "Relic Silver",
+    "fr": "Vieil Écu",
+    "it": "Ducatantico",
+    "de": "Alter Taler",
+    "es": "Real Plata",
+    "ko": "고대의은화",
+    "zh-CN": "古代银币",
+    "zh-TW": "古代銀幣"
+  },
+  "flavor_text_entries": {
+    "ja": "３０００年ほど　昔の 文明で　使われた　銀貨。",
+    "kana": "３０００ねんほど　むかしの ぶんめいで　つかわれた　ぎんか。",
+    "en": "A silver coin used by an ancient civilization about 3,000 years ago.",
+    "fr": "Une pièce d’argent d’une civilisation vieille de plus de 3 000 ans.",
+    "it": "Moneta d’argento usata circa 3.000 anni fa da un’antica civiltà.",
+    "de": "Eine alte Silbermünze. Die Währung einer gut 3 000 Jahre alten Kultur.",
+    "es": "Moneda de plata de más de 3000 años de antigüedad.",
+    "ko": "3000년 정도 된 오랜 문명에서 사용된 은화.",
+    "zh-CN": "约３０００年前的 文明使用的银币。",
+    "zh-TW": "距今約３０００年前的 文明裡使用的銀幣。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Moneta d’argento usata circa 3000 anni fa da un’antica civiltà.",
+          "de": "Eine alte Silbermünze. Die Währung einer gut 3 000 Jahre alten Kultur.",
+          "es": "Moneda de plata de más de 3000 años de antigüedad. Muy valorada por los coleccionistas."
+        }
+      }
+    }
+  ]
+}

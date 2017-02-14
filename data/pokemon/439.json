@@ -1,6 +1,6 @@
 {
   "id": 439,
-  "name": "mime-jr",
+  "name": "mimejr",
   "order": 139,
   "gender_rate": 4,
   "capture_rate": 145,
@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 113,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "humanoid"
   },
@@ -55,44 +49,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "マネネ",
-      "language": "ja"
-    },
-    {
-      "name": "Manene",
-      "language": "roomaji"
-    },
-    {
-      "name": "흉내내",
-      "language": "ko"
-    },
-    {
-      "name": "魔尼尼",
-      "language": "zh"
-    },
-    {
-      "name": "Mime Jr.",
-      "language": "fr"
-    },
-    {
-      "name": "Pantimimi",
-      "language": "de"
-    },
-    {
-      "name": "Mime Jr.",
-      "language": "es"
-    },
-    {
-      "name": "Mime Jr.",
-      "language": "it"
-    },
-    {
-      "name": "Mime Jr.",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マネネ",
+    "en": "Mime Jr.",
+    "fr": "Mime Jr.",
+    "it": "Mime Jr.",
+    "de": "Pantimimi",
+    "es": "Mime Jr.",
+    "ko": "흉내내"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -103,36 +68,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "マイム",
-      "language": "ja"
-    },
-    {
-      "genus": "따라하기",
-      "language": "ko"
-    },
-    {
-      "genus": "Mime",
-      "language": "fr"
-    },
-    {
-      "genus": "Mime",
-      "language": "de"
-    },
-    {
-      "genus": "Mimo",
-      "language": "es"
-    },
-    {
-      "genus": "Mimo",
-      "language": "it"
-    },
-    {
-      "genus": "Mime",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "マイム",
+    "en": "Mime",
+    "fr": "Mime",
+    "it": "Mimo",
+    "de": "Mime",
+    "es": "Mimo",
+    "ko": "따라하기"
+  },
   "varieties": [
     {
       "is_default": true,

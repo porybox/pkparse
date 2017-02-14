@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 45,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "quadruped"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "グラエナ",
-      "language": "ja"
-    },
-    {
-      "name": "Guraena",
-      "language": "roomaji"
-    },
-    {
-      "name": "그라에나",
-      "language": "ko"
-    },
-    {
-      "name": "大狼犬",
-      "language": "zh"
-    },
-    {
-      "name": "Grahyèna",
-      "language": "fr"
-    },
-    {
-      "name": "Magnayen",
-      "language": "de"
-    },
-    {
-      "name": "Mightyena",
-      "language": "es"
-    },
-    {
-      "name": "Mightyena",
-      "language": "it"
-    },
-    {
-      "name": "Mightyena",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "グラエナ",
+    "en": "Mightyena",
+    "fr": "Grahyèna",
+    "it": "Mightyena",
+    "de": "Magnayen",
+    "es": "Mightyena",
+    "ko": "그라에나"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かみつき",
-      "language": "ja"
-    },
-    {
-      "genus": "물어뜯기",
-      "language": "ko"
-    },
-    {
-      "genus": "Morsure",
-      "language": "fr"
-    },
-    {
-      "genus": "Biss",
-      "language": "de"
-    },
-    {
-      "genus": "Mordisco",
-      "language": "es"
-    },
-    {
-      "genus": "Morso",
-      "language": "it"
-    },
-    {
-      "genus": "Bite",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かみつき",
+    "en": "Bite",
+    "fr": "Morsure",
+    "it": "Morso",
+    "de": "Biss",
+    "es": "Mordisco",
+    "ko": "물어뜯기"
+  },
   "varieties": [
     {
       "is_default": true,

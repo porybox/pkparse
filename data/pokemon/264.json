@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 13,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "quadruped"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "マッスグマ",
-      "language": "ja"
-    },
-    {
-      "name": "Massuguma",
-      "language": "roomaji"
-    },
-    {
-      "name": "직구리",
-      "language": "ko"
-    },
-    {
-      "name": "直衝熊",
-      "language": "zh"
-    },
-    {
-      "name": "Linéon",
-      "language": "fr"
-    },
-    {
-      "name": "Geradaks",
-      "language": "de"
-    },
-    {
-      "name": "Linoone",
-      "language": "es"
-    },
-    {
-      "name": "Linoone",
-      "language": "it"
-    },
-    {
-      "name": "Linoone",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マッスグマ",
+    "en": "Linoone",
+    "fr": "Linéon",
+    "it": "Linoone",
+    "de": "Geradaks",
+    "es": "Linoone",
+    "ko": "직구리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とっしん",
-      "language": "ja"
-    },
-    {
-      "genus": "돌진",
-      "language": "ko"
-    },
-    {
-      "genus": "Fonceur",
-      "language": "fr"
-    },
-    {
-      "genus": "Sprinter",
-      "language": "de"
-    },
-    {
-      "genus": "Lanzado",
-      "language": "es"
-    },
-    {
-      "genus": "Sfrecciante",
-      "language": "it"
-    },
-    {
-      "genus": "Rushing",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とっしん",
+    "en": "Rushing",
+    "fr": "Fonceur",
+    "it": "Sfrecciante",
+    "de": "Sprinter",
+    "es": "Lanzado",
+    "ko": "돌진"
+  },
   "varieties": [
     {
       "is_default": true,

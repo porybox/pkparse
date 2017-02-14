@@ -2,36 +2,13 @@
   "id": 318,
   "name": "silver-wind",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 5,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}. Has a $effect_chance% chance to raise all of the user's stats one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to raise all of the user's stats by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,80 +20,62 @@
     "flinch_chance": 0,
     "stat_chance": 10
   },
-  "names": [
-    {
-      "name": "Silver Wind",
-      "language": "en"
-    },
-    {
-      "name": "Ventargenteo",
-      "language": "it"
-    },
-    {
-      "name": "Viento Plata",
-      "language": "es"
-    },
-    {
-      "name": "Silberhauch",
-      "language": "de"
-    },
-    {
-      "name": "Vent Argenté",
-      "language": "fr"
-    },
-    {
-      "name": "은빛바람",
-      "language": "ko"
-    },
-    {
-      "name": "ぎんいろのかぜ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ぎんいろのかぜ",
+    "kana": "ぎんいろのかぜ",
+    "en": "Silver Wind",
+    "fr": "Vent Argenté",
+    "it": "Ventargenteo",
+    "de": "Silberhauch",
+    "es": "Viento Plata",
+    "ko": "은빛바람",
+    "zh-CN": "银色旋风",
+    "zh-TW": "銀色旋風"
+  },
+  "flavor_text_entries": {
+    "ja": "風に　りんぷんを　のせて　相手を 攻撃する。自分の　すべての 能力が　あがることが　ある。",
+    "kana": "かぜに　りんぷんを　のせて　あいてを こうげきする。じぶんの　すべての のうりょくが　あがることが　ある。",
+    "en": "The target is attacked with powdery scales blown by the wind. This may also raise all the user’s stats.",
+    "fr": "Vent qui projette des écailles poudreuses sur l’ennemi. Peut aussi monter toutes les stats du lanceur.",
+    "it": "Attacca con un forte vento di polvere di squame. Tutte le statistiche di chi la usa possono salire.",
+    "de": "Angriff mit Silberstaub. Eventuell werden alle Statuswerte des Anwenders erhöht.",
+    "es": "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.",
+    "ko": "바람에 날개 가루를 날려서 상대를 공격한다. 자신의 모든 능력이 올라갈 때가 있다.",
+    "zh-CN": "在风中掺入鳞粉攻击对手。 有时会提高自己的全部能力。",
+    "zh-TW": "乘著風飄送鱗粉攻擊對手。 有時會提高自己的所有能力。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "hp"
-      }
+      "stat": "attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "defense"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "special-attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-defense"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-defense"
-      }
-    },
-    {
-      "change": 1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "bug"
-  }
+  "target": "selected-pokemon",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The target is attacked with powdery scales blown by wind. This may also raise all the user’s stats."
+        }
+      }
+    }
+  ]
 }

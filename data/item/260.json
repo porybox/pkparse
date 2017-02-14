@@ -1,0 +1,41 @@
+{
+  "id": 260,
+  "name": "red-scarf",
+  "names": {
+    "ja": "あかいバンダナ",
+    "kana": "あかいバンダナ",
+    "en": "Red Scarf",
+    "fr": "Foulard Rouge",
+    "it": "Fascia Rossa",
+    "de": "Roter Schal",
+    "es": "Pañuelo Rojo",
+    "ko": "빨강밴드",
+    "zh-CN": "红色头巾",
+    "zh-TW": "紅色頭巾"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせて　コンテストに　参加すると その　ポケモンは　いつもより かっこよく　みられる。",
+    "kana": "もたせて　コンテストに　さんかすると その　ポケモンは　いつもより かっこよく　みられる。",
+    "en": "An item to be held by a Pokémon. During a contest, it raises the Cool aspect of the Pokémon holding it.",
+    "fr": "Objet à tenir. Augmente le Sang-froid d’un Pokémon dans les concours.",
+    "it": "Strumento da dare a un Pokémon. Aumenta la “Classe” di chi l’indossa in una gara.",
+    "de": "Ein Item zum Tragen. Trainer erhöhen damit in Wettbewerben die Coolness ihres Pokémon.",
+    "es": "Debe llevarlo un Pokémon. Aumenta el carisma en los concursos.",
+    "ko": "지니게 하여 콘테스트에 참가하면 그 포켓몬은 여느 때보다 근사하게 보인다.",
+    "zh-CN": "携带它去参加华丽大赛的 宝可梦会比平时 看上去更加帅气。",
+    "zh-TW": "攜帶它去參加華麗大賽的 寶可夢會比平時 看起來更加帥氣。"
+  },
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An item to be held by a Pokémon. During a Contest, it raises the Cool aspect of the Pokémon holding it.",
+          "fr": "Objet à tenir. Augmente le Sang-froid d’un Pokémon dans les Concours.",
+          "it": "Strumento da dare a un Pokémon. Aumenta la “Classe” di chi l’indossa in una Gara.",
+          "de": "Ein Item zum Tragen. Trainer erhöhen damit in Wettbewerben die „Coolness“ ihres Pokémon."
+        }
+      }
+    }
+  ]
+}

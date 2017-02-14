@@ -2,36 +2,13 @@
   "id": 321,
   "name": "tickle",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Attack]{mechanic:attack} and [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Attack and Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,56 +20,40 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Tickle",
-      "language": "en"
-    },
-    {
-      "name": "Solletico",
-      "language": "it"
-    },
-    {
-      "name": "Cosquillas",
-      "language": "es"
-    },
-    {
-      "name": "Spaßkanone",
-      "language": "de"
-    },
-    {
-      "name": "Chatouille",
-      "language": "fr"
-    },
-    {
-      "name": "간지르기",
-      "language": "ko"
-    },
-    {
-      "name": "くすぐる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "くすぐる",
+    "kana": "くすぐる",
+    "en": "Tickle",
+    "fr": "Chatouille",
+    "it": "Solletico",
+    "de": "Spaßkanone",
+    "es": "Cosquillas",
+    "ko": "간지르기",
+    "zh-CN": "挠痒",
+    "zh-TW": "搔癢"
+  },
+  "flavor_text_entries": {
+    "ja": "体を　くすぐり　笑わせる　ことで 相手の　攻撃と　防御を　さげる。",
+    "kana": "からだを　くすぐり　わらわせる　ことで あいての　こうげきと　ぼうぎょを さげる。",
+    "en": "The user tickles the target into laughing, reducing its Attack and Defense stats.",
+    "fr": "Le lanceur chatouille l’ennemi, ce qui baisse son Attaque et sa Défense.",
+    "it": "Chi la usa solletica il bersaglio e lo fa ridere, riducendo il suo Attacco e la sua Difesa.",
+    "de": "Bringt das Ziel zum Lachen und senkt dadurch dessen Angriff und Verteidigung.",
+    "es": "Hace reír al objetivo para bajar su Ataque y Defensa.",
+    "ko": "몸을 간질여 웃게 만들어서 상대의 공격과 방어를 떨어뜨린다.",
+    "zh-CN": "给对手挠痒，使其发笑， 从而降低对手的攻击和防御。",
+    "zh-TW": "搔癢對手的身體，讓對手發笑， 降低對手的攻擊和防禦。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     },
     {
       "change": -1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "selected-pokemon",
+  "type": "normal"
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 101,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "wings"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ムクホーク",
-      "language": "ja"
-    },
-    {
-      "name": "Mukuhawk",
-      "language": "roomaji"
-    },
-    {
-      "name": "찌르호크",
-      "language": "ko"
-    },
-    {
-      "name": "姆克鷹",
-      "language": "zh"
-    },
-    {
-      "name": "Étouraptor",
-      "language": "fr"
-    },
-    {
-      "name": "Staraptor",
-      "language": "de"
-    },
-    {
-      "name": "Staraptor",
-      "language": "es"
-    },
-    {
-      "name": "Staraptor",
-      "language": "it"
-    },
-    {
-      "name": "Staraptor",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ムクホーク",
+    "en": "Staraptor",
+    "fr": "Étouraptor",
+    "it": "Staraptor",
+    "de": "Staraptor",
+    "es": "Staraptor",
+    "ko": "찌르호크"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "もうきん",
-      "language": "ja"
-    },
-    {
-      "genus": "맹금",
-      "language": "ko"
-    },
-    {
-      "genus": "Rapace",
-      "language": "fr"
-    },
-    {
-      "genus": "Raubtier",
-      "language": "de"
-    },
-    {
-      "genus": "Depredador",
-      "language": "es"
-    },
-    {
-      "genus": "Rapace",
-      "language": "it"
-    },
-    {
-      "genus": "Predator",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "もうきん",
+    "en": "Predator",
+    "fr": "Rapace",
+    "it": "Rapace",
+    "de": "Raubtier",
+    "es": "Depredador",
+    "ko": "맹금"
+  },
   "varieties": [
     {
       "is_default": true,

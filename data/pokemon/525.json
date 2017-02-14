@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 121,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "tentacles"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ガントル",
-      "language": "ja"
-    },
-    {
-      "name": "암트르",
-      "language": "ko"
-    },
-    {
-      "name": "Géolithe",
-      "language": "fr"
-    },
-    {
-      "name": "Sedimantur",
-      "language": "de"
-    },
-    {
-      "name": "Boldore",
-      "language": "es"
-    },
-    {
-      "name": "Boldore",
-      "language": "it"
-    },
-    {
-      "name": "Boldore",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ガントル",
+    "en": "Boldore",
+    "fr": "Géolithe",
+    "it": "Boldore",
+    "de": "Sedimantur",
+    "es": "Boldore",
+    "ko": "암트르"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こうせき",
-      "language": "ja"
-    },
-    {
-      "genus": "광석",
-      "language": "ko"
-    },
-    {
-      "genus": "Minerai",
-      "language": "fr"
-    },
-    {
-      "genus": "Erz",
-      "language": "de"
-    },
-    {
-      "genus": "Mineral",
-      "language": "es"
-    },
-    {
-      "genus": "Minerale",
-      "language": "it"
-    },
-    {
-      "genus": "Ore",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こうせき",
+    "en": "Ore",
+    "fr": "Minerai",
+    "it": "Minerale",
+    "de": "Erz",
+    "es": "Mineral",
+    "ko": "광석"
+  },
   "varieties": [
     {
       "is_default": true,

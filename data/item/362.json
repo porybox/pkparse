@@ -1,0 +1,39 @@
+{
+  "id": 362,
+  "name": "tm35",
+  "names": {
+    "ja": "わざマシン３５",
+    "kana": "わざマシン３５",
+    "en": "TM35",
+    "fr": "CT35",
+    "it": "MT35",
+    "de": "TM35",
+    "es": "MT35",
+    "ko": "기술머신35",
+    "zh-CN": "招式学习器３５",
+    "zh-TW": "招式學習器３５"
+  },
+  "flavor_text_entries": {
+    "ja": "激しい　炎を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+    "kana": "はげしい　ほのおを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+    "en": "The target is scorched with an intense blast of fire. This may also leave the target with a burn.",
+    "fr": "L’ennemi reçoit un torrent de flammes. Peut aussi le brûler.",
+    "it": "Il bersaglio viene colpito da intense fiammate che possono anche scottarlo.",
+    "de": "Das Ziel wird in ein Flammenmeer gehüllt. Verursacht eventuell Verbrennungen.",
+    "es": "Abrasa al objetivo con una intensa llamarada que puede causarle quemaduras.",
+    "ko": "세찬 불꽃을 상대에게 발사하여 공격한다. 화상 상태로 만들 때가 있다.",
+    "zh-CN": "向对手发射 烈焰进行攻击。 有时会让对手陷入灼伤状态。",
+    "zh-TW": "向對手發射 強烈火焰進行攻擊。 有時會讓對手陷入灼傷狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "はげしい　ほのおを　はっしゃして こうげきする。　あいてを　やけどの じょうたいに　することが　ある。",
+          "it": "Il nemico viene colpito da intense fiammate che possono anche scottarlo."
+        }
+      }
+    }
+  ]
+}

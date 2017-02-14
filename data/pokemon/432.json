@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 77,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "quadruped"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ブニャット",
-      "language": "ja"
-    },
-    {
-      "name": "Bunyat",
-      "language": "roomaji"
-    },
-    {
-      "name": "몬냥이",
-      "language": "ko"
-    },
-    {
-      "name": "東施喵",
-      "language": "zh"
-    },
-    {
-      "name": "Chaffreux",
-      "language": "fr"
-    },
-    {
-      "name": "Shnurgarst",
-      "language": "de"
-    },
-    {
-      "name": "Purugly",
-      "language": "es"
-    },
-    {
-      "name": "Purugly",
-      "language": "it"
-    },
-    {
-      "name": "Purugly",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ブニャット",
+    "en": "Purugly",
+    "fr": "Chaffreux",
+    "it": "Purugly",
+    "de": "Shnurgarst",
+    "es": "Purugly",
+    "ko": "몬냥이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とらねこ",
-      "language": "ja"
-    },
-    {
-      "genus": "얼룩고양이",
-      "language": "ko"
-    },
-    {
-      "genus": "Chatigre",
-      "language": "fr"
-    },
-    {
-      "genus": "Tigerkatze",
-      "language": "de"
-    },
-    {
-      "genus": "Tigre Gato",
-      "language": "es"
-    },
-    {
-      "genus": "Gattotigre",
-      "language": "it"
-    },
-    {
-      "genus": "Tiger Cat",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とらねこ",
+    "en": "Tiger Cat",
+    "fr": "Chatigre",
+    "it": "Gattotigre",
+    "de": "Tigerkatze",
+    "es": "Tigre Gato",
+    "ko": "얼룩고양이"
+  },
   "varieties": [
     {
       "is_default": true,

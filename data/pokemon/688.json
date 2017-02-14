@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 21,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "heads"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "カメテテ",
-      "language": "ja"
-    },
-    {
-      "name": "거북손손",
-      "language": "ko"
-    },
-    {
-      "name": "Opermine",
-      "language": "fr"
-    },
-    {
-      "name": "Bithora",
-      "language": "de"
-    },
-    {
-      "name": "Binacle",
-      "language": "es"
-    },
-    {
-      "name": "Binacle",
-      "language": "it"
-    },
-    {
-      "name": "Binacle",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カメテテ",
+    "en": "Binacle",
+    "fr": "Opermine",
+    "it": "Binacle",
+    "de": "Bithora",
+    "es": "Binacle",
+    "ko": "거북손손"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふたて",
-      "language": "ja"
-    },
-    {
-      "genus": "두손",
-      "language": "ko"
-    },
-    {
-      "genus": "Bimane",
-      "language": "fr"
-    },
-    {
-      "genus": "Krallenduo",
-      "language": "de"
-    },
-    {
-      "genus": "Dos Manos",
-      "language": "es"
-    },
-    {
-      "genus": "Bimano",
-      "language": "it"
-    },
-    {
-      "genus": "Two-Handed",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふたて",
+    "en": "Two-Handed",
+    "fr": "Bimane",
+    "it": "Bimano",
+    "de": "Krallenduo",
+    "es": "Dos Manos",
+    "ko": "두손"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 126,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water3"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -52,68 +44,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "プロトーガ",
-      "language": "ja"
-    },
-    {
-      "name": "프로토가",
-      "language": "ko"
-    },
-    {
-      "name": "Carapagos",
-      "language": "fr"
-    },
-    {
-      "name": "Galapaflos",
-      "language": "de"
-    },
-    {
-      "name": "Tirtouga",
-      "language": "es"
-    },
-    {
-      "name": "Tirtouga",
-      "language": "it"
-    },
-    {
-      "name": "Tirtouga",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "プロトーガ",
+    "en": "Tirtouga",
+    "fr": "Carapagos",
+    "it": "Tirtouga",
+    "de": "Galapaflos",
+    "es": "Tirtouga",
+    "ko": "프로토가"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こだいがめ",
-      "language": "ja"
-    },
-    {
-      "genus": "옛날거북",
-      "language": "ko"
-    },
-    {
-      "genus": "Tortantique",
-      "language": "fr"
-    },
-    {
-      "genus": "Urzeitkröte",
-      "language": "de"
-    },
-    {
-      "genus": "Pretortuga",
-      "language": "es"
-    },
-    {
-      "genus": "Ancestruga",
-      "language": "it"
-    },
-    {
-      "genus": "Prototurtle",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こだいがめ",
+    "en": "Prototurtle",
+    "fr": "Tortantique",
+    "it": "Ancestruga",
+    "de": "Urzeitkröte",
+    "es": "Pretortuga",
+    "ko": "옛날거북"
+  },
   "varieties": [
     {
       "is_default": true,

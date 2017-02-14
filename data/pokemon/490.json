@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 151,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "fairy"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -52,44 +44,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "マナフィ",
-      "language": "ja"
-    },
-    {
-      "name": "Manaphy",
-      "language": "roomaji"
-    },
-    {
-      "name": "마나피",
-      "language": "ko"
-    },
-    {
-      "name": "瑪納霏",
-      "language": "zh"
-    },
-    {
-      "name": "Manaphy",
-      "language": "fr"
-    },
-    {
-      "name": "Manaphy",
-      "language": "de"
-    },
-    {
-      "name": "Manaphy",
-      "language": "es"
-    },
-    {
-      "name": "Manaphy",
-      "language": "it"
-    },
-    {
-      "name": "Manaphy",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マナフィ",
+    "en": "Manaphy",
+    "fr": "Manaphy",
+    "it": "Manaphy",
+    "de": "Manaphy",
+    "es": "Manaphy",
+    "ko": "마나피"
+  },
   "pal_park_encounters": [
     {
       "base_score": 100,
@@ -100,36 +63,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かいゆう",
-      "language": "ja"
-    },
-    {
-      "genus": "회유",
-      "language": "ko"
-    },
-    {
-      "genus": "Voyagenmer",
-      "language": "fr"
-    },
-    {
-      "genus": "Seefahrer",
-      "language": "de"
-    },
-    {
-      "genus": "Náutico",
-      "language": "es"
-    },
-    {
-      "genus": "Oceandante",
-      "language": "it"
-    },
-    {
-      "genus": "Seafaring",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かいゆう",
+    "en": "Seafaring",
+    "fr": "Voyagenmer",
+    "it": "Oceandante",
+    "de": "Seefahrer",
+    "es": "Náutico",
+    "ko": "회유"
+  },
   "varieties": [
     {
       "is_default": true,

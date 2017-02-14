@@ -2,34 +2,13 @@
   "id": 557,
   "name": "v-create",
   "accuracy": 95,
-  "effect_chance": 100,
   "pp": 5,
   "priority": 0,
   "power": 180,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Lowers the user's [Defense]{mechanic:defense}, [Special Defense]{mechanic:special-defense}, and [Speed]{mechanic:speed} by one [stage]{mechanic:stage} each.",
-      "short_effect": "Lowers the user's Defense, Special Defense, and Speed by one stage each.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,62 +20,56 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "V-create",
-      "language": "en"
-    },
-    {
-      "name": "Generatore V",
-      "language": "it"
-    },
-    {
-      "name": "V de Fuego",
-      "language": "es"
-    },
-    {
-      "name": "V-Generator",
-      "language": "de"
-    },
-    {
-      "name": "Coup Victoire",
-      "language": "fr"
-    },
-    {
-      "name": "V제너레이트",
-      "language": "ko"
-    },
-    {
-      "name": "Ｖジェネレート",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "Ｖジェネレート",
+    "kana": "Ｖジェネレート",
+    "en": "V-create",
+    "fr": "Coup Victoire",
+    "it": "Generatore V",
+    "de": "V-Generator",
+    "es": "V de Fuego",
+    "ko": "V제너레이트",
+    "zh-CN": "Ｖ热焰",
+    "zh-TW": "Ｖ熱焰"
+  },
+  "flavor_text_entries": {
+    "ja": "灼熱の　炎を　額から 発生させて　捨て身の　体当たり。 防御　特防　素早さが　さがる。",
+    "kana": "しゃくねつの　ほのおを　ひたいから はっせいさせて　すてみの　たいあたり。 ぼうぎょ　とくぼう　すばやさが　さがる。",
+    "en": "With a hot flame on its forehead, the user hurls itself at its target. This lowers the user’s Defense, Sp. Def, and Speed stats.",
+    "fr": "Le lanceur projette une flamme ardente de son front et se jette sur l’ennemi. Baisse la Défense, la Défense Spéciale et la Vitesse.",
+    "it": "Chi la usa carica emettendo fiamme ardenti dalla fronte, a costo di una riduzione di Difesa, Difesa Speciale e Velocità.",
+    "de": "Eine Verzweiflungsattacke. Anwender entfacht glühend heißes Feuer. Senkt dessen Verteidigung, Spezial-Verteidigung und Initiative.",
+    "es": "Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa.",
+    "ko": "작열하는 불꽃을 이마에서 발생시켜 이판사판으로 몸통박치기한다. 방어, 특수방어, 스피드가 떨어진다.",
+    "zh-CN": "从前额产生灼热的火焰， 舍身撞击对手。 防御、特防和速度会降低。",
+    "zh-TW": "在前額產生灼熱的火焰， 然後捨身撞擊對手。 自己的防禦、特防和速度會降低。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "speed"
     },
     {
       "change": -1,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "defense"
     },
     {
       "change": -1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fire"
-  }
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "names": {
+          "ja": "ブイジェネレート",
+          "kana": "ブイジェネレート",
+          "ko": "브이제너레이트"
+        }
+      }
+    }
+  ]
 }

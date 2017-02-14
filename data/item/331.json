@@ -1,0 +1,38 @@
+{
+  "id": 331,
+  "name": "tm04",
+  "names": {
+    "ja": "わざマシン０４",
+    "kana": "わざマシン０４",
+    "en": "TM04",
+    "fr": "CT04",
+    "it": "MT04",
+    "de": "TM04",
+    "es": "MT04",
+    "ko": "기술머신04",
+    "zh-CN": "招式学习器０４",
+    "zh-TW": "招式學習器０４"
+  },
+  "flavor_text_entries": {
+    "ja": "静かに　精神を　統一し 心を　鎮めることで　自分の 特攻と　特防を　あげる。",
+    "kana": "しずかに　せいしんを　とういつして こころを　しずめることで　じぶんの とくこうと　とくぼうを　あげる。",
+    "en": "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
+    "fr": "Le lanceur se concentre et fait le vide dans son esprit pour augmenter son Attaque Spéciale et sa Défense Spéciale.",
+    "it": "Chi la usa placa il proprio spirito meditando per aumentare l’Attacco Speciale e la Difesa Speciale.",
+    "de": "Der Anwender konzentriert und beruhigt sich. So werden Spezial-Angriff und Spezial-Verteidigung verstärkt.",
+    "es": "Quien lo usa concentra su energía mental y calma su espíritu para aumentar su Ataque Especial y su Defensa Especial.",
+    "ko": "조용히 정신을 통일해서 마음을 가라앉혀 자신의 특수공격과 특수방어를 올린다.",
+    "zh-CN": "静心凝神， 从而提高自己的特攻和特防。",
+    "zh-TW": "屏氣凝神， 提高自己的特攻和特防。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa, meditando, placa il proprio spirito per aumentare l’Attacco Speciale e la Difesa Speciale."
+        }
+      }
+    }
+  ]
+}

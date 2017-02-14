@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 36,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -49,44 +43,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ズガイドス",
-      "language": "ja"
-    },
-    {
-      "name": "Zugaidos",
-      "language": "roomaji"
-    },
-    {
-      "name": "두개도스",
-      "language": "ko"
-    },
-    {
-      "name": "頭蓋龍",
-      "language": "zh"
-    },
-    {
-      "name": "Kranidos",
-      "language": "fr"
-    },
-    {
-      "name": "Koknodon",
-      "language": "de"
-    },
-    {
-      "name": "Cranidos",
-      "language": "es"
-    },
-    {
-      "name": "Cranidos",
-      "language": "it"
-    },
-    {
-      "name": "Cranidos",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ズガイドス",
+    "en": "Cranidos",
+    "fr": "Kranidos",
+    "it": "Cranidos",
+    "de": "Koknodon",
+    "es": "Cranidos",
+    "ko": "두개도스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -97,36 +62,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ずつき",
-      "language": "ja"
-    },
-    {
-      "genus": "박치기",
-      "language": "ko"
-    },
-    {
-      "genus": "Coud'Boule",
-      "language": "fr"
-    },
-    {
-      "genus": "Kopfstoß",
-      "language": "de"
-    },
-    {
-      "genus": "Cabezazo",
-      "language": "es"
-    },
-    {
-      "genus": "Cranioso",
-      "language": "it"
-    },
-    {
-      "genus": "Head Butt",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ずつき",
+    "en": "Head Butt",
+    "fr": "Coud’Boule",
+    "it": "Cranioso",
+    "de": "Kopfstoß",
+    "es": "Cabezazo",
+    "ko": "박치기"
+  },
   "varieties": [
     {
       "is_default": true,

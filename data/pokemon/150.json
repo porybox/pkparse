@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 151,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "upright"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ミュウツー",
-      "language": "ja"
-    },
-    {
-      "name": "Mewtwo",
-      "language": "roomaji"
-    },
-    {
-      "name": "뮤츠",
-      "language": "ko"
-    },
-    {
-      "name": "超夢",
-      "language": "zh"
-    },
-    {
-      "name": "Mewtwo",
-      "language": "fr"
-    },
-    {
-      "name": "Mewtu",
-      "language": "de"
-    },
-    {
-      "name": "Mewtwo",
-      "language": "es"
-    },
-    {
-      "name": "Mewtwo",
-      "language": "it"
-    },
-    {
-      "name": "Mewtwo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ミュウツー",
+    "en": "Mewtwo",
+    "fr": "Mewtwo",
+    "it": "Mewtwo",
+    "de": "Mewtu",
+    "es": "Mewtwo",
+    "ko": "뮤츠"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いでんし",
-      "language": "ja"
-    },
-    {
-      "genus": "유전",
-      "language": "ko"
-    },
-    {
-      "genus": "Génétique",
-      "language": "fr"
-    },
-    {
-      "genus": "Genmutant",
-      "language": "de"
-    },
-    {
-      "genus": "Genético",
-      "language": "es"
-    },
-    {
-      "genus": "Genetico",
-      "language": "it"
-    },
-    {
-      "genus": "Genetic",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いでんし",
+    "en": "Genetic",
+    "fr": "Génétique",
+    "it": "Genetico",
+    "de": "Genmutant",
+    "es": "Genético",
+    "ko": "유전"
+  },
   "varieties": [
     {
       "is_default": false,

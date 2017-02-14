@@ -1,119 +1,52 @@
 {
   "id": 173,
   "name": "strong-jaw",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-vi"
+  "names": {
+    "ja": "がんじょうあご",
+    "kana": "がんじょうあご",
+    "en": "Strong Jaw",
+    "fr": "Prognathe",
+    "it": "Ferromascella",
+    "de": "Titankiefer",
+    "es": "Mandíbula Fuerte",
+    "ko": "옹골찬턱",
+    "zh-CN": "强壮之颚",
+    "zh-TW": "強壯之顎"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "あごが　頑丈で 噛む　技の　威力が 高くなる。",
+    "kana": "あごが　がんじょうで かむ　わざの　いりょくが たかくなる。",
+    "en": "The Pokémon’s strong jaw boosts the power of its biting moves.",
+    "fr": "Le Pokémon a une mâchoire robuste qui augmente la puissance de ses capacités à base de morsures.",
+    "it": "La robusta mascella del Pokémon permette morsi molto potenti.",
+    "de": "Der kräftige Kiefer des Pokémon erhöht die Stärke von Biss-Attacken.",
+    "es": "Su robusta mandíbula le confiere una mordedura potente.",
+    "ko": "턱이 튼튼하여 무는 기술의 위력이 올라간다.",
+    "zh-CN": "因为颚部强壮， 啃咬类招式的威力会提高。",
+    "zh-TW": "顎部強壯， 會提高啃咬類招式的威力。"
+  },
+  "past_values": [
     {
-      "name": "Strong Jaw",
-      "language": "en"
-    },
-    {
-      "name": "Ferromascella",
-      "language": "it"
-    },
-    {
-      "name": "Mandíbula Fuerte",
-      "language": "es"
-    },
-    {
-      "name": "Titankiefer",
-      "language": "de"
-    },
-    {
-      "name": "Prognathe",
-      "language": "fr"
-    },
-    {
-      "name": "옹골찬턱",
-      "language": "ko"
-    },
-    {
-      "name": "がんじょうあご",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Strengthens biting moves to 1.5× their power.",
-      "short_effect": "Strengthens biting moves to 1.5× their power.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "あごが　頑丈で\nかむ　力が　強い。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "The Pokémon’s strong jaw gives\nit tremendous biting power.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "La robusta mascella del Pokémon\npermette morsi molto potenti.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Su robusta mandíbula le confiere\nuna potente mordedura.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Der kräftige Kiefer des Pokémon\nverleiht ihm einen starken Biss.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Grâce à une puissante mâchoire,\nles morsures sont plus fortes.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "턱이 튼튼하여\n무는 힘이 강하다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "あごが　がんじょうで\nかむ　ちからが　つよい。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "tyrunt"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "あごが　頑丈で かむ　力が　強い。",
+          "kana": "あごが　がんじょうで かむ　ちからが　つよい。",
+          "en": "The Pokémon’s strong jaw gives it tremendous biting power.",
+          "fr": "Grâce à une puissante mâchoire, les morsures sont plus fortes.",
+          "it": "La robusta mascella del Pokémon   permette morsi molto potenti.",
+          "de": "Der kräftige Kiefer des Pokémon verleiht ihm einen starken Biss.",
+          "es": "Su robusta mandíbula le confiere una potente mordedura.",
+          "ko": "턱이 튼튼하여 무는 힘이 강하다."
+        }
       }
     },
     {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "tyrantrum"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "La robusta mascella del Pokémon permette morsi molto potenti."
+        }
       }
     }
   ]

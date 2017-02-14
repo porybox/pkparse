@@ -2,49 +2,13 @@
   "id": 37,
   "name": "thrash",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 120,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rage"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes [confused]{mechanic:confused}.\n\n[]{move:safeguard} does not protect against the [confusion]{mechanic:confusion} from this move.",
-      "short_effect": "Hits every turn for 2-3 turns, then confuses the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Thrash",
-      "language": "en"
-    },
-    {
-      "name": "Colpo",
-      "language": "it"
-    },
-    {
-      "name": "Golpe",
-      "language": "es"
-    },
-    {
-      "name": "Fuchtler",
-      "language": "de"
-    },
-    {
-      "name": "Mania",
-      "language": "fr"
-    },
-    {
-      "name": "난동부리기",
-      "language": "ko"
-    },
-    {
-      "name": "あばれる",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "あばれる",
+    "kana": "あばれる",
+    "en": "Thrash",
+    "fr": "Mania",
+    "it": "Colpo",
+    "de": "Fuchtler",
+    "es": "Golpe",
+    "ko": "난동부리기",
+    "zh-CN": "大闹一番",
+    "zh-TW": "大鬧一番"
+  },
+  "flavor_text_entries": {
+    "ja": "２ー３ターンの　間 暴れまくって　相手を　攻撃する。 暴れたあとは　混乱する。",
+    "kana": "２ー３ターンの　あいだ あばれまくって　あいてを　こうげきする。 あばれた　あとは　こんらん　する。",
+    "en": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+    "fr": "Une attaque furieuse qui dure de deux à trois tours. Le lanceur devient confus.",
+    "it": "Assale e attacca il nemico per due o tre turni, ma confonde chi la usa.",
+    "de": "Attacke über zwei bis drei Runden, die den Angreifer verwirrt.",
+    "es": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+    "ko": "2-3턴 동안 마구 난동 부려서 상대를 공격한다. 난동 부린 뒤에는 혼란에 빠진다.",
+    "zh-CN": "在２～３回合内， 乱打一气地攻击对手。 大闹一番后自己会陷入混乱。",
+    "zh-TW": "在２～３回合內 瘋狂亂打對手進行攻擊。 大鬧一番後自己會陷入混亂。"
+  },
+  "stat_changes": [],
+  "target": "random-opponent",
+  "type": "normal",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 90,
-      "pp": 20,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "２ー３ターンの　あいだ 暴れまくって　相手を　攻撃する。 暴れたあとは　混乱する。"
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "random-opponent"
-  },
-  "type": {
-    "name": "normal"
-  }
+  ]
 }

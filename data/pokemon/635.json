@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 144,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    }
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "サザンドラ",
-      "language": "ja"
-    },
-    {
-      "name": "삼삼드래",
-      "language": "ko"
-    },
-    {
-      "name": "Trioxhydre",
-      "language": "fr"
-    },
-    {
-      "name": "Trikephalo",
-      "language": "de"
-    },
-    {
-      "name": "Hydreigon",
-      "language": "es"
-    },
-    {
-      "name": "Hydreigon",
-      "language": "it"
-    },
-    {
-      "name": "Hydreigon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "サザンドラ",
+    "en": "Hydreigon",
+    "fr": "Trioxhydre",
+    "it": "Hydreigon",
+    "de": "Trikephalo",
+    "es": "Hydreigon",
+    "ko": "삼삼드래"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きょうぼう",
-      "language": "ja"
-    },
-    {
-      "genus": "난폭",
-      "language": "ko"
-    },
-    {
-      "genus": "Brutal",
-      "language": "fr"
-    },
-    {
-      "genus": "Brutal",
-      "language": "de"
-    },
-    {
-      "genus": "Voraz",
-      "language": "es"
-    },
-    {
-      "genus": "Brutale",
-      "language": "it"
-    },
-    {
-      "genus": "Brutal",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きょうぼう",
+    "en": "Brutal",
+    "fr": "Brutal",
+    "it": "Brutale",
+    "de": "Brutal",
+    "es": "Voraz",
+    "ko": "난폭"
+  },
   "varieties": [
     {
       "is_default": true,

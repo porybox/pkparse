@@ -2,36 +2,13 @@
   "id": 271,
   "name": "trick",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User and target permanently swap [held item]{mechanic:held-item}s.  Works even if one of the Pokémon isn't holding anything.  If either Pokémon is holding mail, this move will [fail]{mechanic:fail}.\n\nIf either Pokémon has []{ability:multitype} or []{ability:sticky-hold}, this move will [fail]{mechanic:fail}.\n\nIf this move results in a Pokémon obtaining []{item:choice-band}, []{item:choice-scarf}, or []{item:choice-specs}, and that Pokémon was the latter of the pair to move this turn, then the move it used this turn becomes its chosen forced move.  This applies even if both Pokémon had a choice item before this move was used.  If the first of the two Pokémon gains a choice item, it may select whatever choice move it wishes next turn.\n\nNeither the user nor the target can recover its item with []{move:recycle}.\n\nThis move cannot be selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "User and target swap items.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Trick",
-      "language": "en"
-    },
-    {
-      "name": "Raggiro",
-      "language": "it"
-    },
-    {
-      "name": "Truco",
-      "language": "es"
-    },
-    {
-      "name": "Trickbetrug",
-      "language": "de"
-    },
-    {
-      "name": "Tourmagik",
-      "language": "fr"
-    },
-    {
-      "name": "트릭",
-      "language": "ko"
-    },
-    {
-      "name": "トリック",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "トリック",
+    "kana": "トリック",
+    "en": "Trick",
+    "fr": "Tourmagik",
+    "it": "Raggiro",
+    "de": "Trickbetrug",
+    "es": "Truco",
+    "ko": "트릭",
+    "zh-CN": "戏法",
+    "zh-TW": "戲法"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　すきを　ついて 自分と　相手の 持ち物を　交換する。",
+    "kana": "あいての　すきを　ついて じぶんと　あいての もちものを　こうかんする。",
+    "en": "The user catches the target off guard and swaps its held item with its own.",
+    "fr": "Le lanceur prend la cible au dépourvu et l’oblige à échanger son objet contre le sien.",
+    "it": "Chi la usa coglie il bersaglio in contropiede e lo obbliga a cambiare il suo strumento con il proprio.",
+    "de": "Der Anwender überrumpelt das Ziel und tauscht mit ihm die getragenen Items.",
+    "es": "Engaña al objetivo desprevenido e intercambia objetos.",
+    "ko": "상대의 빈틈을 노려 자신과 상대가 지닌 물건을 교환한다.",
+    "zh-CN": "抓住对手的空隙， 交换自己和对手的持有物。",
+    "zh-TW": "在對手露出空隙時， 趁機交換自己和對手的持有物。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

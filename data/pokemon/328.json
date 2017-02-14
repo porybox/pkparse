@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 3,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "armor"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ナックラー",
-      "language": "ja"
-    },
-    {
-      "name": "Nuckrar",
-      "language": "roomaji"
-    },
-    {
-      "name": "톱치",
-      "language": "ko"
-    },
-    {
-      "name": "大顎蟻",
-      "language": "zh"
-    },
-    {
-      "name": "Kraknoix",
-      "language": "fr"
-    },
-    {
-      "name": "Knacklion",
-      "language": "de"
-    },
-    {
-      "name": "Trapinch",
-      "language": "es"
-    },
-    {
-      "name": "Trapinch",
-      "language": "it"
-    },
-    {
-      "name": "Trapinch",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ナックラー",
+    "en": "Trapinch",
+    "fr": "Kraknoix",
+    "it": "Trapinch",
+    "de": "Knacklion",
+    "es": "Trapinch",
+    "ko": "톱치"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ありじごく",
-      "language": "ja"
-    },
-    {
-      "genus": "개미지옥",
-      "language": "ko"
-    },
-    {
-      "genus": "Piégeur",
-      "language": "fr"
-    },
-    {
-      "genus": "Ameisenlöwe",
-      "language": "de"
-    },
-    {
-      "genus": "Hormigaleón",
-      "language": "es"
-    },
-    {
-      "genus": "Trappola",
-      "language": "it"
-    },
-    {
-      "genus": "Ant Pit",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ありじごく",
+    "en": "Ant Pit",
+    "fr": "Piégeur",
+    "it": "Trappola",
+    "de": "Ameisenlöwe",
+    "es": "Hormigaleón",
+    "ko": "개미지옥"
+  },
   "varieties": [
     {
       "is_default": true,

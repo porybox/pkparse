@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 153,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "humanoid"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ドリュウズ",
-      "language": "ja"
-    },
-    {
-      "name": "몰드류",
-      "language": "ko"
-    },
-    {
-      "name": "Minotaupe",
-      "language": "fr"
-    },
-    {
-      "name": "Stalobor",
-      "language": "de"
-    },
-    {
-      "name": "Excadrill",
-      "language": "es"
-    },
-    {
-      "name": "Excadrill",
-      "language": "it"
-    },
-    {
-      "name": "Excadrill",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドリュウズ",
+    "en": "Excadrill",
+    "fr": "Minotaupe",
+    "it": "Excadrill",
+    "de": "Stalobor",
+    "es": "Excadrill",
+    "ko": "몰드류"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ちてい",
-      "language": "ja"
-    },
-    {
-      "genus": "땅밑",
-      "language": "ko"
-    },
-    {
-      "genus": "Souterrain",
-      "language": "fr"
-    },
-    {
-      "genus": "Untergrund",
-      "language": "de"
-    },
-    {
-      "genus": "Subterráneo",
-      "language": "es"
-    },
-    {
-      "genus": "Sottoterra",
-      "language": "it"
-    },
-    {
-      "genus": "Subterrene",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ちてい",
+    "en": "Subterrene",
+    "fr": "Souterrain",
+    "it": "Sottoterra",
+    "de": "Untergrund",
+    "es": "Subterráneo",
+    "ko": "땅밑"
+  },
   "varieties": [
     {
       "is_default": true,

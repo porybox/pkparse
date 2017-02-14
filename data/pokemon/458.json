@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 139,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "wings"
   },
@@ -61,44 +55,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "タマンタ",
-      "language": "ja"
-    },
-    {
-      "name": "Tamanta",
-      "language": "roomaji"
-    },
-    {
-      "name": "타만타",
-      "language": "ko"
-    },
-    {
-      "name": "小球飛魚",
-      "language": "zh"
-    },
-    {
-      "name": "Babimanta",
-      "language": "fr"
-    },
-    {
-      "name": "Mantirps",
-      "language": "de"
-    },
-    {
-      "name": "Mantyke",
-      "language": "es"
-    },
-    {
-      "name": "Mantyke",
-      "language": "it"
-    },
-    {
-      "name": "Mantyke",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "タマンタ",
+    "en": "Mantyke",
+    "fr": "Babimanta",
+    "it": "Mantyke",
+    "de": "Mantirps",
+    "es": "Mantyke",
+    "ko": "타만타"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -109,36 +74,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "カイト",
-      "language": "ja"
-    },
-    {
-      "genus": "연",
-      "language": "ko"
-    },
-    {
-      "genus": "Cervolant",
-      "language": "fr"
-    },
-    {
-      "genus": "Flugrochen",
-      "language": "de"
-    },
-    {
-      "genus": "Milano",
-      "language": "es"
-    },
-    {
-      "genus": "Aquilone",
-      "language": "it"
-    },
-    {
-      "genus": "Kite",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "カイト",
+    "en": "Kite",
+    "fr": "Cervolant",
+    "it": "Aquilone",
+    "de": "Flugrochen",
+    "es": "Milano",
+    "ko": "연"
+  },
   "varieties": [
     {
       "is_default": true,

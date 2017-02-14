@@ -1,238 +1,44 @@
 {
   "id": 7,
   "name": "limber",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "じゅうなん",
+    "kana": "じゅうなん",
+    "en": "Limber",
+    "fr": "Échauffement",
+    "it": "Scioltezza",
+    "de": "Flexibilität",
+    "es": "Flexibilidad",
+    "ko": "유연",
+    "zh-CN": "柔软",
+    "zh-TW": "柔軟"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "柔軟な　体によって まひ状態に　ならない。",
+    "kana": "じゅうなんな　からだによって まひ　じょうたいに　ならない。",
+    "en": "Its limber body protects the Pokémon from paralysis.",
+    "fr": "Le Pokémon s’est suffisamment échauffé, ce qui l’immunise contre la paralysie.",
+    "it": "Il corpo flessibile del Pokémon gli impedisce di subire gli effetti della paralisi.",
+    "de": "Der flexible Körper des Pokémon schützt es vor Paralyse.",
+    "es": "Evita ser paralizado gracias a la flexibilidad de su cuerpo.",
+    "ko": "유연한 몸으로 인해 마비 상태가 되지 않는다.",
+    "zh-CN": "因为身体柔软， 不会变为麻痹状态。",
+    "zh-TW": "因為身體柔軟， 不會陷入麻痺狀態。"
+  },
+  "past_values": [
     {
-      "name": "Limber",
-      "language": "en"
-    },
-    {
-      "name": "Scioltezza",
-      "language": "it"
-    },
-    {
-      "name": "Flexibilidad",
-      "language": "es"
-    },
-    {
-      "name": "Flexibilität",
-      "language": "de"
-    },
-    {
-      "name": "Échauffement",
-      "language": "fr"
-    },
-    {
-      "name": "유연",
-      "language": "ko"
-    },
-    {
-      "name": "じゅうなん",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon cannot be [paralyzed]{mechanic:paralysis}.\n\nIf a Pokémon is paralyzed and acquires this ability, its paralysis is healed; this includes when regaining a lost ability upon leaving battle.",
-      "short_effect": "Prevents [paralysis]{mechanic:paralysis}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "まひ状態に\nならない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Protects the Pokémon\nfrom paralysis.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Il Pokémon è protetto contro\nla paralisi.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Evita ser paralizado.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Verhindert Paralyse.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Protège le Pokémon de la\nparalysie.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "마비 상태가\n되지 않는다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "まひ　じょうたいに\nならない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "The Pokémon is protected\nfrom paralysis.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon is protected\nfrom paralysis.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Protège le Pokémon de\nla paralysie.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "The Pokémon is protected\nfrom paralysis.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon is protected\nfrom paralysis.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon is protected\nfrom paralysis.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents paralysis.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents paralysis.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents paralysis.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "persian"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "hitmonlee"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "ditto"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "buneary"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "lopunny"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "glameow"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "purrloin"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "liepard"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "stunfisk"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "hawlucha"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "まひ状態に ならない。",
+          "kana": "まひ　じょうたいに ならない。",
+          "en": "Protects the Pokémon from paralysis.",
+          "fr": "Protège le Pokémon de la paralysie.",
+          "it": "Il Pokémon è protetto contro la paralisi.",
+          "de": "Verhindert Paralyse.",
+          "es": "Evita ser paralizado.",
+          "ko": "마비 상태가 되지 않는다."
+        }
       }
     }
   ]

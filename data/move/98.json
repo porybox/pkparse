@@ -2,49 +2,13 @@
   "id": 98,
   "name": "quick-attack",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 30,
   "priority": 1,
   "power": 40,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "double-team"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Quick Attack",
-      "language": "en"
-    },
-    {
-      "name": "Attacco Rapido",
-      "language": "it"
-    },
-    {
-      "name": "Ataque Rápido",
-      "language": "es"
-    },
-    {
-      "name": "Ruckzuckhieb",
-      "language": "de"
-    },
-    {
-      "name": "Vive-Attaque",
-      "language": "fr"
-    },
-    {
-      "name": "전광석화",
-      "language": "ko"
-    },
-    {
-      "name": "でんこうせっか",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "でんこうせっか",
+    "kana": "でんこうせっか",
+    "en": "Quick Attack",
+    "fr": "Vive-Attaque",
+    "it": "Attacco Rapido",
+    "de": "Ruckzuckhieb",
+    "es": "Ataque Rápido",
+    "ko": "전광석화",
+    "zh-CN": "电光一闪",
+    "zh-TW": "電光一閃"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "目にも　留まらぬ　ものすごい　速さで 相手に　つっこむ。 必ず　先制攻撃　できる。",
+    "kana": "めにも　とまらぬ　ものすごい　はやさで あいてに　つっこむ。 かならず　せんせい　こうげき　できる。",
+    "en": "The user lunges at the target at a speed that makes it almost invisible. This move always goes first.",
+    "fr": "Le lanceur fonce sur l’ennemi si rapidement qu’on parvient à peine à le discerner. Frappe en priorité.",
+    "it": "Chi la usa colpisce a una tale velocità da rendersi quasi invisibile. Questa mossa ha priorità alta.",
+    "de": "Sehr schneller Angriff mit hoher Erstschlagquote.",
+    "es": "Ataca al objetivo a gran velocidad. Este movimiento tiene prioridad alta.",
+    "ko": "눈에 보이지 않는 굉장한 속도로 상대에게 돌진한다. 반드시 선제공격할 수 있다.",
+    "zh-CN": "以迅雷不及掩耳之势扑向对手。 必定能够先制攻击。",
+    "zh-TW": "以迅雷不及掩耳之勢 撲向對手。 必定能夠發動先制攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur fonce sur l’ennemi si rapidement qu’on parvient à peine à le discerner. Frappe toujours en premier.",
+          "it": "Chi la usa colpisce sempre per primo e a una tale velocità da rendersi quasi invisibile.",
+          "de": "Sehr schneller Angriff mit Erstschlaggarantie.",
+          "es": "Ataque rápido que permite golpear en primer lugar."
+        }
+      }
+    }
+  ]
 }

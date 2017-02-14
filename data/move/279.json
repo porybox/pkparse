@@ -2,36 +2,13 @@
   "id": 279,
   "name": "revenge",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": -4,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target damaged the user this turn and was the last to do so, this move has double power.\n\n[]{move:pain-split} does not count as damaging the user.",
-      "short_effect": "Inflicts double damage if the user takes damage before attacking this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Revenge",
-      "language": "en"
-    },
-    {
-      "name": "Vendetta",
-      "language": "it"
-    },
-    {
-      "name": "Desquite",
-      "language": "es"
-    },
-    {
-      "name": "Vergeltung",
-      "language": "de"
-    },
-    {
-      "name": "Vendetta",
-      "language": "fr"
-    },
-    {
-      "name": "리벤지",
-      "language": "ko"
-    },
-    {
-      "name": "リベンジ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "リベンジ",
+    "kana": "リベンジ",
+    "en": "Revenge",
+    "fr": "Vendetta",
+    "it": "Vendetta",
+    "de": "Vergeltung",
+    "es": "Desquite",
+    "ko": "리벤지",
+    "zh-CN": "报复",
+    "zh-TW": "報復"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "相手から　技を　受けていると その相手に　対して 与える　ダメージが　２倍に　なる。",
+    "kana": "あいてから　わざを　うけていると その　あいてに　たいして あたえる　ダメージが　２ばいに　なる。",
+    "en": "This attack move’s power is doubled if the user has been hurt by the opponent in the same turn.",
+    "fr": "Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant ce tour.",
+    "it": "Mossa d’attacco che infligge un danno doppio se si è stati colpiti dal Pokémon bersaglio nello stesso turno.",
+    "de": "Schaden verdoppelt sich, wenn der Anwender in der Runde bereits Schaden durch das Ziel erlitten hat.",
+    "es": "Ataque que produce el doble de daño si el usuario es herido en el mismo turno.",
+    "ko": "상대에게 기술을 받으면 그 상대에게 주는 데미지가 2배가 된다.",
+    "zh-CN": "如果受到对手的招式攻击， 就能给予对手２倍的伤害。",
+    "zh-TW": "如果受到對手的招式攻擊， 給予該對手的傷害就會變成２倍。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An attack move that inflicts double the damage if the user has been hurt by the opponent in the same turn.",
+          "de": "Schaden verdoppelt sich, wenn der Anwender in der Runde bereits Schaden vom Ziel des Angriffes genommen hat."
+        }
+      }
+    }
+  ]
 }

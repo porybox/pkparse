@@ -1,0 +1,44 @@
+{
+  "id": 739,
+  "name": "crabrawler",
+  "gender_rate": 4,
+  "capture_rate": 225,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water3"
+  ],
+  "color": "purple",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "マケンカニ",
+    "en": "Crabrawler",
+    "fr": "Crabagarre",
+    "it": "Crabrawler",
+    "de": "Krabbox",
+    "es": "Crabrawler",
+    "ko": "오기지게"
+  },
+  "genera": {
+    "ja": "けんとう",
+    "en": "Boxing",
+    "fr": "Boxeur",
+    "it": "Pugile",
+    "de": "Boxkampf",
+    "es": "Púgil",
+    "ko": "권투"
+  },
+  "types": [
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 47,
+    "attack": 82,
+    "defense": 57,
+    "special-attack": 42,
+    "special-defense": 47,
+    "speed": 63
+  }
+}

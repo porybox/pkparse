@@ -1,0 +1,39 @@
+{
+  "id": 375,
+  "name": "tm48",
+  "names": {
+    "ja": "わざマシン４８",
+    "kana": "わざマシン４８",
+    "en": "TM48",
+    "fr": "CT48",
+    "it": "MT48",
+    "de": "TM48",
+    "es": "MT48",
+    "ko": "기술머신48",
+    "zh-CN": "招式学习器４８",
+    "zh-TW": "招式學習器４８"
+  },
+  "flavor_text_entries": {
+    "ja": "歌で　相手を　攻撃する。 みんなで　輪唱すると　続けて だすことが　でき　威力も　あがる。",
+    "kana": "うたで　あいてを　こうげきする。 みんなで　りんしょう　すると　つづけて だすことが　でき　いりょくも　あがる。",
+    "en": "The user attacks the target with a song. Others can join in the Round to increase the power of the attack.",
+    "fr": "Le lanceur attaque l’ennemi en chantant. Si plusieurs Pokémon déclenchent cette attaque à la suite, l’effet augmente.",
+    "it": "Attacca il bersaglio con una melodia. Se usata durante lo stesso turno da più Pokémon, i danni inflitti aumentano.",
+    "de": "Angriff mit Gesang. Singt der Anwender mit allen im Kanon, kann er die Attacke mehrfach auslösen und die Stärke steigt.",
+    "es": "Canto que sirve de ataque. Su fuerza aumenta cuantos más Pokémon lo usan en cadena.",
+    "ko": "노래로 상대를 공격한다. 함께 돌림노래를 하면 계속해서 쓸 수 있고 위력도 올라간다.",
+    "zh-CN": "用歌声攻击对手。 同伴还可以接着使出轮唱招式， 威力也会提高。",
+    "zh-TW": "用歌聲攻擊對手。 大家一起輪唱便可以接連使出， 威力也會提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "うたで　あいてを　こうげきする。 みんなで　つかうと　れんぞくで だせて　いりょくも　あがる。",
+          "en": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage."
+        }
+      }
+    }
+  ]
+}

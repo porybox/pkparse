@@ -1,154 +1,44 @@
 {
   "id": 156,
   "name": "magic-bounce",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "マジックミラー",
+    "kana": "マジックミラー",
+    "en": "Magic Bounce",
+    "fr": "Miroir Magik",
+    "it": "Magispecchio",
+    "de": "Magiespiegel",
+    "es": "Espejo Mágico",
+    "ko": "매직미러",
+    "zh-CN": "魔法镜",
+    "zh-TW": "魔法鏡"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "相手に　だされた　変化技を　受けずに そのまま　返す　ことが　できる。",
+    "kana": "あいてに　だされた　へんかわざを　うけずに そのまま　かえす　ことが　できる。",
+    "en": "Reflects status moves, instead of getting hit by them.",
+    "fr": "Annule les effets des capacités de statut subies par le Pokémon et les retourne à l’envoyeur.",
+    "it": "Respinge al mittente le mosse di stato senza subirne gli effetti.",
+    "de": "Lenkt Status-Attacken auf den Angreifer um, ohne selbst von ihnen getroffen zu werden.",
+    "es": "Permite devolver los ataques de estado lanzados por el rival, sin verse afectado por ellos.",
+    "ko": "상대가 쓴 변화 기술을 받지 않고 그대로 되받아칠 수 있다.",
+    "zh-CN": "可以不受到由对手使出的 变化招式影响，并将其反弹。",
+    "zh-TW": "可不受到由對手使出的 變化類招式所影響，並將其反彈。"
+  },
+  "past_values": [
     {
-      "name": "Magic Bounce",
-      "language": "en"
-    },
-    {
-      "name": "Magispecchio",
-      "language": "it"
-    },
-    {
-      "name": "Espejo Mágico",
-      "language": "es"
-    },
-    {
-      "name": "Magiespiegel",
-      "language": "de"
-    },
-    {
-      "name": "Miroir Magik",
-      "language": "fr"
-    },
-    {
-      "name": "매직미러",
-      "language": "ko"
-    },
-    {
-      "name": "マジックミラー",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "When this Pokémon is targeted by a move flagged as being reflectable, the move is redirected to its user.\n\nAll reflectable moves are non-damaging, and most non-damaging moves that target other Pokémon are reflectable.\n\nA move reflected by this ability or []{move:magic-coat} cannot be reflected back.",
-      "short_effect": "Reflects most non-damaging moves back at their user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "変化技を　返す\nことが　できる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Reflects status moves.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Riflette al mittente le mosse\ndi stato.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Permite devolver los ataques de\nestado.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Lenkt Status-Attacken\nauf den Angreifer um.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Renvoie les attaques de statut.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "변화 기술을\n되받아칠 수 있다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "へんかわざを　かえす\nことが　できる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Reflects status-\nchanging moves.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Reflects status-\nchanging moves.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Renvoie les attaques\nde statut.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "natu"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "xatu"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "espeon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "absol-mega"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "変化技を　返す ことが　できる。",
+          "kana": "へんかわざを　かえす ことが　できる。",
+          "en": "Reflects status moves.",
+          "fr": "Renvoie les attaques de statut.",
+          "it": "Riflette al mittente le mosse di stato.",
+          "de": "Lenkt Status-Attacken auf den Angreifer um.",
+          "es": "Permite devolver los ataques de estado.",
+          "ko": "변화 기술을 되받아칠 수 있다."
+        }
       }
     }
   ]

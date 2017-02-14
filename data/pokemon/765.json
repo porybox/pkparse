@@ -1,0 +1,45 @@
+{
+  "id": 765,
+  "name": "oranguru",
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "white",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ヤレユータン",
+    "en": "Oranguru",
+    "fr": "Gouroutan",
+    "it": "Oranguru",
+    "de": "Kommandutan",
+    "es": "Oranguru",
+    "ko": "하랑우탄"
+  },
+  "genera": {
+    "ja": "けんじゃ",
+    "en": "Sage",
+    "fr": "Grand Sage",
+    "it": "Saggio",
+    "de": "Weisheit",
+    "es": "Sabio",
+    "ko": "현자"
+  },
+  "types": [
+    "normal",
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 90,
+    "attack": 60,
+    "defense": 80,
+    "special-attack": 90,
+    "special-defense": 110,
+    "speed": 60
+  }
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 2,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "arms"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "フワライド",
-      "language": "ja"
-    },
-    {
-      "name": "Fuwaride",
-      "language": "roomaji"
-    },
-    {
-      "name": "둥실라이드",
-      "language": "ko"
-    },
-    {
-      "name": "附和氣球",
-      "language": "zh"
-    },
-    {
-      "name": "Grodrive",
-      "language": "fr"
-    },
-    {
-      "name": "Drifzepeli",
-      "language": "de"
-    },
-    {
-      "name": "Drifblim",
-      "language": "es"
-    },
-    {
-      "name": "Drifblim",
-      "language": "it"
-    },
-    {
-      "name": "Drifblim",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フワライド",
+    "en": "Drifblim",
+    "fr": "Grodrive",
+    "it": "Drifblim",
+    "de": "Drifzepeli",
+    "es": "Drifblim",
+    "ko": "둥실라이드"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ききゅう",
-      "language": "ja"
-    },
-    {
-      "genus": "기구",
-      "language": "ko"
-    },
-    {
-      "genus": "Ballon",
-      "language": "fr"
-    },
-    {
-      "genus": "Luftschiff",
-      "language": "de"
-    },
-    {
-      "genus": "Dirigible",
-      "language": "es"
-    },
-    {
-      "genus": "Dirigibile",
-      "language": "it"
-    },
-    {
-      "genus": "Blimp",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ききゅう",
+    "en": "Blimp",
+    "fr": "Ballon",
+    "it": "Dirigibile",
+    "de": "Luftschiff",
+    "es": "Dirigible",
+    "ko": "기구"
+  },
   "varieties": [
     {
       "is_default": true,

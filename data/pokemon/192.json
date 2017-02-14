@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 21,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "humanoid"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "キマワリ",
-      "language": "ja"
-    },
-    {
-      "name": "Kimawari",
-      "language": "roomaji"
-    },
-    {
-      "name": "해루미",
-      "language": "ko"
-    },
-    {
-      "name": "向日花怪",
-      "language": "zh"
-    },
-    {
-      "name": "Héliatronc",
-      "language": "fr"
-    },
-    {
-      "name": "Sonnflora",
-      "language": "de"
-    },
-    {
-      "name": "Sunflora",
-      "language": "es"
-    },
-    {
-      "name": "Sunflora",
-      "language": "it"
-    },
-    {
-      "name": "Sunflora",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "キマワリ",
+    "en": "Sunflora",
+    "fr": "Héliatronc",
+    "it": "Sunflora",
+    "de": "Sonnflora",
+    "es": "Sunflora",
+    "ko": "해루미"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たいよう",
-      "language": "ja"
-    },
-    {
-      "genus": "태양",
-      "language": "ko"
-    },
-    {
-      "genus": "Soleil",
-      "language": "fr"
-    },
-    {
-      "genus": "Sonne",
-      "language": "de"
-    },
-    {
-      "genus": "Sol",
-      "language": "es"
-    },
-    {
-      "genus": "Sole",
-      "language": "it"
-    },
-    {
-      "genus": "Sun",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たいよう",
+    "en": "Sun",
+    "fr": "Soleil",
+    "it": "Sole",
+    "de": "Sonne",
+    "es": "Sol",
+    "ko": "태양"
+  },
   "varieties": [
     {
       "is_default": true,

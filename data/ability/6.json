@@ -1,294 +1,44 @@
 {
   "id": 6,
   "name": "damp",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "しめりけ",
+    "kana": "しめりけ",
+    "en": "Damp",
+    "fr": "Moiteur",
+    "it": "Umidità",
+    "de": "Feuchtigkeit",
+    "es": "Humedad",
+    "ko": "습기",
+    "zh-CN": "湿气",
+    "zh-TW": "濕氣"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "あたりを　湿らせることに　よって じばく　などの　爆発する　技を だれも　使えなくなる。",
+    "kana": "あたりを　しめらせることに　よって じばく　などの　ばくはつする　わざを だれも　つかえなくなる。",
+    "en": "Prevents the use of explosive moves such as Self-Destruct by dampening its surroundings.",
+    "fr": "Le Pokémon augmente l’humidité de l’air, ce qui empêche tous les Pokémon d’utiliser des capacités explosives telles que Destruction.",
+    "it": "Aumenta l’umidità circostante, impedendo l’uso di Autodistruzione e di altre mosse esplosive.",
+    "de": "Befeuchtet die Umgebung und verhindert so den Einsatz von Attacken wie Finale, die Explosionen auslösen.",
+    "es": "Aumenta la humedad del entorno y evita que se puedan utilizar movimientos explosivos, tales como Autodestrucción.",
+    "ko": "주변을 습하게 함으로써 자폭 등 폭발하는 기술을 아무도 못 쓰게 한다.",
+    "zh-CN": "通过把周围都弄湿， 使谁都无法使用自爆等爆炸类的招式。",
+    "zh-TW": "透過把周圍都弄濕， 使誰都無法使用自爆等爆炸類的招式。"
+  },
+  "past_values": [
     {
-      "name": "Damp",
-      "language": "en"
-    },
-    {
-      "name": "Umidità",
-      "language": "it"
-    },
-    {
-      "name": "Humedad",
-      "language": "es"
-    },
-    {
-      "name": "Feuchtigkeit",
-      "language": "de"
-    },
-    {
-      "name": "Moiteur",
-      "language": "fr"
-    },
-    {
-      "name": "습기",
-      "language": "ko"
-    },
-    {
-      "name": "しめりけ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "While this Pokémon is in battle, []{move:self-destruct} and []{move:explosion} will fail and []{ability:aftermath} will not take effect.",
-      "short_effect": "Prevents []{move:self-destruct}, []{move:explosion}, and []{ability:aftermath} from working while the Pokémon is in battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "だれも　爆発が\nできなくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Prevents the use of\nself-destructing moves.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Impedisce le mosse\nautodistruttive.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Evita que un Pokémon pueda\nautodestruirse.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Hält alle Pokémon davon ab,\nzu explodieren.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Empêche les combattants de\ns’autodétruire.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "누구도 폭발\n할 수 없게 된다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "だれも　ばくはつが\nできなくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Prevents the use of\nself-destructing moves.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the use of\nself-destructing moves.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Empêche les combattants\nde s’autodétruire.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Prevents combatants\nfrom self-destructing.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents combatants from\nself destructing.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents combatants from\nself destructing.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents self-destruction.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents self-destruction.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents self-destruction.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "paras"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "parasect"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "psyduck"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "golduck"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "poliwag"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "poliwhirl"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "poliwrath"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "horsea"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "seadra"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "politoed"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "wooper"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "quagsire"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "kingdra"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "mudkip"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "marshtomp"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "swampert"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "frillish"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "jellicent"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "だれも　爆発が できなくなる。",
+          "kana": "だれも　ばくはつが できなくなる。",
+          "en": "Prevents the use of self-destructing moves.",
+          "fr": "Empêche les combattants de s’autodétruire.",
+          "it": "Impedisce le mosse autodistruttive.",
+          "de": "Hält alle Pokémon davon ab, zu explodieren.",
+          "es": "Evita que un Pokémon pueda autodestruirse.",
+          "ko": "누구도 폭발 할 수 없게 된다."
+        }
       }
     }
   ]

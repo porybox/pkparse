@@ -2,76 +2,13 @@
   "id": 136,
   "name": "high-jump-kick",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 130,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "mind-reader"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "meditate"
-        }
-      ]
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If this move misses, is blocked by []{move:protect} or []{move:detect}, or has no effect, the user takes half the damage it would have inflicted in recoil.  This recoil damage will not exceed half the user's max HP.\n\nThis move cannot be used while []{move:gravity} is in effect.",
-      "short_effect": "If the user misses, it takes half the damage it would have inflicted in recoil.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "If this move misses, the user takes 1 point of damage in recoil.",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "If this move misses, the user takes half of the damage it would have inflicted in recoil.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -83,66 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "High Jump Kick",
-      "language": "en"
-    },
-    {
-      "name": "Calcinvolo",
-      "language": "it"
-    },
-    {
-      "name": "Pat. Salto Alta",
-      "language": "es"
-    },
-    {
-      "name": "Turmkick",
-      "language": "de"
-    },
-    {
-      "name": "Pied Voltige",
-      "language": "fr"
-    },
-    {
-      "name": "무릎차기",
-      "language": "ko"
-    },
-    {
-      "name": "とびひざげり",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "とびひざげり",
+    "kana": "とびひざげり",
+    "en": "High Jump Kick",
+    "fr": "Pied Voltige",
+    "it": "Calcinvolo",
+    "de": "Turmkick",
+    "es": "Pat. Salto Alta",
+    "ko": "무릎차기",
+    "zh-CN": "飞膝踢",
+    "zh-TW": "飛膝踢"
+  },
+  "flavor_text_entries": {
+    "ja": "ジャンプからの　ひざげりで 相手を　攻撃する。 はずすと　自分が　ダメージを　受ける。",
+    "kana": "ジャンプからの　ひざげりで あいてを　こうげきする。 はずすと　じぶんが　ダメージを　うける。",
+    "en": "The target is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",
+    "fr": "Le lanceur s’élance pour effectuer un coup de genou sauté. S’il échoue, le lanceur se blesse.",
+    "it": "Chi la usa colpisce il bersaglio con una ginocchiata in volo. Se fallisce, subisce danni.",
+    "de": "Sprungtritt mit Knie. Bei Misserfolg verletzt sich der Anwender selbst.",
+    "es": "Salta muy alto y da un rodillazo. Si falla, dañará al usuario.",
+    "ko": "점프해서 무릎차기로 상대를 공격한다. 빗나가면 자신이 데미지를 입는다.",
+    "zh-CN": "跳起后用膝盖撞对手进行攻击。 如果撞偏则自己会受到伤害。",
+    "zh-TW": "跳起後用膝蓋踢擊對手。 沒踢中對手時自己會受到傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 85,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
-      }
-    },
-    {
-      "accuracy": null,
-      "power": 100,
-      "pp": 20,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Salta muy alto y lanza una patada. Si falla, dañará al usuario."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fighting"
-  }
+  ]
 }

@@ -2,36 +2,13 @@
   "id": 385,
   "name": "guard-swap",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User swaps its [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} modifiers with the target.",
-      "short_effect": "User swaps Defense and Special Defense changes with the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Guard Swap",
-      "language": "en"
-    },
-    {
-      "name": "Barattoscudo",
-      "language": "it"
-    },
-    {
-      "name": "Cambia Defensa",
-      "language": "es"
-    },
-    {
-      "name": "Schutztausch",
-      "language": "de"
-    },
-    {
-      "name": "Permugarde",
-      "language": "fr"
-    },
-    {
-      "name": "가드스웹",
-      "language": "ko"
-    },
-    {
-      "name": "ガードスワップ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ガードスワップ",
+    "kana": "ガードスワップ",
+    "en": "Guard Swap",
+    "fr": "Permugarde",
+    "it": "Barattoscudo",
+    "de": "Schutztausch",
+    "es": "Cambia Defensa",
+    "ko": "가드스웹",
+    "zh-CN": "防守互换",
+    "zh-TW": "防守互換"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "超能力で　自分と　相手の 防御と　特防の 能力変化を　入れ替える。",
+    "kana": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうの のうりょく　へんかを　いれかえる。",
+    "en": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
+    "fr": "Pouvoir qui échange les modifications de la Défense Spéciale et de la Défense avec la cible.",
+    "it": "Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e Difesa Speciale con il bersaglio.",
+    "de": "Psychische Kräfte tauschen Änderungen an Verteidigung und Spezial-Verteidigung mit denen des Zieles.",
+    "es": "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.",
+    "ko": "초능력으로 자신과 상대의 방어와 특수방어의 능력 변화를 교체한다.",
+    "zh-CN": "利用超能力互换 自己和对手的防御 以及特防的能力变化。",
+    "zh-TW": "用超能力將自己和對手的 防禦與特防的能力變化互相交換。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

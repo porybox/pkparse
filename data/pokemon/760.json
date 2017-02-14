@@ -1,0 +1,45 @@
+{
+  "id": 760,
+  "name": "bewear",
+  "gender_rate": 4,
+  "capture_rate": 70,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "pink",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "キテルグマ",
+    "en": "Bewear",
+    "fr": "Chelours",
+    "it": "Bewear",
+    "de": "Kosturso",
+    "es": "Bewear",
+    "ko": "이븐곰"
+  },
+  "genera": {
+    "ja": "ごうわん",
+    "en": "Strong Arm",
+    "fr": "Biscoteaux",
+    "it": "Fortebraccio",
+    "de": "Kraftarme",
+    "es": "Brazo Fuerte",
+    "ko": "강한완력"
+  },
+  "types": [
+    "normal",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 120,
+    "attack": 125,
+    "defense": 80,
+    "special-attack": 55,
+    "special-defense": 60,
+    "speed": 60
+  }
+}

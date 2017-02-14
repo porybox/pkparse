@@ -2,36 +2,13 @@
   "id": 141,
   "name": "leech-life",
   "accuracy": 100,
-  "effect_chance": null,
-  "pp": 15,
+  "pp": 10,
   "priority": 0,
-  "power": 20,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  [Drains]{mechanic:drain} half the damage inflicted to heal the user.",
-      "short_effect": "Drains half the damage inflicted to heal the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "power": 80,
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+heal"
-    },
+    "ailment": "none",
+    "category": "damage+heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,43 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Leech Life",
-      "language": "en"
-    },
-    {
-      "name": "Sanguisuga",
-      "language": "it"
-    },
-    {
-      "name": "Chupavidas",
-      "language": "es"
-    },
-    {
-      "name": "Blutsauger",
-      "language": "de"
-    },
-    {
-      "name": "Vampirisme",
-      "language": "fr"
-    },
-    {
-      "name": "흡혈",
-      "language": "ko"
-    },
-    {
-      "name": "きゅうけつ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "きゅうけつ",
+    "kana": "きゅうけつ",
+    "en": "Leech Life",
+    "fr": "Vampirisme",
+    "it": "Sanguisuga",
+    "de": "Blutsauger",
+    "es": "Chupavidas",
+    "ko": "흡혈",
+    "zh-CN": "吸血",
+    "zh-TW": "吸血"
   },
-  "type": {
-    "name": "bug"
-  }
+  "flavor_text_entries": {
+    "ja": "血を　吸い取って　相手を 攻撃する。　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+    "kana": "ちを　すいとって　あいてを こうげきする。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+    "en": "The user drains the target’s blood. The user’s HP is restored by half the damage taken by the target.",
+    "fr": "Une attaque qui aspire le sang de l’ennemi. La moitié des dégâts sont convertis en PV pour le lanceur.",
+    "it": "Mossa succhiasangue. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+    "de": "Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+    "es": "Restaura al usuario la mitad del daño causado al objetivo.",
+    "ko": "피를 빨아서 상대를 공격한다. 준 데미지의 절반을 HP로 회복한다.",
+    "zh-CN": "吸取血液攻击对手。 可以回复给予对手 伤害的一半ＨＰ。",
+    "zh-TW": "吸取對手的血液進行攻擊。 可以回復給予對手 傷害的一半ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "pp": 15,
+        "power": 20,
+        "flavor_text_entries": {
+          "ja": "血を　吸い取って　相手を 攻撃する。与えた　ダメージの 半分の　ＨＰを　回復できる。"
+        }
+      }
+    }
+  ]
 }

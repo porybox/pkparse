@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 65,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "arms"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ベトベトン",
-      "language": "ja"
-    },
-    {
-      "name": "Betbeton",
-      "language": "roomaji"
-    },
-    {
-      "name": "질뻐기",
-      "language": "ko"
-    },
-    {
-      "name": "臭臭泥",
-      "language": "zh"
-    },
-    {
-      "name": "Grotadmorv",
-      "language": "fr"
-    },
-    {
-      "name": "Sleimok",
-      "language": "de"
-    },
-    {
-      "name": "Muk",
-      "language": "es"
-    },
-    {
-      "name": "Muk",
-      "language": "it"
-    },
-    {
-      "name": "Muk",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ベトベトン",
+    "en": "Muk",
+    "fr": "Grotadmorv",
+    "it": "Muk",
+    "de": "Sleimok",
+    "es": "Muk",
+    "ko": "질뻐기"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ヘドロ",
-      "language": "ja"
-    },
-    {
-      "genus": "진흙",
-      "language": "ko"
-    },
-    {
-      "genus": "Dégueu",
-      "language": "fr"
-    },
-    {
-      "genus": "Schlamm",
-      "language": "de"
-    },
-    {
-      "genus": "Lodo",
-      "language": "es"
-    },
-    {
-      "genus": "Melma",
-      "language": "it"
-    },
-    {
-      "genus": "Sludge",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ヘドロ",
+    "en": "Sludge",
+    "fr": "Dégueu",
+    "it": "Melma",
+    "de": "Schlamm",
+    "es": "Lodo",
+    "ko": "진흙"
+  },
   "varieties": [
     {
       "is_default": true,

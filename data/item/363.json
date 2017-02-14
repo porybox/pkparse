@@ -1,0 +1,48 @@
+{
+  "id": 363,
+  "name": "tm36",
+  "names": {
+    "ja": "わざマシン３６",
+    "kana": "わざマシン３６",
+    "en": "TM36",
+    "fr": "CT36",
+    "it": "MT36",
+    "de": "TM36",
+    "es": "MT36",
+    "ko": "기술머신36",
+    "zh-CN": "招式学习器３６",
+    "zh-TW": "招式學習器３６"
+  },
+  "flavor_text_entries": {
+    "ja": "汚い　ヘドロを 相手に　投げつけて　攻撃する。 毒状態に　することが　ある。",
+    "kana": "きたない　ヘドロを あいてに　なげつけて　こうげきする。 どく　じょうたいに　することが　ある。",
+    "en": "Unsanitary sludge is hurled at the target. This may also poison the target.",
+    "fr": "Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner.",
+    "it": "Chi la usa lancia fango malsano sul bersaglio. Può anche avvelenarlo.",
+    "de": "Das Ziel wird mit Giftschlamm beworfen. Kann eventuell Vergiftungen hervorrufen.",
+    "es": "Descarga de lodo tóxico que puede llegar a envenenar al objetivo.",
+    "ko": "더러운 오물을 상대에게 내던져서 공격한다. 독 상태로 만들 때가 있다.",
+    "zh-CN": "用污泥投掷对手进行攻击。 有时会让对手陷入中毒状态。",
+    "zh-TW": "向對手投擲污泥進行攻擊。 有時會讓對手陷入中毒狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "きたない　ヘドロを　なげつける。 あいてを　どくの　じょうたいに することが　ある。",
+          "fr": "Le lanceur envoie des détritus sur l’ennemi. Peut aussi l’empoisonner.",
+          "it": "Chi la usa attacca lanciando fango sul bersaglio. Può anche avvelenarlo."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Das Ziel versinkt im Giftschlamm. Kann eventuell Vergiftungen hervorrufen."
+        }
+      }
+    }
+  ]
+}

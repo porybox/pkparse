@@ -2,49 +2,13 @@
   "id": 257,
   "name": "heat-wave",
   "accuracy": 90,
-  "effect_chance": 10,
   "pp": 10,
   "priority": 0,
   "power": 95,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sunny-day"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "short_effect": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "burn",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Heat Wave",
-      "language": "en"
-    },
-    {
-      "name": "Ondacalda",
-      "language": "it"
-    },
-    {
-      "name": "Onda Ígnea",
-      "language": "es"
-    },
-    {
-      "name": "Hitzewelle",
-      "language": "de"
-    },
-    {
-      "name": "Canicule",
-      "language": "fr"
-    },
-    {
-      "name": "열풍",
-      "language": "ko"
-    },
-    {
-      "name": "ねっぷう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
+  "names": {
+    "ja": "ねっぷう",
+    "kana": "ねっぷう",
+    "en": "Heat Wave",
+    "fr": "Canicule",
+    "it": "Ondacalda",
+    "de": "Hitzewelle",
+    "es": "Onda Ígnea",
+    "ko": "열풍",
+    "zh-CN": "热风",
+    "zh-TW": "熱風"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "熱い　息を 相手に　吹きつけて　攻撃する。 やけど状態に　することが　ある。",
+    "kana": "あつい　いきを あいてに　ふきつけて　こうげきする。 やけど　じょうたいに　することが　ある。",
+    "en": "The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.",
+    "fr": "Le lanceur provoque une vague de chaleur. Peut aussi brûler l’ennemi.",
+    "it": "Chi la usa investe i nemici che ha intorno con una folata di vento caldo. Può anche scottarli.",
+    "de": "Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.",
+    "es": "Provoca un viento abrasador que puede quemar al objetivo.",
+    "ko": "뜨거운 숨결을 상대에게 내뿜어 공격한다. 화상 상태로 만들 때가 있다.",
+    "zh-CN": "将炎热的气息 吹向对手进行攻击。 有时会让对手陷入灼伤状态。",
+    "zh-TW": "將炎熱的氣息 吹向對手進行攻擊。 有時會讓對手陷入灼傷狀態。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "fire"
 }

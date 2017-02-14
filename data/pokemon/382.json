@@ -3,15 +3,13 @@
   "name": "kyogre",
   "order": 412,
   "gender_rate": -1,
-  "capture_rate": 5,
+  "capture_rate": 3,
   "base_happiness": 0,
   "is_baby": false,
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 198,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -45,44 +39,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "カイオーガ",
-      "language": "ja"
-    },
-    {
-      "name": "Kyogre",
-      "language": "roomaji"
-    },
-    {
-      "name": "가이오가",
-      "language": "ko"
-    },
-    {
-      "name": "蓋歐卡",
-      "language": "zh"
-    },
-    {
-      "name": "Kyogre",
-      "language": "fr"
-    },
-    {
-      "name": "Kyogre",
-      "language": "de"
-    },
-    {
-      "name": "Kyogre",
-      "language": "es"
-    },
-    {
-      "name": "Kyogre",
-      "language": "it"
-    },
-    {
-      "name": "Kyogre",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カイオーガ",
+    "en": "Kyogre",
+    "fr": "Kyogre",
+    "it": "Kyogre",
+    "de": "Kyogre",
+    "es": "Kyogre",
+    "ko": "가이오가"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -93,36 +58,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かいてい",
-      "language": "ja"
-    },
-    {
-      "genus": "해저",
-      "language": "ko"
-    },
-    {
-      "genus": "Bassinmarin",
-      "language": "fr"
-    },
-    {
-      "genus": "Seegründler",
-      "language": "de"
-    },
-    {
-      "genus": "Cuenca Mar",
-      "language": "es"
-    },
-    {
-      "genus": "Oceano",
-      "language": "it"
-    },
-    {
-      "genus": "Sea Basin",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かいてい",
+    "en": "Sea Basin",
+    "fr": "Bassinmarin",
+    "it": "Oceano",
+    "de": "Seegründler",
+    "es": "Cuenca Mar",
+    "ko": "해저"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -142,5 +86,13 @@
     "special-attack": 150,
     "special-defense": 140,
     "speed": 90
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 28,
+      "prior_values": {
+        "capture_rate": 5
+      }
+    }
+  ]
 }

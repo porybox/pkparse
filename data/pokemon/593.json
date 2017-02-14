@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 181,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "tentacles"
   },
@@ -51,68 +45,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ブルンゲル",
-      "language": "ja"
-    },
-    {
-      "name": "탱탱겔",
-      "language": "ko"
-    },
-    {
-      "name": "Moyade",
-      "language": "fr"
-    },
-    {
-      "name": "Apoquallyp",
-      "language": "de"
-    },
-    {
-      "name": "Jellicent",
-      "language": "es"
-    },
-    {
-      "name": "Jellicent",
-      "language": "it"
-    },
-    {
-      "name": "Jellicent",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ブルンゲル",
+    "en": "Jellicent",
+    "fr": "Moyade",
+    "it": "Jellicent",
+    "de": "Apoquallyp",
+    "es": "Jellicent",
+    "ko": "탱탱겔"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふゆう",
-      "language": "ja"
-    },
-    {
-      "genus": "부유",
-      "language": "ko"
-    },
-    {
-      "genus": "Flottaison",
-      "language": "fr"
-    },
-    {
-      "genus": "Gleit",
-      "language": "de"
-    },
-    {
-      "genus": "Ingrávido",
-      "language": "es"
-    },
-    {
-      "genus": "Fluttuante",
-      "language": "it"
-    },
-    {
-      "genus": "Floating",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふゆう",
+    "en": "Floating",
+    "fr": "Flottaison",
+    "it": "Fluttuante",
+    "de": "Gleit",
+    "es": "Ingrávido",
+    "ko": "부유"
+  },
   "varieties": [
     {
       "is_default": true,

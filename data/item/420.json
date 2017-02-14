@@ -1,0 +1,38 @@
+{
+  "id": 420,
+  "name": "hm01",
+  "names": {
+    "ja": "ひでんマシン０１",
+    "kana": "ひでんマシン０１",
+    "en": "HM01",
+    "fr": "CS01",
+    "it": "MN01",
+    "de": "VM01",
+    "es": "MO01",
+    "ko": "비전머신01",
+    "zh-CN": "秘传学习器０１",
+    "zh-TW": "秘傳學習器０１"
+  },
+  "flavor_text_entries": {
+    "ja": "カマや　ツメなどで 相手を　切りつけて　攻撃する。 細い　樹木も　きることが　できる。",
+    "kana": "カマや　ツメなどの　するどいもので きりつけて　こうげきする。 ほそいきを　きることも　できる。",
+    "en": "The target is cut with a scythe or claw. This can also be used to cut down thin trees.",
+    "fr": "Coupe l’ennemi avec des lames ou des griffes. Hors combat, permet de couper des arbres fins.",
+    "it": "Attacca il nemico con artigli o falci affilate. Fuori dalla lotta si usa per tagliare piccoli alberi.",
+    "de": "Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.",
+    "es": "Corta al objetivo con una cuchilla o garra. También puede usarse para cortar árboles finos.",
+    "ko": "낫이나 발톱 등 날카로운 것으로 갈라서 공격한다. 얇은 나무를 자를 수도 있다.",
+    "zh-CN": "用镰刀或爪子等 切斩对手进行攻击。 还可以切断细的树木。",
+    "zh-TW": "用鐮刀或爪子等 切斬對手進行攻擊。 也可以切斷細的樹木。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Corta al objetivo con una cuchilla o garra. También puede usarse para cortar árboles delgados."
+        }
+      }
+    }
+  ]
+}

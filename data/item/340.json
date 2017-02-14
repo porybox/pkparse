@@ -1,0 +1,40 @@
+{
+  "id": 340,
+  "name": "tm13",
+  "names": {
+    "ja": "わざマシン１３",
+    "kana": "わざマシン１３",
+    "en": "TM13",
+    "fr": "CT13",
+    "it": "MT13",
+    "de": "TM13",
+    "es": "MT13",
+    "ko": "기술머신13",
+    "zh-CN": "招式学习器１３",
+    "zh-TW": "招式學習器１３"
+  },
+  "flavor_text_entries": {
+    "ja": "凍える　ビームを 相手に　発射して　攻撃する。 こおり状態に　することが　ある。",
+    "kana": "こごえる　ビームを あいてに　はっしゃして　こうげきする。 こおり　じょうたいに　することが　ある。",
+    "en": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",
+    "fr": "Un rayon de glace frappe l’ennemi. Peut aussi le geler.",
+    "it": "Il bersaglio è colpito da un raggio di energia gelida che può anche congelarlo.",
+    "de": "Das Ziel wird von einem eiskalten Energiestrahl getroffen. Dieser friert es eventuell ein.",
+    "es": "Ataca al objetivo con un rayo de hielo que puede llegar a congelarlo.",
+    "ko": "냉동빔을 상대에게 발사하여 공격한다. 얼음 상태로 만들 때가 있다.",
+    "zh-CN": "向对手发射 冰冻光束进行攻击。 有时会让对手陷入冰冻状态。",
+    "zh-TW": "向對手發射 冰凍光束進行攻擊。 有時會讓對手陷入冰凍狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "れいきの　ビームを　はっしゃして こうげきする。　あいてを　こおりの じょうたいに　することが　ある。",
+          "en": "The target is struck with an icy- cold beam of energy. This may also leave the target frozen.",
+          "it": "Il nemico è colpito da un raggio di energia gelida che può anche congelarlo."
+        }
+      }
+    }
+  ]
+}

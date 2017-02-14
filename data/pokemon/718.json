@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 150,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "squiggle"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ジガルデ",
-      "language": "ja"
-    },
-    {
-      "name": "지가르데",
-      "language": "ko"
-    },
-    {
-      "name": "Zygarde",
-      "language": "fr"
-    },
-    {
-      "name": "Zygarde",
-      "language": "de"
-    },
-    {
-      "name": "Zygarde",
-      "language": "es"
-    },
-    {
-      "name": "Zygarde",
-      "language": "it"
-    },
-    {
-      "name": "Zygarde",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ジガルデ",
+    "en": "Zygarde",
+    "fr": "Zygarde",
+    "it": "Zygarde",
+    "de": "Zygarde",
+    "es": "Zygarde",
+    "ko": "지가르데"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ちつじょ",
-      "language": "ja"
-    },
-    {
-      "genus": "질서",
-      "language": "ko"
-    },
-    {
-      "genus": "Équilibre",
-      "language": "fr"
-    },
-    {
-      "genus": "Ordnung",
-      "language": "de"
-    },
-    {
-      "genus": "Equilibrio",
-      "language": "es"
-    },
-    {
-      "genus": "Equilibrio",
-      "language": "it"
-    },
-    {
-      "genus": "Order",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ちつじょ",
+    "en": "Order",
+    "fr": "Équilibre",
+    "it": "Equilibrio",
+    "de": "Ordnung",
+    "es": "Equilibrio",
+    "ko": "질서"
+  },
   "varieties": [
     {
       "is_default": true,

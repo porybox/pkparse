@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": true,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 137,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "bug-wings"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ハッサム",
-      "language": "ja"
-    },
-    {
-      "name": "Hassam",
-      "language": "roomaji"
-    },
-    {
-      "name": "핫삼",
-      "language": "ko"
-    },
-    {
-      "name": "巨鉗螳螂",
-      "language": "zh"
-    },
-    {
-      "name": "Cizayox",
-      "language": "fr"
-    },
-    {
-      "name": "Scherox",
-      "language": "de"
-    },
-    {
-      "name": "Scizor",
-      "language": "es"
-    },
-    {
-      "name": "Scizor",
-      "language": "it"
-    },
-    {
-      "name": "Scizor",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハッサム",
+    "en": "Scizor",
+    "fr": "Cizayox",
+    "it": "Scizor",
+    "de": "Scherox",
+    "es": "Scizor",
+    "ko": "핫삼"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はさみ",
-      "language": "ja"
-    },
-    {
-      "genus": "집게",
-      "language": "ko"
-    },
-    {
-      "genus": "Pince",
-      "language": "fr"
-    },
-    {
-      "genus": "Kneifer",
-      "language": "de"
-    },
-    {
-      "genus": "Tenaza",
-      "language": "es"
-    },
-    {
-      "genus": "Chela",
-      "language": "it"
-    },
-    {
-      "genus": "Pincer",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はさみ",
+    "en": "Pincer",
+    "fr": "Pince",
+    "it": "Chela",
+    "de": "Kneifer",
+    "es": "Tenaza",
+    "ko": "집게"
+  },
   "varieties": [
     {
       "is_default": true,

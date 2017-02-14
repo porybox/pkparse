@@ -1,0 +1,42 @@
+{
+  "id": 601,
+  "name": "x-sp-def-3",
+  "names": {
+    "ja": "ＳＰガード３",
+    "kana": "スペシャルガード３",
+    "en": "X Sp. Def 3",
+    "fr": "Déf. Spé. 3",
+    "it": "Dif. Spec. X-3",
+    "de": "X-Sp.-Vert.3",
+    "es": "Def. Esp. X 3",
+    "ko": "스페셜가드3",
+    "zh-CN": "特防强化３",
+    "zh-TW": "特防強化３"
+  },
+  "flavor_text_entries": {
+    "ja": "戦闘中の　ポケモンの 特防を　かなり　あげる。 ひっこめると　元に　戻る。",
+    "kana": "せんとうちゅうの　ポケモンの とくぼうを　かなり　あげる。 ひっこめると　もとに　もどる。",
+    "en": "It drastically raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    "fr": "Augmente sensiblement la Défense Spéciale pendant un combat. L’effet s’estompe si le Pokémon est retiré.",
+    "it": "Aumenta moltissimo la Difesa Speciale di un Pokémon in una lotta. L’effetto svanisce se il Pokémon è sostituito.",
+    "de": "Hebt den Spezial-Verteidigungs-Wert eines Pokémon im Kampf stark an. Die Wirkung endet mit dem Austausch des Pokémon.",
+    "es": "Aumenta bastante la Defensa Especial en combate. Al cambiar de Pokémon, el efecto desaparece.",
+    "ko": "배틀 중인 포켓몬의 특수방어를 상당히 올린다. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다.",
+    "zh-CN": "能大量提高战斗中 宝可梦的特防。 离场后，效果便会消失。",
+    "zh-TW": "能大幅提高戰鬥中 寶可夢的特防。 離場後，效果便會復原。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "ja": "スペシャルガード３",
+          "de": "X-Sp. Ver.3"
+        },
+        "flavor_text_entries": {
+          "fr": "Augmente sensiblement la Défense Spéciale pendant un combat. L’effet s’estompe si le Pokémon se retire."
+        }
+      }
+    }
+  ]
+}

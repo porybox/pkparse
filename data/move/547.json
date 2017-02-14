@@ -2,34 +2,13 @@
   "id": 547,
   "name": "relic-song",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 10,
   "priority": 0,
   "power": 75,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to put the target to [sleep]{mechanic:sleep}.\nIf the user is a []{pokemon:meloetta}, it will toggle between Aria and Pirouette Forme.",
-      "short_effect": "Has a $effect_chance% chance to put the target to sleep.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "sleep"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "sleep",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Relic Song",
-      "language": "en"
-    },
-    {
-      "name": "Cantoantico",
-      "language": "it"
-    },
-    {
-      "name": "Canto Arcaico",
-      "language": "es"
-    },
-    {
-      "name": "Urgesang",
-      "language": "de"
-    },
-    {
-      "name": "Chant Antique",
-      "language": "fr"
-    },
-    {
-      "name": "옛노래",
-      "language": "ko"
-    },
-    {
-      "name": "いにしえのうた",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-opponents"
+  "names": {
+    "ja": "いにしえのうた",
+    "kana": "いにしえのうた",
+    "en": "Relic Song",
+    "fr": "Chant Antique",
+    "it": "Cantoantico",
+    "de": "Urgesang",
+    "es": "Canto Arcaico",
+    "ko": "옛노래",
+    "zh-CN": "古老之歌",
+    "zh-TW": "古老之歌"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "いにしえのうたを　相手に　聞かせて 心に　うったえて　攻撃する。 眠り状態に　することが　ある。",
+    "kana": "いにしえのうたを　あいてに　きかせて こころに　うったえて　こうげきする。 ねむり　じょうたいに　することが　ある。",
+    "en": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This may also induce sleep.",
+    "fr": "Le lanceur attaque l’ennemi en lui chantant une chanson d’un autre temps. Peut l’endormir.",
+    "it": "Chi la usa attacca i nemici intorno a sé intonando un’antica melodia che colpisce il loro spirito. Può anche farli addormentare.",
+    "de": "Anwender greift mit Urgesang an, der Ziele in der Nähe im tiefsten Inneren anspricht. Diese schlafen eventuell ein.",
+    "es": "Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.",
+    "ko": "옛 노래를 상대에게 들려주고 마음에 호소하여 공격한다. 잠듦 상태로 만들 때가 있다.",
+    "zh-CN": "让对手听古老之歌， 打动对手的内心进行攻击。 有时会让对手陷入睡眠状态。",
+    "zh-TW": "唱出古老之歌， 打動對手的心進行攻擊。 有時會讓對手陷入睡眠狀態。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "옛노래를 상대에게 들려주고 마음에 호소하여 공격한다. 잠듦 상태로 만들 때가 있다."
+        }
+      }
+    }
+  ]
 }

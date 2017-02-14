@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 35,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    }
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ニョロボン",
-      "language": "ja"
-    },
-    {
-      "name": "Nyorobon",
-      "language": "roomaji"
-    },
-    {
-      "name": "강챙이",
-      "language": "ko"
-    },
-    {
-      "name": "快泳蛙",
-      "language": "zh"
-    },
-    {
-      "name": "Tartard",
-      "language": "fr"
-    },
-    {
-      "name": "Quappo",
-      "language": "de"
-    },
-    {
-      "name": "Poliwrath",
-      "language": "es"
-    },
-    {
-      "name": "Poliwrath",
-      "language": "it"
-    },
-    {
-      "name": "Poliwrath",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ニョロボン",
+    "en": "Poliwrath",
+    "fr": "Tartard",
+    "it": "Poliwrath",
+    "de": "Quappo",
+    "es": "Poliwrath",
+    "ko": "강챙이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おたま",
-      "language": "ja"
-    },
-    {
-      "genus": "올챙이",
-      "language": "ko"
-    },
-    {
-      "genus": "Têtard",
-      "language": "fr"
-    },
-    {
-      "genus": "Kaulquappe",
-      "language": "de"
-    },
-    {
-      "genus": "Renacuajo",
-      "language": "es"
-    },
-    {
-      "genus": "Girino",
-      "language": "it"
-    },
-    {
-      "genus": "Tadpole",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おたま",
+    "en": "Tadpole",
+    "fr": "Têtard",
+    "it": "Girino",
+    "de": "Kaulquappe",
+    "es": "Renacuajo",
+    "ko": "올챙이"
+  },
   "varieties": [
     {
       "is_default": true,

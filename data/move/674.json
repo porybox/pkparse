@@ -1,0 +1,59 @@
+{
+  "id": 674,
+  "name": "gear-up",
+  "accuracy": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "damage_class": "status",
+  "meta": {
+    "ailment": "none",
+    "category": "net-good-stats",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "アシストギア",
+    "kana": "アシストギア",
+    "en": "Gear Up",
+    "fr": "Engrenage",
+    "it": "Marciainpiù",
+    "de": "Hilfsmechanik",
+    "es": "Piñón Auxiliar",
+    "ko": "어시스트기어",
+    "zh-CN": "辅助齿轮",
+    "zh-TW": "輔助齒輪"
+  },
+  "flavor_text_entries": {
+    "ja": "ギアを　入れる　ことによって 特性　プラスと　マイナスの 攻撃と　特攻が　あがる。",
+    "kana": "ギアを　いれる　ことによって とくせい　プラスと　マイナスの こうげきと　とくこうが　あがる。",
+    "en": "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pokémon with the Plus or Minus Ability.",
+    "fr": "Change de réglage pour augmenter l’Attaque et l’Attaque Spéciale des alliés ayant les talents Plus ou Minus.",
+    "it": "Dà una marcia in più agli alleati con le abilità Meno o Più aumentandone l’Attacco e l’Attacco Speciale.",
+    "de": "Der Anwender erhöht mithilfe von Zahnrädern Angriff und Spezial-Angriff von Team-Pokémon mit der Fähigkeit Plus oder Minus.",
+    "es": "Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos.",
+    "ko": "기어를 넣는 것으로 특성 플러스와 마이너스의 공격과 특수공격이 올라간다.",
+    "zh-CN": "启动齿轮， 提高特性为正电和负电的 宝可梦的攻击和特攻。",
+    "zh-TW": "藉由啟動齒輪， 提高特性為正電和負電的 寶可夢的攻擊和特攻。"
+  },
+  "stat_changes": [
+    {
+      "change": 1,
+      "stat": "attack"
+    },
+    {
+      "change": 1,
+      "stat": "special-attack"
+    }
+  ],
+  "target": "user-and-allies",
+  "type": "steel"
+}

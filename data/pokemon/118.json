@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 53,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    }
+    "water2"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "fish"
   },
@@ -81,44 +75,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "トサキント",
-      "language": "ja"
-    },
-    {
-      "name": "Tosakinto",
-      "language": "roomaji"
-    },
-    {
-      "name": "콘치",
-      "language": "ko"
-    },
-    {
-      "name": "角金魚",
-      "language": "zh"
-    },
-    {
-      "name": "Poissirène",
-      "language": "fr"
-    },
-    {
-      "name": "Goldini",
-      "language": "de"
-    },
-    {
-      "name": "Goldeen",
-      "language": "es"
-    },
-    {
-      "name": "Goldeen",
-      "language": "it"
-    },
-    {
-      "name": "Goldeen",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "トサキント",
+    "en": "Goldeen",
+    "fr": "Poissirène",
+    "it": "Goldeen",
+    "de": "Goldini",
+    "es": "Goldeen",
+    "ko": "콘치"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -129,36 +94,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きんぎょ",
-      "language": "ja"
-    },
-    {
-      "genus": "금붕어",
-      "language": "ko"
-    },
-    {
-      "genus": "Poisson",
-      "language": "fr"
-    },
-    {
-      "genus": "Goldfisch",
-      "language": "de"
-    },
-    {
-      "genus": "Pez Color",
-      "language": "es"
-    },
-    {
-      "genus": "Pescerosso",
-      "language": "it"
-    },
-    {
-      "genus": "Goldfish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きんぎょ",
+    "en": "Goldfish",
+    "fr": "Poisson",
+    "it": "Pescerosso",
+    "de": "Goldfisch",
+    "es": "Pez Color",
+    "ko": "금붕어"
+  },
   "varieties": [
     {
       "is_default": true,

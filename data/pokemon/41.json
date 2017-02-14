@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 145,
@@ -75,13 +73,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "wings"
   },
@@ -93,44 +87,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ズバット",
-      "language": "ja"
-    },
-    {
-      "name": "Zubat",
-      "language": "roomaji"
-    },
-    {
-      "name": "주뱃",
-      "language": "ko"
-    },
-    {
-      "name": "超音蝠",
-      "language": "zh"
-    },
-    {
-      "name": "Nosferapti",
-      "language": "fr"
-    },
-    {
-      "name": "Zubat",
-      "language": "de"
-    },
-    {
-      "name": "Zubat",
-      "language": "es"
-    },
-    {
-      "name": "Zubat",
-      "language": "it"
-    },
-    {
-      "name": "Zubat",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ズバット",
+    "en": "Zubat",
+    "fr": "Nosferapti",
+    "it": "Zubat",
+    "de": "Zubat",
+    "es": "Zubat",
+    "ko": "주뱃"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -141,36 +106,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こうもり",
-      "language": "ja"
-    },
-    {
-      "genus": "박쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Chovsouris",
-      "language": "fr"
-    },
-    {
-      "genus": "Fledermaus",
-      "language": "de"
-    },
-    {
-      "genus": "Murciélago",
-      "language": "es"
-    },
-    {
-      "genus": "Pipistrello",
-      "language": "it"
-    },
-    {
-      "genus": "Bat",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こうもり",
+    "en": "Bat",
+    "fr": "Chovsouris",
+    "it": "Pipistrello",
+    "de": "Fledermaus",
+    "es": "Murciélago",
+    "ko": "박쥐"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,38 @@
+{
+  "id": 232,
+  "name": "scope-lens",
+  "names": {
+    "ja": "ピントレンズ",
+    "kana": "ピントレンズ",
+    "en": "Scope Lens",
+    "fr": "Lentilscope",
+    "it": "Mirino",
+    "de": "Scope-Linse",
+    "es": "Periscopio",
+    "ko": "초점렌즈",
+    "zh-CN": "焦点镜",
+    "zh-TW": "焦點鏡"
+  },
+  "flavor_text_entries": {
+    "ja": "弱点が　みえる　レンズ。 持たせた　ポケモンの　技が 急所に　当たりやすくなる。",
+    "kana": "じゃくてんが　みえる　レンズ。 もたせた　ポケモンの　わざが きゅうしょに　あたりやすくなる。",
+    "en": "An item to be held by a Pokémon. It’s a lens for scoping out weak points. It boosts the holder’s critical-hit ratio.",
+    "fr": "Objet à tenir. Une lentille qui augmente le taux de critique du porteur.",
+    "it": "Strumento da dare a un Pokémon. Lente che aumenta la probabilità di sferrare brutti colpi.",
+    "de": "Ein Item, das einem Pokémon zum Tragen gegeben werden kann. Es erhöht die Volltrefferquote.",
+    "es": "Su lente aumenta la probabilidad que tiene el Pokémon que lo lleva de conseguir un golpe crítico.",
+    "ko": "약점이 보이는 렌즈. 지니게 한 포켓몬의 기술이 급소에 맞기 쉬워진다.",
+    "zh-CN": "能看见弱点的镜片。 携带它的宝可梦的招式 会变得容易击中要害。",
+    "zh-TW": "能看見弱點的鏡片。 攜帶它的寶可夢的招式 會變得容易擊中要害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Objet à tenir. Une lentille qui augmente le taux de critiques du porteur."
+        }
+      }
+    }
+  ]
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 130,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "heads"
   },
@@ -49,68 +43,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ギアル",
-      "language": "ja"
-    },
-    {
-      "name": "기어르",
-      "language": "ko"
-    },
-    {
-      "name": "Tic",
-      "language": "fr"
-    },
-    {
-      "name": "Klikk",
-      "language": "de"
-    },
-    {
-      "name": "Klink",
-      "language": "es"
-    },
-    {
-      "name": "Klink",
-      "language": "it"
-    },
-    {
-      "name": "Klink",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ギアル",
+    "en": "Klink",
+    "fr": "Tic",
+    "it": "Klink",
+    "de": "Klikk",
+    "es": "Klink",
+    "ko": "기어르"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はぐるま",
-      "language": "ja"
-    },
-    {
-      "genus": "톱니바퀴",
-      "language": "ko"
-    },
-    {
-      "genus": "Engrenage",
-      "language": "fr"
-    },
-    {
-      "genus": "Getriebe",
-      "language": "de"
-    },
-    {
-      "genus": "Engranaje",
-      "language": "es"
-    },
-    {
-      "genus": "Ingranaggio",
-      "language": "it"
-    },
-    {
-      "genus": "Gear",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はぐるま",
+    "en": "Gear",
+    "fr": "Engrenage",
+    "it": "Ingranaggio",
+    "de": "Getriebe",
+    "es": "Engranaje",
+    "ko": "톱니바퀴"
+  },
   "varieties": [
     {
       "is_default": true,

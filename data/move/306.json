@@ -2,49 +2,13 @@
   "id": 306,
   "name": "crush-claw",
   "accuracy": 95,
-  "effect_chance": 50,
   "pp": 10,
   "priority": 0,
   "power": 75,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "swords-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 50
   },
-  "names": [
-    {
-      "name": "Crush Claw",
-      "language": "en"
-    },
-    {
-      "name": "Tritartigli",
-      "language": "it"
-    },
-    {
-      "name": "Garra Brutal",
-      "language": "es"
-    },
-    {
-      "name": "Zermalmklaue",
-      "language": "de"
-    },
-    {
-      "name": "Éclate Griffe",
-      "language": "fr"
-    },
-    {
-      "name": "브레이크크루",
-      "language": "ko"
-    },
-    {
-      "name": "ブレイククロー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ブレイククロー",
+    "kana": "ブレイククロー",
+    "en": "Crush Claw",
+    "fr": "Éclate Griffe",
+    "it": "Tritartigli",
+    "de": "Zermalmklaue",
+    "es": "Garra Brutal",
+    "ko": "브레이크크루",
+    "zh-CN": "撕裂爪",
+    "zh-TW": "撕裂爪"
+  },
+  "flavor_text_entries": {
+    "ja": "硬く　鋭い　ツメで 切り裂いて　攻撃する。 相手の　防御を　さげることが　ある。",
+    "kana": "かたく　するどい　ツメで　きりさいて こうげきする。あいての　ぼうぎょを さげることが　ある。",
+    "en": "The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.",
+    "fr": "Lacère l’ennemi avec des griffes solides et aiguisées. Peut aussi baisser sa Défense.",
+    "it": "Colpisce il bersaglio con artigli robusti e affilati che possono ridurne la Difesa.",
+    "de": "Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.",
+    "es": "Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.",
+    "ko": "단단하고 날카로운 손톱으로 베어 갈라서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+    "zh-CN": "用坚硬的锐爪 劈开对手进行攻击。 有时会降低对手的防御。",
+    "zh-TW": "用堅硬的銳爪 撕裂對手進行攻擊。 有時會降低對手的防禦。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "selected-pokemon",
+  "type": "normal"
 }

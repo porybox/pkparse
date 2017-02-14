@@ -2,67 +2,13 @@
   "id": 99,
   "name": "rage",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 20,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "thrash"
-        },
-        {
-          "name": "leer"
-        },
-        {
-          "name": "scary-face"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Every time the user is hit after it uses this move but before its next action, its [Attack]{mechanic:attack} raises by one [stage]{mechanic:stage}.",
-      "short_effect": "If the user is hit after using this move, its Attack rises by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Locks the user into this move.  Due to a bug, if this move misses, its [accuracy]{mechanic:accuracy} drops to 1/256 as long as the user is still locked in.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -74,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Rage",
-      "language": "en"
-    },
-    {
-      "name": "Ira",
-      "language": "it"
-    },
-    {
-      "name": "Furia",
-      "language": "es"
-    },
-    {
-      "name": "Raserei",
-      "language": "de"
-    },
-    {
-      "name": "Frénésie",
-      "language": "fr"
-    },
-    {
-      "name": "분노",
-      "language": "ko"
-    },
-    {
-      "name": "いかり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "いかり",
+    "kana": "いかり",
+    "en": "Rage",
+    "fr": "Frénésie",
+    "it": "Ira",
+    "de": "Raserei",
+    "es": "Furia",
+    "ko": "분노",
+    "zh-CN": "愤怒",
+    "zh-TW": "憤怒"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "技を　だしたときに　攻撃を 受けると　怒りの　力で 攻撃が　あがる。",
+    "kana": "わざを　だしたときに　こうげきを うけると　いかりの　ちからで こうげきが　あがる。",
+    "en": "As long as this move is in use, the power of rage raises the Attack stat each time the user is hit in battle.",
+    "fr": "Une fois activée, cette capacité augmente l’Attaque du lanceur à mesure que celui-ci subit des attaques.",
+    "it": "Questa mossa ha il potere di aumentare la statistica Attacco ogni volta che chi la usa viene colpito durante una lotta.",
+    "de": "Erhöht Angriff des Anwenders, wenn dieser getroffen wird, solange die Attacke aktiviert ist.",
+    "es": "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado.",
+    "ko": "기술을 썼을 때 공격을 받으면 분노의 힘으로 공격이 올라간다.",
+    "zh-CN": "如果在使出招式后 受到攻击的话， 会因愤怒的力量而提高攻击。",
+    "zh-TW": "在使用招式後受到攻擊時， 會因憤怒的力量而 提高自己的攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

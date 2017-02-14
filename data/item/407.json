@@ -1,0 +1,40 @@
+{
+  "id": 407,
+  "name": "tm80",
+  "names": {
+    "ja": "わざマシン８０",
+    "kana": "わざマシン８０",
+    "en": "TM80",
+    "fr": "CT80",
+    "it": "MT80",
+    "de": "TM80",
+    "es": "MT80",
+    "ko": "기술머신80",
+    "zh-CN": "招式学习器８０",
+    "zh-TW": "招式學習器８０"
+  },
+  "flavor_text_entries": {
+    "ja": "大きな　岩を 激しく　ぶつけて　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "おおきな　いわを はげしく　ぶつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "Large boulders are hurled at the opposing Pokémon to inflict damage. This may also make the opposing Pokémon flinch.",
+    "fr": "Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut aussi l’apeurer.",
+    "it": "I nemici vengono colpiti con violenza da grandi massi che possono anche farli tentennare.",
+    "de": "Der Anwender schleudert große Felsbrocken auf das Ziel. Dieses schreckt eventuell zurück.",
+    "es": "Arroja grandes rocas para infligir daño. También puede hacer retroceder al objetivo.",
+    "ko": "큰 바위를 세차게 부딪쳐서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "将大岩石 猛烈地撞向对手进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "將大岩石 猛烈地砸向對手進行攻擊。 有時會讓對手畏縮。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "おおきな　がんせきを　なげつけて こうげきする。 あいてを　ひるませることが　ある。",
+          "fr": "Envoie de gros rochers sur l’ennemi pour infliger des dégâts. Peut l’apeurer.",
+          "it": "I nemici vengono colpiti da grandi massi che possono anche farli tentennare."
+        }
+      }
+    }
+  ]
+}

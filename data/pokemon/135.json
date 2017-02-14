@@ -9,9 +9,7 @@
   "hatch_counter": 35,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 79,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "quadruped"
   },
@@ -83,44 +77,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "サンダース",
-      "language": "ja"
-    },
-    {
-      "name": "Thunders",
-      "language": "roomaji"
-    },
-    {
-      "name": "쥬피썬더",
-      "language": "ko"
-    },
-    {
-      "name": "雷精靈",
-      "language": "zh"
-    },
-    {
-      "name": "Voltali",
-      "language": "fr"
-    },
-    {
-      "name": "Blitza",
-      "language": "de"
-    },
-    {
-      "name": "Jolteon",
-      "language": "es"
-    },
-    {
-      "name": "Jolteon",
-      "language": "it"
-    },
-    {
-      "name": "Jolteon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "サンダース",
+    "en": "Jolteon",
+    "fr": "Voltali",
+    "it": "Jolteon",
+    "de": "Blitza",
+    "es": "Jolteon",
+    "ko": "쥬피썬더"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -131,36 +96,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かみなり",
-      "language": "ja"
-    },
-    {
-      "genus": "번개",
-      "language": "ko"
-    },
-    {
-      "genus": "Orage",
-      "language": "fr"
-    },
-    {
-      "genus": "Blitz",
-      "language": "de"
-    },
-    {
-      "genus": "Relámpago",
-      "language": "es"
-    },
-    {
-      "genus": "Luminoso",
-      "language": "it"
-    },
-    {
-      "genus": "Lightning",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かみなり",
+    "en": "Lightning",
+    "fr": "Orage",
+    "it": "Luminoso",
+    "de": "Blitz",
+    "es": "Relámpago",
+    "ko": "번개"
+  },
   "varieties": [
     {
       "is_default": true,

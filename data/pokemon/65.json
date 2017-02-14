@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 104,
@@ -69,13 +67,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "humanoid"
   },
@@ -89,44 +83,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "フーディン",
-      "language": "ja"
-    },
-    {
-      "name": "Foodin",
-      "language": "roomaji"
-    },
-    {
-      "name": "후딘",
-      "language": "ko"
-    },
-    {
-      "name": "胡地",
-      "language": "zh"
-    },
-    {
-      "name": "Alakazam",
-      "language": "fr"
-    },
-    {
-      "name": "Simsala",
-      "language": "de"
-    },
-    {
-      "name": "Alakazam",
-      "language": "es"
-    },
-    {
-      "name": "Alakazam",
-      "language": "it"
-    },
-    {
-      "name": "Alakazam",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フーディン",
+    "en": "Alakazam",
+    "fr": "Alakazam",
+    "it": "Alakazam",
+    "de": "Simsala",
+    "es": "Alakazam",
+    "ko": "후딘"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -137,36 +102,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ねんりき",
-      "language": "ja"
-    },
-    {
-      "genus": "초능력",
-      "language": "ko"
-    },
-    {
-      "genus": "Psy",
-      "language": "fr"
-    },
-    {
-      "genus": "Psi",
-      "language": "de"
-    },
-    {
-      "genus": "Psi",
-      "language": "es"
-    },
-    {
-      "genus": "Psico",
-      "language": "it"
-    },
-    {
-      "genus": "Psi",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ねんりき",
+    "en": "Psi",
+    "fr": "Psy",
+    "it": "Psico",
+    "de": "Psi",
+    "es": "Psi",
+    "ko": "초능력"
+  },
   "varieties": [
     {
       "is_default": true,

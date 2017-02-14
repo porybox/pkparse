@@ -1,0 +1,56 @@
+{
+  "id": 68,
+  "name": "black-flute",
+  "names": {
+    "ja": "くろいビードロ",
+    "kana": "くろいビードロ",
+    "en": "Black Flute",
+    "fr": "Flûte Noire",
+    "it": "Flauto Nero",
+    "de": "Schwarze Flöte",
+    "es": "Flauta Negra",
+    "ko": "검정비드로",
+    "zh-CN": "黑色玻璃哨",
+    "zh-TW": "黑色玻璃哨"
+  },
+  "flavor_text_entries": {
+    "ja": "黒いガラスで　できた　笛。 使った　場所で　強いポケモンと 遭遇　しやすくなる。",
+    "kana": "くろいガラスで　できた　ふえ。 つかった　ばしょで　つよいポケモンと そうぐう　しやすくなる。",
+    "en": "A flute made from black glass. It makes it easier to encounter strong Pokémon in the place you use it.",
+    "fr": "Un jouet en forme de flûte en verre noir. Augmente les chances de rencontrer des Pokémon sauvages forts là où l’on en joue.",
+    "it": "Flauto fatto di vetro nero. Aumenta le probabilità di incontrare Pokémon forti nell’area in cui viene usato.",
+    "de": "Eine Spielzeugflöte aus schwarzem Glas. Erhöht am Einsatzort die Wahrscheinlichkeit, starken wilden Pokémon zu begegnen.",
+    "es": "Una flauta de cristal negro cuyas notas atraen a Pokémon salvajes más fuertes al lugar en el que se usa.",
+    "ko": "검은 유리로 만들어진 피리. 사용한 장소에서 강한 포켓몬과 만나기 쉬워진다.",
+    "zh-CN": "以黑色玻璃制成的哨子。 在使用的地方更容易 遇到强大的宝可梦。",
+    "zh-TW": "以黑色玻璃製成的笛子。 在使用的地方更容易 遇到強大的寶可夢。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un jouet en forme de flûte en verre noir. Augmente les chances de rencontrer des Pokémon sauvages forts où l’on en joue."
+        },
+        "names": {
+          "de": "Schw. Flöte"
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "黒い　ガラスで　できている おもちゃの　笛。",
+          "kana": "くろい　ガラスで　できている おもちゃの　ふえ。",
+          "en": "A lovely toy flute to admire. It’s made from black glass.",
+          "fr": "Un jouet en forme de flûte en verre noir.",
+          "it": "Flauto giocattolo fatto di vetro nero.",
+          "de": "Eine Spielzeugflöte aus schwarzem Glas.",
+          "es": "Una flauta de juguete de cristal negro.",
+          "ko": "검은 유리로 만들어진 장난감 피리."
+        }
+      }
+    }
+  ]
+}

@@ -2,36 +2,13 @@
   "id": 367,
   "name": "acupressure",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises one of the target's stats by two [stages]{mechanic:stage}.  The raised stat is chosen at random from any stats that can be raised by two stages.  If no stat is eligible, this move will [fail]{mechanic:fail}.\n\nIf the target has a []{move:substitute}, this move will have no effect, even if the user is the target.\n\nThis move cannot be copied by []{move:mirror-move}.",
-      "short_effect": "Raises one of a friendly Pokémon's stats at random by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Acupressure",
-      "language": "en"
-    },
-    {
-      "name": "Acupressione",
-      "language": "it"
-    },
-    {
-      "name": "Acupresión",
-      "language": "es"
-    },
-    {
-      "name": "Akupressur",
-      "language": "de"
-    },
-    {
-      "name": "Acupression",
-      "language": "fr"
-    },
-    {
-      "name": "경혈찌르기",
-      "language": "ko"
-    },
-    {
-      "name": "つぼをつく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user-or-ally"
+  "names": {
+    "ja": "つぼをつく",
+    "kana": "つぼをつく",
+    "en": "Acupressure",
+    "fr": "Acupression",
+    "it": "Acupressione",
+    "de": "Akupressur",
+    "es": "Acupresión",
+    "ko": "경혈찌르기",
+    "zh-CN": "点穴",
+    "zh-TW": "點穴"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "つぼおしで　体を　活性化させる。 能力の　どれか　１つを ぐーんと　あげる。",
+    "kana": "つぼおしで　からだを かっせいか　させる。　のうりょくの どれか　１つを　ぐーんと　あげる。",
+    "en": "The user applies pressure to stress points, sharply boosting one of its or its allies’ stats.",
+    "fr": "Le lanceur utilise sa connaissance des points de pression pour beaucoup augmenter une stat.",
+    "it": "Chi la usa esercita pressione su alcuni punti nevralgici e aumenta di molto una statistica a caso.",
+    "de": "Anwender übt Druck auf Stresspunkte aus und erhöht einen Statuswert stark.",
+    "es": "Aplica presión en puntos clave del cuerpo para potenciar una de sus características.",
+    "ko": "경혈을 눌러 몸을 활성화시킨다. 능력 중 하나를 크게 올린다.",
+    "zh-CN": "通过点穴 让身体舒筋活络。 大幅提高某１项能力。",
+    "zh-TW": "利用點穴激發身體的活力， 大幅提高自己的某一項能力。"
+  },
+  "stat_changes": [],
+  "target": "user-or-ally",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "つぼおしで　からだを かっせいか　させる。のうりょくの どれか　１つを　ぐーんと　あげる。",
+          "fr": "Le lanceur utilise sa connaissance des points de pression pour augmenter fortement une stat.",
+          "de": "Anwender erhöht Druck auf Stresspunkte und steigert einen Statuswert stark.",
+          "es": "Aplica presión en puntos clave de su cuerpo o de los aliados para potenciar un parámetro de sus características."
+        }
+      }
+    }
+  ]
 }

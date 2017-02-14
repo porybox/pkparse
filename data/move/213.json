@@ -2,36 +2,13 @@
   "id": 213,
   "name": "attract",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Causes the target to fall in love with the user, giving it a 50% chance to do nothing each turn.  If the user and target are the same gender, or either is genderless, this move will [fail]{mechanic:fail}.  If either Pokémon leaves the [field]{mechanic:field}, this effect ends.",
-      "short_effect": "Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "infatuation"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "infatuation",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Attract",
-      "language": "en"
-    },
-    {
-      "name": "Attrazione",
-      "language": "it"
-    },
-    {
-      "name": "Atracción",
-      "language": "es"
-    },
-    {
-      "name": "Anziehung",
-      "language": "de"
-    },
-    {
-      "name": "Attraction",
-      "language": "fr"
-    },
-    {
-      "name": "헤롱헤롱",
-      "language": "ko"
-    },
-    {
-      "name": "メロメロ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "メロメロ",
+    "kana": "メロメロ",
+    "en": "Attract",
+    "fr": "Attraction",
+    "it": "Attrazione",
+    "de": "Anziehung",
+    "es": "Atracción",
+    "ko": "헤롱헤롱",
+    "zh-CN": "迷人",
+    "zh-TW": "迷人"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "♂なら♀を　♀なら♂を　誘惑して メロメロに　する。 相手は　技が　だしにくくなる。",
+    "kana": "♂なら♀を　♀なら♂を　ゆうわくして メロメロに　する。 あいては　わざが　だしにくく　なる。",
+    "en": "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
+    "fr": "Si l’ennemi est du sexe opposé, il tombe amoureux et rechigne alors à attaquer.",
+    "it": "Se il bersaglio è del sesso opposto, s’infatua e diventa riluttante ad attaccare.",
+    "de": "Wenn das Ziel nicht dem Geschlecht des Anwenders angehört, fühlt es sich zu ihm hingezogen und greift eventuell nicht an.",
+    "es": "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque.",
+    "ko": "수컷은 암컷을 암컷은 수컷을 유혹하여 헤롱헤롱하게 만든다. 상대가 기술을 쓰기 어려워진다.",
+    "zh-CN": "♂诱惑♀或♀诱惑♂， 让对手着迷。 对手将很难使出招式。",
+    "zh-TW": "♂誘惑♀而♀誘惑♂， 讓對手著迷。 對手將難以使用招式。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Angriff auf Anwender vom anderen Geschlecht wird unwahrscheinlich."
+        }
+      }
+    }
+  ]
 }

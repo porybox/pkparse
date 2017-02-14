@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 79,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "fairy"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "quadruped"
   },
@@ -62,44 +54,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "エネコロロ",
-      "language": "ja"
-    },
-    {
-      "name": "Enekororo",
-      "language": "roomaji"
-    },
-    {
-      "name": "델케티",
-      "language": "ko"
-    },
-    {
-      "name": "優雅貓",
-      "language": "zh"
-    },
-    {
-      "name": "Delcatty",
-      "language": "fr"
-    },
-    {
-      "name": "Enekoro",
-      "language": "de"
-    },
-    {
-      "name": "Delcatty",
-      "language": "es"
-    },
-    {
-      "name": "Delcatty",
-      "language": "it"
-    },
-    {
-      "name": "Delcatty",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エネコロロ",
+    "en": "Delcatty",
+    "fr": "Delcatty",
+    "it": "Delcatty",
+    "de": "Enekoro",
+    "es": "Delcatty",
+    "ko": "델케티"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -110,36 +73,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おすまし",
-      "language": "ja"
-    },
-    {
-      "genus": "새침떼기",
-      "language": "ko"
-    },
-    {
-      "genus": "Guindé",
-      "language": "fr"
-    },
-    {
-      "genus": "Eingebildet",
-      "language": "de"
-    },
-    {
-      "genus": "Cursi",
-      "language": "es"
-    },
-    {
-      "genus": "Finezza",
-      "language": "it"
-    },
-    {
-      "genus": "Prim",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おすまし",
+    "en": "Prim",
+    "fr": "Guindé",
+    "it": "Finezza",
+    "de": "Eingebildet",
+    "es": "Cursi",
+    "ko": "새침떼기"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -158,6 +100,16 @@
     "defense": 65,
     "special-attack": 55,
     "special-defense": 55,
-    "speed": 70
-  }
+    "speed": 90
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "speed": 70
+        }
+      }
+    }
+  ]
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 8,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -56,44 +48,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "アリゲイツ",
-      "language": "ja"
-    },
-    {
-      "name": "Alligates",
-      "language": "roomaji"
-    },
-    {
-      "name": "엘리게이",
-      "language": "ko"
-    },
-    {
-      "name": "藍鱷",
-      "language": "zh"
-    },
-    {
-      "name": "Crocrodil",
-      "language": "fr"
-    },
-    {
-      "name": "Tyracroc",
-      "language": "de"
-    },
-    {
-      "name": "Croconaw",
-      "language": "es"
-    },
-    {
-      "name": "Croconaw",
-      "language": "it"
-    },
-    {
-      "name": "Croconaw",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アリゲイツ",
+    "en": "Croconaw",
+    "fr": "Crocrodil",
+    "it": "Croconaw",
+    "de": "Tyracroc",
+    "es": "Croconaw",
+    "ko": "엘리게이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -104,36 +67,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おおあご",
-      "language": "ja"
-    },
-    {
-      "genus": "큰턱",
-      "language": "ko"
-    },
-    {
-      "genus": "Mâchoire",
-      "language": "fr"
-    },
-    {
-      "genus": "Großmaul",
-      "language": "de"
-    },
-    {
-      "genus": "Fauces",
-      "language": "es"
-    },
-    {
-      "genus": "Mascellone",
-      "language": "it"
-    },
-    {
-      "genus": "Big Jaw",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おおあご",
+    "en": "Big Jaw",
+    "fr": "Mâchoire",
+    "it": "Mascellone",
+    "de": "Großmaul",
+    "es": "Fauces",
+    "ko": "큰턱"
+  },
   "varieties": [
     {
       "is_default": true,

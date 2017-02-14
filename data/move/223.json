@@ -2,52 +2,13 @@
   "id": 223,
   "name": "dynamic-punch",
   "accuracy": 50,
-  "effect_chance": 100,
   "pp": 5,
   "priority": 0,
   "power": 100,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "focus-energy"
-        },
-        {
-          "name": "mind-reader"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [confuse]{mechanic:confuse} the target.",
-      "short_effect": "Has a $effect_chance% chance to confuse the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "confusion",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -59,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Dynamic Punch",
-      "language": "en"
-    },
-    {
-      "name": "Dinamipugno",
-      "language": "it"
-    },
-    {
-      "name": "Puño Dinámico",
-      "language": "es"
-    },
-    {
-      "name": "Wuchtschlag",
-      "language": "de"
-    },
-    {
-      "name": "Dynamopoing",
-      "language": "fr"
-    },
-    {
-      "name": "폭발펀치",
-      "language": "ko"
-    },
-    {
-      "name": "ばくれつパンチ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ばくれつパンチ",
+    "kana": "ばくれつパンチ",
+    "en": "Dynamic Punch",
+    "fr": "Dynamopoing",
+    "it": "Dinamipugno",
+    "de": "Wuchtschlag",
+    "es": "Puño Dinámico",
+    "ko": "폭발펀치",
+    "zh-CN": "爆裂拳",
+    "zh-TW": "爆裂拳"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "こん身の　力で パンチを　くりだして　攻撃する。 相手を　必ず　混乱させる。",
+    "kana": "こんしんの　ちからで パンチを　くりだして　こうげきする。 あいてを　かならず　こんらん　させる。",
+    "en": "The user punches the target with full, concentrated power. This confuses the target if it hits.",
+    "fr": "Le lanceur rassemble ses forces et envoie un coup de poing à l’ennemi. Rend ce dernier confus.",
+    "it": "Colpisce il bersaglio con un pugno davvero forte. Se va a segno, lo confonde.",
+    "de": "Kräftiger Schlag, der das Ziel bei Erfolg verwirrt.",
+    "es": "Puñetazo con toda la fuerza concentrada. Causa confusión si atina.",
+    "ko": "혼신의 힘으로 펀치를 날려서 공격한다. 상대를 반드시 혼란시킨다.",
+    "zh-CN": "使出浑身力气出拳进行攻击。 必定会使对手混乱。",
+    "zh-TW": "使出渾身力量出拳進行攻擊。 必定會使對手混亂。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting"
 }

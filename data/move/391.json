@@ -2,36 +2,13 @@
   "id": 391,
   "name": "heart-swap",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User swaps its [stat modifiers]{mechanic:stat-modifiers} with the target.",
-      "short_effect": "User and target swap stat changes.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Heart Swap",
-      "language": "en"
-    },
-    {
-      "name": "Cuorbaratto",
-      "language": "it"
-    },
-    {
-      "name": "Cambia Almas",
-      "language": "es"
-    },
-    {
-      "name": "Statustausch",
-      "language": "de"
-    },
-    {
-      "name": "Permucœur",
-      "language": "fr"
-    },
-    {
-      "name": "하트스웹",
-      "language": "ko"
-    },
-    {
-      "name": "ハートスワップ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ハートスワップ",
+    "kana": "ハートスワップ",
+    "en": "Heart Swap",
+    "fr": "Permucœur",
+    "it": "Cuorbaratto",
+    "de": "Statustausch",
+    "es": "Cambia Almas",
+    "ko": "하트스웹",
+    "zh-CN": "心灵互换",
+    "zh-TW": "心靈互換"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "超能力で 自分と　相手に　かかっている 能力変化を　入れ替える。",
+    "kana": "ちょうのうりょくで じぶんと　あいてに　かかっている のうりょく　へんかを　いれかえる。",
+    "en": "The user employs its psychic power to switch stat changes with the target.",
+    "fr": "Le lanceur utilise un pouvoir psychique pour échanger ses changements de stats avec la cible.",
+    "it": "Chi la usa sfrutta la sua forza psichica per scambiare le modifiche alle statistiche con il bersaglio.",
+    "de": "Anwender setzt Psycho-Kräfte ein, um Statusveränderungen des Zieles mit den eigenen zu tauschen.",
+    "es": "Usa la fuerza mental para intercambiar con el objetivo los cambios en las características.",
+    "ko": "초능력으로 자신과 상대에 걸려 있는 능력 변화를 교체한다.",
+    "zh-CN": "利用超能力互换 自己和对手之间的 能力变化。",
+    "zh-TW": "用超能力將自己和對手的 能力變化互相交換。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "초능력으로 자신과 상대에 걸려있는 능력 변화를 교체한다."
+        }
+      }
+    }
+  ]
 }

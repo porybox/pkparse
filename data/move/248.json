@@ -2,58 +2,13 @@
   "id": 248,
   "name": "future-sight",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 120,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "confusion"
-        },
-        {
-          "name": "psychic"
-        },
-        {
-          "name": "kinesis"
-        },
-        {
-          "name": "calm-mind"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [typeless]{mechanic:typeless} [regular damage]{mechanic:regular-damage} at the end of the third turn, starting with this one.  This move cannot score a [critical hit]{mechanic:critical-hit}.  If the target [switches out]{mechanic:switches-out}, its replacement will be hit instead.  Damage is calculated at the time this move is used; [stat changes]{mechanic:stat-changes} and [switching out]{mechanic:switching-out} during the delay won't change the damage inflicted.  No move with this effect can be used against the same target again until after the end of the third turn.\n\nThis effect breaks through []{ability:wonder-guard}.\n\nIf the target is protected by []{move:protect} or []{move:detect} on the turn this move is used, this move will [fail]{mechanic:fail}.  However, the damage on the third turn will break through protection.\n\nThe damage is applied at the end of the turn, so it ignores []{move:endure} and []{item:focus-sash}.\n\nThis move cannot be copied by []{move:mirror-move}.",
-      "short_effect": "Hits the target two turns later.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -65,55 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Future Sight",
-      "language": "en"
-    },
-    {
-      "name": "Divinazione",
-      "language": "it"
-    },
-    {
-      "name": "Premonición",
-      "language": "es"
-    },
-    {
-      "name": "Seher",
-      "language": "de"
-    },
-    {
-      "name": "Prescience",
-      "language": "fr"
-    },
-    {
-      "name": "미래예지",
-      "language": "ko"
-    },
-    {
-      "name": "みらいよち",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": 90,
-      "power": 80,
-      "pp": 15,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "みらいよち",
+    "kana": "みらいよち",
+    "en": "Future Sight",
+    "fr": "Prescience",
+    "it": "Divinazione",
+    "de": "Seher",
+    "es": "Premonición",
+    "ko": "미래예지",
+    "zh-CN": "预知未来",
+    "zh-TW": "預知未來"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "技を　使った　２ターン後に 相手に　念力の 塊を　送って　攻撃する。",
+    "kana": "わざを　つかった　２ターン　あとに あいてに　ねんりきの かたまりを　おくって　こうげきする。",
+    "en": "Two turns after this move is used, a hunk of psychic energy attacks the target.",
+    "fr": "De l’énergie psychique vient frapper l’ennemi deux tours après l’utilisation de cette capacité.",
+    "it": "Due turni dopo l’utilizzo di questa mossa, il bersaglio viene attaccato con energia psichica.",
+    "de": "Zwei Runden, nachdem Seher eingesetzt wurde, erfolgt der Angriff.",
+    "es": "Concentra energía psíquica para golpear al objetivo dos turnos después.",
+    "ko": "기술을 사용한 2턴 뒤에 상대에게 염동력의 덩어리를 보내어 공격한다.",
+    "zh-CN": "在使用招式２回合后， 向对手发送一团念力进行攻击。",
+    "zh-TW": "使用招式的２回合後， 向對手發送一團念力進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

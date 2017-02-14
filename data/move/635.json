@@ -1,0 +1,50 @@
+{
+  "id": 635,
+  "name": "savage-spin-out",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ぜったいほしょくかいてんざん",
+    "kana": "ぜったいほしょくかいてんざん",
+    "en": "Savage Spin-Out",
+    "fr": "Cocon Fatal",
+    "it": "Bozzolo Fatale",
+    "de": "Wirbelnder Insektenhieb",
+    "es": "Guadaña Sedosa",
+    "ko": "절대포식회전참",
+    "zh-CN": "绝对捕食回旋斩",
+    "zh-TW": "絕對捕食迴旋斬"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "bug"
+}

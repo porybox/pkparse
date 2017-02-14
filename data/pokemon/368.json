@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 143,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    }
+    "water1"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "squiggle"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "サクラビス",
-      "language": "ja"
-    },
-    {
-      "name": "Sakurabyss",
-      "language": "roomaji"
-    },
-    {
-      "name": "분홍장이",
-      "language": "ko"
-    },
-    {
-      "name": "櫻花魚",
-      "language": "zh"
-    },
-    {
-      "name": "Rosabyss",
-      "language": "fr"
-    },
-    {
-      "name": "Saganabyss",
-      "language": "de"
-    },
-    {
-      "name": "Gorebyss",
-      "language": "es"
-    },
-    {
-      "name": "Gorebyss",
-      "language": "it"
-    },
-    {
-      "name": "Gorebyss",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "サクラビス",
+    "en": "Gorebyss",
+    "fr": "Rosabyss",
+    "it": "Gorebyss",
+    "de": "Saganabyss",
+    "es": "Gorebyss",
+    "ko": "분홍장이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "なんかい",
-      "language": "ja"
-    },
-    {
-      "genus": "남해",
-      "language": "ko"
-    },
-    {
-      "genus": "Mer du Sud",
-      "language": "fr"
-    },
-    {
-      "genus": "Südsee",
-      "language": "de"
-    },
-    {
-      "genus": "Mar Del Sur",
-      "language": "es"
-    },
-    {
-      "genus": "Sudmarino",
-      "language": "it"
-    },
-    {
-      "genus": "South Sea",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "なんかい",
+    "en": "South Sea",
+    "fr": "Mer du Sud",
+    "it": "Sudmarino",
+    "de": "Südsee",
+    "es": "Mar del Sur",
+    "ko": "남해"
+  },
   "varieties": [
     {
       "is_default": true,

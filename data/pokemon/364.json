@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 61,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -62,44 +54,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "トドグラー",
-      "language": "ja"
-    },
-    {
-      "name": "Todoggler",
-      "language": "roomaji"
-    },
-    {
-      "name": "씨레오",
-      "language": "ko"
-    },
-    {
-      "name": "海魔獅",
-      "language": "zh"
-    },
-    {
-      "name": "Phogleur",
-      "language": "fr"
-    },
-    {
-      "name": "Seejong",
-      "language": "de"
-    },
-    {
-      "name": "Sealeo",
-      "language": "es"
-    },
-    {
-      "name": "Sealeo",
-      "language": "it"
-    },
-    {
-      "name": "Sealeo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "トドグラー",
+    "en": "Sealeo",
+    "fr": "Phogleur",
+    "it": "Sealeo",
+    "de": "Seejong",
+    "es": "Sealeo",
+    "ko": "씨레오"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -110,36 +73,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たままわし",
-      "language": "ja"
-    },
-    {
-      "genus": "공돌리기",
-      "language": "ko"
-    },
-    {
-      "genus": "Roule Boule",
-      "language": "fr"
-    },
-    {
-      "genus": "Spielball",
-      "language": "de"
-    },
-    {
-      "genus": "Rodabola",
-      "language": "es"
-    },
-    {
-      "genus": "Rotapalla",
-      "language": "it"
-    },
-    {
-      "genus": "Ball Roll",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たままわし",
+    "en": "Ball Roll",
+    "fr": "Roule Boule",
+    "it": "Rotapalla",
+    "de": "Spielball",
+    "es": "Rodabola",
+    "ko": "공돌리기"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,38 @@
+{
+  "id": 710,
+  "name": "jaw-fossil",
+  "names": {
+    "ja": "アゴのカセキ",
+    "kana": "アゴのカセキ",
+    "en": "Jaw Fossil",
+    "fr": "Fossile Mâchoire",
+    "it": "Fossilmascella",
+    "de": "Kieferfossil",
+    "es": "Fósil Mandíbula",
+    "ko": "턱화석",
+    "zh-CN": "颚之化石",
+    "zh-TW": "顎之化石"
+  },
+  "flavor_text_entries": {
+    "ja": "大昔　地上で　暮らした 古代ポケモンの　カセキ。 大きな　アゴの　一部らしい。",
+    "kana": "おおむかし　ちじょうで　くらした こだい　ポケモンの　カセキ。 おおきな　アゴの　いちぶ　らしい。",
+    "en": "A fossil from a prehistoric Pokémon that once lived on the land. It looks as if it could be a piece of a large jaw.",
+    "fr": "Le fossile d’un Pokémon préhistorique terrestre. On dirait un morceau de mâchoire.",
+    "it": "Fossile di un Pokémon preistorico che viveva sulla terraferma. Sembra far parte di una grossa mascella.",
+    "de": "Das Fossil eines uralten Pokémon, das an Land lebte. Es sieht wie ein Kieferknochen aus.",
+    "es": "Fósil de un Pokémon prehistórico terrestre. Parece ser parte de una mandíbula.",
+    "ko": "오랜 옛날 지상에서 살았던 고대 포켓몬의 화석. 커다란 턱의 일부인 듯하다.",
+    "zh-CN": "很久以前生活在地上的 古代宝可梦的化石。 好像是很大的颚的一部分。",
+    "zh-TW": "很久以前生活在地上的 古代寶可夢的化石。 好像是很大的顎的一部分。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le fossile d’un Pokémon préhistorique terrestre. On dirait un fragment de mâchoire."
+        }
+      }
+    }
+  ]
+}

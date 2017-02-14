@@ -1,0 +1,50 @@
+{
+  "id": 648,
+  "name": "shattered-psyche",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "マキシマムサイブレイカー",
+    "kana": "マキシマムサイブレイカー",
+    "en": "Shattered Psyche",
+    "fr": "Psycho-Pulvérisation EX",
+    "it": "Impatto Psicocinetico",
+    "de": "Psycho-Schmetterschlag",
+    "es": "Disruptor Psíquico",
+    "ko": "맥시멈사이브레이커",
+    "zh-CN": "至高精神破坏波",
+    "zh-TW": "至高精神破壞波"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　相手を　操り 全力で　痛い　思いを　させる。 元になった　技で　威力が　変わる。",
+    "kana": "Ｚパワーで　あいてを　あやつり ぜんりょくで　いたい　おもいを　させる。 もとになった　わざで　いりょくが　かわる。",
+    "en": "The user controls the target with its Z-Power and hurts the target with full force. The power varies, depending on the original move.",
+    "fr": "Le Pokémon utilise la Force Z pour manipuler l’adversaire et lui infliger de sérieux dégâts. La puissance varie selon celle de la capacité originale.",
+    "it": "Chi la usa si serve del Potere Z per manipolare la mente del bersaglio causando ingenti danni. La potenza varia a seconda della mossa su cui si basa.",
+    "de": "Der Anwender kontrolliert das Ziel mit Z-Kraft und macht ihm so das Leben schwer. Die Stärke variiert je nach zugrunde liegender Attacke.",
+    "es": "Emplea el Poder Z para manipular la mente del objetivo, infligiéndole un daño ingente. Su potencia depende de la del movimiento original.",
+    "ko": "Z파워로 상대를 조종해 전력으로 매서운 맛을 보여준다. 원래 기술에 따라 위력이 변한다.",
+    "zh-CN": "通过Ｚ力量操纵对手， 全力使其感受到痛苦。 威力会根据原来的招式而改变。",
+    "zh-TW": "透過Ｚ力量操縱對手， 全力使其感受到痛苦。 威力會隨原本的招式而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 345,
+  "name": "tm18",
+  "names": {
+    "ja": "わざマシン１８",
+    "kana": "わざマシン１８",
+    "en": "TM18",
+    "fr": "CT18",
+    "it": "MT18",
+    "de": "TM18",
+    "es": "MT18",
+    "ko": "기술머신18",
+    "zh-CN": "招式学习器１８",
+    "zh-TW": "招式學習器１８"
+  },
+  "flavor_text_entries": {
+    "ja": "５ターンの　あいだ　雨を　降らせて みずタイプの　威力を　あげる。 ほのおタイプの　威力は　さがる。",
+    "kana": "５ターンの　あいだ　あめを　ふらせて みずタイプの　いりょくを　あげる。 ほのおタイプの　いりょくは　さがる。",
+    "en": "The user summons a heavy rain that falls for five turns, powering up Water-type moves. It lowers the power of Fire-type moves.",
+    "fr": "Invoque de fortes pluies qui durent cinq tours, augmentant la puissance des capacités de type Eau et baissant celle des capacités de type Feu.",
+    "it": "Chi la usa provoca una forte pioggia per cinque turni, potenziando le mosse di tipo Acqua e riducendo la potenza di quelle di tipo Fuoco.",
+    "de": "Schwerer Niederschlag setzt für 5 Runden ein. Attacken vom Typ Wasser werden verstärkt und Attacken vom Typ Feuer geschwächt.",
+    "es": "Quien lo usa invoca una fuerte lluvia que dura cinco turnos. La potencia de los movimientos de tipo Agua aumenta y la de los de tipo Fuego disminuye.",
+    "ko": "5턴 동안 비를 내리게 하여 물타입 기술의 위력을 올린다. 불꽃타입의 위력은 떨어진다.",
+    "zh-CN": "在５回合内一直降雨， 从而提高水属性的招式威力。 火属性的招式威力则降低。",
+    "zh-TW": "降下大雨，在５回合內 提高水屬性招式的威力。 火屬性招式的威力會降低。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "５ターンの　あいだ　雨を　降らして みずタイプの 技の　威力を　あげる。",
+          "kana": "５ターンの　あいだ　あめを　ふらして みずタイプの　わざの　いりょくを あげる。",
+          "en": "The user summons a heavy rain that falls for five turns, powering up Water-type moves.",
+          "fr": "Invoque de fortes pluies qui durent cinq tours et augmentent la puissance des capacités de type Eau.",
+          "it": "Chi la usa provoca una forte pioggia per cinque turni, potenziando le mosse di tipo Acqua.",
+          "de": "Schwerer Niederschlag setzt für 5 Runden ein. Attacken vom Typ Wasser werden verstärkt.",
+          "es": "Quien lo usa invoca una fuerte lluvia que dura cinco turnos y fortalece los movimientos de tipo Agua.",
+          "ko": "5턴 동안 비를 내려서 물타입 기술의 위력을 올린다."
+        }
+      }
+    }
+  ]
+}

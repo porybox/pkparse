@@ -2,36 +2,13 @@
   "id": 463,
   "name": "magma-storm",
   "accuracy": 75,
-  "effect_chance": 100,
   "pp": 5,
   "priority": 0,
   "power": 100,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the [field]{mechanic:field}, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\n[]{move:rapid-spin} cancels this effect.",
-      "short_effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "trap"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "trap",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 5,
@@ -43,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Magma Storm",
-      "language": "en"
-    },
-    {
-      "name": "Magmaclisma",
-      "language": "it"
-    },
-    {
-      "name": "Lluvia Ígnea",
-      "language": "es"
-    },
-    {
-      "name": "Lavasturm",
-      "language": "de"
-    },
-    {
-      "name": "Vortex Magma",
-      "language": "fr"
-    },
-    {
-      "name": "마그마스톰",
-      "language": "ko"
-    },
-    {
-      "name": "マグマストーム",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "マグマストーム",
+    "kana": "マグマストーム",
+    "en": "Magma Storm",
+    "fr": "Vortex Magma",
+    "it": "Magmaclisma",
+    "de": "Lavasturm",
+    "es": "Lluvia Ígnea",
+    "ko": "마그마스톰",
+    "zh-CN": "熔岩风暴",
+    "zh-TW": "熔岩風暴"
+  },
+  "flavor_text_entries": {
+    "ja": "激しく　燃えたぎる　炎の　なかに ４ー５ターンの　間 相手を　閉じこめて　攻撃する。",
+    "kana": "はげしく　もえたぎる　ほのおの　なかに ４ー５ターンの　あいだ あいてを　とじこめて　こうげきする。",
+    "en": "The target becomes trapped within a maelstrom of fire that rages for four to five turns.",
+    "fr": "L’ennemi est pris dans un tourbillon de feu qui dure de quatre à cinq tours.",
+    "it": "Intrappola il bersaglio in un turbine di fuoco che dura per quattro o cinque turni.",
+    "de": "Das Ziel wird in einen Feuersog gezogen, der vier bis fünf Runden aktiv ist.",
+    "es": "El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.",
+    "ko": "세차게 타오르는 불꽃 속에 4-5턴 동안 상대를 가두어 공격한다.",
+    "zh-CN": "将对手困在 熊熊燃烧的火焰中， 在４～５回合内进行攻击。",
+    "zh-TW": "將對手困在 熊熊燃燒的火焰中， 在４～５回合內進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire",
   "past_values": [
     {
-      "accuracy": 70,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "激しく　燃えたぎる　炎の　なかに ４ー５ターンの　あいだ 相手を　閉じこめて　攻撃する。"
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fire"
-  }
+  ]
 }

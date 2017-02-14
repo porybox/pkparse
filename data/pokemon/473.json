@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 78,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "マンムー",
-      "language": "ja"
-    },
-    {
-      "name": "Mammoo",
-      "language": "roomaji"
-    },
-    {
-      "name": "맘모꾸리",
-      "language": "ko"
-    },
-    {
-      "name": "象牙豬",
-      "language": "zh"
-    },
-    {
-      "name": "Mammochon",
-      "language": "fr"
-    },
-    {
-      "name": "Mamutel",
-      "language": "de"
-    },
-    {
-      "name": "Mamoswine",
-      "language": "es"
-    },
-    {
-      "name": "Mamoswine",
-      "language": "it"
-    },
-    {
-      "name": "Mamoswine",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マンムー",
+    "en": "Mamoswine",
+    "fr": "Mammochon",
+    "it": "Mamoswine",
+    "de": "Mamutel",
+    "es": "Mamoswine",
+    "ko": "맘모꾸리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "２ほんキバ",
-      "language": "ja"
-    },
-    {
-      "genus": "2개송곳니",
-      "language": "ko"
-    },
-    {
-      "genus": "Deudéfenses",
-      "language": "fr"
-    },
-    {
-      "genus": "Doppelstoßzahn",
-      "language": "de"
-    },
-    {
-      "genus": "Doscolmillos",
-      "language": "es"
-    },
-    {
-      "genus": "Duezanne",
-      "language": "it"
-    },
-    {
-      "genus": "Twin Tusk",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "２ほんキバ",
+    "en": "Twin Tusk",
+    "fr": "Deudéfenses",
+    "it": "Duezanne",
+    "de": "Doppelstoßzahn",
+    "es": "Doscolmillos",
+    "ko": "2개송곳니"
+  },
   "varieties": [
     {
       "is_default": true,

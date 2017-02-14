@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 58,
@@ -69,13 +67,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "humanoid"
   },
@@ -89,44 +83,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ゴーリキー",
-      "language": "ja"
-    },
-    {
-      "name": "Goriky",
-      "language": "roomaji"
-    },
-    {
-      "name": "근육몬",
-      "language": "ko"
-    },
-    {
-      "name": "豪力",
-      "language": "zh"
-    },
-    {
-      "name": "Machopeur",
-      "language": "fr"
-    },
-    {
-      "name": "Maschock",
-      "language": "de"
-    },
-    {
-      "name": "Machoke",
-      "language": "es"
-    },
-    {
-      "name": "Machoke",
-      "language": "it"
-    },
-    {
-      "name": "Machoke",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴーリキー",
+    "en": "Machoke",
+    "fr": "Machopeur",
+    "it": "Machoke",
+    "de": "Maschock",
+    "es": "Machoke",
+    "ko": "근육몬"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -137,36 +102,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かいりき",
-      "language": "ja"
-    },
-    {
-      "genus": "괴력",
-      "language": "ko"
-    },
-    {
-      "genus": "Colosse",
-      "language": "fr"
-    },
-    {
-      "genus": "Kraftprotz",
-      "language": "de"
-    },
-    {
-      "genus": "Superpoder",
-      "language": "es"
-    },
-    {
-      "genus": "Megaforza",
-      "language": "it"
-    },
-    {
-      "genus": "Superpower",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かいりき",
+    "en": "Superpower",
+    "fr": "Colosse",
+    "it": "Megaforza",
+    "de": "Kraftprotz",
+    "es": "Superpoder",
+    "ko": "괴력"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,36 +2,13 @@
   "id": 132,
   "name": "constrict",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 35,
   "priority": 0,
   "power": 10,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Speed by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,47 @@
     "flinch_chance": 0,
     "stat_chance": 10
   },
-  "names": [
-    {
-      "name": "Constrict",
-      "language": "en"
-    },
-    {
-      "name": "Limitazione",
-      "language": "it"
-    },
-    {
-      "name": "Restricción",
-      "language": "es"
-    },
-    {
-      "name": "Umklammerung",
-      "language": "de"
-    },
-    {
-      "name": "Constriction",
-      "language": "fr"
-    },
-    {
-      "name": "휘감기",
-      "language": "ko"
-    },
-    {
-      "name": "からみつく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "からみつく",
+    "kana": "からみつく",
+    "en": "Constrict",
+    "fr": "Constriction",
+    "it": "Limitazione",
+    "de": "Umklammerung",
+    "es": "Restricción",
+    "ko": "휘감기",
+    "zh-CN": "缠绕",
+    "zh-TW": "纏繞"
+  },
+  "flavor_text_entries": {
+    "ja": "触手や　ツタなどを　からみつけて 攻撃する。相手の　素早さを さげることが　ある。",
+    "kana": "しょくしゅや　ツタ　などを　からみつけて こうげきする。あいての　すばやさを さげることが　ある。",
+    "en": "The target is attacked with long, creeping tentacles, vines, or the like. This may also lower the target’s Speed stat.",
+    "fr": "De longs tentacules ou lianes attaquent l’ennemi. Peut aussi baisser sa Vitesse.",
+    "it": "Colpisce il bersaglio con lunghi tentacoli o piante rampicanti. Può anche ridurne la Velocità.",
+    "de": "Angriff mit langen Tentakeln oder Ranken. Senkt eventuell den Initiative-Wert.",
+    "es": "Ataca con largos tentáculos o zarcillos que pueden bajar la Velocidad.",
+    "ko": "촉수나 덩굴 등을 휘감아서 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+    "zh-CN": "用触手或青藤等缠绕进行攻击。 有时会降低对手的速度。",
+    "zh-TW": "用觸手或青藤等纏繞對手進行攻擊。 有時會降低對手的速度。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The target is attacked with long, creeping tentacles or vines. This may also lower the target’s Speed stat.",
+          "es": "Constriñe para herir y puede bajar la Velocidad."
+        }
+      }
+    }
+  ]
 }

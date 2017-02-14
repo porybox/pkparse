@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 24,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "ball"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "チョボマキ",
-      "language": "ja"
-    },
-    {
-      "name": "쪼마리",
-      "language": "ko"
-    },
-    {
-      "name": "Escargaume",
-      "language": "fr"
-    },
-    {
-      "name": "Schnuthelm",
-      "language": "de"
-    },
-    {
-      "name": "Shelmet",
-      "language": "es"
-    },
-    {
-      "name": "Shelmet",
-      "language": "it"
-    },
-    {
-      "name": "Shelmet",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "チョボマキ",
+    "en": "Shelmet",
+    "fr": "Escargaume",
+    "it": "Shelmet",
+    "de": "Schnuthelm",
+    "es": "Shelmet",
+    "ko": "쪼마리"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "マイマイ",
-      "language": "ja"
-    },
-    {
-      "genus": "달팽이",
-      "language": "ko"
-    },
-    {
-      "genus": "Escargot",
-      "language": "fr"
-    },
-    {
-      "genus": "Schnecke",
-      "language": "de"
-    },
-    {
-      "genus": "Caracol",
-      "language": "es"
-    },
-    {
-      "genus": "Lumachina",
-      "language": "it"
-    },
-    {
-      "genus": "Snail",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "マイマイ",
+    "en": "Snail",
+    "fr": "Escargot",
+    "it": "Lumachina",
+    "de": "Schnecke",
+    "es": "Caracol",
+    "ko": "달팽이"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 127,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "humanoid"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ゴチミル",
-      "language": "ja"
-    },
-    {
-      "name": "고디보미",
-      "language": "ko"
-    },
-    {
-      "name": "Mesmérella",
-      "language": "fr"
-    },
-    {
-      "name": "Hypnomorba",
-      "language": "de"
-    },
-    {
-      "name": "Gothorita",
-      "language": "es"
-    },
-    {
-      "name": "Gothorita",
-      "language": "it"
-    },
-    {
-      "name": "Gothorita",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴチミル",
+    "en": "Gothorita",
+    "fr": "Mesmérella",
+    "it": "Gothorita",
+    "de": "Hypnomorba",
+    "es": "Gothorita",
+    "ko": "고디보미"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あやつり",
-      "language": "ja"
-    },
-    {
-      "genus": "조작",
-      "language": "ko"
-    },
-    {
-      "genus": "Magouilleur",
-      "language": "fr"
-    },
-    {
-      "genus": "Manipulator",
-      "language": "de"
-    },
-    {
-      "genus": "Manipulador",
-      "language": "es"
-    },
-    {
-      "genus": "Raggiro",
-      "language": "it"
-    },
-    {
-      "genus": "Manipulate",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あやつり",
+    "en": "Manipulate",
+    "fr": "Magouilleur",
+    "it": "Raggiro",
+    "de": "Manipulator",
+    "es": "Manipulador",
+    "ko": "조작"
+  },
   "varieties": [
     {
       "is_default": true,

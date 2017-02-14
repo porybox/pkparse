@@ -1,50 +1,14 @@
 {
   "id": 86,
   "name": "thunder-wave",
-  "accuracy": 100,
-  "effect_chance": null,
+  "accuracy": 90,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "charge"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "[Paralyzes]{mechanic:paralyzes} the target.",
-      "short_effect": "Paralyzes the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "paralysis",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,50 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Thunder Wave",
-      "language": "en"
-    },
-    {
-      "name": "Tuononda",
-      "language": "it"
-    },
-    {
-      "name": "Onda Trueno",
-      "language": "es"
-    },
-    {
-      "name": "Donnerwelle",
-      "language": "de"
-    },
-    {
-      "name": "Cage-Éclair",
-      "language": "fr"
-    },
-    {
-      "name": "전기자석파",
-      "language": "ko"
-    },
-    {
-      "name": "でんじは",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "でんじは",
+    "kana": "でんじは",
+    "en": "Thunder Wave",
+    "fr": "Cage-Éclair",
+    "it": "Tuononda",
+    "de": "Donnerwelle",
+    "es": "Onda Trueno",
+    "ko": "전기자석파",
+    "zh-CN": "电磁波",
+    "zh-TW": "電磁波"
   },
-  "type": {
-    "name": "electric"
-  }
+  "flavor_text_entries": {
+    "ja": "弱い　電撃を　浴びせることで 相手を　まひ状態に　する。",
+    "kana": "よわい　でんげきを　あびせる　ことで あいてを　まひ　じょうたいに　する。",
+    "en": "The user launches a weak jolt of electricity that paralyzes the target.",
+    "fr": "Un faible choc électrique frappe l’ennemi. Si l’attaque le touche, celui-ci est paralysé.",
+    "it": "Colpisce il bersaglio con una debole scarica elettrica che lo paralizza.",
+    "de": "Ein schwacher Stromstoß, der das Ziel paralysiert.",
+    "es": "Una ligera descarga que paraliza al objetivo si lo alcanza.",
+    "ko": "약한 전격을 날려서 상대를 마비 상태로 만든다.",
+    "zh-CN": "向对手发出 微弱的电击， 从而让对手陷入麻痹状态。",
+    "zh-TW": "放出微弱的電流。 讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "accuracy": 100,
+        "flavor_text_entries": {
+          "it": "Il nemico viene colpito da una debole scarica elettrica che, se va a segno, ne causa la paralisi."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Il bersaglio viene colpito da una debole scarica elettrica che, se va a segno, ne causa la paralisi."
+        }
+      }
+    }
+  ]
 }

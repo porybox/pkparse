@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 132,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "humanoid"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ペロリーム",
-      "language": "ja"
-    },
-    {
-      "name": "나루림",
-      "language": "ko"
-    },
-    {
-      "name": "Cupcanaille",
-      "language": "fr"
-    },
-    {
-      "name": "Sabbaione",
-      "language": "de"
-    },
-    {
-      "name": "Slurpuff",
-      "language": "es"
-    },
-    {
-      "name": "Slurpuff",
-      "language": "it"
-    },
-    {
-      "name": "Slurpuff",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ペロリーム",
+    "en": "Slurpuff",
+    "fr": "Cupcanaille",
+    "it": "Slurpuff",
+    "de": "Sabbaione",
+    "es": "Slurpuff",
+    "ko": "나루림"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ホイップ",
-      "language": "ja"
-    },
-    {
-      "genus": "휩",
-      "language": "ko"
-    },
-    {
-      "genus": "Mousseline",
-      "language": "fr"
-    },
-    {
-      "genus": "Schlagsahne",
-      "language": "de"
-    },
-    {
-      "genus": "Nata",
-      "language": "es"
-    },
-    {
-      "genus": "Panna",
-      "language": "it"
-    },
-    {
-      "genus": "Meringue",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ホイップ",
+    "en": "Meringue",
+    "fr": "Mousseline",
+    "it": "Panna",
+    "de": "Schlagsahne",
+    "es": "Nata",
+    "ko": "휩"
+  },
   "varieties": [
     {
       "is_default": true,

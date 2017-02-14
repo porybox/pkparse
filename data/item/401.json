@@ -1,0 +1,42 @@
+{
+  "id": 401,
+  "name": "tm74",
+  "names": {
+    "ja": "わざマシン７４",
+    "kana": "わざマシン７４",
+    "en": "TM74",
+    "fr": "CT74",
+    "it": "MT74",
+    "de": "TM74",
+    "es": "MT74",
+    "ko": "기술머신74",
+    "zh-CN": "招式学习器７４",
+    "zh-TW": "招式學習器７４"
+  },
+  "flavor_text_entries": {
+    "ja": "体を　高速に　回転させて 体当たりする。　相手より　素早さが 遅いほど　強い。",
+    "kana": "からだを　こうそくに　かいてん　させて たいあたりする。あいてより　すばやさが ひくいほど　つよい。",
+    "en": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power.",
+    "fr": "Le lanceur effectue une rotation et frappe l’ennemi. Plus la Vitesse du lanceur est basse, plus il fait de dégâts.",
+    "it": "Chi la usa colpisce il bersaglio con un vortice rapidissimo. Più lento è chi la usa, maggiore è il danno.",
+    "de": "Eine verzerrte Drehattacke. Je niedriger der Initiative-Wert des Anwenders im Vergleich zum Ziel ist, desto mehr Schaden fügt er zu.",
+    "es": "Quien lo usa ataca al objetivo como un remolino. Cuanto más lento sea quien lo usa, más daño causa.",
+    "ko": "몸을 고속으로 회전시켜 몸통박치기한다. 상대보다 스피드가 낮을수록 위력은 올라간다.",
+    "zh-CN": "让身体高速旋转并撞击对手。 速度比对手越慢，威力越大。",
+    "zh-TW": "高速旋轉身體，撞擊對手。 速度比對手越慢，威力越大。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "体を　高速に　回転させて 体当たりする。相手より　素早さが 遅いほど　強い。",
+          "kana": "からだを　こうそくに　かいてん させて　たいあたりする。　あいてより おそいほど　いりょくは　あがる。",
+          "it": "Chi la usa colpisce il nemico con un vortice rapidissimo. Più lento è chi la usa, maggiore è il danno.",
+          "de": "Eine verzerrte Drehattacke. Je langsamer der Anwender, desto mehr Schaden fügt er zu.",
+          "ko": "몸을 고속으로 회전시켜 몸통박치기한다. 상대보다 스피드가 느릴수록 위력은 올라간다."
+        }
+      }
+    }
+  ]
+}

@@ -2,36 +2,13 @@
   "id": 150,
   "name": "splash",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Does nothing.\n\nThis move cannot be used while []{move:gravity} is in effect.",
-      "short_effect": "Does nothing.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Splash",
-      "language": "en"
-    },
-    {
-      "name": "Splash",
-      "language": "it"
-    },
-    {
-      "name": "Salpicadura",
-      "language": "es"
-    },
-    {
-      "name": "Platscher",
-      "language": "de"
-    },
-    {
-      "name": "Trempette",
-      "language": "fr"
-    },
-    {
-      "name": "튀어오르기",
-      "language": "ko"
-    },
-    {
-      "name": "はねる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "はねる",
+    "kana": "はねる",
+    "en": "Splash",
+    "fr": "Trempette",
+    "it": "Splash",
+    "de": "Platscher",
+    "es": "Salpicadura",
+    "ko": "튀어오르기",
+    "zh-CN": "跃起",
+    "zh-TW": "躍起"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "攻撃もせずに　ピョン　ピョンと 跳ねるだけで　なにも　おこらない……。",
+    "kana": "こうげきも　せずに　ピョン　ピョンと はねるだけで　なにも　おこらない……。",
+    "en": "The user just flops and splashes around to no effect at all...",
+    "fr": "Le lanceur barbote et éclabousse les environs. Cette capacité n’a aucun effet.",
+    "it": "Chi la usa sguazza nell’acqua, senza ottenere alcun effetto.",
+    "de": "Nur ein Platscher, der überhaupt nichts bewirkt.",
+    "es": "No tiene ningún efecto. Solo salpica.",
+    "ko": "공격도 하지 않고 팔딱팔딱 튈 뿐 아무 일도 일어나지 않는다...",
+    "zh-CN": "也不攻击只是一蹦一蹦地跳， 什么都不会发生……",
+    "zh-TW": "不攻擊對手，只是蹦蹦跳跳的， 什麼事也不會發生……"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal"
 }

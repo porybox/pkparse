@@ -2,34 +2,13 @@
   "id": 541,
   "name": "tail-slap",
   "accuracy": 85,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 25,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-      "short_effect": "Hits 2-5 times in one turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": 2,
     "max_hits": 5,
     "min_turns": null,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Tail Slap",
-      "language": "en"
-    },
-    {
-      "name": "Spazzasberla",
-      "language": "it"
-    },
-    {
-      "name": "Plumerazo",
-      "language": "es"
-    },
-    {
-      "name": "Kehrschelle",
-      "language": "de"
-    },
-    {
-      "name": "Plumo-Queue",
-      "language": "fr"
-    },
-    {
-      "name": "스위프뺨치기",
-      "language": "ko"
-    },
-    {
-      "name": "スイープビンタ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "スイープビンタ",
+    "kana": "スイープビンタ",
+    "en": "Tail Slap",
+    "fr": "Plumo-Queue",
+    "it": "Spazzasberla",
+    "de": "Kehrschelle",
+    "es": "Plumerazo",
+    "ko": "스위프뺨치기",
+    "zh-CN": "扫尾拍打",
+    "zh-TW": "掃尾拍打"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "硬い　しっぽで 相手を　たたいて　攻撃する。 ２ー５回の　間　連続で　だす。",
+    "kana": "かたい　しっぽで あいてを　たたいて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+    "en": "The user attacks by striking the target with its hard tail. It hits the target two to five times in a row.",
+    "fr": "Le lanceur frappe l’ennemi de deux à cinq fois d’affilée avec sa queue robuste.",
+    "it": "Chi la usa colpisce il bersaglio con la sua coda dura da due a cinque volte di fila.",
+    "de": "Anwender greift das Ziel mit seiner schlagfesten Rute zwei- bis fünfmal hintereinander an.",
+    "es": "Golpea con la cola de dos a cinco veces seguidas.",
+    "ko": "단단한 꼬리로 상대를 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+    "zh-CN": "用坚硬的尾巴 拍打对手进行攻击。 连续攻击２～５次。",
+    "zh-TW": "將堅硬的尾巴 掃向對手進行攻擊。 可連續攻擊２～５次。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "硬い　しっぽで 相手を　たたいて　攻撃する。 ２ー５回の　あいだ　連続で　だす。",
+          "es": "Golpea con la cola u otras partes de su cuerpo de dos a cinco veces seguidas."
+        }
+      }
+    }
+  ]
 }

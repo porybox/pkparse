@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 120,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "legs"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ダンゴロ",
-      "language": "ja"
-    },
-    {
-      "name": "단굴",
-      "language": "ko"
-    },
-    {
-      "name": "Nodulithe",
-      "language": "fr"
-    },
-    {
-      "name": "Kiesling",
-      "language": "de"
-    },
-    {
-      "name": "Roggenrola",
-      "language": "es"
-    },
-    {
-      "name": "Roggenrola",
-      "language": "it"
-    },
-    {
-      "name": "Roggenrola",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ダンゴロ",
+    "en": "Roggenrola",
+    "fr": "Nodulithe",
+    "it": "Roggenrola",
+    "de": "Kiesling",
+    "es": "Roggenrola",
+    "ko": "단굴"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "マントル",
-      "language": "ja"
-    },
-    {
-      "genus": "맨틀",
-      "language": "ko"
-    },
-    {
-      "genus": "Manteau",
-      "language": "fr"
-    },
-    {
-      "genus": "Erdmantel",
-      "language": "de"
-    },
-    {
-      "genus": "Manto",
-      "language": "es"
-    },
-    {
-      "genus": "Placca",
-      "language": "it"
-    },
-    {
-      "genus": "Mantle",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "マントル",
+    "en": "Mantle",
+    "fr": "Manteau",
+    "it": "Placca",
+    "de": "Erdmantel",
+    "es": "Manto",
+    "ko": "맨틀"
+  },
   "varieties": [
     {
       "is_default": true,

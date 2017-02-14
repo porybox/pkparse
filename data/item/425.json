@@ -1,0 +1,53 @@
+{
+  "id": 425,
+  "name": "hm06",
+  "names": {
+    "ja": "ひでんマシン０６",
+    "kana": "ひでんマシン０６",
+    "en": "HM06",
+    "fr": "CS06",
+    "it": "MN06",
+    "de": "VM06",
+    "es": "MO06",
+    "ko": "비전머신06",
+    "zh-CN": "秘传学习器０６",
+    "zh-TW": "秘傳學習器０６"
+  },
+  "flavor_text_entries": {
+    "ja": "パンチで　攻撃する。相手の 防御を　さげる　ことが　ある。 岩を　砕くことも　できる。",
+    "kana": "パンチで　こうげき。　あいての ぼうぎょを　さげる　ことが　ある。 いわを　くだくことも　できる。",
+    "en": "The user attacks with a punch. This may also lower the target’s Defense stat. This move can also shatter rocks in the field.",
+    "fr": "Porte un coup de poing à l’ennemi qui peut baisser sa Défense. Peut aussi briser des rochers fissurés.",
+    "it": "Chi la usa colpisce il bersaglio con un pugno che può anche ridurne la Difesa. Fuori dalla lotta permette di frantumare le rocce.",
+    "de": "Der Anwender greift mit einem Hieb an, der den Verteidigungs-Wert des Zieles senken kann. Damit können auch Steine zerschlagen werden.",
+    "es": "Ataca con los puños. Puede bajar la Defensa del objetivo y romper rocas fuera del combate.",
+    "ko": "펀치로 공격한다. 상대의 방어를 떨어뜨릴 때가 있으며 바위를 깰 수도 있다.",
+    "zh-CN": "用拳头进行攻击。 有时会降低对手的防御。 还可以击碎岩石。",
+    "zh-TW": "用拳頭進行攻擊。 有時會降低對手的防禦。 也可以擊碎岩石。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa colpisce il bersaglio con un pugno in grado di frantumare persino la roccia. Può anche far diminuire la Difesa."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。 海の　奥深くに　潜ることも　できる。",
+          "kana": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。うみの なかに　もぐる　ことも　できる。",
+          "en": "Diving on the first turn, the user floats up and attacks on the next turn.",
+          "fr": "Le lanceur plonge sous l’eau au premier tour et frappe au second.",
+          "it": "Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente.",
+          "de": "Taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an. Ermöglicht Tauchgänge zum Meeresgrund.",
+          "es": "Quien lo usa se sumerge en el agua y ataca al siguiente turno. También puede usarse para bucear en el mar.",
+          "ko": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다. 바닷속 깊숙이 잠수할 수도 있다."
+        }
+      }
+    }
+  ]
+}

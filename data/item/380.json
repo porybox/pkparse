@@ -1,0 +1,39 @@
+{
+  "id": 380,
+  "name": "tm53",
+  "names": {
+    "ja": "わざマシン５３",
+    "kana": "わざマシン５３",
+    "en": "TM53",
+    "fr": "CT53",
+    "it": "MT53",
+    "de": "TM53",
+    "es": "MT53",
+    "ko": "기술머신53",
+    "zh-CN": "招式学习器５３",
+    "zh-TW": "招式學習器５３"
+  },
+  "flavor_text_entries": {
+    "ja": "自然から　集めた 命の力を　発射する。 相手の　特防を　さげることが　ある。",
+    "kana": "しぜんから　あつめた いのちの　ちからを　はっしゃする。 あいての　とくぼうを　さげることがある。",
+    "en": "The user draws power from nature and fires it at the target. This may also lower the target’s Sp. Def.",
+    "fr": "Utilise les pouvoirs de la nature pour attaquer l’ennemi. Peut aussi baisser sa Défense Spéciale.",
+    "it": "Chi la usa attinge energia dalla natura e la scaglia contro il bersaglio. Può anche ridurne la Difesa Speciale.",
+    "de": "Entfesselt die Kraft der Natur gegen das Ziel. Dessen Spezial-Verteidigung sinkt eventuell.",
+    "es": "Extrae energía de la naturaleza y la lanza contra el objetivo. También puede reducir su Defensa Especial.",
+    "ko": "자연으로부터 모은 생명의 힘을 발사한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+    "zh-CN": "发射从自然收集的生命力量。 有时会降低对手的特防。",
+    "zh-TW": "發射從大自然匯聚而來的生命力量。 有時會降低對手的特防。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "いのちの　ちからを　あつめて こうげきする。　あたった　あいての とくぼうを　さげることが　ある。",
+          "it": "Chi la usa attinge energia dalla natura e la scaglia contro il nemico. Può anche ridurne la Difesa Speciale."
+        }
+      }
+    }
+  ]
+}

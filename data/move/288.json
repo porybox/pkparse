@@ -2,49 +2,13 @@
   "id": 288,
   "name": "grudge",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "curse"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "If the user [faint]{mechanic:faint}s before it next acts, the move that fainted it will have its [PP]{mechanic:pp} dropped to 0.  End-of-turn damage does not trigger this effect.",
-      "short_effect": "If the user faints this turn, the PP of the move that fainted it drops to 0.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Grudge",
-      "language": "en"
-    },
-    {
-      "name": "Rancore",
-      "language": "it"
-    },
-    {
-      "name": "Rabia",
-      "language": "es"
-    },
-    {
-      "name": "Nachspiel",
-      "language": "de"
-    },
-    {
-      "name": "Rancune",
-      "language": "fr"
-    },
-    {
-      "name": "원념",
-      "language": "ko"
-    },
-    {
-      "name": "おんねん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "おんねん",
+    "kana": "おんねん",
+    "en": "Grudge",
+    "fr": "Rancune",
+    "it": "Rancore",
+    "de": "Nachspiel",
+    "es": "Rabia",
+    "ko": "원념",
+    "zh-CN": "怨念",
+    "zh-TW": "怨念"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　技で　ひんしに　されたとき おんねんを　かけて その技の　ＰＰを　０に　する。",
+    "kana": "あいての　わざで　ひんしに　されたとき おんねんを　かけて そのわざの　ＰＰを　０に　する。",
+    "en": "If the user faints, the user’s grudge fully depletes the PP of the opponent’s move that knocked it out.",
+    "fr": "Si le lanceur est mis K.O., sa rancune épuise les PP de la capacité utilisée par l’ennemi pour le mettre K.O.",
+    "it": "Se chi la usa va KO, i PP della mossa nemica che lo ha messo fuori gioco si azzerano.",
+    "de": "Bei K.O. des Anwenders werden die AP der Attacke, durch die er besiegt wurde, auf 0 herabgesetzt.",
+    "es": "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados.",
+    "ko": "상대의 기술로 기절하면 원념을 담아 그 기술의 PP를 0으로 만든다.",
+    "zh-CN": "因对手的招式而陷入濒死时 给对手施加怨念， 让该招式的ＰＰ变成０。",
+    "zh-TW": "因為對手的招式而陷入瀕死時， 施加怨念， 讓該招式的ＰＰ變成０。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "ghost"
 }

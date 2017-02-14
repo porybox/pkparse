@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 48,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -55,44 +49,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ヒポポタス",
-      "language": "ja"
-    },
-    {
-      "name": "Hipopotas",
-      "language": "roomaji"
-    },
-    {
-      "name": "히포포타스",
-      "language": "ko"
-    },
-    {
-      "name": "怪河馬",
-      "language": "zh"
-    },
-    {
-      "name": "Hippopotas",
-      "language": "fr"
-    },
-    {
-      "name": "Hippopotas",
-      "language": "de"
-    },
-    {
-      "name": "Hippopotas",
-      "language": "es"
-    },
-    {
-      "name": "Hippopotas",
-      "language": "it"
-    },
-    {
-      "name": "Hippopotas",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒポポタス",
+    "en": "Hippopotas",
+    "fr": "Hippopotas",
+    "it": "Hippopotas",
+    "de": "Hippopotas",
+    "es": "Hippopotas",
+    "ko": "히포포타스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -103,36 +68,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "カバ",
-      "language": "ja"
-    },
-    {
-      "genus": "하마",
-      "language": "ko"
-    },
-    {
-      "genus": "Hippo",
-      "language": "fr"
-    },
-    {
-      "genus": "Flusspferd",
-      "language": "de"
-    },
-    {
-      "genus": "Hipo",
-      "language": "es"
-    },
-    {
-      "genus": "Ippo",
-      "language": "it"
-    },
-    {
-      "genus": "Hippo",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "カバ",
+    "en": "Hippo",
+    "fr": "Hippo",
+    "it": "Ippo",
+    "de": "Flusspferd",
+    "es": "Hipo",
+    "ko": "하마"
+  },
   "varieties": [
     {
       "is_default": true,

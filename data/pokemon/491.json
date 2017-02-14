@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 491,
@@ -21,13 +19,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "humanoid"
   },
@@ -37,44 +31,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ダークライ",
-      "language": "ja"
-    },
-    {
-      "name": "Darkrai",
-      "language": "roomaji"
-    },
-    {
-      "name": "다크라이",
-      "language": "ko"
-    },
-    {
-      "name": "達克萊伊",
-      "language": "zh"
-    },
-    {
-      "name": "Darkrai",
-      "language": "fr"
-    },
-    {
-      "name": "Darkrai",
-      "language": "de"
-    },
-    {
-      "name": "Darkrai",
-      "language": "es"
-    },
-    {
-      "name": "Darkrai",
-      "language": "it"
-    },
-    {
-      "name": "Darkrai",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ダークライ",
+    "en": "Darkrai",
+    "fr": "Darkrai",
+    "it": "Darkrai",
+    "de": "Darkrai",
+    "es": "Darkrai",
+    "ko": "다크라이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 100,
@@ -85,36 +50,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あんこく",
-      "language": "ja"
-    },
-    {
-      "genus": "암흑",
-      "language": "ko"
-    },
-    {
-      "genus": "Noirtotal",
-      "language": "fr"
-    },
-    {
-      "genus": "Dunkelnacht",
-      "language": "de"
-    },
-    {
-      "genus": "Oscuridad",
-      "language": "es"
-    },
-    {
-      "genus": "Neropesto",
-      "language": "it"
-    },
-    {
-      "genus": "Pitch-Black",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あんこく",
+    "en": "Pitch-Black",
+    "fr": "Noirtotal",
+    "it": "Neropesto",
+    "de": "Dunkelnacht",
+    "es": "Oscuridad",
+    "ko": "암흑"
+  },
   "varieties": [
     {
       "is_default": true,

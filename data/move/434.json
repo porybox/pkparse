@@ -2,36 +2,13 @@
   "id": 434,
   "name": "draco-meteor",
   "accuracy": 90,
-  "effect_chance": 100,
   "pp": 5,
   "priority": 0,
   "power": 130,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}, then lowers the user's [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}.",
-      "short_effect": "Lowers the user's Special Attack by two stages after inflicting damage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Draco Meteor",
-      "language": "en"
-    },
-    {
-      "name": "Dragobolide",
-      "language": "it"
-    },
-    {
-      "name": "Cometa Draco",
-      "language": "es"
-    },
-    {
-      "name": "Draco Meteor",
-      "language": "de"
-    },
-    {
-      "name": "Draco Météor",
-      "language": "fr"
-    },
-    {
-      "name": "용성군",
-      "language": "ko"
-    },
-    {
-      "name": "りゅうせいぐん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "りゅうせいぐん",
+    "kana": "りゅうせいぐん",
+    "en": "Draco Meteor",
+    "fr": "Draco Météore",
+    "it": "Dragobolide",
+    "de": "Draco Meteor",
+    "es": "Cometa Draco",
+    "ko": "용성군",
+    "zh-CN": "流星群",
+    "zh-TW": "流星群"
+  },
+  "flavor_text_entries": {
+    "ja": "天空から　隕石を 相手に　落とす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+    "kana": "てんくうから　いんせきを あいてに　おとす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+    "en": "Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+    "fr": "Le lanceur invoque des comètes. Le contrecoup réduit beaucoup son Attaque Spéciale.",
+    "it": "Attacca con meteore che cadono dal cielo. Il contraccolpo fa calare di molto l’Attacco Speciale di chi la usa.",
+    "de": "Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.",
+    "es": "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.",
+    "ko": "천공에서 운석을 상대에게 떨어뜨린다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+    "zh-CN": "从天空中向对手落下陨石。 使用之后因为反作用力， 自己的特攻会大幅降低。",
+    "zh-TW": "讓隕石從空中落下以攻擊對手。 使用後因為反作用力， 自己的特攻會大幅降低。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "dragon"
-  }
+  "target": "selected-pokemon",
+  "type": "dragon",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "fr": "Draco Météor"
+        },
+        "flavor_text_entries": {
+          "fr": "Le lanceur invoque des comètes. Le contrecoup réduit fortement son Attaque Spéciale."
+        }
+      }
+    }
+  ]
 }

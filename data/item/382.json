@@ -1,0 +1,38 @@
+{
+  "id": 382,
+  "name": "tm55",
+  "names": {
+    "ja": "わざマシン５５",
+    "kana": "わざマシン５５",
+    "en": "TM55",
+    "fr": "CT55",
+    "it": "MT55",
+    "de": "TM55",
+    "es": "MT55",
+    "ko": "기술머신55",
+    "zh-CN": "招式学习器５５",
+    "zh-TW": "招式學習器５５"
+  },
+  "flavor_text_entries": {
+    "ja": "熱く　煮えたぎる　水を 相手に　発射して　攻撃する。 やけど状態に　することが　ある。",
+    "kana": "あつく　にえたぎる　みずを あいてに　はっしゃして　こうげきする。 やけど　じょうたいに　することが　ある。",
+    "en": "The user shoots boiling hot water at its target. This may also leave the target with a burn.",
+    "fr": "L’ennemi est attaqué par un jet d’eau bouillante. Peut aussi le brûler.",
+    "it": "Chi la usa attacca il bersaglio con un getto d’acqua bollente che può anche scottarlo.",
+    "de": "Heizt dem Ziel mit einem Schwall siedend heißen Kochwassers ein. Dieses erleidet eventuell Verbrennungen.",
+    "es": "Abrasa al objetivo con agua hirviendo y puede causarle quemaduras.",
+    "ko": "뜨겁게 끓어오르는 물을 상대에게 발사해서 공격한다. 화상 상태로 만들 때가 있다.",
+    "zh-CN": "向对手喷射 煮得翻滚的开水进行攻击。 有时会让对手陷入灼伤状态。",
+    "zh-TW": "向對手噴射 滾燙的熱水進行攻擊。 有時會讓對手陷入灼傷狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "あつく　にえたぎる　みずを はっしゃして　こうげきする。 やけどに　することが　ある。"
+        }
+      }
+    }
+  ]
+}

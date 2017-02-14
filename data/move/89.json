@@ -2,64 +2,13 @@
   "id": 89,
   "name": "earthquake",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 100,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "fissure"
-        },
-        {
-          "name": "eruption"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.\n\nIf the target is in the first turn of []{move:dig}, this move will hit with double power.",
-      "short_effect": "Inflicts regular damage and can hit Dig users.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Does not hit Pokémon under the effects of []{move:dig}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -71,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Earthquake",
-      "language": "en"
-    },
-    {
-      "name": "Terremoto",
-      "language": "it"
-    },
-    {
-      "name": "Terremoto",
-      "language": "es"
-    },
-    {
-      "name": "Erdbeben",
-      "language": "de"
-    },
-    {
-      "name": "Séisme",
-      "language": "fr"
-    },
-    {
-      "name": "지진",
-      "language": "ko"
-    },
-    {
-      "name": "じしん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-other-pokemon"
+  "names": {
+    "ja": "じしん",
+    "kana": "じしん",
+    "en": "Earthquake",
+    "fr": "Séisme",
+    "it": "Terremoto",
+    "de": "Erdbeben",
+    "es": "Terremoto",
+    "ko": "지진",
+    "zh-CN": "地震",
+    "zh-TW": "地震"
   },
-  "type": {
-    "name": "ground"
-  }
+  "flavor_text_entries": {
+    "ja": "地震の　衝撃で　自分の 周りに　いるものを　攻撃する。",
+    "kana": "じしんの　しょうげきで　じぶんの まわりに　いるものを　こうげきする。",
+    "en": "The user sets off an earthquake that strikes every Pokémon around it.",
+    "fr": "Le lanceur provoque un tremblement de terre touchant tous les Pokémon autour de lui.",
+    "it": "Chi la usa provoca un potente sisma che colpisce i Pokémon che ha intorno.",
+    "de": "Ein mächtiges Beben, das die anderen Pokémon in der Nähe des Anwenders trifft.",
+    "es": "Un terremoto que afecta a los Pokémon de alrededor en combate.",
+    "ko": "지진의 충격으로 자신의 주위에 있는 포켓몬을 공격한다.",
+    "zh-CN": "利用地震的冲击， 攻击自己周围所有的宝可梦。",
+    "zh-TW": "用地震的衝擊， 攻擊自己周圍所有的寶可夢。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "ground"
 }

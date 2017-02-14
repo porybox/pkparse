@@ -2,49 +2,13 @@
   "id": 121,
   "name": "egg-bomb",
   "accuracy": 75,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 100,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "soft-boiled"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Egg Bomb",
-      "language": "en"
-    },
-    {
-      "name": "Uovobomba",
-      "language": "it"
-    },
-    {
-      "name": "Bomba Huevo",
-      "language": "es"
-    },
-    {
-      "name": "Eierbombe",
-      "language": "de"
-    },
-    {
-      "name": "Bomb'Œuf",
-      "language": "fr"
-    },
-    {
-      "name": "알폭탄",
-      "language": "ko"
-    },
-    {
-      "name": "タマゴばくだん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "タマゴばくだん",
+    "kana": "タマゴばくだん",
+    "en": "Egg Bomb",
+    "fr": "Bomb’Œuf",
+    "it": "Uovobomba",
+    "de": "Eierbombe",
+    "es": "Bomba Huevo",
+    "ko": "알폭탄",
+    "zh-CN": "炸蛋",
+    "zh-TW": "炸蛋"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "大きな　タマゴを　力いっぱい 相手に　投げつけて　攻撃する。",
+    "kana": "おおきな　タマゴを　ちから　いっぱい あいてに　なげつけて　こうげきする。",
+    "en": "A large egg is hurled at the target with maximum force to inflict damage.",
+    "fr": "De toutes ses forces, le lanceur jette un gros œuf sur l’ennemi pour lui infliger des dégâts.",
+    "it": "Colpisce il bersaglio con un grande uovo scaraventato con enorme forza.",
+    "de": "Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.",
+    "es": "Arroja un huevo enorme al objetivo con gran fuerza.",
+    "ko": "큰 알을 온 힘을 다해 상대에게 내던져서 공격한다.",
+    "zh-CN": "向对手用力投掷 大大的蛋进行攻击。",
+    "zh-TW": "向對手用力投擲 大大的蛋進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Arroja un huevo al objetivo con gran fuerza."
+        }
+      }
+    }
+  ]
 }

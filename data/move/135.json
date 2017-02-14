@@ -2,49 +2,13 @@
   "id": 135,
   "name": "soft-boiled",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "egg-bomb"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Heals the user for half its max [HP]{mechanic:hp}.",
-      "short_effect": "Heals the user by half its max HP.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "heal"
-    },
+    "ailment": "none",
+    "category": "heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Soft-Boiled",
-      "language": "en"
-    },
-    {
-      "name": "Covauova",
-      "language": "it"
-    },
-    {
-      "name": "Amortiguador",
-      "language": "es"
-    },
-    {
-      "name": "Weichei",
-      "language": "de"
-    },
-    {
-      "name": "E-Coque",
-      "language": "fr"
-    },
-    {
-      "name": "알낳기",
-      "language": "ko"
-    },
-    {
-      "name": "タマゴうみ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "タマゴうみ",
+    "kana": "タマゴうみ",
+    "en": "Soft-Boiled",
+    "fr": "E-Coque",
+    "it": "Covauova",
+    "de": "Weichei",
+    "es": "Amortiguador",
+    "ko": "알낳기",
+    "zh-CN": "生蛋",
+    "zh-TW": "生蛋"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "最大ＨＰの　半分 自分の　ＨＰを　回復する。",
+    "kana": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。",
+    "en": "The user restores its own HP by up to half of its max HP.",
+    "fr": "Le lanceur récupère jusqu’à la moitié de ses PV max.",
+    "it": "Chi la usa recupera metà dei propri PS massimi.",
+    "de": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+    "es": "Restaura la mitad de los PS máximos del usuario.",
+    "ko": "자신의 최대 HP 절반을 회복한다.",
+    "zh-CN": "回复自己最大ＨＰ的一半。",
+    "zh-TW": "回復自己最大ＨＰ的一半。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "最大ＨＰの　半分 自分の　ＨＰを　回復する。 仲間に　ＨＰを　わけることも　できる。",
+          "kana": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。 なかまに　ＨＰを　わけることも　できる。",
+          "en": "The user restores its own HP by up to half of its max HP. May also be used in the field to heal HP.",
+          "fr": "Le lanceur récupère jusqu’à la moitié de ses PV max. En dehors des combats, permet de transférer des PV du lanceur à un allié.",
+          "it": "Chi la usa recupera metà dei propri PS massimi. Fuori dalla lotta può anche far trasferire PS agli alleati.",
+          "de": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Heilung eines Verbündeten außerhalb von Kämpfen möglich.",
+          "es": "Restaura la mitad de los PS máximos del usuario. Fuera de combate se usa para transferir parte de sus PS a un aliado.",
+          "ko": "자신의 최대 HP 절반을 회복한다. 동료에게 HP를 나누어 줄 수도 있다."
+        }
+      }
+    }
+  ]
 }

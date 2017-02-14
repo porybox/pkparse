@@ -1,0 +1,45 @@
+{
+  "id": 741,
+  "name": "oricorio",
+  "gender_rate": 6,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "color": "red",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "オドリドリ",
+    "en": "Oricorio",
+    "fr": "Plumeline",
+    "it": "Oricorio",
+    "de": "Choreogel",
+    "es": "Oricorio",
+    "ko": "춤추새"
+  },
+  "genera": {
+    "ja": "ダンス",
+    "en": "Dancing",
+    "fr": "Danse",
+    "it": "Danza",
+    "de": "Tanz",
+    "es": "Danza",
+    "ko": "댄스"
+  },
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 70,
+    "defense": 70,
+    "special-attack": 98,
+    "special-defense": 70,
+    "speed": 93
+  }
+}

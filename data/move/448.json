@@ -2,36 +2,13 @@
   "id": 448,
   "name": "chatter",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 20,
   "priority": 0,
   "power": 65,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has either a 1%, 11%, or 31% chance to [confuse]{mechanic:confuse} the target, based on the volume of the recording made for this move; louder recordings increase the chance of [confusion]{mechanic:confusion}.  If the user is not a []{pokemon:chatot}, this move will not cause [confusion]{mechanic:confusion}.\n\nThis move cannot be copied by []{move:mimic}, []{move:mirror-move}, or []{move:sketch}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.",
-      "short_effect": "Has a higher chance to confuse the target when the recorded sound is louder.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "confusion",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -43,43 +20,56 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Chatter",
-      "language": "en"
-    },
-    {
-      "name": "Schiamazzo",
-      "language": "it"
-    },
-    {
-      "name": "Cháchara",
-      "language": "es"
-    },
-    {
-      "name": "Geschwätz",
-      "language": "de"
-    },
-    {
-      "name": "Babil",
-      "language": "fr"
-    },
-    {
-      "name": "수다",
-      "language": "ko"
-    },
-    {
-      "name": "おしゃべり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "おしゃべり",
+    "kana": "おしゃべり",
+    "en": "Chatter",
+    "fr": "Babil",
+    "it": "Schiamazzo",
+    "de": "Geschwätz",
+    "es": "Cháchara",
+    "ko": "수다",
+    "zh-CN": "喋喋不休",
+    "zh-TW": "喋喋不休"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "とても　うるさい　おしゃべりの 音波で　相手を　攻撃する。 相手を　混乱させる。",
+    "kana": "とても　うるさい　おしゃべりの おんぱで　あいてを　こうげきする。 あいてを　こんらん　させる。",
+    "en": "The user attacks the target with sound waves of deafening chatter. This confuses the target.",
+    "fr": "Attaque avec les ondes sonores assourdissantes qu’il émet en bavardant. Rend l’ennemi confus.",
+    "it": "Chi la usa attacca creando un’onda sonora di parole a vanvera e confonde il bersaglio.",
+    "de": "Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird.",
+    "es": "Ataca con una onda de sonido muy ruidosa compuesta por palabras y confunde al objetivo.",
+    "ko": "매우 시끄럽고 수다스러운 음파로 상대를 공격한다. 상대를 혼란시킨다.",
+    "zh-CN": "用非常烦人的， 喋喋不休的音波攻击对手。 使对手混乱。",
+    "zh-TW": "用非常煩人且喋喋不休的 音波攻擊對手。 使對手混亂。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Attaque avec les ondes sonores assourdissantes qu’il émet en prononçant des mots au hasard. Rend l’ennemi confus."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "おぼえた　言葉で 音波を　おこして　攻撃する。 相手を　混乱させる。",
+          "kana": "おぼえた　ことばで おんぱを　おこして　こうげきする。 あいてを　こんらん　させる。",
+          "en": "The user attacks using a sound wave based on words it has learned. This confuses the target.",
+          "fr": "Le lanceur envoie une onde musicale en récitant des mots. Rend l’ennemi confus.",
+          "it": "Chi la usa attacca creando un’onda sonora con le parole imparate e confonde il bersaglio.",
+          "de": "Attacke mit Schallwellen. Verwirrt das Ziel.",
+          "es": "Ataca con una onda sónica compuesta por palabras que ha aprendido y confunde al objetivo.",
+          "ko": "기억한 말로 음파를 일으켜서 공격한다. 상대를 혼란시킨다."
+        }
+      }
+    }
+  ]
 }

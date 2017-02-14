@@ -1,0 +1,38 @@
+{
+  "id": 574,
+  "name": "liberty-pass",
+  "names": {
+    "ja": "リバティチケット",
+    "kana": "リバティチケット",
+    "en": "Liberty Pass",
+    "fr": "Passe Liberté",
+    "it": "Liberticket",
+    "de": "Gartenpass",
+    "es": "Tarjeta Libertad",
+    "ko": "리버티티켓",
+    "zh-CN": "自由船票",
+    "zh-TW": "自由船票"
+  },
+  "flavor_text_entries": {
+    "ja": "リバティガーデン島に　行くための 特別な　チケット。 ヒウンシティから　船に　乗れる。",
+    "kana": "リバティガーデンとうに　いくための とくべつな　チケット。 ヒウンシティから　ふねに　のれる。",
+    "en": "A special pass to go to Liberty Garden. Board the ship in Castelia City.",
+    "fr": "Un ticket spécial permettant de se rendre sur l’Île Liberté à bord du bateau de Volucité.",
+    "it": "Biglietto speciale per l’Isola Libertà. La nave parte da Austropoli.",
+    "de": "Ein besonderes Ticket für die Überfahrt von Stratos City zur Insel des Freiheitsgartens.",
+    "es": "Ticket especial para ir en barco desde Ciudad Porcelana a Isla Libertad.",
+    "ko": "리버티가든섬에 가기 위한 특별한 티켓. 구름시티에서 배를 탈 수 있다.",
+    "zh-CN": "用于前往自由庭园岛的特殊船票。 可以从飞云市上船。",
+    "zh-TW": "用於前往自由庭園島的 特殊船票。 可以從飛雲市上船。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "fr": "Pass Liberté"
+        }
+      }
+    }
+  ]
+}

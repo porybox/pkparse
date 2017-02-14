@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 99,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "wings"
   },
@@ -61,44 +55,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ムックル",
-      "language": "ja"
-    },
-    {
-      "name": "Mukkuru",
-      "language": "roomaji"
-    },
-    {
-      "name": "찌르꼬",
-      "language": "ko"
-    },
-    {
-      "name": "姆克兒",
-      "language": "zh"
-    },
-    {
-      "name": "Étourmi",
-      "language": "fr"
-    },
-    {
-      "name": "Staralili",
-      "language": "de"
-    },
-    {
-      "name": "Starly",
-      "language": "es"
-    },
-    {
-      "name": "Starly",
-      "language": "it"
-    },
-    {
-      "name": "Starly",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ムックル",
+    "en": "Starly",
+    "fr": "Étourmi",
+    "it": "Starly",
+    "de": "Staralili",
+    "es": "Starly",
+    "ko": "찌르꼬"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -109,36 +74,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "むくどり",
-      "language": "ja"
-    },
-    {
-      "genus": "찌르레기",
-      "language": "ko"
-    },
-    {
-      "genus": "Étourneau",
-      "language": "fr"
-    },
-    {
-      "genus": "Star",
-      "language": "de"
-    },
-    {
-      "genus": "Estornino",
-      "language": "es"
-    },
-    {
-      "genus": "Storno",
-      "language": "it"
-    },
-    {
-      "genus": "Starling",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "むくどり",
+    "en": "Starling",
+    "fr": "Étourneau",
+    "it": "Storno",
+    "de": "Star",
+    "es": "Estornino",
+    "ko": "찌르레기"
+  },
   "varieties": [
     {
       "is_default": true,

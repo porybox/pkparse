@@ -2,36 +2,13 @@
   "id": 419,
   "name": "avalanche",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": -4,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target damaged the user this turn and was the last to do so, this move has double power.\n\n[]{move:pain-split} does not count as damaging the user.",
-      "short_effect": "Inflicts double damage if the user takes damage before attacking this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Avalanche",
-      "language": "en"
-    },
-    {
-      "name": "Slavina",
-      "language": "it"
-    },
-    {
-      "name": "Alud",
-      "language": "es"
-    },
-    {
-      "name": "Lawine",
-      "language": "de"
-    },
-    {
-      "name": "Avalanche",
-      "language": "fr"
-    },
-    {
-      "name": "눈사태",
-      "language": "ko"
-    },
-    {
-      "name": "ゆきなだれ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ゆきなだれ",
+    "kana": "ゆきなだれ",
+    "en": "Avalanche",
+    "fr": "Avalanche",
+    "it": "Slavina",
+    "de": "Lawine",
+    "es": "Alud",
+    "ko": "눈사태",
+    "zh-CN": "雪崩",
+    "zh-TW": "雪崩"
   },
-  "type": {
-    "name": "ice"
-  }
+  "flavor_text_entries": {
+    "ja": "相手から　技を　受けていると その　相手に　対して 技の　威力が　２倍に　なる。",
+    "kana": "あいてから　わざを　うけていると その　あいてに　たいして わざの　いりょくが　２ばいに　なる。",
+    "en": "The power of this attack move is doubled if the user has been hurt by the target in the same turn.",
+    "fr": "Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant le tour.",
+    "it": "Mossa d’attacco che infligge doppi danni se chi la usa è stato ferito dal Pokémon bersaglio nello stesso turno.",
+    "de": "Wurde der Anwender in dieser Runde vom Ziel getroffen, verdoppelt sich die Stärke aller Attacken des Anwenders bei Angriffen auf dieses Ziel.",
+    "es": "Este ataque inflige el doble de daño a un objetivo que haya golpeado al usuario en ese mismo turno.",
+    "ko": "상대로부터 기술을 받으면 그 상대에 대해서 기술의 위력이 2배가 된다.",
+    "zh-CN": "如果受到对手的招式攻击， 就能给予该对手 ２倍威力的攻击。",
+    "zh-TW": "如果受到對手的招式攻擊， 給予該對手的招式威力就會變成２倍。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ice",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An attack move that inflicts double the damage if the user has been hurt by the target in the same turn.",
+          "de": "Wurde der Anwender in dieser Runde vom Ziel getroffen, macht diese Attacke doppelten Schaden."
+        }
+      }
+    }
+  ]
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 148,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -43,36 +37,15 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ゼルネアス",
-      "language": "ja"
-    },
-    {
-      "name": "제르네아스",
-      "language": "ko"
-    },
-    {
-      "name": "Xerneas",
-      "language": "fr"
-    },
-    {
-      "name": "Xerneas",
-      "language": "de"
-    },
-    {
-      "name": "Xerneas",
-      "language": "es"
-    },
-    {
-      "name": "Xerneas",
-      "language": "it"
-    },
-    {
-      "name": "Xerneas",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゼルネアス",
+    "en": "Xerneas",
+    "fr": "Xerneas",
+    "it": "Xerneas",
+    "de": "Xerneas",
+    "es": "Xerneas",
+    "ko": "제르네아스"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [
     {
@@ -80,36 +53,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "せいめい",
-      "language": "ja"
-    },
-    {
-      "genus": "생명",
-      "language": "ko"
-    },
-    {
-      "genus": "Existence",
-      "language": "fr"
-    },
-    {
-      "genus": "Leben",
-      "language": "de"
-    },
-    {
-      "genus": "Creación",
-      "language": "es"
-    },
-    {
-      "genus": "Creazione",
-      "language": "it"
-    },
-    {
-      "genus": "Life",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "せいめい",
+    "en": "Life",
+    "fr": "Existence",
+    "it": "Creazione",
+    "de": "Leben",
+    "es": "Creación",
+    "ko": "생명"
+  },
   "varieties": [
     {
       "is_default": true,

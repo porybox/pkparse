@@ -2,34 +2,13 @@
   "id": 508,
   "name": "shift-gear",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Attack]{mechanic:attack} by one [stage]{mechanic:stage} and its [Speed]{mechanic:speed} by two stages.",
-      "short_effect": "Raises the user's Attack by one stage and its Speed by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,56 +20,51 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Shift Gear",
-      "language": "en"
-    },
-    {
-      "name": "Cambiomarcia",
-      "language": "it"
-    },
-    {
-      "name": "Cambio de Marcha",
-      "language": "es"
-    },
-    {
-      "name": "Gangwechsel",
-      "language": "de"
-    },
-    {
-      "name": "Chgt Vitesse",
-      "language": "fr"
-    },
-    {
-      "name": "기어체인지",
-      "language": "ko"
-    },
-    {
-      "name": "ギアチェンジ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ギアチェンジ",
+    "kana": "ギアチェンジ",
+    "en": "Shift Gear",
+    "fr": "Chgt Vitesse",
+    "it": "Cambiomarcia",
+    "de": "Gangwechsel",
+    "es": "Cambio de Marcha",
+    "ko": "기어체인지",
+    "zh-CN": "换挡",
+    "zh-TW": "換檔"
+  },
+  "flavor_text_entries": {
+    "ja": "歯車を　回して 自分の　攻撃を　あげる　だけでなく 素早さも　ぐーんと　あげる。",
+    "kana": "はぐるまを　まわして じぶんの　こうげきを　あげる　だけでなく すばやさも　ぐーんと　あげる。",
+    "en": "The user rotates its gears, raising its Attack stat and sharply raising its Speed stat.",
+    "fr": "Le lanceur fait tourner ses engrenages. Cela augmente son Attaque et augmente beaucoup sa Vitesse.",
+    "it": "Facendo ruotare gli ingranaggi, chi la usa aumenta non solo il proprio Attacco, ma anche di molto la propria Velocità.",
+    "de": "Durch Drehen der Zahnräder erhöht sich nicht nur der Angriffs-Wert, sondern auch die Initiative des Anwenders stark.",
+    "es": "Al hacer girar los engranajes, el usuario mejora su Ataque y aumenta su Velocidad espectacularmente.",
+    "ko": "톱니바퀴를 돌려서 자신의 공격을 올리는 것뿐만 아니라 스피드도 크게 올린다.",
+    "zh-CN": "转动齿轮， 不仅提高自己的攻击， 还会大幅提高速度。",
+    "zh-TW": "轉動齒輪， 提高自己的攻擊， 同時大幅提高自己的速度。"
+  },
   "stat_changes": [
     {
-      "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "change": 2,
+      "stat": "speed"
     },
     {
-      "change": 2,
-      "stat": {
-        "name": "speed"
-      }
+      "change": 1,
+      "stat": "attack"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "steel"
-  }
+  "target": "user",
+  "type": "steel",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user rotates its gears, raising its Attack and sharply raising its Speed.",
+          "fr": "Le lanceur fait tourner ses engrenages. Ceci augmente son Attaque et augmente fortement sa Vitesse."
+        }
+      }
+    }
+  ]
 }

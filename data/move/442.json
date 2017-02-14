@@ -2,36 +2,13 @@
   "id": 442,
   "name": "iron-head",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 15,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 30,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Iron Head",
-      "language": "en"
-    },
-    {
-      "name": "Metaltestata",
-      "language": "it"
-    },
-    {
-      "name": "Cabeza de Hierro",
-      "language": "es"
-    },
-    {
-      "name": "Eisenschädel",
-      "language": "de"
-    },
-    {
-      "name": "Tête de Fer",
-      "language": "fr"
-    },
-    {
-      "name": "아이언헤드",
-      "language": "ko"
-    },
-    {
-      "name": "アイアンヘッド",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "アイアンヘッド",
+    "kana": "アイアンヘッド",
+    "en": "Iron Head",
+    "fr": "Tête de Fer",
+    "it": "Metaltestata",
+    "de": "Eisenschädel",
+    "es": "Cabeza de Hierro",
+    "ko": "아이언헤드",
+    "zh-CN": "铁头",
+    "zh-TW": "鐵頭"
   },
-  "type": {
-    "name": "steel"
-  }
+  "flavor_text_entries": {
+    "ja": "鋼の　ような 硬い　頭で　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "はがねの　ような かたい　あたまで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user slams the target with its steel-hard head. This may also make the target flinch.",
+    "fr": "Le lanceur heurte l’ennemi avec sa tête dure comme de l’acier. Peut aussi l’apeurer.",
+    "it": "Chi la usa colpisce il bersaglio con la sua testa dura come l’acciaio. Può anche farlo tentennare.",
+    "de": "Ziel wird durch stahlharten Kopf des Anwenders getroffen und schreckt eventuell zurück.",
+    "es": "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.",
+    "ko": "강철과 같은 단단한 머리로 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "用钢铁般 坚硬的头部进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "用如同鋼鐵般 堅硬的頭部進行攻擊。 有時會讓對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "steel"
 }

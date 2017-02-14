@@ -2,49 +2,13 @@
   "id": 330,
   "name": "muddy-water",
   "accuracy": 85,
-  "effect_chance": 30,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rain-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's accuracy by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 30
   },
-  "names": [
-    {
-      "name": "Muddy Water",
-      "language": "en"
-    },
-    {
-      "name": "Fanghiglia",
-      "language": "it"
-    },
-    {
-      "name": "Agua Lodosa",
-      "language": "es"
-    },
-    {
-      "name": "Lehmbrühe",
-      "language": "de"
-    },
-    {
-      "name": "Ocroupi",
-      "language": "fr"
-    },
-    {
-      "name": "탁류",
-      "language": "ko"
-    },
-    {
-      "name": "だくりゅう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "だくりゅう",
+    "kana": "だくりゅう",
+    "en": "Muddy Water",
+    "fr": "Ocroupi",
+    "it": "Fanghiglia",
+    "de": "Lehmbrühe",
+    "es": "Agua Lodosa",
+    "ko": "탁류",
+    "zh-CN": "浊流",
+    "zh-TW": "濁流"
+  },
+  "flavor_text_entries": {
+    "ja": "濁った　水を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+    "kana": "にごった　みずを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+    "en": "The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.",
+    "fr": "Le lanceur attaque en projetant de l’eau boueuse. Peut aussi réduire la Précision de l’ennemi.",
+    "it": "Chi la usa attacca i nemici che ha intorno con un getto di fango che può anche ridurne la precisione.",
+    "de": "Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.",
+    "es": "Ataque con agua lodosa que puede bajar la Precisión del equipo rival.",
+    "ko": "탁해진 물을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+    "zh-CN": "向对手喷射 浑浊的水进行攻击。 有时会降低对手的命中率。",
+    "zh-TW": "用渾濁的污水攻擊對手。 有時會降低對手的命中率。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "accuracy"
-      }
+      "stat": "accuracy"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "water"
-  }
+  "target": "all-opponents",
+  "type": "water"
 }

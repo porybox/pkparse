@@ -1,0 +1,50 @@
+{
+  "id": 684,
+  "name": "smart-strike",
+  "accuracy": null,
+  "pp": 10,
+  "priority": 0,
+  "power": 70,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "スマートホーン",
+    "kana": "スマートホーン",
+    "en": "Smart Strike",
+    "fr": "Estocorne",
+    "it": "Sottilcorno",
+    "de": "Schmalhorn",
+    "es": "Cuerno Certero",
+    "ko": "스마트호른",
+    "zh-CN": "修长之角",
+    "zh-TW": "修長之角"
+  },
+  "flavor_text_entries": {
+    "ja": "とがった　つので　相手を 突き刺して　攻撃する。 攻撃は　必ず　命中する。",
+    "kana": "とがった　つので　あいてを つきさして　こうげきする。 こうげきは　かならず　めいちゅう　する。",
+    "en": "The user stabs the target with a sharp horn. This attack never misses.",
+    "fr": "Le lanceur transperce la cible avec sa corne effilée. Touche toujours l’ennemi.",
+    "it": "Chi la usa colpisce il bersaglio con un corno appuntito. Questa mossa va sempre a segno.",
+    "de": "Der Anwender durchbohrt das Ziel mit seinem spitzen Horn. Diese Attacke trifft immer.",
+    "es": "Ensarta al adversario con su afilada cornamenta. Este movimiento acierta siempre.",
+    "ko": "뾰족한 뿔로 상대를 꿰찔러서 공격한다. 공격은 반드시 명중한다.",
+    "zh-CN": "用尖尖的角刺入对手进行攻击。 攻击必定会命中。",
+    "zh-TW": "用尖尖的角刺進對手進行攻擊。 攻擊必定會命中。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "steel"
+}

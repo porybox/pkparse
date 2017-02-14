@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 9,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "arms"
   },
@@ -81,44 +75,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "イシツブテ",
-      "language": "ja"
-    },
-    {
-      "name": "Isitsubute",
-      "language": "roomaji"
-    },
-    {
-      "name": "꼬마돌",
-      "language": "ko"
-    },
-    {
-      "name": "小拳石",
-      "language": "zh"
-    },
-    {
-      "name": "Racaillou",
-      "language": "fr"
-    },
-    {
-      "name": "Kleinstein",
-      "language": "de"
-    },
-    {
-      "name": "Geodude",
-      "language": "es"
-    },
-    {
-      "name": "Geodude",
-      "language": "it"
-    },
-    {
-      "name": "Geodude",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "イシツブテ",
+    "en": "Geodude",
+    "fr": "Racaillou",
+    "it": "Geodude",
+    "de": "Kleinstein",
+    "es": "Geodude",
+    "ko": "꼬마돌"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -129,36 +94,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "がんせき",
-      "language": "ja"
-    },
-    {
-      "genus": "암석",
-      "language": "ko"
-    },
-    {
-      "genus": "Roche",
-      "language": "fr"
-    },
-    {
-      "genus": "Gestein",
-      "language": "de"
-    },
-    {
-      "genus": "Roca",
-      "language": "es"
-    },
-    {
-      "genus": "Roccia",
-      "language": "it"
-    },
-    {
-      "genus": "Rock",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "がんせき",
+    "en": "Rock",
+    "fr": "Roche",
+    "it": "Roccia",
+    "de": "Gestein",
+    "es": "Roca",
+    "ko": "암석"
+  },
   "varieties": [
     {
       "is_default": true,

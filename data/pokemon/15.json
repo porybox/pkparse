@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 28,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "bug-wings"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "スピアー",
-      "language": "ja"
-    },
-    {
-      "name": "Spear",
-      "language": "roomaji"
-    },
-    {
-      "name": "독침붕",
-      "language": "ko"
-    },
-    {
-      "name": "大針蜂",
-      "language": "zh"
-    },
-    {
-      "name": "Dardargnan",
-      "language": "fr"
-    },
-    {
-      "name": "Bibor",
-      "language": "de"
-    },
-    {
-      "name": "Beedrill",
-      "language": "es"
-    },
-    {
-      "name": "Beedrill",
-      "language": "it"
-    },
-    {
-      "name": "Beedrill",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "スピアー",
+    "en": "Beedrill",
+    "fr": "Dardargnan",
+    "it": "Beedrill",
+    "de": "Bibor",
+    "es": "Beedrill",
+    "ko": "독침붕"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どくばち",
-      "language": "ja"
-    },
-    {
-      "genus": "독벌",
-      "language": "ko"
-    },
-    {
-      "genus": "Guêpoison",
-      "language": "fr"
-    },
-    {
-      "genus": "Giftbiene",
-      "language": "de"
-    },
-    {
-      "genus": "Abeja Ven.",
-      "language": "es"
-    },
-    {
-      "genus": "Velenape",
-      "language": "it"
-    },
-    {
-      "genus": "Poison Bee",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どくばち",
+    "en": "Poison Bee",
+    "fr": "Guêpoison",
+    "it": "Velenape",
+    "de": "Giftbiene",
+    "es": "Abeja Veneno",
+    "ko": "독벌"
+  },
   "varieties": [
     {
       "is_default": true,

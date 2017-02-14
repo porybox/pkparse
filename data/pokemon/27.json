@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 97,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "upright"
   },
@@ -75,44 +69,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "サンド",
-      "language": "ja"
-    },
-    {
-      "name": "Sand",
-      "language": "roomaji"
-    },
-    {
-      "name": "모래두지",
-      "language": "ko"
-    },
-    {
-      "name": "穿山鼠",
-      "language": "zh"
-    },
-    {
-      "name": "Sabelette",
-      "language": "fr"
-    },
-    {
-      "name": "Sandan",
-      "language": "de"
-    },
-    {
-      "name": "Sandshrew",
-      "language": "es"
-    },
-    {
-      "name": "Sandshrew",
-      "language": "it"
-    },
-    {
-      "name": "Sandshrew",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "サンド",
+    "en": "Sandshrew",
+    "fr": "Sabelette",
+    "it": "Sandshrew",
+    "de": "Sandan",
+    "es": "Sandshrew",
+    "ko": "모래두지"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -123,36 +88,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ねずみ",
-      "language": "ja"
-    },
-    {
-      "genus": "쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Souris",
-      "language": "fr"
-    },
-    {
-      "genus": "Maus",
-      "language": "de"
-    },
-    {
-      "genus": "Ratón",
-      "language": "es"
-    },
-    {
-      "genus": "Topo",
-      "language": "it"
-    },
-    {
-      "genus": "Mouse",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ねずみ",
+    "en": "Mouse",
+    "fr": "Souris",
+    "it": "Topo",
+    "de": "Maus",
+    "es": "Ratón",
+    "ko": "쥐"
+  },
   "varieties": [
     {
       "is_default": true,

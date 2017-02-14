@@ -2,62 +2,13 @@
   "id": 198,
   "name": "bone-rush",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 25,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "bone-club"
-        },
-        {
-          "name": "bonemerang"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "focus-energy"
-        },
-        {
-          "name": "bone-club"
-        },
-        {
-          "name": "bonemerang"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-      "short_effect": "Hits 2-5 times in one turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": 2,
     "max_hits": 5,
     "min_turns": null,
@@ -69,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Bone Rush",
-      "language": "en"
-    },
-    {
-      "name": "Ossoraffica",
-      "language": "it"
-    },
-    {
-      "name": "Ataque Óseo",
-      "language": "es"
-    },
-    {
-      "name": "Knochenhatz",
-      "language": "de"
-    },
-    {
-      "name": "Charge-Os",
-      "language": "fr"
-    },
-    {
-      "name": "본러쉬",
-      "language": "ko"
-    },
-    {
-      "name": "ボーンラッシュ",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "ボーンラッシュ",
+    "kana": "ボーンラッシュ",
+    "en": "Bone Rush",
+    "fr": "Charge-Os",
+    "it": "Ossoraffica",
+    "de": "Knochenhatz",
+    "es": "Ataque Óseo",
+    "ko": "본러쉬",
+    "zh-CN": "骨棒乱打",
+    "zh-TW": "骨棒亂打"
+  },
+  "flavor_text_entries": {
+    "ja": "硬い　ホネで 相手を　なぐりつけて　攻撃する。 ２ー５回の　間　連続で　だす。",
+    "kana": "かたい　ホネで あいてを　なぐりつけて　こうげきする。 ２ー５かいの　あいだ　れんぞくで　だす。",
+    "en": "The user strikes the target with a hard bone two to five times in a row.",
+    "fr": "Le lanceur frappe l’ennemi avec un os de deux à cinq fois d’affilée.",
+    "it": "Chi la usa colpisce il bersaglio con un osso da due a cinque volte di fila.",
+    "de": "Greift Ziel zwei- bis fünfmal in Folge mit einem harten Knochen an.",
+    "es": "Hueso en ristre, aporrea al objetivo de dos a cinco veces.",
+    "ko": "단단한 뼈로 상대를 세게 때려서 공격한다. 2-5회 동안 연속으로 쓴다.",
+    "zh-CN": "用坚硬的骨头 殴打对手进行攻击。 连续攻击２～５次。",
+    "zh-TW": "用堅硬的骨頭 毆打對手進行攻擊。 連續攻擊２～５次。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ground",
   "past_values": [
     {
-      "accuracy": 80,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "硬い　ホネで 相手を　なぐりつけて　攻撃する。 ２ー５回の　あいだ　連続で　だす。"
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "ground"
-  }
+  ]
 }

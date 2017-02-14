@@ -2,52 +2,13 @@
   "id": 281,
   "name": "yawn",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "rest"
-        },
-        {
-          "name": "slack-off"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Puts the target to [sleep]{mechanic:sleep} at the end of the next turn.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  If the target leaves the [field]{mechanic:field}, this effect is canceled.  If the target has a status effect when this move is used, this move will [fail]{mechanic:fail}.\n\nIf the target is protected by []{move:safeguard} when this move is used, this move will [fail]{mechanic:fail}.\n\n[]{ability:insomnia} and []{ability:vital-spirit} prevent the [sleep]{mechanic:sleep} if the target has either at the end of the next turn, but will not cause this move to [fail]{mechanic:fail} on use.",
-      "short_effect": "Target sleeps at the end of the next turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "yawn"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "yawn",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -59,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Yawn",
-      "language": "en"
-    },
-    {
-      "name": "Sbadiglio",
-      "language": "it"
-    },
-    {
-      "name": "Bostezo",
-      "language": "es"
-    },
-    {
-      "name": "Gähner",
-      "language": "de"
-    },
-    {
-      "name": "Bâillement",
-      "language": "fr"
-    },
-    {
-      "name": "하품",
-      "language": "ko"
-    },
-    {
-      "name": "あくび",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "あくび",
+    "kana": "あくび",
+    "en": "Yawn",
+    "fr": "Bâillement",
+    "it": "Sbadiglio",
+    "de": "Gähner",
+    "es": "Bostezo",
+    "ko": "하품",
+    "zh-CN": "哈欠",
+    "zh-TW": "哈欠"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "大きな　あくびで　眠気を　誘う。 次の　ターンに 相手を　眠り状態に　する。",
+    "kana": "おおきな　あくびで　ねむけを　さそう。 つぎの　ターンに あいてを　ねむり　じょうたいに　する。",
+    "en": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
+    "fr": "Fait bâiller l’ennemi qui s’endort au tour suivant.",
+    "it": "Chi la usa fa un grande sbadiglio che addormenta il bersaglio al turno seguente.",
+    "de": "Angreifer gähnt und das Ziel schläft in der nächsten Runde ein.",
+    "es": "Gran bostezo que induce al sueño al objetivo en el siguiente turno.",
+    "ko": "큰 하품으로 졸음을 유도한다. 다음 턴에 상대를 잠듦 상태로 만든다.",
+    "zh-CN": "打个大哈欠引起睡意。 在下一回合让对手陷入睡眠状态。",
+    "zh-TW": "打個大哈欠引起睡意。 在下一回合 讓對手陷入睡眠狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

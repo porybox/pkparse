@@ -1,0 +1,50 @@
+{
+  "id": 694,
+  "name": "aurora-veil",
+  "accuracy": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "damage_class": "status",
+  "meta": {
+    "ailment": "none",
+    "category": "field-effect",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "オーロラベール",
+    "kana": "オーロラベール",
+    "en": "Aurora Veil",
+    "fr": "Voile Aurore",
+    "it": "Velaurora",
+    "de": "Auroraschleier",
+    "es": "Velo Aurora",
+    "ko": "오로라베일",
+    "zh-CN": "极光幕",
+    "zh-TW": "極光幕"
+  },
+  "flavor_text_entries": {
+    "ja": "５ターンの　間　物理と 特殊の　ダメージを　弱める。 あられの　時しか　出すことが　できない。",
+    "kana": "５ターンの　あいだ　ぶつりと とくしゅの　ダメージを　よわめる。 あられの　ときしか　だすことが　できない。",
+    "en": "This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm.",
+    "fr": "Réduit les dégâts causés par les capacités physiques et spéciales durant cinq tours. Ne peut être utilisé que lorsqu’il grêle.",
+    "it": "Riduce i danni subiti dalle mosse fisiche e dalle mosse speciali per cinque turni. Si può usare solo quando grandina.",
+    "de": "Diese Attacke schwächt fünf Runden lang den durch physische sowie durch Spezial-Attacken erhaltenen Schaden. Kann nur bei Hagel eingesetzt werden.",
+    "es": "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando.",
+    "ko": "5턴 동안 물리와 특수 기술의 데미지를 약하게 한다. 싸라기눈일 때만 쓸 수 있다.",
+    "zh-CN": "在５回合内减弱 物理和特殊的伤害。 只有冰雹时才能使出。",
+    "zh-TW": "在５回合內減弱 物理和特殊的傷害。 在下冰雹時才有效果。"
+  },
+  "stat_changes": [],
+  "target": "users-field",
+  "type": "ice"
+}

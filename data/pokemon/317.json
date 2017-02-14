@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 99,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "arms"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "マルノーム",
-      "language": "ja"
-    },
-    {
-      "name": "Marunoom",
-      "language": "roomaji"
-    },
-    {
-      "name": "꿀꺽몬",
-      "language": "ko"
-    },
-    {
-      "name": "吞食獸",
-      "language": "zh"
-    },
-    {
-      "name": "Avaltout",
-      "language": "fr"
-    },
-    {
-      "name": "Schlukwech",
-      "language": "de"
-    },
-    {
-      "name": "Swalot",
-      "language": "es"
-    },
-    {
-      "name": "Swalot",
-      "language": "it"
-    },
-    {
-      "name": "Swalot",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マルノーム",
+    "en": "Swalot",
+    "fr": "Avaltout",
+    "it": "Swalot",
+    "de": "Schlukwech",
+    "es": "Swalot",
+    "ko": "꿀꺽몬"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どくぶくろ",
-      "language": "ja"
-    },
-    {
-      "genus": "독봉지",
-      "language": "ko"
-    },
-    {
-      "genus": "Sac Poison",
-      "language": "fr"
-    },
-    {
-      "genus": "Giftbeutel",
-      "language": "de"
-    },
-    {
-      "genus": "Bolsa Veneno",
-      "language": "es"
-    },
-    {
-      "genus": "Velenosacco",
-      "language": "it"
-    },
-    {
-      "genus": "Poison Bag",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どくぶくろ",
+    "en": "Poison Bag",
+    "fr": "Sac Poison",
+    "it": "Velenosacco",
+    "de": "Giftbeutel",
+    "es": "Bolsa Veneno",
+    "ko": "독봉지"
+  },
   "varieties": [
     {
       "is_default": true,

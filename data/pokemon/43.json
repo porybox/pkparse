@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 105,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "legs"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ナゾノクサ",
-      "language": "ja"
-    },
-    {
-      "name": "Nazonokusa",
-      "language": "roomaji"
-    },
-    {
-      "name": "뚜벅쵸",
-      "language": "ko"
-    },
-    {
-      "name": "走路草",
-      "language": "zh"
-    },
-    {
-      "name": "Mystherbe",
-      "language": "fr"
-    },
-    {
-      "name": "Myrapla",
-      "language": "de"
-    },
-    {
-      "name": "Oddish",
-      "language": "es"
-    },
-    {
-      "name": "Oddish",
-      "language": "it"
-    },
-    {
-      "name": "Oddish",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ナゾノクサ",
+    "en": "Oddish",
+    "fr": "Mystherbe",
+    "it": "Oddish",
+    "de": "Myrapla",
+    "es": "Oddish",
+    "ko": "뚜벅쵸"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ざっそう",
-      "language": "ja"
-    },
-    {
-      "genus": "잡초",
-      "language": "ko"
-    },
-    {
-      "genus": "Racine",
-      "language": "fr"
-    },
-    {
-      "genus": "Unkraut",
-      "language": "de"
-    },
-    {
-      "genus": "Hierbajo",
-      "language": "es"
-    },
-    {
-      "genus": "Malerba",
-      "language": "it"
-    },
-    {
-      "genus": "Weed",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ざっそう",
+    "en": "Weed",
+    "fr": "Racine",
+    "it": "Malerba",
+    "de": "Unkraut",
+    "es": "Hierbajo",
+    "ko": "잡초"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,36 +2,13 @@
   "id": 389,
   "name": "sucker-punch",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 5,
   "priority": 1,
-  "power": 80,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target has not selected a damaging move this turn, or if the target has already acted this turn, this move will [fail]{mechanic:fail}.\n\nThis move is not affected by []{ability:iron-fist}.",
-      "short_effect": "Only works if the target is about to use a damaging move.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "power": 70,
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,53 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sucker Punch",
-      "language": "en"
-    },
-    {
-      "name": "Sbigoattacco",
-      "language": "it"
-    },
-    {
-      "name": "Golpe Bajo",
-      "language": "es"
-    },
-    {
-      "name": "Tiefschlag",
-      "language": "de"
-    },
-    {
-      "name": "Coup Bas",
-      "language": "fr"
-    },
-    {
-      "name": "기습",
-      "language": "ko"
-    },
-    {
-      "name": "ふいうち",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ふいうち",
+    "kana": "ふいうち",
+    "en": "Sucker Punch",
+    "fr": "Coup Bas",
+    "it": "Sbigoattacco",
+    "de": "Tiefschlag",
+    "es": "Golpe Bajo",
+    "ko": "기습",
+    "zh-CN": "突袭",
+    "zh-TW": "突襲"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "相手より　先に　攻撃　できる。 相手が　だす技が 攻撃技でないと　失敗する。",
+    "kana": "あいてより　さきに　こうげき　できる。 あいてが　だすわざが こうげきわざ　でないと　しっぱい　する。",
+    "en": "This move enables the user to attack first. This move fails if the target is not readying an attack.",
+    "fr": "Permet au lanceur de frapper en priorité. Échoue si l’ennemi ne prépare pas une attaque.",
+    "it": "Chi la usa attacca con alta priorità, ma fallisce se il bersaglio non sta preparando un attacco.",
+    "de": "Attacke mit hoher Erstschlagquote. Gelingt aber nur, wenn das Ziel gerade eine Attacke vorbereitet, die KP-Schaden zufügen würde.",
+    "es": "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque.",
+    "ko": "상대보다 먼저 공격할 수 있다. 상대가 쓴 기술이 공격기술이 아니면 실패한다.",
+    "zh-CN": "可以比对手先攻击。 对手使出的招式 如果不是攻击招式则会失败。",
+    "zh-TW": "可以搶先對手一步進行攻擊。 若對手使用的不是攻擊招式則會失敗。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "power": 80,
+        "flavor_text_entries": {
+          "fr": "Permet au lanceur de frapper en premier. Échoue si l’ennemi ne prépare pas une attaque.",
+          "it": "Chi la usa può attaccare per primo. Fallisce se il bersaglio non sta preparando un attacco.",
+          "de": "Ermöglicht den Erstschlag. Gelingt aber nur, wenn das Ziel gerade eine Attacke vorbereitet, die KP-Schaden zufügen würde.",
+          "es": "Permite atacar primero. Falla si el objetivo no está preparando ningún ataque."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ermöglicht den Erstschlag. Gelingt aber nur, wenn das Ziel gerade eine Attacke vorbereitet."
+        }
+      }
+    }
+  ]
 }

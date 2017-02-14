@@ -1,0 +1,50 @@
+{
+  "id": 627,
+  "name": "supersonic-skystrike",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ファイナルダイブクラッシュ",
+    "kana": "ファイナルダイブクラッシュ",
+    "en": "Supersonic Skystrike",
+    "fr": "Piqué Supersonique",
+    "it": "Picchiata Devastante",
+    "de": "Finaler Steilflug",
+    "es": "Picado Supersónico",
+    "ko": "파이널다이브클래시",
+    "zh-CN": "极速俯冲轰烈撞",
+    "zh-TW": "極速俯衝轟烈撞"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying"
+}

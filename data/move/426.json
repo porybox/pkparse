@@ -2,36 +2,13 @@
   "id": 426,
   "name": "mud-bomb",
   "accuracy": 85,
-  "effect_chance": 30,
   "pp": 10,
   "priority": 0,
   "power": 65,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's accuracy by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 30
   },
-  "names": [
-    {
-      "name": "Mud Bomb",
-      "language": "en"
-    },
-    {
-      "name": "Pantanobomba",
-      "language": "it"
-    },
-    {
-      "name": "Bomba Fango",
-      "language": "es"
-    },
-    {
-      "name": "Schlammbombe",
-      "language": "de"
-    },
-    {
-      "name": "Boue-Bombe",
-      "language": "fr"
-    },
-    {
-      "name": "진흙폭탄",
-      "language": "ko"
-    },
-    {
-      "name": "どろばくだん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "どろばくだん",
+    "kana": "どろばくだん",
+    "en": "Mud Bomb",
+    "fr": "Boue-Bombe",
+    "it": "Pantanobomba",
+    "de": "Schlammbombe",
+    "es": "Bomba Fango",
+    "ko": "진흙폭탄",
+    "zh-CN": "泥巴炸弹",
+    "zh-TW": "泥巴炸彈"
+  },
+  "flavor_text_entries": {
+    "ja": "硬い　泥の　弾を 相手に　発射して　攻撃する。 命中率を　さげることが　ある。",
+    "kana": "かたい　どろのたまを あいてに　はっしゃして　こうげきする。 めいちゅうりつを　さげることが　ある。",
+    "en": "The user launches a hard-packed mud ball to attack. This may also lower the target’s accuracy.",
+    "fr": "Le lanceur attaque à l’aide d’une boule de boue solidifiée. Peut aussi baisser la Précision de l’ennemi.",
+    "it": "Chi la usa lancia una compatta palla di fango. Può anche ridurre la precisione del Pokémon colpito.",
+    "de": "Anwender greift mit einem festen Schlammklumpen an. Senkt eventuell Genauigkeit des Zieles.",
+    "es": "Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.",
+    "ko": "단단한 진흙구슬을 상대에게 발사하여 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+    "zh-CN": "向对手发射 坚硬的泥弹进行攻击。 有时会降低对手的命中率。",
+    "zh-TW": "向對手發射 堅硬的泥彈進行攻擊。 有時會降低對手的命中率。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "accuracy"
-      }
+      "stat": "accuracy"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "ground"
-  }
+  "target": "selected-pokemon",
+  "type": "ground"
 }

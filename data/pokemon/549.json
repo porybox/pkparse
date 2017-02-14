@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 44,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "blob"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ドレディア",
-      "language": "ja"
-    },
-    {
-      "name": "드레디어",
-      "language": "ko"
-    },
-    {
-      "name": "Fragilady",
-      "language": "fr"
-    },
-    {
-      "name": "Dressella",
-      "language": "de"
-    },
-    {
-      "name": "Lilligant",
-      "language": "es"
-    },
-    {
-      "name": "Lilligant",
-      "language": "it"
-    },
-    {
-      "name": "Lilligant",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドレディア",
+    "en": "Lilligant",
+    "fr": "Fragilady",
+    "it": "Lilligant",
+    "de": "Dressella",
+    "es": "Lilligant",
+    "ko": "드레디어"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はなかざり",
-      "language": "ja"
-    },
-    {
-      "genus": "꽃장식",
-      "language": "ko"
-    },
-    {
-      "genus": "Chef-Fleur",
-      "language": "fr"
-    },
-    {
-      "genus": "Blumenzier",
-      "language": "de"
-    },
-    {
-      "genus": "Adornofloral",
-      "language": "es"
-    },
-    {
-      "genus": "Fiorfronzolo",
-      "language": "it"
-    },
-    {
-      "genus": "Flowering",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はなかざり",
+    "en": "Flowering",
+    "fr": "Chef-Fleur",
+    "it": "Fiorfronzolo",
+    "de": "Blumenzier",
+    "es": "Adornofloral",
+    "ko": "꽃장식"
+  },
   "varieties": [
     {
       "is_default": true,

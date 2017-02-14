@@ -9,9 +9,7 @@
   "hatch_counter": 35,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 68,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "wings"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "プテラ",
-      "language": "ja"
-    },
-    {
-      "name": "Ptera",
-      "language": "roomaji"
-    },
-    {
-      "name": "프테라",
-      "language": "ko"
-    },
-    {
-      "name": "化石翼龍",
-      "language": "zh"
-    },
-    {
-      "name": "Ptéra",
-      "language": "fr"
-    },
-    {
-      "name": "Aerodactyl",
-      "language": "de"
-    },
-    {
-      "name": "Aerodactyl",
-      "language": "es"
-    },
-    {
-      "name": "Aerodactyl",
-      "language": "it"
-    },
-    {
-      "name": "Aerodactyl",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "プテラ",
+    "en": "Aerodactyl",
+    "fr": "Ptéra",
+    "it": "Aerodactyl",
+    "de": "Aerodactyl",
+    "es": "Aerodactyl",
+    "ko": "프테라"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かせき",
-      "language": "ja"
-    },
-    {
-      "genus": "화석",
-      "language": "ko"
-    },
-    {
-      "genus": "Fossile",
-      "language": "fr"
-    },
-    {
-      "genus": "Fossil",
-      "language": "de"
-    },
-    {
-      "genus": "Fósil",
-      "language": "es"
-    },
-    {
-      "genus": "Fossile",
-      "language": "it"
-    },
-    {
-      "genus": "Fossil",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かせき",
+    "en": "Fossil",
+    "fr": "Fossile",
+    "it": "Fossile",
+    "de": "Fossil",
+    "es": "Fósil",
+    "ko": "화석"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,45 @@
+{
+  "id": 79,
+  "name": "repel",
+  "names": {
+    "ja": "むしよけスプレー",
+    "kana": "むしよけスプレー",
+    "en": "Repel",
+    "fr": "Repousse",
+    "it": "Repellente",
+    "de": "Schutz",
+    "es": "Repelente",
+    "ko": "벌레회피스프레이",
+    "zh-CN": "除虫喷雾",
+    "zh-TW": "除蟲噴霧"
+  },
+  "flavor_text_entries": {
+    "ja": "使うと　少しの　あいだ 弱い　野生の　ポケモンが まったく　でて　こなくなる。",
+    "kana": "つかうと　すこしの　あいだ よわい　やせいの　ポケモンが まったく　でて　こなくなる。",
+    "en": "An item that prevents any low-level wild Pokémon from jumping out at you for a while.",
+    "fr": "Repousse les Pokémon sauvages faibles pendant un court moment.",
+    "it": "Strumento che evita a chi lo usa di incontrare Pokémon selvatici deboli per un po’ di tempo.",
+    "de": "Hält für kurze Zeit schwache wilde Pokémon ab.",
+    "es": "Evita encuentros con Pokémon salvajes débiles durante un corto período de tiempo.",
+    "ko": "사용하면 잠시 동안 약한 야생 포켓몬이 전혀 나오지 않게 된다.",
+    "zh-CN": "使用后，在较短的一段时间内， 弱小的野生宝可梦将完全不会出现。",
+    "zh-TW": "使用後的短暫期間， 弱小的野生寶可夢變得 完全不會出現。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "１００歩　進む　あいだ 弱い　野生の　ポケモンが まったく　でて　こなくなる。",
+          "kana": "１００ぽ　すすむ　あいだ よわい　やせいの　ポケモンが まったく　でて　こなくなる。",
+          "en": "An item that prevents any low-level wild Pokémon from jumping out at you for 100 steps after its use.",
+          "fr": "Repousse les Pokémon sauvages faibles pendant 100 pas.",
+          "it": "Strumento che evita l’incontro con i Pokémon selvatici deboli per 100 passi dopo l’utilizzo.",
+          "de": "Hält 100 Schritte lang schwache, wilde Pokémon ab.",
+          "es": "Repele Pokémon salvajes débiles en un recorrido de 100 pasos.",
+          "ko": "100보 걸어가는 동안 약한 야생 포켓몬이 전혀 나오지 않게 된다."
+        }
+      }
+    }
+  ]
+}

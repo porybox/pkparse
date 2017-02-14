@@ -2,34 +2,13 @@
   "id": 538,
   "name": "cotton-guard",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Defense]{mechanic:defense} by three [stages]{mechanic:stage}.",
-      "short_effect": "Raises the user's Defense by three stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Cotton Guard",
-      "language": "en"
-    },
-    {
-      "name": "Cotonscudo",
-      "language": "it"
-    },
-    {
-      "name": "Rizo Algodón",
-      "language": "es"
-    },
-    {
-      "name": "Watteschild",
-      "language": "de"
-    },
-    {
-      "name": "Cotogarde",
-      "language": "fr"
-    },
-    {
-      "name": "코튼가드",
-      "language": "ko"
-    },
-    {
-      "name": "コットンガード",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "コットンガード",
+    "kana": "コットンガード",
+    "en": "Cotton Guard",
+    "fr": "Cotogarde",
+    "it": "Cotonscudo",
+    "de": "Watteschild",
+    "es": "Rizo Algodón",
+    "ko": "코튼가드",
+    "zh-CN": "棉花防守",
+    "zh-TW": "棉花防守"
+  },
+  "flavor_text_entries": {
+    "ja": "フワフワの　綿毛で　自分の 体を　包みこんで　守る。 防御を　ぐぐーんと　あげる。",
+    "kana": "フワフワの　わたげで　じぶんの からだを　つつみこんで　まもる。 ぼうぎょを　ぐぐーんと　あげる。",
+    "en": "The user protects itself by wrapping its body in soft cotton, which drastically raises the user’s Defense stat.",
+    "fr": "Le lanceur se protège en s’emmitouflant dans du coton. Sa Défense augmente énormément.",
+    "it": "Chi la usa avvolge il proprio corpo con del cotone molto morbido, proteggendosi e aumentando moltissimo la propria Difesa.",
+    "de": "Anwender schützt sich, indem er sich in einen luftigen Flaum hüllt. Erhöht die Verteidigung drastisch.",
+    "es": "Cubre al Pokémon con una madeja protectora. Aumenta muchísimo la Defensa.",
+    "ko": "푹신푹신한 솜털로 자신의 몸을 둘러싸서 지킨다. 방어를 매우 크게 올린다.",
+    "zh-CN": "用软绵绵的绒毛包裹住 自己的身体进行守护。 巨幅提高自己的防御。",
+    "zh-TW": "用軟綿綿的絨毛 保護自己的身體。 極大幅提高自己的防禦。"
+  },
   "stat_changes": [
     {
       "change": 3,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "grass"
-  }
+  "target": "user",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur se protège en s’emmitouflant dans du coton. Sa Défense augmente fortement."
+        }
+      }
+    }
+  ]
 }

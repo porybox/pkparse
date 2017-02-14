@@ -1,0 +1,41 @@
+{
+  "id": 339,
+  "name": "tm12",
+  "names": {
+    "ja": "わざマシン１２",
+    "kana": "わざマシン１２",
+    "en": "TM12",
+    "fr": "CT12",
+    "it": "MT12",
+    "de": "TM12",
+    "es": "MT12",
+    "ko": "기술머신12",
+    "zh-CN": "招式学习器１２",
+    "zh-TW": "招式學習器１２"
+  },
+  "flavor_text_entries": {
+    "ja": "相手を　怒らせる。　３ターンの あいだ　相手は　ダメージを 与える　技しか　だせなくなる。",
+    "kana": "あいてを　おこらせる。　３ターンの あいだ　あいては　ダメージを あたえる　わざしか　だせなくなる。",
+    "en": "The target is taunted into a rage that allows it to use only attack moves for three turns.",
+    "fr": "Provoque l’ennemi. L’oblige à n’utiliser que des attaques pendant trois tours.",
+    "it": "Provoca il bersaglio inducendolo a usare solo mosse d’attacco per tre turni.",
+    "de": "Das Ziel wird so gereizt, dass es über 3 Runden hinweg nur Angriffsattacken einsetzt.",
+    "es": "Provoca un agravio tal que el objetivo, cegado por la ira, solo puede usar movimientos de ataque durante tres turnos.",
+    "ko": "상대를 화나게 한다. 3턴 동안 상대는 데미지를 주는 기술밖에 쓸 수 없게 된다.",
+    "zh-CN": "使对手愤怒。 在３回合内让对手 只能使出给予伤害的招式。",
+    "zh-TW": "激怒對手。 在３回合內讓對手 只能使出給予傷害的招式。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手を　怒らせる。３ターンの あいだ　相手は　ダメージを 与える　技しか　だせなくなる。",
+          "kana": "あいてを　おこらせる。３ターンの あいだ　あいては　ダメージを あたえる　わざしか　だせなくなる。",
+          "it": "Provoca il nemico inducendolo a usare solo mosse d’attacco per tre turni.",
+          "es": "Provoca un ataque de ira en el objetivo que solo le permite usar movimientos de ataque durante tres turnos."
+        }
+      }
+    }
+  ]
+}

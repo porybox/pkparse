@@ -2,34 +2,13 @@
   "id": 610,
   "name": "hold-back",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": 40,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Will not reduce the target's [HP]{mechanic:hp} below 1.",
-      "short_effect": "Cannot lower the target's HP below 1.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,43 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Hold Back",
-      "language": "en"
-    },
-    {
-      "name": "Riguardo",
-      "language": "it"
-    },
-    {
-      "name": "Clemencia",
-      "language": "es"
-    },
-    {
-      "name": "Zurückhaltung",
-      "language": "de"
-    },
-    {
-      "name": "Retenue",
-      "language": "fr"
-    },
-    {
-      "name": "적당히손봐주기",
-      "language": "ko"
-    },
-    {
-      "name": "てかげん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "てかげん",
+    "kana": "てかげん",
+    "en": "Hold Back",
+    "fr": "Retenue",
+    "it": "Riguardo",
+    "de": "Zurückhaltung",
+    "es": "Clemencia",
+    "ko": "적당히손봐주기",
+    "zh-CN": "手下留情",
+    "zh-TW": "手下留情"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "手加減　した　攻撃で 相手の　ＨＰを 必ず　１だけ　残す。",
+    "kana": "てかげん　した　こうげきで あいての　ＨＰを かならず　１だけ　のこす。",
+    "en": "The user holds back when it attacks, and the target is left with at least 1 HP.",
+    "fr": "Le lanceur attaque avec retenue, et laisse au moins 1 PV à l’ennemi.",
+    "it": "Chi la usa attacca il bersaglio, modulando il colpo in modo da lasciargli almeno un PS.",
+    "de": "Der Anwender hält sich beim Angriff zurück und sorgt auf diese Weise dafür, dass dem Ziel danach mindestens 1 KP verbleibt.",
+    "es": "El usuario se contiene a la hora de atacar y deja al objetivo con al menos 1 PS.",
+    "ko": "적당히 공격하여 상대의 HP를 반드시 1은 남긴다.",
+    "zh-CN": "在攻击的时候手下留情， 从而使对手的ＨＰ 至少会留下１ＨＰ。",
+    "zh-TW": "在攻擊的時候手下留情， 讓對手的ＨＰ一定會剩下１。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user holds back when it attacks and the target is left with at least 1 HP.",
+          "fr": "Le lanceur attaque avec retenue, et laisse l’ennemi à 1 PV.",
+          "es": "El usuario se contiene a la hora de atacar y deja al Pokémon objetivo con al menos 1 PS."
+        }
+      }
+    }
+  ]
 }

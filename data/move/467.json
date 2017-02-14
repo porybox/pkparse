@@ -2,36 +2,13 @@
   "id": 467,
   "name": "shadow-force",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 120,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User vanishes for one turn, becoming immune to attack, and hits on the second turn.\n\nThis move ignores the effects of []{move:detect} and []{move:protect}.\n\nThis move cannot be selected by []{move:sleep-talk}.",
-      "short_effect": "User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Shadow Force",
-      "language": "en"
-    },
-    {
-      "name": "Oscurotuffo",
-      "language": "it"
-    },
-    {
-      "name": "Golpe Umbrío",
-      "language": "es"
-    },
-    {
-      "name": "Schemenkraft",
-      "language": "de"
-    },
-    {
-      "name": "Revenant",
-      "language": "fr"
-    },
-    {
-      "name": "섀도다이브",
-      "language": "ko"
-    },
-    {
-      "name": "シャドーダイブ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "シャドーダイブ",
+    "kana": "シャドーダイブ",
+    "en": "Shadow Force",
+    "fr": "Revenant",
+    "it": "Oscurotuffo",
+    "de": "Schemenkraft",
+    "es": "Golpe Umbrío",
+    "ko": "섀도다이브",
+    "zh-CN": "暗影潜袭",
+    "zh-TW": "暗影潛襲"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "１ターン目で　姿を　消して ２ターン目に　相手を　攻撃する。 守っていても　攻撃は　当たる。",
+    "kana": "１ターンめで　すがたを　けして ２ターンめに　あいてを　こうげきする。 まもっていても　こうげきは　あたる。",
+    "en": "The user disappears, then strikes the target on the next turn. This move hits even if the target protects itself.",
+    "fr": "Le lanceur disparaît et frappe l’ennemi au second tour. Fonctionne même si l’ennemi se protège.",
+    "it": "Chi la usa sparisce e poi colpisce il bersaglio al turno successivo. Colpisce anche un Pokémon che ha usato Protezione, Individua o simili.",
+    "de": "Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.",
+    "es": "En el primer turno, desaparece. En el segundo, golpea al objetivo aunque se esté protegiendo.",
+    "ko": "1턴째에 모습을 감춰 2턴째에 상대를 공격한다. 방어하고 있어도 공격은 맞는다.",
+    "zh-CN": "第１回合消失踪影， 第２回合攻击对手。 即使对手正受保护，也能击中。",
+    "zh-TW": "使用後的第１回合消失身影， 並於第２回合攻擊對手。 處於守護的對手也能擊中。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa sparisce e poi colpisce il bersaglio al turno successivo. Colpisce anche un Pokémon che ha usato Protezione o Individua."
+        }
+      }
+    }
+  ]
 }

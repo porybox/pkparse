@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 9,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -56,44 +48,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "オーダイル",
-      "language": "ja"
-    },
-    {
-      "name": "Ordile",
-      "language": "roomaji"
-    },
-    {
-      "name": "장크로다일",
-      "language": "ko"
-    },
-    {
-      "name": "大力鱷",
-      "language": "zh"
-    },
-    {
-      "name": "Aligatueur",
-      "language": "fr"
-    },
-    {
-      "name": "Impergator",
-      "language": "de"
-    },
-    {
-      "name": "Feraligatr",
-      "language": "es"
-    },
-    {
-      "name": "Feraligatr",
-      "language": "it"
-    },
-    {
-      "name": "Feraligatr",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オーダイル",
+    "en": "Feraligatr",
+    "fr": "Aligatueur",
+    "it": "Feraligatr",
+    "de": "Impergator",
+    "es": "Feraligatr",
+    "ko": "장크로다일"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -104,36 +67,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おおあご",
-      "language": "ja"
-    },
-    {
-      "genus": "큰턱",
-      "language": "ko"
-    },
-    {
-      "genus": "Mâchoire",
-      "language": "fr"
-    },
-    {
-      "genus": "Großmaul",
-      "language": "de"
-    },
-    {
-      "genus": "Fauces",
-      "language": "es"
-    },
-    {
-      "genus": "Mascellone",
-      "language": "it"
-    },
-    {
-      "genus": "Big Jaw",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おおあご",
+    "en": "Big Jaw",
+    "fr": "Mâchoire",
+    "it": "Mascellone",
+    "de": "Großmaul",
+    "es": "Fauces",
+    "ko": "큰턱"
+  },
   "varieties": [
     {
       "is_default": true,

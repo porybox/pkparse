@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 47,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "bug"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "armor"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "アメタマ",
-      "language": "ja"
-    },
-    {
-      "name": "Ametama",
-      "language": "roomaji"
-    },
-    {
-      "name": "비구술",
-      "language": "ko"
-    },
-    {
-      "name": "溜溜糖球",
-      "language": "zh"
-    },
-    {
-      "name": "Arakdo",
-      "language": "fr"
-    },
-    {
-      "name": "Gehweiher",
-      "language": "de"
-    },
-    {
-      "name": "Surskit",
-      "language": "es"
-    },
-    {
-      "name": "Surskit",
-      "language": "it"
-    },
-    {
-      "name": "Surskit",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アメタマ",
+    "en": "Surskit",
+    "fr": "Arakdo",
+    "it": "Surskit",
+    "de": "Gehweiher",
+    "es": "Surskit",
+    "ko": "비구술"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あめんぼ",
-      "language": "ja"
-    },
-    {
-      "genus": "소금쟁이",
-      "language": "ko"
-    },
-    {
-      "genus": "Maresurfeur",
-      "language": "fr"
-    },
-    {
-      "genus": "Wassergeher",
-      "language": "de"
-    },
-    {
-      "genus": "Zapatero",
-      "language": "es"
-    },
-    {
-      "genus": "Sfiorapozze",
-      "language": "it"
-    },
-    {
-      "genus": "Pond Skater",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あめんぼ",
+    "en": "Pond Skater",
+    "fr": "Maresurfeur",
+    "it": "Sfiorapozze",
+    "de": "Wassergeher",
+    "es": "Zapatero",
+    "ko": "소금쟁이"
+  },
   "varieties": [
     {
       "is_default": true,

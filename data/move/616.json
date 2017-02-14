@@ -2,34 +2,13 @@
   "id": 616,
   "name": "lands-wrath",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Land's Wrath",
-      "language": "en"
-    },
-    {
-      "name": "Forza Tellurica",
-      "language": "it"
-    },
-    {
-      "name": "Fuerza Telúrica",
-      "language": "es"
-    },
-    {
-      "name": "Bodengewalt",
-      "language": "de"
-    },
-    {
-      "name": "Force Chtonienne",
-      "language": "fr"
-    },
-    {
-      "name": "그라운드포스",
-      "language": "ko"
-    },
-    {
-      "name": "グランドフォース",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-opponents"
+  "names": {
+    "ja": "グランドフォース",
+    "kana": "グランドフォース",
+    "en": "Land’s Wrath",
+    "fr": "Force Chtonienne",
+    "it": "Forza Tellurica",
+    "de": "Bodengewalt",
+    "es": "Fuerza Telúrica",
+    "ko": "그라운드포스",
+    "zh-CN": "大地神力",
+    "zh-TW": "大地神力"
   },
-  "type": {
-    "name": "ground"
-  }
+  "flavor_text_entries": {
+    "ja": "大地の　パワーを　集め 力を　相手に　集中させて ダメージを　与える。",
+    "kana": "だいちの　パワーを　あつめ ちからを　あいてに　しゅうちゅう させて　ダメージを　あたえる。",
+    "en": "The user gathers the energy of the land and focuses that power on opposing Pokémon to damage them.",
+    "fr": "Utilise la puissance du sol et la concentre sur l’ennemi pour infliger des dégâts.",
+    "it": "Chi la usa raccoglie energia tellurica e ne concentra il potere sui nemici che ha intorno, danneggiandoli.",
+    "de": "Der Anwender sammelt die Kraft des weiten Landes und greift an, indem er sie gebündelt auf das Ziel lenkt.",
+    "es": "Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos.",
+    "ko": "대지의 힘을 모으고 그 힘을 상대에게 집중시켜서 데미지를 준다.",
+    "zh-CN": "聚集大地的力量， 将此力量集中攻击对手， 并给予伤害。",
+    "zh-TW": "聚集大地的能量後， 將力量集中攻擊對手給予傷害。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "ground"
 }

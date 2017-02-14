@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 160,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -51,36 +45,15 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "メブキジカ",
-      "language": "ja"
-    },
-    {
-      "name": "바라철록",
-      "language": "ko"
-    },
-    {
-      "name": "Haydaim",
-      "language": "fr"
-    },
-    {
-      "name": "Kronjuwild",
-      "language": "de"
-    },
-    {
-      "name": "Sawsbuck",
-      "language": "es"
-    },
-    {
-      "name": "Sawsbuck",
-      "language": "it"
-    },
-    {
-      "name": "Sawsbuck",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "メブキジカ",
+    "en": "Sawsbuck",
+    "fr": "Haydaim",
+    "it": "Sawsbuck",
+    "de": "Kronjuwild",
+    "es": "Sawsbuck",
+    "ko": "바라철록"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [
     {
@@ -88,36 +61,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "きせつ",
-      "language": "ja"
-    },
-    {
-      "genus": "계절",
-      "language": "ko"
-    },
-    {
-      "genus": "Saison",
-      "language": "fr"
-    },
-    {
-      "genus": "Jahreszeit",
-      "language": "de"
-    },
-    {
-      "genus": "Estacional",
-      "language": "es"
-    },
-    {
-      "genus": "Stagione",
-      "language": "it"
-    },
-    {
-      "genus": "Season",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きせつ",
+    "en": "Season",
+    "fr": "Saison",
+    "it": "Stagione",
+    "de": "Jahreszeit",
+    "es": "Estacional",
+    "ko": "계절"
+  },
   "varieties": [
     {
       "is_default": true,

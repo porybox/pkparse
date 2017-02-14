@@ -1,0 +1,50 @@
+{
+  "id": 658,
+  "name": "catastropika",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": 210,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ひっさつのピカチュート",
+    "kana": "ひっさつのピカチュート",
+    "en": "Catastropika",
+    "fr": "Pikachute Foudroyante",
+    "it": "Super Pikaboom",
+    "de": "Perfektes Pika-Projektil",
+    "es": "Pikavoltio Letal",
+    "ko": "필살피카슛",
+    "zh-CN": "皮卡皮卡必杀击",
+    "zh-TW": "皮卡皮卡必殺擊"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　最大　電力を 身に　まとったピカチュウが 全力で　相手に　飛び掛る。",
+    "kana": "Ｚパワーで　さいだい　でんりょくを みに　まとった　ピカチュウが ぜんりょくで　あいてに　とびかかる。",
+    "en": "The user, Pikachu, surrounds itself with the maximum amount of electricity using its Z-Power and pounces on its target with full force.",
+    "fr": "Pikachu utilise la Force Z pour concentrer toute son électricité avant de se jeter à toute vitesse sur l’adversaire.",
+    "it": "Grazie al Potere Z, Pikachu accumula un’enorme quantità di energia elettrica e si lancia contro il bersaglio a tutta forza.",
+    "de": "Pikachu umhüllt sich durch Z-Kraft mit gewaltiger elektrischer Energie und stürzt sich mit voller Kraft auf das Ziel.",
+    "es": "Pikachu emplea el Poder Z para acumular una gran cantidad de electricidad en su cuerpo y arremeter contra el objetivo.",
+    "ko": "Z파워로 최대 전력을 몸에 두른 피카츄가 전력으로 상대에게 덤벼든다.",
+    "zh-CN": "通过Ｚ力量， 皮卡丘全身覆盖最强电力， 全力猛扑对手。",
+    "zh-TW": "透過Ｚ力量， 全身覆蓋最大電力的 皮卡丘全力猛撲對手。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric"
+}

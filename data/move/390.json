@@ -2,36 +2,13 @@
   "id": 390,
   "name": "toxic-spikes",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Scatters poisoned spikes around the opposing [field]{mechanic:field}, which [poison]{mechanic:poison} opposing Pokémon that enter the [field]{mechanic:field}.  A second layer of these spikes may be laid down, in which case Pokémon will be [badly poison]{mechanic:badly-poison}ed instead.  Pokémon immune to either []{type:ground} moves or being [poison]{mechanic:poison}ed are immune to this effect.  Pokémon otherwise immune to []{type:ground} moves are affected during []{move:gravity}.\n\nIf a []{type:poison} Pokémon not immune to []{type:ground} moves enters a [field]{mechanic:field} covered with poisoned spikes, the spikes are removed.\n\n[]{move:rapid-spin} will remove this effect from its user's side of the [field]{mechanic:field}.  []{move:defog} will remove this effect from its target's side of the [field]{mechanic:field}.\n\nThis move does not trigger []{ability:synchronize}, unless the Pokémon with []{ability:synchronize} was forced to enter the [field]{mechanic:field} by another effect such as []{move:roar}.\n\nPokémon entering the [field]{mechanic:field} due to []{move:baton-pass} are not affected by this effect.",
-      "short_effect": "Scatters poisoned spikes, poisoning opposing Pokémon that switch in.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "field-effect"
-    },
+    "ailment": "none",
+    "category": "field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,43 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Toxic Spikes",
-      "language": "en"
-    },
-    {
-      "name": "Fielepunte",
-      "language": "it"
-    },
-    {
-      "name": "Púas Tóxicas",
-      "language": "es"
-    },
-    {
-      "name": "Giftspitzen",
-      "language": "de"
-    },
-    {
-      "name": "Pics Toxik",
-      "language": "fr"
-    },
-    {
-      "name": "독압정",
-      "language": "ko"
-    },
-    {
-      "name": "どくびし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "opponents-field"
+  "names": {
+    "ja": "どくびし",
+    "kana": "どくびし",
+    "en": "Toxic Spikes",
+    "fr": "Pics Toxik",
+    "it": "Fielepunte",
+    "de": "Giftspitzen",
+    "es": "Púas Tóxicas",
+    "ko": "독압정",
+    "zh-CN": "毒菱",
+    "zh-TW": "毒菱"
   },
-  "type": {
-    "name": "poison"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　足下に　どくびしを しかける。　交代で　でてきた　相手の ポケモンに　毒を　おわせる。",
+    "kana": "あいての　あしもとに　どくびしを しかける。　こうたいで　でてきた　あいての ポケモンに　どくを　おわせる。",
+    "en": "The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pokémon that switch into battle.",
+    "fr": "Lance des pics autour de l’ennemi. Ils empoisonnent les ennemis qui entrent au combat.",
+    "it": "Chi la usa piazza una trappola di punte che avvelenano i nemici che scendono in campo.",
+    "de": "Anwender legt eine Falle mit Giftdornen aus. In den Kampf eingewechselte gegnerische Pokémon werden vergiftet.",
+    "es": "Lanza una trampa de púas tóxicas a los pies del objetivo. El veneno afecta a los Pokémon que entran en combate.",
+    "ko": "상대의 발밑에 독압정을 뿌린다. 교체로 나온 상대 포켓몬에 독을 덮어씌운다.",
+    "zh-CN": "在对手的脚下撒毒菱。 使对手替换出场的宝可梦中毒。",
+    "zh-TW": "在對手腳下散布毒菱。 讓對手替換出場的寶可夢 陷入中毒狀態。"
+  },
+  "stat_changes": [],
+  "target": "opponents-field",
+  "type": "poison",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手の　足下に　どくびしを しかける。交代で　でてきた　相手の ポケモンに　毒を　おわせる。",
+          "kana": "あいての　あしもとに　どくびしを しかける。こうたいで　でてきた　あいての ポケモンに　どくを　おわせる。",
+          "en": "The user lays a trap of poison spikes at the opposing team’s feet. They poison opposing Pokémon that switch into battle."
+        }
+      }
+    }
+  ]
 }

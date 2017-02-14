@@ -1,0 +1,38 @@
+{
+  "id": 290,
+  "name": "power-belt",
+  "names": {
+    "ja": "パワーベルト",
+    "kana": "パワーベルト",
+    "en": "Power Belt",
+    "fr": "Ceinture Pouvoir",
+    "it": "Vigorfascia",
+    "de": "Machtgurt",
+    "es": "Cinto Recio",
+    "ko": "파워벨트",
+    "zh-CN": "力量腰带",
+    "zh-TW": "力量腰帶"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせると　素早さが　さがるが ふつうよりも　ポケモンの　防御が 高く　育ちやすい。",
+    "kana": "もたせると　すばやさが　さがるが ふつうよりも　ポケモンの　ぼうぎょが たかく　そだちやすい。",
+    "en": "An item to be held by a Pokémon. It reduces Speed but allows the holder’s Defense stat to grow more after battling.",
+    "fr": "Objet à tenir. Permet à la Défense de progresser plus vite, mais réduit la Vitesse pendant le combat.",
+    "it": "Strumento da dare a un Pokémon. Riduce la Velocità nella lotta ma permette ai punti base della Difesa di crescere più rapidamente.",
+    "de": "Ein Item zum Tragen. Erhöht nach dem Kampf den Verteidigungs-Wert, senkt aber die Initiative.",
+    "es": "Potencia la Defensa de base, pero reduce la Velocidad en combate. Debe llevarlo un Pokémon.",
+    "ko": "지니게 하면 스피드는 떨어지지만 여느 때보다 포켓몬의 방어를 올리면서 키우기가 쉽다.",
+    "zh-CN": "虽然携带后速度会降低， 但宝可梦的防御 会比平时成长得更高。",
+    "zh-TW": "雖然攜帶後速度會降低， 但寶可夢的防禦 會比平時培育得更高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ein Item zum Tragen. Erhöht bei Levelaufstieg den Verteidigungs-Wert, senkt aber die Initiative."
+        }
+      }
+    }
+  ]
+}

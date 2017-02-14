@@ -1,231 +1,39 @@
 {
   "id": 89,
   "name": "iron-fist",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "てつのこぶし",
+    "kana": "てつのこぶし",
+    "en": "Iron Fist",
+    "fr": "Poing de Fer",
+    "it": "Ferropugno",
+    "de": "Eisenfaust",
+    "es": "Puño Férreo",
+    "ko": "철주먹",
+    "zh-CN": "铁拳",
+    "zh-TW": "鐵拳"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "パンチを　使う　技の 威力が　上がる。",
+    "kana": "パンチを　つかう　わざの いりょくが　あがる。",
+    "en": "Powers up punching moves.",
+    "fr": "Augmente la puissance des capacités coups de poing.",
+    "it": "Potenzia le mosse che utilizzano pugni.",
+    "de": "Erhöht die Stärke von Hieb-, Punch-, Faust- und Schlag-Attacken.",
+    "es": "Aumenta la potencia de los puñetazos.",
+    "ko": "펀치를 사용하는 기술의 위력이 올라간다.",
+    "zh-CN": "使用拳类招式的威力会提高。",
+    "zh-TW": "使用到拳頭的招式 威力會提高。"
+  },
+  "past_values": [
     {
-      "name": "Iron Fist",
-      "language": "en"
-    },
-    {
-      "name": "Ferropugno",
-      "language": "it"
-    },
-    {
-      "name": "Puño Férreo",
-      "language": "es"
-    },
-    {
-      "name": "Eisenfaust",
-      "language": "de"
-    },
-    {
-      "name": "Poing de Fer",
-      "language": "fr"
-    },
-    {
-      "name": "철주먹",
-      "language": "ko"
-    },
-    {
-      "name": "てつのこぶし",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Moves flagged as being punch-based have 1.2× their base power for this Pokémon.\n\n[]{move:sucker-punch} is not flagged as punch-based; its original, Japanese name only means \"surprise attack\".",
-      "short_effect": "Strengthens punch-based moves to 1.2× their power.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "パンチを　使う　技の\n威力が　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Powers up punching moves.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Potenzia le mosse che\nutilizzano pugni.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Aumenta la fuerza de los\npuñetazos.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Steigert die Effektivität von\nBox- und Hieb-Attacken.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Augmente la puissance des\ncapacités coups de poing.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "펀치를 사용하는 기술의\n위력이 올라간다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "パンチを　つかう　わざの\nいりょくが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Boosts the power of\npunching moves.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Boosts the power of\npunching moves.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Augmente la puissance des\ncapacités coups de poing.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Boosts the power of\npunching moves.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Boosts the power of\npunching moves.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Boosts the power of\npunching moves.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "hitmonchan"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "ledian"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "chimchar"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "monferno"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "infernape"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "timburr"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "gurdurr"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "conkeldurr"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "golett"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "golurk"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "pancham"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "pangoro"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "パンチを　使う　技の 威力が　あがる。",
+          "de": "Steigert die Effektivität von Box- und Hieb-Attacken.",
+          "es": "Aumenta la fuerza de los puñetazos."
+        }
       }
     }
   ]

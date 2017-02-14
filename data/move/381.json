@@ -2,36 +2,13 @@
   "id": 381,
   "name": "lucky-chant",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "For five turns, opposing Pokémon cannot score [critical hits]{mechanic:critical-hit}.",
-      "short_effect": "Prevents the target from scoring critical hits for five turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "field-effect"
-    },
+    "ailment": "none",
+    "category": "field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,57 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Lucky Chant",
-      "language": "en"
-    },
-    {
-      "name": "Fortuncanto",
-      "language": "it"
-    },
-    {
-      "name": "Conjuro",
-      "language": "es"
-    },
-    {
-      "name": "Beschwörung",
-      "language": "de"
-    },
-    {
-      "name": "Air Veinard",
-      "language": "fr"
-    },
-    {
-      "name": "주술",
-      "language": "ko"
-    },
-    {
-      "name": "おまじない",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "users-field"
+  "names": {
+    "ja": "おまじない",
+    "kana": "おまじない",
+    "en": "Lucky Chant",
+    "fr": "Air Veinard",
+    "it": "Fortuncanto",
+    "de": "Beschwörung",
+    "es": "Conjuro",
+    "ko": "주술",
+    "zh-CN": "幸运咒语",
+    "zh-TW": "幸運咒語"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "天に　むかって　おいのりを　ささげ ５ターンの　間　相手の　攻撃を 急所に　当たらなくする。",
+    "kana": "てんに　むかって　おいのりを　ささげ ５ターンの　あいだ　あいての　こうげきを きゅうしょに　あたらなく　する。",
+    "en": "The user chants an incantation toward the sky, preventing opposing Pokémon from landing critical hits for five turns.",
+    "fr": "Le lanceur envoie une incantation vers le ciel et protège l’équipe des coups critiques pendant cinq tours.",
+    "it": "Chi la usa rivolge un incantesimo al cielo, impedendo al nemico di sferrare brutti colpi alla squadra per cinque turni.",
+    "de": "Anwender singt eine Beschwörungsformel, die fünf Runden lang Volltreffer gegen sein Team verhindert.",
+    "es": "Lanza al cielo un conjuro que protege a todo su equipo de golpes críticos.",
+    "ko": "하늘을 향해 기도를 올려 5턴 동안 상대의 공격을 급소에 맞지 않게 한다.",
+    "zh-CN": "向天许愿， 从而在５回合内不会 被对手的攻击打中要害。",
+    "zh-TW": "對天許願， 讓自己在５回合內不會 被對手的攻擊命中要害。"
+  },
+  "stat_changes": [],
+  "target": "users-field",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "天に　むかって　おいのりを　ささげ 相手の　攻撃を 急所に　当たらなくする。",
+          "kana": "てんに　むかって　おいのりを　ささげ あいての　こうげきを きゅうしょに　あたらなく　する。",
+          "en": "The user chants an incantation toward the sky, preventing opposing Pokémon from landing critical hits.",
+          "fr": "Le lanceur envoie une incantation vers le ciel et protège l’équipe des coups critiques.",
+          "it": "Chi la usa rivolge un incantesimo al cielo, impedendo al nemico di sferrare brutti colpi alla squadra.",
+          "de": "Anwender singt eine Beschwörungsformel, die Volltreffer gegen sein Team verhindert.",
+          "ko": "하늘을 향해 기도를 올려 상대의 공격을 급소에 맞지 않게 한다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur envoie une incantation vers le ciel pour empêcher l’ennemi d’effectuer des coups critiques.",
+          "de": "Anwender singt eine Beschwörungsformel, die Volltreffer gegen ihn verhindert.",
+          "es": "Lanza al cielo un conjuro que impide al objetivo asestar golpes críticos."
+        }
+      }
+    }
+  ]
 }

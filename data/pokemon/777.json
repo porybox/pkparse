@@ -1,0 +1,46 @@
+{
+  "id": 777,
+  "name": "togedemaru",
+  "gender_rate": 4,
+  "capture_rate": 180,
+  "base_happiness": 70,
+  "hatch_counter": 10,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground",
+    "fairy"
+  ],
+  "color": "gray",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "トゲデマル",
+    "en": "Togedemaru",
+    "fr": "Togedemaru",
+    "it": "Togedemaru",
+    "de": "Togedemaru",
+    "es": "Togedemaru",
+    "ko": "토게데마루"
+  },
+  "genera": {
+    "ja": "まるまり",
+    "en": "Roly-Poly",
+    "fr": "Roulenboule",
+    "it": "Ricciopalla",
+    "de": "Einigler",
+    "es": "Bolita",
+    "ko": "동글동글"
+  },
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 98,
+    "defense": 63,
+    "special-attack": 40,
+    "special-defense": 73,
+    "speed": 96
+  }
+}

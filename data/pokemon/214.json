@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": true,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 131,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -81,44 +75,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ヘラクロス",
-      "language": "ja"
-    },
-    {
-      "name": "Heracros",
-      "language": "roomaji"
-    },
-    {
-      "name": "헤라크로스",
-      "language": "ko"
-    },
-    {
-      "name": "赫拉剋羅斯",
-      "language": "zh"
-    },
-    {
-      "name": "Scarhino",
-      "language": "fr"
-    },
-    {
-      "name": "Skaraborn",
-      "language": "de"
-    },
-    {
-      "name": "Heracross",
-      "language": "es"
-    },
-    {
-      "name": "Heracross",
-      "language": "it"
-    },
-    {
-      "name": "Heracross",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヘラクロス",
+    "en": "Heracross",
+    "fr": "Scarhino",
+    "it": "Heracross",
+    "de": "Skaraborn",
+    "es": "Heracross",
+    "ko": "헤라크로스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -129,36 +94,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "１ぽんヅノ",
-      "language": "ja"
-    },
-    {
-      "genus": "외뿔",
-      "language": "ko"
-    },
-    {
-      "genus": "Unicorne",
-      "language": "fr"
-    },
-    {
-      "genus": "Einzelhorn",
-      "language": "de"
-    },
-    {
-      "genus": "Unicornio",
-      "language": "es"
-    },
-    {
-      "genus": "Monocorno",
-      "language": "it"
-    },
-    {
-      "genus": "Single Horn",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "１ぽんヅノ",
+    "en": "Single Horn",
+    "fr": "Unicorne",
+    "it": "Monocorno",
+    "de": "Einzelhorn",
+    "es": "Unicornio",
+    "ko": "외뿔"
+  },
   "varieties": [
     {
       "is_default": true,

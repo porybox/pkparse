@@ -2,34 +2,13 @@
   "id": 517,
   "name": "inferno",
   "accuracy": 50,
-  "effect_chance": 100,
   "pp": 5,
   "priority": 0,
   "power": 100,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "short_effect": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "burn",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Inferno",
-      "language": "en"
-    },
-    {
-      "name": "Marchiatura",
-      "language": "it"
-    },
-    {
-      "name": "Infierno",
-      "language": "es"
-    },
-    {
-      "name": "Inferno",
-      "language": "de"
-    },
-    {
-      "name": "Feu d'Enfer",
-      "language": "fr"
-    },
-    {
-      "name": "연옥",
-      "language": "ko"
-    },
-    {
-      "name": "れんごく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "れんごく",
+    "kana": "れんごく",
+    "en": "Inferno",
+    "fr": "Feu d’Enfer",
+    "it": "Marchiatura",
+    "de": "Inferno",
+    "es": "Infierno",
+    "ko": "연옥",
+    "zh-CN": "炼狱",
+    "zh-TW": "煉獄"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "激しい　炎で 相手を　包みこみ　攻撃する。 やけど状態に　する。",
+    "kana": "はげしい　ほのおで あいてを　つつみこみ　こうげきする。 やけど　じょうたいに　する。",
+    "en": "The user attacks by engulfing the target in an intense fire. This leaves the target with a burn.",
+    "fr": "L’ennemi est entouré d’un torrent de flammes ardentes qui le brûlent.",
+    "it": "Il bersaglio viene avvolto da intense fiammate che causano scottature.",
+    "de": "Anwender greift das Ziel an, indem er es mit dichten Flammen umhüllt. Ziel erleidet Verbrennungen.",
+    "es": "Ataca con una gran ráfaga de fuego que causa quemaduras.",
+    "ko": "격렬한 불꽃으로 상대를 둘러싸 공격한다. 화상 상태로 만든다.",
+    "zh-CN": "用烈焰包裹住对手进行攻击。 让对手陷入灼伤状态。",
+    "zh-TW": "用猛烈的火焰 包圍對手進行攻擊。 能讓對手陷入灼傷狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire"
 }

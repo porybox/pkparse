@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 30,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "dragon"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "blob"
   },
@@ -46,68 +38,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "クズモー",
-      "language": "ja"
-    },
-    {
-      "name": "수레기",
-      "language": "ko"
-    },
-    {
-      "name": "Venalgue",
-      "language": "fr"
-    },
-    {
-      "name": "Algitt",
-      "language": "de"
-    },
-    {
-      "name": "Skrelp",
-      "language": "es"
-    },
-    {
-      "name": "Skrelp",
-      "language": "it"
-    },
-    {
-      "name": "Skrelp",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クズモー",
+    "en": "Skrelp",
+    "fr": "Venalgue",
+    "it": "Skrelp",
+    "de": "Algitt",
+    "es": "Skrelp",
+    "ko": "수레기"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "クサモドキ",
-      "language": "ja"
-    },
-    {
-      "genus": "풀모방",
-      "language": "ko"
-    },
-    {
-      "genus": "Simulalgue",
-      "language": "fr"
-    },
-    {
-      "genus": "Tangmimikry",
-      "language": "de"
-    },
-    {
-      "genus": "Pseudoalga",
-      "language": "es"
-    },
-    {
-      "genus": "Similalga",
-      "language": "it"
-    },
-    {
-      "genus": "Mock Kelp",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "クサモドキ",
+    "en": "Mock Kelp",
+    "fr": "Simulalgue",
+    "it": "Similalga",
+    "de": "Tangmimikry",
+    "es": "Pseudoalga",
+    "ko": "풀모방"
+  },
   "varieties": [
     {
       "is_default": true,

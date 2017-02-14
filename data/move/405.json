@@ -2,36 +2,13 @@
   "id": 405,
   "name": "bug-buzz",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Special Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,60 @@
     "flinch_chance": 0,
     "stat_chance": 10
   },
-  "names": [
-    {
-      "name": "Bug Buzz",
-      "language": "en"
-    },
-    {
-      "name": "Ronzio",
-      "language": "it"
-    },
-    {
-      "name": "Zumbido",
-      "language": "es"
-    },
-    {
-      "name": "Käfergebrumm",
-      "language": "de"
-    },
-    {
-      "name": "Bourdon",
-      "language": "fr"
-    },
-    {
-      "name": "벌레의야단법석",
-      "language": "ko"
-    },
-    {
-      "name": "むしのさざめき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "むしのさざめき",
+    "kana": "むしのさざめき",
+    "en": "Bug Buzz",
+    "fr": "Bourdon",
+    "it": "Ronzio",
+    "de": "Käfergebrumm",
+    "es": "Zumbido",
+    "ko": "벌레의야단법석",
+    "zh-CN": "虫鸣",
+    "zh-TW": "蟲鳴"
+  },
+  "flavor_text_entries": {
+    "ja": "振動で　音波を　おこして 攻撃する。相手の　特防を さげることが　ある。",
+    "kana": "しんどうで　おんぱを　おこして こうげきする。あいての　とくぼうを さげることが　ある。",
+    "en": "The user generates a damaging sound wave by vibration. This may also lower the target’s Sp. Def stat.",
+    "fr": "Le lanceur fait vibrer son corps pour lancer une vague sonique. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+    "it": "Chi la usa crea un’onda sonora che infligge danni. Può anche ridurre la Difesa Speciale del bersaglio.",
+    "de": "Anwender erzeugt Schallwellen, die beim Ziel Schaden verursachen und eventuell dessen Spezial-Verteidigung senken.",
+    "es": "El usuario crea una onda sónica dañina moviendo su cuerpo que también puede disminuir la Defensa Especial del objetivo.",
+    "ko": "진동으로 음파를 일으켜서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+    "zh-CN": "利用振动发出音波进行攻击。 有时会降低对手的特防。",
+    "zh-TW": "利用振動產生出的音波進行攻擊。 有時會降低對手的特防。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "bug"
-  }
+  "target": "selected-pokemon",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "はねの　振動で　音波を　おこして 攻撃する。相手の　特防を さげることが　ある。",
+          "kana": "はねの　しんどうで　おんぱを　おこして こうげきする。あいての　とくぼうを さげることが　ある。",
+          "en": "The user vibrates its wings to generate a damaging sound wave. This may also lower the target’s Sp. Def stat.",
+          "it": "Chi la usa fa vibrare le ali creando un’onda sonora pericolosa. Può anche ridurre la Difesa Speciale del bersaglio.",
+          "de": "Anwender schlägt mit den Flügeln und erzeugt eine Schockwelle. Senkt eventuell Spezial-Verteidigung des Zieles.",
+          "ko": "날개의 진동으로 음파를 일으켜서 공격한다. 상대의 특수방어를 떨어뜨릴 때가 있다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur fait vibrer ses ailes pour lancer une vague sonique. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+          "es": "El movimiento de las alas crea una onda sónica dañina. También puede disminuir la Defensa Especial del objetivo."
+        }
+      }
+    }
+  ]
 }

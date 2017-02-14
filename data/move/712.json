@@ -1,0 +1,50 @@
+{
+  "id": 712,
+  "name": "spectral-thief",
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "power": 90,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "シャドースチール",
+    "kana": "シャドースチール",
+    "en": "Spectral Thief",
+    "fr": "Clepto-Mânes",
+    "it": "Ombrafurto",
+    "de": "Diebesschatten",
+    "es": "Robasombra",
+    "ko": "섀도스틸",
+    "zh-CN": "暗影偷盗",
+    "zh-TW": "暗影偷盜"
+  },
+  "flavor_text_entries": {
+    "ja": "相手の　影に　潜り込み 相手の　能力アップを 奪って　攻撃する。",
+    "kana": "あいての　かげに　もぐりこみ あいての　のうりょく　アップを うばって　こうげきする。",
+    "en": "The user hides in the target’s shadow, steals the target’s stat boosts, and then attacks.",
+    "fr": "Le lanceur plonge dans l’ombre de la cible, vole ses augmentations de stats et l’attaque.",
+    "it": "Chi la usa ruba gli aumenti delle statistiche del bersaglio, poi si nasconde nella sua ombra e lo attacca.",
+    "de": "Der Anwender schleicht sich in den Schatten des Zieles, stiehlt dessen erhöhte Statuswerte und fügt ihm Schaden zu.",
+    "es": "El usuario se esconde en la sombra del objetivo y lo ataca tras robarle las mejoras en sus características.",
+    "ko": "상대의 그림자에 숨어들어 상대의 능력이 올라가는 것을 뺏어 공격한다.",
+    "zh-CN": "潜入对手的影子进行攻击。 会夺取对手的能力提升。",
+    "zh-TW": "潛入對手的影子， 奪取對手的能力提升進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost"
+}

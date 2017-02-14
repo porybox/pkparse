@@ -1,189 +1,44 @@
 {
   "id": 108,
   "name": "forewarn",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "よちむ",
+    "kana": "よちむ",
+    "en": "Forewarn",
+    "fr": "Prédiction",
+    "it": "Premonizione",
+    "de": "Vorwarnung",
+    "es": "Alerta",
+    "ko": "예지몽",
+    "zh-CN": "预知梦",
+    "zh-TW": "預知夢"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "登場　したとき 相手の　持つ　技を ひとつだけ　読み取る。",
+    "kana": "とうじょう　したとき あいての　もつ　わざを ひとつだけ　よみとる。",
+    "en": "When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has.",
+    "fr": "Révèle l’une des capacités de l’ennemi quand le combat commence.",
+    "it": "Quando il Pokémon entra in campo, rivela la mossa più potente del nemico.",
+    "de": "Gibt bei Kampfantritt Auskunft über eine Attacke aus dem Repertoire des Gegners.",
+    "es": "Determina el movimiento más potente del rival al entrar en combate.",
+    "ko": "등장했을 때 상대가 지닌 기술을 하나만 꿰뚫어본다.",
+    "zh-CN": "出场时， 只读取１个对手拥有的招式。",
+    "zh-TW": "出場時，預見1個 對手持有的招式。"
+  },
+  "past_values": [
     {
-      "name": "Forewarn",
-      "language": "en"
-    },
-    {
-      "name": "Premonizione",
-      "language": "it"
-    },
-    {
-      "name": "Alerta",
-      "language": "es"
-    },
-    {
-      "name": "Vorwarnung",
-      "language": "de"
-    },
-    {
-      "name": "Prédiction",
-      "language": "fr"
-    },
-    {
-      "name": "예지몽",
-      "language": "ko"
-    },
-    {
-      "name": "よちむ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "When this Pokémon enters battle, it reveals the move with the highest base power known by any opposing Pokémon to all participating trainers.\n\nIn the event of a tie, one is chosen at random.\n\nMoves without a listed base power are assigned one as follows:\n\nPower | Moves\n----: | -----\n  160 | One-hit KO moves: []{move:fissure}, []{move:guillotine}, []{move:horn-drill}, and []{move:sheer-cold}\n  120 | Counter moves: []{move:counter}, []{move:metal-burst}, and []{move:mirror-coat}\n   80 | Variable power or set damage: []{move:crush-grip}, []{move:dragon-rage}, []{move:electro-ball}, []{move:endeavor}, []{move:final-gambit}, []{move:flail}, []{move:frustration}, []{move:grass-knot}, []{move:gyro-ball}, []{move:heat-crash}, []{move:heavy-slam}, []{move:hidden-power}, []{move:low-kick}, []{move:natural-gift}, []{move:night-shade}, []{move:psywave}, []{move:return}, []{move:reversal}, []{move:seismic-toss}, []{move:sonic-boom}, []{move:trump-card}, and []{move:wring-out}\n    0 | Any such move not listed\n",
-      "short_effect": "Reveals the opponents' strongest move upon entering battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "相手の　持つ　技を\n読み取ることが　できる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Determines what moves\nan opposing Pokémon has.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Scopre la mossa più potente\ndel nemico.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Determina el movimiento más\npotente del rival.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Gibt Auskunft über das Attacken-\nRepertoire des Gegners.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Découvre la capacité ennemie la\nplus puissante.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "상대가 지닌 기술을\n꿰뚫어볼 수 있다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "あいての　もつ　わざを\nよみとることが　できる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Determines what moves\na foe has.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Determines what moves\na foe has.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Découvre la capacité\nennemie la plus puissante.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Determines what moves\nthe foe has.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Determines what moves\nthe foe has.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Determines what moves\nthe foe has.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "drowzee"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "hypno"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "jynx"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "smoochum"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "munna"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "musharna"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手の　持つ　技を 読み取ることが　できる。",
+          "kana": "あいての　もつ　わざを よみとることが　できる。",
+          "en": "Determines what moves an opposing Pokémon has.",
+          "fr": "Découvre la capacité ennemie la plus puissante.",
+          "it": "Scopre la mossa più potente del nemico.",
+          "de": "Gibt Auskunft über das Attacken- Repertoire des Gegners.",
+          "es": "Determina el movimiento más potente del rival.",
+          "ko": "상대가 지닌 기술을 꿰뚫어볼 수 있다."
+        }
       }
     }
   ]

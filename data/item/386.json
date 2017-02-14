@@ -1,0 +1,53 @@
+{
+  "id": 386,
+  "name": "tm59",
+  "names": {
+    "ja": "わざマシン５９",
+    "kana": "わざマシン５９",
+    "en": "TM59",
+    "fr": "CT59",
+    "it": "MT59",
+    "de": "TM59",
+    "es": "MT59",
+    "ko": "기술머신59",
+    "zh-CN": "招式学习器５９",
+    "zh-TW": "招式學習器５９"
+  },
+  "flavor_text_entries": {
+    "ja": "自分の　体を ぶんまわして　相手に ダメージを　与える。",
+    "kana": "じぶんの　からだを ぶんまわして　あいてに ダメージを　あたえる。",
+    "en": "The user swings its body around violently to inflict damage on everything in its vicinity.",
+    "fr": "Le lanceur pivote pour prendre de l’élan et infliger des dégâts.",
+    "it": "Chi la usa infligge danni intorno a sé facendo ruotare una parte del suo corpo.",
+    "de": "Der Anwender dreht seinen Körper und fügt dem Ziel Schaden zu.",
+    "es": "Hace pivotar su cuerpo para infligir daño al rival.",
+    "ko": "자신의 몸을 세차게 휘둘러서 상대에게 데미지를 준다.",
+    "zh-CN": "用自己的身体狂舞挥打， 给予对手伤害。",
+    "zh-TW": "用自己的身體狂舞揮打， 給予對手傷害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "炎で　相手を　攻撃する。 相手が　きのみを　持っているとき 燃やして　使えなくする。",
+          "kana": "ほのおで　あいてを　こうげきする。 あいてが　きのみを　もっている　とき もやして　つかえなく　する。",
+          "en": "The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+          "fr": "Des flammes calcinent l’ennemi. S’il tient un objet, une Baie par exemple, celui-ci est brûlé et devient inutilisable.",
+          "it": "Attacca il nemico con una fiammata. Il fuoco distruggerà le bacche o alcuni tipi di strumenti che il Pokémon ha con sé.",
+          "de": "Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.",
+          "es": "Llamas que golpean a los objetivos adyacentes. Si llevan bayas u otros objetos, estos se quemarán y ya no se podrán usar.",
+          "ko": "불꽃으로 상대를 공격한다. 상대가 나무열매를 지니고 있을 때 불태워서 쓸 수 없게 만든다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas u otros objetos, estos se quemarán y ya no se podrán usar."
+        }
+      }
+    }
+  ]
+}

@@ -2,36 +2,13 @@
   "id": 362,
   "name": "brine",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 65,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target has less than half its max [HP]{mechanic:hp} remaining, this move has double power.",
-      "short_effect": "Has double power against Pokémon that have less than half their max HP remaining.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Brine",
-      "language": "en"
-    },
-    {
-      "name": "Acquadisale",
-      "language": "it"
-    },
-    {
-      "name": "Salmuera",
-      "language": "es"
-    },
-    {
-      "name": "Lake",
-      "language": "de"
-    },
-    {
-      "name": "Saumure",
-      "language": "fr"
-    },
-    {
-      "name": "소금물",
-      "language": "ko"
-    },
-    {
-      "name": "しおみず",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "しおみず",
+    "kana": "しおみず",
+    "en": "Brine",
+    "fr": "Saumure",
+    "it": "Acquadisale",
+    "de": "Lake",
+    "es": "Salmuera",
+    "ko": "소금물",
+    "zh-CN": "盐水",
+    "zh-TW": "鹽水"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "相手が　ＨＰの　半分くらい きずを　おっていると　技の　威力が ２倍に　なる。",
+    "kana": "あいてが　ＨＰの　はんぶん　くらい きずを　おっていると　わざの　いりょくが ２ばいに　なる。",
+    "en": "If the target’s HP is half or less, this attack will hit with double the power.",
+    "fr": "Cette attaque est deux fois plus puissante lorsque l’ennemi a moins de la moitié de ses PV.",
+    "it": "Se i PS del bersaglio sono scesi a metà o meno, questa mossa colpirà con il doppio della potenza.",
+    "de": "Hat das Ziel die Hälfte oder weniger seiner maximalen KP, trifft diese Attacke mit doppelter Kraft.",
+    "es": "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte.",
+    "ko": "상대가 HP의 절반 정도 상처를 입고 있으면 기술의 위력이 2배가 된다.",
+    "zh-CN": "当对手的ＨＰ 负伤到一半左右时， 招式威力会变成２倍。",
+    "zh-TW": "當對手負傷， ＨＰ剩一半左右時， 招式威力會變成２倍。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water"
 }

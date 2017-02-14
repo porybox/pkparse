@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 133,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -58,44 +50,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ポッチャマ",
-      "language": "ja"
-    },
-    {
-      "name": "Pochama",
-      "language": "roomaji"
-    },
-    {
-      "name": "팽도리",
-      "language": "ko"
-    },
-    {
-      "name": "波加曼",
-      "language": "zh"
-    },
-    {
-      "name": "Tiplouf",
-      "language": "fr"
-    },
-    {
-      "name": "Plinfa",
-      "language": "de"
-    },
-    {
-      "name": "Piplup",
-      "language": "es"
-    },
-    {
-      "name": "Piplup",
-      "language": "it"
-    },
-    {
-      "name": "Piplup",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ポッチャマ",
+    "en": "Piplup",
+    "fr": "Tiplouf",
+    "it": "Piplup",
+    "de": "Plinfa",
+    "es": "Piplup",
+    "ko": "팽도리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -106,36 +69,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ペンギン",
-      "language": "ja"
-    },
-    {
-      "genus": "펭귄",
-      "language": "ko"
-    },
-    {
-      "genus": "Pingouin",
-      "language": "fr"
-    },
-    {
-      "genus": "Pinguin",
-      "language": "de"
-    },
-    {
-      "genus": "Pingüino",
-      "language": "es"
-    },
-    {
-      "genus": "Pinguino",
-      "language": "it"
-    },
-    {
-      "genus": "Penguin",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ペンギン",
+    "en": "Penguin",
+    "fr": "Pingouin",
+    "it": "Pinguino",
+    "de": "Pinguin",
+    "es": "Pingüino",
+    "ko": "펭귄"
+  },
   "varieties": [
     {
       "is_default": true,

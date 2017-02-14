@@ -1,0 +1,38 @@
+{
+  "id": 454,
+  "name": "member-card",
+  "names": {
+    "ja": "メンバーズカード",
+    "kana": "メンバーズカード",
+    "en": "Member Card",
+    "fr": "Carte Membre",
+    "it": "Scheda Soci",
+    "de": "Mitgliedskarte",
+    "es": "Carné Socio",
+    "ko": "멤버스카드",
+    "zh-CN": "会员卡",
+    "zh-TW": "會員卡"
+  },
+  "flavor_text_entries": {
+    "ja": "ミオシティの　宿屋に　はいれる カード。　なぜか　５０年ほど前の 日付が　刻まれている。",
+    "kana": "ミオシティの　やどやに　はいれる カード。　なぜか　５０ねんほどまえの ひづけが　きざまれている。",
+    "en": "A card needed for entering the inn in Canalave City. Oddly, the last date marked on it was 50 years ago.",
+    "fr": "Une carte nécessaire pour entrer à l’auberge de Joliberges. Le dernier tampon date d’il y a 50 ans !",
+    "it": "Scheda che permette di entrare nella locanda di Canalipoli. L’ultimo timbro risale a 50 anni fa.",
+    "de": "Eine Eintrittskarte für den Gasthof in Fleetburg. Sie ist über 50 Jahre alt...",
+    "es": "Necesario para entrar en la posada de Ciudad Canal. Es extraño, pero la última fecha registrada es de hace 50 años.",
+    "ko": "운하시티의 여관에 들어갈 수 있는 카드. 어찌된 일인지 50년 정도 전의 날짜가 새겨져 있다.",
+    "zh-CN": "可以进入水脉市旅馆的卡片。 不知为何，上面刻有 ５０年前左右的日期。",
+    "zh-TW": "可以進入水脈市旅館的卡片。 不知為何，上面刻有 ５０年前左右的日期。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "de": "Mitgl.Karte"
+        }
+      }
+    }
+  ]
+}

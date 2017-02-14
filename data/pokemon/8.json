@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 87,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -68,44 +60,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "カメール",
-      "language": "ja"
-    },
-    {
-      "name": "Kameil",
-      "language": "roomaji"
-    },
-    {
-      "name": "어니부기",
-      "language": "ko"
-    },
-    {
-      "name": "卡咪龜",
-      "language": "zh"
-    },
-    {
-      "name": "Carabaffe",
-      "language": "fr"
-    },
-    {
-      "name": "Schillok",
-      "language": "de"
-    },
-    {
-      "name": "Wartortle",
-      "language": "es"
-    },
-    {
-      "name": "Wartortle",
-      "language": "it"
-    },
-    {
-      "name": "Wartortle",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カメール",
+    "en": "Wartortle",
+    "fr": "Carabaffe",
+    "it": "Wartortle",
+    "de": "Schillok",
+    "es": "Wartortle",
+    "ko": "어니부기"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -116,36 +79,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かめ",
-      "language": "ja"
-    },
-    {
-      "genus": "거북",
-      "language": "ko"
-    },
-    {
-      "genus": "Tortue",
-      "language": "fr"
-    },
-    {
-      "genus": "Kröte",
-      "language": "de"
-    },
-    {
-      "genus": "Tortuga",
-      "language": "es"
-    },
-    {
-      "genus": "Tartaruga",
-      "language": "it"
-    },
-    {
-      "genus": "Turtle",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かめ",
+    "en": "Turtle",
+    "fr": "Tortue",
+    "it": "Tartaruga",
+    "de": "Kröte",
+    "es": "Tortuga",
+    "ko": "거북"
+  },
   "varieties": [
     {
       "is_default": true,

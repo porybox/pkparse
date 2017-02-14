@@ -1,0 +1,38 @@
+{
+  "id": 28,
+  "name": "revive",
+  "names": {
+    "ja": "げんきのかけら",
+    "kana": "げんきのかけら",
+    "en": "Revive",
+    "fr": "Rappel",
+    "it": "Revitalizzante",
+    "de": "Beleber",
+    "es": "Revivir",
+    "ko": "기력의조각",
+    "zh-CN": "活力碎片",
+    "zh-TW": "活力碎片"
+  },
+  "flavor_text_entries": {
+    "ja": "ひんしに　なった　ポケモン １匹を　元気に　したうえで ＨＰを　半分まで　回復する。",
+    "kana": "ひんしに　なった　ポケモン １ひきを　げんきに　したうえで ＨＰを　はんぶんまで　かいふくする。",
+    "en": "A medicine that can revive fainted Pokémon. It also restores half of a fainted Pokémon’s maximum HP.",
+    "fr": "Un médicament qui ranime un Pokémon K.O. et restaure la moitié de ses PV max.",
+    "it": "Rimedio che rianima un Pokémon esausto e gli restituisce metà dei suoi PS massimi.",
+    "de": "Eine Medizin, die ein kampfunfähiges Pokémon wiederbelebt. Die Hälfte der maximalen KP wird wiederhergestellt.",
+    "es": "Medicina que revive a un Pokémon debilitado y le devuelve la mitad de sus PS.",
+    "ko": "기절해 버린 포켓몬 1마리를 건강하게 하고 HP를 절반까지 회복한다.",
+    "zh-CN": "能让１只陷入濒死的 宝可梦重获生机， 并回复一半ＨＰ。",
+    "zh-TW": "能讓１隻陷入瀕死的 寶可夢重獲生機， 並回復一半ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ひんしに　なってしまった　ポケモン １匹を　元気に　したうえで ＨＰを　半分まで　回復する。"
+        }
+      }
+    }
+  ]
+}

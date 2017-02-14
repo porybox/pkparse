@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 90,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "wings"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "シンボラー",
-      "language": "ja"
-    },
-    {
-      "name": "심보러",
-      "language": "ko"
-    },
-    {
-      "name": "Cryptéro",
-      "language": "fr"
-    },
-    {
-      "name": "Symvolara",
-      "language": "de"
-    },
-    {
-      "name": "Sigilyph",
-      "language": "es"
-    },
-    {
-      "name": "Sigilyph",
-      "language": "it"
-    },
-    {
-      "name": "Sigilyph",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "シンボラー",
+    "en": "Sigilyph",
+    "fr": "Cryptéro",
+    "it": "Sigilyph",
+    "de": "Symvolara",
+    "es": "Sigilyph",
+    "ko": "심보러"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とりもどき",
-      "language": "ja"
-    },
-    {
-      "genus": "흡사새",
-      "language": "ko"
-    },
-    {
-      "genus": "Similoiseau",
-      "language": "fr"
-    },
-    {
-      "genus": "Vogelgleich",
-      "language": "de"
-    },
-    {
-      "genus": "Pseudopájaro",
-      "language": "es"
-    },
-    {
-      "genus": "Pseuduccello",
-      "language": "it"
-    },
-    {
-      "genus": "Avianoid",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とりもどき",
+    "en": "Avianoid",
+    "fr": "Similoiseau",
+    "it": "Pseuduccello",
+    "de": "Vogelgleich",
+    "es": "Pseudopájaro",
+    "ko": "흡사새"
+  },
   "varieties": [
     {
       "is_default": true,

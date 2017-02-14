@@ -1,0 +1,51 @@
+{
+  "id": 396,
+  "name": "tm69",
+  "names": {
+    "ja": "わざマシン６９",
+    "kana": "わざマシン６９",
+    "en": "TM69",
+    "fr": "CT69",
+    "it": "MT69",
+    "de": "TM69",
+    "es": "MT69",
+    "ko": "기술머신69",
+    "zh-CN": "招式学习器６９",
+    "zh-TW": "招式學習器６９"
+  },
+  "flavor_text_entries": {
+    "ja": "自分の　体を　磨いて　空気の 抵抗を　少なくする。　素早さを ぐーんと　あげることが　できる。",
+    "kana": "じぶんの　からだを　みがいて　くうきの ていこうを　すくなくする。　すばやさを ぐーんと　あげることが　できる。",
+    "en": "The user polishes its body to reduce drag. This can sharply raise the Speed stat.",
+    "fr": "Le lanceur polit son corps pour diminuer sa résistance au vent. Augmente beaucoup la Vitesse.",
+    "it": "Chi la usa leviga il proprio corpo per ridurne l’attrito. Aumenta di molto la Velocità.",
+    "de": "Der Anwender poliert seinen Körper. Kann den Initiative-Wert stark erhöhen.",
+    "es": "Quien lo usa reduce la resistencia que ofrece su cuerpo y puede ganar mucho en Velocidad.",
+    "ko": "자신의 몸을 갈아 공기의 저항을 적게 한다. 스피드를 크게 올릴 수 있다.",
+    "zh-CN": "打磨自己的身体， 减少空气阻力。 可以大幅提高自己的速度。",
+    "zh-TW": "打磨自己的身體， 減少空氣阻力。 可大幅提高自己的速度。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "自分の　体を　磨いて　空気の 抵抗を　少なくする。素早さを ぐーんと　あげることが　できる。",
+          "kana": "からだを　みがきあげて　くうきの ていこうを　すくなくする。 すばやさを　ぐーんと　あげる。",
+          "fr": "Le lanceur polit son corps pour diminuer sa résistance au vent. Augmente fortement la Vitesse.",
+          "de": "Der Anwender poliert seinen Körper. Erhöht den Initiative-Wert deutlich.",
+          "es": "Quien lo usa reduce la resistencia que ofrece su cuerpo y gana mucho en Velocidad.",
+          "ko": "자신의 몸을 닦아 공기의 저항을 적게 한다. 스피드를 크게 올릴 수 있다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Der Anwender poliert seinen Körper. Kann den Initiative-Wert deutlich erhöhen."
+        }
+      }
+    }
+  ]
+}

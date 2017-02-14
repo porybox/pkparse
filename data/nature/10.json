@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "おくびょう",
-      "language": "ja"
-    },
-    {
-      "name": "겁쟁이",
-      "language": "ko"
-    },
-    {
-      "name": "Timide",
-      "language": "fr"
-    },
-    {
-      "name": "Scheu",
-      "language": "de"
-    },
-    {
-      "name": "Miedoso",
-      "language": "es"
-    },
-    {
-      "name": "Timida",
-      "language": "it"
-    },
-    {
-      "name": "Timid",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "おくびょう",
+    "en": "Timid",
+    "fr": "Timide",
+    "it": "Timida",
+    "de": "Scheu",
+    "es": "Miedosa",
+    "ko": "겁쟁이",
+    "zh-CN": "胆小",
+    "zh-TW": "膽小"
+  }
 }

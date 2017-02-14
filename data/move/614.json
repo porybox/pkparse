@@ -2,34 +2,13 @@
   "id": 614,
   "name": "thousand-arrows",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "This move has a unique effect, but it is unreleased, so the specific effect is unknown.",
-      "short_effect": "Unknown.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "unknown"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "unknown",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Thousand Arrows",
-      "language": "en"
-    },
-    {
-      "name": "Mille Frecce",
-      "language": "it"
-    },
-    {
-      "name": "Mil Flechas",
-      "language": "es"
-    },
-    {
-      "name": "Tausend Pfeile",
-      "language": "de"
-    },
-    {
-      "name": "Myria-Flèches",
-      "language": "fr"
-    },
-    {
-      "name": "사우전드애로",
-      "language": "ko"
-    },
-    {
-      "name": "サウザンアロー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-opponents"
+  "names": {
+    "ja": "サウザンアロー",
+    "kana": "サウザンアロー",
+    "en": "Thousand Arrows",
+    "fr": "Myria-Flèches",
+    "it": "Mille Frecce",
+    "de": "Tausend Pfeile",
+    "es": "Mil Flechas",
+    "ko": "사우전드애로",
+    "zh-CN": "千箭齐发",
+    "zh-TW": "千箭齊發"
   },
-  "type": {
-    "name": "ground"
-  }
+  "flavor_text_entries": {
+    "ja": "浮いている　ポケモンにも　当たる。 浮いていた　相手は 撃ち落とされて　地面に　落ちる。",
+    "kana": "ういている　ポケモンにも　あたる。 ういていた　あいては うちおとされて　じめんに　おちる。",
+    "en": "This move also hits opposing Pokémon that are in the air. Those Pokémon are knocked down to the ground.",
+    "fr": "Touche même les Pokémon dans les airs. Dans ce cas, la cible retombe au sol.",
+    "it": "Colpisce i nemici intorno scaraventando a terra quelli che si trovano in aria.",
+    "de": "Die Attacke erfasst auch fliegende und schwebende Pokémon. Werden sie getroffen, fallen sie zu Boden.",
+    "es": "Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.",
+    "ko": "떠 있는 포켓몬도 맞힐 수 있다. 떠 있던 상대는 맞아서 땅에 떨어진다.",
+    "zh-CN": "可以击中浮在空中的宝可梦。 空中的对手被击落后， 会掉到地面。",
+    "zh-TW": "能夠命中飄浮在空中的寶可夢。 飄浮在空中的對手 會被擊落掉到地面。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "ground",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Colpisce anche i Pokémon che fluttuano in aria. I nemici nei paraggi vengono scaraventati a terra.",
+          "de": "Die Attacke erfasst auch schwebende Pokémon. Erfasst sie ein Pokémon im Schwebe-Zustand, fällt es zu Boden."
+        }
+      }
+    }
+  ]
 }

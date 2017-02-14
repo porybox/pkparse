@@ -1,0 +1,44 @@
+{
+  "id": 800,
+  "name": "necrozma",
+  "gender_rate": -1,
+  "capture_rate": 3,
+  "base_happiness": 0,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "black",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ネクロズマ",
+    "en": "Necrozma",
+    "fr": "Necrozma",
+    "it": "Necrozma",
+    "de": "Necrozma",
+    "es": "Necrozma",
+    "ko": "네크로즈마"
+  },
+  "genera": {
+    "ja": "プリズム",
+    "en": "Prism",
+    "fr": "Prisme",
+    "it": "Prisma",
+    "de": "Prisma",
+    "es": "Prisma",
+    "ko": "프리즘"
+  },
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 97,
+    "attack": 107,
+    "defense": 101,
+    "special-attack": 127,
+    "special-defense": 89,
+    "speed": 79
+  }
+}

@@ -1,222 +1,43 @@
 {
   "id": 23,
   "name": "shadow-tag",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "かげふみ",
+    "kana": "かげふみ",
+    "en": "Shadow Tag",
+    "fr": "Marque Ombre",
+    "it": "Pedinombra",
+    "de": "Wegsperre",
+    "es": "Sombra Trampa",
+    "ko": "그림자밟기",
+    "zh-CN": "踩影",
+    "zh-TW": "踩影"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "相手の　影を　踏み 逃げたり　交代　できなくする。",
+    "kana": "あいての　かげを　ふみ にげたり　こうたい　できなくする。",
+    "en": "This Pokémon steps on the opposing Pokémon’s shadow to prevent it from escaping.",
+    "fr": "Empêche le Pokémon ennemi de quitter le combat.",
+    "it": "Calpesta l’ombra del nemico impedendogli la fuga o la sostituzione.",
+    "de": "Hindert den Gegner an der Flucht beziehungsweise am Auswechseln, indem es ihm den Weg versperrt.",
+    "es": "Evita que el enemigo huya o sea cambiado por otro.",
+    "ko": "상대의 그림자를 밟아 도망치거나 교체할 수 없게 한다.",
+    "zh-CN": "踩住对手的影子 使其无法逃走或替换。",
+    "zh-TW": "踩住對手的影子 使其無法逃走或替換。"
+  },
+  "past_values": [
     {
-      "name": "Shadow Tag",
-      "language": "en"
-    },
-    {
-      "name": "Pedinombra",
-      "language": "it"
-    },
-    {
-      "name": "Sombra Trampa",
-      "language": "es"
-    },
-    {
-      "name": "Wegsperre",
-      "language": "de"
-    },
-    {
-      "name": "Marque Ombre",
-      "language": "fr"
-    },
-    {
-      "name": "그림자밟기",
-      "language": "ko"
-    },
-    {
-      "name": "かげふみ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out.\n\nOther Pokémon with this ability are unaffected.  Pokémon with []{ability:run-away} can still flee.  Pokémon can still switch out with the use of a move or item.",
-      "short_effect": "Prevents opponents from fleeing or switching out.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "effect_entries": [
-        {
-          "effect": "Affects other Pokémon with this ability.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手の　影をふみ 逃げられなくする。",
+          "kana": "あいての　かげをふみ にげられなくする。",
+          "en": "Prevents opposing Pokémon from escaping.",
+          "it": "Impedisce la fuga al nemico.",
+          "de": "Hindert Gegner an der Flucht.",
+          "es": "Evita que el enemigo huya.",
+          "ko": "상대의 그림자를 밟아 도망칠 수 없게 한다."
         }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "相手の　影をふみ\n逃げられなくする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Prevents opposing Pokémon\nfrom escaping.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Impedisce la fuga al nemico.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Evita que el enemigo huya.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Hindert Gegner an der Flucht.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Empêche le Pokémon ennemi de\nquitter le combat.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "상대의 그림자를 밟아\n도망칠 수 없게 한다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "あいての　かげをふみ\nにげられなくする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Prevents the foe from\nescaping.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the foe from\nescaping.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Empêche le Pokémon ennemi\nde quitter le combat.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Prevents the foe from\nescaping.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the foe from\nescaping.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the foe from\nescaping.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the foe’s escape.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the foe’s escape.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the foe’s escape.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "wobbuffet"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "wynaut"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "gothita"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "gothorita"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "gothitelle"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gengar-mega"
       }
     }
   ]

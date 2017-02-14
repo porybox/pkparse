@@ -1,0 +1,45 @@
+{
+  "id": 787,
+  "name": "tapubulu",
+  "gender_rate": -1,
+  "capture_rate": 3,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "red",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "カプ・ブルル",
+    "en": "Tapu Bulu",
+    "fr": "Tokotoro",
+    "it": "Tapu Bulu",
+    "de": "Kapu-Toro",
+    "es": "Tapu Bulu",
+    "ko": "카푸브루루"
+  },
+  "genera": {
+    "ja": "とちがみ",
+    "en": "Land Spirit",
+    "fr": "Tutélaire",
+    "it": "Nume Locale",
+    "de": "Schutzpatron",
+    "es": "Dios Nativo",
+    "ko": "토속신"
+  },
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 130,
+    "defense": 115,
+    "special-attack": 85,
+    "special-defense": 95,
+    "speed": 75
+  }
+}

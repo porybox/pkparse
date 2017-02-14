@@ -2,49 +2,13 @@
   "id": 145,
   "name": "bubble",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 30,
   "priority": 0,
   "power": 40,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rain-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Speed by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 10
   },
-  "names": [
-    {
-      "name": "Bubble",
-      "language": "en"
-    },
-    {
-      "name": "Bolla",
-      "language": "it"
-    },
-    {
-      "name": "Burbuja",
-      "language": "es"
-    },
-    {
-      "name": "Blubber",
-      "language": "de"
-    },
-    {
-      "name": "Écume",
-      "language": "fr"
-    },
-    {
-      "name": "거품",
-      "language": "ko"
-    },
-    {
-      "name": "あわ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "あわ",
+    "kana": "あわ",
+    "en": "Bubble",
+    "fr": "Écume",
+    "it": "Bolla",
+    "de": "Blubber",
+    "es": "Burbuja",
+    "ko": "거품",
+    "zh-CN": "泡沫",
+    "zh-TW": "泡沫"
+  },
+  "flavor_text_entries": {
+    "ja": "無数の　泡を　相手に　吹きかけて 攻撃する。　相手の　素早さを さげることが　ある。",
+    "kana": "むすうの　あわを　あいてに　ふきかけて こうげきする。　あいての　すばやさを さげることが　ある。",
+    "en": "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stat.",
+    "fr": "Des bulles frappent l’ennemi. Peut réduire sa Vitesse.",
+    "it": "Una pioggia di bolle investe i nemici intorno e può anche ridurne la Velocità.",
+    "de": "Angriff mit Blasen. Initiative-Wert des Zieles wird eventuell gesenkt.",
+    "es": "Lanza burbujas a los contrincantes y puede reducir su Velocidad.",
+    "ko": "매우 많은 거품을 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨릴 때가 있다.",
+    "zh-CN": "向对手用力吹起无数泡泡进行攻击。 有时会降低对手的速度。",
+    "zh-TW": "將無數的泡泡吹向對手進行攻擊。 有時會降低對手的速度。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "water"
-  }
+  "target": "all-opponents",
+  "type": "water",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "無数の　泡を　相手に　吹きかけて 攻撃する。相手の　素早さを さげることが　ある。",
+          "kana": "むすうの　あわを　あいてに　ふきかけて こうげきする。あいての　すばやさを さげることが　ある。",
+          "en": "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stats."
+        }
+      }
+    }
+  ]
 }

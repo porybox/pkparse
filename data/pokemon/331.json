@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 119,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    },
-    {
-      "name": "plant"
-    }
+    "plant",
+    "humanshape"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -48,44 +40,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "サボネア",
-      "language": "ja"
-    },
-    {
-      "name": "Sabonea",
-      "language": "roomaji"
-    },
-    {
-      "name": "선인왕",
-      "language": "ko"
-    },
-    {
-      "name": "沙漠奈亞",
-      "language": "zh"
-    },
-    {
-      "name": "Cacnea",
-      "language": "fr"
-    },
-    {
-      "name": "Tuska",
-      "language": "de"
-    },
-    {
-      "name": "Cacnea",
-      "language": "es"
-    },
-    {
-      "name": "Cacnea",
-      "language": "it"
-    },
-    {
-      "name": "Cacnea",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "サボネア",
+    "en": "Cacnea",
+    "fr": "Cacnea",
+    "it": "Cacnea",
+    "de": "Tuska",
+    "es": "Cacnea",
+    "ko": "선인왕"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -96,36 +59,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "サボテン",
-      "language": "ja"
-    },
-    {
-      "genus": "선인장",
-      "language": "ko"
-    },
-    {
-      "genus": "Cactus",
-      "language": "fr"
-    },
-    {
-      "genus": "Kaktus",
-      "language": "de"
-    },
-    {
-      "genus": "Cactus",
-      "language": "es"
-    },
-    {
-      "genus": "Cactus",
-      "language": "it"
-    },
-    {
-      "genus": "Cactus",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "サボテン",
+    "en": "Cactus",
+    "fr": "Cactus",
+    "it": "Cactus",
+    "de": "Kaktus",
+    "es": "Cactus",
+    "ko": "선인장"
+  },
   "varieties": [
     {
       "is_default": true,

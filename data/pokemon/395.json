@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 135,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "エンペルト",
-      "language": "ja"
-    },
-    {
-      "name": "Emperte",
-      "language": "roomaji"
-    },
-    {
-      "name": "엠페르트",
-      "language": "ko"
-    },
-    {
-      "name": "帝王拿波",
-      "language": "zh"
-    },
-    {
-      "name": "Pingoléon",
-      "language": "fr"
-    },
-    {
-      "name": "Impoleon",
-      "language": "de"
-    },
-    {
-      "name": "Empoleon",
-      "language": "es"
-    },
-    {
-      "name": "Empoleon",
-      "language": "it"
-    },
-    {
-      "name": "Empoleon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エンペルト",
+    "en": "Empoleon",
+    "fr": "Pingoléon",
+    "it": "Empoleon",
+    "de": "Impoleon",
+    "es": "Empoleon",
+    "ko": "엠페르트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こうてい",
-      "language": "ja"
-    },
-    {
-      "genus": "황제",
-      "language": "ko"
-    },
-    {
-      "genus": "Empereur",
-      "language": "fr"
-    },
-    {
-      "genus": "Kaiser",
-      "language": "de"
-    },
-    {
-      "genus": "Emperador",
-      "language": "es"
-    },
-    {
-      "genus": "Imperatore",
-      "language": "it"
-    },
-    {
-      "genus": "Emperor",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こうてい",
+    "en": "Emperor",
+    "fr": "Empereur",
+    "it": "Imperatore",
+    "de": "Kaiser",
+    "es": "Emperador",
+    "ko": "황제"
+  },
   "varieties": [
     {
       "is_default": true,

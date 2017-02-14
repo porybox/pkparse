@@ -1,217 +1,52 @@
 {
   "id": 113,
   "name": "scrappy",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "きもったま",
+    "kana": "きもったま",
+    "en": "Scrappy",
+    "fr": "Querelleur",
+    "it": "Nervisaldi",
+    "de": "Rauflust",
+    "es": "Intrépido",
+    "ko": "배짱",
+    "zh-CN": "胆量",
+    "zh-TW": "膽量"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "ゴーストタイプの　ポケモンに ノーマルタイプと　かくとうタイプの 技を　当てることが　できる。",
+    "kana": "ゴーストタイプの　ポケモンに ノーマルタイプと　かくとうタイプの わざを　あてることが　できる。",
+    "en": "The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves.",
+    "fr": "Permet aux capacités de type Normal ou Combat du Pokémon de toucher les Pokémon de type Spectre.",
+    "it": "Permette di colpire Pokémon di tipo Spettro con mosse di tipo Normale e Lotta.",
+    "de": "Bewirkt, dass Normal- und Kampf-Attacken auch Pokémon vom Typ Geist treffen können.",
+    "es": "Los movimientos de tipo Normal o Lucha alcanzan a los Pokémon de tipo Fantasma.",
+    "ko": "고스트타입 포켓몬에게 노말타입과 격투타입의 기술을 맞게 한다.",
+    "zh-CN": "一般属性和格斗属性的招式 可以击中幽灵属性的宝可梦。",
+    "zh-TW": "一般屬性和格鬥屬性的招式 可擊中幽靈屬性的寶可夢。"
+  },
+  "past_values": [
     {
-      "name": "Scrappy",
-      "language": "en"
-    },
-    {
-      "name": "Nervisaldi",
-      "language": "it"
-    },
-    {
-      "name": "Intrépido",
-      "language": "es"
-    },
-    {
-      "name": "Rauflust",
-      "language": "de"
-    },
-    {
-      "name": "Querelleur",
-      "language": "fr"
-    },
-    {
-      "name": "배짱",
-      "language": "ko"
-    },
-    {
-      "name": "きもったま",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon ignores []{type:ghost}-type Pokémon's immunity to []{type:normal}- and []{type:fighting}-type moves.\n\nGhost Pokémon's other types affect damage as usual.",
-      "short_effect": "Lets the Pokémon's []{type:normal} and []{type:fighting} moves hit []{type:ghost} Pokémon.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "ゴーストタイプに\nノーマル技が　当たる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Makes Normal- and Fighting-type\nmoves hit Ghost-type Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "I Pokémon di tipo Spettro sono\ncolpiti da mosse Normale e Lotta.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Movimientos tipo Normal y Lucha\ngolpean a Pokémon Fantasma.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Normal- und Kampf-Attacken\ntreffen Pokémon vom Typ Geist.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Les capacités Normal et Combat\ntouchent les Pokémon Spectre.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "고스트타입에\n노말 기술이 맞는다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ゴーストタイプに\nノーマルわざが　あたる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Enables moves to hit\nGhost-type Pokémon.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Enables moves to hit\nGhost-type Pokémon.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Les cap. Normal touchent\nles Pokémon Spectre.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Enables moves to hit\nGhost-type foes.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Enables moves to hit\nGhost-type foes.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Enables moves to hit\nGhost-type foes.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "kangaskhan"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ゴーストタイプに ノーマル技が　当たる。",
+          "kana": "ゴーストタイプに ノーマルわざが　あたる。",
+          "en": "Makes Normal- and Fighting-type moves hit Ghost-type Pokémon.",
+          "fr": "Les capacités Normal et Combat touchent les Pokémon Spectre.",
+          "it": "I Pokémon di tipo Spettro sono colpiti da mosse Normale e Lotta. ",
+          "de": "Normal- und Kampf-Attacken treffen Pokémon vom Typ Geist.",
+          "es": "Movimientos tipo Normal y Lucha golpean a Pokémon Fantasma.",
+          "ko": "고스트타입에 노말 기술이 맞는다."
+        }
       }
     },
     {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "miltank"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "taillow"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "swellow"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "loudred"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "exploud"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "herdier"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "stoutland"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "pancham"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "pangoro"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "I Pokémon di tipo Spettro sono colpiti da mosse Normale e Lotta."
+        }
       }
     }
   ]

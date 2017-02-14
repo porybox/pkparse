@@ -1,112 +1,49 @@
 {
   "id": 187,
   "name": "fairy-aura",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-vi"
+  "names": {
+    "ja": "フェアリーオーラ",
+    "kana": "フェアリーオーラ",
+    "en": "Fairy Aura",
+    "fr": "Aura Féérique",
+    "it": "Aurafolletto",
+    "de": "Feenaura",
+    "es": "Aura Feérica",
+    "ko": "페어리오라",
+    "zh-CN": "妖精气场",
+    "zh-TW": "妖精氣場"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "全員の　フェアリータイプの 技が　強くなる。",
+    "kana": "ぜんいんの　フェアリータイプの わざが　つよくなる。",
+    "en": "Powers up each Pokémon’s Fairy-type moves.",
+    "fr": "Augmente la puissance des attaques de type Fée de tous les Pokémon.",
+    "it": "Potenzia le mosse di tipo Folletto di tutti i Pokémon.",
+    "de": "Erhöht die Stärke aller Attacken des Typs Fee.",
+    "es": "Aumenta la potencia de todos los movimientos de tipo Hada.",
+    "ko": "전원의 페어리타입 기술이 강해진다.",
+    "zh-CN": "全体的妖精属性招式变强。",
+    "zh-TW": "全體的妖精屬性招式變強。"
+  },
+  "past_values": [
     {
-      "name": "Fairy Aura",
-      "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "全員の　フェアリー 技が　強くなる。",
+          "kana": "ぜんいんの　フェアリー わざが　つよくなる。",
+          "fr": "Renforce les attaques de type Fée de tous les Pokémon.",
+          "it": "Potenzia le mosse di tipo Folletto  di tutti i Pokémon."
+        }
+      }
     },
     {
-      "name": "Aurafolletto",
-      "language": "it"
-    },
-    {
-      "name": "Aura Feérica",
-      "language": "es"
-    },
-    {
-      "name": "Feenaura",
-      "language": "de"
-    },
-    {
-      "name": "Aura Féérique",
-      "language": "fr"
-    },
-    {
-      "name": "페어리오라",
-      "language": "ko"
-    },
-    {
-      "name": "フェアリーオーラ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Strengthens []{type:fairy} moves for all friendly and opposing Pokémon.",
-      "short_effect": "Strengthens []{type:fairy} moves to 1.33× their power for all friendly and opposing Pokémon.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "全員の　フェアリー\n技が　強くなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Powers up each Pokémon’s\nFairy-type moves.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Potenzia le mosse di tipo Folletto\ndi tutti i Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Aumenta la potencia de todos los\nmovimientos de tipo Hada.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Erhöht die Stärke von allen\nAttacken des Typs Fee.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Renforce les attaques de type\nFée de tous les Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "전원의 페어리타입\n기술이 강해진다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ぜんいんの　フェアリー\nわざが　つよくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "xerneas"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Potenzia le mosse di tipo Folletto di tutti i Pokémon.",
+          "de": "Erhöht die Stärke von allen Attacken des Typs Fee."
+        }
       }
     }
   ]

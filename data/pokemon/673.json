@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 90,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ゴーゴート",
-      "language": "ja"
-    },
-    {
-      "name": "고고트",
-      "language": "ko"
-    },
-    {
-      "name": "Chevroum",
-      "language": "fr"
-    },
-    {
-      "name": "Chevrumm",
-      "language": "de"
-    },
-    {
-      "name": "Gogoat",
-      "language": "es"
-    },
-    {
-      "name": "Gogoat",
-      "language": "it"
-    },
-    {
-      "name": "Gogoat",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴーゴート",
+    "en": "Gogoat",
+    "fr": "Chevroum",
+    "it": "Gogoat",
+    "de": "Chevrumm",
+    "es": "Gogoat",
+    "ko": "고고트"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ライド",
-      "language": "ja"
-    },
-    {
-      "genus": "라이드",
-      "language": "ko"
-    },
-    {
-      "genus": "Monture",
-      "language": "fr"
-    },
-    {
-      "genus": "Ritt",
-      "language": "de"
-    },
-    {
-      "genus": "Montura",
-      "language": "es"
-    },
-    {
-      "genus": "Cavalcatura",
-      "language": "it"
-    },
-    {
-      "genus": "Mount",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ライド",
+    "en": "Mount",
+    "fr": "Monture",
+    "it": "Cavalcatura",
+    "de": "Ritt",
+    "es": "Montura",
+    "ko": "라이드"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,39 @@
+{
+  "id": 731,
+  "name": "key-to-room-2",
+  "names": {
+    "ja": "２ごうしつのカギ",
+    "kana": "にごうしつのカギ",
+    "en": "Key to Room 2",
+    "fr": "Clé Salle 2",
+    "it": "Chiave stanza 2",
+    "de": "R2-Schlüssel",
+    "es": "Ll. Habitación 2",
+    "ko": "2호실열쇠",
+    "zh-CN": "２号客房的钥匙",
+    "zh-TW": "２號客房的鑰匙"
+  },
+  "flavor_text_entries": {
+    "ja": "シーキンセツの　部屋に 入るための　カギ。",
+    "kana": "シーキンセツの　へやに はいる　ための　カギ。",
+    "en": "A key that opens a door inside Sea Mauville.",
+    "fr": "La clé d’une salle de Lavandia Sea.",
+    "it": "Chiave per accedere a una delle stanze di Ciclamare.",
+    "de": "Ein Schlüssel, der in das Schloss eines Raumes auf Seewoge Malvenfroh passt.",
+    "es": "Llave de acceso a una de las habitaciones de Malvamar.",
+    "ko": "씨보라의 방으로 들어가기 위한 열쇠.",
+    "zh-CN": "进入海紫堇的房间时 所需的钥匙。",
+    "zh-TW": "用於進入 海紫菫的房間的鑰匙。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "ja": "にごうしつのカギ",
+          "ko": "이호실열쇠"
+        }
+      }
+    }
+  ]
+}

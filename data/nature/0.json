@@ -42,34 +42,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "がんばりや",
-      "language": "ja"
-    },
-    {
-      "name": "노력",
-      "language": "ko"
-    },
-    {
-      "name": "Hardi",
-      "language": "fr"
-    },
-    {
-      "name": "Robust",
-      "language": "de"
-    },
-    {
-      "name": "Fuerte",
-      "language": "es"
-    },
-    {
-      "name": "Ardita",
-      "language": "it"
-    },
-    {
-      "name": "Hardy",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "がんばりや",
+    "en": "Hardy",
+    "fr": "Hardi",
+    "it": "Ardita",
+    "de": "Robust",
+    "es": "Fuerte",
+    "ko": "노력",
+    "zh-CN": "勤奋",
+    "zh-TW": "勤奮"
+  }
 }

@@ -2,36 +2,13 @@
   "id": 394,
   "name": "flare-blitz",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 15,
   "priority": 0,
   "power": 120,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/3 the damage it inflicts in recoil.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.  [Frozen]{mechanic:frozen} Pokémon may use this move, in which case they will thaw.",
-      "short_effect": "User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "burn",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,43 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Flare Blitz",
-      "language": "en"
-    },
-    {
-      "name": "Fuococarica",
-      "language": "it"
-    },
-    {
-      "name": "Envite Ígneo",
-      "language": "es"
-    },
-    {
-      "name": "Flammenblitz",
-      "language": "de"
-    },
-    {
-      "name": "Boutefeu",
-      "language": "fr"
-    },
-    {
-      "name": "플레어드라이브",
-      "language": "ko"
-    },
-    {
-      "name": "フレアドライブ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "フレアドライブ",
+    "kana": "フレアドライブ",
+    "en": "Flare Blitz",
+    "fr": "Boutefeu",
+    "it": "Fuococarica",
+    "de": "Flammenblitz",
+    "es": "Envite Ígneo",
+    "ko": "플레어드라이브",
+    "zh-CN": "闪焰冲锋",
+    "zh-TW": "閃焰衝鋒"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "炎を　まとって　突進する。 自分も　かなり　ダメージを　受ける。 やけど状態に　することが　ある。",
+    "kana": "ほのおを　まとって　とっしんする。 じぶんも　かなり　ダメージを　うける。 やけど　じょうたいに　することが　ある。",
+    "en": "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn.",
+    "fr": "Le lanceur s’embrase avant de charger l’ennemi. Le choc blesse aussi gravement le lanceur. Peut brûler l’ennemi.",
+    "it": "Chi la usa si ricopre di fuoco e carica il bersaglio, ma subisce il contraccolpo. Può anche scottare il Pokémon colpito.",
+    "de": "Anwender hüllt sich in Flammen und stürmt auf das Ziel zu, das dadurch eventuell Verbrennungen erleidet. Anwender nimmt selbst großen Schaden.",
+    "es": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daño. Puede quemar.",
+    "ko": "불꽃을 두르고 돌진한다. 자신도 상당한 데미지를 입는다. 화상 상태로 만들 때가 있다.",
+    "zh-CN": "让火焰覆盖全身猛撞向对手。 自己也会受到不小的伤害。 有时会让对手陷入灼伤状态。",
+    "zh-TW": "將火焰圍繞全身後猛撞對手。 自己也會受到不小的傷害。 有時會讓對手陷入灼傷狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This may leave the target with a burn.",
+          "de": "Anwender hüllt sich in Flammen und stürmt auf das Ziel zu, das sich eventuell verbrennt. Anwender nimmt selbst großen Schaden.",
+          "es": "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daños. Puede quemar."
+        }
+      }
+    }
+  ]
 }

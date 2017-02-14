@@ -1,0 +1,45 @@
+{
+  "id": 35,
+  "name": "energy-root",
+  "names": {
+    "ja": "ちからのねっこ",
+    "kana": "ちからのねっこ",
+    "en": "Energy Root",
+    "fr": "Racinénergie",
+    "it": "Radicenergia",
+    "de": "Kraftwurzel",
+    "es": "Raíz Energía",
+    "ko": "힘의뿌리",
+    "zh-CN": "元气根",
+    "zh-TW": "元氣根"
+  },
+  "flavor_text_entries": {
+    "ja": "とても　にがい　ねっこ。 ポケモン　１匹の　ＨＰを １２０だけ　回復する。",
+    "kana": "とても　にがい　ねっこ。 ポケモン　１ひきの　ＨＰを １２０だけ　かいふくする。",
+    "en": "An extremely bitter medicinal root. When consumed, it restores up to 120 HP to an injured Pokémon.",
+    "fr": "Une racine très amère. Restaure 120 PV d’un Pokémon.",
+    "it": "Radice amarissima. Restituisce 120 PS a un Pokémon.",
+    "de": "Eine bittere Wurzel, die die KP eines Pokémon um 120 Punkte auffüllt.",
+    "es": "Raíz muy amarga que restaura 120 PS de un Pokémon.",
+    "ko": "매우 쓴 뿌리. 포켓몬 1마리의 HP를 120만큼 회복한다.",
+    "zh-CN": "非常苦的根。 能让１只宝可梦 回复１２０ＨＰ。",
+    "zh-TW": "非常苦的根。 能讓１隻寶可夢 回復１２０ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "とても　にがい　ねっこ。 ポケモン　１匹の　ＨＰを ２００だけ　回復する。",
+          "kana": "とても　にがい　ねっこ。 ポケモン　１ひきの　ＨＰを ２００だけ　かいふくする。",
+          "en": "An extremely bitter medicinal root. When consumed, it restores 200 HP to an injured Pokémon.",
+          "fr": "Une racine très amère. Restaure 200 PV d’un Pokémon.",
+          "it": "Radice amarissima. Restituisce 200 PS a un Pokémon.",
+          "de": "Eine bittere Wurzel. Sie füllt die KP eines Pokémon um 200 Punkte auf.",
+          "es": "Raíz muy amarga que restaura 200 PS de un Pokémon.",
+          "ko": "매우 쓴 뿌리. 포켓몬 1마리의 HP를 200만큼 회복한다."
+        }
+      }
+    }
+  ]
+}

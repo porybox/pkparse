@@ -1,0 +1,38 @@
+{
+  "id": 611,
+  "name": "ability-urge",
+  "names": {
+    "ja": "スキルコール",
+    "kana": "スキルコール",
+    "en": "Ability Urge",
+    "fr": "Appel Talent",
+    "it": "Chiamabilità",
+    "de": "Fähigk.-Appell",
+    "es": "Habilitador",
+    "ko": "스킬콜",
+    "zh-CN": "？？？",
+    "zh-TW": "？？？"
+  },
+  "flavor_text_entries": {
+    "ja": "使うと　味方の　ポケモンの 特性を　発動させる。",
+    "kana": "つかうと　みかたの　ポケモンの とくせいを　はつどう　させる。",
+    "en": "When used, it activates the Ability of an ally Pokémon.",
+    "fr": "Déclenche le talent d’un Pokémon de l’équipe.",
+    "it": "Se usato su un Pokémon della squadra, ne attiva l’abilità.",
+    "de": "Aktiviert bei Gebrauch die Fähigkeit des Mitstreiters.",
+    "es": "Al usarlo, activa la habilidad de un Pokémon de tu equipo.",
+    "ko": "사용하면 같은 편 포켓몬의 특성을 발동시킨다.",
+    "zh-CN": "使用后，能令我方 宝可梦的特性启动。",
+    "zh-TW": "使用後，能使我方 寶可夢的特性發動。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "de": "Fäh.-Appell"
+        }
+      }
+    }
+  ]
+}

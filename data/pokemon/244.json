@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 244,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "エンテイ",
-      "language": "ja"
-    },
-    {
-      "name": "Entei",
-      "language": "roomaji"
-    },
-    {
-      "name": "앤테이",
-      "language": "ko"
-    },
-    {
-      "name": "炎帝",
-      "language": "zh"
-    },
-    {
-      "name": "Entei",
-      "language": "fr"
-    },
-    {
-      "name": "Entei",
-      "language": "de"
-    },
-    {
-      "name": "Entei",
-      "language": "es"
-    },
-    {
-      "name": "Entei",
-      "language": "it"
-    },
-    {
-      "name": "Entei",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エンテイ",
+    "en": "Entei",
+    "fr": "Entei",
+    "it": "Entei",
+    "de": "Entei",
+    "es": "Entei",
+    "ko": "앤테이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かざん",
-      "language": "ja"
-    },
-    {
-      "genus": "화산",
-      "language": "ko"
-    },
-    {
-      "genus": "Volcan",
-      "language": "fr"
-    },
-    {
-      "genus": "Vulkan",
-      "language": "de"
-    },
-    {
-      "genus": "Volcán",
-      "language": "es"
-    },
-    {
-      "genus": "Vulcano",
-      "language": "it"
-    },
-    {
-      "genus": "Volcano",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かざん",
+    "en": "Volcano",
+    "fr": "Volcan",
+    "it": "Vulcano",
+    "de": "Vulkan",
+    "es": "Volcán",
+    "ko": "화산"
+  },
   "varieties": [
     {
       "is_default": true,

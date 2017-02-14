@@ -1,0 +1,46 @@
+{
+  "id": 410,
+  "name": "tm83",
+  "names": {
+    "ja": "わざマシン８３",
+    "kana": "わざマシン８３",
+    "en": "TM83",
+    "fr": "CT83",
+    "it": "MT83",
+    "de": "TM83",
+    "es": "MT83",
+    "ko": "기술머신83",
+    "zh-CN": "招式学习器８３",
+    "zh-TW": "招式學習器８３"
+  },
+  "flavor_text_entries": {
+    "ja": "４ー５ターンの　間　相手に まとわりついて　攻撃する。 その間　相手は　逃げられない。",
+    "kana": "４ー５ターンの　あいだ　あいてに まとわりついて　こうげきする。 そのあいだ　あいては　にげられない。",
+    "en": "The target is infested and attacked for four to five turns. The target can’t flee during this time.",
+    "fr": "Cette attaque perdure pendant quatre à cinq tours. L’ennemi ne peut pas fuir au cours de cette période.",
+    "it": "Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire.",
+    "de": "Der Anwender fällt 4 bis 5 Runden lang wie eine Plage über das Ziel her und greift es an. In diesem Zeitraum kann es nicht fliehen.",
+    "es": "Oprime al enemigo de cuatro a cinco turnos, durante los cuales no podrá huir.",
+    "ko": "4-5턴 동안 상대에게 엉겨 붙어서 공격한다. 그동안 상대는 도망갈 수 없다.",
+    "zh-CN": "在４～５回合内 死缠烂打地进行攻击。 在此期间对手将无法逃走。",
+    "zh-TW": "在４～５回合內 死纏爛打地進行攻擊。 在此期間對手將無法逃走。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "4-5턴 동안 상대에게 엉겨붙어 공격한다. 그동안 상대는 도망갈 수 없다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Attaque l’ennemi sans répit pendant quatre à cinq tours. Ce dernier ne peut pas fuir au cours de cette période."
+        }
+      }
+    }
+  ]
+}

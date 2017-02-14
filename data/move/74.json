@@ -2,83 +2,13 @@
   "id": 74,
   "name": "growth",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "vine-whip"
-        },
-        {
-          "name": "absorb"
-        },
-        {
-          "name": "mega-drain"
-        },
-        {
-          "name": "leech-seed"
-        },
-        {
-          "name": "razor-leaf"
-        },
-        {
-          "name": "solar-beam"
-        },
-        {
-          "name": "petal-dance"
-        },
-        {
-          "name": "giga-drain"
-        },
-        {
-          "name": "bullet-seed"
-        },
-        {
-          "name": "frenzy-plant"
-        },
-        {
-          "name": "magical-leaf"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": [
-        {
-          "name": "magical-leaf"
-        }
-      ],
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage} each.  During []{move:sunny-day}, raises both stats by two stages.",
-      "short_effect": "Raises the user's Attack and Special Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -90,74 +20,40 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Growth",
-      "language": "en"
-    },
-    {
-      "name": "Crescita",
-      "language": "it"
-    },
-    {
-      "name": "Desarrollo",
-      "language": "es"
-    },
-    {
-      "name": "Wachstum",
-      "language": "de"
-    },
-    {
-      "name": "Croissance",
-      "language": "fr"
-    },
-    {
-      "name": "성장",
-      "language": "ko"
-    },
-    {
-      "name": "せいちょう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [
-        {
-          "effect": "Raises the user's [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage}.",
-          "short_effect": "Raises the user's Special Attack by one stage.",
-          "language": "en"
-        }
-      ],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
-      }
-    }
-  ],
+  "names": {
+    "ja": "せいちょう",
+    "kana": "せいちょう",
+    "en": "Growth",
+    "fr": "Croissance",
+    "it": "Crescita",
+    "de": "Wachstum",
+    "es": "Desarrollo",
+    "ko": "성장",
+    "zh-CN": "生长",
+    "zh-TW": "生長"
+  },
+  "flavor_text_entries": {
+    "ja": "体を　一気に 大きく　生長させて 攻撃と　特攻を　あげる。",
+    "kana": "からだを　いっきに おおきく　せいちょう　させて こうげきと　とくこうを　あげる。",
+    "en": "The user’s body grows all at once, raising the Attack and Sp. Atk stats.",
+    "fr": "Le corps du lanceur se développe. Augmente l’Attaque et l’Attaque Spéciale.",
+    "it": "Provoca la crescita immediata del corpo e l’aumento dell’Attacco e dell’Attacco Speciale di chi la usa.",
+    "de": "Der Körper wächst. Dadurch steigen Angriff und Spezial-Angriff.",
+    "es": "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.",
+    "ko": "몸을 일시에 크게 성장시켜 공격과 특수공격을 올린다.",
+    "zh-CN": "让身体一下子长大， 从而提高攻击和特攻。",
+    "zh-TW": "讓身體瞬間長大， 提高自己的攻擊和特攻。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "user",
+  "type": "normal"
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 15,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    },
-    {
-      "name": "bug"
-    }
+    "bug",
+    "water3"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "armor"
   },
@@ -70,44 +62,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "スコルピ",
-      "language": "ja"
-    },
-    {
-      "name": "Scorpi",
-      "language": "roomaji"
-    },
-    {
-      "name": "스콜피",
-      "language": "ko"
-    },
-    {
-      "name": "紫天蠍",
-      "language": "zh"
-    },
-    {
-      "name": "Rapion",
-      "language": "fr"
-    },
-    {
-      "name": "Pionskora",
-      "language": "de"
-    },
-    {
-      "name": "Skorupi",
-      "language": "es"
-    },
-    {
-      "name": "Skorupi",
-      "language": "it"
-    },
-    {
-      "name": "Skorupi",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "スコルピ",
+    "en": "Skorupi",
+    "fr": "Rapion",
+    "it": "Skorupi",
+    "de": "Pionskora",
+    "es": "Skorupi",
+    "ko": "스콜피"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -118,36 +81,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さそり",
-      "language": "ja"
-    },
-    {
-      "genus": "전갈",
-      "language": "ko"
-    },
-    {
-      "genus": "Scorpion",
-      "language": "fr"
-    },
-    {
-      "genus": "Skorpion",
-      "language": "de"
-    },
-    {
-      "genus": "Escorpión",
-      "language": "es"
-    },
-    {
-      "genus": "Scorpione",
-      "language": "it"
-    },
-    {
-      "genus": "Scorpion",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さそり",
+    "en": "Scorpion",
+    "fr": "Scorpion",
+    "it": "Scorpione",
+    "de": "Skorpion",
+    "es": "Escorpión",
+    "ko": "전갈"
+  },
   "varieties": [
     {
       "is_default": true,

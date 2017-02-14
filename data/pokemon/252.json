@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 130,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "dragon"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "キモリ",
-      "language": "ja"
-    },
-    {
-      "name": "Kimori",
-      "language": "roomaji"
-    },
-    {
-      "name": "나무지기",
-      "language": "ko"
-    },
-    {
-      "name": "木守宮",
-      "language": "zh"
-    },
-    {
-      "name": "Arcko",
-      "language": "fr"
-    },
-    {
-      "name": "Geckarbor",
-      "language": "de"
-    },
-    {
-      "name": "Treecko",
-      "language": "es"
-    },
-    {
-      "name": "Treecko",
-      "language": "it"
-    },
-    {
-      "name": "Treecko",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "キモリ",
+    "en": "Treecko",
+    "fr": "Arcko",
+    "it": "Treecko",
+    "de": "Geckarbor",
+    "es": "Treecko",
+    "ko": "나무지기"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "もりトカゲ",
-      "language": "ja"
-    },
-    {
-      "genus": "숲도마뱀",
-      "language": "ko"
-    },
-    {
-      "genus": "Bois Gecko",
-      "language": "fr"
-    },
-    {
-      "genus": "Waldgecko",
-      "language": "de"
-    },
-    {
-      "genus": "Geco Bosque",
-      "language": "es"
-    },
-    {
-      "genus": "Legnogeco",
-      "language": "it"
-    },
-    {
-      "genus": "Wood Gecko",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "もりトカゲ",
+    "en": "Wood Gecko",
+    "fr": "Bois Gecko",
+    "it": "Legnogeco",
+    "de": "Waldgecko",
+    "es": "Geco Bosque",
+    "ko": "숲도마뱀"
+  },
   "varieties": [
     {
       "is_default": true,

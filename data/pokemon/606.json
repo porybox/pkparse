@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 189,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "humanoid"
   },
@@ -51,68 +45,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "オーベム",
-      "language": "ja"
-    },
-    {
-      "name": "벰크",
-      "language": "ko"
-    },
-    {
-      "name": "Neitram",
-      "language": "fr"
-    },
-    {
-      "name": "Megalon",
-      "language": "de"
-    },
-    {
-      "name": "Beheeyem",
-      "language": "es"
-    },
-    {
-      "name": "Beheeyem",
-      "language": "it"
-    },
-    {
-      "name": "Beheeyem",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オーベム",
+    "en": "Beheeyem",
+    "fr": "Neitram",
+    "it": "Beheeyem",
+    "de": "Megalon",
+    "es": "Beheeyem",
+    "ko": "벰크"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ブレイン",
-      "language": "ja"
-    },
-    {
-      "genus": "브레인",
-      "language": "ko"
-    },
-    {
-      "genus": "Cerveau",
-      "language": "fr"
-    },
-    {
-      "genus": "Grips",
-      "language": "de"
-    },
-    {
-      "genus": "Cerebro",
-      "language": "es"
-    },
-    {
-      "genus": "Cervello",
-      "language": "it"
-    },
-    {
-      "genus": "Cerebral",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ブレイン",
+    "en": "Cerebral",
+    "fr": "Cerveau",
+    "it": "Cervello",
+    "de": "Grips",
+    "es": "Cerebro",
+    "ko": "브레인"
+  },
   "varieties": [
     {
       "is_default": true,

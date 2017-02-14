@@ -2,49 +2,13 @@
   "id": 233,
   "name": "vital-throw",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": -1,
   "power": 70,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "fake-out"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.",
-      "short_effect": "Never misses.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Vital Throw",
-      "language": "en"
-    },
-    {
-      "name": "Vitaltiro",
-      "language": "it"
-    },
-    {
-      "name": "Tiro Vital",
-      "language": "es"
-    },
-    {
-      "name": "Überwurf",
-      "language": "de"
-    },
-    {
-      "name": "Corps Perdu",
-      "language": "fr"
-    },
-    {
-      "name": "받아던지기",
-      "language": "ko"
-    },
-    {
-      "name": "あてみなげ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "あてみなげ",
+    "kana": "あてみなげ",
+    "en": "Vital Throw",
+    "fr": "Corps Perdu",
+    "it": "Vitaltiro",
+    "de": "Überwurf",
+    "es": "Tiro Vital",
+    "ko": "받아던지기",
+    "zh-CN": "借力摔",
+    "zh-TW": "借力摔"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "相手より　あとに　攻撃する。 そのかわり　自分の　攻撃は 必ず　命中する。",
+    "kana": "あいてより　あとに　こうげきする。 そのかわり　じぶんの　こうげきは かならず　めいちゅうする。",
+    "en": "The user attacks last. In return, this throw move never misses.",
+    "fr": "Le lanceur porte son coup en dernier. En échange, cette capacité n’échoue jamais.",
+    "it": "Chi la usa attacca per ultimo, ma il colpo è sempre infallibile.",
+    "de": "Anwender greift als Letzter an, hat dafür aber eine Treffergarantie beim eigenen Angriff.",
+    "es": "El usuario ataca el último, pero no falla.",
+    "ko": "상대보다 나중에 공격한다. 그 대신 자신의 공격은 반드시 명중한다.",
+    "zh-CN": "会在对手之后进行攻击。 但是自己的攻击必定会命中。",
+    "zh-TW": "攻擊的順序會在對手之後。 但是自己的攻擊必定會命中。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting"
 }

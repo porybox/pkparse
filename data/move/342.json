@@ -2,36 +2,13 @@
   "id": 342,
   "name": "poison-tail",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 25,
   "priority": 0,
   "power": 50,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move. Has a $effect_chance% chance to [poison]{mechanic:poison} the target.",
-      "short_effect": "Has an increased chance for a critical hit and a $effect_chance% chance to poison the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "poison"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "poison",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Poison Tail",
-      "language": "en"
-    },
-    {
-      "name": "Velenocoda",
-      "language": "it"
-    },
-    {
-      "name": "Cola Veneno",
-      "language": "es"
-    },
-    {
-      "name": "Giftschweif",
-      "language": "de"
-    },
-    {
-      "name": "Queue-Poison",
-      "language": "fr"
-    },
-    {
-      "name": "포이즌테일",
-      "language": "ko"
-    },
-    {
-      "name": "ポイズンテール",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ポイズンテール",
+    "kana": "ポイズンテール",
+    "en": "Poison Tail",
+    "fr": "Queue-Poison",
+    "it": "Velenocoda",
+    "de": "Giftschweif",
+    "es": "Cola Veneno",
+    "ko": "포이즌테일",
+    "zh-CN": "毒尾",
+    "zh-TW": "毒尾"
   },
-  "type": {
-    "name": "poison"
-  }
+  "flavor_text_entries": {
+    "ja": "しっぽで　たたく。 毒状態に　することが　あり 急所にも　当たりやすい。",
+    "kana": "しっぽで　たたく。 どく　じょうたいに　することが　あり きゅうしょにも　あたりやすい。",
+    "en": "The user hits the target with its tail. This may also poison the target. Critical hits land more easily.",
+    "fr": "Attaque à taux de critique élevé. Peut aussi empoisonner l’ennemi.",
+    "it": "Chi la usa colpisce con la coda e può avvelenare il bersaglio. Probabile brutto colpo.",
+    "de": "Angriff mit hoher Volltrefferquote. Diese Schweifattacke vergiftet das Ziel eventuell.",
+    "es": "Puede envenenar y dar un golpe crítico.",
+    "ko": "꼬리로 때린다. 독 상태로 만들 때가 있고 급소에도 맞기 쉽다.",
+    "zh-CN": "用尾巴拍打。 有时会让对手陷入中毒状态， 也容易击中要害。",
+    "zh-TW": "將尾巴甩向對手進行攻擊。 有時會讓對手陷入中毒狀態， 且容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "poison",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Attaque à taux de critiques élevé. Peut aussi empoisonner l’ennemi."
+        }
+      }
+    }
+  ]
 }

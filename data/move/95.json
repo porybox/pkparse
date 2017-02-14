@@ -2,52 +2,13 @@
   "id": 95,
   "name": "hypnosis",
   "accuracy": 60,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "dream-eater"
-        },
-        {
-          "name": "nightmare"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Puts the target to [sleep]{mechanic:sleep}.",
-      "short_effect": "Puts the target to sleep.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "sleep"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "sleep",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -59,66 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Hypnosis",
-      "language": "en"
-    },
-    {
-      "name": "Ipnosi",
-      "language": "it"
-    },
-    {
-      "name": "Hipnosis",
-      "language": "es"
-    },
-    {
-      "name": "Hypnose",
-      "language": "de"
-    },
-    {
-      "name": "Hypnose",
-      "language": "fr"
-    },
-    {
-      "name": "최면술",
-      "language": "ko"
-    },
-    {
-      "name": "さいみんじゅつ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": 60,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
-      }
-    },
-    {
-      "accuracy": 70,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "platinum"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "さいみんじゅつ",
+    "kana": "さいみんじゅつ",
+    "en": "Hypnosis",
+    "fr": "Hypnose",
+    "it": "Ipnosi",
+    "de": "Hypnose",
+    "es": "Hipnosis",
+    "ko": "최면술",
+    "zh-CN": "催眠术",
+    "zh-TW": "催眠術"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "眠気を　誘う　暗示を　かけて 相手を　眠り状態に　する。",
+    "kana": "ねむけを　さそう　あんじを　かけて あいてを　ねむり　じょうたいに　する。",
+    "en": "The user employs hypnotic suggestion to make the target fall into a deep sleep.",
+    "fr": "Le lanceur hypnotise l’ennemi pour le plonger dans un profond sommeil.",
+    "it": "Chi la usa si avvale della suggestione ipnotica per far addormentare il bersaglio.",
+    "de": "Hypnose-Attacke, die das Ziel in Schlaf versetzt.",
+    "es": "Ataque hipnótico que hace dormir profundamente al objetivo.",
+    "ko": "졸음을 유도하는 암시를 걸어서 상대를 잠듦 상태로 만든다.",
+    "zh-CN": "施以诱导睡意的暗示， 让对手陷入睡眠状态。",
+    "zh-TW": "施加引發睡意的暗示， 讓對手陷入睡眠狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

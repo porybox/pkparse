@@ -1,154 +1,42 @@
 {
   "id": 100,
   "name": "stall",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "あとだし",
+    "kana": "あとだし",
+    "en": "Stall",
+    "fr": "Frein",
+    "it": "Rallentatore",
+    "de": "Zeitspiel",
+    "es": "Rezagado",
+    "ko": "시간벌기",
+    "zh-CN": "慢出",
+    "zh-TW": "慢出"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "技を　出す　順番が かならず　最後に　なる。",
+    "kana": "わざを　だす　じゅんばんが かならず　さいごに　なる。",
+    "en": "The Pokémon moves after all other Pokémon do.",
+    "fr": "Le Pokémon utilise toujours sa capacité en dernier.",
+    "it": "Il Pokémon agisce sempre per ultimo.",
+    "de": "Handelt auch mit Initiative-Vorteil stets nach dem Gegner.",
+    "es": "El Pokémon ejecuta su movimiento tras todos los demás.",
+    "ko": "기술을 사용하는 순서가 반드시 마지막이 된다.",
+    "zh-CN": "使出招式的顺序 必定会变为最后。",
+    "zh-TW": "使出招式的順序 必定會變為最後。"
+  },
+  "past_values": [
     {
-      "name": "Stall",
-      "language": "en"
-    },
-    {
-      "name": "Rallentatore",
-      "language": "it"
-    },
-    {
-      "name": "Rezagado",
-      "language": "es"
-    },
-    {
-      "name": "Zeitspiel",
-      "language": "de"
-    },
-    {
-      "name": "Frein",
-      "language": "fr"
-    },
-    {
-      "name": "시간벌기",
-      "language": "ko"
-    },
-    {
-      "name": "あとだし",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon moves last within its priority bracket.\n\nMultiple Pokémon with this ability move in order of [Speed]{mechanic:speed} amongst themselves.\n\nThe []{item:full-incense} and []{item:lagging-tail} take precedence over this ability; that is, Pokémon with these items move after Pokémon with this ability.  Pokémon with both this ability and one of these items are delayed as much as if they had only the item.\n\nThis ability works as usual during []{move:trick-room}: Pokémon with this ability will move in reverse order of Speed after Pokémon without it.",
-      "short_effect": "Makes the Pokémon move last within its move's priority bracket.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "相手より　素早くても\n行動が　遅くなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "The Pokémon moves after\nall other Pokémon do.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "I nemici attaccano sempre per\nprimi, anche se sono più lenti.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "El Pokémon se mueve tras todos\nlos demás.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Handelt auch mit Initiative-Vorteil\nstets nach dem Gegner.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Agit toujours après les autres\nPokémon, même plus lents.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "상대보다 재빨라도\n행동이 느려진다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "あいてより　すばやくても\nこうどうが　おそくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "The Pokémon moves after\nall other Pokémon do.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon moves after\nall other Pokémon do.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Attaque toujours après \nl’ennemi, même plus lent.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "The Pokémon moves after\neven slower foes.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon moves after\neven slower foes.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon moves after\neven slower foes.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "sableye"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手より　素早くても 行動が　遅くなる。",
+          "kana": "あいてより　すばやくても こうどうが　おそくなる。",
+          "fr": "Agit toujours après les autres Pokémon, même plus lents.",
+          "it": "I nemici attaccano sempre per primi, anche se sono più lenti.",
+          "es": "El Pokémon se mueve tras todos los demás.",
+          "ko": "상대보다 재빨라도 행동이 느려진다."
+        }
       }
     }
   ]

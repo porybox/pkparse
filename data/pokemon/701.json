@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 89,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ルチャブル",
-      "language": "ja"
-    },
-    {
-      "name": "루차불",
-      "language": "ko"
-    },
-    {
-      "name": "Brutalibré",
-      "language": "fr"
-    },
-    {
-      "name": "Resladero",
-      "language": "de"
-    },
-    {
-      "name": "Hawlucha",
-      "language": "es"
-    },
-    {
-      "name": "Hawlucha",
-      "language": "it"
-    },
-    {
-      "name": "Hawlucha",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ルチャブル",
+    "en": "Hawlucha",
+    "fr": "Brutalibré",
+    "it": "Hawlucha",
+    "de": "Resladero",
+    "es": "Hawlucha",
+    "ko": "루차불"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "レスリング",
-      "language": "ja"
-    },
-    {
-      "genus": "레슬링",
-      "language": "ko"
-    },
-    {
-      "genus": "Catcheur",
-      "language": "fr"
-    },
-    {
-      "genus": "Wrestling",
-      "language": "de"
-    },
-    {
-      "genus": "Lucha Libre",
-      "language": "es"
-    },
-    {
-      "genus": "Lottalibera",
-      "language": "it"
-    },
-    {
-      "genus": "Wrestling",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "レスリング",
+    "en": "Wrestling",
+    "fr": "Catcheur",
+    "it": "Lottalibera",
+    "de": "Wrestling",
+    "es": "Lucha Libre",
+    "ko": "레슬링"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,36 +2,13 @@
   "id": 343,
   "name": "covet",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 25,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPokémon with []{ability:sticky-hold} or []{ability:multitype} are immune to the item theft effect.\n\nThe target cannot recover its item with []{move:recycle}.\n\nThis move cannot be selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "Takes the target's item.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,55 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Covet",
-      "language": "en"
-    },
-    {
-      "name": "Supplica",
-      "language": "it"
-    },
-    {
-      "name": "Antojo",
-      "language": "es"
-    },
-    {
-      "name": "Bezirzer",
-      "language": "de"
-    },
-    {
-      "name": "Implore",
-      "language": "fr"
-    },
-    {
-      "name": "탐내다",
-      "language": "ko"
-    },
-    {
-      "name": "ほしがる",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "ほしがる",
+    "kana": "ほしがる",
+    "en": "Covet",
+    "fr": "Implore",
+    "it": "Supplica",
+    "de": "Bezirzer",
+    "es": "Antojo",
+    "ko": "탐내다",
+    "zh-CN": "渴望",
+    "zh-TW": "渴望"
+  },
+  "flavor_text_entries": {
+    "ja": "かわいく　あまえながら 相手に　ちかづき 持っている　道具を　うばう。",
+    "kana": "かわいく　あまえながら あいてに　ちかづき もっている　どうぐを　うばう。",
+    "en": "The user endearingly approaches the target, then steals the target’s held item.",
+    "fr": "Le lanceur s’approche de la cible avec un air angélique afin de dérober l’objet qu’elle tient.",
+    "it": "Chi la usa attacca il bersaglio sorridendo e gli ruba lo strumento.",
+    "de": "Der Anwender schmeichelt sich beim Ziel ein und stiehlt dann das von ihm getragene Item.",
+    "es": "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve.",
+    "ko": "귀엽게 애교 부리며 상대에게 다가가 지니고 있는 도구를 뺏는다.",
+    "zh-CN": "一边可爱地撒娇， 一边靠近对手进行攻击， 还能夺取对手携带的道具。",
+    "zh-TW": "一邊可愛地撒嬌， 一邊靠近對手， 奪取對手攜帶的道具。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 40,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Bittet charmant um das getragene Item des Zieles und stiehlt es dann."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "귀엽게 애교부리며 상대에게 다가가 지니고 있는 도구를 뺏는다."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  ]
 }

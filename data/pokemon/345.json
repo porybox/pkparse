@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 133,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "blob"
   },
@@ -45,44 +39,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "リリーラ",
-      "language": "ja"
-    },
-    {
-      "name": "Lilyla",
-      "language": "roomaji"
-    },
-    {
-      "name": "릴링",
-      "language": "ko"
-    },
-    {
-      "name": "觸手百合",
-      "language": "zh"
-    },
-    {
-      "name": "Lilia",
-      "language": "fr"
-    },
-    {
-      "name": "Liliep",
-      "language": "de"
-    },
-    {
-      "name": "Lileep",
-      "language": "es"
-    },
-    {
-      "name": "Lileep",
-      "language": "it"
-    },
-    {
-      "name": "Lileep",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "リリーラ",
+    "en": "Lileep",
+    "fr": "Lilia",
+    "it": "Lileep",
+    "de": "Liliep",
+    "es": "Lileep",
+    "ko": "릴링"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -93,36 +58,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ウミユリ",
-      "language": "ja"
-    },
-    {
-      "genus": "바다나리",
-      "language": "ko"
-    },
-    {
-      "genus": "Lis d'Eau",
-      "language": "fr"
-    },
-    {
-      "genus": "Seeanemone",
-      "language": "de"
-    },
-    {
-      "genus": "Lila Mar",
-      "language": "es"
-    },
-    {
-      "genus": "Fiordimare",
-      "language": "it"
-    },
-    {
-      "genus": "Sea Lily",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ウミユリ",
+    "en": "Sea Lily",
+    "fr": "Lis d’Eau",
+    "it": "Fiordimare",
+    "de": "Seeanemone",
+    "es": "Lila Mar",
+    "ko": "바다나리"
+  },
   "varieties": [
     {
       "is_default": true,

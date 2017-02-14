@@ -1,0 +1,38 @@
+{
+  "id": 111,
+  "name": "odd-keystone",
+  "names": {
+    "ja": "かなめいし",
+    "kana": "かなめいし",
+    "en": "Odd Keystone",
+    "fr": "Clé de Voûte",
+    "it": "Roccianima",
+    "de": "Spiritkern",
+    "es": "Piedra Espíritu",
+    "ko": "쐐기돌",
+    "zh-CN": "楔石",
+    "zh-TW": "楔石"
+  },
+  "flavor_text_entries": {
+    "ja": "これがないと　石の塔が 崩れてしまう　大事な石。 ときどき　石から　声が聞こえる。",
+    "kana": "これがないと　いしのとうが くずれてしまう　だいじないし。 ときどき　いしから　こえがきこえる。",
+    "en": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.",
+    "fr": "Un objet très important qui empêche une tour en pierre de s’écrouler. Des voix en sortent parfois.",
+    "it": "Strumento importante che impedisce il crollo di un pozzo di pietra. A volte dal suo interno provengono delle voci.",
+    "de": "Ein wichtiges Item, mit dem ein Steinturm repariert werden kann.",
+    "es": "Vital para impedir que una torre de piedra se derrumbe. A veces se oyen voces en su interior.",
+    "ko": "이것이 없으면 돌탑이 무너져버리는 중요한 돌. 가끔 돌에서 목소리가 들린다.",
+    "zh-CN": "没有它，石之塔就会 崩塌的重要石头。 有时能从石头里听到声音。",
+    "zh-TW": "沒有它，石之塔就會 崩塌的重要石頭。 有時能從石頭裡聽到聲音。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un objet très important qui empêche une tour en pierre de s’écrouler. Des bruits de voix en sortent parfois."
+        }
+      }
+    }
+  ]
+}

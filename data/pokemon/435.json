@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 103,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "quadruped"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "スカタンク",
-      "language": "ja"
-    },
-    {
-      "name": "Skutank",
-      "language": "roomaji"
-    },
-    {
-      "name": "스컹탱크",
-      "language": "ko"
-    },
-    {
-      "name": "坦克臭鼬",
-      "language": "zh"
-    },
-    {
-      "name": "Moufflair",
-      "language": "fr"
-    },
-    {
-      "name": "Skuntank",
-      "language": "de"
-    },
-    {
-      "name": "Skuntank",
-      "language": "es"
-    },
-    {
-      "name": "Skuntank",
-      "language": "it"
-    },
-    {
-      "name": "Skuntank",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "スカタンク",
+    "en": "Skuntank",
+    "fr": "Moufflair",
+    "it": "Skuntank",
+    "de": "Skuntank",
+    "es": "Skuntank",
+    "ko": "스컹탱크"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "スカンク",
-      "language": "ja"
-    },
-    {
-      "genus": "스컹크",
-      "language": "ko"
-    },
-    {
-      "genus": "Moufette",
-      "language": "fr"
-    },
-    {
-      "genus": "Stinktier",
-      "language": "de"
-    },
-    {
-      "genus": "Mofeta",
-      "language": "es"
-    },
-    {
-      "genus": "Moffetta",
-      "language": "it"
-    },
-    {
-      "genus": "Skunk",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "スカンク",
+    "en": "Skunk",
+    "fr": "Moufette",
+    "it": "Moffetta",
+    "de": "Stinktier",
+    "es": "Mofeta",
+    "ko": "스컹크"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 29,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -61,72 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ヤナップ",
-      "language": "ja"
-    },
-    {
-      "name": "야나프",
-      "language": "ko"
-    },
-    {
-      "name": "花椰猴",
-      "language": "zh"
-    },
-    {
-      "name": "Feuillajou",
-      "language": "fr"
-    },
-    {
-      "name": "Vegimak",
-      "language": "de"
-    },
-    {
-      "name": "Pansage",
-      "language": "es"
-    },
-    {
-      "name": "Pansage",
-      "language": "it"
-    },
-    {
-      "name": "Pansage",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヤナップ",
+    "en": "Pansage",
+    "fr": "Feuillajou",
+    "it": "Pansage",
+    "de": "Vegimak",
+    "es": "Pansage",
+    "ko": "야나프"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くさざる",
-      "language": "ja"
-    },
-    {
-      "genus": "풀원숭이",
-      "language": "ko"
-    },
-    {
-      "genus": "Singe Herbe",
-      "language": "fr"
-    },
-    {
-      "genus": "Grasaffe",
-      "language": "de"
-    },
-    {
-      "genus": "Mono Hierba",
-      "language": "es"
-    },
-    {
-      "genus": "Scimperba",
-      "language": "it"
-    },
-    {
-      "genus": "Grass Monkey",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くさざる",
+    "en": "Grass Monkey",
+    "fr": "Singe Herbe",
+    "it": "Scimperba",
+    "de": "Grasaffe",
+    "es": "Mono Hierba",
+    "ko": "풀원숭이"
+  },
   "varieties": [
     {
       "is_default": true,

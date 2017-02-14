@@ -2,34 +2,13 @@
   "id": 571,
   "name": "forests-curse",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Adds []{type:grass} to the target's types.",
-      "short_effect": "Adds []{type:grass} to the target's types.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Forest's Curse",
-      "language": "en"
-    },
-    {
-      "name": "Boscomalocchio",
-      "language": "it"
-    },
-    {
-      "name": "Condena Silvana",
-      "language": "es"
-    },
-    {
-      "name": "Waldesfluch",
-      "language": "de"
-    },
-    {
-      "name": "Maléfice Sylvain",
-      "language": "fr"
-    },
-    {
-      "name": "숲의저주",
-      "language": "ko"
-    },
-    {
-      "name": "もりののろい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "もりののろい",
+    "kana": "もりののろい",
+    "en": "Forest’s Curse",
+    "fr": "Maléfice Sylvain",
+    "it": "Boscomalocchio",
+    "de": "Waldesfluch",
+    "es": "Condena Silvana",
+    "ko": "숲의저주",
+    "zh-CN": "森林诅咒",
+    "zh-TW": "森林詛咒"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "相手に　森ののろいを　かける。 のろいを　かけられた　相手は タイプに　くさタイプが　追加される。",
+    "kana": "あいてに　もりののろいを　かける。 のろいを　かけられた　あいては タイプに　くさタイプが　ついかされる。",
+    "en": "The user puts a forest curse on the target. The target is now Grass type as well.",
+    "fr": "La cible est charmée par l’esprit de la forêt. Le type Plante est ajouté à ses types actuels.",
+    "it": "Chi la usa invoca la maledizione del bosco sul bersaglio, che acquisisce così anche il tipo Erba.",
+    "de": "Der Anwender belegt das Ziel mit einem Waldesfluch, durch den dieses zusätzlich den Typ Pflanze annimmt.",
+    "es": "El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales.",
+    "ko": "상대에게 숲의 저주를 건다. 저주에 걸린 상대는 타입에 풀타입이 추가된다.",
+    "zh-CN": "向对手施加森林诅咒。 中了诅咒的对手 会被追加草属性。",
+    "zh-TW": "向對手施加森林詛咒。 中了詛咒的對手 會被追加草屬性。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user puts a forest curse on the target. Afflicted targets are now Grass type as well."
+        }
+      }
+    }
+  ]
 }

@@ -2,49 +2,13 @@
   "id": 108,
   "name": "smokescreen",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "smog"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's accuracy by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Smokescreen",
-      "language": "en"
-    },
-    {
-      "name": "Muro di Fumo",
-      "language": "it"
-    },
-    {
-      "name": "Pantalla de Humo",
-      "language": "es"
-    },
-    {
-      "name": "Rauchwolke",
-      "language": "de"
-    },
-    {
-      "name": "Brouillard",
-      "language": "fr"
-    },
-    {
-      "name": "연막",
-      "language": "ko"
-    },
-    {
-      "name": "えんまく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "えんまく",
+    "kana": "えんまく",
+    "en": "Smokescreen",
+    "fr": "Brouillard",
+    "it": "Muro di Fumo",
+    "de": "Rauchwolke",
+    "es": "Pantalla de Humo",
+    "ko": "연막",
+    "zh-CN": "烟幕",
+    "zh-TW": "煙幕"
+  },
+  "flavor_text_entries": {
+    "ja": "煙や　墨などを　吹きかけて 相手の　命中率を　さげる。",
+    "kana": "けむりや　スミなどを　ふきかけて あいての　めいちゅうりつを　さげる。",
+    "en": "The user releases an obscuring cloud of smoke or ink. This lowers the target’s accuracy.",
+    "fr": "Le lanceur disperse un nuage d’encre ou de fumée. Réduit la Précision de l’ennemi.",
+    "it": "Nuvola di fumo o inchiostro che riduce la precisione del bersaglio.",
+    "de": "Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.",
+    "es": "Baja la Precisión del objetivo con una nube de humo o tinta.",
+    "ko": "연기나 먹물을 내뿜어 상대의 명중률을 떨어뜨린다.",
+    "zh-CN": "向对手喷出烟或墨汁等， 从而降低对手的命中率。",
+    "zh-TW": "向對手噴出煙霧或墨汁等， 降低對手的命中率。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "accuracy"
-      }
+      "stat": "accuracy"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "selected-pokemon",
+  "type": "normal"
 }

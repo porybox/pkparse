@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 49,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "カバルドン",
-      "language": "ja"
-    },
-    {
-      "name": "Kabarudon",
-      "language": "roomaji"
-    },
-    {
-      "name": "하마돈",
-      "language": "ko"
-    },
-    {
-      "name": "河馬獸",
-      "language": "zh"
-    },
-    {
-      "name": "Hippodocus",
-      "language": "fr"
-    },
-    {
-      "name": "Hippoterus",
-      "language": "de"
-    },
-    {
-      "name": "Hippowdon",
-      "language": "es"
-    },
-    {
-      "name": "Hippowdon",
-      "language": "it"
-    },
-    {
-      "name": "Hippowdon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カバルドン",
+    "en": "Hippowdon",
+    "fr": "Hippodocus",
+    "it": "Hippowdon",
+    "de": "Hippoterus",
+    "es": "Hippowdon",
+    "ko": "하마돈"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "じゅうりょう",
-      "language": "ja"
-    },
-    {
-      "genus": "중량",
-      "language": "ko"
-    },
-    {
-      "genus": "Poids Lourd",
-      "language": "fr"
-    },
-    {
-      "genus": "Schwergewicht",
-      "language": "de"
-    },
-    {
-      "genus": "Peso Pesado",
-      "language": "es"
-    },
-    {
-      "genus": "Grandepeso",
-      "language": "it"
-    },
-    {
-      "genus": "Heavyweight",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "じゅうりょう",
+    "en": "Heavyweight",
+    "fr": "Poids Lourd",
+    "it": "Grandepeso",
+    "de": "Schwergewicht",
+    "es": "Peso Pesado",
+    "ko": "중량"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,45 @@
+{
+  "id": 747,
+  "name": "mareanie",
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1"
+  ],
+  "color": "blue",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ヒドイデ",
+    "en": "Mareanie",
+    "fr": "Vorastérie",
+    "it": "Mareanie",
+    "de": "Garstella",
+    "es": "Mareanie",
+    "ko": "시마사리"
+  },
+  "genera": {
+    "ja": "ヒトデナシ",
+    "en": "Brutal Star",
+    "fr": "Cruel",
+    "it": "Stellatroce",
+    "de": "Quäl-Stern",
+    "es": "Estrellatroz",
+    "ko": "깨비사리"
+  },
+  "types": [
+    "poison",
+    "water"
+  ],
+  "base_stats": {
+    "hp": 50,
+    "attack": 53,
+    "defense": 62,
+    "special-attack": 43,
+    "special-defense": 52,
+    "speed": 45
+  }
+}

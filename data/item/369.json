@@ -1,0 +1,48 @@
+{
+  "id": 369,
+  "name": "tm42",
+  "names": {
+    "ja": "わざマシン４２",
+    "kana": "わざマシン４２",
+    "en": "TM42",
+    "fr": "CT42",
+    "it": "MT42",
+    "de": "TM42",
+    "es": "MT42",
+    "ko": "기술머신42",
+    "zh-CN": "招式学习器４２",
+    "zh-TW": "招式學習器４２"
+  },
+  "flavor_text_entries": {
+    "ja": "自分が　どく　まひ　やけど 状態のとき　相手に　くりだすと 技の　威力が　２倍に　なる。",
+    "kana": "じぶんが　どく　まひ　やけど じょうたいの　とき　あいてに　くりだすと わざの　いりょくが　２ばいに　なる。",
+    "en": "This attack move doubles its power if the user is poisoned or burned, or if it has paralysis.",
+    "fr": "Une attaque dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brûlé.",
+    "it": "Mossa d’attacco che raddoppia la potenza se chi la usa è scottato, avvelenato o paralizzato.",
+    "de": "Ist der Anwender vergiftet, paralysiert oder leidet er unter Verbrennungen, verdoppelt sich die Kraft der Attacke.",
+    "es": "Movimiento de ataque que dobla su potencia si quien lo utiliza está envenenado, quemado o paralizado.",
+    "ko": "자신이 독, 마비, 화상 상태일 때 날리면 기술의 위력이 2배가 된다.",
+    "zh-CN": "当自己处于中毒、麻痹、灼伤状态时， 向对手使出此招式的话， 威力会变成２倍。",
+    "zh-TW": "當自己陷入中毒、麻痺、灼傷等 狀態時，向對手使用此招式， 威力會變成２倍。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "どく　まひ　やけど　のじょうたいで わざを　だすと　２ばいの　いりょくで こうげき　できる。",
+          "en": "An attack move that doubles its power if the user is poisoned, is burned, or has paralysis.",
+          "ko": "독, 마비, 화상 상태에서 기술을 쓰면 2배의 위력으로 공격할 수 있다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An attack move that doubles its power if the user is poisoned, burned, or has paralysis."
+        }
+      }
+    }
+  ]
+}

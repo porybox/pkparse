@@ -2,49 +2,13 @@
   "id": 22,
   "name": "vine-whip",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 25,
   "priority": 0,
   "power": 45,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "growth"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,55 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Vine Whip",
-      "language": "en"
-    },
-    {
-      "name": "Frustata",
-      "language": "it"
-    },
-    {
-      "name": "Látigo Cepa",
-      "language": "es"
-    },
-    {
-      "name": "Rankenhieb",
-      "language": "de"
-    },
-    {
-      "name": "Fouet Lianes",
-      "language": "fr"
-    },
-    {
-      "name": "덩굴채찍",
-      "language": "ko"
-    },
-    {
-      "name": "つるのムチ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": 10,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "つるのムチ",
+    "kana": "つるのムチ",
+    "en": "Vine Whip",
+    "fr": "Fouet Lianes",
+    "it": "Frustata",
+    "de": "Rankenhieb",
+    "es": "Látigo Cepa",
+    "ko": "덩굴채찍",
+    "zh-CN": "藤鞭",
+    "zh-TW": "藤鞭"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "ムチのように　しなる　細長い　つるで 相手を　たたきつけて　攻撃する。",
+    "kana": "ムチのように　しなる　ほそながい　つるで あいてを　たたきつけて　こうげきする。",
+    "en": "The target is struck with slender, whiplike vines to inflict damage.",
+    "fr": "Fouette l’ennemi avec de fines lianes pour infliger des dégâts.",
+    "it": "Infligge danni al bersaglio con liane sottili simili a fruste.",
+    "de": "Peitschenähnlicher Schlag mit Ranken.",
+    "es": "Azota al objetivo con ramas finas.",
+    "ko": "채찍처럼 휘어지는 가늘고 긴 덩굴로 상대를 힘껏 쳐서 공격한다.",
+    "zh-CN": "用如同鞭子般弯曲而细长的藤蔓 摔打对手进行攻击。",
+    "zh-TW": "將如同鞭子般彎曲而細長的藤蔓 甩向對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass"
 }

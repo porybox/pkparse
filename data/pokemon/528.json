@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 56,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "flying"
-    }
+    "ground",
+    "flying"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "wings"
   },
@@ -60,68 +52,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ココロモリ",
-      "language": "ja"
-    },
-    {
-      "name": "맘박쥐",
-      "language": "ko"
-    },
-    {
-      "name": "Rhinolove",
-      "language": "fr"
-    },
-    {
-      "name": "Fletiamo",
-      "language": "de"
-    },
-    {
-      "name": "Swoobat",
-      "language": "es"
-    },
-    {
-      "name": "Swoobat",
-      "language": "it"
-    },
-    {
-      "name": "Swoobat",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ココロモリ",
+    "en": "Swoobat",
+    "fr": "Rhinolove",
+    "it": "Swoobat",
+    "de": "Fletiamo",
+    "es": "Swoobat",
+    "ko": "맘박쥐"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きゅうあい",
-      "language": "ja"
-    },
-    {
-      "genus": "구애",
-      "language": "ko"
-    },
-    {
-      "genus": "Cupidon",
-      "language": "fr"
-    },
-    {
-      "genus": "Balz",
-      "language": "de"
-    },
-    {
-      "genus": "Galante",
-      "language": "es"
-    },
-    {
-      "genus": "Cercamore",
-      "language": "it"
-    },
-    {
-      "genus": "Courting",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きゅうあい",
+    "en": "Courting",
+    "fr": "Cupidon",
+    "it": "Cercamore",
+    "de": "Balz",
+    "es": "Galante",
+    "ko": "구애"
+  },
   "varieties": [
     {
       "is_default": true,

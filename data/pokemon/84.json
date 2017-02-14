@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 94,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "legs"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ドードー",
-      "language": "ja"
-    },
-    {
-      "name": "Dodo",
-      "language": "roomaji"
-    },
-    {
-      "name": "두두",
-      "language": "ko"
-    },
-    {
-      "name": "嘟嘟",
-      "language": "zh"
-    },
-    {
-      "name": "Doduo",
-      "language": "fr"
-    },
-    {
-      "name": "Dodu",
-      "language": "de"
-    },
-    {
-      "name": "Doduo",
-      "language": "es"
-    },
-    {
-      "name": "Doduo",
-      "language": "it"
-    },
-    {
-      "name": "Doduo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドードー",
+    "en": "Doduo",
+    "fr": "Doduo",
+    "it": "Doduo",
+    "de": "Dodu",
+    "es": "Doduo",
+    "ko": "두두"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふたごどり",
-      "language": "ja"
-    },
-    {
-      "genus": "쌍둥이새",
-      "language": "ko"
-    },
-    {
-      "genus": "Duoiseau",
-      "language": "fr"
-    },
-    {
-      "genus": "Duovogel",
-      "language": "de"
-    },
-    {
-      "genus": "Ave Gemela",
-      "language": "es"
-    },
-    {
-      "genus": "Biuccello",
-      "language": "it"
-    },
-    {
-      "genus": "Twin Bird",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふたごどり",
+    "en": "Twin Bird",
+    "fr": "Duoiseau",
+    "it": "Biuccello",
+    "de": "Duovogel",
+    "es": "Ave Gemela",
+    "ko": "쌍둥이새"
+  },
   "varieties": [
     {
       "is_default": true,

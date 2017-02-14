@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 177,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "fish"
   },
@@ -49,68 +43,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "シビシラス",
-      "language": "ja"
-    },
-    {
-      "name": "저리어",
-      "language": "ko"
-    },
-    {
-      "name": "Anchwatt",
-      "language": "fr"
-    },
-    {
-      "name": "Zapplardin",
-      "language": "de"
-    },
-    {
-      "name": "Tynamo",
-      "language": "es"
-    },
-    {
-      "name": "Tynamo",
-      "language": "it"
-    },
-    {
-      "name": "Tynamo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "シビシラス",
+    "en": "Tynamo",
+    "fr": "Anchwatt",
+    "it": "Tynamo",
+    "de": "Zapplardin",
+    "es": "Tynamo",
+    "ko": "저리어"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "でんきうお",
-      "language": "ja"
-    },
-    {
-      "genus": "전기물고기",
-      "language": "ko"
-    },
-    {
-      "genus": "Électrophore",
-      "language": "fr"
-    },
-    {
-      "genus": "Stromfisch",
-      "language": "de"
-    },
-    {
-      "genus": "Electropez",
-      "language": "es"
-    },
-    {
-      "genus": "Elettropesce",
-      "language": "it"
-    },
-    {
-      "genus": "EleFish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "でんきうお",
+    "en": "EleFish",
+    "fr": "Électrophore",
+    "it": "Elettropesce",
+    "de": "Stromfisch",
+    "es": "Electropez",
+    "ko": "전기물고기"
+  },
   "varieties": [
     {
       "is_default": true,

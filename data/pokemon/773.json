@@ -1,0 +1,44 @@
+{
+  "id": 773,
+  "name": "silvally",
+  "gender_rate": -1,
+  "capture_rate": 3,
+  "base_happiness": 0,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "gray",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "シルヴァディ",
+    "en": "Silvally",
+    "fr": "Silvallié",
+    "it": "Silvally",
+    "de": "Amigento",
+    "es": "Silvally",
+    "ko": "실버디"
+  },
+  "genera": {
+    "ja": "じんこう",
+    "en": "Synthetic",
+    "fr": "Multigénome",
+    "it": "Multigene",
+    "de": "Modifikation",
+    "es": "Multigénico",
+    "ko": "인공"
+  },
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 95,
+    "special-attack": 95,
+    "special-defense": 95,
+    "speed": 95
+  }
+}

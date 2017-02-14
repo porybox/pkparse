@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 207,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "quadruped"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ギャロップ",
-      "language": "ja"
-    },
-    {
-      "name": "Gallop",
-      "language": "roomaji"
-    },
-    {
-      "name": "날쌩마",
-      "language": "ko"
-    },
-    {
-      "name": "烈焰馬",
-      "language": "zh"
-    },
-    {
-      "name": "Galopa",
-      "language": "fr"
-    },
-    {
-      "name": "Gallopa",
-      "language": "de"
-    },
-    {
-      "name": "Rapidash",
-      "language": "es"
-    },
-    {
-      "name": "Rapidash",
-      "language": "it"
-    },
-    {
-      "name": "Rapidash",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ギャロップ",
+    "en": "Rapidash",
+    "fr": "Galopa",
+    "it": "Rapidash",
+    "de": "Gallopa",
+    "es": "Rapidash",
+    "ko": "날쌩마"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひのうま",
-      "language": "ja"
-    },
-    {
-      "genus": "불의말",
-      "language": "ko"
-    },
-    {
-      "genus": "Cheval Feu",
-      "language": "fr"
-    },
-    {
-      "genus": "Feuerpferd",
-      "language": "de"
-    },
-    {
-      "genus": "Caballo F.",
-      "language": "es"
-    },
-    {
-      "genus": "Cavalfuoco",
-      "language": "it"
-    },
-    {
-      "genus": "Fire Horse",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひのうま",
+    "en": "Fire Horse",
+    "fr": "Cheval Feu",
+    "it": "Cavalfuoco",
+    "de": "Feuerpferd",
+    "es": "Caballo F.",
+    "ko": "불의말"
+  },
   "varieties": [
     {
       "is_default": true,

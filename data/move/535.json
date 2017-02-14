@@ -2,34 +2,13 @@
   "id": 535,
   "name": "heat-crash",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  The greater the user's weight compared to the target's, the higher power this move has, to a maximum of 120.\n\nUser's weight                    | Power\n-------------------------------- | ----:\nUp to 2× the target's weight     |    40\nUp to 3× the target's weight     |    60\nUp to 4× the target's weight     |    80\nUp to 5× the target's weight     |   100\nMore than 5× the target's weight |   120\n",
-      "short_effect": "Power is higher when the user weighs more than the target, up to a maximum of 120.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Heat Crash",
-      "language": "en"
-    },
-    {
-      "name": "Marchiafuoco",
-      "language": "it"
-    },
-    {
-      "name": "Golpe Calor",
-      "language": "es"
-    },
-    {
-      "name": "Brandstempel",
-      "language": "de"
-    },
-    {
-      "name": "Tacle Feu",
-      "language": "fr"
-    },
-    {
-      "name": "히트스탬프",
-      "language": "ko"
-    },
-    {
-      "name": "ヒートスタンプ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ヒートスタンプ",
+    "kana": "ヒートスタンプ",
+    "en": "Heat Crash",
+    "fr": "Tacle Feu",
+    "it": "Marchiafuoco",
+    "de": "Brandstempel",
+    "es": "Golpe Calor",
+    "ko": "히트스탬프",
+    "zh-CN": "高温重压",
+    "zh-TW": "高溫重壓"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "燃える　体で　相手に　ぶつかって 攻撃する。　自分が　相手より 重いほど　威力が　あがる。",
+    "kana": "もえる　からだで　あいてに　ぶつかって こうげきする。　じぶんが　あいてより おもいほど　いりょくが　あがる。",
+    "en": "The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move’s power.",
+    "fr": "Le lanceur projette son corps enflammé contre l’ennemi. S’il est plus lourd que l’ennemi, l’effet augmente en conséquence.",
+    "it": "Chi la usa carica con il suo corpo rovente. Più è pesante rispetto al bersaglio, più danni causa.",
+    "de": "Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.",
+    "es": "El usuario ataca con su cuerpo ardiente. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará.",
+    "ko": "불타는 몸으로 상대에게 부딪쳐서 공격한다. 자신이 상대보다 무거울수록 위력이 올라간다.",
+    "zh-CN": "用燃烧的身体撞向对手进行攻击。 自己比对手越重，威力越大。",
+    "zh-TW": "用燃燒的身體重壓對手 進行攻擊。體重比對手 重越多，威力越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "燃える　体で　相手に　ぶつかって 攻撃する。自分が　相手より 重いほど　威力が　あがる。",
+          "kana": "もえる　からだで　あいてに　ぶつかって こうげきする。じぶんが　あいてより おもいほど　いりょくが　あがる。",
+          "en": "The user slams its target with its flame- covered body. The more the user outweighs the target, the greater the move’s power.",
+          "it": "Chi la usa carica con il suo corpo rovente. Più è pesante rispetto al bersaglio e più danni causa."
+        }
+      }
+    }
+  ]
 }

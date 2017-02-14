@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 7,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "arms"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "バネブー",
-      "language": "ja"
-    },
-    {
-      "name": "Baneboo",
-      "language": "roomaji"
-    },
-    {
-      "name": "피그점프",
-      "language": "ko"
-    },
-    {
-      "name": "跳跳豬",
-      "language": "zh"
-    },
-    {
-      "name": "Spoink",
-      "language": "fr"
-    },
-    {
-      "name": "Spoink",
-      "language": "de"
-    },
-    {
-      "name": "Spoink",
-      "language": "es"
-    },
-    {
-      "name": "Spoink",
-      "language": "it"
-    },
-    {
-      "name": "Spoink",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バネブー",
+    "en": "Spoink",
+    "fr": "Spoink",
+    "it": "Spoink",
+    "de": "Spoink",
+    "es": "Spoink",
+    "ko": "피그점프"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とびはね",
-      "language": "ja"
-    },
-    {
-      "genus": "튀다",
-      "language": "ko"
-    },
-    {
-      "genus": "Rebond",
-      "language": "fr"
-    },
-    {
-      "genus": "Sprungfeder",
-      "language": "de"
-    },
-    {
-      "genus": "Saltarín",
-      "language": "es"
-    },
-    {
-      "genus": "Molla",
-      "language": "it"
-    },
-    {
-      "genus": "Bounce",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とびはね",
+    "en": "Bounce",
+    "fr": "Rebond",
+    "it": "Molla",
+    "de": "Sprungfeder",
+    "es": "Saltarín",
+    "ko": "튀다"
+  },
   "varieties": [
     {
       "is_default": true,

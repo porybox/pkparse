@@ -2,36 +2,13 @@
   "id": 447,
   "name": "grass-knot",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
-      "short_effect": "Inflicts more damage to heavier targets, with a maximum of 120 power.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Grass Knot",
-      "language": "en"
-    },
-    {
-      "name": "Laccioerboso",
-      "language": "it"
-    },
-    {
-      "name": "Hierba Lazo",
-      "language": "es"
-    },
-    {
-      "name": "Strauchler",
-      "language": "de"
-    },
-    {
-      "name": "Nœud Herbe",
-      "language": "fr"
-    },
-    {
-      "name": "풀묶기",
-      "language": "ko"
-    },
-    {
-      "name": "くさむすび",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "くさむすび",
+    "kana": "くさむすび",
+    "en": "Grass Knot",
+    "fr": "Nœud Herbe",
+    "it": "Laccioerboso",
+    "de": "Strauchler",
+    "es": "Hierba Lazo",
+    "ko": "풀묶기",
+    "zh-CN": "打草结",
+    "zh-TW": "打草結"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "草を　からませて　相手を 転ばせる。相手が　重いほど 威力が　あがる。",
+    "kana": "くさを　からませて　あいてを ころばせる。あいてが　おもいほど いりょくが　あがる。",
+    "en": "The user snares the target with grass and trips it. The heavier the target, the greater the move’s power.",
+    "fr": "L’ennemi est piégé dans de l’herbe qui le fait trébucher. Plus il est lourd, plus il subit de dégâts.",
+    "it": "Chi la usa intrappola il bersaglio con l’erba e lo fa cadere. Danneggia maggiormente i Pokémon più pesanti.",
+    "de": "Ziel wird durch Gras ins Straucheln gebracht. Je schwerer das Ziel, desto mehr Schaden.",
+    "es": "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige.",
+    "ko": "풀을 휘감아서 상대를 쓰러뜨린다. 상대가 무거울수록 위력이 올라간다.",
+    "zh-CN": "用草缠住并绊倒对手。 对手越重，威力越大。",
+    "zh-TW": "用打結的草絆倒對手。 對手越重，威力越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass"
 }

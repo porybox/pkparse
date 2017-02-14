@@ -1,0 +1,48 @@
+{
+  "id": 414,
+  "name": "tm87",
+  "names": {
+    "ja": "わざマシン８７",
+    "kana": "わざマシン８７",
+    "en": "TM87",
+    "fr": "CT87",
+    "it": "MT87",
+    "de": "TM87",
+    "es": "MT87",
+    "ko": "기술머신87",
+    "zh-CN": "招式学习器８７",
+    "zh-TW": "招式學習器８７"
+  },
+  "flavor_text_entries": {
+    "ja": "相手を　怒らせて　混乱させる。 怒りで　相手の　攻撃は ぐーんと　あがってしまう。",
+    "kana": "あいてを　おこらせて　こんらんさせる。 いかりで　あいての　こうげきは ぐーんと　あがってしまう。",
+    "en": "The user enrages and confuses the target. However, this also sharply raises the target’s Attack stat.",
+    "fr": "Fait enrager la cible et la rend confuse, mais augmente beaucoup son Attaque.",
+    "it": "Chi la usa provoca il bersaglio e lo confonde, facendo aumentare però di molto il suo Attacco.",
+    "de": "Reizt das Ziel und verursacht Verwirrung, allerdings wird auch dessen Angriffs-Wert stark erhöht.",
+    "es": "Confunde al objetivo, pero también sube marcadamente su Ataque.",
+    "ko": "상대를 화내게 해서 혼란시킨다. 분노로 상대의 공격은 크게 올라가 버린다.",
+    "zh-CN": "激怒对手，使其混乱。 因为愤怒，对手的攻击 会大幅提高。",
+    "zh-TW": "讓對手火大並陷入混亂。 但對手的攻擊會因憤怒 而大幅提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "おこらせて　こんらんさせる。 いかりで　あいての　こうげきは ぐーんと　あがってしまう。",
+          "fr": "Fait enrager la cible et la plonge dans la confusion, mais augmente fortement son Attaque.",
+          "es": "Envuelve al objetivo en confusión, pero también sube marcadamente su Ataque."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Reizt das Ziel und verursacht Verwirrung. Dies erhöht jedoch dessen Angriffs-Wert."
+        }
+      }
+    }
+  ]
+}

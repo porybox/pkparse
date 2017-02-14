@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 85,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "blob"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "バニプッチ",
-      "language": "ja"
-    },
-    {
-      "name": "바닐프티",
-      "language": "ko"
-    },
-    {
-      "name": "Sorbébé",
-      "language": "fr"
-    },
-    {
-      "name": "Gelatini",
-      "language": "de"
-    },
-    {
-      "name": "Vanillite",
-      "language": "es"
-    },
-    {
-      "name": "Vanillite",
-      "language": "it"
-    },
-    {
-      "name": "Vanillite",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バニプッチ",
+    "en": "Vanillite",
+    "fr": "Sorbébé",
+    "it": "Vanillite",
+    "de": "Gelatini",
+    "es": "Vanillite",
+    "ko": "바닐프티"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しんせつ",
-      "language": "ja"
-    },
-    {
-      "genus": "신설",
-      "language": "ko"
-    },
-    {
-      "genus": "Poudreuse",
-      "language": "fr"
-    },
-    {
-      "genus": "Neuschnee",
-      "language": "de"
-    },
-    {
-      "genus": "Nieve Fresca",
-      "language": "es"
-    },
-    {
-      "genus": "Nevefresca",
-      "language": "it"
-    },
-    {
-      "genus": "Fresh Snow",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しんせつ",
+    "en": "Fresh Snow",
+    "fr": "Poudreuse",
+    "it": "Nevefresca",
+    "de": "Neuschnee",
+    "es": "Nieve Fresca",
+    "ko": "신설"
+  },
   "varieties": [
     {
       "is_default": true,

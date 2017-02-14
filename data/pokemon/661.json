@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 14,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "wings"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ヤヤコマ",
-      "language": "ja"
-    },
-    {
-      "name": "화살꼬빈",
-      "language": "ko"
-    },
-    {
-      "name": "Passerouge",
-      "language": "fr"
-    },
-    {
-      "name": "Dartiri",
-      "language": "de"
-    },
-    {
-      "name": "Fletchling",
-      "language": "es"
-    },
-    {
-      "name": "Fletchling",
-      "language": "it"
-    },
-    {
-      "name": "Fletchling",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヤヤコマ",
+    "en": "Fletchling",
+    "fr": "Passerouge",
+    "it": "Fletchling",
+    "de": "Dartiri",
+    "es": "Fletchling",
+    "ko": "화살꼬빈"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "コマドリ",
-      "language": "ja"
-    },
-    {
-      "genus": "울새",
-      "language": "ko"
-    },
-    {
-      "genus": "Rougegorge",
-      "language": "fr"
-    },
-    {
-      "genus": "Rotkehlchen",
-      "language": "de"
-    },
-    {
-      "genus": "Petirrojo",
-      "language": "es"
-    },
-    {
-      "genus": "Pettirosso",
-      "language": "it"
-    },
-    {
-      "genus": "Tiny Robin",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "コマドリ",
+    "en": "Tiny Robin",
+    "fr": "Rougegorge",
+    "it": "Pettirosso",
+    "de": "Rotkehlchen",
+    "es": "Petirrojo",
+    "ko": "울새"
+  },
   "varieties": [
     {
       "is_default": true,

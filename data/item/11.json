@@ -1,0 +1,39 @@
+{
+  "id": 11,
+  "name": "luxury-ball",
+  "names": {
+    "ja": "ゴージャスボール",
+    "kana": "ゴージャスボール",
+    "en": "Luxury Ball",
+    "fr": "Luxe Ball",
+    "it": "Chic Ball",
+    "de": "Luxusball",
+    "es": "Lujo Ball",
+    "ko": "럭셔리볼",
+    "zh-CN": "豪华球",
+    "zh-TW": "豪華球"
+  },
+  "flavor_text_entries": {
+    "ja": "捕まえた　野生ポケモンが とても　なつきやすくなる いごこちの　いい　ボール。",
+    "kana": "つかまえた　やせいポケモンが とても　なつきやすくなる いごこちの　いい　ボール。",
+    "en": "A particularly comfortable Poké Ball that makes a wild Pokémon quickly grow friendlier after being caught.",
+    "fr": "Une Poké Ball pratique qui permet de gagner rapidement l’amitié d’un Pokémon sauvage attrapé.",
+    "it": "Poké Ball graziosa che rende più affezionati i Pokémon selvatici catturati.",
+    "de": "Ein behaglicher Ball, der Pokémon veranlasst, sich nach dem Fang schneller mit dem Trainer anzufreunden.",
+    "es": "Acogedora Poké Ball que hace más amistosos a los Pokémon salvajes capturados.",
+    "ko": "잡은 야생 포켓몬이 매우 친밀해지기 쉬운 편안한 볼.",
+    "zh-CN": "住着十分惬意的球。 捉到的野生宝可梦会 变得容易和训练家亲密。",
+    "zh-TW": "住起來十分舒適的球。 捉到的野生寶可夢會 很容易和訓練家變得親密。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Poké Ball graziosa che rende più amichevoli i Pokémon selvatici catturati.",
+          "de": "Ein behaglicher Ball, der Pokémon veranlasst, nach dem Fang schneller freundlicher zu werden."
+        }
+      }
+    }
+  ]
+}

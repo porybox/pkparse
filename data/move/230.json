@@ -2,55 +2,13 @@
   "id": 230,
   "name": "sweet-scent",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "poison-powder"
-        },
-        {
-          "name": "stun-spore"
-        },
-        {
-          "name": "sleep-powder"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [evasion]{mechanic:evasion} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's evasion by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -62,50 +20,61 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sweet Scent",
-      "language": "en"
-    },
-    {
-      "name": "Profumino",
-      "language": "it"
-    },
-    {
-      "name": "Dulce Aroma",
-      "language": "es"
-    },
-    {
-      "name": "Lockduft",
-      "language": "de"
-    },
-    {
-      "name": "Doux Parfum",
-      "language": "fr"
-    },
-    {
-      "name": "달콤한향기",
-      "language": "ko"
-    },
-    {
-      "name": "あまいかおり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "あまいかおり",
+    "kana": "あまいかおり",
+    "en": "Sweet Scent",
+    "fr": "Doux Parfum",
+    "it": "Profumino",
+    "de": "Lockduft",
+    "es": "Dulce Aroma",
+    "ko": "달콤한향기",
+    "zh-CN": "甜甜香气",
+    "zh-TW": "甜甜香氣"
+  },
+  "flavor_text_entries": {
+    "ja": "香りで　相手の　回避率を がくっと　さげる。",
+    "kana": "かおりで　あいての　かいひりつを がくっと　さげる。",
+    "en": "A sweet scent that harshly lowers opposing Pokémon’s evasiveness.",
+    "fr": "Un doux parfum qui réduit beaucoup l’Esquive de l’ennemi.",
+    "it": "Un dolce profumo che riduce di molto l’elusione dei nemici intorno a chi la usa.",
+    "de": "Senkt den Fluchtwert des Zieles stark.",
+    "es": "Un dulce aroma engatusa al objetivo, por lo que se reduce mucho su Evasión.",
+    "ko": "향기로 상대의 회피율을 크게 떨어뜨린다.",
+    "zh-CN": "用香气大幅降低对手的闪避率。",
+    "zh-TW": "用香氣大幅降低對手的閃避率。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "evasion"
-      }
+      "stat": "all"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "all-opponents",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "香りで　相手の　回避率を がくっと　さげる。草むら　などで 使うと　ポケモンが　よってくる。",
+          "kana": "かおりで　あいての　かいひりつを がくっと　さげる。くさむら　などで つかうと　ポケモンが　よってくる。",
+          "en": "A sweet scent that harshly lowers opposing Pokémon’s evasiveness. This also lures wild Pokémon if used in places such as tall grass.",
+          "fr": "Un doux parfum qui réduit sensiblement l’Esquive de l’ennemi. Utilisé hors d’un combat, attire aussi les Pokémon sauvages.",
+          "it": "Un dolce profumo che riduce di molto l’elusione dei nemici intorno a chi la usa. Fuori dalla lotta attira i Pokémon selvatici.",
+          "de": "Senkt den Fluchtwert des Zieles stark. Lockt im hohen Gras auch wilde Pokémon an.",
+          "es": "Un dulce aroma engatusa al objetivo, por lo que se reduce mucho su Evasión. En la hierba alta sirve para atraer a Pokémon salvajes.",
+          "ko": "향기로 상대의 회피율을 크게 떨어뜨린다. 풀밭 등에서 쓰면 포켓몬이 다가온다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Lockt Ziele an und senkt deren Fluchtwert. Lockt im Gras auch wilde Pokémon an."
+        }
+      }
+    }
+  ]
 }

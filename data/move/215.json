@@ -2,36 +2,13 @@
   "id": 215,
   "name": "heal-bell",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Removes [major status effects]{mechanic:major-status-effects} and [confusion]{mechanic:confusion} from every Pokémon in the user's party.",
-      "short_effect": "Cures the entire party of major status effects.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Heal Bell",
-      "language": "en"
-    },
-    {
-      "name": "Rintoccasana",
-      "language": "it"
-    },
-    {
-      "name": "Campana Cura",
-      "language": "es"
-    },
-    {
-      "name": "Vitalglocke",
-      "language": "de"
-    },
-    {
-      "name": "Glas de Soin",
-      "language": "fr"
-    },
-    {
-      "name": "치료방울",
-      "language": "ko"
-    },
-    {
-      "name": "いやしのすず",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user-and-allies"
+  "names": {
+    "ja": "いやしのすず",
+    "kana": "いやしのすず",
+    "en": "Heal Bell",
+    "fr": "Glas de Soin",
+    "it": "Rintoccasana",
+    "de": "Vitalglocke",
+    "es": "Campana Cura",
+    "ko": "치료방울",
+    "zh-CN": "治愈铃声",
+    "zh-TW": "治癒鈴聲"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "心地好い　鈴の　音色を　聞かせて 味方　全員の 状態異常を　回復　する。",
+    "kana": "ここちよい　すずの　ねいろを　きかせて みかた　ぜんいんの じょうたい　いじょうを　かいふく　する。",
+    "en": "The user makes a soothing bell chime to heal the status conditions of all the party Pokémon.",
+    "fr": "Carillon apaisant qui soigne les problèmes de statut de tous les Pokémon de l’équipe.",
+    "it": "Chi la usa produce uno scampanellio che cura i problemi di stato suoi e dei Pokémon alleati.",
+    "de": "Läutet beruhigend und heilt alle Statusprobleme im Team.",
+    "es": "Tañido que cura los problemas de estado de todos los Pokémon del equipo.",
+    "ko": "기분 좋은 방울소리를 들려주어 같은 편 전원의 상태 이상을 회복한다.",
+    "zh-CN": "让同伴听舒适的铃音， 从而治愈我方全员的异常状态。",
+    "zh-TW": "發出悅耳的鈴聲， 治癒我方全體的異常狀態。"
+  },
+  "stat_changes": [],
+  "target": "user-and-allies",
+  "type": "normal"
 }

@@ -2,36 +2,13 @@
   "id": 274,
   "name": "assist",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Uses a move from another Pokémon in the user's party, both selected at random.  Moves from fainted Pokémon can be used.  If there are no eligible Pokémon or moves, this move will [fail]{mechanic:fail}.\n\nThis move will not select []{move:assist}, []{move:chatter}, []{move:circle-throw}, []{move:copycat}, []{move:counter}, []{move:covet}, []{move:destiny-bond}, []{move:detect}, []{move:dig}, []{move:dive}, []{move:dragon-tail}, []{move:endure}, []{move:feint}, []{move:fly} []{move:focus-punch}, []{move:follow-me}, []{move:helping-hand}, []{move:me-first}, []{move:metronome}, []{move:mimic}, []{move:mirror-coat}, []{move:mirror-move}, []{move:phantom-force} []{move:protect}, []{move:quick-guard}, []{move:roar} []{move:shadow-force}, []{move:sketch}, []{move:sleep-talk}, []{move:snatch}, []{move:struggle}, []{move:switcheroo}, []{move:thief}, []{move:trick}, []{move:whirlwind}, or []{move:wide-guard}.\n\nThis move cannot be copied by []{move:mirror-move}, nor selected by []{move:metronome} or []{move:sleep-talk}.",
-      "short_effect": "Randomly selects and uses one of the trainer's other Pokémon's moves.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,45 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Assist",
-      "language": "en"
-    },
-    {
-      "name": "Assistente",
-      "language": "it"
-    },
-    {
-      "name": "Ayuda",
-      "language": "es"
-    },
-    {
-      "name": "Zuschuss",
-      "language": "de"
-    },
-    {
-      "name": "Assistance",
-      "language": "fr"
-    },
-    {
-      "name": "조수",
-      "language": "ko"
-    },
-    {
-      "name": "ねこのて",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "ねこのて",
+    "kana": "ねこのて",
+    "en": "Assist",
+    "fr": "Assistance",
+    "it": "Assistente",
+    "de": "Zuschuss",
+    "es": "Ayuda",
+    "ko": "조수",
+    "zh-CN": "借助",
+    "zh-TW": "借助"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "大急ぎで　味方の　助けを　かりて 味方の　ポケモンが　おぼえている 技を　どれか　１つ　使う。",
+    "kana": "おおいそぎで　みかたの　たすけを　かりて みかたの　ポケモンが　おぼえている わざを　どれか　１つ　つかう。",
+    "en": "The user hurriedly and randomly uses a move among those known by ally Pokémon.",
+    "fr": "Le lanceur se dépêche d’utiliser une capacité au hasard parmi celles des Pokémon de l’équipe.",
+    "it": "Chi la usa utilizza in fretta e a caso una delle mosse degli altri Pokémon della squadra.",
+    "de": "Greift zufällig mit einer Attacke eines Mitstreiters an.",
+    "es": "Usa un movimiento de un miembro del equipo elegido al azar.",
+    "ko": "서둘러서 같은 편의 도움을 받아 같은 편 포켓몬이 기억하고 있는 기술 중 하나를 쓴다.",
+    "zh-CN": "向我方紧急求助， 从我方宝可梦已学会的 招式中随机使用１个。",
+    "zh-TW": "緊急向同伴求救， 從我方寶可夢已學會的招式中 隨機選出１個使用。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "大急ぎで　味方の　助けを　かりて 控えの　ポケモンが　おぼえている 技を　どれか　１つ　使う。",
+          "kana": "おおいそぎで　みかたの　たすけを　かりて ひかえの　ポケモンが　おぼえている わざを　どれか　１つ　つかう。",
+          "en": "The user hurriedly and randomly uses a move among those known by other Pokémon in the party.",
+          "de": "Greift zufällig mit einer Attacke eines Teampartners an.",
+          "ko": "서둘러서 같은 편의 도움을 받아 교대 포켓몬이 기억하고 있는 기술 중 하나를 쓴다."
+        }
+      }
+    }
+  ]
 }

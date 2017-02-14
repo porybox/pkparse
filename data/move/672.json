@@ -1,0 +1,55 @@
+{
+  "id": 672,
+  "name": "toxic-thread",
+  "accuracy": 100,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "damage_class": "status",
+  "meta": {
+    "ailment": "poison",
+    "category": "swagger",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 100,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": {
+    "ja": "どくのいと",
+    "kana": "どくのいと",
+    "en": "Toxic Thread",
+    "fr": "Fil Toxique",
+    "it": "Velenotela",
+    "de": "Giftfaden",
+    "es": "Hilo Venenoso",
+    "ko": "독실",
+    "zh-CN": "毒丝",
+    "zh-TW": "毒絲"
+  },
+  "flavor_text_entries": {
+    "ja": "毒の　混じった　糸を　吹き付ける。 相手を　毒にして 素早さを　さげる。",
+    "kana": "どくの　まじった　いとを　ふきつける。 あいてを　どくにして すばやさを　さげる。",
+    "en": "The user shoots poisonous threads to poison the target and lower the target’s Speed stat.",
+    "fr": "Tisse un fil imprégné de venin. Empoisonne la cible et baisse sa Vitesse.",
+    "it": "Avvelena il bersaglio avvolgendolo con filamenti tossici e ne riduce la Velocità.",
+    "de": "Der Anwender schießt giftige Fäden auf das Ziel, das dadurch vergiftet wird. Außerdem sinkt seine Initiative.",
+    "es": "Ataca al oponente con hilillos venenosos que reducen su Velocidad y lo envenenan.",
+    "ko": "독이 섞인 실을 뿜어낸다. 상대를 독 상태로 만들고 스피드를 떨어뜨린다.",
+    "zh-CN": "将混有毒的丝吐向对手。 使其中毒， 从而降低对手的速度。",
+    "zh-TW": "將混有毒的絲吐向對手。 使其中毒， 進而降低對手的速度。"
+  },
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": "speed"
+    }
+  ],
+  "target": "selected-pokemon",
+  "type": "poison"
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 0,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "humanoid"
   },
@@ -49,68 +43,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ビクティニ",
-      "language": "ja"
-    },
-    {
-      "name": "비크티니",
-      "language": "ko"
-    },
-    {
-      "name": "Victini",
-      "language": "fr"
-    },
-    {
-      "name": "Victini",
-      "language": "de"
-    },
-    {
-      "name": "Victini",
-      "language": "es"
-    },
-    {
-      "name": "Victini",
-      "language": "it"
-    },
-    {
-      "name": "Victini",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ビクティニ",
+    "en": "Victini",
+    "fr": "Victini",
+    "it": "Victini",
+    "de": "Victini",
+    "es": "Victini",
+    "ko": "비크티니"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しょうり",
-      "language": "ja"
-    },
-    {
-      "genus": "승리",
-      "language": "ko"
-    },
-    {
-      "genus": "Victoire",
-      "language": "fr"
-    },
-    {
-      "genus": "Triumph",
-      "language": "de"
-    },
-    {
-      "genus": "Victoria",
-      "language": "es"
-    },
-    {
-      "genus": "Vittoria",
-      "language": "it"
-    },
-    {
-      "genus": "Victory",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しょうり",
+    "en": "Victory",
+    "fr": "Victoire",
+    "it": "Vittoria",
+    "de": "Triumph",
+    "es": "Victoria",
+    "ko": "승리"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 48,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "squiggle"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ケムッソ",
-      "language": "ja"
-    },
-    {
-      "name": "Kemusso",
-      "language": "roomaji"
-    },
-    {
-      "name": "개무소",
-      "language": "ko"
-    },
-    {
-      "name": "刺尾蟲",
-      "language": "zh"
-    },
-    {
-      "name": "Chenipotte",
-      "language": "fr"
-    },
-    {
-      "name": "Waumpel",
-      "language": "de"
-    },
-    {
-      "name": "Wurmple",
-      "language": "es"
-    },
-    {
-      "name": "Wurmple",
-      "language": "it"
-    },
-    {
-      "name": "Wurmple",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ケムッソ",
+    "en": "Wurmple",
+    "fr": "Chenipotte",
+    "it": "Wurmple",
+    "de": "Waumpel",
+    "es": "Wurmple",
+    "ko": "개무소"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いもむし",
-      "language": "ja"
-    },
-    {
-      "genus": "애벌레",
-      "language": "ko"
-    },
-    {
-      "genus": "Ver",
-      "language": "fr"
-    },
-    {
-      "genus": "Wurm",
-      "language": "de"
-    },
-    {
-      "genus": "Gusano",
-      "language": "es"
-    },
-    {
-      "genus": "Baco",
-      "language": "it"
-    },
-    {
-      "genus": "Worm",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いもむし",
+    "en": "Worm",
+    "fr": "Ver",
+    "it": "Baco",
+    "de": "Wurm",
+    "es": "Gusano",
+    "ko": "애벌레"
+  },
   "varieties": [
     {
       "is_default": true,

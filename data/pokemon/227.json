@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 112,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "wings"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "エアームド",
-      "language": "ja"
-    },
-    {
-      "name": "Airmd",
-      "language": "roomaji"
-    },
-    {
-      "name": "무장조",
-      "language": "ko"
-    },
-    {
-      "name": "盔甲鳥",
-      "language": "zh"
-    },
-    {
-      "name": "Airmure",
-      "language": "fr"
-    },
-    {
-      "name": "Panzaeron",
-      "language": "de"
-    },
-    {
-      "name": "Skarmory",
-      "language": "es"
-    },
-    {
-      "name": "Skarmory",
-      "language": "it"
-    },
-    {
-      "name": "Skarmory",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エアームド",
+    "en": "Skarmory",
+    "fr": "Airmure",
+    "it": "Skarmory",
+    "de": "Panzaeron",
+    "es": "Skarmory",
+    "ko": "무장조"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "よろいどり",
-      "language": "ja"
-    },
-    {
-      "genus": "갑옷새",
-      "language": "ko"
-    },
-    {
-      "genus": "Armoiseau",
-      "language": "fr"
-    },
-    {
-      "genus": "Flugstahl",
-      "language": "de"
-    },
-    {
-      "genus": "Coraza Ave",
-      "language": "es"
-    },
-    {
-      "genus": "Armuccello",
-      "language": "it"
-    },
-    {
-      "genus": "Armor Bird",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "よろいどり",
+    "en": "Armor Bird",
+    "fr": "Armoiseau",
+    "it": "Armuccello",
+    "de": "Flugstahl",
+    "es": "Coraza Ave",
+    "ko": "갑옷새"
+  },
   "varieties": [
     {
       "is_default": true,

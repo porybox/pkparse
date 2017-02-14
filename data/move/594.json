@@ -2,34 +2,13 @@
   "id": 594,
   "name": "water-shuriken",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 1,
   "power": 15,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Hits 2–5 times in one turn.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.",
-      "short_effect": "Hits 2-5 times in one turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": 2,
     "max_hits": 5,
     "min_turns": null,
@@ -41,43 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Water Shuriken",
-      "language": "en"
-    },
-    {
-      "name": "Acqualame",
-      "language": "it"
-    },
-    {
-      "name": "Shuriken de Agua",
-      "language": "es"
-    },
-    {
-      "name": "Wasser-Shuriken",
-      "language": "de"
-    },
-    {
-      "name": "Sheauriken",
-      "language": "fr"
-    },
-    {
-      "name": "물수리검",
-      "language": "ko"
-    },
-    {
-      "name": "みずしゅりけん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "みずしゅりけん",
+    "kana": "みずしゅりけん",
+    "en": "Water Shuriken",
+    "fr": "Sheauriken",
+    "it": "Acqualame",
+    "de": "Wasser-Shuriken",
+    "es": "Shuriken de Agua",
+    "ko": "물수리검",
+    "zh-CN": "飞水手里剑",
+    "zh-TW": "飛水手裡劍"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "粘液で　できた　手裏剣を ２ー５回の　間　連続で　だす。 必ず　先制攻撃　できる。",
+    "kana": "ねんえきで　できた　しゅりけんを ２ー５かいの　あいだ　れんぞくで　だす。 かならず　せんせい　こうげき　できる。",
+    "en": "The user hits the target with throwing stars two to five times in a row. This move always goes first.",
+    "fr": "Attaque l’ennemi avec des shuriken de mucus. Frappe en priorité deux à cinq fois d’affilée en un tour.",
+    "it": "Chi la usa attacca il bersaglio con degli shuriken di muco da due a cinque volte di fila. Questa mossa ha priorità alta.",
+    "de": "Der Anwender schleudert dem Ziel Wurfsterne aus einem verdickten Sekret entgegen. Die Attacke trifft zwei- bis fünfmal. Hohe Erstschlagquote.",
+    "es": "Golpea al oponente de 2 a 5 veces con estrellas arrojadizas hechas de mucosidad. Este movimiento tiene prioridad alta.",
+    "ko": "점액으로 만든 수리검을 2-5회 동안 연속으로 던진다. 반드시 선제공격할 수 있다.",
+    "zh-CN": "用粘液制成的手里剑， 连续攻击２～５次。 必定能够先制攻击。",
+    "zh-TW": "射出用黏液製成的手裡劍， 連續攻擊２～５次。 必定能夠發動先制攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "damage_class": "physical",
+        "flavor_text_entries": {
+          "ja": "粘液で　できた　手裏剣を ２ー５回の　あいだ　連続で　だす。 必ず　先制攻撃　できる。",
+          "fr": "Attaque l’ennemi avec des shuriken de mucus. Frappe deux à cinq fois d’affilée en un tour, et toujours en premier.",
+          "it": "Chi la usa attacca sempre per primo, colpendo il bersaglio con uno shuriken di muco da due a cinque volte di fila.",
+          "de": "Der Anwender schleudert dem Ziel Wurfsterne aus einem verdickten Sekret entgegen. Eine Serien-Attacke, die zwei- bis fünfmal trifft.",
+          "es": "Golpea al oponente de 2 a 5 veces con estrellas arrojadizas hechas de mucosidad. El que lo usa siempre ataca primero."
+        }
+      }
+    }
+  ]
 }

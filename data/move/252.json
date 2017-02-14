@@ -2,61 +2,13 @@
   "id": 252,
   "name": "fake-out",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 10,
   "priority": 3,
   "power": 40,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "seismic-toss"
-        },
-        {
-          "name": "feint-attack"
-        },
-        {
-          "name": "vital-throw"
-        },
-        {
-          "name": "knock-off"
-        },
-        {
-          "name": "arm-thrust"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Causes the target to []{mechanic:flinch}.  Can only be used on the user's first turn after entering the [field]{mechanic:field}.",
-      "short_effect": "Can only be used as the first move after the user enters battle.  Causes the target to flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -68,43 +20,45 @@
     "flinch_chance": 100,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Fake Out",
-      "language": "en"
-    },
-    {
-      "name": "Bruciapelo",
-      "language": "it"
-    },
-    {
-      "name": "Sorpresa",
-      "language": "es"
-    },
-    {
-      "name": "Mogelhieb",
-      "language": "de"
-    },
-    {
-      "name": "Bluff",
-      "language": "fr"
-    },
-    {
-      "name": "속이다",
-      "language": "ko"
-    },
-    {
-      "name": "ねこだまし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ねこだまし",
+    "kana": "ねこだまし",
+    "en": "Fake Out",
+    "fr": "Bluff",
+    "it": "Bruciapelo",
+    "de": "Mogelhieb",
+    "es": "Sorpresa",
+    "ko": "속이다",
+    "zh-CN": "击掌奇袭",
+    "zh-TW": "擊掌奇襲"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "先制攻撃で　相手を　ひるませる。 戦闘に　でたら すぐに　ださないと　成功しない。",
+    "kana": "せんせい　こうげきで　あいてを ひるませる。せんとうに　でたら すぐに　ださないと　せいこう　しない。",
+    "en": "This attack hits first and makes the target flinch. It only works the first turn the user is in battle.",
+    "fr": "Permet de frapper en priorité et apeure l’ennemi. Ne fonctionne qu’au premier tour.",
+    "it": "Mossa ad alta priorità che fa tentennare il bersaglio. Funziona solo appena scesi in campo.",
+    "de": "Attacke mit hoher Erstschlagquote. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.",
+    "es": "Movimiento de prioridad alta que, además, hace retroceder al objetivo. Solo sirve en el primer turno.",
+    "ko": "선제공격으로 상대를 풀죽게 한다. 배틀에 나가서 바로 쓰지 않으면 성공할 수 없다.",
+    "zh-CN": "进行先制攻击，使对手畏缩。 要在出场后立刻使出才能成功。",
+    "zh-TW": "利用先制攻擊使對手畏縮。 要在上場後立即使用才會成功。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.",
+          "fr": "Permet de frapper en premier et apeure l’ennemi. Ne fonctionne qu’au premier tour.",
+          "it": "Mossa che fa agire per primi e fa tentennare il bersaglio. Funziona solo appena scesi in campo.",
+          "de": "Diese Attacke trifft zuerst. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.",
+          "es": "Ataca primero y, además, hace retroceder al objetivo. Solo sirve en el primer turno."
+        }
+      }
+    }
+  ]
 }

@@ -2,36 +2,13 @@
   "id": 67,
   "name": "low-kick",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with the target's weight in kilograms, to a maximum of 120.\n\nTarget's weight | Power\n--------------- | ----:\nUp to 10kg      |    20\nUp to 25kg      |    40\nUp to 50kg      |    60\nUp to 100kg     |    80\nUp to 200kg     |   100\nAbove 200kg     |   120\n",
-      "short_effect": "Inflicts more damage to heavier targets, with a maximum of 120 power.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,61 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Low Kick",
-      "language": "en"
-    },
-    {
-      "name": "Colpo Basso",
-      "language": "it"
-    },
-    {
-      "name": "Patada Baja",
-      "language": "es"
-    },
-    {
-      "name": "Fußkick",
-      "language": "de"
-    },
-    {
-      "name": "Balayage",
-      "language": "fr"
-    },
-    {
-      "name": "안다리걸기",
-      "language": "ko"
-    },
-    {
-      "name": "けたぐり",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "けたぐり",
+    "kana": "けたぐり",
+    "en": "Low Kick",
+    "fr": "Balayage",
+    "it": "Colpo Basso",
+    "de": "Fußkick",
+    "es": "Patada Baja",
+    "ko": "안다리걸기",
+    "zh-CN": "踢倒",
+    "zh-TW": "踢倒"
+  },
+  "flavor_text_entries": {
+    "ja": "足を　強く　けり 相手を　転ばせて　攻撃する。 相手が　重いほど　威力が　あがる。",
+    "kana": "あしを　つよく　けり　あいてを ころばせて　こうげきする。あいてが おもいほど　いりょくが　あがる。",
+    "en": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move’s power.",
+    "fr": "Un puissant coup de pied bas qui fauche l’ennemi. Il est plus efficace contre les ennemis lourds.",
+    "it": "Un calcio basso e potente che fa cadere il bersaglio. Danneggia maggiormente i Pokémon più pesanti.",
+    "de": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel ist, desto mehr Schaden fügt ihm die Attacke zu.",
+    "es": "Patada baja que derriba al oponente. Cuanto más pesa el objetivo, más daño le causa.",
+    "ko": "발을 강하게 걸고 상대를 넘어뜨려 공격한다. 상대가 무거울수록 위력이 올라간다.",
+    "zh-CN": "用力踢对手的脚， 使其摔倒进行攻击。 对手越重，威力越大。",
+    "zh-TW": "用力踢對手的腳， 讓對手摔倒進行攻擊。 對手越重，威力越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
   "past_values": [
     {
-      "accuracy": 90,
-      "power": 50,
-      "pp": null,
-      "effect_chance": 30,
-      "effect_entries": [
-        {
-          "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-          "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Patada baja. Cuanto más pesa el objetivo, más daño causa."
         }
-      ],
-      "type": null,
-      "version_group": {
-        "name": "ruby-sapphire"
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fighting"
-  }
+  ]
 }

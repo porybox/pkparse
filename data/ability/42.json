@@ -1,215 +1,44 @@
 {
   "id": 42,
   "name": "magnet-pull",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "じりょく",
+    "kana": "じりょく",
+    "en": "Magnet Pull",
+    "fr": "Magnépiège",
+    "it": "Magnetismo",
+    "de": "Magnetfalle",
+    "es": "Imán",
+    "ko": "자력",
+    "zh-CN": "磁力",
+    "zh-TW": "磁力"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "はがねタイプの　ポケモンを 磁力で　引きつけて 逃げられなくする。",
+    "kana": "はがねタイプの　ポケモンを じりょくで　ひきつけて にげられなくする。",
+    "en": "Prevents Steel-type Pokémon from escaping using its magnetic force.",
+    "fr": "Attire les Pokémon Acier grâce à un champ magnétique, ce qui les empêche de fuir.",
+    "it": "La carica magnetica attrae i Pokémon di tipo Acciaio impedendone la fuga o la sostituzione.",
+    "de": "Hindert Stahl-Pokémon durch Magnetismus an der Flucht.",
+    "es": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir.",
+    "ko": "강철타입의 포켓몬을 자력으로 끌어모아 도망칠 수 없게 한다.",
+    "zh-CN": "用磁力吸住钢属性的宝可梦， 使其无法逃走。",
+    "zh-TW": "用磁力吸住鋼屬性的寶可夢， 使其無法逃走。"
+  },
+  "past_values": [
     {
-      "name": "Magnet Pull",
-      "language": "en"
-    },
-    {
-      "name": "Magnetismo",
-      "language": "it"
-    },
-    {
-      "name": "Imán",
-      "language": "es"
-    },
-    {
-      "name": "Magnetfalle",
-      "language": "de"
-    },
-    {
-      "name": "Magnépiège",
-      "language": "fr"
-    },
-    {
-      "name": "자력",
-      "language": "ko"
-    },
-    {
-      "name": "じりょく",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "While this Pokémon is in battle, opposing []{type:steel}-type Pokémon cannot flee or switch out.\n\nPokémon with []{ability:run-away} can still flee.  Pokémon can still switch out with the use of a move or item.\n\nOverworld: If the lead Pokémon has this ability, Steel-type Pokémon have a higher encounter rate.",
-      "short_effect": "Prevents []{type:steel} opponents from fleeing or switching out.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "emerald"
-      },
-      "effect_entries": [
-        {
-          "effect": "Has no overworld effect.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "はがねの　ポケモンを 逃げられなくする。",
+          "kana": "はがねの　ポケモンを にげられなくする。",
+          "en": "Prevents Steel-type Pokémon from escaping.",
+          "fr": "Empêche les Pokémon Acier de fuir.",
+          "it": "Impedisce la fuga ai Pokémon di tipo Acciaio.",
+          "de": "Hindert Stahl-Pokémon an der Flucht.",
+          "es": "Impide huir a los Pokémon de tipo Acero.",
+          "ko": "강철의 포켓몬을 도망칠 수 없게 한다."
         }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "はがねの　ポケモンを\n逃げられなくする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Prevents Steel-type\nPokémon from escaping.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Impedisce la fuga ai Pokémon\ndi tipo Acciaio.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Impide huir a los Pokémon de\ntipo Acero.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Hindert Stahl-Pokémon\nan der Flucht.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Empêche les Pokémon Acier\nde fuir.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "강철의 포켓몬을\n도망칠 수 없게 한다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "はがねの　ポケモンを\nにげられなくする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Prevents Steel-type\nPokémon from escaping.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents Steel-type\nPokémon from escaping.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Empêche les Pokémon Acier\nde fuir.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Prevents Steel-type\nPokémon from escaping.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents Steel-type\nPokémon from escaping.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents Steel-type\nPokémon from escaping.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Traps STEEL-type POKéMON.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Traps STEEL-type POKéMON.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Traps STEEL-type POKéMON.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "magnemite"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "magneton"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "nosepass"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "magnezone"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "probopass"
       }
     }
   ]

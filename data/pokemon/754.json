@@ -1,0 +1,44 @@
+{
+  "id": 754,
+  "name": "lurantis",
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "color": "pink",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ラランテス",
+    "en": "Lurantis",
+    "fr": "Floramantis",
+    "it": "Lurantis",
+    "de": "Mantidea",
+    "es": "Lurantis",
+    "ko": "라란티스"
+  },
+  "genera": {
+    "ja": "はなかま",
+    "en": "Bloom Sickle",
+    "fr": "Fauch’Fleur",
+    "it": "Mantifiore",
+    "de": "Blumensichel",
+    "es": "Filo Flor",
+    "ko": "꽃사마귀"
+  },
+  "types": [
+    "grass"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 105,
+    "defense": 90,
+    "special-attack": 80,
+    "special-defense": 90,
+    "speed": 45
+  }
+}

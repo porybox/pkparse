@@ -2,34 +2,13 @@
   "id": 543,
   "name": "head-charge",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 120,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/4 the damage it inflicts in recoil.",
-      "short_effect": "User receives 1/4 the damage it inflicts in recoil.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Head Charge",
-      "language": "en"
-    },
-    {
-      "name": "Ricciolata",
-      "language": "it"
-    },
-    {
-      "name": "Ariete",
-      "language": "es"
-    },
-    {
-      "name": "Steinschädel",
-      "language": "de"
-    },
-    {
-      "name": "Peignée",
-      "language": "fr"
-    },
-    {
-      "name": "아프로브레이크",
-      "language": "ko"
-    },
-    {
-      "name": "アフロブレイク",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "アフロブレイク",
+    "kana": "アフロブレイク",
+    "en": "Head Charge",
+    "fr": "Peignée",
+    "it": "Ricciolata",
+    "de": "Steinschädel",
+    "es": "Ariete",
+    "ko": "아프로브레이크",
+    "zh-CN": "爆炸头突击",
+    "zh-TW": "爆炸頭突擊"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "すごい　アフロの　頭で 相手に　突進して　攻撃する。 自分も　少し　ダメージを　受ける。",
+    "kana": "すごい　アフロの　あたまで あいてに　とっしんして　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+    "en": "The user charges its head into its target, using its powerful guard hair. This also damages the user a little.",
+    "fr": "Le lanceur donne un coup avec sa tête couronnée d’une fière crinière. Blesse aussi légèrement le lanceur.",
+    "it": "Chi la usa carica il bersaglio con la testa in stile afro, ma subisce un po’ di danni per il contraccolpo.",
+    "de": "Rempelattacke mit ausgeflippter Retrofrisur. Anwender nimmt selbst leichten Schaden.",
+    "es": "Propina un tremendo cabezazo. También daña al usuario un poco.",
+    "ko": "굉장한 아프로 머리로 상대에게 돌진하여 공격한다. 자신도 조금 데미지를 입는다.",
+    "zh-CN": "用厉害的爆炸头 猛撞向对手进行攻击。 自己也会受到少许伤害。",
+    "zh-TW": "用帥氣的爆炸頭 猛撞對手進行攻擊。 自己也會受到少許傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 111,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "armor"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ツチニン",
-      "language": "ja"
-    },
-    {
-      "name": "Tutinin",
-      "language": "roomaji"
-    },
-    {
-      "name": "토중몬",
-      "language": "ko"
-    },
-    {
-      "name": "土居忍士",
-      "language": "zh"
-    },
-    {
-      "name": "Ningale",
-      "language": "fr"
-    },
-    {
-      "name": "Nincada",
-      "language": "de"
-    },
-    {
-      "name": "Nincada",
-      "language": "es"
-    },
-    {
-      "name": "Nincada",
-      "language": "it"
-    },
-    {
-      "name": "Nincada",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ツチニン",
+    "en": "Nincada",
+    "fr": "Ningale",
+    "it": "Nincada",
+    "de": "Nincada",
+    "es": "Nincada",
+    "ko": "토중몬"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "したづみ",
-      "language": "ja"
-    },
-    {
-      "genus": "신참",
-      "language": "ko"
-    },
-    {
-      "genus": "Apprenti",
-      "language": "fr"
-    },
-    {
-      "genus": "Vorbereiter",
-      "language": "de"
-    },
-    {
-      "genus": "Aprendiz",
-      "language": "es"
-    },
-    {
-      "genus": "Novizio",
-      "language": "it"
-    },
-    {
-      "genus": "Trainee",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "したづみ",
+    "en": "Trainee",
+    "fr": "Apprenti",
+    "it": "Novizio",
+    "de": "Vorbereiter",
+    "es": "Aprendiz",
+    "ko": "신참"
+  },
   "varieties": [
     {
       "is_default": true,

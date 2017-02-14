@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 8,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "upright"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ブーピッグ",
-      "language": "ja"
-    },
-    {
-      "name": "Boopig",
-      "language": "roomaji"
-    },
-    {
-      "name": "피그킹",
-      "language": "ko"
-    },
-    {
-      "name": "噗噗豬",
-      "language": "zh"
-    },
-    {
-      "name": "Groret",
-      "language": "fr"
-    },
-    {
-      "name": "Groink",
-      "language": "de"
-    },
-    {
-      "name": "Grumpig",
-      "language": "es"
-    },
-    {
-      "name": "Grumpig",
-      "language": "it"
-    },
-    {
-      "name": "Grumpig",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ブーピッグ",
+    "en": "Grumpig",
+    "fr": "Groret",
+    "it": "Grumpig",
+    "de": "Groink",
+    "es": "Grumpig",
+    "ko": "피그킹"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あやつり",
-      "language": "ja"
-    },
-    {
-      "genus": "조작",
-      "language": "ko"
-    },
-    {
-      "genus": "Magouilleur",
-      "language": "fr"
-    },
-    {
-      "genus": "Manipulator",
-      "language": "de"
-    },
-    {
-      "genus": "Manipulador",
-      "language": "es"
-    },
-    {
-      "genus": "Raggiro",
-      "language": "it"
-    },
-    {
-      "genus": "Manipulate",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あやつり",
+    "en": "Manipulate",
+    "fr": "Magouilleur",
+    "it": "Raggiro",
+    "de": "Manipulator",
+    "es": "Manipulador",
+    "ko": "조작"
+  },
   "varieties": [
     {
       "is_default": true,

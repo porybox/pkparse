@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 87,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "bug-wings"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ヤンヤンマ",
-      "language": "ja"
-    },
-    {
-      "name": "Yanyanma",
-      "language": "roomaji"
-    },
-    {
-      "name": "왕자리",
-      "language": "ko"
-    },
-    {
-      "name": "陽陽瑪",
-      "language": "zh"
-    },
-    {
-      "name": "Yanma",
-      "language": "fr"
-    },
-    {
-      "name": "Yanma",
-      "language": "de"
-    },
-    {
-      "name": "Yanma",
-      "language": "es"
-    },
-    {
-      "name": "Yanma",
-      "language": "it"
-    },
-    {
-      "name": "Yanma",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヤンヤンマ",
+    "en": "Yanma",
+    "fr": "Yanma",
+    "it": "Yanma",
+    "de": "Yanma",
+    "es": "Yanma",
+    "ko": "왕자리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "うすばね",
-      "language": "ja"
-    },
-    {
-      "genus": "얇은날개",
-      "language": "ko"
-    },
-    {
-      "genus": "Translaile",
-      "language": "fr"
-    },
-    {
-      "genus": "Libelle",
-      "language": "de"
-    },
-    {
-      "genus": "Ala Clara",
-      "language": "es"
-    },
-    {
-      "genus": "Alachiara",
-      "language": "it"
-    },
-    {
-      "genus": "Clear Wing",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "うすばね",
+    "en": "Clear Wing",
+    "fr": "Translaile",
+    "it": "Alachiara",
+    "de": "Libelle",
+    "es": "Ala Clara",
+    "ko": "얇은날개"
+  },
   "varieties": [
     {
       "is_default": true,

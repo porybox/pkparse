@@ -2,49 +2,13 @@
   "id": 97,
   "name": "agility",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "double-team"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Speed]{mechanic:speed} by two [stages]{mechanic:stage}.",
-      "short_effect": "Raises the user's Speed by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,47 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Agility",
-      "language": "en"
-    },
-    {
-      "name": "Agilità",
-      "language": "it"
-    },
-    {
-      "name": "Agilidad",
-      "language": "es"
-    },
-    {
-      "name": "Agilität",
-      "language": "de"
-    },
-    {
-      "name": "Hâte",
-      "language": "fr"
-    },
-    {
-      "name": "고속이동",
-      "language": "ko"
-    },
-    {
-      "name": "こうそくいどう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "こうそくいどう",
+    "kana": "こうそくいどう",
+    "en": "Agility",
+    "fr": "Hâte",
+    "it": "Agilità",
+    "de": "Agilität",
+    "es": "Agilidad",
+    "ko": "고속이동",
+    "zh-CN": "高速移动",
+    "zh-TW": "高速移動"
+  },
+  "flavor_text_entries": {
+    "ja": "力を　ぬいて　体を　軽くして 高速で　動く。 自分の　素早さを　ぐーんと　あげる。",
+    "kana": "ちからを　ぬいて　からだを　かるくして こうそくで　うごく。 じぶんの　すばやさを　ぐーんと　あげる。",
+    "en": "The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.",
+    "fr": "Le lanceur se relaxe et allège son corps pour beaucoup augmenter sa Vitesse.",
+    "it": "Chi la usa rilassa e alleggerisce il proprio corpo per far salire di molto la Velocità.",
+    "de": "Entspannt den Körper, um den Initiative-Wert stark zu erhöhen.",
+    "es": "Relaja el cuerpo para ganar mucha Velocidad.",
+    "ko": "힘을 빼고 몸을 가볍게 해서 고속으로 움직인다. 자신의 스피드를 크게 올린다.",
+    "zh-CN": "让身体放松变得轻盈， 以便高速移动。 大幅提高自己的速度。",
+    "zh-TW": "放鬆身體， 讓自己變得輕盈以進行高速移動。 可大幅提高自己的速度。"
+  },
   "stat_changes": [
     {
       "change": 2,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "psychic"
-  }
+  "target": "user",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur se relaxe et allège son corps pour augmenter considérablement sa Vitesse.",
+          "de": "Entspannt den Körper, um den Initiative-Wert stark zu steigern."
+        }
+      }
+    }
+  ]
 }

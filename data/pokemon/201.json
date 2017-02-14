@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 61,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "ball"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "アンノーン",
-      "language": "ja"
-    },
-    {
-      "name": "Unknown",
-      "language": "roomaji"
-    },
-    {
-      "name": "안농",
-      "language": "ko"
-    },
-    {
-      "name": "未知圖騰",
-      "language": "zh"
-    },
-    {
-      "name": "Zarbi",
-      "language": "fr"
-    },
-    {
-      "name": "Icognito",
-      "language": "de"
-    },
-    {
-      "name": "Unown",
-      "language": "es"
-    },
-    {
-      "name": "Unown",
-      "language": "it"
-    },
-    {
-      "name": "Unown",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アンノーン",
+    "en": "Unown",
+    "fr": "Zarbi",
+    "it": "Unown",
+    "de": "Icognito",
+    "es": "Unown",
+    "ko": "안농"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -116,36 +81,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "シンボル",
-      "language": "ja"
-    },
-    {
-      "genus": "심볼",
-      "language": "ko"
-    },
-    {
-      "genus": "Symbolique",
-      "language": "fr"
-    },
-    {
-      "genus": "Symbol",
-      "language": "de"
-    },
-    {
-      "genus": "Símbolo",
-      "language": "es"
-    },
-    {
-      "genus": "Simbolo",
-      "language": "it"
-    },
-    {
-      "genus": "Symbol",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "シンボル",
+    "en": "Symbol",
+    "fr": "Symbolique",
+    "it": "Simbolo",
+    "de": "Symbol",
+    "es": "Símbolo",
+    "ko": "심볼"
+  },
   "varieties": [
     {
       "is_default": true,

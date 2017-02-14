@@ -1,0 +1,40 @@
+{
+  "id": 587,
+  "name": "relic-vase",
+  "names": {
+    "ja": "こだいのツボ",
+    "kana": "こだいのツボ",
+    "en": "Relic Vase",
+    "fr": "Vieux Vase",
+    "it": "Vasantico",
+    "de": "Alte Vase",
+    "es": "Ánfora",
+    "ko": "고대의항아리",
+    "zh-CN": "古代之壶",
+    "zh-TW": "古代之壺"
+  },
+  "flavor_text_entries": {
+    "ja": "３０００年ほど　昔の 文明で　つくられた　ツボ。",
+    "kana": "３０００ねんほど　むかしの ぶんめいで　つくられた　ツボ。",
+    "en": "A fragile vase made by an ancient civilization about 3,000 years ago.",
+    "fr": "Un vase d’une civilisation vieille de plus de 3 000 ans.",
+    "it": "Vaso prodotto circa 3.000 anni fa da un’antica civiltà.",
+    "de": "Eine Vase, angefertigt von einer gut 3 000 Jahre alten Kultur.",
+    "es": "Jarrón de más de 3000 años de antigüedad.",
+    "ko": "3000년 정도 된 오랜 문명에서 만들어진 항아리.",
+    "zh-CN": "约３０００年前的 文明制造的壶。",
+    "zh-TW": "距今約３０００年前的 文明裡製造的壺。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Vaso prodotto circa 3000 anni fa da un’antica civiltà.",
+          "de": "Eine Vase, angefertigt von einer gut 3 000 Jahre alten Kultur.",
+          "es": "Jarrón de más de 3000 años de antigüedad. Muy valorado por los coleccionistas."
+        }
+      }
+    }
+  ]
+}

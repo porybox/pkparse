@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 2,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -56,44 +48,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ベイリーフ",
-      "language": "ja"
-    },
-    {
-      "name": "Bayleaf",
-      "language": "roomaji"
-    },
-    {
-      "name": "베이리프",
-      "language": "ko"
-    },
-    {
-      "name": "月桂葉",
-      "language": "zh"
-    },
-    {
-      "name": "Macronium",
-      "language": "fr"
-    },
-    {
-      "name": "Lorblatt",
-      "language": "de"
-    },
-    {
-      "name": "Bayleef",
-      "language": "es"
-    },
-    {
-      "name": "Bayleef",
-      "language": "it"
-    },
-    {
-      "name": "Bayleef",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ベイリーフ",
+    "en": "Bayleef",
+    "fr": "Macronium",
+    "it": "Bayleef",
+    "de": "Lorblatt",
+    "es": "Bayleef",
+    "ko": "베이리프"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -104,36 +67,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はっぱ",
-      "language": "ja"
-    },
-    {
-      "genus": "잎사귀",
-      "language": "ko"
-    },
-    {
-      "genus": "Feuille",
-      "language": "fr"
-    },
-    {
-      "genus": "Laub",
-      "language": "de"
-    },
-    {
-      "genus": "Hoja",
-      "language": "es"
-    },
-    {
-      "genus": "Foglia",
-      "language": "it"
-    },
-    {
-      "genus": "Leaf",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はっぱ",
+    "en": "Leaf",
+    "fr": "Feuille",
+    "it": "Foglia",
+    "de": "Laub",
+    "es": "Hoja",
+    "ko": "잎사귀"
+  },
   "varieties": [
     {
       "is_default": true,

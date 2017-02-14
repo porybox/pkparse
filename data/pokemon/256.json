@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 5,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -47,44 +41,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ワカシャモ",
-      "language": "ja"
-    },
-    {
-      "name": "Wakasyamo",
-      "language": "roomaji"
-    },
-    {
-      "name": "영치코",
-      "language": "ko"
-    },
-    {
-      "name": "力壯雞",
-      "language": "zh"
-    },
-    {
-      "name": "Galifeu",
-      "language": "fr"
-    },
-    {
-      "name": "Jungglut",
-      "language": "de"
-    },
-    {
-      "name": "Combusken",
-      "language": "es"
-    },
-    {
-      "name": "Combusken",
-      "language": "it"
-    },
-    {
-      "name": "Combusken",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ワカシャモ",
+    "en": "Combusken",
+    "fr": "Galifeu",
+    "it": "Combusken",
+    "de": "Jungglut",
+    "es": "Combusken",
+    "ko": "영치코"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -95,36 +60,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "わかどり",
-      "language": "ja"
-    },
-    {
-      "genus": "꼬마닭",
-      "language": "ko"
-    },
-    {
-      "genus": "Poulet",
-      "language": "fr"
-    },
-    {
-      "genus": "Kleinhahn",
-      "language": "de"
-    },
-    {
-      "genus": "Ave Corral",
-      "language": "es"
-    },
-    {
-      "genus": "Rampollo",
-      "language": "it"
-    },
-    {
-      "genus": "Young Fowl",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "わかどり",
+    "en": "Young Fowl",
+    "fr": "Poulet",
+    "it": "Rampollo",
+    "de": "Kleinhahn",
+    "es": "Ave Corral",
+    "ko": "꼬마닭"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,154 +1,43 @@
 {
   "id": 123,
   "name": "bad-dreams",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "ナイトメア",
+    "kana": "ナイトメア",
+    "en": "Bad Dreams",
+    "fr": "Mauvais Rêve",
+    "it": "Sogniamari",
+    "de": "Alptraum",
+    "es": "Mal Sueño",
+    "ko": "나이트메어",
+    "zh-CN": "梦魇",
+    "zh-TW": "夢魘"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "ねむり状態の　相手に ダメージを　あたえる。",
+    "kana": "ねむり　じょうたいの　あいてに ダメージを　あたえる。",
+    "en": "Reduces the HP of sleeping opposing Pokémon.",
+    "fr": "Inflige des dégâts aux ennemis endormis.",
+    "it": "Infligge danni ai nemici addormentati.",
+    "de": "Fügt schlafenden Gegnern Schaden zu.",
+    "es": "Inflige daño a cualquier rival que esté dormido.",
+    "ko": "잠듦 상태의 상대에게 데미지를 준다.",
+    "zh-CN": "给予睡眠状态的对手伤害。",
+    "zh-TW": "給予陷入睡眠狀態的對手傷害。"
+  },
+  "past_values": [
     {
-      "name": "Bad Dreams",
-      "language": "en"
-    },
-    {
-      "name": "Sogniamari",
-      "language": "it"
-    },
-    {
-      "name": "Mal Sueño",
-      "language": "es"
-    },
-    {
-      "name": "Alptraum",
-      "language": "de"
-    },
-    {
-      "name": "Mauvais Rêve",
-      "language": "fr"
-    },
-    {
-      "name": "나이트메어",
-      "language": "ko"
-    },
-    {
-      "name": "ナイトメア",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Opposing Pokémon take 1/8 of their maximum [HP]{mechanic:hp} in damage after each turn while they are [asleep]{mechanic:asleep}.",
-      "short_effect": "Damages [sleeping]{mechanic:sleep} opponents for 1/8 their max [HP]{mechanic:hp} after each turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "ねむっている　相手の\nＨＰを　減らす。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Reduces the HP of sleeping\nopposing Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Riduce i PS dei nemici\naddormentati.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Reduce los PS de cualquier rival\nque esté dormido.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Senkt die KP eines\nschlafenden Gegners.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Réduit les PV d’un ennemi\nendormi.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "잠들어 있는 상대의\nHP를 줄인다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ねむっている　あいての\nＨＰを　へらす。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Reduces a sleeping\nfoe’s HP.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Reduces a sleeping\nfoe’s HP.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Réduit les PV d’un ennemi\nendormi.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Reduces a sleeping\nfoe’s HP.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Reduces a sleeping foe’s\nHP.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Reduces a sleeping foe’s\nHP.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "darkrai"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ねむっている　相手の ＨＰを　減らす。",
+          "kana": "ねむっている　あいての ＨＰを　へらす。",
+          "fr": "Réduit les PV d’un ennemi endormi.",
+          "it": "Riduce i PS dei nemici addormentati.",
+          "de": "Senkt die KP eines schlafenden Gegners.",
+          "es": "Reduce los PS de cualquier rival que esté dormido.",
+          "ko": "잠들어 있는 상대의 HP를 줄인다."
+        }
       }
     }
   ]

@@ -2,36 +2,13 @@
   "id": 309,
   "name": "meteor-mash",
   "accuracy": 90,
-  "effect_chance": 20,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}. Has a $effect_chance% chance to raise the user's [Attack]{mechanic:attack} one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to raise the user's Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,50 @@
     "flinch_chance": 0,
     "stat_chance": 20
   },
-  "names": [
-    {
-      "name": "Meteor Mash",
-      "language": "en"
-    },
-    {
-      "name": "Meteorpugno",
-      "language": "it"
-    },
-    {
-      "name": "Puño Meteoro",
-      "language": "es"
-    },
-    {
-      "name": "Sternenhieb",
-      "language": "de"
-    },
-    {
-      "name": "Poing Météor",
-      "language": "fr"
-    },
-    {
-      "name": "코멧펀치",
-      "language": "ko"
-    },
-    {
-      "name": "コメットパンチ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "コメットパンチ",
+    "kana": "コメットパンチ",
+    "en": "Meteor Mash",
+    "fr": "Poing Météore",
+    "it": "Meteorpugno",
+    "de": "Sternenhieb",
+    "es": "Puño Meteoro",
+    "ko": "코멧펀치",
+    "zh-CN": "彗星拳",
+    "zh-TW": "彗星拳"
+  },
+  "flavor_text_entries": {
+    "ja": "すい星の　ごとく　パンチを　くりだして 相手を　攻撃する。　自分の 攻撃が　あがることが　ある。",
+    "kana": "すいせいの　ごとく　パンチを　くりだして あいてを　こうげきする。　じぶんの こうげきが　あがることが　ある。",
+    "en": "The target is hit with a hard punch fired like a meteor. This may also raise the user’s Attack stat.",
+    "fr": "Un coup de poing lancé à la vitesse d’un météore. Peut aussi augmenter l’Attaque du lanceur.",
+    "it": "Colpisce il bersaglio con un pugno veloce come una meteora. Può far salire l’Attacco di chi la usa.",
+    "de": "Angriff mit einem harten, schnellen Schlag. Erhöht eventuell Angriffs-Wert des Anwenders.",
+    "es": "Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.",
+    "ko": "혜성과 같은 펀치를 날려서 상대를 공격한다. 자신의 공격이 올라갈 때가 있다.",
+    "zh-CN": "使出彗星般的拳头攻击对手。 有时会提高自己的攻击。",
+    "zh-TW": "使出如同彗星般的拳頭攻擊對手。 有時會提高自己的攻擊。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "steel"
-  }
+  "target": "selected-pokemon",
+  "type": "steel",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "すい星の　ごとく　パンチを　くりだして 相手を　攻撃する。自分の 攻撃が　あがることが　ある。",
+          "kana": "すいせいの　ごとく　パンチを　くりだして あいてを　こうげきする。じぶんの こうげきが　あがることが　ある。"
+        },
+        "names": {
+          "fr": "Poing Météor"
+        }
+      }
+    }
+  ]
 }

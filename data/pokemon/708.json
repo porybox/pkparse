@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 61,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    },
-    {
-      "name": "plant"
-    }
+    "plant",
+    "indeterminate"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "arms"
   },
@@ -46,68 +38,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ボクレー",
-      "language": "ja"
-    },
-    {
-      "name": "나목령",
-      "language": "ko"
-    },
-    {
-      "name": "Brocélôme",
-      "language": "fr"
-    },
-    {
-      "name": "Paragoni",
-      "language": "de"
-    },
-    {
-      "name": "Phantump",
-      "language": "es"
-    },
-    {
-      "name": "Phantump",
-      "language": "it"
-    },
-    {
-      "name": "Phantump",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ボクレー",
+    "en": "Phantump",
+    "fr": "Brocélôme",
+    "it": "Phantump",
+    "de": "Paragoni",
+    "es": "Phantump",
+    "ko": "나목령"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きりかぶ",
-      "language": "ja"
-    },
-    {
-      "genus": "그루터기",
-      "language": "ko"
-    },
-    {
-      "genus": "Souche",
-      "language": "fr"
-    },
-    {
-      "genus": "Baumstumpf",
-      "language": "de"
-    },
-    {
-      "genus": "Tocón",
-      "language": "es"
-    },
-    {
-      "genus": "Ceppo",
-      "language": "it"
-    },
-    {
-      "genus": "Stump",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きりかぶ",
+    "en": "Stump",
+    "fr": "Souche",
+    "it": "Ceppo",
+    "de": "Baumstumpf",
+    "es": "Tocón",
+    "ko": "그루터기"
+  },
   "varieties": [
     {
       "is_default": true,

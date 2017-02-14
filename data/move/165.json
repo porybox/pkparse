@@ -2,107 +2,62 @@
   "id": 165,
   "name": "struggle",
   "accuracy": null,
-  "effect_chance": null,
-  "pp": null,
+  "pp": 1,
   "priority": 0,
   "power": 50,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [typeless]{mechanic:typeless} [regular damage]{mechanic:regular-damage}.  User takes 1/4 its max [HP]{mechanic:hp} in recoil.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.\n\nThis move is used automatically when a Pokémon cannot use any other move legally, e.g., due to having no [PP]{mechanic:pp} remaining or being under the effect of both []{move:encore} and []{move:torment} at the same time.\n\nThis move's recoil is not treated as recoil for the purposes of anything that affects recoil, such as the ability []{ability:rock-head}.  It also is not prevented by []{ability:magic-guard}.\n\nThis move cannot be copied by []{move:mimic}, []{move:mirror-move}, or []{move:sketch}, nor selected by []{move:assist} or []{move:metronome}, nor forced by []{move:encore}.",
-      "short_effect": "User takes 1/4 its max HP in recoil.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Inflicts []{type:normal}-type damage.",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "effect_entries": [
-        {
-          "effect": "The user receieves 1/2 of the damage dealt in recoil.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
     "max_turns": null,
     "drain": 0,
-    "healing": -25,
+    "healing": 231,
     "crit_rate": 0,
     "ailment_chance": 0,
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Struggle",
-      "language": "en"
-    },
-    {
-      "name": "Scontro",
-      "language": "it"
-    },
-    {
-      "name": "Combate",
-      "language": "es"
-    },
-    {
-      "name": "Verzweifler",
-      "language": "de"
-    },
-    {
-      "name": "Lutte",
-      "language": "fr"
-    },
-    {
-      "name": "발버둥",
-      "language": "ko"
-    },
-    {
-      "name": "わるあがき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "random-opponent"
+  "names": {
+    "ja": "わるあがき",
+    "kana": "わるあがき",
+    "en": "Struggle",
+    "fr": "Lutte",
+    "it": "Scontro",
+    "de": "Verzweifler",
+    "es": "Forcejeo",
+    "ko": "발버둥",
+    "zh-CN": "挣扎",
+    "zh-TW": "掙扎"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "自分の　ＰＰが　なくなると あがいて　相手を　攻撃する。 自分も　少し　ダメージを　受ける。",
+    "kana": "じぶんの　ＰＰが　なくなると あがいて　あいてを　こうげきする。 じぶんも　すこし　ダメージを　うける。",
+    "en": "This attack is used in desperation only if the user has no PP. It also damages the user a little.",
+    "fr": "Une attaque désespérée, utilisée quand le lanceur n’a plus de PP. Le blesse aussi légèrement.",
+    "it": "Mossa da usare solo in caso estremo, quando non si hanno più PP. Danneggia anche chi la usa.",
+    "de": "Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.",
+    "es": "Solo se usa como último recurso al acabarse los PP. Hiere un poco al agresor.",
+    "ko": "자신의 PP가 떨어지면 발버둥 쳐 상대를 공격한다. 자신도 조금 데미지를 입는다.",
+    "zh-CN": "当自己的ＰＰ耗尽时， 努力挣扎攻击对手。 自己也会受到少许伤害。",
+    "zh-TW": "在自己的ＰＰ耗盡時， 努力掙扎攻擊對手。 自己也會受到少許傷害。"
+  },
+  "stat_changes": [],
+  "target": "random-opponent",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An attack that is used in desperation only if the user has no PP. This also damages the user a little."
+        },
+        "names": {
+          "es": "Combate"
+        }
+      }
+    }
+  ]
 }

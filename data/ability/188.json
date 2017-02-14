@@ -1,112 +1,44 @@
 {
   "id": 188,
   "name": "aura-break",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-vi"
+  "names": {
+    "ja": "オーラブレイク",
+    "kana": "オーラブレイク",
+    "en": "Aura Break",
+    "fr": "Aura Inversée",
+    "it": "Frangiaura",
+    "de": "Aura-Umkehr",
+    "es": "Rompeaura",
+    "ko": "오라브레이크",
+    "zh-CN": "气场破坏",
+    "zh-TW": "氣場破壞"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "オーラの　効果を　逆転させて 威力を　下げる。",
+    "kana": "オーラの　こうかを　ぎゃくてんさせて いりょくを　さげる。",
+    "en": "The effects of “Aura” Abilities are reversed to lower the power of affected moves.",
+    "fr": "Inverse l’effet des auras en baissant leur puissance.",
+    "it": "Inverte gli effetti di tutte le aure riducendone la potenza.",
+    "de": "Kehrt die Wirkung von Auren um und senkt so die Stärke bestimmter Attacken, anstatt sie zu erhöhen.",
+    "es": "Invierte los efectos de las auras, por lo que baja la potencia de ciertos movimientos en vez de subirla.",
+    "ko": "오라의 효과를 역전시켜 위력을 떨어뜨린다.",
+    "zh-CN": "让气场的效果发生逆转， 降低威力。",
+    "zh-TW": "讓氣場的效果逆轉， 並降低威力。"
+  },
+  "past_values": [
     {
-      "name": "Aura Break",
-      "language": "en"
-    },
-    {
-      "name": "Frangiaura",
-      "language": "it"
-    },
-    {
-      "name": "Rompeaura",
-      "language": "es"
-    },
-    {
-      "name": "Aura-Umkehr",
-      "language": "de"
-    },
-    {
-      "name": "Aura Inversée",
-      "language": "fr"
-    },
-    {
-      "name": "오라브레이크",
-      "language": "ko"
-    },
-    {
-      "name": "オーラブレイク",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "While this Pokémon is on the field, []{ability:dark-aura} and []{ability:fairy-aura} weaken moves of their respective types to 2/3 their power, rather than strengthening them.",
-      "short_effect": "Makes []{ability:dark-aura} and []{ability:fairy-aura} weaken moves of their respective types.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "オーラの　効果が\n逆に　なる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "The effects of “Aura” Abilities\nare reversed.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Inverte gli effetti di tutte\nle aure.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Invierte los efectos que causan\nlas auras.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Kehrt die Wirkung von Auren um.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "L’effet des auras est inversé.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "오라의 효과가\n반대가 된다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "オーラの　こうかが\nぎゃくに　なる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "zygarde"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "オーラの　効果が 逆に　なる。",
+          "kana": "オーラの　こうかが ぎゃくに　なる。",
+          "en": "The effects of “Aura” Abilities are reversed.",
+          "fr": "L’effet des auras est inversé.",
+          "it": "Inverte gli effetti di tutte le aure.",
+          "de": "Kehrt die Wirkung von Auren um.",
+          "es": "Invierte los efectos que causan las auras.",
+          "ko": "오라의 효과가 반대가 된다."
+        }
       }
     }
   ]

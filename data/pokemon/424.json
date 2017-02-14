@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 124,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "upright"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "エテボース",
-      "language": "ja"
-    },
-    {
-      "name": "Eteboth",
-      "language": "roomaji"
-    },
-    {
-      "name": "겟핸보숭",
-      "language": "ko"
-    },
-    {
-      "name": "雙尾怪手",
-      "language": "zh"
-    },
-    {
-      "name": "Capidextre",
-      "language": "fr"
-    },
-    {
-      "name": "Ambidiffel",
-      "language": "de"
-    },
-    {
-      "name": "Ambipom",
-      "language": "es"
-    },
-    {
-      "name": "Ambipom",
-      "language": "it"
-    },
-    {
-      "name": "Ambipom",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エテボース",
+    "en": "Ambipom",
+    "fr": "Capidextre",
+    "it": "Ambipom",
+    "de": "Ambidiffel",
+    "es": "Ambipom",
+    "ko": "겟핸보숭"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おなが",
-      "language": "ja"
-    },
-    {
-      "genus": "긴꼬리",
-      "language": "ko"
-    },
-    {
-      "genus": "Longqueue",
-      "language": "fr"
-    },
-    {
-      "genus": "Langschweif",
-      "language": "de"
-    },
-    {
-      "genus": "Cola Larga",
-      "language": "es"
-    },
-    {
-      "genus": "Lungacoda",
-      "language": "it"
-    },
-    {
-      "genus": "Long Tail",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おなが",
+    "en": "Long Tail",
+    "fr": "Longqueue",
+    "it": "Lungacoda",
+    "de": "Langschweif",
+    "es": "Cola Larga",
+    "ko": "긴꼬리"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 80,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "クレベース",
-      "language": "ja"
-    },
-    {
-      "name": "크레베이스",
-      "language": "ko"
-    },
-    {
-      "name": "Séracrawl",
-      "language": "fr"
-    },
-    {
-      "name": "Arktilas",
-      "language": "de"
-    },
-    {
-      "name": "Avalugg",
-      "language": "es"
-    },
-    {
-      "name": "Avalugg",
-      "language": "it"
-    },
-    {
-      "name": "Avalugg",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クレベース",
+    "en": "Avalugg",
+    "fr": "Séracrawl",
+    "it": "Avalugg",
+    "de": "Arktilas",
+    "es": "Avalugg",
+    "ko": "크레베이스"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひょうざん",
-      "language": "ja"
-    },
-    {
-      "genus": "빙산",
-      "language": "ko"
-    },
-    {
-      "genus": "Iceberg",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisberg",
-      "language": "de"
-    },
-    {
-      "genus": "Iceberg",
-      "language": "es"
-    },
-    {
-      "genus": "Iceberg",
-      "language": "it"
-    },
-    {
-      "genus": "Iceberg",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひょうざん",
+    "en": "Iceberg",
+    "fr": "Iceberg",
+    "it": "Iceberg",
+    "de": "Eisberg",
+    "es": "Iceberg",
+    "ko": "빙산"
+  },
   "varieties": [
     {
       "is_default": true,

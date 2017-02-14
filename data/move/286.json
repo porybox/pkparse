@@ -2,36 +2,13 @@
   "id": 286,
   "name": "imprison",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Prevents any Pokémon on the opposing side of the [field]{mechanic:field} from using any move the user knows until the user leaves the [field]{mechanic:field}.  This effect is live; if the user obtains new moves while on the [field]{mechanic:field}, these moves become restricted.  If no opposing Pokémon knows any of the user's moves when this move is used, this move will [fail]{mechanic:fail}.",
-      "short_effect": "Prevents the target from using any moves that the user also knows.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Imprison",
-      "language": "en"
-    },
-    {
-      "name": "Esclusiva",
-      "language": "it"
-    },
-    {
-      "name": "Cerca",
-      "language": "es"
-    },
-    {
-      "name": "Begrenzer",
-      "language": "de"
-    },
-    {
-      "name": "Possessif",
-      "language": "fr"
-    },
-    {
-      "name": "봉인",
-      "language": "ko"
-    },
-    {
-      "name": "ふういん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "ふういん",
+    "kana": "ふういん",
+    "en": "Imprison",
+    "fr": "Possessif",
+    "it": "Esclusiva",
+    "de": "Begrenzer",
+    "es": "Cerca",
+    "ko": "봉인",
+    "zh-CN": "封印",
+    "zh-TW": "封印"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "相手が　自分と　同じ　技を おぼえていたら　相手だけ その技を　使えなくする。",
+    "kana": "あいてが　じぶんと　おなじ　わざを おぼえていたら　あいてだけ そのわざを　つかえなく　する。",
+    "en": "If opposing Pokémon know any move also known by the user, they are prevented from using it.",
+    "fr": "Si l’ennemi et le lanceur ont des capacités en commun, l’ennemi ne pourra pas les utiliser.",
+    "it": "Chi la usa impedisce al nemico di usare mosse che conoscono entrambi.",
+    "de": "Hindert Gegner am Einsatz von Attacken, die der Anwender selbst auch kennt.",
+    "es": "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.",
+    "ko": "상대가 자신과 같은 기술을 기억하고 있으면 상대만 그 기술을 사용할 수 없게 한다.",
+    "zh-CN": "如果对手有和自己相同的招式， 那么只有对手无法使用该招式。",
+    "zh-TW": "如果對手也學會了和自己 相同的招式，則對手將 不能使用該招式。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "psychic"
 }

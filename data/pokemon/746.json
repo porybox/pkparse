@@ -1,0 +1,44 @@
+{
+  "id": 746,
+  "name": "wishiwashi",
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "water2"
+  ],
+  "color": "blue",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ヨワシ",
+    "en": "Wishiwashi",
+    "fr": "Froussardine",
+    "it": "Wishiwashi",
+    "de": "Lusardin",
+    "es": "Wishiwashi",
+    "ko": "약어리"
+  },
+  "genera": {
+    "ja": "こざかな",
+    "en": "Small Fry",
+    "fr": "Minipoisson",
+    "it": "Pesciolino",
+    "de": "Kleinfisch",
+    "es": "Pececillo",
+    "ko": "잔물고기"
+  },
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 20,
+    "defense": 20,
+    "special-attack": 25,
+    "special-defense": 25,
+    "speed": 40
+  }
+}

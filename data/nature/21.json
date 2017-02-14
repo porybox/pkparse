@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "おとなしい",
-      "language": "ja"
-    },
-    {
-      "name": "얌전",
-      "language": "ko"
-    },
-    {
-      "name": "Gentil",
-      "language": "fr"
-    },
-    {
-      "name": "Zart",
-      "language": "de"
-    },
-    {
-      "name": "Amable",
-      "language": "es"
-    },
-    {
-      "name": "Gentile",
-      "language": "it"
-    },
-    {
-      "name": "Gentle",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "おとなしい",
+    "en": "Gentle",
+    "fr": "Gentil",
+    "it": "Gentile",
+    "de": "Zart",
+    "es": "Amable",
+    "ko": "얌전",
+    "zh-CN": "温顺",
+    "zh-TW": "溫順"
+  }
 }

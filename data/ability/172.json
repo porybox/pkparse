@@ -1,161 +1,52 @@
 {
   "id": 172,
   "name": "competitive",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-vi"
+  "names": {
+    "ja": "かちき",
+    "kana": "かちき",
+    "en": "Competitive",
+    "fr": "Battant",
+    "it": "Tenacia",
+    "de": "Unbeugsamkeit",
+    "es": "Tenacidad",
+    "ko": "승기",
+    "zh-CN": "好胜",
+    "zh-TW": "好勝"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "能力を　下げられると 特攻が　ぐーんと　上がる。",
+    "kana": "のうりょくを　さげられると とくこうが　ぐーんと　あがる。",
+    "en": "Boosts the Sp. Atk stat sharply when a stat is lowered.",
+    "fr": "Augmente beaucoup l’Attaque Spéciale du Pokémon quand ses stats baissent.",
+    "it": "L’Attacco Speciale aumenta di molto quando le statistiche diminuiscono a causa di un nemico.",
+    "de": "Erhöht den Spezial-Angriff stark, wenn ein Statuswert gesenkt wurde.",
+    "es": "Aumenta mucho su Ataque Especial cuando el rival le baja cualquiera de sus características.",
+    "ko": "능력이 떨어지면 특수공격이 크게 올라간다.",
+    "zh-CN": "如果能力被降低， 特攻就会大幅提高。",
+    "zh-TW": "能力被降低時， 特攻會大幅提高。"
+  },
+  "past_values": [
     {
-      "name": "Competitive",
-      "language": "en"
-    },
-    {
-      "name": "Tenacia",
-      "language": "it"
-    },
-    {
-      "name": "Tenacidad",
-      "language": "es"
-    },
-    {
-      "name": "Unbeugsamkeit",
-      "language": "de"
-    },
-    {
-      "name": "Battant",
-      "language": "fr"
-    },
-    {
-      "name": "승기",
-      "language": "ko"
-    },
-    {
-      "name": "かちき",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Raises Special Attack by two stages upon having any stat lowered.",
-      "short_effect": "Raises Special Attack by two stages upon having any stat lowered.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "能力が　さがると\n特攻が　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Boosts the Sp. Atk stat when\na stat is lowered.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "L’Attacco aumenta quando un\nnemico fa calare le statistiche.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Aumenta su At. Esp. cuando\ndisminuyen otras características.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Erhöht den Spezial-Angriff, wenn\nein Statuswert gesenkt wurde.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Monte l’Attaque quand une stat\nest baissée par l’adversaire.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "능력이 떨어지면\n특수공격이 올라간다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "のうりょくが　さがると\nとくこうが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "jigglypuff"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "能力が　さがると 特攻が　あがる。",
+          "kana": "のうりょくが　さがると とくこうが　あがる。",
+          "en": "Boosts the Sp. Atk stat when a stat is lowered.",
+          "fr": "Monte l’Attaque quand les stats baissent.",
+          "it": "L’Attacco aumenta quando un nemico fa calare le statistiche.",
+          "de": "Erhöht den Spezial-Angriff, wenn ein Statuswert gesenkt wurde.",
+          "es": "Aumenta su At. Esp. cuando disminuyen otras características.",
+          "ko": "능력이 떨어지면 특수공격이 올라간다."
+        }
       }
     },
     {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "wigglytuff"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "igglybuff"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "milotic"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "gothita"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "gothorita"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "gothitelle"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "meowstic-female"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Monte l’Attaque quand une stat est baissée par l’adversaire."
+        }
       }
     }
   ]

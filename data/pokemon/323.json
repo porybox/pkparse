@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 205,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "quadruped"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "バクーダ",
-      "language": "ja"
-    },
-    {
-      "name": "Bakuuda",
-      "language": "roomaji"
-    },
-    {
-      "name": "폭타",
-      "language": "ko"
-    },
-    {
-      "name": "噴火駝",
-      "language": "zh"
-    },
-    {
-      "name": "Camérupt",
-      "language": "fr"
-    },
-    {
-      "name": "Camerupt",
-      "language": "de"
-    },
-    {
-      "name": "Camerupt",
-      "language": "es"
-    },
-    {
-      "name": "Camerupt",
-      "language": "it"
-    },
-    {
-      "name": "Camerupt",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バクーダ",
+    "en": "Camerupt",
+    "fr": "Camérupt",
+    "it": "Camerupt",
+    "de": "Camerupt",
+    "es": "Camerupt",
+    "ko": "폭타"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふんか",
-      "language": "ja"
-    },
-    {
-      "genus": "분화",
-      "language": "ko"
-    },
-    {
-      "genus": "Éruption",
-      "language": "fr"
-    },
-    {
-      "genus": "Ausbruch",
-      "language": "de"
-    },
-    {
-      "genus": "Erupción",
-      "language": "es"
-    },
-    {
-      "genus": "Eruzione",
-      "language": "it"
-    },
-    {
-      "genus": "Eruption",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふんか",
+    "en": "Eruption",
+    "fr": "Éruption",
+    "it": "Eruzione",
+    "de": "Ausbruch",
+    "es": "Erupción",
+    "ko": "분화"
+  },
   "varieties": [
     {
       "is_default": true,

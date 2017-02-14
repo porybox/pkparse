@@ -1,0 +1,38 @@
+{
+  "id": 206,
+  "name": "lansat-berry",
+  "names": {
+    "ja": "サンのみ",
+    "kana": "サンのみ",
+    "en": "Lansat Berry",
+    "fr": "Baie Lansat",
+    "it": "Baccalangsa",
+    "de": "Lansatbeere",
+    "es": "Baya Zonlan",
+    "ko": "랑사열매",
+    "zh-CN": "兰萨果",
+    "zh-TW": "蘭薩果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると ピンチのとき　攻撃が 急所に　当たりやすくなる。",
+    "kana": "ポケモンに　もたせると ピンチのとき　こうげきが きゅうしょに　あたりやすくなる。",
+    "en": "A Berry to be consumed by Pokémon. If a Pokémon holds one, its critical-hit ratio will increase when it’s in a pinch.",
+    "fr": "Tenue, cette Baie augmente le taux de critique en cas de besoin.",
+    "it": "Se il Pokémon che ha questa bacca si trova in difficoltà, la probabilità di sferrare brutti colpi aumenta.",
+    "de": "Als getragenes Item erhöht diese Beere die Volltrefferquote eines Pokémon, sobald es in einer Notlage steckt.",
+    "es": "Si la lleva un Pokémon, aumenta la probabilidad de dar un golpe crítico en un momento de apuro.",
+    "ko": "포켓몬에게 지니게 하면 위급할 때 공격이 급소를 맞히기 쉬워진다.",
+    "zh-CN": "让宝可梦携带后，危机时， 攻击会变得容易击中要害。",
+    "zh-TW": "讓寶可夢攜帶後， 危機時，攻擊會變得 容易擊中要害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Tenue, cette Baie augmente le taux de critiques en cas de besoin."
+        }
+      }
+    }
+  ]
+}

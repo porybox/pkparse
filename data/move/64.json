@@ -2,52 +2,13 @@
   "id": 64,
   "name": "peck",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 35,
   "priority": 0,
   "power": 35,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "fury-attack"
-        },
-        {
-          "name": "drill-peck"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Peck",
-      "language": "en"
-    },
-    {
-      "name": "Beccata",
-      "language": "it"
-    },
-    {
-      "name": "Picotazo",
-      "language": "es"
-    },
-    {
-      "name": "Schnabel",
-      "language": "de"
-    },
-    {
-      "name": "Picpic",
-      "language": "fr"
-    },
-    {
-      "name": "쪼기",
-      "language": "ko"
-    },
-    {
-      "name": "つつく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "つつく",
+    "kana": "つつく",
+    "en": "Peck",
+    "fr": "Picpic",
+    "it": "Beccata",
+    "de": "Schnabel",
+    "es": "Picotazo",
+    "ko": "쪼기",
+    "zh-CN": "啄",
+    "zh-TW": "啄"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "鋭く　とがった　くちばしや　つので 相手を　突いて　攻撃する。",
+    "kana": "するどく　とがった　くちばしや　つので あいてを　つついて　こうげきする。",
+    "en": "The target is jabbed with a sharply pointed beak or horn.",
+    "fr": "Frappe l’ennemi d’un bec pointu ou d’une corne pour infliger des dégâts.",
+    "it": "Colpisce il bersaglio con il becco appuntito o con un corno.",
+    "de": "Greift das Ziel mit dem Schnabel oder Horn an.",
+    "es": "Ensarta al objetivo con un cuerno o pico punzante.",
+    "ko": "날카롭고 뾰족한 부리나 뿔로 상대를 쪼아서 공격한다.",
+    "zh-CN": "用尖锐的喙或角 刺向对手进行攻击。",
+    "zh-TW": "用尖銳的喙或角 刺向對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying"
 }

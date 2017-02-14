@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 88,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -68,44 +60,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "カメックス",
-      "language": "ja"
-    },
-    {
-      "name": "Kamex",
-      "language": "roomaji"
-    },
-    {
-      "name": "거북왕",
-      "language": "ko"
-    },
-    {
-      "name": "水箭龜",
-      "language": "zh"
-    },
-    {
-      "name": "Tortank",
-      "language": "fr"
-    },
-    {
-      "name": "Turtok",
-      "language": "de"
-    },
-    {
-      "name": "Blastoise",
-      "language": "es"
-    },
-    {
-      "name": "Blastoise",
-      "language": "it"
-    },
-    {
-      "name": "Blastoise",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カメックス",
+    "en": "Blastoise",
+    "fr": "Tortank",
+    "it": "Blastoise",
+    "de": "Turtok",
+    "es": "Blastoise",
+    "ko": "거북왕"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -116,36 +79,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こうら",
-      "language": "ja"
-    },
-    {
-      "genus": "껍질",
-      "language": "ko"
-    },
-    {
-      "genus": "Carapace",
-      "language": "fr"
-    },
-    {
-      "genus": "Panzertier",
-      "language": "de"
-    },
-    {
-      "genus": "Marisco",
-      "language": "es"
-    },
-    {
-      "genus": "Crostaceo",
-      "language": "it"
-    },
-    {
-      "genus": "Shellfish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こうら",
+    "en": "Shellfish",
+    "fr": "Carapace",
+    "it": "Crostaceo",
+    "de": "Panzertier",
+    "es": "Marisco",
+    "ko": "껍질"
+  },
   "varieties": [
     {
       "is_default": true,

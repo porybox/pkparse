@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "ずぶとい",
-      "language": "ja"
-    },
-    {
-      "name": "대담",
-      "language": "ko"
-    },
-    {
-      "name": "Assuré",
-      "language": "fr"
-    },
-    {
-      "name": "Kühn",
-      "language": "de"
-    },
-    {
-      "name": "Osado",
-      "language": "es"
-    },
-    {
-      "name": "Sicura",
-      "language": "it"
-    },
-    {
-      "name": "Bold",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "ずぶとい",
+    "en": "Bold",
+    "fr": "Assuré",
+    "it": "Sicura",
+    "de": "Kühn",
+    "es": "Osada",
+    "ko": "대담",
+    "zh-CN": "大胆",
+    "zh-TW": "大膽"
+  }
 }

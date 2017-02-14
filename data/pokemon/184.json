@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 43,
@@ -63,16 +61,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "fairy"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -86,44 +78,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "マリルリ",
-      "language": "ja"
-    },
-    {
-      "name": "Marilli",
-      "language": "roomaji"
-    },
-    {
-      "name": "마릴리",
-      "language": "ko"
-    },
-    {
-      "name": "瑪力露麗",
-      "language": "zh"
-    },
-    {
-      "name": "Azumarill",
-      "language": "fr"
-    },
-    {
-      "name": "Azumarill",
-      "language": "de"
-    },
-    {
-      "name": "Azumarill",
-      "language": "es"
-    },
-    {
-      "name": "Azumarill",
-      "language": "it"
-    },
-    {
-      "name": "Azumarill",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マリルリ",
+    "en": "Azumarill",
+    "fr": "Azumarill",
+    "it": "Azumarill",
+    "de": "Azumarill",
+    "es": "Azumarill",
+    "ko": "마릴리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -134,36 +97,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みずうさぎ",
-      "language": "ja"
-    },
-    {
-      "genus": "물토끼",
-      "language": "ko"
-    },
-    {
-      "genus": "Aqualapin",
-      "language": "fr"
-    },
-    {
-      "genus": "Aquahase",
-      "language": "de"
-    },
-    {
-      "genus": "Conejo Agua",
-      "language": "es"
-    },
-    {
-      "genus": "Acquniglio",
-      "language": "it"
-    },
-    {
-      "genus": "Aqua Rabbit",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みずうさぎ",
+    "en": "Aqua Rabbit",
+    "fr": "Aqualapin",
+    "it": "Acquniglio",
+    "de": "Aquahase",
+    "es": "Conejo Agua",
+    "ko": "물토끼"
+  },
   "varieties": [
     {
       "is_default": true,

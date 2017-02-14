@@ -1,0 +1,45 @@
+{
+  "id": 786,
+  "name": "tapulele",
+  "gender_rate": -1,
+  "capture_rate": 3,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "pink",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "カプ・テテフ",
+    "en": "Tapu Lele",
+    "fr": "Tokopiyon",
+    "it": "Tapu Lele",
+    "de": "Kapu-Fala",
+    "es": "Tapu Lele",
+    "ko": "카푸나비나"
+  },
+  "genera": {
+    "ja": "とちがみ",
+    "en": "Land Spirit",
+    "fr": "Tutélaire",
+    "it": "Nume Locale",
+    "de": "Schutzpatron",
+    "es": "Dios Nativo",
+    "ko": "토속신"
+  },
+  "types": [
+    "psychic",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 85,
+    "defense": 75,
+    "special-attack": 130,
+    "special-defense": 115,
+    "speed": 95
+  }
+}

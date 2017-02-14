@@ -2,49 +2,13 @@
   "id": 126,
   "name": "fire-blast",
   "accuracy": 85,
-  "effect_chance": 10,
   "pp": 5,
   "priority": 0,
   "power": 110,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sunny-day"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "short_effect": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "burn",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,55 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Fire Blast",
-      "language": "en"
-    },
-    {
-      "name": "Fuocobomba",
-      "language": "it"
-    },
-    {
-      "name": "Llamarada",
-      "language": "es"
-    },
-    {
-      "name": "Feuersturm",
-      "language": "de"
-    },
-    {
-      "name": "Déflagration",
-      "language": "fr"
-    },
-    {
-      "name": "불대문자",
-      "language": "ko"
-    },
-    {
-      "name": "だいもんじ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": null,
-      "effect_chance": 30,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "gold-silver"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "だいもんじ",
+    "kana": "だいもんじ",
+    "en": "Fire Blast",
+    "fr": "Déflagration",
+    "it": "Fuocobomba",
+    "de": "Feuersturm",
+    "es": "Llamarada",
+    "ko": "불대문자",
+    "zh-CN": "大字爆炎",
+    "zh-TW": "大字爆炎"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "大の字の　炎で 相手を　焼きつくす。 やけど状態に　することが　ある。",
+    "kana": "だいのじの　ほのおで あいてを　やきつくす。 やけど　じょうたいに　することが　ある。",
+    "en": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+    "fr": "Un déluge de flammes ardentes submerge l’ennemi. Peut aussi le brûler.",
+    "it": "Investe il bersaglio con un’intensa fiammata che fa terra bruciata. Può anche scottarlo.",
+    "de": "Feuersbrunst, die das Ziel versengt und ihm eventuell eine Verbrennung zufügt.",
+    "es": "Llama intensa que chamusca y puede causar quemaduras.",
+    "ko": "큰 대자의 불꽃으로 상대를 불태운다. 화상 상태로 만들 때가 있다.",
+    "zh-CN": "用大字形状的火焰烧尽对手。 有时会让对手陷入灼伤状态。",
+    "zh-TW": "用大字形狀的火焰燒盡對手。 有時會讓對手陷入灼傷狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire"
 }

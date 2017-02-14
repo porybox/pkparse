@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 66,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "humanoid"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "サーナイト",
-      "language": "ja"
-    },
-    {
-      "name": "Sirnight",
-      "language": "roomaji"
-    },
-    {
-      "name": "가디안",
-      "language": "ko"
-    },
-    {
-      "name": "沙奈朵",
-      "language": "zh"
-    },
-    {
-      "name": "Gardevoir",
-      "language": "fr"
-    },
-    {
-      "name": "Guardevoir",
-      "language": "de"
-    },
-    {
-      "name": "Gardevoir",
-      "language": "es"
-    },
-    {
-      "name": "Gardevoir",
-      "language": "it"
-    },
-    {
-      "name": "Gardevoir",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "サーナイト",
+    "en": "Gardevoir",
+    "fr": "Gardevoir",
+    "it": "Gardevoir",
+    "de": "Guardevoir",
+    "es": "Gardevoir",
+    "ko": "가디안"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほうよう",
-      "language": "ja"
-    },
-    {
-      "genus": "포용",
-      "language": "ko"
-    },
-    {
-      "genus": "Étreinte",
-      "language": "fr"
-    },
-    {
-      "genus": "Umarmung",
-      "language": "de"
-    },
-    {
-      "genus": "Envolvente",
-      "language": "es"
-    },
-    {
-      "genus": "Abbraccio",
-      "language": "it"
-    },
-    {
-      "genus": "Embrace",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほうよう",
+    "en": "Embrace",
+    "fr": "Étreinte",
+    "it": "Abbraccio",
+    "de": "Umarmung",
+    "es": "Envolvente",
+    "ko": "포용"
+  },
   "varieties": [
     {
       "is_default": true,

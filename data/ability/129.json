@@ -1,140 +1,44 @@
 {
   "id": 129,
   "name": "defeatist",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "よわき",
+    "kana": "よわき",
+    "en": "Defeatist",
+    "fr": "Défaitiste",
+    "it": "Sconforto",
+    "de": "Schwächling",
+    "es": "Flaqueza",
+    "ko": "무기력",
+    "zh-CN": "软弱",
+    "zh-TW": "軟弱"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "ＨＰが　半分に　なると 弱気に　なって　攻撃と 特攻が　半減する。",
+    "kana": "ＨＰが　はんぶんに　なると よわきに　なって　こうげきと とくこうが　はんげんする。",
+    "en": "Halves the Pokémon’s Attack and Sp. Atk stats when its HP becomes half or less.",
+    "fr": "Le Pokémon devient défaitiste quand ses PV tombent à la moitié, et son Attaque et son Attaque Spéciale sont divisées par deux.",
+    "it": "Quando i PS scendono a metà o meno, il Pokémon si scoraggia e l’Attacco e l’Attacco Speciale vengono dimezzati.",
+    "de": "Fallen seine KP auf die Hälfte des Maximalwerts oder weniger, bekommt es Angst. Dadurch wird die Stärke seines Angriffs und Spezial-Angriffs halbiert.",
+    "es": "Se debilita tanto cuando sus PS se ven reducidos a la mitad que su Ataque y su Ataque Especial bajan.",
+    "ko": "HP가 절반이 되면 무기력해져서 공격과 특수공격이 반감된다.",
+    "zh-CN": "ＨＰ减半时， 会变得软弱， 攻击和特攻会减半。",
+    "zh-TW": "ＨＰ降到一半以下時， 會變得軟弱而使得 攻擊和特攻減半。"
+  },
+  "past_values": [
     {
-      "name": "Defeatist",
-      "language": "en"
-    },
-    {
-      "name": "Sconforto",
-      "language": "it"
-    },
-    {
-      "name": "Flaqueza",
-      "language": "es"
-    },
-    {
-      "name": "Schwächling",
-      "language": "de"
-    },
-    {
-      "name": "Défaitiste",
-      "language": "fr"
-    },
-    {
-      "name": "무기력",
-      "language": "ko"
-    },
-    {
-      "name": "よわき",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon's [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} are halved when it has half its [HP]{mechanic:hp} or less.",
-      "short_effect": "Halves [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} at 50% max [HP]{mechanic:hp} or less.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "ＨＰが　半分になると\n能力が　さがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Lowers stats when HP\nbecomes half or less.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Le statistiche scendono se i PS\ncalano a metà o meno.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Baja las características al llegar a\nla mitad los PS.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Bei halbierter KP-Anzahl\nsinken die Statuswerte.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Baisse les stats quand les PV\ntombent à la moitié.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "HP가 절반이 되면\n능력이 떨어진다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ＨＰが　はんぶんになると\nのうりょくが　さがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Lowers stats when HP\nbecomes half or less.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Lowers stats when HP\nbecomes half or less.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Baisse les stats quand les\nPV tombent à la moitié.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "archen"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "archeops"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ＨＰが　半分になると 能力が　さがる。",
+          "kana": "ＨＰが　はんぶんになると のうりょくが　さがる。",
+          "en": "Lowers stats when HP becomes half or less.",
+          "fr": "Baisse les stats quand les PV tombent à la moitié.",
+          "it": "Le statistiche scendono se i PS calano a metà o meno.",
+          "de": "Bei halbierter KP-Anzahl sinken die Statuswerte.",
+          "es": "Baja las características al llegar a la mitad los PS.",
+          "ko": "HP가 절반이 되면 능력이 떨어진다."
+        }
       }
     }
   ]

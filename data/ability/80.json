@@ -1,217 +1,44 @@
 {
   "id": 80,
   "name": "steadfast",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "ふくつのこころ",
+    "kana": "ふくつのこころ",
+    "en": "Steadfast",
+    "fr": "Impassible",
+    "it": "Cuordeciso",
+    "de": "Felsenfest",
+    "es": "Impasible",
+    "ko": "불굴의마음",
+    "zh-CN": "不屈之心",
+    "zh-TW": "不屈之心"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "ひるむ　たびに 不屈の心を　燃やして 素早さが　上がる。",
+    "kana": "ひるむ　たびに ふくつのこころを　もやして すばやさが　あがる。",
+    "en": "The Pokémon’s determination boosts the Speed stat each time the Pokémon flinches.",
+    "fr": "Augmente la Vitesse du Pokémon quand il a peur.",
+    "it": "Se il Pokémon tentenna, il suo animo indomito si risveglia e la sua Velocità aumenta.",
+    "de": "Sein eiserner Wille erhöht die Initiative, wann immer das Pokémon zurückschreckt.",
+    "es": "Cada vez que retrocede sube su Velocidad, debido a su voluntad inquebrantable.",
+    "ko": "풀죽을 때마다 불굴의 마음을 불태워 스피드가 올라간다.",
+    "zh-CN": "每次畏缩时， 不屈之心就会燃起， 速度也会提高。",
+    "zh-TW": "每次畏縮時， 不屈之心就會燃起， 速度也會提高。"
+  },
+  "past_values": [
     {
-      "name": "Steadfast",
-      "language": "en"
-    },
-    {
-      "name": "Cuordeciso",
-      "language": "it"
-    },
-    {
-      "name": "Impasible",
-      "language": "es"
-    },
-    {
-      "name": "Felsenfest",
-      "language": "de"
-    },
-    {
-      "name": "Impassible",
-      "language": "fr"
-    },
-    {
-      "name": "불굴의마음",
-      "language": "ko"
-    },
-    {
-      "name": "ふくつのこころ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Whenever this Pokémon [flinches]{mechanic:flinching}, its [Speed]{mechanic:speed} rises one [stage]{mechanic:stat-modifier}.",
-      "short_effect": "Raises [Speed]{mechanic:speed} one [stage]{mechanic:stat-modifier} upon [flinching]{mechanic:flinching}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "ひるむ　たびに\n素早さが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Boosts the Speed stat each time\nthe Pokémon flinches.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Aumenta la Velocità se\nil Pokémon tentenna.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Cada vez que retrocede sube su\nVelocidad.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Erhöht die Initiative, sobald\ndas Pokémon zurückschreckt.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Augmente la Vitesse quand le\nPokémon a peur.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "풀죽을 때마다\n스피드가 올라간다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ひるむ　たびに\nすばやさが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Raises Speed each time\nthe Pokémon flinches.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises Speed each time\nthe Pokémon flinches.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Augmente la Vitesse quand\nle Pokémon a peur.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Raises Speed each time\nthe Pokémon flinches.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises Speed each time\nthe Pokémon flinches.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises Speed each time\nthe Pokémon flinches.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "machop"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "machoke"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "machamp"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "scyther"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "tyrogue"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "hitmontop"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "riolu"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "lucario"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gallade"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "mewtwo-mega-x"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ひるむ　たびに 素早さが　あがる。",
+          "kana": "ひるむ　たびに すばやさが　あがる。",
+          "en": "Boosts the Speed stat each time the Pokémon flinches.",
+          "fr": "Augmente la Vitesse quand le Pokémon a peur.",
+          "it": "Aumenta la Velocità se il Pokémon tentenna.",
+          "de": "Erhöht die Initiative, sobald das Pokémon zurückschreckt.",
+          "es": "Cada vez que retrocede sube su Velocidad.",
+          "ko": "풀죽을 때마다 스피드가 올라간다."
+        }
       }
     }
   ]

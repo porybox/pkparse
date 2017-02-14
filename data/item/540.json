@@ -1,0 +1,39 @@
+{
+  "id": 540,
+  "name": "rocky-helmet",
+  "names": {
+    "ja": "ゴツゴツメット",
+    "kana": "ゴツゴツメット",
+    "en": "Rocky Helmet",
+    "fr": "Casque Brut",
+    "it": "Bitorzolelmo",
+    "de": "Beulenhelm",
+    "es": "Casco Dentado",
+    "ko": "울퉁불퉁멧",
+    "zh-CN": "凸凸头盔",
+    "zh-TW": "凸凸頭盔"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると 打撃技を　受けたとき 相手にも　ダメージを　与える。",
+    "kana": "ポケモンに　もたせると だげきわざを　うけたとき あいてにも　ダメージを　あたえる。",
+    "en": "An item to be held by a Pokémon. If the holder is hit, the attacker will also be damaged upon contact.",
+    "fr": "Tenu, cet objet inflige des dégâts à l’attaquant si ce dernier utilise une capacité physique qui atteint sa cible.",
+    "it": "Se il Pokémon che ha questo strumento è colpito da una mossa fisica, anche il nemico subisce dei danni.",
+    "de": "Wird der Träger von einer physischen Attacke getroffen, erleidet der Angreifer ebenfalls Schaden.",
+    "es": "Si el portador es alcanzado por un movimiento de contacto, el agresor también recibe daño.",
+    "ko": "포켓몬에게 지니게 하면 타격 기술을 당했을 때 상대에게도 데미지를 준다.",
+    "zh-CN": "让宝可梦携带后， 在受到打击招式攻击时， 能给予对手伤害。",
+    "zh-TW": "讓寶可夢攜帶後， 在受到打擊招式攻擊時， 也能給予對手傷害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Tenu, cet objet inflige des dégâts à l’attaquant si ce dernier utilise une attaque physique qui atteint son but.",
+          "es": "Si el portador es alcanzado por un ataque físico, el agresor también recibe daño."
+        }
+      }
+    }
+  ]
+}

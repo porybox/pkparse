@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 71,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "bug"
-    }
+    "bug",
+    "plant"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "armor"
   },
@@ -62,44 +54,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "パラセクト",
-      "language": "ja"
-    },
-    {
-      "name": "Parasect",
-      "language": "roomaji"
-    },
-    {
-      "name": "파라섹트",
-      "language": "ko"
-    },
-    {
-      "name": "派拉斯特",
-      "language": "zh"
-    },
-    {
-      "name": "Parasect",
-      "language": "fr"
-    },
-    {
-      "name": "Parasek",
-      "language": "de"
-    },
-    {
-      "name": "Parasect",
-      "language": "es"
-    },
-    {
-      "name": "Parasect",
-      "language": "it"
-    },
-    {
-      "name": "Parasect",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "パラセクト",
+    "en": "Parasect",
+    "fr": "Parasect",
+    "it": "Parasect",
+    "de": "Parasek",
+    "es": "Parasect",
+    "ko": "파라섹트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -110,36 +73,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きのこ",
-      "language": "ja"
-    },
-    {
-      "genus": "버섯",
-      "language": "ko"
-    },
-    {
-      "genus": "Champignon",
-      "language": "fr"
-    },
-    {
-      "genus": "Pilz",
-      "language": "de"
-    },
-    {
-      "genus": "Hongo",
-      "language": "es"
-    },
-    {
-      "genus": "Fungo",
-      "language": "it"
-    },
-    {
-      "genus": "Mushroom",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きのこ",
+    "en": "Mushroom",
+    "fr": "Champignon",
+    "it": "Fungo",
+    "de": "Pilz",
+    "es": "Hongo",
+    "ko": "버섯"
+  },
   "varieties": [
     {
       "is_default": true,

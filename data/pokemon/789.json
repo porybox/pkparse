@@ -1,0 +1,44 @@
+{
+  "id": 789,
+  "name": "cosmog",
+  "gender_rate": -1,
+  "capture_rate": 45,
+  "base_happiness": 0,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "blue",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "コスモッグ",
+    "en": "Cosmog",
+    "fr": "Cosmog",
+    "it": "Cosmog",
+    "de": "Cosmog",
+    "es": "Cosmog",
+    "ko": "코스모그"
+  },
+  "genera": {
+    "ja": "せいうん",
+    "en": "Nebula",
+    "fr": "Nébuleuse",
+    "it": "Nebulosa",
+    "de": "Nebula",
+    "es": "Nebulosa",
+    "ko": "성운"
+  },
+  "types": [
+    "psychic"
+  ],
+  "base_stats": {
+    "hp": 43,
+    "attack": 29,
+    "defense": 31,
+    "special-attack": 29,
+    "special-defense": 31,
+    "speed": 37
+  }
+}

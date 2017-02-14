@@ -1,0 +1,42 @@
+{
+  "id": 384,
+  "name": "tm57",
+  "names": {
+    "ja": "わざマシン５７",
+    "kana": "わざマシン５７",
+    "en": "TM57",
+    "fr": "CT57",
+    "it": "MT57",
+    "de": "TM57",
+    "es": "MT57",
+    "ko": "기술머신57",
+    "zh-CN": "招式学习器５７",
+    "zh-TW": "招式學習器５７"
+  },
+  "flavor_text_entries": {
+    "ja": "電撃の　束を　発射する。 電気を　ためて　自分の　特攻を あげることが　ある。",
+    "kana": "でんげきの　たばを　はっしゃする。 でんきを　ためて　じぶんの　とくこうを あげることが　ある。",
+    "en": "The user attacks with an electric charge. The user may use any remaining electricity to raise its Sp. Atk stat.",
+    "fr": "Le lanceur tire un rayon chargé d’électricité. Peut aussi augmenter son Attaque Spéciale.",
+    "it": "Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il suo Attacco Speciale.",
+    "de": "Greift mit einer elektrischen Entladung an. Der Spezial-Angriff des Anwenders steigt eventuell.",
+    "es": "Quien lo usa ataca con una descarga eléctrica y puede utilizar la electricidad restante para subir su Ataque Especial.",
+    "ko": "전격의 다발을 발사한다. 전기를 모아서 자신의 특수공격을 올릴 때가 있다.",
+    "zh-CN": "向对手发射电击光束。 由于蓄满电流， 有时会提高自己的特攻。",
+    "zh-TW": "向對手發射電擊光束。 有時會因電流蓄積， 提高自己的特攻。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "電撃の　束を　相手に 発射する。電気を　ためて　自分の 特攻を　あげることが　ある。",
+          "kana": "でんげきを　あびせて　こうげきする。 のこった　でんきを　ためて　じぶんの とくこうを　あげることが　ある。",
+          "it": "Chi la usa lancia un fascio di elettricità molto intensa. Può anche aumentare il proprio Attacco Speciale.",
+          "de": "Greift mit einer elektrischen Entladung an. Der Spezial-Angriff des Angreifers steigt eventuell.",
+          "ko": "전격의 다발을 상대에게 발사한다. 전기를 모아서 자신의 특수공격을 올릴 때가 있다."
+        }
+      }
+    }
+  ]
+}

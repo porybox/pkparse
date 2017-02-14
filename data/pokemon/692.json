@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 32,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water3"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "armor"
   },
@@ -46,68 +38,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ウデッポウ",
-      "language": "ja"
-    },
-    {
-      "name": "완철포",
-      "language": "ko"
-    },
-    {
-      "name": "Flingouste",
-      "language": "fr"
-    },
-    {
-      "name": "Scampisto",
-      "language": "de"
-    },
-    {
-      "name": "Clauncher",
-      "language": "es"
-    },
-    {
-      "name": "Clauncher",
-      "language": "it"
-    },
-    {
-      "name": "Clauncher",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ウデッポウ",
+    "en": "Clauncher",
+    "fr": "Flingouste",
+    "it": "Clauncher",
+    "de": "Scampisto",
+    "es": "Clauncher",
+    "ko": "완철포"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みずでっぽう",
-      "language": "ja"
-    },
-    {
-      "genus": "물대포",
-      "language": "ko"
-    },
-    {
-      "genus": "Lance à Eau",
-      "language": "fr"
-    },
-    {
-      "genus": "Aquapistole",
-      "language": "de"
-    },
-    {
-      "genus": "Proyectagua",
-      "language": "es"
-    },
-    {
-      "genus": "Zampillo",
-      "language": "it"
-    },
-    {
-      "genus": "Water Gun",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みずでっぽう",
+    "en": "Water Gun",
+    "fr": "Lance à Eau",
+    "it": "Zampillo",
+    "de": "Aquapistole",
+    "es": "Proyectagua",
+    "ko": "물대포"
+  },
   "varieties": [
     {
       "is_default": true,

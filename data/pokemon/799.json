@@ -1,0 +1,45 @@
+{
+  "id": 799,
+  "name": "guzzlord",
+  "gender_rate": -1,
+  "capture_rate": 15,
+  "base_happiness": 0,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "black",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "アクジキング",
+    "en": "Guzzlord",
+    "fr": "Engloutyran",
+    "it": "Guzzlord",
+    "de": "Schlingking",
+    "es": "Guzzlord",
+    "ko": "악식킹"
+  },
+  "genera": {
+    "ja": "あくじき",
+    "en": "Junkivore",
+    "fr": "Bizarrovore",
+    "it": "Divoratutto",
+    "de": "Gaumenfolter",
+    "es": "Tragaldabas",
+    "ko": "악식성"
+  },
+  "types": [
+    "dark",
+    "dragon"
+  ],
+  "base_stats": {
+    "hp": 223,
+    "attack": 101,
+    "defense": 53,
+    "special-attack": 97,
+    "special-defense": 53,
+    "speed": 43
+  }
+}

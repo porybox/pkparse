@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 72,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "ball"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ビリリダマ",
-      "language": "ja"
-    },
-    {
-      "name": "Biriridama",
-      "language": "roomaji"
-    },
-    {
-      "name": "찌리리공",
-      "language": "ko"
-    },
-    {
-      "name": "雷電球",
-      "language": "zh"
-    },
-    {
-      "name": "Voltorbe",
-      "language": "fr"
-    },
-    {
-      "name": "Voltobal",
-      "language": "de"
-    },
-    {
-      "name": "Voltorb",
-      "language": "es"
-    },
-    {
-      "name": "Voltorb",
-      "language": "it"
-    },
-    {
-      "name": "Voltorb",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ビリリダマ",
+    "en": "Voltorb",
+    "fr": "Voltorbe",
+    "it": "Voltorb",
+    "de": "Voltobal",
+    "es": "Voltorb",
+    "ko": "찌리리공"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ボール",
-      "language": "ja"
-    },
-    {
-      "genus": "볼",
-      "language": "ko"
-    },
-    {
-      "genus": "Balle",
-      "language": "fr"
-    },
-    {
-      "genus": "Ball",
-      "language": "de"
-    },
-    {
-      "genus": "Bola",
-      "language": "es"
-    },
-    {
-      "genus": "Ball",
-      "language": "it"
-    },
-    {
-      "genus": "Ball",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ボール",
+    "en": "Ball",
+    "fr": "Balle",
+    "it": "Ball",
+    "de": "Ball",
+    "es": "Bola",
+    "ko": "볼"
+  },
   "varieties": [
     {
       "is_default": true,

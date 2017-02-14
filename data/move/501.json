@@ -2,34 +2,13 @@
   "id": 501,
   "name": "quick-guard",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 15,
   "priority": 3,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Moves with priority greater than 0 will not hit friendly Pokémon for the remainder of this turn.  If the user is last to act this turn, this move will [fail]{mechanic:fail}.\n\nThis move cannot be selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "Prevents any priority moves from hitting friendly Pokémon this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "field-effect"
-    },
+    "ailment": "none",
+    "category": "field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Quick Guard",
-      "language": "en"
-    },
-    {
-      "name": "Anticipo",
-      "language": "it"
-    },
-    {
-      "name": "Anticipo",
-      "language": "es"
-    },
-    {
-      "name": "Rapidschutz",
-      "language": "de"
-    },
-    {
-      "name": "Prévention",
-      "language": "fr"
-    },
-    {
-      "name": "퍼스트가드",
-      "language": "ko"
-    },
-    {
-      "name": "ファストガード",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "users-field"
+  "names": {
+    "ja": "ファストガード",
+    "kana": "ファストガード",
+    "en": "Quick Guard",
+    "fr": "Prévention",
+    "it": "Anticipo",
+    "de": "Rapidschutz",
+    "es": "Anticipo",
+    "ko": "퍼스트가드",
+    "zh-CN": "快速防守",
+    "zh-TW": "快速防守"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "自分と　味方を　相手の 先制攻撃から　守る。",
+    "kana": "じぶんと　みかたを　あいての せんせい　こうげきから　まもる。",
+    "en": "The user protects itself and its allies from priority moves.",
+    "fr": "Le lanceur et son équipe sont protégés contre les attaques prioritaires.",
+    "it": "Chi la usa protegge sé e gli alleati dalle mosse ad alta priorità.",
+    "de": "Schützt Anwender und Mitstreiter vor Erstschlag-Attacken.",
+    "es": "Protege a todo el equipo de los movimientos que se adelantan y atacan primero.",
+    "ko": "자신과 같은 편을 상대의 선제공격으로부터 지킨다.",
+    "zh-CN": "守护自己和同伴， 以防对手的先制攻击。",
+    "zh-TW": "保護自己和同伴， 防禦來自對手的先制攻擊。"
+  },
+  "stat_changes": [],
+  "target": "users-field",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa protegge sé e gli alleati dalle mosse dei nemici che fanno colpire per primi.",
+          "de": "Schützt Anwender und Mitstreiter vor gegnerischen Erstschlag-Attacken."
+        }
+      }
+    }
+  ]
 }

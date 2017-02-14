@@ -1,0 +1,45 @@
+{
+  "id": 338,
+  "name": "tm11",
+  "names": {
+    "ja": "わざマシン１１",
+    "kana": "わざマシン１１",
+    "en": "TM11",
+    "fr": "CT11",
+    "it": "MT11",
+    "de": "TM11",
+    "es": "MT11",
+    "ko": "기술머신11",
+    "zh-CN": "招式学习器１１",
+    "zh-TW": "招式學習器１１"
+  },
+  "flavor_text_entries": {
+    "ja": "５ターンの　あいだ　日差しを　強めて ほのおタイプの　威力を　あげる。 みずタイプの　威力は　さがる。",
+    "kana": "５ターンの　あいだ　ひざしを　つよめて ほのおタイプの　いりょくを　あげる。 みずタイプの　いりょくは　さがる。",
+    "en": "The user intensifies the sun for five turns, powering up Fire-type moves. This also weakens the power of Water-type moves.",
+    "fr": "Fait briller le soleil pendant cinq tours, augmentant la puissance des capacités de type Feu et baissant celle des capacités de type Eau.",
+    "it": "Chi la usa intensifica i raggi solari per cinque turni, potenziando le mosse di tipo Fuoco e riducendo la potenza di quelle di tipo Acqua.",
+    "de": "Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt und Attacken vom Typ Wasser geschwächt.",
+    "es": "Intensifica el efecto del sol durante cinco turnos, lo que aumenta la potencia de los movimientos de tipo Fuego y disminuye la de los de tipo Agua.",
+    "ko": "5턴 동안 햇살을 강하게 해서 불꽃타입 기술의 위력을 올린다. 물타입의 위력은 떨어진다.",
+    "zh-CN": "在５回合内阳光变得强烈， 从而提高火属性的招式威力。 水属性的招式威力则降低。",
+    "zh-TW": "讓陽光增強，在５回合內 提高火屬性招式的威力。 水屬性招式的威力會降低。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "５ターンの　あいだ　日差しを つよくして　ほのおタイプの 技の　威力を　あげる。",
+          "kana": "５ターンの　あいだ　ひざしを つよくして　ほのおタイプの わざの　いりょくを　あげる。",
+          "en": "The user intensifies the sun for five turns, powering up Fire-type moves.",
+          "fr": "Fait briller le soleil pendant cinq tours, augmentant la puissance des capacités de type Feu.",
+          "it": "Chi la usa intensifica i raggi solari per cinque turni, potenziando le mosse di tipo Fuoco.",
+          "de": "Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.",
+          "es": "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego.",
+          "ko": "5턴 동안 햇살을 강하게 해서 불꽃타입 기술의 위력을 올린다."
+        }
+      }
+    }
+  ]
+}

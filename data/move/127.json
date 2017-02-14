@@ -2,49 +2,13 @@
   "id": 127,
   "name": "waterfall",
   "accuracy": 100,
-  "effect_chance": 20,
   "pp": 15,
   "priority": 0,
   "power": 80,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rain-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,48 @@
     "flinch_chance": 20,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Waterfall",
-      "language": "en"
-    },
-    {
-      "name": "Cascata",
-      "language": "it"
-    },
-    {
-      "name": "Cascada",
-      "language": "es"
-    },
-    {
-      "name": "Kaskade",
-      "language": "de"
-    },
-    {
-      "name": "Cascade",
-      "language": "fr"
-    },
-    {
-      "name": "폭포오르기",
-      "language": "ko"
-    },
-    {
-      "name": "たきのぼり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "たきのぼり",
+    "kana": "たきのぼり",
+    "en": "Waterfall",
+    "fr": "Cascade",
+    "it": "Cascata",
+    "de": "Kaskade",
+    "es": "Cascada",
+    "ko": "폭포오르기",
+    "zh-CN": "攀瀑",
+    "zh-TW": "攀瀑"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "すごい　勢いで　相手に　つっこむ。 相手を　ひるませることが　ある。",
+    "kana": "すごい　いきおいで　あいてに　つっこむ。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user charges at the target and may make it flinch.",
+    "fr": "Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer.",
+    "it": "Carica il bersaglio a grande velocità e può farlo tentennare.",
+    "de": "Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt.",
+    "es": "Embiste con un gran impulso que puede hacer retroceder.",
+    "ko": "굉장한 기세로 상대에게 돌진한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "以惊人的气势扑向对手。 有时会使对手畏缩。",
+    "zh-TW": "以驚人的氣勢撲向對手。 有時會讓對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "すごい　勢いで　相手に　つっこむ。 相手を　ひるませることが　ある。 滝も　泳いで　のぼれる。",
+          "kana": "すごい　いきおいで　あいてに　つっこむ。 あいてを　ひるませる　ことが　ある。 たきも　およいで　のぼれる。",
+          "en": "The user charges at the target and may make it flinch. This can also be used to climb a waterfall.",
+          "fr": "Le lanceur charge l’ennemi à une vitesse remarquable, ce qui peut l’apeurer. Permet aussi de franchir une cascade.",
+          "it": "Carica il bersaglio a grande velocità e può farlo tentennare. Fuori dalla lotta fa risalire le cascate.",
+          "de": "Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt. Wasserfälle können damit erklommen werden.",
+          "es": "Embiste con un gran impulso que puede hacer retroceder. También sirve para remontar cascadas.",
+          "ko": "굉장한 기세로 상대에게 돌진한다. 상대를 풀죽게 만들 때가 있다. 폭포도 거슬러 올라갈 수 있다."
+        }
+      }
+    }
+  ]
 }

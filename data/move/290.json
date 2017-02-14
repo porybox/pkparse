@@ -2,36 +2,13 @@
   "id": 290,
   "name": "secret-power",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 20,
   "priority": 0,
   "power": 70,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to inflict an effect chosen according to the terrain.\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nBuilding       | [Paralyze]{mechanic:paralyze}s target\nCave           | Makes target [flinch]{mechanic:flinch}\nDeep water     | Lowers target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}\nDesert         | Lowers target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}\nGrass          | Puts target to [sleep]{mechanic:sleep}\nMountain       | Makes target [flinch]{mechanic:flinch}\nRoad           | Lowers target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}\nShallow water  | Lowers target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}\nSnow           | [Freezes]{mechanic:freezes} target\nTall grass     | Puts target to [sleep]{mechanic:sleep}\n\nIn Pokémon Battle Revolution:\n\nTerrain        | Effect\n-------------- | -------------------------------------------------------------\nCourtyard      | [Paralyze]{mechanic:paralyze}s target\nCrystal        | Makes target [flinch]{mechanic:flinch}\nGateway        | Lowers target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}\nMagma          | Makes target [flinch]{mechanic:flinch}\nMain Street    | [Paralyze]{mechanic:paralyze}s target\nNeon           | [Paralyze]{mechanic:paralyze}s target\nStargazer      | Makes target [flinch]{mechanic:flinch}\nSunny Park     | Puts target to [sleep]{mechanic:sleep}\nSunset         | Lowers target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}\nWaterfall      | Puts target to [sleep]{mechanic:sleep}\n",
-      "short_effect": "Has a $effect_chance% chance to inflict a status effect which depends upon the terrain.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,63 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Secret Power",
-      "language": "en"
-    },
-    {
-      "name": "Forzasegreta",
-      "language": "it"
-    },
-    {
-      "name": "Daño Secreto",
-      "language": "es"
-    },
-    {
-      "name": "Geheimpower",
-      "language": "de"
-    },
-    {
-      "name": "Force Cachée",
-      "language": "fr"
-    },
-    {
-      "name": "비밀의힘",
-      "language": "ko"
-    },
-    {
-      "name": "ひみつのちから",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ひみつのちから",
+    "kana": "ひみつのちから",
+    "en": "Secret Power",
+    "fr": "Force Cachée",
+    "it": "Forzasegreta",
+    "de": "Geheimpower",
+    "es": "Daño Secreto",
+    "ko": "비밀의힘",
+    "zh-CN": "秘密之力",
+    "zh-TW": "秘密之力"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "使う場所で　追加効果が 変化する　攻撃。",
+    "kana": "つかう　ばしょで　ついかこうか　が へんかする　こうげき。",
+    "en": "The additional effects of this attack depend upon where it was used.",
+    "fr": "Les effets de cette attaque varient en fonction de l’environnement.",
+    "it": "Attacco che può avere un effetto aggiuntivo a seconda del luogo in cui si trova chi lo usa.",
+    "de": "Die Wirkung dieser Attacke ist ortsabhängig.",
+    "es": "Ataque cuyos efectos secundarios varían según el entorno de combate.",
+    "ko": "사용하는 장소에 따라 추가 효과가 변화하는 공격이다.",
+    "zh-CN": "根据使用场所不同， 该招式的追加效果也会有所变化。",
+    "zh-TW": "隨著使用地點的不同， 招式的追加效果也會改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "使う場所で　追加効果が 変化する　攻撃。 ひみつきちを　つくる　ことも　できる。",
+          "kana": "つかう　ばしょで　ついかこうか　が へんかする　こうげき。ひみつきちを つくる　ことも　できる。",
+          "en": "An attack whose additional effects depend upon where it was used. Can also be used to make a Secret Base.",
+          "fr": "Les effets de cette attaque varient en fonction de l’environnement. Permet aussi de créer sa propre Base Secrète.",
+          "it": "Attacco che può avere un effetto aggiuntivo a seconda del luogo in cui si trova chi lo usa. Serve anche per costruire Basi Segrete.",
+          "de": "Die Wirkung dieser Attacke ist ortsabhängig. Sie ermöglicht es außerdem, Geheimbasen zu errichten.",
+          "es": "Ataque cuyos efectos secundarios varían según el entorno de combate. También se puede utilizar para construir una Base Secreta.",
+          "ko": "사용하는 장소에 따라 추가 효과가 변화하는 공격이다. 비밀기지를 만드는 것도 할 수 있다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "秘密の　力で 相手を　攻撃する。使う　場所で 追加効果が　変化する。",
+          "kana": "ひみつの　ちからで あいてを　こうげきする。つかう　ばしょで ついかこうかが　へんかする。",
+          "en": "The user attacks the target with a secret power. Its additional effects vary depending on the user’s environment.",
+          "fr": "Les effets de cette attaque varient en fonction de l’environnement.",
+          "it": "Attacco che può avere un effetto aggiuntivo a seconda del luogo in cui si trova chi lo usa.",
+          "de": "Angriff, der abhängig vom Anwendungsort einen unterschiedlichen Zusatz-Effekt hat.",
+          "es": "Ataque con poder secreto cuyos efectos secundarios varían según el entorno de combate.",
+          "ko": "비밀의 힘으로 상대를 공격한다. 사용 장소에 따라 추가 효과가 변화한다."
+        }
+      }
+    }
+  ]
 }

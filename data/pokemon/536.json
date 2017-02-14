@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 229,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    }
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -51,68 +45,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ガマガル",
-      "language": "ja"
-    },
-    {
-      "name": "두까비",
-      "language": "ko"
-    },
-    {
-      "name": "Batracné",
-      "language": "fr"
-    },
-    {
-      "name": "Mebrana",
-      "language": "de"
-    },
-    {
-      "name": "Palpitoad",
-      "language": "es"
-    },
-    {
-      "name": "Palpitoad",
-      "language": "it"
-    },
-    {
-      "name": "Palpitoad",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ガマガル",
+    "en": "Palpitoad",
+    "fr": "Batracné",
+    "it": "Palpitoad",
+    "de": "Mebrana",
+    "es": "Palpitoad",
+    "ko": "두까비"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しんどう",
-      "language": "ja"
-    },
-    {
-      "genus": "진동",
-      "language": "ko"
-    },
-    {
-      "genus": "Vibration",
-      "language": "fr"
-    },
-    {
-      "genus": "Vibration",
-      "language": "de"
-    },
-    {
-      "genus": "Vibrante",
-      "language": "es"
-    },
-    {
-      "genus": "Vibrazione",
-      "language": "it"
-    },
-    {
-      "genus": "Vibration",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しんどう",
+    "en": "Vibration",
+    "fr": "Vibration",
+    "it": "Vibrazione",
+    "de": "Vibration",
+    "es": "Vibrante",
+    "ko": "진동"
+  },
   "varieties": [
     {
       "is_default": true,

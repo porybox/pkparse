@@ -1,0 +1,38 @@
+{
+  "id": 172,
+  "name": "hondew-berry",
+  "names": {
+    "ja": "ロメのみ",
+    "kana": "ロメのみ",
+    "en": "Hondew Berry",
+    "fr": "Baie Lonme",
+    "it": "Baccamelon",
+    "de": "Honmelbeere",
+    "es": "Baya Meluce",
+    "ko": "로매열매",
+    "zh-CN": "哈密果",
+    "zh-TW": "哈密果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　あげると とても　なつき　やすくなるが 特攻の　基礎ポイントは　さがる。",
+    "kana": "ポケモンに　あげると とても　なつき　やすくなるが とくこうの　きそポイントは　さがる。",
+    "en": "A Berry to be consumed by Pokémon. Using it on a Pokémon makes it more friendly but lowers its base Sp. Atk.",
+    "fr": "Une Baie qui rend les Pokémon plus amicaux, mais baisse leur Attaque Spéciale de base.",
+    "it": "Usata su un Pokémon, lo rende più affezionato, ma ne diminuisce i punti base dell’Attacco Speciale.",
+    "de": "Isst ein Pokémon diese Beere, stärkt dies eure Freundschaft, verringert aber seinen Spezial-Angriffs-Basiswert.",
+    "es": "Al usarla con un Pokémon, se gana su amistad, pero también reduce su Ataque Especial de base.",
+    "ko": "포켓몬에게 주면 매우 친밀해지기 쉬워지지만 특수공격의 기초 포인트가 떨어진다.",
+    "zh-CN": "如果把它交给宝可梦， 宝可梦就会变得非常容易和训练家亲密， 但特攻的基础点数会降低。",
+    "zh-TW": "如果把它餵給寶可夢， 寶可夢會非常容易和訓練家變得親密， 但特攻的基礎點數會降低。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Usata su un Pokémon, lo rende più amichevole, ma ne diminuisce i punti base dell’Attacco Speciale."
+        }
+      }
+    }
+  ]
+}

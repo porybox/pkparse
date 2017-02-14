@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 90,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "upright"
   },
@@ -77,44 +71,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ピクシー",
-      "language": "ja"
-    },
-    {
-      "name": "Pixy",
-      "language": "roomaji"
-    },
-    {
-      "name": "픽시",
-      "language": "ko"
-    },
-    {
-      "name": "皮可西",
-      "language": "zh"
-    },
-    {
-      "name": "Mélodelfe",
-      "language": "fr"
-    },
-    {
-      "name": "Pixi",
-      "language": "de"
-    },
-    {
-      "name": "Clefable",
-      "language": "es"
-    },
-    {
-      "name": "Clefable",
-      "language": "it"
-    },
-    {
-      "name": "Clefable",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ピクシー",
+    "en": "Clefable",
+    "fr": "Mélodelfe",
+    "it": "Clefable",
+    "de": "Pixi",
+    "es": "Clefable",
+    "ko": "픽시"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -125,36 +90,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ようせい",
-      "language": "ja"
-    },
-    {
-      "genus": "요정",
-      "language": "ko"
-    },
-    {
-      "genus": "Fée",
-      "language": "fr"
-    },
-    {
-      "genus": "Fee",
-      "language": "de"
-    },
-    {
-      "genus": "Hada",
-      "language": "es"
-    },
-    {
-      "genus": "Fata",
-      "language": "it"
-    },
-    {
-      "genus": "Fairy",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ようせい",
+    "en": "Fairy",
+    "fr": "Fée",
+    "it": "Fata",
+    "de": "Fee",
+    "es": "Hada",
+    "ko": "요정"
+  },
   "varieties": [
     {
       "is_default": true,

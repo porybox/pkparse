@@ -1,327 +1,44 @@
 {
   "id": 62,
   "name": "guts",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "こんじょう",
+    "kana": "こんじょう",
+    "en": "Guts",
+    "fr": "Cran",
+    "it": "Dentistretti",
+    "de": "Adrenalin",
+    "es": "Agallas",
+    "ko": "근성",
+    "zh-CN": "毅力",
+    "zh-TW": "毅力"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "状態異常に　なると 根性を　だして 攻撃が　上がる。",
+    "kana": "じょうたい　いじょうに　なると こんじょうを　だして こうげきが　あがる。",
+    "en": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
+    "fr": "Augmente l’Attaque du Pokémon s’il est affecté par une altération de statut.",
+    "it": "Se è affetto da un problema di stato, il Pokémon tira fuori la grinta e aumenta il proprio Attacco.",
+    "de": "Bei Statusproblemen setzt es Adrenalin frei und erhöht so seinen Angriffs-Wert.",
+    "es": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
+    "ko": "상태 이상이 되면 근성을 보여서 공격이 올라간다.",
+    "zh-CN": "如果变为异常状态， 会拿出毅力， 攻击会提高。",
+    "zh-TW": "陷入異常狀態時， 會拿出毅力， 攻擊會提高。"
+  },
+  "past_values": [
     {
-      "name": "Guts",
-      "language": "en"
-    },
-    {
-      "name": "Dentistretti",
-      "language": "it"
-    },
-    {
-      "name": "Agallas",
-      "language": "es"
-    },
-    {
-      "name": "Adrenalin",
-      "language": "de"
-    },
-    {
-      "name": "Cran",
-      "language": "fr"
-    },
-    {
-      "name": "근성",
-      "language": "ko"
-    },
-    {
-      "name": "こんじょう",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Whenever this Pokémon is [asleep]{mechanic:sleep}, [burned]{mechanic:burn}, [paralyzed]{mechanic:paralysis}, or [poisoned]{mechanic:poison}, it has 1.5× its [Attack]{mechanic:attack}.  This Pokémon is not affected by the usual Attack cut from a burn.\n\nThis bonus does not count as a [stat modifier]{mechanic:stat-modifier}.",
-      "short_effect": "Increases [Attack]{mechanic:attack} to 1.5× with a [major status ailment]{mechanic:major-status-ailment}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "effect_entries": [
-        {
-          "effect": "Does not take effect during [sleep]{mechanic:sleep}.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "状態異常で 攻撃が　あがる。",
+          "kana": "じょうたい　いじょうで こうげきが　あがる。",
+          "en": "Boosts the Attack stat if the Pokémon has a status condition.",
+          "fr": "Augmente l’Attaque s’il y a un problème de statut.",
+          "it": "Aumenta l’Attacco in caso di problemi di stato.",
+          "de": "Steigert bei Statusproblemen den Angriffs-Wert.",
+          "es": "Sube el Ataque si sufre un problema de estado.",
+          "ko": "상태 이상이 되면 공격이 올라간다."
         }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "状態異常で\n攻撃が　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Boosts the Attack stat if the\nPokémon has a status condition.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Aumenta l’Attacco in caso di\nproblemi di stato.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Sube el Ataque si sufre un\nproblema de estado.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Steigert bei Statusproblemen\nden Angriffs-Wert.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Augmente l’Attaque s’il y a un\nproblème de statut.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "상태 이상이 되면\n공격이 올라간다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "じょうたい　いじょうで\nこうげきが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Boosts Attack if there is\na status problem.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Boosts Attack if there is\na status problem.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Augmente l’Attaque s’il y\na un problème de statut.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Boosts Attack if there is\na status problem.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Boosts Attack if there is\na status problem.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Boosts Attack if there is\na status problem.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ups ATTACK if suffering.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ups ATTACK if suffering.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ups ATTACK if suffering.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "rattata"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "raticate"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "machop"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "machoke"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "machamp"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "flareon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "heracross"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "ursaring"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "tyrogue"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "larvitar"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "taillow"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "swellow"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "makuhita"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "hariyama"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "shinx"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "luxio"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "luxray"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "timburr"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gurdurr"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "conkeldurr"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "throh"
       }
     }
   ]

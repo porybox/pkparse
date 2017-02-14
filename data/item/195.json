@@ -1,0 +1,38 @@
+{
+  "id": 195,
+  "name": "charti-berry",
+  "names": {
+    "ja": "ヨロギのみ",
+    "kana": "ヨロギのみ",
+    "en": "Charti Berry",
+    "fr": "Baie Charti",
+    "it": "Baccaciofo",
+    "de": "Chiaribeere",
+    "es": "Baya Alcho",
+    "ko": "루미열매",
+    "zh-CN": "草蚕果",
+    "zh-TW": "草蠶果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると 効果バツグンの　いわ技を 受けたとき　威力が　弱まる。",
+    "kana": "ポケモンに　もたせると こうかばつぐんの　いわ　わざを うけたとき　いりょくが　よわまる。",
+    "en": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Rock-type attack.",
+    "fr": "Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Roche.",
+    "it": "Se un Pokémon ha questa bacca, l’attacco superefficace di tipo Roccia del nemico viene indebolito.",
+    "de": "Als getragenes Item schwächt diese Beere sehr effektive gegnerische Attacken vom Typ Gestein.",
+    "es": "Si la lleva un Pokémon, debilita un ataque supereficaz de tipo Roca de un enemigo.",
+    "ko": "포켓몬에게 지니게 하면 효과가 뛰어난 바위 기술을 당했을 때 위력이 약해진다.",
+    "zh-CN": "让宝可梦携带后， 在受到效果绝佳的岩石属性招式 攻击时，能令其威力减弱。",
+    "zh-TW": "讓寶可夢攜帶後， 在受到效果絕佳的岩石屬性招式 攻擊時，能使其威力減弱。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Als getragenes Item schwächt diese Beere sehr effektive Attacken des Angreifers vom Typ Gestein."
+        }
+      }
+    }
+  ]
+}

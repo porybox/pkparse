@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 117,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "wings"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ホーホー",
-      "language": "ja"
-    },
-    {
-      "name": "Hoho",
-      "language": "roomaji"
-    },
-    {
-      "name": "부우부",
-      "language": "ko"
-    },
-    {
-      "name": "咕咕",
-      "language": "zh"
-    },
-    {
-      "name": "Hoothoot",
-      "language": "fr"
-    },
-    {
-      "name": "Hoothoot",
-      "language": "de"
-    },
-    {
-      "name": "Hoothoot",
-      "language": "es"
-    },
-    {
-      "name": "Hoothoot",
-      "language": "it"
-    },
-    {
-      "name": "Hoothoot",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ホーホー",
+    "en": "Hoothoot",
+    "fr": "Hoothoot",
+    "it": "Hoothoot",
+    "de": "Hoothoot",
+    "es": "Hoothoot",
+    "ko": "부우부"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふくろう",
-      "language": "ja"
-    },
-    {
-      "genus": "부엉이",
-      "language": "ko"
-    },
-    {
-      "genus": "Hibou",
-      "language": "fr"
-    },
-    {
-      "genus": "Eule",
-      "language": "de"
-    },
-    {
-      "genus": "Búho",
-      "language": "es"
-    },
-    {
-      "genus": "Gufo",
-      "language": "it"
-    },
-    {
-      "genus": "Owl",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふくろう",
+    "en": "Owl",
+    "fr": "Hibou",
+    "it": "Gufo",
+    "de": "Eule",
+    "es": "Búho",
+    "ko": "부엉이"
+  },
   "varieties": [
     {
       "is_default": true,

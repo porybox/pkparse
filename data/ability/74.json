@@ -1,189 +1,44 @@
 {
   "id": 74,
   "name": "pure-power",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "ヨガパワー",
+    "kana": "ヨガパワー",
+    "en": "Pure Power",
+    "fr": "Force Pure",
+    "it": "Forzapura",
+    "de": "Mentalkraft",
+    "es": "Energía Pura",
+    "ko": "순수한힘",
+    "zh-CN": "瑜伽之力",
+    "zh-TW": "瑜伽之力"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "ヨガの　力で 物理攻撃の　威力が ２倍に　なる。",
+    "kana": "ヨガの　ちからで ぶつり　こうげきの　いりょくが ２ばいに　なる。",
+    "en": "Using its pure power, the Pokémon doubles its Attack stat.",
+    "fr": "Le Pokémon utilise sa maîtrise du yoga pour doubler la puissance de ses capacités physiques.",
+    "it": "L’Attacco del Pokémon raddoppia grazie alla sua padronanza delle tecniche yoga.",
+    "de": "Verdoppelt mit reiner Willenskraft die Stärke seiner physischen Attacken.",
+    "es": "Duplica la potencia de los ataques físicos.",
+    "ko": "요가의 힘으로 물리공격의 위력이 2배가 된다.",
+    "zh-CN": "因瑜伽的力量， 物理攻击的威力会变为２倍。",
+    "zh-TW": "因瑜伽的力量， 物理攻擊的威力會變為２倍。"
+  },
+  "past_values": [
     {
-      "name": "Pure Power",
-      "language": "en"
-    },
-    {
-      "name": "Forzapura",
-      "language": "it"
-    },
-    {
-      "name": "Energía Pura",
-      "language": "es"
-    },
-    {
-      "name": "Mentalkraft",
-      "language": "de"
-    },
-    {
-      "name": "Force Pure",
-      "language": "fr"
-    },
-    {
-      "name": "순수한힘",
-      "language": "ko"
-    },
-    {
-      "name": "ヨガパワー",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon's [Attack]{mechanic:attack} is doubled in battle.\n\nThis bonus does not count as a [stat modifier]{mechanic:stat-modifier}.\n\nThis ability functions identically to []{ability:huge-power}.",
-      "short_effect": "Doubles [Attack]{mechanic:attack} in battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "物理攻撃の\n威力が　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Boosts the Pokémon’s\nAttack stat.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Migliora la statistica Attacco\ndel Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Aumenta el Ataque.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Stärkt physische Attacken.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Augmente l’Attaque du Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "물리공격의\n위력이 올라간다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ぶつり　こうげきの\nいりょくが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Raises the Pokémon’s\nAttack stat.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises the Pokémon’s\nAttack stat.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Augmente l’Attaque du\nPokémon.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Boosts the power of\nphysical attacks.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Boosts the power of\nphysical attacks.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Boosts the power of\nphysical attacks.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises ATTACK.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises ATTACK.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises ATTACK.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "meditite"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "medicham"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "medicham-mega"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "物理攻撃の 威力が　あがる。",
+          "kana": "ぶつり　こうげきの いりょくが　あがる。",
+          "en": "Boosts the Pokémon’s Attack stat.",
+          "fr": "Augmente l’Attaque du Pokémon.",
+          "it": "Migliora la statistica Attacco del Pokémon.",
+          "de": "Stärkt physische Attacken.",
+          "es": "Aumenta el Ataque.",
+          "ko": "물리공격의 위력이 올라간다."
+        }
       }
     }
   ]

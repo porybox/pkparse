@@ -2,36 +2,13 @@
   "id": 146,
   "name": "dizzy-punch",
   "accuracy": 100,
-  "effect_chance": 20,
   "pp": 10,
   "priority": 0,
   "power": 70,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [confuse]{mechanic:confuse} the target.",
-      "short_effect": "Has a $effect_chance% chance to confuse the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "confusion",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -43,61 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Dizzy Punch",
-      "language": "en"
-    },
-    {
-      "name": "Stordipugno",
-      "language": "it"
-    },
-    {
-      "name": "Puño Mareo",
-      "language": "es"
-    },
-    {
-      "name": "Irrschlag",
-      "language": "de"
-    },
-    {
-      "name": "Uppercut",
-      "language": "fr"
-    },
-    {
-      "name": "잼잼펀치",
-      "language": "ko"
-    },
-    {
-      "name": "ピヨピヨパンチ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": null,
-      "effect_chance": 0,
-      "effect_entries": [
-        {
-          "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-          "short_effect": "Inflicts regular damage with no additional effect.",
-          "language": "en"
-        }
-      ],
-      "type": null,
-      "version_group": {
-        "name": "gold-silver"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ピヨピヨパンチ",
+    "kana": "ピヨピヨパンチ",
+    "en": "Dizzy Punch",
+    "fr": "Uppercut",
+    "it": "Stordipugno",
+    "de": "Irrschlag",
+    "es": "Puño Mareo",
+    "ko": "잼잼펀치",
+    "zh-CN": "迷昏拳",
+    "zh-TW": "迷昏拳"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "リズミカルに　パンチを　くりだして 相手を　攻撃する。 混乱させることが　ある。",
+    "kana": "リズミカルに　パンチを　くりだして あいてを　こうげきする。 こんらん　させることが　ある。",
+    "en": "The target is hit with rhythmically launched punches. This may also leave the target confused.",
+    "fr": "Un enchaînement de coups de poing cadencés frappe l’ennemi. Peut aussi le rendre confus.",
+    "it": "Colpisce il bersaglio con una sequenza di pugni che può anche confonderlo.",
+    "de": "Rhythmische Schläge, die das Ziel verwirren können.",
+    "es": "Rítmicos puñetazos que pueden causar confusión.",
+    "ko": "리드미컬한 펀치를 날려 상대를 공격한다. 혼란시킬 때가 있다.",
+    "zh-CN": "有节奏地出拳攻击对手。 有时会使对手混乱。",
+    "zh-TW": "有節奏地出拳攻擊對手。 有時會使對手混亂。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

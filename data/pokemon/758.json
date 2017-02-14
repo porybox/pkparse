@@ -1,0 +1,46 @@
+{
+  "id": 758,
+  "name": "salazzle",
+  "gender_rate": 8,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "color": "black",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "エンニュート",
+    "en": "Salazzle",
+    "fr": "Malamandre",
+    "it": "Salazzle",
+    "de": "Amfira",
+    "es": "Salazzle",
+    "ko": "염뉴트"
+  },
+  "genera": {
+    "ja": "どくトカゲ",
+    "en": "Toxic Lizard",
+    "fr": "Toxilézard",
+    "it": "Lucertossina",
+    "de": "Giftechse",
+    "es": "Lagartoxina",
+    "ko": "독도마뱀"
+  },
+  "types": [
+    "poison",
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 64,
+    "defense": 60,
+    "special-attack": 111,
+    "special-defense": 60,
+    "speed": 117
+  }
+}

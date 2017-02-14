@@ -1,0 +1,38 @@
+{
+  "id": 424,
+  "name": "hm05",
+  "names": {
+    "ja": "ひでんマシン０５",
+    "kana": "ひでんマシン０５",
+    "en": "HM05",
+    "fr": "CS05",
+    "it": "MN05",
+    "de": "VM05",
+    "es": "MO05",
+    "ko": "비전머신05",
+    "zh-CN": "秘传学习器０５",
+    "zh-TW": "秘傳學習器０５"
+  },
+  "flavor_text_entries": {
+    "ja": "すごい　勢いで　相手に　つっこみ 攻撃する。流れ落ちる　滝も 泳いで　のぼれる。",
+    "kana": "たきを　さかのぼるような　すさまじい いきおいで　とっしん　こうげきする。 たきを　のぼることも　できる。",
+    "en": "The user charges at the target and may make it flinch. This can also be used to climb a waterfall.",
+    "fr": "Le lanceur charge l’ennemi à une vitesse remarquable. Peut aussi l’apeurer. Permet aussi de franchir une cascade.",
+    "it": "Carica il nemico a grande velocità e può farlo tentennare. Fuori dalla lotta fa risalire le cascate.",
+    "de": "Eine mächtige Attacke, die das Ziel eventuell zurückschrecken lässt. Sie macht Wasserfälle bezwingbar.",
+    "es": "Carga contra el objetivo a una velocidad increíble. También puede usarse para remontar una cascada.",
+    "ko": "폭포를 거꾸로 오르는 듯한 엄청난 기세로 돌진하여 공격한다. 폭포를 오를 수도 있다.",
+    "zh-CN": "以惊人的气势扑向对手。 有时会使对手畏缩。 还可以游泳登上瀑布。",
+    "zh-TW": "以驚人的氣勢撲向對手。 有時會使對手畏縮。 也可以游泳登上瀑布。"
+  },
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur charge l’ennemi à une vitesse remarquable. Permet aussi de franchir une cascade."
+        }
+      }
+    }
+  ]
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 115,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "wings"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "グライガー",
-      "language": "ja"
-    },
-    {
-      "name": "Gliger",
-      "language": "roomaji"
-    },
-    {
-      "name": "글라이거",
-      "language": "ko"
-    },
-    {
-      "name": "天蠍",
-      "language": "zh"
-    },
-    {
-      "name": "Scorplane",
-      "language": "fr"
-    },
-    {
-      "name": "Skorgla",
-      "language": "de"
-    },
-    {
-      "name": "Gligar",
-      "language": "es"
-    },
-    {
-      "name": "Gligar",
-      "language": "it"
-    },
-    {
-      "name": "Gligar",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "グライガー",
+    "en": "Gligar",
+    "fr": "Scorplane",
+    "it": "Gligar",
+    "de": "Skorgla",
+    "es": "Gligar",
+    "ko": "글라이거"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とびさそり",
-      "language": "ja"
-    },
-    {
-      "genus": "날전갈",
-      "language": "ko"
-    },
-    {
-      "genus": "Scorpivol",
-      "language": "fr"
-    },
-    {
-      "genus": "Flugskorpi",
-      "language": "de"
-    },
-    {
-      "genus": "Escorpiala",
-      "language": "es"
-    },
-    {
-      "genus": "Aliscorpio",
-      "language": "it"
-    },
-    {
-      "genus": "Fly Scorpion",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とびさそり",
+    "en": "Fly Scorpion",
+    "fr": "Scorpivol",
+    "it": "Aliscorpio",
+    "de": "Flugskorpi",
+    "es": "Escorpiala",
+    "ko": "날전갈"
+  },
   "varieties": [
     {
       "is_default": true,

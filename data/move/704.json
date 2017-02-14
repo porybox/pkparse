@@ -1,0 +1,50 @@
+{
+  "id": 704,
+  "name": "shell-trap",
+  "accuracy": 100,
+  "pp": 5,
+  "priority": -3,
+  "power": 150,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "トラップシェル",
+    "kana": "トラップシェル",
+    "en": "Shell Trap",
+    "fr": "Carapiège",
+    "it": "Gusciotrappola",
+    "de": "Panzerfalle",
+    "es": "Coraza Trampa",
+    "ko": "트랩셸",
+    "zh-CN": "陷阱甲壳",
+    "zh-TW": "陷阱甲殼"
+  },
+  "flavor_text_entries": {
+    "ja": "こうらの　トラップを　しかける。 相手が　物理技を　出すと 爆発して　ダメージを　与える。",
+    "kana": "こうらの　トラップを　しかける。 あいてが　ぶつり　わざを　だすと ばくはつして　ダメージを　あたえる。",
+    "en": "The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on the opposing Pokémon.",
+    "fr": "Pose une carapace piégée. Si l’adversaire utilise une capacité physique, la carapace explose et lui inflige des dégâts.",
+    "it": "Il guscio del Pokémon diventa una trappola. Se un nemico lo colpisce con una mossa fisica, innesca un’esplosione e subisce dei danni.",
+    "de": "Der Anwender legt eine Panzerfalle. Wird er von einer physischen Attacke getroffen, explodiert die Falle und fügt dem Angreifer Schaden zu.",
+    "es": "El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la trampa estalla y el atacante sufre daño.",
+    "ko": "껍질의 트랩을 설치한다. 상대가 물리 기술을 쓰면 폭발해서 데미지를 준다.",
+    "zh-CN": "设下甲壳陷阱。 如果对手使出物理招式， 陷阱就会爆炸并给予对手伤害。",
+    "zh-TW": "設下甲殼陷阱。 若對手使出物理招式， 就會爆炸並給予傷害。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "fire"
+}

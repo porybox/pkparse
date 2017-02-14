@@ -2,64 +2,13 @@
   "id": 59,
   "name": "blizzard",
   "accuracy": 70,
-  "effect_chance": 10,
   "pp": 5,
   "priority": 0,
   "power": 110,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "powder-snow"
-        },
-        {
-          "name": "hail"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [freeze]{mechanic:freeze} the target.\n\nDuring []{move:hail}, this move has 100% accuracy.  It also has a (100 - accuracy)% chance to break through the protection of []{move:protect} and []{move:detect}.",
-      "short_effect": "Has a $effect_chance% chance to freeze the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "effect_entries": [
-        {
-          "effect": "Does not interact with []{move:hail}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "freeze"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "freeze",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -71,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Blizzard",
-      "language": "en"
-    },
-    {
-      "name": "Bora",
-      "language": "it"
-    },
-    {
-      "name": "Ventisca",
-      "language": "es"
-    },
-    {
-      "name": "Blizzard",
-      "language": "de"
-    },
-    {
-      "name": "Blizzard",
-      "language": "fr"
-    },
-    {
-      "name": "눈보라",
-      "language": "ko"
-    },
-    {
-      "name": "ふぶき",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "ふぶき",
+    "kana": "ふぶき",
+    "en": "Blizzard",
+    "fr": "Blizzard",
+    "it": "Bora",
+    "de": "Blizzard",
+    "es": "Ventisca",
+    "ko": "눈보라",
+    "zh-CN": "暴风雪",
+    "zh-TW": "暴風雪"
+  },
+  "flavor_text_entries": {
+    "ja": "激しい　吹雪を 相手に　吹きつけて　攻撃する。 こおり状態に　することが　ある。",
+    "kana": "はげしい　ふぶきを あいてに　ふきつけて　こうげきする。 こおり　じょうたいに　することが　ある。",
+    "en": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.",
+    "fr": "Une violente tempête de neige s’abat sur l’ennemi. Peut aussi le geler.",
+    "it": "Colpisce i nemici intorno con una tremenda tempesta di ghiaccio che può anche congelarli.",
+    "de": "Ein Schneesturm wütet, der das Ziel einfrieren kann.",
+    "es": "Tormenta de hielo que puede llegar a congelar.",
+    "ko": "세찬 눈보라를 상대에게 내뿜어 공격한다. 얼음 상태로 만들 때가 있다.",
+    "zh-CN": "将猛烈的暴风雪 刮向对手进行攻击。 有时会让对手陷入冰冻状态。",
+    "zh-TW": "將猛烈的暴風雪 吹向對手進行攻擊。 有時會讓對手陷入冰凍狀態。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "ice",
   "past_values": [
     {
-      "accuracy": 90,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "gold-silver"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une violente tempête de neige est déclenchée sur l’ennemi. Peut aussi le geler."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "ice"
-  }
+  ]
 }

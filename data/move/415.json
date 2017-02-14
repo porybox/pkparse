@@ -2,36 +2,13 @@
   "id": 415,
   "name": "switcheroo",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User and target permanently swap [held item]{mechanic:held-item}s.  Works even if one of the Pokémon isn't holding anything.  If either Pokémon is holding mail, this move will [fail]{mechanic:fail}.\n\nIf either Pokémon has []{ability:multitype} or []{ability:sticky-hold}, this move will [fail]{mechanic:fail}.\n\nIf this move results in a Pokémon obtaining []{item:choice-band}, []{item:choice-scarf}, or []{item:choice-specs}, and that Pokémon was the latter of the pair to move this turn, then the move it used this turn becomes its chosen forced move.  This applies even if both Pokémon had a choice item before this move was used.  If the first of the two Pokémon gains a choice item, it may select whatever choice move it wishes next turn.\n\nNeither the user nor the target can recover its item with []{move:recycle}.\n\nThis move cannot be selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "User and target swap items.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Switcheroo",
-      "language": "en"
-    },
-    {
-      "name": "Rapidscambio",
-      "language": "it"
-    },
-    {
-      "name": "Trapicheo",
-      "language": "es"
-    },
-    {
-      "name": "Wechseldich",
-      "language": "de"
-    },
-    {
-      "name": "Passe-Passe",
-      "language": "fr"
-    },
-    {
-      "name": "바꿔치기",
-      "language": "ko"
-    },
-    {
-      "name": "すりかえ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "すりかえ",
+    "kana": "すりかえ",
+    "en": "Switcheroo",
+    "fr": "Passe-Passe",
+    "it": "Rapidscambio",
+    "de": "Wechseldich",
+    "es": "Trapicheo",
+    "ko": "바꿔치기",
+    "zh-CN": "掉包",
+    "zh-TW": "掉包"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "目にも　とまらぬ　速さで 自分と　相手の 持ち物を　交換する。",
+    "kana": "めにも　とまらぬ　はやさで じぶんと　あいての もちものを　こうかんする。",
+    "en": "The user trades held items with the target faster than the eye can follow.",
+    "fr": "Le lanceur échange son objet avec celui de la cible à une vitesse que l’œil a du mal à suivre.",
+    "it": "Chi la usa scambia lo strumento che ha con quello del bersaglio a una velocità impressionante.",
+    "de": "Item wird in Windeseile mit dem Ziel getauscht.",
+    "es": "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.",
+    "ko": "눈에 보이지 않는 속도로 자신과 상대가 지닌 물건을 교환한다.",
+    "zh-CN": "用一闪而过的速度 交换自己和对手的持有物。",
+    "zh-TW": "以肉眼看不清的速度 將自己和對手的持有物互相交換。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark"
 }

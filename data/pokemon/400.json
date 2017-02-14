@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 39,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -66,44 +58,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ビーダル",
-      "language": "ja"
-    },
-    {
-      "name": "Beadull",
-      "language": "roomaji"
-    },
-    {
-      "name": "비버통",
-      "language": "ko"
-    },
-    {
-      "name": "大尾狸",
-      "language": "zh"
-    },
-    {
-      "name": "Castorno",
-      "language": "fr"
-    },
-    {
-      "name": "Bidifas",
-      "language": "de"
-    },
-    {
-      "name": "Bibarel",
-      "language": "es"
-    },
-    {
-      "name": "Bibarel",
-      "language": "it"
-    },
-    {
-      "name": "Bibarel",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ビーダル",
+    "en": "Bibarel",
+    "fr": "Castorno",
+    "it": "Bibarel",
+    "de": "Bidifas",
+    "es": "Bibarel",
+    "ko": "비버통"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -114,36 +77,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ビーバー",
-      "language": "ja"
-    },
-    {
-      "genus": "비버",
-      "language": "ko"
-    },
-    {
-      "genus": "Castor",
-      "language": "fr"
-    },
-    {
-      "genus": "Biber",
-      "language": "de"
-    },
-    {
-      "genus": "Castor",
-      "language": "es"
-    },
-    {
-      "genus": "Castoro",
-      "language": "it"
-    },
-    {
-      "genus": "Beaver",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ビーバー",
+    "en": "Beaver",
+    "fr": "Castor",
+    "it": "Castoro",
+    "de": "Biber",
+    "es": "Castor",
+    "ko": "비버"
+  },
   "varieties": [
     {
       "is_default": true,

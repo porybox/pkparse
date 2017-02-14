@@ -2,34 +2,13 @@
   "id": 531,
   "name": "heart-stamp",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 25,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 30,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Heart Stamp",
-      "language": "en"
-    },
-    {
-      "name": "Cuorestampo",
-      "language": "it"
-    },
-    {
-      "name": "Arrumaco",
-      "language": "es"
-    },
-    {
-      "name": "Herzstempel",
-      "language": "de"
-    },
-    {
-      "name": "Crève-Cœur",
-      "language": "fr"
-    },
-    {
-      "name": "하트스탬프",
-      "language": "ko"
-    },
-    {
-      "name": "ハートスタンプ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ハートスタンプ",
+    "kana": "ハートスタンプ",
+    "en": "Heart Stamp",
+    "fr": "Crève-Cœur",
+    "it": "Cuorestampo",
+    "de": "Herzstempel",
+    "es": "Arrumaco",
+    "ko": "하트스탬프",
+    "zh-CN": "爱心印章",
+    "zh-TW": "愛心印章"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "かわいい　しぐさで　油断させて 強烈な　一撃を　浴びせる。 相手を　ひるませることが　ある。",
+    "kana": "かわいい　しぐさで　ゆだん　させて きょうれつな　いちげきを　あびせる。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user unleashes a vicious blow after its cute act makes the target less wary. This may also make the target flinch.",
+    "fr": "Déconcentre l’ennemi avec des mouvements mignons avant de le frapper violemment. Peut aussi l’apeurer.",
+    "it": "Chi la usa distrae il bersaglio con un faccino innocente per poi sferrargli un colpo devastante che può farlo tentennare.",
+    "de": "Verleitet Ziel durch Kokettieren zu Unachtsamkeit und verpasst ihm dann einen harten Schlag. Ziel schreckt eventuell zurück.",
+    "es": "El usuario despista al objetivo con gestos adorables y aprovecha la ocasión para asestarle un golpe tremendo que puede hacerlo retroceder.",
+    "ko": "귀여운 모습으로 방심시켜서 강렬한 일격을 날린다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "以可爱的动作使对手疏忽， 乘机给出强烈的一击。 有时会使对手畏缩。",
+    "zh-TW": "用可愛的動作讓對手疏忽， 趁機發出強烈的一擊。 有時會使對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Grácil gesto que asesta un golpe tremendo al objetivo y puede hacerlo retroceder."
+        }
+      }
+    }
+  ]
 }

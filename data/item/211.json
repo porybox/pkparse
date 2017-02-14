@@ -1,0 +1,38 @@
+{
+  "id": 211,
+  "name": "jaboca-berry",
+  "names": {
+    "ja": "ジャポのみ",
+    "kana": "ジャポのみ",
+    "en": "Jaboca Berry",
+    "fr": "Baie Jaboca",
+    "it": "Baccajaba",
+    "de": "Jabocabeere",
+    "es": "Baya Jaboca",
+    "ko": "자보열매",
+    "zh-CN": "嘉珍果",
+    "zh-TW": "嘉珍果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると 物理技を　受けたとき 相手にも　ダメージを　あたえる。",
+    "kana": "ポケモンに　もたせると ぶつりわざを　うけたとき あいてにも　ダメージを　あたえる。",
+    "en": "A Berry to be consumed by Pokémon. If a physical attack hits the Pokémon holding it, the attacker will also be hurt.",
+    "fr": "Tenue, cette Baie inflige des dégâts à l’attaquant s’il utilise une capacité physique qui atteint sa cible.",
+    "it": "Se un Pokémon ha questa bacca, chi attacca subirà danni se la sua mossa fisica va a segno.",
+    "de": "Als getragenes Item bewirkt diese Beere Schaden bei jenen, die den Träger mit einer physischen Attacke treffen.",
+    "es": "Si la lleva un Pokémon cuando otro lanza un ataque físico, este último también recibe daño.",
+    "ko": "포켓몬에게 지니게 하면 물리 기술을 당했을 때 상대에게도 데미지를 준다.",
+    "zh-CN": "让宝可梦携带后， 在受到物理招式攻击时， 能给予对手伤害。",
+    "zh-TW": "讓寶可夢攜帶後， 在受到物理招式攻擊時， 也能給予對手傷害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Tenue, cette Baie inflige des dégâts à l’attaquant s’il utilise une attaque physique qui atteint son but."
+        }
+      }
+    }
+  ]
+}

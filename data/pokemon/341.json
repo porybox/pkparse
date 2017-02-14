@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 51,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water3"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "armor"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ヘイガニ",
-      "language": "ja"
-    },
-    {
-      "name": "Heigani",
-      "language": "roomaji"
-    },
-    {
-      "name": "가재군",
-      "language": "ko"
-    },
-    {
-      "name": "龍蝦小兵",
-      "language": "zh"
-    },
-    {
-      "name": "Écrapince",
-      "language": "fr"
-    },
-    {
-      "name": "Krebscorps",
-      "language": "de"
-    },
-    {
-      "name": "Corphish",
-      "language": "es"
-    },
-    {
-      "name": "Corphish",
-      "language": "it"
-    },
-    {
-      "name": "Corphish",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヘイガニ",
+    "en": "Corphish",
+    "fr": "Écrapince",
+    "it": "Corphish",
+    "de": "Krebscorps",
+    "es": "Corphish",
+    "ko": "가재군"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ごろつき",
-      "language": "ja"
-    },
-    {
-      "genus": "건달",
-      "language": "ko"
-    },
-    {
-      "genus": "Brute",
-      "language": "fr"
-    },
-    {
-      "genus": "Grobian",
-      "language": "de"
-    },
-    {
-      "genus": "Rufián",
-      "language": "es"
-    },
-    {
-      "genus": "Birbone",
-      "language": "it"
-    },
-    {
-      "genus": "Ruffian",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ごろつき",
+    "en": "Ruffian",
+    "fr": "Brute",
+    "it": "Birbone",
+    "de": "Grobian",
+    "es": "Rufián",
+    "ko": "건달"
+  },
   "varieties": [
     {
       "is_default": true,

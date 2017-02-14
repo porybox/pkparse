@@ -1,0 +1,39 @@
+{
+  "id": 687,
+  "name": "kee-berry",
+  "names": {
+    "ja": "アッキのみ",
+    "kana": "アッキのみ",
+    "en": "Kee Berry",
+    "fr": "Baie Éka",
+    "it": "Baccalighia",
+    "de": "Akibeere",
+    "es": "Baya Biglia",
+    "ko": "악키열매",
+    "zh-CN": "亚开果",
+    "zh-TW": "亞開果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると 物理技を　受けたとき 自分の　防御が　あがる。",
+    "kana": "ポケモンに　もたせると ぶつりわざを　うけたとき じぶんの　ぼうぎょが　あがる。",
+    "en": "If held by a Pokémon, this Berry will increase the holder’s Defense if it’s hit with a physical move.",
+    "fr": "Baie à tenir augmentant la Défense du Pokémon lorsqu’il est touché par une capacité physique.",
+    "it": "Se un Pokémon ha questa bacca, aumenta la propria Difesa quando subisce una mossa fisica.",
+    "de": "Als getragenes Item erhöht diese Beere die Verteidigung des Trägers, wenn dieser von physischen Attacken getroffen wird.",
+    "es": "Si la lleva un Pokémon, aumenta su Defensa tras recibir un ataque físico.",
+    "ko": "포켓몬에게 지니게 하면 물리 기술을 당했을 때 자신의 방어가 올라간다.",
+    "zh-CN": "让宝可梦携带后， 在受到物理招式攻击时， 自己的防御就会提高。",
+    "zh-TW": "讓寶可夢攜帶後， 在受到物理招式攻擊時， 自己的防禦就會提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Baie à tenir augmentant la Défense du Pokémon lorsqu’il est touché par une attaque physique.",
+          "it": "Bacca da dare a un Pokémon. Se chi ce l’ha subisce una mossa fisica, la sua Difesa aumenta."
+        }
+      }
+    }
+  ]
+}

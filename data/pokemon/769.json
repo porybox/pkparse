@@ -1,0 +1,45 @@
+{
+  "id": 769,
+  "name": "sandygast",
+  "gender_rate": 4,
+  "capture_rate": 140,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "color": "brown",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "スナバァ",
+    "en": "Sandygast",
+    "fr": "Bacabouh",
+    "it": "Sandygast",
+    "de": "Sankabuh",
+    "es": "Sandygast",
+    "ko": "모래꿍"
+  },
+  "genera": {
+    "ja": "すなやま",
+    "en": "Sand Heap",
+    "fr": "Pâtéd’Sable",
+    "it": "Montesabbia",
+    "de": "Sandhaufen",
+    "es": "Montearena",
+    "ko": "모래산"
+  },
+  "types": [
+    "ghost",
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 80,
+    "special-attack": 70,
+    "special-defense": 45,
+    "speed": 15
+  }
+}

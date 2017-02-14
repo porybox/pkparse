@@ -1,0 +1,50 @@
+{
+  "id": 685,
+  "name": "purify",
+  "accuracy": null,
+  "pp": 20,
+  "priority": 0,
+  "power": null,
+  "damage_class": "status",
+  "meta": {
+    "ailment": "none",
+    "category": "unique",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 50,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "じょうか",
+    "kana": "じょうか",
+    "en": "Purify",
+    "fr": "Purification",
+    "it": "Purificazione",
+    "de": "Läuterung",
+    "es": "Purificación",
+    "ko": "정화",
+    "zh-CN": "净化",
+    "zh-TW": "淨化"
+  },
+  "flavor_text_entries": {
+    "ja": "相手の　状態異常を　治す。 治すと　自分は　ＨＰを 回復　することが　できる。",
+    "kana": "あいての　じょうたいいじょうを　なおす。 なおすと　じぶんは　ＨＰを かいふく　することが　できる。",
+    "en": "The user heals the target’s status condition. If the move succeeds, it also restores the user’s own HP.",
+    "fr": "Le lanceur soigne les altérations de statut de la cible, ce qui lui permet de regagner des PV.",
+    "it": "Chi la usa cura i problemi di stato del bersaglio e in cambio recupera PS.",
+    "de": "Der Anwender heilt das Statusproblem des Zieles und füllt dadurch seine eigenen KP auf.",
+    "es": "Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios.",
+    "ko": "상대의 상태 이상을 회복한다. 회복하면 자신은 HP를 회복할 수 있다.",
+    "zh-CN": "治愈对手的异常状态。 治愈后可以回复自己的ＨＰ。",
+    "zh-TW": "治癒對手的異常狀態。 治癒後可以回復自己的ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "poison"
+}

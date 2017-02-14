@@ -2,49 +2,13 @@
   "id": 90,
   "name": "fissure",
   "accuracy": 30,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "earthquake"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts damage equal to the target's max [HP]{mechanic:hp}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This move's [accuracy]{mechanic:accuracy} is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will [fail]{mechanic:fail}.\n\nBecause this move inflicts a specific and finite amount of damage, []{move:endure} still prevents the target from fainting.\n\nThe effects of []{move:lock-on}, []{move:mind-reader}, and []{ability:no-guard} still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through []{move:detect} or []{move:protect}.",
-      "short_effect": "Causes a one-hit KO.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "ohko"
-    },
+    "ailment": "none",
+    "category": "ohko",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Fissure",
-      "language": "en"
-    },
-    {
-      "name": "Abisso",
-      "language": "it"
-    },
-    {
-      "name": "Fisura",
-      "language": "es"
-    },
-    {
-      "name": "Geofissur",
-      "language": "de"
-    },
-    {
-      "name": "Abîme",
-      "language": "fr"
-    },
-    {
-      "name": "땅가르기",
-      "language": "ko"
-    },
-    {
-      "name": "じわれ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "じわれ",
+    "kana": "じわれ",
+    "en": "Fissure",
+    "fr": "Abîme",
+    "it": "Abisso",
+    "de": "Geofissur",
+    "es": "Fisura",
+    "ko": "땅가르기",
+    "zh-CN": "地裂",
+    "zh-TW": "地裂"
   },
-  "type": {
-    "name": "ground"
-  }
+  "flavor_text_entries": {
+    "ja": "地割れの　裂け目に 相手を　落として　攻撃する。 当たれば　一撃で　ひんしに　する。",
+    "kana": "じわれの　さけめに あいてを　おとして　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+    "en": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits.",
+    "fr": "Le lanceur fait tomber l’ennemi dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup.",
+    "it": "Chi la usa crea una spaccatura nel terreno e cerca di gettarvici dentro il bersaglio. Se va a segno, il Pokémon colpito va KO.",
+    "de": "Das Ziel wird in eine Erdspalte geworfen. Ist die Attacke erfolgreich, führt sie zu einem K.O.",
+    "es": "Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.",
+    "ko": "땅이 갈라진 곳에 상대를 떨어뜨려 공격한다. 맞으면 일격에 기절한다.",
+    "zh-CN": "让对手掉落于地裂的 裂缝中进行攻击。 只要命中就会一击濒死。",
+    "zh-TW": "讓對手掉進地面的 裂縫中進行攻擊。 只要命中就會一擊瀕死。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ground"
 }

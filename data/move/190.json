@@ -2,52 +2,13 @@
   "id": 190,
   "name": "octazooka",
   "accuracy": 85,
-  "effect_chance": 50,
   "pp": 10,
   "priority": 0,
   "power": 65,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "lock-on"
-        },
-        {
-          "name": "rain-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [accuracy]{mechanic:accuracy} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's accuracy by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 50
   },
-  "names": [
-    {
-      "name": "Octazooka",
-      "language": "en"
-    },
-    {
-      "name": "Octazooka",
-      "language": "it"
-    },
-    {
-      "name": "Pulpocañón",
-      "language": "es"
-    },
-    {
-      "name": "Octazooka",
-      "language": "de"
-    },
-    {
-      "name": "Octazooka",
-      "language": "fr"
-    },
-    {
-      "name": "대포무노포",
-      "language": "ko"
-    },
-    {
-      "name": "オクタンほう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "オクタンほう",
+    "kana": "オクタンほう",
+    "en": "Octazooka",
+    "fr": "Octazooka",
+    "it": "Octazooka",
+    "de": "Octazooka",
+    "es": "Pulpocañón",
+    "ko": "대포무노포",
+    "zh-CN": "章鱼桶炮",
+    "zh-TW": "章魚桶炮"
+  },
+  "flavor_text_entries": {
+    "ja": "相手の　顔などに 墨を　吹きかけて　攻撃する。 命中率を　さげることが　ある。",
+    "kana": "あいての　かおなどに すみを　ふきかけて　こうげきする。 めいちゅうりつを　さげることが　ある。",
+    "en": "The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.",
+    "fr": "Le lanceur attaque en projetant de l’encre au visage de l’ennemi. Peut aussi baisser sa Précision.",
+    "it": "Chi la usa spruzza inchiostro in faccia al bersaglio. Può anche ridurne la precisione.",
+    "de": "Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.",
+    "es": "Dispara tinta a la cara. Puede bajar la Precisión.",
+    "ko": "상대의 얼굴 등에 먹물을 내뿜어 공격한다. 명중률을 떨어뜨릴 때가 있다.",
+    "zh-CN": "向对手的脸等 喷出墨汁进行攻击。 有时会降低对手的命中率。",
+    "zh-TW": "向對手的臉等 噴出墨汁進行攻擊。 有時會降低對手的命中率。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "accuracy"
-      }
+      "stat": "accuracy"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "water"
-  }
+  "target": "selected-pokemon",
+  "type": "water"
 }

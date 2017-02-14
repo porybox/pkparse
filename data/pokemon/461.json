@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 92,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "upright"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "マニューラ",
-      "language": "ja"
-    },
-    {
-      "name": "Manyula",
-      "language": "roomaji"
-    },
-    {
-      "name": "포푸니라",
-      "language": "ko"
-    },
-    {
-      "name": "瑪狃拉",
-      "language": "zh"
-    },
-    {
-      "name": "Dimoret",
-      "language": "fr"
-    },
-    {
-      "name": "Snibunna",
-      "language": "de"
-    },
-    {
-      "name": "Weavile",
-      "language": "es"
-    },
-    {
-      "name": "Weavile",
-      "language": "it"
-    },
-    {
-      "name": "Weavile",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マニューラ",
+    "en": "Weavile",
+    "fr": "Dimoret",
+    "it": "Weavile",
+    "de": "Snibunna",
+    "es": "Weavile",
+    "ko": "포푸니라"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かぎづめ",
-      "language": "ja"
-    },
-    {
-      "genus": "갈고리손톱",
-      "language": "ko"
-    },
-    {
-      "genus": "Grifacérée",
-      "language": "fr"
-    },
-    {
-      "genus": "Stichklaue",
-      "language": "de"
-    },
-    {
-      "genus": "Garra Filo",
-      "language": "es"
-    },
-    {
-      "genus": "Lamartigli",
-      "language": "it"
-    },
-    {
-      "genus": "Sharp Claw",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かぎづめ",
+    "en": "Sharp Claw",
+    "fr": "Grifacérée",
+    "it": "Lamartigli",
+    "de": "Stichklaue",
+    "es": "Garra Filo",
+    "ko": "갈고리손톱"
+  },
   "varieties": [
     {
       "is_default": true,

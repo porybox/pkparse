@@ -1,133 +1,49 @@
 {
   "id": 162,
   "name": "victory-star",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "しょうりのほし",
+    "kana": "しょうりのほし",
+    "en": "Victory Star",
+    "fr": "Victorieux",
+    "it": "Vittorstella",
+    "de": "Triumphstern",
+    "es": "Tinovictoria",
+    "ko": "승리의별",
+    "zh-CN": "胜利之星",
+    "zh-TW": "勝利之星"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "自分や　味方の 命中率が　上がる。",
+    "kana": "じぶんや　みかたの めいちゅうりつが　あがる。",
+    "en": "Boosts the accuracy of its allies and itself.",
+    "fr": "Augmente la Précision des Pokémon de l’équipe.",
+    "it": "Aumenta la precisione di tutta la squadra.",
+    "de": "Erhöht die Genauigkeit aller Team-Pokémon.",
+    "es": "Sube la Precisión de todo el equipo.",
+    "ko": "자신과 같은 편의 명중률이 올라간다.",
+    "zh-CN": "自己和同伴的命中率会提高。",
+    "zh-TW": "自己和同伴的命中率會提高。"
+  },
+  "past_values": [
     {
-      "name": "Victory Star",
-      "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "自分や　味方の 命中が　あがる。",
+          "kana": "じぶんや　みかたの めいちゅうが　あがる。",
+          "fr": "Monte la Précision des Pokémon de l’équipe.",
+          "it": "Aumenta la precisione di chi la possiede e quella degli alleati.",
+          "de": "Erhöht Genauigkeit aller Pokémon im Team."
+        }
+      }
     },
     {
-      "name": "Vittorstella",
-      "language": "it"
-    },
-    {
-      "name": "Tinovictoria",
-      "language": "es"
-    },
-    {
-      "name": "Triumphstern",
-      "language": "de"
-    },
-    {
-      "name": "Victorieux",
-      "language": "fr"
-    },
-    {
-      "name": "승리의별",
-      "language": "ko"
-    },
-    {
-      "name": "しょうりのほし",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "All friendly Pokémon's moves, including this Pokémon's own moves, have 1.1× their usual accuracy while this Pokémon is in battle.",
-      "short_effect": "Increases moves' accuracy to 1.1× for friendly Pokémon.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "自分や　味方の\n命中が　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Boosts the accuracy of its\nallies and itself.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Aumenta la precisione di chi la\npossiede e quella degli alleati.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Sube la Precisión de todo el\nequipo.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Erhöht Genauigkeit bei\nallen Pokémon im Team.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Monte la Précision des Pokémon\nde l’équipe.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "자신과 같은 편의\n명중률이 올라간다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "じぶんや　みかたの\nめいちゅうが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Boosts the accuracy of its\nallies and itself.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Boosts the accuracy of its\nallies and itself.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Monte la Précision des\nPokémon de l’équipe.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "victini"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Erhöht Genauigkeit bei allen Pokémon im Team."
+        }
       }
     }
   ]

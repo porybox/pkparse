@@ -1,0 +1,50 @@
+{
+  "id": 690,
+  "name": "beak-blast",
+  "accuracy": 100,
+  "pp": 15,
+  "priority": -3,
+  "power": 100,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "くちばしキャノン",
+    "kana": "くちばしキャノン",
+    "en": "Beak Blast",
+    "fr": "Bec-Canon",
+    "it": "Cannonbecco",
+    "de": "Schnabelkanone",
+    "es": "Pico Cañón",
+    "ko": "부리캐논",
+    "zh-CN": "鸟嘴加农炮",
+    "zh-TW": "鳥嘴加農炮"
+  },
+  "flavor_text_entries": {
+    "ja": "最初に　クチバシを　加熱してから 攻撃を　くりだす。 加熱中に　さわると　やけどする。",
+    "kana": "さいしょに　クチバシを　かねつしてから こうげきを　くりだす。 かねつちゅうに　さわると　やけどする。",
+    "en": "The user first heats up its beak, and then it attacks the target. Making direct contact with the Pokémon while it’s heating up its beak results in a burn.",
+    "fr": "Le lanceur fait chauffer son bec avant d’attaquer. S’il subit une attaque directe pendant la montée en température, l’attaquant sera brûlé.",
+    "it": "Chi la usa arroventa il proprio becco e poi attacca. Se un Pokémon lo colpisce con un attacco diretto mentre sta accumulando calore, resta scottato.",
+    "de": "Der Anwender erhitzt zuerst seinen Schnabel und greift dann an. Pokémon, die ihn während des Erhitzens berühren, erleiden Verbrennungen.",
+    "es": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este le propina un ataque físico mientras está calentando el pico.",
+    "ko": "먼저 부리를 가열시킨 다음 공격을 날린다. 가열 중에 만지면 화상을 입는다.",
+    "zh-CN": "先加热鸟嘴后再进行攻击。 鸟嘴在加热时对手触碰的话， 就会使其灼伤。",
+    "zh-TW": "先加熱鳥嘴後再進行攻擊。 若對手在加熱時觸碰的話， 就會灼傷。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying"
+}

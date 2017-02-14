@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 223,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "humanoid"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ハピナス",
-      "language": "ja"
-    },
-    {
-      "name": "Happinas",
-      "language": "roomaji"
-    },
-    {
-      "name": "해피너스",
-      "language": "ko"
-    },
-    {
-      "name": "幸福蛋",
-      "language": "zh"
-    },
-    {
-      "name": "Leuphorie",
-      "language": "fr"
-    },
-    {
-      "name": "Heiteira",
-      "language": "de"
-    },
-    {
-      "name": "Blissey",
-      "language": "es"
-    },
-    {
-      "name": "Blissey",
-      "language": "it"
-    },
-    {
-      "name": "Blissey",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハピナス",
+    "en": "Blissey",
+    "fr": "Leuphorie",
+    "it": "Blissey",
+    "de": "Heiteira",
+    "es": "Blissey",
+    "ko": "해피너스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しあわせ",
-      "language": "ja"
-    },
-    {
-      "genus": "행복",
-      "language": "ko"
-    },
-    {
-      "genus": "Bonheur",
-      "language": "fr"
-    },
-    {
-      "genus": "Freude",
-      "language": "de"
-    },
-    {
-      "genus": "Felicidad",
-      "language": "es"
-    },
-    {
-      "genus": "Felicità",
-      "language": "it"
-    },
-    {
-      "genus": "Happiness",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しあわせ",
+    "en": "Happiness",
+    "fr": "Bonheur",
+    "it": "Felicità",
+    "de": "Freude",
+    "es": "Felicidad",
+    "ko": "행복"
+  },
   "varieties": [
     {
       "is_default": true,

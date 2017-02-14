@@ -2,34 +2,13 @@
   "id": 592,
   "name": "steam-eruption",
   "accuracy": 95,
-  "effect_chance": 30,
   "pp": 5,
   "priority": 0,
   "power": 110,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "short_effect": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "burn",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Steam Eruption",
-      "language": "en"
-    },
-    {
-      "name": "Vaporscoppio",
-      "language": "it"
-    },
-    {
-      "name": "Chorro de Vapor",
-      "language": "es"
-    },
-    {
-      "name": "Dampfschwall",
-      "language": "de"
-    },
-    {
-      "name": "Jet de Vapeur",
-      "language": "fr"
-    },
-    {
-      "name": "스팀버스트",
-      "language": "ko"
-    },
-    {
-      "name": "スチームバースト",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "スチームバースト",
+    "kana": "スチームバースト",
+    "en": "Steam Eruption",
+    "fr": "Jet de Vapeur",
+    "it": "Vaporscoppio",
+    "de": "Dampfschwall",
+    "es": "Chorro de Vapor",
+    "ko": "스팀버스트",
+    "zh-CN": "蒸汽爆炸",
+    "zh-TW": "蒸汽爆炸"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "ものすごく　熱い　蒸気を 相手に　浴びせる。 相手は　やけどする　ことがある。",
+    "kana": "ものすごく　あつい　じょうきを あいてに　あびせる。 あいては　やけどする　ことがある。",
+    "en": "The user immerses the target in superheated steam. This may also leave the target with a burn.",
+    "fr": "Plonge l’ennemi dans une chaleur étouffante. Peut le brûler.",
+    "it": "Travolge il bersaglio con un’ondata di vapore rovente che può anche scottarlo.",
+    "de": "Der Anwender feuert einen siedend heißen Dampfschwall auf das Ziel ab. Dieses kann dabei Verbrennungen erleiden.",
+    "es": "Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.",
+    "ko": "상대에게 굉장히 뜨거운 증기를 뿜는다. 상대는 화상을 입기도 한다.",
+    "zh-CN": "将滚烫的蒸汽喷向对手。 有时会让对手灼伤。",
+    "zh-TW": "將超高溫的蒸汽噴向對手。 有時會讓對手陷入灼傷狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water"
 }

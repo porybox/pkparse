@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 120,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "armor"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "フシデ",
-      "language": "ja"
-    },
-    {
-      "name": "마디네",
-      "language": "ko"
-    },
-    {
-      "name": "Venipatte",
-      "language": "fr"
-    },
-    {
-      "name": "Toxiped",
-      "language": "de"
-    },
-    {
-      "name": "Venipede",
-      "language": "es"
-    },
-    {
-      "name": "Venipede",
-      "language": "it"
-    },
-    {
-      "name": "Venipede",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フシデ",
+    "en": "Venipede",
+    "fr": "Venipatte",
+    "it": "Venipede",
+    "de": "Toxiped",
+    "es": "Venipede",
+    "ko": "마디네"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ムカデ",
-      "language": "ja"
-    },
-    {
-      "genus": "지네",
-      "language": "ko"
-    },
-    {
-      "genus": "Chilopode",
-      "language": "fr"
-    },
-    {
-      "genus": "Tausendfüßer",
-      "language": "de"
-    },
-    {
-      "genus": "Ciempiés",
-      "language": "es"
-    },
-    {
-      "genus": "Centipede",
-      "language": "it"
-    },
-    {
-      "genus": "Centipede",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ムカデ",
+    "en": "Centipede",
+    "fr": "Chilopode",
+    "it": "Centipede",
+    "de": "Tausendfüßer",
+    "es": "Ciempiés",
+    "ko": "지네"
+  },
   "varieties": [
     {
       "is_default": true,

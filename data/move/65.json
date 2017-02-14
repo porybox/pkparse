@@ -2,49 +2,13 @@
   "id": 65,
   "name": "drill-peck",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 80,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "peck"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Drill Peck",
-      "language": "en"
-    },
-    {
-      "name": "Perforbecco",
-      "language": "it"
-    },
-    {
-      "name": "Pico Taladro",
-      "language": "es"
-    },
-    {
-      "name": "Bohrschnabel",
-      "language": "de"
-    },
-    {
-      "name": "Bec Vrille",
-      "language": "fr"
-    },
-    {
-      "name": "회전부리",
-      "language": "ko"
-    },
-    {
-      "name": "ドリルくちばし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ドリルくちばし",
+    "kana": "ドリルくちばし",
+    "en": "Drill Peck",
+    "fr": "Bec Vrille",
+    "it": "Perforbecco",
+    "de": "Bohrschnabel",
+    "es": "Pico Taladro",
+    "ko": "회전부리",
+    "zh-CN": "啄钻",
+    "zh-TW": "啄鑽"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "回転しながら　とがった　くちばしを 相手に　突き刺して　攻撃する。",
+    "kana": "かいてん　しながら　とがった　くちばしを あいてに　つきさして　こうげきする。",
+    "en": "A corkscrewing attack with a sharp beak acting as a drill.",
+    "fr": "Une attaque utilisant le bec comme une perceuse.",
+    "it": "Attacco a spirale con un becco aguzzo che fa da trapano.",
+    "de": "Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.",
+    "es": "Picotazo giratorio y perforador muy potente.",
+    "ko": "회전하면서 뾰족한 부리를 상대에게 꿰찔러 공격한다.",
+    "zh-CN": "一边旋转，一边将尖喙 刺入对手进行攻击。",
+    "zh-TW": "一邊旋轉，一邊將尖喙 刺進對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying"
 }

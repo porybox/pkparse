@@ -1,0 +1,46 @@
+{
+  "id": 742,
+  "name": "cutiefly",
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug",
+    "fairy"
+  ],
+  "color": "yellow",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "アブリー",
+    "en": "Cutiefly",
+    "fr": "Bombydou",
+    "it": "Cutiefly",
+    "de": "Wommel",
+    "es": "Cutiefly",
+    "ko": "에블리"
+  },
+  "genera": {
+    "ja": "ツリアブ",
+    "en": "Bee Fly",
+    "fr": "Bombyle",
+    "it": "Bombilide",
+    "de": "Hummelfliege",
+    "es": "Mosca Abeja",
+    "ko": "재니등에"
+  },
+  "types": [
+    "bug",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special-attack": 55,
+    "special-defense": 40,
+    "speed": 84
+  }
+}

@@ -2,34 +2,13 @@
   "id": 506,
   "name": "hex",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 65,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target has a [major status ailment]{mechanic:major-status-ailment}, this move has double power.",
-      "short_effect": "Has double power if the target has a major status ailment.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Hex",
-      "language": "en"
-    },
-    {
-      "name": "Sciagura",
-      "language": "it"
-    },
-    {
-      "name": "Infortunio",
-      "language": "es"
-    },
-    {
-      "name": "Bürde",
-      "language": "de"
-    },
-    {
-      "name": "Châtiment",
-      "language": "fr"
-    },
-    {
-      "name": "병상첨병",
-      "language": "ko"
-    },
-    {
-      "name": "たたりめ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "たたりめ",
+    "kana": "たたりめ",
+    "en": "Hex",
+    "fr": "Châtiment",
+    "it": "Sciagura",
+    "de": "Bürde",
+    "es": "Infortunio",
+    "ko": "병상첨병",
+    "zh-CN": "祸不单行",
+    "zh-TW": "禍不單行"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "たたみかける　ように　攻撃する。 状態異常の　相手に 大きな　ダメージを　与える。",
+    "kana": "たたみかける　ように　こうげきする。 じょうたい　いじょうの　あいてに おおきな　ダメージを　あたえる。",
+    "en": "This relentless attack does massive damage to a target affected by status conditions.",
+    "fr": "Attaque acharnée qui cause davantage de dégâts à l’ennemi s’il a un problème de statut.",
+    "it": "Attacco che causa un danno enorme se il bersaglio ha problemi di stato.",
+    "de": "Eine Attacke, bei der der Anwender das Ziel bedrängt. Fügt Zielen mit Statusproblemen hohen Schaden zu.",
+    "es": "Ataque que causa un gran daño a los objetivos que sufren problemas de estado.",
+    "ko": "엎친 데 덮친 격으로 공격한다. 상태 이상인 상대에게 큰 데미지를 준다.",
+    "zh-CN": "接二连三地进行攻击。 对处于异常状态的对手 给予较大的伤害。",
+    "zh-TW": "接二連三地向對手進行攻擊。 攻擊陷入異常狀態的對手時， 能給予較大的傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost"
 }

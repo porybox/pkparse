@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 170,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "arms"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ネンドール",
-      "language": "ja"
-    },
-    {
-      "name": "Nendoll",
-      "language": "roomaji"
-    },
-    {
-      "name": "점토도리",
-      "language": "ko"
-    },
-    {
-      "name": "念力土偶",
-      "language": "zh"
-    },
-    {
-      "name": "Kaorine",
-      "language": "fr"
-    },
-    {
-      "name": "Lepumentas",
-      "language": "de"
-    },
-    {
-      "name": "Claydol",
-      "language": "es"
-    },
-    {
-      "name": "Claydol",
-      "language": "it"
-    },
-    {
-      "name": "Claydol",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ネンドール",
+    "en": "Claydol",
+    "fr": "Kaorine",
+    "it": "Claydol",
+    "de": "Lepumentas",
+    "es": "Claydol",
+    "ko": "점토도리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どぐう",
-      "language": "ja"
-    },
-    {
-      "genus": "토우",
-      "language": "ko"
-    },
-    {
-      "genus": "Poupargile",
-      "language": "fr"
-    },
-    {
-      "genus": "Lehmpuppe",
-      "language": "de"
-    },
-    {
-      "genus": "Muñeca Barro",
-      "language": "es"
-    },
-    {
-      "genus": "Argilla",
-      "language": "it"
-    },
-    {
-      "genus": "Clay Doll",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どぐう",
+    "en": "Clay Doll",
+    "fr": "Poupargile",
+    "it": "Argilla",
+    "de": "Lehmpuppe",
+    "es": "Muñeca Barro",
+    "ko": "토우"
+  },
   "varieties": [
     {
       "is_default": true,

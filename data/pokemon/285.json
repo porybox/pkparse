@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 34,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "fairy"
-    }
+    "fairy",
+    "plant"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "legs"
   },
@@ -48,44 +40,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "キノココ",
-      "language": "ja"
-    },
-    {
-      "name": "Kinococo",
-      "language": "roomaji"
-    },
-    {
-      "name": "버섯꼬",
-      "language": "ko"
-    },
-    {
-      "name": "蘑蘑菇",
-      "language": "zh"
-    },
-    {
-      "name": "Balignon",
-      "language": "fr"
-    },
-    {
-      "name": "Knilz",
-      "language": "de"
-    },
-    {
-      "name": "Shroomish",
-      "language": "es"
-    },
-    {
-      "name": "Shroomish",
-      "language": "it"
-    },
-    {
-      "name": "Shroomish",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "キノココ",
+    "en": "Shroomish",
+    "fr": "Balignon",
+    "it": "Shroomish",
+    "de": "Knilz",
+    "es": "Shroomish",
+    "ko": "버섯꼬"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -96,36 +59,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きのこ",
-      "language": "ja"
-    },
-    {
-      "genus": "버섯",
-      "language": "ko"
-    },
-    {
-      "genus": "Champignon",
-      "language": "fr"
-    },
-    {
-      "genus": "Pilz",
-      "language": "de"
-    },
-    {
-      "genus": "Hongo",
-      "language": "es"
-    },
-    {
-      "genus": "Fungo",
-      "language": "it"
-    },
-    {
-      "genus": "Mushroom",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きのこ",
+    "en": "Mushroom",
+    "fr": "Champignon",
+    "it": "Fungo",
+    "de": "Pilz",
+    "es": "Hongo",
+    "ko": "버섯"
+  },
   "varieties": [
     {
       "is_default": true,

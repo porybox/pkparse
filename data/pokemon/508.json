@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 24,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "quadruped"
   },
@@ -51,68 +45,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ムーランド",
-      "language": "ja"
-    },
-    {
-      "name": "바랜드",
-      "language": "ko"
-    },
-    {
-      "name": "Mastouffe",
-      "language": "fr"
-    },
-    {
-      "name": "Bissbark",
-      "language": "de"
-    },
-    {
-      "name": "Stoutland",
-      "language": "es"
-    },
-    {
-      "name": "Stoutland",
-      "language": "it"
-    },
-    {
-      "name": "Stoutland",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ムーランド",
+    "en": "Stoutland",
+    "fr": "Mastouffe",
+    "it": "Stoutland",
+    "de": "Bissbark",
+    "es": "Stoutland",
+    "ko": "바랜드"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かんだい",
-      "language": "ja"
-    },
-    {
-      "genus": "관대",
-      "language": "ko"
-    },
-    {
-      "genus": "Magnanime",
-      "language": "fr"
-    },
-    {
-      "genus": "Großmut",
-      "language": "de"
-    },
-    {
-      "genus": "Magnánimo",
-      "language": "es"
-    },
-    {
-      "genus": "Generosità",
-      "language": "it"
-    },
-    {
-      "genus": "Big-Hearted",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かんだい",
+    "en": "Big-Hearted",
+    "fr": "Magnanime",
+    "it": "Generosità",
+    "de": "Großmut",
+    "es": "Magnánimo",
+    "ko": "관대"
+  },
   "varieties": [
     {
       "is_default": true,

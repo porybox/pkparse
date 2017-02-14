@@ -1,0 +1,38 @@
+{
+  "id": 152,
+  "name": "rawst-berry",
+  "names": {
+    "ja": "チーゴのみ",
+    "kana": "チーゴのみ",
+    "en": "Rawst Berry",
+    "fr": "Baie Fraive",
+    "it": "Baccafrago",
+    "de": "Fragiabeere",
+    "es": "Baya Safre",
+    "ko": "복분열매",
+    "zh-CN": "莓莓果",
+    "zh-TW": "莓莓果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると やけどを　回復する。",
+    "kana": "ポケモンに　もたせると やけどを　かいふくする。",
+    "en": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from a burn on its own in battle.",
+    "fr": "Une Baie qui soigne une brûlure lorsqu’elle est tenue par un Pokémon.",
+    "it": "Se un Pokémon ha questa bacca, guarisce dalle scottature.",
+    "de": "Gibst du die Beere einem Pokémon zum Tragen, heilt diese es von Verbrennungen.",
+    "es": "Los Pokémon pueden llevarla o usarla para curarse las quemaduras.",
+    "ko": "포켓몬에게 지니게 하면 화상을 회복한다.",
+    "zh-CN": "让宝可梦携带后， 可以治愈灼伤。",
+    "zh-TW": "讓寶可夢攜帶後， 可以治癒灼傷。"
+  },
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une Baie qui soigne les brûlures lorsqu’elle est tenue par un Pokémon."
+        }
+      }
+    }
+  ]
+}

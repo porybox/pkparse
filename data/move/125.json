@@ -2,59 +2,13 @@
   "id": 125,
   "name": "bone-club",
   "accuracy": 85,
-  "effect_chance": 10,
   "pp": 20,
   "priority": 0,
   "power": 65,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "bonemerang"
-        },
-        {
-          "name": "bone-rush"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "bonemerang"
-        },
-        {
-          "name": "bone-rush"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -66,43 +20,31 @@
     "flinch_chance": 10,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Bone Club",
-      "language": "en"
-    },
-    {
-      "name": "Ossoclava",
-      "language": "it"
-    },
-    {
-      "name": "Hueso Palo",
-      "language": "es"
-    },
-    {
-      "name": "Knochenkeule",
-      "language": "de"
-    },
-    {
-      "name": "Massd'Os",
-      "language": "fr"
-    },
-    {
-      "name": "뼈다귀치기",
-      "language": "ko"
-    },
-    {
-      "name": "ホネこんぼう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ホネこんぼう",
+    "kana": "ホネこんぼう",
+    "en": "Bone Club",
+    "fr": "Massd’Os",
+    "it": "Ossoclava",
+    "de": "Knochenkeule",
+    "es": "Hueso Palo",
+    "ko": "뼈다귀치기",
+    "zh-CN": "骨棒",
+    "zh-TW": "骨棒"
   },
-  "type": {
-    "name": "ground"
-  }
+  "flavor_text_entries": {
+    "ja": "手に　持った　ホネで 相手を　なぐりつけて　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "てに　もった　ホネで あいてを　なぐりつけて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user clubs the target with a bone. This may also make the target flinch.",
+    "fr": "Le lanceur frappe l’ennemi à grands coups d’os. Peut aussi l’apeurer.",
+    "it": "Chi la usa colpisce il bersaglio con un osso e può farlo anche tentennare.",
+    "de": "Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.",
+    "es": "Aporrea con un hueso. Puede hacer retroceder al objetivo.",
+    "ko": "손에 들고 있는 뼈로 상대를 세게 때려서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "用手中的骨头 殴打对手进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "用手中的骨頭 毆打對手進行攻擊。 有時會使對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ground"
 }

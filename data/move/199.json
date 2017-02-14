@@ -2,61 +2,13 @@
   "id": 199,
   "name": "lock-on",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "thunder"
-        },
-        {
-          "name": "tri-attack"
-        },
-        {
-          "name": "octazooka"
-        },
-        {
-          "name": "zap-cannon"
-        },
-        {
-          "name": "superpower"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "If the user targets the same target again before the end of the next turn, the move it uses is guaranteed to hit.  This move itself also ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.\n\nOne-hit KO moves are also guaranteed to hit, as long as the user is equal or higher level than the target.  This effect also allows the user to hit Pokémon that are off the field due to moves such as []{move:dig} or []{move:fly}.\n\nIf the target uses []{move:detect} or []{move:protect} while under the effect of this move, the user is not guaranteed to hit, but has a (100 - accuracy)% chance to break through the protection.\n\nThis effect is passed on by []{move:baton-pass}.",
-      "short_effect": "Ensures that the user's next move will hit the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -68,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Lock-On",
-      "language": "en"
-    },
-    {
-      "name": "Localizza",
-      "language": "it"
-    },
-    {
-      "name": "Fijar Blanco",
-      "language": "es"
-    },
-    {
-      "name": "Zielschuss",
-      "language": "de"
-    },
-    {
-      "name": "Verrouillage",
-      "language": "fr"
-    },
-    {
-      "name": "록온",
-      "language": "ko"
-    },
-    {
-      "name": "ロックオン",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ロックオン",
+    "kana": "ロックオン",
+    "en": "Lock-On",
+    "fr": "Verrouillage",
+    "it": "Localizza",
+    "de": "Zielschuss",
+    "es": "Fijar Blanco",
+    "ko": "록온",
+    "zh-CN": "锁定",
+    "zh-TW": "鎖定"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "照準を　しっかり　あわせて 次の　攻撃が　必ず 相手に　当たるように　する。",
+    "kana": "しょうじゅんを　しっかり　あわせて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+    "en": "The user takes sure aim at the target. This ensures the next attack does not miss the target.",
+    "fr": "Verrouille l’ennemi pour ne pas le rater au tour suivant.",
+    "it": "Chi la usa punta il bersaglio con precisione. La mossa successiva andrà a segno.",
+    "de": "Visiert das Ziel an und trifft in der nächsten Runde garantiert.",
+    "es": "Fija el blanco para que el siguiente ataque no falle.",
+    "ko": "조준을 잘 맞춰 다음 공격이 반드시 상대에게 명중하도록 한다.",
+    "zh-CN": "紧紧瞄准对手， 下次攻击必定会打中。",
+    "zh-TW": "精確地瞄準， 下次攻擊時一定 會命中對手。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

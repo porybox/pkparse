@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 61,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ガラガラ",
-      "language": "ja"
-    },
-    {
-      "name": "Garagara",
-      "language": "roomaji"
-    },
-    {
-      "name": "텅구리",
-      "language": "ko"
-    },
-    {
-      "name": "嘎啦嘎啦",
-      "language": "zh"
-    },
-    {
-      "name": "Ossatueur",
-      "language": "fr"
-    },
-    {
-      "name": "Knogga",
-      "language": "de"
-    },
-    {
-      "name": "Marowak",
-      "language": "es"
-    },
-    {
-      "name": "Marowak",
-      "language": "it"
-    },
-    {
-      "name": "Marowak",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ガラガラ",
+    "en": "Marowak",
+    "fr": "Ossatueur",
+    "it": "Marowak",
+    "de": "Knogga",
+    "es": "Marowak",
+    "ko": "텅구리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほねずき",
-      "language": "ja"
-    },
-    {
-      "genus": "뼈다귀",
-      "language": "ko"
-    },
-    {
-      "genus": "Gard'Os",
-      "language": "fr"
-    },
-    {
-      "genus": "Knochenfan",
-      "language": "de"
-    },
-    {
-      "genus": "Apilahueso",
-      "language": "es"
-    },
-    {
-      "genus": "Guardaossi",
-      "language": "it"
-    },
-    {
-      "genus": "Bone Keeper",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほねずき",
+    "en": "Bone Keeper",
+    "fr": "Gard’Os",
+    "it": "Guardaossi",
+    "de": "Knochenfan",
+    "es": "Apilahueso",
+    "ko": "뼈다귀"
+  },
   "varieties": [
     {
       "is_default": true,

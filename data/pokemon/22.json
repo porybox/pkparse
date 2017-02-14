@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 110,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "wings"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "オニドリル",
-      "language": "ja"
-    },
-    {
-      "name": "Onidrill",
-      "language": "roomaji"
-    },
-    {
-      "name": "깨비드릴조",
-      "language": "ko"
-    },
-    {
-      "name": "大嘴雀",
-      "language": "zh"
-    },
-    {
-      "name": "Rapasdepic",
-      "language": "fr"
-    },
-    {
-      "name": "Ibitak",
-      "language": "de"
-    },
-    {
-      "name": "Fearow",
-      "language": "es"
-    },
-    {
-      "name": "Fearow",
-      "language": "it"
-    },
-    {
-      "name": "Fearow",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オニドリル",
+    "en": "Fearow",
+    "fr": "Rapasdepic",
+    "it": "Fearow",
+    "de": "Ibitak",
+    "es": "Fearow",
+    "ko": "깨비드릴조"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くちばし",
-      "language": "ja"
-    },
-    {
-      "genus": "부리",
-      "language": "ko"
-    },
-    {
-      "genus": "Bec-Oiseau",
-      "language": "fr"
-    },
-    {
-      "genus": "Pickvogel",
-      "language": "de"
-    },
-    {
-      "genus": "Pico",
-      "language": "es"
-    },
-    {
-      "genus": "Becco",
-      "language": "it"
-    },
-    {
-      "genus": "Beak",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くちばし",
+    "en": "Beak",
+    "fr": "Bec-Oiseau",
+    "it": "Becco",
+    "de": "Pickvogel",
+    "es": "Pico",
+    "ko": "부리"
+  },
   "varieties": [
     {
       "is_default": true,

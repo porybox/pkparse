@@ -1,0 +1,40 @@
+{
+  "id": 191,
+  "name": "delta-stream",
+  "names": {
+    "ja": "デルタストリーム",
+    "kana": "デルタストリーム",
+    "en": "Delta Stream",
+    "fr": "Souffle Delta",
+    "it": "Flusso Delta",
+    "de": "Delta-Wind",
+    "es": "Ráfaga Delta",
+    "ko": "델타스트림",
+    "zh-CN": "德尔塔气流",
+    "zh-TW": "德爾塔氣流"
+  },
+  "flavor_text_entries": {
+    "ja": "ひこうタイプの　弱点が なくなる　天気にする。",
+    "kana": "ひこうタイプの　じゃくてんが なくなる　てんきにする。",
+    "en": "The Pokémon changes the weather to eliminate all of the Flying type’s weaknesses.",
+    "fr": "Altère les conditions météo et annule les faiblesses du type Vol.",
+    "it": "Crea un clima che annulla i punti deboli del tipo Volante.",
+    "de": "Ändert das Wetter, um die Schwächen des Typs Flug zu beseitigen.",
+    "es": "Altera el clima para anular las vulnerabilidades del tipo Volador.",
+    "ko": "비행타입의 약점이 없어지는 날씨로 만든다.",
+    "zh-CN": "变为令飞行属性的弱点 消失的天气。",
+    "zh-TW": "變為令飛行屬性的弱點 消失的天氣。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "ひこうの　じゃくてんが なくなる　てんきにする。",
+          "en": "Affects weather and eliminates all of the Flying type’s weaknesses.",
+          "de": "Ändert das Wetter. Schwächen des Typs Flug werden beseitigt."
+        }
+      }
+    }
+  ]
+}

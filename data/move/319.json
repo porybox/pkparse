@@ -2,49 +2,13 @@
   "id": 319,
   "name": "metal-sound",
   "accuracy": 85,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "metal-claw"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Special Defense by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Metal Sound",
-      "language": "en"
-    },
-    {
-      "name": "Ferrostrido",
-      "language": "it"
-    },
-    {
-      "name": "Eco Metálico",
-      "language": "es"
-    },
-    {
-      "name": "Metallsound",
-      "language": "de"
-    },
-    {
-      "name": "Strido-Son",
-      "language": "fr"
-    },
-    {
-      "name": "금속음",
-      "language": "ko"
-    },
-    {
-      "name": "きんぞくおん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "きんぞくおん",
+    "kana": "きんぞくおん",
+    "en": "Metal Sound",
+    "fr": "Strido-Son",
+    "it": "Ferrostrido",
+    "de": "Metallsound",
+    "es": "Eco Metálico",
+    "ko": "금속음",
+    "zh-CN": "金属音",
+    "zh-TW": "金屬音"
+  },
+  "flavor_text_entries": {
+    "ja": "金属を　こすって　でるような いやな　音を　聞かせる。 相手の　特防を　がくっと　さげる。",
+    "kana": "きんぞくを　こすって　でるような いやな　おとを　きかせる。 あいての　とくぼうを　がくっと　さげる。",
+    "en": "A horrible sound like scraping metal harshly lowers the target’s Sp. Def stat.",
+    "fr": "Un cri horrible tel un crissement métallique qui réduit beaucoup la Défense Spéciale de l’ennemi.",
+    "it": "Orribile stridio, simile a quello prodotto dal metallo, che riduce di molto la Difesa Speciale del bersaglio.",
+    "de": "Stößt einen spitzen Schrei aus, der die Spezial-Verteidigung des Zieles stark senkt.",
+    "es": "Horrible chirrido metálico que baja mucho la Defensa Especial del objetivo.",
+    "ko": "금속을 긁을 때 나는 듯한 싫은 소리를 들려준다. 상대의 특수방어를 크게 떨어뜨린다.",
+    "zh-CN": "让对手听摩擦金属般 讨厌的声音。 大幅降低对手的特防。",
+    "zh-TW": "讓對手聽如同金屬摩擦般 的刺耳聲。 大幅降低對手的特防。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "steel"
-  }
+  "target": "selected-pokemon",
+  "type": "steel",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un cri horrible tel un crissement métallique qui réduit fortement la Défense Spéciale de l’ennemi."
+        }
+      }
+    }
+  ]
 }

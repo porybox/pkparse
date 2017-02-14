@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 6,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "quadruped"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "バクフーン",
-      "language": "ja"
-    },
-    {
-      "name": "Bakphoon",
-      "language": "roomaji"
-    },
-    {
-      "name": "블레이범",
-      "language": "ko"
-    },
-    {
-      "name": "火暴獸",
-      "language": "zh"
-    },
-    {
-      "name": "Typhlosion",
-      "language": "fr"
-    },
-    {
-      "name": "Tornupto",
-      "language": "de"
-    },
-    {
-      "name": "Typhlosion",
-      "language": "es"
-    },
-    {
-      "name": "Typhlosion",
-      "language": "it"
-    },
-    {
-      "name": "Typhlosion",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バクフーン",
+    "en": "Typhlosion",
+    "fr": "Typhlosion",
+    "it": "Typhlosion",
+    "de": "Tornupto",
+    "es": "Typhlosion",
+    "ko": "블레이범"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かざん",
-      "language": "ja"
-    },
-    {
-      "genus": "화산",
-      "language": "ko"
-    },
-    {
-      "genus": "Volcan",
-      "language": "fr"
-    },
-    {
-      "genus": "Vulkan",
-      "language": "de"
-    },
-    {
-      "genus": "Volcán",
-      "language": "es"
-    },
-    {
-      "genus": "Vulcano",
-      "language": "it"
-    },
-    {
-      "genus": "Volcano",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かざん",
+    "en": "Volcano",
+    "fr": "Volcan",
+    "it": "Vulcano",
+    "de": "Vulkan",
+    "es": "Volcán",
+    "ko": "화산"
+  },
   "varieties": [
     {
       "is_default": true,

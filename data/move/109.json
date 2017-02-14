@@ -2,36 +2,13 @@
   "id": 109,
   "name": "confuse-ray",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "[Confuse]{mechanic:confuse}s the target.",
-      "short_effect": "Confuses the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "confusion",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Confuse Ray",
-      "language": "en"
-    },
-    {
-      "name": "Stordiraggio",
-      "language": "it"
-    },
-    {
-      "name": "Rayo Confuso",
-      "language": "es"
-    },
-    {
-      "name": "Konfustrahl",
-      "language": "de"
-    },
-    {
-      "name": "Onde Folie",
-      "language": "fr"
-    },
-    {
-      "name": "이상한빛",
-      "language": "ko"
-    },
-    {
-      "name": "あやしいひかり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "あやしいひかり",
+    "kana": "あやしいひかり",
+    "en": "Confuse Ray",
+    "fr": "Onde Folie",
+    "it": "Stordiraggio",
+    "de": "Konfustrahl",
+    "es": "Rayo Confuso",
+    "ko": "이상한빛",
+    "zh-CN": "奇异之光",
+    "zh-TW": "奇異之光"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "怪しい　光を 相手に　みせて　まどわせる。 相手を　混乱させる。",
+    "kana": "あやしい　ひかりを あいてに　みせて　まどわせる。 あいてを　こんらん　させる。",
+    "en": "The target is exposed to a sinister ray that triggers confusion.",
+    "fr": "Un rayon sinistre qui plonge l’ennemi dans un état de confusion.",
+    "it": "Colpisce il bersaglio con un raggio funesto che lo confonde.",
+    "de": "Ein fieser Strahl, der das Ziel verwirrt.",
+    "es": "Rayo siniestro que confunde al objetivo.",
+    "ko": "이상한 빛을 상대에게 비춰 당황하게 한다. 상대를 혼란시킨다.",
+    "zh-CN": "显示奇怪的光， 扰乱对手。 使对手混乱。",
+    "zh-TW": "讓對手看奇怪的光線 擾亂對手。 使對手混亂。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost"
 }

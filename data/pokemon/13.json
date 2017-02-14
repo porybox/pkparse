@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 26,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "squiggle"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ビードル",
-      "language": "ja"
-    },
-    {
-      "name": "Beedle",
-      "language": "roomaji"
-    },
-    {
-      "name": "뿔충이",
-      "language": "ko"
-    },
-    {
-      "name": "獨角蟲",
-      "language": "zh"
-    },
-    {
-      "name": "Aspicot",
-      "language": "fr"
-    },
-    {
-      "name": "Hornliu",
-      "language": "de"
-    },
-    {
-      "name": "Weedle",
-      "language": "es"
-    },
-    {
-      "name": "Weedle",
-      "language": "it"
-    },
-    {
-      "name": "Weedle",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ビードル",
+    "en": "Weedle",
+    "fr": "Aspicot",
+    "it": "Weedle",
+    "de": "Hornliu",
+    "es": "Weedle",
+    "ko": "뿔충이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "けむし",
-      "language": "ja"
-    },
-    {
-      "genus": "송충이",
-      "language": "ko"
-    },
-    {
-      "genus": "Insectopic",
-      "language": "fr"
-    },
-    {
-      "genus": "Raupe",
-      "language": "de"
-    },
-    {
-      "genus": "Oruga",
-      "language": "es"
-    },
-    {
-      "genus": "Millepiedi",
-      "language": "it"
-    },
-    {
-      "genus": "Hairy Bug",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "けむし",
+    "en": "Hairy Bug",
+    "fr": "Insectopic",
+    "it": "Millepiedi",
+    "de": "Raupe",
+    "es": "Oruga",
+    "ko": "송충이"
+  },
   "varieties": [
     {
       "is_default": true,

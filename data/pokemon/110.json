@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 47,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "heads"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "マタドガス",
-      "language": "ja"
-    },
-    {
-      "name": "Matadogas",
-      "language": "roomaji"
-    },
-    {
-      "name": "또도가스",
-      "language": "ko"
-    },
-    {
-      "name": "雙彈瓦斯",
-      "language": "zh"
-    },
-    {
-      "name": "Smogogo",
-      "language": "fr"
-    },
-    {
-      "name": "Smogmog",
-      "language": "de"
-    },
-    {
-      "name": "Weezing",
-      "language": "es"
-    },
-    {
-      "name": "Weezing",
-      "language": "it"
-    },
-    {
-      "name": "Weezing",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マタドガス",
+    "en": "Weezing",
+    "fr": "Smogogo",
+    "it": "Weezing",
+    "de": "Smogmog",
+    "es": "Weezing",
+    "ko": "또도가스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どくガス",
-      "language": "ja"
-    },
-    {
-      "genus": "독가스",
-      "language": "ko"
-    },
-    {
-      "genus": "Gaz Mortel",
-      "language": "fr"
-    },
-    {
-      "genus": "Giftwolke",
-      "language": "de"
-    },
-    {
-      "genus": "Gas Venenoso",
-      "language": "es"
-    },
-    {
-      "genus": "Velenuvola",
-      "language": "it"
-    },
-    {
-      "genus": "Poison Gas",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どくガス",
+    "en": "Poison Gas",
+    "fr": "Gaz Mortel",
+    "it": "Velenuvola",
+    "de": "Giftwolke",
+    "es": "Gas Venenoso",
+    "ko": "독가스"
+  },
   "varieties": [
     {
       "is_default": true,

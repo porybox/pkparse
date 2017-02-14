@@ -1,0 +1,39 @@
+{
+  "id": 700,
+  "name": "elevator-key",
+  "names": {
+    "ja": "エレベータのキー",
+    "kana": "エレベータのキー",
+    "en": "Elevator Key",
+    "fr": "Clé Ascenseur",
+    "it": "Chiave ascensore",
+    "de": "Liftschlüssel",
+    "es": "Llave Ascensor",
+    "ko": "엘리베이터키",
+    "zh-CN": "电梯钥匙",
+    "zh-TW": "電梯鑰匙"
+  },
+  "flavor_text_entries": {
+    "ja": "フラダリラボに　ある エレベータを　動かす　カードキー。 フレア団の　マークいり。",
+    "kana": "フラダリラボに　ある エレベータを　うごかす　カードキー。 フレアだんの　マークいり。",
+    "en": "A card key that activates the elevator in Lysandre Labs. It is emblazoned with Team Flare’s logo.",
+    "fr": "Un passe de sécurité permettant d’accéder à l’ascenseur des Laboratoires Lysandre. Il est décoré du logo de la Team Flare.",
+    "it": "Tessera magnetica con il simbolo del Team Flare che attiva l’ascensore dei Laboratori Elisio.",
+    "de": "Eine Schlüsselkarte mit dem Logo von Team Flare. Sie aktiviert den Fahrstuhl im Labor von Flordelis.",
+    "es": "Tarjeta con el logotipo del Team Flare que activa el ascensor de los Laboratorios Lysson.",
+    "ko": "플라드리 래버러토리에 있는 엘리베이터를 작동시키는 카드키. 플레어단의 마크가 새겨져 있다.",
+    "zh-CN": "可以启动弗拉达利 研究所里电梯的钥匙卡。 上面有着闪焰队的标志。",
+    "zh-TW": "可以啟動弗拉達利 研究所裡電梯的鑰匙卡。 上面有著閃焰隊的標誌。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "フラダリラボに　ある エレベータを　動かす　カードキー。 フレア団の マークいり。",
+          "kana": "フラダリラボに　ある エレベータを　うごかす　カードキー。 フレアだんの マークいり。"
+        }
+      }
+    }
+  ]
+}

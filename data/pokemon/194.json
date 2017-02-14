@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 17,
@@ -57,16 +55,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "legs"
   },
@@ -78,44 +70,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ウパー",
-      "language": "ja"
-    },
-    {
-      "name": "Upah",
-      "language": "roomaji"
-    },
-    {
-      "name": "우파",
-      "language": "ko"
-    },
-    {
-      "name": "烏波",
-      "language": "zh"
-    },
-    {
-      "name": "Axoloto",
-      "language": "fr"
-    },
-    {
-      "name": "Felino",
-      "language": "de"
-    },
-    {
-      "name": "Wooper",
-      "language": "es"
-    },
-    {
-      "name": "Wooper",
-      "language": "it"
-    },
-    {
-      "name": "Wooper",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ウパー",
+    "en": "Wooper",
+    "fr": "Axoloto",
+    "it": "Wooper",
+    "de": "Felino",
+    "es": "Wooper",
+    "ko": "우파"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -126,36 +89,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みずうお",
-      "language": "ja"
-    },
-    {
-      "genus": "수어",
-      "language": "ko"
-    },
-    {
-      "genus": "Poisson",
-      "language": "fr"
-    },
-    {
-      "genus": "Fisch",
-      "language": "de"
-    },
-    {
-      "genus": "Pez Agua",
-      "language": "es"
-    },
-    {
-      "genus": "Acquapesce",
-      "language": "it"
-    },
-    {
-      "genus": "Water Fish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みずうお",
+    "en": "Water Fish",
+    "fr": "Poisson",
+    "it": "Acquapesce",
+    "de": "Fisch",
+    "es": "Pez Agua",
+    "ko": "수어"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,38 @@
+{
+  "id": 153,
+  "name": "aspear-berry",
+  "names": {
+    "ja": "ナナシのみ",
+    "kana": "ナナシのみ",
+    "en": "Aspear Berry",
+    "fr": "Baie Willia",
+    "it": "Baccaperina",
+    "de": "Wilbirbeere",
+    "es": "Baya Perasi",
+    "ko": "배리열매",
+    "zh-CN": "利木果",
+    "zh-TW": "利木果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると こおりを　回復する。",
+    "kana": "ポケモンに　もたせると こおりを　かいふくする。",
+    "en": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it can recover from being frozen on its own in battle.",
+    "fr": "Une Baie qui soigne le gel lorsqu’elle est tenue par un Pokémon.",
+    "it": "Se un Pokémon ha questa bacca, guarisce dal congelamento.",
+    "de": "Gibst du die Beere einem Pokémon zum Tragen, taut diese es auf, wenn es eingefroren wird.",
+    "es": "Los Pokémon pueden llevarla o usarla para descongelarse.",
+    "ko": "포켓몬에게 지니게 하면 얼음을 회복한다.",
+    "zh-CN": "让宝可梦携带后， 可以治愈冰冻。",
+    "zh-TW": "讓寶可夢攜帶後， 可以治癒冰凍。"
+  },
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Gibst du die Beere einem Pokémon zum Tragen, heilt diese es von Frost."
+        }
+      }
+    }
+  ]
+}

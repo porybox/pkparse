@@ -1,0 +1,46 @@
+{
+  "id": 690,
+  "name": "tm96",
+  "names": {
+    "ja": "わざマシン９６",
+    "kana": "わざマシン９６",
+    "en": "TM96",
+    "fr": "CT96",
+    "it": "MT96",
+    "de": "TM96",
+    "es": "MT96",
+    "ko": "기술머신96",
+    "zh-CN": "招式学习器９６",
+    "zh-TW": "招式學習器９６"
+  },
+  "flavor_text_entries": {
+    "ja": "自然の　力で　攻撃する。 使う　場所で でてくる　技が　変化する。",
+    "kana": "しぜんの　ちからで　こうげきする。 つかう　ばしょで でてくる　わざが　へんかする。",
+    "en": "This attack makes use of nature’s power. Its effects vary depending on the user’s environment.",
+    "fr": "Une attaque qui tire sa force de la nature. Son type varie selon le terrain.",
+    "it": "Mossa che fa uso della forza della natura. Il suo effetto varia in base all’ambiente.",
+    "de": "Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, an dem er durchgeführt wird.",
+    "es": "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.",
+    "ko": "자연의 힘으로 공격한다. 사용하는 장소에 따라 나오는 기술이 변화한다.",
+    "zh-CN": "用自然之力进行攻击。 根据所使用场所的不同， 使出的招式也会有所变化。",
+    "zh-TW": "用自然之力進行攻擊。 隨著使用場所的不同， 使出的招式也會有所變化。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An attack that makes use of nature’s power. Its effects vary depending on the user’s environment."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, wo er durchgeführt wird."
+        }
+      }
+    }
+  ]
+}

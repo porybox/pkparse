@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 277,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "upright"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ヤルキモノ",
-      "language": "ja"
-    },
-    {
-      "name": "Yarukimono",
-      "language": "roomaji"
-    },
-    {
-      "name": "발바로",
-      "language": "ko"
-    },
-    {
-      "name": "過動猿",
-      "language": "zh"
-    },
-    {
-      "name": "Vigoroth",
-      "language": "fr"
-    },
-    {
-      "name": "Muntier",
-      "language": "de"
-    },
-    {
-      "name": "Vigoroth",
-      "language": "es"
-    },
-    {
-      "name": "Vigoroth",
-      "language": "it"
-    },
-    {
-      "name": "Vigoroth",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヤルキモノ",
+    "en": "Vigoroth",
+    "fr": "Vigoroth",
+    "it": "Vigoroth",
+    "de": "Muntier",
+    "es": "Vigoroth",
+    "ko": "발바로"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あばれザル",
-      "language": "ja"
-    },
-    {
-      "genus": "성난원숭이",
-      "language": "ko"
-    },
-    {
-      "genus": "Turbusinge",
-      "language": "fr"
-    },
-    {
-      "genus": "Wildaffe",
-      "language": "de"
-    },
-    {
-      "genus": "Mono Feroz",
-      "language": "es"
-    },
-    {
-      "genus": "Indocile",
-      "language": "it"
-    },
-    {
-      "genus": "Wild Monkey",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あばれザル",
+    "en": "Wild Monkey",
+    "fr": "Turbusinge",
+    "it": "Indocile",
+    "de": "Wildaffe",
+    "es": "Mono Feroz",
+    "ko": "성난원숭이"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 125,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ケンタロス",
-      "language": "ja"
-    },
-    {
-      "name": "Kentauros",
-      "language": "roomaji"
-    },
-    {
-      "name": "켄타로스",
-      "language": "ko"
-    },
-    {
-      "name": "肯泰羅",
-      "language": "zh"
-    },
-    {
-      "name": "Tauros",
-      "language": "fr"
-    },
-    {
-      "name": "Tauros",
-      "language": "de"
-    },
-    {
-      "name": "Tauros",
-      "language": "es"
-    },
-    {
-      "name": "Tauros",
-      "language": "it"
-    },
-    {
-      "name": "Tauros",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ケンタロス",
+    "en": "Tauros",
+    "fr": "Tauros",
+    "it": "Tauros",
+    "de": "Tauros",
+    "es": "Tauros",
+    "ko": "켄타로스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あばれうし",
-      "language": "ja"
-    },
-    {
-      "genus": "성난소",
-      "language": "ko"
-    },
-    {
-      "genus": "Buffle",
-      "language": "fr"
-    },
-    {
-      "genus": "Wildbulle",
-      "language": "de"
-    },
-    {
-      "genus": "Toro Bravo",
-      "language": "es"
-    },
-    {
-      "genus": "Torobrado",
-      "language": "it"
-    },
-    {
-      "genus": "Wild Bull",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あばれうし",
+    "en": "Wild Bull",
+    "fr": "Buffle",
+    "it": "Torobrado",
+    "de": "Wildbulle",
+    "es": "Toro Bravo",
+    "ko": "성난소"
+  },
   "varieties": [
     {
       "is_default": true,

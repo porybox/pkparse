@@ -2,52 +2,13 @@
   "id": 287,
   "name": "refresh",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sing"
-        },
-        {
-          "name": "water-sport"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Removes a [burn]{mechanic:burn}, [paralysis]{mechanic:paralysis}, or [poison]{mechanic:poison} from the user.",
-      "short_effect": "Cleanses the user of a burn, paralysis, or poison.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Refresh",
-      "language": "en"
-    },
-    {
-      "name": "Rinfrescata",
-      "language": "it"
-    },
-    {
-      "name": "Alivio",
-      "language": "es"
-    },
-    {
-      "name": "Heilung",
-      "language": "de"
-    },
-    {
-      "name": "Régénération",
-      "language": "fr"
-    },
-    {
-      "name": "리프레쉬",
-      "language": "ko"
-    },
-    {
-      "name": "リフレッシュ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "リフレッシュ",
+    "kana": "リフレッシュ",
+    "en": "Refresh",
+    "fr": "Régénération",
+    "it": "Rinfrescata",
+    "de": "Heilung",
+    "es": "Alivio",
+    "ko": "리프레쉬",
+    "zh-CN": "焕然一新",
+    "zh-TW": "煥然一新"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "体を　やすめて　自分が　おっている 毒　まひ　やけどの 状態異常を　治す。",
+    "kana": "からだを　やすめて　じぶんが　おっている どく　まひ　やけどの じょうたい　いじょうを　なおす。",
+    "en": "The user rests to cure itself of poisoning, a burn, or paralysis.",
+    "fr": "Le lanceur se repose pour guérir d’un empoisonnement, d’une brûlure ou d’une paralysie.",
+    "it": "Chi la usa riposa per guarire da avvelenamento, paralisi e scottatura.",
+    "de": "Selbstheilung bei Vergiftung, Paralyse und Verbrennung.",
+    "es": "Descansa para curar parálisis, envenenamiento o quemaduras.",
+    "ko": "몸을 쉬게 하여 자신이 입은 독, 마비, 화상의 상태 이상을 치료한다.",
+    "zh-CN": "让身体休息， 治愈自己身上所中的 毒、麻痹、灼伤的异常状态。",
+    "zh-TW": "讓身體休息， 治癒自己身上的 中毒、麻痺、灼傷的異常狀態。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user rests to cure itself of a poisoning, burn, or paralysis."
+        }
+      }
+    }
+  ]
 }

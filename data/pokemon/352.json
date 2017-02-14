@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 116,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "カクレオン",
-      "language": "ja"
-    },
-    {
-      "name": "Kakureon",
-      "language": "roomaji"
-    },
-    {
-      "name": "켈리몬",
-      "language": "ko"
-    },
-    {
-      "name": "變隱龍",
-      "language": "zh"
-    },
-    {
-      "name": "Kecleon",
-      "language": "fr"
-    },
-    {
-      "name": "Kecleon",
-      "language": "de"
-    },
-    {
-      "name": "Kecleon",
-      "language": "es"
-    },
-    {
-      "name": "Kecleon",
-      "language": "it"
-    },
-    {
-      "name": "Kecleon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カクレオン",
+    "en": "Kecleon",
+    "fr": "Kecleon",
+    "it": "Kecleon",
+    "de": "Kecleon",
+    "es": "Kecleon",
+    "ko": "켈리몬"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いろへんげ",
-      "language": "ja"
-    },
-    {
-      "genus": "색변화",
-      "language": "ko"
-    },
-    {
-      "genus": "Multicolor",
-      "language": "fr"
-    },
-    {
-      "genus": "Farbenspiel",
-      "language": "de"
-    },
-    {
-      "genus": "Camaleónico",
-      "language": "es"
-    },
-    {
-      "genus": "Mutacolore",
-      "language": "it"
-    },
-    {
-      "genus": "Color Swap",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いろへんげ",
+    "en": "Color Swap",
+    "fr": "Multicolor",
+    "it": "Mutacolore",
+    "de": "Farbenspiel",
+    "es": "Camaleónico",
+    "ko": "색변화"
+  },
   "varieties": [
     {
       "is_default": true,

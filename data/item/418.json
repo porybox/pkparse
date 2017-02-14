@@ -1,0 +1,40 @@
+{
+  "id": 418,
+  "name": "tm91",
+  "names": {
+    "ja": "わざマシン９１",
+    "kana": "わざマシン９１",
+    "en": "TM91",
+    "fr": "CT91",
+    "it": "MT91",
+    "de": "TM91",
+    "es": "MT91",
+    "ko": "기술머신91",
+    "zh-CN": "招式学习器９１",
+    "zh-TW": "招式學習器９１"
+  },
+  "flavor_text_entries": {
+    "ja": "体の　光を　一点に　集めて 力を　放つ。 相手の　特防を　さげることが　ある。",
+    "kana": "からだの　ひかりを　いってんに あつめて　ちからを　はなつ。　あいての とくぼうを　さげることが　ある。",
+    "en": "The user gathers all its light energy and releases it all at once. This may also lower the target’s Sp. Def stat.",
+    "fr": "Le lanceur concentre son énergie lumineuse et la fait exploser. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+    "it": "Chi la usa attacca raccogliendo e rilasciando energia luminosa. Può ridurre la Difesa Speciale del bersaglio.",
+    "de": "Entfesselt konzentrierte Lichtenergie. Die Spezial-Verteidigung des Zieles sinkt eventuell.",
+    "es": "Quien lo usa concentra toda su energía lumínica y la libera de golpe. Puede reducir la Defensa Especial del objetivo.",
+    "ko": "몸의 빛을 한곳에 모아서 힘을 쏜다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+    "zh-CN": "将身体的光芒 聚集在一点释放出去。 有时会降低对手的特防。",
+    "zh-TW": "將身體的光芒 聚集在一個點後釋放出去。 有時會降低對手的特防。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "からだの　ひかりを　いってんに あつめ　ひかりを　はなつ。　あいての とくぼうを　さげることがある。",
+          "en": "The user gathers all its light energy and releases it at once. This may also lower the target’s Sp. Def stat.",
+          "it": "Chi la usa attacca raccogliendo e rilasciando energia luminosa. Può anche ridurre la Difesa Speciale del nemico."
+        }
+      }
+    }
+  ]
+}

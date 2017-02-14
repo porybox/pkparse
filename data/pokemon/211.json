@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 38,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    }
+    "water2"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "fish"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ハリーセン",
-      "language": "ja"
-    },
-    {
-      "name": "Harysen",
-      "language": "roomaji"
-    },
-    {
-      "name": "침바루",
-      "language": "ko"
-    },
-    {
-      "name": "千針魚",
-      "language": "zh"
-    },
-    {
-      "name": "Qwilfish",
-      "language": "fr"
-    },
-    {
-      "name": "Baldorfish",
-      "language": "de"
-    },
-    {
-      "name": "Qwilfish",
-      "language": "es"
-    },
-    {
-      "name": "Qwilfish",
-      "language": "it"
-    },
-    {
-      "name": "Qwilfish",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハリーセン",
+    "en": "Qwilfish",
+    "fr": "Qwilfish",
+    "it": "Qwilfish",
+    "de": "Baldorfish",
+    "es": "Qwilfish",
+    "ko": "침바루"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふうせん",
-      "language": "ja"
-    },
-    {
-      "genus": "풍선",
-      "language": "ko"
-    },
-    {
-      "genus": "Bouboule",
-      "language": "fr"
-    },
-    {
-      "genus": "Ballon",
-      "language": "de"
-    },
-    {
-      "genus": "Globo",
-      "language": "es"
-    },
-    {
-      "genus": "Pallone",
-      "language": "it"
-    },
-    {
-      "genus": "Balloon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふうせん",
+    "en": "Balloon",
+    "fr": "Bouboule",
+    "it": "Pallone",
+    "de": "Ballon",
+    "es": "Globo",
+    "ko": "풍선"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -151,9 +95,19 @@
   "base_stats": {
     "hp": 65,
     "attack": 95,
-    "defense": 75,
+    "defense": 85,
     "special-attack": 55,
     "special-defense": 55,
     "speed": 85
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "defense": 75
+        }
+      }
+    }
+  ]
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 153,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "wings"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ファイヤー",
-      "language": "ja"
-    },
-    {
-      "name": "Fire",
-      "language": "roomaji"
-    },
-    {
-      "name": "파이어",
-      "language": "ko"
-    },
-    {
-      "name": "火焰鳥",
-      "language": "zh"
-    },
-    {
-      "name": "Sulfura",
-      "language": "fr"
-    },
-    {
-      "name": "Lavados",
-      "language": "de"
-    },
-    {
-      "name": "Moltres",
-      "language": "es"
-    },
-    {
-      "name": "Moltres",
-      "language": "it"
-    },
-    {
-      "name": "Moltres",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ファイヤー",
+    "en": "Moltres",
+    "fr": "Sulfura",
+    "it": "Moltres",
+    "de": "Lavados",
+    "es": "Moltres",
+    "ko": "파이어"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かえん",
-      "language": "ja"
-    },
-    {
-      "genus": "화염",
-      "language": "ko"
-    },
-    {
-      "genus": "Flamme",
-      "language": "fr"
-    },
-    {
-      "genus": "Flamme",
-      "language": "de"
-    },
-    {
-      "genus": "Llama",
-      "language": "es"
-    },
-    {
-      "genus": "Fiamma",
-      "language": "it"
-    },
-    {
-      "genus": "Flame",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かえん",
+    "en": "Flame",
+    "fr": "Flamme",
+    "it": "Fiamma",
+    "de": "Flamme",
+    "es": "Llama",
+    "ko": "화염"
+  },
   "varieties": [
     {
       "is_default": true,

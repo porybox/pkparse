@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 126,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "humanoid"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ハハコモリ",
-      "language": "ja"
-    },
-    {
-      "name": "모아머",
-      "language": "ko"
-    },
-    {
-      "name": "Manternel",
-      "language": "fr"
-    },
-    {
-      "name": "Matrifol",
-      "language": "de"
-    },
-    {
-      "name": "Leavanny",
-      "language": "es"
-    },
-    {
-      "name": "Leavanny",
-      "language": "it"
-    },
-    {
-      "name": "Leavanny",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハハコモリ",
+    "en": "Leavanny",
+    "fr": "Manternel",
+    "it": "Leavanny",
+    "de": "Matrifol",
+    "es": "Leavanny",
+    "ko": "모아머"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こそだて",
-      "language": "ja"
-    },
-    {
-      "genus": "육아",
-      "language": "ko"
-    },
-    {
-      "genus": "Précepteur",
-      "language": "fr"
-    },
-    {
-      "genus": "Kinderpflege",
-      "language": "de"
-    },
-    {
-      "genus": "Cuidador",
-      "language": "es"
-    },
-    {
-      "genus": "Balia",
-      "language": "it"
-    },
-    {
-      "genus": "Nurturing",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こそだて",
+    "en": "Nurturing",
+    "fr": "Précepteur",
+    "it": "Balia",
+    "de": "Kinderpflege",
+    "es": "Cuidador",
+    "ko": "육아"
+  },
   "varieties": [
     {
       "is_default": true,

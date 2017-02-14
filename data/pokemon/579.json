@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 117,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "arms"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ランクルス",
-      "language": "ja"
-    },
-    {
-      "name": "란쿨루스",
-      "language": "ko"
-    },
-    {
-      "name": "Symbios",
-      "language": "fr"
-    },
-    {
-      "name": "Zytomega",
-      "language": "de"
-    },
-    {
-      "name": "Reuniclus",
-      "language": "es"
-    },
-    {
-      "name": "Reuniclus",
-      "language": "it"
-    },
-    {
-      "name": "Reuniclus",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ランクルス",
+    "en": "Reuniclus",
+    "fr": "Symbios",
+    "it": "Reuniclus",
+    "de": "Zytomega",
+    "es": "Reuniclus",
+    "ko": "란쿨루스"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ぞうふく",
-      "language": "ja"
-    },
-    {
-      "genus": "증폭",
-      "language": "ko"
-    },
-    {
-      "genus": "Multiplié",
-      "language": "fr"
-    },
-    {
-      "genus": "Vermehrung",
-      "language": "de"
-    },
-    {
-      "genus": "Ampliación",
-      "language": "es"
-    },
-    {
-      "genus": "Espansione",
-      "language": "it"
-    },
-    {
-      "genus": "Multiplying",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ぞうふく",
+    "en": "Multiplying",
+    "fr": "Multiplié",
+    "it": "Espansione",
+    "de": "Vermehrung",
+    "es": "Ampliación",
+    "ko": "증폭"
+  },
   "varieties": [
     {
       "is_default": true,

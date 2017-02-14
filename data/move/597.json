@@ -2,34 +2,13 @@
   "id": 597,
   "name": "aromatic-mist",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises a selected ally's Special Defense by one stage.",
-      "short_effect": "Raises a selected ally's Special Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Aromatic Mist",
-      "language": "en"
-    },
-    {
-      "name": "Nebularoma",
-      "language": "it"
-    },
-    {
-      "name": "Niebla Aromática",
-      "language": "es"
-    },
-    {
-      "name": "Duftwolke",
-      "language": "de"
-    },
-    {
-      "name": "Brume Capiteuse",
-      "language": "fr"
-    },
-    {
-      "name": "아로마미스트",
-      "language": "ko"
-    },
-    {
-      "name": "アロマミスト",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "アロマミスト",
+    "kana": "アロマミスト",
+    "en": "Aromatic Mist",
+    "fr": "Brume Capiteuse",
+    "it": "Nebularoma",
+    "de": "Duftwolke",
+    "es": "Niebla Aromática",
+    "ko": "아로마미스트",
+    "zh-CN": "芳香薄雾",
+    "zh-TW": "芳香薄霧"
+  },
+  "flavor_text_entries": {
+    "ja": "不思議な　アロマの　香りによって 味方の　特防を　あげる。",
+    "kana": "ふしぎな　アロマの　かおりによって みかたの　とくぼうを　あげる。",
+    "en": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
+    "fr": "Grâce à un parfum mystérieux, augmente la Défense Spéciale d’un allié.",
+    "it": "Aumenta la Difesa Speciale di un alleato tramite un misterioso aroma.",
+    "de": "Der Anwender erhöht mithilfe eines mysteriösen Duftes die Spezial-Verteidigung eines Mitstreiters.",
+    "es": "Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.",
+    "ko": "신비한 아로마 향으로 같은 편의 특수방어를 올린다.",
+    "zh-CN": "通过神奇的芳香， 提高我方宝可梦的特防。",
+    "zh-TW": "利用神奇的芳香， 提高我方寶可夢的特防。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "ally"
-  },
-  "type": {
-    "name": "fairy"
-  }
+  "target": "ally",
+  "type": "fairy"
 }

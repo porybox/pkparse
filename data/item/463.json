@@ -1,0 +1,46 @@
+{
+  "id": 463,
+  "name": "storage-key",
+  "names": {
+    "ja": "そうこのカギ",
+    "kana": "そうこのカギ",
+    "en": "Storage Key",
+    "fr": "Clé Stockage",
+    "it": "Depochiave",
+    "de": "Lagerschlüssel",
+    "es": "Llave Almacén",
+    "ko": "창고열쇠",
+    "zh-CN": "仓库钥匙",
+    "zh-TW": "倉庫鑰匙"
+  },
+  "flavor_text_entries": {
+    "ja": "トバリシティの　はずれにある ギンガ団の　怪しい 倉庫に　はいるための　カギ。",
+    "kana": "トバリシティの　はずれにある ギンガだんの　あやしい そうこに　はいるための　カギ。",
+    "en": "The key to Team Galactic’s sinister warehouse located at the edge of Veilstone City.",
+    "fr": "La clé de l’entrepôt de la Team Galaxie situé à la périphérie de Voilaroc.",
+    "it": "Chiave del misterioso deposito del Team Galassia situato ai confini di Rupepoli.",
+    "de": "Der Schlüssel zur Lagerhalle von Team Galaktik am Rande von Schleiede.",
+    "es": "Llave del siniestro almacén del Equipo Galaxia que está ubicado en las afueras de Ciudad Rocavelo.",
+    "ko": "장막시티 변두리에 있는 갤럭시단의 수상한 창고에 들어가기 위한 열쇠다.",
+    "zh-CN": "用于进入银河队在帷幕市市郊的 可疑仓库的钥匙。",
+    "zh-TW": "用於進入銀河隊在 帷幕市市郊的 可疑倉庫的鑰匙。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Der Schlüssel zur Lagerhalle des Teams Galaktik am Rande von Schleiede."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "names": {
+          "de": "L-Schlüssel"
+        }
+      }
+    }
+  ]
+}

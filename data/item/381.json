@@ -1,0 +1,39 @@
+{
+  "id": 381,
+  "name": "tm54",
+  "names": {
+    "ja": "わざマシン５４",
+    "kana": "わざマシン５４",
+    "en": "TM54",
+    "fr": "CT54",
+    "it": "MT54",
+    "de": "TM54",
+    "es": "MT54",
+    "ko": "기술머신54",
+    "zh-CN": "招式学习器５４",
+    "zh-TW": "招式學習器５４"
+  },
+  "flavor_text_entries": {
+    "ja": "相手の　ＨＰが 必ず　１だけ　残るように 手加減して　攻撃する。",
+    "kana": "あいての　ＨＰが かならず　１だけ　のこる　ように てかげん　して　こうげきする。",
+    "en": "A restrained attack that prevents the target from fainting. The target is left with at least 1 HP.",
+    "fr": "Le lanceur retient ses coups pour que l’ennemi garde au moins 1 PV et ne tombe pas K.O.",
+    "it": "Chi la usa trattiene il colpo per impedire al bersaglio di andare KO, lasciandolo con almeno un PS.",
+    "de": "Eine zurückhaltende Attacke, die eine Kampfunfähigkeit des Zieles verhindert, da dem Ziel mindestens 1 KP bleibt.",
+    "es": "Ataque controlado que impide que el objetivo se debilite al dejarle con un mínimo de 1 PS.",
+    "ko": "상대의 HP가 반드시 1만큼 남도록 조절하여 공격한다.",
+    "zh-CN": "对手的ＨＰ 至少会留下１ＨＰ， 如此般手下留情地攻击。",
+    "zh-TW": "手下留情地攻擊對手， 一定會讓對手剩下１ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "てかげんして　こうげきする。 こうげきした　あいての　ＨＰは かならず　１　のこる。",
+          "it": "Chi la usa trattiene il colpo per impedire al nemico di andare KO, lasciandolo con almeno un PS."
+        }
+      }
+    }
+  ]
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 138,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "dragon"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "fish"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ヒンバス",
-      "language": "ja"
-    },
-    {
-      "name": "Hinbass",
-      "language": "roomaji"
-    },
-    {
-      "name": "빈티나",
-      "language": "ko"
-    },
-    {
-      "name": "笨笨魚",
-      "language": "zh"
-    },
-    {
-      "name": "Barpau",
-      "language": "fr"
-    },
-    {
-      "name": "Barschwa",
-      "language": "de"
-    },
-    {
-      "name": "Feebas",
-      "language": "es"
-    },
-    {
-      "name": "Feebas",
-      "language": "it"
-    },
-    {
-      "name": "Feebas",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒンバス",
+    "en": "Feebas",
+    "fr": "Barpau",
+    "it": "Feebas",
+    "de": "Barschwa",
+    "es": "Feebas",
+    "ko": "빈티나"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さかな",
-      "language": "ja"
-    },
-    {
-      "genus": "물고기",
-      "language": "ko"
-    },
-    {
-      "genus": "Poisson",
-      "language": "fr"
-    },
-    {
-      "genus": "Fisch",
-      "language": "de"
-    },
-    {
-      "genus": "Pez",
-      "language": "es"
-    },
-    {
-      "genus": "Pesce",
-      "language": "it"
-    },
-    {
-      "genus": "Fish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さかな",
+    "en": "Fish",
+    "fr": "Poisson",
+    "it": "Pesce",
+    "de": "Fisch",
+    "es": "Pez",
+    "ko": "물고기"
+  },
   "varieties": [
     {
       "is_default": true,

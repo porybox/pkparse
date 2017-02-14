@@ -9,9 +9,7 @@
   "hatch_counter": 5,
   "has_gender_differences": true,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 50,
@@ -69,16 +67,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "water2"
-    }
+    "water2",
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "squiggle"
   },
@@ -92,44 +84,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ギャラドス",
-      "language": "ja"
-    },
-    {
-      "name": "Gyarados",
-      "language": "roomaji"
-    },
-    {
-      "name": "갸라도스",
-      "language": "ko"
-    },
-    {
-      "name": "暴鯉龍",
-      "language": "zh"
-    },
-    {
-      "name": "Léviator",
-      "language": "fr"
-    },
-    {
-      "name": "Garados",
-      "language": "de"
-    },
-    {
-      "name": "Gyarados",
-      "language": "es"
-    },
-    {
-      "name": "Gyarados",
-      "language": "it"
-    },
-    {
-      "name": "Gyarados",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ギャラドス",
+    "en": "Gyarados",
+    "fr": "Léviator",
+    "it": "Gyarados",
+    "de": "Garados",
+    "es": "Gyarados",
+    "ko": "갸라도스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -140,36 +103,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きょうあく",
-      "language": "ja"
-    },
-    {
-      "genus": "흉악",
-      "language": "ko"
-    },
-    {
-      "genus": "Terrifiant",
-      "language": "fr"
-    },
-    {
-      "genus": "Grausam",
-      "language": "de"
-    },
-    {
-      "genus": "Atrocidad",
-      "language": "es"
-    },
-    {
-      "genus": "Atroce",
-      "language": "it"
-    },
-    {
-      "genus": "Atrocious",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きょうあく",
+    "en": "Atrocious",
+    "fr": "Terrifiant",
+    "it": "Atroce",
+    "de": "Grausam",
+    "es": "Atrocidad",
+    "ko": "흉악"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,45 @@
+{
+  "id": 738,
+  "name": "vikavolt",
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "color": "blue",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "クワガノン",
+    "en": "Vikavolt",
+    "fr": "Lucanon",
+    "it": "Vikavolt",
+    "de": "Donarion",
+    "es": "Vikavolt",
+    "ko": "투구뿌논"
+  },
+  "genera": {
+    "ja": "くわがた",
+    "en": "Stag Beetle",
+    "fr": "Scarabée",
+    "it": "Cervolante",
+    "de": "Kneifkäfer",
+    "es": "Escarabajo",
+    "ko": "뿔집게"
+  },
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 77,
+    "attack": 70,
+    "defense": 90,
+    "special-attack": 145,
+    "special-defense": 75,
+    "speed": 43
+  }
+}

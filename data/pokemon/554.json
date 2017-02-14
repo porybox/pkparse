@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 142,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "humanoid"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ダルマッカ",
-      "language": "ja"
-    },
-    {
-      "name": "달막화",
-      "language": "ko"
-    },
-    {
-      "name": "Darumarond",
-      "language": "fr"
-    },
-    {
-      "name": "Flampion",
-      "language": "de"
-    },
-    {
-      "name": "Darumaka",
-      "language": "es"
-    },
-    {
-      "name": "Darumaka",
-      "language": "it"
-    },
-    {
-      "name": "Darumaka",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ダルマッカ",
+    "en": "Darumaka",
+    "fr": "Darumarond",
+    "it": "Darumaka",
+    "de": "Flampion",
+    "es": "Darumaka",
+    "ko": "달막화"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "だるま",
-      "language": "ja"
-    },
-    {
-      "genus": "달마",
-      "language": "ko"
-    },
-    {
-      "genus": "Daruma",
-      "language": "fr"
-    },
-    {
-      "genus": "Lampion",
-      "language": "de"
-    },
-    {
-      "genus": "Daruma",
-      "language": "es"
-    },
-    {
-      "genus": "Daruma",
-      "language": "it"
-    },
-    {
-      "genus": "Zen Charm",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "だるま",
+    "en": "Zen Charm",
+    "fr": "Daruma",
+    "it": "Daruma",
+    "de": "Lampion",
+    "es": "Daruma",
+    "ko": "달마"
+  },
   "varieties": [
     {
       "is_default": true,

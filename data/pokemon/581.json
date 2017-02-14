@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 128,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "flying"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "wings"
   },
@@ -60,68 +52,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "スワンナ",
-      "language": "ja"
-    },
-    {
-      "name": "스완나",
-      "language": "ko"
-    },
-    {
-      "name": "Lakmécygne",
-      "language": "fr"
-    },
-    {
-      "name": "Swaroness",
-      "language": "de"
-    },
-    {
-      "name": "Swanna",
-      "language": "es"
-    },
-    {
-      "name": "Swanna",
-      "language": "it"
-    },
-    {
-      "name": "Swanna",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "スワンナ",
+    "en": "Swanna",
+    "fr": "Lakmécygne",
+    "it": "Swanna",
+    "de": "Swaroness",
+    "es": "Swanna",
+    "ko": "스완나"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しらとり",
-      "language": "ja"
-    },
-    {
-      "genus": "백조",
-      "language": "ko"
-    },
-    {
-      "genus": "Cygne",
-      "language": "fr"
-    },
-    {
-      "genus": "Schwan",
-      "language": "de"
-    },
-    {
-      "genus": "Cisne",
-      "language": "es"
-    },
-    {
-      "genus": "Biancuccello",
-      "language": "it"
-    },
-    {
-      "genus": "White Bird",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しらとり",
+    "en": "White Bird",
+    "fr": "Cygne",
+    "it": "Biancuccello",
+    "de": "Schwan",
+    "es": "Cisne",
+    "ko": "백조"
+  },
   "varieties": [
     {
       "is_default": true,

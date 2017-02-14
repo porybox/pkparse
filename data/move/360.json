@@ -2,36 +2,13 @@
   "id": 360,
   "name": "gyro-ball",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with the target's current [Speed]{mechanic:speed} compared to the user, given by `1 + 25 * target Speed / user Speed`, capped at 150.",
-      "short_effect": "Power raises when the user has lower Speed, up to a maximum of 150.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Gyro Ball",
-      "language": "en"
-    },
-    {
-      "name": "Vortexpalla",
-      "language": "it"
-    },
-    {
-      "name": "Giro Bola",
-      "language": "es"
-    },
-    {
-      "name": "Gyroball",
-      "language": "de"
-    },
-    {
-      "name": "Gyroballe",
-      "language": "fr"
-    },
-    {
-      "name": "자이로볼",
-      "language": "ko"
-    },
-    {
-      "name": "ジャイロボール",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ジャイロボール",
+    "kana": "ジャイロボール",
+    "en": "Gyro Ball",
+    "fr": "Gyroballe",
+    "it": "Vortexpalla",
+    "de": "Gyroball",
+    "es": "Giro Bola",
+    "ko": "자이로볼",
+    "zh-CN": "陀螺球",
+    "zh-TW": "陀螺球"
   },
-  "type": {
-    "name": "steel"
-  }
+  "flavor_text_entries": {
+    "ja": "体を　高速に　回転させて 体当たりする。相手より　素早さが 低いほど　強い。",
+    "kana": "からだを　こうそくに　かいてん　させて たいあたりする。あいてより　すばやさが ひくいほど　つよい。",
+    "en": "The user tackles the target with a high-speed spin. The slower the user compared to the target, the greater the move’s power.",
+    "fr": "Le lanceur effectue une rotation et frappe l’ennemi. Plus la Vitesse du lanceur est basse, plus il fait de dégâts.",
+    "it": "Chi la usa colpisce il bersaglio con un vortice rapidissimo. Più lento è chi la usa, maggiore è il danno.",
+    "de": "Angriff mit hoher Geschwindigkeit. Je niedriger die Initiative des Anwenders im Vergleich zum Ziel ist, desto höher der Schaden.",
+    "es": "Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa.",
+    "ko": "몸을 고속으로 회전시켜 몸통박치기한다. 상대보다 스피드가 낮을수록 위력은 올라간다.",
+    "zh-CN": "让身体高速旋转并撞击对手。 速度比对手越慢，威力越大。",
+    "zh-TW": "高速旋轉身體，撞擊對手。 速度比對手越慢，威力越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "steel",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Angriff mit hoher Geschwindigkeit. Je niedriger die Initiative des Anwenders, desto höher der Schaden."
+        }
+      }
+    }
+  ]
 }

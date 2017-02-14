@@ -2,49 +2,13 @@
   "id": 60,
   "name": "psybeam",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 20,
   "priority": 0,
   "power": 65,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "calm-mind"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [confuse]{mechanic:confuse} the target.",
-      "short_effect": "Has a $effect_chance% chance to confuse the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "confusion",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Psybeam",
-      "language": "en"
-    },
-    {
-      "name": "Psicoraggio",
-      "language": "it"
-    },
-    {
-      "name": "Psicorrayo",
-      "language": "es"
-    },
-    {
-      "name": "Psystrahl",
-      "language": "de"
-    },
-    {
-      "name": "Rafale Psy",
-      "language": "fr"
-    },
-    {
-      "name": "환상빔",
-      "language": "ko"
-    },
-    {
-      "name": "サイケこうせん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "サイケこうせん",
+    "kana": "サイケこうせん",
+    "en": "Psybeam",
+    "fr": "Rafale Psy",
+    "it": "Psicoraggio",
+    "de": "Psystrahl",
+    "es": "Psicorrayo",
+    "ko": "환상빔",
+    "zh-CN": "幻象光线",
+    "zh-TW": "幻象光線"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "不思議な　光線を 相手に　発射して　攻撃する。 混乱させることが　ある。",
+    "kana": "ふしぎな　こうせんを あいてに　はっしゃして　こうげきする。 こんらん　させることが　ある。",
+    "en": "The target is attacked with a peculiar ray. This may also leave the target confused.",
+    "fr": "Un étrange rayon frappe l’ennemi. Peut aussi le rendre confus.",
+    "it": "Colpisce il bersaglio con un raggio speciale. Può anche confonderlo.",
+    "de": "Feuert einen Strahl ab, der das Ziel verwirren kann.",
+    "es": "Extraño rayo que puede causar confusión.",
+    "ko": "이상한 광선을 상대에게 발사하여 공격한다. 혼란시킬 때가 있다.",
+    "zh-CN": "向对手发射 神奇的光线进行攻击。 有时会使对手混乱。",
+    "zh-TW": "向對手發射 神奇的光線進行攻擊。 有時會使對手混亂。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

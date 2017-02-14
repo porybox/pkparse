@@ -2,36 +2,13 @@
   "id": 305,
   "name": "poison-fang",
   "accuracy": 100,
-  "effect_chance": 50,
   "pp": 15,
   "priority": 0,
   "power": 50,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [badly poison]{mechanic:badly-poison} the target.",
-      "short_effect": "Has a $effect_chance% chance to badly poison the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "poison"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "poison",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 15,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Poison Fang",
-      "language": "en"
-    },
-    {
-      "name": "Velenodenti",
-      "language": "it"
-    },
-    {
-      "name": "Colmillo Ven",
-      "language": "es"
-    },
-    {
-      "name": "Giftzahn",
-      "language": "de"
-    },
-    {
-      "name": "Crochet Venin",
-      "language": "fr"
-    },
-    {
-      "name": "독엄니",
-      "language": "ko"
-    },
-    {
-      "name": "どくどくのキバ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "どくどくのキバ",
+    "kana": "どくどくのキバ",
+    "en": "Poison Fang",
+    "fr": "Crochet Venin",
+    "it": "Velenodenti",
+    "de": "Giftzahn",
+    "es": "Colmillo Ven",
+    "ko": "독엄니",
+    "zh-CN": "剧毒牙",
+    "zh-TW": "劇毒牙"
   },
-  "type": {
-    "name": "poison"
-  }
+  "flavor_text_entries": {
+    "ja": "毒の　ある　キバで 相手に　かみついて　攻撃する。 猛毒を　おわせる　ことが　ある。",
+    "kana": "どくの　ある　キバで あいてに　かみついて　こうげきする。 もうどくを　おわせる　ことが　ある。",
+    "en": "The user bites the target with toxic fangs. This may also leave the target badly poisoned.",
+    "fr": "Le lanceur mord l’ennemi de ses crocs toxiques. Peut aussi l’empoisonner gravement.",
+    "it": "Chi la usa morde il bersaglio con denti avvelenati che possono anche iperavvelenarlo.",
+    "de": "Angriff mit giftigen Reißzähnen. Das Ziel wird eventuell schwer vergiftet.",
+    "es": "Colmillos tóxicos que pueden envenenar gravemente al objetivo.",
+    "ko": "독이 있는 이빨로 상대를 물어서 공격한다. 맹독을 주입할 때가 있다.",
+    "zh-CN": "用有毒的牙齿 咬住对手进行攻击。 有时会使对手中剧毒。",
+    "zh-TW": "用有毒的牙齒 咬住對手進行攻擊。 有時會讓對手陷入劇毒狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "poison"
 }

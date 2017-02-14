@@ -1,0 +1,39 @@
+{
+  "id": 267,
+  "name": "wise-glasses",
+  "names": {
+    "ja": "ものしりメガネ",
+    "kana": "ものしりメガネ",
+    "en": "Wise Glasses",
+    "fr": "Lunettes Sages",
+    "it": "Saviocchiali",
+    "de": "Schlauglas",
+    "es": "Gafas Especiales",
+    "ko": "박식안경",
+    "zh-CN": "博识眼镜",
+    "zh-TW": "博識眼鏡"
+  },
+  "flavor_text_entries": {
+    "ja": "ぶあつい　レンズの　ついた　メガネ。 持たせると　特殊技の 威力が　少し　あがる。",
+    "kana": "ぶあつい　レンズの　ついた　メガネ。 もたせると　とくしゅわざの いりょくが　すこし　あがる。",
+    "en": "An item to be held by a Pokémon. This thick pair of glasses slightly boosts the power of special moves.",
+    "fr": "Objet à tenir. Une paire de lunettes épaisses augmentant un peu la puissance des capacités spéciales.",
+    "it": "Strumento da dare a un Pokémon. Paio di occhiali dalle lenti spesse che potenzia di poco le mosse speciali.",
+    "de": "Ein Item zum Tragen. Diese dicke Brille verstärkt auf Spezial-Angriff basierende Attacken.",
+    "es": "Potencian ligeramente los ataques especiales. Debe llevarlas un Pokémon.",
+    "ko": "두꺼운 렌즈를 붙인 안경. 지니게 하면 특수 기술의 위력이 조금 올라간다.",
+    "zh-CN": "装着很厚镜片的眼镜。 携带后，特殊招式的 威力就会少量提高。",
+    "zh-TW": "裝著很厚鏡片的眼鏡。 攜帶後，特殊招式的 威力就會少量提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Objet à tenir. Une paire de lunettes épaisses augmentant un peu la puissance des attaques spéciales.",
+          "es": "Potencian ligeramente los movimientos especiales. Debe llevarlas un Pokémon."
+        }
+      }
+    }
+  ]
+}

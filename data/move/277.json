@@ -2,36 +2,13 @@
   "id": 277,
   "name": "magic-coat",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 15,
   "priority": 4,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "The first non-damaging move targeting the user this turn that inflicts [major status effect]{mechanic:major-status-effect}s, [stat change]{mechanic:stat-change}s, or [trap]{mechanic:trap}ping effects will be reflected at its user.\n\n[]{move:defog}, []{move:memento}, and []{move:teeter-dance} are not reflected.\n\n[]{move:attract}, []{move:flatter}, []{move:gastro-acid}, []{move:leech-seed}, []{move:swagger}, []{move:worry-seed}, and []{move:yawn} are reflected.\n\nThis move cannot be copied by []{move:mirror-move}.",
-      "short_effect": "Reflects back the first effect move used on the user this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Magic Coat",
-      "language": "en"
-    },
-    {
-      "name": "Magivelo",
-      "language": "it"
-    },
-    {
-      "name": "Capa Mágica",
-      "language": "es"
-    },
-    {
-      "name": "Magiemantel",
-      "language": "de"
-    },
-    {
-      "name": "Reflet Magik",
-      "language": "fr"
-    },
-    {
-      "name": "매직코트",
-      "language": "ko"
-    },
-    {
-      "name": "マジックコート",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "マジックコート",
+    "kana": "マジックコート",
+    "en": "Magic Coat",
+    "fr": "Reflet Magik",
+    "it": "Magivelo",
+    "de": "Magiemantel",
+    "es": "Capa Mágica",
+    "ko": "매직코트",
+    "zh-CN": "魔法反射",
+    "zh-TW": "魔法反射"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "状態異常に　なる　技や やどりぎのタネ　などを だされたとき　相手に　跳ね返す。",
+    "kana": "じょうたい　いじょうに　なる　ワザや やどりぎのタネ　などを だされたとき　あいてに　はねかえす。",
+    "en": "A barrier reflects back to the target moves like Leech Seed and moves that damage status.",
+    "fr": "Une barrière qui renvoie les capacités comme Vampigraine et celles affectant le statut et les stats.",
+    "it": "Una barriera rimanda al mittente l’effetto di mosse come Parassiseme e di mosse che influenzano lo stato.",
+    "de": "Alle Status-Attacken wie Egelsamen werden reflektiert.",
+    "es": "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.",
+    "ko": "상대가 상태 이상이 되는 기술이나 씨뿌리기 등을 썼을 때 되받아친다.",
+    "zh-CN": "当对手使出会变成异常状态的 招式或寄生种子等时， 会将对手的招式反射回去。",
+    "zh-TW": "若對手使用寄生種子或 其他會讓寶可夢陷入異常狀態的招式時， 可將對手的招式反彈回去。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Attacken wie Egelsamen und alle Attacken mit Status verändernden Effekten prallen ab."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Egelsamen und alle Attacken mit Status verändernden Effekten prallen ab."
+        }
+      }
+    }
+  ]
 }

@@ -2,34 +2,13 @@
   "id": 482,
   "name": "sludge-wave",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 10,
   "priority": 0,
   "power": 95,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [poison]{mechanic:poison} the target.",
-      "short_effect": "Has a $effect_chance% chance to [poison]{mechanic:poison} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "poison"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "poison",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sludge Wave",
-      "language": "en"
-    },
-    {
-      "name": "Fangonda",
-      "language": "it"
-    },
-    {
-      "name": "Onda Tóxica",
-      "language": "es"
-    },
-    {
-      "name": "Schlammwoge",
-      "language": "de"
-    },
-    {
-      "name": "Cradovague",
-      "language": "fr"
-    },
-    {
-      "name": "오물웨이브",
-      "language": "ko"
-    },
-    {
-      "name": "ヘドロウェーブ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-other-pokemon"
+  "names": {
+    "ja": "ヘドロウェーブ",
+    "kana": "ヘドロウェーブ",
+    "en": "Sludge Wave",
+    "fr": "Cradovague",
+    "it": "Fangonda",
+    "de": "Schlammwoge",
+    "es": "Onda Tóxica",
+    "ko": "오물웨이브",
+    "zh-CN": "污泥波",
+    "zh-TW": "污泥波"
   },
-  "type": {
-    "name": "poison"
-  }
+  "flavor_text_entries": {
+    "ja": "ヘドロの　波で　自分の 周りに　いるものを　攻撃する。 毒状態に　することが　ある。",
+    "kana": "ヘドロの　なみで　じぶんの まわりに　いるものを　こうげきする。 どく　じょうたいに　することが　ある。",
+    "en": "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit.",
+    "fr": "Une vague de détritus attaque tous les Pokémon autour du lanceur. Peut aussi empoisonner.",
+    "it": "Lancia un’onda di fango che attacca tutti i Pokémon nelle vicinanze. Può anche avvelenarli.",
+    "de": "Greift Pokémon in der Nähe des Anwenders mit einer Schlammwelle an. Diese werden eventuell vergiftet.",
+    "es": "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.",
+    "ko": "오물 파도로 자신의 주위에 있는 포켓몬을 공격한다. 독 상태로 만들 때가 있다.",
+    "zh-CN": "用污泥波攻击 自己周围所有的宝可梦。 有时会陷入中毒状态。",
+    "zh-TW": "用污泥波攻擊 自己周圍所有的寶可夢。 有時會讓對手陷入中毒狀態。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "poison"
 }

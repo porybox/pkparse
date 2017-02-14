@@ -1,0 +1,45 @@
+{
+  "id": 733,
+  "name": "toucannon",
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "color": "black",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ドデカバシ",
+    "en": "Toucannon",
+    "fr": "Bazoucan",
+    "it": "Toucannon",
+    "de": "Tukanon",
+    "es": "Toucannon",
+    "ko": "왕큰부리"
+  },
+  "genera": {
+    "ja": "おおづつ",
+    "en": "Cannon",
+    "fr": "Canon",
+    "it": "Cannone",
+    "de": "Kanone",
+    "es": "Cañón",
+    "ko": "대포"
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 120,
+    "defense": 75,
+    "special-attack": 75,
+    "special-defense": 75,
+    "speed": 60
+  }
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 134,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    }
+    "water2"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -49,44 +43,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ケイコウオ",
-      "language": "ja"
-    },
-    {
-      "name": "Keikouo",
-      "language": "roomaji"
-    },
-    {
-      "name": "형광어",
-      "language": "ko"
-    },
-    {
-      "name": "螢光魚",
-      "language": "zh"
-    },
-    {
-      "name": "Écayon",
-      "language": "fr"
-    },
-    {
-      "name": "Finneon",
-      "language": "de"
-    },
-    {
-      "name": "Finneon",
-      "language": "es"
-    },
-    {
-      "name": "Finneon",
-      "language": "it"
-    },
-    {
-      "name": "Finneon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ケイコウオ",
+    "en": "Finneon",
+    "fr": "Écayon",
+    "it": "Finneon",
+    "de": "Finneon",
+    "es": "Finneon",
+    "ko": "형광어"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -97,36 +62,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はねうお",
-      "language": "ja"
-    },
-    {
-      "genus": "비어",
-      "language": "ko"
-    },
-    {
-      "genus": "Poisson Ailé",
-      "language": "fr"
-    },
-    {
-      "genus": "Flügelfisch",
-      "language": "de"
-    },
-    {
-      "genus": "Pez Ala",
-      "language": "es"
-    },
-    {
-      "genus": "Pescealato",
-      "language": "it"
-    },
-    {
-      "genus": "Wing Fish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はねうお",
+    "en": "Wing Fish",
+    "fr": "Poisson Ailé",
+    "it": "Pescealato",
+    "de": "Flügelfisch",
+    "es": "Pez Ala",
+    "ko": "비어"
+  },
   "varieties": [
     {
       "is_default": true,

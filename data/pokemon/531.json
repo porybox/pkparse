@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 123,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "upright"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "タブンネ",
-      "language": "ja"
-    },
-    {
-      "name": "다부니",
-      "language": "ko"
-    },
-    {
-      "name": "Nanméouïe",
-      "language": "fr"
-    },
-    {
-      "name": "Ohrdoch",
-      "language": "de"
-    },
-    {
-      "name": "Audino",
-      "language": "es"
-    },
-    {
-      "name": "Audino",
-      "language": "it"
-    },
-    {
-      "name": "Audino",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "タブンネ",
+    "en": "Audino",
+    "fr": "Nanméouïe",
+    "it": "Audino",
+    "de": "Ohrdoch",
+    "es": "Audino",
+    "ko": "다부니"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ヒヤリング",
-      "language": "ja"
-    },
-    {
-      "genus": "히어링",
-      "language": "ko"
-    },
-    {
-      "genus": "Audition",
-      "language": "fr"
-    },
-    {
-      "genus": "Gehör",
-      "language": "de"
-    },
-    {
-      "genus": "Escucha",
-      "language": "es"
-    },
-    {
-      "genus": "Ascolto",
-      "language": "it"
-    },
-    {
-      "genus": "Hearing",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ヒヤリング",
+    "en": "Hearing",
+    "fr": "Audition",
+    "it": "Ascolto",
+    "de": "Gehör",
+    "es": "Escucha",
+    "ko": "히어링"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 74,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ヤブクロン",
-      "language": "ja"
-    },
-    {
-      "name": "깨봉이",
-      "language": "ko"
-    },
-    {
-      "name": "Miamiasme",
-      "language": "fr"
-    },
-    {
-      "name": "Unratütox",
-      "language": "de"
-    },
-    {
-      "name": "Trubbish",
-      "language": "es"
-    },
-    {
-      "name": "Trubbish",
-      "language": "it"
-    },
-    {
-      "name": "Trubbish",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヤブクロン",
+    "en": "Trubbish",
+    "fr": "Miamiasme",
+    "it": "Trubbish",
+    "de": "Unratütox",
+    "es": "Trubbish",
+    "ko": "깨봉이"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ゴミぶくろ",
-      "language": "ja"
-    },
-    {
-      "genus": "쓰레기봉투",
-      "language": "ko"
-    },
-    {
-      "genus": "Sac Poubelle",
-      "language": "fr"
-    },
-    {
-      "genus": "Mülltüte",
-      "language": "de"
-    },
-    {
-      "genus": "Bolsabasura",
-      "language": "es"
-    },
-    {
-      "genus": "Spazzatura",
-      "language": "it"
-    },
-    {
-      "genus": "Trash Bag",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ゴミぶくろ",
+    "en": "Trash Bag",
+    "fr": "Sac Poubelle",
+    "it": "Spazzatura",
+    "de": "Mülltüte",
+    "es": "Bolsa Basura",
+    "ko": "쓰레기봉투"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 49,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "fairy"
-    }
+    "plant",
+    "fairy"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -60,68 +52,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "エルフーン",
-      "language": "ja"
-    },
-    {
-      "name": "엘풍",
-      "language": "ko"
-    },
-    {
-      "name": "Farfaduvet",
-      "language": "fr"
-    },
-    {
-      "name": "Elfun",
-      "language": "de"
-    },
-    {
-      "name": "Whimsicott",
-      "language": "es"
-    },
-    {
-      "name": "Whimsicott",
-      "language": "it"
-    },
-    {
-      "name": "Whimsicott",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エルフーン",
+    "en": "Whimsicott",
+    "fr": "Farfaduvet",
+    "it": "Whimsicott",
+    "de": "Elfun",
+    "es": "Whimsicott",
+    "ko": "엘풍"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かぜかくれ",
-      "language": "ja"
-    },
-    {
-      "genus": "바람숨기",
-      "language": "ko"
-    },
-    {
-      "genus": "Vole Vent",
-      "language": "fr"
-    },
-    {
-      "genus": "Windschatten",
-      "language": "de"
-    },
-    {
-      "genus": "Vuelalviento",
-      "language": "es"
-    },
-    {
-      "genus": "Spiffero",
-      "language": "it"
-    },
-    {
-      "genus": "Windveiled",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かぜかくれ",
+    "en": "Windveiled",
+    "fr": "Vole Vent",
+    "it": "Spiffero",
+    "de": "Windschatten",
+    "es": "Vuelalviento",
+    "ko": "바람숨기"
+  },
   "varieties": [
     {
       "is_default": true,

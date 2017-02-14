@@ -2,34 +2,13 @@
   "id": 599,
   "name": "venom-drench",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's Attack, Special Attack, and Speed by one stage if it is poisoned.",
-      "short_effect": "Lowers the target's Attack, Special Attack, and Speed by one stage if it is poisoned.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,62 +20,54 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Venom Drench",
-      "language": "en"
-    },
-    {
-      "name": "Velenotrappola",
-      "language": "it"
-    },
-    {
-      "name": "Trampa Venenosa",
-      "language": "es"
-    },
-    {
-      "name": "Giftfalle",
-      "language": "de"
-    },
-    {
-      "name": "Piège de Venin",
-      "language": "fr"
-    },
-    {
-      "name": "베놈트랩",
-      "language": "ko"
-    },
-    {
-      "name": "ベノムトラップ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ベノムトラップ",
+    "kana": "ベノムトラップ",
+    "en": "Venom Drench",
+    "fr": "Piège de Venin",
+    "it": "Velenotrappola",
+    "de": "Giftfalle",
+    "es": "Trampa Venenosa",
+    "ko": "베놈트랩",
+    "zh-CN": "毒液陷阱",
+    "zh-TW": "毒液陷阱"
+  },
+  "flavor_text_entries": {
+    "ja": "特殊な　毒液を　浴びせかける。 毒状態の　相手は 攻撃　特攻　素早さが　さがる。",
+    "kana": "とくしゅな　どくえきを　あびせかける。 どく　じょうたいの　あいては こうげき　とくこう　すばやさが　さがる。",
+    "en": "Opposing Pokémon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.",
+    "fr": "Sécrète un liquide empoisonné. Diminue l’Attaque, l’Attaque Spéciale et la Vitesse de l’ennemi empoisonné.",
+    "it": "Emette un liquido particolare che riduce l’Attacco, l’Attacco Speciale e la Velocità dei nemici avvelenati intorno a chi la usa.",
+    "de": "Anwender bespritzt das Ziel mit einer speziellen Giftflüssigkeit. Senkt den Angriff, den Spezial-Angriff und die Initiative von vergifteten Zielen.",
+    "es": "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados.",
+    "ko": "특수한 독액을 끼얹는다. 독 상태인 상대는 공격, 특수공격, 스피드가 떨어진다.",
+    "zh-CN": "将特殊的毒液泼向对手。 对处于中毒状态的对手， 其攻击、特攻和速度都会降低。",
+    "zh-TW": "向對手發射特殊的毒液。 陷入中毒狀態的對手 攻擊、特攻和速度會降低。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     },
     {
       "change": -1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     },
     {
       "change": -1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "poison"
-  }
+  "target": "all-opponents",
+  "type": "poison",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender bespritzt das Ziel mit einer speziellen Giftflüssigkeit. Senkt den Angriff, den Spezial- Angriff und die Initiative von vergifteten Zielen."
+        }
+      }
+    }
+  ]
 }

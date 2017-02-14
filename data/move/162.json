@@ -2,49 +2,13 @@
   "id": 162,
   "name": "super-fang",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "scary-face"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [typeless]{mechanic:typeless} damage equal to half the target's remaining [HP]{mechanic:hp}.",
-      "short_effect": "Inflicts damage equal to half the target's HP.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Super Fang",
-      "language": "en"
-    },
-    {
-      "name": "Superzanna",
-      "language": "it"
-    },
-    {
-      "name": "Superdiente",
-      "language": "es"
-    },
-    {
-      "name": "Superzahn",
-      "language": "de"
-    },
-    {
-      "name": "Croc Fatal",
-      "language": "fr"
-    },
-    {
-      "name": "분노의앞니",
-      "language": "ko"
-    },
-    {
-      "name": "いかりのまえば",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "いかりのまえば",
+    "kana": "いかりのまえば",
+    "en": "Super Fang",
+    "fr": "Croc Fatal",
+    "it": "Superzanna",
+    "de": "Superzahn",
+    "es": "Superdiente",
+    "ko": "분노의앞니",
+    "zh-CN": "愤怒门牙",
+    "zh-TW": "憤怒門牙"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "鋭い　前歯で 激しく　かみついて　攻撃する。 相手の　ＨＰは　半分に　なる。",
+    "kana": "するどい　まえばで はげしく　かみついて　こうげきする。 あいての　ＨＰは　はんぶんに　なる。",
+    "en": "The user chomps hard on the target with its sharp front fangs. This cuts the target’s HP in half.",
+    "fr": "Une vilaine morsure d’incisives qui réduit de moitié les PV de l’ennemi.",
+    "it": "Chi la usa salta sul bersaglio azzannandolo con i suoi incisivi affilati e facendogli perdere metà dei PS.",
+    "de": "Greift mit scharfen Reißzähnen an. KP des Zieles werden halbiert.",
+    "es": "Finos colmillos que reducen a la mitad los PS del objetivo.",
+    "ko": "날카로운 앞니로 강하게 물어서 공격한다. 상대의 HP는 절반이 된다.",
+    "zh-CN": "用锋利的门牙 猛烈地咬住对手进行攻击。 对手的ＨＰ减半。",
+    "zh-TW": "用銳利的門牙 猛烈地咬住對手進行攻擊。 對手的ＨＰ將會減半。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

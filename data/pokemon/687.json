@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 11,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water2"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "blob"
   },
@@ -48,68 +40,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "カラマネロ",
-      "language": "ja"
-    },
-    {
-      "name": "칼라마네로",
-      "language": "ko"
-    },
-    {
-      "name": "Sepiatroce",
-      "language": "fr"
-    },
-    {
-      "name": "Calamanero",
-      "language": "de"
-    },
-    {
-      "name": "Malamar",
-      "language": "es"
-    },
-    {
-      "name": "Malamar",
-      "language": "it"
-    },
-    {
-      "name": "Malamar",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カラマネロ",
+    "en": "Malamar",
+    "fr": "Sepiatroce",
+    "it": "Malamar",
+    "de": "Calamanero",
+    "es": "Malamar",
+    "ko": "칼라마네로"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ぎゃくてん",
-      "language": "ja"
-    },
-    {
-      "genus": "역전",
-      "language": "ko"
-    },
-    {
-      "genus": "Révolution",
-      "language": "fr"
-    },
-    {
-      "genus": "Inversion",
-      "language": "de"
-    },
-    {
-      "genus": "Revolución",
-      "language": "es"
-    },
-    {
-      "genus": "Giravolta",
-      "language": "it"
-    },
-    {
-      "genus": "Overturning",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ぎゃくてん",
+    "en": "Overturning",
+    "fr": "Révolution",
+    "it": "Giravolta",
+    "de": "Inversion",
+    "es": "Revolución",
+    "ko": "역전"
+  },
   "varieties": [
     {
       "is_default": true,

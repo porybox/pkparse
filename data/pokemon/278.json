@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 17,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "flying"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "wings"
   },
@@ -72,44 +64,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "キャモメ",
-      "language": "ja"
-    },
-    {
-      "name": "Camome",
-      "language": "roomaji"
-    },
-    {
-      "name": "갈모매",
-      "language": "ko"
-    },
-    {
-      "name": "長翅鷗",
-      "language": "zh"
-    },
-    {
-      "name": "Goélise",
-      "language": "fr"
-    },
-    {
-      "name": "Wingull",
-      "language": "de"
-    },
-    {
-      "name": "Wingull",
-      "language": "es"
-    },
-    {
-      "name": "Wingull",
-      "language": "it"
-    },
-    {
-      "name": "Wingull",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "キャモメ",
+    "en": "Wingull",
+    "fr": "Goélise",
+    "it": "Wingull",
+    "de": "Wingull",
+    "es": "Wingull",
+    "ko": "갈모매"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -120,36 +83,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "うみねこ",
-      "language": "ja"
-    },
-    {
-      "genus": "괭이갈매기",
-      "language": "ko"
-    },
-    {
-      "genus": "Mouette",
-      "language": "fr"
-    },
-    {
-      "genus": "Seemöwe",
-      "language": "de"
-    },
-    {
-      "genus": "Gaviota",
-      "language": "es"
-    },
-    {
-      "genus": "Gabbiano",
-      "language": "it"
-    },
-    {
-      "genus": "Seagull",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "うみねこ",
+    "en": "Seagull",
+    "fr": "Mouette",
+    "it": "Gabbiano",
+    "de": "Seemöwe",
+    "es": "Gaviota",
+    "ko": "괭이갈매기"
+  },
   "varieties": [
     {
       "is_default": true,

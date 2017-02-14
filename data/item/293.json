@@ -1,0 +1,38 @@
+{
+  "id": 293,
+  "name": "power-anklet",
+  "names": {
+    "ja": "パワーアンクル",
+    "kana": "パワーアンクル",
+    "en": "Power Anklet",
+    "fr": "Chaîne Pouvoir",
+    "it": "Vigorgliera",
+    "de": "Machtkette",
+    "es": "Franja Recia",
+    "ko": "파워앵클릿",
+    "zh-CN": "力量护踝",
+    "zh-TW": "力量護踝"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせると　素早さが　さがるが ふつうよりも　ポケモンの　素早さが 高く　育ちやすい。",
+    "kana": "もたせると　すばやさが　さがるが ふつうよりも　ポケモンの　すばやさが たかく　そだちやすい。",
+    "en": "An item to be held by a Pokémon. It reduces Speed but allows the holder’s Speed stat to grow more after battling.",
+    "fr": "Objet à tenir. Permet à la Vitesse de progresser plus vite, mais la réduit pendant le combat.",
+    "it": "Strumento da dare a un Pokémon. Riduce la Velocità nella lotta ma permette ai punti base della Velocità di crescere più rapidamente.",
+    "de": "Ein Item zum Tragen. Erhöht nach dem Kampf den Initiative-Wert, senkt aber die Initiative allgemein.",
+    "es": "Potencia la Velocidad de base, pero reduce la Velocidad en combate. Debe llevarla un Pokémon.",
+    "ko": "지니게 하면 스피드는 떨어지지만 여느 때보다 포켓몬의 스피드를 올리면서 키우기가 쉽다.",
+    "zh-CN": "虽然携带后速度会降低， 但宝可梦的速度 会比平时成长得更高。",
+    "zh-TW": "雖然攜帶後速度會降低， 但寶可夢的速度 會比平時培育得更高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ein Item zum Tragen. Erhöht bei Levelaufstieg den Initiative-Wert, senkt aber die Initiative allgemein."
+        }
+      }
+    }
+  ]
+}

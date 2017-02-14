@@ -1,0 +1,45 @@
+{
+  "id": 25,
+  "name": "hyper-potion",
+  "names": {
+    "ja": "すごいキズぐすり",
+    "kana": "すごいキズぐすり",
+    "en": "Hyper Potion",
+    "fr": "Hyper Potion",
+    "it": "Iperpozione",
+    "de": "Hypertrank",
+    "es": "Hiperpoción",
+    "ko": "고급상처약",
+    "zh-CN": "厉害伤药",
+    "zh-TW": "厲害傷藥"
+  },
+  "flavor_text_entries": {
+    "ja": "スプレー式の　キズぐすり。 ポケモン　１匹の　ＨＰを １２０だけ　回復する。",
+    "kana": "スプレーしきの　キズぐすり。 ポケモン　１ひきの　ＨＰを １２０だけ　かいふくする。",
+    "en": "A spray-type medicine for treating wounds. It can be used to restore 120 HP to an injured Pokémon.",
+    "fr": "Un spray qui soigne les blessures. Restaure 120 PV d’un Pokémon.",
+    "it": "Rimedio spray per le ferite. Restituisce 120 PS a un Pokémon.",
+    "de": "Hilft bei Wunden. Füllt die KP eines Pokémon um 120 Punkte auf.",
+    "es": "Medicina en espray que cura heridas y restaura 120 PS de un Pokémon.",
+    "ko": "스프레이식의 상처약. 포켓몬 1마리의 HP를 120만큼 회복한다.",
+    "zh-CN": "喷雾式伤药。 能让１只宝可梦 回复１２０ＨＰ。",
+    "zh-TW": "噴霧式傷藥。 能讓１隻寶可夢 回復１２０ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "スプレー式の　キズぐすり。 ポケモン　１匹の　ＨＰを ２００だけ　回復する。",
+          "kana": "スプレーしきの　キズぐすり。 ポケモン　１ひきの　ＨＰを ２００だけ　かいふくする。",
+          "en": "A spray-type medicine for treating wounds. It can be used to restore 200 HP to an injured Pokémon.",
+          "fr": "Un spray qui soigne les blessures. Restaure 200 PV d’un Pokémon.",
+          "it": "Rimedio spray per le ferite. Restituisce 200 PS a un Pokémon.",
+          "de": "Hilft bei Wunden. Füllt die KP eines Pokémon um 200 Punkte auf.",
+          "es": "Medicina en espray que cura heridas y restaura 200 PS de un Pokémon.",
+          "ko": "스프레이식의 상처약. 포켓몬 1마리의 HP를 200만큼 회복한다."
+        }
+      }
+    }
+  ]
+}

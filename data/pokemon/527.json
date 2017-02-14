@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 55,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "flying"
-    }
+    "ground",
+    "flying"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "wings"
   },
@@ -58,68 +50,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "コロモリ",
-      "language": "ja"
-    },
-    {
-      "name": "또르박쥐",
-      "language": "ko"
-    },
-    {
-      "name": "Chovsourir",
-      "language": "fr"
-    },
-    {
-      "name": "Fleknoil",
-      "language": "de"
-    },
-    {
-      "name": "Woobat",
-      "language": "es"
-    },
-    {
-      "name": "Woobat",
-      "language": "it"
-    },
-    {
-      "name": "Woobat",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コロモリ",
+    "en": "Woobat",
+    "fr": "Chovsourir",
+    "it": "Woobat",
+    "de": "Fleknoil",
+    "es": "Woobat",
+    "ko": "또르박쥐"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こうもり",
-      "language": "ja"
-    },
-    {
-      "genus": "박쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Chovsouris",
-      "language": "fr"
-    },
-    {
-      "genus": "Fledermaus",
-      "language": "de"
-    },
-    {
-      "genus": "Murciélago",
-      "language": "es"
-    },
-    {
-      "genus": "Pipistrello",
-      "language": "it"
-    },
-    {
-      "genus": "Bat",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こうもり",
+    "en": "Bat",
+    "fr": "Chovsouris",
+    "it": "Pipistrello",
+    "de": "Fledermaus",
+    "es": "Murciélago",
+    "ko": "박쥐"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -134,11 +84,21 @@
     "flying"
   ],
   "base_stats": {
-    "hp": 55,
+    "hp": 65,
     "attack": 45,
     "defense": 43,
     "special-attack": 55,
     "special-defense": 43,
     "speed": 72
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "hp": 55
+        }
+      }
+    }
+  ]
 }

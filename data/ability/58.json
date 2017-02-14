@@ -1,222 +1,53 @@
 {
   "id": 58,
   "name": "minus",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "マイナス",
+    "kana": "マイナス",
+    "en": "Minus",
+    "fr": "Minus",
+    "it": "Meno",
+    "de": "Minus",
+    "es": "Menos",
+    "ko": "마이너스",
+    "zh-CN": "负电",
+    "zh-TW": "負電"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "プラスか　マイナスの　特性を　持つ ポケモンが　仲間に　いると 自分の　特攻が　上がる。",
+    "kana": "プラスか　マイナスの　とくせいを　もつ ポケモンが　なかまに　いると じぶんの　とくこうが　あがる。",
+    "en": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
+    "fr": "L’Attaque Spéciale du Pokémon augmente si un Pokémon allié a le talent Minus ou Plus.",
+    "it": "Aumenta l’Attacco Speciale se ci sono alleati con l’abilità Meno o Più.",
+    "de": "Erhöht den Spezial-Angriff, wenn das Pokémon einen Mitstreiter mit der Fähigkeit Plus oder Minus hat.",
+    "es": "Potencia el Ataque Especial si un Pokémon aliado tiene la habilidad Más o Menos.",
+    "ko": "플러스나 마이너스의 특성을 가진 포켓몬이 동료에 있으면 자신의 특수공격이 올라간다.",
+    "zh-CN": "出场的伙伴之间 如果有正电或负电特性的宝可梦， 自己的特攻会提高。",
+    "zh-TW": "場上的夥伴之中， 如果有正電或負電特性的寶可夢， 自己的特攻會提高。"
+  },
+  "past_values": [
     {
-      "name": "Minus",
-      "language": "en"
-    },
-    {
-      "name": "Meno",
-      "language": "it"
-    },
-    {
-      "name": "Menos",
-      "language": "es"
-    },
-    {
-      "name": "Minus",
-      "language": "de"
-    },
-    {
-      "name": "Minus",
-      "language": "fr"
-    },
-    {
-      "name": "마이너스",
-      "language": "ko"
-    },
-    {
-      "name": "マイナス",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon has 1.5× its [Special Attack]{mechanic:special-attack} if any friendly Pokémon has []{ability:plus} or []{ability:minus}.\n\nThis bonus does not count as a [stat modifier]{mechanic:stat-modifier}.  If either ability is disabled by []{move:gastro-acid}, both lose their effect.",
-      "short_effect": "Increases [Special Attack]{mechanic:special-attack} to 1.5× when a friendly Pokémon has []{ability:plus} or []{ability:minus}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "Powers up only when paired with []{ability:plus}.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "プラスかマイナスがいると 特攻が　あがる。",
+          "kana": "プラスかマイナスがいると とくこうが　あがる。",
+          "en": "Boosts the Sp. Atk stat if another Pokémon has Plus or Minus.",
+          "fr": "Augmente l’Atq. Spé. si un autre Pokémon a Minus ou Plus.",
+          "it": "Aumenta l’Attacco Speciale se ci sono Pokémon con Meno o Più.",
+          "de": "Erhöht den Spezial-Angriff, wenn Plus oder Minus vertreten ist.",
+          "es": "Potencia el At. Esp. si algún otro Pokémon tiene Más o Menos.",
+          "ko": "플러스나 마이너스가 있으면 특수공격이 올라간다."
         }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "プラスかマイナスがいると\n特攻が　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Boosts the Sp. Atk stat if another\nPokémon has Plus or Minus.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Aumenta l’Attacco Speciale se ci\nsono Pokémon con Meno o Più.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Potencia el At. Esp. si algún otro\nPokémon tiene Más o Menos.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Erhöht den Spezial-Angriff, wenn\nPlus oder Minus vertreten sind.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Augmente l’Attaque Spéciale si\nun Pokémon a Minus ou Plus.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "플러스나 마이너스가 있으면\n특수공격이 올라간다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "プラスかマイナスがいると\nとくこうが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Ups Sp. Atk if another\nPokémon has Plus or Minus.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ups Sp. Atk if another\nPokémon has Plus or Minus.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Augmente l’Atq. Spé. si un\nPokémon a Minus ou Plus.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Ups Sp. Atk if another\nPokémon has Plus.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Boosts Sp. Atk if another\nPokémon has Plus.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Boosts Sp. Atk if another\nPokémon has Plus.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up with PLUS.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up with PLUS.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up with PLUS.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "electrike"
       }
     },
     {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "manectric"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "minun"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "klink"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "klang"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "klinklang"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Augmente l’Attaque Spéciale si un Pokémon a Minus ou Plus.",
+          "de": "Erhöht den Spezial-Angriff, wenn Plus oder Minus vertreten sind."
+        }
       }
     }
   ]

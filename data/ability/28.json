@@ -1,307 +1,44 @@
 {
   "id": 28,
   "name": "synchronize",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "シンクロ",
+    "kana": "シンクロ",
+    "en": "Synchronize",
+    "fr": "Synchro",
+    "it": "Sincronismo",
+    "de": "Synchro",
+    "es": "Sincronía",
+    "ko": "싱크로",
+    "zh-CN": "同步",
+    "zh-TW": "同步"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "自分が　なってしまった どくや　まひや　やけどを 相手に　うつす。",
+    "kana": "じぶんが　なってしまった どくや　まひや　やけどを あいてに　うつす。",
+    "en": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.",
+    "fr": "Quand le Pokémon est brûlé, paralysé ou empoisonné par un autre Pokémon, il partage ce statut avec celui-ci.",
+    "it": "Se un nemico avvelena, paralizza o scotta un Pokémon con questa abilità, viene affetto dallo stesso stato.",
+    "de": "Erleidet das Pokémon Verbrennungen, Vergiftungen oder Paralyse, ereilt das jeweilige Statusproblem auch den Verursacher.",
+    "es": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
+    "ko": "자신이 걸린 독이나 마비, 화상을 상대에게 옮긴다.",
+    "zh-CN": "将自己的中毒、麻痹 或灼伤状态传染给对手。",
+    "zh-TW": "將自己的中毒、麻痺或 灼傷狀態傳染給對手。"
+  },
+  "past_values": [
     {
-      "name": "Synchronize",
-      "language": "en"
-    },
-    {
-      "name": "Sincronismo",
-      "language": "it"
-    },
-    {
-      "name": "Sincronía",
-      "language": "es"
-    },
-    {
-      "name": "Synchro",
-      "language": "de"
-    },
-    {
-      "name": "Synchro",
-      "language": "fr"
-    },
-    {
-      "name": "싱크로",
-      "language": "ko"
-    },
-    {
-      "name": "シンクロ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Whenever this Pokémon is [burned]{mechanic:burn}, [paralyzed]{mechanic:paralysis}, or [poisoned]{mechanic:poison}, the Pokémon who gave this Pokémon that ailment is also given the ailment.\n\nThis ability passes back bad poison when this Pokémon is badly poisoned.  This ability cannot pass on a status ailment that the Pokémon did not directly receive from another Pokémon, such as the poison from []{move:toxic-spikes} or the burn from a []{item:flame-orb}.\n\nOverworld: If the lead Pokémon has this ability, wild Pokémon have a 50% chance of having the lead Pokémon's nature, and a 50% chance of being given a random nature as usual, including the lead Pokémon's nature.  This does not work on Pokémon received outside of battle or roaming legendaries.",
-      "short_effect": "Copies [burns]{mechanic:burn}, [paralysis]{mechanic:paralysis}, and [poison]{mechanic:poison} received onto the Pokémon that inflicted them.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "emerald"
-      },
-      "effect_entries": [
-        {
-          "effect": "Has no overworld effect.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "どく　まひ　やけどを 相手に　うつす。",
+          "kana": "どく　まひ　やけどを あいてに　うつす。",
+          "en": "Passes poison, paralyze, or burn to the Pokémon that inflicted it.",
+          "fr": "Transmet brûlure, paralysie ou poison au Pokémon qui l’a infligé.",
+          "it": "Avvelena, paralizza o scotta il nemico che infligge lo stato.",
+          "de": "Brand, Gift oder Paralyse ereilen auch den Verursacher.",
+          "es": "Contagia envenenamiento, parálisis o quemaduras.",
+          "ko": "독, 마비, 화상을 상대에게 옮긴다."
         }
-      ]
-    },
-    {
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "effect_entries": [
-        {
-          "effect": "Cannot influence the natures of Pokémon encountered by interacting with them on the overworld.",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "Passes back bad [poison]{mechanic:poison} as regular poison.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "どく　まひ　やけどを\n相手に　うつす。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Passes poison, paralyze, or burn\nto the Pokémon that inflicted it.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Avvelena, paralizza o scotta il\nnemico che infligge lo stato.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Contagia envenenamiento,\nparálisis o quemaduras.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Brand, Gift oder Paralyse ereilen\nauch den Verursacher.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Transmet brûlure, paralysie ou\npoison au Pokémon qui l’a infligé.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "독, 마비, 화상을\n상대에게 옮긴다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "どく　まひ　やけどを\nあいてに　うつす。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Passes a burn, poison,\nor paralysis to the foe.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Passes a burn, poison,\nor paralysis to the foe.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Transmet brûlure, poison\nou paralysie à l’ennemi.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Passes a burn, poison,\nor paralysis to the foe.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Passes on a burn, poison,\nor paralysis to the foe.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Passes on a burn, poison,\nor paralysis to the foe.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Passes on status problems.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Passes on status problems.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Passes on status problems.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "abra"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "kadabra"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "alakazam"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "mew"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "natu"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "xatu"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "espeon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "umbreon"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "ralts"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "kirlia"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gardevoir"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "munna"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "musharna"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "elgyem"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "beheeyem"
       }
     }
   ]

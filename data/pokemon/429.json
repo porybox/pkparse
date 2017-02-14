@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 184,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "ball"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ムウマージ",
-      "language": "ja"
-    },
-    {
-      "name": "Mumage",
-      "language": "roomaji"
-    },
-    {
-      "name": "무우마직",
-      "language": "ko"
-    },
-    {
-      "name": "夢妖魔",
-      "language": "zh"
-    },
-    {
-      "name": "Magirêve",
-      "language": "fr"
-    },
-    {
-      "name": "Traunmagil",
-      "language": "de"
-    },
-    {
-      "name": "Mismagius",
-      "language": "es"
-    },
-    {
-      "name": "Mismagius",
-      "language": "it"
-    },
-    {
-      "name": "Mismagius",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ムウマージ",
+    "en": "Mismagius",
+    "fr": "Magirêve",
+    "it": "Mismagius",
+    "de": "Traunmagil",
+    "es": "Mismagius",
+    "ko": "무우마직"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "マジカル",
-      "language": "ja"
-    },
-    {
-      "genus": "매지컬",
-      "language": "ko"
-    },
-    {
-      "genus": "Magique",
-      "language": "fr"
-    },
-    {
-      "genus": "Magisch",
-      "language": "de"
-    },
-    {
-      "genus": "Mágico",
-      "language": "es"
-    },
-    {
-      "genus": "Stregone",
-      "language": "it"
-    },
-    {
-      "genus": "Magical",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "マジカル",
+    "en": "Magical",
+    "fr": "Magique",
+    "it": "Stregone",
+    "de": "Magisch",
+    "es": "Mágico",
+    "ko": "매지컬"
+  },
   "varieties": [
     {
       "is_default": true,

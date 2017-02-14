@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 83,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "dragon"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -72,44 +64,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ヒトカゲ",
-      "language": "ja"
-    },
-    {
-      "name": "Hitokage",
-      "language": "roomaji"
-    },
-    {
-      "name": "파이리",
-      "language": "ko"
-    },
-    {
-      "name": "小火龍",
-      "language": "zh"
-    },
-    {
-      "name": "Salamèche",
-      "language": "fr"
-    },
-    {
-      "name": "Glumanda",
-      "language": "de"
-    },
-    {
-      "name": "Charmander",
-      "language": "es"
-    },
-    {
-      "name": "Charmander",
-      "language": "it"
-    },
-    {
-      "name": "Charmander",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒトカゲ",
+    "en": "Charmander",
+    "fr": "Salamèche",
+    "it": "Charmander",
+    "de": "Glumanda",
+    "es": "Charmander",
+    "ko": "파이리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -120,36 +83,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とかげ",
-      "language": "ja"
-    },
-    {
-      "genus": "도롱뇽",
-      "language": "ko"
-    },
-    {
-      "genus": "Lézard",
-      "language": "fr"
-    },
-    {
-      "genus": "Echse",
-      "language": "de"
-    },
-    {
-      "genus": "Lagartija",
-      "language": "es"
-    },
-    {
-      "genus": "Lucertola",
-      "language": "it"
-    },
-    {
-      "genus": "Lizard",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とかげ",
+    "en": "Lizard",
+    "fr": "Lézard",
+    "it": "Lucertola",
+    "de": "Echse",
+    "es": "Lagartija",
+    "ko": "도롱뇽"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 134,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "upright"
   },
@@ -75,44 +69,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ベロリンガ",
-      "language": "ja"
-    },
-    {
-      "name": "Beroringa",
-      "language": "roomaji"
-    },
-    {
-      "name": "내루미",
-      "language": "ko"
-    },
-    {
-      "name": "大舌頭",
-      "language": "zh"
-    },
-    {
-      "name": "Excelangue",
-      "language": "fr"
-    },
-    {
-      "name": "Schlurp",
-      "language": "de"
-    },
-    {
-      "name": "Lickitung",
-      "language": "es"
-    },
-    {
-      "name": "Lickitung",
-      "language": "it"
-    },
-    {
-      "name": "Lickitung",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ベロリンガ",
+    "en": "Lickitung",
+    "fr": "Excelangue",
+    "it": "Lickitung",
+    "de": "Schlurp",
+    "es": "Lickitung",
+    "ko": "내루미"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -123,36 +88,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "なめまわし",
-      "language": "ja"
-    },
-    {
-      "genus": "핥기",
-      "language": "ko"
-    },
-    {
-      "genus": "Lécheur",
-      "language": "fr"
-    },
-    {
-      "genus": "Schlecker",
-      "language": "de"
-    },
-    {
-      "genus": "Lametazo",
-      "language": "es"
-    },
-    {
-      "genus": "Linguaccia",
-      "language": "it"
-    },
-    {
-      "genus": "Licking",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "なめまわし",
+    "en": "Licking",
+    "fr": "Lécheur",
+    "it": "Linguaccia",
+    "de": "Schlecker",
+    "es": "Lametazo",
+    "ko": "핥기"
+  },
   "varieties": [
     {
       "is_default": true,

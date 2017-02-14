@@ -2,48 +2,13 @@
   "id": 364,
   "name": "feint",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 2,
   "power": 30,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Removes the effects of []{move:detect} or []{move:protect} from the target before hitting.\n\nThis move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "Hits through Protect and Detect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "If the target is not under the effect of []{move:detect} or []{move:protect}, this move will fail.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -55,55 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Feint",
-      "language": "en"
-    },
-    {
-      "name": "Fintoattacco",
-      "language": "it"
-    },
-    {
-      "name": "Amago",
-      "language": "es"
-    },
-    {
-      "name": "Offenlegung",
-      "language": "de"
-    },
-    {
-      "name": "Ruse",
-      "language": "fr"
-    },
-    {
-      "name": "페인트",
-      "language": "ko"
-    },
-    {
-      "name": "フェイント",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "フェイント",
+    "kana": "フェイント",
+    "en": "Feint",
+    "fr": "Ruse",
+    "it": "Fintoattacco",
+    "de": "Offenlegung",
+    "es": "Amago",
+    "ko": "페인트",
+    "zh-CN": "佯攻",
+    "zh-TW": "佯攻"
+  },
+  "flavor_text_entries": {
+    "ja": "まもるや　みきり　などを　している 相手に　攻撃が　できる。 守りの　効果を　解除させる。",
+    "kana": "まもるや　みきり　などを　している あいてに　こうげきが　できる。 まもりの　こうかを　かいじょ　させる。",
+    "en": "This attack hits a target using a move such as Protect or Detect. This also lifts the effects of those moves.",
+    "fr": "Une attaque capable de toucher un ennemi qui utilise une capacité comme Détection ou Abri. Annule l’effet de ces capacités.",
+    "it": "Colpisce anche un bersaglio che ha usato mosse come Protezione e Individua, annullandone gli effetti.",
+    "de": "Ziele, die Attacken wie Schutzschild oder Scanner eingesetzt haben, werden getroffen. Entfernt Effekte dieser Attacken.",
+    "es": "Permite golpear a objetivos que han utilizado movimientos como Protección o Detección y anula sus efectos.",
+    "ko": "방어나 판별 등을 하고 있는 상대에게 공격할 수 있다. 방어 효과를 해제시킨다.",
+    "zh-CN": "能够攻击正在使用 守住或看穿等招式的对手。 解除其守护效果。",
+    "zh-TW": "能夠攻擊使用了 守住或看穿的對手。 並解除對手的防守效果。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 50,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "まもるや　みきりを　している 相手に　攻撃が　できる。 守りの　効果を　解除させる。",
+          "kana": "まもるや　みきりを　している あいてに　こうげきが　できる。 まもりの　こうかを　かいじょ　させる。",
+          "en": "An attack that hits a target using Protect or Detect. This also lifts the effects of those moves.",
+          "fr": "Une attaque capable de toucher un ennemi qui utilise Détection ou Abri. Annule aussi leur effet.",
+          "it": "Mossa che colpisce anche un bersaglio che ha usato Protezione o Individua, annullandone gli effetti.",
+          "de": "Ziele, die Schutzschild oder Scanner verwenden, werden getroffen. Entfernt Effekte dieser Attacken.",
+          "es": "Permite golpear a objetivos que usan Protección o Detección y anula dichos movimientos.",
+          "ko": "방어나 판별을 하고 있는 상대에게 공격할 수 있다. 방어 효과를 해제시킨다."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  ]
 }

@@ -1,0 +1,38 @@
+{
+  "id": 567,
+  "name": "resist-wing",
+  "names": {
+    "ja": "ていこうのハネ",
+    "kana": "ていこうのハネ",
+    "en": "Resist Wing",
+    "fr": "Aile Armure",
+    "it": "Piumtutela",
+    "de": "Abwehrfeder",
+    "es": "Pluma Aguante",
+    "ko": "저항력날개",
+    "zh-CN": "抵抗之羽",
+    "zh-TW": "抵抗之羽"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　使う　道具。 ポケモン　１匹の　防御の 基礎ポイントを　ちょっと　あげる。",
+    "kana": "ポケモンに　つかう　どうぐ。 ポケモン　１ひきの　ぼうぎょの きそポイントを　ちょっと　あげる。",
+    "en": "An item for use on a Pokémon. It slightly increases the base Defense stat of a single Pokémon.",
+    "fr": "Objet à utiliser sur un Pokémon. Il augmente un peu sa Défense de base.",
+    "it": "Strumento da usare su un Pokémon. Ne aumenta di poco i punti base della Difesa.",
+    "de": "Wendet man dieses Item auf ein Pokémon an, wird dessen Verteidigungs-Basiswert dauerhaft erhöht.",
+    "es": "Pluma que aumenta un poco la Defensa de base de un Pokémon.",
+    "ko": "포켓몬에게 사용하는 도구. 포켓몬 1마리의 방어 기초 포인트를 조금 올린다.",
+    "zh-CN": "用于宝可梦的道具。 能稍微提高１只宝可梦的 防御的基础点数。",
+    "zh-TW": "用於寶可夢的道具。 能稍微提高１隻寶可夢的 防禦的基礎點數。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Schenkt man einem Pokémon dieses Item, wird dessen Verteidigungs-Basiswert dauerhaft erhöht."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": 348,
+  "name": "tm21",
+  "names": {
+    "ja": "わざマシン２１",
+    "kana": "わざマシン２１",
+    "en": "TM21",
+    "fr": "CT21",
+    "it": "MT21",
+    "de": "TM21",
+    "es": "MT21",
+    "ko": "기술머신21",
+    "zh-CN": "招式学习器２１",
+    "zh-TW": "招式學習器２１"
+  },
+  "flavor_text_entries": {
+    "ja": "不満を　はらすため　全力で 攻撃する。　なついて　いないほど 威力は　あがる。",
+    "kana": "ふまんを　はらすために　ぜんりょくで こうげきする。　なついて　いないほど いりょくは　あがる。",
+    "en": "This full-power attack grows more powerful the less the user likes its Trainer.",
+    "fr": "Moins le Pokémon aime son Dresseur, plus cette attaque est puissante.",
+    "it": "Mossa che diventa tanto più potente quanto minore è il grado di affezione del Pokémon per il proprio Allenatore.",
+    "de": "Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.",
+    "es": "Un ataque de gran potencia que resulta más fuerte cuanto menos le guste el Entrenador al Pokémon que lo usa.",
+    "ko": "불만을 풀기 위해서 전력으로 공격한다. 친밀하지 않을수록 위력이 올라간다.",
+    "zh-CN": "为了发泄不满而 全力进行攻击。 亲密度越低，威力越大。",
+    "zh-TW": "為了發洩不滿而 全力進行攻擊。 親密度越低，威力越大。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A full-power attack that grows more powerful the less the user likes its Trainer."
+        }
+      }
+    }
+  ]
+}

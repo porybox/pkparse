@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 15,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "wings"
   },
@@ -51,68 +45,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ハトーボー",
-      "language": "ja"
-    },
-    {
-      "name": "유토브",
-      "language": "ko"
-    },
-    {
-      "name": "Colombeau",
-      "language": "fr"
-    },
-    {
-      "name": "Navitaub",
-      "language": "de"
-    },
-    {
-      "name": "Tranquill",
-      "language": "es"
-    },
-    {
-      "name": "Tranquill",
-      "language": "it"
-    },
-    {
-      "name": "Tranquill",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハトーボー",
+    "en": "Tranquill",
+    "fr": "Colombeau",
+    "it": "Tranquill",
+    "de": "Navitaub",
+    "es": "Tranquill",
+    "ko": "유토브"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "のばと",
-      "language": "ja"
-    },
-    {
-      "genus": "들비둘기",
-      "language": "ko"
-    },
-    {
-      "genus": "Sauvapigeon",
-      "language": "fr"
-    },
-    {
-      "genus": "Wildtaube",
-      "language": "de"
-    },
-    {
-      "genus": "Torcaz",
-      "language": "es"
-    },
-    {
-      "genus": "Granpiccione",
-      "language": "it"
-    },
-    {
-      "genus": "Wild Pigeon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "のばと",
+    "en": "Wild Pigeon",
+    "fr": "Sauvapigeon",
+    "it": "Granpiccione",
+    "de": "Wildtaube",
+    "es": "Torcaz",
+    "ko": "들비둘기"
+  },
   "varieties": [
     {
       "is_default": true,

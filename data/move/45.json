@@ -2,49 +2,13 @@
   "id": 45,
   "name": "growl",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "charm"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Growl",
-      "language": "en"
-    },
-    {
-      "name": "Ruggito",
-      "language": "it"
-    },
-    {
-      "name": "Gruñido",
-      "language": "es"
-    },
-    {
-      "name": "Heuler",
-      "language": "de"
-    },
-    {
-      "name": "Rugissement",
-      "language": "fr"
-    },
-    {
-      "name": "울음소리",
-      "language": "ko"
-    },
-    {
-      "name": "なきごえ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "なきごえ",
+    "kana": "なきごえ",
+    "en": "Growl",
+    "fr": "Rugissement",
+    "it": "Ruggito",
+    "de": "Heuler",
+    "es": "Gruñido",
+    "ko": "울음소리",
+    "zh-CN": "叫声",
+    "zh-TW": "叫聲"
+  },
+  "flavor_text_entries": {
+    "ja": "かわいい　なきごえを　聞かせて 気を　ひき　油断を　させて 相手の　攻撃を　さげる。",
+    "kana": "かわいい　なきごえを　きかせて きを　ひき　ゆだんを　させて あいての　こうげきを　さげる。",
+    "en": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stat.",
+    "fr": "Le lanceur pousse un cri tout mimi pour tromper la vigilance de l’ennemi et baisser son Attaque.",
+    "it": "Distrae i nemici intorno con un ruggito potente e ne riduce l’Attacco.",
+    "de": "Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.",
+    "es": "Dulce gruñido que reduce el Ataque del contrincante.",
+    "ko": "귀여운 울음소리를 들려주고 관심을 끌어 방심한 사이에 상대의 공격을 떨어뜨린다.",
+    "zh-CN": "让对手听可爱的叫声， 引开注意力使其疏忽， 从而降低对手的攻击。",
+    "zh-TW": "發出可愛的叫聲， 誘使對手疏忽大意， 降低對手的攻擊。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "all-opponents",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats."
+        }
+      }
+    }
+  ]
 }

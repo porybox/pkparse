@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 485,
@@ -21,13 +19,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -37,44 +31,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ヒードラン",
-      "language": "ja"
-    },
-    {
-      "name": "Heatran",
-      "language": "roomaji"
-    },
-    {
-      "name": "히드런",
-      "language": "ko"
-    },
-    {
-      "name": "席多藍恩",
-      "language": "zh"
-    },
-    {
-      "name": "Heatran",
-      "language": "fr"
-    },
-    {
-      "name": "Heatran",
-      "language": "de"
-    },
-    {
-      "name": "Heatran",
-      "language": "es"
-    },
-    {
-      "name": "Heatran",
-      "language": "it"
-    },
-    {
-      "name": "Heatran",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒードラン",
+    "en": "Heatran",
+    "fr": "Heatran",
+    "it": "Heatran",
+    "de": "Heatran",
+    "es": "Heatran",
+    "ko": "히드런"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -85,36 +50,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かこう",
-      "language": "ja"
-    },
-    {
-      "genus": "화구",
-      "language": "ko"
-    },
-    {
-      "genus": "Caldeira",
-      "language": "fr"
-    },
-    {
-      "genus": "Lavadom",
-      "language": "de"
-    },
-    {
-      "genus": "Domo Lava",
-      "language": "es"
-    },
-    {
-      "genus": "Cratere",
-      "language": "it"
-    },
-    {
-      "genus": "Lava Dome",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かこう",
+    "en": "Lava Dome",
+    "fr": "Caldeira",
+    "it": "Cratere",
+    "de": "Lavadom",
+    "es": "Domo Lava",
+    "ko": "화구"
+  },
   "varieties": [
     {
       "is_default": true,

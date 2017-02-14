@@ -1,0 +1,50 @@
+{
+  "id": 696,
+  "name": "malicious-moonsault",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": 180,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ハイパーダーククラッシャー",
+    "kana": "ハイパーダーククラッシャー",
+    "en": "Malicious Moonsault",
+    "fr": "Dark Body Press",
+    "it": "Iperschianto delle Tenebre",
+    "de": "Hyper Dark Crusher",
+    "es": "Hiperplancha Oscura",
+    "ko": "하이퍼다크크러셔",
+    "zh-CN": "极恶飞跃粉碎击",
+    "zh-TW": "極惡飛躍粉碎擊"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　タフな　肉体を　得た ガオガエンが　全力で 相手に　ぶつかって　攻撃する。",
+    "kana": "Ｚパワーで　タフな　にくたいを　えた ガオガエンが　ぜんりょくで あいてに　ぶつかって　こうげきする。",
+    "en": "The user, Incineroar, strengthens its body using its Z-Power and crashes into the target with full force.",
+    "fr": "Félinferno utilise la Force Z pour gonfler ses muscles et écraser la cible de toutes ses forces.",
+    "it": "Grazie al Potere Z, Incineroar richiama tutta la sua forza e si lancia impetuosamente sul bersaglio.",
+    "de": "Mit seinem durch Z-Kraft gestählten Körper stürzt sich Fuegro mit ganzer Kraft auf das Ziel.",
+    "es": "Incineroar refuerza sus músculos con el Poder Z para golpear con todas sus fuerzas a su oponente.",
+    "ko": "Z파워로 강한 육체를 얻은 어흥염이 전력으로 상대에게 부딪쳐 공격한다.",
+    "zh-CN": "通过Ｚ力量得到 强壮肉体的炽焰咆哮虎 将全力撞向对手进行攻击。",
+    "zh-TW": "透過Ｚ力量得到 強壯肉體的熾焰咆哮虎 全力撞向對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark"
+}

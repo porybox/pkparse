@@ -2,34 +2,13 @@
   "id": 511,
   "name": "quash",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Forces the target to act last this turn, regardless of [Speed]{mechanic:speed} or move [priority]{mechanic:priority}.  If the target has already acted this turn, this move will [fail]{mechanic:fail}.",
-      "short_effect": "Makes the target act last this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Quash",
-      "language": "en"
-    },
-    {
-      "name": "Spintone",
-      "language": "it"
-    },
-    {
-      "name": "Último Lugar",
-      "language": "es"
-    },
-    {
-      "name": "Verzögerung",
-      "language": "de"
-    },
-    {
-      "name": "À la Queue",
-      "language": "fr"
-    },
-    {
-      "name": "순서미루기",
-      "language": "ko"
-    },
-    {
-      "name": "さきおくり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "さきおくり",
+    "kana": "さきおくり",
+    "en": "Quash",
+    "fr": "À la Queue",
+    "it": "Spintone",
+    "de": "Verzögerung",
+    "es": "Último Lugar",
+    "ko": "순서미루기",
+    "zh-CN": "延后",
+    "zh-TW": "延後"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "相手を　おさえつけて 行動の　順番を 最後に　する。",
+    "kana": "あいてを　おさえつけて こうどうの　じゅんばんを さいごに　する。",
+    "en": "The user suppresses the target and makes its move go last.",
+    "fr": "Retient la cible de force, l’obligeant à agir en dernier.",
+    "it": "Chi la usa spinge via il bersaglio, costringendolo ad agire per ultimo.",
+    "de": "Anwender stemmt sich gegen das Ziel und bewirkt, dass dieses erst als Letztes angreift.",
+    "es": "Consigue que el objetivo sea el último en moverse.",
+    "ko": "상대를 억눌러서 행동의 순서를 마지막으로 만든다.",
+    "zh-CN": "压制对手， 从而将其行动顺序放到最后。",
+    "zh-TW": "壓制對手，讓對手在 回合的最後才能行動。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark"
 }

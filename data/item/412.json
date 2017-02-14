@@ -1,0 +1,41 @@
+{
+  "id": 412,
+  "name": "tm85",
+  "names": {
+    "ja": "わざマシン８５",
+    "kana": "わざマシン８５",
+    "en": "TM85",
+    "fr": "CT85",
+    "it": "MT85",
+    "de": "TM85",
+    "es": "MT85",
+    "ko": "기술머신85",
+    "zh-CN": "招式学习器８５",
+    "zh-TW": "招式學習器８５"
+  },
+  "flavor_text_entries": {
+    "ja": "寝ている　相手の　夢を　食べて 攻撃する。　ダメージの　半分の ＨＰを　回復する。",
+    "kana": "ねている　あいての　ゆめを　たべて こうげきする。　ダメージの　はんぶんの ＨＰを　かいふく　する。",
+    "en": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP.",
+    "fr": "Le lanceur mange le rêve de l’ennemi endormi et récupère en PV la moitié des dégâts infligés.",
+    "it": "Attacco che funziona solo su un bersaglio che dorme. Chi lo usa riceve metà dei PS persi dal Pokémon colpito.",
+    "de": "Wirkt nur auf schlafende Ziele. Angreifer erhält 50 % des Schadens als KP.",
+    "es": "Solo funciona con objetivos dormidos. Absorbe la mitad del daño causado para restaurar los PS de quien lo usa.",
+    "ko": "잠자고 있는 상대의 꿈을 먹어 공격한다. 데미지의 절반을 HP로 회복한다.",
+    "zh-CN": "吃掉正在睡觉的对手的梦 进行攻击。回复对手 所受到伤害的一半ＨＰ。",
+    "zh-TW": "吃掉熟睡中對手的夢 進行攻擊。可以回復給予對手 傷害的一半ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "寝ている　相手の　夢を　食べて 攻撃する。ダメージの　半分の ＨＰを　回復する。",
+          "kana": "ねている　あいての　ゆめを　たべて こうげきする。　あたえた　ダメージの はんぶん　ＨＰを　かいふくする。",
+          "fr": "Le lanceur mange le rêve de l’ennemi endormi. Le lanceur récupère en PV la moitié des dégâts infligés.",
+          "it": "Attacco che funziona solo su un nemico che dorme. Chi lo usa riceve metà dei PS persi dal nemico."
+        }
+      }
+    }
+  ]
+}

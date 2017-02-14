@@ -1,0 +1,50 @@
+{
+  "id": 622,
+  "name": "breakneck-blitz",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ウルトラダッシュアタック",
+    "kana": "ウルトラダッシュアタック",
+    "en": "Breakneck Blitz",
+    "fr": "Turbo-Charge Bulldozer",
+    "it": "Carica Travolgente",
+    "de": "Hyper-Sprintangriff",
+    "es": "Carrera Arrolladora",
+    "ko": "울트라대시어택",
+    "zh-CN": "究极无敌大冲撞",
+    "zh-TW": "究極無敵大衝撞"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　勢いを　つけて 全力で　相手に　ぶつかる。 元になった　技で　威力が　変わる。",
+    "kana": "Ｚパワーで　いきおいを　つけて ぜんりょくで　あいてに　ぶつかる。 もとになった　わざで　いりょくが　かわる。",
+    "en": "The user builds up its momentum using its Z-Power and crashes into the target at full speed. The power varies, depending on the original move.",
+    "fr": "Le Pokémon utilise la Force Z pour s’élancer à toute vitesse sur l’adversaire. La puissance varie selon celle de la capacité originale.",
+    "it": "Grazie al Potere Z, chi la usa accumula energia e si lancia a tutta forza contro il bersaglio. La potenza varia a seconda della mossa su cui si basa.",
+    "de": "Der durch Z-Kraft energiegeladene Anwender rennt mit ganzer Kraft gegen das Ziel. Die Stärke variiert je nach zugrunde liegender Attacke.",
+    "es": "El usuario emplea el Poder Z para coger carrerilla y arremeter contra el objetivo con gran fuerza. Su potencia depende de la del movimiento original.",
+    "ko": "Z파워로 기세를 몰아 전력으로 상대에게 부딪친다. 원래 기술에 따라 위력이 변한다.",
+    "zh-CN": "通过Ｚ力量气势猛烈地 全力撞上对手。 威力会根据原来的招式而改变。",
+    "zh-TW": "透過Ｚ力量氣勢猛烈地 全力撞擊對手。 威力會隨原本的招式而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
+}

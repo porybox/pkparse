@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 57,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -56,44 +48,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ルンパッパ",
-      "language": "ja"
-    },
-    {
-      "name": "Runpappa",
-      "language": "roomaji"
-    },
-    {
-      "name": "로파파",
-      "language": "ko"
-    },
-    {
-      "name": "樂天河童",
-      "language": "zh"
-    },
-    {
-      "name": "Ludicolo",
-      "language": "fr"
-    },
-    {
-      "name": "Kappalores",
-      "language": "de"
-    },
-    {
-      "name": "Ludicolo",
-      "language": "es"
-    },
-    {
-      "name": "Ludicolo",
-      "language": "it"
-    },
-    {
-      "name": "Ludicolo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ルンパッパ",
+    "en": "Ludicolo",
+    "fr": "Ludicolo",
+    "it": "Ludicolo",
+    "de": "Kappalores",
+    "es": "Ludicolo",
+    "ko": "로파파"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -104,36 +67,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "のうてんき",
-      "language": "ja"
-    },
-    {
-      "genus": "행복하기",
-      "language": "ko"
-    },
-    {
-      "genus": "Insouciant",
-      "language": "fr"
-    },
-    {
-      "genus": "Sorglos",
-      "language": "de"
-    },
-    {
-      "genus": "Optimista",
-      "language": "es"
-    },
-    {
-      "genus": "Spensierato",
-      "language": "it"
-    },
-    {
-      "genus": "Carefree",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "のうてんき",
+    "en": "Carefree",
+    "fr": "Insouciant",
+    "it": "Spensierato",
+    "de": "Sorglos",
+    "es": "Optimista",
+    "ko": "행복하기"
+  },
   "varieties": [
     {
       "is_default": true,

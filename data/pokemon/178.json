@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 162,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "wings"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ネイティオ",
-      "language": "ja"
-    },
-    {
-      "name": "Natio",
-      "language": "roomaji"
-    },
-    {
-      "name": "네이티오",
-      "language": "ko"
-    },
-    {
-      "name": "天然鳥",
-      "language": "zh"
-    },
-    {
-      "name": "Xatu",
-      "language": "fr"
-    },
-    {
-      "name": "Xatu",
-      "language": "de"
-    },
-    {
-      "name": "Xatu",
-      "language": "es"
-    },
-    {
-      "name": "Xatu",
-      "language": "it"
-    },
-    {
-      "name": "Xatu",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ネイティオ",
+    "en": "Xatu",
+    "fr": "Xatu",
+    "it": "Xatu",
+    "de": "Xatu",
+    "es": "Xatu",
+    "ko": "네이티오"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "せいれい",
-      "language": "ja"
-    },
-    {
-      "genus": "정령",
-      "language": "ko"
-    },
-    {
-      "genus": "Mystique",
-      "language": "fr"
-    },
-    {
-      "genus": "Mystik",
-      "language": "de"
-    },
-    {
-      "genus": "Místico",
-      "language": "es"
-    },
-    {
-      "genus": "Magico",
-      "language": "it"
-    },
-    {
-      "genus": "Mystic",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "せいれい",
+    "en": "Mystic",
+    "fr": "Mystique",
+    "it": "Magico",
+    "de": "Mystik",
+    "es": "Místico",
+    "ko": "정령"
+  },
   "varieties": [
     {
       "is_default": true,

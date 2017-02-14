@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 20,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "wings"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "オオスバメ",
-      "language": "ja"
-    },
-    {
-      "name": "Ohsubame",
-      "language": "roomaji"
-    },
-    {
-      "name": "스왈로",
-      "language": "ko"
-    },
-    {
-      "name": "大王燕",
-      "language": "zh"
-    },
-    {
-      "name": "Hélédelle",
-      "language": "fr"
-    },
-    {
-      "name": "Schwalboss",
-      "language": "de"
-    },
-    {
-      "name": "Swellow",
-      "language": "es"
-    },
-    {
-      "name": "Swellow",
-      "language": "it"
-    },
-    {
-      "name": "Swellow",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オオスバメ",
+    "en": "Swellow",
+    "fr": "Hélédelle",
+    "it": "Swellow",
+    "de": "Schwalboss",
+    "es": "Swellow",
+    "ko": "스왈로"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ツバメ",
-      "language": "ja"
-    },
-    {
-      "genus": "제비",
-      "language": "ko"
-    },
-    {
-      "genus": "Hirondelle",
-      "language": "fr"
-    },
-    {
-      "genus": "Schwalbe",
-      "language": "de"
-    },
-    {
-      "genus": "Buche",
-      "language": "es"
-    },
-    {
-      "genus": "Rondine",
-      "language": "it"
-    },
-    {
-      "genus": "Swallow",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ツバメ",
+    "en": "Swallow",
+    "fr": "Hirondelle",
+    "it": "Rondine",
+    "de": "Schwalbe",
+    "es": "Buche",
+    "ko": "제비"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -148,8 +92,18 @@
     "hp": 60,
     "attack": 85,
     "defense": 60,
-    "special-attack": 50,
+    "special-attack": 75,
     "special-defense": 50,
     "speed": 125
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "special-attack": 50
+        }
+      }
+    }
+  ]
 }

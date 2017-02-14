@@ -2,36 +2,13 @@
   "id": 168,
   "name": "thief",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 25,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target is holding an item and the user is not, the user will permanently take the item.  Damage is still inflicted if an item cannot be taken.\n\nPokémon with []{ability:sticky-hold} or []{ability:multitype} are immune to the item theft effect.\n\nThe target cannot recover its item with []{move:recycle}.\n\nThis move cannot be selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "Takes the target's item.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Thief",
-      "language": "en"
-    },
-    {
-      "name": "Furto",
-      "language": "it"
-    },
-    {
-      "name": "Ladrón",
-      "language": "es"
-    },
-    {
-      "name": "Raub",
-      "language": "de"
-    },
-    {
-      "name": "Larcin",
-      "language": "fr"
-    },
-    {
-      "name": "도둑질",
-      "language": "ko"
-    },
-    {
-      "name": "どろぼう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "どろぼう",
+    "kana": "どろぼう",
+    "en": "Thief",
+    "fr": "Larcin",
+    "it": "Furto",
+    "de": "Raub",
+    "es": "Ladrón",
+    "ko": "도둑질",
+    "zh-CN": "小偷",
+    "zh-TW": "小偷"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "攻撃と　同時に　道具を　盗む。 自分が　道具を　持っている　場合は 盗めない。",
+    "kana": "こうげきと　どうじに　どうぐを　ぬすむ。 じぶんが　どうぐを　もっている　ばあいは ぬすめない。",
+    "en": "The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.",
+    "fr": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet.",
+    "it": "Chi la usa attacca il bersaglio e può rubargli lo strumento, se non ne ha già uno.",
+    "de": "Ermöglicht es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.",
+    "es": "Ataca y le quita el objeto al objetivo siempre y cuando el agresor no lleve ninguno.",
+    "ko": "공격과 동시에 도구를 훔친다. 자신이 도구를 지니고 있을 경우에는 훔칠 수 없다.",
+    "zh-CN": "攻击的同时盗取道具。 当自己携带道具时， 不会去盗取。",
+    "zh-TW": "在攻擊的同時偷取道具。 當寶可夢自己有攜帶道具時， 則無法偷取。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Erlaubt es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo."
+        }
+      }
+    }
+  ]
 }

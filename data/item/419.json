@@ -1,0 +1,39 @@
+{
+  "id": 419,
+  "name": "tm92",
+  "names": {
+    "ja": "わざマシン９２",
+    "kana": "わざマシン９２",
+    "en": "TM92",
+    "fr": "CT92",
+    "it": "MT92",
+    "de": "TM92",
+    "es": "MT92",
+    "ko": "기술머신92",
+    "zh-CN": "招式学习器９２",
+    "zh-TW": "招式學習器９２"
+  },
+  "flavor_text_entries": {
+    "ja": "まかふしぎな　空間を　つくる。 ５ターンの　あいだ 遅い　ポケモンから　行動できる。",
+    "kana": "まかふしぎな　くうかんを　つくる。 ５ターンの　あいだ　おそい ポケモンから　こうげきできる。",
+    "en": "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
+    "fr": "Le lanceur crée une zone étrange où les Pokémon les plus lents ont la priorité pendant cinq tours.",
+    "it": "Chi la usa crea una dimensione in cui i Pokémon più lenti agiscono per primi per cinque turni.",
+    "de": "Verzerrt die Raumzeit für 5 Runden. Langsamere Pokémon greifen zuerst an.",
+    "es": "Distorsiona el espacio de forma que los Pokémon más lentos consiguen moverse en primer lugar durante cinco turnos.",
+    "ko": "아주 이상한 공간을 만든다. 5턴 동안 움직임이 느린 포켓몬부터 공격할 수 있다.",
+    "zh-CN": "制造出离奇的空间。 在５回合内 速度慢的宝可梦可以先行动。",
+    "zh-TW": "創造出非常不可思議的空間。 在５回合內， 速度慢的寶可夢可以先行動。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "まかふしぎな　くうかんを　つくる。 ５ターンの　あいだ　うごきの　おそい ポケモンから　こうげきできる。",
+          "fr": "Le lanceur crée une zone étrange où les Pokémon les plus lents frappent en premier pendant cinq tours."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 403,
+  "name": "tm76",
+  "names": {
+    "ja": "わざマシン７６",
+    "kana": "わざマシン７６",
+    "en": "TM76",
+    "fr": "CT76",
+    "it": "MT76",
+    "de": "TM76",
+    "es": "MT76",
+    "ko": "기술머신76",
+    "zh-CN": "招式学习器７６",
+    "zh-TW": "招式學習器７６"
+  },
+  "flavor_text_entries": {
+    "ja": "１ターン目で　空へ　飛び ２ターン目に　相手を　攻撃する。",
+    "kana": "１ターンめで　そらへ　とび ２ターンめに　あいてを　こうげきする。",
+    "en": "The user soars and then strikes its target on the next turn.",
+    "fr": "Le lanceur s’envole au premier tour et frappe au second.",
+    "it": "Chi la usa si alza in volo per attaccare al turno seguente.",
+    "de": "Steigt in Runde 1 empor und trifft das Ziel in Runde 2.",
+    "es": "Vuela en el primer turno y ataca en el segundo.",
+    "ko": "1턴째에 하늘을 날아 2턴째에 상대를 공격한다.",
+    "zh-CN": "第１回合飞上天空， 第２回合攻击对手。",
+    "zh-TW": "使用後的第１回合飛上天空， 並於第２回合攻擊對手。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "抵抗して　相手を　攻撃する。 相手の　特攻を　さげる。",
+          "kana": "ていこう　して あいてを　こうげきする。 あいての　とくこうを　さげる。",
+          "en": "While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.",
+          "fr": "Le lanceur se débat de toutes ses forces, et baisse l’Attaque Spéciale de l’ennemi.",
+          "it": "Colpisce i nemici opponendo resistenza e riducendo il loro Attacco Speciale.",
+          "de": "Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.",
+          "es": "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.",
+          "ko": "저항하여 상대를 공격한다. 상대의 특수공격을 떨어뜨린다."
+        }
+      }
+    }
+  ]
+}

@@ -2,36 +2,13 @@
   "id": 335,
   "name": "block",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "The target cannot [switch out]{mechanic:switch-out} normally.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This effect ends when the user leaves the [field]{mechanic:field}.\n\nThe target may still escape by using []{move:baton-pass}, []{move:u-turn}, or a []{item:shed-shell}.\n\nBoth the user and the target pass on this effect with []{move:baton-pass}.",
-      "short_effect": "Prevents the target from leaving battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Block",
-      "language": "en"
-    },
-    {
-      "name": "Blocco",
-      "language": "it"
-    },
-    {
-      "name": "Bloqueo",
-      "language": "es"
-    },
-    {
-      "name": "Rückentzug",
-      "language": "de"
-    },
-    {
-      "name": "Barrage",
-      "language": "fr"
-    },
-    {
-      "name": "블록",
-      "language": "ko"
-    },
-    {
-      "name": "とおせんぼう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "とおせんぼう",
+    "kana": "とおせんぼう",
+    "en": "Block",
+    "fr": "Barrage",
+    "it": "Blocco",
+    "de": "Rückentzug",
+    "es": "Bloqueo",
+    "ko": "블록",
+    "zh-CN": "挡路",
+    "zh-TW": "擋路"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "両手を　ひろげて　たちはだかり 相手の　逃げ道を　ふさいで 逃げられなくする。",
+    "kana": "りょうてを　ひろげて　たちはだかり あいての　にげみちを　ふさいで にげられなく　する。",
+    "en": "The user blocks the target’s way with arms spread wide to prevent escape.",
+    "fr": "Le lanceur bloque la route de l’ennemi pour empêcher sa fuite.",
+    "it": "Chi la usa sbarra la strada al bersaglio impedendone la fuga o la sostituzione.",
+    "de": "Anwender versperrt den Fluchtweg des Zieles.",
+    "es": "Le corta el paso al objetivo para que no pueda escapar.",
+    "ko": "양팔을 벌려 막아서서 상대의 도주로를 가로막아 도망칠 수 없게 한다.",
+    "zh-CN": "张开双手进行阻挡， 封住对手的退路， 使其不能逃走。",
+    "zh-TW": "張開雙手進行阻擋， 封住對手的退路， 讓對手無法逃走。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

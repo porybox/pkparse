@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 46,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ミネズミ",
-      "language": "ja"
-    },
-    {
-      "name": "보르쥐",
-      "language": "ko"
-    },
-    {
-      "name": "Ratentif",
-      "language": "fr"
-    },
-    {
-      "name": "Nagelotz",
-      "language": "de"
-    },
-    {
-      "name": "Patrat",
-      "language": "es"
-    },
-    {
-      "name": "Patrat",
-      "language": "it"
-    },
-    {
-      "name": "Patrat",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ミネズミ",
+    "en": "Patrat",
+    "fr": "Ratentif",
+    "it": "Patrat",
+    "de": "Nagelotz",
+    "es": "Patrat",
+    "ko": "보르쥐"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みはり",
-      "language": "ja"
-    },
-    {
-      "genus": "망보기",
-      "language": "ko"
-    },
-    {
-      "genus": "Espion",
-      "language": "fr"
-    },
-    {
-      "genus": "Späher",
-      "language": "de"
-    },
-    {
-      "genus": "Explorador",
-      "language": "es"
-    },
-    {
-      "genus": "Esplorante",
-      "language": "it"
-    },
-    {
-      "genus": "Scout",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みはり",
+    "en": "Scout",
+    "fr": "Espion",
+    "it": "Esplorante",
+    "de": "Späher",
+    "es": "Explorador",
+    "ko": "망보기"
+  },
   "varieties": [
     {
       "is_default": true,

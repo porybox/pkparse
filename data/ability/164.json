@@ -1,140 +1,51 @@
 {
   "id": 164,
   "name": "teravolt",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "テラボルテージ",
+    "kana": "テラボルテージ",
+    "en": "Teravolt",
+    "fr": "Téra-Voltage",
+    "it": "Teravolt",
+    "de": "Teravolt",
+    "es": "Terravoltaje",
+    "ko": "테라볼티지",
+    "zh-CN": "兆级电压",
+    "zh-TW": "兆級電壓"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "相手の　特性に　ジャマされず 相手に　技を　出すことが　できる。",
+    "kana": "あいての　とくせいに　じゃまされず あいてに　わざを　だすことが　できる。",
+    "en": "Moves can be used on the target regardless of its Abilities.",
+    "fr": "Le Pokémon ignore les talents adverses qui auraient un effet sur ses capacités.",
+    "it": "Quando il Pokémon attacca, ignora l’abilità del bersaglio se questa ha effetto sulle mosse.",
+    "de": "Attacken können ungeachtet der Fähigkeit des Zieles eingesetzt werden.",
+    "es": "Las habilidades del objetivo no afectan a los movimientos empleados.",
+    "ko": "상대 특성에 방해받지 않고 상대에게 기술을 쓸 수 있다.",
+    "zh-CN": "可以不受对手特性的干扰， 向对手使出招式。",
+    "zh-TW": "可以不受對手特性的干擾， 向對手使出招式。"
+  },
+  "past_values": [
     {
-      "name": "Teravolt",
-      "language": "en"
-    },
-    {
-      "name": "Teravolt",
-      "language": "it"
-    },
-    {
-      "name": "Terravoltaje",
-      "language": "es"
-    },
-    {
-      "name": "Teravolt",
-      "language": "de"
-    },
-    {
-      "name": "Téra-Voltage",
-      "language": "fr"
-    },
-    {
-      "name": "테라볼티지",
-      "language": "ko"
-    },
-    {
-      "name": "テラボルテージ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon's moves completely ignore abilities that could hinder or prevent their effect on the target.\n\nFor example, this Pokémon's moves ignore abilities that would fully negate them, such as []{ability:water-absorb}; abilities that would prevent any of their effects, such as []{ability:clear-body}, []{ability:shell-armor}, or []{ability:sticky-hold}; and abilities that grant any general protective benefit, such as []{ability:simple}, []{ability:snow-cloak}, or []{ability:thick-fat}.  If an ability could either hinder or help this Pokémon's moves, e.g. []{ability:dry-skin} or []{ability:unaware}, the ability is ignored either way.\n\nAbilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, []{ability:cursed-body} only affects potential future uses of the move, while []{ability:liquid-ooze} and []{ability:shadow-tag} can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example []{ability:color-change} or []{ability:forecast}; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from []{ability:drizzle}.  This ability cannot ignore []{ability:multitype} at all.\n\nAn ability ignored by this ability is only nullified while the move is being used.  For example, this Pokémon's moves can [paralyze]{mechanic:paralysis} a Pokémon with []{ability:limber}, but Limber will activate and heal the paralysis immediately thereafter, and this Pokémon's []{move:spikes} are not affected by this ability after they have been placed.\n\nWhen this Pokémon enters battle, all participating trainers are notified that it has this ability.\n\nThis ability functions identically to []{ability:mold-breaker} and []{ability:turboblaze}.",
-      "short_effect": "Bypasses targets' abilities if they could hinder or prevent moves.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "特性に　関係なく\n相手に　技を　だせる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Moves can be used on the target\nregardless of its Abilities.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Neutralizza le abilità che\nbloccano le mosse.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Usa movimientos sin que importen\nlas habilidades.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Attacken können ungeachtet der\nFähigkeit verwendet werden.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Les talents adverses ne bloquent\npas ses capacités.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "특성에 관계없이 상대에게\n기술을 쓸 수 있다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "とくせいに　かんけいなく\nあいてに　わざを　だせる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Moves can be used\nregardless of Abilities.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Moves can be used\nregardless of Abilities.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Les cap. spé. adverses ne\nbloquent pas ses cap.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "zekrom"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "特性に　関係なく 相手に　技を　だせる。",
+          "kana": "とくせいに　かんけいなく あいてに　わざを　だせる。",
+          "fr": "Les talents adverses ne bloquent pas ses capacités.",
+          "it": "Neutralizza le abilità che bloccano le mosse.",
+          "de": "Attacken können ungeachtet der Fähigkeit verwendet werden.",
+          "es": "Usa movimientos sin que importen las habilidades del objetivo.",
+          "ko": "특성에 관계없이 상대에게 기술을 쓸 수 있다."
+        }
       }
     },
     {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "kyurem-black"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Usa movimientos sin que importen las habilidades."
+        }
       }
     }
   ]

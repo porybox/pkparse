@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 145,
@@ -57,16 +55,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "water2"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "tentacles"
   },
@@ -80,44 +72,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "オクタン",
-      "language": "ja"
-    },
-    {
-      "name": "Okutank",
-      "language": "roomaji"
-    },
-    {
-      "name": "대포무노",
-      "language": "ko"
-    },
-    {
-      "name": "章魚桶",
-      "language": "zh"
-    },
-    {
-      "name": "Octillery",
-      "language": "fr"
-    },
-    {
-      "name": "Octillery",
-      "language": "de"
-    },
-    {
-      "name": "Octillery",
-      "language": "es"
-    },
-    {
-      "name": "Octillery",
-      "language": "it"
-    },
-    {
-      "name": "Octillery",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オクタン",
+    "en": "Octillery",
+    "fr": "Octillery",
+    "it": "Octillery",
+    "de": "Octillery",
+    "es": "Octillery",
+    "ko": "대포무노"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -128,36 +91,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふんしゃ",
-      "language": "ja"
-    },
-    {
-      "genus": "분사",
-      "language": "ko"
-    },
-    {
-      "genus": "Jet",
-      "language": "fr"
-    },
-    {
-      "genus": "Hochdruck",
-      "language": "de"
-    },
-    {
-      "genus": "Reactor",
-      "language": "es"
-    },
-    {
-      "genus": "Jet",
-      "language": "it"
-    },
-    {
-      "genus": "Jet",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふんしゃ",
+    "en": "Jet",
+    "fr": "Jet",
+    "it": "Jet",
+    "de": "Hochdruck",
+    "es": "Reactor",
+    "ko": "분사"
+  },
   "varieties": [
     {
       "is_default": true,

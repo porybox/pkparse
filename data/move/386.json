@@ -2,36 +2,13 @@
   "id": 386,
   "name": "punishment",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power starts at 60 and is increased by 20 for every [stage]{mechanic:stage} any of the target's stats has been raised, capping at 200.  [Accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers do not increase this move's power.",
-      "short_effect": "Power increases against targets with more raised stats, up to a maximum of 200.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,55 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Punishment",
-      "language": "en"
-    },
-    {
-      "name": "Punizione",
-      "language": "it"
-    },
-    {
-      "name": "Castigo",
-      "language": "es"
-    },
-    {
-      "name": "Strafattacke",
-      "language": "de"
-    },
-    {
-      "name": "Punition",
-      "language": "fr"
-    },
-    {
-      "name": "혼내기",
-      "language": "ko"
-    },
-    {
-      "name": "おしおき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": 60,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "おしおき",
+    "kana": "おしおき",
+    "en": "Punishment",
+    "fr": "Punition",
+    "it": "Punizione",
+    "de": "Strafattacke",
+    "es": "Castigo",
+    "ko": "혼내기",
+    "zh-CN": "惩罚",
+    "zh-TW": "懲罰"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "能力変化で 相手が　パワーアップ　しているほど 技の　威力が　あがる。",
+    "kana": "のうりょく　へんかで あいてが　パワーアップ　しているほど わざの　いりょくが　あがる。",
+    "en": "The more the target has powered up with stat changes, the greater the move’s power.",
+    "fr": "Plus l’ennemi a utilisé d’augmentations de stats et plus cette capacité est puissante.",
+    "it": "Questa mossa diventa più potente ogni volta che il bersaglio aumenta le proprie statistiche.",
+    "de": "Je stärker das Ziel durch Statusveränderungen ist, desto stärker wirkt diese Attacke.",
+    "es": "La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.",
+    "ko": "능력 변화로 상대가 파워업한 만큼 기술의 위력이 올라간다.",
+    "zh-CN": "根据能力变化， 对手提高的力量越大， 招式的威力越大。",
+    "zh-TW": "對手的能力因為 能力變化而提高得越多， 招式的威力就越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark"
 }

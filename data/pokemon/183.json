@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 42,
@@ -63,16 +61,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "fairy"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -86,44 +78,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "マリル",
-      "language": "ja"
-    },
-    {
-      "name": "Maril",
-      "language": "roomaji"
-    },
-    {
-      "name": "마릴",
-      "language": "ko"
-    },
-    {
-      "name": "瑪力露",
-      "language": "zh"
-    },
-    {
-      "name": "Marill",
-      "language": "fr"
-    },
-    {
-      "name": "Marill",
-      "language": "de"
-    },
-    {
-      "name": "Marill",
-      "language": "es"
-    },
-    {
-      "name": "Marill",
-      "language": "it"
-    },
-    {
-      "name": "Marill",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マリル",
+    "en": "Marill",
+    "fr": "Marill",
+    "it": "Marill",
+    "de": "Marill",
+    "es": "Marill",
+    "ko": "마릴"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -134,36 +97,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みずねずみ",
-      "language": "ja"
-    },
-    {
-      "genus": "물쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Aquasouris",
-      "language": "fr"
-    },
-    {
-      "genus": "Aquamaus",
-      "language": "de"
-    },
-    {
-      "genus": "Ratón Agua",
-      "language": "es"
-    },
-    {
-      "genus": "Acquatopo",
-      "language": "it"
-    },
-    {
-      "genus": "Aqua Mouse",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みずねずみ",
+    "en": "Aqua Mouse",
+    "fr": "Aquasouris",
+    "it": "Acquatopo",
+    "de": "Aquamaus",
+    "es": "Ratón Agua",
+    "ko": "물쥐"
+  },
   "varieties": [
     {
       "is_default": true,

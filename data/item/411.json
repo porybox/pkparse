@@ -1,0 +1,48 @@
+{
+  "id": 411,
+  "name": "tm84",
+  "names": {
+    "ja": "わざマシン８４",
+    "kana": "わざマシン８４",
+    "en": "TM84",
+    "fr": "CT84",
+    "it": "MT84",
+    "de": "TM84",
+    "es": "MT84",
+    "ko": "기술머신84",
+    "zh-CN": "招式学习器８４",
+    "zh-TW": "招式學習器８４"
+  },
+  "flavor_text_entries": {
+    "ja": "毒に　そまった　触手や　腕で 相手を　突き刺す。 毒状態に　することが　ある。",
+    "kana": "どくに　そまった　しょくしゅや　うでで あいてを　つきさす。 どく　じょうたいに　することが　ある。",
+    "en": "The target is stabbed with a tentacle or arm steeped in poison. This may also poison the target.",
+    "fr": "Attaque l’ennemi avec un tentacule, un bras, ou un autre membre plein de poison. Peut aussi l’empoisonner.",
+    "it": "Il bersaglio è colpito da un tentacolo o da un arto intriso di una sostanza tossica che può anche avvelenarlo.",
+    "de": "Der Anwender greift mit giftigen Gliedmaßen wie Tentakeln oder Armen an. Das Ziel wird dabei eventuell vergiftet.",
+    "es": "Ataca con un tentáculo o brazo impregnado de veneno que puede llegar a envenenar al objetivo.",
+    "ko": "독에 물든 촉수나 팔로 상대를 꿰찌른다. 독 상태로 만들 때가 있다.",
+    "zh-CN": "用带毒的触手或手臂刺入对手。 有时会让对手陷入中毒状态。",
+    "zh-TW": "以帶有毒性的觸手或手臂刺進對手。 有時會讓對手陷入中毒狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "どくに　そまった　しょくしゅや うでで　こうげきする。どくの じょうたいに　することが　ある。",
+          "it": "Il nemico è colpito da un tentacolo o da un arto intriso di una sostanza tossica che può anche avvelenarlo."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Attaque l’ennemi avec un tentacule ou un bras plein de poison. Peut aussi l’empoisonner.",
+          "de": "Der Anwender greift mit giftigen Tentakeln oder Armen an. Das Ziel wird dabei eventuell vergiftet."
+        }
+      }
+    }
+  ]
+}

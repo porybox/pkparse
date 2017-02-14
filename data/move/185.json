@@ -2,67 +2,13 @@
   "id": 185,
   "name": "feint-attack",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 60,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "pound"
-        },
-        {
-          "name": "leer"
-        },
-        {
-          "name": "fake-out"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.",
-      "short_effect": "Never misses.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Hits Pokémon under the effects of []{move:dig} and []{move:fly}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -74,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Feint Attack",
-      "language": "en"
-    },
-    {
-      "name": "Finta",
-      "language": "it"
-    },
-    {
-      "name": "Finta",
-      "language": "es"
-    },
-    {
-      "name": "Finte",
-      "language": "de"
-    },
-    {
-      "name": "Feinte",
-      "language": "fr"
-    },
-    {
-      "name": "속여때리기",
-      "language": "ko"
-    },
-    {
-      "name": "だましうち",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "だましうち",
+    "kana": "だましうち",
+    "en": "Feint Attack",
+    "fr": "Feinte",
+    "it": "Finta",
+    "de": "Finte",
+    "es": "Finta",
+    "ko": "속여때리기",
+    "zh-CN": "出奇一击",
+    "zh-TW": "出奇一擊"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "さりげなく　相手に　ちかづき 油断した　すきを　みて　なぐりつける。 攻撃は　必ず　命中する。",
+    "kana": "さりげなく　あいてに　ちかづき ゆだんした　すきを　みて　なぐりつける。 こうげきは　かならず　めいちゅう　する。",
+    "en": "The user approaches the target disarmingly, then throws a sucker punch. This attack never misses.",
+    "fr": "Le lanceur s’approche l’air de rien avant de frapper par surprise. N’échoue jamais.",
+    "it": "Chi la usa si avvicina al bersaglio facendo finta di niente, per poi scagliare un pugno infallibile a tradimento.",
+    "de": "Anwender nähert sich mit Unschuldsmiene dem Ziel und schlägt zu, sobald dieses unachtsam wird. Ein Treffer ist gewiss.",
+    "es": "Engaña al objetivo para acercarse y dar un puñetazo que no falla.",
+    "ko": "슬금슬금 상대에게 다가가 방심한 틈을 타서 세게 때린다. 공격은 반드시 명중한다.",
+    "zh-CN": "悄悄地靠近对手， 趁其不备进行殴打。 攻击必定会命中。",
+    "zh-TW": "若無其事地靠近對手， 出其不意地進行攻擊。 攻擊必定會命中。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark"
 }

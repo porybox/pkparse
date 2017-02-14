@@ -2,36 +2,13 @@
   "id": 421,
   "name": "shadow-claw",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 70,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.",
-      "short_effect": "Has an increased chance for a critical hit.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Shadow Claw",
-      "language": "en"
-    },
-    {
-      "name": "Ombrartigli",
-      "language": "it"
-    },
-    {
-      "name": "Garra Umbría",
-      "language": "es"
-    },
-    {
-      "name": "Dunkelklaue",
-      "language": "de"
-    },
-    {
-      "name": "Griffe Ombre",
-      "language": "fr"
-    },
-    {
-      "name": "섀도크루",
-      "language": "ko"
-    },
-    {
-      "name": "シャドークロー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "シャドークロー",
+    "kana": "シャドークロー",
+    "en": "Shadow Claw",
+    "fr": "Griffe Ombre",
+    "it": "Ombrartigli",
+    "de": "Dunkelklaue",
+    "es": "Garra Umbría",
+    "ko": "섀도크루",
+    "zh-CN": "暗影爪",
+    "zh-TW": "暗影爪"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "影から　つくった　鋭い　ツメで 相手を　切り裂く。 急所に　当たりやすい。",
+    "kana": "かげから　つくった　するどい　ツメで あいてを　きりさく。 きゅうしょに　あたりやすい。",
+    "en": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+    "fr": "Attaque avec une griffe puissante faite d’ombres. Taux de critique élevé.",
+    "it": "Chi la usa attacca con artigli d’ombra che colpiscono con gran forza. Probabile brutto colpo.",
+    "de": "Das Ziel wird mit scharfen Klauen aus der Schattenwelt attackiert. Hohe Volltrefferquote.",
+    "es": "Ataca con una garra afilada hecha de sombras. Suele ser crítico.",
+    "ko": "그림자로 만든 날카로운 발톱으로 상대를 베어 가른다. 급소에 맞기 쉽다.",
+    "zh-CN": "以影子做成的锐爪， 劈开对手。 容易击中要害。",
+    "zh-TW": "用黑影化成的銳利爪子 撕裂對手。 容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Attaque avec une griffe puissante faite d’ombres. Taux de critiques élevé."
+        }
+      }
+    }
+  ]
 }

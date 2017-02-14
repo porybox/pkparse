@@ -2,64 +2,13 @@
   "id": 201,
   "name": "sandstorm",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "sand-attack"
-        },
-        {
-          "name": "mud-slap"
-        },
-        {
-          "name": "mud-sport"
-        },
-        {
-          "name": "weather-ball"
-        },
-        {
-          "name": "sand-tomb"
-        },
-        {
-          "name": "mud-shot"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Changes the weather to a sandstorm for five turns.  Pokémon that are not []{type:ground}, []{type:rock}, or []{type:steel} take 1/16 their max [HP]{mechanic:hp} at the end of every turn.  Every []{type:rock} Pokémon's original [Special Defense]{mechanic:special-defense} is raised by 50% for the duration of this effect.\n\n[]{move:solar-beam}'s power is halved.\n\n[]{move:moonlight}, []{move:morning-sun}, and []{move:synthesis} only heal 1/4 the user's max [HP]{mechanic:hp}.",
-      "short_effect": "Changes the weather to a sandstorm for five turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -71,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sandstorm",
-      "language": "en"
-    },
-    {
-      "name": "Terrempesta",
-      "language": "it"
-    },
-    {
-      "name": "Tormenta Arena",
-      "language": "es"
-    },
-    {
-      "name": "Sandsturm",
-      "language": "de"
-    },
-    {
-      "name": "Tempête de Sable",
-      "language": "fr"
-    },
-    {
-      "name": "모래바람",
-      "language": "ko"
-    },
-    {
-      "name": "すなあらし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "すなあらし",
+    "kana": "すなあらし",
+    "en": "Sandstorm",
+    "fr": "Tempête de Sable",
+    "it": "Terrempesta",
+    "de": "Sandsturm",
+    "es": "Tormenta Arena",
+    "ko": "모래바람",
+    "zh-CN": "沙暴",
+    "zh-TW": "沙暴"
   },
-  "type": {
-    "name": "rock"
-  }
+  "flavor_text_entries": {
+    "ja": "５ターンの　間　砂あらしで　いわ じめん　はがねタイプ　以外に　ダメージ。 いわタイプの　特防が　あがる。",
+    "kana": "５ターンの　あいだ　すなあらしで　いわ じめん　はがねタイプ　いがいに　ダメージ。 いわタイプの　とくぼうが　あがる。",
+    "en": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types.",
+    "fr": "Une tempête de sable qui blesse tous les Pokémon durant cinq tours, sauf ceux de type Roche, Sol ou Acier. Augmente la Déf. Spé. des Pokémon Roche.",
+    "it": "Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi esclusi Terra, Roccia e Acciaio. Aumenta la Dif. Speciale dei Pokémon di tipo Roccia.",
+    "de": "Sandsturm für fünf Runden. Schadet Pokémon aller Typen außer Gestein, Boden und Stahl. Erhöht die Spezial-Verteidigung von Gesteins-Pokémon.",
+    "es": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero, y aumenta la Defensa Especial de los de tipo Roca.",
+    "ko": "5턴 동안 모래바람으로 바위 땅, 강철타입 이외에 데미지를 준다. 바위타입의 특수방어가 올라간다.",
+    "zh-CN": "在５回合内扬起沙暴，除岩石、地面和 钢属性以外的宝可梦，都会受到伤害。 岩石属性的特防还会提高。",
+    "zh-TW": "揚起沙暴，在５回合內給予 岩石、地面和鋼屬性以外的寶可夢傷害。 岩石屬性寶可夢的特防會提高。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "rock",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "５ターンの　あいだ　砂あらしで いわ　じめん　はがねタイプ　以外の ポケモンに　ダメージを　与える。",
+          "kana": "５ターンの　あいだ　すなあらしで いわ　じめん　はがねタイプ　いがいの ポケモンに　ダメージを　あたえる。",
+          "en": "A five-turn sandstorm is summoned to hurt all combatants except the Rock, Ground, and Steel types.",
+          "fr": "Une tempête de sable qui blesse tous les Pokémon durant cinq tours, sauf ceux de types Roche, Sol et Acier.",
+          "it": "Causa una tempesta di sabbia per cinque turni che danneggia tutti i tipi in campo esclusi Terra, Roccia e Acciaio.",
+          "de": "Sandsturm für fünf Runden. Fügt Pokémon von jedem Typ außer Gestein, Boden und Stahl Schaden zu.",
+          "es": "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero.",
+          "ko": "5턴 동안 모래바람으로 바위, 땅, 강철타입 이외의 포켓몬에게 데미지를 준다."
+        }
+      }
+    }
+  ]
 }

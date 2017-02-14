@@ -1,0 +1,38 @@
+{
+  "id": 213,
+  "name": "bright-powder",
+  "names": {
+    "ja": "ひかりのこな",
+    "kana": "ひかりのこな",
+    "en": "Bright Powder",
+    "fr": "Poudre Claire",
+    "it": "Luminpolvere",
+    "de": "Blendpuder",
+    "es": "Polvo Brillo",
+    "ko": "반짝가루",
+    "zh-CN": "光粉",
+    "zh-TW": "光粉"
+  },
+  "flavor_text_entries": {
+    "ja": "キラキラ　光る粉。　持たせると 光が　相手を　惑わして 技が　命中しにくくなる。",
+    "kana": "キラキラ　ひかるこな。　もたせると ひかりが　あいてを　まどわして わざが　めいちゅう　しにくくなる。",
+    "en": "An item to be held by a Pokémon. It casts a tricky glare that lowers the opposing Pokémon’s accuracy.",
+    "fr": "Objet à tenir. Intimide l’ennemi et baisse sa Précision.",
+    "it": "Strumento da dare a un Pokémon. Emette un bagliore insidioso che riduce la precisione del nemico.",
+    "de": "Ein Item, das einem Pokémon zum Tragen gegeben werden kann. Es senkt die Genauigkeit des Gegners.",
+    "es": "Lanza un destello que baja la Precisión del enemigo. Debe llevarlo un Pokémon.",
+    "ko": "반짝반짝 빛나는 가루. 지니게 하면 빛이 상대를 혼란시켜 기술이 명중되기 어려워진다.",
+    "zh-CN": "闪闪发光的粉末。 携带后，光芒会迷惑对手， 从而使其招式变得不容易命中。",
+    "zh-TW": "閃閃發光的粉末。 攜帶後，光芒會迷惑對手， 進而使其招式變得不容易命中。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Objet à tenir. Intimide et baisse la Précision de l’ennemi."
+        }
+      }
+    }
+  ]
+}

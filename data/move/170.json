@@ -2,70 +2,13 @@
   "id": 170,
   "name": "mind-reader",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "mega-punch"
-        },
-        {
-          "name": "mega-kick"
-        },
-        {
-          "name": "jump-kick"
-        },
-        {
-          "name": "submission"
-        },
-        {
-          "name": "high-jump-kick"
-        },
-        {
-          "name": "dynamic-punch"
-        },
-        {
-          "name": "superpower"
-        },
-        {
-          "name": "sheer-cold"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "If the user targets the same target again before the end of the next turn, the move it uses is guaranteed to hit.  This move itself also ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.\n\nOne-hit KO moves are also guaranteed to hit, as long as the user is equal or higher level than the target.  This effect also allows the user to hit Pokémon that are off the field due to moves such as []{move:dig} or []{move:fly}.\n\nIf the target uses []{move:detect} or []{move:protect} while under the effect of this move, the user is not guaranteed to hit, but has a (100 - accuracy)% chance to break through the protection.\n\nThis effect is passed on by []{move:baton-pass}.",
-      "short_effect": "Ensures that the user's next move will hit the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -77,55 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Mind Reader",
-      "language": "en"
-    },
-    {
-      "name": "Leggimente",
-      "language": "it"
-    },
-    {
-      "name": "Telépata",
-      "language": "es"
-    },
-    {
-      "name": "Willensleser",
-      "language": "de"
-    },
-    {
-      "name": "Lire-Esprit",
-      "language": "fr"
-    },
-    {
-      "name": "마음의눈",
-      "language": "ko"
-    },
-    {
-      "name": "こころのめ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": 40,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "こころのめ",
+    "kana": "こころのめ",
+    "en": "Mind Reader",
+    "fr": "Lire-Esprit",
+    "it": "Leggimente",
+    "de": "Willensleser",
+    "es": "Telépata",
+    "ko": "마음의눈",
+    "zh-CN": "心之眼",
+    "zh-TW": "心之眼"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　動きを　心で　感じて 次の　攻撃が　必ず 相手に　当たるように　する。",
+    "kana": "あいての　うごきを　こころで　かんじて つぎの　こうげきが　かならず あいてに　あたるように　する。",
+    "en": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target.",
+    "fr": "Le lanceur analyse les mouvements de l’ennemi pour être sûr de toucher au coup suivant.",
+    "it": "Chi la usa prevede i movimenti del bersaglio per mandare a segno l’attacco successivo.",
+    "de": "Ahnt Bewegungen des Zieles voraus, um zu gewährleisten, dass die nächste eigene Attacke trifft.",
+    "es": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.",
+    "ko": "상대의 움직임을 마음으로 읽고 다음 공격이 반드시 상대에게 명중되게 한다.",
+    "zh-CN": "用心感受对手的行动， 下次攻击必定 会击中对手。",
+    "zh-TW": "用心感受對手的行動模式， 下次攻擊時必定 會命中對手。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

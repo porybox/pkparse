@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 67,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "arms"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "シャンデラ",
-      "language": "ja"
-    },
-    {
-      "name": "샹델라",
-      "language": "ko"
-    },
-    {
-      "name": "Lugulabre",
-      "language": "fr"
-    },
-    {
-      "name": "Skelabra",
-      "language": "de"
-    },
-    {
-      "name": "Chandelure",
-      "language": "es"
-    },
-    {
-      "name": "Chandelure",
-      "language": "it"
-    },
-    {
-      "name": "Chandelure",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "シャンデラ",
+    "en": "Chandelure",
+    "fr": "Lugulabre",
+    "it": "Chandelure",
+    "de": "Skelabra",
+    "es": "Chandelure",
+    "ko": "샹델라"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いざない",
-      "language": "ja"
-    },
-    {
-      "genus": "권유",
-      "language": "ko"
-    },
-    {
-      "genus": "Invitation",
-      "language": "fr"
-    },
-    {
-      "genus": "Geleit",
-      "language": "de"
-    },
-    {
-      "genus": "Señuelo",
-      "language": "es"
-    },
-    {
-      "genus": "Attiranime",
-      "language": "it"
-    },
-    {
-      "genus": "Luring",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いざない",
+    "en": "Luring",
+    "fr": "Invitation",
+    "it": "Attiranime",
+    "de": "Geleit",
+    "es": "Señuelo",
+    "ko": "권유"
+  },
   "varieties": [
     {
       "is_default": true,

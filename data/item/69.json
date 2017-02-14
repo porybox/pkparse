@@ -1,0 +1,53 @@
+{
+  "id": 69,
+  "name": "white-flute",
+  "names": {
+    "ja": "しろいビードロ",
+    "kana": "しろいビードロ",
+    "en": "White Flute",
+    "fr": "Flûte Blanche",
+    "it": "Flauto Bianco",
+    "de": "Weiße Flöte",
+    "es": "Flauta Blanca",
+    "ko": "하양비드로",
+    "zh-CN": "白色玻璃哨",
+    "zh-TW": "白色玻璃哨"
+  },
+  "flavor_text_entries": {
+    "ja": "白いガラスで　できた　笛。 使った　場所で　弱いポケモンと 遭遇　しやすくなる。",
+    "kana": "しろいガラスで　できた　ふえ。 つかった　ばしょで　よわいポケモンと そうぐう　しやすくなる。",
+    "en": "A flute made from white glass. It makes it easier to encounter weak Pokémon in the place you use it.",
+    "fr": "Un jouet en forme de flûte en verre blanc. Augmente les chances de rencontrer des Pokémon sauvages faibles là où l’on en joue.",
+    "it": "Flauto fatto di vetro bianco. Aumenta le probabilità di incontrare Pokémon deboli nell’area in cui viene usato.",
+    "de": "Eine Spielzeugflöte aus weißem Glas. Erhöht am Einsatzort die Wahrscheinlichkeit, schwachen wilden Pokémon zu begegnen.",
+    "es": "Una flauta de cristal blanco cuyas notas atraen a Pokémon salvajes más débiles al lugar en el que se usa.",
+    "ko": "하얀 유리로 만들어진 피리. 사용한 장소에서 약한 포켓몬과 만나기 쉬워진다.",
+    "zh-CN": "以白色玻璃制成的哨子。 在使用的地方更容易 遇到弱小的宝可梦。",
+    "zh-TW": "以白色玻璃製成的笛子。 在使用的地方更容易 遇到弱小的寶可夢。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un jouet en forme de flûte en verre blanc. Augmente les chances de rencontrer des Pokémon sauvages faibles où l’on en joue."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "白い　ガラスで　できている おもちゃの　笛。",
+          "kana": "しろい　ガラスで　できている おもちゃの　ふえ。",
+          "en": "A lovely toy flute to admire. It’s made from white glass.",
+          "fr": "Un jouet en forme de flûte en verre blanc.",
+          "it": "Flauto giocattolo fatto di vetro bianco.",
+          "de": "Eine Spielzeugflöte aus weißem Glas.",
+          "es": "Una flauta de juguete de cristal blanco.",
+          "ko": "하얀 유리로 만들어진 장난감 피리."
+        }
+      }
+    }
+  ]
+}

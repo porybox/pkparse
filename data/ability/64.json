@@ -1,196 +1,44 @@
 {
   "id": 64,
   "name": "liquid-ooze",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "ヘドロえき",
+    "kana": "ヘドロえき",
+    "en": "Liquid Ooze",
+    "fr": "Suintement",
+    "it": "Melma",
+    "de": "Kloakensoße",
+    "es": "Lodo Líquido",
+    "ko": "해감액",
+    "zh-CN": "污泥浆",
+    "zh-TW": "污泥漿"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "ヘドロ液を　吸い取った　相手は 強烈な　悪臭で ダメージを　受けて　ＨＰを　減らす。",
+    "kana": "ヘドロえきを　すいとった　あいては きょうれつな　あくしゅうで ダメージを　うけて　ＨＰを　へらす。",
+    "en": "Oozed liquid has strong stench, which damages attackers using any draining move.",
+    "fr": "Le Pokémon suinte un liquide toxique qui blesse tous ceux qui tentent de voler ses PV.",
+    "it": "Il Pokémon secerne delle sostanze tossiche. Se un nemico manda a segno una mossa che assorbe i PS, subisce dei danni.",
+    "de": "Angreifer, die durch Saug-Attacken Kloakensoße in sich aufgenommen haben, nehmen durch deren widerwärtigen Gestank Schaden.",
+    "es": "Debido a su intenso hedor, hiere a los Pokémon que intentan drenarle los PS.",
+    "ko": "해감액을 흡수한 상대는 강렬한 악취로 데미지를 받아 HP가 줄어든다.",
+    "zh-CN": "吸收了污泥浆的对手 会因强烈的恶臭 而受到伤害，减少ＨＰ。",
+    "zh-TW": "吸收了污泥漿的對手 會因為強烈的惡臭而 使得ＨＰ減少。"
+  },
+  "past_values": [
     {
-      "name": "Liquid Ooze",
-      "language": "en"
-    },
-    {
-      "name": "Melma",
-      "language": "it"
-    },
-    {
-      "name": "Lodo Líquido",
-      "language": "es"
-    },
-    {
-      "name": "Kloakensoße",
-      "language": "de"
-    },
-    {
-      "name": "Suintement",
-      "language": "fr"
-    },
-    {
-      "name": "해감액",
-      "language": "ko"
-    },
-    {
-      "name": "ヘドロえき",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Whenever a Pokémon would heal after hitting this Pokémon with a leeching move like []{move:absorb}, it instead loses as many [HP]{mechanic:hp} as it would usually gain.\n\n[]{move:dream-eater} is unaffected.",
-      "short_effect": "Damages opponents using leeching moves for as much as they would heal.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "吸いとった　相手の\nＨＰを　減らす。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Damages attackers\nusing any draining move.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Danneggia i Pokémon che usano\nmosse ruba-PS.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Hiere a los Pokémon que drenan\nPS.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Schadet Angreifern,\ndie Saug-Attacken einsetzen.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Blesse l’attaquant qui draine\nl’énergie du Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "흡수한 상대의\nHP를 줄인다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "すいとった　あいての\nＨＰを　へらす。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Damages attackers\nusing any draining move.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Damages attackers\nusing any draining move.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Blesse l’ennemi qui draine\nl’énergie du Pokémon.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Inflicts damage on foes\nusing any draining move.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Inflicts damage on foes\nusing any draining move.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Inflicts damage on foes\nusing any draining move.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Draining causes injury.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Draining causes injury.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Draining causes injury.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "tentacool"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "tentacruel"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gulpin"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "swalot"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "吸いとった　相手の ＨＰを　減らす。",
+          "kana": "すいとった　あいての ＨＰを　へらす。",
+          "en": "Damages attackers using any draining move.",
+          "fr": "Blesse l’attaquant qui draine l’énergie du Pokémon.",
+          "it": "Danneggia i Pokémon che usano mosse ruba-PS.",
+          "de": "Schadet Angreifern, die Saug-Attacken einsetzen.",
+          "es": "Hiere a los Pokémon que drenan PS.",
+          "ko": "흡수한 상대의 HP를 줄인다."
+        }
       }
     }
   ]

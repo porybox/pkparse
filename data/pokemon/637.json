@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 174,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "bug-wings"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ウルガモス",
-      "language": "ja"
-    },
-    {
-      "name": "불카모스",
-      "language": "ko"
-    },
-    {
-      "name": "Pyrax",
-      "language": "fr"
-    },
-    {
-      "name": "Ramoth",
-      "language": "de"
-    },
-    {
-      "name": "Volcarona",
-      "language": "es"
-    },
-    {
-      "name": "Volcarona",
-      "language": "it"
-    },
-    {
-      "name": "Volcarona",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ウルガモス",
+    "en": "Volcarona",
+    "fr": "Pyrax",
+    "it": "Volcarona",
+    "de": "Ramoth",
+    "es": "Volcarona",
+    "ko": "불카모스"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たいよう",
-      "language": "ja"
-    },
-    {
-      "genus": "태양",
-      "language": "ko"
-    },
-    {
-      "genus": "Soleil",
-      "language": "fr"
-    },
-    {
-      "genus": "Sonne",
-      "language": "de"
-    },
-    {
-      "genus": "Sol",
-      "language": "es"
-    },
-    {
-      "genus": "Sole",
-      "language": "it"
-    },
-    {
-      "genus": "Sun",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たいよう",
+    "en": "Sun",
+    "fr": "Soleil",
+    "it": "Sole",
+    "de": "Sonne",
+    "es": "Sol",
+    "ko": "태양"
+  },
   "varieties": [
     {
       "is_default": true,

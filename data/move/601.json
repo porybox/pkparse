@@ -2,34 +2,13 @@
   "id": 601,
   "name": "geomancy",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Takes one turn to charge, then raises the user's Special Attack, Special Defense, and Speed by two stages.",
-      "short_effect": "Takes one turn to charge, then raises the user's Special Attack, Special Defense, and Speed by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,62 +20,55 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Geomancy",
-      "language": "en"
-    },
-    {
-      "name": "Geocontrollo",
-      "language": "it"
-    },
-    {
-      "name": "Geocontrol",
-      "language": "es"
-    },
-    {
-      "name": "Geokontrolle",
-      "language": "de"
-    },
-    {
-      "name": "Géo-Contrôle",
-      "language": "fr"
-    },
-    {
-      "name": "지오컨트롤",
-      "language": "ko"
-    },
-    {
-      "name": "ジオコントロール",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ジオコントロール",
+    "kana": "ジオコントロール",
+    "en": "Geomancy",
+    "fr": "Géo-Contrôle",
+    "it": "Geocontrollo",
+    "de": "Geokontrolle",
+    "es": "Geocontrol",
+    "ko": "지오컨트롤",
+    "zh-CN": "大地掌控",
+    "zh-TW": "大地掌控"
+  },
+  "flavor_text_entries": {
+    "ja": "１ターン目で　エネルギーを 吸収し　２ターン目に　特攻 特防　素早さを　ぐーんと　あげる。",
+    "kana": "１ターンめで　エネルギーを きゅうしゅうし　２ターンめに　とくこう とくぼう　すばやさを　ぐーんと　あげる。",
+    "en": "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.",
+    "fr": "Le lanceur absorbe de l’énergie au premier tour et augmente beaucoup son Attaque Spéciale, sa Défense Spéciale et sa Vitesse au second.",
+    "it": "Chi la usa assorbe energia nel primo turno per aumentare poi notevolmente l’Attacco Speciale, la Difesa Speciale e la Velocità in quello seguente.",
+    "de": "Der Anwender saugt in Runde 1 Energie auf. In Runde 2 steigen der Spezial-Angriff, die Spezial-Verteidigung und die Initiative stark.",
+    "es": "Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo.",
+    "ko": "1턴째에 에너지를 흡수하여 2턴째에 특수공격, 특수방어, 스피드를 크게 올린다.",
+    "zh-CN": "第１回合吸收能量， 第２回合大幅提高 特攻、特防和速度。",
+    "zh-TW": "使用後的第１回合吸收能量， 並於第２回合大幅提高 自己的特攻、特防和速度。"
+  },
   "stat_changes": [
     {
       "change": 2,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     },
     {
       "change": 2,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     },
     {
       "change": 2,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "fairy"
-  }
+  "target": "user",
+  "type": "fairy",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur absorbe de l’énergie au premier tour et augmente fortement son Attaque Spéciale, sa Défense Spéciale et sa Vitesse au second.",
+          "de": "Der Anwender saugt in Runde 1 Energie auf. In Runde 2 steigen folgende Statuswerte stark: Spezial-Angriff, Spezial-Verteidigung und Initiative."
+        }
+      }
+    }
+  ]
 }

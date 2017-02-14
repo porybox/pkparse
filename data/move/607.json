@@ -2,34 +2,13 @@
   "id": 607,
   "name": "hold-hands",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "This move has a unique effect, but it is unreleased, so the specific effect is unknown.",
-      "short_effect": "Unknown.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Hold Hands",
-      "language": "en"
-    },
-    {
-      "name": "Mano nella Mano",
-      "language": "it"
-    },
-    {
-      "name": "Manos Juntas",
-      "language": "es"
-    },
-    {
-      "name": "Händchenhalten",
-      "language": "de"
-    },
-    {
-      "name": "Mains Jointes",
-      "language": "fr"
-    },
-    {
-      "name": "손에손잡기",
-      "language": "ko"
-    },
-    {
-      "name": "てをつなぐ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "ally"
+  "names": {
+    "ja": "てをつなぐ",
+    "kana": "てをつなぐ",
+    "en": "Hold Hands",
+    "fr": "Mains Jointes",
+    "it": "Mano nella Mano",
+    "de": "Händchenhalten",
+    "es": "Manos Juntas",
+    "ko": "손에손잡기",
+    "zh-CN": "牵手",
+    "zh-TW": "牽手"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "味方の　ポケモン　同士が 手をつなぐ。　とっても　幸せな 気持ちに　なれる。",
+    "kana": "みかたの　ポケモン　どうしが てをつなぐ。　とっても　しあわせな きもちに　なれる。",
+    "en": "The user and an ally hold hands. This makes them very happy.",
+    "fr": "Le lanceur et un allié se prennent la main, ce qui les rend heureux.",
+    "it": "Il Pokémon che la usa e un alleato si prendono per mano e fanno salti di gioia.",
+    "de": "Der Anwender und ein Mitstreiter reichen einander die Hände und verfallen in einen Zustand tiefster Zufriedenheit.",
+    "es": "El Pokémon le da la mano a un aliado y ambos se sienten muy felices.",
+    "ko": "같은 편 포켓몬끼리 손에 손을 잡는다. 굉장히 행복한 기분이 들게 된다.",
+    "zh-CN": "我方宝可梦之间牵手。 能带来非常幸福的心情。",
+    "zh-TW": "我方的寶可夢手牽手。 心情會變得非常幸福。"
+  },
+  "stat_changes": [],
+  "target": "ally",
+  "type": "normal"
 }

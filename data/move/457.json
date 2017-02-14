@@ -2,36 +2,13 @@
   "id": 457,
   "name": "head-smash",
   "accuracy": 80,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 150,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/2 the damage it inflicts in recoil.",
-      "short_effect": "User receives 1/2 the damage inflicted in recoil.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Head Smash",
-      "language": "en"
-    },
-    {
-      "name": "Zuccata",
-      "language": "it"
-    },
-    {
-      "name": "Testarazo",
-      "language": "es"
-    },
-    {
-      "name": "Kopfstoß",
-      "language": "de"
-    },
-    {
-      "name": "Fracass'Tête",
-      "language": "fr"
-    },
-    {
-      "name": "양날박치기",
-      "language": "ko"
-    },
-    {
-      "name": "もろはのずつき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "もろはのずつき",
+    "kana": "もろはのずつき",
+    "en": "Head Smash",
+    "fr": "Fracass’Tête",
+    "it": "Zuccata",
+    "de": "Kopfstoß",
+    "es": "Testarazo",
+    "ko": "양날박치기",
+    "zh-CN": "双刃头锤",
+    "zh-TW": "雙刃頭錘"
   },
-  "type": {
-    "name": "rock"
-  }
+  "flavor_text_entries": {
+    "ja": "命を　懸けて　こん身の　力で 相手に　ずつきを　する。　自分も ものすごい　ダメージを　受ける。",
+    "kana": "いのちを　かけて　こんしんの　ちからで あいてに　ずつきを　する。　じぶんも ものすごい　ダメージを　うける。",
+    "en": "The user attacks the target with a hazardous, full-power headbutt. This also damages the user terribly.",
+    "fr": "Le lanceur assène un coup de tête désespéré. Blesse aussi gravement le lanceur.",
+    "it": "Chi la usa attacca con tutta la potenza di cui dispone, ma subisce danni considerevoli.",
+    "de": "Anwender greift unter Einsatz seines Lebens mit einem Kopfstoß an und nimmt dabei selbst jede Menge Schaden.",
+    "es": "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.",
+    "ko": "목숨을 걸고 혼신의 힘으로 상대에게 박치기를 한다. 자신도 굉장한 데미지를 입는다.",
+    "zh-CN": "拼命使出浑身力气， 向对手进行头锤攻击。 自己也会受到非常大的伤害。",
+    "zh-TW": "使出渾身力量， 捨身向對手進行頭錘攻擊。 自己也會受到非常大的傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "rock",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "命を　懸けて　こん身の　力で 相手に　ずつきを　する。自分も ものすごい　ダメージを　受ける。",
+          "kana": "いのちを　かけて　こんしんの　ちからで あいてに　ずつきを　する。じぶんも ものすごい　ダメージを　うける。"
+        }
+      }
+    }
+  ]
 }

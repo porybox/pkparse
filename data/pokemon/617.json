@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 25,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "arms"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "アギルダー",
-      "language": "ja"
-    },
-    {
-      "name": "어지리더",
-      "language": "ko"
-    },
-    {
-      "name": "Limaspeed",
-      "language": "fr"
-    },
-    {
-      "name": "Hydragil",
-      "language": "de"
-    },
-    {
-      "name": "Accelgor",
-      "language": "es"
-    },
-    {
-      "name": "Accelgor",
-      "language": "it"
-    },
-    {
-      "name": "Accelgor",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アギルダー",
+    "en": "Accelgor",
+    "fr": "Limaspeed",
+    "it": "Accelgor",
+    "de": "Hydragil",
+    "es": "Accelgor",
+    "ko": "어지리더"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "からぬけ",
-      "language": "ja"
-    },
-    {
-      "genus": "탈껍질",
-      "language": "ko"
-    },
-    {
-      "genus": "Exuviateur",
-      "language": "fr"
-    },
-    {
-      "genus": "Entschalung",
-      "language": "de"
-    },
-    {
-      "genus": "Sincaparazón",
-      "language": "es"
-    },
-    {
-      "genus": "Sgusciato",
-      "language": "it"
-    },
-    {
-      "genus": "Shell Out",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "からぬけ",
+    "en": "Shell Out",
+    "fr": "Exuviateur",
+    "it": "Sgusciato",
+    "de": "Entschalung",
+    "es": "Sincaparazón",
+    "ko": "탈껍질"
+  },
   "varieties": [
     {
       "is_default": true,

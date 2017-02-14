@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 253,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "wings"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ホウオウ",
-      "language": "ja"
-    },
-    {
-      "name": "Houou",
-      "language": "roomaji"
-    },
-    {
-      "name": "칠색조",
-      "language": "ko"
-    },
-    {
-      "name": "鳳王",
-      "language": "zh"
-    },
-    {
-      "name": "Ho-Oh",
-      "language": "fr"
-    },
-    {
-      "name": "Ho-Oh",
-      "language": "de"
-    },
-    {
-      "name": "Ho-Oh",
-      "language": "es"
-    },
-    {
-      "name": "Ho-Oh",
-      "language": "it"
-    },
-    {
-      "name": "Ho-Oh",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ホウオウ",
+    "en": "Ho-Oh",
+    "fr": "Ho-Oh",
+    "it": "Ho-Oh",
+    "de": "Ho-Oh",
+    "es": "Ho-Oh",
+    "ko": "칠색조"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "にじいろ",
-      "language": "ja"
-    },
-    {
-      "genus": "무지개색",
-      "language": "ko"
-    },
-    {
-      "genus": "Arcenciel",
-      "language": "fr"
-    },
-    {
-      "genus": "Regenbogen",
-      "language": "de"
-    },
-    {
-      "genus": "Arcoíris",
-      "language": "es"
-    },
-    {
-      "genus": "Arcobaleno",
-      "language": "it"
-    },
-    {
-      "genus": "Rainbow",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "にじいろ",
+    "en": "Rainbow",
+    "fr": "Arcenciel",
+    "it": "Arcobaleno",
+    "de": "Regenbogen",
+    "es": "Arcoíris",
+    "ko": "무지개색"
+  },
   "varieties": [
     {
       "is_default": true,

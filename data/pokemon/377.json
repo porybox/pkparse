@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 193,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "humanoid"
   },
@@ -45,44 +39,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "レジロック",
-      "language": "ja"
-    },
-    {
-      "name": "Regirock",
-      "language": "roomaji"
-    },
-    {
-      "name": "레지락",
-      "language": "ko"
-    },
-    {
-      "name": "雷吉洛克",
-      "language": "zh"
-    },
-    {
-      "name": "Regirock",
-      "language": "fr"
-    },
-    {
-      "name": "Regirock",
-      "language": "de"
-    },
-    {
-      "name": "Regirock",
-      "language": "es"
-    },
-    {
-      "name": "Regirock",
-      "language": "it"
-    },
-    {
-      "name": "Regirock",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "レジロック",
+    "en": "Regirock",
+    "fr": "Regirock",
+    "it": "Regirock",
+    "de": "Regirock",
+    "es": "Regirock",
+    "ko": "레지락"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -93,36 +58,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いわやま",
-      "language": "ja"
-    },
-    {
-      "genus": "바위산",
-      "language": "ko"
-    },
-    {
-      "genus": "Pic Rocheux",
-      "language": "fr"
-    },
-    {
-      "genus": "Steingipfel",
-      "language": "de"
-    },
-    {
-      "genus": "Pico Roca",
-      "language": "es"
-    },
-    {
-      "genus": "Picco",
-      "language": "it"
-    },
-    {
-      "genus": "Rock Peak",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いわやま",
+    "en": "Rock Peak",
+    "fr": "Pic Rocheux",
+    "it": "Picco",
+    "de": "Steingipfel",
+    "es": "Pico Roca",
+    "ko": "바위산"
+  },
   "varieties": [
     {
       "is_default": true,

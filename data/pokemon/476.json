@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 94,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "heads"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ダイノーズ",
-      "language": "ja"
-    },
-    {
-      "name": "Dainose",
-      "language": "roomaji"
-    },
-    {
-      "name": "대코파스",
-      "language": "ko"
-    },
-    {
-      "name": "大朝北鼻",
-      "language": "zh"
-    },
-    {
-      "name": "Tarinorme",
-      "language": "fr"
-    },
-    {
-      "name": "Voluminas",
-      "language": "de"
-    },
-    {
-      "name": "Probopass",
-      "language": "es"
-    },
-    {
-      "name": "Probopass",
-      "language": "it"
-    },
-    {
-      "name": "Probopass",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ダイノーズ",
+    "en": "Probopass",
+    "fr": "Tarinorme",
+    "it": "Probopass",
+    "de": "Voluminas",
+    "es": "Probopass",
+    "ko": "대코파스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "コンパス",
-      "language": "ja"
-    },
-    {
-      "genus": "콤파스",
-      "language": "ko"
-    },
-    {
-      "genus": "Boussole",
-      "language": "fr"
-    },
-    {
-      "genus": "Kompass",
-      "language": "de"
-    },
-    {
-      "genus": "Brújula",
-      "language": "es"
-    },
-    {
-      "genus": "Bussola",
-      "language": "it"
-    },
-    {
-      "genus": "Compass",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "コンパス",
+    "en": "Compass",
+    "fr": "Boussole",
+    "it": "Bussola",
+    "de": "Kompass",
+    "es": "Brújula",
+    "ko": "콤파스"
+  },
   "varieties": [
     {
       "is_default": true,

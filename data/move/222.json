@@ -2,36 +2,13 @@
   "id": 222,
   "name": "magnitude",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power is selected at random between 10 and 150, with an average of 71:\n\nMagnitude | Power | Chance\n--------: | ----: | -----:\n        4 |    10 |     5%\n        5 |    30 |    10%\n        6 |    50 |    20%\n        7 |    70 |    30%\n        8 |    90 |    20%\n        9 |   110 |    10%\n       10 |   150 |     5%\n\nThis move has double power against Pokémon currently underground due to []{move:dig}.",
-      "short_effect": "Power varies randomly from 10 to 150.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Magnitude",
-      "language": "en"
-    },
-    {
-      "name": "Magnitudo",
-      "language": "it"
-    },
-    {
-      "name": "Magnitud",
-      "language": "es"
-    },
-    {
-      "name": "Intensität",
-      "language": "de"
-    },
-    {
-      "name": "Ampleur",
-      "language": "fr"
-    },
-    {
-      "name": "매그니튜드",
-      "language": "ko"
-    },
-    {
-      "name": "マグニチュード",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-other-pokemon"
+  "names": {
+    "ja": "マグニチュード",
+    "kana": "マグニチュード",
+    "en": "Magnitude",
+    "fr": "Ampleur",
+    "it": "Magnitudo",
+    "de": "Intensität",
+    "es": "Magnitud",
+    "ko": "매그니튜드",
+    "zh-CN": "震级",
+    "zh-TW": "震級"
   },
-  "type": {
-    "name": "ground"
-  }
+  "flavor_text_entries": {
+    "ja": "地面を　揺らして　自分の 周りに　いるものを　攻撃する。 技の　威力は　いろいろ　変わる。",
+    "kana": "じめんを　ゆらして　じぶんの まわりに　いるものを　こうげきする。 わざの　いりょくは　いろいろ　かわる。",
+    "en": "The user attacks everything around it with a ground-shaking quake. Its power varies.",
+    "fr": "Provoque un tremblement de terre d’intensité variable qui affecte tous les Pokémon alentour. L’efficacité varie.",
+    "it": "Chi la usa scatena un terremoto d’intensità variabile che danneggia i Pokémon che ha intorno.",
+    "de": "Erdbebenartiger Angriff von zufälliger Stärke gegen andere Pokémon in der Umgebung des Anwenders.",
+    "es": "Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.",
+    "ko": "땅을 흔들어서 자신의 주위에 있는 포켓몬을 공격한다. 기술의 위력이 여러모로 바뀐다.",
+    "zh-CN": "晃动地面，攻击自己 周围所有的宝可梦。 招式的威力会有各种变化。",
+    "zh-TW": "晃動地面，攻擊自己 周圍所有的寶可夢。 招式的威力有多種變化。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "ground"
 }

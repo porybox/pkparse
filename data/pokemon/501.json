@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 106,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -55,72 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ミジュマル",
-      "language": "ja"
-    },
-    {
-      "name": "수댕이",
-      "language": "ko"
-    },
-    {
-      "name": "水水獺",
-      "language": "zh"
-    },
-    {
-      "name": "Moustillon",
-      "language": "fr"
-    },
-    {
-      "name": "Ottaro",
-      "language": "de"
-    },
-    {
-      "name": "Oshawott",
-      "language": "es"
-    },
-    {
-      "name": "Oshawott",
-      "language": "it"
-    },
-    {
-      "name": "Oshawott",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ミジュマル",
+    "en": "Oshawott",
+    "fr": "Moustillon",
+    "it": "Oshawott",
+    "de": "Ottaro",
+    "es": "Oshawott",
+    "ko": "수댕이"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ラッコ",
-      "language": "ja"
-    },
-    {
-      "genus": "해달",
-      "language": "ko"
-    },
-    {
-      "genus": "Loutre",
-      "language": "fr"
-    },
-    {
-      "genus": "Otter",
-      "language": "de"
-    },
-    {
-      "genus": "Nutria",
-      "language": "es"
-    },
-    {
-      "genus": "Lontra",
-      "language": "it"
-    },
-    {
-      "genus": "Sea Otter",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ラッコ",
+    "en": "Sea Otter",
+    "fr": "Loutre",
+    "it": "Lontra",
+    "de": "Otter",
+    "es": "Nutria",
+    "ko": "해달"
+  },
   "varieties": [
     {
       "is_default": true,

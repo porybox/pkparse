@@ -1,0 +1,41 @@
+{
+  "id": 398,
+  "name": "tm71",
+  "names": {
+    "ja": "わざマシン７１",
+    "kana": "わざマシン７１",
+    "en": "TM71",
+    "fr": "CT71",
+    "it": "MT71",
+    "de": "TM71",
+    "es": "MT71",
+    "ko": "기술머신71",
+    "zh-CN": "招式学习器７１",
+    "zh-TW": "招式學習器７１"
+  },
+  "flavor_text_entries": {
+    "ja": "とがった　岩を 相手に　突き刺して　攻撃する。 急所に　当たりやすい。",
+    "kana": "とがった　いわを あいてに　つきさして　こうげきする。 きゅうしょに　あたりやすい。",
+    "en": "The user stabs the target from below with sharpened stones. Critical hits land more easily.",
+    "fr": "Fait surgir des pierres aiguisées sous l’ennemi. Taux de critique élevé.",
+    "it": "Chi la usa colpisce il bersaglio dal basso con pietre affilate. Probabile brutto colpo.",
+    "de": "Angriff mit spitzen Steinen. Besitzt eine hohe Volltrefferquote.",
+    "es": "Apuñala al objetivo desde abajo con piedras afiladas. Su índice de golpe crítico es muy alto.",
+    "ko": "뾰족한 바위를 상대에게 꿰찔러서 공격한다. 급소에 맞기 쉽다.",
+    "zh-CN": "用尖尖的岩石 刺入对手进行攻击。 容易击中要害。",
+    "zh-TW": "用尖銳的岩石 刺進對手進行攻擊。 容易擊中要害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "とがった　がんせきを　したから つきさして　こうげきする。 きゅうしょに　あたりやすい。",
+          "en": "The user stabs the target with sharpened stones from below. Critical hits land more easily.",
+          "fr": "Fait surgir des pierres aiguisées sous l’ennemi. Taux de critiques élevé.",
+          "it": "Chi la usa colpisce il nemico dal basso con pietre affilate. Probabile brutto colpo."
+        }
+      }
+    }
+  ]
+}

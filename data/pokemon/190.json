@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 123,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "upright"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "エイパム",
-      "language": "ja"
-    },
-    {
-      "name": "Eipam",
-      "language": "roomaji"
-    },
-    {
-      "name": "에이팜",
-      "language": "ko"
-    },
-    {
-      "name": "長尾怪手",
-      "language": "zh"
-    },
-    {
-      "name": "Capumain",
-      "language": "fr"
-    },
-    {
-      "name": "Griffel",
-      "language": "de"
-    },
-    {
-      "name": "Aipom",
-      "language": "es"
-    },
-    {
-      "name": "Aipom",
-      "language": "it"
-    },
-    {
-      "name": "Aipom",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エイパム",
+    "en": "Aipom",
+    "fr": "Capumain",
+    "it": "Aipom",
+    "de": "Griffel",
+    "es": "Aipom",
+    "ko": "에이팜"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おなが",
-      "language": "ja"
-    },
-    {
-      "genus": "긴꼬리",
-      "language": "ko"
-    },
-    {
-      "genus": "Longqueue",
-      "language": "fr"
-    },
-    {
-      "genus": "Langschweif",
-      "language": "de"
-    },
-    {
-      "genus": "Cola Larga",
-      "language": "es"
-    },
-    {
-      "genus": "Lungacoda",
-      "language": "it"
-    },
-    {
-      "genus": "Long Tail",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おなが",
+    "en": "Long Tail",
+    "fr": "Longqueue",
+    "it": "Lungacoda",
+    "de": "Langschweif",
+    "es": "Cola Larga",
+    "ko": "긴꼬리"
+  },
   "varieties": [
     {
       "is_default": true,

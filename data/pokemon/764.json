@@ -1,0 +1,44 @@
+{
+  "id": 764,
+  "name": "comfey",
+  "gender_rate": 6,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "plant"
+  ],
+  "color": "green",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "キュワワー",
+    "en": "Comfey",
+    "fr": "Guérilande",
+    "it": "Comfey",
+    "de": "Curelei",
+    "es": "Comfey",
+    "ko": "큐아링"
+  },
+  "genera": {
+    "ja": "はなつみ",
+    "en": "Posy Picker",
+    "fr": "Tressefleur",
+    "it": "Ghirlanda",
+    "de": "Blumenkranz",
+    "es": "Recogeflores",
+    "ko": "꽃따기"
+  },
+  "types": [
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 51,
+    "attack": 52,
+    "defense": 90,
+    "special-attack": 82,
+    "special-defense": 110,
+    "speed": 100
+  }
+}

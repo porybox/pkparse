@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 142,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    }
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "squiggle"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ハンテール",
-      "language": "ja"
-    },
-    {
-      "name": "Huntail",
-      "language": "roomaji"
-    },
-    {
-      "name": "헌테일",
-      "language": "ko"
-    },
-    {
-      "name": "獵斑魚",
-      "language": "zh"
-    },
-    {
-      "name": "Serpang",
-      "language": "fr"
-    },
-    {
-      "name": "Aalabyss",
-      "language": "de"
-    },
-    {
-      "name": "Huntail",
-      "language": "es"
-    },
-    {
-      "name": "Huntail",
-      "language": "it"
-    },
-    {
-      "name": "Huntail",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハンテール",
+    "en": "Huntail",
+    "fr": "Serpang",
+    "it": "Huntail",
+    "de": "Aalabyss",
+    "es": "Huntail",
+    "ko": "헌테일"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しんかい",
-      "language": "ja"
-    },
-    {
-      "genus": "깊은바다",
-      "language": "ko"
-    },
-    {
-      "genus": "Abysse",
-      "language": "fr"
-    },
-    {
-      "genus": "Tiefsee",
-      "language": "de"
-    },
-    {
-      "genus": "Abisal",
-      "language": "es"
-    },
-    {
-      "genus": "Abissi",
-      "language": "it"
-    },
-    {
-      "genus": "Deep Sea",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しんかい",
+    "en": "Deep Sea",
+    "fr": "Abysse",
+    "it": "Abissi",
+    "de": "Tiefsee",
+    "es": "Abisal",
+    "ko": "깊은바다"
+  },
   "varieties": [
     {
       "is_default": true,

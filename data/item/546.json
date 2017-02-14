@@ -1,0 +1,38 @@
+{
+  "id": 546,
+  "name": "cell-battery",
+  "names": {
+    "ja": "じゅうでんち",
+    "kana": "じゅうでんち",
+    "en": "Cell Battery",
+    "fr": "Pile",
+    "it": "Ricaripila",
+    "de": "Akku",
+    "es": "Pila",
+    "ko": "충전지",
+    "zh-CN": "充电电池",
+    "zh-TW": "充電電池"
+  },
+  "flavor_text_entries": {
+    "ja": "使い捨ての　じゅうでんち。 持たせて　でんきの　技を　受けると 攻撃が　あがる。",
+    "kana": "つかいすての　じゅうでんち。 もたせて　でんきの　わざを　うけると こうげきが　あがる。",
+    "en": "An item to be held by a Pokémon. It boosts Attack if hit with an Electric-type attack. It can only be used once.",
+    "fr": "Une pile jetable. Tenue, elle augmente l’Attaque lorsque le Pokémon subit une attaque de type Électrik.",
+    "it": "Pila monouso. Se il Pokémon che ha questo strumento subisce un attacco di tipo Elettro, il suo Attacco aumenta.",
+    "de": "Ein einmalig aufladbarer Akku. Erhöht den Angriff des Trägers, wenn ihn eine Elektro-Attacke trifft.",
+    "es": "Batería de usar y tirar que sube el Ataque de quien la lleva cuando recibe un golpe de tipo Eléctrico.",
+    "ko": "단 한 번 쓰면 없어지는 충전지. 지니게 하고 전기 기술을 받으면 공격이 올라간다.",
+    "zh-CN": "一次性使用的充电电池。 携带它的宝可梦如果受到电属性 招式的攻击，攻击就会提高。",
+    "zh-TW": "只能使用一次的充電電池。 攜帶它的寶可夢如果受到電屬性 招式的攻擊，攻擊就會提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An item to be held by a Pokémon. It boosts Attack if hit with an Electric- type attack. It can only be used once."
+        }
+      }
+    }
+  ]
+}

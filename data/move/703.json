@@ -1,0 +1,50 @@
+{
+  "id": 703,
+  "name": "genesis-supernova",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": 185,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "オリジンズスーパーノヴァ",
+    "kana": "オリジンズスーパーノヴァ",
+    "en": "Genesis Supernova",
+    "fr": "Supernova Originelle",
+    "it": "Supernova delle Origini",
+    "de": "Supernova des Ursprungs",
+    "es": "Supernova Original",
+    "ko": "오리진즈슈퍼노바",
+    "zh-CN": "起源超新星大爆炸",
+    "zh-TW": "起源超新星大爆炸"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーを　得た　ミュウが 全力で　相手を　攻撃する。 足元が　サイコフィールドになる。",
+    "kana": "Ｚパワーを　えた　ミュウが ぜんりょくで　あいてを　こうげきする。 あしもとが　サイコフィールドになる。",
+    "en": "After obtaining Z-Power, the user, Mew, attacks the target with full force. The terrain will be charged with psychic energy.",
+    "fr": "Mew utilise la Force Z pour attaquer la cible. Le terrain devient un Champ Psychique.",
+    "it": "Grazie al Potere Z, Mew attacca il bersaglio con tutta la sua forza e genera un Campo Psichico a terra.",
+    "de": "Mew greift das Ziel mithilfe von Z-Kraft mit voller Wucht an. Der Untergrund wird dabei in ein Psychofeld verwandelt.",
+    "es": "Mew usa el Poder Z para realizar un potente ataque contra su adversario y crear un Campo Psíquico sobre el terreno.",
+    "ko": "Z파워를 얻은 뮤가 전력으로 상대를 공격한다. 발밑이 사이코필드가 된다.",
+    "zh-CN": "得到Ｚ力量的梦幻 将全力攻击对手。 脚下会变成精神场地。",
+    "zh-TW": "得到Ｚ力量的夢幻 全力攻擊對手。 腳下變成精神場地。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
+}

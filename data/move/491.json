@@ -2,34 +2,13 @@
   "id": 491,
   "name": "acid-spray",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 20,
   "priority": 0,
   "power": 40,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Lowers the target's [Special Defense]{mechanic:special-defense} by two [stages]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Special Defense by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Acid Spray",
-      "language": "en"
-    },
-    {
-      "name": "Acidobomba",
-      "language": "it"
-    },
-    {
-      "name": "Bomba Ácida",
-      "language": "es"
-    },
-    {
-      "name": "Säurespeier",
-      "language": "de"
-    },
-    {
-      "name": "Bombe Acide",
-      "language": "fr"
-    },
-    {
-      "name": "애시드봄",
-      "language": "ko"
-    },
-    {
-      "name": "アシッドボム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "アシッドボム",
+    "kana": "アシッドボム",
+    "en": "Acid Spray",
+    "fr": "Bombe Acide",
+    "it": "Acidobomba",
+    "de": "Säurespeier",
+    "es": "Bomba Ácida",
+    "ko": "애시드봄",
+    "zh-CN": "酸液炸弹",
+    "zh-TW": "酸液炸彈"
+  },
+  "flavor_text_entries": {
+    "ja": "相手を　とかす　液体を 吐きだして　攻撃する。 相手の　特防を　がくっと　さげる。",
+    "kana": "あいてを　とかす　えきたいを はきだして　こうげきする。 あいての　とくぼうを　がくっと　さげる。",
+    "en": "The user spits fluid that works to melt the target. This harshly lowers the target’s Sp. Def stat.",
+    "fr": "Projette un liquide acide qui fait fondre l’ennemi. Sa Défense Spéciale diminue beaucoup.",
+    "it": "Chi la usa attacca il bersaglio con un acido altamente corrosivo. Il fluido riduce di molto la Difesa Speciale del bersaglio.",
+    "de": "Anwender greift an, indem er eine ätzende Flüssigkeit auf das Ziel speit. Senkt dessen Spezial-Verteidigung stark.",
+    "es": "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo.",
+    "ko": "상대를 녹이는 액체를 토해내서 공격한다. 상대의 특수방어를 크게 떨어뜨린다.",
+    "zh-CN": "喷出能溶化对手的液体进行攻击。 大幅降低对手的特防。",
+    "zh-TW": "噴出能溶化對手的液體進行攻擊。 可大幅降低對手的特防。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "poison"
-  }
+  "target": "selected-pokemon",
+  "type": "poison"
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 220,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "legs"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ポリゴン",
-      "language": "ja"
-    },
-    {
-      "name": "Porygon",
-      "language": "roomaji"
-    },
-    {
-      "name": "폴리곤",
-      "language": "ko"
-    },
-    {
-      "name": "3D龍",
-      "language": "zh"
-    },
-    {
-      "name": "Porygon",
-      "language": "fr"
-    },
-    {
-      "name": "Porygon",
-      "language": "de"
-    },
-    {
-      "name": "Porygon",
-      "language": "es"
-    },
-    {
-      "name": "Porygon",
-      "language": "it"
-    },
-    {
-      "name": "Porygon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ポリゴン",
+    "en": "Porygon",
+    "fr": "Porygon",
+    "it": "Porygon",
+    "de": "Porygon",
+    "es": "Porygon",
+    "ko": "폴리곤"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "バーチャル",
-      "language": "ja"
-    },
-    {
-      "genus": "가상",
-      "language": "ko"
-    },
-    {
-      "genus": "Virtuel",
-      "language": "fr"
-    },
-    {
-      "genus": "Virtuell",
-      "language": "de"
-    },
-    {
-      "genus": "Virtual",
-      "language": "es"
-    },
-    {
-      "genus": "Virtuale",
-      "language": "it"
-    },
-    {
-      "genus": "Virtual",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "バーチャル",
+    "en": "Virtual",
+    "fr": "Virtuel",
+    "it": "Virtuale",
+    "de": "Virtuell",
+    "es": "Virtual",
+    "ko": "가상"
+  },
   "varieties": [
     {
       "is_default": true,

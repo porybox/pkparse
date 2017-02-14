@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 134,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "water1"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "upright"
   },
@@ -68,44 +60,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ヤドラン",
-      "language": "ja"
-    },
-    {
-      "name": "Yadoran",
-      "language": "roomaji"
-    },
-    {
-      "name": "야도란",
-      "language": "ko"
-    },
-    {
-      "name": "呆河馬",
-      "language": "zh"
-    },
-    {
-      "name": "Flagadoss",
-      "language": "fr"
-    },
-    {
-      "name": "Lahmus",
-      "language": "de"
-    },
-    {
-      "name": "Slowbro",
-      "language": "es"
-    },
-    {
-      "name": "Slowbro",
-      "language": "it"
-    },
-    {
-      "name": "Slowbro",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヤドラン",
+    "en": "Slowbro",
+    "fr": "Flagadoss",
+    "it": "Slowbro",
+    "de": "Lahmus",
+    "es": "Slowbro",
+    "ko": "야도란"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -116,36 +79,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "やどかり",
-      "language": "ja"
-    },
-    {
-      "genus": "기생",
-      "language": "ko"
-    },
-    {
-      "genus": "Symbiose",
-      "language": "fr"
-    },
-    {
-      "genus": "Symbiose",
-      "language": "de"
-    },
-    {
-      "genus": "Ermitaño",
-      "language": "es"
-    },
-    {
-      "genus": "Paguro",
-      "language": "it"
-    },
-    {
-      "genus": "Hermit Crab",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "やどかり",
+    "en": "Hermit Crab",
+    "fr": "Symbiose",
+    "it": "Paguro",
+    "de": "Symbiose",
+    "es": "Ermitaño",
+    "ko": "기생"
+  },
   "varieties": [
     {
       "is_default": true,

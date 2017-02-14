@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "いじっぱり",
-      "language": "ja"
-    },
-    {
-      "name": "고집",
-      "language": "ko"
-    },
-    {
-      "name": "Rigide",
-      "language": "fr"
-    },
-    {
-      "name": "Hart",
-      "language": "de"
-    },
-    {
-      "name": "Firme",
-      "language": "es"
-    },
-    {
-      "name": "Decisa",
-      "language": "it"
-    },
-    {
-      "name": "Adamant",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "いじっぱり",
+    "en": "Adamant",
+    "fr": "Rigide",
+    "it": "Decisa",
+    "de": "Hart",
+    "es": "Firme",
+    "ko": "고집",
+    "zh-CN": "固执",
+    "zh-TW": "固執"
+  }
 }
