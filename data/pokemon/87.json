@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 266,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "fish"
   },
@@ -68,44 +60,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ジュゴン",
-      "language": "ja"
-    },
-    {
-      "name": "Jugon",
-      "language": "roomaji"
-    },
-    {
-      "name": "쥬레곤",
-      "language": "ko"
-    },
-    {
-      "name": "白海獅",
-      "language": "zh"
-    },
-    {
-      "name": "Lamantine",
-      "language": "fr"
-    },
-    {
-      "name": "Jugong",
-      "language": "de"
-    },
-    {
-      "name": "Dewgong",
-      "language": "es"
-    },
-    {
-      "name": "Dewgong",
-      "language": "it"
-    },
-    {
-      "name": "Dewgong",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ジュゴン",
+    "en": "Dewgong",
+    "fr": "Lamantine",
+    "it": "Dewgong",
+    "de": "Jugong",
+    "es": "Dewgong",
+    "ko": "쥬레곤"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -116,36 +79,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あしか",
-      "language": "ja"
-    },
-    {
-      "genus": "강치",
-      "language": "ko"
-    },
-    {
-      "genus": "Otarie",
-      "language": "fr"
-    },
-    {
-      "genus": "Seehund",
-      "language": "de"
-    },
-    {
-      "genus": "León Marino",
-      "language": "es"
-    },
-    {
-      "genus": "Otaria",
-      "language": "it"
-    },
-    {
-      "genus": "Sea Lion",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あしか",
+    "en": "Sea Lion",
+    "fr": "Otarie",
+    "it": "Otaria",
+    "de": "Seehund",
+    "es": "León Marino",
+    "ko": "강치"
+  },
   "varieties": [
     {
       "is_default": true,

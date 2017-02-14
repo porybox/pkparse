@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 86,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "quadruped"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "エモンガ",
-      "language": "ja"
-    },
-    {
-      "name": "에몽가",
-      "language": "ko"
-    },
-    {
-      "name": "Emolga",
-      "language": "fr"
-    },
-    {
-      "name": "Emolga",
-      "language": "de"
-    },
-    {
-      "name": "Emolga",
-      "language": "es"
-    },
-    {
-      "name": "Emolga",
-      "language": "it"
-    },
-    {
-      "name": "Emolga",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エモンガ",
+    "en": "Emolga",
+    "fr": "Emolga",
+    "it": "Emolga",
+    "de": "Emolga",
+    "es": "Emolga",
+    "ko": "에몽가"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "モモンガ",
-      "language": "ja"
-    },
-    {
-      "genus": "하늘다람쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Pteromys",
-      "language": "fr"
-    },
-    {
-      "genus": "Flughörnchen",
-      "language": "de"
-    },
-    {
-      "genus": "Vuelardilla",
-      "language": "es"
-    },
-    {
-      "genus": "Petauro",
-      "language": "it"
-    },
-    {
-      "genus": "Sky Squirrel",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "モモンガ",
+    "en": "Sky Squirrel",
+    "fr": "Pteromys",
+    "it": "Petauro",
+    "de": "Flughörnchen",
+    "es": "Vuelardilla",
+    "ko": "하늘다람쥐"
+  },
   "varieties": [
     {
       "is_default": true,

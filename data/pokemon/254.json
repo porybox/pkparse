@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 132,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "dragon"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -56,44 +48,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ジュカイン",
-      "language": "ja"
-    },
-    {
-      "name": "Jukain",
-      "language": "roomaji"
-    },
-    {
-      "name": "나무킹",
-      "language": "ko"
-    },
-    {
-      "name": "蜥蜴王",
-      "language": "zh"
-    },
-    {
-      "name": "Jungko",
-      "language": "fr"
-    },
-    {
-      "name": "Gewaldro",
-      "language": "de"
-    },
-    {
-      "name": "Sceptile",
-      "language": "es"
-    },
-    {
-      "name": "Sceptile",
-      "language": "it"
-    },
-    {
-      "name": "Sceptile",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ジュカイン",
+    "en": "Sceptile",
+    "fr": "Jungko",
+    "it": "Sceptile",
+    "de": "Gewaldro",
+    "es": "Sceptile",
+    "ko": "나무킹"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -104,36 +67,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みつりん",
-      "language": "ja"
-    },
-    {
-      "genus": "밀림",
-      "language": "ko"
-    },
-    {
-      "genus": "Forêt",
-      "language": "fr"
-    },
-    {
-      "genus": "Dschungel",
-      "language": "de"
-    },
-    {
-      "genus": "Monte",
-      "language": "es"
-    },
-    {
-      "genus": "Foresta",
-      "language": "it"
-    },
-    {
-      "genus": "Forest",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みつりん",
+    "en": "Forest",
+    "fr": "Forêt",
+    "it": "Foresta",
+    "de": "Dschungel",
+    "es": "Monte",
+    "ko": "밀림"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,56 +2,13 @@
   "id": 291,
   "name": "dive",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 80,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "surf"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "surf"
-        },
-        {
-          "name": "rain-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User dives underwater for one turn, becoming immune to attack, and hits on the second turn.\n\nDuring the immune turn, []{move:surf}, and []{move:whirlpool} still hit the user normally, and their power is doubled if appropriate.\n\nThe user may be hit during its immune turn if under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.\n\nThis move cannot be selected by []{move:sleep-talk}.",
-      "short_effect": "User dives underwater, dodging all attacks, and hits next turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -63,55 +20,63 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Dive",
-      "language": "en"
-    },
-    {
-      "name": "Sub",
-      "language": "it"
-    },
-    {
-      "name": "Buceo",
-      "language": "es"
-    },
-    {
-      "name": "Taucher",
-      "language": "de"
-    },
-    {
-      "name": "Plongée",
-      "language": "fr"
-    },
-    {
-      "name": "다이빙",
-      "language": "ko"
-    },
-    {
-      "name": "ダイビング",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "ダイビング",
+    "kana": "ダイビング",
+    "en": "Dive",
+    "fr": "Plongée",
+    "it": "Sub",
+    "de": "Taucher",
+    "es": "Buceo",
+    "ko": "다이빙",
+    "zh-CN": "潜水",
+    "zh-TW": "潛水"
+  },
+  "flavor_text_entries": {
+    "ja": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。",
+    "kana": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。",
+    "en": "Diving on the first turn, the user floats up and attacks on the next turn.",
+    "fr": "Le lanceur plonge sous l’eau au premier tour et frappe au second.",
+    "it": "Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente.",
+    "de": "Anwender taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an.",
+    "es": "El usuario se sumerge en el primer turno y ataca en el segundo.",
+    "ko": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다.",
+    "zh-CN": "第１回合潜入， 第２回合浮上来进行攻击。",
+    "zh-TW": "使用後的第１回合潛入水中， 並於第２回合浮上來進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 60,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。 深い海に　潜ることも　できる。",
+          "kana": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。 ふかいうみに　もぐる　ことも　できる。",
+          "en": "Diving on the first turn, the user floats up and attacks on the next turn. It can be used to dive deep in the ocean.",
+          "fr": "Le lanceur plonge sous l’eau au premier tour et frappe au second. Permet aussi de plonger dans l’eau profonde.",
+          "it": "Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente. Serve anche per immergersi sott’acqua.",
+          "de": "Anwender taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an. Ermöglicht Tauchgänge zum Meeresgrund.",
+          "es": "El usuario se sumerge en el primer turno y ataca en el segundo. Permite sumergirse hasta aguas profundas.",
+          "ko": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다. 깊은 바다에서 잠수도 할 수 있다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。",
+          "kana": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。",
+          "en": "Diving on the first turn, the user floats up and attacks on the next turn.",
+          "fr": "Le lanceur plonge sous l’eau au premier tour et frappe au second.",
+          "it": "Chi la usa si tuffa in acqua per emergere e attaccare al turno seguente.",
+          "de": "Taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an.",
+          "es": "El usuario se sumerge en el primer turno y ataca en el segundo.",
+          "ko": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "water"
-  }
+  ]
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 141,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "monster"
-    }
+    "dragon",
+    "monster"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -58,68 +50,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "クリムガン",
-      "language": "ja"
-    },
-    {
-      "name": "크리만",
-      "language": "ko"
-    },
-    {
-      "name": "Drakkarmin",
-      "language": "fr"
-    },
-    {
-      "name": "Shardrago",
-      "language": "de"
-    },
-    {
-      "name": "Druddigon",
-      "language": "es"
-    },
-    {
-      "name": "Druddigon",
-      "language": "it"
-    },
-    {
-      "name": "Druddigon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クリムガン",
+    "en": "Druddigon",
+    "fr": "Drakkarmin",
+    "it": "Druddigon",
+    "de": "Shardrago",
+    "es": "Druddigon",
+    "ko": "크리만"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほらあな",
-      "language": "ja"
-    },
-    {
-      "genus": "동굴",
-      "language": "ko"
-    },
-    {
-      "genus": "Caverne",
-      "language": "fr"
-    },
-    {
-      "genus": "Höhle",
-      "language": "de"
-    },
-    {
-      "genus": "Cueva",
-      "language": "es"
-    },
-    {
-      "genus": "Grotta",
-      "language": "it"
-    },
-    {
-      "genus": "Cave",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほらあな",
+    "en": "Cave",
+    "fr": "Caverne",
+    "it": "Grotta",
+    "de": "Höhle",
+    "es": "Cueva",
+    "ko": "동굴"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 43,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "blob"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "チュリネ",
-      "language": "ja"
-    },
-    {
-      "name": "치릴리",
-      "language": "ko"
-    },
-    {
-      "name": "Chlorobule",
-      "language": "fr"
-    },
-    {
-      "name": "Lilminip",
-      "language": "de"
-    },
-    {
-      "name": "Petilil",
-      "language": "es"
-    },
-    {
-      "name": "Petilil",
-      "language": "it"
-    },
-    {
-      "name": "Petilil",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "チュリネ",
+    "en": "Petilil",
+    "fr": "Chlorobule",
+    "it": "Petilil",
+    "de": "Lilminip",
+    "es": "Petilil",
+    "ko": "치릴리"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ねっこ",
-      "language": "ja"
-    },
-    {
-      "genus": "뿌리",
-      "language": "ko"
-    },
-    {
-      "genus": "Racine",
-      "language": "fr"
-    },
-    {
-      "genus": "Wurzel",
-      "language": "de"
-    },
-    {
-      "genus": "Bulbo",
-      "language": "es"
-    },
-    {
-      "genus": "Radice",
-      "language": "it"
-    },
-    {
-      "genus": "Bulb",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ねっこ",
+    "en": "Bulb",
+    "fr": "Racine",
+    "it": "Radice",
+    "de": "Wurzel",
+    "es": "Bulbo",
+    "ko": "뿌리"
+  },
   "varieties": [
     {
       "is_default": true,

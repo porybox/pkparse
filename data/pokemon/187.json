@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 135,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "fairy"
-    }
+    "fairy",
+    "plant"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "upright"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ハネッコ",
-      "language": "ja"
-    },
-    {
-      "name": "Hanecco",
-      "language": "roomaji"
-    },
-    {
-      "name": "통통코",
-      "language": "ko"
-    },
-    {
-      "name": "毽子草",
-      "language": "zh"
-    },
-    {
-      "name": "Granivol",
-      "language": "fr"
-    },
-    {
-      "name": "Hoppspross",
-      "language": "de"
-    },
-    {
-      "name": "Hoppip",
-      "language": "es"
-    },
-    {
-      "name": "Hoppip",
-      "language": "it"
-    },
-    {
-      "name": "Hoppip",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハネッコ",
+    "en": "Hoppip",
+    "fr": "Granivol",
+    "it": "Hoppip",
+    "de": "Hoppspross",
+    "es": "Hoppip",
+    "ko": "통통코"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "わたくさ",
-      "language": "ja"
-    },
-    {
-      "genus": "솜풀",
-      "language": "ko"
-    },
-    {
-      "genus": "Pissenlit",
-      "language": "fr"
-    },
-    {
-      "genus": "Löwenzahn",
-      "language": "de"
-    },
-    {
-      "genus": "Algadón",
-      "language": "es"
-    },
-    {
-      "genus": "Gramigna",
-      "language": "it"
-    },
-    {
-      "genus": "Cottonweed",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "わたくさ",
+    "en": "Cottonweed",
+    "fr": "Pissenlit",
+    "it": "Gramigna",
+    "de": "Löwenzahn",
+    "es": "Algadón",
+    "ko": "솜풀"
+  },
   "varieties": [
     {
       "is_default": true,

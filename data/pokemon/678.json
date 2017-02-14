@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 115,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -45,36 +39,15 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ニャオニクス",
-      "language": "ja"
-    },
-    {
-      "name": "냐오닉스",
-      "language": "ko"
-    },
-    {
-      "name": "Mistigrix",
-      "language": "fr"
-    },
-    {
-      "name": "Psiaugon",
-      "language": "de"
-    },
-    {
-      "name": "Meowstic",
-      "language": "es"
-    },
-    {
-      "name": "Meowstic",
-      "language": "it"
-    },
-    {
-      "name": "Meowstic",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ニャオニクス",
+    "en": "Meowstic",
+    "fr": "Mistigrix",
+    "it": "Meowstic",
+    "de": "Psiaugon",
+    "es": "Meowstic",
+    "ko": "냐오닉스"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [
     {
@@ -82,36 +55,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "よくせい",
-      "language": "ja"
-    },
-    {
-      "genus": "억제",
-      "language": "ko"
-    },
-    {
-      "genus": "SelfContrôle",
-      "language": "fr"
-    },
-    {
-      "genus": "Fassung",
-      "language": "de"
-    },
-    {
-      "genus": "Autocontrol",
-      "language": "es"
-    },
-    {
-      "genus": "Temperanza",
-      "language": "it"
-    },
-    {
-      "genus": "Constraint",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "よくせい",
+    "en": "Constraint",
+    "fr": "SelfContrôle",
+    "it": "Temperanza",
+    "de": "Fassung",
+    "es": "Autocontrol",
+    "ko": "억제"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -137,5 +89,13 @@
     "special-attack": 83,
     "special-defense": 81,
     "speed": 104
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "color": "white"
+      }
+    }
+  ]
 }

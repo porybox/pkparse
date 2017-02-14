@@ -2,49 +2,13 @@
   "id": 2,
   "name": "karate-chop",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 25,
   "priority": 0,
   "power": 50,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "focus-energy"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.",
-      "short_effect": "Has an increased chance for a critical hit.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,57 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Karate Chop",
-      "language": "en"
-    },
-    {
-      "name": "Colpokarate",
-      "language": "it"
-    },
-    {
-      "name": "Golpe Kárate",
-      "language": "es"
-    },
-    {
-      "name": "Karateschlag",
-      "language": "de"
-    },
-    {
-      "name": "Poing-Karaté",
-      "language": "fr"
-    },
-    {
-      "name": "태권당수",
-      "language": "ko"
-    },
-    {
-      "name": "からてチョップ",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "からてチョップ",
+    "kana": "からてチョップ",
+    "en": "Karate Chop",
+    "fr": "Poing-Karaté",
+    "it": "Colpokarate",
+    "de": "Karateschlag",
+    "es": "Golpe Kárate",
+    "ko": "태권당수",
+    "zh-CN": "空手劈",
+    "zh-TW": "空手劈"
+  },
+  "flavor_text_entries": {
+    "ja": "鋭い　チョップで 相手を　たたいて　攻撃する。 急所に　当たりやすい。",
+    "kana": "するどい　チョップで あいてを　たたいて　こうげきする。 きゅうしょに　あたりやすい。",
+    "en": "The target is attacked with a sharp chop. Critical hits land more easily.",
+    "fr": "L’ennemi est tranché violemment. Taux de critique élevé.",
+    "it": "Colpisce il bersaglio con un colpo netto. Probabile brutto colpo.",
+    "de": "Gute Möglichkeit, einen Volltreffer zu landen.",
+    "es": "Da un golpe cortante. Suele ser crítico.",
+    "ko": "날카로운 당수로 상대를 때려서 공격한다. 급소에 맞기 쉽다.",
+    "zh-CN": "用锋利的手刀 劈向对手进行攻击。 容易击中要害。",
+    "zh-TW": "用鋒利的手刀 劈向對手進行攻擊。 容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
   "past_values": [
     {
-      "accuracy": null,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": {
-        "name": "normal"
-      },
-      "version_group": {
-        "name": "gold-silver"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "L’ennemi est tranché violemment. Taux de critiques élevé."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fighting"
-  }
+  ]
 }

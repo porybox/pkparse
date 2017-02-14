@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 16,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    },
-    {
-      "name": "bug"
-    }
+    "bug",
+    "water3"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "armor"
   },
@@ -72,44 +64,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ドラピオン",
-      "language": "ja"
-    },
-    {
-      "name": "Dorapion",
-      "language": "roomaji"
-    },
-    {
-      "name": "드래피온",
-      "language": "ko"
-    },
-    {
-      "name": "龍王蠍",
-      "language": "zh"
-    },
-    {
-      "name": "Drascore",
-      "language": "fr"
-    },
-    {
-      "name": "Piondragi",
-      "language": "de"
-    },
-    {
-      "name": "Drapion",
-      "language": "es"
-    },
-    {
-      "name": "Drapion",
-      "language": "it"
-    },
-    {
-      "name": "Drapion",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドラピオン",
+    "en": "Drapion",
+    "fr": "Drascore",
+    "it": "Drapion",
+    "de": "Piondragi",
+    "es": "Drapion",
+    "ko": "드래피온"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -120,36 +83,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ばけさそり",
-      "language": "ja"
-    },
-    {
-      "genus": "요괴전갈",
-      "language": "ko"
-    },
-    {
-      "genus": "Scorpogre",
-      "language": "fr"
-    },
-    {
-      "genus": "Ogerskorpion",
-      "language": "de"
-    },
-    {
-      "genus": "Escorpiogro",
-      "language": "es"
-    },
-    {
-      "genus": "Scorpiaccio",
-      "language": "it"
-    },
-    {
-      "genus": "Ogre Scorpion",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ばけさそり",
+    "en": "Ogre Scorpion",
+    "fr": "Scorpogre",
+    "it": "Scorpiaccio",
+    "de": "Ogerskorpion",
+    "es": "Escorpiogro",
+    "ko": "요괴전갈"
+  },
   "varieties": [
     {
       "is_default": true,

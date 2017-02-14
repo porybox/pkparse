@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 123,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "humanoid"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ヤミラミ",
-      "language": "ja"
-    },
-    {
-      "name": "Yamirami",
-      "language": "roomaji"
-    },
-    {
-      "name": "깜까미",
-      "language": "ko"
-    },
-    {
-      "name": "勾魂眼",
-      "language": "zh"
-    },
-    {
-      "name": "Ténéfix",
-      "language": "fr"
-    },
-    {
-      "name": "Zobiris",
-      "language": "de"
-    },
-    {
-      "name": "Sableye",
-      "language": "es"
-    },
-    {
-      "name": "Sableye",
-      "language": "it"
-    },
-    {
-      "name": "Sableye",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヤミラミ",
+    "en": "Sableye",
+    "fr": "Ténéfix",
+    "it": "Sableye",
+    "de": "Zobiris",
+    "es": "Sableye",
+    "ko": "깜까미"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くらやみ",
-      "language": "ja"
-    },
-    {
-      "genus": "어둠",
-      "language": "ko"
-    },
-    {
-      "genus": "Obscurité",
-      "language": "fr"
-    },
-    {
-      "genus": "Finsternis",
-      "language": "de"
-    },
-    {
-      "genus": "Oscuridad",
-      "language": "es"
-    },
-    {
-      "genus": "Oscurità",
-      "language": "it"
-    },
-    {
-      "genus": "Darkness",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くらやみ",
+    "en": "Darkness",
+    "fr": "Obscurité",
+    "it": "Oscurità",
+    "de": "Finsternis",
+    "es": "Oscuridad",
+    "ko": "어둠"
+  },
   "varieties": [
     {
       "is_default": true,

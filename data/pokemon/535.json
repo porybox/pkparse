@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 228,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    }
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -49,68 +43,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "オタマロ",
-      "language": "ja"
-    },
-    {
-      "name": "동챙이",
-      "language": "ko"
-    },
-    {
-      "name": "Tritonde",
-      "language": "fr"
-    },
-    {
-      "name": "Schallquap",
-      "language": "de"
-    },
-    {
-      "name": "Tympole",
-      "language": "es"
-    },
-    {
-      "name": "Tympole",
-      "language": "it"
-    },
-    {
-      "name": "Tympole",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オタマロ",
+    "en": "Tympole",
+    "fr": "Tritonde",
+    "it": "Tympole",
+    "de": "Schallquap",
+    "es": "Tympole",
+    "ko": "동챙이"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おたま",
-      "language": "ja"
-    },
-    {
-      "genus": "올챙이",
-      "language": "ko"
-    },
-    {
-      "genus": "Têtard",
-      "language": "fr"
-    },
-    {
-      "genus": "Kaulquappe",
-      "language": "de"
-    },
-    {
-      "genus": "Renacuajo",
-      "language": "es"
-    },
-    {
-      "genus": "Girino",
-      "language": "it"
-    },
-    {
-      "genus": "Tadpole",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おたま",
+    "en": "Tadpole",
+    "fr": "Têtard",
+    "it": "Girino",
+    "de": "Kaulquappe",
+    "es": "Renacuajo",
+    "ko": "올챙이"
+  },
   "varieties": [
     {
       "is_default": true,

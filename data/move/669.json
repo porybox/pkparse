@@ -1,0 +1,50 @@
+{
+  "id": 669,
+  "name": "solar-blade",
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "power": 125,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ソーラーブレード",
+    "kana": "ソーラーブレード",
+    "en": "Solar Blade",
+    "fr": "Lame Solaire",
+    "it": "Lama Solare",
+    "de": "Solarklinge",
+    "es": "Cuchilla Solar",
+    "ko": "솔라블레이드",
+    "zh-CN": "日光刃",
+    "zh-TW": "日光刃"
+  },
+  "flavor_text_entries": {
+    "ja": "１ターン目に　光を　いっぱいに　集め ２ターン目に　その　力を 剣に　込めて　攻撃する。",
+    "kana": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　そのちからを けんに　こめて　こうげきする。",
+    "en": "In this two-turn attack, the user gathers light and fills a blade with the light’s energy, attacking the target on the next turn.",
+    "fr": "Le lanceur absorbe la lumière au premier tour et attaque au second tour en libérant cette énergie sous forme de lames.",
+    "it": "Chi la usa assorbe la luce condensandola in una lama al primo turno per poi attaccare al turno successivo.",
+    "de": "Der Anwender absorbiert in der 1. Runde Licht, das er in der 2. Runde zu einem Schwert formt, mit dem er angreift.",
+    "es": "El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla con la que ataca al rival al turno siguiente.",
+    "ko": "1턴째 빛을 가득하게 모으고 2턴째 그 힘을 검에 담아 공격한다.",
+    "zh-CN": "第１回合收集满满的日光， 第２回合将此力量 集中在剑上进行攻击。",
+    "zh-TW": "第１回合收集滿滿的日光， 第２回合將此力量 集中在劍上並進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass"
+}

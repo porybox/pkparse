@@ -2,36 +2,13 @@
   "id": 293,
   "name": "camouflage",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User's type changes according to the terrain.\n\nTerrain        | New type\n-------------- | --------------\nBuilding       | []{type:normal}\nCave           | []{type:rock}\nDesert         | []{type:ground}\nGrass          | []{type:grass}\nMountain       | []{type:rock}\nOcean          | []{type:water}\nPond           | []{type:water}\nRoad           | []{type:ground}\nSnow           | []{type:ice}\nTall grass     | []{type:grass}\n\nIn Pokémon Battle Revolution:\n\nTerrain        | New type\n-------------- | --------------\nCourtyard      | []{type:normal}\nCrystal        | []{type:rock}\nGateway        | []{type:water}\nMagma          | []{type:rock}\nMain Street    | []{type:normal}\nNeon           | []{type:normal}\nStargazer      | []{type:rock}\nSunny Park     | []{type:grass}\nSunset         | []{type:ground}\nWaterfall      | []{type:grass}\n",
-      "short_effect": "User's type changes to match the terrain.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Camouflage",
-      "language": "en"
-    },
-    {
-      "name": "Camuffamento",
-      "language": "it"
-    },
-    {
-      "name": "Camuflaje",
-      "language": "es"
-    },
-    {
-      "name": "Tarnung",
-      "language": "de"
-    },
-    {
-      "name": "Camouflage",
-      "language": "fr"
-    },
-    {
-      "name": "보호색",
-      "language": "ko"
-    },
-    {
-      "name": "ほごしょく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "ほごしょく",
+    "kana": "ほごしょく",
+    "en": "Camouflage",
+    "fr": "Camouflage",
+    "it": "Camuffamento",
+    "de": "Tarnung",
+    "es": "Camuflaje",
+    "ko": "보호색",
+    "zh-CN": "保护色",
+    "zh-TW": "保護色"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "水辺や　草むら　どうくつなど いる　場所に　あわせて 自分の　タイプを　変える。",
+    "kana": "みずべや　くさむら　どうくつなど いる　ばしょに　あわせて じぶんの　タイプを　かえる。",
+    "en": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
+    "fr": "Modifie le type du lanceur en fonction du terrain, comme une berge, une grotte, l’herbe, etc.",
+    "it": "Modifica il tipo di chi la usa a seconda del luogo, ad esempio sull’acqua, nell’erba o in una grotta.",
+    "de": "Der Typ des Anwenders passt sich der Umgebung an, sei es im Wasser, im Gras oder in einer Höhle.",
+    "es": "Modifica el tipo del Pokémon según el terreno de combate donde esté.",
+    "ko": "물가나 풀밭, 동굴 등 있는 장소에 맞춰서 자신의 타입을 바꾼다.",
+    "zh-CN": "根据所在场所不同， 如水边、草丛和洞窟等， 可以改变自己的属性。",
+    "zh-TW": "可以因應所在的地點如 水邊、草叢和洞窟等， 改變自己的屬性。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal"
 }

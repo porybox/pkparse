@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 194,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "arms"
   },
@@ -45,44 +39,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ポリゴンＺ",
-      "language": "ja"
-    },
-    {
-      "name": "PorygonZ",
-      "language": "roomaji"
-    },
-    {
-      "name": "폴리곤Z",
-      "language": "ko"
-    },
-    {
-      "name": "3D龍Z",
-      "language": "zh"
-    },
-    {
-      "name": "Porygon-Z",
-      "language": "fr"
-    },
-    {
-      "name": "Porygon-Z",
-      "language": "de"
-    },
-    {
-      "name": "Porygon-Z",
-      "language": "es"
-    },
-    {
-      "name": "Porygon-Z",
-      "language": "it"
-    },
-    {
-      "name": "Porygon-Z",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ポリゴンＺ",
+    "en": "Porygon-Z",
+    "fr": "Porygon-Z",
+    "it": "Porygon-Z",
+    "de": "Porygon-Z",
+    "es": "Porygon-Z",
+    "ko": "폴리곤Z"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -93,36 +58,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "バーチャル",
-      "language": "ja"
-    },
-    {
-      "genus": "가상",
-      "language": "ko"
-    },
-    {
-      "genus": "Virtuel",
-      "language": "fr"
-    },
-    {
-      "genus": "Virtuell",
-      "language": "de"
-    },
-    {
-      "genus": "Virtual",
-      "language": "es"
-    },
-    {
-      "genus": "Virtuale",
-      "language": "it"
-    },
-    {
-      "genus": "Virtual",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "バーチャル",
+    "en": "Virtual",
+    "fr": "Virtuel",
+    "it": "Virtuale",
+    "de": "Virtuell",
+    "es": "Virtual",
+    "ko": "가상"
+  },
   "varieties": [
     {
       "is_default": true,

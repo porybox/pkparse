@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 113,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "wings"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "オンバット",
-      "language": "ja"
-    },
-    {
-      "name": "음뱃",
-      "language": "ko"
-    },
-    {
-      "name": "Sonistrelle",
-      "language": "fr"
-    },
-    {
-      "name": "eF-eM",
-      "language": "de"
-    },
-    {
-      "name": "Noibat",
-      "language": "es"
-    },
-    {
-      "name": "Noibat",
-      "language": "it"
-    },
-    {
-      "name": "Noibat",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オンバット",
+    "en": "Noibat",
+    "fr": "Sonistrelle",
+    "it": "Noibat",
+    "de": "eF-eM",
+    "es": "Noibat",
+    "ko": "음뱃"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おんぱ",
-      "language": "ja"
-    },
-    {
-      "genus": "음파",
-      "language": "ko"
-    },
-    {
-      "genus": "Ondes",
-      "language": "fr"
-    },
-    {
-      "genus": "Schallwellen",
-      "language": "de"
-    },
-    {
-      "genus": "Onda Sónica",
-      "language": "es"
-    },
-    {
-      "genus": "Ondasonora",
-      "language": "it"
-    },
-    {
-      "genus": "Sound Wave",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おんぱ",
+    "en": "Sound Wave",
+    "fr": "Ondes",
+    "it": "Ondasonora",
+    "de": "Schallwellen",
+    "es": "Onda Sónica",
+    "ko": "음파"
+  },
   "varieties": [
     {
       "is_default": true,

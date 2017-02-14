@@ -2,36 +2,13 @@
   "id": 228,
   "name": "pursuit",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 40,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target attempts to [switch out]{mechanic:switch-out} this turn before the user acts, this move hits the target before it leaves and has double power.\n\nThis effect can still hit a Pokémon that [switches out]{mechanic:switches-out} when it has a []{move:substitute} up or when an ally has used []{move:follow-me}.",
-      "short_effect": "Has double power against, and can hit, Pokémon attempting to switch out.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Pursuit",
-      "language": "en"
-    },
-    {
-      "name": "Inseguimento",
-      "language": "it"
-    },
-    {
-      "name": "Persecución",
-      "language": "es"
-    },
-    {
-      "name": "Verfolgung",
-      "language": "de"
-    },
-    {
-      "name": "Poursuite",
-      "language": "fr"
-    },
-    {
-      "name": "따라가때리기",
-      "language": "ko"
-    },
-    {
-      "name": "おいうち",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "おいうち",
+    "kana": "おいうち",
+    "en": "Pursuit",
+    "fr": "Poursuite",
+    "it": "Inseguimento",
+    "de": "Verfolgung",
+    "es": "Persecución",
+    "ko": "따라가때리기",
+    "zh-CN": "追打",
+    "zh-TW": "追打"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "相手　ポケモンが　入れ替わるときに 技を　だしていると 倍の　威力で　攻撃できる。",
+    "kana": "あいて　ポケモンが　いれかわる　ときに わざを　だしていると ばいの　いりょくで　こうげき　できる。",
+    "en": "The power of this attack move is doubled if it’s used on a target that’s switching out of battle.",
+    "fr": "Une attaque qui inflige deux fois plus de dégâts à un ennemi qui s’apprête à être remplacé.",
+    "it": "Una mossa d’attacco che infligge un danno doppio se il bersaglio è in fase di sostituzione.",
+    "de": "Die Attacke richtet beim Ziel doppelten Schaden an, falls es ausgetauscht wird.",
+    "es": "Hace el doble de daño al objetivo que pide el relevo.",
+    "ko": "상대 포켓몬이 교체될 때 기술을 쓰면 2배의 위력으로 공격할 수 있다.",
+    "zh-CN": "当对手替换宝可梦上场时 使出此招式的话， 能够以２倍的威力进行攻击。",
+    "zh-TW": "在對手替換寶可夢時 使用此招式的話， 便能以２倍的威力進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An attack move that inflicts double damage if used on a target that is switching out of battle."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une attaque qui inflige deux fois plus de dégâts à un ennemi qui quitte le combat."
+        }
+      }
+    }
+  ]
 }

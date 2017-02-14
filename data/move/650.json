@@ -1,0 +1,50 @@
+{
+  "id": 650,
+  "name": "subzero-slammer",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "レイジングジオフリーズ",
+    "kana": "レイジングジオフリーズ",
+    "en": "Subzero Slammer",
+    "fr": "Laser Cryogénique",
+    "it": "Criodistruzione Polare",
+    "de": "Tobender Geofrost",
+    "es": "Crioaliento Despiadado",
+    "ko": "레이징지오프리즈",
+    "zh-CN": "激狂大地万里冰",
+    "zh-TW": "激狂大地萬里冰"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　気温を　急激に　下げ 全力で　相手を　凍らせる。 元になった　技で　威力が　変わる。",
+    "kana": "Ｚパワーで　きおんを　きゅうげきに　さげ ぜんりょくで　あいてを　こおらせる。 もとになった　わざで　いりょくが　かわる。",
+    "en": "The user dramatically drops the temperature using its Z-Power and freezes the target with full force. The power varies, depending on the original move.",
+    "fr": "Le Pokémon utilise la Force Z pour baisser la température brutalement et congeler l’adversaire. La puissance varie selon celle de la capacité originale.",
+    "it": "Chi la usa sfrutta il Potere Z per far calare di colpo la temperatura e congelare il bersaglio. La potenza varia a seconda della mossa su cui si basa.",
+    "de": "Der Anwender senkt mit Z-Kraft die Temperatur drastisch und lässt das Ziel einfrieren. Die Stärke variiert je nach zugrunde liegender Attacke.",
+    "es": "Emplea el Poder Z para lanzar un rayo de hielo que baja la temperatura de golpe y congela al objetivo. Su potencia depende de la del movimiento original.",
+    "ko": "Z파워로 기온을 급격하게 떨어뜨려 전력으로 상대를 얼린다. 원래 기술에 따라 위력이 변한다.",
+    "zh-CN": "通过Ｚ力量急剧降低气温， 全力冰冻对手。 威力会根据原来的招式而改变。",
+    "zh-TW": "透過Ｚ力量急遽降低氣溫， 全力冰凍對手。 威力會隨原本的招式而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ice"
+}

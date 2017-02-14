@@ -1,0 +1,38 @@
+{
+  "id": 117,
+  "name": "shock-drive",
+  "names": {
+    "ja": "イナズマカセット",
+    "kana": "イナズマカセット",
+    "en": "Shock Drive",
+    "fr": "Module Choc",
+    "it": "Voltmodulo",
+    "de": "Blitzmodul",
+    "es": "FulgoROM",
+    "ko": "번개카세트",
+    "zh-CN": "闪电卡带",
+    "zh-TW": "閃電卡帶"
+  },
+  "flavor_text_entries": {
+    "ja": "ゲノセクトに　持たせると テクノバスターという　技が でんきタイプになる　カセット。",
+    "kana": "ゲノセクトに　もたせると テクノバスターという　わざが でんきタイプになる　カセット。",
+    "en": "A cassette to be held by Genesect. It changes Genesect’s Techno Blast move so it becomes Electric type.",
+    "fr": "Tenu par Genesect, ce module change la capacité Techno-Buster en une capacité de type Électrik.",
+    "it": "Modulo da dare a Genesect. Trasforma Tecnobotto in una mossa di tipo Elettro.",
+    "de": "Gibt man es Genesect zum Tragen, wandelt es den Typ der Attacke Techblaster in Elektro um.",
+    "es": "Cartucho que convierte Tecno Shock de Genesect en un movimiento de tipo Eléctrico.",
+    "ko": "게노세크트에게 지니게 하면 테크노버스터라는 기술이 전기타입으로 바뀌는 카세트.",
+    "zh-CN": "这是让盖诺赛克特携带的卡带。 携带后，高科技光炮这招式 就会变为电属性。",
+    "zh-TW": "讓蓋諾賽克特攜帶的卡帶。 攜帶後，招式高科技光炮 會變為電屬性。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Tenu par Genesect, ce module change la capacité TechnoBuster en une capacité de type Électrik."
+        }
+      }
+    }
+  ]
+}

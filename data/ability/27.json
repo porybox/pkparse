@@ -1,217 +1,44 @@
 {
   "id": 27,
   "name": "effect-spore",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "ほうし",
+    "kana": "ほうし",
+    "en": "Effect Spore",
+    "fr": "Pose Spore",
+    "it": "Spargispora",
+    "de": "Sporenwirt",
+    "es": "Efecto Espora",
+    "ko": "포자",
+    "zh-CN": "孢子",
+    "zh-TW": "孢子"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "攻撃で　自分に　触れた　相手を どくや　まひや　ねむり状態に する　ことがある。",
+    "kana": "こうげきで　じぶんに　ふれた　あいてを どくや　まひや　ねむり　じょうたいに する　ことがある。　",
+    "en": "Contact with the Pokémon may inflict poison, sleep, or paralysis on its attacker.",
+    "fr": "Peut paralyser, empoisonner ou endormir l’attaquant lorsque le Pokémon subit une attaque directe.",
+    "it": "Può causare avvelenamento, paralisi o sonno a chi manda a segno un attacco diretto.",
+    "de": "Wird dieses Pokémon durch eine direkte Attacke angegriffen, kann das beim Gegner Paralyse, Vergiftung oder Schlaf auslösen.",
+    "es": "Puede dormir, envenenar o paralizar al Pokémon con el que entre en contacto al recibir un ataque.",
+    "ko": "공격으로 자신에게 접촉한 상대를 독이나 마비, 잠듦 상태로 만들 때가 있다.",
+    "zh-CN": "受到攻击时， 有时会把接触到自己的对手 变为中毒、麻痹或睡眠状态。",
+    "zh-TW": "透過攻擊有時會使接觸到自己的對手， 陷入中毒、麻痺或睡眠狀態。"
+  },
+  "past_values": [
     {
-      "name": "Effect Spore",
-      "language": "en"
-    },
-    {
-      "name": "Spargispora",
-      "language": "it"
-    },
-    {
-      "name": "Efecto Espora",
-      "language": "es"
-    },
-    {
-      "name": "Sporenwirt",
-      "language": "de"
-    },
-    {
-      "name": "Pose Spore",
-      "language": "fr"
-    },
-    {
-      "name": "포자",
-      "language": "ko"
-    },
-    {
-      "name": "ほうし",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Whenever a move makes contact with this Pokémon, the move's user has a 30% chance of being [paralyzed]{mechanic:paralysis}, [poisoned]{mechanic:poison}, or put to [sleep]{mechanic:sleep}, chosen at random.\n\nNothing is done to compensate if the move's user is immune to one of these ailments; there is simply a lower chance that the move's user will be affected.",
-      "short_effect": "Has a 30% chance of inflcting either [paralysis]{mechanic:paralysis}, [poison]{mechanic:poison}, or [sleep]{mechanic:sleep} on attacking Pokémon on contact.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "触れると　どく　まひ\nねむりに　することがある。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Contact may poison or\ncause paralysis or sleep.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Al contatto può causare\navvelenamento, paralisi o sonno.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Puede dormir, envenenar o\nparalizar al contacto.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Kann bei Kontakt Paralyse,\nVergiftung oder Schlaf auslösen.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Peut paralyser, empoisonner,\nendormir au contact.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "스치면 독, 마비, 잠듦\n상태가 될 때가 있다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ふれると　どく　まひ\nねむりに　することがある。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Contact may poison or\ncause paralysis or sleep.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Contact may poison or\ncause paralysis or sleep.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Peut paralyser, empoison-\nner, endormir au contact.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Contact may paralyze,\npoison, or cause sleep.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Contact may paralyze,\npoison, or cause sleep.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Contact may paralyze,\npoison, or cause sleep.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Leaves spores on contact.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Leaves spores on contact.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Leaves spores on contact.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "vileplume"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "paras"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "parasect"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "shroomish"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "breloom"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "foongus"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "amoonguss"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "触れると　どく　まひ ねむりに　することがある。",
+          "kana": "ふれると　どく　まひ ねむりに　することがある。",
+          "en": "Contact may poison or cause paralysis or sleep.",
+          "fr": "Peut paralyser, empoisonner, endormir au contact.",
+          "it": "Al contatto può causare avvelenamento, paralisi o sonno.",
+          "de": "Kann bei Kontakt Paralyse, Vergiftung oder Schlaf auslösen.",
+          "es": "Puede dormir, envenenar o paralizar al contacto.",
+          "ko": "스치면 독, 마비, 잠듦 상태가 될 때가 있다."
+        }
       }
     }
   ]

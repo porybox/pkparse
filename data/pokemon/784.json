@@ -1,0 +1,45 @@
+{
+  "id": 784,
+  "name": "kommo-o",
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 40,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon"
+  ],
+  "color": "gray",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ジャラランガ",
+    "en": "Kommo-o",
+    "fr": "Ékaïser",
+    "it": "Kommo-o",
+    "de": "Grandiras",
+    "es": "Kommo-o",
+    "ko": "짜랑고우거"
+  },
+  "genera": {
+    "ja": "うろこ",
+    "en": "Scaly",
+    "fr": "Écailles",
+    "it": "Squama",
+    "de": "Schuppentier",
+    "es": "Escamas",
+    "ko": "비늘"
+  },
+  "types": [
+    "dragon",
+    "fighting"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 110,
+    "defense": 125,
+    "special-attack": 100,
+    "special-defense": 105,
+    "speed": 85
+  }
+}

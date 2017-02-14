@@ -2,49 +2,13 @@
   "id": 352,
   "name": "water-pulse",
   "accuracy": 100,
-  "effect_chance": 20,
   "pp": 20,
   "priority": 0,
   "power": 60,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rain-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [confuse]{mechanic:confuse} the target.",
-      "short_effect": "Has a $effect_chance% chance to confuse the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "confusion",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Water Pulse",
-      "language": "en"
-    },
-    {
-      "name": "Idropulsar",
-      "language": "it"
-    },
-    {
-      "name": "Hidropulso",
-      "language": "es"
-    },
-    {
-      "name": "Aquawelle",
-      "language": "de"
-    },
-    {
-      "name": "Vibraqua",
-      "language": "fr"
-    },
-    {
-      "name": "물의파동",
-      "language": "ko"
-    },
-    {
-      "name": "みずのはどう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "みずのはどう",
+    "kana": "みずのはどう",
+    "en": "Water Pulse",
+    "fr": "Vibraqua",
+    "it": "Idropulsar",
+    "de": "Aquawelle",
+    "es": "Hidropulso",
+    "ko": "물의파동",
+    "zh-CN": "水之波动",
+    "zh-TW": "水之波動"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "水の　振動を 相手に　与えて　攻撃する。 相手を　混乱させることが　ある。",
+    "kana": "みずの　しんどうを あいてに　あたえて　こうげきする。 あいてを　こんらん　させることが　ある。",
+    "en": "The user attacks the target with a pulsing blast of water. This may also confuse the target.",
+    "fr": "Le lanceur envoie un puissant jet d’eau sur l’ennemi. Peut le rendre confus.",
+    "it": "Il bersaglio viene colpito da un getto d’acqua potentissimo che può anche confonderlo.",
+    "de": "Angriff mit Wasserwelle, die das Ziel eventuell verwirren kann.",
+    "es": "Ataca con un potente chorro de agua. Puede confundir al objetivo.",
+    "ko": "물의 진동을 상대에게 가하여 공격한다. 상대를 혼란시킬 때가 있다.",
+    "zh-CN": "用水的震动攻击对手。 有时会使对手混乱。",
+    "zh-TW": "用水的震動攻擊對手。 有時會使對手混亂。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water"
 }

@@ -1,0 +1,55 @@
+{
+  "id": 708,
+  "name": "shadow-bone",
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "power": 85,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage+lower",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 20
+  },
+  "names": {
+    "ja": "シャドーボーン",
+    "kana": "シャドーボーン",
+    "en": "Shadow Bone",
+    "fr": "Os’Ombre",
+    "it": "Ossotetro",
+    "de": "Schattenknochen",
+    "es": "Hueso Sombrío",
+    "ko": "섀도본",
+    "zh-CN": "暗影之骨",
+    "zh-TW": "暗影之骨"
+  },
+  "flavor_text_entries": {
+    "ja": "魂の　宿った　ホネで 相手を　なぐりつけて　攻撃する。 相手の　防御を　さげる　ことがある。",
+    "kana": "たましいの　やどった　ホネで あいてを　なぐりつけて　こうげきする。 あいての　ぼうぎょを　さげる　ことがある。",
+    "en": "The user attacks by beating the target with a bone that contains a spirit. This may also lower the target’s Defense stat.",
+    "fr": "Le lanceur frappe avec un os possédé par l’âme d’un défunt. Peut aussi baisser la Défense de la cible.",
+    "it": "Chi la usa colpisce il bersaglio con un osso in cui alberga uno spirito. Può anche ridurne la Difesa.",
+    "de": "Der Anwender greift das Ziel mit einem Knochen an, in dem eine Seele haust. Senkt eventuell die Verteidigung des Zieles.",
+    "es": "Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defensa del objetivo.",
+    "ko": "영혼이 머물고 있는 뼈로 상대를 세게 때려서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+    "zh-CN": "用附有灵魂的骨头 殴打对手进行攻击。 有时会降低对手的防御。",
+    "zh-TW": "用寄宿了靈魂的骨頭 毆打對手進行攻擊。 有時會降低對手的防禦。"
+  },
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": "defense"
+    }
+  ],
+  "target": "selected-pokemon",
+  "type": "ghost"
+}

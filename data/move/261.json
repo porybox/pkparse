@@ -2,36 +2,13 @@
   "id": 261,
   "name": "will-o-wisp",
   "accuracy": 85,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "[Burns]{mechanic:burns} the target.",
-      "short_effect": "Burns the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "burn",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Will-O-Wisp",
-      "language": "en"
-    },
-    {
-      "name": "Fuocofatuo",
-      "language": "it"
-    },
-    {
-      "name": "Fuego Fatuo",
-      "language": "es"
-    },
-    {
-      "name": "Irrlicht",
-      "language": "de"
-    },
-    {
-      "name": "Feu Follet",
-      "language": "fr"
-    },
-    {
-      "name": "도깨비불",
-      "language": "ko"
-    },
-    {
-      "name": "おにび",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "おにび",
+    "kana": "おにび",
+    "en": "Will-O-Wisp",
+    "fr": "Feu Follet",
+    "it": "Fuocofatuo",
+    "de": "Irrlicht",
+    "es": "Fuego Fatuo",
+    "ko": "도깨비불",
+    "zh-CN": "鬼火",
+    "zh-TW": "鬼火"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "不気味で　怪しい　炎を　放って 相手を　やけどの　状態に　する。",
+    "kana": "ぶきみで　あやしい　ほのおを　はなって あいてを　やけどの　じょうたいに　する。",
+    "en": "The user shoots a sinister, bluish-white flame at the target to inflict a burn.",
+    "fr": "Lance un bouquet de flammes maléfiques à l’ennemi pour lui infliger une brûlure.",
+    "it": "Fiamme intense di colore viola causano una scottatura al bersaglio.",
+    "de": "Angriff mit unheimlicher Flamme, die beim Ziel Verbrennungen verursacht.",
+    "es": "Siniestra llama morada que produce quemaduras.",
+    "ko": "으스스하고 괴상한 불꽃을 쏘아 상대를 화상 상태로 만든다.",
+    "zh-CN": "放出怪异的火焰， 从而让对手陷入灼伤状态。",
+    "zh-TW": "放出詭異的火焰， 讓對手陷入灼傷狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Lance une sinistre flamme violette à l’ennemi pour lui infliger une brûlure.",
+          "de": "Angriff mit unheimlicher Flamme, die das Ziel verbrennt."
+        }
+      }
+    }
+  ]
 }

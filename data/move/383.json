@@ -2,36 +2,13 @@
   "id": 383,
   "name": "copycat",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Uses the last move that was used successfully by any Pokémon, including the user.\n\nThis move cannot copy itself, nor []{move:roar} nor []{move:whirlwind}.\n\nThis move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.",
-      "short_effect": "Uses the target's last used move.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Copycat",
-      "language": "en"
-    },
-    {
-      "name": "Copione",
-      "language": "it"
-    },
-    {
-      "name": "Copión",
-      "language": "es"
-    },
-    {
-      "name": "Imitator",
-      "language": "de"
-    },
-    {
-      "name": "Photocopie",
-      "language": "fr"
-    },
-    {
-      "name": "흉내쟁이",
-      "language": "ko"
-    },
-    {
-      "name": "まねっこ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "まねっこ",
+    "kana": "まねっこ",
+    "en": "Copycat",
+    "fr": "Photocopie",
+    "it": "Copione",
+    "de": "Imitator",
+    "es": "Copión",
+    "ko": "흉내쟁이",
+    "zh-CN": "仿效",
+    "zh-TW": "仿效"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "直前に　でた　技を　まねして 同じ　技を　だす。 技が　でていないと　失敗する。",
+    "kana": "ちょくぜんに　でた　わざを　まねして おなじ　わざを　だす。 わざが　でていないと　しっぱい　する。",
+    "en": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
+    "fr": "Le lanceur imite la dernière capacité employée. Échoue si aucune capacité n’a été utilisée.",
+    "it": "Chi la usa mima l’ultima mossa eseguita. Fallisce se non è stata ancora usata alcuna mossa.",
+    "de": "Anwender imitiert die gerade verwendete Attacke. Dies schlägt fehl, falls zuvor keine Attacke verwendet wurde.",
+    "es": "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.",
+    "ko": "직전에 나온 기술을 흉내 내어 같은 기술을 쓴다. 기술이 나오지 않았으면 실패한다.",
+    "zh-CN": "模仿对手刚才使出的招式， 并使出相同招式。 如果对手还没出招则会失败。",
+    "zh-TW": "模仿對手最近一次使用的招式， 若對手沒有成功出招則會失敗。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender imitiert gerade verwendete Attacke. Dies schlägt fehl, falls zuvor keine Attacke verwendet wurde."
+        }
+      }
+    }
+  ]
 }

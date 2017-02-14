@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 56,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    }
+    "water2"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "サメハダー",
-      "language": "ja"
-    },
-    {
-      "name": "Samehader",
-      "language": "roomaji"
-    },
-    {
-      "name": "샤크니아",
-      "language": "ko"
-    },
-    {
-      "name": "巨牙鯊",
-      "language": "zh"
-    },
-    {
-      "name": "Sharpedo",
-      "language": "fr"
-    },
-    {
-      "name": "Tohaido",
-      "language": "de"
-    },
-    {
-      "name": "Sharpedo",
-      "language": "es"
-    },
-    {
-      "name": "Sharpedo",
-      "language": "it"
-    },
-    {
-      "name": "Sharpedo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "サメハダー",
+    "en": "Sharpedo",
+    "fr": "Sharpedo",
+    "it": "Sharpedo",
+    "de": "Tohaido",
+    "es": "Sharpedo",
+    "ko": "샤크니아"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きょうぼう",
-      "language": "ja"
-    },
-    {
-      "genus": "난폭",
-      "language": "ko"
-    },
-    {
-      "genus": "Brutal",
-      "language": "fr"
-    },
-    {
-      "genus": "Brutal",
-      "language": "de"
-    },
-    {
-      "genus": "Voraz",
-      "language": "es"
-    },
-    {
-      "genus": "Brutale",
-      "language": "it"
-    },
-    {
-      "genus": "Brutal",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きょうぼう",
+    "en": "Brutal",
+    "fr": "Brutal",
+    "it": "Brutale",
+    "de": "Brutal",
+    "es": "Voraz",
+    "ko": "난폭"
+  },
   "varieties": [
     {
       "is_default": true,

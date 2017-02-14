@@ -1,0 +1,39 @@
+{
+  "id": 738,
+  "name": "devon-scuba-gear",
+  "names": {
+    "ja": "デボンボンベ",
+    "kana": "デボンボンベ",
+    "en": "Devon Scuba Gear",
+    "fr": "Plongeur Devon",
+    "it": "Maschera Devon",
+    "de": "Devon-Atemgerät",
+    "es": "Bombona Devon",
+    "ko": "데봉봄베",
+    "zh-CN": "得文潜水装备",
+    "zh-TW": "得文潛水裝備"
+  },
+  "flavor_text_entries": {
+    "ja": "ダイビング中に　身につける 酸素補給用の　マスク。 デボンで　つくられた。",
+    "kana": "ダイビング　ちゅうに　みにつける さんそ　ほきゅうよう　マスク。 デボンで　つくられた。",
+    "en": "A device made by Devon Corporation that provides oxygen to users during the use of Dive.",
+    "fr": "Un masque à oxygène fabriqué par la société Devon et utilisé pour la plongée sous-marine.",
+    "it": "Maschera di ossigeno prodotta dalla Devon, utile durante le immersioni.",
+    "de": "Eine von der Devon Corporation hergestellte Maske, die Taucher unter Wasser mit ausreichend Sauerstoff versorgt.",
+    "es": "Máscara que surte de oxígeno durante las inmersiones en el agua. Producto de Devon S. A.",
+    "ko": "다이빙할 때 몸에 착용하는 산소 호흡용 마스크. 데봉에서 만들어졌다.",
+    "zh-CN": "潜水时装备在身上 用来呼吸氧气的面罩。 得文制造。",
+    "zh-TW": "潛水時裝備在身上 用來呼吸氧氣的面罩。 得文製造。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "ダイビング　ちゅうに　みにつける さんそ　ほきゅう よう　マスク。 デボンで　つくられた。",
+          "it": "Maschera di ossigeno prodotta dalla Devon, utile quando si usa Sub fuori dalla lotta."
+        }
+      }
+    }
+  ]
+}

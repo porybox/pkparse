@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 6,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -64,44 +56,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "フカマル",
-      "language": "ja"
-    },
-    {
-      "name": "Fukamaru",
-      "language": "roomaji"
-    },
-    {
-      "name": "딥상어동",
-      "language": "ko"
-    },
-    {
-      "name": "圓陸鲨",
-      "language": "zh"
-    },
-    {
-      "name": "Griknot",
-      "language": "fr"
-    },
-    {
-      "name": "Kaumalat",
-      "language": "de"
-    },
-    {
-      "name": "Gible",
-      "language": "es"
-    },
-    {
-      "name": "Gible",
-      "language": "it"
-    },
-    {
-      "name": "Gible",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フカマル",
+    "en": "Gible",
+    "fr": "Griknot",
+    "it": "Gible",
+    "de": "Kaumalat",
+    "es": "Gible",
+    "ko": "딥상어동"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -112,36 +75,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "りくザメ",
-      "language": "ja"
-    },
-    {
-      "genus": "육지상어",
-      "language": "ko"
-    },
-    {
-      "genus": "Terrequin",
-      "language": "fr"
-    },
-    {
-      "genus": "Landhai",
-      "language": "de"
-    },
-    {
-      "genus": "Terrascualo",
-      "language": "es"
-    },
-    {
-      "genus": "Squaloterra",
-      "language": "it"
-    },
-    {
-      "genus": "Land Shark",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "りくザメ",
+    "en": "Land Shark",
+    "fr": "Terrequin",
+    "it": "Squaloterra",
+    "de": "Landhai",
+    "es": "Terrascualo",
+    "ko": "육지상어"
+  },
   "varieties": [
     {
       "is_default": true,

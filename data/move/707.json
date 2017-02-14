@@ -1,0 +1,50 @@
+{
+  "id": 707,
+  "name": "stomping-tantrum",
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "power": 75,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "じだんだ",
+    "kana": "じだんだ",
+    "en": "Stomping Tantrum",
+    "fr": "Trépignement",
+    "it": "Battipiedi",
+    "de": "Fruststampfer",
+    "es": "Pataleta",
+    "ko": "분함의발구르기",
+    "zh-CN": "跺脚",
+    "zh-TW": "跺腳"
+  },
+  "flavor_text_entries": {
+    "ja": "悔しさを　バネにして　攻撃する。 前の　ターンに　技を　外していると 威力が　倍に　なる。",
+    "kana": "くやしさを　バネにして　こうげきする。 まえの　ターンに　わざを　はずしていると いりょくが　ばいに　なる。",
+    "en": "Driven by frustration, the user attacks the target. If the user’s previous move has failed, the power of this move doubles.",
+    "fr": "Le lanceur attaque en utilisant sa frustration. S’il a utilisé une capacité qui a échoué au tour précédent, la puissance de Trépignement est doublée.",
+    "it": "Chi la usa attacca battendo i piedi per la rabbia. Se la mossa usata al turno precedente non è andata a segno, la potenza raddoppia.",
+    "de": "Von Frust getrieben greift der Anwender an. Wenn seine vorige Attacke fehlgeschlagen ist, verdoppelt sich die Stärke der Attacke.",
+    "es": "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado.",
+    "ko": "분함을 발판삼아 공격한다. 앞 턴에서 기술이 빗나갔다면 위력이 배가 된다.",
+    "zh-CN": "化悔恨为力量进行攻击。 如果上一回合招式没有打中， 威力就会翻倍。",
+    "zh-TW": "化悔恨為力量進行攻擊。 如果上一回合的招式沒有命中， 威力就會加倍。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ground"
+}

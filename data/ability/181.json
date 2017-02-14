@@ -1,133 +1,42 @@
 {
   "id": 181,
   "name": "tough-claws",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-vi"
+  "names": {
+    "ja": "かたいツメ",
+    "kana": "かたいツメ",
+    "en": "Tough Claws",
+    "fr": "Griffe Dure",
+    "it": "Unghiedure",
+    "de": "Krallenwucht",
+    "es": "Garra Dura",
+    "ko": "단단한발톱",
+    "zh-CN": "硬爪",
+    "zh-TW": "硬爪"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "相手に　接触する　技の 威力が　高くなる。",
+    "kana": "あいてに　せっしょくする　わざの いりょくが　たかくなる。",
+    "en": "Powers up moves that make direct contact.",
+    "fr": "Augmente la puissance des attaques directes du Pokémon.",
+    "it": "Potenzia le mosse che causano un contatto fisico.",
+    "de": "Erhöht die Stärke von direkten Attacken.",
+    "es": "Aumenta la potencia de los movimientos de contacto.",
+    "ko": "상대에게 접촉하는 기술의 위력이 올라간다.",
+    "zh-CN": "接触到对手的招式 威力会提高。",
+    "zh-TW": "接觸到對手的招式 威力會提高。"
+  },
+  "past_values": [
     {
-      "name": "Tough Claws",
-      "language": "en"
-    },
-    {
-      "name": "Unghiedure",
-      "language": "it"
-    },
-    {
-      "name": "Garra Dura",
-      "language": "es"
-    },
-    {
-      "name": "Krallenwucht",
-      "language": "de"
-    },
-    {
-      "name": "Griffe Dure",
-      "language": "fr"
-    },
-    {
-      "name": "단단한발톱",
-      "language": "ko"
-    },
-    {
-      "name": "かたいツメ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Strengthens moves that make contact to 1.33× their power.",
-      "short_effect": "Strengthens moves that make contact to 1.33× their power.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "接触する　技の\n威力が　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Powers up moves that\nmake direct contact.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Potenzia le mosse che causano\nun contatto fisico.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Aumenta la potencia de los\nmovimientos de contacto directo.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Erhöht die Stärke von direkten\nAngriffen.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Augmente la puissance des\nattaques directes.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "접촉하는 기술의\n위력이 올라간다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "せっしょくする　わざの\nいりょくが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "binacle"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "barbaracle"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "charizard-mega-x"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "aerodactyl-mega"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "接触する　技の 威力が　あがる。",
+          "kana": "せっしょくする　わざの いりょくが　あがる。",
+          "fr": "Augmente la puissance des attaques directes.",
+          "de": "Erhöht die Stärke von direkten Angriffen.",
+          "es": "Aumenta la potencia de los movimientos de contacto directo.",
+          "ko": "접촉하는 기술의 위력이 올라간다."
+        }
       }
     }
   ]

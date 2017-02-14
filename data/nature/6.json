@@ -42,34 +42,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "すなお",
-      "language": "ja"
-    },
-    {
-      "name": "온순",
-      "language": "ko"
-    },
-    {
-      "name": "Docile",
-      "language": "fr"
-    },
-    {
-      "name": "Sanft",
-      "language": "de"
-    },
-    {
-      "name": "Dócil",
-      "language": "es"
-    },
-    {
-      "name": "Docile",
-      "language": "it"
-    },
-    {
-      "name": "Docile",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "すなお",
+    "en": "Docile",
+    "fr": "Docile",
+    "it": "Docile",
+    "de": "Sanft",
+    "es": "Dócil",
+    "ko": "온순",
+    "zh-CN": "坦率",
+    "zh-TW": "坦率"
+  }
 }

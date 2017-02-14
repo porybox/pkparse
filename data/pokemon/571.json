@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 125,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "upright"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ゾロアーク",
-      "language": "ja"
-    },
-    {
-      "name": "조로아크",
-      "language": "ko"
-    },
-    {
-      "name": "Zoroark",
-      "language": "fr"
-    },
-    {
-      "name": "Zoroark",
-      "language": "de"
-    },
-    {
-      "name": "Zoroark",
-      "language": "es"
-    },
-    {
-      "name": "Zoroark",
-      "language": "it"
-    },
-    {
-      "name": "Zoroark",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゾロアーク",
+    "en": "Zoroark",
+    "fr": "Zoroark",
+    "it": "Zoroark",
+    "de": "Zoroark",
+    "es": "Zoroark",
+    "ko": "조로아크"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ばけぎつね",
-      "language": "ja"
-    },
-    {
-      "genus": "요괴여우",
-      "language": "ko"
-    },
-    {
-      "genus": "Polymorfox",
-      "language": "fr"
-    },
-    {
-      "genus": "Polymorfuchs",
-      "language": "de"
-    },
-    {
-      "genus": "Disfrazorro",
-      "language": "es"
-    },
-    {
-      "genus": "Mutevolpe",
-      "language": "it"
-    },
-    {
-      "genus": "Illusion Fox",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ばけぎつね",
+    "en": "Illusion Fox",
+    "fr": "Polymorfox",
+    "it": "Mutevolpe",
+    "de": "Polymorfuchs",
+    "es": "Disfrazorro",
+    "ko": "요괴여우"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 488,
@@ -21,13 +19,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "armor"
   },
@@ -37,44 +31,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "クレセリア",
-      "language": "ja"
-    },
-    {
-      "name": "Crecelia",
-      "language": "roomaji"
-    },
-    {
-      "name": "크레세리아",
-      "language": "ko"
-    },
-    {
-      "name": "克雷色利亞",
-      "language": "zh"
-    },
-    {
-      "name": "Cresselia",
-      "language": "fr"
-    },
-    {
-      "name": "Cresselia",
-      "language": "de"
-    },
-    {
-      "name": "Cresselia",
-      "language": "es"
-    },
-    {
-      "name": "Cresselia",
-      "language": "it"
-    },
-    {
-      "name": "Cresselia",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クレセリア",
+    "en": "Cresselia",
+    "fr": "Cresselia",
+    "it": "Cresselia",
+    "de": "Cresselia",
+    "es": "Cresselia",
+    "ko": "크레세리아"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -85,36 +50,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みかづき",
-      "language": "ja"
-    },
-    {
-      "genus": "초승달",
-      "language": "ko"
-    },
-    {
-      "genus": "Lunaire",
-      "language": "fr"
-    },
-    {
-      "genus": "Lunar",
-      "language": "de"
-    },
-    {
-      "genus": "Lunar",
-      "language": "es"
-    },
-    {
-      "genus": "Falcato",
-      "language": "it"
-    },
-    {
-      "genus": "Lunar",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みかづき",
+    "en": "Lunar",
+    "fr": "Lunaire",
+    "it": "Falcato",
+    "de": "Lunar",
+    "es": "Lunar",
+    "ko": "초승달"
+  },
   "varieties": [
     {
       "is_default": true,

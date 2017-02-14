@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 51,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "ball"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "マユルド",
-      "language": "ja"
-    },
-    {
-      "name": "Mayuld",
-      "language": "roomaji"
-    },
-    {
-      "name": "카스쿤",
-      "language": "ko"
-    },
-    {
-      "name": "盾甲繭",
-      "language": "zh"
-    },
-    {
-      "name": "Blindalys",
-      "language": "fr"
-    },
-    {
-      "name": "Panekon",
-      "language": "de"
-    },
-    {
-      "name": "Cascoon",
-      "language": "es"
-    },
-    {
-      "name": "Cascoon",
-      "language": "it"
-    },
-    {
-      "name": "Cascoon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マユルド",
+    "en": "Cascoon",
+    "fr": "Blindalys",
+    "it": "Cascoon",
+    "de": "Panekon",
+    "es": "Cascoon",
+    "ko": "카스쿤"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さなぎ",
-      "language": "ja"
-    },
-    {
-      "genus": "번데기",
-      "language": "ko"
-    },
-    {
-      "genus": "Cocon",
-      "language": "fr"
-    },
-    {
-      "genus": "Kokon",
-      "language": "de"
-    },
-    {
-      "genus": "Capullo",
-      "language": "es"
-    },
-    {
-      "genus": "Bozzolo",
-      "language": "it"
-    },
-    {
-      "genus": "Cocoon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さなぎ",
+    "en": "Cocoon",
+    "fr": "Cocon",
+    "it": "Bozzolo",
+    "de": "Kokon",
+    "es": "Capullo",
+    "ko": "번데기"
+  },
   "varieties": [
     {
       "is_default": true,

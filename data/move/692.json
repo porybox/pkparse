@@ -1,0 +1,50 @@
+{
+  "id": 692,
+  "name": "dragon-hammer",
+  "accuracy": 100,
+  "pp": 15,
+  "priority": 0,
+  "power": 90,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ドラゴンハンマー",
+    "kana": "ドラゴンハンマー",
+    "en": "Dragon Hammer",
+    "fr": "Draco-Marteau",
+    "it": "Marteldrago",
+    "de": "Drachenhammer",
+    "es": "Martillo Dragón",
+    "ko": "드래곤해머",
+    "zh-CN": "龙锤",
+    "zh-TW": "龍錘"
+  },
+  "flavor_text_entries": {
+    "ja": "体を　ハンマーのように 使って　相手に　襲いかかり ダメージを　与える。",
+    "kana": "からだを　ハンマーのように つかって　あいてに　おそいかかり ダメージを　あたえる。",
+    "en": "The user uses its body like a hammer to attack the target and inflict damage.",
+    "fr": "Le lanceur utilise son corps comme un véritable marteau pour écraser la cible.",
+    "it": "Chi la usa infligge danni al bersaglio usando il proprio corpo come se fosse un martello.",
+    "de": "Der Anwender nutzt seinen Körper wie einen Hammer und stürzt sich auf das Ziel, wodurch dieses Schaden erleidet.",
+    "es": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.",
+    "ko": "몸을 해머처럼 써서 상대를 덮쳐 데미지를 준다.",
+    "zh-CN": "将身体当作锤子， 向对手发动袭击， 给予伤害。",
+    "zh-TW": "像錘子般地使用身體 向對手發動襲擊， 給予傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dragon"
+}

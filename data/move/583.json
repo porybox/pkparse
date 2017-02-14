@@ -2,34 +2,13 @@
   "id": 583,
   "name": "play-rough",
   "accuracy": 90,
-  "effect_chance": 10,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 10
   },
-  "names": [
-    {
-      "name": "Play Rough",
-      "language": "en"
-    },
-    {
-      "name": "Carineria",
-      "language": "it"
-    },
-    {
-      "name": "Carantoña",
-      "language": "es"
-    },
-    {
-      "name": "Knuddler",
-      "language": "de"
-    },
-    {
-      "name": "Câlinerie",
-      "language": "fr"
-    },
-    {
-      "name": "치근거리기",
-      "language": "ko"
-    },
-    {
-      "name": "じゃれつく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "じゃれつく",
+    "kana": "じゃれつく",
+    "en": "Play Rough",
+    "fr": "Câlinerie",
+    "it": "Carineria",
+    "de": "Knuddler",
+    "es": "Carantoña",
+    "ko": "치근거리기",
+    "zh-CN": "嬉闹",
+    "zh-TW": "嬉鬧"
+  },
+  "flavor_text_entries": {
+    "ja": "相手に　じゃれついて 攻撃する。　相手の 攻撃を　さげる　ことがある。",
+    "kana": "あいてに　じゃれついて こうげきする。　あいての こうげきを　さげる　ことがある。",
+    "en": "The user plays rough with the target and attacks it. This may also lower the target’s Attack stat.",
+    "fr": "Attaque l’ennemi avec un câlin. Peut diminuer son Attaque.",
+    "it": "Chi la usa attacca il bersaglio con delle carinerie. Può anche ridurne l’Attacco.",
+    "de": "Der Anwender knuddelt das Ziel und greift es an. Gelegentlich sinkt dabei auch dessen Angriffs-Wert.",
+    "es": "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.",
+    "ko": "상대에게 치근거리며 공격한다. 상대의 공격을 떨어뜨릴 때가 있다.",
+    "zh-CN": "与对手嬉闹并攻击。 有时会降低对手的攻击。",
+    "zh-TW": "在和對手嬉鬧的同時進行攻擊。 有時會降低對手的攻擊。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fairy"
-  }
+  "target": "selected-pokemon",
+  "type": "fairy"
 }

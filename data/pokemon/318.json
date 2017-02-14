@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 55,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    }
+    "water2"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "fish"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "キバニア",
-      "language": "ja"
-    },
-    {
-      "name": "Kibanha",
-      "language": "roomaji"
-    },
-    {
-      "name": "샤프니아",
-      "language": "ko"
-    },
-    {
-      "name": "利牙魚",
-      "language": "zh"
-    },
-    {
-      "name": "Carvanha",
-      "language": "fr"
-    },
-    {
-      "name": "Kanivanha",
-      "language": "de"
-    },
-    {
-      "name": "Carvanha",
-      "language": "es"
-    },
-    {
-      "name": "Carvanha",
-      "language": "it"
-    },
-    {
-      "name": "Carvanha",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "キバニア",
+    "en": "Carvanha",
+    "fr": "Carvanha",
+    "it": "Carvanha",
+    "de": "Kanivanha",
+    "es": "Carvanha",
+    "ko": "샤프니아"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どうもう",
-      "language": "ja"
-    },
-    {
-      "genus": "사나움",
-      "language": "ko"
-    },
-    {
-      "genus": "Féroce",
-      "language": "fr"
-    },
-    {
-      "genus": "Gnadenlos",
-      "language": "de"
-    },
-    {
-      "genus": "Feroz",
-      "language": "es"
-    },
-    {
-      "genus": "Feroce",
-      "language": "it"
-    },
-    {
-      "genus": "Savage",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どうもう",
+    "en": "Savage",
+    "fr": "Féroce",
+    "it": "Feroce",
+    "de": "Gnadenlos",
+    "es": "Feroz",
+    "ko": "사나움"
+  },
   "varieties": [
     {
       "is_default": true,

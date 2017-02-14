@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 36,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    }
+    "water1"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ニョロトノ",
-      "language": "ja"
-    },
-    {
-      "name": "Nyorotono",
-      "language": "roomaji"
-    },
-    {
-      "name": "왕구리",
-      "language": "ko"
-    },
-    {
-      "name": "牛蛙君",
-      "language": "zh"
-    },
-    {
-      "name": "Tarpaud",
-      "language": "fr"
-    },
-    {
-      "name": "Quaxo",
-      "language": "de"
-    },
-    {
-      "name": "Politoed",
-      "language": "es"
-    },
-    {
-      "name": "Politoed",
-      "language": "it"
-    },
-    {
-      "name": "Politoed",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ニョロトノ",
+    "en": "Politoed",
+    "fr": "Tarpaud",
+    "it": "Politoed",
+    "de": "Quaxo",
+    "es": "Politoed",
+    "ko": "왕구리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かえる",
-      "language": "ja"
-    },
-    {
-      "genus": "개구리",
-      "language": "ko"
-    },
-    {
-      "genus": "Grenouille",
-      "language": "fr"
-    },
-    {
-      "genus": "Frosch",
-      "language": "de"
-    },
-    {
-      "genus": "Rana",
-      "language": "es"
-    },
-    {
-      "genus": "Rana",
-      "language": "it"
-    },
-    {
-      "genus": "Frog",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かえる",
+    "en": "Frog",
+    "fr": "Grenouille",
+    "it": "Rana",
+    "de": "Frosch",
+    "es": "Rana",
+    "ko": "개구리"
+  },
   "varieties": [
     {
       "is_default": true,

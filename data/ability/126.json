@@ -1,175 +1,43 @@
 {
   "id": 126,
   "name": "contrary",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "あまのじゃく",
+    "kana": "あまのじゃく",
+    "en": "Contrary",
+    "fr": "Contestation",
+    "it": "Inversione",
+    "de": "Umkehrung",
+    "es": "Respondón",
+    "ko": "심술꾸러기",
+    "zh-CN": "唱反调",
+    "zh-TW": "唱反調"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "能力の　変化が　逆転して 上がるときに　下がり 下がるときに　上がる。",
+    "kana": "のうりょくの　へんかが　ぎゃくてんして あがるときに　さがり さがるときに　あがる。",
+    "en": "Makes stat changes have an opposite effect.",
+    "fr": "Inverse les changements de stats : les augmentations de stats se transforment en baisses, et vice-versa.",
+    "it": "Le modifiche alle statistiche hanno effetto inverso: aumentano quando dovrebbero diminuire e viceversa.",
+    "de": "Statusveränderungen werden umgekehrt: Statuswerte, die eigentlich erhöht werden sollten, sinken und umgekehrt.",
+    "es": "Invierte los cambios en las características: bajan cuando les toca subir y suben cuando les toca bajar.",
+    "ko": "능력의 변화가 역전해서 올라갈 때 떨어지고 떨어질 때 올라간다.",
+    "zh-CN": "能力的变化发生逆转， 原本提高时会降低， 而原本降低时会提高。",
+    "zh-TW": "能力的變化會逆轉， 原本提高時會降低， 原本降低時會提高。"
+  },
+  "past_values": [
     {
-      "name": "Contrary",
-      "language": "en"
-    },
-    {
-      "name": "Inversione",
-      "language": "it"
-    },
-    {
-      "name": "Respondón",
-      "language": "es"
-    },
-    {
-      "name": "Umkehrung",
-      "language": "de"
-    },
-    {
-      "name": "Contestation",
-      "language": "fr"
-    },
-    {
-      "name": "심술꾸러기",
-      "language": "ko"
-    },
-    {
-      "name": "あまのじゃく",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Whenever this Pokémon's stats would be [raised]{mechanic:stat-modifiers}, they are instead lowered by the same amount, and vice versa.",
-      "short_effect": "Inverts [stat changes]{mechanic:stat-modifiers}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "能力の　変化が\n逆転する。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Makes stat changes have\nan opposite effect.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Le modifiche alle statistiche\nhanno effetto inverso.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Invierte los cambios en las\ncaracterísticas.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Statusveränderungen werden\numgekehrt.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Inverse les variations de stats.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "능력의 변화가\n역전된다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "のうりょくの　へんかが\nぎゃくてんする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Makes stat changes have\nan opposite effect.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Makes stat changes have\nan opposite effect.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Inverse les variations\nde stats.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "shuckle"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "spinda"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "snivy"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "servine"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "serperior"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "inkay"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "malamar"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "能力の　変化が 逆転する。",
+          "kana": "のうりょくの　へんかが ぎゃくてんする。",
+          "fr": "Inverse les variations de stats.",
+          "it": "Le modifiche alle statistiche hanno effetto inverso.",
+          "de": "Statusveränderungen werden umgekehrt.",
+          "es": "Invierte los cambios en las características.",
+          "ko": "능력의 변화가 역전된다."
+        }
       }
     }
   ]

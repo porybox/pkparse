@@ -2,34 +2,13 @@
   "id": 496,
   "name": "round",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If []{move:round} has already been used this turn, this move's power is doubled.  After this move is used, any other Pokémon using it this turn will immediately do so (in the order they would otherwise act), regardless of [Speed]{mechanic:speed} or priority.  Pokémon using other moves will then continue to act as usual.",
-      "short_effect": "Has double power if it's used more than once per turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Round",
-      "language": "en"
-    },
-    {
-      "name": "Coro",
-      "language": "it"
-    },
-    {
-      "name": "Canon",
-      "language": "es"
-    },
-    {
-      "name": "Kanon",
-      "language": "de"
-    },
-    {
-      "name": "Chant Canon",
-      "language": "fr"
-    },
-    {
-      "name": "돌림노래",
-      "language": "ko"
-    },
-    {
-      "name": "りんしょう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "りんしょう",
+    "kana": "りんしょう",
+    "en": "Round",
+    "fr": "Chant Canon",
+    "it": "Coro",
+    "de": "Kanon",
+    "es": "Canon",
+    "ko": "돌림노래",
+    "zh-CN": "轮唱",
+    "zh-TW": "輪唱"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "歌で　相手を　攻撃する。 みんなで　輪唱すると　続けて だすことが　でき　威力も　あがる。",
+    "kana": "うたで　あいてを　こうげきする。 みんなで　りんしょう　すると　つづけて だすことが　でき　いりょくも　あがる。",
+    "en": "The user attacks the target with a song. Others can join in the Round to increase the power of the attack.",
+    "fr": "Le lanceur attaque l’ennemi en chantant. Si plusieurs Pokémon déclenchent cette attaque à la suite, l’effet augmente.",
+    "it": "Attacca il bersaglio con una melodia. Se usata durante lo stesso turno da più Pokémon, i danni inflitti aumentano.",
+    "de": "Angriff mit Gesang. Singt der Anwender mit allen im Kanon, steigt die Stärke.",
+    "es": "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia.",
+    "ko": "노래로 상대를 공격한다. 함께 돌림노래를 하면 계속해서 쓸 수 있고 위력도 올라간다.",
+    "zh-CN": "用歌声攻击对手。 同伴还可以接着使出轮唱招式， 威力也会提高。",
+    "zh-TW": "用歌聲攻擊對手。 大家一起輪唱便可以接連使出， 威力也會提高。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user attacks the target with a song. Others can join in the Round and make the attack do greater damage."
+        }
+      }
+    }
+  ]
 }

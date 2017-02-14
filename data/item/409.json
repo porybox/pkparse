@@ -1,0 +1,47 @@
+{
+  "id": 409,
+  "name": "tm82",
+  "names": {
+    "ja": "わざマシン８２",
+    "kana": "わざマシン８２",
+    "en": "TM82",
+    "fr": "CT82",
+    "it": "MT82",
+    "de": "TM82",
+    "es": "MT82",
+    "ko": "기술머신82",
+    "zh-CN": "招式学习器８２",
+    "zh-TW": "招式學習器８２"
+  },
+  "flavor_text_entries": {
+    "ja": "相手を　はじきとばして 控えの　ポケモンを　ひきずりだす。 野生の　場合は　戦闘が　終わる。",
+    "kana": "あいてを　はじきとばして ひかえの　ポケモンを　ひきずりだす。 やせいの　ばあいは　せんとうが　おわる。",
+    "en": "The target is knocked away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
+    "fr": "Un coup puissant qui blesse la cible et l’envoie au loin. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat.",
+    "it": "Chi la usa fa volar via il bersaglio in modo che venga sostituito. Se il bersaglio è un singolo Pokémon selvatico, la lotta finisce.",
+    "de": "Fegt das Ziel vom Feld und wechselt es gegen ein anderes Pokémon aus. Beendet Kämpfe gegen wilde Pokémon.",
+    "es": "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate.",
+    "ko": "상대를 튕겨내서 교대할 포켓몬을 끌어낸다. 야생의 경우에는 배틀이 끝난다.",
+    "zh-CN": "弹飞对手，强制拉后备宝可梦上场。 如果对手为野生宝可梦， 战斗将直接结束。",
+    "zh-TW": "彈飛對手， 強制讓後備寶可夢上場。 對手為野生寶可夢時，戰鬥將直接結束。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "あいてを　はじきとばして ひかえの　ポケモンを　ひきずりだす。 やせいなら　せんとうが　おわる。",
+          "fr": "Un coup puissant qui blesse la cible et l’envoie au loin. Dans la nature, met fin au combat."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Fegt das Ziel vom Feld und wechselt es mit einem anderen Pokémon aus. Beendet Kämpfe gegen wilde Pokémon."
+        }
+      }
+    }
+  ]
+}

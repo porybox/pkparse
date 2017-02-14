@@ -2,56 +2,13 @@
   "id": 111,
   "name": "defense-curl",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "tackle"
-        },
-        {
-          "name": "rollout"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": [
-        {
-          "name": "rollout"
-        }
-      ],
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises user's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.\n\nAfter this move is used, the power of []{move:ice-ball} and []{move:rollout} are doubled until the user leaves the [field]{mechanic:field}.",
-      "short_effect": "Raises user's Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -63,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Defense Curl",
-      "language": "en"
-    },
-    {
-      "name": "Ricciolscudo",
-      "language": "it"
-    },
-    {
-      "name": "Rizo Defensa",
-      "language": "es"
-    },
-    {
-      "name": "Einigler",
-      "language": "de"
-    },
-    {
-      "name": "Boul'Armure",
-      "language": "fr"
-    },
-    {
-      "name": "웅크리기",
-      "language": "ko"
-    },
-    {
-      "name": "まるくなる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "まるくなる",
+    "kana": "まるくなる",
+    "en": "Defense Curl",
+    "fr": "Boul’Armure",
+    "it": "Ricciolscudo",
+    "de": "Einigler",
+    "es": "Rizo Defensa",
+    "ko": "웅크리기",
+    "zh-CN": "变圆",
+    "zh-TW": "變圓"
+  },
+  "flavor_text_entries": {
+    "ja": "体を　まるめて　ちぢこまり 自分の　防御を　あげる。",
+    "kana": "からだを　まるめて　ちぢこまり じぶんの　ぼうぎょを　あげる。",
+    "en": "The user curls up to conceal weak spots and raise its Defense stat.",
+    "fr": "Le lanceur s’enroule pour cacher ses points faibles, ce qui augmente sa Défense.",
+    "it": "Chi la usa si raggomitola per nascondere i punti deboli e aumentare la propria Difesa.",
+    "de": "Verbirgt Schwächen durch Einrollen und hebt gleichzeitig den Verteidigungs-Wert.",
+    "es": "Se enrosca para ocultar sus puntos débiles y aumentar la Defensa.",
+    "ko": "몸을 둥글게 웅크려서 자신의 방어를 올린다.",
+    "zh-CN": "将身体蜷曲变圆， 从而提高自己的防御。",
+    "zh-TW": "將身體蜷縮成圓形， 提高自己的防禦。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Se enrosca para ocultar su punto débil. Sube la Defensa."
+        }
+      }
+    }
+  ]
 }

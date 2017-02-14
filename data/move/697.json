@@ -1,0 +1,50 @@
+{
+  "id": 697,
+  "name": "oceanic-operetta",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": 195,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "わだつみのシンフォニア",
+    "kana": "わだつみのシンフォニア",
+    "en": "Oceanic Operetta",
+    "fr": "Symphonie des Ondines",
+    "it": "Sinfonia del Mare",
+    "de": "Grandiose Meeressymphonie",
+    "es": "Sinfonía de la Diva Marina",
+    "ko": "바다의심포니",
+    "zh-CN": "海神庄严交响乐",
+    "zh-TW": "海神莊嚴交響樂"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　大量の　水を　呼んだ アシレーヌが　全力で 相手を　攻撃する。",
+    "kana": "Ｚパワーで　たいりょうの　みずを　よんだ アシレーヌが　ぜんりょくで あいてを　こうげきする。",
+    "en": "The user, Primarina, summons a massive amount of water using its Z-Power and attacks the target with full force.",
+    "fr": "Oratoria utilise la Force Z pour rassembler une grande quantité d’eau et la projeter sur la cible à pleine puissance.",
+    "it": "Grazie al Potere Z, Primarina concentra un’enorme quantità d’acqua e attacca il bersaglio con una potenza smisurata.",
+    "de": "Primarene ruft mit Z-Kraft große Mengen an Wasser herbei und greift damit das Ziel an.",
+    "es": "Primarina invoca ingentes cantidades de agua con el Poder Z para atacar con gran potencia a su rival.",
+    "ko": "Z파워로 대량의 물을 부른 누리레느가 전력으로 상대를 공격한다.",
+    "zh-CN": "通过Ｚ力量召唤 大量水的西狮海壬 将全力攻击对手。",
+    "zh-TW": "透過Ｚ力量呼喚 大量水的西獅海壬 全力攻擊對手。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water"
+}

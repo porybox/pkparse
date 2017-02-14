@@ -2,53 +2,13 @@
   "id": 56,
   "name": "hydro-pump",
   "accuracy": 80,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 110,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rain-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "psych-up"
-        }
-      ]
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -60,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Hydro Pump",
-      "language": "en"
-    },
-    {
-      "name": "Idropompa",
-      "language": "it"
-    },
-    {
-      "name": "Hidrobomba",
-      "language": "es"
-    },
-    {
-      "name": "Hydropumpe",
-      "language": "de"
-    },
-    {
-      "name": "Hydrocanon",
-      "language": "fr"
-    },
-    {
-      "name": "하이드로펌프",
-      "language": "ko"
-    },
-    {
-      "name": "ハイドロポンプ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ハイドロポンプ",
+    "kana": "ハイドロポンプ",
+    "en": "Hydro Pump",
+    "fr": "Hydrocanon",
+    "it": "Idropompa",
+    "de": "Hydropumpe",
+    "es": "Hidrobomba",
+    "ko": "하이드로펌프",
+    "zh-CN": "水炮",
+    "zh-TW": "水炮"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "大量の　水を 激しい　勢いで 相手に　発射して　攻撃する。",
+    "kana": "たいりょうの　みずを はげしい　いきおいで あいてに　はっしゃして　こうげきする。",
+    "en": "The target is blasted by a huge volume of water launched under great pressure.",
+    "fr": "Un puissant jet d’eau est dirigé sur l’ennemi.",
+    "it": "Il bersaglio è travolto da un potente getto d’acqua spruzzato ad altissima pressione.",
+    "de": "Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.",
+    "es": "Lanza una gran masa de agua a presión para atacar.",
+    "ko": "대량의 물을 세찬 기세로 상대에게 발사하여 공격한다.",
+    "zh-CN": "向对手猛烈地喷射 大量水流进行攻击。",
+    "zh-TW": "向對手猛烈地噴射 大量水流進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water"
 }

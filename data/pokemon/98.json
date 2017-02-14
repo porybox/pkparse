@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 166,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "armor"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "クラブ",
-      "language": "ja"
-    },
-    {
-      "name": "Crab",
-      "language": "roomaji"
-    },
-    {
-      "name": "크랩",
-      "language": "ko"
-    },
-    {
-      "name": "大鉗蟹",
-      "language": "zh"
-    },
-    {
-      "name": "Krabby",
-      "language": "fr"
-    },
-    {
-      "name": "Krabby",
-      "language": "de"
-    },
-    {
-      "name": "Krabby",
-      "language": "es"
-    },
-    {
-      "name": "Krabby",
-      "language": "it"
-    },
-    {
-      "name": "Krabby",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クラブ",
+    "en": "Krabby",
+    "fr": "Krabby",
+    "it": "Krabby",
+    "de": "Krabby",
+    "es": "Krabby",
+    "ko": "크랩"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さわがに",
-      "language": "ja"
-    },
-    {
-      "genus": "게",
-      "language": "ko"
-    },
-    {
-      "genus": "Doux Crabe",
-      "language": "fr"
-    },
-    {
-      "genus": "Krabbe",
-      "language": "de"
-    },
-    {
-      "genus": "Cangrejo",
-      "language": "es"
-    },
-    {
-      "genus": "Granchio",
-      "language": "it"
-    },
-    {
-      "genus": "River Crab",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さわがに",
+    "en": "River Crab",
+    "fr": "Doux Crabe",
+    "it": "Granchio",
+    "de": "Krabbe",
+    "es": "Cangrejo",
+    "ko": "게"
+  },
   "varieties": [
     {
       "is_default": true,

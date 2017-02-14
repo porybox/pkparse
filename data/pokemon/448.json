@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 63,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "humanshape"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -72,44 +64,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ルカリオ",
-      "language": "ja"
-    },
-    {
-      "name": "Lucario",
-      "language": "roomaji"
-    },
-    {
-      "name": "루카리오",
-      "language": "ko"
-    },
-    {
-      "name": "路卡利歐",
-      "language": "zh"
-    },
-    {
-      "name": "Lucario",
-      "language": "fr"
-    },
-    {
-      "name": "Lucario",
-      "language": "de"
-    },
-    {
-      "name": "Lucario",
-      "language": "es"
-    },
-    {
-      "name": "Lucario",
-      "language": "it"
-    },
-    {
-      "name": "Lucario",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ルカリオ",
+    "en": "Lucario",
+    "fr": "Lucario",
+    "it": "Lucario",
+    "de": "Lucario",
+    "es": "Lucario",
+    "ko": "루카리오"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -120,36 +83,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はどう",
-      "language": "ja"
-    },
-    {
-      "genus": "파동",
-      "language": "ko"
-    },
-    {
-      "genus": "Aura",
-      "language": "fr"
-    },
-    {
-      "genus": "Aura",
-      "language": "de"
-    },
-    {
-      "genus": "Aura",
-      "language": "es"
-    },
-    {
-      "genus": "Aura",
-      "language": "it"
-    },
-    {
-      "genus": "Aura",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はどう",
+    "en": "Aura",
+    "fr": "Aura",
+    "it": "Aura",
+    "de": "Aura",
+    "es": "Aura",
+    "ko": "파동"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 111,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "ball"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "フリージオ",
-      "language": "ja"
-    },
-    {
-      "name": "프리지오",
-      "language": "ko"
-    },
-    {
-      "name": "Hexagel",
-      "language": "fr"
-    },
-    {
-      "name": "Frigometri",
-      "language": "de"
-    },
-    {
-      "name": "Cryogonal",
-      "language": "es"
-    },
-    {
-      "name": "Cryogonal",
-      "language": "it"
-    },
-    {
-      "name": "Cryogonal",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フリージオ",
+    "en": "Cryogonal",
+    "fr": "Hexagel",
+    "it": "Cryogonal",
+    "de": "Frigometri",
+    "es": "Cryogonal",
+    "ko": "프리지오"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "けっしょう",
-      "language": "ja"
-    },
-    {
-      "genus": "결정",
-      "language": "ko"
-    },
-    {
-      "genus": "Cristal",
-      "language": "fr"
-    },
-    {
-      "genus": "Kristall",
-      "language": "de"
-    },
-    {
-      "genus": "Cristal",
-      "language": "es"
-    },
-    {
-      "genus": "Cristallo",
-      "language": "it"
-    },
-    {
-      "genus": "Crystallizing",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "けっしょう",
+    "en": "Crystallizing",
+    "fr": "Cristal",
+    "it": "Cristallo",
+    "de": "Kristall",
+    "es": "Cristal",
+    "ko": "결정"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -130,11 +82,22 @@
     "ice"
   ],
   "base_stats": {
-    "hp": 70,
+    "hp": 80,
     "attack": 50,
-    "defense": 30,
+    "defense": 50,
     "special-attack": 95,
     "special-defense": 135,
     "speed": 105
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "hp": 70,
+          "defense": 30
+        }
+      }
+    }
+  ]
 }

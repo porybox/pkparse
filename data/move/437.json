@@ -2,36 +2,13 @@
   "id": 437,
   "name": "leaf-storm",
   "accuracy": 90,
-  "effect_chance": 100,
   "pp": 5,
   "priority": 0,
   "power": 130,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}, then lowers the user's [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}.",
-      "short_effect": "Lowers the user's Special Attack by two stages after inflicting damage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,47 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Leaf Storm",
-      "language": "en"
-    },
-    {
-      "name": "Verdebufera",
-      "language": "it"
-    },
-    {
-      "name": "Lluevehojas",
-      "language": "es"
-    },
-    {
-      "name": "Blättersturm",
-      "language": "de"
-    },
-    {
-      "name": "Tempête Verte",
-      "language": "fr"
-    },
-    {
-      "name": "리프스톰",
-      "language": "ko"
-    },
-    {
-      "name": "リーフストーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "リーフストーム",
+    "kana": "リーフストーム",
+    "en": "Leaf Storm",
+    "fr": "Tempête Verte",
+    "it": "Verdebufera",
+    "de": "Blättersturm",
+    "es": "Lluevehojas",
+    "ko": "리프스톰",
+    "zh-CN": "飞叶风暴",
+    "zh-TW": "飛葉風暴"
+  },
+  "flavor_text_entries": {
+    "ja": "とがった　はっぱで　相手に　あらしを おこす。使うと　反動で 自分の　特攻が　がくっと　さがる。",
+    "kana": "とがった　はっぱで　あいてに　あらしを おこす。つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+    "en": "The user whips up a storm of leaves around the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+    "fr": "Invoque une tempête de feuilles acérées. Le contrecoup réduit beaucoup l’Attaque Spéciale du lanceur.",
+    "it": "Si forma una tempesta di foglie affilate. Il contraccolpo riduce di molto l’Attacco Speciale di chi la usa.",
+    "de": "Anwender erzeugt einen Sturm aus scharfen Blättern. Rückstoß senkt Spezial-Angriff des Anwenders stark.",
+    "es": "Una lluvia de hojas afiladas envuelve al objetivo. El retroceso baja mucho el Ataque Especial de quien lo usa.",
+    "ko": "뾰족한 잎사귀로 상대에게 바람을 일으킨다. 사용하면 반동으로 자신의 특수공격이 크게 떨어진다.",
+    "zh-CN": "用尖尖的叶片向对手卷起风暴。 使用之后因为反作用力 自己的特攻会大幅降低。",
+    "zh-TW": "用尖銳的葉子捲起風暴向對手進行攻擊。 使用後因為反作用力， 自己的特攻會大幅降低。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "grass"
-  }
+  "target": "selected-pokemon",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Invoque une tempête de feuilles acérées. Le contrecoup réduit fortement l’Attaque Spéciale du lanceur.",
+          "es": "Cae una lluvia de hojas afiladas. Baja mucho el Ataque Especial de quien lo usa."
+        }
+      }
+    }
+  ]
 }

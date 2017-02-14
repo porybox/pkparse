@@ -1,0 +1,38 @@
+{
+  "id": 279,
+  "name": "lagging-tail",
+  "names": {
+    "ja": "こうこうのしっぽ",
+    "kana": "こうこうのしっぽ",
+    "en": "Lagging Tail",
+    "fr": "Ralentiqueue",
+    "it": "Rallentocoda",
+    "de": "Schwerschweif",
+    "es": "Cola Plúmbea",
+    "ko": "느림보꼬리",
+    "zh-CN": "后攻之尾",
+    "zh-TW": "後攻之尾"
+  },
+  "flavor_text_entries": {
+    "ja": "とても　重たい　なにかの　しっぽ。 持たせると　いつもより　行動が 遅くなる。",
+    "kana": "とても　おもたい　なにかの　しっぽ。 もたせると　いつもより　こうどうが おそくなる。",
+    "en": "An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.",
+    "fr": "Objet à tenir extrêmement lourd qui ralentit le porteur.",
+    "it": "Strumento da dare a un Pokémon. È tremendamente pesante e rende più lenti del normale.",
+    "de": "Ein Item zum Tragen. Es ist immens schwer und senkt die Geschwindigkeit des Trägers.",
+    "es": "Es muy pesada y hace que el Pokémon que la lleva se mueva más lento de lo normal.",
+    "ko": "매우 무거운 무언가의 꼬리. 지니게 하면 여느 때보다 행동이 느려진다.",
+    "zh-CN": "非常沉重的某种尾巴。 携带后，行动会比平时更加迟缓。",
+    "zh-TW": "非常沉重的某種尾巴。 攜帶後，行動會比 平時更加緩慢。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "de": "Schwerschwf."
+        }
+      }
+    }
+  ]
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 95,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "legs"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ドードリオ",
-      "language": "ja"
-    },
-    {
-      "name": "Dodorio",
-      "language": "roomaji"
-    },
-    {
-      "name": "두트리오",
-      "language": "ko"
-    },
-    {
-      "name": "嘟嘟利",
-      "language": "zh"
-    },
-    {
-      "name": "Dodrio",
-      "language": "fr"
-    },
-    {
-      "name": "Dodri",
-      "language": "de"
-    },
-    {
-      "name": "Dodrio",
-      "language": "es"
-    },
-    {
-      "name": "Dodrio",
-      "language": "it"
-    },
-    {
-      "name": "Dodrio",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドードリオ",
+    "en": "Dodrio",
+    "fr": "Dodrio",
+    "it": "Dodrio",
+    "de": "Dodri",
+    "es": "Dodrio",
+    "ko": "두트리오"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みつごどり",
-      "language": "ja"
-    },
-    {
-      "genus": "세쌍둥이새",
-      "language": "ko"
-    },
-    {
-      "genus": "Trioiseau",
-      "language": "fr"
-    },
-    {
-      "genus": "Trivogel",
-      "language": "de"
-    },
-    {
-      "genus": "Ave Triple",
-      "language": "es"
-    },
-    {
-      "genus": "Triuccello",
-      "language": "it"
-    },
-    {
-      "genus": "Triple Bird",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みつごどり",
+    "en": "Triple Bird",
+    "fr": "Trioiseau",
+    "it": "Triuccello",
+    "de": "Trivogel",
+    "es": "Ave Triple",
+    "ko": "세쌍둥이새"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -168,6 +112,16 @@
     "defense": 70,
     "special-attack": 60,
     "special-defense": 60,
-    "speed": 100
-  }
+    "speed": 110
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "speed": 100
+        }
+      }
+    }
+  ]
 }

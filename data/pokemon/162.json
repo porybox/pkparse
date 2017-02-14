@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 110,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "オオタチ",
-      "language": "ja"
-    },
-    {
-      "name": "Ootachi",
-      "language": "roomaji"
-    },
-    {
-      "name": "다꼬리",
-      "language": "ko"
-    },
-    {
-      "name": "大尾立",
-      "language": "zh"
-    },
-    {
-      "name": "Fouinar",
-      "language": "fr"
-    },
-    {
-      "name": "Wiesenior",
-      "language": "de"
-    },
-    {
-      "name": "Furret",
-      "language": "es"
-    },
-    {
-      "name": "Furret",
-      "language": "it"
-    },
-    {
-      "name": "Furret",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オオタチ",
+    "en": "Furret",
+    "fr": "Fouinar",
+    "it": "Furret",
+    "de": "Wiesenior",
+    "es": "Furret",
+    "ko": "다꼬리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どうなが",
-      "language": "ja"
-    },
-    {
-      "genus": "긴몸통",
-      "language": "ko"
-    },
-    {
-      "genus": "Allongé",
-      "language": "fr"
-    },
-    {
-      "genus": "Langleib",
-      "language": "de"
-    },
-    {
-      "genus": "Alargado",
-      "language": "es"
-    },
-    {
-      "genus": "Lungocorpo",
-      "language": "it"
-    },
-    {
-      "genus": "Long Body",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どうなが",
+    "en": "Long Body",
+    "fr": "Allongé",
+    "it": "Lungocorpo",
+    "de": "Langleib",
+    "es": "Alargado",
+    "ko": "긴몸통"
+  },
   "varieties": [
     {
       "is_default": true,

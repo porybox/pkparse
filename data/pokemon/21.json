@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 109,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "wings"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "オニスズメ",
-      "language": "ja"
-    },
-    {
-      "name": "Onisuzume",
-      "language": "roomaji"
-    },
-    {
-      "name": "깨비참",
-      "language": "ko"
-    },
-    {
-      "name": "烈雀",
-      "language": "zh"
-    },
-    {
-      "name": "Piafabec",
-      "language": "fr"
-    },
-    {
-      "name": "Habitak",
-      "language": "de"
-    },
-    {
-      "name": "Spearow",
-      "language": "es"
-    },
-    {
-      "name": "Spearow",
-      "language": "it"
-    },
-    {
-      "name": "Spearow",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オニスズメ",
+    "en": "Spearow",
+    "fr": "Piafabec",
+    "it": "Spearow",
+    "de": "Habitak",
+    "es": "Spearow",
+    "ko": "깨비참"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ことり",
-      "language": "ja"
-    },
-    {
-      "genus": "아기새",
-      "language": "ko"
-    },
-    {
-      "genus": "Minoiseau",
-      "language": "fr"
-    },
-    {
-      "genus": "Kleinvogel",
-      "language": "de"
-    },
-    {
-      "genus": "Pajarito",
-      "language": "es"
-    },
-    {
-      "genus": "Uccellino",
-      "language": "it"
-    },
-    {
-      "genus": "Tiny Bird",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ことり",
+    "en": "Tiny Bird",
+    "fr": "Minoiseau",
+    "it": "Uccellino",
+    "de": "Kleinvogel",
+    "es": "Pajarito",
+    "ko": "아기새"
+  },
   "varieties": [
     {
       "is_default": true,

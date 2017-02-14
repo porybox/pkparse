@@ -1,0 +1,44 @@
+{
+  "id": 775,
+  "name": "komala",
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "blue",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ネッコアラ",
+    "en": "Komala",
+    "fr": "Dodoala",
+    "it": "Komala",
+    "de": "Koalelu",
+    "es": "Komala",
+    "ko": "자말라"
+  },
+  "genera": {
+    "ja": "ゆめうつつ",
+    "en": "Drowsing",
+    "fr": "Rêveur",
+    "it": "Dormiveglia",
+    "de": "Halbschlaf",
+    "es": "Duermevela",
+    "ko": "꿈결"
+  },
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 115,
+    "defense": 65,
+    "special-attack": 75,
+    "special-defense": 95,
+    "speed": 65
+  }
+}

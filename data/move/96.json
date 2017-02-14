@@ -2,53 +2,13 @@
   "id": 96,
   "name": "meditate",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "calm-mind"
-        }
-      ]
-    },
-    "super": {
-      "use_before": [
-        {
-          "name": "high-jump-kick"
-        }
-      ],
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}.",
-      "short_effect": "Raises the user's Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -60,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Meditate",
-      "language": "en"
-    },
-    {
-      "name": "Meditazione",
-      "language": "it"
-    },
-    {
-      "name": "Meditación",
-      "language": "es"
-    },
-    {
-      "name": "Meditation",
-      "language": "de"
-    },
-    {
-      "name": "Yoga",
-      "language": "fr"
-    },
-    {
-      "name": "요가포즈",
-      "language": "ko"
-    },
-    {
-      "name": "ヨガのポーズ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ヨガのポーズ",
+    "kana": "ヨガのポーズ",
+    "en": "Meditate",
+    "fr": "Yoga",
+    "it": "Meditazione",
+    "de": "Meditation",
+    "es": "Meditación",
+    "ko": "요가포즈",
+    "zh-CN": "瑜伽姿势",
+    "zh-TW": "瑜伽姿勢"
+  },
+  "flavor_text_entries": {
+    "ja": "眠っている　力を 体の　奥から　ひきだして 自分の　攻撃を　あげる。",
+    "kana": "ねむっている　ちからを からだの　おくから　ひきだして じぶんの　こうげきを　あげる。",
+    "en": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
+    "fr": "Le lanceur médite pour éveiller son pouvoir latent et augmenter son Attaque.",
+    "it": "Chi la usa medita per risvegliare la propria forza interiore e migliorare l’Attacco.",
+    "de": "Anwender aktiviert Kräfte, die tief in seinem Inneren schlummern, und erhöht so seinen Angriffs-Wert.",
+    "es": "El usuario reposa y medita para potenciar el Ataque.",
+    "ko": "잠들어 있는 힘을 몸속에서 끌어내어 자신의 공격을 올린다.",
+    "zh-CN": "唤醒身体深处 沉睡的力量， 从而提高自己的攻击。",
+    "zh-TW": "喚醒身體深處 沉睡的力量， 提高自己的攻擊。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "psychic"
-  }
+  "target": "user",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender aktiviert Kräfte, die tief in seinem Inneren schlummern, und steigert so seinen Angriffs-Wert."
+        }
+      }
+    }
+  ]
 }

@@ -1,133 +1,43 @@
 {
   "id": 168,
   "name": "protean",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-vi"
+  "names": {
+    "ja": "へんげんじざい",
+    "kana": "へんげんじざい",
+    "en": "Protean",
+    "fr": "Protéen",
+    "it": "Mutatipo",
+    "de": "Wandlungskunst",
+    "es": "Mutatipo",
+    "ko": "변환자재",
+    "zh-CN": "变幻自如",
+    "zh-TW": "變幻自如"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "自分が　出す　技と 同じ　タイプに　変化する。",
+    "kana": "じぶんが　だす　わざと おなじ　タイプに　へんかする。",
+    "en": "Changes the Pokémon’s type to the type of the move it’s about to use.",
+    "fr": "Le Pokémon prend le type de la capacité qu’il utilise.",
+    "it": "Cambia il tipo del Pokémon in quello della mossa che usa.",
+    "de": "Das Pokémon nimmt bei Einsatz einer Attacke deren Typ an.",
+    "es": "Cambia su tipo al del movimiento que va a usar.",
+    "ko": "자신이 사용한 기술과 같은 타입으로 변화한다.",
+    "zh-CN": "变为与自己使出的招式 相同的属性。",
+    "zh-TW": "變為與自己使出的招式 相同的屬性。"
+  },
+  "past_values": [
     {
-      "name": "Protean",
-      "language": "en"
-    },
-    {
-      "name": "Mutatipo",
-      "language": "it"
-    },
-    {
-      "name": "Mutatipo",
-      "language": "es"
-    },
-    {
-      "name": "Wandlungskunst",
-      "language": "de"
-    },
-    {
-      "name": "Protéen",
-      "language": "fr"
-    },
-    {
-      "name": "변환자재",
-      "language": "ko"
-    },
-    {
-      "name": "へんげんじざい",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Changes the bearer's type to match each move it uses.\n\nThe type change takes place just before the move is used.",
-      "short_effect": "Changes the bearer's type to match each move it uses.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "だした　技と　同じ\nタイプに　変化する。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Changes the Pokémon’s type to\nthe type of the move it’s using.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Cambia il tipo del Pokémon in\nquello della mossa usata.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Cambia su tipo al del movimiento\nque acaba de usar.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Das Pokémon nimmt bei Einsatz\neiner Attacke deren Typ an.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Le Pokémon prend le type de sa\ndernière capacité lancée.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "사용한 기술과 같은\n타입으로 변화한다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "だした　わざと　おなじ\nタイプに　へんかする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "kecleon"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "froakie"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "frogadier"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "greninja"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "だした　技と　同じ タイプに　変化する。",
+          "kana": "だした　わざと　おなじ タイプに　へんかする。",
+          "en": "Changes the Pokémon’s type to the type of the move it’s using.",
+          "fr": "Le Pokémon prend le type de sa dernière capacité lancée.",
+          "it": "Cambia il tipo del Pokémon in quello della mossa usata.",
+          "es": "Cambia su tipo al del movimiento que acaba de usar.",
+          "ko": "사용한 기술과 같은 타입으로 변화한다."
+        }
       }
     }
   ]

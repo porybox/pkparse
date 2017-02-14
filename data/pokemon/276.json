@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 19,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "wings"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "スバメ",
-      "language": "ja"
-    },
-    {
-      "name": "Subame",
-      "language": "roomaji"
-    },
-    {
-      "name": "테일로",
-      "language": "ko"
-    },
-    {
-      "name": "傲骨燕",
-      "language": "zh"
-    },
-    {
-      "name": "Nirondelle",
-      "language": "fr"
-    },
-    {
-      "name": "Schwalbini",
-      "language": "de"
-    },
-    {
-      "name": "Taillow",
-      "language": "es"
-    },
-    {
-      "name": "Taillow",
-      "language": "it"
-    },
-    {
-      "name": "Taillow",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "スバメ",
+    "en": "Taillow",
+    "fr": "Nirondelle",
+    "it": "Taillow",
+    "de": "Schwalbini",
+    "es": "Taillow",
+    "ko": "테일로"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こツバメ",
-      "language": "ja"
-    },
-    {
-      "genus": "아기제비",
-      "language": "ko"
-    },
-    {
-      "genus": "Minirondel",
-      "language": "fr"
-    },
-    {
-      "genus": "Schwälblein",
-      "language": "de"
-    },
-    {
-      "genus": "Pequebuche",
-      "language": "es"
-    },
-    {
-      "genus": "Rondinella",
-      "language": "it"
-    },
-    {
-      "genus": "Tiny Swallow",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こツバメ",
+    "en": "Tiny Swallow",
+    "fr": "Minirondel",
+    "it": "Rondinella",
+    "de": "Schwälblein",
+    "es": "Pequebuche",
+    "ko": "아기제비"
+  },
   "varieties": [
     {
       "is_default": true,

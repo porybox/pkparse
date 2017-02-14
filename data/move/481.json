@@ -2,34 +2,13 @@
   "id": 481,
   "name": "flame-burst",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 70,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If this move successfully hits the target, any Pokémon adjacent to the target are damaged for 1/16 their max [HP]{mechanic:hp}.",
-      "short_effect": "Deals splash damage to Pokémon next to the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Flame Burst",
-      "language": "en"
-    },
-    {
-      "name": "Pirolancio",
-      "language": "it"
-    },
-    {
-      "name": "Pirotecnia",
-      "language": "es"
-    },
-    {
-      "name": "Funkenflug",
-      "language": "de"
-    },
-    {
-      "name": "Rebondifeu",
-      "language": "fr"
-    },
-    {
-      "name": "불꽃튀기기",
-      "language": "ko"
-    },
-    {
-      "name": "はじけるほのお",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "はじけるほのお",
+    "kana": "はじけるほのお",
+    "en": "Flame Burst",
+    "fr": "Rebondifeu",
+    "it": "Pirolancio",
+    "de": "Funkenflug",
+    "es": "Pirotecnia",
+    "ko": "불꽃튀기기",
+    "zh-CN": "烈焰溅射",
+    "zh-TW": "烈焰濺射"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "当たると　はじける　炎で　相手を 攻撃する。はじけた　炎は 隣の　相手にも　ふりかかる。",
+    "kana": "あたると　はじける　ほのおで　あいてを こうげきする。はじけた　ほのおは となりの　あいてにも　ふりかかる。",
+    "en": "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.",
+    "fr": "Quand l’attaque atteint sa cible, elle projette des flammes qui touchent tout ennemi situé à côté.",
+    "it": "Chi la usa emana una fiammata che colpisce il bersaglio e si propaga fino a raggiungere i Pokémon vicini.",
+    "de": "Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.",
+    "es": "Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.",
+    "ko": "맞으면 튀는 불꽃으로 상대를 공격한다. 튕긴 불꽃은 옆의 상대에게도 쏟아진다.",
+    "zh-CN": "如果击中，爆裂的火焰会 攻击到对手。爆裂出的火焰 还会飞溅到旁边的对手。",
+    "zh-TW": "用命中後會爆裂開來的火焰 攻擊對手。爆裂後的火焰 也會波及到對手身旁的同伴。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire"
 }

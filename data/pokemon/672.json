@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 89,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "メェークル",
-      "language": "ja"
-    },
-    {
-      "name": "메이클",
-      "language": "ko"
-    },
-    {
-      "name": "Cabriolaine",
-      "language": "fr"
-    },
-    {
-      "name": "Mähikel",
-      "language": "de"
-    },
-    {
-      "name": "Skiddo",
-      "language": "es"
-    },
-    {
-      "name": "Skiddo",
-      "language": "it"
-    },
-    {
-      "name": "Skiddo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "メェークル",
+    "en": "Skiddo",
+    "fr": "Cabriolaine",
+    "it": "Skiddo",
+    "de": "Mähikel",
+    "es": "Skiddo",
+    "ko": "메이클"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ライド",
-      "language": "ja"
-    },
-    {
-      "genus": "라이드",
-      "language": "ko"
-    },
-    {
-      "genus": "Monture",
-      "language": "fr"
-    },
-    {
-      "genus": "Ritt",
-      "language": "de"
-    },
-    {
-      "genus": "Montura",
-      "language": "es"
-    },
-    {
-      "genus": "Cavalcatura",
-      "language": "it"
-    },
-    {
-      "genus": "Mount",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ライド",
+    "en": "Mount",
+    "fr": "Monture",
+    "it": "Cavalcatura",
+    "de": "Ritt",
+    "es": "Montura",
+    "ko": "라이드"
+  },
   "varieties": [
     {
       "is_default": true,

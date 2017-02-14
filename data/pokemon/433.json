@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 111,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "humanoid"
   },
@@ -61,44 +55,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "リーシャン",
-      "language": "ja"
-    },
-    {
-      "name": "Lisyan",
-      "language": "roomaji"
-    },
-    {
-      "name": "랑딸랑",
-      "language": "ko"
-    },
-    {
-      "name": "鈴鐺響",
-      "language": "zh"
-    },
-    {
-      "name": "Korillon",
-      "language": "fr"
-    },
-    {
-      "name": "Klingplim",
-      "language": "de"
-    },
-    {
-      "name": "Chingling",
-      "language": "es"
-    },
-    {
-      "name": "Chingling",
-      "language": "it"
-    },
-    {
-      "name": "Chingling",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "リーシャン",
+    "en": "Chingling",
+    "fr": "Korillon",
+    "it": "Chingling",
+    "de": "Klingplim",
+    "es": "Chingling",
+    "ko": "랑딸랑"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -109,36 +74,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "すず",
-      "language": "ja"
-    },
-    {
-      "genus": "방울",
-      "language": "ko"
-    },
-    {
-      "genus": "Clochette",
-      "language": "fr"
-    },
-    {
-      "genus": "Glöckchen",
-      "language": "de"
-    },
-    {
-      "genus": "Campana",
-      "language": "es"
-    },
-    {
-      "genus": "Sonaglio",
-      "language": "it"
-    },
-    {
-      "genus": "Bell",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "すず",
+    "en": "Bell",
+    "fr": "Clochette",
+    "it": "Sonaglio",
+    "de": "Glöckchen",
+    "es": "Campana",
+    "ko": "방울"
+  },
   "varieties": [
     {
       "is_default": true,

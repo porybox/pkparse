@@ -2,34 +2,13 @@
   "id": 581,
   "name": "misty-terrain",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "For five turns, protects all Pokémon on the ground from major status ailments and confusion and weakens []{type:dragon} moves used against them to 0.5× their power.\n\nChanges []{move:nature-power} to []{move:moonblast}.",
-      "short_effect": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming []{type:dragon} moves.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Misty Terrain",
-      "language": "en"
-    },
-    {
-      "name": "Campo Nebbioso",
-      "language": "it"
-    },
-    {
-      "name": "Campo de Niebla",
-      "language": "es"
-    },
-    {
-      "name": "Nebelfeld",
-      "language": "de"
-    },
-    {
-      "name": "Champ Brumeux",
-      "language": "fr"
-    },
-    {
-      "name": "미스트필드",
-      "language": "ko"
-    },
-    {
-      "name": "ミストフィールド",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "ミストフィールド",
+    "kana": "ミストフィールド",
+    "en": "Misty Terrain",
+    "fr": "Champ Brumeux",
+    "it": "Campo Nebbioso",
+    "de": "Nebelfeld",
+    "es": "Campo de Niebla",
+    "ko": "미스트필드",
+    "zh-CN": "薄雾场地",
+    "zh-TW": "薄霧場地"
   },
-  "type": {
-    "name": "fairy"
-  }
+  "flavor_text_entries": {
+    "ja": "５ターンの　間　地面にいると 状態異常に　ならず　ドラゴン技の ダメージも　半分になる。",
+    "kana": "５ターンのあいだ　じめんにいると じょうたいいじょうに　ならず　ドラゴン わざの　ダメージも　はんぶんになる。",
+    "en": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+    "fr": "Pendant cinq tours, les Pokémon au sol ne peuvent pas subir d’altération de statut et la puissance des capacités de type Dragon est divisée par deux.",
+    "it": "Per cinque turni il terreno entra nello stato di Campo Nebbioso: i Pokémon a terra sono immuni ai problemi di stato e la potenza delle mosse Drago è dimezzata.",
+    "de": "Schützt fünf Runden lang alle Pokémon, die den Boden berühren, vor Statusproblemen. Der erlittene Schaden durch Drachen-Attacken wird halbiert.",
+    "es": "Durante cinco turnos, los Pokémon que están en el suelo no sufren cambios de estado y se reduce a la mitad el daño de los movimientos de tipo Dragón.",
+    "ko": "5턴 동안 땅에 있으면 상태 이상이 되지 않고 드래곤타입 기술의 데미지도 절반이 된다.",
+    "zh-CN": "在５回合内， 地面上的宝可梦不会陷入异常状态。 龙属性招式的伤害也会减半。",
+    "zh-TW": "在５回合內， 地面上的寶可夢不會陷入異常狀態。 龍屬性招式的傷害也會減半。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "fairy",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "５ターンの　あいだ　足元を ミストフィールドにする。地面にいると 状態異常に　ならない。",
+          "kana": "５ターンの　あいだ　あしもとを ミストフィールドにする。　じめんにいると じょうたいいじょうに　ならない。",
+          "en": "The user covers the ground under everyone’s feet with mist for five turns. This protects Pokémon on the ground from status conditions.",
+          "fr": "Pendant cinq tours, le terrain aux pieds du lanceur se couvre de brume. Les Pokémon au sol ne peuvent pas subir d’altération de statut.",
+          "it": "Per cinque turni trasforma il terreno di lotta in un campo nebbioso, impedendo ai Pokémon a terra di essere colpiti da problemi di stato.",
+          "de": "Verwandelt den Untergrund fünf Runden lang in ein Nebelfeld und schützt alle Pokémon, die den Boden berühren, vor Statusproblemen.",
+          "es": "Cubre de niebla el terreno de combate durante cinco turnos. Los Pokémon que estén en el suelo no se ven afectados por cambios de estado.",
+          "ko": "5턴 동안 발밑을 미스트필드로 만든다. 땅에 있으면 상태 이상이 되지 않는다."
+        }
+      }
+    }
+  ]
 }

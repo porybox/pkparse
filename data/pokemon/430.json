@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 52,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "wings"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ドンカラス",
-      "language": "ja"
-    },
-    {
-      "name": "Donkarasu",
-      "language": "roomaji"
-    },
-    {
-      "name": "돈크로우",
-      "language": "ko"
-    },
-    {
-      "name": "烏鴉頭頭",
-      "language": "zh"
-    },
-    {
-      "name": "Corboss",
-      "language": "fr"
-    },
-    {
-      "name": "Kramshef",
-      "language": "de"
-    },
-    {
-      "name": "Honchkrow",
-      "language": "es"
-    },
-    {
-      "name": "Honchkrow",
-      "language": "it"
-    },
-    {
-      "name": "Honchkrow",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドンカラス",
+    "en": "Honchkrow",
+    "fr": "Corboss",
+    "it": "Honchkrow",
+    "de": "Kramshef",
+    "es": "Honchkrow",
+    "ko": "돈크로우"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おおボス",
-      "language": "ja"
-    },
-    {
-      "genus": "큰형님",
-      "language": "ko"
-    },
-    {
-      "genus": "Big Boss",
-      "language": "fr"
-    },
-    {
-      "genus": "Anführer",
-      "language": "de"
-    },
-    {
-      "genus": "Gran Jefe",
-      "language": "es"
-    },
-    {
-      "genus": "Grancapo",
-      "language": "it"
-    },
-    {
-      "genus": "Big Boss",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おおボス",
+    "en": "Big Boss",
+    "fr": "Big Boss",
+    "it": "Grancapo",
+    "de": "Anführer",
+    "es": "Gran Jefe",
+    "ko": "큰형님"
+  },
   "varieties": [
     {
       "is_default": true,

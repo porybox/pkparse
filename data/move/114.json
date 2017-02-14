@@ -2,49 +2,13 @@
   "id": 114,
   "name": "haze",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "hail"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Removes [stat]{mechanic:stat}, [accuracy]{mechanic:accuracy}, and [evasion]{mechanic:evasion} modifiers from every Pokémon on the [field]{mechanic:field}.\n\nThis does not count as a stat reduction for the purposes of []{ability:clear-body} or []{ability:white-smoke}.",
-      "short_effect": "Resets all Pokémon's stats, accuracy, and evasion.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Haze",
-      "language": "en"
-    },
-    {
-      "name": "Nube",
-      "language": "it"
-    },
-    {
-      "name": "Niebla",
-      "language": "es"
-    },
-    {
-      "name": "Dunkelnebel",
-      "language": "de"
-    },
-    {
-      "name": "Buée Noire",
-      "language": "fr"
-    },
-    {
-      "name": "흑안개",
-      "language": "ko"
-    },
-    {
-      "name": "くろいきり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "くろいきり",
+    "kana": "くろいきり",
+    "en": "Haze",
+    "fr": "Buée Noire",
+    "it": "Nube",
+    "de": "Dunkelnebel",
+    "es": "Niebla",
+    "ko": "흑안개",
+    "zh-CN": "黑雾",
+    "zh-TW": "黑霧"
   },
-  "type": {
-    "name": "ice"
-  }
+  "flavor_text_entries": {
+    "ja": "黒い霧を　だして　戦闘に でている　ポケモン　全員の 能力変化を　もとに　もどす。",
+    "kana": "くろいきりを　だして　せんとうに でている　ポケモン　ぜんいんの のうりょく　へんかを　もとに　もどす。",
+    "en": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
+    "fr": "Un brouillard qui annule les changements de stats de tous les Pokémon au combat.",
+    "it": "Chi la usa crea una nube nera che annulla ogni modifica alle statistiche di tutti i Pokémon in campo.",
+    "de": "Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.",
+    "es": "Neblina que elimina los cambios de características de todos los Pokémon en combate.",
+    "ko": "흑안개를 뿜어 배틀에 참가 중인 포켓몬 전원의 능력 변화를 원래대로 돌린다.",
+    "zh-CN": "升起黑雾，将正在场上战斗的 全体宝可梦的能力变回原点。",
+    "zh-TW": "放出黑霧，讓場上全體寶可夢的 能力變化回到初始狀態。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "ice"
 }

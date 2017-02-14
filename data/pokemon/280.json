@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 64,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "humanoid"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ラルトス",
-      "language": "ja"
-    },
-    {
-      "name": "Ralts",
-      "language": "roomaji"
-    },
-    {
-      "name": "랄토스",
-      "language": "ko"
-    },
-    {
-      "name": "拉魯拉絲",
-      "language": "zh"
-    },
-    {
-      "name": "Tarsal",
-      "language": "fr"
-    },
-    {
-      "name": "Trasla",
-      "language": "de"
-    },
-    {
-      "name": "Ralts",
-      "language": "es"
-    },
-    {
-      "name": "Ralts",
-      "language": "it"
-    },
-    {
-      "name": "Ralts",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ラルトス",
+    "en": "Ralts",
+    "fr": "Tarsal",
+    "it": "Ralts",
+    "de": "Trasla",
+    "es": "Ralts",
+    "ko": "랄토스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きもち",
-      "language": "ja"
-    },
-    {
-      "genus": "느낌",
-      "language": "ko"
-    },
-    {
-      "genus": "Sentiment",
-      "language": "fr"
-    },
-    {
-      "genus": "Gefühl",
-      "language": "de"
-    },
-    {
-      "genus": "Sensible",
-      "language": "es"
-    },
-    {
-      "genus": "Sensazione",
-      "language": "it"
-    },
-    {
-      "genus": "Feeling",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きもち",
+    "en": "Feeling",
+    "fr": "Sentiment",
+    "it": "Sensazione",
+    "de": "Gefühl",
+    "es": "Sensible",
+    "ko": "느낌"
+  },
   "varieties": [
     {
       "is_default": true,

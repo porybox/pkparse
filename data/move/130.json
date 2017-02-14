@@ -2,48 +2,13 @@
   "id": 130,
   "name": "skull-bash",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 10,
   "priority": 0,
   "power": 130,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Raises the user's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.  User then charges for one turn before attacking.\n\nThis move cannot be selected by []{move:sleep-talk}.",
-      "short_effect": "Raises the user's Defense by one stage.  User charges for one turn before attacking.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Does not raise [Defense]{mechanic:defense}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -55,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Skull Bash",
-      "language": "en"
-    },
-    {
-      "name": "Capocciata",
-      "language": "it"
-    },
-    {
-      "name": "Cabezazo",
-      "language": "es"
-    },
-    {
-      "name": "Schädelwumme",
-      "language": "de"
-    },
-    {
-      "name": "Coud'Krâne",
-      "language": "fr"
-    },
-    {
-      "name": "로케트박치기",
-      "language": "ko"
-    },
-    {
-      "name": "ロケットずつき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ロケットずつき",
+    "kana": "ロケットずつき",
+    "en": "Skull Bash",
+    "fr": "Coud’Krâne",
+    "it": "Capocciata",
+    "de": "Schädelwumme",
+    "es": "Cabezazo",
+    "ko": "로케트박치기",
+    "zh-CN": "火箭头锤",
+    "zh-TW": "火箭頭錘"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "１ターン目に　頭を　ひっこめて 防御を　あげる。 ２ターン目に　相手を　攻撃する。",
+    "kana": "１ターンめに　あたまを　ひっこめて ぼうぎょを　あげる。 ２ターンめに　あいてを　こうげきする。",
+    "en": "The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn.",
+    "fr": "Le lanceur baisse la tête pour augmenter sa Défense au premier tour et percuter l’ennemi au second.",
+    "it": "Chi la usa ritira la testa per aumentare la Difesa e poi attacca al turno successivo.",
+    "de": "Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.",
+    "es": "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.",
+    "ko": "1턴째에 머리를 움츠려 방어를 올린다. 2턴째에 상대를 공격한다.",
+    "zh-CN": "第１回合把头缩进去， 从而提高防御。 第２回合攻击对手。",
+    "zh-TW": "使用後的第１回合把頭後縮，提高防禦。 並於第２回合攻擊對手。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn."
+        }
+      }
+    }
+  ]
 }

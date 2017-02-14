@@ -2,89 +2,13 @@
   "id": 268,
   "name": "charge",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "thunder-punch"
-        },
-        {
-          "name": "thunder-shock"
-        },
-        {
-          "name": "thunderbolt"
-        },
-        {
-          "name": "thunder-wave"
-        },
-        {
-          "name": "thunder"
-        },
-        {
-          "name": "zap-cannon"
-        },
-        {
-          "name": "spark"
-        },
-        {
-          "name": "volt-tackle"
-        },
-        {
-          "name": "shock-wave"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": [
-        {
-          "name": "thunder-fang"
-        }
-      ],
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage}.  If the user uses an []{type:electric} move next turn, its power will be doubled.",
-      "short_effect": "Raises the user's Special Defense by one stage.  User's Electric moves have doubled power next turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "effect_entries": [
-        {
-          "effect": "Does not raise the user's [Special Defense]{mechanic:special-defense}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -96,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Charge",
-      "language": "en"
-    },
-    {
-      "name": "Sottocarica",
-      "language": "it"
-    },
-    {
-      "name": "Carga",
-      "language": "es"
-    },
-    {
-      "name": "Ladevorgang",
-      "language": "de"
-    },
-    {
-      "name": "Chargeur",
-      "language": "fr"
-    },
-    {
-      "name": "충전",
-      "language": "ko"
-    },
-    {
-      "name": "じゅうでん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "じゅうでん",
+    "kana": "じゅうでん",
+    "en": "Charge",
+    "fr": "Chargeur",
+    "it": "Sottocarica",
+    "de": "Ladevorgang",
+    "es": "Carga",
+    "ko": "충전",
+    "zh-CN": "充电",
+    "zh-TW": "充電"
+  },
+  "flavor_text_entries": {
+    "ja": "次の　ターンに　だす　でんきタイプの 技の　威力を　あげる。 自分の　特防も　あがる。",
+    "kana": "つぎの　ターンに　だす　でんきタイプの わざの　いりょくを　あげる。 じぶんの　とくぼうも　あがる。",
+    "en": "The user boosts the power of the Electric move it uses on the next turn. This also raises the user’s Sp. Def stat.",
+    "fr": "Le lanceur concentre sa puissance pour sa prochaine attaque Électrik. Augmente sa Défense Spéciale.",
+    "it": "Potenzia la mossa di tipo Elettro usata subito dopo. Aumenta anche la Difesa Speciale di chi la usa.",
+    "de": "Hebt die Stärke für die kommende Elektro-Attacke an und erhöht die Spezial-Verteidigung.",
+    "es": "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.",
+    "ko": "다음 턴에 쓸 전기타입 기술의 위력을 올린다. 자신의 특수방어도 올라간다.",
+    "zh-CN": "提高下一回合使出的 电属性的招式威力。 自己的特防也会提高。",
+    "zh-TW": "提高下一回合使出的 電屬性招式威力。 也會提高自己的特防。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "electric"
-  }
+  "target": "user",
+  "type": "electric",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Lädt Energie für die kommende Elektro-Attacke auf. Erhöht die Spezial-Verteidigung."
+        }
+      }
+    }
+  ]
 }

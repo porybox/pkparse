@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 122,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "チャオブー",
-      "language": "ja"
-    },
-    {
-      "name": "차오꿀",
-      "language": "ko"
-    },
-    {
-      "name": "Grotichon",
-      "language": "fr"
-    },
-    {
-      "name": "Ferkokel",
-      "language": "de"
-    },
-    {
-      "name": "Pignite",
-      "language": "es"
-    },
-    {
-      "name": "Pignite",
-      "language": "it"
-    },
-    {
-      "name": "Pignite",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "チャオブー",
+    "en": "Pignite",
+    "fr": "Grotichon",
+    "it": "Pignite",
+    "de": "Ferkokel",
+    "es": "Pignite",
+    "ko": "차오꿀"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひぶた",
-      "language": "ja"
-    },
-    {
-      "genus": "불돼지",
-      "language": "ko"
-    },
-    {
-      "genus": "Cochon Feu",
-      "language": "fr"
-    },
-    {
-      "genus": "Feuerferkel",
-      "language": "de"
-    },
-    {
-      "genus": "Cerdo Fuego",
-      "language": "es"
-    },
-    {
-      "genus": "Suinfuoco",
-      "language": "it"
-    },
-    {
-      "genus": "Fire Pig",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひぶた",
+    "en": "Fire Pig",
+    "fr": "Cochon Feu",
+    "it": "Suinfuoco",
+    "de": "Feuerferkel",
+    "es": "Cerdo Fuego",
+    "ko": "불돼지"
+  },
   "varieties": [
     {
       "is_default": true,

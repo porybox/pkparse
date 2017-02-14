@@ -1,0 +1,39 @@
+{
+  "id": 645,
+  "name": "ability-capsule",
+  "names": {
+    "ja": "とくせいカプセル",
+    "kana": "とくせいカプセル",
+    "en": "Ability Capsule",
+    "fr": "Pilule Talent",
+    "it": "Capsula abilità",
+    "de": "Fähigk.-Kapsel",
+    "es": "Cáps. Habilidad",
+    "ko": "특성캡슐",
+    "zh-CN": "特性胶囊",
+    "zh-TW": "特性膠囊"
+  },
+  "flavor_text_entries": {
+    "ja": "２種類の　特性を　持つ ポケモンに　使うと　今とは違う 特性に　変えられる　カプセル。",
+    "kana": "２しゅるいの　とくせいを　もつ ポケモンに　つかうと　いまとはちがう とくせいに　かえられる　カプセル。",
+    "en": "A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.",
+    "fr": "Une capsule permettant à un Pokémon pouvant avoir deux talents de passer de l’un à l’autre.",
+    "it": "Se usata su un Pokémon che può avere due abilità, questa capsula permette di cambiare quella attiva.",
+    "de": "Bei Anwendung auf ein Pokémon, das zwei verschiedene Fähigkeiten haben kann, wird seine aktuelle Fähigkeit mit der anderen ausgewechselt.",
+    "es": "Cápsula que les permite cambiar de habilidad a los Pokémon que poseen dos.",
+    "ko": "2종류의 특성을 가진 포켓몬에게 사용하면 지금과는 다른 특성으로 바꿀 수 있는 캡슐.",
+    "zh-CN": "如果用于有着２种特性的宝可梦， 就能令其现有特性变为另一种的胶囊。",
+    "zh-TW": "如果用於有著２種特性的 寶可夢，就能使其特性 變為另外一種的膠囊。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une capsule permettant à un Pokémon pouvant avoir deux talents de changer de l’un à l’autre.",
+          "it": "Se usata su un Pokémon che ha due abilità, questa capsula permette di cambiare quella attiva."
+        }
+      }
+    }
+  ]
+}

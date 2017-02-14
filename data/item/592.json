@@ -1,0 +1,38 @@
+{
+  "id": 592,
+  "name": "dire-hit-2",
+  "names": {
+    "ja": "クリティカット２",
+    "kana": "クリティカット２",
+    "en": "Dire Hit 2",
+    "fr": "Muscle 2",
+    "it": "Supercolpo 2",
+    "de": "Angriffplus2",
+    "es": "Directo 2",
+    "ko": "크리티컬커터2",
+    "zh-CN": "要害攻击２",
+    "zh-TW": "要害攻擊２"
+  },
+  "flavor_text_entries": {
+    "ja": "急所率が　あがる。 使うたびに　効果が　アップする。 ひっこめると　元に　戻る。",
+    "kana": "きゅうしょりつが　あがる。 つかうたびに　こうかが　アップする。 ひっこめると　もとに　もどる。",
+    "en": "It can be used many times to raise the critical-hit ratio of one Pokémon. It wears off if the Pokémon is withdrawn.",
+    "fr": "Augmente le taux de critique. Plus efficace à chaque utilisation. L’effet s’estompe si le Pokémon est retiré.",
+    "it": "Aumenta la probabilità di sferrare brutti colpi. Se usato più volte, l’effetto si somma, ma svanisce se il Pokémon è sostituito.",
+    "de": "Erhöht die Volltrefferquote. Effektiver bei mehrfacher Anwendung. Wirksam, bis das Pokémon ausgewechselt wird.",
+    "es": "Aumenta la probabilidad de asestar un golpe crítico. Al cambiar de Pokémon, el efecto desaparece.",
+    "ko": "급소 명중률이 올라간다. 사용할 때마다 효과가 올라간다. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다.",
+    "zh-CN": "击中要害的几率会提高。 每次使用效果都会提升。 离场后，效果便会消失。",
+    "zh-TW": "擊中要害的機率會提高。 每次使用效果都會提升。 離場後，效果便會復原。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Augmente le taux de critiques. Plus efficace à chaque utilisation. L’effet s’estompe si le Pokémon se retire."
+        }
+      }
+    }
+  ]
+}

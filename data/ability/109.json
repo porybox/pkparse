@@ -1,196 +1,44 @@
 {
   "id": 109,
   "name": "unaware",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "てんねん",
+    "kana": "てんねん",
+    "en": "Unaware",
+    "fr": "Inconscient",
+    "it": "Imprudenza",
+    "de": "Unkenntnis",
+    "es": "Ignorante",
+    "ko": "천진",
+    "zh-CN": "纯朴",
+    "zh-TW": "純樸"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "相手の　能力の　変化を 無視して　攻撃が　できる。",
+    "kana": "あいての　のうりょくの　へんかを むしして　こうげきが　できる。",
+    "en": "When attacking, the Pokémon ignores the target Pokémon’s stat changes.",
+    "fr": "Quand il attaque, le Pokémon ignore les changements de stats de l’ennemi.",
+    "it": "Quando il Pokémon attacca, ignora le modifiche alle statistiche del nemico.",
+    "de": "Greift das Pokémon an, ignoriert es sämtliche Statusveränderungen des Zieles.",
+    "es": "Pasa por alto las mejoras en las características del rival al atacar.",
+    "ko": "상대의 능력 변화를 무시하고 공격할 수 있다.",
+    "zh-CN": "可以无视对手能力的变化， 进行攻击。",
+    "zh-TW": "可無視對手能力的變化， 進行攻擊。"
+  },
+  "past_values": [
     {
-      "name": "Unaware",
-      "language": "en"
-    },
-    {
-      "name": "Imprudenza",
-      "language": "it"
-    },
-    {
-      "name": "Ignorante",
-      "language": "es"
-    },
-    {
-      "name": "Unkenntnis",
-      "language": "de"
-    },
-    {
-      "name": "Inconscient",
-      "language": "fr"
-    },
-    {
-      "name": "천진",
-      "language": "ko"
-    },
-    {
-      "name": "てんねん",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon ignores other Pokémon's [stat modifiers]{mechanic:stat-modifiers} for the purposes of damage and accuracy calculation.\n\nEffectively, this affects modifiers of every stat except [Speed]{mechanic:speed}.\n\nThe power of []{move:punishment} and []{move:stored-power} is calculated as usual.  When this Pokémon hurts itself in [confusion]{mechanic:confusion}, its stat modifiers affect damage as usual.",
-      "short_effect": "Ignores other Pokémon's stat modifiers for damage and accuracy calculation.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "相手の　能力の\n変化を　無視する。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Ignores the opposing\nPokémon’s stat changes.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ignora le modifiche alle\nstatistiche del nemico.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "No tiene en cuenta las mejoras\nen las características del rival.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Ignoriert Statusveränderungen\ndes Zieles.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Ignore les changements de stats\nde l’ennemi.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "상대의 능력\n변화를 무시한다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "あいての　のうりょくの\nへんかを　むしする。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Ignores any stat changes\nin the Pokémon.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ignores any stat changes\nin the Pokémon.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ignore les changements de\nstats de l’ennemi.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Ignores any change in\nability by the foe.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ignores any change in\nability by the foe.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Ignores any change in\nability by the foe.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "clefable"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "wooper"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "quagsire"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "bidoof"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "bibarel"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "woobat"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "swoobat"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手の　能力の 変化を　無視する。",
+          "kana": "あいての　のうりょくの へんかを　むしする。",
+          "en": "Ignores the opposing Pokémon’s stat changes.",
+          "fr": "Ignore les changements de stats de l’ennemi.",
+          "it": "Ignora le modifiche alle statistiche del nemico.",
+          "de": "Ignoriert Statusveränderungen des Zieles.",
+          "es": "No tiene en cuenta las mejoras en las características del rival.",
+          "ko": "상대의 능력 변화를 무시한다."
+        }
       }
     }
   ]

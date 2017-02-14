@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 58,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "fairy"
-    }
+    "fairy",
+    "plant"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "heads"
   },
@@ -52,44 +44,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "チェリンボ",
-      "language": "ja"
-    },
-    {
-      "name": "Cherinbo",
-      "language": "roomaji"
-    },
-    {
-      "name": "체리버",
-      "language": "ko"
-    },
-    {
-      "name": "櫻花寶",
-      "language": "zh"
-    },
-    {
-      "name": "Ceribou",
-      "language": "fr"
-    },
-    {
-      "name": "Kikugi",
-      "language": "de"
-    },
-    {
-      "name": "Cherubi",
-      "language": "es"
-    },
-    {
-      "name": "Cherubi",
-      "language": "it"
-    },
-    {
-      "name": "Cherubi",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "チェリンボ",
+    "en": "Cherubi",
+    "fr": "Ceribou",
+    "it": "Cherubi",
+    "de": "Kikugi",
+    "es": "Cherubi",
+    "ko": "체리버"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -100,36 +63,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さくらんぼ",
-      "language": "ja"
-    },
-    {
-      "genus": "버찌",
-      "language": "ko"
-    },
-    {
-      "genus": "Cerise",
-      "language": "fr"
-    },
-    {
-      "genus": "Kirsche",
-      "language": "de"
-    },
-    {
-      "genus": "Cereza",
-      "language": "es"
-    },
-    {
-      "genus": "Ciliegia",
-      "language": "it"
-    },
-    {
-      "genus": "Cherry",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さくらんぼ",
+    "en": "Cherry",
+    "fr": "Cerise",
+    "it": "Ciliegia",
+    "de": "Kirsche",
+    "es": "Cereza",
+    "ko": "버찌"
+  },
   "varieties": [
     {
       "is_default": true,

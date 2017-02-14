@@ -1,0 +1,46 @@
+{
+  "id": 460,
+  "name": "coupon-1",
+  "names": {
+    "ja": "ひきかえけん１",
+    "kana": "ひきかえけん１",
+    "en": "Coupon 1",
+    "fr": "Bon 1",
+    "it": "Coupon 1",
+    "de": "Kupon 1",
+    "es": "Cupón 1",
+    "ko": "교환권1",
+    "zh-CN": "兑换券１",
+    "zh-TW": "兌換券１"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンウォッチ　ちぢめて ポケッチを　もらうために　必要な ひきかえけん。　３枚必要。",
+    "kana": "ポケモンウォッチ　ちぢめて ポケッチを　もらうために　ひつような ひきかえけん。　３まい　ひつよう。",
+    "en": "A coupon to be exchanged for a Pokémon Watch— Pokétch for short. Three coupons are needed.",
+    "fr": "Un des trois bons à échanger contre une Pokémontre.",
+    "it": "Coupon da scambiare con un PokéKron. Ne servono tre.",
+    "de": "Einer der drei Coupons, die du für den Pokétch benötigst.",
+    "es": "Uno de los tres cupones que sirve para obtener un Poké-reloj.",
+    "ko": "포켓몬워치, 줄여서 포켓치를 받는 데 필요한 교환권. 3장이 필요하다.",
+    "zh-CN": "获取宝可梦手表，简称宝可表时 所需的兑换券。需要３张。",
+    "zh-TW": "欲取得寶可夢手錶，簡稱寶可錶時 所需的兌換券。需要３張。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A coupon to be exchanged for a Pokémon Watch—Pokétch for short. Three coupons are needed."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A coupon to be exchanged for a Pokémon Watch--Pokétch for short. Three coupons are needed."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": 647,
+  "name": "gigavolt-havoc",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "スパーキングギガボルト",
+    "kana": "スパーキングギガボルト",
+    "en": "Gigavolt Havoc",
+    "fr": "Fulguro-Lance Gigavolt",
+    "it": "Gigascarica Folgorante",
+    "de": "Gigavolt-Funkensalve",
+    "es": "Gigavoltio Destructor",
+    "ko": "스파킹기가볼트",
+    "zh-CN": "终极伏特狂雷闪",
+    "zh-TW": "終極伏特狂雷閃"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric"
+}

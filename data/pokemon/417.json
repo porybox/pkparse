@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 132,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "fairy"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "quadruped"
   },
@@ -58,44 +50,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "パチリス",
-      "language": "ja"
-    },
-    {
-      "name": "Pachirisu",
-      "language": "roomaji"
-    },
-    {
-      "name": "파치리스",
-      "language": "ko"
-    },
-    {
-      "name": "帕奇利茲",
-      "language": "zh"
-    },
-    {
-      "name": "Pachirisu",
-      "language": "fr"
-    },
-    {
-      "name": "Pachirisu",
-      "language": "de"
-    },
-    {
-      "name": "Pachirisu",
-      "language": "es"
-    },
-    {
-      "name": "Pachirisu",
-      "language": "it"
-    },
-    {
-      "name": "Pachirisu",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "パチリス",
+    "en": "Pachirisu",
+    "fr": "Pachirisu",
+    "it": "Pachirisu",
+    "de": "Pachirisu",
+    "es": "Pachirisu",
+    "ko": "파치리스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -106,36 +69,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "でんきりす",
-      "language": "ja"
-    },
-    {
-      "genus": "전기다람쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Écurélec",
-      "language": "fr"
-    },
-    {
-      "genus": "Elektrohörnchen",
-      "language": "de"
-    },
-    {
-      "genus": "Ardillalec",
-      "language": "es"
-    },
-    {
-      "genus": "Elescoiatto",
-      "language": "it"
-    },
-    {
-      "genus": "EleSquirrel",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "でんきりす",
+    "en": "EleSquirrel",
+    "fr": "Écurélec",
+    "it": "Elescoiatto",
+    "de": "Elektrohörnchen",
+    "es": "Ardillalec",
+    "ko": "전기다람쥐"
+  },
   "varieties": [
     {
       "is_default": true,

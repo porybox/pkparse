@@ -2,36 +2,13 @@
   "id": 48,
   "name": "supersonic",
   "accuracy": 55,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "[Confuse]{mechanic:confuse}s the target.",
-      "short_effect": "Confuses the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "confusion",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Supersonic",
-      "language": "en"
-    },
-    {
-      "name": "Supersuono",
-      "language": "it"
-    },
-    {
-      "name": "Supersónico",
-      "language": "es"
-    },
-    {
-      "name": "Superschall",
-      "language": "de"
-    },
-    {
-      "name": "Ultrason",
-      "language": "fr"
-    },
-    {
-      "name": "초음파",
-      "language": "ko"
-    },
-    {
-      "name": "ちょうおんぱ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ちょうおんぱ",
+    "kana": "ちょうおんぱ",
+    "en": "Supersonic",
+    "fr": "Ultrason",
+    "it": "Supersuono",
+    "de": "Superschall",
+    "es": "Supersónico",
+    "ko": "초음파",
+    "zh-CN": "超音波",
+    "zh-TW": "超音波"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "特殊な　音波を 体から　発して 相手を　混乱させる。",
+    "kana": "とくしゅな　おんぱを からだから　はっして あいてを　こんらん　させる。",
+    "en": "The user generates odd sound waves from its body that confuse the target.",
+    "fr": "Le lanceur produit d’étranges ondes sonores qui rendent la cible confuse.",
+    "it": "Chi la usa genera dal proprio corpo strane onde acustiche che possono confondere il bersaglio.",
+    "de": "Ausstoß bizarrer Schallwellen. Das Ziel wird verwirrt.",
+    "es": "Raras ondas sónicas que confunden al objetivo.",
+    "ko": "특수한 음파를 몸에서 발산하여 상대를 혼란시킨다.",
+    "zh-CN": "从身体发出 特殊的音波， 从而使对手混乱。",
+    "zh-TW": "從身上發出 特殊的音波， 讓對手陷入混亂狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur produit d’étranges ondes sonores qui rendent confus."
+        }
+      }
+    }
+  ]
 }

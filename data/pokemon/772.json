@@ -1,0 +1,44 @@
+{
+  "id": 772,
+  "name": "typenull",
+  "gender_rate": -1,
+  "capture_rate": 3,
+  "base_happiness": 0,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "gray",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "タイプ：ヌル",
+    "en": "Type: Null",
+    "fr": "Type:0",
+    "it": "Tipo Zero",
+    "de": "Typ:Null",
+    "es": "Código Cero",
+    "ko": "타입:널"
+  },
+  "genera": {
+    "ja": "じんこう",
+    "en": "Synthetic",
+    "fr": "Multigénome",
+    "it": "Multigene",
+    "de": "Modifikation",
+    "es": "Multigénico",
+    "ko": "인공"
+  },
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 95,
+    "special-attack": 95,
+    "special-defense": 95,
+    "speed": 59
+  }
+}

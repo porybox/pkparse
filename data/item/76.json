@@ -1,0 +1,48 @@
+{
+  "id": 76,
+  "name": "super-repel",
+  "names": {
+    "ja": "シルバースプレー",
+    "kana": "シルバースプレー",
+    "en": "Super Repel",
+    "fr": "Super Repousse",
+    "it": "Superrepellente",
+    "de": "Superschutz",
+    "es": "Superrepelente",
+    "ko": "실버스프레이",
+    "zh-CN": "白银喷雾",
+    "zh-TW": "白銀噴霧"
+  },
+  "flavor_text_entries": {
+    "ja": "弱い　野生の　ポケモンが まったく　でて　こなくなる。 むしよけスプレーより　長く　効く。",
+    "kana": "よわい　やせいの　ポケモンが まったく　でて　こなくなる。 むしよけスプレーより　ながく　きく。",
+    "en": "An item that prevents any low-level wild Pokémon from jumping out at you for a while. It lasts longer than Repel.",
+    "fr": "Repousse les Pokémon sauvages faibles pendant une durée plus longue que celle du Repousse.",
+    "it": "Strumento che evita a chi lo usa di incontrare Pokémon selvatici deboli. Il suo effetto dura più a lungo di quello del Repellente.",
+    "de": "Hält schwache wilde Pokémon ab. Wirkt länger als das Item Schutz.",
+    "es": "Evita encuentros con Pokémon salvajes débiles durante más tiempo que un Repelente normal.",
+    "ko": "약한 야생 포켓몬이 전혀 나오지 않게 된다. 벌레회피스프레이보다 효과가 오래간다.",
+    "zh-CN": "弱小的野生宝可梦 将完全不会出现。 效果比除虫喷雾更持久。",
+    "zh-TW": "弱小的野生寶可夢 變得完全不會出現。 效果比除蟲噴霧更持久。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "２００歩　進む　あいだ 弱い　野生の　ポケモンが まったく　でて　こなくなる。",
+          "kana": "２００ぽ　すすむ　あいだ よわい　やせいの　ポケモンが まったく　でて　こなくなる。",
+          "en": "An item that prevents any low-level wild Pokémon from jumping out at you for 200 steps after its use.",
+          "fr": "Repousse les Pokémon sauvages faibles pendant 200 pas.",
+          "it": "Strumento che evita l’incontro con i Pokémon selvatici deboli per 200 passi dopo l’utilizzo.",
+          "de": "Hält 200 Schritte lang schwache, wilde Pokémon ab.",
+          "es": "Repele Pokémon salvajes débiles en un recorrido de 200 pasos.",
+          "ko": "200보 걸어가는 동안 약한 야생 포켓몬이 전혀 나오지 않게 된다."
+        },
+        "names": {
+          "fr": "Superepousse"
+        }
+      }
+    }
+  ]
+}

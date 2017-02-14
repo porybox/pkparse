@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 118,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "heads"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ニダンギル",
-      "language": "ja"
-    },
-    {
-      "name": "쌍검킬",
-      "language": "ko"
-    },
-    {
-      "name": "Dimoclès",
-      "language": "fr"
-    },
-    {
-      "name": "Duokles",
-      "language": "de"
-    },
-    {
-      "name": "Doublade",
-      "language": "es"
-    },
-    {
-      "name": "Doublade",
-      "language": "it"
-    },
-    {
-      "name": "Doublade",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ニダンギル",
+    "en": "Doublade",
+    "fr": "Dimoclès",
+    "it": "Doublade",
+    "de": "Duokles",
+    "es": "Doublade",
+    "ko": "쌍검킬"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とうけん",
-      "language": "ja"
-    },
-    {
-      "genus": "도검",
-      "language": "ko"
-    },
-    {
-      "genus": "Glaive",
-      "language": "fr"
-    },
-    {
-      "genus": "Klingenkraft",
-      "language": "de"
-    },
-    {
-      "genus": "Tizona",
-      "language": "es"
-    },
-    {
-      "genus": "Armabianca",
-      "language": "it"
-    },
-    {
-      "genus": "Sword",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とうけん",
+    "en": "Sword",
+    "fr": "Glaive",
+    "it": "Armabianca",
+    "de": "Klingenkraft",
+    "es": "Tizona",
+    "ko": "도검"
+  },
   "varieties": [
     {
       "is_default": true,

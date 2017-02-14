@@ -9,9 +9,7 @@
   "hatch_counter": 35,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 82,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "quadruped"
   },
@@ -77,44 +71,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ブラッキー",
-      "language": "ja"
-    },
-    {
-      "name": "Blacky",
-      "language": "roomaji"
-    },
-    {
-      "name": "블래키",
-      "language": "ko"
-    },
-    {
-      "name": "月精靈",
-      "language": "zh"
-    },
-    {
-      "name": "Noctali",
-      "language": "fr"
-    },
-    {
-      "name": "Nachtara",
-      "language": "de"
-    },
-    {
-      "name": "Umbreon",
-      "language": "es"
-    },
-    {
-      "name": "Umbreon",
-      "language": "it"
-    },
-    {
-      "name": "Umbreon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ブラッキー",
+    "en": "Umbreon",
+    "fr": "Noctali",
+    "it": "Umbreon",
+    "de": "Nachtara",
+    "es": "Umbreon",
+    "ko": "블래키"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -125,36 +90,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "げっこう",
-      "language": "ja"
-    },
-    {
-      "genus": "달빛",
-      "language": "ko"
-    },
-    {
-      "genus": "Lune",
-      "language": "fr"
-    },
-    {
-      "genus": "Mondschein",
-      "language": "de"
-    },
-    {
-      "genus": "Luz Lunar",
-      "language": "es"
-    },
-    {
-      "genus": "Lucelunare",
-      "language": "it"
-    },
-    {
-      "genus": "Moonlight",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "げっこう",
+    "en": "Moonlight",
+    "fr": "Lune",
+    "it": "Lucelunare",
+    "de": "Mondschein",
+    "es": "Luz Lunar",
+    "ko": "달빛"
+  },
   "varieties": [
     {
       "is_default": true,

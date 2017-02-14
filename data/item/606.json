@@ -1,0 +1,42 @@
+{
+  "id": 606,
+  "name": "x-sp-atk-6",
+  "names": {
+    "ja": "ＳＰアップ６",
+    "kana": "スペシャルアップ６",
+    "en": "X Sp. Atk 6",
+    "fr": "Atq. Spé. 6",
+    "it": "Att. Sp. X-6",
+    "de": "X-Spezial6",
+    "es": "Especial X 6",
+    "ko": "스페셜업6",
+    "zh-CN": "特攻强化６",
+    "zh-TW": "特攻強化６"
+  },
+  "flavor_text_entries": {
+    "ja": "戦闘中の　ポケモンの 特攻を　ものすごく　あげる。 ひっこめると　元に　戻る。",
+    "kana": "せんとうちゅうの　ポケモンの とくこうを　ものすごく　あげる。 ひっこめると　もとに　もどる。",
+    "en": "It raises the Sp. Atk stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.",
+    "fr": "Augmente fortement l’Attaque Spéciale pendant un combat. L’effet s’estompe si le Pokémon est retiré.",
+    "it": "Aumenta incredibilmente l’Attacco Speciale di un Pokémon in una lotta. L’effetto svanisce se il Pokémon è sostituito.",
+    "de": "Hebt den Spezial-Angriffs-Wert eines Pokémon im Kampf enorm an. Die Wirkung endet mit dem Austausch des Pokémon.",
+    "es": "Aumenta mucho el Ataque Especial en combate. Al cambiar de Pokémon, el efecto desaparece.",
+    "ko": "배틀 중인 포켓몬의 특수공격을 엄청나게 올린다. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다.",
+    "zh-CN": "能极大提高战斗中 宝可梦的特攻。 离场后，效果便会消失。",
+    "zh-TW": "能極大幅提高戰鬥中 寶可夢的特攻。 離場後，效果便會復原。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "ja": "スペシャルアップ６",
+          "it": "Special X-6"
+        },
+        "flavor_text_entries": {
+          "fr": "Augmente fortement l’Attaque Spéciale pendant un combat. L’effet s’estompe si le Pokémon se retire."
+        }
+      }
+    }
+  ]
+}

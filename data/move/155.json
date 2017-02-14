@@ -2,59 +2,13 @@
   "id": 155,
   "name": "bonemerang",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 50,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "bone-club"
-        },
-        {
-          "name": "bone-rush"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "bone-club"
-        },
-        {
-          "name": "bone-rush"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Hits twice in one turn.",
-      "short_effect": "Hits twice in one turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": 2,
     "max_hits": 2,
     "min_turns": null,
@@ -66,43 +20,50 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Bonemerang",
-      "language": "en"
-    },
-    {
-      "name": "Ossomerang",
-      "language": "it"
-    },
-    {
-      "name": "Huesomerang",
-      "language": "es"
-    },
-    {
-      "name": "Knochmerang",
-      "language": "de"
-    },
-    {
-      "name": "Osmerang",
-      "language": "fr"
-    },
-    {
-      "name": "뼈다귀부메랑",
-      "language": "ko"
-    },
-    {
-      "name": "ホネブーメラン",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ホネブーメラン",
+    "kana": "ホネブーメラン",
+    "en": "Bonemerang",
+    "fr": "Osmerang",
+    "it": "Ossomerang",
+    "de": "Knochmerang",
+    "es": "Huesomerang",
+    "ko": "뼈다귀부메랑",
+    "zh-CN": "骨头回力镖",
+    "zh-TW": "骨頭回力鏢"
   },
-  "type": {
-    "name": "ground"
-  }
+  "flavor_text_entries": {
+    "ja": "手に　持った　ホネを　相手に　投げつけ 行きと　帰りの　２回連続で ダメージを　与える。",
+    "kana": "てに　もった　ホネを　あいてに　なげつけ いきと　かえりの　２かい　れんぞくで ダメージを　あたえる。",
+    "en": "The user throws the bone it holds. The bone loops around to hit the target twice—coming and going.",
+    "fr": "Le lanceur projette son os comme un boomerang. Cette attaque frappe à l’aller et au retour.",
+    "it": "Chi la usa lancia l’osso che ha con sé. L’osso colpisce due volte e ritorna come un vero e proprio boomerang.",
+    "de": "Ein Bumerang aus Knochen, der zweimal trifft.",
+    "es": "Lanza un hueso a modo de bumerán que golpea dos veces.",
+    "ko": "손에 들고 있는 뼈를 상대에게 날려서 날아갈 때와 돌아올 때 2회 연속 데미지를 준다.",
+    "zh-CN": "用手中的骨头投掷对手， 来回连续２次给予伤害。",
+    "zh-TW": "向對手投擲手中的骨頭， 來回連續２次給予傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ground",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "てに　もった　ホネを　あいてに　なげつけ いきと　かえりで　２かい　れんぞくで ダメージを　あたえる。",
+          "en": "The user throws the bone it holds. The bone loops to hit the target twice, coming and going."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa lancia l’osso che tiene. L’osso colpisce due volte e ritorna come un vero e proprio boomerang."
+        }
+      }
+    }
+  ]
 }

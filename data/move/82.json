@@ -2,62 +2,13 @@
   "id": 82,
   "name": "dragon-rage",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "dragon-breath"
-        },
-        {
-          "name": "dragon-claw"
-        },
-        {
-          "name": "dragon-dance"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "dragon-breath"
-        },
-        {
-          "name": "dragon-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts exactly 40 damage.",
-      "short_effect": "Inflicts 40 points of damage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -69,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Dragon Rage",
-      "language": "en"
-    },
-    {
-      "name": "Ira di Drago",
-      "language": "it"
-    },
-    {
-      "name": "Furia Dragón",
-      "language": "es"
-    },
-    {
-      "name": "Drachenwut",
-      "language": "de"
-    },
-    {
-      "name": "Draco-Rage",
-      "language": "fr"
-    },
-    {
-      "name": "용의분노",
-      "language": "ko"
-    },
-    {
-      "name": "りゅうのいかり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "りゅうのいかり",
+    "kana": "りゅうのいかり",
+    "en": "Dragon Rage",
+    "fr": "Draco-Rage",
+    "it": "Ira di Drago",
+    "de": "Drachenwut",
+    "es": "Furia Dragón",
+    "ko": "용의분노",
+    "zh-CN": "龙之怒",
+    "zh-TW": "龍之怒"
   },
-  "type": {
-    "name": "dragon"
-  }
+  "flavor_text_entries": {
+    "ja": "怒りの　衝撃波を 相手に　ぶつけて　攻撃する。 ４０の　ダメージを　決まって　与える。",
+    "kana": "いかりの　しょうげきはを あいてに　ぶつけて　こうげきする。 ４０の　ダメージを　きまって　あたえる。",
+    "en": "This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.",
+    "fr": "La colère du lanceur déclenche une onde de choc destructrice qui inflige toujours 40 PV de dégâts.",
+    "it": "Colpisce il bersaglio con un’onda d’urto generata dall’ira. Questo attacco provoca sempre un danno di 40 PS.",
+    "de": "Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.",
+    "es": "Ráfaga de furiosas ondas de choque que quitan 40 PS.",
+    "ko": "분노의 충격파를 상대에게 부딪쳐서 공격한다. 언제나 40의 데미지를 준다.",
+    "zh-CN": "将愤怒的冲击波 撞向对手进行攻击。 必定会给予４０的伤害。",
+    "zh-TW": "向對手發射憤怒的 衝擊波進行攻擊。 固定給予４０的傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dragon"
 }

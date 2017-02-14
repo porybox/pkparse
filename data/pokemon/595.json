@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 147,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "armor"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "バチュル",
-      "language": "ja"
-    },
-    {
-      "name": "파쪼옥",
-      "language": "ko"
-    },
-    {
-      "name": "Statitik",
-      "language": "fr"
-    },
-    {
-      "name": "Wattzapf",
-      "language": "de"
-    },
-    {
-      "name": "Joltik",
-      "language": "es"
-    },
-    {
-      "name": "Joltik",
-      "language": "it"
-    },
-    {
-      "name": "Joltik",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バチュル",
+    "en": "Joltik",
+    "fr": "Statitik",
+    "it": "Joltik",
+    "de": "Wattzapf",
+    "es": "Joltik",
+    "ko": "파쪼옥"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くっつき",
-      "language": "ja"
-    },
-    {
-      "genus": "들러붙기",
-      "language": "ko"
-    },
-    {
-      "genus": "Crampon",
-      "language": "fr"
-    },
-    {
-      "genus": "Kleben",
-      "language": "de"
-    },
-    {
-      "genus": "Lapa",
-      "language": "es"
-    },
-    {
-      "genus": "Appiccicante",
-      "language": "it"
-    },
-    {
-      "genus": "Attaching",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くっつき",
+    "en": "Attaching",
+    "fr": "Crampon",
+    "it": "Appiccicante",
+    "de": "Kleben",
+    "es": "Lapa",
+    "ko": "들러붙기"
+  },
   "varieties": [
     {
       "is_default": true,

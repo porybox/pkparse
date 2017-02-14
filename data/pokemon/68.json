@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 59,
@@ -69,13 +67,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "humanoid"
   },
@@ -89,44 +83,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "カイリキー",
-      "language": "ja"
-    },
-    {
-      "name": "Kairiky",
-      "language": "roomaji"
-    },
-    {
-      "name": "괴력몬",
-      "language": "ko"
-    },
-    {
-      "name": "怪力",
-      "language": "zh"
-    },
-    {
-      "name": "Mackogneur",
-      "language": "fr"
-    },
-    {
-      "name": "Machomei",
-      "language": "de"
-    },
-    {
-      "name": "Machamp",
-      "language": "es"
-    },
-    {
-      "name": "Machamp",
-      "language": "it"
-    },
-    {
-      "name": "Machamp",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カイリキー",
+    "en": "Machamp",
+    "fr": "Mackogneur",
+    "it": "Machamp",
+    "de": "Machomei",
+    "es": "Machamp",
+    "ko": "괴력몬"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -137,36 +102,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かいりき",
-      "language": "ja"
-    },
-    {
-      "genus": "괴력",
-      "language": "ko"
-    },
-    {
-      "genus": "Colosse",
-      "language": "fr"
-    },
-    {
-      "genus": "Kraftprotz",
-      "language": "de"
-    },
-    {
-      "genus": "Superpoder",
-      "language": "es"
-    },
-    {
-      "genus": "Megaforza",
-      "language": "it"
-    },
-    {
-      "genus": "Superpower",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かいりき",
+    "en": "Superpower",
+    "fr": "Colosse",
+    "it": "Megaforza",
+    "de": "Kraftprotz",
+    "es": "Superpoder",
+    "ko": "괴력"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,34 +2,13 @@
   "id": 475,
   "name": "autotomize",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Speed]{mechanic:speed} by two [stages]{mechanic:stage}.  Halves the user's weight; this effect does not stack.",
-      "short_effect": "Raises the user's Speed by two stages and halves the user's weight.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Autotomize",
-      "language": "en"
-    },
-    {
-      "name": "Sganciapesi",
-      "language": "it"
-    },
-    {
-      "name": "Aligerar",
-      "language": "es"
-    },
-    {
-      "name": "Autotomie",
-      "language": "de"
-    },
-    {
-      "name": "Allègement",
-      "language": "fr"
-    },
-    {
-      "name": "바디퍼지",
-      "language": "ko"
-    },
-    {
-      "name": "ボディパージ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ボディパージ",
+    "kana": "ボディパージ",
+    "en": "Autotomize",
+    "fr": "Allègement",
+    "it": "Sganciapesi",
+    "de": "Autotomie",
+    "es": "Aligerar",
+    "ko": "바디퍼지",
+    "zh-CN": "身体轻量化",
+    "zh-TW": "身體輕量化"
+  },
+  "flavor_text_entries": {
+    "ja": "体の　ムダな　部分を　削る。 自分の　素早さを　ぐーんと　あげて 体重も　軽くなる。",
+    "kana": "からだの　ムダな　ぶぶんを　けずる。 じぶんの　すばやさを　ぐーんと　あげて たいじゅうも　かるく　なる。",
+    "en": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat.",
+    "fr": "Le lanceur se débarrasse des parties inutiles de son corps. Son poids diminue et sa Vitesse augmente beaucoup.",
+    "it": "Chi la usa si libera di tutti i pesi in eccesso, alleggerendosi e aumentando di molto la propria Velocità.",
+    "de": "Anwender trennt sich von überflüssigen Körperteilen und erhöht seine Initiative stark. Sein Gewicht nimmt deutlich ab.",
+    "es": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar mucho su Velocidad.",
+    "ko": "몸의 쓸모없는 부분을 깎는다. 자신의 스피드를 크게 올리고 체중도 가벼워진다.",
+    "zh-CN": "削掉身体上没用的部分。 大幅提高自己的速度， 同时体重也会变轻。",
+    "zh-TW": "削去身體上多餘的部分。 以大幅提高自己的速度， 同時體重也會變輕。"
+  },
   "stat_changes": [
     {
       "change": 2,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "steel"
-  }
+  "target": "user",
+  "type": "steel",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur se débarrasse des parties inutiles de son corps. Son poids diminue et sa Vitesse augmente fortement.",
+          "de": "Anwender trennt sich von überflüssigen Körperteilen und steigert seine Initiative stark. Sein Gewicht nimmt deutlich ab.",
+          "es": "El usuario se sacude para hacerse más ligero y aumentar mucho su Velocidad."
+        }
+      }
+    }
+  ]
 }

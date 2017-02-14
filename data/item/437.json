@@ -1,0 +1,38 @@
+{
+  "id": 437,
+  "name": "pal-pad",
+  "names": {
+    "ja": "ともだちてちょう",
+    "kana": "ともだちてちょう",
+    "en": "Pal Pad",
+    "fr": "Registre Ami",
+    "it": "Blocco Amici",
+    "de": "Adressbuch",
+    "es": "Bloc amigos",
+    "ko": "친구수첩",
+    "zh-CN": "朋友手册",
+    "zh-TW": "朋友手冊"
+  },
+  "flavor_text_entries": {
+    "ja": "友達を　登録したり 遊んだことを　記録する 便利な　手帳。",
+    "kana": "ともだちを　とうろくしたり あそんだ　ことを　きろくする べんりな　てちょう。",
+    "en": "A convenient notepad that is used to register your Friends and friend codes and keep a record of your gameplay.",
+    "fr": "Un carnet bien pratique pour enregistrer vos amis, leurs codes ami et des données de jeu.",
+    "it": "Blocco appunti utile per registrare gli amici e il loro codice amico e per tenere un resoconto dell’esperienza di gioco.",
+    "de": "In diesem praktischen Buch kannst du die Freundescodes deiner Freunde aufbewahren.",
+    "es": "Un cuaderno muy práctico en el que puedes registrar amigos, claves de amigo, etc.",
+    "ko": "친구를 등록하거나 친구와 놀았던 기록을 관리하는 편리한 수첩.",
+    "zh-CN": "使用方便的手册。 可以添加朋友或 记录游戏的内容。",
+    "zh-TW": "好用的手冊。 可以新增朋友或 記錄遊戲的內容。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un carnet bien pratique pour enregistrer vos amis, les codes ami et des données de jeu."
+        }
+      }
+    }
+  ]
+}

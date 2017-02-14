@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 41,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    }
+    "water2"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ナマズン",
-      "language": "ja"
-    },
-    {
-      "name": "Namazun",
-      "language": "roomaji"
-    },
-    {
-      "name": "메깅",
-      "language": "ko"
-    },
-    {
-      "name": "鯰魚王",
-      "language": "zh"
-    },
-    {
-      "name": "Barbicha",
-      "language": "fr"
-    },
-    {
-      "name": "Welsar",
-      "language": "de"
-    },
-    {
-      "name": "Whiscash",
-      "language": "es"
-    },
-    {
-      "name": "Whiscash",
-      "language": "it"
-    },
-    {
-      "name": "Whiscash",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ナマズン",
+    "en": "Whiscash",
+    "fr": "Barbicha",
+    "it": "Whiscash",
+    "de": "Welsar",
+    "es": "Whiscash",
+    "ko": "메깅"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひげうお",
-      "language": "ja"
-    },
-    {
-      "genus": "수염물고기",
-      "language": "ko"
-    },
-    {
-      "genus": "Barbillon",
-      "language": "fr"
-    },
-    {
-      "genus": "Barthaar",
-      "language": "de"
-    },
-    {
-      "genus": "Bigotudo",
-      "language": "es"
-    },
-    {
-      "genus": "Baffetti",
-      "language": "it"
-    },
-    {
-      "genus": "Whiskers",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひげうお",
+    "en": "Whiskers",
+    "fr": "Barbillon",
+    "it": "Baffetti",
+    "de": "Barthaar",
+    "es": "Bigotudo",
+    "ko": "수염물고기"
+  },
   "varieties": [
     {
       "is_default": true,

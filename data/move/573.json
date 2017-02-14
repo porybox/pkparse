@@ -2,34 +2,13 @@
   "id": 573,
   "name": "freeze-dry",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 20,
   "priority": 0,
   "power": 70,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Deals regular damage.  This move is super-effective against the []{type:water} type.\n\nThe target's other type will affect damage as usual.  If this move's type is changed, it remains super-effective against Water regardless of its type.",
-      "short_effect": "Super-effective against []{type:water}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "freeze"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "freeze",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Freeze-Dry",
-      "language": "en"
-    },
-    {
-      "name": "Liofilizzazione",
-      "language": "it"
-    },
-    {
-      "name": "Liofilización",
-      "language": "es"
-    },
-    {
-      "name": "Gefriertrockner",
-      "language": "de"
-    },
-    {
-      "name": "Lyophilisation",
-      "language": "fr"
-    },
-    {
-      "name": "프리즈드라이",
-      "language": "ko"
-    },
-    {
-      "name": "フリーズドライ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "フリーズドライ",
+    "kana": "フリーズドライ",
+    "en": "Freeze-Dry",
+    "fr": "Lyophilisation",
+    "it": "Liofilizzazione",
+    "de": "Gefriertrockner",
+    "es": "Liofilización",
+    "ko": "프리즈드라이",
+    "zh-CN": "冷冻干燥",
+    "zh-TW": "冷凍乾燥"
   },
-  "type": {
-    "name": "ice"
-  }
+  "flavor_text_entries": {
+    "ja": "相手を　急激に　冷やして こおり　状態に　することが　ある。 みずタイプにも　効果バツグンになる。",
+    "kana": "あいてを　きゅうげきに　ひやして こおり　じょうたいに　することが　ある。 みずタイプにも　こうかばつぐんに　なる。",
+    "en": "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types.",
+    "fr": "Refroidit violemment l’ennemi et peut le geler. Super efficace sur les Pokémon de type Eau.",
+    "it": "Chi la usa raffredda istantaneamente il bersaglio e può congelarlo. Risulta superefficace contro i Pokémon di tipo Acqua.",
+    "de": "Das Ziel wird stark abgekühlt und manchmal sogar eingefroren. Die Attacke ist sehr effektiv gegen Wasser-Pokémon.",
+    "es": "Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.",
+    "ko": "상대를 급격히 차갑게 하여 얼음 상태로 만들 때가 있다. 물타입 포켓몬에게도 효과가 굉장해진다.",
+    "zh-CN": "急剧冷冻对手， 有时会让对手陷入冰冻状态。 对于水属性宝可梦也是效果绝佳。",
+    "zh-TW": "急速冷凍對手， 有時會讓對手陷入冰凍狀態。 對水屬性寶可夢也是效果絕佳。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ice",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手を　急激に　冷やして こおり　状態に　することが　ある。 みずタイプにも　効果抜群になる。"
+        }
+      }
+    }
+  ]
 }

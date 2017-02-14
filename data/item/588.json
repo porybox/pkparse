@@ -1,0 +1,40 @@
+{
+  "id": 588,
+  "name": "relic-band",
+  "names": {
+    "ja": "こだいのうでわ",
+    "kana": "こだいのうでわ",
+    "en": "Relic Band",
+    "fr": "Vieux Bijou",
+    "it": "Bracciantico",
+    "de": "Alter Reif",
+    "es": "Brazal",
+    "ko": "고대의팔찌",
+    "zh-CN": "古代手镯",
+    "zh-TW": "古代手鐲"
+  },
+  "flavor_text_entries": {
+    "ja": "３０００年ほど　昔の 文明で　つくられた　腕輪。",
+    "kana": "３０００ねんほど　むかしの ぶんめいで　つくられた　うでわ。",
+    "en": "A heavy bracelet made by an ancient civilization about 3,000 years ago.",
+    "fr": "Un bijou d’une civilisation vieille de plus de 3 000 ans.",
+    "it": "Braccialetto forgiato circa 3.000 anni fa da un’antica civiltà.",
+    "de": "Ein Armreif, angefertigt von einer gut 3 000 Jahre alten Kultur.",
+    "es": "Brazalete de más de 3000 años de antigüedad.",
+    "ko": "3000년 정도 된 오랜 문명에서 만들어진 팔찌.",
+    "zh-CN": "约３０００年前的 文明制造的手镯。",
+    "zh-TW": "距今約３０００年前的 文明裡製造的手鐲。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Braccialetto forgiato circa 3000 anni fa da un’antica civiltà.",
+          "de": "Ein Armreif, angefertigt von einer gut 3 000 Jahre alten Kultur.",
+          "es": "Brazalete de más de 3000 años de antigüedad. Muy valorado por los coleccionistas."
+        }
+      }
+    }
+  ]
+}

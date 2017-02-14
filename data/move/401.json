@@ -2,36 +2,13 @@
   "id": 401,
   "name": "aqua-tail",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Aqua Tail",
-      "language": "en"
-    },
-    {
-      "name": "Idrondata",
-      "language": "it"
-    },
-    {
-      "name": "Acua Cola",
-      "language": "es"
-    },
-    {
-      "name": "Nassschweif",
-      "language": "de"
-    },
-    {
-      "name": "Hydroqueue",
-      "language": "fr"
-    },
-    {
-      "name": "아쿠아테일",
-      "language": "ko"
-    },
-    {
-      "name": "アクアテール",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "アクアテール",
+    "kana": "アクアテール",
+    "en": "Aqua Tail",
+    "fr": "Hydroqueue",
+    "it": "Idrondata",
+    "de": "Nassschweif",
+    "es": "Acua Cola",
+    "ko": "아쿠아테일",
+    "zh-CN": "水流尾",
+    "zh-TW": "水流尾"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "激しく　あれくるう　荒波の　ように 大きな　しっぽを　ふって 相手を　攻撃する。",
+    "kana": "はげしく　あれくるう　あらなみの　ように おおきな　しっぽを　ふって あいてを　こうげきする。",
+    "en": "The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",
+    "fr": "Le lanceur attaque en balançant sa queue comme une lame de fond en pleine tempête.",
+    "it": "Chi la usa attacca agitando la coda come se fosse una violenta ondata in una tempesta furiosa.",
+    "de": "Anwender attackiert mit dem Schweif, als ob dieser eine brutale Welle in einem tosenden Sturm sei.",
+    "es": "Ataca agitando la cola como si fuera una ola rabiosa en una tormenta devastadora.",
+    "ko": "세차게 날뛰는 거친 파도와 같이 큰 꼬리를 흔들어서 상대를 공격한다.",
+    "zh-CN": "如惊涛骇浪般挥动 大尾巴攻击对手。",
+    "zh-TW": "如驚濤駭浪般地甩動 大尾巴攻擊對手。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water"
 }

@@ -1,0 +1,50 @@
+{
+  "id": 643,
+  "name": "hydro-vortex",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "スーパーアクアトルネード",
+    "kana": "スーパーアクアトルネード",
+    "en": "Hydro Vortex",
+    "fr": "Super Tourbillon Abyssal",
+    "it": "Idrovortice Abissale",
+    "de": "Super-Wassertornado",
+    "es": "Hidrovórtice Abisal",
+    "ko": "슈퍼아쿠아토네이도",
+    "zh-CN": "超级水流大漩涡",
+    "zh-TW": "超級水流大漩渦"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water"
+}

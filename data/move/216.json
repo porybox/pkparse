@@ -2,36 +2,13 @@
   "id": 216,
   "name": "return",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power increases with [happiness]{mechanic:happiness}, given by `happiness * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.",
-      "short_effect": "Power increases with happiness, up to a maximum of 102.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Return",
-      "language": "en"
-    },
-    {
-      "name": "Ritorno",
-      "language": "it"
-    },
-    {
-      "name": "Retribución",
-      "language": "es"
-    },
-    {
-      "name": "Rückkehr",
-      "language": "de"
-    },
-    {
-      "name": "Retour",
-      "language": "fr"
-    },
-    {
-      "name": "은혜갚기",
-      "language": "ko"
-    },
-    {
-      "name": "おんがえし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "おんがえし",
+    "kana": "おんがえし",
+    "en": "Return",
+    "fr": "Retour",
+    "it": "Ritorno",
+    "de": "Rückkehr",
+    "es": "Retribución",
+    "ko": "은혜갚기",
+    "zh-CN": "报恩",
+    "zh-TW": "報恩"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "トレーナーの　ために　全力で 相手を　攻撃する。 なついているほど　威力は　あがる。",
+    "kana": "トレーナーの　ために　ぜんりょくで あいてを　こうげきする。 なついて　いるほど　いりょくは　あがる。",
+    "en": "This full-power attack grows more powerful the more the user likes its Trainer.",
+    "fr": "Plus le Pokémon apprécie son Dresseur, plus la puissance de cette attaque furieuse augmente.",
+    "it": "Mossa che diventa tanto più potente quanto maggiore è il grado di affezione del Pokémon per il proprio Allenatore.",
+    "de": "Die Attacke wird stärker, je mehr der Anwender seinen Trainer mag.",
+    "es": "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque.",
+    "ko": "트레이너를 위해 전력으로 상대를 공격한다. 친밀할수록 위력이 올라간다.",
+    "zh-CN": "为了训练家而 全力攻击对手。 亲密度越高，威力越大。",
+    "zh-TW": "為了訓練家而 全力攻擊對手。 親密度越高，威力越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A full-power attack that grows more powerful the more the user likes its Trainer.",
+          "de": "Angriff, dessen Kraft bei Freundschaft zum Trainer größer wird."
+        }
+      }
+    }
+  ]
 }

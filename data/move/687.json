@@ -1,0 +1,50 @@
+{
+  "id": 687,
+  "name": "core-enforcer",
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "power": 100,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "コアパニッシャー",
+    "kana": "コアパニッシャー",
+    "en": "Core Enforcer",
+    "fr": "Sanction Suprême",
+    "it": "Nucleocastigo",
+    "de": "Sanktionskern",
+    "es": "Núcleo Castigo",
+    "ko": "코어퍼니셔",
+    "zh-CN": "核心惩罚者",
+    "zh-TW": "核心懲罰者"
+  },
+  "flavor_text_entries": {
+    "ja": "ダメージを　与えた　相手が すでに　行動を　終えていたら 相手の　特性を　消してしまう。",
+    "kana": "ダメージを　あたえた　あいてが すでに　こうどうを　おえて　いたら あいての　とくせいを　けして　しまう。",
+    "en": "If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target’s Ability.",
+    "fr": "La cible subit des dégâts et, si elle a déjà agi à ce tour, elle perd aussi son talent.",
+    "it": "Il bersaglio subisce dei danni e, se ha già agito nel turno, perde la sua abilità.",
+    "de": "Hat das Pokémon, das durch diese Attacke Schaden genommen hat, in dieser Runde bereits gehandelt, verliert es seine Fähigkeit.",
+    "es": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad.",
+    "ko": "데미지를 준 상대가 이미 행동을 끝냈다면 상대의 특성을 없애버린다.",
+    "zh-CN": "如果给予过伤害的对手 已经结束行动， 其特性就会被消除。",
+    "zh-TW": "如果攻擊的對手在該回合 已經結束行動， 對手的特性就會被消除。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "dragon"
+}

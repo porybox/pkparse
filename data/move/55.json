@@ -2,55 +2,13 @@
   "id": 55,
   "name": "water-gun",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 25,
   "priority": 0,
   "power": 40,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rain-dance"
-        },
-        {
-          "name": "mud-sport"
-        },
-        {
-          "name": "water-sport"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -62,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Water Gun",
-      "language": "en"
-    },
-    {
-      "name": "Pistolacqua",
-      "language": "it"
-    },
-    {
-      "name": "Pistola Agua",
-      "language": "es"
-    },
-    {
-      "name": "Aquaknarre",
-      "language": "de"
-    },
-    {
-      "name": "Pistolet à O",
-      "language": "fr"
-    },
-    {
-      "name": "물대포",
-      "language": "ko"
-    },
-    {
-      "name": "みずでっぽう",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "みずでっぽう",
+    "kana": "みずでっぽう",
+    "en": "Water Gun",
+    "fr": "Pistolet à O",
+    "it": "Pistolacqua",
+    "de": "Aquaknarre",
+    "es": "Pistola Agua",
+    "ko": "물대포",
+    "zh-CN": "水枪",
+    "zh-TW": "水槍"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "水を　勢いよく 相手に　発射して　攻撃する。",
+    "kana": "みずを　いきおいよく あいてに　はっしゃして　こうげきする。",
+    "en": "The target is blasted with a forceful shot of water.",
+    "fr": "De l’eau est projetée avec force sur l’ennemi.",
+    "it": "Il bersaglio è colpito da un potente getto d’acqua.",
+    "de": "Das Ziel wird mit Wasser bespritzt.",
+    "es": "Ataca disparando agua con gran potencia.",
+    "ko": "물을 기세 좋게 상대에게 발사하여 공격한다.",
+    "zh-CN": "向对手猛烈地喷射 水流进行攻击。",
+    "zh-TW": "向對手噴射 強烈水流進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "De l’eau est projetée en arc de cercle sur l’ennemi."
+        }
+      }
+    }
+  ]
 }

@@ -1,0 +1,39 @@
+{
+  "id": 389,
+  "name": "tm62",
+  "names": {
+    "ja": "わざマシン６２",
+    "kana": "わざマシン６２",
+    "en": "TM62",
+    "fr": "CT62",
+    "it": "MT62",
+    "de": "TM62",
+    "es": "MT62",
+    "ko": "기술머신62",
+    "zh-CN": "招式学习器６２",
+    "zh-TW": "招式學習器６２"
+  },
+  "flavor_text_entries": {
+    "ja": "軽やかに　相手を　攻撃する。 自分が　道具を　持っていないとき 大きな　ダメージを　与える。",
+    "kana": "かろやかに　あいてを　こうげきする。 じぶんが　どうぐを　もっていない　とき おおきな　ダメージを　あたえる。",
+    "en": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
+    "fr": "Attaque agile. Si le lanceur ne tient pas d’objet, l’attaque inflige davantage de dégâts.",
+    "it": "Attacca rapidamente il bersaglio. Se chi la usa non ha uno strumento, infligge al nemico grossi danni.",
+    "de": "Ein graziler Angriff auf das Ziel. Trägt der Anwender kein Item bei sich, richtet die Attacke großen Schaden an.",
+    "es": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+    "ko": "경쾌하게 상대를 공격한다. 자신이 도구를 지니고 있지 않을 때 큰 데미지를 준다.",
+    "zh-CN": "轻巧地攻击对手。 自己没有携带道具时， 会给予较大的伤害。",
+    "zh-TW": "輕巧地攻擊對手。 自己沒有攜帶道具時， 能給予對手較大的傷害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "かろやかに　あいてを　こうげきする。 じぶんが　どうぐを　もっていないと おおきな　ダメージを　あたえる。",
+          "es": "Quien lo usa realiza un ataque rápido que aumenta de potencia si el atacante no lleva ningún objeto."
+        }
+      }
+    }
+  ]
+}

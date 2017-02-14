@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 33,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ヒヤップ",
-      "language": "ja"
-    },
-    {
-      "name": "앗차프",
-      "language": "ko"
-    },
-    {
-      "name": "Flotajou",
-      "language": "fr"
-    },
-    {
-      "name": "Sodamak",
-      "language": "de"
-    },
-    {
-      "name": "Panpour",
-      "language": "es"
-    },
-    {
-      "name": "Panpour",
-      "language": "it"
-    },
-    {
-      "name": "Panpour",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒヤップ",
+    "en": "Panpour",
+    "fr": "Flotajou",
+    "it": "Panpour",
+    "de": "Sodamak",
+    "es": "Panpour",
+    "ko": "앗차프"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みずかけ",
-      "language": "ja"
-    },
-    {
-      "genus": "물뿌리기",
-      "language": "ko"
-    },
-    {
-      "genus": "Jet d'Eau",
-      "language": "fr"
-    },
-    {
-      "genus": "Wasserstrahl",
-      "language": "de"
-    },
-    {
-      "genus": "Salpicadura",
-      "language": "es"
-    },
-    {
-      "genus": "Annaffiatore",
-      "language": "it"
-    },
-    {
-      "genus": "Spray",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みずかけ",
+    "en": "Spray",
+    "fr": "Jet d’Eau",
+    "it": "Annaffiatore",
+    "de": "Wasserstrahl",
+    "es": "Salpicadura",
+    "ko": "물뿌리기"
+  },
   "varieties": [
     {
       "is_default": true,

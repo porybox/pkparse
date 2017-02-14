@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 141,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    }
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "ball"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "パールル",
-      "language": "ja"
-    },
-    {
-      "name": "Pearlulu",
-      "language": "roomaji"
-    },
-    {
-      "name": "진주몽",
-      "language": "ko"
-    },
-    {
-      "name": "珍珠貝",
-      "language": "zh"
-    },
-    {
-      "name": "Coquiperl",
-      "language": "fr"
-    },
-    {
-      "name": "Perlu",
-      "language": "de"
-    },
-    {
-      "name": "Clamperl",
-      "language": "es"
-    },
-    {
-      "name": "Clamperl",
-      "language": "it"
-    },
-    {
-      "name": "Clamperl",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "パールル",
+    "en": "Clamperl",
+    "fr": "Coquiperl",
+    "it": "Clamperl",
+    "de": "Perlu",
+    "es": "Clamperl",
+    "ko": "진주몽"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "２まいがい",
-      "language": "ja"
-    },
-    {
-      "genus": "두조개",
-      "language": "ko"
-    },
-    {
-      "genus": "Bivalve",
-      "language": "fr"
-    },
-    {
-      "genus": "Muschel",
-      "language": "de"
-    },
-    {
-      "genus": "Bivalvo",
-      "language": "es"
-    },
-    {
-      "genus": "Bivalve",
-      "language": "it"
-    },
-    {
-      "genus": "Bivalve",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "２まいがい",
+    "en": "Bivalve",
+    "fr": "Bivalve",
+    "it": "Bivalve",
+    "de": "Muschel",
+    "es": "Bivalvo",
+    "ko": "두조개"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 248,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ロコン",
-      "language": "ja"
-    },
-    {
-      "name": "Rokon",
-      "language": "roomaji"
-    },
-    {
-      "name": "식스테일",
-      "language": "ko"
-    },
-    {
-      "name": "六尾",
-      "language": "zh"
-    },
-    {
-      "name": "Goupix",
-      "language": "fr"
-    },
-    {
-      "name": "Vulpix",
-      "language": "de"
-    },
-    {
-      "name": "Vulpix",
-      "language": "es"
-    },
-    {
-      "name": "Vulpix",
-      "language": "it"
-    },
-    {
-      "name": "Vulpix",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ロコン",
+    "en": "Vulpix",
+    "fr": "Goupix",
+    "it": "Vulpix",
+    "de": "Vulpix",
+    "es": "Vulpix",
+    "ko": "식스테일"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きつね",
-      "language": "ja"
-    },
-    {
-      "genus": "여우",
-      "language": "ko"
-    },
-    {
-      "genus": "Renard",
-      "language": "fr"
-    },
-    {
-      "genus": "Fuchs",
-      "language": "de"
-    },
-    {
-      "genus": "Zorro",
-      "language": "es"
-    },
-    {
-      "genus": "Volpe",
-      "language": "it"
-    },
-    {
-      "genus": "Fox",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きつね",
+    "en": "Fox",
+    "fr": "Renard",
+    "it": "Volpe",
+    "de": "Fuchs",
+    "es": "Zorro",
+    "ko": "여우"
+  },
   "varieties": [
     {
       "is_default": true,

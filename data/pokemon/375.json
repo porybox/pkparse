@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 83,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "arms"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "メタング",
-      "language": "ja"
-    },
-    {
-      "name": "Metang",
-      "language": "roomaji"
-    },
-    {
-      "name": "메탕구",
-      "language": "ko"
-    },
-    {
-      "name": "金屬怪",
-      "language": "zh"
-    },
-    {
-      "name": "Métang",
-      "language": "fr"
-    },
-    {
-      "name": "Metang",
-      "language": "de"
-    },
-    {
-      "name": "Metang",
-      "language": "es"
-    },
-    {
-      "name": "Metang",
-      "language": "it"
-    },
-    {
-      "name": "Metang",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "メタング",
+    "en": "Metang",
+    "fr": "Métang",
+    "it": "Metang",
+    "de": "Metang",
+    "es": "Metang",
+    "ko": "메탕구"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "てつツメ",
-      "language": "ja"
-    },
-    {
-      "genus": "철발톱",
-      "language": "ko"
-    },
-    {
-      "genus": "Pincefer",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisenklaue",
-      "language": "de"
-    },
-    {
-      "genus": "Garrahierro",
-      "language": "es"
-    },
-    {
-      "genus": "Ferrunghia",
-      "language": "it"
-    },
-    {
-      "genus": "Iron Claw",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "てつツメ",
+    "en": "Iron Claw",
+    "fr": "Pincefer",
+    "it": "Ferrunghia",
+    "de": "Eisenklaue",
+    "es": "Garra Hierro",
+    "ko": "철발톱"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 77,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "wings"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ビークイン",
-      "language": "ja"
-    },
-    {
-      "name": "Beequeen",
-      "language": "roomaji"
-    },
-    {
-      "name": "비퀸",
-      "language": "ko"
-    },
-    {
-      "name": "蜂后",
-      "language": "zh"
-    },
-    {
-      "name": "Apireine",
-      "language": "fr"
-    },
-    {
-      "name": "Honweisel",
-      "language": "de"
-    },
-    {
-      "name": "Vespiquen",
-      "language": "es"
-    },
-    {
-      "name": "Vespiquen",
-      "language": "it"
-    },
-    {
-      "name": "Vespiquen",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ビークイン",
+    "en": "Vespiquen",
+    "fr": "Apireine",
+    "it": "Vespiquen",
+    "de": "Honweisel",
+    "es": "Vespiquen",
+    "ko": "비퀸"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はちのす",
-      "language": "ja"
-    },
-    {
-      "genus": "벌집",
-      "language": "ko"
-    },
-    {
-      "genus": "Ruche",
-      "language": "fr"
-    },
-    {
-      "genus": "Bienenstock",
-      "language": "de"
-    },
-    {
-      "genus": "Colmena",
-      "language": "es"
-    },
-    {
-      "genus": "Alveare",
-      "language": "it"
-    },
-    {
-      "genus": "Beehive",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はちのす",
+    "en": "Beehive",
+    "fr": "Ruche",
+    "it": "Alveare",
+    "de": "Bienenstock",
+    "es": "Colmena",
+    "ko": "벌집"
+  },
   "varieties": [
     {
       "is_default": true,

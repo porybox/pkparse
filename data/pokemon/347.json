@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 171,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "armor"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "アノプス",
-      "language": "ja"
-    },
-    {
-      "name": "Anopth",
-      "language": "roomaji"
-    },
-    {
-      "name": "아노딥스",
-      "language": "ko"
-    },
-    {
-      "name": "太古羽蟲",
-      "language": "zh"
-    },
-    {
-      "name": "Anorith",
-      "language": "fr"
-    },
-    {
-      "name": "Anorith",
-      "language": "de"
-    },
-    {
-      "name": "Anorith",
-      "language": "es"
-    },
-    {
-      "name": "Anorith",
-      "language": "it"
-    },
-    {
-      "name": "Anorith",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アノプス",
+    "en": "Anorith",
+    "fr": "Anorith",
+    "it": "Anorith",
+    "de": "Anorith",
+    "es": "Anorith",
+    "ko": "아노딥스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "むかしエビ",
-      "language": "ja"
-    },
-    {
-      "genus": "고대새우",
-      "language": "ko"
-    },
-    {
-      "genus": "Crustage",
-      "language": "fr"
-    },
-    {
-      "genus": "Krebssenior",
-      "language": "de"
-    },
-    {
-      "genus": "Camarón",
-      "language": "es"
-    },
-    {
-      "genus": "Primaceo",
-      "language": "it"
-    },
-    {
-      "genus": "Old Shrimp",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "むかしエビ",
+    "en": "Old Shrimp",
+    "fr": "Crustage",
+    "it": "Primaceo",
+    "de": "Urgarnele",
+    "es": "Camarón",
+    "ko": "고대새우"
+  },
   "varieties": [
     {
       "is_default": true,

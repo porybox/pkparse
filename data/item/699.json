@@ -1,0 +1,38 @@
+{
+  "id": 699,
+  "name": "discount-coupon",
+  "names": {
+    "ja": "バーゲンチケット",
+    "kana": "バーゲンチケット",
+    "en": "Discount Coupon",
+    "fr": "Bon Réduction",
+    "it": "Buono sconto",
+    "de": "Rabattmarke",
+    "es": "Vale Descuento",
+    "ko": "바겐세일티켓",
+    "zh-CN": "折价券",
+    "zh-TW": "折價券"
+  },
+  "flavor_text_entries": {
+    "ja": "ブティックで　アイテムを　買うとき いつもより　安くなる　チケット。",
+    "kana": "ブティックで　アイテムを　かうとき いつもより　やすくなる　チケット。",
+    "en": "This special coupon allows you to buy items at a discount when you are shopping at a boutique.",
+    "fr": "Un ticket donnant droit à une réduction dans les boutiques de vêtements.",
+    "it": "Buono che permette di avere uno sconto sugli acquisti nei negozi di abbigliamento.",
+    "de": "Ein Coupon, mit dem du in Boutiquen günstiger einkaufen kannst.",
+    "es": "Con este vale te harán jugosos descuentos cuando vayas de compras a una Boutique.",
+    "ko": "부티크에서 아이템을 살 때 평소보다 저렴해지는 티켓.",
+    "zh-CN": "在时装店买道具时， 能以比平时更低的 价格购买的券。",
+    "zh-TW": "在時裝店買物品時， 能以比平時更低的 價格購買的券。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Con este vale te harán jugosos descuentos cuando vayas de compras a una boutique."
+        }
+      }
+    }
+  ]
+}

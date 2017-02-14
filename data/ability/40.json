@@ -1,201 +1,44 @@
 {
   "id": 40,
   "name": "magma-armor",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "マグマのよろい",
+    "kana": "マグマのよろい",
+    "en": "Magma Armor",
+    "fr": "Armumagma",
+    "it": "Magmascudo",
+    "de": "Magmapanzer",
+    "es": "Escudo Magma",
+    "ko": "마그마의무장",
+    "zh-CN": "熔岩铠甲",
+    "zh-TW": "熔岩鎧甲"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "熱い　マグマを　身にまとい こおり状態に　ならない。",
+    "kana": "あつい　マグマを　みにまとい こおり　じょうたいに　ならない。",
+    "en": "The Pokémon is covered with hot magma, which prevents the Pokémon from becoming frozen.",
+    "fr": "Le magma qui recouvre le corps du Pokémon le protège contre le gel.",
+    "it": "Il magma riveste il corpo del Pokémon impedendogli di venire congelato.",
+    "de": "Dank eines Panzers aus Magma kann dieses Pokémon nicht eingefroren werden.",
+    "es": "Gracias al magma candente que lo envuelve, evita la congelación.",
+    "ko": "뜨거운 마그마를 몸에 둘러서 얼음 상태가 되지 않는다.",
+    "zh-CN": "将炽热的熔岩覆盖在身上， 不会变为冰冻状态。",
+    "zh-TW": "將熾熱的熔岩覆蓋在身上， 不會陷入冰凍狀態。"
+  },
+  "past_values": [
     {
-      "name": "Magma Armor",
-      "language": "en"
-    },
-    {
-      "name": "Magmascudo",
-      "language": "it"
-    },
-    {
-      "name": "Escudo Magma",
-      "language": "es"
-    },
-    {
-      "name": "Magmapanzer",
-      "language": "de"
-    },
-    {
-      "name": "Armumagma",
-      "language": "fr"
-    },
-    {
-      "name": "마그마의무장",
-      "language": "ko"
-    },
-    {
-      "name": "マグマのよろい",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon cannot be [frozen]{mechanic:freezing}.\n\nIf a Pokémon is frozen and acquires this ability, it will immediately thaw out; this includes when regaining a lost ability upon leaving battle.\n\nOverworld: If any Pokémon in the party has this ability, each egg in the party has its [hatch counter]{mechanic:hatch-counter} decreased by 2 (rather than 1) each [step cycle]{mechanic:step-cycle}, making eggs hatch roughly twice as quickly.  This effect does not stack if multiple Pokémon have this ability or []{ability:flame-body}.",
-      "short_effect": "Prevents [freezing]{mechanic:freezing}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "emerald"
-      },
-      "effect_entries": [
-        {
-          "effect": "Has no overworld effect.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "こおり状態に ならない。",
+          "kana": "こおり　じょうたいに ならない。",
+          "en": "Prevents the Pokémon from becoming frozen.",
+          "fr": "Protège le Pokémon contre le gel.",
+          "it": "Evita che il Pokémon venga congelato.",
+          "de": "Verhindert Einfrieren.",
+          "es": "Evita la congelación.",
+          "ko": "얼음 상태가 되지 않는다."
         }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "こおり状態に\nならない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom becoming frozen.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Evita che il Pokémon\nvenga congelato.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Evita la congelación.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Verhindert Einfrieren.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Protège le Pokémon contre le\ngel.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "얼음 상태가\n되지 않는다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "こおり　じょうたいに\nならない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom becoming frozen.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom becoming frozen.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Protège le Pokémon\ncontre le gel.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom becoming frozen.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom becoming frozen.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom becoming frozen.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents freezing.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents freezing.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents freezing.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "slugma"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "magcargo"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "camerupt"
       }
     }
   ]

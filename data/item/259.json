@@ -1,0 +1,38 @@
+{
+  "id": 259,
+  "name": "stick",
+  "names": {
+    "ja": "ながねぎ",
+    "kana": "ながねぎ",
+    "en": "Stick",
+    "fr": "Bâton",
+    "it": "Gambo",
+    "de": "Lauchstange",
+    "es": "Palo",
+    "ko": "대파",
+    "zh-CN": "大葱",
+    "zh-TW": "大蔥"
+  },
+  "flavor_text_entries": {
+    "ja": "とても　長くて　硬い　クキ。 カモネギに　持たせると　技が 急所に　当たりやすくなる。",
+    "kana": "とても　ながくて　かたい　クキ。 カモネギに　もたせると　わざが きゅうしょに　あたりやすくなる。",
+    "en": "An item to be held by Farfetch’d. This very long and stiff stalk of leek boosts its critical-hit ratio.",
+    "fr": "Objet à faire tenir à Canarticho. Un poireau très long et solide qui augmente son taux de critique.",
+    "it": "Strumento da dare a Farfetch’d. Lungo gambo di porro che aumenta molto la probabilità di sferrare brutti colpi.",
+    "de": "Ein Item, das von Porenta getragen werden kann. Diese lange Lauchstange erhöht die Volltrefferquote stark.",
+    "es": "Es un puerro muy largo que debe llevar Farfetch’d. Aumenta mucho la probabilidad de que logre un golpe crítico.",
+    "ko": "매우 길고 단단한 줄기. 파오리에게 지니게 하면 기술이 급소에 맞기 쉬워진다.",
+    "zh-CN": "非常长且坚硬的茎。 让大葱鸭携带后， 招式会变得容易击中要害。",
+    "zh-TW": "非常長且堅硬的莖。 讓大蔥鴨攜帶後，招式會 變得容易擊中要害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Objet à faire tenir à Canarticho. Un poireau très long et solide qui augmente son taux de critiques."
+        }
+      }
+    }
+  ]
+}

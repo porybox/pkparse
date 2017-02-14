@@ -1,0 +1,38 @@
+{
+  "id": 479,
+  "name": "lost-item",
+  "names": {
+    "ja": "おとしもの",
+    "kana": "おとしもの",
+    "en": "Lost Item",
+    "fr": "Objet perdu",
+    "it": "Strumento perso",
+    "de": "Fundsache",
+    "es": "Objeto Perdido",
+    "ko": "분실물",
+    "zh-CN": "遗失物",
+    "zh-TW": "遺失物"
+  },
+  "flavor_text_entries": {
+    "ja": "モノマネ娘が　なくした マネネの　人形。",
+    "kana": "モノマネむすめが　なくした マネネの　にんぎょう。",
+    "en": "The Mime Jr. doll that was lost by the Copycat.",
+    "fr": "La Poupée Mime Jr. perdue par la Copieuse.",
+    "it": "Pupazzo raffigurante Mime Jr. smarrito da Copiona.",
+    "de": "Eine Pantimimi-Puppe, welche die Nachahmerin verloren hat.",
+    "es": "El muñeco Mime Jr. que perdió la Copiona.",
+    "ko": "흉내내기 아가씨가 잃어버린 흉내내인형.",
+    "zh-CN": "模仿少女丢失的 魔尼尼人偶。",
+    "zh-TW": "模仿少女丟失的 魔尼尼人偶。"
+  },
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Poké Bambola raffigurante Mime Jr. smarrita da Copiona."
+        }
+      }
+    }
+  ]
+}

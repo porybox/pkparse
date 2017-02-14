@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 256,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "セレビィ",
-      "language": "ja"
-    },
-    {
-      "name": "Celebi",
-      "language": "roomaji"
-    },
-    {
-      "name": "세레비",
-      "language": "ko"
-    },
-    {
-      "name": "雪拉比",
-      "language": "zh"
-    },
-    {
-      "name": "Celebi",
-      "language": "fr"
-    },
-    {
-      "name": "Celebi",
-      "language": "de"
-    },
-    {
-      "name": "Celebi",
-      "language": "es"
-    },
-    {
-      "name": "Celebi",
-      "language": "it"
-    },
-    {
-      "name": "Celebi",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "セレビィ",
+    "en": "Celebi",
+    "fr": "Celebi",
+    "it": "Celebi",
+    "de": "Celebi",
+    "es": "Celebi",
+    "ko": "세레비"
+  },
   "pal_park_encounters": [
     {
       "base_score": 100,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ときわたり",
-      "language": "ja"
-    },
-    {
-      "genus": "시간이동",
-      "language": "ko"
-    },
-    {
-      "genus": "Temporel",
-      "language": "fr"
-    },
-    {
-      "genus": "Zeitreise",
-      "language": "de"
-    },
-    {
-      "genus": "Viajetiempo",
-      "language": "es"
-    },
-    {
-      "genus": "Tempovia",
-      "language": "it"
-    },
-    {
-      "genus": "Time Travel",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ときわたり",
+    "en": "Time Travel",
+    "fr": "Temporel",
+    "it": "Tempovia",
+    "de": "Zeitreise",
+    "es": "Viajetiempo",
+    "ko": "시간이동"
+  },
   "varieties": [
     {
       "is_default": true,

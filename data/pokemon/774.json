@@ -1,0 +1,45 @@
+{
+  "id": 774,
+  "name": "minior",
+  "gender_rate": -1,
+  "capture_rate": 30,
+  "base_happiness": 70,
+  "hatch_counter": 25,
+  "has_gender_differences": false,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "mineral"
+  ],
+  "color": "brown",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "メテノ",
+    "en": "Minior",
+    "fr": "Météno",
+    "it": "Minior",
+    "de": "Meteno",
+    "es": "Minior",
+    "ko": "메테노"
+  },
+  "genera": {
+    "ja": "ながれぼし",
+    "en": "Meteor",
+    "fr": "Météore",
+    "it": "Meteora",
+    "de": "Meteor",
+    "es": "Meteoro",
+    "ko": "유성"
+  },
+  "types": [
+    "rock",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 60,
+    "defense": 100,
+    "special-attack": 60,
+    "special-defense": 100,
+    "speed": 60
+  }
+}

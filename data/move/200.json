@@ -2,36 +2,13 @@
   "id": 200,
   "name": "outrage",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 120,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User is forced to attack with this move for 2–3 turns,selected at random.  After the last hit, the user becomes [confused]{mechanic:confused}.\n\n[]{move:safeguard} does not protect against the [confusion]{mechanic:confusion} from this move.",
-      "short_effect": "Hits every turn for 2-3 turns, then confuses the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,66 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Outrage",
-      "language": "en"
-    },
-    {
-      "name": "Oltraggio",
-      "language": "it"
-    },
-    {
-      "name": "Enfado",
-      "language": "es"
-    },
-    {
-      "name": "Wutanfall",
-      "language": "de"
-    },
-    {
-      "name": "Colère",
-      "language": "fr"
-    },
-    {
-      "name": "역린",
-      "language": "ko"
-    },
-    {
-      "name": "げきりん",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "げきりん",
+    "kana": "げきりん",
+    "en": "Outrage",
+    "fr": "Colère",
+    "it": "Oltraggio",
+    "de": "Wutanfall",
+    "es": "Enfado",
+    "ko": "역린",
+    "zh-CN": "逆鳞",
+    "zh-TW": "逆鱗"
+  },
+  "flavor_text_entries": {
+    "ja": "２ー３ターンの　間 暴れまくって　攻撃する。 暴れたあとは　混乱する。",
+    "kana": "２ー３ターンの　あいだ あばれまくって　こうげきする。 あばれた　あとは　こんらん　する。",
+    "en": "The user rampages and attacks for two to three turns. The user then becomes confused.",
+    "fr": "Le lanceur enrage et attaque pendant deux ou trois tours avant de devenir confus.",
+    "it": "Chi la usa sfoga la sua ira e attacca il nemico per due o tre turni prima di essere lasciato in preda alla confusione.",
+    "de": "Attacke über zwei bis drei Runden, die den Anwender verwirrt.",
+    "es": "Ataca de dos a tres turnos y acaba confundiendo al agresor.",
+    "ko": "2-3턴 동안 마구 난동 부려서 공격한다. 난동 부린 뒤에는 혼란에 빠진다.",
+    "zh-CN": "在２～３回合内， 乱打一气地进行攻击。 大闹一番后自己会陷入混乱。",
+    "zh-TW": "在２～３回合內 瘋狂亂打對手進行攻擊。 大鬧一番後自己會陷入混亂。"
+  },
+  "stat_changes": [],
+  "target": "random-opponent",
+  "type": "dragon",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 90,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
-      }
-    },
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": 15,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "２ー３ターンの　あいだ 暴れまくって　攻撃する。 暴れたあとは　混乱する。",
+          "fr": "Le lanceur laisse éclater sa rage et attaque pendant deux à trois tours avant de céder à la confusion."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "random-opponent"
-  },
-  "type": {
-    "name": "dragon"
-  }
+  ]
 }

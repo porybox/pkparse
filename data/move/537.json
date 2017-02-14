@@ -2,46 +2,13 @@
   "id": 537,
   "name": "steamroller",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 20,
   "priority": 0,
   "power": 65,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target [flinch]{mechanic:flinch}.\n\nPower is doubled against Pokémon that have used []{move:minimize} since entering the [field]{mechanic:field}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Does not interact with []{move:minimize}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -53,43 +20,42 @@
     "flinch_chance": 30,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Steamroller",
-      "language": "en"
-    },
-    {
-      "name": "Rulloduro",
-      "language": "it"
-    },
-    {
-      "name": "Rodillo de Púas",
-      "language": "es"
-    },
-    {
-      "name": "Quetschwalze",
-      "language": "de"
-    },
-    {
-      "name": "Bulldoboule",
-      "language": "fr"
-    },
-    {
-      "name": "하드롤러",
-      "language": "ko"
-    },
-    {
-      "name": "ハードローラー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ハードローラー",
+    "kana": "ハードローラー",
+    "en": "Steamroller",
+    "fr": "Bulldoboule",
+    "it": "Rulloduro",
+    "de": "Quetschwalze",
+    "es": "Rodillo de Púas",
+    "ko": "하드롤러",
+    "zh-CN": "疯狂滚压",
+    "zh-TW": "瘋狂滾壓"
   },
-  "type": {
-    "name": "bug"
-  }
+  "flavor_text_entries": {
+    "ja": "まるめた　体で　回転して 相手を　おしつぶす。 相手を　ひるませることが　ある。",
+    "kana": "まるめた　からだで　かいてんして あいてを　おしつぶす。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user crushes its target by rolling over the target with its rolled-up body. This may also make the target flinch.",
+    "fr": "Le lanceur se roule en boule et écrase son ennemi. Peut aussi l’apeurer.",
+    "it": "Chi la usa ruota su se stesso e schiaccia il bersaglio. Può anche farlo tentennare.",
+    "de": "Anwender rollt mit rundlichem Körper über das Ziel und drückt es platt. Ziel schreckt eventuell zurück.",
+    "es": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.",
+    "ko": "둥글게 뭉친 몸을 회전하여 상대를 뭉개 버린다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "旋转揉成团的身体 压扁对手。 有时会使对手畏缩。",
+    "zh-TW": "旋轉蜷縮成圓形的身體， 壓扁對手。 有時會使對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user crushes its targets by rolling over them with its rolled-up body. This may also make the target flinch.",
+          "it": "Chi la usa ruota su se stesso ad alta velocità e schiaccia il bersaglio. Può anche farlo tentennare."
+        }
+      }
+    }
+  ]
 }

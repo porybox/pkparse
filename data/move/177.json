@@ -2,36 +2,13 @@
   "id": 177,
   "name": "aeroblast",
   "accuracy": 95,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 100,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.",
-      "short_effect": "Has an increased chance for a critical hit.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Aeroblast",
-      "language": "en"
-    },
-    {
-      "name": "Aerocolpo",
-      "language": "it"
-    },
-    {
-      "name": "Aerochorro",
-      "language": "es"
-    },
-    {
-      "name": "Luftstoß",
-      "language": "de"
-    },
-    {
-      "name": "Aéroblast",
-      "language": "fr"
-    },
-    {
-      "name": "에어로블라스트",
-      "language": "ko"
-    },
-    {
-      "name": "エアロブラスト",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "エアロブラスト",
+    "kana": "エアロブラスト",
+    "en": "Aeroblast",
+    "fr": "Aéroblast",
+    "it": "Aerocolpo",
+    "de": "Luftstoß",
+    "es": "Aerochorro",
+    "ko": "에어로블라스트",
+    "zh-CN": "气旋攻击",
+    "zh-TW": "氣旋攻擊"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "空気の　渦を 発射して　攻撃する。 急所に　当たりやすい。",
+    "kana": "くうきの　うずを はっしゃして　こうげきする。 きゅうしょに　あたりやすい。",
+    "en": "A vortex of air is shot at the target to inflict damage. Critical hits land more easily.",
+    "fr": "Le lanceur projette une tornade sur l’ennemi pour infliger des dégâts. Taux de critique élevé.",
+    "it": "Colpisce il bersaglio con un vortice d’aria per danneggiarlo. Probabile brutto colpo.",
+    "de": "Erzeugt Luftstrudel gegen das Ziel. Hohe Volltrefferquote.",
+    "es": "Lanza un chorro de aire que suele dar un golpe crítico.",
+    "ko": "공기의 소용돌이를 발사하여 공격한다. 급소에 맞기 쉽다.",
+    "zh-CN": "发射空气旋涡 进行攻击。 容易击中要害。",
+    "zh-TW": "向對手發射空氣漩渦 進行攻擊。 容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur projette une tornade sur l’ennemi pour infliger des dégâts. Taux de critiques élevé."
+        }
+      }
+    }
+  ]
 }

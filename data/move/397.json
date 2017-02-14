@@ -2,36 +2,13 @@
   "id": 397,
   "name": "rock-polish",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Speed]{mechanic:speed} by two [stages]{mechanic:stage}.",
-      "short_effect": "Raises the user's Speed by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,55 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Rock Polish",
-      "language": "en"
-    },
-    {
-      "name": "Lucidatura",
-      "language": "it"
-    },
-    {
-      "name": "Pulimento",
-      "language": "es"
-    },
-    {
-      "name": "Steinpolitur",
-      "language": "de"
-    },
-    {
-      "name": "Poliroche",
-      "language": "fr"
-    },
-    {
-      "name": "록커트",
-      "language": "ko"
-    },
-    {
-      "name": "ロックカット",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ロックカット",
+    "kana": "ロックカット",
+    "en": "Rock Polish",
+    "fr": "Poliroche",
+    "it": "Lucidatura",
+    "de": "Steinpolitur",
+    "es": "Pulimento",
+    "ko": "록커트",
+    "zh-CN": "岩石打磨",
+    "zh-TW": "岩石打磨"
+  },
+  "flavor_text_entries": {
+    "ja": "自分の　体を　磨いて　空気の 抵抗を　少なくする。素早さを ぐーんと　あげることが　できる。",
+    "kana": "じぶんの　からだを　みがいて　くうきの ていこうを　すくなくする。すばやさを ぐーんと　あげることが　できる。",
+    "en": "The user polishes its body to reduce drag. This can sharply raise the Speed stat.",
+    "fr": "Le lanceur polit son corps pour diminuer sa résistance au vent. Augmente beaucoup la Vitesse.",
+    "it": "Chi la usa leviga il proprio corpo per ridurne l’attrito. Aumenta di molto la Velocità.",
+    "de": "Anwender reduziert so gut wie möglich den Luftwiderstand. Erhöht den Initiative-Wert stark.",
+    "es": "Reduce la resistencia puliendo su cuerpo. Aumenta la Velocidad considerablemente.",
+    "ko": "자신의 몸을 갈아 공기의 저항을 적게 한다. 스피드를 크게 올릴 수 있다.",
+    "zh-CN": "打磨自己的身体， 减少空气阻力。 可以大幅提高自己的速度。",
+    "zh-TW": "打磨自己的身體， 減少空氣阻力。 可大幅提高自己的速度。"
+  },
   "stat_changes": [
     {
       "change": 2,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "rock"
-  }
+  "target": "user",
+  "type": "rock",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur polit son corps pour diminuer sa résistance au vent. Augmente fortement la Vitesse.",
+          "de": "Anwender reduziert so gut wie möglich den Luftwiderstand. Steigert den Initiative-Wert stark."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender reduziert so gut wie möglich den Luftwiderstand. Kann Initiative-Wert stark steigern."
+        }
+      }
+    }
+  ]
 }

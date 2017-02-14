@@ -1,0 +1,38 @@
+{
+  "id": 641,
+  "name": "holo-caster",
+  "names": {
+    "ja": "ホロキャスター",
+    "kana": "ホロキャスター",
+    "en": "Holo Caster",
+    "fr": "Holokit",
+    "it": "Holovox",
+    "de": "Holo-Log",
+    "es": "Holomisor",
+    "ko": "홀로캐스터",
+    "zh-CN": "全息影像通讯器",
+    "zh-TW": "全像投影通訊器"
+  },
+  "flavor_text_entries": {
+    "ja": "受信した　ホログラムの 映像データを　いつでも 観ることが　できる　装置。",
+    "kana": "じゅしんした　ホログラムの えいぞうデータを　いつでも みることが　できる　そうち。",
+    "en": "A device that allows users to receive and view hologram clips at any time. It’s also used to chat with others.",
+    "fr": "Un appareil portable permettant de recevoir et de visualiser des hologrammes à volonté.",
+    "it": "Dispositivo in grado di ricevere e riprodurre in qualsiasi momento comunicazioni olografiche.",
+    "de": "Ein Gerät, das Hologramm-Nachrichten empfangen und jederzeit abspielen kann.",
+    "es": "Este aparato permite recibir vídeos holográficos y visualizarlos en cualquier momento.",
+    "ko": "수신한 홀로그램 영상 데이터를 언제라도 볼 수 있는 장치.",
+    "zh-CN": "可以随时查看接收到的 全息影像数据的装置。",
+    "zh-TW": "可以隨時查看接收到的 全像投影資料的裝置。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A device that allows users to receive and view hologram clips at any time. It is also used to chat with others."
+        }
+      }
+    }
+  ]
+}

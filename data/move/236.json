@@ -2,49 +2,13 @@
   "id": 236,
   "name": "moonlight",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sunny-day"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Heals the user for half its max [HP]{mechanic:hp}.\n\nDuring []{move:sunny-day}, the healing is increased to 2/3 max [HP]{mechanic:hp}.\n\nDuring []{move:hail}, []{move:rain-dance}, or []{move:sandstorm}, the healing is decreased to 1/4 max [HP]{mechanic:hp}.",
-      "short_effect": "Heals the user by half its max HP.  Affected by weather.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "heal"
-    },
+    "ailment": "none",
+    "category": "heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Moonlight",
-      "language": "en"
-    },
-    {
-      "name": "Lucelunare",
-      "language": "it"
-    },
-    {
-      "name": "Luz Lunar",
-      "language": "es"
-    },
-    {
-      "name": "Mondschein",
-      "language": "de"
-    },
-    {
-      "name": "Rayon Lune",
-      "language": "fr"
-    },
-    {
-      "name": "달의불빛",
-      "language": "ko"
-    },
-    {
-      "name": "つきのひかり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "つきのひかり",
+    "kana": "つきのひかり",
+    "en": "Moonlight",
+    "fr": "Rayon Lune",
+    "it": "Lucelunare",
+    "de": "Mondschein",
+    "es": "Luz Lunar",
+    "ko": "달의불빛",
+    "zh-CN": "月光",
+    "zh-TW": "月光"
   },
-  "type": {
-    "name": "fairy"
-  }
+  "flavor_text_entries": {
+    "ja": "自分の　ＨＰを　回復する。 天気に　よって 回復の　量が　変化する。",
+    "kana": "じぶんの　ＨＰを　かいふく　する。 てんきに　よって かいふくの　りょうが　へんか　する。",
+    "en": "The user restores its own HP. The amount of HP regained varies with the weather.",
+    "fr": "Un soin qui restaure des PV au lanceur. Son efficacité varie en fonction de la météo.",
+    "it": "Chi la usa recupera PS. Il numero di PS recuperati dipende dalle condizioni atmosferiche.",
+    "de": "Füllt KP des Anwenders auf. Die Menge hängt vom Wetter ab.",
+    "es": "Restaura PS del usuario. La cantidad varía según el tiempo que haga.",
+    "ko": "자신의 HP를 회복한다. 날씨에 따라 회복량이 변한다.",
+    "zh-CN": "回复自己的ＨＰ。 根据天气的不同， 回复量也会有所变化。",
+    "zh-TW": "回復自己的ＨＰ。 回復量會隨著天氣的不同 而有所變化。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "fairy"
 }

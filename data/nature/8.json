@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "わんぱく",
-      "language": "ja"
-    },
-    {
-      "name": "장난꾸러기",
-      "language": "ko"
-    },
-    {
-      "name": "Malin",
-      "language": "fr"
-    },
-    {
-      "name": "Pfiffig",
-      "language": "de"
-    },
-    {
-      "name": "Agitado",
-      "language": "es"
-    },
-    {
-      "name": "Scaltra",
-      "language": "it"
-    },
-    {
-      "name": "Impish",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "わんぱく",
+    "en": "Impish",
+    "fr": "Malin",
+    "it": "Scaltra",
+    "de": "Pfiffig",
+    "es": "Agitada",
+    "ko": "장난꾸러기",
+    "zh-CN": "淘气",
+    "zh-TW": "淘氣"
+  }
 }

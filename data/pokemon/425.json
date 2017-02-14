@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 1,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "arms"
   },
@@ -67,44 +61,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "フワンテ",
-      "language": "ja"
-    },
-    {
-      "name": "Fuwante",
-      "language": "roomaji"
-    },
-    {
-      "name": "흔들풍손",
-      "language": "ko"
-    },
-    {
-      "name": "飄飄球",
-      "language": "zh"
-    },
-    {
-      "name": "Baudrive",
-      "language": "fr"
-    },
-    {
-      "name": "Driftlon",
-      "language": "de"
-    },
-    {
-      "name": "Drifloon",
-      "language": "es"
-    },
-    {
-      "name": "Drifloon",
-      "language": "it"
-    },
-    {
-      "name": "Drifloon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フワンテ",
+    "en": "Drifloon",
+    "fr": "Baudrive",
+    "it": "Drifloon",
+    "de": "Driftlon",
+    "es": "Drifloon",
+    "ko": "흔들풍손"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -115,36 +80,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふうせん",
-      "language": "ja"
-    },
-    {
-      "genus": "풍선",
-      "language": "ko"
-    },
-    {
-      "genus": "Bouboule",
-      "language": "fr"
-    },
-    {
-      "genus": "Ballon",
-      "language": "de"
-    },
-    {
-      "genus": "Globo",
-      "language": "es"
-    },
-    {
-      "genus": "Pallone",
-      "language": "it"
-    },
-    {
-      "genus": "Balloon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふうせん",
+    "en": "Balloon",
+    "fr": "Bouboule",
+    "it": "Pallone",
+    "de": "Ballon",
+    "es": "Globo",
+    "ko": "풍선"
+  },
   "varieties": [
     {
       "is_default": true,

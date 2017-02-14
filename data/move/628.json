@@ -1,0 +1,50 @@
+{
+  "id": 628,
+  "name": "acid-downpour",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "アシッドポイズンデリート",
+    "kana": "アシッドポイズンデリート",
+    "en": "Acid Downpour",
+    "fr": "Déluge Causti-Toxique",
+    "it": "Acidiluvio Corrosivo",
+    "de": "Vernichtender Säureregen",
+    "es": "Diluvio Corrosivo",
+    "ko": "애시드포이즌딜리트",
+    "zh-CN": "强酸剧毒灭绝雨",
+    "zh-TW": "強酸劇毒滅絕雨"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　毒の　沼を　湧きあがらせ 全力で　相手を　沈める。 元になった　技で　威力が　変わる。",
+    "kana": "Ｚパワーで　どくの　ぬまを　わきあがらせ ぜんりょくで　あいてを　しずめる。 もとになった　わざで　いりょくが　かわる。",
+    "en": "The user creates a poisonous swamp using its Z-Power and sinks the target into it at full force. The power varies, depending on the original move.",
+    "fr": "Le Pokémon utilise la Force Z pour répandre un marécage empoisonné où l’adversaire sombre. La puissance varie selon celle de la capacité originale.",
+    "it": "Chi la usa sfrutta il Potere Z per creare una palude velenosa che sommerge il bersaglio. La potenza varia a seconda della mossa su cui si basa.",
+    "de": "Der Anwender kreiert mit Z-Kraft ein giftiges Moor, in dem das Ziel versinkt. Die Stärke variiert je nach zugrunde liegender Attacke.",
+    "es": "El usuario emplea el Poder Z para crear una ciénaga venenosa en la que sumerge al objetivo. Su potencia depende de la del movimiento original.",
+    "ko": "Z파워로 독의 늪을 만들어 전력으로 상대를 가라앉힌다. 원래 기술에 따라 위력이 변한다.",
+    "zh-CN": "通过Ｚ力量使毒沼涌起， 全力让对手沉下去。 威力会根据原来的招式而改变。",
+    "zh-TW": "透過Ｚ力量湧起毒沼， 全力使對手下沉。 威力會隨原本的招式而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "poison"
+}

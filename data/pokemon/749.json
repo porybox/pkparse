@@ -1,0 +1,44 @@
+{
+  "id": 749,
+  "name": "mudbray",
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "brown",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ドロバンコ",
+    "en": "Mudbray",
+    "fr": "Tiboudet",
+    "it": "Mudbray",
+    "de": "Pampuli",
+    "es": "Mudbray",
+    "ko": "머드나기"
+  },
+  "genera": {
+    "ja": "うさぎうま",
+    "en": "Donkey",
+    "fr": "Âne",
+    "it": "Ciuconiglio",
+    "de": "Packesel",
+    "es": "Asno",
+    "ko": "당나귀"
+  },
+  "types": [
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 100,
+    "defense": 70,
+    "special-attack": 45,
+    "special-defense": 55,
+    "speed": 45
+  }
+}

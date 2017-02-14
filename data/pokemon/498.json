@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 121,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "quadruped"
   },
@@ -55,72 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ポカブ",
-      "language": "ja"
-    },
-    {
-      "name": "뚜꾸리",
-      "language": "ko"
-    },
-    {
-      "name": "暖暖豬",
-      "language": "zh"
-    },
-    {
-      "name": "Gruikui",
-      "language": "fr"
-    },
-    {
-      "name": "Floink",
-      "language": "de"
-    },
-    {
-      "name": "Tepig",
-      "language": "es"
-    },
-    {
-      "name": "Tepig",
-      "language": "it"
-    },
-    {
-      "name": "Tepig",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ポカブ",
+    "en": "Tepig",
+    "fr": "Gruikui",
+    "it": "Tepig",
+    "de": "Floink",
+    "es": "Tepig",
+    "ko": "뚜꾸리"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひぶた",
-      "language": "ja"
-    },
-    {
-      "genus": "불돼지",
-      "language": "ko"
-    },
-    {
-      "genus": "Cochon Feu",
-      "language": "fr"
-    },
-    {
-      "genus": "Feuerferkel",
-      "language": "de"
-    },
-    {
-      "genus": "Cerdo Fuego",
-      "language": "es"
-    },
-    {
-      "genus": "Suinfuoco",
-      "language": "it"
-    },
-    {
-      "genus": "Fire Pig",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひぶた",
+    "en": "Fire Pig",
+    "fr": "Cochon Feu",
+    "it": "Suinfuoco",
+    "de": "Feuerferkel",
+    "es": "Cerdo Fuego",
+    "ko": "불돼지"
+  },
   "varieties": [
     {
       "is_default": true,

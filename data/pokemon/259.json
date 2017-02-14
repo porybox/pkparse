@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 8,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -50,44 +42,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ヌマクロー",
-      "language": "ja"
-    },
-    {
-      "name": "Numacraw",
-      "language": "roomaji"
-    },
-    {
-      "name": "늪짱이",
-      "language": "ko"
-    },
-    {
-      "name": "沼躍魚",
-      "language": "zh"
-    },
-    {
-      "name": "Flobio",
-      "language": "fr"
-    },
-    {
-      "name": "Moorabbel",
-      "language": "de"
-    },
-    {
-      "name": "Marshtomp",
-      "language": "es"
-    },
-    {
-      "name": "Marshtomp",
-      "language": "it"
-    },
-    {
-      "name": "Marshtomp",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヌマクロー",
+    "en": "Marshtomp",
+    "fr": "Flobio",
+    "it": "Marshtomp",
+    "de": "Moorabbel",
+    "es": "Marshtomp",
+    "ko": "늪짱이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -98,36 +61,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ぬまうお",
-      "language": "ja"
-    },
-    {
-      "genus": "늪물고기",
-      "language": "ko"
-    },
-    {
-      "genus": "Poissonboue",
-      "language": "fr"
-    },
-    {
-      "genus": "Lehmhüpfer",
-      "language": "de"
-    },
-    {
-      "genus": "Pez Lodo",
-      "language": "es"
-    },
-    {
-      "genus": "Fango Pesce",
-      "language": "it"
-    },
-    {
-      "genus": "Mud Fish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ぬまうお",
+    "en": "Mud Fish",
+    "fr": "Poissonboue",
+    "it": "Fango Pesce",
+    "de": "Lehmhüpfer",
+    "es": "Pez Lodo",
+    "ko": "늪물고기"
+  },
   "varieties": [
     {
       "is_default": true,

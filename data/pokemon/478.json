@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 95,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    },
-    {
-      "name": "fairy"
-    }
+    "fairy",
+    "mineral"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "arms"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ユキメノコ",
-      "language": "ja"
-    },
-    {
-      "name": "Yukimenoko",
-      "language": "roomaji"
-    },
-    {
-      "name": "눈여아",
-      "language": "ko"
-    },
-    {
-      "name": "雪妖女",
-      "language": "zh"
-    },
-    {
-      "name": "Momartik",
-      "language": "fr"
-    },
-    {
-      "name": "Frosdedje",
-      "language": "de"
-    },
-    {
-      "name": "Froslass",
-      "language": "es"
-    },
-    {
-      "name": "Froslass",
-      "language": "it"
-    },
-    {
-      "name": "Froslass",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ユキメノコ",
+    "en": "Froslass",
+    "fr": "Momartik",
+    "it": "Froslass",
+    "de": "Frosdedje",
+    "es": "Froslass",
+    "ko": "눈여아"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ゆきぐに",
-      "language": "ja"
-    },
-    {
-      "genus": "설국",
-      "language": "ko"
-    },
-    {
-      "genus": "Enneigement",
-      "language": "fr"
-    },
-    {
-      "genus": "Schneegebiet",
-      "language": "de"
-    },
-    {
-      "genus": "Tierra Fría",
-      "language": "es"
-    },
-    {
-      "genus": "Suolnevoso",
-      "language": "it"
-    },
-    {
-      "genus": "Snow Land",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ゆきぐに",
+    "en": "Snow Land",
+    "fr": "Enneigement",
+    "it": "Suolnevoso",
+    "de": "Schneegebiet",
+    "es": "Tierra Fría",
+    "ko": "설국"
+  },
   "varieties": [
     {
       "is_default": true,

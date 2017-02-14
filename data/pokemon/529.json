@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 152,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "upright"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "モグリュー",
-      "language": "ja"
-    },
-    {
-      "name": "두더류",
-      "language": "ko"
-    },
-    {
-      "name": "Rototaupe",
-      "language": "fr"
-    },
-    {
-      "name": "Rotomurf",
-      "language": "de"
-    },
-    {
-      "name": "Drilbur",
-      "language": "es"
-    },
-    {
-      "name": "Drilbur",
-      "language": "it"
-    },
-    {
-      "name": "Drilbur",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "モグリュー",
+    "en": "Drilbur",
+    "fr": "Rototaupe",
+    "it": "Drilbur",
+    "de": "Rotomurf",
+    "es": "Drilbur",
+    "ko": "두더류"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "もぐら",
-      "language": "ja"
-    },
-    {
-      "genus": "두더지",
-      "language": "ko"
-    },
-    {
-      "genus": "Taupe",
-      "language": "fr"
-    },
-    {
-      "genus": "Maulwurf",
-      "language": "de"
-    },
-    {
-      "genus": "Topo",
-      "language": "es"
-    },
-    {
-      "genus": "Talpa",
-      "language": "it"
-    },
-    {
-      "genus": "Mole",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "もぐら",
+    "en": "Mole",
+    "fr": "Taupe",
+    "it": "Talpa",
+    "de": "Maulwurf",
+    "es": "Topo",
+    "ko": "두더지"
+  },
   "varieties": [
     {
       "is_default": true,

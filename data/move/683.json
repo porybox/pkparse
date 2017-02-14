@@ -1,0 +1,50 @@
+{
+  "id": 683,
+  "name": "speed-swap",
+  "accuracy": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "damage_class": "status",
+  "meta": {
+    "ailment": "none",
+    "category": "unique",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "スピードスワップ",
+    "kana": "スピードスワップ",
+    "en": "Speed Swap",
+    "fr": "Permuvitesse",
+    "it": "Velociscambio",
+    "de": "Initiativetausch",
+    "es": "Cambia Velocidad",
+    "ko": "스피드스웹",
+    "zh-CN": "速度互换",
+    "zh-TW": "速度互換"
+  },
+  "flavor_text_entries": {
+    "ja": "相手の　素早さと 自分の　素早さを 入れ替えてしまう。",
+    "kana": "あいての　すばやさと じぶんの　すばやさを いれかえて　しまう。",
+    "en": "The user exchanges Speed stats with the target.",
+    "fr": "Intervertit la Vitesse du lanceur et celle de la cible.",
+    "it": "Chi la usa scambia la propria Velocità con quella del bersaglio.",
+    "de": "Der Anwender tauscht seinen Initiative-Wert mit dem des Zieles.",
+    "es": "Intercambia su Velocidad por la del oponente.",
+    "ko": "상대의 스피드와 자신의 스피드를 교체한다.",
+    "zh-CN": "将对手和自己的速度 进行互换。",
+    "zh-TW": "將對手和自己的速度 進行互換。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
+}

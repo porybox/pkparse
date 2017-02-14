@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 33,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    }
+    "water1"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "legs"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ニョロモ",
-      "language": "ja"
-    },
-    {
-      "name": "Nyoromo",
-      "language": "roomaji"
-    },
-    {
-      "name": "발챙이",
-      "language": "ko"
-    },
-    {
-      "name": "蚊香蝌蚪",
-      "language": "zh"
-    },
-    {
-      "name": "Ptitard",
-      "language": "fr"
-    },
-    {
-      "name": "Quapsel",
-      "language": "de"
-    },
-    {
-      "name": "Poliwag",
-      "language": "es"
-    },
-    {
-      "name": "Poliwag",
-      "language": "it"
-    },
-    {
-      "name": "Poliwag",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ニョロモ",
+    "en": "Poliwag",
+    "fr": "Ptitard",
+    "it": "Poliwag",
+    "de": "Quapsel",
+    "es": "Poliwag",
+    "ko": "발챙이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おたま",
-      "language": "ja"
-    },
-    {
-      "genus": "올챙이",
-      "language": "ko"
-    },
-    {
-      "genus": "Têtard",
-      "language": "fr"
-    },
-    {
-      "genus": "Kaulquappe",
-      "language": "de"
-    },
-    {
-      "genus": "Renacuajo",
-      "language": "es"
-    },
-    {
-      "genus": "Girino",
-      "language": "it"
-    },
-    {
-      "genus": "Tadpole",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おたま",
+    "en": "Tadpole",
+    "fr": "Têtard",
+    "it": "Girino",
+    "de": "Kaulquappe",
+    "es": "Renacuajo",
+    "ko": "올챙이"
+  },
   "varieties": [
     {
       "is_default": true,

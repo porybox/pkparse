@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 486,
@@ -21,13 +19,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "humanoid"
   },
@@ -37,44 +31,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "レジギガス",
-      "language": "ja"
-    },
-    {
-      "name": "Regigigas",
-      "language": "roomaji"
-    },
-    {
-      "name": "레지기가스",
-      "language": "ko"
-    },
-    {
-      "name": "雷吉奇卡斯",
-      "language": "zh"
-    },
-    {
-      "name": "Regigigas",
-      "language": "fr"
-    },
-    {
-      "name": "Regigigas",
-      "language": "de"
-    },
-    {
-      "name": "Regigigas",
-      "language": "es"
-    },
-    {
-      "name": "Regigigas",
-      "language": "it"
-    },
-    {
-      "name": "Regigigas",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "レジギガス",
+    "en": "Regigigas",
+    "fr": "Regigigas",
+    "it": "Regigigas",
+    "de": "Regigigas",
+    "es": "Regigigas",
+    "ko": "레지기가스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -85,36 +50,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きょだい",
-      "language": "ja"
-    },
-    {
-      "genus": "거대",
-      "language": "ko"
-    },
-    {
-      "genus": "Prodigieux",
-      "language": "fr"
-    },
-    {
-      "genus": "Kolossal",
-      "language": "de"
-    },
-    {
-      "genus": "Colosal",
-      "language": "es"
-    },
-    {
-      "genus": "Colossale",
-      "language": "it"
-    },
-    {
-      "genus": "Colossal",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きょだい",
+    "en": "Colossal",
+    "fr": "Prodigieux",
+    "it": "Colossale",
+    "de": "Kolossal",
+    "es": "Colosal",
+    "ko": "거대"
+  },
   "varieties": [
     {
       "is_default": true,

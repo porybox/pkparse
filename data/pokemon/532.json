@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 93,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "humanoid"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ドッコラー",
-      "language": "ja"
-    },
-    {
-      "name": "으랏차",
-      "language": "ko"
-    },
-    {
-      "name": "Charpenti",
-      "language": "fr"
-    },
-    {
-      "name": "Praktibalk",
-      "language": "de"
-    },
-    {
-      "name": "Timburr",
-      "language": "es"
-    },
-    {
-      "name": "Timburr",
-      "language": "it"
-    },
-    {
-      "name": "Timburr",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドッコラー",
+    "en": "Timburr",
+    "fr": "Charpenti",
+    "it": "Timburr",
+    "de": "Praktibalk",
+    "es": "Timburr",
+    "ko": "으랏차"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きんこつ",
-      "language": "ja"
-    },
-    {
-      "genus": "근골",
-      "language": "ko"
-    },
-    {
-      "genus": "Costaud",
-      "language": "fr"
-    },
-    {
-      "genus": "Muskel",
-      "language": "de"
-    },
-    {
-      "genus": "Musculoso",
-      "language": "es"
-    },
-    {
-      "genus": "Forzaimmane",
-      "language": "it"
-    },
-    {
-      "genus": "Muscular",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きんこつ",
+    "en": "Muscular",
+    "fr": "Costaud",
+    "it": "Forzaimmane",
+    "de": "Muskel",
+    "es": "Musculoso",
+    "ko": "근골"
+  },
   "varieties": [
     {
       "is_default": true,

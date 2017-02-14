@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 148,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -49,44 +43,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "アグノム",
-      "language": "ja"
-    },
-    {
-      "name": "Agnome",
-      "language": "roomaji"
-    },
-    {
-      "name": "아그놈",
-      "language": "ko"
-    },
-    {
-      "name": "亞克諾姆",
-      "language": "zh"
-    },
-    {
-      "name": "Créfadet",
-      "language": "fr"
-    },
-    {
-      "name": "Tobutz",
-      "language": "de"
-    },
-    {
-      "name": "Azelf",
-      "language": "es"
-    },
-    {
-      "name": "Azelf",
-      "language": "it"
-    },
-    {
-      "name": "Azelf",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アグノム",
+    "en": "Azelf",
+    "fr": "Créfadet",
+    "it": "Azelf",
+    "de": "Tobutz",
+    "es": "Azelf",
+    "ko": "아그놈"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -97,36 +62,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いし",
-      "language": "ja"
-    },
-    {
-      "genus": "의지",
-      "language": "ko"
-    },
-    {
-      "genus": "Volonté",
-      "language": "fr"
-    },
-    {
-      "genus": "Willenskraft",
-      "language": "de"
-    },
-    {
-      "genus": "Voluntad",
-      "language": "es"
-    },
-    {
-      "genus": "Volontà",
-      "language": "it"
-    },
-    {
-      "genus": "Willpower",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いし",
+    "en": "Willpower",
+    "fr": "Volonté",
+    "it": "Volontà",
+    "de": "Willenskraft",
+    "es": "Voluntad",
+    "ko": "의지"
+  },
   "varieties": [
     {
       "is_default": true,

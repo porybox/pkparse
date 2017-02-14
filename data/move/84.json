@@ -2,49 +2,13 @@
   "id": 84,
   "name": "thunder-shock",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 30,
   "priority": 0,
   "power": 40,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "charge"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.",
-      "short_effect": "Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "paralysis",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Thunder Shock",
-      "language": "en"
-    },
-    {
-      "name": "Tuonoshock",
-      "language": "it"
-    },
-    {
-      "name": "Impactrueno",
-      "language": "es"
-    },
-    {
-      "name": "Donnerschock",
-      "language": "de"
-    },
-    {
-      "name": "Éclair",
-      "language": "fr"
-    },
-    {
-      "name": "전기쇼크",
-      "language": "ko"
-    },
-    {
-      "name": "でんきショック",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "でんきショック",
+    "kana": "でんきショック",
+    "en": "Thunder Shock",
+    "fr": "Éclair",
+    "it": "Tuonoshock",
+    "de": "Donnerschock",
+    "es": "Impactrueno",
+    "ko": "전기쇼크",
+    "zh-CN": "电击",
+    "zh-TW": "電擊"
   },
-  "type": {
-    "name": "electric"
-  }
+  "flavor_text_entries": {
+    "ja": "電気の　刺激を 相手に　浴びせて　攻撃する。 まひ状態に　することが　ある。",
+    "kana": "でんきの　しげきを あいてに　あびせて　こうげきする。 まひ　じょうたいに　することが　ある。",
+    "en": "A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis.",
+    "fr": "Une décharge électrique tombe sur l’ennemi. Peut aussi le paralyser.",
+    "it": "Danneggia il bersaglio con una scarica elettrica che può anche paralizzarlo.",
+    "de": "Eine Elektro-Attacke, die das Ziel eventuell paralysiert.",
+    "es": "Ataque eléctrico que puede paralizar al objetivo.",
+    "ko": "전기 자극을 상대에게 날려서 공격한다. 마비 상태로 만들 때가 있다.",
+    "zh-CN": "发出电流刺激对手进行攻击。 有时会让对手陷入麻痹状态。",
+    "zh-TW": "發出電流刺激對手進行攻擊。 有時會讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric"
 }

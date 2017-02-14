@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 20,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "armor"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "コフキムシ",
-      "language": "ja"
-    },
-    {
-      "name": "분이벌레",
-      "language": "ko"
-    },
-    {
-      "name": "Lépidonille",
-      "language": "fr"
-    },
-    {
-      "name": "Purmel",
-      "language": "de"
-    },
-    {
-      "name": "Scatterbug",
-      "language": "es"
-    },
-    {
-      "name": "Scatterbug",
-      "language": "it"
-    },
-    {
-      "name": "Scatterbug",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コフキムシ",
+    "en": "Scatterbug",
+    "fr": "Lépidonille",
+    "it": "Scatterbug",
+    "de": "Purmel",
+    "es": "Scatterbug",
+    "ko": "분이벌레"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こなふき",
-      "language": "ja"
-    },
-    {
-      "genus": "가루뿜기",
-      "language": "ko"
-    },
-    {
-      "genus": "Exhalécaille",
-      "language": "fr"
-    },
-    {
-      "genus": "Puderinsekt",
-      "language": "de"
-    },
-    {
-      "genus": "Tiraescamas",
-      "language": "es"
-    },
-    {
-      "genus": "Tirascaglie",
-      "language": "it"
-    },
-    {
-      "genus": "Scatterdust",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こなふき",
+    "en": "Scatterdust",
+    "fr": "Exhalécaille",
+    "it": "Tirascaglie",
+    "de": "Puderinsekt",
+    "es": "Tiraescamas",
+    "ko": "가루뿜기"
+  },
   "varieties": [
     {
       "is_default": true,

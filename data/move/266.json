@@ -2,36 +2,13 @@
   "id": 266,
   "name": "follow-me",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 2,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Until the end of this turn, any moves that opposing Pokémon target solely at the user's ally will instead target the user.  If both Pokémon on the same side of the [field]{mechanic:field} use this move on the same turn, the Pokémon that uses it last will become the target.\n\nThis effect takes priority over []{ability:lightning-rod} and []{ability:storm-drain}.\n\nIf the user's ally [switches out]{mechanic:switches-out}, opposing Pokémon may still hit it with []{move:pursuit}.\n\nThis move cannot be selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "Redirects the target's single-target effects to the user for this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Follow Me",
-      "language": "en"
-    },
-    {
-      "name": "Sonoqui",
-      "language": "it"
-    },
-    {
-      "name": "Señuelo",
-      "language": "es"
-    },
-    {
-      "name": "Spotlight",
-      "language": "de"
-    },
-    {
-      "name": "Par Ici",
-      "language": "fr"
-    },
-    {
-      "name": "날따름",
-      "language": "ko"
-    },
-    {
-      "name": "このゆびとまれ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "このゆびとまれ",
+    "kana": "このゆびとまれ",
+    "en": "Follow Me",
+    "fr": "Par Ici",
+    "it": "Sonoqui",
+    "de": "Spotlight",
+    "es": "Señuelo",
+    "ko": "날따름",
+    "zh-CN": "看我嘛",
+    "zh-TW": "看我嘛"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "自分に　注目させて 相手からの　攻撃を すべて　自分に　むけさせる。",
+    "kana": "じぶんに　ちゅうもく　させて あいてからの　こうげきを すべて　じぶんに　むけさせる。",
+    "en": "The user draws attention to itself, making all targets take aim only at the user.",
+    "fr": "Attire l’attention des ennemis pour les forcer à n’attaquer que le lanceur.",
+    "it": "Chi la usa attira l’attenzione su di sé, costringendo i nemici a sceglierlo sempre come bersaglio.",
+    "de": "Zieht Aufmerksamkeit auf sich. Gegner greift nur Anwender an.",
+    "es": "Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.",
+    "ko": "자신에게 주목시켜 상대로부터의 공격을 모두 자신에게 향하게 한다.",
+    "zh-CN": "引起对手的注意， 将对手的攻击 全部转移到自己身上。",
+    "zh-TW": "吸引對手的注意， 將對手的攻擊 全部轉移到自己身上。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal"
 }

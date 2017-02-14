@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 31,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "arms"
   },
@@ -83,44 +77,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ゴースト",
-      "language": "ja"
-    },
-    {
-      "name": "Ghost",
-      "language": "roomaji"
-    },
-    {
-      "name": "고우스트",
-      "language": "ko"
-    },
-    {
-      "name": "鬼斯通",
-      "language": "zh"
-    },
-    {
-      "name": "Spectrum",
-      "language": "fr"
-    },
-    {
-      "name": "Alpollo",
-      "language": "de"
-    },
-    {
-      "name": "Haunter",
-      "language": "es"
-    },
-    {
-      "name": "Haunter",
-      "language": "it"
-    },
-    {
-      "name": "Haunter",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴースト",
+    "en": "Haunter",
+    "fr": "Spectrum",
+    "it": "Haunter",
+    "de": "Alpollo",
+    "es": "Haunter",
+    "ko": "고우스트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -131,36 +96,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ガスじょう",
-      "language": "ja"
-    },
-    {
-      "genus": "가스",
-      "language": "ko"
-    },
-    {
-      "genus": "Gaz",
-      "language": "fr"
-    },
-    {
-      "genus": "Gas",
-      "language": "de"
-    },
-    {
-      "genus": "Gas",
-      "language": "es"
-    },
-    {
-      "genus": "Gas",
-      "language": "it"
-    },
-    {
-      "genus": "Gas",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ガスじょう",
+    "en": "Gas",
+    "fr": "Gaz",
+    "it": "Gas",
+    "de": "Gas",
+    "es": "Gas",
+    "ko": "가스"
+  },
   "varieties": [
     {
       "is_default": true,

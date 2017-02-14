@@ -2,36 +2,13 @@
   "id": 392,
   "name": "aqua-ring",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Restores 1/16 of the user's max [HP]{mechanic:hp} at the end of each turn.  If the user leaves the [field]{mechanic:field}, this effect ends.\n\nThis effect is passed on by []{move:baton-pass}.",
-      "short_effect": "Restores 1/16 of the user's max HP each turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Aqua Ring",
-      "language": "en"
-    },
-    {
-      "name": "Acquanello",
-      "language": "it"
-    },
-    {
-      "name": "Acua Aro",
-      "language": "es"
-    },
-    {
-      "name": "Wasserring",
-      "language": "de"
-    },
-    {
-      "name": "Anneau Hydro",
-      "language": "fr"
-    },
-    {
-      "name": "아쿠아링",
-      "language": "ko"
-    },
-    {
-      "name": "アクアリング",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "アクアリング",
+    "kana": "アクアリング",
+    "en": "Aqua Ring",
+    "fr": "Anneau Hydro",
+    "it": "Acquanello",
+    "de": "Wasserring",
+    "es": "Acua Aro",
+    "ko": "아쿠아링",
+    "zh-CN": "水流环",
+    "zh-TW": "水流環"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "自分の　体の　周りを 水で　つくった　ベールで　おおう。 毎ターン　ＨＰを　回復する。",
+    "kana": "じぶんの　からだの　まわりを みずで　つくった　ベールで　おおう。 まいターン　ＨＰを　かいふく　する。",
+    "en": "The user envelops itself in a veil made of water. It regains some HP every turn.",
+    "fr": "Un voile d’eau recouvre le lanceur et régénère ses PV à chaque tour.",
+    "it": "Chi la usa si avvolge in un velo d’acqua. Recupera alcuni PS a ogni turno.",
+    "de": "Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.",
+    "es": "Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.",
+    "ko": "자신의 몸 주변을 물로 만든 베일로 덮는다. 매 턴 HP를 회복한다.",
+    "zh-CN": "在自己身体的周围 覆盖用水制造的幕。 每回合回复ＨＰ。",
+    "zh-TW": "在自己的身邊套上水流環。 每回合會回復自己的ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "water",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un voile liquide enveloppe le lanceur. Il récupère des PV à chaque tour."
+        }
+      }
+    }
+  ]
 }

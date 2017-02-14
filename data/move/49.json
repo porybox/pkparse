@@ -2,36 +2,13 @@
   "id": 49,
   "name": "sonic-boom",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts exactly 20 damage.",
-      "short_effect": "Inflicts 20 points of damage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sonic Boom",
-      "language": "en"
-    },
-    {
-      "name": "Sonicboom",
-      "language": "it"
-    },
-    {
-      "name": "Bomba Sónica",
-      "language": "es"
-    },
-    {
-      "name": "Ultraschall",
-      "language": "de"
-    },
-    {
-      "name": "Sonicboom",
-      "language": "fr"
-    },
-    {
-      "name": "소닉붐",
-      "language": "ko"
-    },
-    {
-      "name": "ソニックブーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ソニックブーム",
+    "kana": "ソニックブーム",
+    "en": "Sonic Boom",
+    "fr": "Sonicboom",
+    "it": "Sonicboom",
+    "de": "Ultraschall",
+    "es": "Bomba Sónica",
+    "ko": "소닉붐",
+    "zh-CN": "音爆",
+    "zh-TW": "音爆"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "衝撃波を 相手に　ぶつけて　攻撃する。 ２０の　ダメージを　決まって　与える。",
+    "kana": "しょうげきはを あいてに　ぶつけて　こうげきする。 ２０の　ダメージを　きまって　あたえる。",
+    "en": "The target is hit with a destructive shock wave that always inflicts 20 HP damage.",
+    "fr": "Une onde de choc destructrice qui inflige toujours 20 PV de dégâts.",
+    "it": "Il bersaglio viene colpito da onde acustiche devastanti che gli provocano un danno pari a 20 PS.",
+    "de": "Das Ziel wird von einer Schockwelle getroffen, die stets 20 KP Schaden anrichtet.",
+    "es": "Lanza ondas de choque que restan 20 PS al objetivo.",
+    "ko": "충격파를 상대에 부딪쳐서 공격한다. 언제나 20의 데미지를 준다.",
+    "zh-CN": "将冲击波 撞向对手进行攻击。 必定会给予２０的伤害。",
+    "zh-TW": "向對手發射衝擊波 進行攻擊。 固定給予２０的傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

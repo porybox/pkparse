@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "しんちょう",
-      "language": "ja"
-    },
-    {
-      "name": "신중",
-      "language": "ko"
-    },
-    {
-      "name": "Prudent",
-      "language": "fr"
-    },
-    {
-      "name": "Sacht",
-      "language": "de"
-    },
-    {
-      "name": "Cauto",
-      "language": "es"
-    },
-    {
-      "name": "Cauta",
-      "language": "it"
-    },
-    {
-      "name": "Careful",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "しんちょう",
+    "en": "Careful",
+    "fr": "Prudent",
+    "it": "Cauta",
+    "de": "Sacht",
+    "es": "Cauta",
+    "ko": "신중",
+    "zh-CN": "慎重",
+    "zh-TW": "慎重"
+  }
 }

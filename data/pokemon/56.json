@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 136,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "マンキー",
-      "language": "ja"
-    },
-    {
-      "name": "Mankey",
-      "language": "roomaji"
-    },
-    {
-      "name": "망키",
-      "language": "ko"
-    },
-    {
-      "name": "猴怪",
-      "language": "zh"
-    },
-    {
-      "name": "Férosinge",
-      "language": "fr"
-    },
-    {
-      "name": "Menki",
-      "language": "de"
-    },
-    {
-      "name": "Mankey",
-      "language": "es"
-    },
-    {
-      "name": "Mankey",
-      "language": "it"
-    },
-    {
-      "name": "Mankey",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マンキー",
+    "en": "Mankey",
+    "fr": "Férosinge",
+    "it": "Mankey",
+    "de": "Menki",
+    "es": "Mankey",
+    "ko": "망키"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ぶたざる",
-      "language": "ja"
-    },
-    {
-      "genus": "돈숭이",
-      "language": "ko"
-    },
-    {
-      "genus": "Porsinge",
-      "language": "fr"
-    },
-    {
-      "genus": "Schw./ Affe",
-      "language": "de"
-    },
-    {
-      "genus": "Mono Cerdo",
-      "language": "es"
-    },
-    {
-      "genus": "Suinpanzé",
-      "language": "it"
-    },
-    {
-      "genus": "Pig Monkey",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ぶたざる",
+    "en": "Pig Monkey",
+    "fr": "Porsinge",
+    "it": "Suinpanzé",
+    "de": "Schwein\/Affe",
+    "es": "Mono Cerdo",
+    "ko": "돈숭이"
+  },
   "varieties": [
     {
       "is_default": true,

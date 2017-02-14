@@ -2,49 +2,13 @@
   "id": 299,
   "name": "blaze-kick",
   "accuracy": 90,
-  "effect_chance": 10,
   "pp": 10,
   "priority": 0,
   "power": 85,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sunny-day"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move. Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "short_effect": "Has an increased chance for a critical hit and a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "burn",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Blaze Kick",
-      "language": "en"
-    },
-    {
-      "name": "Calciardente",
-      "language": "it"
-    },
-    {
-      "name": "Patada Ígnea",
-      "language": "es"
-    },
-    {
-      "name": "Feuerfeger",
-      "language": "de"
-    },
-    {
-      "name": "Pied Brûleur",
-      "language": "fr"
-    },
-    {
-      "name": "브레이즈킥",
-      "language": "ko"
-    },
-    {
-      "name": "ブレイズキック",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ブレイズキック",
+    "kana": "ブレイズキック",
+    "en": "Blaze Kick",
+    "fr": "Pied Brûleur",
+    "it": "Calciardente",
+    "de": "Feuerfeger",
+    "es": "Patada Ígnea",
+    "ko": "브레이즈킥",
+    "zh-CN": "火焰踢",
+    "zh-TW": "火焰踢"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "攻撃した　相手を やけど状態に　することが　ある。 急所にも　当たりやすい。",
+    "kana": "こうげきした　あいてを やけど　じょうたいに　することが　ある。 きゅうしょにも　あたりやすい。",
+    "en": "The user launches a kick that lands a critical hit more easily. This may also leave the target with a burn.",
+    "fr": "Le lanceur envoie un coup de pied au taux de critique élevé. Peut aussi brûler la cible.",
+    "it": "Chi la usa tira un calcio. Probabile brutto colpo. Può anche scottare il bersaglio.",
+    "de": "Starker Tritt mit hoher Volltrefferquote. Verursacht eventuell Verbrennungen.",
+    "es": "Patada que suele ser un golpe crítico y puede causar quemaduras.",
+    "ko": "공격한 상대를 화상 상태로 만들 때가 있다. 급소에도 맞기 쉽다.",
+    "zh-CN": "攻击对手后， 有时会使其陷入灼伤状态。 也容易击中要害。",
+    "zh-TW": "有時會讓受到攻擊的對手 陷入灼傷狀態。 且容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur envoie un coup de pied au taux de critiques élevé. Peut aussi brûler la cible.",
+          "de": "Starker Tritt mit hoher Volltrefferquote. Verursacht eventuell Verbrennung."
+        }
+      }
+    }
+  ]
 }

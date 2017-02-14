@@ -1,0 +1,38 @@
+{
+  "id": 583,
+  "name": "comet-shard",
+  "names": {
+    "ja": "すいせいのかけら",
+    "kana": "すいせいのかけら",
+    "en": "Comet Shard",
+    "fr": "Morceau Comète",
+    "it": "Pezzo Cometa",
+    "de": "Kometstück",
+    "es": "Fragmento Cometa",
+    "ko": "혜성조각",
+    "zh-CN": "彗星碎片",
+    "zh-TW": "彗星碎片"
+  },
+  "flavor_text_entries": {
+    "ja": "すい星が　近づいたとき 地表に　落ちた　かけら。 ショップで　高く　売れる。",
+    "kana": "すいせいが　ちかづいたとき ちひょうに　おちた　かけら。 ショップで　たかく　うれる。",
+    "en": "A shard that fell to the ground when a comet approached. It can be sold at a high price to shops.",
+    "fr": "Un fragment de comète, tombé au sol quand elle traversait l’atmosphère. Peut être vendu à bon prix aux magasins.",
+    "it": "Scheggia di cometa caduta al suolo. Si può vendere a un prezzo piuttosto alto nei negozi.",
+    "de": "Ein Kometensplitter, der aus dem All herabgefallen ist. Er ist von großem Wert.",
+    "es": "Fragmento de un cometa caído al suelo al atravesar la atmósfera. Se puede vender a buen precio en las tiendas.",
+    "ko": "혜성이 가까워졌을 때 지표면에 떨어진 조각. 상점에서 비싸게 팔린다.",
+    "zh-CN": "彗星临近时， 掉落到地表上的碎片。 可以在商店高价出售。",
+    "zh-TW": "彗星接近時， 掉落到地表上的碎片。 可以在商店高價出售。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Fragmento de un cometa caído al suelo al atravesar la atmósfera. Muy valorado por los coleccionistas."
+        }
+      }
+    }
+  ]
+}

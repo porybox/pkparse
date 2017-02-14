@@ -2,52 +2,13 @@
   "id": 44,
   "name": "bite",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 25,
   "priority": 0,
   "power": 60,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "leer"
-        },
-        {
-          "name": "scary-face"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,57 +20,31 @@
     "flinch_chance": 30,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Bite",
-      "language": "en"
-    },
-    {
-      "name": "Morso",
-      "language": "it"
-    },
-    {
-      "name": "Mordisco",
-      "language": "es"
-    },
-    {
-      "name": "Biss",
-      "language": "de"
-    },
-    {
-      "name": "Morsure",
-      "language": "fr"
-    },
-    {
-      "name": "물기",
-      "language": "ko"
-    },
-    {
-      "name": "かみつく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": null,
-      "effect_chance": 10,
-      "effect_entries": [],
-      "type": {
-        "name": "normal"
-      },
-      "version_group": {
-        "name": "gold-silver"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "かみつく",
+    "kana": "かみつく",
+    "en": "Bite",
+    "fr": "Morsure",
+    "it": "Morso",
+    "de": "Biss",
+    "es": "Mordisco",
+    "ko": "물기",
+    "zh-CN": "咬住",
+    "zh-TW": "咬住"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "鋭く　とがった　歯で かみついて　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "するどく　とがった　はで かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The target is bitten with viciously sharp fangs. This may also make the target flinch.",
+    "fr": "L’ennemi est mordu par de tranchantes canines. Peut l’apeurer.",
+    "it": "Il bersaglio viene morso da denti affilatissimi che possono farlo tentennare.",
+    "de": "Beißt zu und lässt das Ziel eventuell zurückschrecken.",
+    "es": "Un voraz bocado que puede hacer retroceder al objetivo.",
+    "ko": "날카롭고 뾰족한 이빨로 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "用尖锐的牙 咬住对手进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "用尖銳的牙齒 咬住對手進行攻擊。 有時會使對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark"
 }

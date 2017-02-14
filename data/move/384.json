@@ -2,36 +2,13 @@
   "id": 384,
   "name": "power-swap",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User swaps its [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} [stat modifiers]{mechanic:stat-modifiers} modifiers with the target.",
-      "short_effect": "User swaps Attack and Special Attack changes with the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Power Swap",
-      "language": "en"
-    },
-    {
-      "name": "Barattoforza",
-      "language": "it"
-    },
-    {
-      "name": "Cambia Fuerza",
-      "language": "es"
-    },
-    {
-      "name": "Krafttausch",
-      "language": "de"
-    },
-    {
-      "name": "Permuforce",
-      "language": "fr"
-    },
-    {
-      "name": "파워스웹",
-      "language": "ko"
-    },
-    {
-      "name": "パワースワップ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "パワースワップ",
+    "kana": "パワースワップ",
+    "en": "Power Swap",
+    "fr": "Permuforce",
+    "it": "Barattoforza",
+    "de": "Krafttausch",
+    "es": "Cambia Fuerza",
+    "ko": "파워스웹",
+    "zh-CN": "力量互换",
+    "zh-TW": "力量互換"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "超能力で　自分と　相手の 攻撃と　特攻の 能力変化を　入れ替える。",
+    "kana": "ちょうのうりょくで　じぶんと　あいての こうげきと　とくこうの のうりょく　へんかを　いれかえる。",
+    "en": "The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target.",
+    "fr": "Pouvoir qui échange les modifications de l’Attaque Spéciale et de l’Attaque du lanceur avec la cible.",
+    "it": "Chi la usa sfrutta la sua forza psichica per scambiare le modifiche ad Attacco e Attacco Speciale con il bersaglio.",
+    "de": "Psychische Kräfte tauschen Änderungen an Angriff und Spezial-Angriff mit denen des Zieles.",
+    "es": "El usuario emplea su poder mental para intercambiar los cambios en Ataque y Ataque Especial con el objetivo.",
+    "ko": "초능력으로 자신과 상대의 공격과 특수공격의 능력 변화를 교체한다.",
+    "zh-CN": "利用超能力互换 自己和对手的攻击 以及特攻的能力变化。",
+    "zh-TW": "用超能力將自己和對手的 攻擊與特攻的能力變化互相交換。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

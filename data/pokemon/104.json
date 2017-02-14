@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 60,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "カラカラ",
-      "language": "ja"
-    },
-    {
-      "name": "Karakara",
-      "language": "roomaji"
-    },
-    {
-      "name": "탕구리",
-      "language": "ko"
-    },
-    {
-      "name": "可拉可拉",
-      "language": "zh"
-    },
-    {
-      "name": "Osselait",
-      "language": "fr"
-    },
-    {
-      "name": "Tragosso",
-      "language": "de"
-    },
-    {
-      "name": "Cubone",
-      "language": "es"
-    },
-    {
-      "name": "Cubone",
-      "language": "it"
-    },
-    {
-      "name": "Cubone",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カラカラ",
+    "en": "Cubone",
+    "fr": "Osselait",
+    "it": "Cubone",
+    "de": "Tragosso",
+    "es": "Cubone",
+    "ko": "탕구리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こどく",
-      "language": "ja"
-    },
-    {
-      "genus": "고독",
-      "language": "ko"
-    },
-    {
-      "genus": "Solitaire",
-      "language": "fr"
-    },
-    {
-      "genus": "Einsam",
-      "language": "de"
-    },
-    {
-      "genus": "Solitario",
-      "language": "es"
-    },
-    {
-      "genus": "Solitario",
-      "language": "it"
-    },
-    {
-      "genus": "Lonely",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こどく",
+    "en": "Lonely",
+    "fr": "Solitaire",
+    "it": "Solitario",
+    "de": "Einsam",
+    "es": "Solitario",
+    "ko": "고독"
+  },
   "varieties": [
     {
       "is_default": true,

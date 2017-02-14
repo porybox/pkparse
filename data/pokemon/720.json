@@ -9,9 +9,7 @@
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 720,
@@ -21,13 +19,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "ball"
   },
@@ -37,68 +31,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "フーパ",
-      "language": "ja"
-    },
-    {
-      "name": "후파",
-      "language": "ko"
-    },
-    {
-      "name": "Hoopa",
-      "language": "fr"
-    },
-    {
-      "name": "Hoopa",
-      "language": "de"
-    },
-    {
-      "name": "Hoopa",
-      "language": "es"
-    },
-    {
-      "name": "Hoopa",
-      "language": "it"
-    },
-    {
-      "name": "Hoopa",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フーパ",
+    "en": "Hoopa",
+    "fr": "Hoopa",
+    "it": "Hoopa",
+    "de": "Hoopa",
+    "es": "Hoopa",
+    "ko": "후파"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いたずら",
-      "language": "ja"
-    },
-    {
-      "genus": "장난",
-      "language": "ko"
-    },
-    {
-      "genus": "Chenapan",
-      "language": "fr"
-    },
-    {
-      "genus": "Schabernack",
-      "language": "de"
-    },
-    {
-      "genus": "Travesura",
-      "language": "es"
-    },
-    {
-      "genus": "Birba",
-      "language": "it"
-    },
-    {
-      "genus": "Mischief",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いたずら",
+    "en": "Mischief",
+    "fr": "Chenapan",
+    "it": "Birba",
+    "de": "Schabernack",
+    "es": "Travesura",
+    "ko": "장난"
+  },
   "varieties": [
     {
       "is_default": true,

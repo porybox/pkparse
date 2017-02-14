@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 26,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "tentacles"
   },
@@ -83,44 +77,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ドククラゲ",
-      "language": "ja"
-    },
-    {
-      "name": "Dokukurage",
-      "language": "roomaji"
-    },
-    {
-      "name": "독파리",
-      "language": "ko"
-    },
-    {
-      "name": "毒刺水母",
-      "language": "zh"
-    },
-    {
-      "name": "Tentacruel",
-      "language": "fr"
-    },
-    {
-      "name": "Tentoxa",
-      "language": "de"
-    },
-    {
-      "name": "Tentacruel",
-      "language": "es"
-    },
-    {
-      "name": "Tentacruel",
-      "language": "it"
-    },
-    {
-      "name": "Tentacruel",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドククラゲ",
+    "en": "Tentacruel",
+    "fr": "Tentacruel",
+    "it": "Tentacruel",
+    "de": "Tentoxa",
+    "es": "Tentacruel",
+    "ko": "독파리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -131,36 +96,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くらげ",
-      "language": "ja"
-    },
-    {
-      "genus": "해파리",
-      "language": "ko"
-    },
-    {
-      "genus": "Mollusque",
-      "language": "fr"
-    },
-    {
-      "genus": "Qualle",
-      "language": "de"
-    },
-    {
-      "genus": "Medusa",
-      "language": "es"
-    },
-    {
-      "genus": "Medusa",
-      "language": "it"
-    },
-    {
-      "genus": "Jellyfish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くらげ",
+    "en": "Jellyfish",
+    "fr": "Mollusque",
+    "it": "Medusa",
+    "de": "Qualle",
+    "es": "Medusa",
+    "ko": "해파리"
+  },
   "varieties": [
     {
       "is_default": true,

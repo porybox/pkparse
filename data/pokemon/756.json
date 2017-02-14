@@ -1,0 +1,45 @@
+{
+  "id": 756,
+  "name": "shiinotic",
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "plant"
+  ],
+  "color": "purple",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "マシェード",
+    "en": "Shiinotic",
+    "fr": "Lampignon",
+    "it": "Shiinotic",
+    "de": "Lamellux",
+    "es": "Shiinotic",
+    "ko": "마셰이드"
+  },
+  "genera": {
+    "ja": "はっこう",
+    "en": "Illuminating",
+    "fr": "Luminescent",
+    "it": "Luminescenza",
+    "de": "Lumineszenz",
+    "es": "Luminiscente",
+    "ko": "발광"
+  },
+  "types": [
+    "grass",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 80,
+    "special-attack": 90,
+    "special-defense": 100,
+    "speed": 30
+  }
+}

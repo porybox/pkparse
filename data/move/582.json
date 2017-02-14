@@ -2,34 +2,13 @@
   "id": 582,
   "name": "electrify",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Changes the target's move's type to []{type:electric} if it hasn't moved yet this turn.",
-      "short_effect": "Changes the target's move's type to []{type:electric} if it hasn't moved yet this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,50 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Electrify",
-      "language": "en"
-    },
-    {
-      "name": "Elettrocontagio",
-      "language": "it"
-    },
-    {
-      "name": "Electrificación",
-      "language": "es"
-    },
-    {
-      "name": "Elektrifizierung",
-      "language": "de"
-    },
-    {
-      "name": "Électrisation",
-      "language": "fr"
-    },
-    {
-      "name": "송전",
-      "language": "ko"
-    },
-    {
-      "name": "そうでん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "そうでん",
+    "kana": "そうでん",
+    "en": "Electrify",
+    "fr": "Électrisation",
+    "it": "Elettrocontagio",
+    "de": "Elektrifizierung",
+    "es": "Electrificación",
+    "ko": "송전",
+    "zh-CN": "输电",
+    "zh-TW": "輸電"
   },
-  "type": {
-    "name": "electric"
-  }
+  "flavor_text_entries": {
+    "ja": "相手が　技を　だす前に そうでん　すると　そのターン 相手の　技は　でんきタイプになる。",
+    "kana": "あいてが　わざを　だすまえに そうでん　すると　そのターン あいての　わざは　でんきタイプになる。",
+    "en": "If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.",
+    "fr": "Si le lanceur attaque avant la cible, les capacités de celle-ci seront de type Électrik jusqu’à la fin du tour.",
+    "it": "Se si contagia il bersaglio prima che usi la sua mossa, per quel turno questa sarà di tipo Elettro.",
+    "de": "Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.",
+    "es": "Si el objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico.",
+    "ko": "상대가 기술을 쓰기 전에 송전하면 그 턴에 상대가 사용하는 기술은 전기타입이 된다.",
+    "zh-CN": "对手使出招式前， 如果输电，则该回合 对手的招式变成电属性。",
+    "zh-TW": "如果在對手使用招式前輸電， 該回合對手的招式會變成電屬性。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Se si contagia il bersaglio prima che usi la sua mossa, per quel turno le sue mosse saranno di tipo Elettro.",
+          "es": "Si el Pokémon objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Si le lanceur attaque avant l’ennemi, les capacités de ce dernier seront de type Électrik jusqu’à la fin du tour."
+        }
+      }
+    }
+  ]
 }

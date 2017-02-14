@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 120,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "squiggle"
   },
@@ -60,68 +52,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ジャローダ",
-      "language": "ja"
-    },
-    {
-      "name": "샤로다",
-      "language": "ko"
-    },
-    {
-      "name": "Majaspic",
-      "language": "fr"
-    },
-    {
-      "name": "Serpiroyal",
-      "language": "de"
-    },
-    {
-      "name": "Serperior",
-      "language": "es"
-    },
-    {
-      "name": "Serperior",
-      "language": "it"
-    },
-    {
-      "name": "Serperior",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ジャローダ",
+    "en": "Serperior",
+    "fr": "Majaspic",
+    "it": "Serperior",
+    "de": "Serpiroyal",
+    "es": "Serperior",
+    "ko": "샤로다"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ロイヤル",
-      "language": "ja"
-    },
-    {
-      "genus": "로열",
-      "language": "ko"
-    },
-    {
-      "genus": "Majestueux",
-      "language": "fr"
-    },
-    {
-      "genus": "Hoheit",
-      "language": "de"
-    },
-    {
-      "genus": "Realeza",
-      "language": "es"
-    },
-    {
-      "genus": "Regale",
-      "language": "it"
-    },
-    {
-      "genus": "Regal",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ロイヤル",
+    "en": "Regal",
+    "fr": "Majestueux",
+    "it": "Regale",
+    "de": "Hoheit",
+    "es": "Realeza",
+    "ko": "로열"
+  },
   "varieties": [
     {
       "is_default": true,

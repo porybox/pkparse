@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 43,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "quadruped"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "レパルダス",
-      "language": "ja"
-    },
-    {
-      "name": "레파르다스",
-      "language": "ko"
-    },
-    {
-      "name": "Léopardus",
-      "language": "fr"
-    },
-    {
-      "name": "Kleoparda",
-      "language": "de"
-    },
-    {
-      "name": "Liepard",
-      "language": "es"
-    },
-    {
-      "name": "Liepard",
-      "language": "it"
-    },
-    {
-      "name": "Liepard",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "レパルダス",
+    "en": "Liepard",
+    "fr": "Léopardus",
+    "it": "Liepard",
+    "de": "Kleoparda",
+    "es": "Liepard",
+    "ko": "레파르다스"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "れいこく",
-      "language": "ja"
-    },
-    {
-      "genus": "냉혹",
-      "language": "ko"
-    },
-    {
-      "genus": "Implacable",
-      "language": "fr"
-    },
-    {
-      "genus": "Gefühlskälte",
-      "language": "de"
-    },
-    {
-      "genus": "Calculador",
-      "language": "es"
-    },
-    {
-      "genus": "Sanguefreddo",
-      "language": "it"
-    },
-    {
-      "genus": "Cruel",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "れいこく",
+    "en": "Cruel",
+    "fr": "Implacable",
+    "it": "Sanguefreddo",
+    "de": "Gefühlskälte",
+    "es": "Calculador",
+    "ko": "냉혹"
+  },
   "varieties": [
     {
       "is_default": true,

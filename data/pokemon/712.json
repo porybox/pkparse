@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 79,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "カチコール",
-      "language": "ja"
-    },
-    {
-      "name": "꽁어름",
-      "language": "ko"
-    },
-    {
-      "name": "Grelaçon",
-      "language": "fr"
-    },
-    {
-      "name": "Arktip",
-      "language": "de"
-    },
-    {
-      "name": "Bergmite",
-      "language": "es"
-    },
-    {
-      "name": "Bergmite",
-      "language": "it"
-    },
-    {
-      "name": "Bergmite",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カチコール",
+    "en": "Bergmite",
+    "fr": "Grelaçon",
+    "it": "Bergmite",
+    "de": "Arktip",
+    "es": "Bergmite",
+    "ko": "꽁어름"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひょうかい",
-      "language": "ja"
-    },
-    {
-      "genus": "얼음덩이",
-      "language": "ko"
-    },
-    {
-      "genus": "Glaçon",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisklumpen",
-      "language": "de"
-    },
-    {
-      "genus": "Témpano",
-      "language": "es"
-    },
-    {
-      "genus": "Ghiacciolo",
-      "language": "it"
-    },
-    {
-      "genus": "Ice Chunk",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひょうかい",
+    "en": "Ice Chunk",
+    "fr": "Glaçon",
+    "it": "Ghiacciolo",
+    "de": "Eisklumpen",
+    "es": "Témpano",
+    "ko": "얼음덩이"
+  },
   "varieties": [
     {
       "is_default": true,

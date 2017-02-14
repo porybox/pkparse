@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 59,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "quadruped"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "コラッタ",
-      "language": "ja"
-    },
-    {
-      "name": "Koratta",
-      "language": "roomaji"
-    },
-    {
-      "name": "꼬렛",
-      "language": "ko"
-    },
-    {
-      "name": "小拉達",
-      "language": "zh"
-    },
-    {
-      "name": "Rattata",
-      "language": "fr"
-    },
-    {
-      "name": "Rattfratz",
-      "language": "de"
-    },
-    {
-      "name": "Rattata",
-      "language": "es"
-    },
-    {
-      "name": "Rattata",
-      "language": "it"
-    },
-    {
-      "name": "Rattata",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コラッタ",
+    "en": "Rattata",
+    "fr": "Rattata",
+    "it": "Rattata",
+    "de": "Rattfratz",
+    "es": "Rattata",
+    "ko": "꼬렛"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ねずみ",
-      "language": "ja"
-    },
-    {
-      "genus": "쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Souris",
-      "language": "fr"
-    },
-    {
-      "genus": "Maus",
-      "language": "de"
-    },
-    {
-      "genus": "Ratón",
-      "language": "es"
-    },
-    {
-      "genus": "Topo",
-      "language": "it"
-    },
-    {
-      "genus": "Mouse",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ねずみ",
+    "en": "Mouse",
+    "fr": "Souris",
+    "it": "Topo",
+    "de": "Maus",
+    "es": "Ratón",
+    "ko": "쥐"
+  },
   "varieties": [
     {
       "is_default": true,

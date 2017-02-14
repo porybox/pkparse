@@ -1,0 +1,39 @@
+{
+  "id": 373,
+  "name": "tm46",
+  "names": {
+    "ja": "わざマシン４６",
+    "kana": "わざマシン４６",
+    "en": "TM46",
+    "fr": "CT46",
+    "it": "MT46",
+    "de": "TM46",
+    "es": "MT46",
+    "ko": "기술머신46",
+    "zh-CN": "招式学习器４６",
+    "zh-TW": "招式學習器４６"
+  },
+  "flavor_text_entries": {
+    "ja": "攻撃と　同時に　道具を　盗む。 自分が　道具を　持っている　場合は 盗めない。",
+    "kana": "こうげきと　どうじに　どうぐを　ぬすむ。 じぶんが　どうぐを　もっている　ばあいは ぬすめない。",
+    "en": "The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.",
+    "fr": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet.",
+    "it": "Chi la usa attacca il bersaglio e può rubargli lo strumento, se non ne ha già uno.",
+    "de": "Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.",
+    "es": "Quien lo usa ataca y roba el objeto que lleva su objetivo simultáneamente. Si ya lleva un objeto, no podrá robar ninguno.",
+    "ko": "공격과 동시에 도구를 훔친다. 자신이 도구를 지니고 있을 경우에는 훔칠 수 없다.",
+    "zh-CN": "攻击的同时盗取道具。 当自己携带道具时， 不会去盗取。",
+    "zh-TW": "在攻擊的同時偷取道具。 當寶可夢自己有攜帶道具時， 則無法偷取。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "こうげきと　どうじに　もちものを ぬすむ。　じぶんに　もちものが あると　しっぱいする。",
+          "es": "Quien lo usa ataca y roba el objeto que lleva su objetivo simultáneamente. Si ya lleva un objeto, no podrá robar."
+        }
+      }
+    }
+  ]
+}

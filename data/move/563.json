@@ -2,34 +2,13 @@
   "id": 563,
   "name": "rototiller",
   "accuracy": null,
-  "effect_chance": 100,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the Attack and Special Attack of all []{type:grass} Pokémon in battle.",
-      "short_effect": "Raises the Attack and Special Attack of all []{type:grass} Pokémon in battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,56 +20,51 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Rototiller",
-      "language": "en"
-    },
-    {
-      "name": "Aracampo",
-      "language": "it"
-    },
-    {
-      "name": "Fertilizante",
-      "language": "es"
-    },
-    {
-      "name": "Pflüger",
-      "language": "de"
-    },
-    {
-      "name": "Fertilisation",
-      "language": "fr"
-    },
-    {
-      "name": "일구기",
-      "language": "ko"
-    },
-    {
-      "name": "たがやす",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "たがやす",
+    "kana": "たがやす",
+    "en": "Rototiller",
+    "fr": "Fertilisation",
+    "it": "Aracampo",
+    "de": "Pflüger",
+    "es": "Fertilizante",
+    "ko": "일구기",
+    "zh-CN": "耕地",
+    "zh-TW": "耕地"
+  },
+  "flavor_text_entries": {
+    "ja": "地面を　耕して　草木が 育ちやすいようにする。　くさタイプの 攻撃と　特攻が　あがる。",
+    "kana": "じめんを　たがやして　くさきが そだちやすいようにする。　くさタイプの こうげきと　とくこうが　あがる。",
+    "en": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pokémon.",
+    "fr": "Laboure le sol et le rend plus fertile. Augmente l’Attaque et l’Attaque Spéciale des Pokémon de type Plante.",
+    "it": "Chi la usa dissoda la terra per far crescere meglio l’erba. Questa mossa aumenta l’Attacco e l’Attacco Speciale dei Pokémon di tipo Erba.",
+    "de": "Der Anwender pflügt den Boden und macht die Erde fruchtbarer. Erhöht den Angriff und den Spezial-Angriff von Pflanzen-Pokémon.",
+    "es": "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.",
+    "ko": "땅을 일구어 초목이 자라기 쉽게 한다. 풀타입의 공격과 특수공격이 오른다.",
+    "zh-CN": "翻耕土地， 使草木更容易成长。 会提高草属性宝可梦的攻击和特攻。",
+    "zh-TW": "耕耘土地，讓草木更容易成長。 可提高草屬性寶可夢的攻擊和特攻。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-pokemon"
-  },
-  "type": {
-    "name": "ground"
-  }
+  "target": "all-pokemon",
+  "type": "ground",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "地面を　耕して　草木が 育ちやすいようにする。くさタイプの 攻撃と　特攻が　あがる。",
+          "kana": "じめんを　たがやして　くさきが そだちやすいようにする。くさタイプの こうげきと　とくこうが　あがる。"
+        }
+      }
+    }
+  ]
 }

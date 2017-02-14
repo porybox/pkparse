@@ -2,52 +2,13 @@
   "id": 192,
   "name": "zap-cannon",
   "accuracy": 50,
-  "effect_chance": 100,
   "pp": 5,
   "priority": 0,
   "power": 120,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "lock-on"
-        },
-        {
-          "name": "charge"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.",
-      "short_effect": "Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "paralysis",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Zap Cannon",
-      "language": "en"
-    },
-    {
-      "name": "Falcecannone",
-      "language": "it"
-    },
-    {
-      "name": "Electrocañón",
-      "language": "es"
-    },
-    {
-      "name": "Blitzkanone",
-      "language": "de"
-    },
-    {
-      "name": "Élecanon",
-      "language": "fr"
-    },
-    {
-      "name": "전자포",
-      "language": "ko"
-    },
-    {
-      "name": "でんじほう",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "でんじほう",
+    "kana": "でんじほう",
+    "en": "Zap Cannon",
+    "fr": "Élecanon",
+    "it": "Falcecannone",
+    "de": "Blitzkanone",
+    "es": "Electrocañón",
+    "ko": "전자포",
+    "zh-CN": "电磁炮",
+    "zh-TW": "電磁炮"
+  },
+  "flavor_text_entries": {
+    "ja": "大砲の　ような 電気を　発射して　攻撃する。 相手を　まひの　状態に　する。",
+    "kana": "たいほうの　ような でんきを　はっしゃして　こうげきする。 あいてを　まひの　じょうたいに　する。",
+    "en": "The user fires an electric blast like a cannon to inflict damage and cause paralysis.",
+    "fr": "Un boulet de canon électrifié qui inflige des dégâts et paralyse l’ennemi.",
+    "it": "Chi la usa scaglia una sfera elettrica che infligge danni e paralizza il bersaglio.",
+    "de": "Kanonenähnlicher Elektro-Schuss, der schadet und paralysiert.",
+    "es": "Dispara una descarga eléctrica que causa daño y parálisis.",
+    "ko": "대포처럼 전기를 발사해서 공격한다. 상대를 마비 상태로 만든다.",
+    "zh-CN": "发射大炮一样的 电流进行攻击。 让对手陷入麻痹状态。",
+    "zh-TW": "發射如大炮般的 電流進行攻擊。 能讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric",
   "past_values": [
     {
-      "accuracy": null,
-      "power": 100,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa provoca un’esplosione elettrica che infligge danni e paralizza il bersaglio."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "electric"
-  }
+  ]
 }

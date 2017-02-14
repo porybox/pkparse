@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 119,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "blob"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ソーナンス",
-      "language": "ja"
-    },
-    {
-      "name": "Sonans",
-      "language": "roomaji"
-    },
-    {
-      "name": "마자용",
-      "language": "ko"
-    },
-    {
-      "name": "果然翁",
-      "language": "zh"
-    },
-    {
-      "name": "Qulbutoké",
-      "language": "fr"
-    },
-    {
-      "name": "Woingenau",
-      "language": "de"
-    },
-    {
-      "name": "Wobbuffet",
-      "language": "es"
-    },
-    {
-      "name": "Wobbuffet",
-      "language": "it"
-    },
-    {
-      "name": "Wobbuffet",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ソーナンス",
+    "en": "Wobbuffet",
+    "fr": "Qulbutoké",
+    "it": "Wobbuffet",
+    "de": "Woingenau",
+    "es": "Wobbuffet",
+    "ko": "마자용"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "がまん",
-      "language": "ja"
-    },
-    {
-      "genus": "참기",
-      "language": "ko"
-    },
-    {
-      "genus": "Patient",
-      "language": "fr"
-    },
-    {
-      "genus": "Geduld",
-      "language": "de"
-    },
-    {
-      "genus": "Paciente",
-      "language": "es"
-    },
-    {
-      "genus": "Pazienza",
-      "language": "it"
-    },
-    {
-      "genus": "Patient",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "がまん",
+    "en": "Patient",
+    "fr": "Patient",
+    "it": "Pazienza",
+    "de": "Geduld",
+    "es": "Paciente",
+    "ko": "참기"
+  },
   "varieties": [
     {
       "is_default": true,

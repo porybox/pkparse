@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 35,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "fairy"
-    }
+    "fairy",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -50,44 +42,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "キノガッサ",
-      "language": "ja"
-    },
-    {
-      "name": "Kinogassa",
-      "language": "roomaji"
-    },
-    {
-      "name": "버섯모",
-      "language": "ko"
-    },
-    {
-      "name": "斗笠菇",
-      "language": "zh"
-    },
-    {
-      "name": "Chapignon",
-      "language": "fr"
-    },
-    {
-      "name": "Kapilz",
-      "language": "de"
-    },
-    {
-      "name": "Breloom",
-      "language": "es"
-    },
-    {
-      "name": "Breloom",
-      "language": "it"
-    },
-    {
-      "name": "Breloom",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "キノガッサ",
+    "en": "Breloom",
+    "fr": "Chapignon",
+    "it": "Breloom",
+    "de": "Kapilz",
+    "es": "Breloom",
+    "ko": "버섯모"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -98,36 +61,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きのこ",
-      "language": "ja"
-    },
-    {
-      "genus": "버섯",
-      "language": "ko"
-    },
-    {
-      "genus": "Champignon",
-      "language": "fr"
-    },
-    {
-      "genus": "Pilz",
-      "language": "de"
-    },
-    {
-      "genus": "Hongo",
-      "language": "es"
-    },
-    {
-      "genus": "Fungo",
-      "language": "it"
-    },
-    {
-      "genus": "Mushroom",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きのこ",
+    "en": "Mushroom",
+    "fr": "Champignon",
+    "it": "Fungo",
+    "de": "Pilz",
+    "es": "Hongo",
+    "ko": "버섯"
+  },
   "varieties": [
     {
       "is_default": true,

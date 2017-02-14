@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 2,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ハヤシガメ",
-      "language": "ja"
-    },
-    {
-      "name": "Hayashigame",
-      "language": "roomaji"
-    },
-    {
-      "name": "수풀부기",
-      "language": "ko"
-    },
-    {
-      "name": "樹林龜",
-      "language": "zh"
-    },
-    {
-      "name": "Boskara",
-      "language": "fr"
-    },
-    {
-      "name": "Chelcarain",
-      "language": "de"
-    },
-    {
-      "name": "Grotle",
-      "language": "es"
-    },
-    {
-      "name": "Grotle",
-      "language": "it"
-    },
-    {
-      "name": "Grotle",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハヤシガメ",
+    "en": "Grotle",
+    "fr": "Boskara",
+    "it": "Grotle",
+    "de": "Chelcarain",
+    "es": "Grotle",
+    "ko": "수풀부기"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こだち",
-      "language": "ja"
-    },
-    {
-      "genus": "나무숲",
-      "language": "ko"
-    },
-    {
-      "genus": "Bosquet",
-      "language": "fr"
-    },
-    {
-      "genus": "Hain",
-      "language": "de"
-    },
-    {
-      "genus": "Arboleda",
-      "language": "es"
-    },
-    {
-      "genus": "Boschetto",
-      "language": "it"
-    },
-    {
-      "genus": "Grove",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こだち",
+    "en": "Grove",
+    "fr": "Bosquet",
+    "it": "Boschetto",
+    "de": "Hain",
+    "es": "Arboleda",
+    "ko": "나무숲"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,0 +1,47 @@
+{
+  "id": 275,
+  "name": "focus-sash",
+  "names": {
+    "ja": "きあいのタスキ",
+    "kana": "きあいのタスキ",
+    "en": "Focus Sash",
+    "fr": "Ceinture Force",
+    "it": "Focalnastro",
+    "de": "Fokusgurt",
+    "es": "Banda Focus",
+    "ko": "기합의띠",
+    "zh-CN": "气势披带",
+    "zh-TW": "氣勢披帶"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせると　ＨＰが　満タンのとき ひんしになりそうな　技を　受けても ＨＰ１で　１度だけ　耐える。",
+    "kana": "もたせると　ＨＰが　まんたんのとき ひんしになりそうな　わざを　うけても ＨＰ１で　いちどだけ　たえる。",
+    "en": "An item to be held by a Pokémon. If the holder has full HP, it will endure a potential KO attack with 1 HP. The item then disappears.",
+    "fr": "Objet à tenir. S’il a encore tous ses PV, le porteur pourra éviter d’être mis K.O. en un coup. Il ne conservera alors qu’un seul PV.",
+    "it": "Strumento da dare a un Pokémon. Se il Pokémon ha tutti i PS, eviterà un potenziale KO, rimanendo con un PS.",
+    "de": "Ein Item zum Tragen. Bei vollen KP bleibt der Träger nach einer K.O.-Attacke einmalig mit 1 KP im Kampf.",
+    "es": "Si el Pokémon que la lleva tiene los PS al máximo, puede resistir un golpe que lo dejaría K. O. y se queda con 1 PS.",
+    "ko": "지니게 하면 HP가 꽉 찼을 때 기절할 듯한 기술을 당해도 HP 1로 한 번은 버틴다.",
+    "zh-CN": "携带后，在ＨＰ全满时， 即便受到可能会导致濒死的招式， 也能仅以１ＨＰ撑过去１次。",
+    "zh-TW": "攜帶後，在ＨＰ全滿時， 即使受到可能導致瀕死的招式攻擊， 也能以１ＨＰ僅撐過１次。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Objet à tenir. S’il a encore tous ses PV, le porteur pourra éviter d’être mis K.O. en un coup. Il ne conserve alors qu’un seul PV.",
+          "es": "Si el Pokémon que la lleva tiene los PS al máximo, puede resistir un golpe que lo dejaría K.O. y se queda con 1 PS."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Objet à tenir. S’il a encore tous ses PV, le porteur pourra éviter d’être mis K.O. en un coup. Il ne conserva alors qu’un seul PV."
+        }
+      }
+    }
+  ]
+}

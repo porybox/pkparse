@@ -9,9 +9,7 @@
   "hatch_counter": 35,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 101,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "upright"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ボスゴドラ",
-      "language": "ja"
-    },
-    {
-      "name": "Bossgodora",
-      "language": "roomaji"
-    },
-    {
-      "name": "보스로라",
-      "language": "ko"
-    },
-    {
-      "name": "波士可多拉",
-      "language": "zh"
-    },
-    {
-      "name": "Galeking",
-      "language": "fr"
-    },
-    {
-      "name": "Stolloss",
-      "language": "de"
-    },
-    {
-      "name": "Aggron",
-      "language": "es"
-    },
-    {
-      "name": "Aggron",
-      "language": "it"
-    },
-    {
-      "name": "Aggron",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ボスゴドラ",
+    "en": "Aggron",
+    "fr": "Galeking",
+    "it": "Aggron",
+    "de": "Stolloss",
+    "es": "Aggron",
+    "ko": "보스로라"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "てつヨロイ",
-      "language": "ja"
-    },
-    {
-      "genus": "철갑옷",
-      "language": "ko"
-    },
-    {
-      "genus": "Armurfer",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisenpanzer",
-      "language": "de"
-    },
-    {
-      "genus": "Cor. Férrea",
-      "language": "es"
-    },
-    {
-      "genus": "Corazza",
-      "language": "it"
-    },
-    {
-      "genus": "Iron Armor",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "てつヨロイ",
+    "en": "Iron Armor",
+    "fr": "Armurfer",
+    "it": "Corazza",
+    "de": "Eisenpanzer",
+    "es": "Cor. Férrea",
+    "ko": "철갑옷"
+  },
   "varieties": [
     {
       "is_default": true,

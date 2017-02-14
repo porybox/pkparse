@@ -3,15 +3,13 @@
   "name": "rayquaza",
   "order": 414,
   "gender_rate": -1,
-  "capture_rate": 3,
+  "capture_rate": 45,
   "base_happiness": 0,
   "is_baby": false,
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 200,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "squiggle"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "レックウザ",
-      "language": "ja"
-    },
-    {
-      "name": "Rayquaza",
-      "language": "roomaji"
-    },
-    {
-      "name": "레쿠쟈",
-      "language": "ko"
-    },
-    {
-      "name": "烈空坐",
-      "language": "zh"
-    },
-    {
-      "name": "Rayquaza",
-      "language": "fr"
-    },
-    {
-      "name": "Rayquaza",
-      "language": "de"
-    },
-    {
-      "name": "Rayquaza",
-      "language": "es"
-    },
-    {
-      "name": "Rayquaza",
-      "language": "it"
-    },
-    {
-      "name": "Rayquaza",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "レックウザ",
+    "en": "Rayquaza",
+    "fr": "Rayquaza",
+    "it": "Rayquaza",
+    "de": "Rayquaza",
+    "es": "Rayquaza",
+    "ko": "레쿠쟈"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "てんくう",
-      "language": "ja"
-    },
-    {
-      "genus": "천공",
-      "language": "ko"
-    },
-    {
-      "genus": "Cieux",
-      "language": "fr"
-    },
-    {
-      "genus": "Himmelhoch",
-      "language": "de"
-    },
-    {
-      "genus": "Cielo",
-      "language": "es"
-    },
-    {
-      "genus": "Stratosfera",
-      "language": "it"
-    },
-    {
-      "genus": "Sky High",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "てんくう",
+    "en": "Sky High",
+    "fr": "Cieux",
+    "it": "Stratosfera",
+    "de": "Himmelhoch",
+    "es": "Cielo",
+    "ko": "천공"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -149,5 +93,13 @@
     "special-attack": 150,
     "special-defense": 90,
     "speed": 95
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 28,
+      "prior_values": {
+        "capture_rate": 3
+      }
+    }
+  ]
 }

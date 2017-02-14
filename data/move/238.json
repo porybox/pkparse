@@ -2,49 +2,13 @@
   "id": 238,
   "name": "cross-chop",
   "accuracy": 80,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 100,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "focus-energy"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.",
-      "short_effect": "Has an increased chance for a critical hit.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Cross Chop",
-      "language": "en"
-    },
-    {
-      "name": "Incrocolpo",
-      "language": "it"
-    },
-    {
-      "name": "Tajo Cruzado",
-      "language": "es"
-    },
-    {
-      "name": "Kreuzhieb",
-      "language": "de"
-    },
-    {
-      "name": "Coup-Croix",
-      "language": "fr"
-    },
-    {
-      "name": "크로스촙",
-      "language": "ko"
-    },
-    {
-      "name": "クロスチョップ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "クロスチョップ",
+    "kana": "クロスチョップ",
+    "en": "Cross Chop",
+    "fr": "Coup-Croix",
+    "it": "Incrocolpo",
+    "de": "Kreuzhieb",
+    "es": "Tajo Cruzado",
+    "ko": "크로스촙",
+    "zh-CN": "十字劈",
+    "zh-TW": "十字劈"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "両手チョップを 相手に　たたきつけて　攻撃する。 急所に　当たりやすい。",
+    "kana": "りょうて　チョップを あいてに　たたきつけて　こうげきする。 きゅうしょに　あたりやすい。",
+    "en": "The user delivers a double chop with its forearms crossed. Critical hits land more easily.",
+    "fr": "Le lanceur délivre un coup double en croisant les avant-bras. Taux de critique élevé.",
+    "it": "Investe il bersaglio con un colpo sferrato con entrambe le braccia incrociate. Probabile brutto colpo.",
+    "de": "Doppelter Hieb mit den Unterarmen. Hohe Volltrefferquote.",
+    "es": "Corte doble que suele propinar un golpe crítico.",
+    "ko": "양손으로 당수를 상대에게 힘껏 쳐서 공격한다. 급소에 맞기 쉽다.",
+    "zh-CN": "用两手呈十字 劈打对手进行攻击。 容易击中要害。",
+    "zh-TW": "用左右手刀 劈打對手進行攻擊。 容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur délivre un coup double en croisant les avant-bras. Taux de critiques élevé."
+        }
+      }
+    }
+  ]
 }

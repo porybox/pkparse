@@ -1,0 +1,46 @@
+{
+  "id": 752,
+  "name": "araquanid",
+  "gender_rate": 4,
+  "capture_rate": 100,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "bug"
+  ],
+  "color": "green",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "オニシズクモ",
+    "en": "Araquanid",
+    "fr": "Tarenbulle",
+    "it": "Araquanid",
+    "de": "Aranestro",
+    "es": "Araquanid",
+    "ko": "깨비물거미"
+  },
+  "genera": {
+    "ja": "すいほう",
+    "en": "Water Bubble",
+    "fr": "Aquabulle",
+    "it": "Bolladacqua",
+    "de": "Wasserblase",
+    "es": "Pompa",
+    "ko": "수포"
+  },
+  "types": [
+    "water",
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 68,
+    "attack": 70,
+    "defense": 92,
+    "special-attack": 50,
+    "special-defense": 132,
+    "speed": 42
+  }
+}

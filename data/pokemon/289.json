@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 278,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "humanoid"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ケッキング",
-      "language": "ja"
-    },
-    {
-      "name": "Kekking",
-      "language": "roomaji"
-    },
-    {
-      "name": "게을킹",
-      "language": "ko"
-    },
-    {
-      "name": "請假王",
-      "language": "zh"
-    },
-    {
-      "name": "Monaflèmit",
-      "language": "fr"
-    },
-    {
-      "name": "Letarking",
-      "language": "de"
-    },
-    {
-      "name": "Slaking",
-      "language": "es"
-    },
-    {
-      "name": "Slaking",
-      "language": "it"
-    },
-    {
-      "name": "Slaking",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ケッキング",
+    "en": "Slaking",
+    "fr": "Monaflèmit",
+    "it": "Slaking",
+    "de": "Letarking",
+    "es": "Slaking",
+    "ko": "게을킹"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ものぐさ",
-      "language": "ja"
-    },
-    {
-      "genus": "나태함",
-      "language": "ko"
-    },
-    {
-      "genus": "Fainéant",
-      "language": "fr"
-    },
-    {
-      "genus": "Müßig",
-      "language": "de"
-    },
-    {
-      "genus": "Holgazán",
-      "language": "es"
-    },
-    {
-      "genus": "Pigrizia",
-      "language": "it"
-    },
-    {
-      "genus": "Lazy",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ものぐさ",
+    "en": "Lazy",
+    "fr": "Fainéant",
+    "it": "Pigrizia",
+    "de": "Müßig",
+    "es": "Holgazán",
+    "ko": "나태함"
+  },
   "varieties": [
     {
       "is_default": true,

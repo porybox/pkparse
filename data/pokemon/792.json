@@ -1,0 +1,45 @@
+{
+  "id": 792,
+  "name": "lunala",
+  "gender_rate": -1,
+  "capture_rate": 45,
+  "base_happiness": 0,
+  "hatch_counter": 120,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "purple",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ルナアーラ",
+    "en": "Lunala",
+    "fr": "Lunala",
+    "it": "Lunala",
+    "de": "Lunala",
+    "es": "Lunala",
+    "ko": "루나아라"
+  },
+  "genera": {
+    "ja": "がちりん",
+    "en": "Moone",
+    "fr": "Halo Lunaire",
+    "it": "Lunare",
+    "de": "Mondscheibe",
+    "es": "Corona Lunar",
+    "ko": "월륜"
+  },
+  "types": [
+    "psychic",
+    "ghost"
+  ],
+  "base_stats": {
+    "hp": 137,
+    "attack": 113,
+    "defense": 89,
+    "special-attack": 137,
+    "special-defense": 107,
+    "speed": 97
+  }
+}

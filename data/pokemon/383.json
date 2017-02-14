@@ -3,15 +3,13 @@
   "name": "groudon",
   "order": 413,
   "gender_rate": -1,
-  "capture_rate": 5,
+  "capture_rate": 3,
   "base_happiness": 0,
   "is_baby": false,
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 194,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "グラードン",
-      "language": "ja"
-    },
-    {
-      "name": "Groudon",
-      "language": "roomaji"
-    },
-    {
-      "name": "그란돈",
-      "language": "ko"
-    },
-    {
-      "name": "固拉多",
-      "language": "zh"
-    },
-    {
-      "name": "Groudon",
-      "language": "fr"
-    },
-    {
-      "name": "Groudon",
-      "language": "de"
-    },
-    {
-      "name": "Groudon",
-      "language": "es"
-    },
-    {
-      "name": "Groudon",
-      "language": "it"
-    },
-    {
-      "name": "Groudon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "グラードン",
+    "en": "Groudon",
+    "fr": "Groudon",
+    "it": "Groudon",
+    "de": "Groudon",
+    "es": "Groudon",
+    "ko": "그란돈"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たいりく",
-      "language": "ja"
-    },
-    {
-      "genus": "대륙",
-      "language": "ko"
-    },
-    {
-      "genus": "Continent",
-      "language": "fr"
-    },
-    {
-      "genus": "Kontinent",
-      "language": "de"
-    },
-    {
-      "genus": "Continente",
-      "language": "es"
-    },
-    {
-      "genus": "Continente",
-      "language": "it"
-    },
-    {
-      "genus": "Continent",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たいりく",
+    "en": "Continent",
+    "fr": "Continent",
+    "it": "Continente",
+    "de": "Kontinent",
+    "es": "Continente",
+    "ko": "대륙"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -148,5 +92,13 @@
     "special-attack": 100,
     "special-defense": 90,
     "speed": 90
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 28,
+      "prior_values": {
+        "capture_rate": 5
+      }
+    }
+  ]
 }

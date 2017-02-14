@@ -2,36 +2,13 @@
   "id": 373,
   "name": "embargo",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Target cannot use its held item for five turns.  If the target leaves the [field]{mechanic:field}, this effect ends.\n\nIf a Pokémon under this effect uses []{move:bug-bite} or []{move:pluck} on a Pokémon holding a berry, the berry is destroyed but not used.  If a Pokémon under this effect uses []{move:fling}, it will [fail]{mechanic:fail}.\n\nThis effect is passed by []{move:baton-pass}.",
-      "short_effect": "Target cannot use held items.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "embargo"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "embargo",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 5,
@@ -43,43 +20,56 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Embargo",
-      "language": "en"
-    },
-    {
-      "name": "Divieto",
-      "language": "it"
-    },
-    {
-      "name": "Embargo",
-      "language": "es"
-    },
-    {
-      "name": "Itemsperre",
-      "language": "de"
-    },
-    {
-      "name": "Embargo",
-      "language": "fr"
-    },
-    {
-      "name": "금제",
-      "language": "ko"
-    },
-    {
-      "name": "さしおさえ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "さしおさえ",
+    "kana": "さしおさえ",
+    "en": "Embargo",
+    "fr": "Embargo",
+    "it": "Divieto",
+    "de": "Itemsperre",
+    "es": "Embargo",
+    "ko": "금제",
+    "zh-CN": "查封",
+    "zh-TW": "查封"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "持たせた　道具を　５ターンの　間 使えなくする。　トレーナーも その　ポケモンには　道具を　使えない。",
+    "kana": "もたせた　どうぐを　５ターンの　あいだ つかえなくする。　トレーナーも その　ポケモンには　どうぐを　つかえない。",
+    "en": "This move prevents the target from using its held item for five turns. Its Trainer is also prevented from using items on it.",
+    "fr": "Empêche la cible d’utiliser un objet tenu et son Dresseur d’utiliser un objet sur lui pendant cinq tours.",
+    "it": "Impedisce al bersaglio di usare il suo strumento e al suo Allenatore di usarne altri sul Pokémon per cinque turni.",
+    "de": "Das Ziel kann fünf Runden lang weder getragene Items nutzen, noch kann sein Trainer Items auf es anwenden.",
+    "es": "Impide al objetivo usar el objeto que lleva durante cinco turnos. Su Entrenador tampoco puede usar objetos con él.",
+    "ko": "지니게 한 도구를 5턴 동안 쓸 수 없게 한다. 트레이너도 그 포켓몬에게는 도구를 쓸 수 없다.",
+    "zh-CN": "让对手在５回合内不能使用 宝可梦携带的道具。训练家也 不能给那只宝可梦使用道具。",
+    "zh-TW": "讓對手在５回合內無法使用攜帶的道具。 訓練家也不能對 該寶可夢使用道具。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "持たせた　道具を　使えなくする。 トレーナーも　その　ポケモンには 道具を　使えない。",
+          "kana": "もたせた　どうぐを　つかえなくする。 トレーナーも　その　ポケモンには どうぐを　つかえない。",
+          "en": "This move prevents the target from using its held item. Its Trainer is also prevented from using items on it.",
+          "fr": "Empêche l’ennemi d’utiliser un objet tenu et son Dresseur d’utiliser un objet sur lui.",
+          "it": "Impedisce al bersaglio di usare il suo strumento e al suo Allenatore di usarne altri sul Pokémon.",
+          "de": "Das Ziel kann weder getragene Items nutzen, noch kann sein Trainer Items auf es anwenden.",
+          "es": "Impide al objetivo usar el objeto que lleva. Su Entrenador tampoco puede usar objetos con él.",
+          "ko": "지니게 한 도구를 쓸 수 없게 한다. 트레이너도 그 포켓몬에게는 도구를 쓸 수 없다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Verhindert, dass auf das Ziel Items verwendet werden."
+        }
+      }
+    }
+  ]
 }

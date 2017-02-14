@@ -1,0 +1,39 @@
+{
+  "id": 343,
+  "name": "tm16",
+  "names": {
+    "ja": "わざマシン１６",
+    "kana": "わざマシン１６",
+    "en": "TM16",
+    "fr": "CT16",
+    "it": "MT16",
+    "de": "TM16",
+    "es": "MT16",
+    "ko": "기술머신16",
+    "zh-CN": "招式学习器１６",
+    "zh-TW": "招式學習器１６"
+  },
+  "flavor_text_entries": {
+    "ja": "５ターンの　あいだ　不思議な　かべで 相手から　受ける　特殊攻撃の ダメージを　弱める。",
+    "kana": "５ターンの　あいだ　ふしぎな　かべで あいてから　うける　とくしゅわざの ダメージを　よわめる。",
+    "en": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
+    "fr": "Un fabuleux mur de lumière qui réduit les dégâts causés par les capacités spéciales durant cinq tours.",
+    "it": "Innalza una barriera di luce fantastica che riduce i danni degli attacchi speciali per sé e gli alleati per cinque turni.",
+    "de": "Eine Wand aus Licht wird für 5 Runden errichtet. Sie senkt den durch Spezial-Angriffe herbeigeführten Schaden.",
+    "es": "Impresionante pared de luz que reduce el daño de los ataques especiales durante cinco turnos.",
+    "ko": "5턴 동안 이상한 장막으로 상대로부터 받는 특수 기술의 데미지를 약하게 만든다.",
+    "zh-CN": "在５回合内使用神奇的墙， 减弱从对手那受到的 特殊攻击的伤害。",
+    "zh-TW": "利用神奇的屏障， 在５回合內減輕 來自對手的特殊攻擊傷害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un fabuleux mur de lumière qui réduit les dégâts causés par les attaques spéciales durant cinq tours.",
+          "de": "Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den durch Spezial-Angriffe herbeigeführten Schaden."
+        }
+      }
+    }
+  ]
+}

@@ -2,34 +2,13 @@
   "id": 532,
   "name": "horn-leech",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 75,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  [Drains]{mechanic:drain} half the damage inflicted to heal the user.",
-      "short_effect": "Drains half the damage inflicted to heal the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+heal"
-    },
+    "ailment": "none",
+    "category": "damage+heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,43 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Horn Leech",
-      "language": "en"
-    },
-    {
-      "name": "Legnicorno",
-      "language": "it"
-    },
-    {
-      "name": "Asta Drenaje",
-      "language": "es"
-    },
-    {
-      "name": "Holzgeweih",
-      "language": "de"
-    },
-    {
-      "name": "Encornebois",
-      "language": "fr"
-    },
-    {
-      "name": "우드호른",
-      "language": "ko"
-    },
-    {
-      "name": "ウッドホーン",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ウッドホーン",
+    "kana": "ウッドホーン",
+    "en": "Horn Leech",
+    "fr": "Encornebois",
+    "it": "Legnicorno",
+    "de": "Holzgeweih",
+    "es": "Asta Drenaje",
+    "ko": "우드호른",
+    "zh-CN": "木角",
+    "zh-TW": "木角"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "つのを　突き刺して　相手の　養分を 吸い取る。　与えた　ダメージの 半分の　ＨＰを　回復できる。",
+    "kana": "つのを　つきさして　あいての　ようぶんを すいとる。　あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+    "en": "The user drains the target’s energy with its horns. The user’s HP is restored by half the damage taken by the target.",
+    "fr": "Un coup de corne qui draine l’énergie de l’ennemi. Convertit la moitié des dégâts infligés en PV pour le lanceur.",
+    "it": "Chi la usa infilza il bersaglio con le corna e assorbe una quantità di PS pari a metà del danno inferto.",
+    "de": "Greift Ziel mit einem Astgeweih an und zapft diesem Energie ab. Anwender wird um die Hälfte des zugefügten Schadens geheilt.",
+    "es": "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.",
+    "ko": "뿔을 꿰찔러서 상대의 양분을 흡수한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+    "zh-CN": "将角刺入，吸取对手的养分。 可以回复给予对手 伤害的一半ＨＰ。",
+    "zh-TW": "將角刺進對手，吸取養分。 可以回復給予對手 傷害的一半ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "つのを　突き刺して　相手の　養分を 吸い取る。与えた　ダメージの 半分の　ＨＰを　回復できる。",
+          "kana": "つのを　つきさして　あいての　ようぶんを すいとる。あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+          "de": "Greift Ziel mit Astgeweih an und zapft diesem Nährstoffe ab. Anwender wird um die Hälfte des zugefügten Schadens geheilt."
+        }
+      }
+    }
+  ]
 }

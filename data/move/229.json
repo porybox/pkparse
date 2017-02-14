@@ -2,36 +2,13 @@
   "id": 229,
   "name": "rapid-spin",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": 20,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Removes []{move:leech-seed} from the user, frees the user from []{move:bind}, []{move:clamp}, []{move:fire-spin}, []{move:magma-storm}, []{move:sand-tomb}, []{move:whirlpool}, and []{move:wrap}, and clears []{move:spikes}, []{move:stealth-rock}, and []{move:toxic-spikes} from the user's side of the [field]{mechanic:field}.  If this move misses or has [no effect]{mechanic:no-effect}, its effect doesn't activate.",
-      "short_effect": "Frees the user from binding moves, removes Leech Seed, and blows away Spikes.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Rapid Spin",
-      "language": "en"
-    },
-    {
-      "name": "Rapigiro",
-      "language": "it"
-    },
-    {
-      "name": "Giro Rápido",
-      "language": "es"
-    },
-    {
-      "name": "Turbodreher",
-      "language": "de"
-    },
-    {
-      "name": "Tour Rapide",
-      "language": "fr"
-    },
-    {
-      "name": "고속스핀",
-      "language": "ko"
-    },
-    {
-      "name": "こうそくスピン",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "こうそくスピン",
+    "kana": "こうそくスピン",
+    "en": "Rapid Spin",
+    "fr": "Tour Rapide",
+    "it": "Rapigiro",
+    "de": "Turbodreher",
+    "es": "Giro Rápido",
+    "ko": "고속스핀",
+    "zh-CN": "高速旋转",
+    "zh-TW": "高速旋轉"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "回転して　相手を　攻撃する。 しめつける　まきつく　やどりぎのタネ まきびし　なども　吹きとばせる。",
+    "kana": "かいてんして　あいてを　こうげきする。 しめつける　まきつく　やどりぎのタネ まきびし　なども　ふきとばせる。",
+    "en": "A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",
+    "fr": "Une attaque tournoyante pouvant aussi annuler par exemple Étreinte, Ligotage, Vampigraine ou Picots.",
+    "it": "Attacco rotante che elimina gli effetti di mosse come Legatutto, Avvolgibotta, Punte e Parassiseme.",
+    "de": "Trifft das Ziel mit einer Dreh-Attacke. Befreit den Anwender unter anderem von Wickel, Klammergriff, Egelsamen und Stachler.",
+    "es": "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas.",
+    "ko": "회전해서 상대를 공격한다. 조이기, 김밥말이, 씨뿌리기, 압정뿌리기 등도 날려버린다.",
+    "zh-CN": "通过旋转来攻击对手。 还可以摆脱绑紧、紧束、 寄生种子和撒菱等招式。",
+    "zh-TW": "利用旋轉來攻擊對手。 也可以擺脫綁緊、緊束， 以及解除寄生種子和撒菱等招式。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Trifft das Ziel mit einer Dreh-Attacke. Befreit sich unter anderem von Wickel, Klammergriff, Egelsamen und Stachler."
+        }
+      }
+    }
+  ]
 }

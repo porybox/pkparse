@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 107,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "humanoid"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ラフレシア",
-      "language": "ja"
-    },
-    {
-      "name": "Ruffresia",
-      "language": "roomaji"
-    },
-    {
-      "name": "라플레시아",
-      "language": "ko"
-    },
-    {
-      "name": "霸王花",
-      "language": "zh"
-    },
-    {
-      "name": "Rafflesia",
-      "language": "fr"
-    },
-    {
-      "name": "Giflor",
-      "language": "de"
-    },
-    {
-      "name": "Vileplume",
-      "language": "es"
-    },
-    {
-      "name": "Vileplume",
-      "language": "it"
-    },
-    {
-      "name": "Vileplume",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ラフレシア",
+    "en": "Vileplume",
+    "fr": "Rafflesia",
+    "it": "Vileplume",
+    "de": "Giflor",
+    "es": "Vileplume",
+    "ko": "라플레시아"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "フラワー",
-      "language": "ja"
-    },
-    {
-      "genus": "꽃",
-      "language": "ko"
-    },
-    {
-      "genus": "Fleur",
-      "language": "fr"
-    },
-    {
-      "genus": "Blume",
-      "language": "de"
-    },
-    {
-      "genus": "Flor",
-      "language": "es"
-    },
-    {
-      "genus": "Fiore",
-      "language": "it"
-    },
-    {
-      "genus": "Flower",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "フラワー",
+    "en": "Flower",
+    "fr": "Fleur",
+    "it": "Fiore",
+    "de": "Blume",
+    "es": "Flor",
+    "ko": "꽃"
+  },
   "varieties": [
     {
       "is_default": true,

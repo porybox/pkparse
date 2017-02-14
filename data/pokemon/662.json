@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 15,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "wings"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ヒノヤコマ",
-      "language": "ja"
-    },
-    {
-      "name": "불화살빈",
-      "language": "ko"
-    },
-    {
-      "name": "Braisillon",
-      "language": "fr"
-    },
-    {
-      "name": "Dartignis",
-      "language": "de"
-    },
-    {
-      "name": "Fletchinder",
-      "language": "es"
-    },
-    {
-      "name": "Fletchinder",
-      "language": "it"
-    },
-    {
-      "name": "Fletchinder",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒノヤコマ",
+    "en": "Fletchinder",
+    "fr": "Braisillon",
+    "it": "Fletchinder",
+    "de": "Dartignis",
+    "es": "Fletchinder",
+    "ko": "불화살빈"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひのこ",
-      "language": "ja"
-    },
-    {
-      "genus": "불티",
-      "language": "ko"
-    },
-    {
-      "genus": "Braise",
-      "language": "fr"
-    },
-    {
-      "genus": "Funkenregen",
-      "language": "de"
-    },
-    {
-      "genus": "Lumbre",
-      "language": "es"
-    },
-    {
-      "genus": "Sfavillante",
-      "language": "it"
-    },
-    {
-      "genus": "Ember",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひのこ",
+    "en": "Ember",
+    "fr": "Braise",
+    "it": "Sfavillante",
+    "de": "Funkenregen",
+    "es": "Lumbre",
+    "ko": "불티"
+  },
   "varieties": [
     {
       "is_default": true,

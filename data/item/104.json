@@ -1,0 +1,40 @@
+{
+  "id": 104,
+  "name": "armor-fossil",
+  "names": {
+    "ja": "たてのカセキ",
+    "kana": "たてのカセキ",
+    "en": "Armor Fossil",
+    "fr": "Fossile Armure",
+    "it": "Fossilscudo",
+    "de": "Panzerfossil",
+    "es": "Fósil Coraza",
+    "ko": "방패의화석",
+    "zh-CN": "盾甲化石",
+    "zh-TW": "盾甲化石"
+  },
+  "flavor_text_entries": {
+    "ja": "大昔　地上で　暮らした 古代ポケモンの　カセキ。 襟飾りの　一部らしい。",
+    "kana": "おおむかし　ちじょうで　くらした こだい　ポケモンの　カセキ。 えりかざりの　いちぶ　らしい。",
+    "en": "A fossil from a prehistoric Pokémon that once lived on the land. It looks to be from some kind of protective collar.",
+    "fr": "Le fossile d’un Pokémon préhistorique terrestre. On dirait un morceau de collier.",
+    "it": "Fossile di un Pokémon preistorico che viveva sulla terraferma. Sembra essere parte di un collare.",
+    "de": "Das Fossil eines uralten Pokémon, das an Land lebte. Es sieht wie ein Teil eines Nackenschildes aus.",
+    "es": "Fósil de un Pokémon prehistórico terrestre. Parece ser parte de una protección ósea del cuello.",
+    "ko": "오랜 옛날 지상에서 살았던 고대 포켓몬의 화석. 깃 장식의 일부인 듯하다.",
+    "zh-CN": "很久以前生活在地上的 古代宝可梦的化石。 好像是领饰的一部分。",
+    "zh-TW": "很久以前生活在地上的 古代寶可夢的化石。 好像是領飾的一部分。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le fossile d’un Pokémon préhistorique terrestre. On dirait une partie d’un collier.",
+          "it": "Fossile di un Pokémon preistorico che viveva sulla terraferma. Sembra far parte di un collare.",
+          "de": "Das Fossil eines uralten Pokémon, das an Land lebte. Es sieht wie ein Schlüsselbein aus."
+        }
+      }
+    }
+  ]
+}

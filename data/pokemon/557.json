@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 23,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    },
-    {
-      "name": "bug"
-    }
+    "bug",
+    "mineral"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "armor"
   },
@@ -58,68 +50,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "イシズマイ",
-      "language": "ja"
-    },
-    {
-      "name": "돌살이",
-      "language": "ko"
-    },
-    {
-      "name": "Crabicoque",
-      "language": "fr"
-    },
-    {
-      "name": "Lithomith",
-      "language": "de"
-    },
-    {
-      "name": "Dwebble",
-      "language": "es"
-    },
-    {
-      "name": "Dwebble",
-      "language": "it"
-    },
-    {
-      "name": "Dwebble",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "イシズマイ",
+    "en": "Dwebble",
+    "fr": "Crabicoque",
+    "it": "Dwebble",
+    "de": "Lithomith",
+    "es": "Dwebble",
+    "ko": "돌살이"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いしやど",
-      "language": "ja"
-    },
-    {
-      "genus": "돌집",
-      "language": "ko"
-    },
-    {
-      "genus": "Lithicole",
-      "language": "fr"
-    },
-    {
-      "genus": "Steinhaus",
-      "language": "de"
-    },
-    {
-      "genus": "Casapiedra",
-      "language": "es"
-    },
-    {
-      "genus": "Pietracasa",
-      "language": "it"
-    },
-    {
-      "genus": "Rock Inn",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いしやど",
+    "en": "Rock Inn",
+    "fr": "Lithicole",
+    "it": "Pietracasa",
+    "de": "Steinhaus",
+    "es": "Casapiedra",
+    "ko": "돌집"
+  },
   "varieties": [
     {
       "is_default": true,

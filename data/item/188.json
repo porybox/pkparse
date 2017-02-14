@@ -1,0 +1,38 @@
+{
+  "id": 188,
+  "name": "yache-berry",
+  "names": {
+    "ja": "ヤチェのみ",
+    "kana": "ヤチェのみ",
+    "en": "Yache Berry",
+    "fr": "Baie Nanone",
+    "it": "Baccamoya",
+    "de": "Kiroyabeere",
+    "es": "Baya Rimoya",
+    "ko": "플카열매",
+    "zh-CN": "番荔果",
+    "zh-TW": "番荔果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると 効果バツグンの　こおり技を 受けたとき　威力が　弱まる。",
+    "kana": "ポケモンに　もたせると こうかばつぐんの　こおり　わざを うけたとき　いりょくが　よわまる。",
+    "en": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Ice-type attack.",
+    "fr": "Tenue, cette Baie affaiblit une attaque ennemie super efficace de type Glace.",
+    "it": "Se un Pokémon ha questa bacca, l’attacco superefficace di tipo Ghiaccio del nemico viene indebolito.",
+    "de": "Als getragenes Item schwächt diese Beere sehr effektive gegnerische Attacken vom Typ Eis.",
+    "es": "Si la lleva un Pokémon, debilita un ataque supereficaz de tipo Hielo de un enemigo.",
+    "ko": "포켓몬에게 지니게 하면 효과가 뛰어난 얼음 기술을 당했을 때 위력이 약해진다.",
+    "zh-CN": "让宝可梦携带后， 在受到效果绝佳的冰属性招式 攻击时，能令其威力减弱。",
+    "zh-TW": "讓寶可夢攜帶後， 在受到效果絕佳的冰屬性招式 攻擊時，能使其威力減弱。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Als getragenes Item schwächt diese Beere sehr effektive Attacken des Angreifers vom Typ Eis."
+        }
+      }
+    }
+  ]
+}

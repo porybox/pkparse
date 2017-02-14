@@ -2,34 +2,13 @@
   "id": 578,
   "name": "crafty-shield",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 3,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Protects all friendly Pokémon from non-damaging moves for the rest of the turn.\n\nUnlike other blocking moves, this move may be used consecutively without its chance of success falling.",
-      "short_effect": "Protects all friendly Pokémon from non-damaging moves.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "field-effect"
-    },
+    "ailment": "none",
+    "category": "field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Crafty Shield",
-      "language": "en"
-    },
-    {
-      "name": "Truccodifesa",
-      "language": "it"
-    },
-    {
-      "name": "Truco Defensa",
-      "language": "es"
-    },
-    {
-      "name": "Trickschutz",
-      "language": "de"
-    },
-    {
-      "name": "Vigilance",
-      "language": "fr"
-    },
-    {
-      "name": "트릭가드",
-      "language": "ko"
-    },
-    {
-      "name": "トリックガード",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "users-field"
+  "names": {
+    "ja": "トリックガード",
+    "kana": "トリックガード",
+    "en": "Crafty Shield",
+    "fr": "Vigilance",
+    "it": "Truccodifesa",
+    "de": "Trickschutz",
+    "es": "Truco Defensa",
+    "ko": "트릭가드",
+    "zh-CN": "戏法防守",
+    "zh-TW": "戲法防守"
   },
-  "type": {
-    "name": "fairy"
-  }
+  "flavor_text_entries": {
+    "ja": "不思議な　力を　使って 味方への　変化技を　防ぐ。 ダメージ技は　受けてしまう。",
+    "kana": "ふしぎな　ちからを　つかって みかたへの　へんかわざを　ふせぐ。 ダメージわざは　うけてしまう。",
+    "en": "The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.",
+    "fr": "Utilise une force mystérieuse pour protéger l’équipe des capacités de statut. Ne protège pas des autres capacités.",
+    "it": "Grazie a un misterioso potere, protegge chi la usa e gli alleati dalle mosse di stato. È tuttavia inefficace contro mosse che infliggono danni.",
+    "de": "Schützt mit einer mysteriösen Macht seine Mitstreiter und sich vor Status-Attacken, nicht jedoch vor Attacken, die Schaden verursachen.",
+    "es": "Usa unos misteriosos poderes para protegerse a sí mismo y a sus aliados de ataques de estado, pero no de otro tipo de ataques.",
+    "ko": "이상한 힘을 사용하여 같은 편을 공격하는 변화 기술을 막는다. 데미지 기술은 받는다.",
+    "zh-CN": "使用神奇的力量 防住攻击我方的变化招式。 但无法防住伤害招式的攻击。",
+    "zh-TW": "使用神奇的力量 防禦住攻擊我方的變化招式。 但無法防禦住攻擊招式的攻擊。"
+  },
+  "stat_changes": [],
+  "target": "users-field",
+  "type": "fairy",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Utilise une force mystérieuse pour protéger l’équipe des attaques de statut. Ne protège pas des autres capacités."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Schützt sich und Mitstreiter mit einer mysteriösen Macht vor Status-Attacken. Es werden jedoch weiterhin KP-Schäden erlitten."
+        }
+      }
+    }
+  ]
 }

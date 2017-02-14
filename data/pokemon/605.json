@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 188,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -49,68 +43,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "リグレー",
-      "language": "ja"
-    },
-    {
-      "name": "리그레",
-      "language": "ko"
-    },
-    {
-      "name": "Lewsor",
-      "language": "fr"
-    },
-    {
-      "name": "Pygraulon",
-      "language": "de"
-    },
-    {
-      "name": "Elgyem",
-      "language": "es"
-    },
-    {
-      "name": "Elgyem",
-      "language": "it"
-    },
-    {
-      "name": "Elgyem",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "リグレー",
+    "en": "Elgyem",
+    "fr": "Lewsor",
+    "it": "Elgyem",
+    "de": "Pygraulon",
+    "es": "Elgyem",
+    "ko": "리그레"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ブレイン",
-      "language": "ja"
-    },
-    {
-      "genus": "브레인",
-      "language": "ko"
-    },
-    {
-      "genus": "Cerveau",
-      "language": "fr"
-    },
-    {
-      "genus": "Grips",
-      "language": "de"
-    },
-    {
-      "genus": "Cerebro",
-      "language": "es"
-    },
-    {
-      "genus": "Cervello",
-      "language": "it"
-    },
-    {
-      "genus": "Cerebral",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ブレイン",
+    "en": "Cerebral",
+    "fr": "Cerveau",
+    "it": "Cervello",
+    "de": "Grips",
+    "es": "Cerebro",
+    "ko": "브레인"
+  },
   "varieties": [
     {
       "is_default": true,

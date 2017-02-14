@@ -2,36 +2,13 @@
   "id": 461,
   "name": "lunar-dance",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User [faint]{mechanic:faint}s.  Its replacement's [HP]{mechanic:hp} and [PP]{mechanic:pp} are fully restored, and any [major status effect]{mechanic:major-status-effect} is removed.",
-      "short_effect": "User faints, and its replacement is fully healed.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Lunar Dance",
-      "language": "en"
-    },
-    {
-      "name": "Lunardanza",
-      "language": "it"
-    },
-    {
-      "name": "Danza Lunar",
-      "language": "es"
-    },
-    {
-      "name": "Lunartanz",
-      "language": "de"
-    },
-    {
-      "name": "Danse-Lune",
-      "language": "fr"
-    },
-    {
-      "name": "초승달춤",
-      "language": "ko"
-    },
-    {
-      "name": "みかづきのまい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "みかづきのまい",
+    "kana": "みかづきのまい",
+    "en": "Lunar Dance",
+    "fr": "Danse-Lune",
+    "it": "Lunardanza",
+    "de": "Lunartanz",
+    "es": "Danza Lunar",
+    "ko": "초승달춤",
+    "zh-CN": "新月舞",
+    "zh-TW": "新月舞"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "自分は　ひんしに　なるが 控えから　でてくる　ポケモンの すべての　状態を　回復する。",
+    "kana": "じぶんは　ひんしに　なるが ひかえから　でてくる　ポケモンの すべての　じょうたいを　かいふく　する。",
+    "en": "The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.",
+    "fr": "Le lanceur tombe K.O. pour soigner le statut et les PV du Pokémon qui prendra sa place au combat.",
+    "it": "Chi la usa va KO. Il Pokémon che lo sostituisce guarisce dai propri problemi di stato e recupera tutti i PS.",
+    "de": "Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP sowie AP und wird von Statusproblemen geheilt.",
+    "es": "El usuario se debilita, pero el Pokémon que lo sustituye recupera su estado, los PS y los PP.",
+    "ko": "자신은 기절하지만 교대하여 나오는 포켓몬의 모든 상태를 회복한다.",
+    "zh-CN": "虽然自己陷入濒死， 但可以治愈后备上场的 宝可梦的全部状态。",
+    "zh-TW": "雖然自己會陷入瀕死， 但可以讓接替上場的 寶可夢回復到萬全狀態。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa va KO. Il Pokémon che lo sostituisce guarisce dai propri problemi di stato e recupera PS e PP.",
+          "de": "Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP und AP. Statusprobleme werden geheilt."
+        }
+      }
+    }
+  ]
 }

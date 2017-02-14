@@ -1,140 +1,51 @@
 {
   "id": 138,
   "name": "flare-boost",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "ねつぼうそう",
+    "kana": "ねつぼうそう",
+    "en": "Flare Boost",
+    "fr": "Rage Brûlure",
+    "it": "Bruciaimpeto",
+    "de": "Hitzewahn",
+    "es": "Ímpetu Ardiente",
+    "ko": "열폭주",
+    "zh-CN": "受热激升",
+    "zh-TW": "受熱激升"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "やけど状態に　なったとき 特殊技の　威力が　上がる。",
+    "kana": "やけど　じょうたいに　なったとき とくしゅわざの　いりょくが　あがる。",
+    "en": "Powers up special attacks when the Pokémon is burned.",
+    "fr": "Augmente la puissance des capacités spéciales quand le Pokémon est brûlé.",
+    "it": "Se il Pokémon è scottato, potenzia le mosse speciali.",
+    "de": "Erhöht bei Verbrennungen die Stärke von Spezial-Attacken.",
+    "es": "Aumenta la potencia de los ataques especiales cuando el Pokémon sufre quemaduras.",
+    "ko": "화상 상태가 되었을 때 특수 기술의 위력이 올라간다.",
+    "zh-CN": "变为灼伤状态时， 特殊招式的威力会提高。",
+    "zh-TW": "陷入灼傷狀態時， 特殊招式的威力會提高。"
+  },
+  "past_values": [
     {
-      "name": "Flare Boost",
-      "language": "en"
-    },
-    {
-      "name": "Bruciaimpeto",
-      "language": "it"
-    },
-    {
-      "name": "Ímpetu Ardiente",
-      "language": "es"
-    },
-    {
-      "name": "Hitzewahn",
-      "language": "de"
-    },
-    {
-      "name": "Rage Brûlure",
-      "language": "fr"
-    },
-    {
-      "name": "열폭주",
-      "language": "ko"
-    },
-    {
-      "name": "ねつぼうそう",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon has 1.5× its [Special Attack]{mechanic:special-attack} when [burned]{mechanic:burn}.",
-      "short_effect": "Increases [Special Attack]{mechanic:special-attack} to 1.5× when [burned]{mechanic:burn}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "やけどのとき　特殊の\n威力が　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Powers up special attacks when\nthe Pokémon is burned.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Aumenta l’Attacco Speciale se\nil Pokémon è scottato.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Potencia los ataques especiales\ncuando el Pokémon se quema.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Verstärkt bei Verbrennungen\ndie Stärke von Spezial-Attacken.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Booste les attaques spéciales si\nle statut est brûlure.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "화상 상태일 때 특수공격의\n위력이 올라간다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "やけどのとき　とくしゅの\nいりょくが　あがる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Powers up special attacks\nwhen burned.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Powers up special attacks\nwhen burned.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Booste les att. spéciales\nsi le statut est brûlure.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "drifloon"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "やけどのとき　特殊の 威力が　あがる。",
+          "kana": "やけどのとき　とくしゅの いりょくが　あがる。",
+          "fr": "Booste les attaques spéciales si le Pokémon est brûlé.",
+          "it": "Aumenta l’Attacco Speciale se il Pokémon è scottato.",
+          "de": "Verstärkt bei Verbrennungen die Stärke von Spezial-Attacken.",
+          "es": "Potencia los ataques especiales cuando el Pokémon se quema.",
+          "ko": "화상 상태일 때 특수공격의 위력이 올라간다."
+        }
       }
     },
     {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "drifblim"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Booste les attaques spéciales si le statut est brûlure."
+        }
       }
     }
   ]

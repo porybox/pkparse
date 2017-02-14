@@ -1,0 +1,38 @@
+{
+  "id": 599,
+  "name": "x-speed-3",
+  "names": {
+    "ja": "スピーダー３",
+    "kana": "スピーダー３",
+    "en": "X Speed 3",
+    "fr": "Vitesse 3",
+    "it": "Velocità X-3",
+    "de": "X-Tempo3",
+    "es": "Velocidad X 3",
+    "ko": "스피드업3",
+    "zh-CN": "速度强化３",
+    "zh-TW": "速度強化３"
+  },
+  "flavor_text_entries": {
+    "ja": "戦闘中の　ポケモンの 素早さを　かなり　あげる。 ひっこめると　元に　戻る。",
+    "kana": "せんとうちゅうの　ポケモンの すばやさを　かなり　あげる。 ひっこめると　もとに　もどる。",
+    "en": "It drastically raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    "fr": "Augmente sensiblement la Vitesse pendant un combat. L’effet s’estompe si le Pokémon est retiré.",
+    "it": "Aumenta moltissimo la Velocità di un Pokémon in una lotta. L’effetto svanisce se il Pokémon è sostituito.",
+    "de": "Hebt den Initiative-Wert eines Pokémon im Kampf stark an. Die Wirkung endet mit dem Austausch des Pokémon.",
+    "es": "Aumenta bastante la Velocidad en combate. Al cambiar de Pokémon, el efecto desaparece.",
+    "ko": "배틀 중인 포켓몬의 스피드를 상당히 올린다. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다.",
+    "zh-CN": "能大量提高战斗中 宝可梦的速度。 离场后，效果便会消失。",
+    "zh-TW": "能大幅提高戰鬥中 寶可夢的速度。 離場後，效果便會復原。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Augmente sensiblement la Vitesse pendant un combat. L’effet s’estompe si le Pokémon se retire."
+        }
+      }
+    }
+  ]
+}

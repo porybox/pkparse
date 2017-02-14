@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 81,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "upright"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "クマシュン",
-      "language": "ja"
-    },
-    {
-      "name": "코고미",
-      "language": "ko"
-    },
-    {
-      "name": "Polarhume",
-      "language": "fr"
-    },
-    {
-      "name": "Petznief",
-      "language": "de"
-    },
-    {
-      "name": "Cubchoo",
-      "language": "es"
-    },
-    {
-      "name": "Cubchoo",
-      "language": "it"
-    },
-    {
-      "name": "Cubchoo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クマシュン",
+    "en": "Cubchoo",
+    "fr": "Polarhume",
+    "it": "Cubchoo",
+    "de": "Petznief",
+    "es": "Cubchoo",
+    "ko": "코고미"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひょうけつ",
-      "language": "ja"
-    },
-    {
-      "genus": "빙결",
-      "language": "ko"
-    },
-    {
-      "genus": "Gelé",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisscholle",
-      "language": "de"
-    },
-    {
-      "genus": "Congelación",
-      "language": "es"
-    },
-    {
-      "genus": "Freddo",
-      "language": "it"
-    },
-    {
-      "genus": "Chill",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひょうけつ",
+    "en": "Chill",
+    "fr": "Gelé",
+    "it": "Freddo",
+    "de": "Eisscholle",
+    "es": "Congelación",
+    "ko": "빙결"
+  },
   "varieties": [
     {
       "is_default": true,

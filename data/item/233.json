@@ -1,0 +1,38 @@
+{
+  "id": 233,
+  "name": "metal-coat",
+  "names": {
+    "ja": "メタルコート",
+    "kana": "メタルコート",
+    "en": "Metal Coat",
+    "fr": "Peau Métal",
+    "it": "Metalcoperta",
+    "de": "Metallmantel",
+    "es": "Revest. Metálico",
+    "ko": "금속코트",
+    "zh-CN": "金属膜",
+    "zh-TW": "金屬膜"
+  },
+  "flavor_text_entries": {
+    "ja": "特殊な　金属の　膜。 持たせると　はがねタイプの 技の　威力が　あがる。",
+    "kana": "とくしゅな　きんぞくの　まく。 もたせると　はがねタイプの わざの　いりょくが　あがる。",
+    "en": "An item to be held by a Pokémon. It’s a special metallic film that can boost the power of Steel-type moves.",
+    "fr": "Objet à tenir. Une pellicule métallique spéciale qui augmente la puissance des capacités de type Acier.",
+    "it": "Strumento da dare a un Pokémon. Speciale pellicola metallica che potenzia le mosse di tipo Acciaio.",
+    "de": "Ein Item, das einem Pokémon zum Tragen gegeben werden kann. Es verstärkt Attacken vom Typ Stahl.",
+    "es": "Película metálica que fortalece los ataques de tipo Acero. Debe llevarlo un Pokémon.",
+    "ko": "특수한 금속 장막. 지니게 하면 강철타입 기술의 위력이 올라간다.",
+    "zh-CN": "特殊的金属膜。 携带后，钢属性的 招式威力就会提高。",
+    "zh-TW": "特殊的金屬膜。 攜帶後，鋼屬性的 招式威力就會提高。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An item to be held by a Pokémon. It is a special metallic film that can boost the power of Steel-type moves."
+        }
+      }
+    }
+  ]
+}

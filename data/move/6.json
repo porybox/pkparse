@@ -2,36 +2,13 @@
   "id": 6,
   "name": "pay-day",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 40,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  After the battle ends, the winner receives five times the user's level in extra money for each time this move was used.",
-      "short_effect": "Scatters money on the ground worth five times the user's level.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Pay Day",
-      "language": "en"
-    },
-    {
-      "name": "Giornopaga",
-      "language": "it"
-    },
-    {
-      "name": "Día de Pago",
-      "language": "es"
-    },
-    {
-      "name": "Zahltag",
-      "language": "de"
-    },
-    {
-      "name": "Jackpot",
-      "language": "fr"
-    },
-    {
-      "name": "고양이돈받기",
-      "language": "ko"
-    },
-    {
-      "name": "ネコにこばん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ネコにこばん",
+    "kana": "ネコにこばん",
+    "en": "Pay Day",
+    "fr": "Jackpot",
+    "it": "Giornopaga",
+    "de": "Zahltag",
+    "es": "Día de Pago",
+    "ko": "고양이돈받기",
+    "zh-CN": "聚宝功",
+    "zh-TW": "聚寶功"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　体に 小判を　投げつけて　攻撃する。 戦闘の　あとで　お金が　もらえる。",
+    "kana": "あいての　からだに こばんを　なげつけて　こうげきする。 せんとうの　あとで　おかねが　もらえる。",
+    "en": "Numerous coins are hurled at the target to inflict damage. Money is earned after the battle.",
+    "fr": "Des pièces sont lancées sur l’ennemi. Permet d’obtenir de l’argent à la fin du combat.",
+    "it": "Colpisce il bersaglio con una gran quantità di monete recuperabili dopo la lotta.",
+    "de": "Das Ziel wird mit Münzen beworfen. Das Geld wird nach dem Kampf aufgesammelt.",
+    "es": "Arroja monedas al objetivo. Las recupera al final del combate.",
+    "ko": "상대의 몸에 돈을 세게 던져서 공격한다. 배틀 후에 돈을 받을 수 있다.",
+    "zh-CN": "向对手的身体 投掷小金币进行攻击。 战斗后可以拿到钱。",
+    "zh-TW": "往對手身上 投擲金幣進行攻擊。 戰鬥後可以得到錢。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 90,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "wings"
   },
@@ -66,44 +58,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "デリバード",
-      "language": "ja"
-    },
-    {
-      "name": "Delibird",
-      "language": "roomaji"
-    },
-    {
-      "name": "딜리버드",
-      "language": "ko"
-    },
-    {
-      "name": "信使鳥",
-      "language": "zh"
-    },
-    {
-      "name": "Cadoizo",
-      "language": "fr"
-    },
-    {
-      "name": "Botogel",
-      "language": "de"
-    },
-    {
-      "name": "Delibird",
-      "language": "es"
-    },
-    {
-      "name": "Delibird",
-      "language": "it"
-    },
-    {
-      "name": "Delibird",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "デリバード",
+    "en": "Delibird",
+    "fr": "Cadoizo",
+    "it": "Delibird",
+    "de": "Botogel",
+    "es": "Delibird",
+    "ko": "딜리버드"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -114,36 +77,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はこびや",
-      "language": "ja"
-    },
-    {
-      "genus": "배달",
-      "language": "ko"
-    },
-    {
-      "genus": "Livraison",
-      "language": "fr"
-    },
-    {
-      "genus": "Lieferant",
-      "language": "de"
-    },
-    {
-      "genus": "Reparto",
-      "language": "es"
-    },
-    {
-      "genus": "Consegna",
-      "language": "it"
-    },
-    {
-      "genus": "Delivery",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はこびや",
+    "en": "Delivery",
+    "fr": "Livraison",
+    "it": "Consegna",
+    "de": "Lieferant",
+    "es": "Reparto",
+    "ko": "배달"
+  },
   "varieties": [
     {
       "is_default": true,

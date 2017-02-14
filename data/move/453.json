@@ -2,36 +2,13 @@
   "id": 453,
   "name": "aqua-jet",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 1,
   "power": 40,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Aqua Jet",
-      "language": "en"
-    },
-    {
-      "name": "Acquagetto",
-      "language": "it"
-    },
-    {
-      "name": "Acua Jet",
-      "language": "es"
-    },
-    {
-      "name": "Wasserdüse",
-      "language": "de"
-    },
-    {
-      "name": "Aqua-Jet",
-      "language": "fr"
-    },
-    {
-      "name": "아쿠아제트",
-      "language": "ko"
-    },
-    {
-      "name": "アクアジェット",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "アクアジェット",
+    "kana": "アクアジェット",
+    "en": "Aqua Jet",
+    "fr": "Aqua-Jet",
+    "it": "Acquagetto",
+    "de": "Wasserdüse",
+    "es": "Acua Jet",
+    "ko": "아쿠아제트",
+    "zh-CN": "水流喷射",
+    "zh-TW": "水流噴射"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "目にも　留まらぬ　ものすごい　速さで 相手に　つっこむ。 必ず　先制攻撃　できる。",
+    "kana": "めにも　とまらぬ　ものすごい　はやさで あいてに　つっこむ。 かならず　せんせい　こうげき　できる。",
+    "en": "The user lunges at the target at a speed that makes it almost invisible. This move always goes first.",
+    "fr": "Le lanceur fonce sur l’ennemi si rapidement qu’on parvient à peine à le discerner. Frappe en priorité.",
+    "it": "Chi la usa colpisce a una tale velocità da rendersi quasi invisibile. Questa mossa ha priorità alta.",
+    "de": "Sehr schneller Angriff mit hoher Erstschlagquote.",
+    "es": "Ataque de una rapidez espeluznante. Este movimiento tiene prioridad alta.",
+    "ko": "눈에 보이지 않는 굉장한 속도로 상대에게 돌진한다. 반드시 선제공격할 수 있다.",
+    "zh-CN": "以迅雷不及掩耳之势 扑向对手。 必定能够先制攻击。",
+    "zh-TW": "以迅雷不及掩耳之勢衝撞對手。 必定能夠發動先制攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur fonce sur l’ennemi si rapidement qu’on parvient à peine à le discerner. Frappe toujours en premier.",
+          "it": "Chi la usa colpisce sempre per primo e a una tale velocità da rendersi quasi invisibile.",
+          "de": "Sehr schneller Angriff mit Erstschlaggarantie.",
+          "es": "Ataque rápido que permite golpear en primer lugar."
+        }
+      }
+    }
+  ]
 }

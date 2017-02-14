@@ -1,6 +1,6 @@
 {
   "id": 122,
-  "name": "mr-mime",
+  "name": "mrmime",
   "order": 140,
   "gender_rate": 4,
   "capture_rate": 45,
@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 114,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "humanoid"
   },
@@ -77,44 +71,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "バリヤード",
-      "language": "ja"
-    },
-    {
-      "name": "Barrierd",
-      "language": "roomaji"
-    },
-    {
-      "name": "마임맨",
-      "language": "ko"
-    },
-    {
-      "name": "吸盤魔偶",
-      "language": "zh"
-    },
-    {
-      "name": "M. Mime",
-      "language": "fr"
-    },
-    {
-      "name": "Pantimos",
-      "language": "de"
-    },
-    {
-      "name": "Mr. Mime",
-      "language": "es"
-    },
-    {
-      "name": "Mr. Mime",
-      "language": "it"
-    },
-    {
-      "name": "Mr. Mime",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バリヤード",
+    "en": "Mr. Mime",
+    "fr": "M. Mime",
+    "it": "Mr. Mime",
+    "de": "Pantimos",
+    "es": "Mr. Mime",
+    "ko": "마임맨"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -125,36 +90,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "バリアー",
-      "language": "ja"
-    },
-    {
-      "genus": "배리어",
-      "language": "ko"
-    },
-    {
-      "genus": "Bloqueur",
-      "language": "fr"
-    },
-    {
-      "genus": "Sperre",
-      "language": "de"
-    },
-    {
-      "genus": "Barrera",
-      "language": "es"
-    },
-    {
-      "genus": "Barriera",
-      "language": "it"
-    },
-    {
-      "genus": "Barrier",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "バリアー",
+    "en": "Barrier",
+    "fr": "Bloqueur",
+    "it": "Barriera",
+    "de": "Sperre",
+    "es": "Barrera",
+    "ko": "배리어"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 105,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ニドリーナ",
-      "language": "ja"
-    },
-    {
-      "name": "Nidorina",
-      "language": "roomaji"
-    },
-    {
-      "name": "니드리나",
-      "language": "ko"
-    },
-    {
-      "name": "尼多娜",
-      "language": "zh"
-    },
-    {
-      "name": "Nidorina",
-      "language": "fr"
-    },
-    {
-      "name": "Nidorina",
-      "language": "de"
-    },
-    {
-      "name": "Nidorina",
-      "language": "es"
-    },
-    {
-      "name": "Nidorina",
-      "language": "it"
-    },
-    {
-      "name": "Nidorina",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ニドリーナ",
+    "en": "Nidorina",
+    "fr": "Nidorina",
+    "it": "Nidorina",
+    "de": "Nidorina",
+    "es": "Nidorina",
+    "ko": "니드리나"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どくばり",
-      "language": "ja"
-    },
-    {
-      "genus": "독침",
-      "language": "ko"
-    },
-    {
-      "genus": "Vénépic",
-      "language": "fr"
-    },
-    {
-      "genus": "Giftdorn",
-      "language": "de"
-    },
-    {
-      "genus": "Pin Veneno",
-      "language": "es"
-    },
-    {
-      "genus": "Velenago",
-      "language": "it"
-    },
-    {
-      "genus": "Poison Pin",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どくばり",
+    "en": "Poison Pin",
+    "fr": "Vénépic",
+    "it": "Velenago",
+    "de": "Giftdorn",
+    "es": "Pin Veneno",
+    "ko": "독침"
+  },
   "varieties": [
     {
       "is_default": true,

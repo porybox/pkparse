@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 265,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "fish"
   },
@@ -66,44 +58,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "パウワウ",
-      "language": "ja"
-    },
-    {
-      "name": "Pawou",
-      "language": "roomaji"
-    },
-    {
-      "name": "쥬쥬",
-      "language": "ko"
-    },
-    {
-      "name": "小海獅",
-      "language": "zh"
-    },
-    {
-      "name": "Otaria",
-      "language": "fr"
-    },
-    {
-      "name": "Jurob",
-      "language": "de"
-    },
-    {
-      "name": "Seel",
-      "language": "es"
-    },
-    {
-      "name": "Seel",
-      "language": "it"
-    },
-    {
-      "name": "Seel",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "パウワウ",
+    "en": "Seel",
+    "fr": "Otaria",
+    "it": "Seel",
+    "de": "Jurob",
+    "es": "Seel",
+    "ko": "쥬쥬"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -114,36 +77,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あしか",
-      "language": "ja"
-    },
-    {
-      "genus": "강치",
-      "language": "ko"
-    },
-    {
-      "genus": "Otarie",
-      "language": "fr"
-    },
-    {
-      "genus": "Seehund",
-      "language": "de"
-    },
-    {
-      "genus": "León Marino",
-      "language": "es"
-    },
-    {
-      "genus": "Otaria",
-      "language": "it"
-    },
-    {
-      "genus": "Sea Lion",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あしか",
+    "en": "Sea Lion",
+    "fr": "Otarie",
+    "it": "Otaria",
+    "de": "Seehund",
+    "es": "León Marino",
+    "ko": "강치"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -1,154 +1,44 @@
 {
   "id": 121,
   "name": "multitype",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "マルチタイプ",
+    "kana": "マルチタイプ",
+    "en": "Multitype",
+    "fr": "Multi-Type",
+    "it": "Multitipo",
+    "de": "Variabilität",
+    "es": "Multitipo",
+    "ko": "멀티타입",
+    "zh-CN": "多属性",
+    "zh-TW": "多屬性"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "持っている　プレートや Ｚクリスタルの　タイプによって 自分の　タイプが　変わる。",
+    "kana": "もっている　プレートや Ｚクリスタルの　タイプによって じぶんの　タイプが　かわる。",
+    "en": "Changes the Pokémon’s type to match the Plate or Z-Crystal it holds.",
+    "fr": "Modifie le type du Pokémon en fonction de la plaque ou du Cristal Z qu’il tient.",
+    "it": "Cambia il tipo del Pokémon a seconda della lastra o del Cristallo Z che ha con sé.",
+    "de": "Das Pokémon passt seinen Typ dem der getragenen Tafel bzw. des getragenen Z-Kristalls an.",
+    "es": "Cambia el tipo del Pokémon al de la tabla o al del Cristal Z que lleve.",
+    "ko": "지니고 있는 플레이트나 Z크리스탈 타입에 따라 자신의 타입이 바뀐다.",
+    "zh-CN": "自己的属性会根据持有的石板 或Ｚ纯晶的属性而改变。",
+    "zh-TW": "自己的屬性會依持有的石板 或Ｚ純晶的屬性而改變。"
+  },
+  "past_values": [
     {
-      "name": "Multitype",
-      "language": "en"
-    },
-    {
-      "name": "Multitipo",
-      "language": "it"
-    },
-    {
-      "name": "Multitipo",
-      "language": "es"
-    },
-    {
-      "name": "Variabilität",
-      "language": "de"
-    },
-    {
-      "name": "Multi-Type",
-      "language": "fr"
-    },
-    {
-      "name": "멀티타입",
-      "language": "ko"
-    },
-    {
-      "name": "マルチタイプ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "If this Pokémon is holding an elemental Plate, its type and form change to match the Plate.\n\nThis Pokémon's held item, whether or not it is a Plate, cannot be taken by []{move:covet} or []{move:thief}, nor removed by []{move:knock-off}, nor traded by []{move:switcheroo} or []{move:trick}.  Covet, Thief, and Knock Off still inflict damage against this Pokémon.  Unlike with []{ability:sticky-hold}, this Pokémon cannot use []{move:fling}, Switcheroo, or Trick to lose its item itself, nor gain an item through Switcheroo or Trick if it does not have one.\n\nThis ability has no effect for any Pokémon other than []{pokemon:arceus}.  This ability cannot be traded with []{move:skill-swap}, nor copied with []{move:role-play} or []{ability:trace}, nor disabled with []{move:gastro-acid}, nor changed with []{move:worry-seed}.  This Pokémon cannot use Skill Swap or Role Play to lose its ability itself.  []{ability:mold-breaker} cannot ignore this ability.\n\nIf a Pokémon [Transforms]{move:transform} into an Arceus with this ability, it will Transform into Arceus's default, []{type:normal}-type form.  If the Transforming Pokémon is holding a Plate, this ability will then activate and change the Pokémon into the corresponding form.",
-      "short_effect": "Changes []{pokemon:arceus}'s type and form to match its held Plate.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "持っている　プレートで\nタイプが　変わる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Changes the Pokémon’s type\nto match the Plate it holds.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Cambia il tipo del Pokémon\na seconda della lastra che ha.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Cambia el tipo al de la tabla que\nlleve.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Passt seinen Typ der\ngetragenen Tafel an.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Modifie le type en fonction de la\nPlaque tenue.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "지니고 있는 플레이트에\n따라 타입이 바뀐다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "もっている　プレートで\nタイプが　かわる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Changes type to match\nthe held Plate.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Changes type to match\nthe held Plate.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Modifie le type en fonction\nde la Plaque tenue.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Changes type to match\nthe held Plate.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Changes type to match\nthe held Plate.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Changes type to match\nthe held Plate.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "arceus"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "持っている　プレートで タイプが　変わる。",
+          "kana": "もっている　プレートで タイプが　かわる。",
+          "en": "Changes the Pokémon’s type to match the Plate it holds.",
+          "fr": "Modifie le type en fonction de la Plaque tenue.",
+          "it": "Cambia il tipo del Pokémon a seconda della lastra che ha.",
+          "de": "Passt seinen Typ der getragenen Tafel an.",
+          "es": "Cambia el tipo al de la tabla que lleve.",
+          "ko": "지니고 있는 플레이트에 따라 타입이 바뀐다."
+        }
       }
     }
   ]

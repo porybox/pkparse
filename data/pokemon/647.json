@@ -1,140 +1,28 @@
 {
-  "id": 647,
-  "name": "keldeo",
-  "order": 648,
-  "gender_rate": -1,
+  "names": {
+    "ja": "ケルディオ",
+    "en": "Keldeo",
+    "fr": "Keldeo",
+    "it": "Keldeo",
+    "de": "Keldeo",
+    "es": "Keldeo",
+    "ko": "케르디오"
+  },
+  "color": "yellow",
   "capture_rate": 3,
+  "genera": {
+    "ja": "わかごま",
+    "en": "Colt",
+    "fr": "Poulain",
+    "it": "Puledro",
+    "de": "Fohlen",
+    "es": "Potro",
+    "ko": "망아지"
+  },
+  "id": 647,
   "base_happiness": 35,
-  "is_baby": false,
   "hatch_counter": 80,
-  "has_gender_differences": false,
-  "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
-  "pokedex_numbers": [
-    {
-      "entry_number": 298,
-      "pokedex": {
-        "name": "updated-unova"
-      }
-    },
-    {
-      "entry_number": 153,
-      "pokedex": {
-        "name": "original-unova"
-      }
-    },
-    {
-      "entry_number": 647,
-      "pokedex": {
-        "name": "national"
-      }
-    }
-  ],
-  "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
-  ],
-  "color": {
-    "name": "yellow"
-  },
-  "shape": {
-    "name": "quadruped"
-  },
-  "evolves_from_species": null,
-  "evolution_chain": {},
-  "habitat": null,
-  "generation": {
-    "name": "generation-v"
-  },
-  "names": [
-    {
-      "name": "ケルディオ",
-      "language": "ja"
-    },
-    {
-      "name": "케르디오",
-      "language": "ko"
-    },
-    {
-      "name": "Keldeo",
-      "language": "fr"
-    },
-    {
-      "name": "Keldeo",
-      "language": "de"
-    },
-    {
-      "name": "Keldeo",
-      "language": "es"
-    },
-    {
-      "name": "Keldeo",
-      "language": "it"
-    },
-    {
-      "name": "Keldeo",
-      "language": "en"
-    }
-  ],
-  "pal_park_encounters": [],
-  "form_descriptions": [
-    {
-      "description": "Forms only affect appearance.  In Black and White Versions 2, Keldeo becomes Resolute Form when it learns []{move:secret-sword} and reverts to Ordinary Form if it forgets that move.",
-      "language": "en"
-    }
-  ],
-  "genera": [
-    {
-      "genus": "わかごま",
-      "language": "ja"
-    },
-    {
-      "genus": "망아지",
-      "language": "ko"
-    },
-    {
-      "genus": "Poulain",
-      "language": "fr"
-    },
-    {
-      "genus": "Fohlen",
-      "language": "de"
-    },
-    {
-      "genus": "Potro",
-      "language": "es"
-    },
-    {
-      "genus": "Puledro",
-      "language": "it"
-    },
-    {
-      "genus": "Colt",
-      "language": "en"
-    }
-  ],
-  "varieties": [
-    {
-      "is_default": true,
-      "pokemon": {
-        "name": "keldeo-ordinary"
-      }
-    },
-    {
-      "is_default": false,
-      "pokemon": {
-        "name": "keldeo-resolute"
-      }
-    }
-  ],
-  "first_evolution_id": 647,
-  "types": [
-    "water",
-    "fighting"
-  ],
+  "growth_rate": "slow",
   "base_stats": {
     "hp": 91,
     "attack": 72,
@@ -142,5 +30,14 @@
     "special-attack": 129,
     "special-defense": 90,
     "speed": 108
-  }
+  },
+  "gender_rate": -1,
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "types": [
+    "water",
+    "fighting"
+  ],
+  "name": "keldeo"
 }

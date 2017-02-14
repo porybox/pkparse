@@ -3,15 +3,13 @@
   "name": "palkia",
   "order": 485,
   "gender_rate": -1,
-  "capture_rate": 30,
+  "capture_rate": 3,
   "base_happiness": 0,
   "is_baby": false,
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 150,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "upright"
   },
@@ -49,44 +43,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "パルキア",
-      "language": "ja"
-    },
-    {
-      "name": "Palkia",
-      "language": "roomaji"
-    },
-    {
-      "name": "펄기아",
-      "language": "ko"
-    },
-    {
-      "name": "帕路奇犽",
-      "language": "zh"
-    },
-    {
-      "name": "Palkia",
-      "language": "fr"
-    },
-    {
-      "name": "Palkia",
-      "language": "de"
-    },
-    {
-      "name": "Palkia",
-      "language": "es"
-    },
-    {
-      "name": "Palkia",
-      "language": "it"
-    },
-    {
-      "name": "Palkia",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "パルキア",
+    "en": "Palkia",
+    "fr": "Palkia",
+    "it": "Palkia",
+    "de": "Palkia",
+    "es": "Palkia",
+    "ko": "펄기아"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -97,36 +62,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くうかん",
-      "language": "ja"
-    },
-    {
-      "genus": "공간",
-      "language": "ko"
-    },
-    {
-      "genus": "Espace",
-      "language": "fr"
-    },
-    {
-      "genus": "Räumlich",
-      "language": "de"
-    },
-    {
-      "genus": "Espacial",
-      "language": "es"
-    },
-    {
-      "genus": "Spazio",
-      "language": "it"
-    },
-    {
-      "genus": "Spatial",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くうかん",
+    "en": "Spatial",
+    "fr": "Espace",
+    "it": "Spazio",
+    "de": "Räumlich",
+    "es": "Espacial",
+    "ko": "공간"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -147,5 +91,13 @@
     "special-attack": 150,
     "special-defense": 120,
     "speed": 100
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 28,
+      "prior_values": {
+        "capture_rate": 30
+      }
+    }
+  ]
 }

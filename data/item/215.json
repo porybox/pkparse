@@ -1,0 +1,38 @@
+{
+  "id": 215,
+  "name": "macho-brace",
+  "names": {
+    "ja": "きょうせいギプス",
+    "kana": "きょうせいギプス",
+    "en": "Macho Brace",
+    "fr": "Bracelet Macho",
+    "it": "Crescicappa",
+    "de": "Machoband",
+    "es": "Brazal Firme",
+    "ko": "교정깁스",
+    "zh-CN": "强制锻炼器",
+    "zh-TW": "強制鍛鍊器"
+  },
+  "flavor_text_entries": {
+    "ja": "硬くて　重い　ギプス。 持たせると　素早さは　さがるが ふつうより　強く　育ちやすい。",
+    "kana": "かたくて　おもい　ギプス。 もたせると　すばやさは　さがるが ふつうより　つよく　そだちやすい。",
+    "en": "An item to be held by a Pokémon. This stiff, heavy brace helps Pokémon grow strong but cuts Speed in battle.",
+    "fr": "Objet à tenir. Un bracelet dur et lourd qui rend le porteur plus fort, mais baisse sa Vitesse.",
+    "it": "Strumento da dare a un Pokémon. Attrezzo pesante che riduce la Velocità ma aiuta la crescita delle statistiche.",
+    "de": "Ein Item, das ein Pokémon tragen kann. Der Initiative-Wert sinkt zwar, aber es wird dafür umso stärker.",
+    "es": "Sólido y pesado brazal. Incrementa más las características al subir de nivel, pero baja la Velocidad de quien lo lleva.",
+    "ko": "단단하고 무거운 깁스. 지니게 하면 스피드는 떨어지지만 여느 때보다 강하게 키우기 쉽다.",
+    "zh-CN": "又硬又重的锻炼器。 虽然携带后速度会降低， 但会比平时更容易茁壮成长。",
+    "zh-TW": "又硬又重的鍛鍊器。 雖然攜帶後速度會降低， 但會比平時更容易茁壯成長。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Sólido y pesado brazal. Sube más las características al subir de nivel, pero baja la Velocidad de quien lo lleva."
+        }
+      }
+    }
+  ]
+}

@@ -2,34 +2,13 @@
   "id": 596,
   "name": "spiky-shield",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 4,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP.",
-      "short_effect": "Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Spiky Shield",
-      "language": "en"
-    },
-    {
-      "name": "Agodifesa",
-      "language": "it"
-    },
-    {
-      "name": "Barrera Espinosa",
-      "language": "es"
-    },
-    {
-      "name": "Schutzstacheln",
-      "language": "de"
-    },
-    {
-      "name": "Pico-Défense",
-      "language": "fr"
-    },
-    {
-      "name": "니들가드",
-      "language": "ko"
-    },
-    {
-      "name": "ニードルガード",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "ニードルガード",
+    "kana": "ニードルガード",
+    "en": "Spiky Shield",
+    "fr": "Pico-Défense",
+    "it": "Agodifesa",
+    "de": "Schutzstacheln",
+    "es": "Barrera Espinosa",
+    "ko": "니들가드",
+    "zh-CN": "尖刺防守",
+    "zh-TW": "尖刺防守"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　攻撃を　防ぐと 同時に　触れた　相手の 体力を　削って　しまう。",
+    "kana": "あいての　こうげきを　ふせぐと どうじに　ふれた　あいての たいりょくを　けずって　しまう。",
+    "en": "In addition to protecting the user from attacks, this move also damages any attacker who makes direct contact.",
+    "fr": "Protège des attaques, et diminue les PV de tout attaquant qui entre en contact avec le lanceur.",
+    "it": "Protegge dagli attacchi, riducendo inoltre i PS dei Pokémon che entrano in contatto con chi la usa.",
+    "de": "Der Anwender wird vor Angriffen geschützt. Gleichzeitig nehmen alle Pokémon, die mit ihm in Berührung kommen, Schaden.",
+    "es": "Protege al usuario de ataques, e inflige daño a quien se los lance si entra en contacto con él.",
+    "ko": "상대의 공격을 막음과 동시에 접촉한 상대의 체력을 떨어뜨린다.",
+    "zh-CN": "防住对手攻击的同时， 削减接触到自己的对手的体力。",
+    "zh-TW": "防禦來自對手的攻擊， 同時削減接觸到自己的 對手的ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Der Anwender weicht gegnerischen Angriffen aus. Gleichzeitig nehmen alle Pokémon, die mit ihm in Berührung kommen, Schaden.",
+          "es": "Evita el ataque de su oponente y, al mismo tiempo, le inflige daño si ha entrado en contacto con él."
+        }
+      }
+    }
+  ]
 }

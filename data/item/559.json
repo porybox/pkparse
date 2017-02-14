@@ -1,0 +1,38 @@
+{
+  "id": 559,
+  "name": "rock-gem",
+  "names": {
+    "ja": "いわのジュエル",
+    "kana": "いわのジュエル",
+    "en": "Rock Gem",
+    "fr": "Joyau Roche",
+    "it": "Bijouroccia",
+    "de": "Gesteinsjuwel",
+    "es": "Gema Roca",
+    "ko": "바위주얼",
+    "zh-CN": "岩石宝石",
+    "zh-TW": "岩石寶石"
+  },
+  "flavor_text_entries": {
+    "ja": "いわの　タイプの　ジュエル。 持たせると　１度だけ　いわの 技の　威力が　強まる。",
+    "kana": "いわの　タイプの　ジュエル。 もたせると　いちどだけ　いわの わざの　いりょくが　つよまる。",
+    "en": "A gem with an essence of rock. When held, it strengthens the power of a Rock-type move one time.",
+    "fr": "Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Roche.",
+    "it": "Strumento da dare a un Pokémon. Gioiello che potenzia una sola volta le mosse di tipo Roccia.",
+    "de": "Ein Juwel vom Typ Gestein. Es erhöht einmalig die Stärke einer Attacke vom Typ Gestein.",
+    "es": "Joya de un solo uso que potencia los movimientos de tipo Roca. Debe llevarla un Pokémon.",
+    "ko": "바위타입의 주얼. 지니게 하면 한 번만 바위 기술의 위력이 강해진다.",
+    "zh-CN": "岩石属性的宝石。 携带后，岩石属性的 招式威力仅会增强１次。",
+    "zh-TW": "岩石屬性的寶石。 攜帶後，岩石屬性招式的 威力會僅增強１次。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "de": "Gesteinjuwel"
+        }
+      }
+    }
+  ]
+}

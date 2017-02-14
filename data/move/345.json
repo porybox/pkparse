@@ -2,65 +2,13 @@
   "id": 345,
   "name": "magical-leaf",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 60,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "growth"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "growth"
-        }
-      ]
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.",
-      "short_effect": "Never misses.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Hits Pokémon under the effects of []{move:dig} and []{move:fly}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -72,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Magical Leaf",
-      "language": "en"
-    },
-    {
-      "name": "Fogliamagica",
-      "language": "it"
-    },
-    {
-      "name": "Hoja Mágica",
-      "language": "es"
-    },
-    {
-      "name": "Zauberblatt",
-      "language": "de"
-    },
-    {
-      "name": "Feuille Magik",
-      "language": "fr"
-    },
-    {
-      "name": "메지컬리프",
-      "language": "ko"
-    },
-    {
-      "name": "マジカルリーフ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "マジカルリーフ",
+    "kana": "マジカルリーフ",
+    "en": "Magical Leaf",
+    "fr": "Feuille Magik",
+    "it": "Fogliamagica",
+    "de": "Zauberblatt",
+    "es": "Hoja Mágica",
+    "ko": "메지컬리프",
+    "zh-CN": "魔法叶",
+    "zh-TW": "魔法葉"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "相手を　追跡する 不思議な　はっぱを　まきちらす。 攻撃は　必ず　命中する。",
+    "kana": "あいてを　ついせきする ふしぎな　はっぱを　まきちらす。 こうげきは　かならず　めいちゅう　する。",
+    "en": "The user scatters curious leaves that chase the target. This attack never misses.",
+    "fr": "Le lanceur disperse d’étranges feuilles qui poursuivent l’ennemi. N’échoue jamais.",
+    "it": "Chi la usa sparpaglia strane foglie che inseguono il bersaglio. Questa mossa è infallibile.",
+    "de": "Magischer Blattangriff, dem nicht auszuweichen ist.",
+    "es": "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.",
+    "ko": "상대를 추적하는 이상한 잎사귀를 흩뿌린다. 공격은 반드시 명중한다.",
+    "zh-CN": "散落可以追踪 对手的神奇叶片。 攻击必定会命中。",
+    "zh-TW": "散落可以追蹤 對手的神奇葉子。 攻擊必定會命中。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手を　追跡する 不思議な　はっぱを まきちらす。 攻撃は　必ず　命中する。",
+          "kana": "あいてを　ついせきする ふしぎな　はっぱを まきちらす。 こうげきは　かならず　めいちゅう　する。"
+        }
+      }
+    }
+  ]
 }

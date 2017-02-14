@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 24,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "squiggle"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "トランセル",
-      "language": "ja"
-    },
-    {
-      "name": "Trancell",
-      "language": "roomaji"
-    },
-    {
-      "name": "단데기",
-      "language": "ko"
-    },
-    {
-      "name": "鐵甲蛹",
-      "language": "zh"
-    },
-    {
-      "name": "Chrysacier",
-      "language": "fr"
-    },
-    {
-      "name": "Safcon",
-      "language": "de"
-    },
-    {
-      "name": "Metapod",
-      "language": "es"
-    },
-    {
-      "name": "Metapod",
-      "language": "it"
-    },
-    {
-      "name": "Metapod",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "トランセル",
+    "en": "Metapod",
+    "fr": "Chrysacier",
+    "it": "Metapod",
+    "de": "Safcon",
+    "es": "Metapod",
+    "ko": "단데기"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さなぎ",
-      "language": "ja"
-    },
-    {
-      "genus": "번데기",
-      "language": "ko"
-    },
-    {
-      "genus": "Cocon",
-      "language": "fr"
-    },
-    {
-      "genus": "Kokon",
-      "language": "de"
-    },
-    {
-      "genus": "Capullo",
-      "language": "es"
-    },
-    {
-      "genus": "Bozzolo",
-      "language": "it"
-    },
-    {
-      "genus": "Cocoon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さなぎ",
+    "en": "Cocoon",
+    "fr": "Cocon",
+    "it": "Bozzolo",
+    "de": "Kokon",
+    "es": "Capullo",
+    "ko": "번데기"
+  },
   "varieties": [
     {
       "is_default": true,

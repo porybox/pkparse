@@ -9,9 +9,7 @@
   "hatch_counter": 35,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 81,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "quadruped"
   },
@@ -77,44 +71,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "エーフィ",
-      "language": "ja"
-    },
-    {
-      "name": "Eifie",
-      "language": "roomaji"
-    },
-    {
-      "name": "에브이",
-      "language": "ko"
-    },
-    {
-      "name": "太陽精靈",
-      "language": "zh"
-    },
-    {
-      "name": "Mentali",
-      "language": "fr"
-    },
-    {
-      "name": "Psiana",
-      "language": "de"
-    },
-    {
-      "name": "Espeon",
-      "language": "es"
-    },
-    {
-      "name": "Espeon",
-      "language": "it"
-    },
-    {
-      "name": "Espeon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エーフィ",
+    "en": "Espeon",
+    "fr": "Mentali",
+    "it": "Espeon",
+    "de": "Psiana",
+    "es": "Espeon",
+    "ko": "에브이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -125,36 +90,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たいよう",
-      "language": "ja"
-    },
-    {
-      "genus": "태양",
-      "language": "ko"
-    },
-    {
-      "genus": "Soleil",
-      "language": "fr"
-    },
-    {
-      "genus": "Sonne",
-      "language": "de"
-    },
-    {
-      "genus": "Sol",
-      "language": "es"
-    },
-    {
-      "genus": "Sole",
-      "language": "it"
-    },
-    {
-      "genus": "Sun",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たいよう",
+    "en": "Sun",
+    "fr": "Soleil",
+    "it": "Sole",
+    "de": "Sonne",
+    "es": "Sol",
+    "ko": "태양"
+  },
   "varieties": [
     {
       "is_default": true,

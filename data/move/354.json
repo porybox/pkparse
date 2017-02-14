@@ -2,49 +2,13 @@
   "id": 354,
   "name": "psycho-boost",
   "accuracy": 90,
-  "effect_chance": 100,
   "pp": 5,
   "priority": 0,
   "power": 140,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "calm-mind"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}, then lowers the user's [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}.",
-      "short_effect": "Lowers the user's Special Attack by two stages after inflicting damage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,54 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Psycho Boost",
-      "language": "en"
-    },
-    {
-      "name": "Psicoslancio",
-      "language": "it"
-    },
-    {
-      "name": "Psicoataque",
-      "language": "es"
-    },
-    {
-      "name": "Psyschub",
-      "language": "de"
-    },
-    {
-      "name": "Psycho Boost",
-      "language": "fr"
-    },
-    {
-      "name": "사이코부스트",
-      "language": "ko"
-    },
-    {
-      "name": "サイコブースト",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "サイコブースト",
+    "kana": "サイコブースト",
+    "en": "Psycho Boost",
+    "fr": "Psycho Boost",
+    "it": "Psicoslancio",
+    "de": "Psyschub",
+    "es": "Psicoataque",
+    "ko": "사이코부스트",
+    "zh-CN": "精神突进",
+    "zh-TW": "精神突進"
+  },
+  "flavor_text_entries": {
+    "ja": "フルパワーで　相手を　攻撃する。 使うと　反動で 自分の　特攻が　がくっと　さがる。",
+    "kana": "フルパワーで　あいてを　こうげきする。 つかうと　はんどうで じぶんの　とくこうが　がくっと　さがる。",
+    "en": "The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+    "fr": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse beaucoup l’Attaque Spéciale du lanceur.",
+    "it": "Chi la usa sferra un potente attacco, ma il contraccolpo riduce di molto il suo Attacco Speciale.",
+    "de": "Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.",
+    "es": "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.",
+    "ko": "풀 파워로 상대를 공격한다. 쓰면 반동으로 자신의 특수공격이 크게 떨어진다.",
+    "zh-CN": "使出全部力量攻击对手。 使用之后会因为反作用力， 自己的特攻大幅降低。",
+    "zh-TW": "釋放全部能量攻擊對手。 使用後因為反作用力， 自己的特攻會大幅降低。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "psychic"
-  }
+  "target": "selected-pokemon",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse fortement l’Attaque Spéciale du lanceur."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse énormément l’Attaque Spéciale du lanceur."
+        }
+      }
+    }
+  ]
 }

@@ -2,34 +2,13 @@
   "id": 469,
   "name": "wide-guard",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 3,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Moves with multiple targets will not hit friendly Pokémon for the remainder of this turn.  If the user is last to act this turn, this move will [fail]{mechanic:fail}.\n\nThis move cannot be selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "Prevents any multi-target moves from hitting friendly Pokémon this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "field-effect"
-    },
+    "ailment": "none",
+    "category": "field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Wide Guard",
-      "language": "en"
-    },
-    {
-      "name": "Bodyguard",
-      "language": "it"
-    },
-    {
-      "name": "Vastaguardia",
-      "language": "es"
-    },
-    {
-      "name": "Rundumschutz",
-      "language": "de"
-    },
-    {
-      "name": "Garde Large",
-      "language": "fr"
-    },
-    {
-      "name": "와이드가드",
-      "language": "ko"
-    },
-    {
-      "name": "ワイドガード",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "users-field"
+  "names": {
+    "ja": "ワイドガード",
+    "kana": "ワイドガード",
+    "en": "Wide Guard",
+    "fr": "Garde Large",
+    "it": "Bodyguard",
+    "de": "Rundumschutz",
+    "es": "Vastaguardia",
+    "ko": "와이드가드",
+    "zh-CN": "广域防守",
+    "zh-TW": "廣域防守"
   },
-  "type": {
-    "name": "rock"
-  }
+  "flavor_text_entries": {
+    "ja": "味方全員に　当たる　攻撃を １ターンの　間　防ぐ。",
+    "kana": "みかた　ぜんいんに　あたる　こうげきを １ターンの　あいだ　ふせぐ。",
+    "en": "The user and its allies are protected from wide-ranging attacks for one turn.",
+    "fr": "Annule les attaques visant toute l’équipe pendant un tour.",
+    "it": "Chi la usa protegge sé e gli alleati da colpi ad ampio raggio per un turno.",
+    "de": "Schützt eine Runde lang vor Angriffen, die alle Pokémon auf deiner Seite treffen.",
+    "es": "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.",
+    "ko": "같은 편 전원에게 향하는 공격을 1턴 동안 막는다.",
+    "zh-CN": "在１回合内防住 击打我方全员的攻击。",
+    "zh-TW": "在１回合內， 防禦住攻擊我方全體的攻擊招式。"
+  },
+  "stat_changes": [],
+  "target": "users-field",
+  "type": "rock",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "味方全員に　当たる　攻撃を １ターンの　あいだ　防ぐ。",
+          "it": "Chi la usa protegge sé e gli alleati da colpi ad ampio raggio."
+        }
+      }
+    }
+  ]
 }

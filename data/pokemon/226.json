@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 140,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    }
+    "water1"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "wings"
   },
@@ -77,44 +71,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "マンタイン",
-      "language": "ja"
-    },
-    {
-      "name": "Mantain",
-      "language": "roomaji"
-    },
-    {
-      "name": "만타인",
-      "language": "ko"
-    },
-    {
-      "name": "巨翅飛魚",
-      "language": "zh"
-    },
-    {
-      "name": "Démanta",
-      "language": "fr"
-    },
-    {
-      "name": "Mantax",
-      "language": "de"
-    },
-    {
-      "name": "Mantine",
-      "language": "es"
-    },
-    {
-      "name": "Mantine",
-      "language": "it"
-    },
-    {
-      "name": "Mantine",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マンタイン",
+    "en": "Mantine",
+    "fr": "Démanta",
+    "it": "Mantine",
+    "de": "Mantax",
+    "es": "Mantine",
+    "ko": "만타인"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -125,36 +90,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "カイト",
-      "language": "ja"
-    },
-    {
-      "genus": "연",
-      "language": "ko"
-    },
-    {
-      "genus": "Cervolant",
-      "language": "fr"
-    },
-    {
-      "genus": "Flugrochen",
-      "language": "de"
-    },
-    {
-      "genus": "Milano",
-      "language": "es"
-    },
-    {
-      "genus": "Aquilone",
-      "language": "it"
-    },
-    {
-      "genus": "Kite",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "カイト",
+    "en": "Kite",
+    "fr": "Cervolant",
+    "it": "Aquilone",
+    "de": "Flugrochen",
+    "es": "Milano",
+    "ko": "연"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -169,11 +113,21 @@
     "flying"
   ],
   "base_stats": {
-    "hp": 65,
+    "hp": 85,
     "attack": 40,
     "defense": 70,
     "special-attack": 80,
     "special-defense": 140,
     "speed": 70
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "hp": 65
+        }
+      }
+    }
+  ]
 }

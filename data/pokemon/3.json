@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 82,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -68,44 +60,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "フシギバナ",
-      "language": "ja"
-    },
-    {
-      "name": "Fushigibana",
-      "language": "roomaji"
-    },
-    {
-      "name": "이상해꽃",
-      "language": "ko"
-    },
-    {
-      "name": "妙蛙花",
-      "language": "zh"
-    },
-    {
-      "name": "Florizarre",
-      "language": "fr"
-    },
-    {
-      "name": "Bisaflor",
-      "language": "de"
-    },
-    {
-      "name": "Venusaur",
-      "language": "es"
-    },
-    {
-      "name": "Venusaur",
-      "language": "it"
-    },
-    {
-      "name": "Venusaur",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フシギバナ",
+    "en": "Venusaur",
+    "fr": "Florizarre",
+    "it": "Venusaur",
+    "de": "Bisaflor",
+    "es": "Venusaur",
+    "ko": "이상해꽃"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -116,36 +79,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たね",
-      "language": "ja"
-    },
-    {
-      "genus": "씨앗",
-      "language": "ko"
-    },
-    {
-      "genus": "Graine",
-      "language": "fr"
-    },
-    {
-      "genus": "Samen",
-      "language": "de"
-    },
-    {
-      "genus": "Semilla",
-      "language": "es"
-    },
-    {
-      "genus": "Seme",
-      "language": "it"
-    },
-    {
-      "genus": "Seed",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たね",
+    "en": "Seed",
+    "fr": "Graine",
+    "it": "Seme",
+    "de": "Samen",
+    "es": "Semilla",
+    "ko": "씨앗"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 131,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "legs"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ペロッパフ",
-      "language": "ja"
-    },
-    {
-      "name": "나룸퍼프",
-      "language": "ko"
-    },
-    {
-      "name": "Sucroquin",
-      "language": "fr"
-    },
-    {
-      "name": "Flauschling",
-      "language": "de"
-    },
-    {
-      "name": "Swirlix",
-      "language": "es"
-    },
-    {
-      "name": "Swirlix",
-      "language": "it"
-    },
-    {
-      "name": "Swirlix",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ペロッパフ",
+    "en": "Swirlix",
+    "fr": "Sucroquin",
+    "it": "Swirlix",
+    "de": "Flauschling",
+    "es": "Swirlix",
+    "ko": "나룸퍼프"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "わたあめ",
-      "language": "ja"
-    },
-    {
-      "genus": "솜사탕",
-      "language": "ko"
-    },
-    {
-      "genus": "Confiserie",
-      "language": "fr"
-    },
-    {
-      "genus": "Zuckerwatte",
-      "language": "de"
-    },
-    {
-      "genus": "Chuchería",
-      "language": "es"
-    },
-    {
-      "genus": "Zuccherino",
-      "language": "it"
-    },
-    {
-      "genus": "Cotton Candy",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "わたあめ",
+    "en": "Cotton Candy",
+    "fr": "Confiserie",
+    "it": "Zuccherino",
+    "de": "Zuckerwatte",
+    "es": "Chuchería",
+    "ko": "솜사탕"
+  },
   "varieties": [
     {
       "is_default": true,

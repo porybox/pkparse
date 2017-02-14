@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 70,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "arms"
   },
@@ -45,36 +39,15 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "フラージェス",
-      "language": "ja"
-    },
-    {
-      "name": "플라제스",
-      "language": "ko"
-    },
-    {
-      "name": "Florges",
-      "language": "fr"
-    },
-    {
-      "name": "Florges",
-      "language": "de"
-    },
-    {
-      "name": "Florges",
-      "language": "es"
-    },
-    {
-      "name": "Florges",
-      "language": "it"
-    },
-    {
-      "name": "Florges",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フラージェス",
+    "en": "Florges",
+    "fr": "Florges",
+    "it": "Florges",
+    "de": "Florges",
+    "es": "Florges",
+    "ko": "플라제스"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [
     {
@@ -82,36 +55,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "ガーデン",
-      "language": "ja"
-    },
-    {
-      "genus": "가든",
-      "language": "ko"
-    },
-    {
-      "genus": "Jardin",
-      "language": "fr"
-    },
-    {
-      "genus": "Garten",
-      "language": "de"
-    },
-    {
-      "genus": "Jardín",
-      "language": "es"
-    },
-    {
-      "genus": "Giardino",
-      "language": "it"
-    },
-    {
-      "genus": "Garden",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ガーデン",
+    "en": "Garden",
+    "fr": "Jardin",
+    "it": "Giardino",
+    "de": "Garten",
+    "es": "Jardín",
+    "ko": "가든"
+  },
   "varieties": [
     {
       "is_default": true,

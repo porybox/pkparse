@@ -2,52 +2,13 @@
   "id": 138,
   "name": "dream-eater",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 100,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "hypnosis"
-        },
-        {
-          "name": "calm-mind"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "[Fails]{mechanic:fail} if not used on a [sleep]{mechanic:sleep}ing Pokémon.  Inflicts [regular damage]{mechanic:regular-damage}.  [Drains]{mechanic:drain} half the damage inflicted to heal the user.",
-      "short_effect": "Only works on sleeping Pokémon.  Drains half the damage inflicted to heal the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+heal"
-    },
+    "ailment": "none",
+    "category": "damage+heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Dream Eater",
-      "language": "en"
-    },
-    {
-      "name": "Mangiasogni",
-      "language": "it"
-    },
-    {
-      "name": "Come Sueños",
-      "language": "es"
-    },
-    {
-      "name": "Traumfresser",
-      "language": "de"
-    },
-    {
-      "name": "Dévorêve",
-      "language": "fr"
-    },
-    {
-      "name": "꿈먹기",
-      "language": "ko"
-    },
-    {
-      "name": "ゆめくい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ゆめくい",
+    "kana": "ゆめくい",
+    "en": "Dream Eater",
+    "fr": "Dévorêve",
+    "it": "Mangiasogni",
+    "de": "Traumfresser",
+    "es": "Come Sueños",
+    "ko": "꿈먹기",
+    "zh-CN": "食梦",
+    "zh-TW": "食夢"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "寝ている　相手の　夢を　食べて 攻撃する。　ダメージの　半分の ＨＰを　回復する。",
+    "kana": "ねている　あいての　ゆめを　たべて こうげきする。　ダメージの　はんぶんの ＨＰを　かいふく　する。",
+    "en": "The user eats the dreams of a sleeping target. It absorbs half the damage caused to heal its own HP.",
+    "fr": "Le lanceur mange le rêve de l’ennemi endormi et récupère en PV la moitié des dégâts infligés.",
+    "it": "Attacco che funziona solo su un bersaglio che dorme. Chi lo usa riceve metà dei PS persi dal Pokémon colpito.",
+    "de": "Attacke gegen schlafendes Ziel. Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben.",
+    "es": "Restaura al usuario la mitad del daño causado a un objetivo dormido.",
+    "ko": "잠자고 있는 상대의 꿈을 먹어 공격한다. 데미지의 절반을 HP로 회복한다.",
+    "zh-CN": "吃掉正在睡觉的对手的梦 进行攻击。回复对手 所受到伤害的一半ＨＰ。",
+    "zh-TW": "吃掉熟睡中對手的夢 進行攻擊。可以回復給予對手 傷害的一半ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "寝ている　相手の　夢を　食べて 攻撃する。ダメージの　半分の ＨＰを　回復する。",
+          "fr": "Le lanceur mange le rêve de l’ennemi endormi. Il récupère en PV la moitié des dégâts infligés."
+        }
+      }
+    }
+  ]
 }

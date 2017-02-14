@@ -1,0 +1,40 @@
+{
+  "id": 542,
+  "name": "red-card",
+  "names": {
+    "ja": "レッドカード",
+    "kana": "レッドカード",
+    "en": "Red Card",
+    "fr": "Carton Rouge",
+    "it": "Cartelrosso",
+    "de": "Rote Karte",
+    "es": "Tarjeta Roja",
+    "ko": "레드카드",
+    "zh-CN": "红牌",
+    "zh-TW": "紅牌"
+  },
+  "flavor_text_entries": {
+    "ja": "不思議な　ちからのある　カード。 持たせると　技を　使ってきた　相手を 退場させることが　できる。",
+    "kana": "ふしぎな　ちからのある　カード。 もたせると　わざをつかってきた　あいてを たいじょう　させることが　できる。",
+    "en": "An item to be held by a Pokémon. When the holder is hit by an attack, the attacker is removed from battle.",
+    "fr": "Une carte au pouvoir mystérieux. Si son porteur est touché par l’attaquant, ce dernier doit se retirer du combat.",
+    "it": "Cartellino dal potere misterioso. Chi ce l’ha fa ritirare dalla lotta il Pokémon che lo ha colpito.",
+    "de": "Eine Karte mit mysteriösen Kräften. Wird der Träger getroffen, wird der Angreifer des Platzes verwiesen.",
+    "es": "Misteriosa tarjeta que permite al Pokémon que la lleva expulsar al oponente cuando este le cause daño.",
+    "ko": "이상한 힘이 있는 카드. 지니게 하면 기술을 사용한 상대를 퇴장시킬 수 있다.",
+    "zh-CN": "有着神奇力量的卡片。 携带后，能让使用了 招式的对手退场。",
+    "zh-TW": "有著神奇力量的卡片。 攜帶後，能讓使用了 招式的對手退場。"
+  },
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "不思議な　ちからのある　カード。 持たせると　技を受けた　相手を 退場させることが　できる。",
+          "kana": "ふしぎな　ちからのある　カード。 もたせると　わざをうけた　あいてを たいじょう　させることが　できる。",
+          "ko": "이상한 힘이 있는 카드. 지니게 하면 기술을 당한 상대를 퇴장시킬 수 있다."
+        }
+      }
+    }
+  ]
+}

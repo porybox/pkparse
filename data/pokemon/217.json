@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 133,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "リングマ",
-      "language": "ja"
-    },
-    {
-      "name": "Ringuma",
-      "language": "roomaji"
-    },
-    {
-      "name": "링곰",
-      "language": "ko"
-    },
-    {
-      "name": "圈圈熊",
-      "language": "zh"
-    },
-    {
-      "name": "Ursaring",
-      "language": "fr"
-    },
-    {
-      "name": "Ursaring",
-      "language": "de"
-    },
-    {
-      "name": "Ursaring",
-      "language": "es"
-    },
-    {
-      "name": "Ursaring",
-      "language": "it"
-    },
-    {
-      "name": "Ursaring",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "リングマ",
+    "en": "Ursaring",
+    "fr": "Ursaring",
+    "it": "Ursaring",
+    "de": "Ursaring",
+    "es": "Ursaring",
+    "ko": "링곰"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とうみん",
-      "language": "ja"
-    },
-    {
-      "genus": "동면",
-      "language": "ko"
-    },
-    {
-      "genus": "Hibernant",
-      "language": "fr"
-    },
-    {
-      "genus": "Schläfer",
-      "language": "de"
-    },
-    {
-      "genus": "Hibernante",
-      "language": "es"
-    },
-    {
-      "genus": "Letargo",
-      "language": "it"
-    },
-    {
-      "genus": "Hibernator",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とうみん",
+    "en": "Hibernator",
+    "fr": "Hibernant",
+    "it": "Letargo",
+    "de": "Schläfer",
+    "es": "Hibernante",
+    "ko": "동면"
+  },
   "varieties": [
     {
       "is_default": true,

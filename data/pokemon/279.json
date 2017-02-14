@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 18,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "flying"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "wings"
   },
@@ -74,44 +66,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ペリッパー",
-      "language": "ja"
-    },
-    {
-      "name": "Pelipper",
-      "language": "roomaji"
-    },
-    {
-      "name": "패리퍼",
-      "language": "ko"
-    },
-    {
-      "name": "大嘴鷗",
-      "language": "zh"
-    },
-    {
-      "name": "Bekipan",
-      "language": "fr"
-    },
-    {
-      "name": "Pelipper",
-      "language": "de"
-    },
-    {
-      "name": "Pelipper",
-      "language": "es"
-    },
-    {
-      "name": "Pelipper",
-      "language": "it"
-    },
-    {
-      "name": "Pelipper",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ペリッパー",
+    "en": "Pelipper",
+    "fr": "Bekipan",
+    "it": "Pelipper",
+    "de": "Pelipper",
+    "es": "Pelipper",
+    "ko": "패리퍼"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -122,36 +85,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みずどり",
-      "language": "ja"
-    },
-    {
-      "genus": "물새",
-      "language": "ko"
-    },
-    {
-      "genus": "Oiseaudo",
-      "language": "fr"
-    },
-    {
-      "genus": "Wasservogel",
-      "language": "de"
-    },
-    {
-      "genus": "Ave Agua",
-      "language": "es"
-    },
-    {
-      "genus": "Alacquatico",
-      "language": "it"
-    },
-    {
-      "genus": "Water Bird",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みずどり",
+    "en": "Water Bird",
+    "fr": "Oiseaudo",
+    "it": "Alacquatico",
+    "de": "Wasservogel",
+    "es": "Ave Agua",
+    "ko": "물새"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -169,8 +111,18 @@
     "hp": 60,
     "attack": 50,
     "defense": 100,
-    "special-attack": 85,
+    "special-attack": 95,
     "special-defense": 70,
     "speed": 65
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "special-attack": 85
+        }
+      }
+    }
+  ]
 }

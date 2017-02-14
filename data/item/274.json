@@ -1,0 +1,46 @@
+{
+  "id": 274,
+  "name": "quick-powder",
+  "names": {
+    "ja": "スピードパウダー",
+    "kana": "スピードパウダー",
+    "en": "Quick Powder",
+    "fr": "Poudre Vite",
+    "it": "Velopolvere",
+    "de": "Flottstaub",
+    "es": "Polvo Veloz",
+    "ko": "스피드파우더",
+    "zh-CN": "速度粉",
+    "zh-TW": "速度粉"
+  },
+  "flavor_text_entries": {
+    "ja": "メタモンに　持たせると　素早さが あがる　不思議な粉。 とても　こまかくて　硬い。",
+    "kana": "メタモンに　もたせると　すばやさが あがる　ふしぎなこな。 とても　こまかくて　かたい。",
+    "en": "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Speed stat.",
+    "fr": "Objet à faire tenir à Métamorph. Cette poudre étrange, très fine mais résistante, augmente sa Vitesse.",
+    "it": "Strumento da dare a Ditto. Questa strana polvere, fine e al contempo dura, aumenta la Velocità.",
+    "de": "Ein Item, das Ditto zum Tragen gegeben werden kann. Fein und doch hart, erhöht es den Initiative-Wert.",
+    "es": "Debe llevarlo Ditto. Es un polvo muy fino, pero a la vez poderoso, que aumenta su Velocidad.",
+    "ko": "메타몽에게 지니게 하면 스피드가 올라가는 이상한 가루. 매우 잘고 단단하다.",
+    "zh-CN": "让百变怪携带后， 速度就会提高的神奇粉末。 非常细腻坚硬。",
+    "zh-TW": "讓百變怪攜帶後， 速度就會提高的神奇粉末。 非常細緻堅硬。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Debe llevarlo Ditto. Es un polvo muy fino, pero a la vez resistente, que aumenta su Velocidad."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ko": "메타몽에게 지니게 하면 스피드가 올라가는 이상한 가루. 매우 곱고 단단하다."
+        }
+      }
+    }
+  ]
+}

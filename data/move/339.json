@@ -2,36 +2,13 @@
   "id": 339,
   "name": "bulk-up",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Attack]{mechanic:attack} and [Defense]{mechanic:defense} by one [stage]{mechanic:stage} each.",
-      "short_effect": "Raises the user's Attack and Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,56 +20,50 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Bulk Up",
-      "language": "en"
-    },
-    {
-      "name": "Granfisico",
-      "language": "it"
-    },
-    {
-      "name": "Corpulencia",
-      "language": "es"
-    },
-    {
-      "name": "Protzer",
-      "language": "de"
-    },
-    {
-      "name": "Gonflette",
-      "language": "fr"
-    },
-    {
-      "name": "벌크업",
-      "language": "ko"
-    },
-    {
-      "name": "ビルドアップ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ビルドアップ",
+    "kana": "ビルドアップ",
+    "en": "Bulk Up",
+    "fr": "Gonflette",
+    "it": "Granfisico",
+    "de": "Protzer",
+    "es": "Corpulencia",
+    "ko": "벌크업",
+    "zh-CN": "健美",
+    "zh-TW": "健美"
+  },
+  "flavor_text_entries": {
+    "ja": "体に　力を　こめて 筋肉を　ぶあつく　することで 自分の　攻撃と　防御を　あげる。",
+    "kana": "からだに　ちからを　こめて　きんにくを ぶあつく　することで　じぶんの こうげきと　ぼうぎょを　あげる。",
+    "en": "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
+    "fr": "Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense.",
+    "it": "Chi la usa tende i muscoli per gonfiare il corpo, aumentando Difesa e Attacco.",
+    "de": "Der Anwender spannt seine Muskeln an, um den Angriff und die Verteidigung zu erhöhen.",
+    "es": "Robustece el cuerpo para subir el Ataque y la Defensa.",
+    "ko": "몸에 힘을 담아 근육을 두껍게 해서 자신의 공격과 방어를 올린다.",
+    "zh-CN": "使出全身力气绷紧肌肉， 从而提高自己的攻击和防御。",
+    "zh-TW": "將力量集中於體內，增厚肌肉， 提高自己的攻擊和防禦。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "fighting"
-  }
+  "target": "user",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen."
+        }
+      }
+    }
+  ]
 }

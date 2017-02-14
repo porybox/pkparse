@@ -2,34 +2,13 @@
   "id": 513,
   "name": "reflect-type",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User's type changes to match the target's.",
-      "short_effect": "User becomes the target's type.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Reflect Type",
-      "language": "en"
-    },
-    {
-      "name": "Riflettipo",
-      "language": "it"
-    },
-    {
-      "name": "Clonatipo",
-      "language": "es"
-    },
-    {
-      "name": "Typenspiegel",
-      "language": "de"
-    },
-    {
-      "name": "Copie Type",
-      "language": "fr"
-    },
-    {
-      "name": "미러타입",
-      "language": "ko"
-    },
-    {
-      "name": "ミラータイプ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ミラータイプ",
+    "kana": "ミラータイプ",
+    "en": "Reflect Type",
+    "fr": "Copie Type",
+    "it": "Riflettipo",
+    "de": "Typenspiegel",
+    "es": "Clonatipo",
+    "ko": "미러타입",
+    "zh-CN": "镜面属性",
+    "zh-TW": "鏡面屬性"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　タイプを　反射して 自分も　同じ　タイプに　なる。",
+    "kana": "あいての　タイプを　はんしゃして じぶんも　おなじ　タイプに　なる。",
+    "en": "The user reflects the target’s type, making it the same type as the target.",
+    "fr": "Le lanceur copie le type de la cible et devient du même type.",
+    "it": "Chi la usa cambia il proprio tipo in quello del bersaglio.",
+    "de": "Anwender ahmt das Ziel nach und nimmt dabei dessen Typ an.",
+    "es": "Cambia el tipo del Pokémon al mismo tipo que el del objetivo.",
+    "ko": "상대의 타입을 반사해서 자신도 똑같은 타입이 된다.",
+    "zh-CN": "反射对手的属性， 让自己也变成一样的属性。",
+    "zh-TW": "在自己身上反映出對手的屬性， 讓自己也變成相同的屬性。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender bildet das Ziel nach und nimmt dabei dessen Typ an."
+        }
+      }
+    }
+  ]
 }

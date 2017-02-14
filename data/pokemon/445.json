@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": true,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 8,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "upright"
   },
@@ -66,44 +58,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ガブリアス",
-      "language": "ja"
-    },
-    {
-      "name": "Gablias",
-      "language": "roomaji"
-    },
-    {
-      "name": "한카리아스",
-      "language": "ko"
-    },
-    {
-      "name": "烈咬陸鲨",
-      "language": "zh"
-    },
-    {
-      "name": "Carchacrok",
-      "language": "fr"
-    },
-    {
-      "name": "Knakrack",
-      "language": "de"
-    },
-    {
-      "name": "Garchomp",
-      "language": "es"
-    },
-    {
-      "name": "Garchomp",
-      "language": "it"
-    },
-    {
-      "name": "Garchomp",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ガブリアス",
+    "en": "Garchomp",
+    "fr": "Carchacrok",
+    "it": "Garchomp",
+    "de": "Knakrack",
+    "es": "Garchomp",
+    "ko": "한카리아스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -114,36 +77,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "マッハ",
-      "language": "ja"
-    },
-    {
-      "genus": "마하",
-      "language": "ko"
-    },
-    {
-      "genus": "Supersonic",
-      "language": "fr"
-    },
-    {
-      "genus": "Rasanz",
-      "language": "de"
-    },
-    {
-      "genus": "Mach",
-      "language": "es"
-    },
-    {
-      "genus": "Mach",
-      "language": "it"
-    },
-    {
-      "genus": "Mach",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "マッハ",
+    "en": "Mach",
+    "fr": "Supersonic",
+    "it": "Mach",
+    "de": "Rasanz",
+    "es": "Mach",
+    "ko": "마하"
+  },
   "varieties": [
     {
       "is_default": true,

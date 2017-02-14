@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 201,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "quadruped"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ドンファン",
-      "language": "ja"
-    },
-    {
-      "name": "Donfan",
-      "language": "roomaji"
-    },
-    {
-      "name": "코리갑",
-      "language": "ko"
-    },
-    {
-      "name": "頓甲",
-      "language": "zh"
-    },
-    {
-      "name": "Donphan",
-      "language": "fr"
-    },
-    {
-      "name": "Donphan",
-      "language": "de"
-    },
-    {
-      "name": "Donphan",
-      "language": "es"
-    },
-    {
-      "name": "Donphan",
-      "language": "it"
-    },
-    {
-      "name": "Donphan",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドンファン",
+    "en": "Donphan",
+    "fr": "Donphan",
+    "it": "Donphan",
+    "de": "Donphan",
+    "es": "Donphan",
+    "ko": "코리갑"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "よろい",
-      "language": "ja"
-    },
-    {
-      "genus": "갑옷",
-      "language": "ko"
-    },
-    {
-      "genus": "Armure",
-      "language": "fr"
-    },
-    {
-      "genus": "Panzer",
-      "language": "de"
-    },
-    {
-      "genus": "Coraza",
-      "language": "es"
-    },
-    {
-      "genus": "Armatura",
-      "language": "it"
-    },
-    {
-      "genus": "Armor",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "よろい",
+    "en": "Armor",
+    "fr": "Armure",
+    "it": "Armatura",
+    "de": "Panzer",
+    "es": "Coraza",
+    "ko": "갑옷"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 71,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "arms"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ジバコイル",
-      "language": "ja"
-    },
-    {
-      "name": "Jibacoil",
-      "language": "roomaji"
-    },
-    {
-      "name": "자포코일",
-      "language": "ko"
-    },
-    {
-      "name": "自爆磁怪",
-      "language": "zh"
-    },
-    {
-      "name": "Magnézone",
-      "language": "fr"
-    },
-    {
-      "name": "Magnezone",
-      "language": "de"
-    },
-    {
-      "name": "Magnezone",
-      "language": "es"
-    },
-    {
-      "name": "Magnezone",
-      "language": "it"
-    },
-    {
-      "name": "Magnezone",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ジバコイル",
+    "en": "Magnezone",
+    "fr": "Magnézone",
+    "it": "Magnezone",
+    "de": "Magnezone",
+    "es": "Magnezone",
+    "ko": "자포코일"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "じば",
-      "language": "ja"
-    },
-    {
-      "genus": "자기장",
-      "language": "ko"
-    },
-    {
-      "genus": "Aimant",
-      "language": "fr"
-    },
-    {
-      "genus": "Magnetgebiet",
-      "language": "de"
-    },
-    {
-      "genus": "Magnético",
-      "language": "es"
-    },
-    {
-      "genus": "Magnetico",
-      "language": "it"
-    },
-    {
-      "genus": "Magnet Area",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "じば",
+    "en": "Magnet Area",
+    "fr": "Aimant",
+    "it": "Magnetico",
+    "de": "Magnetgebiet",
+    "es": "Magnético",
+    "ko": "자기장"
+  },
   "varieties": [
     {
       "is_default": true,

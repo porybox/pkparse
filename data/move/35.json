@@ -2,36 +2,13 @@
   "id": 35,
   "name": "wrap",
   "accuracy": 90,
-  "effect_chance": 100,
   "pp": 20,
   "priority": 0,
   "power": 15,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the [field]{mechanic:field}, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\n[]{move:rapid-spin} cancels this effect.",
-      "short_effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "trap"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "trap",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 5,
@@ -43,55 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Wrap",
-      "language": "en"
-    },
-    {
-      "name": "Avvolgibotta",
-      "language": "it"
-    },
-    {
-      "name": "Constricción",
-      "language": "es"
-    },
-    {
-      "name": "Wickel",
-      "language": "de"
-    },
-    {
-      "name": "Ligotage",
-      "language": "fr"
-    },
-    {
-      "name": "김밥말이",
-      "language": "ko"
-    },
-    {
-      "name": "まきつく",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "まきつく",
+    "kana": "まきつく",
+    "en": "Wrap",
+    "fr": "Ligotage",
+    "it": "Avvolgibotta",
+    "de": "Wickel",
+    "es": "Constricción",
+    "ko": "김밥말이",
+    "zh-CN": "紧束",
+    "zh-TW": "緊束"
+  },
+  "flavor_text_entries": {
+    "ja": "長い　体や　つるなどを　使って ４ー５ターンの　間 相手に　まきついて　攻撃する。",
+    "kana": "ながい　からだや　つるなどを　つかって ４ー５ターンの　あいだ あいてに　まきついて　こうげきする。",
+    "en": "A long body, vines, or the like are used to wrap and squeeze the target for four to five turns.",
+    "fr": "Le lanceur ligote l’ennemi avec des lianes ou son corps pour l’écraser durant quatre à cinq tours.",
+    "it": "Il lungo corpo o le liane di chi la usa avvolgono e stritolano il bersaglio per quattro o cinque turni.",
+    "de": "Umwickelt das Ziel über vier bis fünf Runden mit Ranken oder Ähnlichem und fügt ihm Schaden zu.",
+    "es": "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.",
+    "ko": "긴 몸이나 덩굴 등을 사용해 4-5턴 동안 상대를 휘감아 공격한다.",
+    "zh-CN": "使用长长的身体或藤蔓等， 在４～５回合内 紧束对手进行攻击。",
+    "zh-TW": "使用長長的身體或藤蔓等， 在４～５回合內 緊束對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
   "past_values": [
     {
-      "accuracy": 85,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "長い　体や　つるなどを　つかって ４ー５ターンの　あいだ 相手に　まきついて　攻撃する。",
+          "en": "A long body or vines are used to wrap and squeeze the target for four to five turns."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  ]
 }

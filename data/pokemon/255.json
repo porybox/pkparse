@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 4,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "legs"
   },
@@ -45,44 +39,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "アチャモ",
-      "language": "ja"
-    },
-    {
-      "name": "Achamo",
-      "language": "roomaji"
-    },
-    {
-      "name": "아차모",
-      "language": "ko"
-    },
-    {
-      "name": "火稚雞",
-      "language": "zh"
-    },
-    {
-      "name": "Poussifeu",
-      "language": "fr"
-    },
-    {
-      "name": "Flemmli",
-      "language": "de"
-    },
-    {
-      "name": "Torchic",
-      "language": "es"
-    },
-    {
-      "name": "Torchic",
-      "language": "it"
-    },
-    {
-      "name": "Torchic",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アチャモ",
+    "en": "Torchic",
+    "fr": "Poussifeu",
+    "it": "Torchic",
+    "de": "Flemmli",
+    "es": "Torchic",
+    "ko": "아차모"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -93,36 +58,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひよこ",
-      "language": "ja"
-    },
-    {
-      "genus": "풋내기",
-      "language": "ko"
-    },
-    {
-      "genus": "Poussin",
-      "language": "fr"
-    },
-    {
-      "genus": "Küken",
-      "language": "de"
-    },
-    {
-      "genus": "Polluelo",
-      "language": "es"
-    },
-    {
-      "genus": "Pulcino",
-      "language": "it"
-    },
-    {
-      "genus": "Chick",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひよこ",
+    "en": "Chick",
+    "fr": "Poussin",
+    "it": "Pulcino",
+    "de": "Küken",
+    "es": "Polluelo",
+    "ko": "풋내기"
+  },
   "varieties": [
     {
       "is_default": true,

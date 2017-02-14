@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 83,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "humanoid"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ムチュール",
-      "language": "ja"
-    },
-    {
-      "name": "Muchul",
-      "language": "roomaji"
-    },
-    {
-      "name": "뽀뽀라",
-      "language": "ko"
-    },
-    {
-      "name": "迷唇娃",
-      "language": "zh"
-    },
-    {
-      "name": "Lippouti",
-      "language": "fr"
-    },
-    {
-      "name": "Kussilla",
-      "language": "de"
-    },
-    {
-      "name": "Smoochum",
-      "language": "es"
-    },
-    {
-      "name": "Smoochum",
-      "language": "it"
-    },
-    {
-      "name": "Smoochum",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ムチュール",
+    "en": "Smoochum",
+    "fr": "Lippouti",
+    "it": "Smoochum",
+    "de": "Kussilla",
+    "es": "Smoochum",
+    "ko": "뽀뽀라"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くちづけ",
-      "language": "ja"
-    },
-    {
-      "genus": "뽀뽀",
-      "language": "ko"
-    },
-    {
-      "genus": "Bisou",
-      "language": "fr"
-    },
-    {
-      "genus": "Kuss",
-      "language": "de"
-    },
-    {
-      "genus": "Beso",
-      "language": "es"
-    },
-    {
-      "genus": "Bacio",
-      "language": "it"
-    },
-    {
-      "genus": "Kiss",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くちづけ",
+    "en": "Kiss",
+    "fr": "Bisou",
+    "it": "Bacio",
+    "de": "Kuss",
+    "es": "Beso",
+    "ko": "뽀뽀"
+  },
   "varieties": [
     {
       "is_default": true,

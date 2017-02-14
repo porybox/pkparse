@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 135,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    }
+    "water2"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ネオラント",
-      "language": "ja"
-    },
-    {
-      "name": "Neolant",
-      "language": "roomaji"
-    },
-    {
-      "name": "네오라이트",
-      "language": "ko"
-    },
-    {
-      "name": "霓虹魚",
-      "language": "zh"
-    },
-    {
-      "name": "Luminéon",
-      "language": "fr"
-    },
-    {
-      "name": "Lumineon",
-      "language": "de"
-    },
-    {
-      "name": "Lumineon",
-      "language": "es"
-    },
-    {
-      "name": "Lumineon",
-      "language": "it"
-    },
-    {
-      "name": "Lumineon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ネオラント",
+    "en": "Lumineon",
+    "fr": "Luminéon",
+    "it": "Lumineon",
+    "de": "Lumineon",
+    "es": "Lumineon",
+    "ko": "네오라이트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ネオン",
-      "language": "ja"
-    },
-    {
-      "genus": "네온",
-      "language": "ko"
-    },
-    {
-      "genus": "Néon",
-      "language": "fr"
-    },
-    {
-      "genus": "Neon",
-      "language": "de"
-    },
-    {
-      "genus": "Neón",
-      "language": "es"
-    },
-    {
-      "genus": "Neon",
-      "language": "it"
-    },
-    {
-      "genus": "Neon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ネオン",
+    "en": "Neon",
+    "fr": "Néon",
+    "it": "Neon",
+    "de": "Neon",
+    "es": "Neón",
+    "ko": "네온"
+  },
   "varieties": [
     {
       "is_default": true,

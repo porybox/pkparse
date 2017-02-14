@@ -1,0 +1,40 @@
+{
+  "id": 366,
+  "name": "tm39",
+  "names": {
+    "ja": "わざマシン３９",
+    "kana": "わざマシン３９",
+    "en": "TM39",
+    "fr": "CT39",
+    "it": "MT39",
+    "de": "TM39",
+    "es": "MT39",
+    "ko": "기술머신39",
+    "zh-CN": "招式学习器３９",
+    "zh-TW": "招式學習器３９"
+  },
+  "flavor_text_entries": {
+    "ja": "岩石を　投げつけて　攻撃する。 相手の　動きを　封じることで 素早さを　さげる。",
+    "kana": "がんせきを　なげつけて　こうげきする。 あいての　うごきを　ふうじることで すばやさを　さげる。",
+    "en": "Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.",
+    "fr": "Des rochers frappent l’ennemi. Réduit aussi sa Vitesse.",
+    "it": "Colpisce il bersaglio con rocce. Inoltre, lo rallenta riducendone la Velocità.",
+    "de": "Das Ziel wird mit Felsen beworfen. Senkt den Initiative-Wert des Zieles.",
+    "es": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+    "ko": "암석을 내던져서 공격한다. 상대의 움직임을 봉인함으로써 스피드를 떨어뜨린다.",
+    "zh-CN": "投掷岩石进行攻击。 封住对手的行动， 从而降低速度。",
+    "zh-TW": "投擲岩石進行攻擊。 封住對手的行動， 進而降低其速度。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "いわを　なげつけ　こうげきする。 おちた　いわが　うごきを　ふうじて あいての　すばやさを　さげる。",
+          "fr": "Des rochers frappent l’ennemi. Réduit aussi sa Vitesse en l’empêchant de se déplacer.",
+          "it": "Colpisce il nemico con rocce. Inoltre, lo rallenta riducendone la Velocità."
+        }
+      }
+    }
+  ]
+}

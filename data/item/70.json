@@ -1,0 +1,53 @@
+{
+  "id": 70,
+  "name": "shoal-salt",
+  "names": {
+    "ja": "あさせのしお",
+    "kana": "あさせのしお",
+    "en": "Shoal Salt",
+    "fr": "Sel Tréfonds",
+    "it": "Sale Ondoso",
+    "de": "Küstensalz",
+    "es": "Sal Cardumen",
+    "ko": "여울소금",
+    "zh-CN": "浅滩海盐",
+    "zh-TW": "淺灘海鹽"
+  },
+  "flavor_text_entries": {
+    "ja": "浅瀬の洞穴で みつけた　塩。",
+    "kana": "あさせのほらあなで みつけた　しお。",
+    "en": "Salt that you found inside Shoal Cave.",
+    "fr": "Du sel provenant de la Grotte Tréfonds.",
+    "it": "Sale rinvenuto nella Grotta Ondosa.",
+    "de": "Reine Salzkristalle, die du in der Küstenhöhle gefunden hast.",
+    "es": "Una sal muy fina que se encuentra en la Cueva Cardumen.",
+    "ko": "여울의 동굴에서 발견한 소금.",
+    "zh-CN": "在浅滩洞穴这地方 找到的海盐。",
+    "zh-TW": "在名為淺灘洞穴的地方 找到的海鹽。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "浅瀬の洞穴という　場所で みつけた　塩。"
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "浅瀬の洞穴という　場所で みつかる　きれいな　塩。",
+          "kana": "あさせのほらあな　という　ばしょで みつかる　きれいな　しお。",
+          "en": "Pure salt that can be discovered only deep inside the Shoal Cave.",
+          "fr": "Du sel pur provenant des profondeurs de la Grotte Tréfonds.",
+          "it": "Sale purissimo rinvenuto nella Grotta Ondosa.",
+          "de": "Reine Salzkristalle, die sich in der Küstenhöhle finden lassen.",
+          "es": "Una sal muy fina encontrada en la Cueva Cardumen.",
+          "ko": "여울의 동굴이라는 장소에서 발견할 수 있는 깨끗한 소금."
+        }
+      }
+    }
+  ]
+}

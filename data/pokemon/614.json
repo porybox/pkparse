@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 82,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "quadruped"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ツンベアー",
-      "language": "ja"
-    },
-    {
-      "name": "툰베어",
-      "language": "ko"
-    },
-    {
-      "name": "Polagriffe",
-      "language": "fr"
-    },
-    {
-      "name": "Siberio",
-      "language": "de"
-    },
-    {
-      "name": "Beartic",
-      "language": "es"
-    },
-    {
-      "name": "Beartic",
-      "language": "it"
-    },
-    {
-      "name": "Beartic",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ツンベアー",
+    "en": "Beartic",
+    "fr": "Polagriffe",
+    "it": "Beartic",
+    "de": "Siberio",
+    "es": "Beartic",
+    "ko": "툰베어"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とうけつ",
-      "language": "ja"
-    },
-    {
-      "genus": "동결",
-      "language": "ko"
-    },
-    {
-      "genus": "Congelé",
-      "language": "fr"
-    },
-    {
-      "genus": "Packeis",
-      "language": "de"
-    },
-    {
-      "genus": "Glaciación",
-      "language": "es"
-    },
-    {
-      "genus": "Glaciale",
-      "language": "it"
-    },
-    {
-      "genus": "Freezing",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とうけつ",
+    "en": "Freezing",
+    "fr": "Congelé",
+    "it": "Glaciale",
+    "de": "Packeis",
+    "es": "Glaciación",
+    "ko": "동결"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -139,10 +91,20 @@
   ],
   "base_stats": {
     "hp": 95,
-    "attack": 110,
+    "attack": 130,
     "defense": 80,
     "special-attack": 70,
     "special-defense": 80,
     "speed": 50
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "attack": 110
+        }
+      }
+    }
+  ]
 }

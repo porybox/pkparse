@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 250,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "ball"
   },
@@ -55,44 +49,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ドーミラー",
-      "language": "ja"
-    },
-    {
-      "name": "Domirror",
-      "language": "roomaji"
-    },
-    {
-      "name": "동미러",
-      "language": "ko"
-    },
-    {
-      "name": "銅鏡怪",
-      "language": "zh"
-    },
-    {
-      "name": "Archéomire",
-      "language": "fr"
-    },
-    {
-      "name": "Bronzel",
-      "language": "de"
-    },
-    {
-      "name": "Bronzor",
-      "language": "es"
-    },
-    {
-      "name": "Bronzor",
-      "language": "it"
-    },
-    {
-      "name": "Bronzor",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドーミラー",
+    "en": "Bronzor",
+    "fr": "Archéomire",
+    "it": "Bronzor",
+    "de": "Bronzel",
+    "es": "Bronzor",
+    "ko": "동미러"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -103,36 +68,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "せいどう",
-      "language": "ja"
-    },
-    {
-      "genus": "청동",
-      "language": "ko"
-    },
-    {
-      "genus": "Bronze",
-      "language": "fr"
-    },
-    {
-      "genus": "Bronze",
-      "language": "de"
-    },
-    {
-      "genus": "Bronce",
-      "language": "es"
-    },
-    {
-      "genus": "Bronzo",
-      "language": "it"
-    },
-    {
-      "genus": "Bronze",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "せいどう",
+    "en": "Bronze",
+    "fr": "Bronze",
+    "it": "Bronzo",
+    "de": "Bronze",
+    "es": "Bronce",
+    "ko": "청동"
+  },
   "varieties": [
     {
       "is_default": true,

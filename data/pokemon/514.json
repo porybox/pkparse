@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 32,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "バオッキー",
-      "language": "ja"
-    },
-    {
-      "name": "바오키",
-      "language": "ko"
-    },
-    {
-      "name": "Flamoutan",
-      "language": "fr"
-    },
-    {
-      "name": "Grillchita",
-      "language": "de"
-    },
-    {
-      "name": "Simisear",
-      "language": "es"
-    },
-    {
-      "name": "Simisear",
-      "language": "it"
-    },
-    {
-      "name": "Simisear",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バオッキー",
+    "en": "Simisear",
+    "fr": "Flamoutan",
+    "it": "Simisear",
+    "de": "Grillchita",
+    "es": "Simisear",
+    "ko": "바오키"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひのこ",
-      "language": "ja"
-    },
-    {
-      "genus": "불티",
-      "language": "ko"
-    },
-    {
-      "genus": "Braise",
-      "language": "fr"
-    },
-    {
-      "genus": "Funkenregen",
-      "language": "de"
-    },
-    {
-      "genus": "Lumbre",
-      "language": "es"
-    },
-    {
-      "genus": "Sfavillante",
-      "language": "it"
-    },
-    {
-      "genus": "Ember",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひのこ",
+    "en": "Ember",
+    "fr": "Braise",
+    "it": "Sfavillante",
+    "de": "Funkenregen",
+    "es": "Lumbre",
+    "ko": "불티"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "さみしがり",
-      "language": "ja"
-    },
-    {
-      "name": "외로움",
-      "language": "ko"
-    },
-    {
-      "name": "Solo",
-      "language": "fr"
-    },
-    {
-      "name": "Solo",
-      "language": "de"
-    },
-    {
-      "name": "Huraño",
-      "language": "es"
-    },
-    {
-      "name": "Schiva",
-      "language": "it"
-    },
-    {
-      "name": "Lonely",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "さみしがり",
+    "en": "Lonely",
+    "fr": "Solo",
+    "it": "Schiva",
+    "de": "Solo",
+    "es": "Huraña",
+    "ko": "외로움",
+    "zh-CN": "怕寂寞",
+    "zh-TW": "怕寂寞"
+  }
 }

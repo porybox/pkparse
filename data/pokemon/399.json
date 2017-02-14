@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 38,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -64,44 +56,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ビッパ",
-      "language": "ja"
-    },
-    {
-      "name": "Bipper",
-      "language": "roomaji"
-    },
-    {
-      "name": "비버니",
-      "language": "ko"
-    },
-    {
-      "name": "大牙狸",
-      "language": "zh"
-    },
-    {
-      "name": "Keunotor",
-      "language": "fr"
-    },
-    {
-      "name": "Bidiza",
-      "language": "de"
-    },
-    {
-      "name": "Bidoof",
-      "language": "es"
-    },
-    {
-      "name": "Bidoof",
-      "language": "it"
-    },
-    {
-      "name": "Bidoof",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ビッパ",
+    "en": "Bidoof",
+    "fr": "Keunotor",
+    "it": "Bidoof",
+    "de": "Bidiza",
+    "es": "Bidoof",
+    "ko": "비버니"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -112,36 +75,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "まるねずみ",
-      "language": "ja"
-    },
-    {
-      "genus": "둥글쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Souridodue",
-      "language": "fr"
-    },
-    {
-      "genus": "Dickmaus",
-      "language": "de"
-    },
-    {
-      "genus": "Gran Ratón",
-      "language": "es"
-    },
-    {
-      "genus": "Topaffuto",
-      "language": "it"
-    },
-    {
-      "genus": "Plump Mouse",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "まるねずみ",
+    "en": "Plump Mouse",
+    "fr": "Souridodue",
+    "it": "Topaffuto",
+    "de": "Dickmaus",
+    "es": "Gran Ratón",
+    "ko": "둥글쥐"
+  },
   "varieties": [
     {
       "is_default": true,

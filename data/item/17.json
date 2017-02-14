@@ -1,0 +1,38 @@
+{
+  "id": 17,
+  "name": "potion",
+  "names": {
+    "ja": "キズぐすり",
+    "kana": "キズぐすり",
+    "en": "Potion",
+    "fr": "Potion",
+    "it": "Pozione",
+    "de": "Trank",
+    "es": "Poción",
+    "ko": "상처약",
+    "zh-CN": "伤药",
+    "zh-TW": "傷藥"
+  },
+  "flavor_text_entries": {
+    "ja": "スプレー式の　キズぐすり。 ポケモン　１匹の　ＨＰを ２０だけ　回復する。",
+    "kana": "スプレーしきの　キズぐすり。 ポケモン　１ひきの　ＨＰを ２０だけ　かいふくする。",
+    "en": "A spray-type medicine for treating wounds. It can be used to restore 20 HP to an injured Pokémon.",
+    "fr": "Un spray qui soigne les blessures. Restaure 20 PV d’un Pokémon.",
+    "it": "Rimedio spray per le ferite. Restituisce 20 PS a un Pokémon.",
+    "de": "Hilft bei Wunden. Füllt die KP eines Pokémon um 20 Punkte auf.",
+    "es": "Medicina en espray que cura heridas y restaura 20 PS a un Pokémon.",
+    "ko": "스프레이식의 상처약. 포켓몬 1마리의 HP를 20만큼 회복한다.",
+    "zh-CN": "喷雾式伤药。 能让１只宝可梦 回复２０ＨＰ。",
+    "zh-TW": "噴霧式傷藥。 能讓１隻寶可夢 回復２０ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Hilft bei Wunden. Die KP eines Pokémon werden um 20 Punkte aufgefüllt."
+        }
+      }
+    }
+  ]
+}

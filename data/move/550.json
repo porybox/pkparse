@@ -2,34 +2,13 @@
   "id": 550,
   "name": "bolt-strike",
   "accuracy": 85,
-  "effect_chance": 20,
   "pp": 5,
   "priority": 0,
   "power": 130,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.",
-      "short_effect": "Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "paralysis",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Bolt Strike",
-      "language": "en"
-    },
-    {
-      "name": "Lucesiluro",
-      "language": "it"
-    },
-    {
-      "name": "Ataque Fulgor",
-      "language": "es"
-    },
-    {
-      "name": "Blitzschlag",
-      "language": "de"
-    },
-    {
-      "name": "Charge Foudre",
-      "language": "fr"
-    },
-    {
-      "name": "뇌격",
-      "language": "ko"
-    },
-    {
-      "name": "らいげき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "らいげき",
+    "kana": "らいげき",
+    "en": "Bolt Strike",
+    "fr": "Charge Foudre",
+    "it": "Lucesiluro",
+    "de": "Blitzschlag",
+    "es": "Ataque Fulgor",
+    "ko": "뇌격",
+    "zh-CN": "雷击",
+    "zh-TW": "雷擊"
   },
-  "type": {
-    "name": "electric"
-  }
+  "flavor_text_entries": {
+    "ja": "ぼうだいな　電気を　身に　まとって 相手に　突進して　攻撃する。 まひ状態に　することが　ある。",
+    "kana": "ぼうだいな　でんきを　みに　まとって あいてに　とっしんして　こうげきする。 まひ　じょうたいに　することが　ある。",
+    "en": "The user surrounds itself with a great amount of electricity and charges its target. This may also leave the target with paralysis.",
+    "fr": "Le lanceur s’enveloppe d’une charge électrique surpuissante et se jette sur l’ennemi. Peut aussi le paralyser.",
+    "it": "Colpisce il bersaglio con una possente carica elettrica e può anche paralizzarlo.",
+    "de": "Lädt seinen Körper mit einer gewaltigen Menge an Elektrizität auf und rammt damit das Ziel. Ziel wird eventuell paralysiert.",
+    "es": "Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.",
+    "ko": "방대한 전기를 몸에 둘러 상대에게 돌진해서 공격한다. 마비 상태로 만들 때가 있다.",
+    "zh-CN": "让强大的电流覆盖全身， 猛撞向对手进行攻击。 有时会让对手陷入麻痹状态。",
+    "zh-TW": "用強大的電流圍繞身體， 猛撞對手進行攻擊。 有時會讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric"
 }

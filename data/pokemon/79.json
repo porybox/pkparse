@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 133,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "water1"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "quadruped"
   },
@@ -66,44 +58,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ヤドン",
-      "language": "ja"
-    },
-    {
-      "name": "Yadon",
-      "language": "roomaji"
-    },
-    {
-      "name": "야돈",
-      "language": "ko"
-    },
-    {
-      "name": "呆呆獸",
-      "language": "zh"
-    },
-    {
-      "name": "Ramoloss",
-      "language": "fr"
-    },
-    {
-      "name": "Flegmon",
-      "language": "de"
-    },
-    {
-      "name": "Slowpoke",
-      "language": "es"
-    },
-    {
-      "name": "Slowpoke",
-      "language": "it"
-    },
-    {
-      "name": "Slowpoke",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヤドン",
+    "en": "Slowpoke",
+    "fr": "Ramoloss",
+    "it": "Slowpoke",
+    "de": "Flegmon",
+    "es": "Slowpoke",
+    "ko": "야돈"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -114,36 +77,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "まぬけ",
-      "language": "ja"
-    },
-    {
-      "genus": "얼간이",
-      "language": "ko"
-    },
-    {
-      "genus": "Crétin",
-      "language": "fr"
-    },
-    {
-      "genus": "Schnarcher",
-      "language": "de"
-    },
-    {
-      "genus": "Atontado",
-      "language": "es"
-    },
-    {
-      "genus": "Ronfone",
-      "language": "it"
-    },
-    {
-      "genus": "Dopey",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "まぬけ",
+    "en": "Dopey",
+    "fr": "Crétin",
+    "it": "Ronfone",
+    "de": "Schnarcher",
+    "es": "Atontado",
+    "ko": "얼간이"
+  },
   "varieties": [
     {
       "is_default": true,

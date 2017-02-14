@@ -1,0 +1,38 @@
+{
+  "id": 92,
+  "name": "nugget",
+  "names": {
+    "ja": "きんのたま",
+    "kana": "きんのたま",
+    "en": "Nugget",
+    "fr": "Pépite",
+    "it": "Pepita",
+    "de": "Nugget",
+    "es": "Pepita",
+    "ko": "금구슬",
+    "zh-CN": "金珠",
+    "zh-TW": "金珠"
+  },
+  "flavor_text_entries": {
+    "ja": "キラキラと　金色に　光る 純金製の　玉。 ショップで　高く　売れる。",
+    "kana": "キラキラと　きんいろに　ひかる じゅんきん　せいの　たま。 ショップで　たかく　うれる。",
+    "en": "A nugget of the purest gold that gives off a lustrous gleam in direct light. It can be sold at a high price to shops.",
+    "fr": "Une pépite d’or pur qui brille d’un éclat magnifique. Peut être vendue à bon prix aux magasins.",
+    "it": "Pepita d’oro puro dal luccichio sfavillante. Si può vendere a un prezzo piuttosto alto nei negozi.",
+    "de": "Ein Nugget aus purem Gold, das einen schimmernden Glanz besitzt. Es ist von großem Wert.",
+    "es": "Pepita de oro puro que desprende un brillo espectacular. Puede venderse a un precio muy alto en las tiendas.",
+    "ko": "금색으로 반짝반짝 빛나는 순금으로 만들어진 구슬. 상점에서 비싸게 팔린다.",
+    "zh-CN": "闪着金光， 以纯金制成的珠子。 可以在商店高价出售。",
+    "zh-TW": "閃著金光的 純金製珠子。 可以在商店高價出售。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Pepita de oro puro que desprende un brillo espectacular. Puede venderse muy cara en las tiendas."
+        }
+      }
+    }
+  ]
+}

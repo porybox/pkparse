@@ -2,36 +2,13 @@
   "id": 371,
   "name": "payback",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 50,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target uses a move or [switches out]{mechanic:switches-out} this turn before this move is used, this move has double power.",
-      "short_effect": "Power is doubled if the target has already moved this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Payback",
-      "language": "en"
-    },
-    {
-      "name": "Rivincita",
-      "language": "it"
-    },
-    {
-      "name": "Vendetta",
-      "language": "es"
-    },
-    {
-      "name": "Gegenstoß",
-      "language": "de"
-    },
-    {
-      "name": "Représailles",
-      "language": "fr"
-    },
-    {
-      "name": "보복",
-      "language": "ko"
-    },
-    {
-      "name": "しっぺがえし",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "しっぺがえし",
+    "kana": "しっぺがえし",
+    "en": "Payback",
+    "fr": "Représailles",
+    "it": "Rivincita",
+    "de": "Gegenstoß",
+    "es": "Vendetta",
+    "ko": "보복",
+    "zh-CN": "以牙还牙",
+    "zh-TW": "以牙還牙"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "ためこんで　攻撃する。 相手より　あとに　攻撃できると 技の　威力は　２倍に　なる。",
+    "kana": "ためこんで　こうげきする。 あいてより　あとに　こうげき　できると わざの　いりょくは　２ばいに　なる。",
+    "en": "The user stores power, then attacks. If the user moves after the target, this attack’s power will be doubled.",
+    "fr": "Le lanceur charge son énergie, puis attaque. La puissance est doublée si le lanceur agit après l’ennemi.",
+    "it": "Chi la usa accumula forza, poi attacca. La potenza raddoppia se il Pokémon agisce dopo il bersaglio.",
+    "de": "Der Anwender lädt die Attacke auf. Handelt das Ziel vor dem Anwender, verdoppelt sich die Stärke der Attacke.",
+    "es": "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.",
+    "ko": "모아서 공격한다. 상대보다 뒤에 공격할 수 있으면 기술의 위력은 2배가 된다.",
+    "zh-CN": "蓄力攻击。 如果能在对手之后攻击， 招式的威力会变成２倍。",
+    "zh-TW": "累積力量進行攻擊。 若在對手之後進行攻擊， 招式的威力會變成２倍。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa accumula forza, poi attacca. La potenza raddoppia se agisce dopo il Pokémon colpito.",
+          "de": "Der Anwender lädt die Attacke auf. Handelt das Ziel vor dem Anwender, verdoppelt sich die Kraft der Attacke."
+        }
+      }
+    }
+  ]
 }

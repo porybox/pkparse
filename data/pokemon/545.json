@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 122,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "armor"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ペンドラー",
-      "language": "ja"
-    },
-    {
-      "name": "펜드라",
-      "language": "ko"
-    },
-    {
-      "name": "Brutapode",
-      "language": "fr"
-    },
-    {
-      "name": "Cerapendra",
-      "language": "de"
-    },
-    {
-      "name": "Scolipede",
-      "language": "es"
-    },
-    {
-      "name": "Scolipede",
-      "language": "it"
-    },
-    {
-      "name": "Scolipede",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ペンドラー",
+    "en": "Scolipede",
+    "fr": "Brutapode",
+    "it": "Scolipede",
+    "de": "Cerapendra",
+    "es": "Scolipede",
+    "ko": "펜드라"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "メガムカデ",
-      "language": "ja"
-    },
-    {
-      "genus": "메가지네",
-      "language": "ko"
-    },
-    {
-      "genus": "Mégaplopode",
-      "language": "fr"
-    },
-    {
-      "genus": "Riesenfüßer",
-      "language": "de"
-    },
-    {
-      "genus": "Megaciempiés",
-      "language": "es"
-    },
-    {
-      "genus": "Megapede",
-      "language": "it"
-    },
-    {
-      "genus": "Megapede",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "メガムカデ",
+    "en": "Megapede",
+    "fr": "Mégaplopode",
+    "it": "Megapede",
+    "de": "Riesenfüßer",
+    "es": "Megaciempiés",
+    "ko": "메가지네"
+  },
   "varieties": [
     {
       "is_default": true,

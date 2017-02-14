@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 114,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "upright"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ニャスパー",
-      "language": "ja"
-    },
-    {
-      "name": "냐스퍼",
-      "language": "ko"
-    },
-    {
-      "name": "Psystigri",
-      "language": "fr"
-    },
-    {
-      "name": "Psiau",
-      "language": "de"
-    },
-    {
-      "name": "Espurr",
-      "language": "es"
-    },
-    {
-      "name": "Espurr",
-      "language": "it"
-    },
-    {
-      "name": "Espurr",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ニャスパー",
+    "en": "Espurr",
+    "fr": "Psystigri",
+    "it": "Espurr",
+    "de": "Psiau",
+    "es": "Espurr",
+    "ko": "냐스퍼"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "じせい",
-      "language": "ja"
-    },
-    {
-      "genus": "자제",
-      "language": "ko"
-    },
-    {
-      "genus": "Retenue",
-      "language": "fr"
-    },
-    {
-      "genus": "Zügelung",
-      "language": "de"
-    },
-    {
-      "genus": "Moderación",
-      "language": "es"
-    },
-    {
-      "genus": "Moderazione",
-      "language": "it"
-    },
-    {
-      "genus": "Restraint",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "じせい",
+    "en": "Restraint",
+    "fr": "Retenue",
+    "it": "Moderazione",
+    "de": "Zügelung",
+    "es": "Moderación",
+    "ko": "자제"
+  },
   "varieties": [
     {
       "is_default": true,

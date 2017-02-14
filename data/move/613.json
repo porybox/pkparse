@@ -2,34 +2,13 @@
   "id": 613,
   "name": "oblivion-wing",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Deals regular damage.  Drains 75% of the damage inflicted to heal the user.",
-      "short_effect": "Drains 75% of the damage inflicted to heal the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+heal"
-    },
+    "ailment": "none",
+    "category": "damage+heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,43 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Oblivion Wing",
-      "language": "en"
-    },
-    {
-      "name": "Ali del Fato",
-      "language": "it"
-    },
-    {
-      "name": "Ala Mortífera",
-      "language": "es"
-    },
-    {
-      "name": "Unheilsschwingen",
-      "language": "de"
-    },
-    {
-      "name": "Mort-Ailes",
-      "language": "fr"
-    },
-    {
-      "name": "데스윙",
-      "language": "ko"
-    },
-    {
-      "name": "デスウイング",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "デスウイング",
+    "kana": "デスウイング",
+    "en": "Oblivion Wing",
+    "fr": "Mort-Ailes",
+    "it": "Ali del Fato",
+    "de": "Unheilsschwingen",
+    "es": "Ala Mortífera",
+    "ko": "데스윙",
+    "zh-CN": "死亡之翼",
+    "zh-TW": "死亡之翼"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "ねらいを　定めた　相手から　ＨＰを 吸い取る。　与えた　ダメージの 半分以上　ＨＰを　回復する。",
+    "kana": "ねらいを　さだめた　あいてから　ＨＰを すいとる。　あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+    "en": "The user absorbs its target’s HP. The user’s HP is restored by over half of the damage taken by the target.",
+    "fr": "Vole l’énergie de la cible. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+    "it": "Chi la usa assorbe energia dal bersaglio recuperando una quantità di PS pari a più della metà del danno inferto.",
+    "de": "Der Anwender raubt dem Ziel KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+    "es": "El usuario absorbe energía del objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.",
+    "ko": "조준한 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+    "zh-CN": "从锁定的对手身上吸取ＨＰ。 回复给予对手 伤害的一半以上的ＨＰ。",
+    "zh-TW": "從鎖定的對手身上吸取ＨＰ。 可以回復給予對手 傷害的一半以上的ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ねらいを　定めた　相手から　ＨＰを 吸い取る。与えた　ダメージの 半分以上　ＨＰを　回復する。",
+          "kana": "ねらいを　さだめた　あいてから　ＨＰを すいとる。あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+          "es": "El usuario absorbe energía del Pokémon objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido."
+        }
+      }
+    }
+  ]
 }

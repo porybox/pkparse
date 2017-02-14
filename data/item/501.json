@@ -1,0 +1,38 @@
+{
+  "id": 501,
+  "name": "photo-album",
+  "names": {
+    "ja": "フォトアルバム",
+    "kana": "フォトアルバム",
+    "en": "Photo Album",
+    "fr": "Album Photo",
+    "it": "Album",
+    "de": "Fotoalbum",
+    "es": "Álbum",
+    "ko": "포토앨범",
+    "zh-CN": "相册",
+    "zh-TW": "相簿"
+  },
+  "flavor_text_entries": {
+    "ja": "冒険中に　撮影した 記念写真を　飾る　アルバム。",
+    "kana": "ぼうけんちゅうに　さつえいした きねんしゃしんを　かざる　アルバム。",
+    "en": "A nice photo album for storing all the photos taken along your adventure.",
+    "fr": "Un album décoré de photos souvenirs prises pendant le voyage.",
+    "it": "Album dove si possono sistemare le foto scattate durante quest’avventura.",
+    "de": "Ein Album, in dem du Erinnerungsfotos aufbewahren kannst, die du auf deinen Reisen geschossen hast.",
+    "es": "Álbum que recoge las fotos que se toman a lo largo de la aventura.",
+    "ko": "모험 중에 촬영한 기념사진을 보관하는 앨범.",
+    "zh-CN": "用来摆放在冒险中拍摄的 纪念相片的相册。",
+    "zh-TW": "用來擺放在冒險中拍攝的 紀念照片的相簿。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un album décoré de photos souvenir prises pendant le voyage."
+        }
+      }
+    }
+  ]
+}

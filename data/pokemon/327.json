@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 131,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "humanshape"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "パッチール",
-      "language": "ja"
-    },
-    {
-      "name": "Patcheel",
-      "language": "roomaji"
-    },
-    {
-      "name": "얼루기",
-      "language": "ko"
-    },
-    {
-      "name": "晃晃斑",
-      "language": "zh"
-    },
-    {
-      "name": "Spinda",
-      "language": "fr"
-    },
-    {
-      "name": "Pandir",
-      "language": "de"
-    },
-    {
-      "name": "Spinda",
-      "language": "es"
-    },
-    {
-      "name": "Spinda",
-      "language": "it"
-    },
-    {
-      "name": "Spinda",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "パッチール",
+    "en": "Spinda",
+    "fr": "Spinda",
+    "it": "Spinda",
+    "de": "Pandir",
+    "es": "Spinda",
+    "ko": "얼루기"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ぶちパンダ",
-      "language": "ja"
-    },
-    {
-      "genus": "얼룩팬더",
-      "language": "ko"
-    },
-    {
-      "genus": "Panda Tache",
-      "language": "fr"
-    },
-    {
-      "genus": "Punkt-Panda",
-      "language": "de"
-    },
-    {
-      "genus": "Panda Topos",
-      "language": "es"
-    },
-    {
-      "genus": "Macchipanda",
-      "language": "it"
-    },
-    {
-      "genus": "Spot Panda",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ぶちパンダ",
+    "en": "Spot Panda",
+    "fr": "Panda Tache",
+    "it": "Macchipanda",
+    "de": "Punkt-Panda",
+    "es": "Panda Topos",
+    "ko": "얼룩팬더"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 63,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "fairy"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "humanoid"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "クチート",
-      "language": "ja"
-    },
-    {
-      "name": "Kucheat",
-      "language": "roomaji"
-    },
-    {
-      "name": "입치트",
-      "language": "ko"
-    },
-    {
-      "name": "大嘴娃",
-      "language": "zh"
-    },
-    {
-      "name": "Mysdibule",
-      "language": "fr"
-    },
-    {
-      "name": "Flunkifer",
-      "language": "de"
-    },
-    {
-      "name": "Mawile",
-      "language": "es"
-    },
-    {
-      "name": "Mawile",
-      "language": "it"
-    },
-    {
-      "name": "Mawile",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クチート",
+    "en": "Mawile",
+    "fr": "Mysdibule",
+    "it": "Mawile",
+    "de": "Flunkifer",
+    "es": "Mawile",
+    "ko": "입치트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あざむき",
-      "language": "ja"
-    },
-    {
-      "genus": "배반",
-      "language": "ko"
-    },
-    {
-      "genus": "Trompeur",
-      "language": "fr"
-    },
-    {
-      "genus": "Schwindler",
-      "language": "de"
-    },
-    {
-      "genus": "Tramposo",
-      "language": "es"
-    },
-    {
-      "genus": "Inganno",
-      "language": "it"
-    },
-    {
-      "genus": "Deceiver",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あざむき",
+    "en": "Deceiver",
+    "fr": "Trompeur",
+    "it": "Inganno",
+    "de": "Schwindler",
+    "es": "Tramposo",
+    "ko": "배반"
+  },
   "varieties": [
     {
       "is_default": true,

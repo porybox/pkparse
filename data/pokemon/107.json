@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 147,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "humanoid"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "エビワラー",
-      "language": "ja"
-    },
-    {
-      "name": "Ebiwalar",
-      "language": "roomaji"
-    },
-    {
-      "name": "홍수몬",
-      "language": "ko"
-    },
-    {
-      "name": "艾比郎",
-      "language": "zh"
-    },
-    {
-      "name": "Tygnon",
-      "language": "fr"
-    },
-    {
-      "name": "Nockchan",
-      "language": "de"
-    },
-    {
-      "name": "Hitmonchan",
-      "language": "es"
-    },
-    {
-      "name": "Hitmonchan",
-      "language": "it"
-    },
-    {
-      "name": "Hitmonchan",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エビワラー",
+    "en": "Hitmonchan",
+    "fr": "Tygnon",
+    "it": "Hitmonchan",
+    "de": "Nockchan",
+    "es": "Hitmonchan",
+    "ko": "홍수몬"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "パンチ",
-      "language": "ja"
-    },
-    {
-      "genus": "펀치",
-      "language": "ko"
-    },
-    {
-      "genus": "Puncheur",
-      "language": "fr"
-    },
-    {
-      "genus": "Puncher",
-      "language": "de"
-    },
-    {
-      "genus": "Puñetazo",
-      "language": "es"
-    },
-    {
-      "genus": "Tirapugni",
-      "language": "it"
-    },
-    {
-      "genus": "Punching",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "パンチ",
+    "en": "Punching",
+    "fr": "Puncheur",
+    "it": "Tirapugni",
+    "de": "Puncher",
+    "es": "Puñetazo",
+    "ko": "펀치"
+  },
   "varieties": [
     {
       "is_default": true,

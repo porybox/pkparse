@@ -2,36 +2,13 @@
   "id": 169,
   "name": "spider-web",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "The target cannot [switch out]{mechanic:switch-out} normally.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This effect ends when the user leaves the [field]{mechanic:field}.\n\nThe target may still escape by using []{move:baton-pass}, []{move:u-turn}, or a []{item:shed-shell}.\n\nBoth the user and the target pass on this effect with []{move:baton-pass}.",
-      "short_effect": "Prevents the target from leaving battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Spider Web",
-      "language": "en"
-    },
-    {
-      "name": "Ragnatela",
-      "language": "it"
-    },
-    {
-      "name": "Telaraña",
-      "language": "es"
-    },
-    {
-      "name": "Spinnennetz",
-      "language": "de"
-    },
-    {
-      "name": "Toile",
-      "language": "fr"
-    },
-    {
-      "name": "거미집",
-      "language": "ko"
-    },
-    {
-      "name": "クモのす",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "クモのす",
+    "kana": "クモのす",
+    "en": "Spider Web",
+    "fr": "Toile",
+    "it": "Ragnatela",
+    "de": "Spinnennetz",
+    "es": "Telaraña",
+    "ko": "거미집",
+    "zh-CN": "蛛网",
+    "zh-TW": "蛛網"
   },
-  "type": {
-    "name": "bug"
-  }
+  "flavor_text_entries": {
+    "ja": "ネバネバした　細い　糸を グルグルと　からませて　相手を 戦闘から　逃げられなくする。",
+    "kana": "ネバネバした　ほそい　いとを グルグルと　からませて　あいてを せんとうから　にげられなく　する。",
+    "en": "The user ensnares the target with thin, gooey silk so it can’t flee from battle.",
+    "fr": "Le lanceur enserre l’ennemi à l’aide d’une fine soie gluante pour l’empêcher de fuir le combat.",
+    "it": "Copre il bersaglio con un filo di seta sottile e appiccicoso. Il Pokémon colpito non può fuggire.",
+    "de": "Wickelt das Ziel ein. Flucht oder Tausch unmöglich.",
+    "es": "Enreda al objetivo para evitar que abandone el combate.",
+    "ko": "끈적끈적하고 가는 실을 칭칭 휘감아 상대를 배틀에서 도망칠 수 없게 한다.",
+    "zh-CN": "将黏糊糊的细丝 一层一层缠住对手， 使其不能从战斗中逃走。",
+    "zh-TW": "用黏糊糊的細絲 一層一層纏住對手， 讓對手不能從戰鬥中逃走。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "es": "Enreda al objetivo para evitar que abandone la batalla."
+        }
+      }
+    }
+  ]
 }

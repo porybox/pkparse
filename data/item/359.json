@@ -1,0 +1,39 @@
+{
+  "id": 359,
+  "name": "tm32",
+  "names": {
+    "ja": "わざマシン３２",
+    "kana": "わざマシン３２",
+    "en": "TM32",
+    "fr": "CT32",
+    "it": "MT32",
+    "de": "TM32",
+    "es": "MT32",
+    "ko": "기술머신32",
+    "zh-CN": "招式学习器３２",
+    "zh-TW": "招式學習器３２"
+  },
+  "flavor_text_entries": {
+    "ja": "素早い　動きで　分身を　つくり 相手を　まどわせて 回避率を　あげる。",
+    "kana": "すばやい　うごきで　ぶんしんを　つくり あいてを　まどわせて かいひりつを　あげる。",
+    "en": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
+    "fr": "Le lanceur se déplace si vite qu’il crée des copies illusoires de lui-même, augmentant son Esquive.",
+    "it": "Chi la usa si muove in fretta e crea copie illusorie di se stesso che aumentano la capacità di elusione.",
+    "de": "Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.",
+    "es": "Quien lo usa se mueve tan rápido que deja una estela de sí mismo que aumenta la Evasión.",
+    "ko": "재빠른 움직임으로 분신을 만들어 상대를 혼란시켜 회피율을 올린다.",
+    "zh-CN": "通过快速移动来制造分身， 扰乱对手，从而提高闪避率。",
+    "zh-TW": "利用快速移動 製造出分身擾亂對手， 提高自己的閃避率。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "すばやい　うごきで　ぶんしんを つくる。　あいてを　まどわせることで かいひりつを　あげる。",
+          "fr": "Le lanceur se déplace si vite qu’il crée des copies illusoires de lui, augmentant son Esquive."
+        }
+      }
+    }
+  ]
+}

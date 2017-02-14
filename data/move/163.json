@@ -2,52 +2,13 @@
   "id": 163,
   "name": "slash",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 70,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "scratch"
-        },
-        {
-          "name": "swords-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.",
-      "short_effect": "Has an increased chance for a critical hit.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Slash",
-      "language": "en"
-    },
-    {
-      "name": "Lacerazione",
-      "language": "it"
-    },
-    {
-      "name": "Cuchillada",
-      "language": "es"
-    },
-    {
-      "name": "Schlitzer",
-      "language": "de"
-    },
-    {
-      "name": "Tranche",
-      "language": "fr"
-    },
-    {
-      "name": "베어가르기",
-      "language": "ko"
-    },
-    {
-      "name": "きりさく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "きりさく",
+    "kana": "きりさく",
+    "en": "Slash",
+    "fr": "Tranche",
+    "it": "Lacerazione",
+    "de": "Schlitzer",
+    "es": "Cuchillada",
+    "ko": "베어가르기",
+    "zh-CN": "劈开",
+    "zh-TW": "劈開"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "ツメや　カマなどで 相手を　切り裂いて　攻撃する。 急所に　当たりやすい。",
+    "kana": "ツメや　カマ　などで あいてを　きりさいて　こうげきする。 きゅうしょに　あたりやすい。",
+    "en": "The target is attacked with a slash of claws or blades. Critical hits land more easily.",
+    "fr": "Un coup de griffe ou autre tranche l’ennemi. Taux de critique élevé.",
+    "it": "Attacca il bersaglio con artigli, falci o altro. Probabile brutto colpo.",
+    "de": "Hieb mit Klauen oder Ähnlichem. Hohe Volltrefferquote.",
+    "es": "Ataca con cuchillas o con pinzas. Suele dar un golpe crítico.",
+    "ko": "발톱이나 낫 등으로 상대를 베어 갈라서 공격한다. 급소에 맞기 쉽다.",
+    "zh-CN": "用爪子或镰刀等 劈开对手进行攻击。 容易击中要害。",
+    "zh-TW": "用爪子或鐮刀等 劈開對手進行攻擊。 容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un coup de griffe ou autre tranche l’ennemi. Taux de critiques élevé."
+        }
+      }
+    }
+  ]
 }

@@ -2,34 +2,13 @@
   "id": 608,
   "name": "baby-doll-eyes",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 30,
   "priority": 1,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Attack]{mechanic:attack} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Baby-Doll Eyes",
-      "language": "en"
-    },
-    {
-      "name": "Occhioni Teneri",
-      "language": "it"
-    },
-    {
-      "name": "Ojitos Tiernos",
-      "language": "es"
-    },
-    {
-      "name": "Kulleraugen",
-      "language": "de"
-    },
-    {
-      "name": "Regard Touchant",
-      "language": "fr"
-    },
-    {
-      "name": "초롱초롱눈동자",
-      "language": "ko"
-    },
-    {
-      "name": "つぶらなひとみ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "つぶらなひとみ",
+    "kana": "つぶらなひとみ",
+    "en": "Baby-Doll Eyes",
+    "fr": "Regard Touchant",
+    "it": "Occhioni Teneri",
+    "de": "Kulleraugen",
+    "es": "Ojitos Tiernos",
+    "ko": "초롱초롱눈동자",
+    "zh-CN": "圆瞳",
+    "zh-TW": "圓瞳"
+  },
+  "flavor_text_entries": {
+    "ja": "つぶらなひとみで　相手を　みつめて 攻撃を　さげる。 必ず　先制攻撃　できる。",
+    "kana": "つぶらなひとみで　あいてを　みつめて こうげきを　さげる。 かならず　せんせい　こうげき　できる。",
+    "en": "The user stares at the target with its baby-doll eyes, which lowers its Attack stat. This move always goes first.",
+    "fr": "Fixe l’ennemi d’un air très attendrissant qui le touche et diminue son Attaque. Agit en priorité.",
+    "it": "Chi la usa rivolge i propri occhioni languidi al bersaglio, riducendone l’Attacco. Questa mossa ha priorità alta.",
+    "de": "Der Anwender erobert das Herz des Zieles, indem er es mit Kulleraugen ansieht. Senkt den Angriffs-Wert des Zieles. Hohe Erstschlagquote.",
+    "es": "Lanza una mirada al objetivo con ojos acaramelados, con lo que logra que su Ataque se reduzca. Este movimiento tiene prioridad alta.",
+    "ko": "초롱초롱한 눈동자로 상대를 바라보며 공격을 떨어뜨린다. 반드시 선제공격할 수 있다.",
+    "zh-CN": "用圆瞳凝视对手， 从而降低其攻击。 必定能够先制攻击。",
+    "zh-TW": "用圓圓的眼睛凝視對手， 降低對手的攻擊。 必定能夠發動先制攻擊。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fairy"
-  }
+  "target": "selected-pokemon",
+  "type": "fairy",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Fixe l’ennemi d’un air très attendrissant qui le touche et diminue son Attaque. Agit toujours en premier.",
+          "it": "Chi la usa rivolge i propri occhioni languidi al bersaglio, riducendone l’Attacco. Colpisce sempre per primo.",
+          "de": "Der Anwender erobert das Herz des Zieles, indem er es mit Kulleraugen ansieht. Senkt den Angriffs-Wert. Erstschlaggarantie.",
+          "es": "Lanza una mirada al Pokémon objetivo con ojos acaramelados, con lo que logra que su Ataque se reduzca. El que lo usa siempre ataca primero."
+        }
+      }
+    }
+  ]
 }

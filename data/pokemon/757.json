@@ -1,0 +1,46 @@
+{
+  "id": 757,
+  "name": "salandit",
+  "gender_rate": 1,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "monster",
+    "dragon"
+  ],
+  "color": "black",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ヤトウモリ",
+    "en": "Salandit",
+    "fr": "Tritox",
+    "it": "Salandit",
+    "de": "Molunk",
+    "es": "Salandit",
+    "ko": "야도뇽"
+  },
+  "genera": {
+    "ja": "どくトカゲ",
+    "en": "Toxic Lizard",
+    "fr": "Toxilézard",
+    "it": "Lucertossina",
+    "de": "Giftechse",
+    "es": "Lagartoxina",
+    "ko": "독도마뱀"
+  },
+  "types": [
+    "poison",
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 48,
+    "attack": 44,
+    "defense": 40,
+    "special-attack": 71,
+    "special-defense": 40,
+    "speed": 77
+  }
+}

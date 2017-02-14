@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 112,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "arms"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "チリーン",
-      "language": "ja"
-    },
-    {
-      "name": "Chirean",
-      "language": "roomaji"
-    },
-    {
-      "name": "치렁",
-      "language": "ko"
-    },
-    {
-      "name": "風鈴鈴",
-      "language": "zh"
-    },
-    {
-      "name": "Éoko",
-      "language": "fr"
-    },
-    {
-      "name": "Palimpalim",
-      "language": "de"
-    },
-    {
-      "name": "Chimecho",
-      "language": "es"
-    },
-    {
-      "name": "Chimecho",
-      "language": "it"
-    },
-    {
-      "name": "Chimecho",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "チリーン",
+    "en": "Chimecho",
+    "fr": "Éoko",
+    "it": "Chimecho",
+    "de": "Palimpalim",
+    "es": "Chimecho",
+    "ko": "치렁"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ふうりん",
-      "language": "ja"
-    },
-    {
-      "genus": "풍경",
-      "language": "ko"
-    },
-    {
-      "genus": "Carillon",
-      "language": "fr"
-    },
-    {
-      "genus": "Windspiel",
-      "language": "de"
-    },
-    {
-      "genus": "Sonido Aire",
-      "language": "es"
-    },
-    {
-      "genus": "Vencampana",
-      "language": "it"
-    },
-    {
-      "genus": "Wind Chime",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ふうりん",
+    "en": "Wind Chime",
+    "fr": "Carillon",
+    "it": "Vencampana",
+    "de": "Windspiel",
+    "es": "Sonido Aire",
+    "ko": "풍경"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -162,11 +106,23 @@
     "psychic"
   ],
   "base_stats": {
-    "hp": 65,
+    "hp": 75,
     "attack": 50,
-    "defense": 70,
+    "defense": 80,
     "special-attack": 95,
-    "special-defense": 80,
+    "special-defense": 90,
     "speed": 65
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "hp": 65,
+          "defense": 70,
+          "special-defense": 80
+        }
+      }
+    }
+  ]
 }

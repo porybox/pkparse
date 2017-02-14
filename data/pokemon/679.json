@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 117,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "blob"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ヒトツキ",
-      "language": "ja"
-    },
-    {
-      "name": "단칼빙",
-      "language": "ko"
-    },
-    {
-      "name": "Monorpale",
-      "language": "fr"
-    },
-    {
-      "name": "Gramokles",
-      "language": "de"
-    },
-    {
-      "name": "Honedge",
-      "language": "es"
-    },
-    {
-      "name": "Honedge",
-      "language": "it"
-    },
-    {
-      "name": "Honedge",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒトツキ",
+    "en": "Honedge",
+    "fr": "Monorpale",
+    "it": "Honedge",
+    "de": "Gramokles",
+    "es": "Honedge",
+    "ko": "단칼빙"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とうけん",
-      "language": "ja"
-    },
-    {
-      "genus": "도검",
-      "language": "ko"
-    },
-    {
-      "genus": "Glaive",
-      "language": "fr"
-    },
-    {
-      "genus": "Klingenkraft",
-      "language": "de"
-    },
-    {
-      "genus": "Tizona",
-      "language": "es"
-    },
-    {
-      "genus": "Armabianca",
-      "language": "it"
-    },
-    {
-      "genus": "Sword",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とうけん",
+    "en": "Sword",
+    "fr": "Glaive",
+    "it": "Armabianca",
+    "de": "Klingenkraft",
+    "es": "Tizona",
+    "ko": "도검"
+  },
   "varieties": [
     {
       "is_default": true,

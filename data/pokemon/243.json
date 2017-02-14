@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 243,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "quadruped"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ライコウ",
-      "language": "ja"
-    },
-    {
-      "name": "Raikou",
-      "language": "roomaji"
-    },
-    {
-      "name": "라이코",
-      "language": "ko"
-    },
-    {
-      "name": "雷公",
-      "language": "zh"
-    },
-    {
-      "name": "Raikou",
-      "language": "fr"
-    },
-    {
-      "name": "Raikou",
-      "language": "de"
-    },
-    {
-      "name": "Raikou",
-      "language": "es"
-    },
-    {
-      "name": "Raikou",
-      "language": "it"
-    },
-    {
-      "name": "Raikou",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ライコウ",
+    "en": "Raikou",
+    "fr": "Raikou",
+    "it": "Raikou",
+    "de": "Raikou",
+    "es": "Raikou",
+    "ko": "라이코"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いかずち",
-      "language": "ja"
-    },
-    {
-      "genus": "우뢰",
-      "language": "ko"
-    },
-    {
-      "genus": "Foudre",
-      "language": "fr"
-    },
-    {
-      "genus": "Donner",
-      "language": "de"
-    },
-    {
-      "genus": "Trueno",
-      "language": "es"
-    },
-    {
-      "genus": "Tuono",
-      "language": "it"
-    },
-    {
-      "genus": "Thunder",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いかずち",
+    "en": "Thunder",
+    "fr": "Foudre",
+    "it": "Tuono",
+    "de": "Donner",
+    "es": "Trueno",
+    "ko": "우뢰"
+  },
   "varieties": [
     {
       "is_default": true,

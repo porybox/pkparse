@@ -1,0 +1,39 @@
+{
+  "id": 352,
+  "name": "tm25",
+  "names": {
+    "ja": "わざマシン２５",
+    "kana": "わざマシン２５",
+    "en": "TM25",
+    "fr": "CT25",
+    "it": "MT25",
+    "de": "TM25",
+    "es": "MT25",
+    "ko": "기술머신25",
+    "zh-CN": "招式学习器２５",
+    "zh-TW": "招式學習器２５"
+  },
+  "flavor_text_entries": {
+    "ja": "激しい　雷を 相手に　落として　攻撃する。 まひ状態に　することが　ある。",
+    "kana": "はげしい　かみなりを あいてに　おとして　こうげきする。 まひ　じょうたいに　することが　ある。",
+    "en": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",
+    "fr": "La foudre tombe sur l’ennemi pour lui infliger des dégâts. Peut aussi le paralyser.",
+    "it": "Il bersaglio è colpito da un lampo molto violento che può anche paralizzarlo.",
+    "de": "Das Ziel wird von einem mächtigen Donnerschlag, der Paralyse bewirken kann, heimgesucht.",
+    "es": "Ataca con un terrible rayo que puede paralizar al objetivo.",
+    "ko": "강한 번개를 상대에게 떨어뜨려 공격한다. 마비 상태로 만들 때가 있다.",
+    "zh-CN": "向对手劈下暴雷进行攻击。 有时会让对手陷入麻痹状态。",
+    "zh-TW": "向對手劈下暴雷進行攻擊。 有時會讓對手陷入麻痺狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "はげしい　かみなりを　おとして こうげきする。　あいてを　まひの じょうたいに　することが　ある。",
+          "it": "Il nemico è colpito da un lampo molto violento che può anche paralizzarlo."
+        }
+      }
+    }
+  ]
+}

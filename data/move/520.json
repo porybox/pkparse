@@ -2,34 +2,13 @@
   "id": 520,
   "name": "grass-pledge",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If a friendly Pokémon used []{move:fire-pledge} earlier this turn, all opposing Pokémon will take 1/8 their max [HP]{mechanic:hp} in damage at the end of every turn for four turns (including this one).",
-      "short_effect": "With [Fire Pledge]{move:fire-pledge}, damages opposing Pokémon for 1/8 their max HP every turn for four turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,45 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Grass Pledge",
-      "language": "en"
-    },
-    {
-      "name": "Erbapatto",
-      "language": "it"
-    },
-    {
-      "name": "Voto Planta",
-      "language": "es"
-    },
-    {
-      "name": "Pflanzsäulen",
-      "language": "de"
-    },
-    {
-      "name": "Aire d'Herbe",
-      "language": "fr"
-    },
-    {
-      "name": "풀의맹세",
-      "language": "ko"
-    },
-    {
-      "name": "くさのちかい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "くさのちかい",
+    "kana": "くさのちかい",
+    "en": "Grass Pledge",
+    "fr": "Aire d’Herbe",
+    "it": "Erbapatto",
+    "de": "Pflanzensäulen",
+    "es": "Voto Planta",
+    "ko": "풀의맹세",
+    "zh-CN": "草之誓约",
+    "zh-TW": "草之誓約"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "草の柱で　攻撃する。 みずと　組みあわせると　威力が あがって　あたりが　湿原に　なる。",
+    "kana": "くさの　はしらで　こうげきする。 みずと　くみあわせると　いりょくが あがって　あたりが　しつげんに　なる。",
+    "en": "A column of grass hits the target. When used with its water equivalent, its power increases and a vast swamp appears.",
+    "fr": "Une masse végétale s’abat sur l’ennemi. En l’utilisant avec Aire d’Eau, l’effet augmente et un marécage apparaît.",
+    "it": "Attacca il bersaglio con una colonna d’erba. Se usata con Acquapatto, gli effetti aumentano e il campo diventa una palude.",
+    "de": "Ein Angriff mit Pflanzensäulen. Mit Wassersäulen kombiniert steigt die Wirkung und die Umgebung wird zu einem Sumpf.",
+    "es": "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia.",
+    "ko": "풀기둥으로 공격한다. 물과 조합하면 위력이 올라가고 주변이 습지초원이 된다.",
+    "zh-CN": "用草柱进行攻击。 如果和水组合，威力就会提高， 周围会变成湿地。",
+    "zh-TW": "用草柱進行攻擊。 和水之誓約同時使用時，威力會提高， 周圍會變成濕地。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A column of grass hits the target. When used with its water equivalent, its damage increases and a vast swamp appears.",
+          "de": "Ein Angriff mit Pflanzsäulen. Mit Wassersäulen kombiniert steigt die Wirkung und die Umgebung wird zu einem Sumpf."
+        },
+        "names": {
+          "de": "Pflanzsäulen"
+        }
+      }
+    }
+  ]
 }

@@ -2,34 +2,13 @@
   "id": 615,
   "name": "thousand-waves",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "This move has a unique effect, but it is unreleased, so the specific effect is unknown.",
-      "short_effect": "Unknown.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Thousand Waves",
-      "language": "en"
-    },
-    {
-      "name": "Mille Onde",
-      "language": "it"
-    },
-    {
-      "name": "Mil Temblores",
-      "language": "es"
-    },
-    {
-      "name": "Tausend Wellen",
-      "language": "de"
-    },
-    {
-      "name": "Myria-Vagues",
-      "language": "fr"
-    },
-    {
-      "name": "사우전드웨이브",
-      "language": "ko"
-    },
-    {
-      "name": "サウザンウェーブ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-opponents"
+  "names": {
+    "ja": "サウザンウェーブ",
+    "kana": "サウザンウェーブ",
+    "en": "Thousand Waves",
+    "fr": "Myria-Vagues",
+    "it": "Mille Onde",
+    "de": "Tausend Wellen",
+    "es": "Mil Temblores",
+    "ko": "사우전드웨이브",
+    "zh-CN": "千波激荡",
+    "zh-TW": "千波激盪"
   },
-  "type": {
-    "name": "ground"
-  }
+  "flavor_text_entries": {
+    "ja": "地をはう　波によって　攻撃。 波に　巻き込まれた　相手は 戦闘から　逃げられなくなる。",
+    "kana": "ちをはう　なみによって　こうげき。 なみに　まきこまれた　あいては せんとうから　にげられなくなる。",
+    "en": "The user attacks with a wave that crawls along the ground. Those hit can’t flee from battle.",
+    "fr": "Attaque avec des vagues glissant au sol. L’ennemi pris dedans ne peut pas s’échapper.",
+    "it": "Un’onda strisciante investe i nemici intorno impedendo loro di fuggire.",
+    "de": "Der Anwender greift mit einer Welle an, die dicht über dem Boden verläuft und alle Pokémon, die sie erfasst, an der Flucht hindert.",
+    "es": "El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.",
+    "ko": "땅 위를 뻗어 나가는 파도로 공격한다. 파도에 휩쓸린 상대는 전투에서 도망칠 수 없게 된다.",
+    "zh-CN": "从地面掀起波浪进行攻击。 被掀入波浪中的对手， 将无法从战斗中逃走。",
+    "zh-TW": "化成波浪從地面進行攻擊。 被捲入波浪中的對手 將無法從戰鬥中逃走。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "ground"
 }

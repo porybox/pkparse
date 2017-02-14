@@ -2,52 +2,13 @@
   "id": 329,
   "name": "sheer-cold",
   "accuracy": 30,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "mind-reader"
-        },
-        {
-          "name": "hail"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts damage equal to the target's max [HP]{mechanic:hp}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.  This move's [accuracy]{mechanic:accuracy} is 30% plus 1% for each level the user is higher than the target.  If the user is a lower level than the target, this move will [fail]{mechanic:fail}.\n\nBecause this move inflicts a specific and finite amount of damage, []{move:endure} still prevents the target from fainting.\n\nThe effects of []{move:lock-on}, []{move:mind-reader}, and []{ability:no-guard} still apply, as long as the user is equal or higher level than the target.  However, they will not give this move a chance to break through []{move:detect} or []{move:protect}.",
-      "short_effect": "Causes a one-hit KO.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "ohko"
-    },
+    "ailment": "none",
+    "category": "ohko",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sheer Cold",
-      "language": "en"
-    },
-    {
-      "name": "Purogelo",
-      "language": "it"
-    },
-    {
-      "name": "Frío Polar",
-      "language": "es"
-    },
-    {
-      "name": "Eiseskälte",
-      "language": "de"
-    },
-    {
-      "name": "Glaciation",
-      "language": "fr"
-    },
-    {
-      "name": "절대영도",
-      "language": "ko"
-    },
-    {
-      "name": "ぜったいれいど",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ぜったいれいど",
+    "kana": "ぜったいれいど",
+    "en": "Sheer Cold",
+    "fr": "Glaciation",
+    "it": "Purogelo",
+    "de": "Eiseskälte",
+    "es": "Frío Polar",
+    "ko": "절대영도",
+    "zh-CN": "绝对零度",
+    "zh-TW": "絕對零度"
   },
-  "type": {
-    "name": "ice"
-  }
+  "flavor_text_entries": {
+    "ja": "相手を　一撃で　瀕死に　する。 こおりタイプ　以外の　ポケモンが 使うと　当たりにくい。",
+    "kana": "あいてを　いちげきで　ひんしに　する。 こおりタイプ　いがいの　ポケモンが つかうと　あたりにくい。",
+    "en": "The target faints instantly. It’s less likely to hit the target if it’s used by Pokémon other than Ice types.",
+    "fr": "Une vague de froid glacial frappe l’ennemi pour le mettre K.O. en un coup. A peu de chances de réussir si le lanceur ne possède pas le type Glace.",
+    "it": "Il bersaglio esaurisce i PS in un colpo solo. Se viene usata da Pokémon che non sono di tipo Ghiaccio, difficilmente va a segno.",
+    "de": "Diese Attacke führt beim Ziel sofort zum K.O. Wird sie von einem Pokémon eingesetzt, das nicht dem Typ Eis angehört, trifft sie seltener.",
+    "es": "Debilita al objetivo de un solo golpe. Si lo usa un Pokémon que no sea de tipo Hielo, es difícil que acierte.",
+    "ko": "상대를 일격에 기절시킨다. 얼음타입 이외의 포켓몬이 사용하면 잘 맞지 않는다.",
+    "zh-CN": "给对手一击濒死。 如果是冰属性以外的宝可梦使用， 就会难以打中。",
+    "zh-TW": "一擊讓對手陷入瀕死。 冰屬性以外的寶可夢使用時， 會比較不易命中對手。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ice",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "絶対零度の　冷たさで 相手を　攻撃する。 当たれば　一撃で　ひんしに　する。",
+          "kana": "ぜったいれいどの　つめたさで あいてを　こうげきする。 あたれば　いちげきで　ひんしに　する。",
+          "en": "The target is attacked with a blast of absolute-zero cold. The target faints instantly if this attack hits.",
+          "fr": "Une vague de froid glacial frappe l’ennemi. S’il est touché, il est mis K.O. sur le coup.",
+          "it": "Ondata di freddo penetrante che, se va a segno, fa andare KO il bersaglio.",
+          "de": "Angriff mit Kälte, die das Ziel bei Erfolg besiegt.",
+          "es": "Ataque de frío polar que debilita al objetivo si le alcanza.",
+          "ko": "절대영도의 추위로 상대를 공격한다. 맞으면 일격에 기절한다."
+        }
+      }
+    }
+  ]
 }

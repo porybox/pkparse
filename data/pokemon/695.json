@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 47,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "dragon"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "upright"
   },
@@ -48,68 +40,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "エレザード",
-      "language": "ja"
-    },
-    {
-      "name": "일레도리자드",
-      "language": "ko"
-    },
-    {
-      "name": "Iguolta",
-      "language": "fr"
-    },
-    {
-      "name": "Elezard",
-      "language": "de"
-    },
-    {
-      "name": "Heliolisk",
-      "language": "es"
-    },
-    {
-      "name": "Heliolisk",
-      "language": "it"
-    },
-    {
-      "name": "Heliolisk",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エレザード",
+    "en": "Heliolisk",
+    "fr": "Iguolta",
+    "it": "Heliolisk",
+    "de": "Elezard",
+    "es": "Heliolisk",
+    "ko": "일레도리자드"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はつでん",
-      "language": "ja"
-    },
-    {
-      "genus": "발전",
-      "language": "ko"
-    },
-    {
-      "genus": "Générateur",
-      "language": "fr"
-    },
-    {
-      "genus": "Generator",
-      "language": "de"
-    },
-    {
-      "genus": "Generador",
-      "language": "es"
-    },
-    {
-      "genus": "Generatore",
-      "language": "it"
-    },
-    {
-      "genus": "Generator",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はつでん",
+    "en": "Generator",
+    "fr": "Générateur",
+    "it": "Generatore",
+    "de": "Generator",
+    "es": "Generador",
+    "ko": "발전"
+  },
   "varieties": [
     {
       "is_default": true,

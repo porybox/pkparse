@@ -2,36 +2,13 @@
   "id": 219,
   "name": "safeguard",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 25,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Protects Pokémon on the user's side of the [field]{mechanic:field} from [major status]{mechanic:major-status} effects and [confusion]{mechanic:confusion} for five turns.  Does not cancel existing ailments.  This effect remains even if the user leaves the [field]{mechanic:field}.\n\nIf []{move:yawn} is used while this move is in effect, it will immediately [fail]{mechanic:fail}.\n\n[]{move:defog} used by an opponent will end this effect.\n\nThis effect does not prevent the [confusion]{mechanic:confusion} caused by []{move:outrage}, []{move:petal-dance}, or []{move:thrash}.",
-      "short_effect": "Protects the user's field from major status ailments and confusion for five turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "field-effect"
-    },
+    "ailment": "none",
+    "category": "field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Safeguard",
-      "language": "en"
-    },
-    {
-      "name": "Salvaguardia",
-      "language": "it"
-    },
-    {
-      "name": "Velo Sagrado",
-      "language": "es"
-    },
-    {
-      "name": "Bodyguard",
-      "language": "de"
-    },
-    {
-      "name": "Rune Protect",
-      "language": "fr"
-    },
-    {
-      "name": "신비의부적",
-      "language": "ko"
-    },
-    {
-      "name": "しんぴのまもり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "users-field"
+  "names": {
+    "ja": "しんぴのまもり",
+    "kana": "しんぴのまもり",
+    "en": "Safeguard",
+    "fr": "Rune Protect",
+    "it": "Salvaguardia",
+    "de": "Bodyguard",
+    "es": "Velo Sagrado",
+    "ko": "신비의부적",
+    "zh-CN": "神秘守护",
+    "zh-TW": "神秘守護"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "５ターンの　間 不思議な　力に　守られて 状態異常に　ならなくなる。",
+    "kana": "５ターンの　あいだ ふしぎな　ちからに　まもられて じょうたい　いじょうに　ならなくなる。",
+    "en": "The user creates a protective field that prevents status conditions for five turns.",
+    "fr": "Crée un champ protecteur qui empêche tous les problèmes de statut pendant cinq tours.",
+    "it": "Chi la usa crea un campo protettivo che evita problemi di stato per sé e gli alleati per cinque turni.",
+    "de": "Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.",
+    "es": "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos.",
+    "ko": "5턴 동안 이상한 힘으로 보호받아 상태 이상이 되지 않는다.",
+    "zh-CN": "在５回合内 被神奇的力量守护， 从而不会陷入异常状态。",
+    "zh-TW": "在５回合內 被神奇的力量守護， 不會陷入異常狀態。"
+  },
+  "stat_changes": [],
+  "target": "users-field",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "５ターンの　あいだ 不思議な　力に　守られて 状態異常に　ならなくなる。"
+        }
+      }
+    }
+  ]
 }

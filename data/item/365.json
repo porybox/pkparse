@@ -1,0 +1,38 @@
+{
+  "id": 365,
+  "name": "tm38",
+  "names": {
+    "ja": "わざマシン３８",
+    "kana": "わざマシン３８",
+    "en": "TM38",
+    "fr": "CT38",
+    "it": "MT38",
+    "de": "TM38",
+    "es": "MT38",
+    "ko": "기술머신38",
+    "zh-CN": "招式学习器３８",
+    "zh-TW": "招式學習器３８"
+  },
+  "flavor_text_entries": {
+    "ja": "大の字の　炎で 相手を　焼きつくす。 やけど状態に　することが　ある。",
+    "kana": "だいのじの　ほのおで　あいてを やきつくす。　やけどの　じょうたいに することが　ある。",
+    "en": "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn.",
+    "fr": "Un déluge de flammes ardentes submerge l’ennemi. Peut aussi le brûler.",
+    "it": "Investe il bersaglio con un’intensa fiammata che fa terra bruciata. Può anche scottarlo.",
+    "de": "Dem Ziel wird ordentlich eingeheizt. Kann eventuell Verbrennungen hervorrufen.",
+    "es": "Ataca con una intensa ráfaga de fuego abrasador que puede causar quemaduras.",
+    "ko": "큰 대자의 불꽃으로 상대를 불태운다. 화상 상태로 만들 때가 있다.",
+    "zh-CN": "用大字的火焰烧尽对手。 有时会让对手陷入灼伤状态。",
+    "zh-TW": "用大字形狀的火焰燒盡對手。 有時會讓對手陷入灼傷狀態。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Investe il nemico con un’intensa fiammata che fa terra bruciata. Può anche scottarlo."
+        }
+      }
+    }
+  ]
+}

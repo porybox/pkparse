@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 41,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "legs"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ルリリ",
-      "language": "ja"
-    },
-    {
-      "name": "Ruriri",
-      "language": "roomaji"
-    },
-    {
-      "name": "루리리",
-      "language": "ko"
-    },
-    {
-      "name": "露力麗",
-      "language": "zh"
-    },
-    {
-      "name": "Azurill",
-      "language": "fr"
-    },
-    {
-      "name": "Azurill",
-      "language": "de"
-    },
-    {
-      "name": "Azurill",
-      "language": "es"
-    },
-    {
-      "name": "Azurill",
-      "language": "it"
-    },
-    {
-      "name": "Azurill",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ルリリ",
+    "en": "Azurill",
+    "fr": "Azurill",
+    "it": "Azurill",
+    "de": "Azurill",
+    "es": "Azurill",
+    "ko": "루리리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "みずたま",
-      "language": "ja"
-    },
-    {
-      "genus": "물방울",
-      "language": "ko"
-    },
-    {
-      "genus": "Point Polka",
-      "language": "fr"
-    },
-    {
-      "genus": "Gepunktet",
-      "language": "de"
-    },
-    {
-      "genus": "A Topos",
-      "language": "es"
-    },
-    {
-      "genus": "Pois",
-      "language": "it"
-    },
-    {
-      "genus": "Polka Dot",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みずたま",
+    "en": "Polka Dot",
+    "fr": "Point Polka",
+    "it": "Pois",
+    "de": "Gepunktet",
+    "es": "A Topos",
+    "ko": "물방울"
+  },
   "varieties": [
     {
       "is_default": true,

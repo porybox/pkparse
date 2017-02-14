@@ -1,0 +1,40 @@
+{
+  "id": 589,
+  "name": "relic-statue",
+  "names": {
+    "ja": "こだいのせきぞう",
+    "kana": "こだいのせきぞう",
+    "en": "Relic Statue",
+    "fr": "Vieux Santon",
+    "it": "Statuantica",
+    "de": "Alte Statue",
+    "es": "Efigie Antigua",
+    "ko": "고대의석상",
+    "zh-CN": "古代石像",
+    "zh-TW": "古代石像"
+  },
+  "flavor_text_entries": {
+    "ja": "３０００年ほど　昔の 文明で　つくられた　石像。",
+    "kana": "３０００ねんほど　むかしの ぶんめいで　つくられた　せきぞう。",
+    "en": "A stone figurine made by an ancient civilization about 3,000 years ago.",
+    "fr": "Une statuette d’une civilisation vieille de plus de 3 000 ans.",
+    "it": "Statua scolpita circa 3.000 anni fa da un’antica civiltà.",
+    "de": "Eine Statue, angefertigt von einer gut 3 000 Jahre alten Kultur.",
+    "es": "Efigie de piedra de más de 3000 años de antigüedad.",
+    "ko": "3000년 정도 된 오랜 문명에서 만들어진 석상.",
+    "zh-CN": "约３０００年前的 文明制造的石像。",
+    "zh-TW": "距今約３０００年前的 文明裡製造的石像。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Statua scolpita circa 3000 anni fa da un’antica civiltà.",
+          "de": "Eine Statue, angefertigt von einer gut 3 000 Jahre alten Kultur.",
+          "es": "Efigie de piedra de más de 3000 años de antigüedad. Muy valorada por los coleccionistas."
+        }
+      }
+    }
+  ]
+}

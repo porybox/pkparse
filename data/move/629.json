@@ -1,0 +1,50 @@
+{
+  "id": 629,
+  "name": "acid-downpour",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "アシッドポイズンデリート",
+    "kana": "アシッドポイズンデリート",
+    "en": "Acid Downpour",
+    "fr": "Déluge Causti-Toxique",
+    "it": "Acidiluvio Corrosivo",
+    "de": "Vernichtender Säureregen",
+    "es": "Diluvio Corrosivo",
+    "ko": "애시드포이즌딜리트",
+    "zh-CN": "强酸剧毒灭绝雨",
+    "zh-TW": "強酸劇毒滅絕雨"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "poison"
+}

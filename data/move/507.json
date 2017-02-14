@@ -2,34 +2,13 @@
   "id": 507,
   "name": "sky-drop",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User carries the target high into the air for one turn, during which no moves will hit either Pokémon and neither can act.  On the following turn, the user drops the target, inflicting damage and ending the effect.\n\nIf the target is []{type:flying}-type, this move will function as normal but inflict no damage.\n\n[]{move:gust}, []{move:hurricane}, []{move:sky-uppercut}, []{move:smack-down}, []{move:thunder}, []{move:twister}, and []{move:whirlwind} can hit both the user and the target during this effect.  []{move:gust} and []{move:twister} will additionally have double power.\n\nThe damage from []{move:hail} and []{move:sandstorm} still applies during this effect.\n\nEither Pokémon may be hit during this effect if also under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.\n\nThis move cannot be used while []{move:gravity} is in effect.\n\nThis move cannot be selected by []{move:sleep-talk}.\n\n*Bug*: If []{move:gravity} is used during a double or triple battle while this move is in effect, this move is not correctly canceled on the target, and it remains high in the air indefinitely.  As this move prevents the target from acting, the only way to subsequently remove it from the field is to faint it.",
-      "short_effect": "Carries the target high into the air, dodging all attacks against either, and drops it next turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sky Drop",
-      "language": "en"
-    },
-    {
-      "name": "Cadutalibera",
-      "language": "it"
-    },
-    {
-      "name": "Caída Libre",
-      "language": "es"
-    },
-    {
-      "name": "Freier Fall",
-      "language": "de"
-    },
-    {
-      "name": "Chute Libre",
-      "language": "fr"
-    },
-    {
-      "name": "프리폴",
-      "language": "ko"
-    },
-    {
-      "name": "フリーフォール",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "フリーフォール",
+    "kana": "フリーフォール",
+    "en": "Sky Drop",
+    "fr": "Chute Libre",
+    "it": "Cadutalibera",
+    "de": "Freier Fall",
+    "es": "Caída Libre",
+    "ko": "프리폴",
+    "zh-CN": "自由落体",
+    "zh-TW": "自由落體"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "１ターン目で　相手を　空へ　連れさり ２ターン目に　落として　攻撃する。 連れさられた　相手は　動けない。",
+    "kana": "１ターンめで　あいてを　そらへ　つれさり ２ターンめに　おとして　こうげきする。 つれさられた　あいては　うごけない。",
+    "en": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.",
+    "fr": "Le lanceur emmène l’ennemi dans les airs au premier tour et le lâche dans le vide au second. L’ennemi saisi ne peut pas attaquer.",
+    "it": "Porta il bersaglio in cielo e lo scaglia a terra al turno successivo. Il bersaglio catturato non può muoversi.",
+    "de": "Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.",
+    "es": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse.",
+    "ko": "1턴째에 상대를 하늘로 끌고 가서 2턴째에 떨어뜨려 공격한다. 끌려간 상대는 움직일 수 없다.",
+    "zh-CN": "第１回合将对手带到空中， 第２回合将其摔下进行攻击。 被带到空中的对手不能动弹。",
+    "zh-TW": "使用後的第１回合將對手帶到空中， 並於第２回合摔下對手進行攻擊。 被帶到空中的對手將無法行動。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying"
 }

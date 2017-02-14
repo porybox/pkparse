@@ -9,9 +9,7 @@
   "hatch_counter": 35,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 99,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "quadruped"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ココドラ",
-      "language": "ja"
-    },
-    {
-      "name": "Cokodora",
-      "language": "roomaji"
-    },
-    {
-      "name": "가보리",
-      "language": "ko"
-    },
-    {
-      "name": "可可多拉",
-      "language": "zh"
-    },
-    {
-      "name": "Galekid",
-      "language": "fr"
-    },
-    {
-      "name": "Stollunior",
-      "language": "de"
-    },
-    {
-      "name": "Aron",
-      "language": "es"
-    },
-    {
-      "name": "Aron",
-      "language": "it"
-    },
-    {
-      "name": "Aron",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ココドラ",
+    "en": "Aron",
+    "fr": "Galekid",
+    "it": "Aron",
+    "de": "Stollunior",
+    "es": "Aron",
+    "ko": "가보리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "てつヨロイ",
-      "language": "ja"
-    },
-    {
-      "genus": "철갑옷",
-      "language": "ko"
-    },
-    {
-      "genus": "Armurfer",
-      "language": "fr"
-    },
-    {
-      "genus": "Eisenpanzer",
-      "language": "de"
-    },
-    {
-      "genus": "Cor. Férrea",
-      "language": "es"
-    },
-    {
-      "genus": "Corazza",
-      "language": "it"
-    },
-    {
-      "genus": "Iron Armor",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "てつヨロイ",
+    "en": "Iron Armor",
+    "fr": "Armurfer",
+    "it": "Corazza",
+    "de": "Eisenpanzer",
+    "es": "Cor. Férrea",
+    "ko": "철갑옷"
+  },
   "varieties": [
     {
       "is_default": true,

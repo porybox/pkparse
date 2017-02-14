@@ -1,217 +1,44 @@
 {
   "id": 19,
   "name": "shield-dust",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "りんぷん",
+    "kana": "りんぷん",
+    "en": "Shield Dust",
+    "fr": "Écran Poudre",
+    "it": "Polvoscudo",
+    "de": "Puderabwehr",
+    "es": "Polvo Escudo",
+    "ko": "인분",
+    "zh-CN": "鳞粉",
+    "zh-TW": "鱗粉"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "りんぷんに　守られて 技の　追加効果を　受けなくなる。",
+    "kana": "りんぷんに　まもられて わざの　ついかこうかを　うけなくなる。",
+    "en": "This Pokémon’s dust blocks the additional effects of attacks taken.",
+    "fr": "Le Pokémon dispose d’un écran naturel qui le protège des effets additionnels des attaques ennemies.",
+    "it": "Il Pokémon è protetto da uno strato di scaglie che annulla gli effetti secondari delle mosse subite.",
+    "de": "Blockiert durch Puder die Zusatzeffekte gegnerischer Angriffe.",
+    "es": "El polvo de escamas que lo envuelve lo protege de los efectos secundarios de los ataques recibidos.",
+    "ko": "인분에 보호받아 기술의 추가 효과를 받지 않게 된다.",
+    "zh-CN": "被鳞粉守护着， 不会受到招式的追加效果影响。",
+    "zh-TW": "被鱗粉守護著， 不會受到招式的追加效果影響。"
+  },
+  "past_values": [
     {
-      "name": "Shield Dust",
-      "language": "en"
-    },
-    {
-      "name": "Polvoscudo",
-      "language": "it"
-    },
-    {
-      "name": "Polvo Escudo",
-      "language": "es"
-    },
-    {
-      "name": "Puderabwehr",
-      "language": "de"
-    },
-    {
-      "name": "Écran Poudre",
-      "language": "fr"
-    },
-    {
-      "name": "인분",
-      "language": "ko"
-    },
-    {
-      "name": "りんぷん",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon is immune to the extra effects of moves used against it.\n\nAn extra effect is a move's chance, listed as an \"effect chance\", to inflict a [status ailment]{mechanic:status-ailment}, cause a [stat change]{mechanic:stat-modifier}, or make the target [flinch]{mechanic:flinching} in addition to the move's main effect.  For example, []{move:thunder-shock}'s [paralysis]{mechanic:paralysis} is an extra effect, but []{move:thunder-wave}'s is not, nor are []{move:knock-off}'s item removal and []{move:air-cutter}'s increased [critical hit]{mechanic:critial-hit} rate.",
-      "short_effect": "Protects against incoming moves' extra effects.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "技の　追加効果を\n受けない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Blocks the additional effects\nof attacks taken.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Annulla gli effetti secondari\ndelle mosse subite.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Anula el efecto secundario del\nataque sufrido.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Blockiert Zusatz-Effekte\ngegnerischer Angriffe.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Annule les effets cumulés d’une\nattaque ennemie.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "기술의 추가 효과를\n받지 않는다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "わざの　ついかこうかを\nうけない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Blocks the added effects\nof attacks taken.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Blocks the added effects\nof attacks taken.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Annule les effets cumulés\nd’une attaque ennemie.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Blocks the added effects\nof attacks taken.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Blocks the added effects\nof attacks taken.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Blocks the added effects\nof attacks taken.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents added effects.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents added effects.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents added effects.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "caterpie"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "weedle"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "venomoth"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "wurmple"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "dustox"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "scatterbug"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "vivillon"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "技の　追加効果を 受けない。",
+          "kana": "わざの　ついかこうかを うけない。",
+          "en": "Blocks the additional effects of attacks taken.",
+          "fr": "Annule les effets cumulés d’une attaque ennemie.",
+          "it": "Annulla gli effetti secondari delle mosse subite.",
+          "de": "Blockiert Zusatz-Effekte gegnerischer Angriffe.",
+          "es": "Anula el efecto secundario del ataque sufrido.",
+          "ko": "기술의 추가 효과를 받지 않는다."
+        }
       }
     }
   ]

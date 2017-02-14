@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 126,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "humanoid"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ゴチム",
-      "language": "ja"
-    },
-    {
-      "name": "고디탱",
-      "language": "ko"
-    },
-    {
-      "name": "Scrutella",
-      "language": "fr"
-    },
-    {
-      "name": "Mollimorba",
-      "language": "de"
-    },
-    {
-      "name": "Gothita",
-      "language": "es"
-    },
-    {
-      "name": "Gothita",
-      "language": "it"
-    },
-    {
-      "name": "Gothita",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴチム",
+    "en": "Gothita",
+    "fr": "Scrutella",
+    "it": "Gothita",
+    "de": "Mollimorba",
+    "es": "Gothita",
+    "ko": "고디탱"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ぎょうし",
-      "language": "ja"
-    },
-    {
-      "genus": "응시",
-      "language": "ko"
-    },
-    {
-      "genus": "Dévisageur",
-      "language": "fr"
-    },
-    {
-      "genus": "Glotz",
-      "language": "de"
-    },
-    {
-      "genus": "Inquisitivo",
-      "language": "es"
-    },
-    {
-      "genus": "Fissosguardo",
-      "language": "it"
-    },
-    {
-      "genus": "Fixation",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ぎょうし",
+    "en": "Fixation",
+    "fr": "Dévisageur",
+    "it": "Fissosguardo",
+    "de": "Glotz",
+    "es": "Inquisitivo",
+    "ko": "응시"
+  },
   "varieties": [
     {
       "is_default": true,

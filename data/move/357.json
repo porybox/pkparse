@@ -2,36 +2,13 @@
   "id": 357,
   "name": "miracle-eye",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Resets the target's [evasion]{mechanic:evasion} to normal and prevents any further boosting until the target leaves the [field]{mechanic:field}.  A []{type:dark} Pokémon under this effect takes normal damage from []{type:psychic} moves.  This move itself ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.",
-      "short_effect": "Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it's Dark.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "no-type-immunity"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "no-type-immunity",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,50 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Miracle Eye",
-      "language": "en"
-    },
-    {
-      "name": "Miracolvista",
-      "language": "it"
-    },
-    {
-      "name": "Gran Ojo",
-      "language": "es"
-    },
-    {
-      "name": "Wunderauge",
-      "language": "de"
-    },
-    {
-      "name": "Œil Miracle",
-      "language": "fr"
-    },
-    {
-      "name": "미라클아이",
-      "language": "ko"
-    },
-    {
-      "name": "ミラクルアイ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ミラクルアイ",
+    "kana": "ミラクルアイ",
+    "en": "Miracle Eye",
+    "fr": "Œil Miracle",
+    "it": "Miracolvista",
+    "de": "Wunderauge",
+    "es": "Gran Ojo",
+    "ko": "미라클아이",
+    "zh-CN": "奇迹之眼",
+    "zh-TW": "奇跡之眼"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "あくタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+    "kana": "あくタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+    "en": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit.",
+    "fr": "Permet de toucher un Pokémon Ténèbres avec les capacités de type Psy ou de toucher un ennemi ayant beaucoup d’esquive.",
+    "it": "Rende i Pokémon di tipo Buio vulnerabili a qualsiasi tipo di mossa e, inoltre, permette di colpire i nemici indipendentemente dall’elusione.",
+    "de": "Ermöglicht es, Unlicht-Pokémon mit Psycho-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+    "es": "Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.",
+    "ko": "악타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+    "zh-CN": "对恶属性宝可梦没有效果的招式 以及闪避率高的对手， 使用后变得能够打中。",
+    "zh-TW": "讓對惡屬性寶可夢無效的招式 能夠發揮效果，也可不顧對手 提高後的閃避率進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Erlaubt es, Unlicht-Pokémon mit Psycho-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Permet de toucher un Pokémon Ténèbres avec les capacités de type Psy ou de toucher un ennemi insaisissable.",
+          "it": "Chi la usa rende i Pokémon di tipo Buio vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti."
+        }
+      }
+    }
+  ]
 }

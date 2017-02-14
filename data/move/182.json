@@ -2,49 +2,13 @@
   "id": 182,
   "name": "protect",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 4,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "harden"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "No moves will hit the user for the remainder of this turn.  If the user is last to act this turn, this move will [fail]{mechanic:fail}.\n\nIf the user successfully used []{move:detect}, []{move:endure}, []{move:protect}, []{move:quick-guard}, or []{move:wide-guard} on the last turn, this move has a 50% chance to [fail]{mechanic:fail}.\n\n[]{move:lock-on}, []{move:mind-reader}, and []{ability:no-guard} provide a (100 – accuracy)% chance for moves to break through this move.  This does not apply to one-hit KO moves ([]{move:fissure}, []{move:guillotine}, []{move:horn-drill}, and []{move:sheer-cold}); those are always blocked by this move.\n\n[]{move:thunder} during []{move:rain-dance} and []{move:blizzard} during []{move:hail} have a 30% chance to break through this move.\n\nThe following effects are not prevented by this move:\n\n* []{move:acupressure} from an ally\n* []{move:curse}'s curse effect\n* Delayed damage from []{move:doom-desire} and []{move:future-sight}; however, these moves will be prevented if they are used this turn\n* []{move:feint}, which will also end this move's protection after it hits\n* []{move:imprison}\n* []{move:perish-song}\n* []{move:shadow-force}\n* Moves that merely copy the user, such as []{move:transform} or []{move:psych-up}\n\nThis move cannot be selected by []{move:assist} or []{move:metronome}.",
-      "short_effect": "Prevents any moves from hitting the user this turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Protect",
-      "language": "en"
-    },
-    {
-      "name": "Protezione",
-      "language": "it"
-    },
-    {
-      "name": "Protección",
-      "language": "es"
-    },
-    {
-      "name": "Schutzschild",
-      "language": "de"
-    },
-    {
-      "name": "Abri",
-      "language": "fr"
-    },
-    {
-      "name": "방어",
-      "language": "ko"
-    },
-    {
-      "name": "まもる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "まもる",
+    "kana": "まもる",
+    "en": "Protect",
+    "fr": "Abri",
+    "it": "Protezione",
+    "de": "Schutzschild",
+    "es": "Protección",
+    "ko": "방어",
+    "zh-CN": "守住",
+    "zh-TW": "守住"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "相手の　攻撃を まったく　受けない。 連続で　だすと　失敗しやすい。",
+    "kana": "あいての　こうげきを まったく　うけない。 れんぞくで　だすと　しっぱい　しやすい。",
+    "en": "Enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",
+    "fr": "Le lanceur esquive toutes les attaques. Le risque d’échec augmente lorsque la capacité est utilisée plusieurs fois de suite.",
+    "it": "Permette di eludere tutti gli attacchi. Se usata in successione può fallire.",
+    "de": "Anwender weicht jeder Attacke aus. Scheitert eventuell bei Wiederholung.",
+    "es": "Frena todos los ataques, pero puede fallar si se usa repetidamente.",
+    "ko": "상대의 공격을 전혀 받지 않는다. 연속으로 쓰면 실패하기 쉽다.",
+    "zh-CN": "完全抵挡 对手的攻击。 连续使出则容易失败。",
+    "zh-TW": "完全防住對手的所有攻擊。 連續使用時容易失敗。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal"
 }

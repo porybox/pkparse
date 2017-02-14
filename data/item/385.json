@@ -1,0 +1,38 @@
+{
+  "id": 385,
+  "name": "tm58",
+  "names": {
+    "ja": "わざマシン５８",
+    "kana": "わざマシン５８",
+    "en": "TM58",
+    "fr": "CT58",
+    "it": "MT58",
+    "de": "TM58",
+    "es": "MT58",
+    "ko": "기술머신58",
+    "zh-CN": "招式学习器５８",
+    "zh-TW": "招式學習器５８"
+  },
+  "flavor_text_entries": {
+    "ja": "連れさった　相手を　２ターン目に 空から　落として　攻撃する。 連れさられた　相手は　動けない。",
+    "kana": "つれさった　あいてを　２ターンめに そらから　おとして　こうげきする。 つれさられた　あいては　うごけない。",
+    "en": "The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.",
+    "fr": "Le lanceur emmène l’ennemi dans les airs au premier tour et le lâche dans le vide au second. L’ennemi saisi ne peut pas attaquer.",
+    "it": "Porta il bersaglio in cielo e lo scaglia a terra al turno successivo. Il bersaglio catturato non può muoversi.",
+    "de": "Der Anwender entführt das Ziel in Runde 1 in Richtung Himmel und lässt es in Runde 2 fallen. In der Luft kann das Ziel nicht attackieren.",
+    "es": "Arroja al objetivo por los aires y lo estrella contra el suelo en el siguiente turno, impidiéndole moverse en el aire.",
+    "ko": "끌려온 상대를 2턴째에 하늘에서 떨어뜨려 공격한다. 끌려간 상대는 움직일 수 없다.",
+    "zh-CN": "将带走的对手在第２回合 从空中摔下进行攻击。 被带到空中的对手不能动弹。",
+    "zh-TW": "把帶到空中的對手於第２回合摔下 進行攻擊。 被帶到空中的對手將無法行動。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Das entführte Ziel wird in Runde 2 vom Himmel fallen gelassen. In der Luft kann das Ziel nicht attackieren."
+        }
+      }
+    }
+  ]
+}

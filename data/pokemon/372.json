@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 15,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    }
+    "dragon"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "quadruped"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "コモルー",
-      "language": "ja"
-    },
-    {
-      "name": "Komoruu",
-      "language": "roomaji"
-    },
-    {
-      "name": "쉘곤",
-      "language": "ko"
-    },
-    {
-      "name": "甲殼龍",
-      "language": "zh"
-    },
-    {
-      "name": "Drackhaus",
-      "language": "fr"
-    },
-    {
-      "name": "Draschel",
-      "language": "de"
-    },
-    {
-      "name": "Shelgon",
-      "language": "es"
-    },
-    {
-      "name": "Shelgon",
-      "language": "it"
-    },
-    {
-      "name": "Shelgon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コモルー",
+    "en": "Shelgon",
+    "fr": "Drackhaus",
+    "it": "Shelgon",
+    "de": "Draschel",
+    "es": "Shelgon",
+    "ko": "쉘곤"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "にんたい",
-      "language": "ja"
-    },
-    {
-      "genus": "인내",
-      "language": "ko"
-    },
-    {
-      "genus": "Endurant",
-      "language": "fr"
-    },
-    {
-      "genus": "Durchsteher",
-      "language": "de"
-    },
-    {
-      "genus": "Resistencia",
-      "language": "es"
-    },
-    {
-      "genus": "Resistenza",
-      "language": "it"
-    },
-    {
-      "genus": "Endurance",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "にんたい",
+    "en": "Endurance",
+    "fr": "Endurant",
+    "it": "Resistenza",
+    "de": "Durchsteher",
+    "es": "Resistencia",
+    "ko": "인내"
+  },
   "varieties": [
     {
       "is_default": true,

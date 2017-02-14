@@ -2,34 +2,13 @@
   "id": 577,
   "name": "draining-kiss",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 50,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Deals regular damage.  Drains 75% of the damage inflicted to heal the user.",
-      "short_effect": "Drains 75% of the damage inflicted to heal the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+heal"
-    },
+    "ailment": "none",
+    "category": "damage+heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,43 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Draining Kiss",
-      "language": "en"
-    },
-    {
-      "name": "Assorbibacio",
-      "language": "it"
-    },
-    {
-      "name": "Beso Drenaje",
-      "language": "es"
-    },
-    {
-      "name": "Diebeskuss",
-      "language": "de"
-    },
-    {
-      "name": "Vampibaiser",
-      "language": "fr"
-    },
-    {
-      "name": "드레인키스",
-      "language": "ko"
-    },
-    {
-      "name": "ドレインキッス",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ドレインキッス",
+    "kana": "ドレインキッス",
+    "en": "Draining Kiss",
+    "fr": "Vampibaiser",
+    "it": "Assorbibacio",
+    "de": "Diebeskuss",
+    "es": "Beso Drenaje",
+    "ko": "드레인키스",
+    "zh-CN": "吸取之吻",
+    "zh-TW": "吸取之吻"
   },
-  "type": {
-    "name": "fairy"
-  }
+  "flavor_text_entries": {
+    "ja": "キッスによって　相手から　ＨＰを 吸い取る。　与えた　ダメージの 半分以上　ＨＰを　回復する。",
+    "kana": "キッスによって　あいてから　ＨＰを すいとる。　あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+    "en": "The user steals the target’s HP with a kiss. The user’s HP is restored by over half of the damage taken by the target.",
+    "fr": "Aspire la force vitale de l’ennemi par un baiser. Rend au lanceur un nombre de PV supérieur ou égal à la moitié des dégâts infligés.",
+    "it": "Chi la usa assorbe energia dal bersaglio con un bacio, recuperando così PS in quantità pari a più della metà del danno inferto.",
+    "de": "Der Anwender stiehlt dem Ziel mit einem Kuss KP. Die Höhe der Heilung beträgt mehr als die Hälfte des beim Ziel angerichteten Schadens.",
+    "es": "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.",
+    "ko": "키스로 상대로부터 HP를 흡수한다. 준 데미지의 반 이상 HP를 회복한다.",
+    "zh-CN": "用一个吻吸取对手的ＨＰ。 回复给予对手 伤害的一半以上的ＨＰ。",
+    "zh-TW": "親吻對手來吸取對手的ＨＰ。 可以回復給予對手 傷害的一半以上的ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fairy",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "キッスによって　相手から　ＨＰを 吸い取る。与えた　ダメージの 半分以上　ＨＰを　回復する。",
+          "kana": "キッスによって　あいてから　ＨＰを すいとる。あたえた　ダメージの はんぶんいじょう　ＨＰを　かいふくする。",
+          "en": "The user steals the target’s energy with a kiss. The user’s HP is restored by over half of the damage taken by the target."
+        }
+      }
+    }
+  ]
 }

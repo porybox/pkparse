@@ -2,58 +2,13 @@
   "id": 174,
   "name": "curse",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "spite"
-        },
-        {
-          "name": "destiny-bond"
-        },
-        {
-          "name": "mean-look"
-        },
-        {
-          "name": "grudge"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "If the user is a []{type:ghost}: user pays half its max [HP]{mechanic:hp} to place a curse on the target, damaging it for 1/4 its max [HP]{mechanic:hp} every turn.\nOtherwise: Lowers the user's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}, and raises its [Attack]{mechanic:attack} and [Defense]{mechanic:defense} by one [stage]{mechanic:stage} each.\n\nThe curse effect is passed on by []{move:baton-pass}.\n\nThis move cannot be copied by []{move:mirror-move}.",
-      "short_effect": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -65,57 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Curse",
-      "language": "en"
-    },
-    {
-      "name": "Maledizione",
-      "language": "it"
-    },
-    {
-      "name": "Maldición",
-      "language": "es"
-    },
-    {
-      "name": "Fluch",
-      "language": "de"
-    },
-    {
-      "name": "Malédiction",
-      "language": "fr"
-    },
-    {
-      "name": "저주",
-      "language": "ko"
-    },
-    {
-      "name": "のろい",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "のろい",
+    "kana": "のろい",
+    "en": "Curse",
+    "fr": "Malédiction",
+    "it": "Maledizione",
+    "de": "Fluch",
+    "es": "Maldición",
+    "ko": "저주",
+    "zh-CN": "诅咒",
+    "zh-TW": "詛咒"
+  },
+  "flavor_text_entries": {
+    "ja": "使う　ポケモンが ゴーストタイプと　それ以外　とでは 効果が　変わる。",
+    "kana": "つかう　ポケモンが ゴーストタイプと　それいがい　とでは こうかが　かわる。",
+    "en": "A move that works differently for the Ghost type than for all other types.",
+    "fr": "Une capacité à l’effet différent selon que le lanceur est un Pokémon Spectre ou non.",
+    "it": "Una mossa che agisce in modo diverso se chi la usa è di tipo Spettro.",
+    "de": "Attacke, deren Wirkung davon abhängt, ob der Anwender ein Geister-Pokémon ist.",
+    "es": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.",
+    "ko": "기술을 쓰는 포켓몬이 고스트타입일 때와 그 이외의 타입일 때는 효과가 다르다.",
+    "zh-CN": "使用该招式的宝可梦， 其属性是幽灵属性或其他属性时， 效果会不一样。",
+    "zh-TW": "使用詛咒時， 幽靈屬性的寶可夢和其他屬性的寶可夢， 會獲得不同的招式效果。"
+  },
+  "stat_changes": [],
+  "target": "specific-move",
+  "type": "ghost",
   "past_values": [
     {
-      "accuracy": null,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": {
-        "name": "unknown"
-      },
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Attacke, deren Wirkung davon abhängt, ob der Anwender ein Geist-Pokémon ist."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "specific-move"
-  },
-  "type": {
-    "name": "ghost"
-  }
+  ]
 }

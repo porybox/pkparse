@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 122,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "tentacles"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ギガイアス",
-      "language": "ja"
-    },
-    {
-      "name": "기가이어스",
-      "language": "ko"
-    },
-    {
-      "name": "Gigalithe",
-      "language": "fr"
-    },
-    {
-      "name": "Brockoloss",
-      "language": "de"
-    },
-    {
-      "name": "Gigalith",
-      "language": "es"
-    },
-    {
-      "name": "Gigalith",
-      "language": "it"
-    },
-    {
-      "name": "Gigalith",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ギガイアス",
+    "en": "Gigalith",
+    "fr": "Gigalithe",
+    "it": "Gigalith",
+    "de": "Brockoloss",
+    "es": "Gigalith",
+    "ko": "기가이어스"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こうあつ",
-      "language": "ja"
-    },
-    {
-      "genus": "고압",
-      "language": "ko"
-    },
-    {
-      "genus": "Surpression",
-      "language": "fr"
-    },
-    {
-      "genus": "Kompression",
-      "language": "de"
-    },
-    {
-      "genus": "Presurizado",
-      "language": "es"
-    },
-    {
-      "genus": "Pressionalta",
-      "language": "it"
-    },
-    {
-      "genus": "Compressed",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こうあつ",
+    "en": "Compressed",
+    "fr": "Surpression",
+    "it": "Pressionalta",
+    "de": "Kompression",
+    "es": "Presurizado",
+    "ko": "고압"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,36 +2,13 @@
   "id": 164,
   "name": "substitute",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Transfers 1/4 the user's max [HP]{mechanic:hp} into a doll that absorbs damage and causes most negative move effects to [fail]{mechanic:fail}.  If the user leaves the [field]{mechanic:field}, the doll will vanish.  If the user cannot pay the [HP]{mechanic:hp} cost, this move will fail.\n\nThe doll takes damage as normal, using the user's stats and types, and will break when its [HP]{mechanic:hp} reaches zero.  Self-inflicted damage from [confusion]{mechanic:confusion} or recoil is not absorbed.  Healing effects from opponents ignore the doll and heal the user as normal.  Moves that work based on the user's [HP]{mechanic:hp} still do so; the doll's [HP]{mechanic:hp} does not influence any move.\n\nThe doll will block [major status effect]{mechanic:major-status-effect}s, [confusion]{mechanic:confusion}, and [flinch]{mechanic:flinch}ing.  The effects of []{move:smelling-salts} and []{move:wake-up-slap} do not trigger against a doll, even if the Pokémon behind the doll has the appropriate [major status effect]{mechanic:major-status-effect}.  Multi-turn trapping moves like []{move:wrap} will hit the doll for their [regular damage]{mechanic:regular-damage}, but the multi-turn trapping and damage effects will not activate.\n\nMoves blocked or damage absorbed by the doll do not count as hitting the user or inflicting damage for any effects that respond to such, e.g., []{move:avalanche}, []{move:counter}, or a []{item:rowap-berry}.  []{move:magic-coat} still works as normal, even against moves the doll would block.  Opposing Pokémon that damage the doll with a leech move like []{move:absorb} are healed as normal.\n\nIt will also block []{move:acupressure}, []{move:block}, the curse effect of []{move:curse}, []{move:dream-eater}, []{move:embargo}, []{move:flatter}, []{move:gastro-acid}, []{move:grudge}, []{move:heal-block}, []{move:leech-seed}, []{move:lock-on}, []{move:mean-look}, []{move:mimic}, []{move:mind-reader}, []{move:nightmare}, []{move:pain-split}, []{move:psycho-shift}, []{move:spider-web}, []{move:sketch}, []{move:swagger}, []{move:switcheroo}, []{move:trick}, []{move:worry-seed}, and []{move:yawn}.  A Pokémon affected by []{move:yawn} before summoning the doll will still fall to [sleep]{mechanic:sleep}.\n\nThe doll blocks []{ability:intimidate}, but all other abilities act as though the doll did not exist.  If the user has an ability that absorbs moves of a certain type for [HP]{mechanic:hp} (such as []{ability:volt-absorb} absorbing []{move:thunder-wave}), such moves will not be blocked.\n\n[]{item:life-orb} and berries that cause [confusion]{mechanic:confusion} still work as normal, but their respective [HP]{mechanic:hp} loss and [confusion]{mechanic:confusion} are absorbed/blocked by the doll.\n\nThe user is still vulnerable to damage inflicted when entering or leaving the [field]{mechanic:field}, such as by []{move:pursuit} or []{move:spikes}; however, the doll will block the [poison]{mechanic:poison} effect of []{move:toxic-spikes}.\n\nThe doll is passed on by []{move:baton-pass}.  It keeps its existing [HP]{mechanic:hp}, but uses the replacement Pokémon's stats and types for damage calculation.\n\nAll other effects work as normal.",
-      "short_effect": "Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Substitute",
-      "language": "en"
-    },
-    {
-      "name": "Sostituto",
-      "language": "it"
-    },
-    {
-      "name": "Sustituto",
-      "language": "es"
-    },
-    {
-      "name": "Delegator",
-      "language": "de"
-    },
-    {
-      "name": "Clonage",
-      "language": "fr"
-    },
-    {
-      "name": "대타출동",
-      "language": "ko"
-    },
-    {
-      "name": "みがわり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "みがわり",
+    "kana": "みがわり",
+    "en": "Substitute",
+    "fr": "Clonage",
+    "it": "Sostituto",
+    "de": "Delegator",
+    "es": "Sustituto",
+    "ko": "대타출동",
+    "zh-CN": "替身",
+    "zh-TW": "替身"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "自分の　ＨＰを　少し　削って 分身を　だす。 分身は　自分の　身代わりに　なる。",
+    "kana": "じぶんの　ＨＰを　すこし　けずって ぶんしんを　だす。 ぶんしんは　じぶんの　みがわりに　なる。",
+    "en": "The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",
+    "fr": "Le lanceur fait une copie de lui-même en sacrifiant quelques PV. La copie sert de leurre.",
+    "it": "Chi la usa crea una copia di se stesso usando alcuni PS. La copia serve come esca per il nemico.",
+    "de": "Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.",
+    "es": "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.",
+    "ko": "자신의 HP를 조금 깎아서 분신을 만든다. 분신은 자신의 대타가 된다.",
+    "zh-CN": "削减少许自己的ＨＰ， 制造分身。 分身将成为自己的替身。",
+    "zh-TW": "消耗一些自己的ＨＰ， 製造分身。 分身將成為自己的替身。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal"
 }

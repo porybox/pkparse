@@ -1,0 +1,40 @@
+{
+  "id": 379,
+  "name": "tm52",
+  "names": {
+    "ja": "わざマシン５２",
+    "kana": "わざマシン５２",
+    "en": "TM52",
+    "fr": "CT52",
+    "it": "MT52",
+    "de": "TM52",
+    "es": "MT52",
+    "ko": "기술머신52",
+    "zh-CN": "招式学习器５２",
+    "zh-TW": "招式學習器５２"
+  },
+  "flavor_text_entries": {
+    "ja": "気合を　高めて ありったけの　力を　放出する。 相手の　特防を　さげることが　ある。",
+    "kana": "きあいを　たかめて　ありったけの ちからを　ほうしゅつする。　あいての とくぼうを　さげることが　ある。",
+    "en": "The user heightens its mental focus and unleashes its power. This may also lower the target’s Sp. Def.",
+    "fr": "Le lanceur rassemble ses forces et déchaîne son pouvoir. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+    "it": "Chi la usa si concentra e rilascia la sua forza. Può ridurre la Difesa Speciale del Pokémon colpito.",
+    "de": "Ein Angriff mit aller Macht. Die Spezial-Verteidigung des Zieles sinkt eventuell.",
+    "es": "Quien lo usa ataca con toda su energía. También puede bajar la Defensa Especial del objetivo si lo alcanza.",
+    "ko": "기합을 높여서 혼신의 힘을 방출한다. 상대의 특수방어를 떨어뜨릴 때가 있다.",
+    "zh-CN": "提高气势， 释放出全部力量。 有时会降低对手的特防。",
+    "zh-TW": "提高氣勢， 釋放全身所有力量。 有時會降低對手的特防。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "こんしんの　ちからで　こうげきする。 あたった　あいての　とくぼうを さげることが　ある。",
+          "fr": "Le lanceur rassemble ses forces et laisse éclater son pouvoir. Peut aussi baisser la Défense Spéciale de l’ennemi.",
+          "de": "Ein Angriff mit aller Macht. Die Spezial- Verteidigung des Zieles sinkt eventuell."
+        }
+      }
+    }
+  ]
+}

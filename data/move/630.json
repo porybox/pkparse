@@ -1,0 +1,50 @@
+{
+  "id": 630,
+  "name": "tectonic-rage",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ライジングランドオーバー",
+    "kana": "ライジングランドオーバー",
+    "en": "Tectonic Rage",
+    "fr": "Éruption Géo-Sismique",
+    "it": "Furore della Terra",
+    "de": "Seismische Eruption",
+    "es": "Barrena Telúrica",
+    "ko": "라이징랜드오버",
+    "zh-CN": "地隆啸天大终结",
+    "zh-TW": "地隆嘯天大終結"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　地面の　奥深くに　潜り 全力で　相手に　ぶつかる。 元になった　技で　威力が　変わる。",
+    "kana": "Ｚパワーで　じめんの　おくふかくに　もぐり ぜんりょくで　あいてに　ぶつかる。 もとになった　わざで　いりょくが　かわる。",
+    "en": "The user burrows deep into the ground and slams into the target with the full force of its Z-Power. The power varies, depending on the original move.",
+    "fr": "Le Pokémon utilise la Force Z pour entraîner l’adversaire dans les profondeurs de la terre. La puissance varie selon celle de la capacité originale.",
+    "it": "Grazie al Potere Z, chi la usa si tuffa nelle viscere della terra e colpisce con violenza il bersaglio. La potenza varia a seconda della mossa su cui si basa.",
+    "de": "Der Anwender zerrt das Ziel mit Z-Kraft tief in den Boden und kollidiert dort mit ihm. Die Stärke variiert je nach zugrunde liegender Attacke.",
+    "es": "Emplea el Poder Z para abrir una profunda grieta en el suelo que se traga al oponente. Su potencia depende de la del movimiento original.",
+    "ko": "Z파워로 땅 깊숙이 파고들어 전력으로 상대에게 부딪친다. 원래 기술에 따라 위력이 변한다.",
+    "zh-CN": "通过Ｚ力量潜入地里最深处， 全力撞上对手。 威力会根据原来的招式而改变。",
+    "zh-TW": "透過Ｚ力量潛入地底深處， 全力撞擊對手。 威力會隨原本的招式而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ground"
+}

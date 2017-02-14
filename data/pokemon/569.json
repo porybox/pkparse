@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 75,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ダストダス",
-      "language": "ja"
-    },
-    {
-      "name": "더스트나",
-      "language": "ko"
-    },
-    {
-      "name": "Miasmax",
-      "language": "fr"
-    },
-    {
-      "name": "Deponitox",
-      "language": "de"
-    },
-    {
-      "name": "Garbodor",
-      "language": "es"
-    },
-    {
-      "name": "Garbodor",
-      "language": "it"
-    },
-    {
-      "name": "Garbodor",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ダストダス",
+    "en": "Garbodor",
+    "fr": "Miasmax",
+    "it": "Garbodor",
+    "de": "Deponitox",
+    "es": "Garbodor",
+    "ko": "더스트나"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ゴミすてば",
-      "language": "ja"
-    },
-    {
-      "genus": "쓰레기장",
-      "language": "ko"
-    },
-    {
-      "genus": "Dépotoir",
-      "language": "fr"
-    },
-    {
-      "genus": "Müllhalde",
-      "language": "de"
-    },
-    {
-      "genus": "Vertedero",
-      "language": "es"
-    },
-    {
-      "genus": "Discarica",
-      "language": "it"
-    },
-    {
-      "genus": "Trash Heap",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ゴミすてば",
+    "en": "Trash Heap",
+    "fr": "Dépotoir",
+    "it": "Discarica",
+    "de": "Müllhalde",
+    "es": "Vertedero",
+    "ko": "쓰레기장"
+  },
   "varieties": [
     {
       "is_default": true,

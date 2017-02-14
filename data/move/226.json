@@ -2,36 +2,13 @@
   "id": 226,
   "name": "baton-pass",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User [switches out]{mechanic:switches-out}, and the trainer selects a replacement Pokémon from the party.  [Stat]{mechanic:stat} changes, [confusion]{mechanic:confusion}, and persistent move effects are passed along to the replacement Pokémon.\n\nThe following move effects are passed:\n\n* []{move:aqua-ring}\n* both the user's and target's effect of []{move:block}, []{move:mean-look}, and []{move:spider-web}\n* the curse effect of []{move:curse}\n* []{move:embargo}\n* []{move:focus-energy} or an activated []{item:lansat-berry}\n* []{move:gastro-acid}\n* []{move:ingrain}\n* being sapped by []{move:leech-seed}\n* being targeted by []{move:lock-on} or []{move:mind-reader}\n* []{move:magnet-rise}\n* []{move:perish-song}'s counter\n* []{move:power-trick}\n* []{move:substitute}; the doll's HP is unchanged\n\nThe replacement Pokémon does not trigger effects that respond to Pokémon switching in.",
-      "short_effect": "Allows the trainer to switch out the user and pass effects along to its replacement.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Baton Pass",
-      "language": "en"
-    },
-    {
-      "name": "Staffetta",
-      "language": "it"
-    },
-    {
-      "name": "Relevo",
-      "language": "es"
-    },
-    {
-      "name": "Staffette",
-      "language": "de"
-    },
-    {
-      "name": "Relais",
-      "language": "fr"
-    },
-    {
-      "name": "바톤터치",
-      "language": "ko"
-    },
-    {
-      "name": "バトンタッチ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "バトンタッチ",
+    "kana": "バトンタッチ",
+    "en": "Baton Pass",
+    "fr": "Relais",
+    "it": "Staffetta",
+    "de": "Stafette",
+    "es": "Relevo",
+    "ko": "바톤터치",
+    "zh-CN": "接棒",
+    "zh-TW": "接棒"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "控えの　ポケモンと　入れ替わる。 能力変化は　替わった ポケモンが　そのまま　受けつぐ。",
+    "kana": "ひかえの　ポケモンと　いれかわる。 のうりょく　へんかは　かわった ポケモンが　そのまま　うけつぐ。",
+    "en": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
+    "fr": "Le lanceur échange sa place et tout changement de stat avec un Pokémon de l’équipe.",
+    "it": "Chi la usa è sostituito da un Pokémon della squadra, che eredita anche ogni modifica alle statistiche.",
+    "de": "Tauscht den Anwender aus und überträgt alle Statusveränderungen auf das eingewechselte Pokémon.",
+    "es": "Cambia el puesto con un compañero y le pasa los cambios de características.",
+    "ko": "교대 포켓몬과 바뀐다. 능력 변화는 바뀐 포켓몬이 그대로 이어받는다.",
+    "zh-CN": "和后备宝可梦进行替换。 换上的宝可梦能直接继承 其能力的变化。",
+    "zh-TW": "與後備寶可夢進行替換。 替換上場的寶可夢， 將承接目前寶可夢的能力變化。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "de": "Staffette"
+        },
+        "flavor_text_entries": {
+          "de": "Tauscht das eigene Pokémon aus. Alle Statusveränderungen bleiben bestehen."
+        }
+      }
+    }
+  ]
 }

@@ -2,36 +2,13 @@
   "id": 425,
   "name": "shadow-sneak",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 30,
   "priority": 1,
   "power": 40,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Shadow Sneak",
-      "language": "en"
-    },
-    {
-      "name": "Furtivombra",
-      "language": "it"
-    },
-    {
-      "name": "Sombra Vil",
-      "language": "es"
-    },
-    {
-      "name": "Schattenstoß",
-      "language": "de"
-    },
-    {
-      "name": "Ombre Portée",
-      "language": "fr"
-    },
-    {
-      "name": "야습",
-      "language": "ko"
-    },
-    {
-      "name": "かげうち",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "かげうち",
+    "kana": "かげうち",
+    "en": "Shadow Sneak",
+    "fr": "Ombre Portée",
+    "it": "Furtivombra",
+    "de": "Schattenstoß",
+    "es": "Sombra Vil",
+    "ko": "야습",
+    "zh-CN": "影子偷袭",
+    "zh-TW": "影子偷襲"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "影を　のばして 相手の　背後から　攻撃する。 必ず　先制攻撃　できる。",
+    "kana": "かげを　のばして あいての　はいごから　こうげきする。 かならず　せんせい　こうげき　できる。",
+    "en": "The user extends its shadow and attacks the target from behind. This move always goes first.",
+    "fr": "Le lanceur étend son ombre pour frapper par-derrière. Frappe en priorité.",
+    "it": "Chi la usa estende la sua ombra e attacca il nemico alle spalle. Questa mossa ha priorità alta.",
+    "de": "Anwender erweitert Schatten und greift das Ziel von hinten an. Hohe Erstschlagquote.",
+    "es": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento tiene prioridad alta.",
+    "ko": "그림자를 늘려 상대의 배후에서 공격한다. 반드시 선제공격할 수 있다.",
+    "zh-CN": "伸长影子， 从对手的背后进行攻击。 必定能够先制攻击。",
+    "zh-TW": "伸長自己的影子， 從對手的背後進行攻擊。 必定能夠發動先制攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur étend son ombre pour frapper par-derrière. Frappe toujours en premier.",
+          "it": "Chi la usa estende la sua ombra e attacca il nemico alle spalle. Con questa mossa si colpisce per primi.",
+          "de": "Anwender erweitert Schatten und greift das Ziel von hinten an. Erstschlaggarantie.",
+          "es": "Extiende su sombra y ataca al objetivo por la espalda. Este movimiento siempre va primero."
+        }
+      }
+    }
+  ]
 }

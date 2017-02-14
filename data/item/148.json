@@ -1,0 +1,50 @@
+{
+  "id": 148,
+  "name": "bridge-mail-m",
+  "names": {
+    "ja": "ブリッジメールＷ",
+    "kana": "ブリッジメールＷ",
+    "en": "Bridge Mail M",
+    "fr": "Lettre Pont I",
+    "it": "Mess. Merav.",
+    "de": "Brückbrief W",
+    "es": "Carta Puente P",
+    "ko": "브리지메일W",
+    "zh-CN": "桥梁邮件Ｗ",
+    "zh-TW": "橋梁郵件Ｗ"
+  },
+  "flavor_text_entries": {
+    "ja": "アーチを　描いた　橋の　絵柄が プリントされた　レターペーパー。 ポケモンに　持たせて　使う。",
+    "kana": "アーチを　えがいた　はしの　えがらが プリントされた　びんせん。 ポケモンに　もたせて　つかう。",
+    "en": "Stationery featuring an illustration of a majestically arched bridge. Have a Pokémon hold it for delivery.",
+    "fr": "Un papier à lettres avec un motif de pont à voûtes. Peut être tenu et livré par un Pokémon.",
+    "it": "Carta da lettere che riporta l’immagine di un ponte ad arco. Si può dare a un Pokémon affinché la consegni.",
+    "de": "Das Briefpapier hat eine geschwungene Brücke als Hintergrundmotiv. Gib es einem Pokémon zu Tragen.",
+    "es": "Carta con la imagen de un puente con varios arcos. Haz que la entregue un Pokémon.",
+    "ko": "아치가 그려진 다리의 무늬가 프린트된 편지지. 포켓몬에게 지니게 해서 쓴다.",
+    "zh-CN": "印有拱桥图案的信纸。 使用该道具时， 需要让宝可梦携带着来用。",
+    "zh-TW": "印有拱橋圖案的信紙。 需讓寶可夢攜帶使用。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "fr": "Lettre PontI"
+        },
+        "flavor_text_entries": {
+          "de": "Das Briefpapier hat eine geschwungene Brücke als Hintergrundmotiv. Gib es einem Pokémon zum Tragen."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un papier à lettres avec un motif de pont bâti sur des arches. Peut être tenu et livré par un Pokémon.",
+          "es": "Carta con la imagen de un puente con forma de varios arcos. Haz que la entregue un Pokémon."
+        }
+      }
+    }
+  ]
+}

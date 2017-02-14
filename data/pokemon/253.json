@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 131,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "dragon"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -56,44 +48,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ジュプトル",
-      "language": "ja"
-    },
-    {
-      "name": "Juptile",
-      "language": "roomaji"
-    },
-    {
-      "name": "나무돌이",
-      "language": "ko"
-    },
-    {
-      "name": "森林蜥蜴",
-      "language": "zh"
-    },
-    {
-      "name": "Massko",
-      "language": "fr"
-    },
-    {
-      "name": "Reptain",
-      "language": "de"
-    },
-    {
-      "name": "Grovyle",
-      "language": "es"
-    },
-    {
-      "name": "Grovyle",
-      "language": "it"
-    },
-    {
-      "name": "Grovyle",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ジュプトル",
+    "en": "Grovyle",
+    "fr": "Massko",
+    "it": "Grovyle",
+    "de": "Reptain",
+    "es": "Grovyle",
+    "ko": "나무돌이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -104,36 +67,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "もりトカゲ",
-      "language": "ja"
-    },
-    {
-      "genus": "숲도마뱀",
-      "language": "ko"
-    },
-    {
-      "genus": "Bois Gecko",
-      "language": "fr"
-    },
-    {
-      "genus": "Waldgecko",
-      "language": "de"
-    },
-    {
-      "genus": "Geco Bosque",
-      "language": "es"
-    },
-    {
-      "genus": "Legnogeco",
-      "language": "it"
-    },
-    {
-      "genus": "Wood Gecko",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "もりトカゲ",
+    "en": "Wood Gecko",
+    "fr": "Bois Gecko",
+    "it": "Legnogeco",
+    "de": "Waldgecko",
+    "es": "Geco Bosque",
+    "ko": "숲도마뱀"
+  },
   "varieties": [
     {
       "is_default": true,

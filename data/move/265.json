@@ -2,36 +2,13 @@
   "id": 265,
   "name": "smelling-salts",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 70,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the target is [paralyzed]{mechanic:paralyzed}, this move has double power, and the target is cured of its [paralysis]{mechanic:paralysis}.",
-      "short_effect": "If the target is paralyzed, inflicts double damage and cures the paralysis.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Smelling Salts",
-      "language": "en"
-    },
-    {
-      "name": "Maniereforti",
-      "language": "it"
-    },
-    {
-      "name": "Estímulo",
-      "language": "es"
-    },
-    {
-      "name": "Riechsalz",
-      "language": "de"
-    },
-    {
-      "name": "Stimulant",
-      "language": "fr"
-    },
-    {
-      "name": "정신차리기",
-      "language": "ko"
-    },
-    {
-      "name": "きつけ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "きつけ",
+    "kana": "きつけ",
+    "en": "Smelling Salts",
+    "fr": "Stimulant",
+    "it": "Maniereforti",
+    "de": "Riechsalz",
+    "es": "Estímulo",
+    "ko": "정신차리기",
+    "zh-CN": "清醒",
+    "zh-TW": "清醒"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "まひ状態の　相手には 威力が　２倍に　なるが かわりに　相手の　まひが　治る。",
+    "kana": "まひ　じょうたいの　あいてには いりょくが　２ばいに　なるが かわりに　あいての　まひが　なおる。",
+    "en": "This attack’s power is doubled when used on a target with paralysis. This also cures the target’s paralysis, however.",
+    "fr": "Cette attaque est doublement efficace sur les Pokémon paralysés, mais elle soigne leur paralysie.",
+    "it": "Infligge un danno doppio a un bersaglio paralizzato, ma ne cura anche la paralisi.",
+    "de": "Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.",
+    "es": "Hace el doble de daño a objetivos paralizados, pero también cura la parálisis.",
+    "ko": "마비 상태의 상대에게는 위력이 2배가 되지만 대신 상대의 마비가 풀린다.",
+    "zh-CN": "对于麻痹状态下的对手， 威力会变成２倍。 但相反对手的麻痹也会被治愈。",
+    "zh-TW": "攻擊陷入麻痺狀態的對手時， 威力會變成２倍。 但也會治癒對手的麻痺。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "This attack inflicts double damage on a target with paralysis. This also cures the target’s paralysis, however."
+        }
+      }
+    }
+  ]
 }

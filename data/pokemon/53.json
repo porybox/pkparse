@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 59,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "quadruped"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ペルシアン",
-      "language": "ja"
-    },
-    {
-      "name": "Persian",
-      "language": "roomaji"
-    },
-    {
-      "name": "페르시온",
-      "language": "ko"
-    },
-    {
-      "name": "貓老大",
-      "language": "zh"
-    },
-    {
-      "name": "Persian",
-      "language": "fr"
-    },
-    {
-      "name": "Snobilikat",
-      "language": "de"
-    },
-    {
-      "name": "Persian",
-      "language": "es"
-    },
-    {
-      "name": "Persian",
-      "language": "it"
-    },
-    {
-      "name": "Persian",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ペルシアン",
+    "en": "Persian",
+    "fr": "Persian",
+    "it": "Persian",
+    "de": "Snobilikat",
+    "es": "Persian",
+    "ko": "페르시온"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "シャムネコ",
-      "language": "ja"
-    },
-    {
-      "genus": "샴고양이",
-      "language": "ko"
-    },
-    {
-      "genus": "Chadeville",
-      "language": "fr"
-    },
-    {
-      "genus": "Rassekatze",
-      "language": "de"
-    },
-    {
-      "genus": "Gato Fino",
-      "language": "es"
-    },
-    {
-      "genus": "Nobilgatto",
-      "language": "it"
-    },
-    {
-      "genus": "Classy Cat",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "シャムネコ",
+    "en": "Classy Cat",
+    "fr": "Chadeville",
+    "it": "Nobilgatto",
+    "de": "Rassekatze",
+    "es": "Gato Fino",
+    "ko": "샴고양이"
+  },
   "varieties": [
     {
       "is_default": true,

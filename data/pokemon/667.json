@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 57,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -43,68 +37,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "シシコ",
-      "language": "ja"
-    },
-    {
-      "name": "레오꼬",
-      "language": "ko"
-    },
-    {
-      "name": "Hélionceau",
-      "language": "fr"
-    },
-    {
-      "name": "Leufeo",
-      "language": "de"
-    },
-    {
-      "name": "Litleo",
-      "language": "es"
-    },
-    {
-      "name": "Litleo",
-      "language": "it"
-    },
-    {
-      "name": "Litleo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "シシコ",
+    "en": "Litleo",
+    "fr": "Hélionceau",
+    "it": "Litleo",
+    "de": "Leufeo",
+    "es": "Litleo",
+    "ko": "레오꼬"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "わかじし",
-      "language": "ja"
-    },
-    {
-      "genus": "어린사자",
-      "language": "ko"
-    },
-    {
-      "genus": "Lionceau",
-      "language": "fr"
-    },
-    {
-      "genus": "Junglöwe",
-      "language": "de"
-    },
-    {
-      "genus": "Leoncito",
-      "language": "es"
-    },
-    {
-      "genus": "Leoncino",
-      "language": "it"
-    },
-    {
-      "genus": "Lion Cub",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "わかじし",
+    "en": "Lion Cub",
+    "fr": "Lionceau",
+    "it": "Leoncino",
+    "de": "Junglöwe",
+    "es": "Leoncito",
+    "ko": "어린사자"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,100 +2,13 @@
   "id": 240,
   "name": "rain-dance",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "double-slap"
-        },
-        {
-          "name": "water-gun"
-        },
-        {
-          "name": "hydro-pump"
-        },
-        {
-          "name": "surf"
-        },
-        {
-          "name": "bubble-beam"
-        },
-        {
-          "name": "thunder"
-        },
-        {
-          "name": "waterfall"
-        },
-        {
-          "name": "clamp"
-        },
-        {
-          "name": "bubble"
-        },
-        {
-          "name": "crabhammer"
-        },
-        {
-          "name": "octazooka"
-        },
-        {
-          "name": "dive"
-        },
-        {
-          "name": "hydro-cannon"
-        },
-        {
-          "name": "weather-ball"
-        },
-        {
-          "name": "water-spout"
-        },
-        {
-          "name": "muddy-water"
-        },
-        {
-          "name": "water-sport"
-        },
-        {
-          "name": "water-pulse"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Changes the weather to rain for five turns, during which []{type:water} moves inflict 50% extra damage, and []{type:fire} moves inflict half damage.\n\nIf the user is holding []{item:damp-rock}, this effect lasts for eight turns.\n\n[]{move:thunder} has 100% accuracy.  If the target has used []{move:detect} or []{move:protect}, []{move:thunder} has a (100 - accuracy)% chance to break through the protection.\n\n[]{move:solar-beam} has half power.\n\n[]{move:moonlight}, []{move:morning-sun}, and []{move:synthesis} heal only 1/4 of the user's max [HP]{mechanic:hp}.\n\nPokémon with []{ability:swift-swim} have doubled original [Speed]{mechanic:speed}.\n\nPokémon with []{ability:forecast} become []{type:water}.\n\nPokémon with []{ability:dry-skin} heal 1/8 max [HP]{mechanic:hp}, Pokémon with []{ability:hydration} are cured of [major status effects]{mechanic:major-status-effects}, and Pokémon with []{ability:rain-dish} heal 1/16 max [HP]{mechanic:hp} at the end of each turn.",
-      "short_effect": "Changes the weather to rain for five turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -107,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Rain Dance",
-      "language": "en"
-    },
-    {
-      "name": "Pioggiadanza",
-      "language": "it"
-    },
-    {
-      "name": "Danza Lluvia",
-      "language": "es"
-    },
-    {
-      "name": "Regentanz",
-      "language": "de"
-    },
-    {
-      "name": "Danse Pluie",
-      "language": "fr"
-    },
-    {
-      "name": "비바라기",
-      "language": "ko"
-    },
-    {
-      "name": "あまごい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "あまごい",
+    "kana": "あまごい",
+    "en": "Rain Dance",
+    "fr": "Danse Pluie",
+    "it": "Pioggiadanza",
+    "de": "Regentanz",
+    "es": "Danza Lluvia",
+    "ko": "비바라기",
+    "zh-CN": "求雨",
+    "zh-TW": "求雨"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "５ターンの　間　雨を　降らせて みずタイプの　威力を　あげる。 ほのおタイプの　威力は　さがる。",
+    "kana": "５ターンの　あいだ　あめを　ふらせて みずタイプの　いりょくを　あげる。 ほのおタイプの　いりょくは　さがる。",
+    "en": "The user summons a heavy rain that falls for five turns, powering up Water-type moves. It lowers the power of Fire-type moves.",
+    "fr": "Invoque de fortes pluies qui durent cinq tours, augmentant la puissance des capacités de type Eau et baissant celle des capacités de type Feu.",
+    "it": "Chi la usa provoca una forte pioggia per cinque turni, potenziando le mosse di tipo Acqua e riducendo la potenza di quelle di tipo Fuoco.",
+    "de": "Anwender erzeugt starken Regen. Die Stärke von Wasser-Attacken erhöht sich fünf Runden lang, während die Stärke von Feuer-Attacken sinkt.",
+    "es": "Genera una fuerte lluvia que refuerza los movimientos de tipo Agua durante cinco turnos y debilita los de tipo Fuego.",
+    "ko": "5턴 동안 비를 내리게 하여 물타입 기술의 위력을 올린다. 불꽃타입의 위력은 떨어진다.",
+    "zh-CN": "在５回合内一直降雨， 从而提高水属性的招式威力。 火属性的招式威力则降低。",
+    "zh-TW": "降下大雨，在５回合內 提高水屬性招式的威力。 火屬性招式的威力會降低。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "water",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "５ターンの　あいだ　雨を　降らせて みずタイプの 技の　威力を　あげる。",
+          "kana": "５ターンの　あいだ　あめを　ふらせて みずタイプの わざの　いりょくを　あげる。",
+          "en": "The user summons a heavy rain that falls for five turns, powering up Water-type moves.",
+          "fr": "Invoque de fortes pluies qui durent cinq tours et augmentent la puissance des capacités de type Eau.",
+          "it": "Chi la usa provoca una forte pioggia per cinque turni, potenziando le mosse di tipo Acqua.",
+          "de": "Anwender erzeugt starken Regen. Die Stärke von Wasser-Attacken erhöht sich fünf Runden lang.",
+          "es": "Genera una fuerte lluvia que refuerza los movimientos de tipo Agua durante cinco turnos.",
+          "ko": "5턴 동안 비를 내리게 하여 물타입 기술의 위력을 올린다."
+        }
+      }
+    }
+  ]
 }

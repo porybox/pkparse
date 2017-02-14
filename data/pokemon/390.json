@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 115,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "humanshape"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -58,44 +50,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ヒコザル",
-      "language": "ja"
-    },
-    {
-      "name": "Hikozaru",
-      "language": "roomaji"
-    },
-    {
-      "name": "불꽃숭이",
-      "language": "ko"
-    },
-    {
-      "name": "小火焰猴",
-      "language": "zh"
-    },
-    {
-      "name": "Ouisticram",
-      "language": "fr"
-    },
-    {
-      "name": "Panflam",
-      "language": "de"
-    },
-    {
-      "name": "Chimchar",
-      "language": "es"
-    },
-    {
-      "name": "Chimchar",
-      "language": "it"
-    },
-    {
-      "name": "Chimchar",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒコザル",
+    "en": "Chimchar",
+    "fr": "Ouisticram",
+    "it": "Chimchar",
+    "de": "Panflam",
+    "es": "Chimchar",
+    "ko": "불꽃숭이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -106,36 +69,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こざる",
-      "language": "ja"
-    },
-    {
-      "genus": "꼬마원숭이",
-      "language": "ko"
-    },
-    {
-      "genus": "Chimpanzé",
-      "language": "fr"
-    },
-    {
-      "genus": "Schimpanse",
-      "language": "de"
-    },
-    {
-      "genus": "Chimpancé",
-      "language": "es"
-    },
-    {
-      "genus": "Scimpanzé",
-      "language": "it"
-    },
-    {
-      "genus": "Chimp",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こざる",
+    "en": "Chimp",
+    "fr": "Chimpanzé",
+    "it": "Scimpanzé",
+    "de": "Schimpanse",
+    "es": "Chimpancé",
+    "ko": "꼬마원숭이"
+  },
   "varieties": [
     {
       "is_default": true,

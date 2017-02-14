@@ -2,53 +2,13 @@
   "id": 124,
   "name": "sludge",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 20,
   "priority": 0,
   "power": 65,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "sludge-bomb"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "sludge-bomb"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [poison]{mechanic:poison} the target.",
-      "short_effect": "Has a $effect_chance% chance to [poison]{mechanic:poison} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "poison"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "poison",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -60,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sludge",
-      "language": "en"
-    },
-    {
-      "name": "Fango",
-      "language": "it"
-    },
-    {
-      "name": "Residuos",
-      "language": "es"
-    },
-    {
-      "name": "Schlammbad",
-      "language": "de"
-    },
-    {
-      "name": "Détritus",
-      "language": "fr"
-    },
-    {
-      "name": "오물공격",
-      "language": "ko"
-    },
-    {
-      "name": "ヘドロこうげき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ヘドロこうげき",
+    "kana": "ヘドロこうげき",
+    "en": "Sludge",
+    "fr": "Détritus",
+    "it": "Fango",
+    "de": "Schlammbad",
+    "es": "Residuos",
+    "ko": "오물공격",
+    "zh-CN": "污泥攻击",
+    "zh-TW": "污泥攻擊"
   },
-  "type": {
-    "name": "poison"
-  }
+  "flavor_text_entries": {
+    "ja": "汚い　ヘドロを 相手に　投げつけて　攻撃する。 毒状態に　することが　ある。",
+    "kana": "きたない　ヘドロを あいてに　なげつけて　こうげきする。 どく　じょうたいに　することが　ある。",
+    "en": "Unsanitary sludge is hurled at the target. This may also poison the target.",
+    "fr": "Des détritus toxiques sont projetés sur l’ennemi. Peut aussi l’empoisonner.",
+    "it": "Chi la usa lancia fango malsano sul bersaglio. Può anche avvelenarlo.",
+    "de": "Wirft Schlamm auf das Ziel. Dieses wird eventuell vergiftet.",
+    "es": "Arroja residuos al objetivo. Puede llegar a envenenar.",
+    "ko": "더러운 오물을 상대에게 내던져서 공격한다. 독 상태로 만들 때가 있다.",
+    "zh-CN": "用污泥投掷对手进行攻击。 有时会让对手陷入中毒状态。",
+    "zh-TW": "向對手投擲污泥進行攻擊。 有時會讓對手陷入中毒狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "poison",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Lancio di fango malsano che arreca danno al bersaglio. Può anche avvelenarlo."
+        }
+      }
+    }
+  ]
 }

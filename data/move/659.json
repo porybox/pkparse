@@ -1,0 +1,50 @@
+{
+  "id": 659,
+  "name": "shore-up",
+  "accuracy": null,
+  "pp": 10,
+  "priority": 0,
+  "power": null,
+  "damage_class": "status",
+  "meta": {
+    "ailment": "none",
+    "category": "heal",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 50,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "すなあつめ",
+    "kana": "すなあつめ",
+    "en": "Shore Up",
+    "fr": "Amass’Sable",
+    "it": "Sabbiaccumulo",
+    "de": "Sandsammler",
+    "es": "Recogearena",
+    "ko": "모래모으기",
+    "zh-CN": "集沙",
+    "zh-TW": "集沙"
+  },
+  "flavor_text_entries": {
+    "ja": "最大ＨＰの　半分 自分の　ＨＰを　回復する。 すなあらしの時は　多く　回復。",
+    "kana": "さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。 すなあらしのときは　おおく　かいふく。",
+    "en": "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
+    "fr": "Le lanceur récupère jusqu’à la moitié de ses PV max. Durant une tempête de sable, il en récupère encore plus.",
+    "it": "Chi la usa recupera metà dei propri PS massimi. Durante le tempeste di sabbia ne recupera di più.",
+    "de": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Tobt ein Sandsturm, werden noch mehr KP aufgefüllt.",
+    "es": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún más PS.",
+    "ko": "자신의 최대 HP 절반을 회복한다. 모래바람일 때는 많이 회복한다.",
+    "zh-CN": "回复自己最大ＨＰ的一半。 在沙暴中回复得更多。",
+    "zh-TW": "回復自己最大ＨＰ的一半。 在沙暴中回復得更多。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "ground"
+}

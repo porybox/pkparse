@@ -2,36 +2,13 @@
   "id": 193,
   "name": "foresight",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Resets the target's [evasion]{mechanic:evasion} to normal and prevents any further boosting until the target leaves the [field]{mechanic:field}.  A []{type:ghost} under this effect takes normal damage from []{type:normal} and []{type:fighting} moves.  This move itself ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.",
-      "short_effect": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "no-type-immunity"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "no-type-immunity",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Foresight",
-      "language": "en"
-    },
-    {
-      "name": "Preveggenza",
-      "language": "it"
-    },
-    {
-      "name": "Profecía",
-      "language": "es"
-    },
-    {
-      "name": "Gesichte",
-      "language": "de"
-    },
-    {
-      "name": "Clairvoyance",
-      "language": "fr"
-    },
-    {
-      "name": "꿰뚫어보기",
-      "language": "ko"
-    },
-    {
-      "name": "みやぶる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "みやぶる",
+    "kana": "みやぶる",
+    "en": "Foresight",
+    "fr": "Clairvoyance",
+    "it": "Preveggenza",
+    "de": "Gesichte",
+    "es": "Profecía",
+    "ko": "꿰뚫어보기",
+    "zh-CN": "识破",
+    "zh-TW": "識破"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "ゴーストタイプに　効果がない　技や 回避率の　高い　相手に 攻撃が　当たるように　なる。",
+    "kana": "ゴーストタイプに　こうかがない　わざや かいひりつの　たかい　あいてに こうげきが　あたるように　なる。",
+    "en": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.",
+    "fr": "Permet de toucher un Pokémon Spectre avec n’importe quelle capacité ou de toucher un ennemi insaisissable.",
+    "it": "Chi la usa rende i Pokémon di tipo Spettro vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti.",
+    "de": "Ermöglicht es, Geister-Pokémon mit Normal- und Kampf-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles.",
+    "es": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.",
+    "ko": "고스트타입에 효과가 없는 기술이나 회피율이 높은 상대라 할지라도 공격이 맞게 된다.",
+    "zh-CN": "对幽灵属性宝可梦没有效果的招式 以及闪避率高的对手， 使用后变得能够打中。",
+    "zh-TW": "讓對幽靈屬性寶可夢無效的招式 能夠發揮效果，也可不顧對手 提高後的閃避率進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Erlaubt es, Geister-Pokémon mit Normal- und Kampf-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Erlaubt es, Geist-Pokémon mit Normal- und Kampf-Attacken anzugreifen. Ignoriert den Fluchtwert des Zieles."
+        }
+      }
+    }
+  ]
 }

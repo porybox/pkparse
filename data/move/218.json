@@ -2,36 +2,13 @@
   "id": 218,
   "name": "frustration",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power increases inversely with [happiness]{mechanic:happiness}, given by `(255 - happiness) * 2 / 5`, to a maximum of 102.  Power bottoms out at 1.",
-      "short_effect": "Power increases as happiness decreases, up to a maximum of 102.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Frustration",
-      "language": "en"
-    },
-    {
-      "name": "Frustrazione",
-      "language": "it"
-    },
-    {
-      "name": "Frustración",
-      "language": "es"
-    },
-    {
-      "name": "Frustration",
-      "language": "de"
-    },
-    {
-      "name": "Frustration",
-      "language": "fr"
-    },
-    {
-      "name": "화풀이",
-      "language": "ko"
-    },
-    {
-      "name": "やつあたり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "やつあたり",
+    "kana": "やつあたり",
+    "en": "Frustration",
+    "fr": "Frustration",
+    "it": "Frustrazione",
+    "de": "Frustration",
+    "es": "Frustración",
+    "ko": "화풀이",
+    "zh-CN": "迁怒",
+    "zh-TW": "遷怒"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "不満を　はらすため　全力で 相手を　攻撃する。 なついていないほど　威力は　あがる。",
+    "kana": "ふまんを　はらすため　ぜんりょくで あいてを　こうげきする。なついて いないほど　いりょくは　あがる。",
+    "en": "This full-power attack grows more powerful the less the user likes its Trainer.",
+    "fr": "Moins le Pokémon aime son Dresseur, plus cette attaque est puissante.",
+    "it": "Mossa che diventa tanto più potente quanto minore è il grado di affezione del Pokémon per il proprio Allenatore.",
+    "de": "Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.",
+    "es": "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque.",
+    "ko": "불만을 풀기 위해 전력으로 상대를 공격한다. 친밀하지 않을수록 위력이 올라간다.",
+    "zh-CN": "为了发泄不满而 全力攻击对手。 亲密度越低，威力越大。",
+    "zh-TW": "為了發洩不滿而 全力攻擊對手。 親密度越低，威力越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A full-power attack that grows more powerful the less the user likes its Trainer."
+        }
+      }
+    }
+  ]
 }

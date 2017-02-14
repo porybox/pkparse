@@ -1,0 +1,38 @@
+{
+  "id": 551,
+  "name": "grass-gem",
+  "names": {
+    "ja": "くさのジュエル",
+    "kana": "くさのジュエル",
+    "en": "Grass Gem",
+    "fr": "Joyau Plante",
+    "it": "Bijouerba",
+    "de": "Pflanzenjuwel",
+    "es": "Gema Planta",
+    "ko": "풀주얼",
+    "zh-CN": "草之宝石",
+    "zh-TW": "草之寶石"
+  },
+  "flavor_text_entries": {
+    "ja": "くさの　タイプの　ジュエル。 持たせると　１度だけ　くさの 技の　威力が　強まる。",
+    "kana": "くさの　タイプの　ジュエル。 もたせると　いちどだけ　くさの わざの　いりょくが　つよまる。",
+    "en": "A gem with an essence of nature. When held, it strengthens the power of a Grass-type move one time.",
+    "fr": "Objet à tenir. Un joyau augmentant une fois la puissance des capacités de type Plante.",
+    "it": "Strumento da dare a un Pokémon. Gioiello che potenzia una sola volta le mosse di tipo Erba.",
+    "de": "Ein Juwel vom Typ Pflanze. Es erhöht einmalig die Stärke einer Attacke vom Typ Pflanze.",
+    "es": "Joya de un solo uso que potencia los movimientos de tipo Planta. Debe llevarla un Pokémon.",
+    "ko": "풀타입의 주얼. 지니게 하면 한 번만 풀 기술의 위력이 강해진다.",
+    "zh-CN": "草属性的宝石。 携带后，草属性的 招式威力仅会增强１次。",
+    "zh-TW": "草屬性的寶石。 攜帶後，草屬性招式的 威力會僅增強１次。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "de": "Pflanzjuwel"
+        }
+      }
+    }
+  ]
+}

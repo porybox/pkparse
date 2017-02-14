@@ -2,34 +2,13 @@
   "id": 549,
   "name": "glaciate",
   "accuracy": 95,
-  "effect_chance": 100,
   "pp": 10,
   "priority": 0,
   "power": 65,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Lowers the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Speed by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Glaciate",
-      "language": "en"
-    },
-    {
-      "name": "Gelamondo",
-      "language": "it"
-    },
-    {
-      "name": "Mundo Gélido",
-      "language": "es"
-    },
-    {
-      "name": "Eiszeit",
-      "language": "de"
-    },
-    {
-      "name": "Ère Glaciaire",
-      "language": "fr"
-    },
-    {
-      "name": "얼다세계",
-      "language": "ko"
-    },
-    {
-      "name": "こごえるせかい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "こごえるせかい",
+    "kana": "こごえるせかい",
+    "en": "Glaciate",
+    "fr": "Ère Glaciaire",
+    "it": "Gelamondo",
+    "de": "Eiszeit",
+    "es": "Mundo Gélido",
+    "ko": "얼다세계",
+    "zh-CN": "冰封世界",
+    "zh-TW": "冰封世界"
+  },
+  "flavor_text_entries": {
+    "ja": "凍えるような　冷気を 相手に　吹きつけて　攻撃する。 相手の　素早さを　さげる。",
+    "kana": "こごえる　ような　れいきを あいてに　ふきつけて　こうげきする。 あいての　すばやさを　さげる。",
+    "en": "The user attacks by blowing freezing cold air at opposing Pokémon. This lowers their Speed stat.",
+    "fr": "Un souffle de vent qui congèle tout sur son passage s’abat sur l’ennemi. Réduit aussi sa Vitesse.",
+    "it": "Chi la usa attacca i nemici intorno con una folata d’aria gelida e ne riduce anche la Velocità.",
+    "de": "Anwender greift an, indem er dem Ziel klirrend kalte Luft entgegenbläst. Senkt die Initiative des Zieles.",
+    "es": "Ataque con aire helado que baja la Velocidad del objetivo.",
+    "ko": "차가운 냉기를 상대에게 내뿜어 공격한다. 상대의 스피드를 떨어뜨린다.",
+    "zh-CN": "将冰冻的冷气 吹向对手进行攻击。 会降低对手的速度。",
+    "zh-TW": "放出冰凍的寒氣 向對手進行攻擊。 可降低對手的速度。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "ice"
-  }
+  "target": "all-opponents",
+  "type": "ice"
 }

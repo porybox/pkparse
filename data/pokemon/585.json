@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 159,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "pink",
   "shape": {
     "name": "quadruped"
   },
@@ -49,36 +43,15 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "シキジカ",
-      "language": "ja"
-    },
-    {
-      "name": "사철록",
-      "language": "ko"
-    },
-    {
-      "name": "Vivaldaim",
-      "language": "fr"
-    },
-    {
-      "name": "Sesokitz",
-      "language": "de"
-    },
-    {
-      "name": "Deerling",
-      "language": "es"
-    },
-    {
-      "name": "Deerling",
-      "language": "it"
-    },
-    {
-      "name": "Deerling",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "シキジカ",
+    "en": "Deerling",
+    "fr": "Vivaldaim",
+    "it": "Deerling",
+    "de": "Sesokitz",
+    "es": "Deerling",
+    "ko": "사철록"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [
     {
@@ -86,36 +59,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "きせつ",
-      "language": "ja"
-    },
-    {
-      "genus": "계절",
-      "language": "ko"
-    },
-    {
-      "genus": "Saison",
-      "language": "fr"
-    },
-    {
-      "genus": "Jahreszeit",
-      "language": "de"
-    },
-    {
-      "genus": "Estacional",
-      "language": "es"
-    },
-    {
-      "genus": "Stagione",
-      "language": "it"
-    },
-    {
-      "genus": "Season",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きせつ",
+    "en": "Season",
+    "fr": "Saison",
+    "it": "Stagione",
+    "de": "Jahreszeit",
+    "es": "Estacional",
+    "ko": "계절"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -136,5 +88,13 @@
     "special-attack": 40,
     "special-defense": 50,
     "speed": 75
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "color": "yellow"
+      }
+    }
+  ]
 }

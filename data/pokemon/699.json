@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 67,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "アマルルガ",
-      "language": "ja"
-    },
-    {
-      "name": "아마루르가",
-      "language": "ko"
-    },
-    {
-      "name": "Dragmara",
-      "language": "fr"
-    },
-    {
-      "name": "Amagarga",
-      "language": "de"
-    },
-    {
-      "name": "Aurorus",
-      "language": "es"
-    },
-    {
-      "name": "Aurorus",
-      "language": "it"
-    },
-    {
-      "name": "Aurorus",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アマルルガ",
+    "en": "Aurorus",
+    "fr": "Dragmara",
+    "it": "Aurorus",
+    "de": "Amagarga",
+    "es": "Aurorus",
+    "ko": "아마루르가"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ツンドラ",
-      "language": "ja"
-    },
-    {
-      "genus": "툰드라",
-      "language": "ko"
-    },
-    {
-      "genus": "Toundra",
-      "language": "fr"
-    },
-    {
-      "genus": "Tundra",
-      "language": "de"
-    },
-    {
-      "genus": "Tundra",
-      "language": "es"
-    },
-    {
-      "genus": "Tundra",
-      "language": "it"
-    },
-    {
-      "genus": "Tundra",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ツンドラ",
+    "en": "Tundra",
+    "fr": "Toundra",
+    "it": "Tundra",
+    "de": "Tundra",
+    "es": "Tundra",
+    "ko": "툰드라"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,36 +2,13 @@
   "id": 413,
   "name": "brave-bird",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 120,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User takes 1/3 the damage it inflicts in recoil.",
-      "short_effect": "User receives 1/3 the damage inflicted in recoil.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Brave Bird",
-      "language": "en"
-    },
-    {
-      "name": "Baldeali",
-      "language": "it"
-    },
-    {
-      "name": "Pájaro Osado",
-      "language": "es"
-    },
-    {
-      "name": "Sturzflug",
-      "language": "de"
-    },
-    {
-      "name": "Rapace",
-      "language": "fr"
-    },
-    {
-      "name": "브레이브버드",
-      "language": "ko"
-    },
-    {
-      "name": "ブレイブバード",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ブレイブバード",
+    "kana": "ブレイブバード",
+    "en": "Brave Bird",
+    "fr": "Rapace",
+    "it": "Baldeali",
+    "de": "Sturzflug",
+    "es": "Pájaro Osado",
+    "ko": "브레이브버드",
+    "zh-CN": "勇鸟猛攻",
+    "zh-TW": "勇鳥猛攻"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "はねを　おりたたみ 低空飛行で　突撃する。 自分も　かなり　ダメージを　受ける。",
+    "kana": "はねを　おりたたみ ていくう　ひこうで　とつげきする。 じぶんも　かなり　ダメージを　うける。",
+    "en": "The user tucks in its wings and charges from a low altitude. This also damages the user quite a lot.",
+    "fr": "Le lanceur replie ses ailes et charge en rase-mottes. Blesse gravement le lanceur.",
+    "it": "Chi la usa ripiega le ali e carica da bassa quota. Tuttavia, subisce considerevoli danni.",
+    "de": "Anwender greift aus niedriger Höhe an. Er erleidet bei dieser Attacke selbst großen Schaden.",
+    "es": "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.",
+    "ko": "날개를 접어 저공비행으로 돌격한다. 자신도 상당한 데미지를 입는다.",
+    "zh-CN": "收拢翅膀， 通过低空飞行突击对手。 自己也会受到不小的伤害。",
+    "zh-TW": "收起翅膀， 低空飛行突擊對手。 自己也會受到不小的傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Chi la usa si nasconde sotto le ali e carica da bassa quota. Tuttavia, subisce considerevoli danni."
+        }
+      }
+    }
+  ]
 }

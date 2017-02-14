@@ -1,0 +1,45 @@
+{
+  "id": 471,
+  "name": "dowsing-machine",
+  "names": {
+    "ja": "ダウジングマシン",
+    "kana": "ダウジングマシン",
+    "en": "Dowsing Machine",
+    "fr": "Cherch’Objet",
+    "it": "Ricerca Strum.",
+    "de": "Itemradar",
+    "es": "Zahorí",
+    "ko": "다우징머신",
+    "zh-CN": "探宝器",
+    "zh-TW": "探寶器"
+  },
+  "flavor_text_entries": {
+    "ja": "みえない　道具に　反応して 場所を　教えてくれる　最新の　機械。 頭に　つけて　使う。",
+    "kana": "みえない　どうぐに　はんのうして ばしょを　おしえてくれる　さいしんの きかい。あたまに　つけて　つかう。",
+    "en": "This high-tech machine shows the location of invisible items. It’s attached to the head when in use.",
+    "fr": "Un appareil high-tech qui indique l’emplacement des objets invisibles. Il se porte sur la tête.",
+    "it": "Dispositivo ultramoderno che rileva la presenza di strumenti non visibili a occhio nudo. Si indossa sulla testa.",
+    "de": "Scannt die Umgebung nach unsichtbaren Items und zeigt an, wo diese sich befinden. Es wird auf dem Kopf getragen.",
+    "es": "Aparato de precisión que reacciona ante objetos que no se ven. Para usarlo, es necesario colocárselo en la cabeza.",
+    "ko": "보이지 않는 도구에 반응해서 장소를 가르쳐주는 최신 기계. 머리에 쓰고 사용한다.",
+    "zh-CN": "会对看不见的道具起反应， 并将它的位置告诉你的最尖端机器。 戴在头上使用。",
+    "zh-TW": "會對看不見的道具起反應， 並將它的位置告訴你的最尖端機器。 戴在頭上使用。"
+  },
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "みえない　道具に　反応して 音と　光で　教えてくれる 最新の　機械。",
+          "kana": "みえない　どうぐに　はんのうして おとと　ひかりで　おしえてくれる さいしんの　きかい。",
+          "en": "It searches for hidden items in the area and emits different lights and sounds when it detects something.",
+          "fr": "Un appareil high-tech qui indique l’emplacement des objets invisibles en émettant un son et en clignotant.",
+          "it": "Dispositivo ultramoderno che indica la direzione in cui si trovano gli strumenti invisibili emettendo dei suoni.",
+          "de": "Scannt die Umgebung nach unsichtbaren Items. Es blinkt und piept, sobald es etwas findet.",
+          "es": "Aparato de precisión que reacciona con luz y sonido ante los objetos que no se ven indicando su posición.",
+          "ko": "보이지 않는 도구에 반응해서 소리와 빛으로 가르쳐주는 최신 기계."
+        }
+      }
+    }
+  ]
+}

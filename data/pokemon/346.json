@@ -9,9 +9,7 @@
   "hatch_counter": 30,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow-then-very-fast"
-  },
+  "growth_rate": "slow-then-very-fast",
   "pokedex_numbers": [
     {
       "entry_number": 134,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "blob"
   },
@@ -47,44 +41,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ユレイドル",
-      "language": "ja"
-    },
-    {
-      "name": "Yuradle",
-      "language": "roomaji"
-    },
-    {
-      "name": "릴리요",
-      "language": "ko"
-    },
-    {
-      "name": "搖籃百合",
-      "language": "zh"
-    },
-    {
-      "name": "Vacilys",
-      "language": "fr"
-    },
-    {
-      "name": "Wielie",
-      "language": "de"
-    },
-    {
-      "name": "Cradily",
-      "language": "es"
-    },
-    {
-      "name": "Cradily",
-      "language": "it"
-    },
-    {
-      "name": "Cradily",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ユレイドル",
+    "en": "Cradily",
+    "fr": "Vacilys",
+    "it": "Cradily",
+    "de": "Wielie",
+    "es": "Cradily",
+    "ko": "릴리요"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -95,36 +60,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いわつぼ",
-      "language": "ja"
-    },
-    {
-      "genus": "바위단지",
-      "language": "ko"
-    },
-    {
-      "genus": "Bernacle",
-      "language": "fr"
-    },
-    {
-      "genus": "Rankfüßer",
-      "language": "de"
-    },
-    {
-      "genus": "Percebe",
-      "language": "es"
-    },
-    {
-      "genus": "Lepade",
-      "language": "it"
-    },
-    {
-      "genus": "Barnacle",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いわつぼ",
+    "en": "Barnacle",
+    "fr": "Bernacle",
+    "it": "Lepade",
+    "de": "Rankfüßer",
+    "es": "Percebe",
+    "ko": "바위단지"
+  },
   "varieties": [
     {
       "is_default": true,

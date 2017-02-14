@@ -1,0 +1,38 @@
+{
+  "id": 163,
+  "name": "iapapa-berry",
+  "names": {
+    "ja": "イアのみ",
+    "kana": "イアのみ",
+    "en": "Iapapa Berry",
+    "fr": "Baie Papaya",
+    "it": "Baccapaia",
+    "de": "Yapabeere",
+    "es": "Baya Pabaya",
+    "ko": "파야열매",
+    "zh-CN": "芭亚果",
+    "zh-TW": "芭亞果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると ピンチのとき　ＨＰを　回復する。 きらいな味だと　混乱する。",
+    "kana": "ポケモンに　もたせると ピンチのとき　ＨＰを　かいふくする。 きらいな　あじだと　こんらん　する。",
+    "en": "If held by a Pokémon, it restores the user’s HP in a pinch, but it will cause confusion if the user hates the taste.",
+    "fr": "Tenue, cette Baie restaure des PV en cas de besoin, mais rend le Pokémon confus si son goût lui déplaît.",
+    "it": "Se un Pokémon in difficoltà ha questa bacca, recupera dei PS. Se al Pokémon non piace il suo sapore, può causare confusione.",
+    "de": "Als getragenes Item füllt die Beere im Notfall die KP eines Pokémon auf, doch ihr Aroma verwirrt jene, die es nicht mögen.",
+    "es": "Los Pokémon pueden llevarla o usarla para restaurar algunos PS. Su sabor puede causar confusión.",
+    "ko": "포켓몬에게 지니게 하면 위급할 때 HP를 회복한다. 싫어하는 맛이면 혼란에 빠진다.",
+    "zh-CN": "让宝可梦携带后， 危机时可以回复ＨＰ。 如果讨厌这味道就会混乱。",
+    "zh-TW": "讓寶可夢攜帶後， 危機時可以回復ＨＰ。 如果討厭這味道就會混亂。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Als getragenes Item füllt die Beere die KP eines Pokémon auf, doch ihr Aroma verwirrt jene, die es nicht mögen."
+        }
+      }
+    }
+  ]
+}

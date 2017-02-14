@@ -1,0 +1,50 @@
+{
+  "id": 639,
+  "name": "corkscrew-crash",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ちょうぜつらせんれんげき",
+    "kana": "ちょうぜつらせんれんげき",
+    "en": "Corkscrew Crash",
+    "fr": "Vrille Maximum",
+    "it": "Spirale Perforante",
+    "de": "Turbo-Spiralkombo",
+    "es": "Hélice Trepanadora",
+    "ko": "초월나선연격",
+    "zh-CN": "超绝螺旋连击",
+    "zh-TW": "超絕螺旋連擊"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "steel"
+}

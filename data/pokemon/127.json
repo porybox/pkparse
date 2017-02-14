@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 130,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "humanoid"
   },
@@ -75,44 +69,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "カイロス",
-      "language": "ja"
-    },
-    {
-      "name": "Kailios",
-      "language": "roomaji"
-    },
-    {
-      "name": "쁘사이저",
-      "language": "ko"
-    },
-    {
-      "name": "大甲",
-      "language": "zh"
-    },
-    {
-      "name": "Scarabrute",
-      "language": "fr"
-    },
-    {
-      "name": "Pinsir",
-      "language": "de"
-    },
-    {
-      "name": "Pinsir",
-      "language": "es"
-    },
-    {
-      "name": "Pinsir",
-      "language": "it"
-    },
-    {
-      "name": "Pinsir",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カイロス",
+    "en": "Pinsir",
+    "fr": "Scarabrute",
+    "it": "Pinsir",
+    "de": "Pinsir",
+    "es": "Pinsir",
+    "ko": "쁘사이저"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -123,36 +88,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "くわがた",
-      "language": "ja"
-    },
-    {
-      "genus": "뿔집게",
-      "language": "ko"
-    },
-    {
-      "genus": "Scarabée",
-      "language": "fr"
-    },
-    {
-      "genus": "Kneifkäfer",
-      "language": "de"
-    },
-    {
-      "genus": "Escarabajo",
-      "language": "es"
-    },
-    {
-      "genus": "Cervolante",
-      "language": "it"
-    },
-    {
-      "genus": "Stag Beetle",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "くわがた",
+    "en": "Stag Beetle",
+    "fr": "Scarabée",
+    "it": "Cervolante",
+    "de": "Kneifkäfer",
+    "es": "Escarabajo",
+    "ko": "뿔집게"
+  },
   "varieties": [
     {
       "is_default": true,

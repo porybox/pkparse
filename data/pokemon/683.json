@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 130,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    }
+    "fairy"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "humanoid"
   },
@@ -45,68 +39,26 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "フレフワン",
-      "language": "ja"
-    },
-    {
-      "name": "프레프티르",
-      "language": "ko"
-    },
-    {
-      "name": "Cocotine",
-      "language": "fr"
-    },
-    {
-      "name": "Parfinesse",
-      "language": "de"
-    },
-    {
-      "name": "Aromatisse",
-      "language": "es"
-    },
-    {
-      "name": "Aromatisse",
-      "language": "it"
-    },
-    {
-      "name": "Aromatisse",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フレフワン",
+    "en": "Aromatisse",
+    "fr": "Cocotine",
+    "it": "Aromatisse",
+    "de": "Parfinesse",
+    "es": "Aromatisse",
+    "ko": "프레프티르"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほうこう",
-      "language": "ja"
-    },
-    {
-      "genus": "방향",
-      "language": "ko"
-    },
-    {
-      "genus": "Parfum",
-      "language": "fr"
-    },
-    {
-      "genus": "Duft",
-      "language": "de"
-    },
-    {
-      "genus": "Fragancia",
-      "language": "es"
-    },
-    {
-      "genus": "Fragranza",
-      "language": "it"
-    },
-    {
-      "genus": "Fragrance",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほうこう",
+    "en": "Fragrance",
+    "fr": "Parfum",
+    "it": "Fragranza",
+    "de": "Duft",
+    "es": "Fragancia",
+    "ko": "방향"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 145,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "humanoid"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "バルキー",
-      "language": "ja"
-    },
-    {
-      "name": "Balkie",
-      "language": "roomaji"
-    },
-    {
-      "name": "배루키",
-      "language": "ko"
-    },
-    {
-      "name": "巴爾郎",
-      "language": "zh"
-    },
-    {
-      "name": "Debugant",
-      "language": "fr"
-    },
-    {
-      "name": "Rabauz",
-      "language": "de"
-    },
-    {
-      "name": "Tyrogue",
-      "language": "es"
-    },
-    {
-      "name": "Tyrogue",
-      "language": "it"
-    },
-    {
-      "name": "Tyrogue",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バルキー",
+    "en": "Tyrogue",
+    "fr": "Debugant",
+    "it": "Tyrogue",
+    "de": "Rabauz",
+    "es": "Tyrogue",
+    "ko": "배루키"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "けんか",
-      "language": "ja"
-    },
-    {
-      "genus": "싸움",
-      "language": "ko"
-    },
-    {
-      "genus": "Bagarreur",
-      "language": "fr"
-    },
-    {
-      "genus": "Racker",
-      "language": "de"
-    },
-    {
-      "genus": "Peleón",
-      "language": "es"
-    },
-    {
-      "genus": "Baruffa",
-      "language": "it"
-    },
-    {
-      "genus": "Scuffle",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "けんか",
+    "en": "Scuffle",
+    "fr": "Bagarreur",
+    "it": "Baruffa",
+    "de": "Racker",
+    "es": "Peleón",
+    "ko": "싸움"
+  },
   "varieties": [
     {
       "is_default": true,

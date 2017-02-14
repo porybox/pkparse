@@ -2,34 +2,13 @@
   "id": 473,
   "name": "psyshock",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Damage calculation always uses the target's [Defense]{mechanic:defense}, regardless of this move's damage class.",
-      "short_effect": "Inflicts damage based on the target's Defense, not Special Defense.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Psyshock",
-      "language": "en"
-    },
-    {
-      "name": "Psicoshock",
-      "language": "it"
-    },
-    {
-      "name": "Psicocarga",
-      "language": "es"
-    },
-    {
-      "name": "Psychoschock",
-      "language": "de"
-    },
-    {
-      "name": "Choc Psy",
-      "language": "fr"
-    },
-    {
-      "name": "사이코쇼크",
-      "language": "ko"
-    },
-    {
-      "name": "サイコショック",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "サイコショック",
+    "kana": "サイコショック",
+    "en": "Psyshock",
+    "fr": "Choc Psy",
+    "it": "Psicoshock",
+    "de": "Psychoschock",
+    "es": "Psicocarga",
+    "ko": "사이코쇼크",
+    "zh-CN": "精神冲击",
+    "zh-TW": "精神衝擊"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "不思議な　念波を　実体化して 相手を　攻撃する。 物理的な　ダメージを　与える。",
+    "kana": "ふしぎな　ねんぱを　じったいかして あいてを　こうげきする。 ぶつりてきな　ダメージを　あたえる。",
+    "en": "The user materializes an odd psychic wave to attack the target. This attack does physical damage.",
+    "fr": "Le lanceur matérialise des ondes mystérieuses qu’il projette sur l’ennemi. Inflige des dégâts physiques.",
+    "it": "Chi la usa attacca il bersaglio facendo materializzare un misterioso raggio psichico che provoca danni fisici.",
+    "de": "Anwender erzeugt eine seltsame Energiewelle, die dem Ziel physischen Schaden zufügt.",
+    "es": "Crea una onda psíquica que causa daño físico al objetivo.",
+    "ko": "이상한 염력파를 실체화하여 상대를 공격한다. 물리적인 데미지를 준다.",
+    "zh-CN": "将神奇的念波实体化攻击对手。 给予物理伤害。",
+    "zh-TW": "將神奇的念力波實體化後攻擊對手。 給予對手物理傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

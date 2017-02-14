@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 116,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "humanshape"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "モウカザル",
-      "language": "ja"
-    },
-    {
-      "name": "Mōkazaru",
-      "language": "roomaji"
-    },
-    {
-      "name": "파이숭이",
-      "language": "ko"
-    },
-    {
-      "name": "猛火猴",
-      "language": "zh"
-    },
-    {
-      "name": "Chimpenfeu",
-      "language": "fr"
-    },
-    {
-      "name": "Panpyro",
-      "language": "de"
-    },
-    {
-      "name": "Monferno",
-      "language": "es"
-    },
-    {
-      "name": "Monferno",
-      "language": "it"
-    },
-    {
-      "name": "Monferno",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "モウカザル",
+    "en": "Monferno",
+    "fr": "Chimpenfeu",
+    "it": "Monferno",
+    "de": "Panpyro",
+    "es": "Monferno",
+    "ko": "파이숭이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "やんちゃ",
-      "language": "ja"
-    },
-    {
-      "genus": "개구쟁이",
-      "language": "ko"
-    },
-    {
-      "genus": "Garnement",
-      "language": "fr"
-    },
-    {
-      "genus": "Verspielt",
-      "language": "de"
-    },
-    {
-      "genus": "Juguetón",
-      "language": "es"
-    },
-    {
-      "genus": "Briccone",
-      "language": "it"
-    },
-    {
-      "genus": "Playful",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "やんちゃ",
+    "en": "Playful",
+    "fr": "Garnement",
+    "it": "Briccone",
+    "de": "Verspielt",
+    "es": "Juguetón",
+    "ko": "개구쟁이"
+  },
   "varieties": [
     {
       "is_default": true,

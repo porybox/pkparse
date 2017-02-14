@@ -1,329 +1,44 @@
 {
   "id": 119,
   "name": "frisk",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "おみとおし",
+    "kana": "おみとおし",
+    "en": "Frisk",
+    "fr": "Fouille",
+    "it": "Indagine",
+    "de": "Schnüffler",
+    "es": "Cacheo",
+    "ko": "통찰",
+    "zh-CN": "察觉",
+    "zh-TW": "察覺"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "登場　したとき 相手の　持ち物を 見通すことが　できる。",
+    "kana": "とうじょう　したとき あいての　もちものを みとおすことが　できる。",
+    "en": "When it enters a battle, the Pokémon can check an opposing Pokémon’s held item.",
+    "fr": "Permet de connaître l’objet tenu par l’ennemi quand le combat commence.",
+    "it": "Quando il Pokémon entra in campo, rivela lo strumento del nemico.",
+    "de": "Kann bei Kampfantritt Auskunft über das vom Gegner getragene Item geben.",
+    "es": "El Pokémon puede ver el objeto que lleva el rival al entrar en combate.",
+    "ko": "등장했을 때 상대의 지닌 물건을 통찰할 수 있다.",
+    "zh-CN": "出场时， 可以察觉对手的持有物。",
+    "zh-TW": "出場時， 可以察覺對手的持有物。"
+  },
+  "past_values": [
     {
-      "name": "Frisk",
-      "language": "en"
-    },
-    {
-      "name": "Indagine",
-      "language": "it"
-    },
-    {
-      "name": "Cacheo",
-      "language": "es"
-    },
-    {
-      "name": "Schnüffler",
-      "language": "de"
-    },
-    {
-      "name": "Fouille",
-      "language": "fr"
-    },
-    {
-      "name": "통찰",
-      "language": "ko"
-    },
-    {
-      "name": "おみとおし",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "When this Pokémon enters battle, it reveals an opposing Pokémon's held item to all participating trainers.\n\nIn a double battle, if one opponent has an item, this Pokémon will Frisk that Pokémon; if both have an item, it will Frisk one at random.",
-      "short_effect": "Reveals an opponent's held item upon entering battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "相手の　持ち物を\n知ることが　できる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "The Pokémon can check an\nopposing Pokémon’s held item.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Il Pokémon scopre che\nstrumento ha il nemico.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "El Pokémon puede ver el objeto\nque lleva el rival.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Gibt Auskunft über gegnerische\nItems.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Permet de connaître l’objet tenu\npar l’ennemi.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "상대가 지닌 물건을\n알 수 있다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "あいての　もちものを\nしることが　できる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "The Pokémon can check\na foe’s held item.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon can check\na foe’s held item.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Permet de connaître\nl’objet tenu par l’ennemi.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "The Pokémon can check\nthe foe’s held item.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon can check\nthe foe’s held item.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon can check\nthe foe’s held item.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "wigglytuff"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "sentret"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "furret"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "yanma"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "stantler"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "shuppet"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "banette"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "duskull"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "dusclops"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "yanmega"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "dusknoir"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gothita"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gothorita"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "gothitelle"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "phantump"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "trevenant"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "pumpkaboo-average"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "gourgeist-average"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "noibat"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "noivern"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "pumpkaboo-small"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "pumpkaboo-large"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "pumpkaboo-super"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "gourgeist-small"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "gourgeist-large"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "gourgeist-super"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手の　持ち物を 知ることが　できる。",
+          "kana": "あいての　もちものを しることが　できる。",
+          "en": "The Pokémon can check an opposing Pokémon’s held item.",
+          "fr": "Permet de connaître l’objet tenu par l’ennemi.",
+          "it": "Il Pokémon scopre che strumento ha il nemico.",
+          "de": "Gibt Auskunft über gegnerische Items.",
+          "es": "El Pokémon puede ver el objeto que lleva el rival.",
+          "ko": "상대가 지닌 물건을 알 수 있다."
+        }
       }
     }
   ]

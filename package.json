@@ -18,13 +18,15 @@
   ],
   "author": "not-an-aardvark",
   "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.11.1"
+  },
   "devDependencies": {
     "blob-to-buffer": "^1.2.6",
     "browserify": "^13.0.0",
     "chai": "^3.5.0",
     "dirty-chai": "^1.2.2",
     "eslint": "^2.8.0",
-    "lodash": "^4.11.1",
     "mocha": "^2.4.5"
   }
 }

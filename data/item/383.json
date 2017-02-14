@@ -1,0 +1,41 @@
+{
+  "id": 383,
+  "name": "tm56",
+  "names": {
+    "ja": "わざマシン５６",
+    "kana": "わざマシン５６",
+    "en": "TM56",
+    "fr": "CT56",
+    "it": "MT56",
+    "de": "TM56",
+    "es": "MT56",
+    "ko": "기술머신56",
+    "zh-CN": "招式学习器５６",
+    "zh-TW": "招式學習器５６"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせた　道具を 素早く　投げつけて　攻撃する。 道具で　威力と　効果が　変わる。",
+    "kana": "もたせた　どうぐを すばやく　なげつけて　こうげきする。 どうぐで　いりょくと　こうかが　かわる。",
+    "en": "The user flings its held item at the target to attack. This move’s power and effects depend on the item.",
+    "fr": "Le lanceur envoie l’objet qu’il tient sur l’ennemi. La puissance et les effets dépendent de l’objet.",
+    "it": "Chi la usa lancia il suo strumento addosso al bersaglio. La forza e l’effetto dipendono dallo strumento.",
+    "de": "Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.",
+    "es": "El usuario ataca al objetivo arrojando el objeto que lleve. La potencia y los efectos dependen del objeto arrojado.",
+    "ko": "지니게 한 도구를 재빠르게 내던져서 공격한다. 도구에 따라 위력과 효과가 바뀐다.",
+    "zh-CN": "快速投掷携带的道具进行攻击。 根据道具不同， 威力和效果会改变。",
+    "zh-TW": "快速投擲攜帶的道具進行攻擊。 招式威力和效果會隨著 道具不同而改變。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "持たせた　道具を 素早く　投げつけて　攻撃する。 道具で　威力と　効果が　かわる。",
+          "kana": "どうぐを　なげつけて　こうげきする。 なげる　もちものに　よって　わざの いりょくと　こうかは　かわる。",
+          "it": "Chi la usa lancia il suo strumento addosso al nemico. La forza e l’effetto dipendono dallo strumento.",
+          "ko": "도구를 내던져서 공격한다. 던질 물건에 따라 기술의 위력과 효과가 바뀐다."
+        }
+      }
+    }
+  ]
+}

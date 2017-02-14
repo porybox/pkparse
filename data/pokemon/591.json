@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 54,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "arms"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "モロバレル",
-      "language": "ja"
-    },
-    {
-      "name": "뽀록나",
-      "language": "ko"
-    },
-    {
-      "name": "Gaulet",
-      "language": "fr"
-    },
-    {
-      "name": "Hutsassa",
-      "language": "de"
-    },
-    {
-      "name": "Amoonguss",
-      "language": "es"
-    },
-    {
-      "name": "Amoonguss",
-      "language": "it"
-    },
-    {
-      "name": "Amoonguss",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "モロバレル",
+    "en": "Amoonguss",
+    "fr": "Gaulet",
+    "it": "Amoonguss",
+    "de": "Hutsassa",
+    "es": "Amoonguss",
+    "ko": "뽀록나"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "きのこ",
-      "language": "ja"
-    },
-    {
-      "genus": "버섯",
-      "language": "ko"
-    },
-    {
-      "genus": "Champignon",
-      "language": "fr"
-    },
-    {
-      "genus": "Pilz",
-      "language": "de"
-    },
-    {
-      "genus": "Hongo",
-      "language": "es"
-    },
-    {
-      "genus": "Fungo",
-      "language": "it"
-    },
-    {
-      "genus": "Mushroom",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "きのこ",
+    "en": "Mushroom",
+    "fr": "Champignon",
+    "it": "Fungo",
+    "de": "Pilz",
+    "es": "Hongo",
+    "ko": "버섯"
+  },
   "varieties": [
     {
       "is_default": true,

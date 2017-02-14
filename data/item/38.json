@@ -1,0 +1,38 @@
+{
+  "id": 38,
+  "name": "ether",
+  "names": {
+    "ja": "ピーピーエイド",
+    "kana": "ピーピーエイド",
+    "en": "Ether",
+    "fr": "Huile",
+    "it": "Etere",
+    "de": "Äther",
+    "es": "Éter",
+    "ko": "PP에이드",
+    "zh-CN": "ＰＰ单项小补剂",
+    "zh-TW": "ＰＰ單項小補劑"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンが　覚えている 技のうち　１つの　ＰＰを １０だけ　回復する。",
+    "kana": "ポケモンが　おぼえている わざのうち　１つの　ＰＰを １０だけ　かいふくする。",
+    "en": "This medicine can restore 10 PP to a single selected move that has been learned by a Pokémon.",
+    "fr": "Restaure 10 PP d’une capacité sélectionnée.",
+    "it": "Restituisce un massimo di 10 PP a una mossa a scelta tra quelle conosciute dal Pokémon.",
+    "de": "Füllt die AP einer ausgewählten Attacke eines Pokémon um 10 Punkte auf.",
+    "es": "Restaura 10 PP del movimiento elegido de un Pokémon.",
+    "ko": "포켓몬이 기억하고 있는 기술 중 1개의 PP를 10만큼 회복한다.",
+    "zh-CN": "能让宝可梦学会的 其中１个招式 回复１０ＰＰ。",
+    "zh-TW": "能讓寶可夢已學會的 其中１個招式 回復１０ＰＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "ko": "피피에이드"
+        }
+      }
+    }
+  ]
+}

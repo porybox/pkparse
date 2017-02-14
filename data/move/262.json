@@ -2,36 +2,13 @@
   "id": 262,
   "name": "memento",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} by two [stages]{mechanic:stage}.  User faints.",
-      "short_effect": "Lowers the target's Attack and Special Attack by two stages.  User faints.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Memento",
-      "language": "en"
-    },
-    {
-      "name": "Memento",
-      "language": "it"
-    },
-    {
-      "name": "Legado",
-      "language": "es"
-    },
-    {
-      "name": "Memento-Mori",
-      "language": "de"
-    },
-    {
-      "name": "Souvenir",
-      "language": "fr"
-    },
-    {
-      "name": "추억의선물",
-      "language": "ko"
-    },
-    {
-      "name": "おきみやげ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "おきみやげ",
+    "kana": "おきみやげ",
+    "en": "Memento",
+    "fr": "Souvenir",
+    "it": "Memento",
+    "de": "Memento-Mori",
+    "es": "Legado",
+    "ko": "추억의선물",
+    "zh-CN": "临别礼物",
+    "zh-TW": "臨別禮物"
   },
-  "type": {
-    "name": "dark"
-  }
+  "flavor_text_entries": {
+    "ja": "自分は　ひんしに　なるが　そのかわりに 相手の　攻撃と　特攻を がくっと　さげる。",
+    "kana": "じぶんは　ひんしに　なるが　そのかわりに あいての　こうげきと　とくこうを がくっと　さげる。",
+    "en": "The user faints when using this move. In return, this harshly lowers the target’s Attack and Sp. Atk stats.",
+    "fr": "Le lanceur est mis K.O., mais l’Attaque et l’Attaque Spéciale de l’ennemi baissent beaucoup.",
+    "it": "Chi la usa va KO. Tuttavia, riduce di molto l’Attacco e l’Attacco Speciale del bersaglio.",
+    "de": "Der Anwender wird besiegt. Gleichzeitig werden der Angriff und Spezial-Angriff des Zieles stark gesenkt.",
+    "es": "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo.",
+    "ko": "자신은 기절하게 되지만 그 대신 상대의 공격과 특수공격을 크게 떨어뜨린다.",
+    "zh-CN": "虽然会使自己陷入濒死， 但是能够大幅降低 对手的攻击和特攻。",
+    "zh-TW": "雖然自己會陷入瀕死， 但可以大幅降低 對手的攻擊和特攻。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark",
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Der Anwender wird besiegt und senkt den Angriffs-Wert und den Spezial-Angriff des Zieles stark."
+        }
+      }
+    }
+  ]
 }

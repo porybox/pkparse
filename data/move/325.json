@@ -2,48 +2,13 @@
   "id": 325,
   "name": "shadow-punch",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.",
-      "short_effect": "Never misses.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Hits Pokémon under the effects of []{move:dig} and []{move:fly}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -55,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Shadow Punch",
-      "language": "en"
-    },
-    {
-      "name": "Pugnodombra",
-      "language": "it"
-    },
-    {
-      "name": "Puño Sombra",
-      "language": "es"
-    },
-    {
-      "name": "Finsterfaust",
-      "language": "de"
-    },
-    {
-      "name": "Poing Ombre",
-      "language": "fr"
-    },
-    {
-      "name": "섀도펀치",
-      "language": "ko"
-    },
-    {
-      "name": "シャドーパンチ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "シャドーパンチ",
+    "kana": "シャドーパンチ",
+    "en": "Shadow Punch",
+    "fr": "Poing Ombre",
+    "it": "Pugnodombra",
+    "de": "Finsterfaust",
+    "es": "Puño Sombra",
+    "ko": "섀도펀치",
+    "zh-CN": "暗影拳",
+    "zh-TW": "暗影拳"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "影に　まぎれて　パンチを　くりだす。 攻撃は　必ず　命中する。",
+    "kana": "かげに　まぎれて　パンチを　くりだす。 こうげきは　かならず　めいちゅう　する。",
+    "en": "The user throws a punch from the shadows. This attack never misses.",
+    "fr": "Le lanceur surgit des ombres et donne un coup de poing. N’échoue jamais.",
+    "it": "Il bersaglio riceve un pugno proveniente dalle tenebre. Questa mossa è infallibile.",
+    "de": "Angriff mit der Faust aus dem Schattenreich. Ausweichen unmöglich.",
+    "es": "Puñetazo ineludible procedente de las sombras.",
+    "ko": "그림자에 섞여 펀치를 날린다. 공격은 반드시 명중한다.",
+    "zh-CN": "使出混影之拳。 攻击必定会命中。",
+    "zh-TW": "暗藏在陰影之中出拳。 攻擊必定會命中。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost"
 }

@@ -1,0 +1,50 @@
+{
+  "id": 664,
+  "name": "sparkling-aria",
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "power": 90,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "うたかたのアリア",
+    "kana": "うたかたのアリア",
+    "en": "Sparkling Aria",
+    "fr": "Aria de l’Écume",
+    "it": "Canto Effimero",
+    "de": "Schaumserenade",
+    "es": "Aria Burbuja",
+    "ko": "물거품아리아",
+    "zh-CN": "泡影的咏叹调",
+    "zh-TW": "泡影的詠歎調"
+  },
+  "flavor_text_entries": {
+    "ja": "歌うことによって　たくさんの バルーンを　放出する。 技を　受けると　やけどが　治る。",
+    "kana": "うたうことによって　たくさんの バルーンを　ほうしゅつする。 わざを　うけると　やけどが　なおる。",
+    "en": "The user bursts into song, emitting many bubbles. Any Pokémon suffering from a burn will be healed by the touch of these bubbles.",
+    "fr": "Le lanceur émet plusieurs bulles en chantant. Soigne les brûlures des Pokémon touchés par ces bulles.",
+    "it": "Chi la usa si mette a cantare emettendo tanti palloncini d’acqua. I Pokémon che subiscono danni da questa mossa guariscono dalle scottature.",
+    "de": "Durch Gesang erzeugte Blasen werden auf das Ziel geschleudert. Alle Pokémon, die dadurch Schaden erleiden, werden auch von Verbrennungen geheilt.",
+    "es": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño.",
+    "ko": "노래 부르는 것으로 많은 벌룬을 방출한다. 기술에 맞으면 화상이 낫는다.",
+    "zh-CN": "随着唱歌会放出很多气球。 受到此招式攻击时， 灼伤会被治愈。",
+    "zh-TW": "隨著歌聲放出許多水球。 受此招式攻擊時， 灼傷會被治癒。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "water"
+}

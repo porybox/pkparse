@@ -1,0 +1,46 @@
+{
+  "id": 730,
+  "name": "primarina",
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "water1",
+    "ground"
+  ],
+  "color": "blue",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "アシレーヌ",
+    "en": "Primarina",
+    "fr": "Oratoria",
+    "it": "Primarina",
+    "de": "Primarene",
+    "es": "Primarina",
+    "ko": "누리레느"
+  },
+  "genera": {
+    "ja": "ソリスト",
+    "en": "Soloist",
+    "fr": "Soliste",
+    "it": "Solista",
+    "de": "Solist",
+    "es": "Solista",
+    "ko": "솔리스트"
+  },
+  "types": [
+    "water",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 80,
+    "attack": 74,
+    "defense": 74,
+    "special-attack": 126,
+    "special-defense": 116,
+    "speed": 60
+  }
+}

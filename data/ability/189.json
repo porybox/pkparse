@@ -1,0 +1,41 @@
+{
+  "id": 189,
+  "name": "primordial-sea",
+  "names": {
+    "ja": "はじまりのうみ",
+    "kana": "はじまりのうみ",
+    "en": "Primordial Sea",
+    "fr": "Mer Primaire",
+    "it": "Mare Primordiale",
+    "de": "Urmeer",
+    "es": "Mar del Albor",
+    "ko": "시작의바다",
+    "zh-CN": "始源之海",
+    "zh-TW": "始源之海"
+  },
+  "flavor_text_entries": {
+    "ja": "ほのおタイプの　攻撃を 受けない　天気にする。",
+    "kana": "ほのおタイプの　こうげきを うけない　てんきにする。",
+    "en": "The Pokémon changes the weather to nullify Fire-type attacks.",
+    "fr": "Altère les conditions météo et rend inefficaces les attaques de type Feu.",
+    "it": "Crea un clima che rende inefficaci gli attacchi di tipo Fuoco.",
+    "de": "Ändert das Wetter, um Feuer-Attacken wirkungslos zu machen.",
+    "es": "Altera el clima para anular los ataques de tipo Fuego.",
+    "ko": "불꽃타입의 공격을 받지 않는 날씨로 만든다.",
+    "zh-CN": "变为不会受到 火属性攻击的天气。",
+    "zh-TW": "變為讓火屬性攻擊 失效的天氣。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "Affects weather and nullifies any Fire-type attacks.",
+          "fr": "Altère les conditions météo et rend inefficaces les attaques Feu.",
+          "it": "Crea un clima che rende inefficaci   gli attacchi di tipo Fuoco.",
+          "de": "Ändert das Wetter. Unterbindet direkte Feuer-Attacken."
+        }
+      }
+    }
+  ]
+}

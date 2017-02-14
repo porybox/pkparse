@@ -2,34 +2,13 @@
   "id": 580,
   "name": "grassy-terrain",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "For five turns, heals all Pokémon on the ground for 1/16 their max HP each turn and strengthens their []{type:grass} moves to 1.5× their power.\n\nChanges []{move:nature-power} to []{move:energy-ball}.",
-      "short_effect": "For five turns, heals all Pokémon on the ground for 1/16 max HP each turn and strengthens their []{type:grass} moves to 1.5× their power.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Grassy Terrain",
-      "language": "en"
-    },
-    {
-      "name": "Campo Erboso",
-      "language": "it"
-    },
-    {
-      "name": "Campo de Hierba",
-      "language": "es"
-    },
-    {
-      "name": "Grasfeld",
-      "language": "de"
-    },
-    {
-      "name": "Champ Herbu",
-      "language": "fr"
-    },
-    {
-      "name": "그래스필드",
-      "language": "ko"
-    },
-    {
-      "name": "グラスフィールド",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "グラスフィールド",
+    "kana": "グラスフィールド",
+    "en": "Grassy Terrain",
+    "fr": "Champ Herbu",
+    "it": "Campo Erboso",
+    "de": "Grasfeld",
+    "es": "Campo de Hierba",
+    "ko": "그래스필드",
+    "zh-CN": "青草场地",
+    "zh-TW": "青草場地"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "５ターンの　間　グラスフィールドにする。 地面にいると　毎ターン　回復する。 くさタイプの　威力が　あがる。",
+    "kana": "５ターンのあいだ　グラスフィールドにする。 じめんにいると　まいターン　かいふくする。 くさタイプの　いりょくが　あがる。",
+    "en": "The user turns the ground to grass for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass type-moves.",
+    "fr": "Pendant cinq tours, les Pokémon au sol récupèrent quelques PV à chaque tour et la puissance des capacités de type Plante augmente.",
+    "it": "Per cinque turni il terreno entra nello stato di Campo Erboso: i Pokémon a terra recuperano PS e la potenza delle mosse di tipo Erba aumenta.",
+    "de": "Regeneriert fünf Runden lang in jeder neuen Runde ein paar KP aller Pokémon, die den Boden berühren. Erhöht die Stärke von Pflanzen-Attacken.",
+    "es": "Durante cinco turnos, se potencian los movimientos de tipo Planta y los Pokémon que están en contacto con el suelo recuperan PS en cada turno.",
+    "ko": "5턴 동안 그래스필드로 만든다. 땅에 있으면 매 턴 회복한다. 풀타입의 위력이 올라간다.",
+    "zh-CN": "在５回合内变成青草场地。 地面上的宝可梦每回合都能回复。 草属性的招式威力还会提高。",
+    "zh-TW": "在５回合內將腳下變成青草場地。 地面上的寶可夢每回合都會回復ＨＰ。 草屬性招式的威力會提高。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "５ターンの　あいだ　足元を グラスフィールドにする。地面にいる ポケモンは　毎ターン　回復する。",
+          "kana": "５ターンの　あいだ　あしもとを グラスフィールドにする。　じめんにいる ポケモンは　まいターン　かいふくする。",
+          "en": "The user turns the ground under everyone’s feet to grass for five turns. This restores the HP of Pokémon on the ground a little every turn.",
+          "fr": "Pendant cinq tours, le terrain aux pieds du lanceur se transforme en gazon. Les Pokémon au sol récupèrent des PV à chaque tour.",
+          "it": "Per cinque turni trasforma il terreno di lotta in un campo erboso, facendo recuperare PS ai Pokémon a terra in ogni turno.",
+          "de": "Verwandelt den Untergrund fünf Runden lang in ein Grasfeld und heilt in jeder neuen Runde alle Pokémon, die den Boden berühren.",
+          "es": "Convierte el terreno de combate en un campo de hierba durante cinco turnos. Los Pokémon que estén en el suelo recuperan PS en cada turno.",
+          "ko": "5턴 동안 발밑을 그래스필드로 만든다. 땅에 있는 포켓몬은 매 턴 회복한다."
+        }
+      }
+    }
+  ]
 }

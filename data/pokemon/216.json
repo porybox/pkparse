@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 132,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ヒメグマ",
-      "language": "ja"
-    },
-    {
-      "name": "Himeguma",
-      "language": "roomaji"
-    },
-    {
-      "name": "깜지곰",
-      "language": "ko"
-    },
-    {
-      "name": "熊寶寶",
-      "language": "zh"
-    },
-    {
-      "name": "Teddiursa",
-      "language": "fr"
-    },
-    {
-      "name": "Teddiursa",
-      "language": "de"
-    },
-    {
-      "name": "Teddiursa",
-      "language": "es"
-    },
-    {
-      "name": "Teddiursa",
-      "language": "it"
-    },
-    {
-      "name": "Teddiursa",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒメグマ",
+    "en": "Teddiursa",
+    "fr": "Teddiursa",
+    "it": "Teddiursa",
+    "de": "Teddiursa",
+    "es": "Teddiursa",
+    "ko": "깜지곰"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こぐま",
-      "language": "ja"
-    },
-    {
-      "genus": "아기곰",
-      "language": "ko"
-    },
-    {
-      "genus": "Mini Ours",
-      "language": "fr"
-    },
-    {
-      "genus": "Kleinbär",
-      "language": "de"
-    },
-    {
-      "genus": "Osito",
-      "language": "es"
-    },
-    {
-      "genus": "Orsetto",
-      "language": "it"
-    },
-    {
-      "genus": "Little Bear",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こぐま",
+    "en": "Little Bear",
+    "fr": "Mini Ours",
+    "it": "Orsetto",
+    "de": "Kleinbär",
+    "es": "Osito",
+    "ko": "아기곰"
+  },
   "varieties": [
     {
       "is_default": true,

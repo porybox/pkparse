@@ -2,36 +2,13 @@
   "id": 375,
   "name": "psycho-shift",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "If the user has a [major status effect]{mechanic:major-status-effect} and the target does not, the user's status is transferred to the target.",
-      "short_effect": "Transfers the user's major status effect to the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Psycho Shift",
-      "language": "en"
-    },
-    {
-      "name": "Psicotrasfer",
-      "language": "it"
-    },
-    {
-      "name": "Psicocambio",
-      "language": "es"
-    },
-    {
-      "name": "Psybann",
-      "language": "de"
-    },
-    {
-      "name": "Échange Psy",
-      "language": "fr"
-    },
-    {
-      "name": "사이코시프트",
-      "language": "ko"
-    },
-    {
-      "name": "サイコシフト",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "サイコシフト",
+    "kana": "サイコシフト",
+    "en": "Psycho Shift",
+    "fr": "Échange Psy",
+    "it": "Psicotrasfer",
+    "de": "Psybann",
+    "es": "Psicocambio",
+    "ko": "사이코시프트",
+    "zh-CN": "精神转移",
+    "zh-TW": "精神轉移"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "超能力で　暗示を　かけて 自分の　受けている　状態異常を 相手に　うつす。",
+    "kana": "ちょうのうりょくで　あんじを　かけて じぶんの　うけている　じょうたい いじょうを　あいてに　うつす。",
+    "en": "Using its psychic power of suggestion, the user transfers its status conditions to the target.",
+    "fr": "Le lanceur transfère ses problèmes de statut à l’ennemi grâce à son pouvoir de suggestion.",
+    "it": "Con la forza psichica e la suggestione, chi la usa può trasferire i suoi problemi di stato al Pokémon colpito.",
+    "de": "Anwender nutzt seine Suggestivkräfte, um eigene Statusprobleme auf das Ziel zu transferieren.",
+    "es": "Usa su poder mental para transferir al objetivo sus problemas de estado.",
+    "ko": "초능력으로 암시를 걸어서 자신에게 걸려 있는 상태 이상을 상대에게 옮긴다.",
+    "zh-CN": "利用超能力施以暗示， 从而将自己受到的异常状态 转移给对手。",
+    "zh-TW": "用超能力施加暗示， 將自己的異常狀態 轉移給對手。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

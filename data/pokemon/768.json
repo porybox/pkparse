@@ -1,0 +1,46 @@
+{
+  "id": 768,
+  "name": "golisopod",
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug",
+    "water3"
+  ],
+  "color": "gray",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "グソクムシャ",
+    "en": "Golisopod",
+    "fr": "Sarmuraï",
+    "it": "Golisopod",
+    "de": "Tectass",
+    "es": "Golisopod",
+    "ko": "갑주무사"
+  },
+  "genera": {
+    "ja": "そうこう",
+    "en": "Hard Scale",
+    "fr": "Blindé",
+    "it": "Blindato",
+    "de": "Rüstung",
+    "es": "Blindaje",
+    "ko": "장갑"
+  },
+  "types": [
+    "bug",
+    "water"
+  ],
+  "base_stats": {
+    "hp": 75,
+    "attack": 125,
+    "defense": 140,
+    "special-attack": 60,
+    "special-defense": 90,
+    "speed": 40
+  }
+}

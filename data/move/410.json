@@ -2,36 +2,13 @@
   "id": 410,
   "name": "vacuum-wave",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 30,
   "priority": 1,
   "power": 40,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Vacuum Wave",
-      "language": "en"
-    },
-    {
-      "name": "Vuotonda",
-      "language": "it"
-    },
-    {
-      "name": "Onda Vacío",
-      "language": "es"
-    },
-    {
-      "name": "Vakuumwelle",
-      "language": "de"
-    },
-    {
-      "name": "Onde Vide",
-      "language": "fr"
-    },
-    {
-      "name": "진공파",
-      "language": "ko"
-    },
-    {
-      "name": "しんくうは",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "しんくうは",
+    "kana": "しんくうは",
+    "en": "Vacuum Wave",
+    "fr": "Onde Vide",
+    "it": "Vuotonda",
+    "de": "Vakuumwelle",
+    "es": "Onda Vacío",
+    "ko": "진공파",
+    "zh-CN": "真空波",
+    "zh-TW": "真空波"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "こぶしを　ふって 真空の　波を　まきおこす。 必ず　先制攻撃できる。",
+    "kana": "こぶしを　ふって しんくうの　なみを　まきおこす。 かならず　せんせい　こうげき　できる。",
+    "en": "The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",
+    "fr": "Le lanceur agite son poing pour projeter une onde de vide. Frappe en priorité.",
+    "it": "Chi la usa rotea i pugni per lanciare un’onda di vuoto assoluto verso il bersaglio. Questa mossa ha priorità alta.",
+    "de": "Ein Faustwirbel sendet eine Vakuumwelle auf das Ziel. Hohe Erstschlagquote.",
+    "es": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento tiene prioridad alta.",
+    "ko": "주먹을 흔들어 진공의 파도를 일으킨다. 반드시 선제공격을 할 수 있다.",
+    "zh-CN": "挥动拳头， 掀起真空波。 必定能够先制攻击。",
+    "zh-TW": "揮動拳頭， 捲起真空波。 必定能夠發動先制攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur agite son poing pour projeter une onde de vide. Frappe toujours en premier.",
+          "it": "Chi la usa rotea i pugni per lanciare un’onda di vuoto assoluto verso il bersaglio e attacca per primo.",
+          "de": "Ein Faustwirbel sendet eine Vakuumwelle auf das Ziel. Erstschlaggarantie.",
+          "es": "Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento siempre va primero."
+        }
+      }
+    }
+  ]
 }

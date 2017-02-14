@@ -1,0 +1,39 @@
+{
+  "id": 56,
+  "name": "dire-hit",
+  "names": {
+    "ja": "クリティカット",
+    "kana": "クリティカット",
+    "en": "Dire Hit",
+    "fr": "Muscle +",
+    "it": "Supercolpo",
+    "de": "Angriffplus",
+    "es": "Directo",
+    "ko": "크리티컬커터",
+    "zh-CN": "要害攻击",
+    "zh-TW": "要害攻擊"
+  },
+  "flavor_text_entries": {
+    "ja": "急所率が　大きく　あがる。 １度しか　使うことが　できない。 ひっこめると　元に　戻る。",
+    "kana": "きゅうしょりつが　おおきく　あがる。 いちどしか　つかうことが　できない。 ひっこめると　もとに　もどる。",
+    "en": "An item that raises the critical-hit ratio greatly. It can be used only once and wears off if the Pokémon is withdrawn.",
+    "fr": "Augmente fortement le taux de critique. Utilisable une seule fois. L’effet disparaît si le Pokémon est retiré.",
+    "it": "Aumenta la probabilità di sferrare brutti colpi. Si può usare una sola volta e l’effetto svanisce se il Pokémon è sostituito.",
+    "de": "Hebt einmalig die Volltrefferquote des Pokémon im Kampf stark an. Die Wirkung endet mit dem Austausch des Pokémon.",
+    "es": "Aumenta el índice de golpe crítico en combate. Solo se puede usar una vez y, al cambiar de Pokémon, el efecto desaparece.",
+    "ko": "급소 명중률이 크게 올라간다. 한 번밖에 쓸 수 없다. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다.",
+    "zh-CN": "击中要害的几率会大幅提高。 只能使用１次。 离场后，效果便会消失。",
+    "zh-TW": "擊中要害的機率會大大提高。 只能使用１次。 離場後，效果便會消失。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Augmente fortement le taux de critiques. Utilisable une seule fois. L’effet disparaît si le Pokémon se retire.",
+          "es": "Aumenta el índice de golpe crítico en combate. Al cambiar de Pokémon, el efecto desaparece."
+        }
+      }
+    }
+  ]
+}

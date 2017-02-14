@@ -1,0 +1,60 @@
+{
+  "id": 619,
+  "name": "tm94",
+  "names": {
+    "ja": "わざマシン９４",
+    "kana": "わざマシン９４",
+    "en": "TM94",
+    "fr": "CT94",
+    "it": "MT94",
+    "de": "TM94",
+    "es": "MT94",
+    "ko": "기술머신94",
+    "zh-CN": "招式学习器９４",
+    "zh-TW": "招式學習器９４"
+  },
+  "flavor_text_entries": {
+    "ja": "大きな　波で　自分の 周りに　いるものを　攻撃する。",
+    "kana": "おおきな　なみで　じぶんの まわりに　いるものを　こうげきする。",
+    "en": "The user attacks everything around it by swamping its surroundings with a giant wave.",
+    "fr": "Une énorme vague s’abat sur le champ de bataille et inflige des dégâts à tous les Pokémon autour du lanceur.",
+    "it": "Un’onda enorme sommerge il campo di lotta, colpendo tutti i Pokémon intorno a chi la scatena.",
+    "de": "Anwender greift mit einer gewaltigen Welle alle Pokémon in seiner Umgebung an.",
+    "es": "Inunda el terreno de combate con una ola gigante.",
+    "ko": "큰 파도로 자신의 주위에 있는 포켓몬을 공격한다.",
+    "zh-CN": "利用大浪 攻击自己周围所有的宝可梦。",
+    "zh-TW": "使用大浪 攻擊自己周圍所有的寶可夢。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "使う場所で　追加効果が 変化する攻撃。 ひみつきちを　つくる　ことも　できる。",
+          "kana": "つかう　ばしょで　ついかこうか　が へんかする　こうげき。ひみつきちを つくる　ことも　できる。",
+          "en": "An attack whose additional effects depend upon where it was used. Can also be used to make a Secret Base.",
+          "fr": "Les effets de cette attaque varient en fonction de l’environnement. Permet aussi de créer sa propre Base Secrète.",
+          "it": "Questo attacco può avere un effetto aggiuntivo, che cambia a seconda del luogo in cui è usato. Permette anche di costruire Basi Segrete.",
+          "de": "Angriff, der abhängig vom Anwendungsort einen unterschiedlichen Zusatz-Effekt hat. Auch zum Einrichten von Geheimbasen einsetzbar.",
+          "es": "Ataque cuyos efectos secundarios varían según el entorno de combate. También puede utilizarse para construir una Base Secreta.",
+          "ko": "사용하는 장소에 따라 추가 효과가 변화하는 공격이다. 비밀기지를 만들 수도 있다."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "パンチで　攻撃する。相手の 防御を　さげる　ことが　ある。 岩を　砕くことも　ある。",
+          "kana": "パンチで　こうげき。　あいての ぼうぎょを　さげる　ことが　ある。 いわを　くだくことも　できる。",
+          "en": "The user attacks with a punch. This may also lower the target’s Defense stat. This move can also shatter rocks in the field.",
+          "fr": "Porte un coup de poing à l’ennemi qui peut baisser sa Défense. Peut aussi briser des rochers fissurés.",
+          "it": "Chi la usa colpisce il nemico con un pugno in grado di frantumare anche la roccia. Può anche ridurne la Difesa.",
+          "de": "Der Anwender greift mit einem Hieb an, der den Verteidigungs-Wert des Zieles senken kann. Damit können auch Steine zerschlagen werden.",
+          "es": "Ataque con los puños. Puede bajar la Defensa del objetivo. Puede romper rocas fuera del combate.",
+          "ko": "펀치로 공격한다. 상대의 방어를 떨어뜨릴 때가 있으며 바위를 깰 수도 있다."
+        }
+      }
+    }
+  ]
+}

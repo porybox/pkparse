@@ -1,0 +1,50 @@
+{
+  "id": 653,
+  "name": "devastating-drake",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "アルティメットドラゴンバーン",
+    "kana": "アルティメットドラゴンバーン",
+    "en": "Devastating Drake",
+    "fr": "Chaos Draconique",
+    "it": "Dragoschianto Finale",
+    "de": "Drastisches Drachendröhnen",
+    "es": "Dracoaliento Devastador",
+    "ko": "얼티메이트드래곤번",
+    "zh-CN": "究极巨龙震天地",
+    "zh-TW": "究極巨龍震天地"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dragon"
+}

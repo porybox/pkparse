@@ -1,0 +1,38 @@
+{
+  "id": 603,
+  "name": "x-attack-3",
+  "names": {
+    "ja": "プラスパワー３",
+    "kana": "プラスパワー３",
+    "en": "X Attack 3",
+    "fr": "Attaque 3",
+    "it": "Attacco X-3",
+    "de": "X-Angriff3",
+    "es": "Ataque X 3",
+    "ko": "플러스파워3",
+    "zh-CN": "力量强化３",
+    "zh-TW": "力量強化３"
+  },
+  "flavor_text_entries": {
+    "ja": "戦闘中の　ポケモンの 攻撃を　かなり　あげる。 ひっこめると　元に　戻る。",
+    "kana": "せんとうちゅうの　ポケモンの こうげきを　かなり　あげる。 ひっこめると　もとに　もどる。",
+    "en": "It drastically raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.",
+    "fr": "Augmente sensiblement l’Attaque pendant un combat. L’effet s’estompe si le Pokémon est retiré.",
+    "it": "Aumenta moltissimo l’Attacco di un Pokémon in una lotta. L’effetto svanisce se il Pokémon è sostituito.",
+    "de": "Hebt den Angriffs-Wert eines Pokémon im Kampf stark an. Die Wirkung endet mit dem Austausch des Pokémon.",
+    "es": "Aumenta bastante el Ataque en combate. Al cambiar de Pokémon, el efecto desaparece.",
+    "ko": "배틀 중인 포켓몬의 공격을 상당히 올린다. 포켓몬을 볼에 넣어버리면 원래대로 되돌아간다.",
+    "zh-CN": "能大量提高战斗中 宝可梦的攻击。 离场后，效果便会消失。",
+    "zh-TW": "能大幅提高戰鬥中 寶可夢的攻擊。 離場後，效果便會復原。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Augmente sensiblement l’Attaque pendant un combat. L’effet s’estompe si le Pokémon se retire."
+        }
+      }
+    }
+  ]
+}

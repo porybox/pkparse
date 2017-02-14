@@ -1,0 +1,55 @@
+{
+  "id": 705,
+  "name": "fleur-cannon",
+  "accuracy": 90,
+  "pp": 5,
+  "priority": 0,
+  "power": 130,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage+raise",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 100
+  },
+  "names": {
+    "ja": "フルールカノン",
+    "kana": "フルールカノン",
+    "en": "Fleur Cannon",
+    "fr": "Canon Floral",
+    "it": "Cannonfiore",
+    "de": "Kanonenbouquet",
+    "es": "Cañón Floral",
+    "ko": "플뢰르캐논",
+    "zh-CN": "花朵加农炮",
+    "zh-TW": "花朵加農炮"
+  },
+  "flavor_text_entries": {
+    "ja": "強力な　ビームを　放ったあと 自分の　特攻が　がくっと　さがる。",
+    "kana": "きょうりょくな　ビームを　はなったあと じぶんの　とくこうが　がくっと　さがる。",
+    "en": "The user unleashes a strong beam. The attack’s recoil harshly lowers the user’s Sp. Atk stat.",
+    "fr": "Envoie un rayon laser dévastateur. Baisse beaucoup l’Attaque Spéciale du lanceur.",
+    "it": "Colpisce il bersaglio con un potente raggio, ma riduce di molto l’Attacco Speciale di chi la usa.",
+    "de": "Der Anwender greift das Ziel mit einem gewaltigen Strahl an. Sein eigener Spezial-Angriff sinkt dadurch stark.",
+    "es": "El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho.",
+    "ko": "강력한 빔을 발산한 후 자신의 특수공격이 크게 떨어진다.",
+    "zh-CN": "放出强力光束后， 自己的特攻会大幅降低。",
+    "zh-TW": "放出強力光束後， 自己的特攻會大幅降低。"
+  },
+  "stat_changes": [
+    {
+      "change": -2,
+      "stat": "special-attack"
+    }
+  ],
+  "target": "selected-pokemon",
+  "type": "fairy"
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 48,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "fairy"
-    }
+    "plant",
+    "fairy"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "ball"
   },
@@ -58,68 +50,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "モンメン",
-      "language": "ja"
-    },
-    {
-      "name": "소미안",
-      "language": "ko"
-    },
-    {
-      "name": "Doudouvet",
-      "language": "fr"
-    },
-    {
-      "name": "Waumboll",
-      "language": "de"
-    },
-    {
-      "name": "Cottonee",
-      "language": "es"
-    },
-    {
-      "name": "Cottonee",
-      "language": "it"
-    },
-    {
-      "name": "Cottonee",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "モンメン",
+    "en": "Cottonee",
+    "fr": "Doudouvet",
+    "it": "Cottonee",
+    "de": "Waumboll",
+    "es": "Cottonee",
+    "ko": "소미안"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "わたたま",
-      "language": "ja"
-    },
-    {
-      "genus": "솜뭉치",
-      "language": "ko"
-    },
-    {
-      "genus": "Boule Coton",
-      "language": "fr"
-    },
-    {
-      "genus": "Wattebausch",
-      "language": "de"
-    },
-    {
-      "genus": "Bolalgodón",
-      "language": "es"
-    },
-    {
-      "genus": "Cotonpalla",
-      "language": "it"
-    },
-    {
-      "genus": "Cotton Puff",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "わたたま",
+    "en": "Cotton Puff",
+    "fr": "Boule Coton",
+    "it": "Cotonpalla",
+    "de": "Wattebausch",
+    "es": "Bolalgodón",
+    "ko": "솜뭉치"
+  },
   "varieties": [
     {
       "is_default": true,

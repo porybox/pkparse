@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 28,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "water2"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -62,44 +54,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ホエルオー",
-      "language": "ja"
-    },
-    {
-      "name": "Whaloh",
-      "language": "roomaji"
-    },
-    {
-      "name": "고래왕",
-      "language": "ko"
-    },
-    {
-      "name": "吼鯨王",
-      "language": "zh"
-    },
-    {
-      "name": "Wailord",
-      "language": "fr"
-    },
-    {
-      "name": "Wailord",
-      "language": "de"
-    },
-    {
-      "name": "Wailord",
-      "language": "es"
-    },
-    {
-      "name": "Wailord",
-      "language": "it"
-    },
-    {
-      "name": "Wailord",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ホエルオー",
+    "en": "Wailord",
+    "fr": "Wailord",
+    "it": "Wailord",
+    "de": "Wailord",
+    "es": "Wailord",
+    "ko": "고래왕"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -110,36 +73,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "うきくじら",
-      "language": "ja"
-    },
-    {
-      "genus": "뜸고래",
-      "language": "ko"
-    },
-    {
-      "genus": "Cachabouée",
-      "language": "fr"
-    },
-    {
-      "genus": "Flutwal",
-      "language": "de"
-    },
-    {
-      "genus": "Ballenaflot",
-      "language": "es"
-    },
-    {
-      "genus": "Megabalena",
-      "language": "it"
-    },
-    {
-      "genus": "Float Whale",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "うきくじら",
+    "en": "Float Whale",
+    "fr": "Cachabouée",
+    "it": "Megabalena",
+    "de": "Flutwal",
+    "es": "Ballenaflot",
+    "ko": "뜸고래"
+  },
   "varieties": [
     {
       "is_default": true,

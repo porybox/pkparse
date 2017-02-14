@@ -2,34 +2,13 @@
   "id": 611,
   "name": "infestation",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 20,
   "priority": 0,
   "power": 20,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the [field]{mechanic:field}, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\n[]{move:rapid-spin} cancels this effect.",
-      "short_effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "trap"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "trap",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 5,
@@ -41,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Infestation",
-      "language": "en"
-    },
-    {
-      "name": "Assillo",
-      "language": "it"
-    },
-    {
-      "name": "Acoso",
-      "language": "es"
-    },
-    {
-      "name": "Plage",
-      "language": "de"
-    },
-    {
-      "name": "Harcèlement",
-      "language": "fr"
-    },
-    {
-      "name": "엉겨붙기",
-      "language": "ko"
-    },
-    {
-      "name": "まとわりつく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "まとわりつく",
+    "kana": "まとわりつく",
+    "en": "Infestation",
+    "fr": "Harcèlement",
+    "it": "Assillo",
+    "de": "Plage",
+    "es": "Acoso",
+    "ko": "엉겨붙기",
+    "zh-CN": "死缠烂打",
+    "zh-TW": "死纏爛打"
   },
-  "type": {
-    "name": "bug"
-  }
+  "flavor_text_entries": {
+    "ja": "４ー５ターンの　間　相手に まとわりついて　攻撃する。 そのあいだ　相手は　逃げられない。",
+    "kana": "４ー５ターンの　あいだ　あいてに まとわりついて　こうげきする。 そのあいだ　あいては　にげられない。",
+    "en": "The target is infested and attacked for four to five turns. The target can’t flee during this time.",
+    "fr": "Cette attaque perdure pendant quatre à cinq tours. L’ennemi ne peut pas fuir au cours de cette période.",
+    "it": "Chi la usa lancia un attacco che tormenta il bersaglio per quattro o cinque turni, durante i quali gli impedisce di fuggire.",
+    "de": "Der Anwender fällt vier bis fünf Runden lang wie eine Plage über das Ziel her und greift es an. In diesem Zeitraum kann es nicht fliehen.",
+    "es": "Hostiga al objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.",
+    "ko": "4-5턴 동안 상대에게 엉겨 붙어서 공격한다. 그동안 상대는 도망갈 수 없다.",
+    "zh-CN": "在４～５回合内 死缠烂打地进行攻击。 在此期间对手将无法逃走。",
+    "zh-TW": "在４～５回合內 死纏爛打地進行攻擊。 在此期間對手將無法逃走。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "４ー５ターンの　あいだ　相手に まとわりついて　攻撃する。 そのあいだ　相手は　逃げられない。",
+          "es": "Hostiga al Pokémon objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto."
+        }
+      }
+    }
+  ]
 }

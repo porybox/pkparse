@@ -2,49 +2,13 @@
   "id": 79,
   "name": "sleep-powder",
   "accuracy": 75,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sweet-scent"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Puts the target to [sleep]{mechanic:sleep}.",
-      "short_effect": "Puts the target to sleep.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "sleep"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "sleep",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sleep Powder",
-      "language": "en"
-    },
-    {
-      "name": "Sonnifero",
-      "language": "it"
-    },
-    {
-      "name": "Somnífero",
-      "language": "es"
-    },
-    {
-      "name": "Schlafpuder",
-      "language": "de"
-    },
-    {
-      "name": "Poudre Dodo",
-      "language": "fr"
-    },
-    {
-      "name": "수면가루",
-      "language": "ko"
-    },
-    {
-      "name": "ねむりごな",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ねむりごな",
+    "kana": "ねむりごな",
+    "en": "Sleep Powder",
+    "fr": "Poudre Dodo",
+    "it": "Sonnifero",
+    "de": "Schlafpuder",
+    "es": "Somnífero",
+    "ko": "수면가루",
+    "zh-CN": "催眠粉",
+    "zh-TW": "催眠粉"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "眠くなる　粉を たくさん　ふりまいて 相手を　眠り状態に　する。",
+    "kana": "ねむくなる　こなを たくさん　ふりまいて あいてを　ねむり　じょうたいに　する。",
+    "en": "The user scatters a big cloud of sleep-inducing dust around the target.",
+    "fr": "Le lanceur répand une poudre soporifique qui endort la cible.",
+    "it": "Investe il bersaglio con una grande nuvola di polvere soporifera che lo fa addormentare.",
+    "de": "Verstreut Schlafpuder, der das Ziel eventuell in Schlaf versetzt.",
+    "es": "Esparce polvo que duerme al objetivo.",
+    "ko": "잠이 오는 가루를 많이 흩뿌려서 상대를 잠듦 상태로 만든다.",
+    "zh-CN": "撒出催眠粉， 从而让对手陷入睡眠状态。",
+    "zh-TW": "撒出大量令人想睡的粉末， 讓對手陷入睡眠狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass"
 }

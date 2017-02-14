@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 88,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "bug-wings"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "メガヤンマ",
-      "language": "ja"
-    },
-    {
-      "name": "Megayanma",
-      "language": "roomaji"
-    },
-    {
-      "name": "메가자리",
-      "language": "ko"
-    },
-    {
-      "name": "梅卡陽瑪",
-      "language": "zh"
-    },
-    {
-      "name": "Yanmega",
-      "language": "fr"
-    },
-    {
-      "name": "Yanmega",
-      "language": "de"
-    },
-    {
-      "name": "Yanmega",
-      "language": "es"
-    },
-    {
-      "name": "Yanmega",
-      "language": "it"
-    },
-    {
-      "name": "Yanmega",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "メガヤンマ",
+    "en": "Yanmega",
+    "fr": "Yanmega",
+    "it": "Yanmega",
+    "de": "Yanmega",
+    "es": "Yanmega",
+    "ko": "메가자리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "オニトンボ",
-      "language": "ja"
-    },
-    {
-      "genus": "깨비잠자리",
-      "language": "ko"
-    },
-    {
-      "genus": "Libellogre",
-      "language": "fr"
-    },
-    {
-      "genus": "Agrion",
-      "language": "de"
-    },
-    {
-      "genus": "Libélula",
-      "language": "es"
-    },
-    {
-      "genus": "Libellorco",
-      "language": "it"
-    },
-    {
-      "genus": "Ogre Darner",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "オニトンボ",
+    "en": "Ogre Darner",
+    "fr": "Libellogre",
+    "it": "Libellorco",
+    "de": "Agrion",
+    "es": "Libélula",
+    "ko": "깨비잠자리"
+  },
   "varieties": [
     {
       "is_default": true,

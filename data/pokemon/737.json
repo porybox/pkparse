@@ -1,0 +1,45 @@
+{
+  "id": 737,
+  "name": "charjabug",
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug"
+  ],
+  "color": "green",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "デンヂムシ",
+    "en": "Charjabug",
+    "fr": "Chrysapile",
+    "it": "Charjabug",
+    "de": "Akkup",
+    "es": "Charjabug",
+    "ko": "전지충이"
+  },
+  "genera": {
+    "ja": "バッテリー",
+    "en": "Battery",
+    "fr": "Batterie",
+    "it": "Batteria",
+    "de": "Batterie",
+    "es": "Batería",
+    "ko": "배터리"
+  },
+  "types": [
+    "bug",
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 57,
+    "attack": 82,
+    "defense": 95,
+    "special-attack": 55,
+    "special-defense": 75,
+    "speed": 36
+  }
+}

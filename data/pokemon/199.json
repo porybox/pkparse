@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 135,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water1"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "water1"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "upright"
   },
@@ -62,44 +54,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ヤドキング",
-      "language": "ja"
-    },
-    {
-      "name": "Yadoking",
-      "language": "roomaji"
-    },
-    {
-      "name": "야도킹",
-      "language": "ko"
-    },
-    {
-      "name": "河馬王",
-      "language": "zh"
-    },
-    {
-      "name": "Roigada",
-      "language": "fr"
-    },
-    {
-      "name": "Laschoking",
-      "language": "de"
-    },
-    {
-      "name": "Slowking",
-      "language": "es"
-    },
-    {
-      "name": "Slowking",
-      "language": "it"
-    },
-    {
-      "name": "Slowking",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヤドキング",
+    "en": "Slowking",
+    "fr": "Roigada",
+    "it": "Slowking",
+    "de": "Laschoking",
+    "es": "Slowking",
+    "ko": "야도킹"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -110,36 +73,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おうじゃ",
-      "language": "ja"
-    },
-    {
-      "genus": "임금",
-      "language": "ko"
-    },
-    {
-      "genus": "Royal",
-      "language": "fr"
-    },
-    {
-      "genus": "Monarch",
-      "language": "de"
-    },
-    {
-      "genus": "Regio",
-      "language": "es"
-    },
-    {
-      "genus": "Reale",
-      "language": "it"
-    },
-    {
-      "genus": "Royal",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おうじゃ",
+    "en": "Royal",
+    "fr": "Royal",
+    "it": "Reale",
+    "de": "Monarch",
+    "es": "Regio",
+    "ko": "임금"
+  },
   "varieties": [
     {
       "is_default": true,

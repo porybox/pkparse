@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 147,
@@ -69,13 +67,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "bug-wings"
   },
@@ -89,44 +83,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "クロバット",
-      "language": "ja"
-    },
-    {
-      "name": "Crobat",
-      "language": "roomaji"
-    },
-    {
-      "name": "크로뱃",
-      "language": "ko"
-    },
-    {
-      "name": "叉字蝠",
-      "language": "zh"
-    },
-    {
-      "name": "Nostenfer",
-      "language": "fr"
-    },
-    {
-      "name": "Iksbat",
-      "language": "de"
-    },
-    {
-      "name": "Crobat",
-      "language": "es"
-    },
-    {
-      "name": "Crobat",
-      "language": "it"
-    },
-    {
-      "name": "Crobat",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クロバット",
+    "en": "Crobat",
+    "fr": "Nostenfer",
+    "it": "Crobat",
+    "de": "Iksbat",
+    "es": "Crobat",
+    "ko": "크로뱃"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -137,36 +102,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こうもり",
-      "language": "ja"
-    },
-    {
-      "genus": "박쥐",
-      "language": "ko"
-    },
-    {
-      "genus": "Chovsouris",
-      "language": "fr"
-    },
-    {
-      "genus": "Fledermaus",
-      "language": "de"
-    },
-    {
-      "genus": "Murciélago",
-      "language": "es"
-    },
-    {
-      "genus": "Pipistrello",
-      "language": "it"
-    },
-    {
-      "genus": "Bat",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こうもり",
+    "en": "Bat",
+    "fr": "Chovsouris",
+    "it": "Pipistrello",
+    "de": "Fledermaus",
+    "es": "Murciélago",
+    "ko": "박쥐"
+  },
   "varieties": [
     {
       "is_default": true,

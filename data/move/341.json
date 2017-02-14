@@ -2,49 +2,13 @@
   "id": 341,
   "name": "mud-shot",
   "accuracy": 95,
-  "effect_chance": 100,
   "pp": 15,
   "priority": 0,
   "power": 55,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sandstorm"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Speed by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Mud Shot",
-      "language": "en"
-    },
-    {
-      "name": "Colpodifango",
-      "language": "it"
-    },
-    {
-      "name": "Disparo Lodo",
-      "language": "es"
-    },
-    {
-      "name": "Lehmschuss",
-      "language": "de"
-    },
-    {
-      "name": "Tir de Boue",
-      "language": "fr"
-    },
-    {
-      "name": "머드숏",
-      "language": "ko"
-    },
-    {
-      "name": "マッドショット",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "マッドショット",
+    "kana": "マッドショット",
+    "en": "Mud Shot",
+    "fr": "Tir de Boue",
+    "it": "Colpodifango",
+    "de": "Lehmschuss",
+    "es": "Disparo Lodo",
+    "ko": "머드숏",
+    "zh-CN": "泥巴射击",
+    "zh-TW": "泥巴射擊"
+  },
+  "flavor_text_entries": {
+    "ja": "泥の　塊を 相手に　投げつけて　攻撃する。 同時に　相手の　素早さを　さげる。",
+    "kana": "どろの　かたまりを あいてに　なげつけて　こうげきする。 どうじに　あいての　すばやさを　さげる。",
+    "en": "The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.",
+    "fr": "Le lanceur attaque en projetant de la boue sur l’ennemi. Réduit aussi la Vitesse de la cible.",
+    "it": "Chi la usa attacca lanciando fango sul bersaglio, riducendone anche la Velocità.",
+    "de": "Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.",
+    "es": "El usuario lanza lodo al objetivo y reduce su Velocidad.",
+    "ko": "진흙 덩어리를 상대에게 내던져서 공격한다. 동시에 상대의 스피드를 떨어뜨린다.",
+    "zh-CN": "向对手投掷 泥块进行攻击。 同时降低对手的速度。",
+    "zh-TW": "向對手投擲 泥塊進行攻擊。 同時降低對手的速度。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "ground"
-  }
+  "target": "selected-pokemon",
+  "type": "ground"
 }

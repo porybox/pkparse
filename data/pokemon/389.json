@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 3,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ドダイトス",
-      "language": "ja"
-    },
-    {
-      "name": "Dodaitose",
-      "language": "roomaji"
-    },
-    {
-      "name": "토대부기",
-      "language": "ko"
-    },
-    {
-      "name": "土台龜",
-      "language": "zh"
-    },
-    {
-      "name": "Torterra",
-      "language": "fr"
-    },
-    {
-      "name": "Chelterrar",
-      "language": "de"
-    },
-    {
-      "name": "Torterra",
-      "language": "es"
-    },
-    {
-      "name": "Torterra",
-      "language": "it"
-    },
-    {
-      "name": "Torterra",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドダイトス",
+    "en": "Torterra",
+    "fr": "Torterra",
+    "it": "Torterra",
+    "de": "Chelterrar",
+    "es": "Torterra",
+    "ko": "토대부기"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たいりく",
-      "language": "ja"
-    },
-    {
-      "genus": "대륙",
-      "language": "ko"
-    },
-    {
-      "genus": "Continent",
-      "language": "fr"
-    },
-    {
-      "genus": "Kontinent",
-      "language": "de"
-    },
-    {
-      "genus": "Continente",
-      "language": "es"
-    },
-    {
-      "genus": "Continente",
-      "language": "it"
-    },
-    {
-      "genus": "Continent",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たいりく",
+    "en": "Continent",
+    "fr": "Continent",
+    "it": "Continente",
+    "de": "Kontinent",
+    "es": "Continente",
+    "ko": "대륙"
+  },
   "varieties": [
     {
       "is_default": true,

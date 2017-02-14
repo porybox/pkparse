@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 73,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ラクライ",
-      "language": "ja"
-    },
-    {
-      "name": "Rakurai",
-      "language": "roomaji"
-    },
-    {
-      "name": "썬더라이",
-      "language": "ko"
-    },
-    {
-      "name": "落雷獸",
-      "language": "zh"
-    },
-    {
-      "name": "Dynavolt",
-      "language": "fr"
-    },
-    {
-      "name": "Frizelbliz",
-      "language": "de"
-    },
-    {
-      "name": "Electrike",
-      "language": "es"
-    },
-    {
-      "name": "Electrike",
-      "language": "it"
-    },
-    {
-      "name": "Electrike",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ラクライ",
+    "en": "Electrike",
+    "fr": "Dynavolt",
+    "it": "Electrike",
+    "de": "Frizelbliz",
+    "es": "Electrike",
+    "ko": "썬더라이"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "いなずま",
-      "language": "ja"
-    },
-    {
-      "genus": "천둥번개",
-      "language": "ko"
-    },
-    {
-      "genus": "Orage",
-      "language": "fr"
-    },
-    {
-      "genus": "Gewitter",
-      "language": "de"
-    },
-    {
-      "genus": "Calambre",
-      "language": "es"
-    },
-    {
-      "genus": "Lampo",
-      "language": "it"
-    },
-    {
-      "genus": "Lightning",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "いなずま",
+    "en": "Lightning",
+    "fr": "Orage",
+    "it": "Lampo",
+    "de": "Gewitter",
+    "es": "Calambre",
+    "ko": "천둥번개"
+  },
   "varieties": [
     {
       "is_default": true,

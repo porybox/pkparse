@@ -2,49 +2,13 @@
   "id": 78,
   "name": "stun-spore",
   "accuracy": 75,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "sweet-scent"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "[Paralyzes]{mechanic:paralyzes} the target.",
-      "short_effect": "Paralyzes the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "ailment"
-    },
+    "ailment": "paralysis",
+    "category": "ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Stun Spore",
-      "language": "en"
-    },
-    {
-      "name": "Paralizzante",
-      "language": "it"
-    },
-    {
-      "name": "Paralizador",
-      "language": "es"
-    },
-    {
-      "name": "Stachelspore",
-      "language": "de"
-    },
-    {
-      "name": "Para-Spore",
-      "language": "fr"
-    },
-    {
-      "name": "저리가루",
-      "language": "ko"
-    },
-    {
-      "name": "しびれごな",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "しびれごな",
+    "kana": "しびれごな",
+    "en": "Stun Spore",
+    "fr": "Para-Spore",
+    "it": "Paralizzante",
+    "de": "Stachelspore",
+    "es": "Paralizador",
+    "ko": "저리가루",
+    "zh-CN": "麻痹粉",
+    "zh-TW": "麻痺粉"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "しびれる　粉を たくさん　ふりまいて 相手を　まひ状態に　する。",
+    "kana": "しびれる　こなを たくさん　ふりまいて あいてを　まひ　じょうたいに　する。",
+    "en": "The user scatters a cloud of numbing powder that paralyzes the target.",
+    "fr": "Le lanceur répand sur l’ennemi une poudre qui le paralyse.",
+    "it": "Investe il bersaglio con una nuvola di polvere che paralizza.",
+    "de": "Verstreut lähmenden Puder, der das Ziel eventuell paralysiert.",
+    "es": "Esparce polvo que paraliza al objetivo.",
+    "ko": "저리가루를 많이 흩뿌려서 상대를 마비 상태로 만든다.",
+    "zh-CN": "撒出麻痹粉， 从而让对手陷入麻痹状态。",
+    "zh-TW": "撒出大量令人麻痺的粉末， 讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Verstreut lähmenden Puder.",
+          "ko": "저리 가루를 많이 흩뿌려서 상대를 마비 상태로 만든다."
+        }
+      }
+    }
+  ]
 }

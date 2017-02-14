@@ -2,34 +2,13 @@
   "id": 572,
   "name": "petal-blizzard",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Petal Blizzard",
-      "language": "en"
-    },
-    {
-      "name": "Fiortempesta",
-      "language": "it"
-    },
-    {
-      "name": "Tormenta Floral",
-      "language": "es"
-    },
-    {
-      "name": "Blütenwirbel",
-      "language": "de"
-    },
-    {
-      "name": "Tempête Florale",
-      "language": "fr"
-    },
-    {
-      "name": "꽃보라",
-      "language": "ko"
-    },
-    {
-      "name": "はなふぶき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-other-pokemon"
+  "names": {
+    "ja": "はなふぶき",
+    "kana": "はなふぶき",
+    "en": "Petal Blizzard",
+    "fr": "Tempête Florale",
+    "it": "Fiortempesta",
+    "de": "Blütenwirbel",
+    "es": "Tormenta Floral",
+    "ko": "꽃보라",
+    "zh-CN": "落英缤纷",
+    "zh-TW": "落英繽紛"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "激しい　花吹雪を　起こし 周りに　いるものに　攻撃して ダメージを　与える。",
+    "kana": "はげしい　はなふぶきを　おこし まわりに　いるものに　こうげきして ダメージを　あたえる。",
+    "en": "The user stirs up a violent petal blizzard and attacks everything around it.",
+    "fr": "Déclenche une violente tempête de fleurs qui inflige des dégâts à tous les Pokémon alentour.",
+    "it": "Infligge danni ai Pokémon che ha intorno attaccandoli con una tempesta di fiori.",
+    "de": "Der Anwender erzeugt einen turbulenten Blütenwirbel, der alle Pokémon in der Nähe erfasst und ihnen Schaden zufügt.",
+    "es": "El usuario desata un intenso vendaval de pétalos que daña a los Pokémon a su alrededor.",
+    "ko": "세찬 꽃보라를 일으켜서 주위에 있는 포켓몬을 공격하여 데미지를 준다.",
+    "zh-CN": "猛烈地刮起飞雪般的落花， 攻击周围所有的宝可梦， 并给予伤害。",
+    "zh-TW": "猛烈地刮起飛雪般的落花， 攻擊周圍所有的寶可夢。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "grass"
 }

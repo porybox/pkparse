@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 146,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "dragon"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "squiggle"
   },
@@ -74,44 +66,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ハクリュー",
-      "language": "ja"
-    },
-    {
-      "name": "Hakuryu",
-      "language": "roomaji"
-    },
-    {
-      "name": "신뇽",
-      "language": "ko"
-    },
-    {
-      "name": "哈克龍",
-      "language": "zh"
-    },
-    {
-      "name": "Draco",
-      "language": "fr"
-    },
-    {
-      "name": "Dragonir",
-      "language": "de"
-    },
-    {
-      "name": "Dragonair",
-      "language": "es"
-    },
-    {
-      "name": "Dragonair",
-      "language": "it"
-    },
-    {
-      "name": "Dragonair",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハクリュー",
+    "en": "Dragonair",
+    "fr": "Draco",
+    "it": "Dragonair",
+    "de": "Dragonir",
+    "es": "Dragonair",
+    "ko": "신뇽"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -122,36 +85,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ドラゴン",
-      "language": "ja"
-    },
-    {
-      "genus": "드래곤",
-      "language": "ko"
-    },
-    {
-      "genus": "Dragon",
-      "language": "fr"
-    },
-    {
-      "genus": "Drache",
-      "language": "de"
-    },
-    {
-      "genus": "Dragón",
-      "language": "es"
-    },
-    {
-      "genus": "Drago",
-      "language": "it"
-    },
-    {
-      "genus": "Dragon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ドラゴン",
+    "en": "Dragon",
+    "fr": "Dragon",
+    "it": "Drago",
+    "de": "Drache",
+    "es": "Dragón",
+    "ko": "드래곤"
+  },
   "varieties": [
     {
       "is_default": true,

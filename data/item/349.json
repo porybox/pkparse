@@ -1,0 +1,39 @@
+{
+  "id": 349,
+  "name": "tm22",
+  "names": {
+    "ja": "わざマシン２２",
+    "kana": "わざマシン２２",
+    "en": "TM22",
+    "fr": "CT22",
+    "it": "MT22",
+    "de": "TM22",
+    "es": "MT22",
+    "ko": "기술머신22",
+    "zh-CN": "招式学习器２２",
+    "zh-TW": "招式學習器２２"
+  },
+  "flavor_text_entries": {
+    "ja": "１ターン目に　光を　いっぱいに　集め ２ターン目に　光の　束を 発射して　攻撃する。",
+    "kana": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　ひかりの　たばを はっしゃして　こうげきする。",
+    "en": "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.",
+    "fr": "Absorbe la lumière au premier tour et envoie un rayon puissant au tour suivant.",
+    "it": "Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo.",
+    "de": "Eine Attacke über 2 Runden. Zunächst wird Sonnenlicht absorbiert, anschließend erfolgt der Angriff.",
+    "es": "Ataque de dos turnos. En el primer turno se concentra luz, y en el segundo se canaliza en un rayo para atacar.",
+    "ko": "1턴째에 빛을 가득 모아 2턴째에 빛의 다발을 발사하여 공격한다.",
+    "zh-CN": "第１回合收集满满的日光， 第２回合发射光束进行攻击。",
+    "zh-TW": "使用後的第１回合吸收大量日光， 並於第２回合發射光束進行攻擊。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "１ターンめに　ひかりを　あつめて ２ターンめに　ひかりの　こうせんを はっしゃして　こうげきする。",
+          "en": "A two-turn attack. The user gathers light, then blasts a bundled beam on the next turn."
+        }
+      }
+    }
+  ]
+}

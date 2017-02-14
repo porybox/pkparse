@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 48,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "humanoid"
   },
@@ -61,68 +55,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "コマタナ",
-      "language": "ja"
-    },
-    {
-      "name": "자망칼",
-      "language": "ko"
-    },
-    {
-      "name": "Scalpion",
-      "language": "fr"
-    },
-    {
-      "name": "Gladiantri",
-      "language": "de"
-    },
-    {
-      "name": "Pawniard",
-      "language": "es"
-    },
-    {
-      "name": "Pawniard",
-      "language": "it"
-    },
-    {
-      "name": "Pawniard",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コマタナ",
+    "en": "Pawniard",
+    "fr": "Scalpion",
+    "it": "Pawniard",
+    "de": "Gladiantri",
+    "es": "Pawniard",
+    "ko": "자망칼"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はもの",
-      "language": "ja"
-    },
-    {
-      "genus": "날붙이",
-      "language": "ko"
-    },
-    {
-      "genus": "Coupant",
-      "language": "fr"
-    },
-    {
-      "genus": "Stahlklinge",
-      "language": "de"
-    },
-    {
-      "genus": "Tajo",
-      "language": "es"
-    },
-    {
-      "genus": "Lamaffilata",
-      "language": "it"
-    },
-    {
-      "genus": "Sharp Blade",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はもの",
+    "en": "Sharp Blade",
+    "fr": "Coupant",
+    "it": "Lamaffilata",
+    "de": "Stahlklinge",
+    "es": "Tajo",
+    "ko": "날붙이"
+  },
   "varieties": [
     {
       "is_default": true,

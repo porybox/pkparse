@@ -1,0 +1,44 @@
+{
+  "id": 726,
+  "name": "torracat",
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "red",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ニャヒート",
+    "en": "Torracat",
+    "fr": "Matoufeu",
+    "it": "Torracat",
+    "de": "Miezunder",
+    "es": "Torracat",
+    "ko": "냐오히트"
+  },
+  "genera": {
+    "ja": "ひねこ",
+    "en": "Fire Cat",
+    "fr": "Chat Feu",
+    "it": "Pirofelino",
+    "de": "Feuerkatze",
+    "es": "Gato Fuego",
+    "ko": "불고양이"
+  },
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 65,
+    "attack": 85,
+    "defense": 50,
+    "special-attack": 80,
+    "special-defense": 50,
+    "speed": 90
+  }
+}

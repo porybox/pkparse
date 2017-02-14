@@ -2,49 +2,13 @@
   "id": 232,
   "name": "metal-claw",
   "accuracy": 95,
-  "effect_chance": 10,
   "pp": 35,
   "priority": 0,
   "power": 50,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "metal-sound"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}. Has a $effect_chance% chance to raise the user's [Attack]{mechanic:attack} one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to raise the user's Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 10
   },
-  "names": [
-    {
-      "name": "Metal Claw",
-      "language": "en"
-    },
-    {
-      "name": "Ferrartigli",
-      "language": "it"
-    },
-    {
-      "name": "Garra Metal",
-      "language": "es"
-    },
-    {
-      "name": "Metallklaue",
-      "language": "de"
-    },
-    {
-      "name": "Griffe Acier",
-      "language": "fr"
-    },
-    {
-      "name": "메탈크로우",
-      "language": "ko"
-    },
-    {
-      "name": "メタルクロー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "メタルクロー",
+    "kana": "メタルクロー",
+    "en": "Metal Claw",
+    "fr": "Griffe Acier",
+    "it": "Ferrartigli",
+    "de": "Metallklaue",
+    "es": "Garra Metal",
+    "ko": "메탈크로우",
+    "zh-CN": "金属爪",
+    "zh-TW": "金屬爪"
+  },
+  "flavor_text_entries": {
+    "ja": "鋼鉄の　ツメで 相手を　切り裂いて　攻撃する。 自分の　攻撃が　あがることが　ある。",
+    "kana": "こうてつの　ツメで　あいてを　きりさいて こうげきする。　じぶんの　こうげきが あがることが　ある。",
+    "en": "The target is raked with steel claws. This may also raise the user’s Attack stat.",
+    "fr": "Attaque avec des griffes d’acier. Peut aussi augmenter l’Attaque du lanceur.",
+    "it": "Colpisce il bersaglio con artigli d’acciaio. Può anche aumentare l’Attacco di chi la usa.",
+    "de": "Klauen-Attacke, die eventuell den Angriffs-Wert des Anwenders erhöht.",
+    "es": "Ataque con garras de acero que puede aumentar el Ataque del usuario.",
+    "ko": "강철의 발톱으로 상대를 베어 갈라 공격한다. 자신의 공격이 올라갈 때도 있다.",
+    "zh-CN": "用钢铁之爪 劈开对手进行攻击。 有时会提高自己的攻击。",
+    "zh-TW": "用鋼鐵之爪 撕裂對手進行攻擊。 有時會提高自己的攻擊。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "steel"
-  }
+  "target": "selected-pokemon",
+  "type": "steel",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "こうてつの　ツメで　あいてを　きりさいて こうげきする。じぶんの　こうげきが あがることが　ある。"
+        }
+      }
+    }
+  ]
 }

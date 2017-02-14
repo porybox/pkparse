@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 111,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "wings"
   },
@@ -49,68 +43,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "バルチャイ",
-      "language": "ja"
-    },
-    {
-      "name": "벌차이",
-      "language": "ko"
-    },
-    {
-      "name": "Vostourno",
-      "language": "fr"
-    },
-    {
-      "name": "Skallyk",
-      "language": "de"
-    },
-    {
-      "name": "Vullaby",
-      "language": "es"
-    },
-    {
-      "name": "Vullaby",
-      "language": "it"
-    },
-    {
-      "name": "Vullaby",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バルチャイ",
+    "en": "Vullaby",
+    "fr": "Vostourno",
+    "it": "Vullaby",
+    "de": "Skallyk",
+    "es": "Vullaby",
+    "ko": "벌차이"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おむつ",
-      "language": "ja"
-    },
-    {
-      "genus": "기저귀",
-      "language": "ko"
-    },
-    {
-      "genus": "Couche",
-      "language": "fr"
-    },
-    {
-      "genus": "Windel",
-      "language": "de"
-    },
-    {
-      "genus": "Pañal",
-      "language": "es"
-    },
-    {
-      "genus": "Pannolino",
-      "language": "it"
-    },
-    {
-      "genus": "Diapered",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おむつ",
+    "en": "Diapered",
+    "fr": "Couche",
+    "it": "Pannolino",
+    "de": "Windel",
+    "es": "Pañal",
+    "ko": "기저귀"
+  },
   "varieties": [
     {
       "is_default": true,

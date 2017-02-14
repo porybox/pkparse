@@ -2,62 +2,13 @@
   "id": 349,
   "name": "dragon-dance",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "dragon-rage"
-        },
-        {
-          "name": "dragon-breath"
-        },
-        {
-          "name": "dragon-claw"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "dragon-rage"
-        },
-        {
-          "name": "dragon-breath"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Attack]{mechanic:attack} and [Speed]{mechanic:speed} by one [stage]{mechanic:stage} each.",
-      "short_effect": "Raises the user's Attack and Speed by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -69,56 +20,51 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Dragon Dance",
-      "language": "en"
-    },
-    {
-      "name": "Dragodanza",
-      "language": "it"
-    },
-    {
-      "name": "Danza Dragón",
-      "language": "es"
-    },
-    {
-      "name": "Drachentanz",
-      "language": "de"
-    },
-    {
-      "name": "Danse Draco",
-      "language": "fr"
-    },
-    {
-      "name": "용의춤",
-      "language": "ko"
-    },
-    {
-      "name": "りゅうのまい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "りゅうのまい",
+    "kana": "りゅうのまい",
+    "en": "Dragon Dance",
+    "fr": "Danse Draco",
+    "it": "Dragodanza",
+    "de": "Drachentanz",
+    "es": "Danza Dragón",
+    "ko": "용의춤",
+    "zh-CN": "龙之舞",
+    "zh-TW": "龍之舞"
+  },
+  "flavor_text_entries": {
+    "ja": "神秘的で　力強い　舞を 激しく　おどる。　自分の 攻撃と　素早さを　あげる。",
+    "kana": "しんぴてきで　ちからづよい　まいを はげしく　おどる。　じぶんの こうげきと　すばやさを　あげる。",
+    "en": "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.",
+    "fr": "Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur.",
+    "it": "Danza mistica e vigorosa che aumenta l’Attacco e la Velocità di chi la usa.",
+    "de": "Ein mystischer Tanz, der den Angriffs- und Initiative-Wert erhöht.",
+    "es": "Danza mística que sube el Ataque y la Velocidad.",
+    "ko": "신비롭고 힘센 춤을 격렬하게 춘다. 자신의 공격과 스피드를 올린다.",
+    "zh-CN": "激烈地跳起神秘 且强有力的舞蹈。 从而提高自己的攻击和速度。",
+    "zh-TW": "激烈地跳起神秘又強而有力的舞蹈。 提高自己的攻擊和速度。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "dragon"
-  }
+  "target": "user",
+  "type": "dragon",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "神秘的で　力強い　舞を 激しく　おどる。自分の 攻撃と　素早さを　あげる。",
+          "kana": "しんぴてきで　ちからづよい　まいを はげしく　おどる。じぶんの こうげきと　すばやさを　あげる。"
+        }
+      }
+    }
+  ]
 }

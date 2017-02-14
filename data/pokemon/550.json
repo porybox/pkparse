@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 60,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    }
+    "water2"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "fish"
   },
@@ -55,36 +49,15 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "バスラオ",
-      "language": "ja"
-    },
-    {
-      "name": "배쓰나이",
-      "language": "ko"
-    },
-    {
-      "name": "Bargantua",
-      "language": "fr"
-    },
-    {
-      "name": "Barschuft",
-      "language": "de"
-    },
-    {
-      "name": "Basculin",
-      "language": "es"
-    },
-    {
-      "name": "Basculin",
-      "language": "it"
-    },
-    {
-      "name": "Basculin",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バスラオ",
+    "en": "Basculin",
+    "fr": "Bargantua",
+    "it": "Basculin",
+    "de": "Barschuft",
+    "es": "Basculin",
+    "ko": "배쓰나이"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [
     {
@@ -92,36 +65,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "らんぼう",
-      "language": "ja"
-    },
-    {
-      "genus": "흉포",
-      "language": "ko"
-    },
-    {
-      "genus": "Violent",
-      "language": "fr"
-    },
-    {
-      "genus": "Grobheit",
-      "language": "de"
-    },
-    {
-      "genus": "Violento",
-      "language": "es"
-    },
-    {
-      "genus": "Irruenza",
-      "language": "it"
-    },
-    {
-      "genus": "Hostile",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "らんぼう",
+    "en": "Hostile",
+    "fr": "Violent",
+    "it": "Irruenza",
+    "de": "Grobheit",
+    "es": "Violento",
+    "ko": "흉포"
+  },
   "varieties": [
     {
       "is_default": true,

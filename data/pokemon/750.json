@@ -1,0 +1,44 @@
+{
+  "id": 750,
+  "name": "mudsdale",
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "brown",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "バンバドロ",
+    "en": "Mudsdale",
+    "fr": "Bourrinos",
+    "it": "Mudsdale",
+    "de": "Pampross",
+    "es": "Mudsdale",
+    "ko": "만마드"
+  },
+  "genera": {
+    "ja": "ばんば",
+    "en": "Draft Horse",
+    "fr": "Cheval Trait",
+    "it": "Fortequino",
+    "de": "Zugpferd",
+    "es": "Caballo Tiro",
+    "ko": "만마"
+  },
+  "types": [
+    "ground"
+  ],
+  "base_stats": {
+    "hp": 100,
+    "attack": 125,
+    "defense": 100,
+    "special-attack": 55,
+    "special-defense": 85,
+    "speed": 35
+  }
+}

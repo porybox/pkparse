@@ -2,34 +2,13 @@
   "id": 500,
   "name": "stored-power",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 20,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power is increased by 100% its original value for every [stage]{mechanic:stage} any of the user's stats have been raised.  [Accuracy]{mechanic:accuracy}, [evasion]{mechanic:evasion}, and lowered stats do not affect this move's power.  For a Pokémon with all five stats modified to +6, this move's power is 31×.",
-      "short_effect": "Power is higher the more the user's stats have been raised, to a maximum of 31×.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Stored Power",
-      "language": "en"
-    },
-    {
-      "name": "Veicolaforza",
-      "language": "it"
-    },
-    {
-      "name": "Poder Reserva",
-      "language": "es"
-    },
-    {
-      "name": "Kraftvorrat",
-      "language": "de"
-    },
-    {
-      "name": "Force Ajoutée",
-      "language": "fr"
-    },
-    {
-      "name": "어시스트파워",
-      "language": "ko"
-    },
-    {
-      "name": "アシストパワー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "アシストパワー",
+    "kana": "アシストパワー",
+    "en": "Stored Power",
+    "fr": "Force Ajoutée",
+    "it": "Veicolaforza",
+    "de": "Kraftvorrat",
+    "es": "Poder Reserva",
+    "ko": "어시스트파워",
+    "zh-CN": "辅助力量",
+    "zh-TW": "輔助力量"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "蓄積された　パワーで　相手を 攻撃する。自分の　能力が あがっているほど　威力が　あがる。",
+    "kana": "ちくせき　された　パワーで　あいてを こうげきする。じぶんの　のうりょくが あがって　いるほど　いりょくが　あがる。",
+    "en": "The user attacks the target with stored power. The more the user’s stats are raised, the greater the move’s power.",
+    "fr": "Le lanceur attaque l’ennemi avec une force accumulée. Plus les stats du lanceur sont augmentées, plus le coup est efficace.",
+    "it": "Attacca il bersaglio con l’energia accumulata. Più sono state aumentate le statistiche, maggiore è il danno inflitto.",
+    "de": "Angriff mit angesparter Energie. Je höher die Statuswerte des Anwenders, desto stärker fällt die Attacke aus.",
+    "es": "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño.",
+    "ko": "축적된 파워로 상대를 공격한다. 자신의 능력이 올라가 있는 만큼 위력이 오른다.",
+    "zh-CN": "用蓄积起来的力量攻击对手。 自己的能力提高得越多， 威力就越大。",
+    "zh-TW": "用蓄積的力量攻擊對手。 自己的能力提高越多， 招式的威力越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

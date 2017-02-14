@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 30,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ヤナッキー",
-      "language": "ja"
-    },
-    {
-      "name": "야나키",
-      "language": "ko"
-    },
-    {
-      "name": "Feuiloutan",
-      "language": "fr"
-    },
-    {
-      "name": "Vegichita",
-      "language": "de"
-    },
-    {
-      "name": "Simisage",
-      "language": "es"
-    },
-    {
-      "name": "Simisage",
-      "language": "it"
-    },
-    {
-      "name": "Simisage",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヤナッキー",
+    "en": "Simisage",
+    "fr": "Feuiloutan",
+    "it": "Simisage",
+    "de": "Vegichita",
+    "es": "Simisage",
+    "ko": "야나키"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とげざる",
-      "language": "ja"
-    },
-    {
-      "genus": "가시원숭이",
-      "language": "ko"
-    },
-    {
-      "genus": "Singépine",
-      "language": "fr"
-    },
-    {
-      "genus": "Stachelaffe",
-      "language": "de"
-    },
-    {
-      "genus": "Mono Pincho",
-      "language": "es"
-    },
-    {
-      "genus": "Spinpanzé",
-      "language": "it"
-    },
-    {
-      "genus": "Thorn Monkey",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とげざる",
+    "en": "Thorn Monkey",
+    "fr": "Singépine",
+    "it": "Spinpanzé",
+    "de": "Stachelaffe",
+    "es": "Mono Pincho",
+    "ko": "가시원숭이"
+  },
   "varieties": [
     {
       "is_default": true,

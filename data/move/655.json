@@ -1,0 +1,50 @@
+{
+  "id": 655,
+  "name": "black-hole-eclipse",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ブラックホールイクリプス",
+    "kana": "ブラックホールイクリプス",
+    "en": "Black Hole Eclipse",
+    "fr": "Trou Noir des Ombres",
+    "it": "Buco Nero del Non Ritorno",
+    "de": "Schwarzes Loch des Grauens",
+    "es": "Agujero Negro Aniquilador",
+    "ko": "블랙홀이클립스",
+    "zh-CN": "黑洞吞噬万物灭",
+    "zh-TW": "黑洞吞噬萬物滅"
+  },
+  "flavor_text_entries": {
+    "ja": "ダミーデータ",
+    "kana": "ダミーデータ",
+    "en": "Dummy Data",
+    "fr": "Dummy",
+    "it": "Dummy Data",
+    "de": "Dummy data",
+    "es": "Dummy data",
+    "ko": "Dummy Data",
+    "zh-CN": "ダミーデータ",
+    "zh-TW": "ダミーデータ"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "dark"
+}

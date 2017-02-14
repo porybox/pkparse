@@ -1,0 +1,38 @@
+{
+  "id": 29,
+  "name": "max-revive",
+  "names": {
+    "ja": "げんきのかたまり",
+    "kana": "げんきのかたまり",
+    "en": "Max Revive",
+    "fr": "Rappel Max",
+    "it": "Revitalizz. Max",
+    "de": "Top-Beleber",
+    "es": "Revivir Máximo",
+    "ko": "기력의덩어리",
+    "zh-CN": "活力块",
+    "zh-TW": "活力塊"
+  },
+  "flavor_text_entries": {
+    "ja": "ひんしに　なった　ポケモン １匹を　元気に　したうえで ＨＰを　すべて　回復する。",
+    "kana": "ひんしに　なった　ポケモン １ひきを　げんきに　したうえで ＨＰを　すべて　かいふくする。",
+    "en": "A medicine that can revive fainted Pokémon. It also fully restores a fainted Pokémon’s maximum HP.",
+    "fr": "Un médicament qui ranime un Pokémon K.O. et restaure tous ses PV.",
+    "it": "Rimedio che rianima un Pokémon esausto restituendogli tutti i PS.",
+    "de": "Eine Medizin, die ein kampfunfähiges Pokémon wiederbelebt. Die KP werden vollständig wiederhergestellt.",
+    "es": "Medicina que revive a un Pokémon debilitado y le devuelve todos sus PS.",
+    "ko": "기절해 버린 포켓몬 1마리를 건강하게 하고 HP를 모두 회복한다.",
+    "zh-CN": "能让１只陷入濒死的 宝可梦重获生机， 并回复所有ＨＰ。",
+    "zh-TW": "能讓１隻陷入瀕死的 寶可夢重獲生機， 並回復所有ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ひんしに　なってしまった　ポケモン １匹を　元気に　したうえで ＨＰを　すべて　回復する。"
+        }
+      }
+    }
+  ]
+}

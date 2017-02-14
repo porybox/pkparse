@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 69,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "arms"
   },
@@ -81,44 +75,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "コイル",
-      "language": "ja"
-    },
-    {
-      "name": "Coil",
-      "language": "roomaji"
-    },
-    {
-      "name": "코일",
-      "language": "ko"
-    },
-    {
-      "name": "小磁怪",
-      "language": "zh"
-    },
-    {
-      "name": "Magnéti",
-      "language": "fr"
-    },
-    {
-      "name": "Magnetilo",
-      "language": "de"
-    },
-    {
-      "name": "Magnemite",
-      "language": "es"
-    },
-    {
-      "name": "Magnemite",
-      "language": "it"
-    },
-    {
-      "name": "Magnemite",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コイル",
+    "en": "Magnemite",
+    "fr": "Magnéti",
+    "it": "Magnemite",
+    "de": "Magnetilo",
+    "es": "Magnemite",
+    "ko": "코일"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -129,36 +94,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "じしゃく",
-      "language": "ja"
-    },
-    {
-      "genus": "자석",
-      "language": "ko"
-    },
-    {
-      "genus": "Magnétique",
-      "language": "fr"
-    },
-    {
-      "genus": "Magnet",
-      "language": "de"
-    },
-    {
-      "genus": "Imán",
-      "language": "es"
-    },
-    {
-      "genus": "Calamita",
-      "language": "it"
-    },
-    {
-      "genus": "Magnet",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "じしゃく",
+    "en": "Magnet",
+    "fr": "Magnétique",
+    "it": "Calamita",
+    "de": "Magnet",
+    "es": "Imán",
+    "ko": "자석"
+  },
   "varieties": [
     {
       "is_default": true,

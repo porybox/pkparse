@@ -2,34 +2,13 @@
   "id": 605,
   "name": "dazzling-gleam",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Dazzling Gleam",
-      "language": "en"
-    },
-    {
-      "name": "Magibrillio",
-      "language": "it"
-    },
-    {
-      "name": "Brillo Mágico",
-      "language": "es"
-    },
-    {
-      "name": "Zauberschein",
-      "language": "de"
-    },
-    {
-      "name": "Éclat Magique",
-      "language": "fr"
-    },
-    {
-      "name": "매지컬샤인",
-      "language": "ko"
-    },
-    {
-      "name": "マジカルシャイン",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-opponents"
+  "names": {
+    "ja": "マジカルシャイン",
+    "kana": "マジカルシャイン",
+    "en": "Dazzling Gleam",
+    "fr": "Éclat Magique",
+    "it": "Magibrillio",
+    "de": "Zauberschein",
+    "es": "Brillo Mágico",
+    "ko": "매지컬샤인",
+    "zh-CN": "魔法闪耀",
+    "zh-TW": "魔法閃耀"
   },
-  "type": {
-    "name": "fairy"
-  }
+  "flavor_text_entries": {
+    "ja": "強力な　光を　放ち 相手に　ダメージを　与える。",
+    "kana": "きょうりょくな　ひかりを　はなち あいてに　ダメージを　あたえる。",
+    "en": "The user damages opposing Pokémon by emitting a powerful flash.",
+    "fr": "Libère une puissante décharge lumineuse qui inflige des dégâts à l’ennemi.",
+    "it": "Chi la usa emette una luce potentissima che infligge danni ai nemici intorno.",
+    "de": "Der Anwender feuert einen mächtigen Lichtblitz ab, der dem Ziel Schaden zufügt.",
+    "es": "Inflige daño a los oponentes con una potente luz.",
+    "ko": "강력한 빛을 내어 상대에게 데미지를 준다.",
+    "zh-CN": "向对手发射强光， 并给予伤害。",
+    "zh-TW": "發出強烈的閃光， 給予對手傷害。"
+  },
+  "stat_changes": [],
+  "target": "all-opponents",
+  "type": "fairy",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Emette una luce potentissima che infligge danni ai nemici che sono vicini a chi la usa."
+        }
+      }
+    }
+  ]
 }

@@ -1,0 +1,44 @@
+{
+  "id": 771,
+  "name": "pyukumuku",
+  "gender_rate": 4,
+  "capture_rate": 60,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "fast",
+  "egg_groups": [
+    "water1"
+  ],
+  "color": "black",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ナマコブシ",
+    "en": "Pyukumuku",
+    "fr": "Concombaffe",
+    "it": "Pyukumuku",
+    "de": "Gufa",
+    "es": "Pyukumuku",
+    "ko": "해무기"
+  },
+  "genera": {
+    "ja": "なまこ",
+    "en": "Sea Cucumber",
+    "fr": "Holothurie",
+    "it": "Oloturia",
+    "de": "Seegurke",
+    "es": "Pepino Mar",
+    "ko": "해삼"
+  },
+  "types": [
+    "water"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 60,
+    "defense": 130,
+    "special-attack": 30,
+    "special-defense": 130,
+    "speed": 5
+  }
+}

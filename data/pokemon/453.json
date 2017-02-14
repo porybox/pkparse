@@ -9,9 +9,7 @@
   "hatch_counter": 10,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 125,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -67,44 +61,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "グレッグル",
-      "language": "ja"
-    },
-    {
-      "name": "Gureggru",
-      "language": "roomaji"
-    },
-    {
-      "name": "삐딱구리",
-      "language": "ko"
-    },
-    {
-      "name": "不良蛙",
-      "language": "zh"
-    },
-    {
-      "name": "Cradopaud",
-      "language": "fr"
-    },
-    {
-      "name": "Glibunkel",
-      "language": "de"
-    },
-    {
-      "name": "Croagunk",
-      "language": "es"
-    },
-    {
-      "name": "Croagunk",
-      "language": "it"
-    },
-    {
-      "name": "Croagunk",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "グレッグル",
+    "en": "Croagunk",
+    "fr": "Cradopaud",
+    "it": "Croagunk",
+    "de": "Glibunkel",
+    "es": "Croagunk",
+    "ko": "삐딱구리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -115,36 +80,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どくづき",
-      "language": "ja"
-    },
-    {
-      "genus": "독설",
-      "language": "ko"
-    },
-    {
-      "genus": "Toxique",
-      "language": "fr"
-    },
-    {
-      "genus": "Giftmund",
-      "language": "de"
-    },
-    {
-      "genus": "Boca Tóxica",
-      "language": "es"
-    },
-    {
-      "genus": "Inveieleno",
-      "language": "it"
-    },
-    {
-      "genus": "Toxic Mouth",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どくづき",
+    "en": "Toxic Mouth",
+    "fr": "Toxique",
+    "it": "Inveieleno",
+    "de": "Giftmund",
+    "es": "Boca Tóxica",
+    "ko": "독설"
+  },
   "varieties": [
     {
       "is_default": true,

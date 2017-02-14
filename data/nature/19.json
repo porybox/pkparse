@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "うっかりや",
-      "language": "ja"
-    },
-    {
-      "name": "덜렁",
-      "language": "ko"
-    },
-    {
-      "name": "Foufou",
-      "language": "fr"
-    },
-    {
-      "name": "Hitzig",
-      "language": "de"
-    },
-    {
-      "name": "Alocado",
-      "language": "es"
-    },
-    {
-      "name": "Ardente",
-      "language": "it"
-    },
-    {
-      "name": "Rash",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "うっかりや",
+    "en": "Rash",
+    "fr": "Foufou",
+    "it": "Ardente",
+    "de": "Hitzig",
+    "es": "Alocada",
+    "ko": "덜렁",
+    "zh-CN": "马虎",
+    "zh-TW": "馬虎"
+  }
 }

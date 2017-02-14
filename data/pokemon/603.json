@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 178,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
+    "indeterminate"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -51,68 +45,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "シビビール",
-      "language": "ja"
-    },
-    {
-      "name": "저리릴",
-      "language": "ko"
-    },
-    {
-      "name": "Lampéroie",
-      "language": "fr"
-    },
-    {
-      "name": "Zapplalek",
-      "language": "de"
-    },
-    {
-      "name": "Eelektrik",
-      "language": "es"
-    },
-    {
-      "name": "Eelektrik",
-      "language": "it"
-    },
-    {
-      "name": "Eelektrik",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "シビビール",
+    "en": "Eelektrik",
+    "fr": "Lampéroie",
+    "it": "Eelektrik",
+    "de": "Zapplalek",
+    "es": "Eelektrik",
+    "ko": "저리릴"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "でんきうお",
-      "language": "ja"
-    },
-    {
-      "genus": "전기물고기",
-      "language": "ko"
-    },
-    {
-      "genus": "Électrophore",
-      "language": "fr"
-    },
-    {
-      "genus": "Stromfisch",
-      "language": "de"
-    },
-    {
-      "genus": "Electropez",
-      "language": "es"
-    },
-    {
-      "genus": "Elettropesce",
-      "language": "it"
-    },
-    {
-      "genus": "EleFish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "でんきうお",
+    "en": "EleFish",
+    "fr": "Électrophore",
+    "it": "Elettropesce",
+    "de": "Stromfisch",
+    "es": "Electropez",
+    "ko": "전기물고기"
+  },
   "varieties": [
     {
       "is_default": true,

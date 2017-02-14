@@ -2,56 +2,13 @@
   "id": 205,
   "name": "rollout",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": 30,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "harden"
-        },
-        {
-          "name": "defense-curl"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "defense-curl"
-        }
-      ]
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User is forced to use this move for five turns.  Power doubles every time this move is used in succession to a maximum of 16x, and resets to normal after the lock-in ends.  If this move misses or becomes unusable, the lock-in ends.\n\nIf the user has used []{move:defense-curl} since entering the field, this move has double power.",
-      "short_effect": "Power doubles every turn this move is used in succession after the first, resetting after five turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -63,43 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Rollout",
-      "language": "en"
-    },
-    {
-      "name": "Rotolamento",
-      "language": "it"
-    },
-    {
-      "name": "Desenrollar",
-      "language": "es"
-    },
-    {
-      "name": "Walzer",
-      "language": "de"
-    },
-    {
-      "name": "Roulade",
-      "language": "fr"
-    },
-    {
-      "name": "구르기",
-      "language": "ko"
-    },
-    {
-      "name": "ころがる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ころがる",
+    "kana": "ころがる",
+    "en": "Rollout",
+    "fr": "Roulade",
+    "it": "Rotolamento",
+    "de": "Walzer",
+    "es": "Desenrollar",
+    "ko": "구르기",
+    "zh-CN": "滚动",
+    "zh-TW": "滾動"
   },
-  "type": {
-    "name": "rock"
-  }
+  "flavor_text_entries": {
+    "ja": "５ターンの　間　転がり続けて 攻撃する。　技が　当たるたびに 威力が　あがる。",
+    "kana": "５ターンの　あいだ　ころがりつづけて こうげきする。　わざが　あたる　たびに いりょくが　あがる。",
+    "en": "The user continually rolls into the target over five turns. It becomes more powerful each time it hits.",
+    "fr": "Un rocher roule sur l’ennemi pendant cinq tours. L’attaque gagne en puissance à chaque coup.",
+    "it": "Chi la usa colpisce il bersaglio rotolando per cinque turni, con aumento progressivo della potenza ogni volta che va a segno.",
+    "de": "Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.",
+    "es": "El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza.",
+    "ko": "5턴 동안 구르기를 반복하여 공격한다. 기술이 맞을 때마다 위력이 올라간다.",
+    "zh-CN": "在５回合内连续滚动攻击对手。 招式每次击中，威力就会提高。",
+    "zh-TW": "在５回合內連續滾動攻擊對手。 每擊中一次，威力就會提高。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "rock",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "５ターンの　あいだ　転がり続けて 攻撃する。技が　当たるたびに 威力が　あがる。",
+          "kana": "５ターンの　あいだ　ころがりつづけて こうげきする。わざが　あたる　たびに いりょくが　あがる。"
+        }
+      }
+    }
+  ]
 }

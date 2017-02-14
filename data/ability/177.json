@@ -1,126 +1,44 @@
 {
   "id": 177,
   "name": "gale-wings",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-vi"
+  "names": {
+    "ja": "はやてのつばさ",
+    "kana": "はやてのつばさ",
+    "en": "Gale Wings",
+    "fr": "Ailes Bourrasque",
+    "it": "Aliraffica",
+    "de": "Orkanschwingen",
+    "es": "Alas Vendaval",
+    "ko": "질풍날개",
+    "zh-CN": "疾风之翼",
+    "zh-TW": "疾風之翼"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "ＨＰが　満タン　だと ひこうタイプの　技を 先制で　出すことが　できる。",
+    "kana": "ＨＰが　まんたん　だと ひこうタイプの　わざを せんせいで　だすことが　できる。",
+    "en": "Gives priority to Flying-type moves when the  Pokémon’s HP is full.",
+    "fr": "Quand les PV du Pokémon sont au maximum, ses capacités de type Vol sont prioritaires.",
+    "it": "Se il Pokémon ha tutti i PS, le sue mosse di tipo Volante acquistano priorità alta.",
+    "de": "Kann bei vollen KP Flug-Attacken vor dem Gegner einsetzen.",
+    "es": "Da prioridad a los movimientos de tipo Volador si los PS están al máximo.",
+    "ko": "HP가 꽉 찼을 때 비행타입의 기술을 먼저 쓸 수 있다.",
+    "zh-CN": "ＨＰ全满时， 飞行属性的招式可以率先使出。",
+    "zh-TW": "ＨＰ全滿時， 可以搶先在對手之前 使出飛行屬性的招式。"
+  },
+  "past_values": [
     {
-      "name": "Gale Wings",
-      "language": "en"
-    },
-    {
-      "name": "Aliraffica",
-      "language": "it"
-    },
-    {
-      "name": "Alas Vendaval",
-      "language": "es"
-    },
-    {
-      "name": "Orkanschwingen",
-      "language": "de"
-    },
-    {
-      "name": "Ailes Bourrasque",
-      "language": "fr"
-    },
-    {
-      "name": "질풍날개",
-      "language": "ko"
-    },
-    {
-      "name": "はやてのつばさ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Raises []{type:flying} moves' priority by one stage.",
-      "short_effect": "Raises []{type:flying} moves' priority by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "ひこうタイプの　技が\n先制で　だせる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Gives priority to Flying-type\nmoves.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Dà priorità alle mosse di tipo\nVolante.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Da prioridad a los movimientos de\ntipo Volador.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Ermöglicht es dem Pokémon, mit\nFlug-Attacken zuerst anzugreifen.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Les attaques de type Vol sont\nprioritaires.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "비행타입의 기술이\n먼저 나오게 된다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ひこうタイプの　わざが\nせんせいで　だせる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "fletchling"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "fletchinder"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "talonflame"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ひこうタイプの　技が 先制で　だせる。",
+          "kana": "ひこうタイプの　わざが せんせいで　だせる。",
+          "en": "Gives priority to Flying-type moves.",
+          "fr": "Les attaques de type Vol sont prioritaires.",
+          "it": "Dà priorità alle mosse di tipo Volante.",
+          "de": "Ermöglicht es dem Pokémon, mit Flug-Attacken zuerst anzugreifen.",
+          "es": "Da prioridad a los movimientos de tipo Volador.",
+          "ko": "비행타입의 기술이 먼저 나오게 된다."
+        }
       }
     }
   ]

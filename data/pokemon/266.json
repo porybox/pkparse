@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 49,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "ball"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "カラサリス",
-      "language": "ja"
-    },
-    {
-      "name": "Karasalis",
-      "language": "roomaji"
-    },
-    {
-      "name": "실쿤",
-      "language": "ko"
-    },
-    {
-      "name": "甲殼蛹",
-      "language": "zh"
-    },
-    {
-      "name": "Armulys",
-      "language": "fr"
-    },
-    {
-      "name": "Schaloko",
-      "language": "de"
-    },
-    {
-      "name": "Silcoon",
-      "language": "es"
-    },
-    {
-      "name": "Silcoon",
-      "language": "it"
-    },
-    {
-      "name": "Silcoon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "カラサリス",
+    "en": "Silcoon",
+    "fr": "Armulys",
+    "it": "Silcoon",
+    "de": "Schaloko",
+    "es": "Silcoon",
+    "ko": "실쿤"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "さなぎ",
-      "language": "ja"
-    },
-    {
-      "genus": "번데기",
-      "language": "ko"
-    },
-    {
-      "genus": "Cocon",
-      "language": "fr"
-    },
-    {
-      "genus": "Kokon",
-      "language": "de"
-    },
-    {
-      "genus": "Capullo",
-      "language": "es"
-    },
-    {
-      "genus": "Bozzolo",
-      "language": "it"
-    },
-    {
-      "genus": "Cocoon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さなぎ",
+    "en": "Cocoon",
+    "fr": "Cocon",
+    "it": "Bozzolo",
+    "de": "Kokon",
+    "es": "Capullo",
+    "ko": "번데기"
+  },
   "varieties": [
     {
       "is_default": true,

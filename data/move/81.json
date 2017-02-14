@@ -2,36 +2,13 @@
   "id": 81,
   "name": "string-shot",
   "accuracy": 95,
-  "effect_chance": null,
   "pp": 40,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Lowers the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers the target's Speed by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,54 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "String Shot",
-      "language": "en"
-    },
-    {
-      "name": "Millebave",
-      "language": "it"
-    },
-    {
-      "name": "Disparo Demora",
-      "language": "es"
-    },
-    {
-      "name": "Fadenschuss",
-      "language": "de"
-    },
-    {
-      "name": "Sécrétion",
-      "language": "fr"
-    },
-    {
-      "name": "실뿜기",
-      "language": "ko"
-    },
-    {
-      "name": "いとをはく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "いとをはく",
+    "kana": "いとをはく",
+    "en": "String Shot",
+    "fr": "Sécrétion",
+    "it": "Millebave",
+    "de": "Fadenschuss",
+    "es": "Disparo Demora",
+    "ko": "실뿜기",
+    "zh-CN": "吐丝",
+    "zh-TW": "吐絲"
+  },
+  "flavor_text_entries": {
+    "ja": "口から　吹きだした 糸を　まきつけて　相手の 素早さを　がくっと　さげる。",
+    "kana": "くちから　ふきだした いとを　まきつけて　あいての すばやさを　がくっと　さげる。",
+    "en": "The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.",
+    "fr": "Le lanceur crache de la soie pour ligoter l’ennemi et beaucoup baisser sa Vitesse.",
+    "it": "Chi la usa produce della seta che avvolge i nemici intorno e ne riduce di molto la Velocità.",
+    "de": "Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.",
+    "es": "Lanza seda a los rivales y reduce mucho su Velocidad.",
+    "ko": "입에서 뿜어낸 실을 휘감아서 상대의 스피드를 크게 떨어뜨린다.",
+    "zh-CN": "用口中吐出的丝缠绕对手， 从而大幅降低对手的速度。",
+    "zh-TW": "用口中吐出的絲纏繞對手， 大幅降低對手的速度。"
+  },
   "stat_changes": [
     {
       "change": -2,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-opponents"
-  },
-  "type": {
-    "name": "bug"
-  }
+  "target": "all-opponents",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur crache de la soie pour ligoter l’ennemi et baisser sensiblement sa Vitesse."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Umwickelt Ziele in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert."
+        }
+      }
+    }
+  ]
 }

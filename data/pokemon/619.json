@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 3,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "humanshape"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "upright"
   },
@@ -58,68 +50,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "コジョフー",
-      "language": "ja"
-    },
-    {
-      "name": "비조푸",
-      "language": "ko"
-    },
-    {
-      "name": "Kungfouine",
-      "language": "fr"
-    },
-    {
-      "name": "Lin-Fu",
-      "language": "de"
-    },
-    {
-      "name": "Mienfoo",
-      "language": "es"
-    },
-    {
-      "name": "Mienfoo",
-      "language": "it"
-    },
-    {
-      "name": "Mienfoo",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コジョフー",
+    "en": "Mienfoo",
+    "fr": "Kungfouine",
+    "it": "Mienfoo",
+    "de": "Lin-Fu",
+    "es": "Mienfoo",
+    "ko": "비조푸"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ぶじゅつ",
-      "language": "ja"
-    },
-    {
-      "genus": "무술",
-      "language": "ko"
-    },
-    {
-      "genus": "Art Martial",
-      "language": "fr"
-    },
-    {
-      "genus": "Kampfkünste",
-      "language": "de"
-    },
-    {
-      "genus": "Arte Marcial",
-      "language": "es"
-    },
-    {
-      "genus": "Marziale",
-      "language": "it"
-    },
-    {
-      "genus": "Martial Arts",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ぶじゅつ",
+    "en": "Martial Arts",
+    "fr": "Art Martial",
+    "it": "Marziale",
+    "de": "Kampfkünste",
+    "es": "Arte Marcial",
+    "ko": "무술"
+  },
   "varieties": [
     {
       "is_default": true,

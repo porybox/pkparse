@@ -2,36 +2,13 @@
   "id": 50,
   "name": "disable",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Disables the target's last used move, preventing its use for 4–7 turns, selected at random, or until the target leaves the [field]{mechanic:field}.  If the target hasn't used a move since entering the [field]{mechanic:field}, if it tried to use a move this turn and [failed]{mechanic:failed},  if its last used move has 0 PP remaining, or if it already has a move disabled, this move will fail.",
-      "short_effect": "Disables the target's last used move for 1-8 turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "disable"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "disable",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 4,
@@ -43,66 +20,42 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Disable",
-      "language": "en"
-    },
-    {
-      "name": "Inibitore",
-      "language": "it"
-    },
-    {
-      "name": "Anulación",
-      "language": "es"
-    },
-    {
-      "name": "Aussetzer",
-      "language": "de"
-    },
-    {
-      "name": "Entrave",
-      "language": "fr"
-    },
-    {
-      "name": "사슬묶기",
-      "language": "ko"
-    },
-    {
-      "name": "かなしばり",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "かなしばり",
+    "kana": "かなしばり",
+    "en": "Disable",
+    "fr": "Entrave",
+    "it": "Inibitore",
+    "de": "Aussetzer",
+    "es": "Anulación",
+    "ko": "사슬묶기",
+    "zh-CN": "定身法",
+    "zh-TW": "定身法"
+  },
+  "flavor_text_entries": {
+    "ja": "相手の　動きを　とめて 直前に　だしていた　技を ４ターンの　間　使えなくする。",
+    "kana": "あいての　うごきを　とめて ちょくぜんに　だしていた　わざを ４ターンの　あいだ　つかえなく　する。",
+    "en": "For four turns, this move prevents the target from using the move it last used.",
+    "fr": "Empêche l’ennemi d’employer à nouveau sa dernière attaque. Dure quatre tours.",
+    "it": "Per quattro turni impedisce al bersaglio di riutilizzare l’ultima mossa usata.",
+    "de": "Die zuletzt eingesetzte Attacke des Zieles wird für vier Runden blockiert.",
+    "es": "Desactiva el último movimiento del objetivo durante cuatro turnos.",
+    "ko": "상대의 움직임을 막아 바로 전에 쓴 기술을 4턴 동안 사용할 수 없게 만든다.",
+    "zh-CN": "阻碍对手行动， 之前使出的招式 将在４回合内无法使用。",
+    "zh-TW": "阻止對手出招， 最近一次使用的招式 在４回合內無法使用。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
   "past_values": [
     {
-      "accuracy": 55,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
-      }
-    },
-    {
-      "accuracy": 80,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "相手の　動きを　とめて 直前に　だしていた　技を ４ターンの　あいだ　使えなくする。",
+          "de": "Die zuletzt eingesetzte Attacke des Zieles wird für mehrere Runden blockiert."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "normal"
-  }
+  ]
 }

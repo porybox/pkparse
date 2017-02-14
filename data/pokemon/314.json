@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 134,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    },
-    {
-      "name": "bug"
-    }
+    "bug",
+    "humanshape"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "humanoid"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "イルミーゼ",
-      "language": "ja"
-    },
-    {
-      "name": "Illumise",
-      "language": "roomaji"
-    },
-    {
-      "name": "네오비트",
-      "language": "ko"
-    },
-    {
-      "name": "甜甜螢",
-      "language": "zh"
-    },
-    {
-      "name": "Lumivole",
-      "language": "fr"
-    },
-    {
-      "name": "Illumise",
-      "language": "de"
-    },
-    {
-      "name": "Illumise",
-      "language": "es"
-    },
-    {
-      "name": "Illumise",
-      "language": "it"
-    },
-    {
-      "name": "Illumise",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "イルミーゼ",
+    "en": "Illumise",
+    "fr": "Lumivole",
+    "it": "Illumise",
+    "de": "Illumise",
+    "es": "Illumise",
+    "ko": "네오비트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほたる",
-      "language": "ja"
-    },
-    {
-      "genus": "반딧불",
-      "language": "ko"
-    },
-    {
-      "genus": "Luciole",
-      "language": "fr"
-    },
-    {
-      "genus": "Libelle",
-      "language": "de"
-    },
-    {
-      "genus": "Luciérnaga",
-      "language": "es"
-    },
-    {
-      "genus": "Lucciola",
-      "language": "it"
-    },
-    {
-      "genus": "Firefly",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほたる",
+    "en": "Firefly",
+    "fr": "Luciole",
+    "it": "Lucciola",
+    "de": "Glühwürmchen",
+    "es": "Luciérnaga",
+    "ko": "반딧불"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -147,9 +89,20 @@
   "base_stats": {
     "hp": 65,
     "attack": 47,
-    "defense": 55,
+    "defense": 75,
     "special-attack": 73,
-    "special-defense": 75,
+    "special-defense": 85,
     "speed": 85
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "defense": 55,
+          "special-defense": 75
+        }
+      }
+    }
+  ]
 }

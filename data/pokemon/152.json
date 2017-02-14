@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 1,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -54,44 +46,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "チコリータ",
-      "language": "ja"
-    },
-    {
-      "name": "Chicorita",
-      "language": "roomaji"
-    },
-    {
-      "name": "치코리타",
-      "language": "ko"
-    },
-    {
-      "name": "菊草葉",
-      "language": "zh"
-    },
-    {
-      "name": "Germignon",
-      "language": "fr"
-    },
-    {
-      "name": "Endivie",
-      "language": "de"
-    },
-    {
-      "name": "Chikorita",
-      "language": "es"
-    },
-    {
-      "name": "Chikorita",
-      "language": "it"
-    },
-    {
-      "name": "Chikorita",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "チコリータ",
+    "en": "Chikorita",
+    "fr": "Germignon",
+    "it": "Chikorita",
+    "de": "Endivie",
+    "es": "Chikorita",
+    "ko": "치코리타"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -102,36 +65,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はっぱ",
-      "language": "ja"
-    },
-    {
-      "genus": "잎사귀",
-      "language": "ko"
-    },
-    {
-      "genus": "Feuille",
-      "language": "fr"
-    },
-    {
-      "genus": "Laub",
-      "language": "de"
-    },
-    {
-      "genus": "Hoja",
-      "language": "es"
-    },
-    {
-      "genus": "Foglia",
-      "language": "it"
-    },
-    {
-      "genus": "Leaf",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はっぱ",
+    "en": "Leaf",
+    "fr": "Feuille",
+    "it": "Foglia",
+    "de": "Laub",
+    "es": "Hoja",
+    "ko": "잎사귀"
+  },
   "varieties": [
     {
       "is_default": true,

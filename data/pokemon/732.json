@@ -1,0 +1,45 @@
+{
+  "id": 732,
+  "name": "trumbeak",
+  "gender_rate": 4,
+  "capture_rate": 120,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "flying"
+  ],
+  "color": "black",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ケララッパ",
+    "en": "Trumbeak",
+    "fr": "Piclairon",
+    "it": "Trumbeak",
+    "de": "Trompeck",
+    "es": "Trumbeak",
+    "ko": "크라파"
+  },
+  "genera": {
+    "ja": "ラッパぐち",
+    "en": "Bugle Beak",
+    "fr": "Bec Clairon",
+    "it": "Trombecco",
+    "de": "Trompete",
+    "es": "Trompeta",
+    "ko": "나팔입"
+  },
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 85,
+    "defense": 50,
+    "special-attack": 40,
+    "special-defense": 50,
+    "speed": 75
+  }
+}

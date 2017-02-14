@@ -3,15 +3,13 @@
   "name": "zekrom",
   "order": 645,
   "gender_rate": -1,
-  "capture_rate": 45,
+  "capture_rate": 3,
   "base_happiness": 0,
   "is_baby": false,
   "hatch_counter": 120,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 198,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "upright"
   },
@@ -55,72 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ゼクロム",
-      "language": "ja"
-    },
-    {
-      "name": "제크로무",
-      "language": "ko"
-    },
-    {
-      "name": "捷克羅姆",
-      "language": "zh"
-    },
-    {
-      "name": "Zekrom",
-      "language": "fr"
-    },
-    {
-      "name": "Zekrom",
-      "language": "de"
-    },
-    {
-      "name": "Zekrom",
-      "language": "es"
-    },
-    {
-      "name": "Zekrom",
-      "language": "it"
-    },
-    {
-      "name": "Zekrom",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゼクロム",
+    "en": "Zekrom",
+    "fr": "Zekrom",
+    "it": "Zekrom",
+    "de": "Zekrom",
+    "es": "Zekrom",
+    "ko": "제크로무"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こくいん",
-      "language": "ja"
-    },
-    {
-      "genus": "흑음",
-      "language": "ko"
-    },
-    {
-      "genus": "Noir Idéal",
-      "language": "fr"
-    },
-    {
-      "genus": "Reines Schwarz",
-      "language": "de"
-    },
-    {
-      "genus": "Negro Puro",
-      "language": "es"
-    },
-    {
-      "genus": "Nero Ideale",
-      "language": "it"
-    },
-    {
-      "genus": "Deep Black",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こくいん",
+    "en": "Deep Black",
+    "fr": "Noir Idéal",
+    "it": "Nero Ideale",
+    "de": "Reines Schwarz",
+    "es": "Negro Puro",
+    "ko": "흑음"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -141,5 +89,13 @@
     "special-attack": 120,
     "special-defense": 100,
     "speed": 90
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 28,
+      "prior_values": {
+        "capture_rate": 45
+      }
+    }
+  ]
 }

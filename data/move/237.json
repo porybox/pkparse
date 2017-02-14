@@ -2,36 +2,13 @@
   "id": 237,
   "name": "hidden-power",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 60,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power and type are determined by the user's [IV]{mechanic:iv}s.\n\nPower is given by `x * 40 / 63 + 30`.  `x` is obtained by arranging bit 1 from the [IV]{mechanic:iv} for each of [Special Defense]{mechanic:special-defense}, [Special Attack]{mechanic:special-attack}, [Speed]{mechanic:speed}, [Defense]{mechanic:defense}, [Attack]{mechanic:attack}, and [HP]{mechanic:hp} in that order.  (Bit 1 is 1 if the [IV]{mechanic:iv} is of the form `4n + 2` or `4n + 3`.  `x` is then 64 * [Special Defense]{mechanic:special-defense} [IV]{mechanic:iv} bit 1, plus 32 * [Special Attack]{mechanic:special-attack} [IV]{mechanic:iv} bit 1, etc.)\n\nPower is always between 30 and 70, inclusive.  Average power is 49.5.\n\nType is given by `y * 15 / 63`, where `y` is similar to `x` above, except constructed from bit 0.  (Bit 0 is 1 if the [IV]{mechanic:iv} is odd.)  The result is looked up in the following table.\n\nValue | Type\n----: | --------\n    0 | []{type:fighting}\n    1 | []{type:flying}\n    2 | []{type:poison}\n    3 | []{type:ground}\n    4 | []{type:rock}\n    5 | []{type:bug}\n    6 | []{type:ghost}\n    7 | []{type:steel}\n    8 | []{type:fire}\n    9 | []{type:water}\n   10 | []{type:grass}\n   11 | []{type:electric}\n   12 | []{type:psychic}\n   13 | []{type:ice}\n   14 | []{type:dragon}\n   15 | []{type:dark}\n\nThis move thus cannot be []{type:normal}.  Most other types have an equal 1/16 chance to be selected, given random [IV]{mechanic:iv}s.  However, due to the flooring used here, []{type:bug}, []{type:fighting}, and []{type:grass} appear 5/64 of the time, and []{type:dark} only 1/64 of the time.",
-      "short_effect": "Power and type depend upon user's IVs.  Power can range from 30 to 70.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Hidden Power",
-      "language": "en"
-    },
-    {
-      "name": "Introforza",
-      "language": "it"
-    },
-    {
-      "name": "Poder Oculto",
-      "language": "es"
-    },
-    {
-      "name": "Kraftreserve",
-      "language": "de"
-    },
-    {
-      "name": "Puissance Cachée",
-      "language": "fr"
-    },
-    {
-      "name": "잠재파워",
-      "language": "ko"
-    },
-    {
-      "name": "めざめるパワー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "めざめるパワー",
+    "kana": "めざめるパワー",
+    "en": "Hidden Power",
+    "fr": "Puissance Cachée",
+    "it": "Introforza",
+    "de": "Kraftreserve",
+    "es": "Poder Oculto",
+    "ko": "잠재파워",
+    "zh-CN": "觉醒力量",
+    "zh-TW": "覺醒力量"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "技を　使った　ポケモンに　よって 技の　タイプが　変わる。",
+    "kana": "わざを　つかった　ポケモンに　よって わざの　タイプが　かわる。",
+    "en": "A unique attack that varies in type depending on the Pokémon using it.",
+    "fr": "Attaque dont le type dépend du Pokémon qui l’utilise.",
+    "it": "Mossa singolare che cambia tipo a seconda del Pokémon che la usa.",
+    "de": "Wirkung und Typ der Attacke hängen vom Anwender ab.",
+    "es": "Movimiento cuyo tipo varía en función del Pokémon que lo usa.",
+    "ko": "기술을 쓴 포켓몬에 따라 기술의 타입이 바뀐다.",
+    "zh-CN": "招式的属性会随着 使用此招式的宝可梦而改变。",
+    "zh-TW": "招式的屬性會隨著 使用此招式的寶可夢而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

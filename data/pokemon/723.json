@@ -1,0 +1,45 @@
+{
+  "id": 723,
+  "name": "dartrix",
+  "gender_rate": 1,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium-slow",
+  "egg_groups": [
+    "flying"
+  ],
+  "color": "brown",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "フクスロー",
+    "en": "Dartrix",
+    "fr": "Efflèche",
+    "it": "Dartrix",
+    "de": "Arboretoss",
+    "es": "Dartrix",
+    "ko": "빼미스로우"
+  },
+  "genera": {
+    "ja": "はばね",
+    "en": "Blade Quill",
+    "fr": "Plum’acérée",
+    "it": "Piumaffilata",
+    "de": "Flügelklinge",
+    "es": "Pluma Filo",
+    "ko": "칼날깃"
+  },
+  "types": [
+    "grass",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 78,
+    "attack": 75,
+    "defense": 75,
+    "special-attack": 70,
+    "special-defense": 70,
+    "speed": 52
+  }
+}

@@ -2,36 +2,13 @@
   "id": 322,
   "name": "cosmic-power",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Defense]{mechanic:defense} and [Special Defense]{mechanic:special-defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Raises the user's Defense and Special Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,56 +20,40 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Cosmic Power",
-      "language": "en"
-    },
-    {
-      "name": "Cosmoforza",
-      "language": "it"
-    },
-    {
-      "name": "Masa Cósmica",
-      "language": "es"
-    },
-    {
-      "name": "Kosmik-Kraft",
-      "language": "de"
-    },
-    {
-      "name": "Force Cosmik",
-      "language": "fr"
-    },
-    {
-      "name": "코스믹파워",
-      "language": "ko"
-    },
-    {
-      "name": "コスモパワー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "コスモパワー",
+    "kana": "コスモパワー",
+    "en": "Cosmic Power",
+    "fr": "Force Cosmik",
+    "it": "Cosmoforza",
+    "de": "Kosmik-Kraft",
+    "es": "Masa Cósmica",
+    "ko": "코스믹파워",
+    "zh-CN": "宇宙力量",
+    "zh-TW": "宇宙力量"
+  },
+  "flavor_text_entries": {
+    "ja": "宇宙から　神秘の　力を とりこむ　ことで 自分の　防御と　特防を　あげる。",
+    "kana": "うちゅう　から　しんぴの　ちからを とりこむ　ことで　じぶんの ぼうぎょと　とくぼうを　あげる。",
+    "en": "The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.",
+    "fr": "Le lanceur absorbe un pouvoir mystique spatial qui augmente sa Défense et sa Défense Spéciale.",
+    "it": "Chi la usa assorbe una forza mistica dallo spazio che aumenta la Difesa e la Difesa Speciale.",
+    "de": "Erhöht Verteidigung und Spezial-Verteidigung durch eine mystische Kraft.",
+    "es": "Sube la Defensa y la Defensa Especial propias con energía mística.",
+    "ko": "우주로부터 신비한 힘을 손에 넣음으로써 자신의 방어와 특수방어를 올린다.",
+    "zh-CN": "汲取宇宙中神秘的力量， 从而提高自己的防御和特防。",
+    "zh-TW": "吸取來自宇宙的神秘力量， 提高自己的防禦和特防。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-defense"
-      }
+      "stat": "special-defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "psychic"
-  }
+  "target": "user",
+  "type": "psychic"
 }

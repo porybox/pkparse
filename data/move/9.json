@@ -2,62 +2,13 @@
   "id": 9,
   "name": "thunder-punch",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 15,
   "priority": 0,
   "power": 75,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "fire-punch"
-        },
-        {
-          "name": "ice-punch"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "fire-punch"
-        },
-        {
-          "name": "ice-punch"
-        },
-        {
-          "name": "charge"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.",
-      "short_effect": "Has a $effect_chance% chance to [paralyze]{mechanic:paralysis} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "paralysis",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -69,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Thunder Punch",
-      "language": "en"
-    },
-    {
-      "name": "Tuonopugno",
-      "language": "it"
-    },
-    {
-      "name": "Puño Trueno",
-      "language": "es"
-    },
-    {
-      "name": "Donnerschlag",
-      "language": "de"
-    },
-    {
-      "name": "Poing-Éclair",
-      "language": "fr"
-    },
-    {
-      "name": "번개펀치",
-      "language": "ko"
-    },
-    {
-      "name": "かみなりパンチ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "かみなりパンチ",
+    "kana": "かみなりパンチ",
+    "en": "Thunder Punch",
+    "fr": "Poing-Éclair",
+    "it": "Tuonopugno",
+    "de": "Donnerschlag",
+    "es": "Puño Trueno",
+    "ko": "번개펀치",
+    "zh-CN": "雷电拳",
+    "zh-TW": "雷電拳"
   },
-  "type": {
-    "name": "electric"
-  }
+  "flavor_text_entries": {
+    "ja": "電撃を　こめた　パンチで 相手を　攻撃する。 まひ状態に　することが　ある。",
+    "kana": "でんげきを　こめた　パンチで あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+    "en": "The target is punched with an electrified fist. This may also leave the target with paralysis.",
+    "fr": "Un coup de poing électrique vient frapper l’ennemi. Peut le paralyser.",
+    "it": "Colpisce il bersaglio con un pugno elettrico che può paralizzarlo.",
+    "de": "Ein elektrischer Schlag, der das Ziel eventuell paralysiert.",
+    "es": "Puñetazo eléctrico. Puede paralizar.",
+    "ko": "전격을 담은 펀치로 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+    "zh-CN": "用充满电流的拳头攻击对手。 有时会让对手陷入麻痹状态。",
+    "zh-TW": "用帶有電流的拳頭 攻擊對手。 有時會讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric"
 }

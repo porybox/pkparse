@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 217,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "legs"
   },
@@ -69,44 +63,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "モンジャラ",
-      "language": "ja"
-    },
-    {
-      "name": "Monjara",
-      "language": "roomaji"
-    },
-    {
-      "name": "덩쿠리",
-      "language": "ko"
-    },
-    {
-      "name": "蔓藤怪",
-      "language": "zh"
-    },
-    {
-      "name": "Saquedeneu",
-      "language": "fr"
-    },
-    {
-      "name": "Tangela",
-      "language": "de"
-    },
-    {
-      "name": "Tangela",
-      "language": "es"
-    },
-    {
-      "name": "Tangela",
-      "language": "it"
-    },
-    {
-      "name": "Tangela",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "モンジャラ",
+    "en": "Tangela",
+    "fr": "Saquedeneu",
+    "it": "Tangela",
+    "de": "Tangela",
+    "es": "Tangela",
+    "ko": "덩쿠리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -117,36 +82,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ツルじょう",
-      "language": "ja"
-    },
-    {
-      "genus": "넝쿨",
-      "language": "ko"
-    },
-    {
-      "genus": "Vigne",
-      "language": "fr"
-    },
-    {
-      "genus": "Ranke",
-      "language": "de"
-    },
-    {
-      "genus": "Enredadera",
-      "language": "es"
-    },
-    {
-      "genus": "Liana",
-      "language": "it"
-    },
-    {
-      "genus": "Vine",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ツルじょう",
+    "en": "Vine",
+    "fr": "Vigne",
+    "it": "Liana",
+    "de": "Ranke",
+    "es": "Enredadera",
+    "ko": "넝쿨"
+  },
   "varieties": [
     {
       "is_default": true,

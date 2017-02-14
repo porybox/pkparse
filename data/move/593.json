@@ -2,34 +2,13 @@
   "id": 593,
   "name": "hyperspace-hole",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "This move has a unique effect, but it is unreleased, so the specific effect is unknown.",
-      "short_effect": "Unknown.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Hyperspace Hole",
-      "language": "en"
-    },
-    {
-      "name": "Forodimensionale",
-      "language": "it"
-    },
-    {
-      "name": "Paso Dimensional",
-      "language": "es"
-    },
-    {
-      "name": "Dimensionsloch",
-      "language": "de"
-    },
-    {
-      "name": "TrouDimensionnel",
-      "language": "fr"
-    },
-    {
-      "name": "다른차원홀",
-      "language": "ko"
-    },
-    {
-      "name": "いじげんホール",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "いじげんホール",
+    "kana": "いじげんホール",
+    "en": "Hyperspace Hole",
+    "fr": "TrouDimensionnel",
+    "it": "Forodimensionale",
+    "de": "Dimensionsloch",
+    "es": "Paso Dimensional",
+    "ko": "다른차원홀",
+    "zh-CN": "异次元洞",
+    "zh-TW": "異次元洞"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "異次元ホールで　突然　相手の 真横に　現れ　攻撃する。 まもるや　みきり　なども　無視　できる。",
+    "kana": "いじげんホールで　とつぜん　あいての まよこに　あらわれ　こうげきする。 まもるや　みきり　なども　むし　できる。",
+    "en": "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect.",
+    "fr": "Crée une faille dimensionnelle pour attaquer soudainement l’ennemi de côté. Ignore même les capacités comme Abri ou Détection.",
+    "it": "Chi la usa sfrutta un passaggio interdimensionale per comparire a fianco del bersaglio e colpirlo, eludendo mosse come Protezione e Individua.",
+    "de": "Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild, Scanner etc.",
+    "es": "El usuario aparece junto al rival usando un agujero dimensional y le asesta un golpe que movimientos como Protección o Detección no pueden evitar.",
+    "ko": "다른차원홀로 갑자기 상대 바로 옆에 나타나 공격한다. 방어나 판별 등도 무시할 수 있다.",
+    "zh-CN": "通过异次元洞， 突然出现在对手的侧面进行攻击。 还可以无视守住和看穿等招式。",
+    "zh-TW": "利用異次元洞， 突然出現在對手的側面進行攻擊。 可避開對手的守住和看穿等招式。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "異次元ホールで　突然　相手の 真横に　現れ　攻撃する。 まもるや　みきりも　無視　できる。",
+          "kana": "いじげんホールで　とつぜん　あいての まよこに　あらわれ　こうげきする。 まもるや　みきりも　むし　できる。",
+          "en": "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using Protect or Detect.",
+          "fr": "Crée une faille dimensionnelle pour attaquer soudainement l’ennemi de côté. Ignore même Abri ou Détection.",
+          "it": "Chi la usa, sfrutta un passaggio interdimensionale per comparire a fianco del bersaglio e colpirlo, eludendo mosse come Protezione e Individua.",
+          "de": "Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild und Scanner.",
+          "es": "El usuario aparece junto a su objetivo usando un agujero interdimensional y le asesta un golpe que no puede esquivarse con Protección ni Detección.",
+          "ko": "다른차원홀로 갑자기 상대 바로 옆에 나타나 공격한다. 방어나 판별도 무시할 수 있다."
+        }
+      }
+    }
+  ]
 }

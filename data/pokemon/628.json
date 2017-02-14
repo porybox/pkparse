@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 170,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "wings"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ウォーグル",
-      "language": "ja"
-    },
-    {
-      "name": "워글",
-      "language": "ko"
-    },
-    {
-      "name": "Gueriaigle",
-      "language": "fr"
-    },
-    {
-      "name": "Washakwil",
-      "language": "de"
-    },
-    {
-      "name": "Braviary",
-      "language": "es"
-    },
-    {
-      "name": "Braviary",
-      "language": "it"
-    },
-    {
-      "name": "Braviary",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ウォーグル",
+    "en": "Braviary",
+    "fr": "Gueriaigle",
+    "it": "Braviary",
+    "de": "Washakwil",
+    "es": "Braviary",
+    "ko": "워글"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ゆうもう",
-      "language": "ja"
-    },
-    {
-      "genus": "용맹",
-      "language": "ko"
-    },
-    {
-      "genus": "Vaillant",
-      "language": "fr"
-    },
-    {
-      "genus": "Kühnheit",
-      "language": "de"
-    },
-    {
-      "genus": "Aguerrido",
-      "language": "es"
-    },
-    {
-      "genus": "Baldanza",
-      "language": "it"
-    },
-    {
-      "genus": "Valiant",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ゆうもう",
+    "en": "Valiant",
+    "fr": "Vaillant",
+    "it": "Baldanza",
+    "de": "Kühnheit",
+    "es": "Aguerrido",
+    "ko": "용맹"
+  },
   "varieties": [
     {
       "is_default": true,

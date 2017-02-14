@@ -2,36 +2,13 @@
   "id": 431,
   "name": "rock-climb",
   "accuracy": 85,
-  "effect_chance": 20,
   "pp": 20,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [confuse]{mechanic:confuse} the target.",
-      "short_effect": "Has a $effect_chance% chance to confuse the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "confusion",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Rock Climb",
-      "language": "en"
-    },
-    {
-      "name": "Scalaroccia",
-      "language": "it"
-    },
-    {
-      "name": "Treparrocas",
-      "language": "es"
-    },
-    {
-      "name": "Kraxler",
-      "language": "de"
-    },
-    {
-      "name": "Escalade",
-      "language": "fr"
-    },
-    {
-      "name": "락클라임",
-      "language": "ko"
-    },
-    {
-      "name": "ロッククライム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ロッククライム",
+    "kana": "ロッククライム",
+    "en": "Rock Climb",
+    "fr": "Escalade",
+    "it": "Scalaroccia",
+    "de": "Kraxler",
+    "es": "Treparrocas",
+    "ko": "락클라임",
+    "zh-CN": "攀岩",
+    "zh-TW": "攀岩"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "すごい　勢いで　相手に つっこみ　攻撃する。 相手を　混乱させることが　ある。",
+    "kana": "すごい　いきおいで　あいてに つっこみ　こうげきする。 あいてを　こんらん　させることが　ある。",
+    "en": "The user attacks the target by smashing into it with incredible force. This may also confuse the target.",
+    "fr": "Le lanceur se jette violemment sur l’ennemi. Peut aussi le rendre confus.",
+    "it": "Chi la usa carica con impeto incredibile. Il colpo può confondere il bersaglio.",
+    "de": "Eine stürmische Attacke, die das Ziel eventuell verwirrt.",
+    "es": "Ataca con una gran embestida. Puede confundir al objetivo.",
+    "ko": "굉장한 기세로 상대에게 돌진하여 공격한다. 상대를 혼란시킬 때가 있다.",
+    "zh-CN": "用尽全力扑向对手进行攻击。 有时会使对手混乱。",
+    "zh-TW": "用盡全力撲向對手進行攻擊。 有時會使對手混亂。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

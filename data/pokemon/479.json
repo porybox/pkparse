@@ -1,180 +1,4 @@
 {
-  "id": 479,
-  "name": "rotom",
-  "order": 480,
-  "gender_rate": -1,
-  "capture_rate": 45,
-  "base_happiness": 70,
-  "is_baby": false,
-  "hatch_counter": 20,
-  "has_gender_differences": false,
-  "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium"
-  },
-  "pokedex_numbers": [
-    {
-      "entry_number": 68,
-      "pokedex": {
-        "name": "kalos-mountain"
-      }
-    },
-    {
-      "entry_number": 152,
-      "pokedex": {
-        "name": "extended-sinnoh"
-      }
-    },
-    {
-      "entry_number": 479,
-      "pokedex": {
-        "name": "national"
-      }
-    }
-  ],
-  "egg_groups": [
-    {
-      "name": "indeterminate"
-    }
-  ],
-  "color": {
-    "name": "red"
-  },
-  "shape": {
-    "name": "ball"
-  },
-  "evolves_from_species": null,
-  "evolution_chain": {},
-  "habitat": null,
-  "generation": {
-    "name": "generation-iv"
-  },
-  "names": [
-    {
-      "name": "ロトム",
-      "language": "ja"
-    },
-    {
-      "name": "Rotom",
-      "language": "roomaji"
-    },
-    {
-      "name": "로토무",
-      "language": "ko"
-    },
-    {
-      "name": "洛托姆",
-      "language": "zh"
-    },
-    {
-      "name": "Motisma",
-      "language": "fr"
-    },
-    {
-      "name": "Rotom",
-      "language": "de"
-    },
-    {
-      "name": "Rotom",
-      "language": "es"
-    },
-    {
-      "name": "Rotom",
-      "language": "it"
-    },
-    {
-      "name": "Rotom",
-      "language": "en"
-    }
-  ],
-  "pal_park_encounters": [
-    {
-      "base_score": 90,
-      "rate": 3,
-      "area": {
-        "name": "field"
-      }
-    }
-  ],
-  "form_descriptions": [
-    {
-      "description": "Forms have different signature moves and types, and the appliance forms' stats are different from the normal form's.  In Generation IV, all forms are Electric/Ghost type.\n\nWhen switching forms, the old signature move (if any) is removed and the new one must be learned, overwriting another move if need be, or the switch will be cancelled; however, it can be forgotten while in the new form.  If Rotom only knows its signature move upon reverting to its default form, it learns []{move:thunder-shock} to avoid having no moves.\n\nAppliances for switching Rotom's form can be found in the following locations, depending on the game:\n\n* Platinum: In the Team Galactic Eterna Building.  Requires a []{item:secret-key}.\n* HeartGold and SoulSilver: In the Silph Co. Office Building.  Enter the building when walking with Rotom and enter the broken elevator.\n* Black and White 1 & 2: In Shopping Mall Nine.  Found in boxes in a storage room on the first floor on the far right.",
-      "language": "en"
-    }
-  ],
-  "genera": [
-    {
-      "genus": "プラズマ",
-      "language": "ja"
-    },
-    {
-      "genus": "플라스마",
-      "language": "ko"
-    },
-    {
-      "genus": "Plasma",
-      "language": "fr"
-    },
-    {
-      "genus": "Plasma",
-      "language": "de"
-    },
-    {
-      "genus": "Plasma",
-      "language": "es"
-    },
-    {
-      "genus": "Plasma",
-      "language": "it"
-    },
-    {
-      "genus": "Plasma",
-      "language": "en"
-    }
-  ],
-  "varieties": [
-    {
-      "is_default": true,
-      "pokemon": {
-        "name": "rotom"
-      }
-    },
-    {
-      "is_default": false,
-      "pokemon": {
-        "name": "rotom-heat"
-      }
-    },
-    {
-      "is_default": false,
-      "pokemon": {
-        "name": "rotom-wash"
-      }
-    },
-    {
-      "is_default": false,
-      "pokemon": {
-        "name": "rotom-frost"
-      }
-    },
-    {
-      "is_default": false,
-      "pokemon": {
-        "name": "rotom-fan"
-      }
-    },
-    {
-      "is_default": false,
-      "pokemon": {
-        "name": "rotom-mow"
-      }
-    }
-  ],
-  "first_evolution_id": 479,
-  "types": [
-    "electric",
-    "ghost"
-  ],
   "base_stats": {
     "hp": 50,
     "attack": 50,
@@ -182,5 +6,38 @@
     "special-attack": 95,
     "special-defense": 77,
     "speed": 91
-  }
+  },
+  "gender_rate": -1,
+  "egg_groups": [
+    "indeterminate"
+  ],
+  "name": "rotom",
+  "types": [
+    "electric",
+    "ghost"
+  ],
+  "genera": {
+    "ja": "プラズマ",
+    "en": "Plasma",
+    "fr": "Plasma",
+    "it": "Plasma",
+    "de": "Plasma",
+    "es": "Plasma",
+    "ko": "플라스마"
+  },
+  "id": 479,
+  "capture_rate": 45,
+  "color": "red",
+  "names": {
+    "ja": "ロトム",
+    "en": "Rotom",
+    "fr": "Motisma",
+    "it": "Rotom",
+    "de": "Rotom",
+    "es": "Rotom",
+    "ko": "로토무"
+  },
+  "growth_rate": "medium",
+  "hatch_counter": 20,
+  "base_happiness": 70
 }

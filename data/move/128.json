@@ -2,49 +2,13 @@
   "id": 128,
   "name": "clamp",
   "accuracy": 85,
-  "effect_chance": 100,
   "pp": 15,
   "priority": 0,
   "power": 35,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rain-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  For the next 2–5 turns, the target cannot leave the field and is damaged for 1/16 its max HP at the end of each turn.  The user continues to use other moves during this time.  If the user leaves the [field]{mechanic:field}, this effect ends.\n\nHas a 3/8 chance each to hit 2 or 3 times, and a 1/8 chance each to hit 4 or 5 times.  Averages to 3 hits per use.\n\n[]{move:rapid-spin} cancels this effect.",
-      "short_effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "trap"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "trap",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 5,
@@ -56,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Clamp",
-      "language": "en"
-    },
-    {
-      "name": "Tenaglia",
-      "language": "it"
-    },
-    {
-      "name": "Tenaza",
-      "language": "es"
-    },
-    {
-      "name": "Schnapper",
-      "language": "de"
-    },
-    {
-      "name": "Claquoir",
-      "language": "fr"
-    },
-    {
-      "name": "껍질끼우기",
-      "language": "ko"
-    },
-    {
-      "name": "からではさむ",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "からではさむ",
+    "kana": "からではさむ",
+    "en": "Clamp",
+    "fr": "Claquoir",
+    "it": "Tenaglia",
+    "de": "Schnapper",
+    "es": "Tenaza",
+    "ko": "껍질끼우기",
+    "zh-CN": "贝壳夹击",
+    "zh-TW": "貝殼夾擊"
+  },
+  "flavor_text_entries": {
+    "ja": "とても　頑丈な　ぶあつい　殻に ４ー５ターンの　間 相手を　はさんで　攻撃する。",
+    "kana": "とても　がんじょうな　ぶあつい　からに ４ー５ターンの　あいだ あいてを　はさんで　こうげきする。",
+    "en": "The target is clamped and squeezed by the user’s very thick and sturdy shell for four to five turns.",
+    "fr": "Le lanceur piège l’ennemi dans sa dure coquille et l’écrase pendant quatre à cinq tours.",
+    "it": "Chi la usa intrappola e stritola il bersaglio con la sua corazza spessa e forte per quattro o cinque turni.",
+    "de": "Fängt und quetscht das Ziel über vier bis fünf Runden durch die harte Schale des Anwenders.",
+    "es": "Atrapa y atenaza con fuerza durante cuatro o cinco turnos.",
+    "ko": "매우 튼튼하고 두꺼운 껍질에 4-5턴 동안 상대를 끼워서 공격한다.",
+    "zh-CN": "用非常坚固且厚实的贝壳， 在４～５回合内 夹住对手进行攻击。",
+    "zh-TW": "用非常堅固且厚實的貝殼， 在４～５回合內 夾住對手進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water",
   "past_values": [
     {
-      "accuracy": 75,
-      "power": null,
-      "pp": 10,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "とても　頑丈な　ぶあつい　殻に ４ー５ターンの　あいだ 相手を　はさんで　攻撃する。"
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "water"
-  }
+  ]
 }

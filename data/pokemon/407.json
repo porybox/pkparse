@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 72,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "fairy"
-    }
+    "fairy",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -66,44 +58,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ロズレイド",
-      "language": "ja"
-    },
-    {
-      "name": "Roserade",
-      "language": "roomaji"
-    },
-    {
-      "name": "로즈레이드",
-      "language": "ko"
-    },
-    {
-      "name": "羅絲雷朵",
-      "language": "zh"
-    },
-    {
-      "name": "Roserade",
-      "language": "fr"
-    },
-    {
-      "name": "Roserade",
-      "language": "de"
-    },
-    {
-      "name": "Roserade",
-      "language": "es"
-    },
-    {
-      "name": "Roserade",
-      "language": "it"
-    },
-    {
-      "name": "Roserade",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ロズレイド",
+    "en": "Roserade",
+    "fr": "Roserade",
+    "it": "Roserade",
+    "de": "Roserade",
+    "es": "Roserade",
+    "ko": "로즈레이드"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -114,36 +77,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ブーケ",
-      "language": "ja"
-    },
-    {
-      "genus": "부케",
-      "language": "ko"
-    },
-    {
-      "genus": "Bouquet",
-      "language": "fr"
-    },
-    {
-      "genus": "Blumenstrauß",
-      "language": "de"
-    },
-    {
-      "genus": "Ramillete",
-      "language": "es"
-    },
-    {
-      "genus": "Floreale",
-      "language": "it"
-    },
-    {
-      "genus": "Bouquet",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ブーケ",
+    "en": "Bouquet",
+    "fr": "Bouquet",
+    "it": "Floreale",
+    "de": "Blumenstrauß",
+    "es": "Ramillete",
+    "ko": "부케"
+  },
   "varieties": [
     {
       "is_default": true,

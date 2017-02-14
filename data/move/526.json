@@ -2,34 +2,13 @@
   "id": 526,
   "name": "work-up",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [Attack]{mechanic:attack} and [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage} each.",
-      "short_effect": "Raises the user's Attack and Special Attack by one stage each.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,56 +20,40 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Work Up",
-      "language": "en"
-    },
-    {
-      "name": "Cuordileone",
-      "language": "it"
-    },
-    {
-      "name": "Avivar",
-      "language": "es"
-    },
-    {
-      "name": "Kraftschub",
-      "language": "de"
-    },
-    {
-      "name": "Rengorgement",
-      "language": "fr"
-    },
-    {
-      "name": "분발",
-      "language": "ko"
-    },
-    {
-      "name": "ふるいたてる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ふるいたてる",
+    "kana": "ふるいたてる",
+    "en": "Work Up",
+    "fr": "Rengorgement",
+    "it": "Cuordileone",
+    "de": "Kraftschub",
+    "es": "Avivar",
+    "ko": "분발",
+    "zh-CN": "自我激励",
+    "zh-TW": "自我激勵"
+  },
+  "flavor_text_entries": {
+    "ja": "自分を　奮いたてて 攻撃と　特攻を　あげる。",
+    "kana": "じぶんを　ふるいたてて こうげきと　とくこうを　あげる。",
+    "en": "The user is roused, and its Attack and Sp. Atk stats increase.",
+    "fr": "Le lanceur se rengorge. Augmente l’Attaque et l’Attaque Spéciale.",
+    "it": "Chi la usa si tira su di morale, aumentando il proprio Attacco e l’Attacco Speciale.",
+    "de": "Anwender erhält einen Kraftschub, der seinen Angriff und Spezial-Angriff erhöht.",
+    "es": "Quien lo usa se concentra y potencia su Ataque y su Ataque Especial.",
+    "ko": "스스로 분발해서 공격과 특수공격을 올린다.",
+    "zh-CN": "激励自己， 从而提高攻击和特攻。",
+    "zh-TW": "激勵自己， 提高自己的攻擊和特攻。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "attack"
-      }
+      "stat": "attack"
     },
     {
       "change": 1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "user",
+  "type": "normal"
 }

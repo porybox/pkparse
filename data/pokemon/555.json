@@ -1,147 +1,28 @@
 {
-  "id": 555,
-  "name": "darmanitan",
-  "order": 556,
-  "gender_rate": 4,
   "capture_rate": 60,
-  "base_happiness": 70,
-  "is_baby": false,
+  "genera": {
+    "ja": "えんじょう",
+    "en": "Blazing",
+    "fr": "Enflammé",
+    "it": "Altefiamme",
+    "de": "Lichterloh",
+    "es": "Candente",
+    "ko": "염상"
+  },
+  "id": 555,
+  "names": {
+    "ja": "ヒヒダルマ",
+    "en": "Darmanitan",
+    "fr": "Darumacho",
+    "it": "Darmanitan",
+    "de": "Flampivian",
+    "es": "Darmanitan",
+    "ko": "불비달마"
+  },
+  "color": "red",
   "hatch_counter": 20,
-  "has_gender_differences": false,
-  "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
-  "pokedex_numbers": [
-    {
-      "entry_number": 143,
-      "pokedex": {
-        "name": "conquest-gallery"
-      }
-    },
-    {
-      "entry_number": 103,
-      "pokedex": {
-        "name": "updated-unova"
-      }
-    },
-    {
-      "entry_number": 61,
-      "pokedex": {
-        "name": "original-unova"
-      }
-    },
-    {
-      "entry_number": 555,
-      "pokedex": {
-        "name": "national"
-      }
-    }
-  ],
-  "egg_groups": [
-    {
-      "name": "ground"
-    }
-  ],
-  "color": {
-    "name": "red"
-  },
-  "shape": {
-    "name": "quadruped"
-  },
-  "evolves_from_species": {
-    "name": "darumaka"
-  },
-  "evolution_chain": {},
-  "habitat": null,
-  "generation": {
-    "name": "generation-v"
-  },
-  "names": [
-    {
-      "name": "ヒヒダルマ",
-      "language": "ja"
-    },
-    {
-      "name": "불비달마",
-      "language": "ko"
-    },
-    {
-      "name": "Darumacho",
-      "language": "fr"
-    },
-    {
-      "name": "Flampivian",
-      "language": "de"
-    },
-    {
-      "name": "Darmanitan",
-      "language": "es"
-    },
-    {
-      "name": "Darmanitan",
-      "language": "it"
-    },
-    {
-      "name": "Darmanitan",
-      "language": "en"
-    }
-  ],
-  "pal_park_encounters": [],
-  "form_descriptions": [
-    {
-      "description": "Forms have different stats and types.  If Darmanitan's ability is []{ability:zen-mode}, it changes to Zen Mode in battle if it ends a turn below 50% HP, and back to Standard Mode if it ends a turn at 50% HP or above, leaves battle, or loses its ability.",
-      "language": "en"
-    }
-  ],
-  "genera": [
-    {
-      "genus": "えんじょう",
-      "language": "ja"
-    },
-    {
-      "genus": "염상",
-      "language": "ko"
-    },
-    {
-      "genus": "Enflammé",
-      "language": "fr"
-    },
-    {
-      "genus": "Lichterloh",
-      "language": "de"
-    },
-    {
-      "genus": "Candente",
-      "language": "es"
-    },
-    {
-      "genus": "Altefiamme",
-      "language": "it"
-    },
-    {
-      "genus": "Blazing",
-      "language": "en"
-    }
-  ],
-  "varieties": [
-    {
-      "is_default": true,
-      "pokemon": {
-        "name": "darmanitan-standard"
-      }
-    },
-    {
-      "is_default": false,
-      "pokemon": {
-        "name": "darmanitan-zen"
-      }
-    }
-  ],
-  "first_evolution_id": 554,
-  "types": [
-    "fire"
-  ],
+  "growth_rate": "medium-slow",
+  "base_happiness": 70,
   "base_stats": {
     "hp": 105,
     "attack": 140,
@@ -149,5 +30,13 @@
     "special-attack": 30,
     "special-defense": 55,
     "speed": 95
-  }
+  },
+  "egg_groups": [
+    "ground"
+  ],
+  "gender_rate": 4,
+  "name": "darmanitan",
+  "types": [
+    "fire"
+  ]
 }

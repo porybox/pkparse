@@ -2,34 +2,13 @@
   "id": 470,
   "name": "guard-split",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Averages the user's unmodified [Defense]{mechanic:defense} with the target's unmodified Defense; the value becomes the unmodified Defense for both Pokémon. Unmodified [Special Defense]{mechanic:special-defense} is averaged the same way.",
-      "short_effect": "Averages Defense and Special Defense with the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Guard Split",
-      "language": "en"
-    },
-    {
-      "name": "Paridifesa",
-      "language": "it"
-    },
-    {
-      "name": "Isoguardia",
-      "language": "es"
-    },
-    {
-      "name": "Schutzteiler",
-      "language": "de"
-    },
-    {
-      "name": "Partage Garde",
-      "language": "fr"
-    },
-    {
-      "name": "가드셰어",
-      "language": "ko"
-    },
-    {
-      "name": "ガードシェア",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ガードシェア",
+    "kana": "ガードシェア",
+    "en": "Guard Split",
+    "fr": "Partage Garde",
+    "it": "Paridifesa",
+    "de": "Schutzteiler",
+    "es": "Isoguardia",
+    "ko": "가드셰어",
+    "zh-CN": "防守平分",
+    "zh-TW": "防守平分"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "超能力で　自分と　相手の 防御と　特防を　たして 半分に　わける。",
+    "kana": "ちょうのうりょくで　じぶんと　あいての ぼうぎょと　とくぼうを　たして はんぶんに　わける。",
+    "en": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.",
+    "fr": "Additionne la Défense et la Défense Spéciale du lanceur et de sa cible et les redistribue équitablement entre les deux.",
+    "it": "Chi la usa sfrutta la sua forza psichica per sommare Difesa e Difesa Speciale a quelle del bersaglio e dividerle equamente.",
+    "de": "Durch Psycho-Kräfte werden Verteidigung und Spezial-Verteidigung des Anwenders und des Zieles addiert und in zwei gleiche Hälften geteilt.",
+    "es": "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.",
+    "ko": "초능력으로 자신과 상대의 방어와 특수방어를 더해서 반으로 나눈다.",
+    "zh-CN": "利用超能力将自己和对手的 防御和特防相加， 再进行平分。",
+    "zh-TW": "用超能力將自己和對手的 防禦和特防各別相加後， 再進行平分。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
 }

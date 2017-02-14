@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 148,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "dragon"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "upright"
   },
@@ -64,72 +56,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "キバゴ",
-      "language": "ja"
-    },
-    {
-      "name": "터검니",
-      "language": "ko"
-    },
-    {
-      "name": "牙牙",
-      "language": "zh"
-    },
-    {
-      "name": "Coupenotte",
-      "language": "fr"
-    },
-    {
-      "name": "Milza",
-      "language": "de"
-    },
-    {
-      "name": "Axew",
-      "language": "es"
-    },
-    {
-      "name": "Axew",
-      "language": "it"
-    },
-    {
-      "name": "Axew",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "キバゴ",
+    "en": "Axew",
+    "fr": "Coupenotte",
+    "it": "Axew",
+    "de": "Milza",
+    "es": "Axew",
+    "ko": "터검니"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "キバ",
-      "language": "ja"
-    },
-    {
-      "genus": "이빨",
-      "language": "ko"
-    },
-    {
-      "genus": "Crocs",
-      "language": "fr"
-    },
-    {
-      "genus": "Stoßzahn",
-      "language": "de"
-    },
-    {
-      "genus": "Colmillo",
-      "language": "es"
-    },
-    {
-      "genus": "Zanna",
-      "language": "it"
-    },
-    {
-      "genus": "Tusk",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "キバ",
+    "en": "Tusk",
+    "fr": "Crocs",
+    "it": "Zanna",
+    "de": "Stoßzahn",
+    "es": "Colmillo",
+    "ko": "이빨"
+  },
   "varieties": [
     {
       "is_default": true,

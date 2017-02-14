@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 16,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "wings"
   },
@@ -51,68 +45,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ケンホロウ",
-      "language": "ja"
-    },
-    {
-      "name": "켄호로우",
-      "language": "ko"
-    },
-    {
-      "name": "Déflaisan",
-      "language": "fr"
-    },
-    {
-      "name": "Fasasnob",
-      "language": "de"
-    },
-    {
-      "name": "Unfezant",
-      "language": "es"
-    },
-    {
-      "name": "Unfezant",
-      "language": "it"
-    },
-    {
-      "name": "Unfezant",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ケンホロウ",
+    "en": "Unfezant",
+    "fr": "Déflaisan",
+    "it": "Unfezant",
+    "de": "Fasasnob",
+    "es": "Unfezant",
+    "ko": "켄호로우"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "プライド",
-      "language": "ja"
-    },
-    {
-      "genus": "프라이드",
-      "language": "ko"
-    },
-    {
-      "genus": "Fier",
-      "language": "fr"
-    },
-    {
-      "genus": "Stolz",
-      "language": "de"
-    },
-    {
-      "genus": "Altanero",
-      "language": "es"
-    },
-    {
-      "genus": "Orgoglio",
-      "language": "it"
-    },
-    {
-      "genus": "Proud",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "プライド",
+    "en": "Proud",
+    "fr": "Fier",
+    "it": "Orgoglio",
+    "de": "Stolz",
+    "es": "Altanero",
+    "ko": "프라이드"
+  },
   "varieties": [
     {
       "is_default": true,

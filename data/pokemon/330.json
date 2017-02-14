@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 5,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "wings"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "フライゴン",
-      "language": "ja"
-    },
-    {
-      "name": "Frygon",
-      "language": "roomaji"
-    },
-    {
-      "name": "플라이곤",
-      "language": "ko"
-    },
-    {
-      "name": "沙漠蜻蜓",
-      "language": "zh"
-    },
-    {
-      "name": "Libégon",
-      "language": "fr"
-    },
-    {
-      "name": "Libelldra",
-      "language": "de"
-    },
-    {
-      "name": "Flygon",
-      "language": "es"
-    },
-    {
-      "name": "Flygon",
-      "language": "it"
-    },
-    {
-      "name": "Flygon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フライゴン",
+    "en": "Flygon",
+    "fr": "Libégon",
+    "it": "Flygon",
+    "de": "Libelldra",
+    "es": "Flygon",
+    "ko": "플라이곤"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "せいれい",
-      "language": "ja"
-    },
-    {
-      "genus": "정령",
-      "language": "ko"
-    },
-    {
-      "genus": "Mystique",
-      "language": "fr"
-    },
-    {
-      "genus": "Mystik",
-      "language": "de"
-    },
-    {
-      "genus": "Místico",
-      "language": "es"
-    },
-    {
-      "genus": "Magico",
-      "language": "it"
-    },
-    {
-      "genus": "Mystic",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "せいれい",
+    "en": "Mystic",
+    "fr": "Mystique",
+    "it": "Magico",
+    "de": "Mystik",
+    "es": "Místico",
+    "ko": "정령"
+  },
   "varieties": [
     {
       "is_default": true,

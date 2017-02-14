@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 29,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "tentacles"
   },
@@ -67,44 +61,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "マスキッパ",
-      "language": "ja"
-    },
-    {
-      "name": "Muskippa",
-      "language": "roomaji"
-    },
-    {
-      "name": "무스틈니",
-      "language": "ko"
-    },
-    {
-      "name": "尖牙籠",
-      "language": "zh"
-    },
-    {
-      "name": "Vortente",
-      "language": "fr"
-    },
-    {
-      "name": "Venuflibis",
-      "language": "de"
-    },
-    {
-      "name": "Carnivine",
-      "language": "es"
-    },
-    {
-      "name": "Carnivine",
-      "language": "it"
-    },
-    {
-      "name": "Carnivine",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マスキッパ",
+    "en": "Carnivine",
+    "fr": "Vortente",
+    "it": "Carnivine",
+    "de": "Venuflibis",
+    "es": "Carnivine",
+    "ko": "무스틈니"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -115,36 +80,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "むしとり",
-      "language": "ja"
-    },
-    {
-      "genus": "벌레잡이",
-      "language": "ko"
-    },
-    {
-      "genus": "Chopinsecte",
-      "language": "fr"
-    },
-    {
-      "genus": "Käfertod",
-      "language": "de"
-    },
-    {
-      "genus": "Caza Bichos",
-      "language": "es"
-    },
-    {
-      "genus": "Insettivoro",
-      "language": "it"
-    },
-    {
-      "genus": "Bug Catcher",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "むしとり",
+    "en": "Bug Catcher",
+    "fr": "Chopinsecte",
+    "it": "Insettivoro",
+    "de": "Käfertod",
+    "es": "Caza Bichos",
+    "ko": "벌레잡이"
+  },
   "varieties": [
     {
       "is_default": true,

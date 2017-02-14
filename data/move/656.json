@@ -1,0 +1,50 @@
+{
+  "id": 656,
+  "name": "twinkle-tackle",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": null,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ラブリースターインパクト",
+    "kana": "ラブリースターインパクト",
+    "en": "Twinkle Tackle",
+    "fr": "Impact Choupinova",
+    "it": "Astroimpatto Fatato",
+    "de": "Entzückender Sternenstoß",
+    "es": "Arrumaco Sideral",
+    "ko": "러블리스타임팩트",
+    "zh-CN": "可爱星星飞天撞",
+    "zh-TW": "可愛星星飛天撞"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーで　魅惑の　空間を　作り 全力で　相手を　もてあそぶ。 元になった　技で　威力が　変わる。",
+    "kana": "Ｚパワーで　みわくの　くうかんを　つくり ぜんりょくで　あいてを　もてあそぶ。 もとになった　わざで　いりょくが　かわる。",
+    "en": "The user creates a very charming space using its Z-Power and totally toys with the target. The power varies, depending on the original move.",
+    "fr": "Le Pokémon utilise la Force Z pour créer une dimension irréelle où l’adversaire est à sa merci. La puissance varie selon celle de la capacité originale.",
+    "it": "Grazie al Potere Z, chi la usa crea una dimensione fatata in cui fa ciò che vuole del proprio bersaglio. La potenza varia a seconda della mossa su cui si basa.",
+    "de": "Der Anwender kreiert mit Z-Kraft eine zauberhafte Dimension und treibt dort sein Spiel mit dem Ziel. Die Stärke variiert je nach zugrunde liegender Attacke.",
+    "es": "El usuario emplea el Poder Z para crear una dimensión fascinante que deja al rival a su merced. Su potencia depende de la del movimiento original.",
+    "ko": "Z파워로 매혹의 공간을 만들어 전력으로 상대를 가지고 논다. 원래 기술에 따라 위력이 변한다.",
+    "zh-CN": "通过Ｚ力量制造魅惑空间， 全力捉弄对手。 威力会根据原来的招式而改变。",
+    "zh-TW": "透過Ｚ力量製造魅惑空間， 全力玩弄對手。 威力會隨原本的招式而改變。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fairy"
+}

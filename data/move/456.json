@@ -2,36 +2,13 @@
   "id": 456,
   "name": "heal-order",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Heals the user for half its max [HP]{mechanic:hp}.",
-      "short_effect": "Heals the user by half its max HP.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "heal"
-    },
+    "ailment": "none",
+    "category": "heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Heal Order",
-      "language": "en"
-    },
-    {
-      "name": "Comandocura",
-      "language": "it"
-    },
-    {
-      "name": "Auxilio",
-      "language": "es"
-    },
-    {
-      "name": "Heilbefehl",
-      "language": "de"
-    },
-    {
-      "name": "Appel Soins",
-      "language": "fr"
-    },
-    {
-      "name": "회복지령",
-      "language": "ko"
-    },
-    {
-      "name": "かいふくしれい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "かいふくしれい",
+    "kana": "かいふくしれい",
+    "en": "Heal Order",
+    "fr": "Appel Soins",
+    "it": "Comandocura",
+    "de": "Heilbefehl",
+    "es": "Auxilio",
+    "ko": "회복지령",
+    "zh-CN": "回复指令",
+    "zh-TW": "回復指令"
   },
-  "type": {
-    "name": "bug"
-  }
+  "flavor_text_entries": {
+    "ja": "しもべを　呼びだして　きずを　治す。 最大ＨＰの　半分 自分の　ＨＰを　回復する。",
+    "kana": "しもべを　よびだして　きずを　なおす。 さいだい　ＨＰの　はんぶん じぶんの　ＨＰを　かいふく　する。",
+    "en": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
+    "fr": "Le lanceur appelle ses sous-fifres pour le soigner. Il récupère jusqu’à la moitié de ses PV max.",
+    "it": "Chi la usa raduna i suoi sgherri per farsi curare. Recupera metà dei PS massimi.",
+    "de": "Untergebene heilen den Anwender. KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.",
+    "es": "El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.",
+    "ko": "부하를 불러내어 상처를 회복한다. 최대 HP의 절반만큼 자신의 HP를 회복한다.",
+    "zh-CN": "召唤手下疗伤。 回复自己最大ＨＰ的一半。",
+    "zh-TW": "呼喚手下，治療自己的傷勢。 回復自己最大ＨＰ的一半。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "bug"
 }

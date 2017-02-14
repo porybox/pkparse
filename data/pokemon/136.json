@@ -9,9 +9,7 @@
   "hatch_counter": 35,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 80,
@@ -63,13 +61,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "quadruped"
   },
@@ -83,44 +77,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ブースター",
-      "language": "ja"
-    },
-    {
-      "name": "Booster",
-      "language": "roomaji"
-    },
-    {
-      "name": "부스터",
-      "language": "ko"
-    },
-    {
-      "name": "火精靈",
-      "language": "zh"
-    },
-    {
-      "name": "Pyroli",
-      "language": "fr"
-    },
-    {
-      "name": "Flamara",
-      "language": "de"
-    },
-    {
-      "name": "Flareon",
-      "language": "es"
-    },
-    {
-      "name": "Flareon",
-      "language": "it"
-    },
-    {
-      "name": "Flareon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ブースター",
+    "en": "Flareon",
+    "fr": "Pyroli",
+    "it": "Flareon",
+    "de": "Flamara",
+    "es": "Flareon",
+    "ko": "부스터"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -131,36 +96,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほのお",
-      "language": "ja"
-    },
-    {
-      "genus": "불꽃",
-      "language": "ko"
-    },
-    {
-      "genus": "Flamme",
-      "language": "fr"
-    },
-    {
-      "genus": "Feuer",
-      "language": "de"
-    },
-    {
-      "genus": "Llama",
-      "language": "es"
-    },
-    {
-      "genus": "Fiamma",
-      "language": "it"
-    },
-    {
-      "genus": "Flame",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほのお",
+    "en": "Flame",
+    "fr": "Flamme",
+    "it": "Fiamma",
+    "de": "Feuer",
+    "es": "Llama",
+    "ko": "불꽃"
+  },
   "varieties": [
     {
       "is_default": true,

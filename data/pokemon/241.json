@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 126,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "upright"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "ミルタンク",
-      "language": "ja"
-    },
-    {
-      "name": "Miltank",
-      "language": "roomaji"
-    },
-    {
-      "name": "밀탱크",
-      "language": "ko"
-    },
-    {
-      "name": "大奶罐",
-      "language": "zh"
-    },
-    {
-      "name": "Écrémeuh",
-      "language": "fr"
-    },
-    {
-      "name": "Miltank",
-      "language": "de"
-    },
-    {
-      "name": "Miltank",
-      "language": "es"
-    },
-    {
-      "name": "Miltank",
-      "language": "it"
-    },
-    {
-      "name": "Miltank",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ミルタンク",
+    "en": "Miltank",
+    "fr": "Écrémeuh",
+    "it": "Miltank",
+    "de": "Miltank",
+    "es": "Miltank",
+    "ko": "밀탱크"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ちちうし",
-      "language": "ja"
-    },
-    {
-      "genus": "젖소",
-      "language": "ko"
-    },
-    {
-      "genus": "Vachalait",
-      "language": "fr"
-    },
-    {
-      "genus": "Milchkuh",
-      "language": "de"
-    },
-    {
-      "genus": "Lechera",
-      "language": "es"
-    },
-    {
-      "genus": "Bovino",
-      "language": "it"
-    },
-    {
-      "genus": "Milk Cow",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ちちうし",
+    "en": "Milk Cow",
+    "fr": "Vachalait",
+    "it": "Bovino",
+    "de": "Milchkuh",
+    "es": "Lechera",
+    "ko": "젖소"
+  },
   "varieties": [
     {
       "is_default": true,

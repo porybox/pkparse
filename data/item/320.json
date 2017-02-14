@@ -1,0 +1,38 @@
+{
+  "id": 320,
+  "name": "pure-incense",
+  "names": {
+    "ja": "きよめのおこう",
+    "kana": "きよめのおこう",
+    "en": "Pure Incense",
+    "fr": "Encens Pur",
+    "it": "Puroaroma",
+    "de": "Scheuchrauch",
+    "es": "Incienso Puro",
+    "ko": "순결의향로",
+    "zh-CN": "洁净薰香",
+    "zh-TW": "潔淨薰香"
+  },
+  "flavor_text_entries": {
+    "ja": "１番　前の　ポケモンに 持たせると　野生ポケモンが でて　きにくくなる。",
+    "kana": "いちばん　まえの　ポケモンに もたせると　やせいポケモンが でて　きにくくなる。",
+    "en": "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the head of the party.",
+    "fr": "Objet à tenir. Aide à repousser les Pokémon sauvages si le porteur est le premier Pokémon de l’équipe.",
+    "it": "Strumento da dare a un Pokémon. Se chi ce l’ha è il primo della squadra, aiuta ad allontanare i Pokémon selvatici.",
+    "de": "Ein Item zum Tragen. Reduziert Begegnungen mit wilden Pokémon, wenn der Träger an der Spitze deines Teams steht.",
+    "es": "Si lo lleva el primer Pokémon del equipo, se reduce la probabilidad de que se acerquen Pokémon salvajes.",
+    "ko": "맨 앞의 포켓몬에게 지니게 하면 야생 포켓몬이 나타날 확률이 낮아진다.",
+    "zh-CN": "让排在最前面的宝可梦携带后， 野生宝可梦就会不容易出现。",
+    "zh-TW": "讓排在最前面的寶可夢 攜帶後，野生寶可夢 會變得不容易出現。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Ein Item zum Tragen. Reduziert Begegnungen mit wilden Pokémon, wenn der Träger an erster Stelle steht."
+        }
+      }
+    }
+  ]
+}

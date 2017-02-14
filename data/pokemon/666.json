@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 22,
@@ -27,13 +25,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "white",
   "shape": {
     "name": "bug-wings"
   },
@@ -45,36 +39,15 @@
   "generation": {
     "name": "generation-vi"
   },
-  "names": [
-    {
-      "name": "ビビヨン",
-      "language": "ja"
-    },
-    {
-      "name": "비비용",
-      "language": "ko"
-    },
-    {
-      "name": "Prismillon",
-      "language": "fr"
-    },
-    {
-      "name": "Vivillon",
-      "language": "de"
-    },
-    {
-      "name": "Vivillon",
-      "language": "es"
-    },
-    {
-      "name": "Vivillon",
-      "language": "it"
-    },
-    {
-      "name": "Vivillon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ビビヨン",
+    "en": "Vivillon",
+    "fr": "Prismillon",
+    "it": "Vivillon",
+    "de": "Vivillon",
+    "es": "Vivillon",
+    "ko": "비비용"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [
     {
@@ -82,36 +55,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "りんぷん",
-      "language": "ja"
-    },
-    {
-      "genus": "인분",
-      "language": "ko"
-    },
-    {
-      "genus": "Lépidécaille",
-      "language": "fr"
-    },
-    {
-      "genus": "Flügelstaub",
-      "language": "de"
-    },
-    {
-      "genus": "Escamaposa",
-      "language": "es"
-    },
-    {
-      "genus": "Farfascaglia",
-      "language": "it"
-    },
-    {
-      "genus": "Scale",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "りんぷん",
+    "en": "Scale",
+    "fr": "Lépidécaille",
+    "it": "Farfascaglia",
+    "de": "Flügelstaub",
+    "es": "Escamaposa",
+    "ko": "인분"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -132,5 +84,13 @@
     "special-attack": 90,
     "special-defense": 50,
     "speed": 89
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "color": "black"
+      }
+    }
+  ]
 }

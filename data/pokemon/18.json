@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 19,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "wings"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ピジョット",
-      "language": "ja"
-    },
-    {
-      "name": "Pigeot",
-      "language": "roomaji"
-    },
-    {
-      "name": "피죤투",
-      "language": "ko"
-    },
-    {
-      "name": "比鵰",
-      "language": "zh"
-    },
-    {
-      "name": "Roucarnage",
-      "language": "fr"
-    },
-    {
-      "name": "Tauboss",
-      "language": "de"
-    },
-    {
-      "name": "Pidgeot",
-      "language": "es"
-    },
-    {
-      "name": "Pidgeot",
-      "language": "it"
-    },
-    {
-      "name": "Pidgeot",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ピジョット",
+    "en": "Pidgeot",
+    "fr": "Roucarnage",
+    "it": "Pidgeot",
+    "de": "Tauboss",
+    "es": "Pidgeot",
+    "ko": "피죤투"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とり",
-      "language": "ja"
-    },
-    {
-      "genus": "새",
-      "language": "ko"
-    },
-    {
-      "genus": "Oiseau",
-      "language": "fr"
-    },
-    {
-      "genus": "Vogel",
-      "language": "de"
-    },
-    {
-      "genus": "Pájaro",
-      "language": "es"
-    },
-    {
-      "genus": "Uccello",
-      "language": "it"
-    },
-    {
-      "genus": "Bird",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とり",
+    "en": "Bird",
+    "fr": "Oiseau",
+    "it": "Uccello",
+    "de": "Vogel",
+    "es": "Pájaro",
+    "ko": "새"
+  },
   "varieties": [
     {
       "is_default": true,

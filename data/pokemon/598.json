@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 70,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    },
-    {
-      "name": "plant"
-    }
+    "plant",
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "tentacles"
   },
@@ -60,68 +52,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ナットレイ",
-      "language": "ja"
-    },
-    {
-      "name": "너트령",
-      "language": "ko"
-    },
-    {
-      "name": "Noacier",
-      "language": "fr"
-    },
-    {
-      "name": "Tentantel",
-      "language": "de"
-    },
-    {
-      "name": "Ferrothorn",
-      "language": "es"
-    },
-    {
-      "name": "Ferrothorn",
-      "language": "it"
-    },
-    {
-      "name": "Ferrothorn",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ナットレイ",
+    "en": "Ferrothorn",
+    "fr": "Noacier",
+    "it": "Ferrothorn",
+    "de": "Tentantel",
+    "es": "Ferrothorn",
+    "ko": "너트령"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "とげだま",
-      "language": "ja"
-    },
-    {
-      "genus": "가시공",
-      "language": "ko"
-    },
-    {
-      "genus": "Boule Épine",
-      "language": "fr"
-    },
-    {
-      "genus": "Dornkugel",
-      "language": "de"
-    },
-    {
-      "genus": "Bola Espina",
-      "language": "es"
-    },
-    {
-      "genus": "Spinasfere",
-      "language": "it"
-    },
-    {
-      "genus": "Thorn Pod",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "とげだま",
+    "en": "Thorn Pod",
+    "fr": "Boule Épine",
+    "it": "Spinasfere",
+    "de": "Dornkugel",
+    "es": "Bola Espina",
+    "ko": "가시공"
+  },
   "varieties": [
     {
       "is_default": true,

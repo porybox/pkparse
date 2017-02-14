@@ -2,34 +2,13 @@
   "id": 595,
   "name": "mystical-fire",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 10,
   "priority": 0,
-  "power": 65,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Special Attack]{mechanic:special-attack} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Special Attack by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "power": 75,
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,44 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Mystical Fire",
-      "language": "en"
-    },
-    {
-      "name": "Magifiamma",
-      "language": "it"
-    },
-    {
-      "name": "Llama Embrujada",
-      "language": "es"
-    },
-    {
-      "name": "Magieflamme",
-      "language": "de"
-    },
-    {
-      "name": "Feu Ensorcelé",
-      "language": "fr"
-    },
-    {
-      "name": "매지컬플레임",
-      "language": "ko"
-    },
-    {
-      "name": "マジカルフレイム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "マジカルフレイム",
+    "kana": "マジカルフレイム",
+    "en": "Mystical Fire",
+    "fr": "Feu Ensorcelé",
+    "it": "Magifiamma",
+    "de": "Magieflamme",
+    "es": "Llama Embrujada",
+    "ko": "매지컬플레임",
+    "zh-CN": "魔法火焰",
+    "zh-TW": "魔法火焰"
+  },
+  "flavor_text_entries": {
+    "ja": "口から　吐きだす　特別 熱い　炎で　攻撃する。 相手の　特攻を　さげる。",
+    "kana": "くちから　はきだす　とくべつ あつい　ほのおで　こうげきする。 あいての　とくこうを　さげる。",
+    "en": "The user attacks by breathing a special, hot fire. This also lowers the target’s Sp. Atk stat.",
+    "fr": "Attaque avec des flammes brûlantes soufflées de la bouche du lanceur. Diminue l’Attaque Spéciale de l’ennemi.",
+    "it": "Colpisce il bersaglio soffiandogli contro delle fiammate incredibilmente roventi, riducendone l’Attacco Speciale.",
+    "de": "Der Anwender greift das Ziel an, indem er ihm eine besondere, heiße Flamme entgegenbläst. Der Spezial-Angriff des Zieles sinkt.",
+    "es": "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.",
+    "ko": "입에서 내뱉는 아주 뜨거운 불꽃으로 공격한다. 상대의 특수공격을 떨어뜨린다.",
+    "zh-CN": "从口中喷出特别灼热的 火焰进行攻击。 降低对手的特攻。",
+    "zh-TW": "從口中吐出特別灼熱的 火焰進行攻擊。 可降低對手的特攻。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "special-attack"
-      }
+      "stat": "special-attack"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fire"
-  }
+  "target": "selected-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "power": 65
+      }
+    }
+  ]
 }

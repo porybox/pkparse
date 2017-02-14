@@ -2,36 +2,13 @@
   "id": 231,
   "name": "iron-tail",
   "accuracy": 75,
-  "effect_chance": 30,
   "pp": 15,
   "priority": 0,
   "power": 100,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Defense]{mechanic:defense} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Defense by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 30
   },
-  "names": [
-    {
-      "name": "Iron Tail",
-      "language": "en"
-    },
-    {
-      "name": "Codacciaio",
-      "language": "it"
-    },
-    {
-      "name": "Cola Férrea",
-      "language": "es"
-    },
-    {
-      "name": "Eisenschweif",
-      "language": "de"
-    },
-    {
-      "name": "Queue de Fer",
-      "language": "fr"
-    },
-    {
-      "name": "아이언테일",
-      "language": "ko"
-    },
-    {
-      "name": "アイアンテール",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "アイアンテール",
+    "kana": "アイアンテール",
+    "en": "Iron Tail",
+    "fr": "Queue de Fer",
+    "it": "Codacciaio",
+    "de": "Eisenschweif",
+    "es": "Cola Férrea",
+    "ko": "아이언테일",
+    "zh-CN": "铁尾",
+    "zh-TW": "鐵尾"
+  },
+  "flavor_text_entries": {
+    "ja": "硬い　しっぽで 相手を　たたきつけて　攻撃する。 相手の　防御を　さげることが　ある。",
+    "kana": "かたい　しっぽで　あいてを　たたきつけて こうげきする。　あいての　ぼうぎょを さげることが　ある。",
+    "en": "The target is slammed with a steel-hard tail. This may also lower the target’s Defense stat.",
+    "fr": "Attaque l’ennemi avec une queue de fer. Peut aussi baisser sa Défense.",
+    "it": "Il bersaglio viene colpito da una robusta coda d’acciaio. Può anche ridurne la Difesa.",
+    "de": "Attacke mit hartem Eisenschweif. Senkt eventuell den Verteidigungs-Wert des Zieles.",
+    "es": "Ataca con una cola férrea y puede bajar la Defensa del objetivo.",
+    "ko": "단단한 꼬리로 상대를 힘껏 쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+    "zh-CN": "使用坚硬的尾巴 摔打对手进行攻击。 有时会降低对手的防御。",
+    "zh-TW": "將堅硬的尾巴 甩向對手進行攻擊。 有時會降低對手的防禦。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "defense"
-      }
+      "stat": "defense"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "steel"
-  }
+  "target": "selected-pokemon",
+  "type": "steel",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "かたい　しっぽで　あいてを　たたきつけて こうげきする。あいての　ぼうぎょを さげることが　ある。"
+        }
+      }
+    }
+  ]
 }

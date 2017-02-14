@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": true,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 62,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "monster"
-    }
+    "monster"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "upright"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ガルーラ",
-      "language": "ja"
-    },
-    {
-      "name": "Garura",
-      "language": "roomaji"
-    },
-    {
-      "name": "캥카",
-      "language": "ko"
-    },
-    {
-      "name": "袋龍",
-      "language": "zh"
-    },
-    {
-      "name": "Kangourex",
-      "language": "fr"
-    },
-    {
-      "name": "Kangama",
-      "language": "de"
-    },
-    {
-      "name": "Kangaskhan",
-      "language": "es"
-    },
-    {
-      "name": "Kangaskhan",
-      "language": "it"
-    },
-    {
-      "name": "Kangaskhan",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ガルーラ",
+    "en": "Kangaskhan",
+    "fr": "Kangourex",
+    "it": "Kangaskhan",
+    "de": "Kangama",
+    "es": "Kangaskhan",
+    "ko": "캥카"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "おやこ",
-      "language": "ja"
-    },
-    {
-      "genus": "가족",
-      "language": "ko"
-    },
-    {
-      "genus": "Maternel",
-      "language": "fr"
-    },
-    {
-      "genus": "Muttertier",
-      "language": "de"
-    },
-    {
-      "genus": "Padres",
-      "language": "es"
-    },
-    {
-      "genus": "Genitore",
-      "language": "it"
-    },
-    {
-      "genus": "Parent",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "おやこ",
+    "en": "Parent",
+    "fr": "Maternel",
+    "it": "Genitore",
+    "de": "Muttertier",
+    "es": "Padres",
+    "ko": "가족"
+  },
   "varieties": [
     {
       "is_default": true,

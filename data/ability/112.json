@@ -1,154 +1,44 @@
 {
   "id": 112,
   "name": "slow-start",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iv"
+  "names": {
+    "ja": "スロースタート",
+    "kana": "スロースタート",
+    "en": "Slow Start",
+    "fr": "Début Calme",
+    "it": "Lentoinizio",
+    "de": "Saumselig",
+    "es": "Inicio Lento",
+    "ko": "슬로스타트",
+    "zh-CN": "慢启动",
+    "zh-TW": "慢啟動"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "５ターンの　あいだ 攻撃と　素早さが 半分に　なる。",
+    "kana": "５ターンの　あいだ こうげきと　すばやさが はんぶんに　なる。",
+    "en": "For five turns, the Pokémon’s Attack and Speed stats are halved.",
+    "fr": "Divise la Vitesse et l’Attaque du Pokémon par deux pendant les cinq premiers tours du combat.",
+    "it": "Dimezza per cinque turni l’Attacco e la Velocità.",
+    "de": "Halbiert fünf Runden lang den Angriffs-Wert und die Initiative des Pokémon.",
+    "es": "Baja a la mitad el Ataque y la Velocidad durante cinco turnos.",
+    "ko": "5턴 동안 공격과 스피드가 절반이 된다.",
+    "zh-CN": "在５回合内， 攻击和速度减半。",
+    "zh-TW": "在５回合內， 攻擊和速度會減半。"
+  },
+  "past_values": [
     {
-      "name": "Slow Start",
-      "language": "en"
-    },
-    {
-      "name": "Lentoinizio",
-      "language": "it"
-    },
-    {
-      "name": "Inicio Lento",
-      "language": "es"
-    },
-    {
-      "name": "Saumselig",
-      "language": "de"
-    },
-    {
-      "name": "Début Calme",
-      "language": "fr"
-    },
-    {
-      "name": "슬로스타트",
-      "language": "ko"
-    },
-    {
-      "name": "スロースタート",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon's [Attack]{mechanic:attack} and [Speed]{mechanic:speed} are halved for five turns upon entering battle.\n\nThis ability also takes effect when acquired during battle.  If this Pokémon loses its ability before the five turns are up, its Attack and Speed return to normal; if it then regains this ability without leaving battle, its Attack and Speed are halved again, but the counter keeps counting from where it was.",
-      "short_effect": "Halves [Attack]{mechanic:attack} and [Speed]{mechanic:speed} for five turns upon entering battle.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "攻撃と　素早さが\nしばらく　半分になる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Temporarily halves the Pokémon’s\nAttack and Speed stats.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Dimezza per un po’ l’Attacco e\nla Velocità.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Baja a la mitad el Ataque y la\nVelocidad durante un rato.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Halbiert zeitweilig den Angriff\nund die Initiative.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Divise temporairement Vitesse\net Attaque par 2.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "공격과 스피드가\n잠시 동안 절반이 된다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "こうげきと　すばやさが\nしばらく　はんぶんになる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Temporarily halves\nAttack and Speed.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Temporarily halves\nAttack and Speed.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Divise temporairement\nVitesse et Attaque par 2.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Temporarily halves\nAttack and Speed.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Temporarily halves Attack\nand Speed.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Temporarily halves Attack\nand Speed.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "regigigas"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "攻撃と　素早さが しばらく　半分になる。",
+          "kana": "こうげきと　すばやさが しばらく　はんぶんになる。",
+          "en": "Temporarily halves the Pokémon’s Attack and Speed stats.",
+          "fr": "Divise temporairement Vitesse et Attaque par 2.",
+          "it": "Dimezza per un po’ l’Attacco e la Velocità.",
+          "de": "Halbiert zeitweilig den Angriff und die Initiative.",
+          "es": "Baja a la mitad el Ataque y la Velocidad durante un rato.",
+          "ko": "공격과 스피드가 잠시 동안 절반이 된다."
+        }
       }
     }
   ]

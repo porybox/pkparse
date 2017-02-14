@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 6,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "dragon"
   ],
-  "color": {
-    "name": "black"
-  },
+  "color": "black",
   "shape": {
     "name": "squiggle"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ハブネーク",
-      "language": "ja"
-    },
-    {
-      "name": "Habunake",
-      "language": "roomaji"
-    },
-    {
-      "name": "세비퍼",
-      "language": "ko"
-    },
-    {
-      "name": "飯匙蛇",
-      "language": "zh"
-    },
-    {
-      "name": "Séviper",
-      "language": "fr"
-    },
-    {
-      "name": "Vipitis",
-      "language": "de"
-    },
-    {
-      "name": "Seviper",
-      "language": "es"
-    },
-    {
-      "name": "Seviper",
-      "language": "it"
-    },
-    {
-      "name": "Seviper",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハブネーク",
+    "en": "Seviper",
+    "fr": "Séviper",
+    "it": "Seviper",
+    "de": "Vipitis",
+    "es": "Seviper",
+    "ko": "세비퍼"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "キバへび",
-      "language": "ja"
-    },
-    {
-      "genus": "송곳뱀",
-      "language": "ko"
-    },
-    {
-      "genus": "Serpacroc",
-      "language": "fr"
-    },
-    {
-      "genus": "Reißzahn",
-      "language": "de"
-    },
-    {
-      "genus": "Colmillos",
-      "language": "es"
-    },
-    {
-      "genus": "Zannaserpe",
-      "language": "it"
-    },
-    {
-      "genus": "Fang Snake",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "キバへび",
+    "en": "Fang Snake",
+    "fr": "Serpacroc",
+    "it": "Zannaserpe",
+    "de": "Reißzahn",
+    "es": "Colmillos",
+    "ko": "송곳뱀"
+  },
   "varieties": [
     {
       "is_default": true,

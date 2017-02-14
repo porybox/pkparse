@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 104,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -66,44 +58,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ニドラン♀",
-      "language": "ja"
-    },
-    {
-      "name": "Nidoran♀",
-      "language": "roomaji"
-    },
-    {
-      "name": "니드런♀",
-      "language": "ko"
-    },
-    {
-      "name": "尼多蘭",
-      "language": "zh"
-    },
-    {
-      "name": "Nidoran♀",
-      "language": "fr"
-    },
-    {
-      "name": "Nidoran♀",
-      "language": "de"
-    },
-    {
-      "name": "Nidoran♀",
-      "language": "es"
-    },
-    {
-      "name": "Nidoran♀",
-      "language": "it"
-    },
-    {
-      "name": "Nidoran♀",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ニドラン♀",
+    "en": "Nidoran♀",
+    "fr": "Nidoran♀",
+    "it": "Nidoran♀",
+    "de": "Nidoran♀",
+    "es": "Nidoran♀",
+    "ko": "니드런♀"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -114,36 +77,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どくばり",
-      "language": "ja"
-    },
-    {
-      "genus": "독침",
-      "language": "ko"
-    },
-    {
-      "genus": "Vénépic",
-      "language": "fr"
-    },
-    {
-      "genus": "Giftdorn",
-      "language": "de"
-    },
-    {
-      "genus": "Pin Veneno",
-      "language": "es"
-    },
-    {
-      "genus": "Velenago",
-      "language": "it"
-    },
-    {
-      "genus": "Poison Pin",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どくばり",
+    "en": "Poison Pin",
+    "fr": "Vénépic",
+    "it": "Velenago",
+    "de": "Giftdorn",
+    "es": "Pin Veneno",
+    "ko": "독침"
+  },
   "varieties": [
     {
       "is_default": true,

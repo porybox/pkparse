@@ -2,92 +2,13 @@
   "id": 116,
   "name": "focus-energy",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "karate-chop"
-        },
-        {
-          "name": "mega-punch"
-        },
-        {
-          "name": "slam"
-        },
-        {
-          "name": "mega-kick"
-        },
-        {
-          "name": "take-down"
-        },
-        {
-          "name": "double-edge"
-        },
-        {
-          "name": "triple-kick"
-        },
-        {
-          "name": "bone-rush"
-        },
-        {
-          "name": "dynamic-punch"
-        },
-        {
-          "name": "cross-chop"
-        },
-        {
-          "name": "focus-punch"
-        },
-        {
-          "name": "brick-break"
-        },
-        {
-          "name": "arm-thrust"
-        },
-        {
-          "name": "sky-uppercut"
-        }
-      ],
-      "use_after": null
-    },
-    "super": {
-      "use_before": [
-        {
-          "name": "night-slash"
-        }
-      ],
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User's [critical hit]{mechanic:critical-hit} rate is two levels higher until it leaves the field.  If the user has already used []{move:focus-energy} since entering the field, this move will [fail]{mechanic:fail}.\n\nThis effect is passed on by []{move:baton-pass}.",
-      "short_effect": "Increases the user's chance to score a critical hit.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -99,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Focus Energy",
-      "language": "en"
-    },
-    {
-      "name": "Focalenergia",
-      "language": "it"
-    },
-    {
-      "name": "Foco Energía",
-      "language": "es"
-    },
-    {
-      "name": "Energiefokus",
-      "language": "de"
-    },
-    {
-      "name": "Puissance",
-      "language": "fr"
-    },
-    {
-      "name": "기충전",
-      "language": "ko"
-    },
-    {
-      "name": "きあいだめ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "きあいだめ",
+    "kana": "きあいだめ",
+    "en": "Focus Energy",
+    "fr": "Puissance",
+    "it": "Focalenergia",
+    "de": "Energiefokus",
+    "es": "Foco Energía",
+    "ko": "기충전",
+    "zh-CN": "聚气",
+    "zh-TW": "聚氣"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "深く　息を　吸い　気合を　こめる。 自分の　攻撃が 急所に　当たりやすくなる。",
+    "kana": "ふかく　いきを　すい　きあいを　こめる。 じぶんの　こうげきが きゅうしょに　あたりやすく　なる。",
+    "en": "The user takes a deep breath and focuses so that critical hits land more easily.",
+    "fr": "Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critique.",
+    "it": "Chi la usa fa un profondo respiro e si concentra per rendere più probabili i brutti colpi.",
+    "de": "Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.",
+    "es": "Concentra energía para aumentar las posibilidades de un golpe crítico.",
+    "ko": "깊게 숨을 들이마셔 기합을 넣는다. 자신의 공격이 급소에 맞기 쉬워진다.",
+    "zh-CN": "深深地吸口气，集中精神。 自己的攻击 会变得容易击中要害。",
+    "zh-TW": "深呼吸後集中精神。 讓自己的攻擊 變得容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critiques."
+        }
+      }
+    }
+  ]
 }

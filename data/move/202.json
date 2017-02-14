@@ -2,49 +2,13 @@
   "id": 202,
   "name": "giga-drain",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 75,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "growth"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  [Drains]{mechanic:drain} half the damage inflicted to heal the user.",
-      "short_effect": "Drains half the damage inflicted to heal the user.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+heal"
-    },
+    "ailment": "none",
+    "category": "damage+heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,66 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Giga Drain",
-      "language": "en"
-    },
-    {
-      "name": "Gigassorbimento",
-      "language": "it"
-    },
-    {
-      "name": "Gigadrenado",
-      "language": "es"
-    },
-    {
-      "name": "Gigasauger",
-      "language": "de"
-    },
-    {
-      "name": "Giga-Sangsue",
-      "language": "fr"
-    },
-    {
-      "name": "기가드레인",
-      "language": "ko"
-    },
-    {
-      "name": "ギガドレイン",
-      "language": "ja"
-    }
-  ],
-  "past_values": [
-    {
-      "accuracy": null,
-      "power": null,
-      "pp": 5,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
-      }
-    },
-    {
-      "accuracy": null,
-      "power": 60,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
-      }
-    }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ギガドレイン",
+    "kana": "ギガドレイン",
+    "en": "Giga Drain",
+    "fr": "Giga-Sangsue",
+    "it": "Gigassorbimento",
+    "de": "Gigasauger",
+    "es": "Gigadrenado",
+    "ko": "기가드레인",
+    "zh-CN": "终极吸取",
+    "zh-TW": "終極吸取"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "養分を　吸い取り　攻撃する。 与えた　ダメージの 半分の　ＨＰを　回復できる。",
+    "kana": "ようぶんを　すいとり　こうげきする。 あたえた　ダメージの はんぶんの　ＨＰを　かいふく　できる。",
+    "en": "A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",
+    "fr": "Une attaque qui convertit la moitié des dégâts infligés en PV pour le lanceur.",
+    "it": "Mossa che assorbe PS. Chi la usa recupera una quantità di PS pari alla metà del danno inferto.",
+    "de": "Das Ziel wird angegriffen und die Hälfte des zugefügten Schadens dem Angreifer als KP gutgeschrieben.",
+    "es": "Un ataque que absorbe nutrientes. Quien lo usa recupera la mitad de los PS del daño que produce.",
+    "ko": "양분을 흡수하여 공격한다. 입힌 데미지의 절반에 해당하는 HP를 회복할 수 있다.",
+    "zh-CN": "吸取对手的养分进行攻击。 可以回复给予对手 伤害的一半ＨＰ。",
+    "zh-TW": "吸取對手的養分進行攻擊。 可以回復給予對手 傷害的一半ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass"
 }

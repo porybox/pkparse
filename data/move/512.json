@@ -2,34 +2,13 @@
   "id": 512,
   "name": "acrobatics",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 55,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  If the user has no [held item]{mechanic:held-item}, this move has double power.",
-      "short_effect": "Has double power if the user has no held item.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Acrobatics",
-      "language": "en"
-    },
-    {
-      "name": "Acrobazia",
-      "language": "it"
-    },
-    {
-      "name": "Acróbata",
-      "language": "es"
-    },
-    {
-      "name": "Akrobatik",
-      "language": "de"
-    },
-    {
-      "name": "Acrobatie",
-      "language": "fr"
-    },
-    {
-      "name": "애크러뱃",
-      "language": "ko"
-    },
-    {
-      "name": "アクロバット",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "アクロバット",
+    "kana": "アクロバット",
+    "en": "Acrobatics",
+    "fr": "Acrobatie",
+    "it": "Acrobazia",
+    "de": "Akrobatik",
+    "es": "Acróbata",
+    "ko": "애크러뱃",
+    "zh-CN": "杂技",
+    "zh-TW": "雜技"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "軽やかに　相手を　攻撃する。 自分が　道具を　持っていないとき 大きな　ダメージを　与える。",
+    "kana": "かろやかに　あいてを　こうげきする。 じぶんが　どうぐを　もっていない　とき おおきな　ダメージを　あたえる。",
+    "en": "The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.",
+    "fr": "Attaque agile. Si le lanceur ne tient pas d’objet, l’attaque inflige davantage de dégâts.",
+    "it": "Attacca rapidamente il bersaglio. Se chi la usa non ha uno strumento, infligge al nemico grossi danni.",
+    "de": "Ein graziler Angriff auf das Ziel. Trägt der Anwender kein Item bei sich, richtet die Attacke großen Schaden an.",
+    "es": "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado.",
+    "ko": "경쾌하게 상대를 공격한다. 자신이 도구를 지니고 있지 않을 때 큰 데미지를 준다.",
+    "zh-CN": "轻巧地攻击对手。 自己没有携带道具时， 会给予较大的伤害。",
+    "zh-TW": "輕巧地攻擊對手。 自己沒有攜帶道具時， 能給予對手較大的傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying"
 }

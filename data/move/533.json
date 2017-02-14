@@ -2,34 +2,13 @@
   "id": 533,
   "name": "sacred-sword",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": 90,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Damage calculation ignores the target's [stat modifiers]{mechanic:stat-modifiers}, including [evasion]{mechanic:evasion}.",
-      "short_effect": "Ignores the target's stat modifiers.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sacred Sword",
-      "language": "en"
-    },
-    {
-      "name": "Spadasolenne",
-      "language": "it"
-    },
-    {
-      "name": "Espada Santa",
-      "language": "es"
-    },
-    {
-      "name": "Sanctoklinge",
-      "language": "de"
-    },
-    {
-      "name": "Lame Sainte",
-      "language": "fr"
-    },
-    {
-      "name": "성스러운칼",
-      "language": "ko"
-    },
-    {
-      "name": "せいなるつるぎ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "せいなるつるぎ",
+    "kana": "せいなるつるぎ",
+    "en": "Sacred Sword",
+    "fr": "Lame Sainte",
+    "it": "Spadasolenne",
+    "de": "Sanctoklinge",
+    "es": "Espada Santa",
+    "ko": "성스러운칼",
+    "zh-CN": "圣剑",
+    "zh-TW": "聖劍"
   },
-  "type": {
-    "name": "fighting"
-  }
+  "flavor_text_entries": {
+    "ja": "長い　つので　切りつけ　攻撃する。 相手の　能力変化に 関係なく　ダメージを　与える。",
+    "kana": "ながい　つので　きりつけ　こうげきする。 あいての　のうりょく　へんかに かんけいなく　ダメージを　あたえる。",
+    "en": "The user attacks by slicing with a long horn. The target’s stat changes don’t affect this attack’s damage.",
+    "fr": "Un coup de corne violent qui lacère l’ennemi et lui inflige des dégâts quels que soient ses changements de stats.",
+    "it": "Chi la usa taglia il bersaglio con una spada magica. Il danno inflitto ignora le modifiche alle statistiche del Pokémon colpito.",
+    "de": "Schneideangriff mit langem Horn. Richtet unabhängig von den Statusveränderungen des Zieles Schaden an.",
+    "es": "El usuario ataca con una espada, ignorando cualquier cambio en las características del objetivo.",
+    "ko": "긴 뿔로 베어 공격한다. 상대의 능력 변화에 관계없이 데미지를 준다.",
+    "zh-CN": "用长角切斩对手进行攻击。 无视对手的能力变化， 直接给予伤害。",
+    "zh-TW": "用長角斬切對手進行攻擊。 可不顧對手的能力變化 給予傷害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Schneideangriff mit langem Horn. Richtet Schaden unabhängig von Statusveränderungen des Zieles an."
+        }
+      }
+    }
+  ]
 }

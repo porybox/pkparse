@@ -2,36 +2,13 @@
   "id": 361,
   "name": "healing-wish",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "User faints.  Its replacement's [HP]{mechanic:hp} is fully restored, and any [major status effect]{mechanic:major-status-effect} is removed.  If the replacement Pokémon is immediately fainted by a switch-in effect, the next replacement is healed by this move instead.",
-      "short_effect": "User faints.  Its replacement has its HP fully restored and any major status effect removed.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Healing Wish",
-      "language": "en"
-    },
-    {
-      "name": "Curardore",
-      "language": "it"
-    },
-    {
-      "name": "Deseo Cura",
-      "language": "es"
-    },
-    {
-      "name": "Heilopfer",
-      "language": "de"
-    },
-    {
-      "name": "Vœu Soin",
-      "language": "fr"
-    },
-    {
-      "name": "치유소원",
-      "language": "ko"
-    },
-    {
-      "name": "いやしのねがい",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "いやしのねがい",
+    "kana": "いやしのねがい",
+    "en": "Healing Wish",
+    "fr": "Vœu Soin",
+    "it": "Curardore",
+    "de": "Heilopfer",
+    "es": "Deseo Cura",
+    "ko": "치유소원",
+    "zh-CN": "治愈之愿",
+    "zh-TW": "治癒之願"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "自分は　ひんしに　なるが 控えから　でてくる　ポケモンの 状態異常と　ＨＰを　回復する。",
+    "kana": "じぶんは　ひんしに　なるが　ひかえから でてくる　ポケモンの　じょうたい いじょうと　ＨＰを　かいふく　する。",
+    "en": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured.",
+    "fr": "Le lanceur tombe K.O. pour soigner les PV et le statut du Pokémon qui passe après lui.",
+    "it": "Chi la usa va KO, ma il Pokémon che lo sostituisce recupera tutti i PS e guarisce dai problemi di stato.",
+    "de": "Anwender geht K.O. Das an seine Stelle tretende Pokémon hat volle KP. Statusprobleme werden geheilt.",
+    "es": "El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS.",
+    "ko": "자신은 기절하지만 교대하여 나오는 포켓몬의 상태 이상과 HP를 회복한다.",
+    "zh-CN": "虽然自己陷入濒死， 但可以治愈后备上场的 宝可梦的异常状态以及回复ＨＰ。",
+    "zh-TW": "雖然自己會陷入瀕死， 但可以治癒接替上場的 寶可夢的異常狀態並回復ＨＰ。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "psychic"
 }

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 87,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "heads"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "バイバニラ",
-      "language": "ja"
-    },
-    {
-      "name": "배바닐라",
-      "language": "ko"
-    },
-    {
-      "name": "Sorbouboul",
-      "language": "fr"
-    },
-    {
-      "name": "Gelatwino",
-      "language": "de"
-    },
-    {
-      "name": "Vanilluxe",
-      "language": "es"
-    },
-    {
-      "name": "Vanilluxe",
-      "language": "it"
-    },
-    {
-      "name": "Vanilluxe",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "バイバニラ",
+    "en": "Vanilluxe",
+    "fr": "Sorbouboul",
+    "it": "Vanilluxe",
+    "de": "Gelatwino",
+    "es": "Vanilluxe",
+    "ko": "배바닐라"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ブリザード",
-      "language": "ja"
-    },
-    {
-      "genus": "블리자드",
-      "language": "ko"
-    },
-    {
-      "genus": "Congère",
-      "language": "fr"
-    },
-    {
-      "genus": "Schneesturm",
-      "language": "de"
-    },
-    {
-      "genus": "Nieve Gélida",
-      "language": "es"
-    },
-    {
-      "genus": "Bufera",
-      "language": "it"
-    },
-    {
-      "genus": "Snowstorm",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ブリザード",
+    "en": "Snowstorm",
+    "fr": "Congère",
+    "it": "Bufera",
+    "de": "Schneesturm",
+    "es": "Nieve Gélida",
+    "ko": "블리자드"
+  },
   "varieties": [
     {
       "is_default": true,

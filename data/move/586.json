@@ -2,34 +2,13 @@
   "id": 586,
   "name": "boomburst",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 140,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.",
-      "short_effect": "Inflicts regular damage with no additional effect.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Boomburst",
-      "language": "en"
-    },
-    {
-      "name": "Ondaboato",
-      "language": "it"
-    },
-    {
-      "name": "Estruendo",
-      "language": "es"
-    },
-    {
-      "name": "Überschallknall",
-      "language": "de"
-    },
-    {
-      "name": "Bang Sonique",
-      "language": "fr"
-    },
-    {
-      "name": "폭음파",
-      "language": "ko"
-    },
-    {
-      "name": "ばくおんぱ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "all-other-pokemon"
+  "names": {
+    "ja": "ばくおんぱ",
+    "kana": "ばくおんぱ",
+    "en": "Boomburst",
+    "fr": "Bang Sonique",
+    "it": "Ondaboato",
+    "de": "Überschallknall",
+    "es": "Estruendo",
+    "ko": "폭음파",
+    "zh-CN": "爆音波",
+    "zh-TW": "爆音波"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "すさまじい　爆音の 破壊力に　よって 周りに　いるものを　攻撃する。",
+    "kana": "すさまじい　ばくおんの はかいりょくに　よって まわりに　いるものを　こうげきする。",
+    "en": "The user attacks everything around it with the destructive power of a terrible, explosive sound.",
+    "fr": "Attaque les Pokémon alentour grâce à une onde sonore assourdissante qui détruit tout sur son passage.",
+    "it": "Colpisce i Pokémon che ha intorno con la forza di un boato distruttivo.",
+    "de": "Der Anwender greift alle Pokémon in der Umgebung mit einem gewaltigen Knall an.",
+    "es": "Ataca a todos los Pokémon a su alrededor con una potentísima onda sonora.",
+    "ko": "무시무시한 폭음의 파괴력으로 주위에 있는 포켓몬을 공격한다.",
+    "zh-CN": "通过震耳欲聋的爆炸声 产生的破坏力， 攻击自己周围所有的宝可梦。",
+    "zh-TW": "利用震耳欲聾的爆炸聲 所產生的破壞力， 攻擊自己周圍所有的寶可夢。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "normal"
 }

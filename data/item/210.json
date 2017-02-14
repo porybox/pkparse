@@ -1,0 +1,38 @@
+{
+  "id": 210,
+  "name": "custap-berry",
+  "names": {
+    "ja": "イバンのみ",
+    "kana": "イバンのみ",
+    "en": "Custap Berry",
+    "fr": "Baie Chérim",
+    "it": "Baccacrela",
+    "de": "Eipfelbeere",
+    "es": "Baya Chiri",
+    "ko": "애슈열매",
+    "zh-CN": "释陀果",
+    "zh-TW": "釋陀果"
+  },
+  "flavor_text_entries": {
+    "ja": "ポケモンに　持たせると ピンチのとき　１度だけ 行動が　早くなる。",
+    "kana": "ポケモンに　もたせると ピンチのとき　いちどだけ こうどうが　はやくなる。",
+    "en": "A Berry to be consumed by Pokémon. If a Pokémon holds one, it will be able to move first just once when it’s in a pinch.",
+    "fr": "Tenue, cette Baie permet d’utiliser une capacité en priorité une fois en cas de besoin.",
+    "it": "Se il Pokémon che ha questa bacca si trova in difficoltà, sferra la sua mossa per primo. Funziona una sola volta.",
+    "de": "Als getragenes Item ermöglicht diese Beere dem Träger in einer Notlage den Erstschlag.",
+    "es": "El Pokémon que la lleva puede actuar en primer lugar una vez cuando se encuentra en un momento de apuro.",
+    "ko": "포켓몬에게 지니게 하면 위급할 때 한 번만 행동이 빨라진다.",
+    "zh-CN": "让宝可梦携带后，危机时， 行动仅会变快１次。",
+    "zh-TW": "讓寶可夢攜帶後， 危機時，行動會僅 變快１次。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Tenue, cette Baie permet d’attaquer en premier une fois en cas de besoin."
+        }
+      }
+    }
+  ]
+}

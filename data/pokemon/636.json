@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 173,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "white"
-  },
+  "color": "white",
   "shape": {
     "name": "armor"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "メラルバ",
-      "language": "ja"
-    },
-    {
-      "name": "활화르바",
-      "language": "ko"
-    },
-    {
-      "name": "Pyronille",
-      "language": "fr"
-    },
-    {
-      "name": "Ignivor",
-      "language": "de"
-    },
-    {
-      "name": "Larvesta",
-      "language": "es"
-    },
-    {
-      "name": "Larvesta",
-      "language": "it"
-    },
-    {
-      "name": "Larvesta",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "メラルバ",
+    "en": "Larvesta",
+    "fr": "Pyronille",
+    "it": "Larvesta",
+    "de": "Ignivor",
+    "es": "Larvesta",
+    "ko": "활화르바"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たいまつ",
-      "language": "ja"
-    },
-    {
-      "genus": "횃불",
-      "language": "ko"
-    },
-    {
-      "genus": "Torche",
-      "language": "fr"
-    },
-    {
-      "genus": "Fackel",
-      "language": "de"
-    },
-    {
-      "genus": "Antorcha",
-      "language": "es"
-    },
-    {
-      "genus": "Torcia",
-      "language": "it"
-    },
-    {
-      "genus": "Torch",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たいまつ",
+    "en": "Torch",
+    "fr": "Torche",
+    "it": "Torcia",
+    "de": "Fackel",
+    "es": "Antorcha",
+    "ko": "횃불"
+  },
   "varieties": [
     {
       "is_default": true,

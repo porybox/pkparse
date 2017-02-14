@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 34,
@@ -57,13 +55,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water3"
-    }
+    "water3"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "blob"
   },
@@ -75,44 +69,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ヒトデマン",
-      "language": "ja"
-    },
-    {
-      "name": "Hitodeman",
-      "language": "roomaji"
-    },
-    {
-      "name": "별가사리",
-      "language": "ko"
-    },
-    {
-      "name": "海星星",
-      "language": "zh"
-    },
-    {
-      "name": "Stari",
-      "language": "fr"
-    },
-    {
-      "name": "Sterndu",
-      "language": "de"
-    },
-    {
-      "name": "Staryu",
-      "language": "es"
-    },
-    {
-      "name": "Staryu",
-      "language": "it"
-    },
-    {
-      "name": "Staryu",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ヒトデマン",
+    "en": "Staryu",
+    "fr": "Stari",
+    "it": "Staryu",
+    "de": "Sterndu",
+    "es": "Staryu",
+    "ko": "별가사리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -123,36 +88,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ほしがた",
-      "language": "ja"
-    },
-    {
-      "genus": "별",
-      "language": "ko"
-    },
-    {
-      "genus": "Étoile",
-      "language": "fr"
-    },
-    {
-      "genus": "Sternform",
-      "language": "de"
-    },
-    {
-      "genus": "Estrellada",
-      "language": "es"
-    },
-    {
-      "genus": "Stella",
-      "language": "it"
-    },
-    {
-      "genus": "Star Shape",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ほしがた",
+    "en": "Star Shape",
+    "fr": "Étoile",
+    "it": "Stella",
+    "de": "Sternform",
+    "es": "Estrellada",
+    "ko": "별"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 46,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "bug-wings"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ガーメイル",
-      "language": "ja"
-    },
-    {
-      "name": "Garmeil",
-      "language": "roomaji"
-    },
-    {
-      "name": "나메일",
-      "language": "ko"
-    },
-    {
-      "name": "紳士蛾",
-      "language": "zh"
-    },
-    {
-      "name": "Papilord",
-      "language": "fr"
-    },
-    {
-      "name": "Moterpel",
-      "language": "de"
-    },
-    {
-      "name": "Mothim",
-      "language": "es"
-    },
-    {
-      "name": "Mothim",
-      "language": "it"
-    },
-    {
-      "name": "Mothim",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ガーメイル",
+    "en": "Mothim",
+    "fr": "Papilord",
+    "it": "Mothim",
+    "de": "Moterpel",
+    "es": "Mothim",
+    "ko": "나메일"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ミノガ",
-      "language": "ja"
-    },
-    {
-      "genus": "나방",
-      "language": "ko"
-    },
-    {
-      "genus": "Phalène",
-      "language": "fr"
-    },
-    {
-      "genus": "Motte",
-      "language": "de"
-    },
-    {
-      "genus": "Polilla",
-      "language": "es"
-    },
-    {
-      "genus": "Falena",
-      "language": "it"
-    },
-    {
-      "genus": "Moth",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ミノガ",
+    "en": "Moth",
+    "fr": "Phalène",
+    "it": "Falena",
+    "de": "Motte",
+    "es": "Polilla",
+    "ko": "나방"
+  },
   "varieties": [
     {
       "is_default": true,

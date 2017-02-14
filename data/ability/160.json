@@ -1,140 +1,52 @@
 {
   "id": 160,
   "name": "iron-barbs",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-v"
+  "names": {
+    "ja": "てつのトゲ",
+    "kana": "てつのトゲ",
+    "en": "Iron Barbs",
+    "fr": "Épine de Fer",
+    "it": "Spineferrate",
+    "de": "Eisenstachel",
+    "es": "Punta Acero",
+    "ko": "철가시",
+    "zh-CN": "铁刺",
+    "zh-TW": "鐵刺"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "自分に　触った　相手に 鉄のトゲで　ダメージを　あたえる。",
+    "kana": "じぶんに　さわった　あいてに てつのトゲで　ダメージを　あたえる。",
+    "en": "Inflicts damage to the attacker on contact with iron barbs.",
+    "fr": "Inflige des dégâts à l’attaquant lorsque le Pokémon subit une attaque directe.",
+    "it": "Se il Pokémon viene colpito da un attacco diretto, infligge danni a sua volta con le sue spine di ferro.",
+    "de": "Fügt dem Angreifer bei Berührung mit eisernen Stacheln Schaden zu.",
+    "es": "Inflige daño al rival si este golpea al Pokémon con un movimiento de contacto.",
+    "ko": "자신과 접촉한 상대에게 철가시로 데미지를 준다.",
+    "zh-CN": "用铁刺给予接触到自己的 对手伤害。",
+    "zh-TW": "用鐵刺給予接觸到自己的 對手傷害。"
+  },
+  "past_values": [
     {
-      "name": "Iron Barbs",
-      "language": "en"
-    },
-    {
-      "name": "Spineferrate",
-      "language": "it"
-    },
-    {
-      "name": "Punta Acero",
-      "language": "es"
-    },
-    {
-      "name": "Eisenstachel",
-      "language": "de"
-    },
-    {
-      "name": "Épine de Fer",
-      "language": "fr"
-    },
-    {
-      "name": "철가시",
-      "language": "ko"
-    },
-    {
-      "name": "てつのトゲ",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Whenever a move makes contact with this Pokémon, the move's user takes 1/8 of its maximum [HP]{mechanic:hp} in damage.\n\nThis ability functions identically to []{ability:rough-skin}.",
-      "short_effect": "Damages attacking Pokémon for 1/8 their max [HP]{mechanic:hp} on contact.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "触れた　相手を\nキズつける。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Inflicts damage to the\nattacker on contact.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Se chi attacca mette a segno una\nmossa fisica, viene danneggiato.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Hiere al hacer contacto.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Angreifer nehmen durch\nbloßes Berühren Schaden.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Blesse l’attaquant au moindre\ncontact.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "접촉한 상대에게\n상처를 입힌다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ふれた　あいてを\nキズつける。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Inflicts damage to the\nPokémon on contact.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Inflicts damage to the\nPokémon on contact.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Blesse l’ennemi au moindre\ncontact.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "ferroseed"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "触れた　相手を キズつける。",
+          "kana": "ふれた　あいてを キズつける。",
+          "en": "Inflicts damage to the attacker on contact.",
+          "fr": "Blesse l’attaquant au moindre contact.",
+          "it": "Se chi attacca mette a segno una     mossa fisica, viene danneggiato.",
+          "de": "Angreifer nehmen durch bloßes Berühren Schaden.",
+          "es": "Hiere al hacer contacto.",
+          "ko": "접촉한 상대에게 상처를 입힌다."
+        }
       }
     },
     {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "ferrothorn"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Se chi attacca mette a segno una mossa fisica, viene danneggiato."
+        }
       }
     }
   ]

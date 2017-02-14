@@ -1,0 +1,44 @@
+{
+  "id": 782,
+  "name": "jangmo-o",
+  "gender_rate": 4,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "hatch_counter": 40,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "dragon"
+  ],
+  "color": "gray",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ジャラコ",
+    "en": "Jangmo-o",
+    "fr": "Bébécaille",
+    "it": "Jangmo-o",
+    "de": "Miniras",
+    "es": "Jangmo-o",
+    "ko": "짜랑꼬"
+  },
+  "genera": {
+    "ja": "うろこ",
+    "en": "Scaly",
+    "fr": "Écailles",
+    "it": "Squama",
+    "de": "Schuppentier",
+    "es": "Escamas",
+    "ko": "비늘"
+  },
+  "types": [
+    "dragon"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 55,
+    "defense": 65,
+    "special-attack": 45,
+    "special-defense": 45,
+    "speed": 45
+  }
+}

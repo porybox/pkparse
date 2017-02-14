@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 96,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "humanoid"
   },
@@ -53,44 +47,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ハリテヤマ",
-      "language": "ja"
-    },
-    {
-      "name": "Hariteyama",
-      "language": "roomaji"
-    },
-    {
-      "name": "하리뭉",
-      "language": "ko"
-    },
-    {
-      "name": "超力王",
-      "language": "zh"
-    },
-    {
-      "name": "Hariyama",
-      "language": "fr"
-    },
-    {
-      "name": "Hariyama",
-      "language": "de"
-    },
-    {
-      "name": "Hariyama",
-      "language": "es"
-    },
-    {
-      "name": "Hariyama",
-      "language": "it"
-    },
-    {
-      "name": "Hariyama",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ハリテヤマ",
+    "en": "Hariyama",
+    "fr": "Hariyama",
+    "it": "Hariyama",
+    "de": "Hariyama",
+    "es": "Hariyama",
+    "ko": "하리뭉"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -101,36 +66,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "つっぱり",
-      "language": "ja"
-    },
-    {
-      "genus": "손바닥치기",
-      "language": "ko"
-    },
-    {
-      "genus": "Cogneur",
-      "language": "fr"
-    },
-    {
-      "genus": "Armwurf",
-      "language": "de"
-    },
-    {
-      "genus": "Empuje",
-      "language": "es"
-    },
-    {
-      "genus": "Sberletese",
-      "language": "it"
-    },
-    {
-      "genus": "Arm Thrust",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "つっぱり",
+    "en": "Arm Thrust",
+    "fr": "Cogneur",
+    "it": "Sberletese",
+    "de": "Armwurf",
+    "es": "Empuje",
+    "ko": "손바닥치기"
+  },
   "varieties": [
     {
       "is_default": true,

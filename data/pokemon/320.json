@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast-then-very-slow"
-  },
+  "growth_rate": "fast-then-very-slow",
   "pokedex_numbers": [
     {
       "entry_number": 27,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "water2"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "water2"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "fish"
   },
@@ -60,44 +52,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ホエルコ",
-      "language": "ja"
-    },
-    {
-      "name": "Whalko",
-      "language": "roomaji"
-    },
-    {
-      "name": "고래왕자",
-      "language": "ko"
-    },
-    {
-      "name": "吼吼鯨",
-      "language": "zh"
-    },
-    {
-      "name": "Wailmer",
-      "language": "fr"
-    },
-    {
-      "name": "Wailmer",
-      "language": "de"
-    },
-    {
-      "name": "Wailmer",
-      "language": "es"
-    },
-    {
-      "name": "Wailmer",
-      "language": "it"
-    },
-    {
-      "name": "Wailmer",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ホエルコ",
+    "en": "Wailmer",
+    "fr": "Wailmer",
+    "it": "Wailmer",
+    "de": "Wailmer",
+    "es": "Wailmer",
+    "ko": "고래왕자"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -108,36 +71,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たまくじら",
-      "language": "ja"
-    },
-    {
-      "genus": "둥근고래",
-      "language": "ko"
-    },
-    {
-      "genus": "Baleinboule",
-      "language": "fr"
-    },
-    {
-      "genus": "Kugelwal",
-      "language": "de"
-    },
-    {
-      "genus": "Ballenabola",
-      "language": "es"
-    },
-    {
-      "genus": "Balenottero",
-      "language": "it"
-    },
-    {
-      "genus": "Ball Whale",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たまくじら",
+    "en": "Ball Whale",
+    "fr": "Baleinboule",
+    "it": "Balenottero",
+    "de": "Kugelwal",
+    "es": "Ballenabola",
+    "ko": "둥근고래"
+  },
   "varieties": [
     {
       "is_default": true,

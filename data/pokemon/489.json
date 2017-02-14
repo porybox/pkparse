@@ -9,9 +9,7 @@
   "hatch_counter": 40,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 489,
@@ -21,16 +19,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "fairy"
-    },
-    {
-      "name": "water1"
-    }
+    "water1",
+    "fairy"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "arms"
   },
@@ -40,44 +32,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "フィオネ",
-      "language": "ja"
-    },
-    {
-      "name": "Phione",
-      "language": "roomaji"
-    },
-    {
-      "name": "피오네",
-      "language": "ko"
-    },
-    {
-      "name": "霏歐納",
-      "language": "zh"
-    },
-    {
-      "name": "Phione",
-      "language": "fr"
-    },
-    {
-      "name": "Phione",
-      "language": "de"
-    },
-    {
-      "name": "Phione",
-      "language": "es"
-    },
-    {
-      "name": "Phione",
-      "language": "it"
-    },
-    {
-      "name": "Phione",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フィオネ",
+    "en": "Phione",
+    "fr": "Phione",
+    "it": "Phione",
+    "de": "Phione",
+    "es": "Phione",
+    "ko": "피오네"
+  },
   "pal_park_encounters": [
     {
       "base_score": 90,
@@ -88,36 +51,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かいよう",
-      "language": "ja"
-    },
-    {
-      "genus": "해양",
-      "language": "ko"
-    },
-    {
-      "genus": "Dérivenmer",
-      "language": "fr"
-    },
-    {
-      "genus": "Seedrift",
-      "language": "de"
-    },
-    {
-      "genus": "Marino",
-      "language": "es"
-    },
-    {
-      "genus": "Oceanbondo",
-      "language": "it"
-    },
-    {
-      "genus": "Sea Drifter",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かいよう",
+    "en": "Sea Drifter",
+    "fr": "Dérivenmer",
+    "it": "Oceanbondo",
+    "de": "Seedrift",
+    "es": "Marino",
+    "ko": "해양"
+  },
   "varieties": [
     {
       "is_default": true,

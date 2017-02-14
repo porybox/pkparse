@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 80,
@@ -45,16 +43,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -66,44 +58,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "フシギダネ",
-      "language": "ja"
-    },
-    {
-      "name": "Fushigidane",
-      "language": "roomaji"
-    },
-    {
-      "name": "이상해씨",
-      "language": "ko"
-    },
-    {
-      "name": "妙蛙種子",
-      "language": "zh"
-    },
-    {
-      "name": "Bulbizarre",
-      "language": "fr"
-    },
-    {
-      "name": "Bisasam",
-      "language": "de"
-    },
-    {
-      "name": "Bulbasaur",
-      "language": "es"
-    },
-    {
-      "name": "Bulbasaur",
-      "language": "it"
-    },
-    {
-      "name": "Bulbasaur",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "フシギダネ",
+    "en": "Bulbasaur",
+    "fr": "Bulbizarre",
+    "it": "Bulbasaur",
+    "de": "Bisasam",
+    "es": "Bulbasaur",
+    "ko": "이상해씨"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -114,36 +77,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "たね",
-      "language": "ja"
-    },
-    {
-      "genus": "씨앗",
-      "language": "ko"
-    },
-    {
-      "genus": "Graine",
-      "language": "fr"
-    },
-    {
-      "genus": "Samen",
-      "language": "de"
-    },
-    {
-      "genus": "Semilla",
-      "language": "es"
-    },
-    {
-      "genus": "Seme",
-      "language": "it"
-    },
-    {
-      "genus": "Seed",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "たね",
+    "en": "Seed",
+    "fr": "Graine",
+    "it": "Seme",
+    "de": "Samen",
+    "es": "Semilla",
+    "ko": "씨앗"
+  },
   "varieties": [
     {
       "is_default": true,

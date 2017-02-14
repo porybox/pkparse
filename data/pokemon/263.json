@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 12,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "quadruped"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ジグザグマ",
-      "language": "ja"
-    },
-    {
-      "name": "Ziguzaguma",
-      "language": "roomaji"
-    },
-    {
-      "name": "지그제구리",
-      "language": "ko"
-    },
-    {
-      "name": "蛇紋熊",
-      "language": "zh"
-    },
-    {
-      "name": "Zigzaton",
-      "language": "fr"
-    },
-    {
-      "name": "Zigzachs",
-      "language": "de"
-    },
-    {
-      "name": "Zigzagoon",
-      "language": "es"
-    },
-    {
-      "name": "Zigzagoon",
-      "language": "it"
-    },
-    {
-      "name": "Zigzagoon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ジグザグマ",
+    "en": "Zigzagoon",
+    "fr": "Zigzaton",
+    "it": "Zigzagoon",
+    "de": "Zigzachs",
+    "es": "Zigzagoon",
+    "ko": "지그제구리"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "まめだぬき",
-      "language": "ja"
-    },
-    {
-      "genus": "앙증너구리",
-      "language": "ko"
-    },
-    {
-      "genus": "Petit Raton",
-      "language": "fr"
-    },
-    {
-      "genus": "Kleindachs",
-      "language": "de"
-    },
-    {
-      "genus": "Mapachito",
-      "language": "es"
-    },
-    {
-      "genus": "Procione",
-      "language": "it"
-    },
-    {
-      "genus": "Tiny Raccoon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "まめだぬき",
+    "en": "Tiny Raccoon",
+    "fr": "Petit Raton",
+    "it": "Procione",
+    "de": "Kleindachs",
+    "es": "Mapachito",
+    "ko": "앙증너구리"
+  },
   "varieties": [
     {
       "is_default": true,

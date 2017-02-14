@@ -2,62 +2,13 @@
   "id": 7,
   "name": "fire-punch",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 15,
   "priority": 0,
   "power": 75,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "ice-punch"
-        },
-        {
-          "name": "thunder-punch"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "ice-punch"
-        },
-        {
-          "name": "thunder-punch"
-        },
-        {
-          "name": "sunny-day"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "short_effect": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "burn",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -69,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Fire Punch",
-      "language": "en"
-    },
-    {
-      "name": "Fuocopugno",
-      "language": "it"
-    },
-    {
-      "name": "Puño Fuego",
-      "language": "es"
-    },
-    {
-      "name": "Feuerschlag",
-      "language": "de"
-    },
-    {
-      "name": "Poing de Feu",
-      "language": "fr"
-    },
-    {
-      "name": "불꽃펀치",
-      "language": "ko"
-    },
-    {
-      "name": "ほのおのパンチ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ほのおのパンチ",
+    "kana": "ほのおのパンチ",
+    "en": "Fire Punch",
+    "fr": "Poing de Feu",
+    "it": "Fuocopugno",
+    "de": "Feuerschlag",
+    "es": "Puño Fuego",
+    "ko": "불꽃펀치",
+    "zh-CN": "火焰拳",
+    "zh-TW": "火焰拳"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "炎を　こめた　パンチで 相手を　攻撃する。 やけど状態に　することが　ある。",
+    "kana": "ほのおを　こめた　パンチで あいてを　こうげきする。 やけど　じょうたいに　することが　ある。",
+    "en": "The target is punched with a fiery fist. This may also leave the target with a burn.",
+    "fr": "Un coup de poing enflammé vient frapper l’ennemi. Peut le brûler.",
+    "it": "Colpisce il bersaglio con un pugno ardente che può scottarlo.",
+    "de": "Feuriger Schlag, der dem Ziel eventuell Verbrennungen zufügt.",
+    "es": "Puñetazo ardiente. Puede quemar.",
+    "ko": "불꽃을 담은 펀치로 상대를 공격한다. 화상 상태로 만들 때가 있다.",
+    "zh-CN": "用充满火焰的拳头攻击对手。 有时会让对手陷入灼伤状态。",
+    "zh-TW": "用帶有火焰的拳頭 攻擊對手。 有時會讓對手陷入灼傷狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fire"
 }

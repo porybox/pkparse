@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 45,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "green",
   "shape": {
     "name": "squiggle"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ミノマダム",
-      "language": "ja"
-    },
-    {
-      "name": "Minomadam",
-      "language": "roomaji"
-    },
-    {
-      "name": "도롱마담",
-      "language": "ko"
-    },
-    {
-      "name": "結草貴婦",
-      "language": "zh"
-    },
-    {
-      "name": "Cheniselle",
-      "language": "fr"
-    },
-    {
-      "name": "Burmadame",
-      "language": "de"
-    },
-    {
-      "name": "Wormadam",
-      "language": "es"
-    },
-    {
-      "name": "Wormadam",
-      "language": "it"
-    },
-    {
-      "name": "Wormadam",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ミノマダム",
+    "en": "Wormadam",
+    "fr": "Cheniselle",
+    "it": "Wormadam",
+    "de": "Burmadame",
+    "es": "Wormadam",
+    "ko": "도롱마담"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -110,36 +75,15 @@
       "language": "en"
     }
   ],
-  "genera": [
-    {
-      "genus": "みのむし",
-      "language": "ja"
-    },
-    {
-      "genus": "도롱이벌레",
-      "language": "ko"
-    },
-    {
-      "genus": "Ver Caché",
-      "language": "fr"
-    },
-    {
-      "genus": "Beutelwurm",
-      "language": "de"
-    },
-    {
-      "genus": "Larva",
-      "language": "es"
-    },
-    {
-      "genus": "Larva",
-      "language": "it"
-    },
-    {
-      "genus": "Bagworm",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "みのむし",
+    "en": "Bagworm",
+    "fr": "Ver Caché",
+    "it": "Larva",
+    "de": "Beutelwurm",
+    "es": "Larva",
+    "ko": "도롱이벌레"
+  },
   "varieties": [
     {
       "is_default": false,
@@ -172,5 +116,13 @@
     "special-attack": 79,
     "special-defense": 105,
     "speed": 36
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "color": "gray"
+      }
+    }
+  ]
 }

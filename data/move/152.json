@@ -2,52 +2,13 @@
   "id": 152,
   "name": "crabhammer",
   "accuracy": 90,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 100,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "swords-dance"
-        },
-        {
-          "name": "rain-dance"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User's [critical hit]{mechanic:critical-hit} rate is one level higher when using this move.",
-      "short_effect": "Has an increased chance for a critical hit.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Crabhammer",
-      "language": "en"
-    },
-    {
-      "name": "Martellata",
-      "language": "it"
-    },
-    {
-      "name": "Martillazo",
-      "language": "es"
-    },
-    {
-      "name": "Krabbhammer",
-      "language": "de"
-    },
-    {
-      "name": "Pince-Masse",
-      "language": "fr"
-    },
-    {
-      "name": "찝게햄머",
-      "language": "ko"
-    },
-    {
-      "name": "クラブハンマー",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "クラブハンマー",
+    "kana": "クラブハンマー",
+    "en": "Crabhammer",
+    "fr": "Pince-Masse",
+    "it": "Martellata",
+    "de": "Krabbhammer",
+    "es": "Martillazo",
+    "ko": "찝게햄머",
+    "zh-CN": "蟹钳锤",
+    "zh-TW": "蟹鉗錘"
+  },
+  "flavor_text_entries": {
+    "ja": "大きな　ハサミを 相手に　たたきつけて　攻撃する。 急所に　当たりやすい。",
+    "kana": "おおきな　ハサミを あいてに　たたきつけて　こうげきする。 きゅうしょに　あたりやすい。",
+    "en": "The target is hammered with a large pincer. Critical hits land more easily.",
+    "fr": "Une grande pince martèle l’ennemi. Taux de critique élevé.",
+    "it": "Danneggia il bersaglio servendosi di una grande tenaglia. Probabile brutto colpo.",
+    "de": "Schlägt mit Schere zu. Hohe Volltrefferquote.",
+    "es": "Golpea con fuerza con una pinza enorme. Suele ser crítico.",
+    "ko": "큰 집게를 상대에게 내리쳐서 공격한다. 급소에 맞기 쉽다.",
+    "zh-CN": "用大钳子 敲打对手进行攻击。 容易击中要害。",
+    "zh-TW": "用巨大的鉗子 敲打對手進行攻擊。 容易擊中要害。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "water",
   "past_values": [
     {
-      "accuracy": 85,
-      "power": null,
-      "pp": null,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "black-white"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Une grande pince martèle l’ennemi. Taux de critiques élevé."
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "water"
-  }
+  ]
 }

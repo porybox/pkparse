@@ -2,36 +2,13 @@
   "id": 54,
   "name": "mist",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 30,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Pokémon on the user's side of the [field]{mechanic:field} are immune to stat-lowering effects for five turns.\n\n[]{move:guard-swap}, []{move:heart-swap}, and []{move:power-swap} may still be used.\n\n[]{move:defog} used by an opponent will end this effect.",
-      "short_effect": "Protects the user's stats from being changed by enemy moves.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "field-effect"
-    },
+    "ailment": "none",
+    "category": "field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Mist",
-      "language": "en"
-    },
-    {
-      "name": "Nebbia",
-      "language": "it"
-    },
-    {
-      "name": "Neblina",
-      "language": "es"
-    },
-    {
-      "name": "Weißnebel",
-      "language": "de"
-    },
-    {
-      "name": "Brume",
-      "language": "fr"
-    },
-    {
-      "name": "흰안개",
-      "language": "ko"
-    },
-    {
-      "name": "しろいきり",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "users-field"
+  "names": {
+    "ja": "しろいきり",
+    "kana": "しろいきり",
+    "en": "Mist",
+    "fr": "Brume",
+    "it": "Nebbia",
+    "de": "Weißnebel",
+    "es": "Neblina",
+    "ko": "흰안개",
+    "zh-CN": "白雾",
+    "zh-TW": "白霧"
   },
-  "type": {
-    "name": "ice"
-  }
+  "flavor_text_entries": {
+    "ja": "白い霧で　体を　おおう。 ５ターンの　間　相手に 能力を　さげられなく　なる。",
+    "kana": "しろいきりで　からだを　おおう。 ５ターンの　あいだ　あいてに のうりょくを　さげられなく　なる。",
+    "en": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.",
+    "fr": "Une brume blanche enveloppe l’équipe du lanceur et empêche la réduction des stats pour cinq tours.",
+    "it": "Chi la usa attira una nebbia che blocca la riduzione delle statistiche per sé e gli alleati per cinque turni.",
+    "de": "Anwender schützt das Team mit einem Nebel. Verhindert Statussenkungen für fünf Runden.",
+    "es": "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.",
+    "ko": "하얀 안개로 몸을 덮는다. 5턴 동안 상대에 의해 능력이 떨어지지 않게 된다.",
+    "zh-CN": "用白雾覆盖身体。 在５回合内不会让对手 降低自己的能力。",
+    "zh-TW": "用白霧覆蓋身體。 在５回合內不會讓對手 降低自己的能力。"
+  },
+  "stat_changes": [],
+  "target": "users-field",
+  "type": "ice",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "白い霧で　体を　おおう。 ５ターンの　あいだ　相手に 能力を　さげられなく　なる。"
+        }
+      }
+    }
+  ]
 }

@@ -1,0 +1,45 @@
+{
+  "id": 785,
+  "name": "tapukoko",
+  "gender_rate": -1,
+  "capture_rate": 3,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "slow",
+  "egg_groups": [
+    "no-eggs"
+  ],
+  "color": "yellow",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "カプ・コケコ",
+    "en": "Tapu Koko",
+    "fr": "Tokorico",
+    "it": "Tapu Koko",
+    "de": "Kapu-Riki",
+    "es": "Tapu Koko",
+    "ko": "카푸꼬꼬꼭"
+  },
+  "genera": {
+    "ja": "とちがみ",
+    "en": "Land Spirit",
+    "fr": "Tutélaire",
+    "it": "Nume Locale",
+    "de": "Schutzpatron",
+    "es": "Dios Nativo",
+    "ko": "토속신"
+  },
+  "types": [
+    "electric",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 70,
+    "attack": 115,
+    "defense": 85,
+    "special-attack": 95,
+    "special-defense": 75,
+    "speed": 130
+  }
+}

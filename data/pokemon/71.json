@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 28,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "blob"
   },
@@ -65,44 +59,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ウツボット",
-      "language": "ja"
-    },
-    {
-      "name": "Utsubot",
-      "language": "roomaji"
-    },
-    {
-      "name": "우츠보트",
-      "language": "ko"
-    },
-    {
-      "name": "大食花",
-      "language": "zh"
-    },
-    {
-      "name": "Empiflor",
-      "language": "fr"
-    },
-    {
-      "name": "Sarzenia",
-      "language": "de"
-    },
-    {
-      "name": "Victreebel",
-      "language": "es"
-    },
-    {
-      "name": "Victreebel",
-      "language": "it"
-    },
-    {
-      "name": "Victreebel",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ウツボット",
+    "en": "Victreebel",
+    "fr": "Empiflor",
+    "it": "Victreebel",
+    "de": "Sarzenia",
+    "es": "Victreebel",
+    "ko": "우츠보트"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -113,36 +78,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ハエとり",
-      "language": "ja"
-    },
-    {
-      "genus": "파리잡이",
-      "language": "ko"
-    },
-    {
-      "genus": "Carnivore",
-      "language": "fr"
-    },
-    {
-      "genus": "Fliegentod",
-      "language": "de"
-    },
-    {
-      "genus": "Matamoscas",
-      "language": "es"
-    },
-    {
-      "genus": "Moschivoro",
-      "language": "it"
-    },
-    {
-      "genus": "Flycatcher",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ハエとり",
+    "en": "Flycatcher",
+    "fr": "Carnivore",
+    "it": "Moschivoro",
+    "de": "Fliegentod",
+    "es": "Matamoscas",
+    "ko": "파리잡이"
+  },
   "varieties": [
     {
       "is_default": true,

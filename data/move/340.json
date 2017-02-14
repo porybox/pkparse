@@ -2,36 +2,13 @@
   "id": 340,
   "name": "bounce",
   "accuracy": 85,
-  "effect_chance": 30,
   "pp": 5,
   "priority": 0,
   "power": 85,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User bounces high into the air for one turn, becoming immune to attack, and hits on the second turn.  Has a $effect_chance% chance to [paralyze]{mechanic:paralyze} the target.\n\nDuring the immune turn, []{move:gust}, []{move:hurricane}, []{move:sky-uppercut}, []{move:smack-down}, []{move:thunder}, and []{move:twister} still hit the user normally.  []{move:gust} and []{move:twister} also have double power against the user.\n\nThe damage from []{move:hail} and []{move:sandstorm} still applies during the immune turn.\n\nThe user may be hit during its immune turn if under the effect of []{move:lock-on}, []{move:mind-reader}, or []{ability:no-guard}.\n\nThis move cannot be used while []{move:gravity} is in effect.\n\nThis move cannot be selected by []{move:sleep-talk}.",
-      "short_effect": "User bounces high into the air, dodging all attacks, and hits next turn.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "paralysis"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "paralysis",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Bounce",
-      "language": "en"
-    },
-    {
-      "name": "Rimbalzo",
-      "language": "it"
-    },
-    {
-      "name": "Bote",
-      "language": "es"
-    },
-    {
-      "name": "Sprungfeder",
-      "language": "de"
-    },
-    {
-      "name": "Rebond",
-      "language": "fr"
-    },
-    {
-      "name": "뛰어오르다",
-      "language": "ko"
-    },
-    {
-      "name": "とびはねる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "とびはねる",
+    "kana": "とびはねる",
+    "en": "Bounce",
+    "fr": "Rebond",
+    "it": "Rimbalzo",
+    "de": "Sprungfeder",
+    "es": "Bote",
+    "ko": "뛰어오르다",
+    "zh-CN": "弹跳",
+    "zh-TW": "彈跳"
   },
-  "type": {
-    "name": "flying"
-  }
+  "flavor_text_entries": {
+    "ja": "空高く　飛び跳ねて ２ターン目に　相手を　攻撃する。 まひ状態に　することが　ある。",
+    "kana": "そらたかく　とびはねて ２ターンめに　あいてを　こうげきする。 まひ　じょうたいに　することが　ある。",
+    "en": "The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.",
+    "fr": "Le lanceur bondit très haut et plonge sur l’ennemi au second tour. Peut aussi le paralyser.",
+    "it": "Chi la usa balza in alto e ricade sul bersaglio dopo un turno. Può anche paralizzarlo.",
+    "de": "Angreifer springt und landet in der nächsten Runde auf dem Ziel. Das Ziel wird eventuell paralysiert.",
+    "es": "Primer turno: bota. Segundo turno: golpea. Puede paralizar.",
+    "ko": "하늘 높이 뛰어올라 2턴째에 상대를 공격한다. 마비 상태로 만들 때가 있다.",
+    "zh-CN": "弹跳到高高的空中， 第２回合攻击对手。 有时会让对手陷入麻痹状态。",
+    "zh-TW": "彈跳到高空中， 在下一回合攻擊對手。 有時會讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "flying"
 }

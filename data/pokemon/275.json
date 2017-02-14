@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 24,
@@ -27,16 +25,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "ground"
-    }
+    "ground",
+    "plant"
   ],
-  "color": {
-    "name": "brown"
-  },
+  "color": "brown",
   "shape": {
     "name": "humanoid"
   },
@@ -50,44 +42,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "ダーテング",
-      "language": "ja"
-    },
-    {
-      "name": "Dirteng",
-      "language": "roomaji"
-    },
-    {
-      "name": "다탱구",
-      "language": "ko"
-    },
-    {
-      "name": "狡猾天狗",
-      "language": "zh"
-    },
-    {
-      "name": "Tengalice",
-      "language": "fr"
-    },
-    {
-      "name": "Tengulist",
-      "language": "de"
-    },
-    {
-      "name": "Shiftry",
-      "language": "es"
-    },
-    {
-      "name": "Shiftry",
-      "language": "it"
-    },
-    {
-      "name": "Shiftry",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ダーテング",
+    "en": "Shiftry",
+    "fr": "Tengalice",
+    "it": "Shiftry",
+    "de": "Tengulist",
+    "es": "Shiftry",
+    "ko": "다탱구"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -98,36 +61,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "よこしま",
-      "language": "ja"
-    },
-    {
-      "genus": "부정하기",
-      "language": "ko"
-    },
-    {
-      "genus": "Malveillant",
-      "language": "fr"
-    },
-    {
-      "genus": "Verschlagen",
-      "language": "de"
-    },
-    {
-      "genus": "Malvado",
-      "language": "es"
-    },
-    {
-      "genus": "Burbero",
-      "language": "it"
-    },
-    {
-      "genus": "Wicked",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "よこしま",
+    "en": "Wicked",
+    "fr": "Malveillant",
+    "it": "Burbero",
+    "de": "Verschlagen",
+    "es": "Malvado",
+    "ko": "부정하기"
+  },
   "varieties": [
     {
       "is_default": true,

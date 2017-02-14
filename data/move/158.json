@@ -2,36 +2,13 @@
   "id": 158,
   "name": "hyper-fang",
   "accuracy": 90,
-  "effect_chance": 10,
   "pp": 15,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 10,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Hyper Fang",
-      "language": "en"
-    },
-    {
-      "name": "Iperzanna",
-      "language": "it"
-    },
-    {
-      "name": "Hipercolmillo",
-      "language": "es"
-    },
-    {
-      "name": "Hyperzahn",
-      "language": "de"
-    },
-    {
-      "name": "Croc de Mort",
-      "language": "fr"
-    },
-    {
-      "name": "필살앞니",
-      "language": "ko"
-    },
-    {
-      "name": "ひっさつまえば",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ひっさつまえば",
+    "kana": "ひっさつまえば",
+    "en": "Hyper Fang",
+    "fr": "Croc de Mort",
+    "it": "Iperzanna",
+    "de": "Hyperzahn",
+    "es": "Hipercolmillo",
+    "ko": "필살앞니",
+    "zh-CN": "必杀门牙",
+    "zh-TW": "必殺門牙"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "鋭い　前歯で 強く　かみついて　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "するどい　まえばで つよく　かみついて　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user bites hard on the target with its sharp front fangs. This may also make the target flinch.",
+    "fr": "Le lanceur mord l’ennemi à l’aide de ses incisives aiguisées. Peut aussi l’apeurer.",
+    "it": "Chi la usa morde il bersaglio con i suoi incisivi affilati. Può anche farlo tentennare.",
+    "de": "Angriff mit scharfen Reißzähnen. Ziel schreckt eventuell zurück.",
+    "es": "Ataque con finos colmillos. Puede hacer retroceder al objetivo.",
+    "ko": "날카로운 앞니로 강하게 물어서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "用锋利的门牙 牢牢地咬住对手进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "用銳利的門牙 牢牢咬住對手進行攻擊。 有時會使對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

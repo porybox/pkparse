@@ -2,49 +2,13 @@
   "id": 175,
   "name": "flail",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "endure"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power varies inversely with the user's proportional remaining [HP]{mechanic:hp}.\n\n64 * current HP / max HP | Power\n-----------------------: | ----:\n 0– 1                    |  200\n 2– 5                    |  150\n 6–12                    |  100\n13–21                    |   80\n22–42                    |   40\n43–64                    |   20\n",
-      "short_effect": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Flail",
-      "language": "en"
-    },
-    {
-      "name": "Flagello",
-      "language": "it"
-    },
-    {
-      "name": "Azote",
-      "language": "es"
-    },
-    {
-      "name": "Dreschflegel",
-      "language": "de"
-    },
-    {
-      "name": "Fléau",
-      "language": "fr"
-    },
-    {
-      "name": "바둥바둥",
-      "language": "ko"
-    },
-    {
-      "name": "じたばた",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "じたばた",
+    "kana": "じたばた",
+    "en": "Flail",
+    "fr": "Fléau",
+    "it": "Flagello",
+    "de": "Dreschflegel",
+    "es": "Azote",
+    "ko": "바둥바둥",
+    "zh-CN": "抓狂",
+    "zh-TW": "抓狂"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "じたばた　暴れて　攻撃する。 自分の　ＨＰが　少ないほど 技の　威力は　あがる。",
+    "kana": "じたばた　あばれて　こうげきする。 じぶんの　ＨＰが　すくないほど わざの　いりょくは　あがる。",
+    "en": "The user flails about aimlessly to attack. The less HP the user has, the greater the move’s power.",
+    "fr": "Le lanceur fait tournoyer son fléau. Plus ses PV sont bas, plus l’attaque est puissante.",
+    "it": "Chi la usa si dimena per attaccare. È più efficace se i suoi PS sono bassi.",
+    "de": "Attacke richtet mehr Schaden an, wenn eigene KP niedrig sind.",
+    "es": "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá.",
+    "ko": "바둥바둥 난동 부려서 공격한다. 자신의 HP가 적을수록 기술의 위력이 올라간다.",
+    "zh-CN": "抓狂般乱打进行攻击。 自己的ＨＰ越少， 招式的威力越大。",
+    "zh-TW": "抓狂般亂打進行攻擊。 自己的ＨＰ越少， 招式的威力越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

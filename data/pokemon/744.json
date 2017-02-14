@@ -1,0 +1,44 @@
+{
+  "id": 744,
+  "name": "rockruff",
+  "gender_rate": 4,
+  "capture_rate": 190,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "brown",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "イワンコ",
+    "en": "Rockruff",
+    "fr": "Rocabot",
+    "it": "Rockruff",
+    "de": "Wuffels",
+    "es": "Rockruff",
+    "ko": "암멍이"
+  },
+  "genera": {
+    "ja": "こいぬ",
+    "en": "Puppy",
+    "fr": "Chiot",
+    "it": "Cagnolino",
+    "de": "Hund",
+    "es": "Perrito",
+    "ko": "강아지"
+  },
+  "types": [
+    "rock"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 65,
+    "defense": 40,
+    "special-attack": 30,
+    "special-defense": 40,
+    "speed": 60
+  }
+}

@@ -2,36 +2,13 @@
   "id": 376,
   "name": "trump-card",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Power is determined by the [PP]{mechanic:pp} remaining for this move, after its [PP]{mechanic:pp} cost is deducted.  Ignores [accuracy]{mechanic:accuracy} and [evasion]{mechanic:evasion} modifiers.\n\nPP remaining | Power\n------------ | ----:\n4 or more    |    40\n3            |    50\n2            |    60\n1            |    80\n0            |   200\n\nIf this move is activated by another move, the activating move's [PP]{mechanic:pp} is used to calculate power.",
-      "short_effect": "Power increases when this move has less PP, up to a maximum of 200.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Trump Card",
-      "language": "en"
-    },
-    {
-      "name": "Asso",
-      "language": "it"
-    },
-    {
-      "name": "As Oculto",
-      "language": "es"
-    },
-    {
-      "name": "Trumpfkarte",
-      "language": "de"
-    },
-    {
-      "name": "Atout",
-      "language": "fr"
-    },
-    {
-      "name": "마지막수단",
-      "language": "ko"
-    },
-    {
-      "name": "きりふだ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "きりふだ",
+    "kana": "きりふだ",
+    "en": "Trump Card",
+    "fr": "Atout",
+    "it": "Asso",
+    "de": "Trumpfkarte",
+    "es": "As Oculto",
+    "ko": "마지막수단",
+    "zh-CN": "王牌",
+    "zh-TW": "王牌"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "きりふだの　残り　ＰＰが 少なければ　少ないほど 技の　威力が　あがる。",
+    "kana": "きりふだの　のこり　ＰＰが すくなければ　すくないほど わざの　いりょくが　あがる。",
+    "en": "The fewer PP this move has, the greater its power.",
+    "fr": "Moins cette capacité possède de PP, plus elle est puissante.",
+    "it": "La potenza di questa mossa aumenta man mano che i suoi PP diminuiscono.",
+    "de": "Je weniger AP diese Attacke hat, desto höher fällt ihre Stärke aus.",
+    "es": "Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar.",
+    "ko": "마지막수단의 남은 PP가 적으면 적을수록 기술의 위력이 올라간다.",
+    "zh-CN": "王牌招式的 剩余ＰＰ越少， 招式的威力越大。",
+    "zh-TW": "這個招式的 剩餘ＰＰ越少， 威力越大。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie."
+        }
+      }
+    }
+  ]
 }

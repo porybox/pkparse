@@ -1,0 +1,48 @@
+{
+  "id": 717,
+  "name": "mega-glove",
+  "names": {
+    "ja": "メガグローブ",
+    "kana": "メガグローブ",
+    "en": "Mega Glove",
+    "fr": "Méga-Gant",
+    "it": "Megaguanto",
+    "de": "Mega-Handschuh",
+    "es": "Megaguante",
+    "ko": "메가글러브",
+    "zh-CN": "超级手套",
+    "zh-TW": "超級手套"
+  },
+  "flavor_text_entries": {
+    "ja": "メガストーンを　持ったまま　戦う ポケモンを　メガシンカさせる 未知のパワーを　秘めた　グローブ。",
+    "kana": "メガストーンを　もったまま　たたかう ポケモンを　メガシンカさせる みちのパワーを　ひめた　グローブ。",
+    "en": "This glove contains an untold power that somehow enables Pokémon carrying Mega Stones to Mega Evolve in battle.",
+    "fr": "Un gant aux pouvoirs mystérieux permettant à un Pokémon de méga-évoluer au combat s’il tient la bonne Méga-Gemme.",
+    "it": "Guanto dotato di un misterioso potere. Consente a un Pokémon che ha una Megapietra di megaevolversi durante la lotta.",
+    "de": "Ein Handschuh mit geheimnisvollen Kräften. Er ermöglicht Pokémon, die einen Mega-Stein tragen, eine Mega-Entwicklung durchzuführen.",
+    "es": "Guante con un poder misterioso que permite megaevolucionar a Pokémon que lleven la Megapiedra adecuada.",
+    "ko": "메가스톤을 지닌 채로 싸우는 포켓몬을 메가진화시키는 미지의 힘을 가진 글러브.",
+    "zh-CN": "蕴藏着未知力量的手套。 能让携带着超级石战斗的 宝可梦进行超级进化。",
+    "zh-TW": "隱藏著未知力量的手套。 能讓攜帶著超級石戰鬥的 寶可夢進行超級進化。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Megaguanto che cela un misterioso potere. Consente a un Pokémon che ha una Megapietra di megaevolversi durante la lotta.",
+          "de": "Ein Handschuh mit geheimnisvollen Kräften. Er erlaubt Pokémon, die einen Mega-Stein tragen, eine Mega-Entwicklung durchzuführen.",
+          "es": "Guante con un poder misterioso que permite megaevolucionar a Pokémon que lleven una Megapiedra adecuada."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Megaguanto che cela un misterioso potere. Consente a un Pokémon che abbia una Megapietra di megaevolversi durante la lotta."
+        }
+      }
+    }
+  ]
+}

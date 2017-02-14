@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 34,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -55,44 +49,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "コリンク",
-      "language": "ja"
-    },
-    {
-      "name": "Kolink",
-      "language": "roomaji"
-    },
-    {
-      "name": "꼬링크",
-      "language": "ko"
-    },
-    {
-      "name": "小貓怪",
-      "language": "zh"
-    },
-    {
-      "name": "Lixy",
-      "language": "fr"
-    },
-    {
-      "name": "Sheinux",
-      "language": "de"
-    },
-    {
-      "name": "Shinx",
-      "language": "es"
-    },
-    {
-      "name": "Shinx",
-      "language": "it"
-    },
-    {
-      "name": "Shinx",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コリンク",
+    "en": "Shinx",
+    "fr": "Lixy",
+    "it": "Shinx",
+    "de": "Sheinux",
+    "es": "Shinx",
+    "ko": "꼬링크"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -103,36 +68,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "せんこう",
-      "language": "ja"
-    },
-    {
-      "genus": "섬광",
-      "language": "ko"
-    },
-    {
-      "genus": "Flash",
-      "language": "fr"
-    },
-    {
-      "genus": "Flacker",
-      "language": "de"
-    },
-    {
-      "genus": "Flash",
-      "language": "es"
-    },
-    {
-      "genus": "Baleno",
-      "language": "it"
-    },
-    {
-      "genus": "Flash",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "せんこう",
+    "en": "Flash",
+    "fr": "Flash",
+    "it": "Baleno",
+    "de": "Flacker",
+    "es": "Flash",
+    "ko": "섬광"
+  },
   "varieties": [
     {
       "is_default": true,

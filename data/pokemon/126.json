@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 54,
@@ -51,13 +49,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "upright"
   },
@@ -71,44 +65,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ブーバー",
-      "language": "ja"
-    },
-    {
-      "name": "Boober",
-      "language": "roomaji"
-    },
-    {
-      "name": "마그마",
-      "language": "ko"
-    },
-    {
-      "name": "鴨嘴火龍",
-      "language": "zh"
-    },
-    {
-      "name": "Magmar",
-      "language": "fr"
-    },
-    {
-      "name": "Magmar",
-      "language": "de"
-    },
-    {
-      "name": "Magmar",
-      "language": "es"
-    },
-    {
-      "name": "Magmar",
-      "language": "it"
-    },
-    {
-      "name": "Magmar",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ブーバー",
+    "en": "Magmar",
+    "fr": "Magmar",
+    "it": "Magmar",
+    "de": "Magmar",
+    "es": "Magmar",
+    "ko": "마그마"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -119,36 +84,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ひふき",
-      "language": "ja"
-    },
-    {
-      "genus": "불뿜기",
-      "language": "ko"
-    },
-    {
-      "genus": "Crache-Feu",
-      "language": "fr"
-    },
-    {
-      "genus": "Brenner",
-      "language": "de"
-    },
-    {
-      "genus": "Escupefuego",
-      "language": "es"
-    },
-    {
-      "genus": "Sputafuoco",
-      "language": "it"
-    },
-    {
-      "genus": "Spitfire",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ひふき",
+    "en": "Spitfire",
+    "fr": "Crache-Feu",
+    "it": "Sputafuoco",
+    "de": "Brenner",
+    "es": "Escupefuego",
+    "ko": "불뿜기"
+  },
   "varieties": [
     {
       "is_default": true,

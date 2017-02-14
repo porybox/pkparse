@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 128,
@@ -51,16 +49,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "ground"
   ],
-  "color": {
-    "name": "pink"
-  },
+  "color": "pink",
   "shape": {
     "name": "upright"
   },
@@ -74,44 +66,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "モココ",
-      "language": "ja"
-    },
-    {
-      "name": "Mokoko",
-      "language": "roomaji"
-    },
-    {
-      "name": "보송송",
-      "language": "ko"
-    },
-    {
-      "name": "綿綿",
-      "language": "zh"
-    },
-    {
-      "name": "Lainergie",
-      "language": "fr"
-    },
-    {
-      "name": "Waaty",
-      "language": "de"
-    },
-    {
-      "name": "Flaaffy",
-      "language": "es"
-    },
-    {
-      "name": "Flaaffy",
-      "language": "it"
-    },
-    {
-      "name": "Flaaffy",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "モココ",
+    "en": "Flaaffy",
+    "fr": "Lainergie",
+    "it": "Flaaffy",
+    "de": "Waaty",
+    "es": "Flaaffy",
+    "ko": "보송송"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -122,36 +85,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "わたげ",
-      "language": "ja"
-    },
-    {
-      "genus": "솜털",
-      "language": "ko"
-    },
-    {
-      "genus": "Laine",
-      "language": "fr"
-    },
-    {
-      "genus": "Wolle",
-      "language": "de"
-    },
-    {
-      "genus": "Lana",
-      "language": "es"
-    },
-    {
-      "genus": "Lana",
-      "language": "it"
-    },
-    {
-      "genus": "Wool",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "わたげ",
+    "en": "Wool",
+    "fr": "Laine",
+    "it": "Lana",
+    "de": "Wolle",
+    "es": "Lana",
+    "ko": "솜털"
+  },
   "varieties": [
     {
       "is_default": true,

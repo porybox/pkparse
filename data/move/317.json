@@ -2,49 +2,13 @@
   "id": 317,
   "name": "rock-tomb",
   "accuracy": 95,
-  "effect_chance": 100,
   "pp": 15,
   "priority": 0,
   "power": 60,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rock-throw"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to lower the target's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
-      "short_effect": "Has a $effect_chance% chance to lower the target's Speed by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+lower"
-    },
+    "ailment": "none",
+    "category": "damage+lower",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Rock Tomb",
-      "language": "en"
-    },
-    {
-      "name": "Rocciotomba",
-      "language": "it"
-    },
-    {
-      "name": "Tumba Rocas",
-      "language": "es"
-    },
-    {
-      "name": "Felsgrab",
-      "language": "de"
-    },
-    {
-      "name": "Tomberoche",
-      "language": "fr"
-    },
-    {
-      "name": "암석봉인",
-      "language": "ko"
-    },
-    {
-      "name": "がんせきふうじ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "がんせきふうじ",
+    "kana": "がんせきふうじ",
+    "en": "Rock Tomb",
+    "fr": "Tomberoche",
+    "it": "Rocciotomba",
+    "de": "Felsgrab",
+    "es": "Tumba Rocas",
+    "ko": "암석봉인",
+    "zh-CN": "岩石封锁",
+    "zh-TW": "岩石封鎖"
+  },
+  "flavor_text_entries": {
+    "ja": "岩石を　投げつけて　攻撃する。 相手の　動きを　封じることで 素早さを　さげる。",
+    "kana": "がんせきを　なげつけて　こうげきする。 あいての　うごきを　ふうじることで すばやさを　さげる。",
+    "en": "Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.",
+    "fr": "Des rochers frappent l’ennemi. Réduit aussi sa Vitesse.",
+    "it": "Colpisce il bersaglio con rocce. Inoltre, lo rallenta riducendone la Velocità.",
+    "de": "Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.",
+    "es": "Tira rocas que detienen al objetivo y bajan su Velocidad.",
+    "ko": "암석을 내던져서 공격한다. 상대의 움직임을 봉인함으로써 스피드를 떨어뜨린다.",
+    "zh-CN": "投掷岩石进行攻击。 封住对手的行动， 从而降低速度。",
+    "zh-TW": "投擲岩石進行攻擊。 封住對手的行動， 進而降低其速度。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "rock"
-  }
+  "target": "selected-pokemon",
+  "type": "rock"
 }

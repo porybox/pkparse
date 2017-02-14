@@ -2,36 +2,13 @@
   "id": 41,
   "name": "twineedle",
   "accuracy": 100,
-  "effect_chance": 20,
   "pp": 20,
   "priority": 0,
   "power": 25,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Hits twice in the same turn.  Has a $effect_chance% chance to [poison]{mechanic:poison} the target.",
-      "short_effect": "Hits twice in the same turn.  Has a $effect_chance% chance to poison the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "poison"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "poison",
+    "category": "damage+ailment",
     "min_hits": 2,
     "max_hits": 2,
     "min_turns": null,
@@ -43,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Twineedle",
-      "language": "en"
-    },
-    {
-      "name": "Doppio Ago",
-      "language": "it"
-    },
-    {
-      "name": "Doble Ataque",
-      "language": "es"
-    },
-    {
-      "name": "Duonadel",
-      "language": "de"
-    },
-    {
-      "name": "Double-Dard",
-      "language": "fr"
-    },
-    {
-      "name": "더블니들",
-      "language": "ko"
-    },
-    {
-      "name": "ダブルニードル",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ダブルニードル",
+    "kana": "ダブルニードル",
+    "en": "Twineedle",
+    "fr": "Double-Dard",
+    "it": "Doppio Ago",
+    "de": "Duonadel",
+    "es": "Doble Ataque",
+    "ko": "더블니들",
+    "zh-CN": "双针",
+    "zh-TW": "雙針"
   },
-  "type": {
-    "name": "bug"
-  }
+  "flavor_text_entries": {
+    "ja": "２本の　ハリを　相手に　突き刺し ２回連続で　ダメージ。 毒状態に　することが　ある。",
+    "kana": "２ほんの　ハリを　あいてに　つきさし ２かい　れんぞくで　ダメージ。 どく　じょうたいに　することが　ある。",
+    "en": "The user damages the target twice in succession by jabbing it with two spikes. This may also poison the target.",
+    "fr": "Un double coup de dard qui transperce l’ennemi deux fois d’affilée. Peut aussi l’empoisonner.",
+    "it": "Colpisce il bersaglio due volte di seguito con due spine. Può anche avvelenarlo.",
+    "de": "Stacheln treffen das Ziel zweimal. Das Ziel wird eventuell vergiftet.",
+    "es": "Pincha dos veces con dos espinas. Puede envenenar.",
+    "ko": "2개의 침을 상대에게 꿰찔러 2회 연속으로 데미지를 준다. 독 상태로 만들 때가 있다.",
+    "zh-CN": "将２根针刺入对手， 连续２次给予伤害。 有时会让对手陷入中毒状态。",
+    "zh-TW": "將２根針刺進對手， 連續２次給予傷害。 有時會讓對手陷入中毒狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "bug",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Colpisce il bersaglio due volte di seguito con un paio di aghi. Può anche avvelenarlo."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Stacheln an den Vorderbeinen treffen das Ziel zweimal. Ziel wird eventuell vergiftet."
+        }
+      }
+    }
+  ]
 }

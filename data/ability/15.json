@@ -1,308 +1,43 @@
 {
   "id": 15,
   "name": "insomnia",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "ふみん",
+    "kana": "ふみん",
+    "en": "Insomnia",
+    "fr": "Insomnia",
+    "it": "Insonnia",
+    "de": "Insomnia",
+    "es": "Insomnio",
+    "ko": "불면",
+    "zh-CN": "不眠",
+    "zh-TW": "不眠"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "眠れない　体質　なので ねむり状態に　ならない。",
+    "kana": "ねむれない　たいしつ　なので ねむり　じょうたいに　ならない。",
+    "en": "The Pokémon is suffering from insomnia and cannot fall asleep.",
+    "fr": "Le Pokémon est incapable de dormir.",
+    "it": "Il Pokémon soffre d’insonnia e non può finire addormentato.",
+    "de": "Verhindert Einschlafen.",
+    "es": "Su resistencia al sueño le impide quedarse dormido.",
+    "ko": "잠들지 못하는 체질이라 잠듦 상태가 되지 않는다.",
+    "zh-CN": "因为是不会睡觉的体质， 所以不会变为睡眠状态。",
+    "zh-TW": "因為擁有不會睡覺的體質， 所以不會陷入睡眠狀態。"
+  },
+  "past_values": [
     {
-      "name": "Insomnia",
-      "language": "en"
-    },
-    {
-      "name": "Insonnia",
-      "language": "it"
-    },
-    {
-      "name": "Insomnio",
-      "language": "es"
-    },
-    {
-      "name": "Insomnia",
-      "language": "de"
-    },
-    {
-      "name": "Insomnia",
-      "language": "fr"
-    },
-    {
-      "name": "불면",
-      "language": "ko"
-    },
-    {
-      "name": "ふみん",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "This Pokémon cannot be [asleep]{mechanic:sleep}.\n\nThis causes []{move:rest} to fail altogether.  If a Pokémon is asleep and acquires this ability, it will immediately wake up; this includes when regaining a lost ability upon leaving battle.\n\nThis ability functions identically to []{ability:vital-spirit} in battle.",
-      "short_effect": "Prevents [sleep]{mechanic:sleep}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "ねむり状態に\nならない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom falling asleep.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Impedisce al Pokémon\ndi addormentarsi.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Evita el quedarse dormido.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Verhindert Einschlafen.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Empêche le Pokémon de\ns’endormir.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "잠듦 상태가\n되지 않는다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "ねむり　じょうたいに\nならない。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom falling asleep.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom falling asleep.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Empêche le Pokémon de\ns’endormir.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom falling asleep.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom falling asleep.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents the Pokémon\nfrom falling asleep.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents sleep.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents sleep.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Prevents sleep.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "drowzee"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "hypno"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "hoothoot"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "noctowl"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "spinarak"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "ariados"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "murkrow"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "delibird"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "shuppet"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "banette"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "honchkrow"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "pumpkaboo-average"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "gourgeist-average"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "pumpkaboo-small"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "pumpkaboo-large"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "pumpkaboo-super"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "gourgeist-small"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "gourgeist-large"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "gourgeist-super"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "mewtwo-mega-y"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ねむり状態に ならない。",
+          "kana": "ねむり　じょうたいに ならない。",
+          "en": "Prevents the Pokémon from falling asleep.",
+          "fr": "Empêche le Pokémon de s’endormir.",
+          "it": "Impedisce al Pokémon di addormentarsi.",
+          "es": "Evita el quedarse dormido.",
+          "ko": "잠듦 상태가 되지 않는다."
+        }
       }
     }
   ]

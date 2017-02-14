@@ -1,0 +1,46 @@
+{
+  "id": 751,
+  "name": "dewpider",
+  "gender_rate": 4,
+  "capture_rate": 200,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "water1",
+    "bug"
+  ],
+  "color": "green",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "シズクモ",
+    "en": "Dewpider",
+    "fr": "Araqua",
+    "it": "Dewpider",
+    "de": "Araqua",
+    "es": "Dewpider",
+    "ko": "물거미"
+  },
+  "genera": {
+    "ja": "すいほう",
+    "en": "Water Bubble",
+    "fr": "Aquabulle",
+    "it": "Bolladacqua",
+    "de": "Wasserblase",
+    "es": "Pompa",
+    "ko": "수포"
+  },
+  "types": [
+    "water",
+    "bug"
+  ],
+  "base_stats": {
+    "hp": 38,
+    "attack": 40,
+    "defense": 52,
+    "special-attack": 40,
+    "special-defense": 72,
+    "speed": 27
+  }
+}

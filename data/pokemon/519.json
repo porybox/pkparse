@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 14,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "flying"
-    }
+    "flying"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "wings"
   },
@@ -49,68 +43,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "マメパト",
-      "language": "ja"
-    },
-    {
-      "name": "콩둘기",
-      "language": "ko"
-    },
-    {
-      "name": "Poichigeon",
-      "language": "fr"
-    },
-    {
-      "name": "Dusselgurr",
-      "language": "de"
-    },
-    {
-      "name": "Pidove",
-      "language": "es"
-    },
-    {
-      "name": "Pidove",
-      "language": "it"
-    },
-    {
-      "name": "Pidove",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "マメパト",
+    "en": "Pidove",
+    "fr": "Poichigeon",
+    "it": "Pidove",
+    "de": "Dusselgurr",
+    "es": "Pidove",
+    "ko": "콩둘기"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "こばと",
-      "language": "ja"
-    },
-    {
-      "genus": "아기비둘기",
-      "language": "ko"
-    },
-    {
-      "genus": "Tipigeon",
-      "language": "fr"
-    },
-    {
-      "genus": "Täubchen",
-      "language": "de"
-    },
-    {
-      "genus": "Pichón",
-      "language": "es"
-    },
-    {
-      "genus": "Piccione",
-      "language": "it"
-    },
-    {
-      "genus": "Tiny Pigeon",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "こばと",
+    "en": "Tiny Pigeon",
+    "fr": "Tipigeon",
+    "it": "Piccione",
+    "de": "Täubchen",
+    "es": "Pichón",
+    "ko": "아기비둘기"
+  },
   "varieties": [
     {
       "is_default": true,

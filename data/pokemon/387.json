@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 1,
@@ -33,16 +31,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    },
-    {
-      "name": "monster"
-    }
+    "monster",
+    "plant"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "quadruped"
   },
@@ -52,44 +44,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ナエトル",
-      "language": "ja"
-    },
-    {
-      "name": "Naetle",
-      "language": "roomaji"
-    },
-    {
-      "name": "모부기",
-      "language": "ko"
-    },
-    {
-      "name": "草苗龜",
-      "language": "zh"
-    },
-    {
-      "name": "Tortipouss",
-      "language": "fr"
-    },
-    {
-      "name": "Chelast",
-      "language": "de"
-    },
-    {
-      "name": "Turtwig",
-      "language": "es"
-    },
-    {
-      "name": "Turtwig",
-      "language": "it"
-    },
-    {
-      "name": "Turtwig",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ナエトル",
+    "en": "Turtwig",
+    "fr": "Tortipouss",
+    "it": "Turtwig",
+    "de": "Chelast",
+    "es": "Turtwig",
+    "ko": "모부기"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -100,36 +63,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "わかば",
-      "language": "ja"
-    },
-    {
-      "genus": "어린잎",
-      "language": "ko"
-    },
-    {
-      "genus": "Minifeuille",
-      "language": "fr"
-    },
-    {
-      "genus": "Winziglaub",
-      "language": "de"
-    },
-    {
-      "genus": "Hojita",
-      "language": "es"
-    },
-    {
-      "genus": "Fogliolina",
-      "language": "it"
-    },
-    {
-      "genus": "Tiny Leaf",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "わかば",
+    "en": "Tiny Leaf",
+    "fr": "Minifeuille",
+    "it": "Fogliolina",
+    "de": "Winziglaub",
+    "es": "Hojita",
+    "ko": "어린잎"
+  },
   "varieties": [
     {
       "is_default": true,

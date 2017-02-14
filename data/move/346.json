@@ -2,62 +2,13 @@
   "id": 346,
   "name": "water-sport",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 15,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": [
-        {
-          "name": "water-gun"
-        },
-        {
-          "name": "refresh"
-        },
-        {
-          "name": "mud-sport"
-        }
-      ],
-      "use_after": [
-        {
-          "name": "rain-dance"
-        },
-        {
-          "name": "mud-sport"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "[]{type:fire} moves inflict half damage, regardless of target.  If the user leaves the [field]{mechanic:field}, this effect ends.",
-      "short_effect": "Halves all Fire-type damage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -69,43 +20,43 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Water Sport",
-      "language": "en"
-    },
-    {
-      "name": "Docciascudo",
-      "language": "it"
-    },
-    {
-      "name": "Hidrochorro",
-      "language": "es"
-    },
-    {
-      "name": "Nassmacher",
-      "language": "de"
-    },
-    {
-      "name": "Tourniquet",
-      "language": "fr"
-    },
-    {
-      "name": "물놀이",
-      "language": "ko"
-    },
-    {
-      "name": "みずあそび",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "みずあそび",
+    "kana": "みずあそび",
+    "en": "Water Sport",
+    "fr": "Tourniquet",
+    "it": "Docciascudo",
+    "de": "Nassmacher",
+    "es": "Hidrochorro",
+    "ko": "물놀이",
+    "zh-CN": "玩水",
+    "zh-TW": "玩水"
   },
-  "type": {
-    "name": "water"
-  }
+  "flavor_text_entries": {
+    "ja": "あたりを　水で　びしょびしょにする。 ５ターンの　間 ほのおタイプの　技を　弱める。",
+    "kana": "あたりを　みずで　びしょびしょにする。 ５ターンの　あいだ ほのおタイプの　わざを　よわめる。",
+    "en": "The user soaks the battlefield with water. This weakens Fire-type moves for five turns.",
+    "fr": "Asperge d’eau les alentours. Affaiblit les capacités de type Feu pendant cinq tours.",
+    "it": "Chi la usa sparge acqua sul campo di lotta indebolendo per cinque turni le mosse di tipo Fuoco.",
+    "de": "Der Anwender lässt Wasser herabregnen und schwächt damit fünf Runden lang Feuer-Attacken.",
+    "es": "El usuario se empapa en agua, lo que debilita los movimientos de tipo Fuego durante cinco turnos.",
+    "ko": "주위를 물로 흠뻑 젖게 만든다. 5턴 동안 불꽃타입의 기술을 약하게 한다.",
+    "zh-CN": "用水湿透周围。 在５回合内 减弱火属性的招式。",
+    "zh-TW": "用水把周圍弄得濕答答。 在５回合內減弱火屬性的招式。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "water",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "あたりを　水で　びしょびしょにする。 ５ターンの　あいだ ほのおタイプの　技を　弱める。",
+          "en": "The user soaks itself with water. This weakens Fire-type moves for five turns.",
+          "fr": "Asperge d’eau les alentours. Affaiblit les capacités Feu pendant cinq tours."
+        }
+      }
+    }
+  ]
 }

@@ -2,49 +2,13 @@
   "id": 214,
   "name": "sleep-talk",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "rest"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Only usable if the user is [sleep]{mechanic:sleep}ing.  Randomly selects and uses one of the user's other three moves.  Use of the selected move requires and costs 0 [PP]{mechanic:pp}.\n\nThis move will not select []{move:assist}, []{move:bide}, []{move:bounce}, []{move:chatter}, []{move:copycat}, []{move:dig}, []{move:dive}, []{move:fly}, []{move:focus-punch}, []{move:me-first}, []{move:metronome}, []{move:mirror-move}, []{move:shadow-force}, []{move:skull-bash}, []{move:sky-attack}, []{move:sky-drop}, []{move:sleep-talk}, []{move:solar-beam}, []{move:razor-wind}, or []{move:uproar}.\n\nIf the selected move requires a recharge turn—i.e., one of []{move:blast-burn}, []{move:frenzy-plant}, []{move:giga-impact}, []{move:hydro-cannon}, []{move:hyper-beam}, []{move:roar-of-time}, or []{move:rock-wrecker}—and the user is still [sleep]{mechanic:sleep}ing next turn, then it's forced to use this move again and pay another [PP]{mechanic:pp} for the recharge turn.\n\nThis move cannot be copied by []{move:mirror-move}, nor selected by []{move:assist}, []{move:metronome}, or []{move:sleep-talk}.",
-      "short_effect": "Randomly uses one of the user's other three moves.  Only works if the user is sleeping.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-ii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,49 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Sleep Talk",
-      "language": "en"
-    },
-    {
-      "name": "Sonnolalia",
-      "language": "it"
-    },
-    {
-      "name": "Sonámbulo",
-      "language": "es"
-    },
-    {
-      "name": "Schlafrede",
-      "language": "de"
-    },
-    {
-      "name": "Blabla Dodo",
-      "language": "fr"
-    },
-    {
-      "name": "잠꼬대",
-      "language": "ko"
-    },
-    {
-      "name": "ねごと",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "ねごと",
+    "kana": "ねごと",
+    "en": "Sleep Talk",
+    "fr": "Blabla Dodo",
+    "it": "Sonnolalia",
+    "de": "Schlafrede",
+    "es": "Sonámbulo",
+    "ko": "잠꼬대",
+    "zh-CN": "梦话",
+    "zh-TW": "夢話"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "自分が　おぼえている　技の　うち どれか　１つを　くりだす。 自分が　寝ているときだけ　使える。",
+    "kana": "じぶんが　おぼえている　わざの　うち どれか　１つを　くりだす。 じぶんが　ねている　ときだけ　つかえる。",
+    "en": "While it is asleep, the user randomly uses one of the moves it knows.",
+    "fr": "Le lanceur utilise une de ses capacités au hasard pendant qu’il dort.",
+    "it": "Chi la usa sfodera a caso una delle proprie mosse mentre sta dormendo.",
+    "de": "Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.",
+    "es": "Mientras duerme, usa uno de sus movimientos elegido al azar.",
+    "ko": "자신이 배운 기술 중 하나를 무작위로 날린다. 자신이 잠들어 있을 때만 쓸 수 있다.",
+    "zh-CN": "从自己已学会的招式中 任意使出１个。 只能在自己睡觉时使用。",
+    "zh-TW": "從自己已學會的招式中 隨機選出１個使出。 只有在睡眠狀態時可以使用。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "de": "Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein."
+        }
+      }
+    },
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur utilise un de ses coups au hasard pendant qu’il dort."
+        }
+      }
+    }
+  ]
 }

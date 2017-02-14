@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 251,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "arms"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "ドータクン",
-      "language": "ja"
-    },
-    {
-      "name": "Dotakun",
-      "language": "roomaji"
-    },
-    {
-      "name": "동탁군",
-      "language": "ko"
-    },
-    {
-      "name": "青銅鐘",
-      "language": "zh"
-    },
-    {
-      "name": "Archéodong",
-      "language": "fr"
-    },
-    {
-      "name": "Bronzong",
-      "language": "de"
-    },
-    {
-      "name": "Bronzong",
-      "language": "es"
-    },
-    {
-      "name": "Bronzong",
-      "language": "it"
-    },
-    {
-      "name": "Bronzong",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ドータクン",
+    "en": "Bronzong",
+    "fr": "Archéodong",
+    "it": "Bronzong",
+    "de": "Bronzong",
+    "es": "Bronzong",
+    "ko": "동탁군"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "どうたく",
-      "language": "ja"
-    },
-    {
-      "genus": "동탁",
-      "language": "ko"
-    },
-    {
-      "genus": "Clochebronze",
-      "language": "fr"
-    },
-    {
-      "genus": "Bronzeglocke",
-      "language": "de"
-    },
-    {
-      "genus": "Cam. Bronce",
-      "language": "es"
-    },
-    {
-      "genus": "Squibronzo",
-      "language": "it"
-    },
-    {
-      "genus": "Bronze Bell",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "どうたく",
+    "en": "Bronze Bell",
+    "fr": "Clochebronze",
+    "it": "Squibronzo",
+    "de": "Bronzeglocke",
+    "es": "Cam. Bronce",
+    "ko": "동탁"
+  },
   "varieties": [
     {
       "is_default": true,

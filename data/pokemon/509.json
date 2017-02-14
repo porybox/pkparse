@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 42,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "quadruped"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "チョロネコ",
-      "language": "ja"
-    },
-    {
-      "name": "쌔비냥",
-      "language": "ko"
-    },
-    {
-      "name": "Chacripan",
-      "language": "fr"
-    },
-    {
-      "name": "Felilou",
-      "language": "de"
-    },
-    {
-      "name": "Purrloin",
-      "language": "es"
-    },
-    {
-      "name": "Purrloin",
-      "language": "it"
-    },
-    {
-      "name": "Purrloin",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "チョロネコ",
+    "en": "Purrloin",
+    "fr": "Chacripan",
+    "it": "Purrloin",
+    "de": "Felilou",
+    "es": "Purrloin",
+    "ko": "쌔비냥"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "しょうわる",
-      "language": "ja"
-    },
-    {
-      "genus": "성악",
-      "language": "ko"
-    },
-    {
-      "genus": "Scélérat",
-      "language": "fr"
-    },
-    {
-      "genus": "Schelm",
-      "language": "de"
-    },
-    {
-      "genus": "Malicioso",
-      "language": "es"
-    },
-    {
-      "genus": "Furbizia",
-      "language": "it"
-    },
-    {
-      "genus": "Devious",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "しょうわる",
+    "en": "Devious",
+    "fr": "Scélérat",
+    "it": "Furbizia",
+    "de": "Schelm",
+    "es": "Malicioso",
+    "ko": "성악"
+  },
   "varieties": [
     {
       "is_default": true,

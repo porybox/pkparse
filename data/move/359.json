@@ -2,36 +2,13 @@
   "id": 359,
   "name": "hammer-arm",
   "accuracy": 90,
-  "effect_chance": 100,
   "pp": 10,
   "priority": 0,
   "power": 100,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}, then lowers the user's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
-      "short_effect": "Lowers user's Speed by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,50 +20,47 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Hammer Arm",
-      "language": "en"
-    },
-    {
-      "name": "Martelpugno",
-      "language": "it"
-    },
-    {
-      "name": "Machada",
-      "language": "es"
-    },
-    {
-      "name": "Hammerarm",
-      "language": "de"
-    },
-    {
-      "name": "Marto-Poing",
-      "language": "fr"
-    },
-    {
-      "name": "암해머",
-      "language": "ko"
-    },
-    {
-      "name": "アームハンマー",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "アームハンマー",
+    "kana": "アームハンマー",
+    "en": "Hammer Arm",
+    "fr": "Marto-Poing",
+    "it": "Martelpugno",
+    "de": "Hammerarm",
+    "es": "Machada",
+    "ko": "암해머",
+    "zh-CN": "臂锤",
+    "zh-TW": "臂錘"
+  },
+  "flavor_text_entries": {
+    "ja": "強くて　重い　こぶしを ふるって　ダメージを　与える。 自分の　素早さが　さがる。",
+    "kana": "つよくて　おもい　こぶしを ふるって　ダメージを　あたえる。 じぶんの　すばやさが　さがる。",
+    "en": "The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.",
+    "fr": "Le lanceur donne un puissant coup de poing à l’ennemi. Réduit la Vitesse du lanceur.",
+    "it": "Chi la usa colpisce il bersaglio con il suo pugno forte e pesante, ma perde Velocità.",
+    "de": "Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.",
+    "es": "Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad.",
+    "ko": "강하고 무거운 주먹을 휘둘러 데미지를 준다. 자신의 스피드가 떨어진다.",
+    "zh-CN": "挥舞强力而沉重的拳头， 给予对手伤害。 自己的速度会降低。",
+    "zh-TW": "揮出強力而沉重的拳頭， 給予對手傷害。 自己的速度會降低。"
+  },
   "stat_changes": [
     {
       "change": -1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fighting"
-  }
+  "target": "selected-pokemon",
+  "type": "fighting",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user swings and hits with its strong and heavy fist. It lowers the user’s Speed, however.",
+          "fr": "Le lanceur lâche un puissant coup de poing sur l’ennemi. Réduit la vitesse du lanceur."
+        }
+      }
+    }
+  ]
 }

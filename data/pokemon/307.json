@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 143,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -63,44 +57,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "アサナン",
-      "language": "ja"
-    },
-    {
-      "name": "Asanan",
-      "language": "roomaji"
-    },
-    {
-      "name": "요가랑",
-      "language": "ko"
-    },
-    {
-      "name": "瑪沙那",
-      "language": "zh"
-    },
-    {
-      "name": "Méditikka",
-      "language": "fr"
-    },
-    {
-      "name": "Meditie",
-      "language": "de"
-    },
-    {
-      "name": "Meditite",
-      "language": "es"
-    },
-    {
-      "name": "Meditite",
-      "language": "it"
-    },
-    {
-      "name": "Meditite",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アサナン",
+    "en": "Meditite",
+    "fr": "Méditikka",
+    "it": "Meditite",
+    "de": "Meditie",
+    "es": "Meditite",
+    "ko": "요가랑"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -111,36 +76,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "めいそう",
-      "language": "ja"
-    },
-    {
-      "genus": "명상",
-      "language": "ko"
-    },
-    {
-      "genus": "Méditation",
-      "language": "fr"
-    },
-    {
-      "genus": "Meditation",
-      "language": "de"
-    },
-    {
-      "genus": "Meditador",
-      "language": "es"
-    },
-    {
-      "genus": "Meditazione",
-      "language": "it"
-    },
-    {
-      "genus": "Meditate",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "めいそう",
+    "en": "Meditate",
+    "fr": "Méditation",
+    "it": "Meditazione",
+    "de": "Meditation",
+    "es": "Meditador",
+    "ko": "명상"
+  },
   "varieties": [
     {
       "is_default": true,

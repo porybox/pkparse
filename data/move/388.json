@@ -2,36 +2,13 @@
   "id": 388,
   "name": "worry-seed",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Changes the target's ability to []{ability:insomnia}.\n\nIf the target's ability is []{ability:truant} or []{ability:multitype}, this move will [fail]{mechanic:fail}.",
-      "short_effect": "Changes the target's ability to Insomnia.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,43 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Worry Seed",
-      "language": "en"
-    },
-    {
-      "name": "Affannoseme",
-      "language": "it"
-    },
-    {
-      "name": "Abatidoras",
-      "language": "es"
-    },
-    {
-      "name": "Sorgensamen",
-      "language": "de"
-    },
-    {
-      "name": "Soucigraine",
-      "language": "fr"
-    },
-    {
-      "name": "고민씨",
-      "language": "ko"
-    },
-    {
-      "name": "なやみのタネ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "なやみのタネ",
+    "kana": "なやみのタネ",
+    "en": "Worry Seed",
+    "fr": "Soucigraine",
+    "it": "Affannoseme",
+    "de": "Sorgensamen",
+    "es": "Abatidoras",
+    "ko": "고민씨",
+    "zh-CN": "烦恼种子",
+    "zh-TW": "煩惱種子"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "心を　なやませる　タネを 植えつける。　相手を　眠れなくして 特性を　ふみんに　する。",
+    "kana": "こころを　なやませる　タネを うえつける。　あいてを　ねむれなく　して とくせいを　ふみんに　する。",
+    "en": "A seed that causes worry is planted on the target. It prevents sleep by making the target’s Ability Insomnia.",
+    "fr": "Plante sur la cible une graine qui la rend soucieuse et remplace son talent par Insomnia, l’empêchant ainsi de dormir.",
+    "it": "Un seme che causa ansia viene piantato sul bersaglio. Ne muta l’abilità in Insonnia e ne previene o rimuove il sonno.",
+    "de": "Ziel wird bepflanzt. Seine Fähigkeit wandelt sich zu Insomnia und hindert es daran, einzuschlafen.",
+    "es": "Se planta una semilla en el objetivo que le causa pesar. Evita el sueño gracias a la habilidad Insomnio.",
+    "ko": "마음을 괴롭히는 씨앗을 심는다. 상대를 잠잘 수 없게 해서 특성을 불면으로 만든다.",
+    "zh-CN": "种植心神不宁的种子。 使对手不能入眠， 并将特性变成不眠。",
+    "zh-TW": "埋下令人心煩意亂的種子， 讓對手睡不著， 將對手的特性變成不眠。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "心を　なやませる　タネを 植えつける。相手を　眠れなくして 特性を　ふみんに　する。",
+          "kana": "こころを　なやませる　タネを うえつける。あいてを　ねむれなく　して とくせいを　ふみんに　する。",
+          "de": "Ziel wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf."
+        }
+      }
+    }
+  ]
 }

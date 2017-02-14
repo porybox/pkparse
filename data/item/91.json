@@ -1,0 +1,38 @@
+{
+  "id": 91,
+  "name": "star-piece",
+  "names": {
+    "ja": "ほしのかけら",
+    "kana": "ほしのかけら",
+    "en": "Star Piece",
+    "fr": "Morceau d’Étoile",
+    "it": "Pezzo Stella",
+    "de": "Sternenstück",
+    "es": "Trozo Estrella",
+    "ko": "별의조각",
+    "zh-CN": "星星碎片",
+    "zh-TW": "星星碎片"
+  },
+  "flavor_text_entries": {
+    "ja": "キラキラと　赤く　光る きれいな　宝石の　かけら。 ショップで　高く　売れる。",
+    "kana": "キラキラと　あかく　ひかる きれいな　ほうせきの　かけら。 ショップで　たかく　うれる。",
+    "en": "A small shard of a beautiful gem that demonstrates a distinctly red sparkle. It can be sold at a high price to shops.",
+    "fr": "Un fragment de gemme qui brille d’un éclat rouge. Peut être vendu à bon prix aux magasins.",
+    "it": "Frammento rosso acceso di una gemma. Si può vendere a un prezzo piuttosto alto nei negozi.",
+    "de": "Teil eines hübschen Edelsteins, der in rötlicher Farbe schimmert. Erzielt einen hohen Preis, wenn man ihn verkauft.",
+    "es": "Fragmento de una bonita gema roja que puede venderse muy caro en las tiendas.",
+    "ko": "반짝반짝 빨갛게 빛나는 예쁜 보석 조각. 상점에서 비싸게 팔린다.",
+    "zh-CN": "闪着红光且十分 美丽的宝石碎片。 可以在商店高价出售。",
+    "zh-TW": "閃著紅光且十分 美麗的寶石碎片。 可以在商店高價出售。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Un fragment de gemme, qui brille d’un éclat rouge. Peut être vendu à bon prix aux magasins."
+        }
+      }
+    }
+  ]
+}

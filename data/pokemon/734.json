@@ -1,0 +1,44 @@
+{
+  "id": 734,
+  "name": "yungoos",
+  "gender_rate": 4,
+  "capture_rate": 255,
+  "base_happiness": 70,
+  "hatch_counter": 15,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "ground"
+  ],
+  "color": "brown",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "ヤングース",
+    "en": "Yungoos",
+    "fr": "Manglouton",
+    "it": "Yungoos",
+    "de": "Mangunior",
+    "es": "Yungoos",
+    "ko": "영구스"
+  },
+  "genera": {
+    "ja": "うろつき",
+    "en": "Loitering",
+    "fr": "Patrouille",
+    "it": "Pattuglia",
+    "de": "Patrouille",
+    "es": "Patrulla",
+    "ko": "순회"
+  },
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 48,
+    "attack": 70,
+    "defense": 30,
+    "special-attack": 30,
+    "special-defense": 30,
+    "speed": 45
+  }
+}

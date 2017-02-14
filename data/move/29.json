@@ -2,49 +2,13 @@
   "id": 29,
   "name": "headbutt",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 15,
   "priority": 0,
   "power": 70,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "pound"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 30,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Headbutt",
-      "language": "en"
-    },
-    {
-      "name": "Bottintesta",
-      "language": "it"
-    },
-    {
-      "name": "Golpe Cabeza",
-      "language": "es"
-    },
-    {
-      "name": "Kopfnuss",
-      "language": "de"
-    },
-    {
-      "name": "Coup d'Boule",
-      "language": "fr"
-    },
-    {
-      "name": "박치기",
-      "language": "ko"
-    },
-    {
-      "name": "ずつき",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ずつき",
+    "kana": "ずつき",
+    "en": "Headbutt",
+    "fr": "Coup d’Boule",
+    "it": "Bottintesta",
+    "de": "Kopfnuss",
+    "es": "Golpe Cabeza",
+    "ko": "박치기",
+    "zh-CN": "头锤",
+    "zh-TW": "頭錘"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "頭を　突きだして まっすぐ　つっこんで　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "あたまを　つきだして まっすぐ　つっこんで　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.",
+    "fr": "Le lanceur donne un coup de tête. Peut apeurer l’ennemi.",
+    "it": "Chi la usa si lancia diritto di testa contro il bersaglio. Può anche farlo tentennare.",
+    "de": "Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.",
+    "es": "Lanza un potente cabezazo que puede hacer retroceder al objetivo.",
+    "ko": "머리를 내밀어 곧장 돌진하여 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "将头伸出， 笔直地扑向对手进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "將頭伸出， 直直衝向對手進行攻擊。 有時會讓對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "normal"
 }

@@ -1,0 +1,46 @@
+{
+  "id": 743,
+  "name": "ribombee",
+  "gender_rate": 4,
+  "capture_rate": 75,
+  "base_happiness": 70,
+  "hatch_counter": 20,
+  "has_gender_differences": false,
+  "growth_rate": "medium",
+  "egg_groups": [
+    "bug",
+    "fairy"
+  ],
+  "color": "yellow",
+  "generation": "generation-vii",
+  "names": {
+    "ja": "アブリボン",
+    "en": "Ribombee",
+    "fr": "Rubombelle",
+    "it": "Ribombee",
+    "de": "Bandelby",
+    "es": "Ribombee",
+    "ko": "에리본"
+  },
+  "genera": {
+    "ja": "ツリアブ",
+    "en": "Bee Fly",
+    "fr": "Bombyle",
+    "it": "Bombilide",
+    "de": "Hummelfliege",
+    "es": "Mosca Abeja",
+    "ko": "재니등에"
+  },
+  "types": [
+    "bug",
+    "fairy"
+  ],
+  "base_stats": {
+    "hp": 60,
+    "attack": 55,
+    "defense": 60,
+    "special-attack": 95,
+    "special-defense": 70,
+    "speed": 124
+  }
+}

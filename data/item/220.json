@@ -1,0 +1,39 @@
+{
+  "id": 220,
+  "name": "choice-band",
+  "names": {
+    "ja": "こだわりハチマキ",
+    "kana": "こだわりハチマキ",
+    "en": "Choice Band",
+    "fr": "Bandeau Choix",
+    "it": "Bendascelta",
+    "de": "Wahlband",
+    "es": "Cinta Elegida",
+    "ko": "구애머리띠",
+    "zh-CN": "讲究头带",
+    "zh-TW": "講究頭帶"
+  },
+  "flavor_text_entries": {
+    "ja": "ちょっと　こだわった　ハチマキ。 持たせると　攻撃は　あがるが 同じ　技しか　だせなくなる。",
+    "kana": "ちょっと　こだわった　ハチマキ。 もたせると　こうげきは　あがるが おなじ　わざしか　だせなくなる。",
+    "en": "An item to be held by a Pokémon. This curious headband boosts Attack but only allows the use of one move.",
+    "fr": "Objet à tenir. Ce bandeau augmente l’Attaque, mais ne permet d’utiliser qu’une seule capacité par combat.",
+    "it": "Strumento da dare a un Pokémon. Questa benda aumenta la potenza delle mosse, ma permette l’uso di una sola mossa.",
+    "de": "Ein Item, das von einem Pokémon getragen werden kann. Es stärkt den Angriffs-Wert, aber nur eine Attacke ist einsetzbar.",
+    "es": "Aumenta la potencia de los ataques físicos del Pokémon que la lleva, pero solo le permite usar un movimiento.",
+    "ko": "기술을 구애받는 머리띠. 지니게 하면 공격은 올라가지만 똑같은 기술밖에 쓰지 못한다.",
+    "zh-CN": "有点讲究的头带。 虽然携带后攻击会提高， 但只能使出相同的招式。",
+    "zh-TW": "有點講究的頭帶。 雖然攜帶後攻擊會提高， 但只能使出相同的招式。"
+  },
+  "past_values": [
+    {
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Strumento da dare a un Pokémon. Questa benda aumenta l’Attacco, ma permette l’uso di una sola mossa.",
+          "es": "Aumenta el Ataque, pero solo permite usar un movimiento. Debe llevarla un Pokémon."
+        }
+      }
+    }
+  ]
+}

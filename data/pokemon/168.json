@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "fast"
-  },
+  "growth_rate": "fast",
   "pokedex_numbers": [
     {
       "entry_number": 108,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "armor"
   },
@@ -59,44 +53,15 @@
   "generation": {
     "name": "generation-ii"
   },
-  "names": [
-    {
-      "name": "アリアドス",
-      "language": "ja"
-    },
-    {
-      "name": "Ariados",
-      "language": "roomaji"
-    },
-    {
-      "name": "아리아도스",
-      "language": "ko"
-    },
-    {
-      "name": "阿利多斯",
-      "language": "zh"
-    },
-    {
-      "name": "Migalos",
-      "language": "fr"
-    },
-    {
-      "name": "Ariados",
-      "language": "de"
-    },
-    {
-      "name": "Ariados",
-      "language": "es"
-    },
-    {
-      "name": "Ariados",
-      "language": "it"
-    },
-    {
-      "name": "Ariados",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "アリアドス",
+    "en": "Ariados",
+    "fr": "Migalos",
+    "it": "Ariados",
+    "de": "Ariados",
+    "es": "Ariados",
+    "ko": "아리아도스"
+  },
   "pal_park_encounters": [
     {
       "base_score": 50,
@@ -107,36 +72,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "あしなが",
-      "language": "ja"
-    },
-    {
-      "genus": "롱다리",
-      "language": "ko"
-    },
-    {
-      "genus": "Long-Patte",
-      "language": "fr"
-    },
-    {
-      "genus": "Langbein",
-      "language": "de"
-    },
-    {
-      "genus": "Pata Larga",
-      "language": "es"
-    },
-    {
-      "genus": "Lungazampa",
-      "language": "it"
-    },
-    {
-      "genus": "Long Leg",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "あしなが",
+    "en": "Long Leg",
+    "fr": "Long-Patte",
+    "it": "Lungazampa",
+    "de": "Langbein",
+    "es": "Pata Larga",
+    "ko": "롱다리"
+  },
   "varieties": [
     {
       "is_default": true,
@@ -155,7 +99,17 @@
     "attack": 90,
     "defense": 70,
     "special-attack": 60,
-    "special-defense": 60,
+    "special-defense": 70,
     "speed": 40
-  }
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "base_stats": {
+          "special-defense": 60
+        }
+      }
+    }
+  ]
 }

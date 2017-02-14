@@ -1,0 +1,39 @@
+{
+  "id": 701,
+  "name": "tmv-pass",
+  "names": {
+    "ja": "ＴＭＶパス",
+    "kana": "ティーエムブイパス",
+    "en": "TMV Pass",
+    "fr": "Passe TMV",
+    "it": "Pass TMV",
+    "de": "TMV-Pass",
+    "es": "Abono del TMV",
+    "ko": "TMV패스",
+    "zh-CN": "ＴＭＶ自由票",
+    "zh-TW": "ＴＭＶ自由票"
+  },
+  "flavor_text_entries": {
+    "ja": "ミアレシティと　キナンシティを 結ぶ　超高速鉄道に いつでも　乗れる　チケット。",
+    "kana": "ミアレシティと　キナンシティを むすぶ　ちょうこうそくてつどうに いつでも　のれる　チケット。",
+    "en": "A commuter pass that allows the holder to ride the TMV between Lumiose City and Kiloude City at any time.",
+    "fr": "Un abonnement à vie à la ligne de TMV qui relie Illumis à Batisques.",
+    "it": "Biglietto che permette di salire liberamente sul treno a megavelocità che collega Luminopoli e Batikopoli.",
+    "de": "Mit dieser Fahrkarte kannst du jederzeit den Hochgeschwindigkeitszug nehmen, der zwischen Illumina City und Batika City verkehrt.",
+    "es": "Pase que permite realizar viajes ilimitados en el TMV que une las ciudades de Luminalia y Batik.",
+    "ko": "미르시티와 기남시티를 잇는 초고속철도를 언제든지 탈 수 있는 티켓.",
+    "zh-CN": "可以随时乘坐连接着 密阿雷市和奇楠市的 超高速列车的车票。",
+    "zh-TW": "可以隨時乘坐連接著 密阿雷市和奇楠市的 超高速列車的車票。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "names": {
+          "ja": "ティーエムブイパス",
+          "ko": "티엠브이패스"
+        }
+      }
+    }
+  ]
+}

@@ -2,34 +2,13 @@
   "id": 488,
   "name": "flame-charge",
   "accuracy": 100,
-  "effect_chance": 100,
   "pp": 20,
   "priority": 0,
   "power": 50,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Raises the user's [Speed]{mechanic:speed} by one [stage]{mechanic:stage}.",
-      "short_effect": "Inflicts regular damage.  Raises the user's Speed by one stage.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-v"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage+raise"
-    },
+    "ailment": "none",
+    "category": "damage+raise",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,50 +20,36 @@
     "flinch_chance": 0,
     "stat_chance": 100
   },
-  "names": [
-    {
-      "name": "Flame Charge",
-      "language": "en"
-    },
-    {
-      "name": "Nitrocarica",
-      "language": "it"
-    },
-    {
-      "name": "Nitrocarga",
-      "language": "es"
-    },
-    {
-      "name": "Nitroladung",
-      "language": "de"
-    },
-    {
-      "name": "Nitrocharge",
-      "language": "fr"
-    },
-    {
-      "name": "니트로차지",
-      "language": "ko"
-    },
-    {
-      "name": "ニトロチャージ",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ニトロチャージ",
+    "kana": "ニトロチャージ",
+    "en": "Flame Charge",
+    "fr": "Nitrocharge",
+    "it": "Nitrocarica",
+    "de": "Nitroladung",
+    "es": "Nitrocarga",
+    "ko": "니트로차지",
+    "zh-CN": "蓄能焰袭",
+    "zh-TW": "蓄能焰襲"
+  },
+  "flavor_text_entries": {
+    "ja": "炎を　まとい　相手を　攻撃する。 力を　ためて　自分の 素早さを　あげる。",
+    "kana": "ほのおを　まとい　あいてを こうげきする。ちからを　ためて　じぶんの すばやさを　あげる。",
+    "en": "Cloaking itself in flame, the user attacks. Then, building up more power, the user raises its Speed stat.",
+    "fr": "Le lanceur s’entoure de flammes pour attaquer l’ennemi. Il se concentre et sa Vitesse augmente.",
+    "it": "Chi la usa si copre di fuoco e attacca il bersaglio. Concentrandosi aumenta, inoltre, la propria Velocità.",
+    "de": "Anwender hüllt sich in Flammen und greift das Ziel an. Sammelt seine Energie und erhöht dadurch die eigene Initiative.",
+    "es": "Llamas que golpean al objetivo y aumentan la Velocidad del atacante.",
+    "ko": "불꽃을 둘러 상대를 공격한다. 힘을 모아서 자신의 스피드를 올린다.",
+    "zh-CN": "让火焰覆盖全身，攻击对手。 积蓄力量并提高自己的速度。",
+    "zh-TW": "讓火焰圍繞全身後攻擊對手。 同時蓄積力量來提高自己的速度。"
+  },
   "stat_changes": [
     {
       "change": 1,
-      "stat": {
-        "name": "speed"
-      }
+      "stat": "speed"
     }
   ],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
-  },
-  "type": {
-    "name": "fire"
-  }
+  "target": "selected-pokemon",
+  "type": "fire"
 }

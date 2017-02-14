@@ -9,9 +9,7 @@
   "hatch_counter": 15,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 125,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "bug"
-    }
+    "bug"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "arms"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "クルマユ",
-      "language": "ja"
-    },
-    {
-      "name": "두르쿤",
-      "language": "ko"
-    },
-    {
-      "name": "Couverdure",
-      "language": "fr"
-    },
-    {
-      "name": "Folikon",
-      "language": "de"
-    },
-    {
-      "name": "Swadloon",
-      "language": "es"
-    },
-    {
-      "name": "Swadloon",
-      "language": "it"
-    },
-    {
-      "name": "Swadloon",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "クルマユ",
+    "en": "Swadloon",
+    "fr": "Couverdure",
+    "it": "Swadloon",
+    "de": "Folikon",
+    "es": "Swadloon",
+    "ko": "두르쿤"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "はごもり",
-      "language": "ja"
-    },
-    {
-      "genus": "잎숨기",
-      "language": "ko"
-    },
-    {
-      "genus": "Capefeuille",
-      "language": "fr"
-    },
-    {
-      "genus": "Wickelblatt",
-      "language": "de"
-    },
-    {
-      "genus": "Arropado",
-      "language": "es"
-    },
-    {
-      "genus": "Coprifoglia",
-      "language": "it"
-    },
-    {
-      "genus": "Leaf-Wrapped",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "はごもり",
+    "en": "Leaf-Wrapped",
+    "fr": "Capefeuille",
+    "it": "Coprifoglia",
+    "de": "Wickelblatt",
+    "es": "Arropado",
+    "ko": "잎숨기"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -2,58 +2,13 @@
   "id": 100,
   "name": "teleport",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "confusion"
-        },
-        {
-          "name": "psychic"
-        },
-        {
-          "name": "double-team"
-        },
-        {
-          "name": "kinesis"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Does nothing.  Wild battles end immediately.",
-      "short_effect": "Immediately ends wild battles.  No effect otherwise.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -65,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Teleport",
-      "language": "en"
-    },
-    {
-      "name": "Teletrasporto",
-      "language": "it"
-    },
-    {
-      "name": "Teletransporte",
-      "language": "es"
-    },
-    {
-      "name": "Teleport",
-      "language": "de"
-    },
-    {
-      "name": "Téléport",
-      "language": "fr"
-    },
-    {
-      "name": "순간이동",
-      "language": "ko"
-    },
-    {
-      "name": "テレポート",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "テレポート",
+    "kana": "テレポート",
+    "en": "Teleport",
+    "fr": "Téléport",
+    "it": "Teletrasporto",
+    "de": "Teleport",
+    "es": "Teletransporte",
+    "ko": "순간이동",
+    "zh-CN": "瞬间移动",
+    "zh-TW": "瞬間移動"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "野生　ポケモンとの 戦闘を　やめて　逃げる。",
+    "kana": "やせい　ポケモン　との せんとうを　やめて　にげる。",
+    "en": "Use it to flee from any wild Pokémon.",
+    "fr": "Permet de fuir une rencontre avec un Pokémon sauvage.",
+    "it": "Fa fuggire dai Pokémon selvatici.",
+    "de": "Ermöglicht die sofortige Flucht vor wilden Pokémon.",
+    "es": "Permite huir al instante de combates contra Pokémon salvajes.",
+    "ko": "야생 포켓몬과 배틀을 그만두고 도망간다.",
+    "zh-CN": "停止和野生宝可梦战斗并逃走。",
+    "zh-TW": "停止和野生寶可夢戰鬥並逃走。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "野生ポケモンとの　戦闘を　やめる。 最後に　はいった ポケセンの　ある　街にも　行ける。",
+          "kana": "やせい　ポケモンとの　せんとうを やめる。さいごに　はいった ポケセンの　ある　まちにも　いける。",
+          "en": "Use it to flee from any wild Pokémon. It can also warp to the last Pokémon Center visited.",
+          "fr": "Permet de fuir un Pokémon sauvage. Permet aussi de revenir au dernier Centre Pokémon visité.",
+          "it": "Fa fuggire dai Pokémon selvatici. Fuori dalla lotta porta all’ultimo Centro Pokémon visitato.",
+          "de": "Ermöglicht die sofortige Flucht vor wilden Pokémon. Kann den Anwender außerdem zum zuletzt besuchten Pokémon-Center teleportieren.",
+          "es": "Permite huir al instante de combates contra Pokémon salvajes o viajar al último Centro Pokémon visitado.",
+          "ko": "야생 포켓몬과 배틀을 그만둔다. 마지막에 들어갔던 포켓몬센터가 있는 도시에도 갈 수 있다."
+        }
+      }
+    }
+  ]
 }

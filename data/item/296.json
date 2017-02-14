@@ -1,0 +1,39 @@
+{
+  "id": 296,
+  "name": "big-root",
+  "names": {
+    "ja": "おおきなねっこ",
+    "kana": "おおきなねっこ",
+    "en": "Big Root",
+    "fr": "Grosse Racine",
+    "it": "Granradice",
+    "de": "Großwurzel",
+    "es": "Raíz Grande",
+    "ko": "큰뿌리",
+    "zh-CN": "大根茎",
+    "zh-TW": "大根莖"
+  },
+  "flavor_text_entries": {
+    "ja": "持たせると　ＨＰを　吸いとる　技で いつもより　おおく　自分の　ＨＰを 回復できる。",
+    "kana": "もたせると　ＨＰを　すいとる　わざで いつもより　おおく　じぶんの　ＨＰを かいふくできる。",
+    "en": "An item to be held by a Pokémon. It boosts the amount of HP the holder recovers from HP-stealing moves.",
+    "fr": "Objet à tenir. Augmente la puissance des capacités volant des PV.",
+    "it": "Strumento da dare a un Pokémon. Potenzia le mosse ruba-PS facendo recuperare un maggior numero di PS.",
+    "de": "Ein Item zum Tragen. Verstärkt KP-stehlende Attacken.",
+    "es": "El Pokémon que la lleva recupera más PS al usar movimientos que drenan al objetivo.",
+    "ko": "지니게 하면 HP 흡수 기술을 썼을 때 여느 때보다 많은 HP를 자신이 회복할 수 있다.",
+    "zh-CN": "携带后，吸取ＨＰ的招式 可以比平时更多地回复自己的ＨＰ。",
+    "zh-TW": "攜帶後，吸取ＨＰ的招式 可以比平時回復更多 自己的ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "An item to be held by a Pokémon. It boosts the power of HP-stealing moves so the holder recovers more HP.",
+          "fr": "Objet à tenir. Augmente la puissance des attaques volant des PV."
+        }
+      }
+    }
+  ]
+}

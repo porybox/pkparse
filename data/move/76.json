@@ -2,52 +2,13 @@
   "id": 76,
   "name": "solar-beam",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": 120,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "growth"
-        },
-        {
-          "name": "sunny-day"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cool"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  User charges for one turn before attacking.\n\nDuring []{move:sunny-day}, the charge turn is skipped.\n\nDuring []{move:hail}, []{move:rain-dance}, or []{move:sandstorm}, power is halved.\n\nThis move cannot be selected by []{move:sleep-talk}.",
-      "short_effect": "Requires a turn to charge before attacking.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -59,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Solar Beam",
-      "language": "en"
-    },
-    {
-      "name": "Solarraggio",
-      "language": "it"
-    },
-    {
-      "name": "Rayo Solar",
-      "language": "es"
-    },
-    {
-      "name": "Solarstrahl",
-      "language": "de"
-    },
-    {
-      "name": "Lance-Soleil",
-      "language": "fr"
-    },
-    {
-      "name": "솔라빔",
-      "language": "ko"
-    },
-    {
-      "name": "ソーラービーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ソーラービーム",
+    "kana": "ソーラービーム",
+    "en": "Solar Beam",
+    "fr": "Lance-Soleil",
+    "it": "Solarraggio",
+    "de": "Solarstrahl",
+    "es": "Rayo Solar",
+    "ko": "솔라빔",
+    "zh-CN": "日光束",
+    "zh-TW": "日光束"
   },
-  "type": {
-    "name": "grass"
-  }
+  "flavor_text_entries": {
+    "ja": "１ターン目に　光を　いっぱいに　集め ２ターン目に　光の　束を 発射して　攻撃する。",
+    "kana": "１ターンめに　ひかりを　いっぱいに あつめ　２ターンめに　ひかりの　たばを はっしゃして　こうげきする。",
+    "en": "In this two-turn attack, the user gathers light, then blasts a bundled beam on the next turn.",
+    "fr": "Absorbe la lumière au premier tour et envoie un rayon puissant au tour suivant.",
+    "it": "Chi la usa assorbe luce al primo turno per proiettare un raggio intenso al turno successivo.",
+    "de": "Absorbiert Licht in Runde 1. In Runde 2 erfolgt der Angriff.",
+    "es": "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.",
+    "ko": "1턴째에 빛을 가득 모아 2턴째에 빛의 다발을 발사하여 공격한다.",
+    "zh-CN": "第１回合收集满满的日光， 第２回合发射光束进行攻击。",
+    "zh-TW": "使用後的第１回合吸收大量日光， 並於第２回合發射光束進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "grass",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "A two-turn attack. The user gathers light, then blasts a bundled beam on the next turn."
+        }
+      }
+    }
+  ]
 }

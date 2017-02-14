@@ -1,210 +1,44 @@
 {
   "id": 35,
   "name": "illuminate",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "はっこう",
+    "kana": "はっこう",
+    "en": "Illuminate",
+    "fr": "Lumiattirance",
+    "it": "Risplendi",
+    "de": "Erleuchtung",
+    "es": "Iluminación",
+    "ko": "발광",
+    "zh-CN": "发光",
+    "zh-TW": "發光"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "あたりを　明るくする　ことで 野生の　ポケモンに 遭遇　しやすくなる。",
+    "kana": "あたりを　あかるくする　ことで やせいの　ポケモンに そうぐう　しやすくなる。",
+    "en": "Raises the likelihood of meeting wild Pokémon by illuminating the surroundings.",
+    "fr": "Émet une lumière spécifique qui facilite les rencontres avec les Pokémon sauvages.",
+    "it": "Illumina tutto intorno, rendendo più probabile incontrare Pokémon selvatici.",
+    "de": "Erhellt die Umgebung und erhöht dadurch die Wahrscheinlichkeit, wilden Pokémon zu begegnen.",
+    "es": "Aumenta la probabilidad de encontrar Pokémon al aumentar la visibilidad del entorno.",
+    "ko": "주변을 밝게 하는 것으로 야생 포켓몬과 만나기 쉬워진다.",
+    "zh-CN": "通过让周围变亮， 变得容易遇到野生的宝可梦。",
+    "zh-TW": "透過讓周圍變亮， 變得容易遇見野生的寶可夢。"
+  },
+  "past_values": [
     {
-      "name": "Illuminate",
-      "language": "en"
-    },
-    {
-      "name": "Risplendi",
-      "language": "it"
-    },
-    {
-      "name": "Iluminación",
-      "language": "es"
-    },
-    {
-      "name": "Erleuchtung",
-      "language": "de"
-    },
-    {
-      "name": "Lumiattirance",
-      "language": "fr"
-    },
-    {
-      "name": "발광",
-      "language": "ko"
-    },
-    {
-      "name": "はっこう",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.\n\nThis ability has no effect in battle.",
-      "short_effect": "Doubles the wild encounter rate.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "野生の　ポケモンに\n遭遇しやすくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Raises the likelihood of\nmeeting wild Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "È più probabile incontrare\nPokémon selvatici.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Aumenta la probabilidad de\nencontrar Pokémon.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Erhöht die Wahrscheinlichkeit,\nwilden Pokémon zu begegnen.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Augmente les rencontres avec\nles Pokémon sauvages.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "야생 포켓몬과\n만나기 쉬워진다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "やせいの　ポケモンに\nそうぐう　しやすくなる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Raises the likelihood of\nmeeting wild Pokémon.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises the likelihood of\nmeeting wild Pokémon.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Augmente les rencontres\navec Pokémon sauvages.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "Raises the likelihood of\nmeeting wild Pokémon.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises the likelihood of\nmeeting wild Pokémon.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Raises the likelihood of\nmeeting wild Pokémon.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Encounter rate increases.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Encounter rate increases.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Encounter rate increases.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "staryu"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "starmie"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "chinchou"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "lanturn"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "volbeat"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "watchog"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "野生の　ポケモンに 遭遇しやすくなる。",
+          "kana": "やせいの　ポケモンに そうぐう　しやすくなる。",
+          "en": "Raises the likelihood of meeting wild Pokémon.",
+          "fr": "Augmente les rencontres avec les Pokémon sauvages.",
+          "it": "È più probabile incontrare Pokémon selvatici.",
+          "de": "Erhöht die Wahrscheinlichkeit, wilden Pokémon zu begegnen.",
+          "es": "Aumenta la probabilidad de encontrar Pokémon.",
+          "ko": "야생 포켓몬과 만나기 쉬워진다."
+        }
       }
     }
   ]

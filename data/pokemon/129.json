@@ -9,9 +9,7 @@
   "hatch_counter": 5,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 49,
@@ -69,16 +67,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "dragon"
-    },
-    {
-      "name": "water2"
-    }
+    "water2",
+    "dragon"
   ],
-  "color": {
-    "name": "red"
-  },
+  "color": "red",
   "shape": {
     "name": "fish"
   },
@@ -90,44 +82,15 @@
   "generation": {
     "name": "generation-i"
   },
-  "names": [
-    {
-      "name": "ã‚³ã‚¤ã‚­ãƒ³ã‚°",
-      "language": "ja"
-    },
-    {
-      "name": "Koiking",
-      "language": "roomaji"
-    },
-    {
-      "name": "ìž‰ì–´í‚¹",
-      "language": "ko"
-    },
-    {
-      "name": "é¯‰é­šçŽ‹",
-      "language": "zh"
-    },
-    {
-      "name": "Magicarpe",
-      "language": "fr"
-    },
-    {
-      "name": "Karpador",
-      "language": "de"
-    },
-    {
-      "name": "Magikarp",
-      "language": "es"
-    },
-    {
-      "name": "Magikarp",
-      "language": "it"
-    },
-    {
-      "name": "Magikarp",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "コイキング",
+    "en": "Magikarp",
+    "fr": "Magicarpe",
+    "it": "Magikarp",
+    "de": "Karpador",
+    "es": "Magikarp",
+    "ko": "잉어킹"
+  },
   "pal_park_encounters": [
     {
       "base_score": 30,
@@ -138,36 +101,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ã•ã‹ãª",
-      "language": "ja"
-    },
-    {
-      "genus": "ë¬¼ê³ ê¸°",
-      "language": "ko"
-    },
-    {
-      "genus": "Poisson",
-      "language": "fr"
-    },
-    {
-      "genus": "Fisch",
-      "language": "de"
-    },
-    {
-      "genus": "Pez",
-      "language": "es"
-    },
-    {
-      "genus": "Pesce",
-      "language": "it"
-    },
-    {
-      "genus": "Fish",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "さかな",
+    "en": "Fish",
+    "fr": "Poisson",
+    "it": "Pesce",
+    "de": "Fisch",
+    "es": "Pez",
+    "ko": "물고기"
+  },
   "varieties": [
     {
       "is_default": true,

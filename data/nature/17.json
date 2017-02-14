@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "れいせい",
-      "language": "ja"
-    },
-    {
-      "name": "냉정",
-      "language": "ko"
-    },
-    {
-      "name": "Discret",
-      "language": "fr"
-    },
-    {
-      "name": "Ruhig",
-      "language": "de"
-    },
-    {
-      "name": "Manso",
-      "language": "es"
-    },
-    {
-      "name": "Quieta",
-      "language": "it"
-    },
-    {
-      "name": "Quiet",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "れいせい",
+    "en": "Quiet",
+    "fr": "Discret",
+    "it": "Quieta",
+    "de": "Ruhig",
+    "es": "Mansa",
+    "ko": "냉정",
+    "zh-CN": "冷静",
+    "zh-TW": "冷靜"
+  }
 }

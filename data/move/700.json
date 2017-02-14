@@ -1,0 +1,50 @@
+{
+  "id": 700,
+  "name": "stoked-sparksurfer",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": 175,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "paralysis",
+    "category": "damage+ailment",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 100,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ライトニングサーフライド",
+    "kana": "ライトニングサーフライド",
+    "en": "Stoked Sparksurfer",
+    "fr": "Électro-Surf Survolté",
+    "it": "Elettrosurf Folgorante",
+    "de": "Blitz-Wellenritt",
+    "es": "Surfeo Galvánico",
+    "ko": "라이트닝서프라이드",
+    "zh-CN": "驾雷驭电戏冲浪",
+    "zh-TW": "駕雷馭電戲衝浪"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーを　得た　アローラ地方の ライチュウが　全力で　攻撃する。 相手を　まひ　状態に　する。",
+    "kana": "Ｚパワーを　えた　アローラちほうの ライチュウが　ぜんりょくで　こうげきする。 あいてを　まひ　じょうたいに　する。",
+    "en": "After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.",
+    "fr": "Le Raichu de la région d’Alola utilise la Force Z pour frapper la cible et la paralyser.",
+    "it": "Grazie al Potere Z, il Raichu di Alola attacca con tutta la sua potenza e paralizza il bersaglio.",
+    "de": "Das Alola-Raichu greift das Ziel mithilfe von Z-Kraft mit voller Wucht an und paralysiert es.",
+    "es": "Cuando un Raichu de Alola obtiene el Poder Z, lanza un potente ataque contra su enemigo y lo deja paralizado.",
+    "ko": "Z파워를 얻은 알로라지방의 라이츄가 전력으로 공격한다. 상대를 마비 상태로 만든다.",
+    "zh-CN": "得到Ｚ力量的阿罗拉地区的 雷丘将全力进行攻击。 从而让对手陷入麻痹状态。",
+    "zh-TW": "得到Ｚ力量的阿羅拉地區的 雷丘全力進行攻擊。 讓對手陷入麻痺狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric"
+}

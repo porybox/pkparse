@@ -2,59 +2,13 @@
   "id": 107,
   "name": "minimize",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Raises the user's [evasion]{mechanic:evasion} by two [stages]{mechanic:stage}.\n\n[]{move:stomp} and []{move:steamroller} have double power against Pokémon that have used this move since entering the [field]{mechanic:field}.",
-      "short_effect": "Raises the user's evasion by two stages.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "gold-silver"
-      },
-      "effect_entries": [
-        {
-          "effect": "Does not interact with []{move:stomp}.",
-          "language": "en"
-        }
-      ]
-    },
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "Raises [evasion]{mechanic:evasion} by one stage.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "net-good-stats"
-    },
+    "ailment": "none",
+    "category": "net-good-stats",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -66,50 +20,46 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Minimize",
-      "language": "en"
-    },
-    {
-      "name": "Minimizzato",
-      "language": "it"
-    },
-    {
-      "name": "Reducción",
-      "language": "es"
-    },
-    {
-      "name": "Komprimator",
-      "language": "de"
-    },
-    {
-      "name": "Lilliput",
-      "language": "fr"
-    },
-    {
-      "name": "작아지기",
-      "language": "ko"
-    },
-    {
-      "name": "ちいさくなる",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
+  "names": {
+    "ja": "ちいさくなる",
+    "kana": "ちいさくなる",
+    "en": "Minimize",
+    "fr": "Lilliput",
+    "it": "Minimizzato",
+    "de": "Komprimator",
+    "es": "Reducción",
+    "ko": "작아지기",
+    "zh-CN": "变小",
+    "zh-TW": "變小"
+  },
+  "flavor_text_entries": {
+    "ja": "体を　ちぢめて　小さく　みせて 自分の　回避率を ぐーんと　あげる。",
+    "kana": "からだを　ちぢめて　ちいさく　みせて じぶんの　かいひりつを ぐーんと　あげる。",
+    "en": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
+    "fr": "Le lanceur comprime son corps pour se faire tout petit et beaucoup augmenter son Esquive.",
+    "it": "Il corpo di chi la usa si comprime e diventa più piccolo. La sua capacità di elusione aumenta di molto.",
+    "de": "Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.",
+    "es": "El usuario mengua para aumentar mucho la Evasión.",
+    "ko": "몸을 축소하여 작게 보임으로써 자신의 회피율을 크게 올린다.",
+    "zh-CN": "蜷缩身体显得很小， 从而大幅提高 自己的闪避率。",
+    "zh-TW": "蜷縮身體使自己顯得很小， 大幅提高 自己的閃避率。"
+  },
   "stat_changes": [
     {
       "change": 2,
-      "stat": {
-        "name": "evasion"
-      }
+      "stat": "all"
     }
   ],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "normal"
-  }
+  "target": "user",
+  "type": "normal",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "fr": "Le lanceur comprime son corps pour se faire tout petit et augmenter fortement son Esquive."
+        }
+      }
+    }
+  ]
 }

@@ -2,49 +2,13 @@
   "id": 303,
   "name": "slack-off",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": {
-    "normal": {
-      "use_before": null,
-      "use_after": [
-        {
-          "name": "yawn"
-        }
-      ]
-    },
-    "super": {
-      "use_before": null,
-      "use_after": null
-    }
-  },
-  "contest_type": {
-    "name": "cute"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Heals the user for half its max [HP]{mechanic:hp}.",
-      "short_effect": "Heals the user by half its max HP.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "heal"
-    },
+    "ailment": "none",
+    "category": "heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -56,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Slack Off",
-      "language": "en"
-    },
-    {
-      "name": "Pigro",
-      "language": "it"
-    },
-    {
-      "name": "Relajo",
-      "language": "es"
-    },
-    {
-      "name": "Tagedieb",
-      "language": "de"
-    },
-    {
-      "name": "Paresse",
-      "language": "fr"
-    },
-    {
-      "name": "태만함",
-      "language": "ko"
-    },
-    {
-      "name": "なまける",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
+  "names": {
+    "ja": "なまける",
+    "kana": "なまける",
+    "en": "Slack Off",
+    "fr": "Paresse",
+    "it": "Pigro",
+    "de": "Tagedieb",
+    "es": "Relajo",
+    "ko": "태만함",
+    "zh-CN": "偷懒",
+    "zh-TW": "偷懶"
   },
-  "type": {
-    "name": "normal"
-  }
+  "flavor_text_entries": {
+    "ja": "怠けて　やすむ。 自分の　ＨＰを　最大ＨＰの 半分　回復する。",
+    "kana": "なまけて　やすむ。 じぶんの　ＨＰを　さいだい　ＨＰの はんぶん　かいふく　する。",
+    "en": "The user slacks off, restoring its own HP by up to half of its max HP.",
+    "fr": "Le lanceur se tourne les pouces et récupère jusqu’à la moitié de ses PV max.",
+    "it": "Chi la usa si rilassa recuperando metà dei propri PS massimi.",
+    "de": "Durch Müßiggang werden KP des Anwenders um 50 % der maximalen KP aufgefüllt.",
+    "es": "El usuario se relaja y restaura la mitad de sus PS máximos.",
+    "ko": "게으름 피우며 쉰다. 자신의 HP를 최대 HP의 절반만큼 회복한다.",
+    "zh-CN": "偷懒休息。 回复自己最大ＨＰ的一半。",
+    "zh-TW": "偷懶休息。 回復自己最大ＨＰ的一半。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal"
 }

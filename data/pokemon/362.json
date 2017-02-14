@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 94,
@@ -39,16 +37,10 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    },
-    {
-      "name": "fairy"
-    }
+    "fairy",
+    "mineral"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "ball"
   },
@@ -62,44 +54,15 @@
   "generation": {
     "name": "generation-iii"
   },
-  "names": [
-    {
-      "name": "オニゴーリ",
-      "language": "ja"
-    },
-    {
-      "name": "Onigohri",
-      "language": "roomaji"
-    },
-    {
-      "name": "얼음귀신",
-      "language": "ko"
-    },
-    {
-      "name": "冰鬼護",
-      "language": "zh"
-    },
-    {
-      "name": "Oniglali",
-      "language": "fr"
-    },
-    {
-      "name": "Firnontor",
-      "language": "de"
-    },
-    {
-      "name": "Glalie",
-      "language": "es"
-    },
-    {
-      "name": "Glalie",
-      "language": "it"
-    },
-    {
-      "name": "Glalie",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "オニゴーリ",
+    "en": "Glalie",
+    "fr": "Oniglali",
+    "it": "Glalie",
+    "de": "Firnontor",
+    "es": "Glalie",
+    "ko": "얼음귀신"
+  },
   "pal_park_encounters": [
     {
       "base_score": 70,
@@ -110,36 +73,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "がんめん",
-      "language": "ja"
-    },
-    {
-      "genus": "얼굴",
-      "language": "ko"
-    },
-    {
-      "genus": "Face",
-      "language": "fr"
-    },
-    {
-      "genus": "Antlitz",
-      "language": "de"
-    },
-    {
-      "genus": "Cara",
-      "language": "es"
-    },
-    {
-      "genus": "Tuttomuso",
-      "language": "it"
-    },
-    {
-      "genus": "Face",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "がんめん",
+    "en": "Face",
+    "fr": "Face",
+    "it": "Tuttomuso",
+    "de": "Antlitz",
+    "es": "Cara",
+    "ko": "얼굴"
+  },
   "varieties": [
     {
       "is_default": true,

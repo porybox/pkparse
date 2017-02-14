@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 58,
@@ -33,13 +31,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "yellow"
-  },
+  "color": "yellow",
   "shape": {
     "name": "upright"
   },
@@ -51,44 +45,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "エレキブル",
-      "language": "ja"
-    },
-    {
-      "name": "Elekible",
-      "language": "roomaji"
-    },
-    {
-      "name": "에레키블",
-      "language": "ko"
-    },
-    {
-      "name": "電擊魔獸",
-      "language": "zh"
-    },
-    {
-      "name": "Élekable",
-      "language": "fr"
-    },
-    {
-      "name": "Elevoltek",
-      "language": "de"
-    },
-    {
-      "name": "Electivire",
-      "language": "es"
-    },
-    {
-      "name": "Electivire",
-      "language": "it"
-    },
-    {
-      "name": "Electivire",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "エレキブル",
+    "en": "Electivire",
+    "fr": "Élekable",
+    "it": "Electivire",
+    "de": "Elevoltek",
+    "es": "Electivire",
+    "ko": "에레키블"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -99,36 +64,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "らいでん",
-      "language": "ja"
-    },
-    {
-      "genus": "뇌전",
-      "language": "ko"
-    },
-    {
-      "genus": "Foudrélec",
-      "language": "fr"
-    },
-    {
-      "genus": "Donnerkeil",
-      "language": "de"
-    },
-    {
-      "genus": "Rayo",
-      "language": "es"
-    },
-    {
-      "genus": "Saetta",
-      "language": "it"
-    },
-    {
-      "genus": "Thunderbolt",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "らいでん",
+    "en": "Thunderbolt",
+    "fr": "Foudrélec",
+    "it": "Saetta",
+    "de": "Donnerkeil",
+    "es": "Rayo",
+    "ko": "뇌전"
+  },
   "varieties": [
     {
       "is_default": true,

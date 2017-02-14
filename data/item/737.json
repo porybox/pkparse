@@ -1,0 +1,45 @@
+{
+  "id": 737,
+  "name": "hm07",
+  "names": {
+    "ja": "ひでんマシン０７",
+    "kana": "ひでんマシン０７",
+    "en": "HM07",
+    "fr": "CS07",
+    "it": "MN07",
+    "de": "VM07",
+    "es": "MO07",
+    "ko": "비전머신07",
+    "zh-CN": "秘传学习器０７",
+    "zh-TW": "秘傳學習器０７"
+  },
+  "flavor_text_entries": {
+    "ja": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。",
+    "kana": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。",
+    "en": "Diving on the first turn, the user floats up and attacks on the next turn.",
+    "fr": "Le lanceur plonge sous l’eau au premier tour et frappe au second.",
+    "it": "Chi la usa si tuffa in acqua per emergere e attaccare al turno successivo.",
+    "de": "Taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an.",
+    "es": "Ataca sumergiéndose en el agua en el primer turno y emergiendo violentamente en el segundo.",
+    "ko": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다.",
+    "zh-CN": "第１回合潜入， 第２回合浮上来进行攻击。",
+    "zh-TW": "使用後的第１回合潛入水中， 並於第２回合浮上來進行攻擊。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "１ターン目で　潜り　２ターン目に 浮きあがって　攻撃する。 海の　奥深くに　潜ることも　できる。",
+          "kana": "１ターンめで　もぐり　２ターンめに うきあがって　こうげきする。うみの なかに　もぐる　ことも　できる。",
+          "en": "Diving on the first turn, the user floats up and attacks on the second turn. It can be used to dive deep in the ocean.",
+          "fr": "Le lanceur plonge sous l’eau au premier tour et frappe au second. Permet aussi de plonger dans l’eau profonde.",
+          "it": "Chi la usa si tuffa in acqua per emergere e attaccare al turno successivo. Fuori dalla lotta può essere usata per immergersi in mare.",
+          "de": "Taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an. Ermöglicht Tauchgänge zum Meeresgrund.",
+          "es": "Ataca sumergiéndose en el agua en el primer turno y emergiendo violentamente en el segundo. Sirve, además, para bucear en aguas profundas.",
+          "ko": "1턴째에 잠수했다가 2턴째에 떠올라 공격한다. 바닷속 깊숙이 잠수할 수도 있다."
+        }
+      }
+    }
+  ]
+}

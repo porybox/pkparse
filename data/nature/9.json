@@ -50,34 +50,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "のうてんき",
-      "language": "ja"
-    },
-    {
-      "name": "촐랑",
-      "language": "ko"
-    },
-    {
-      "name": "Lâche",
-      "language": "fr"
-    },
-    {
-      "name": "Lasch",
-      "language": "de"
-    },
-    {
-      "name": "Flojo",
-      "language": "es"
-    },
-    {
-      "name": "Fiacca",
-      "language": "it"
-    },
-    {
-      "name": "Lax",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "のうてんき",
+    "en": "Lax",
+    "fr": "Lâche",
+    "it": "Fiacca",
+    "de": "Lasch",
+    "es": "Floja",
+    "ko": "촐랑",
+    "zh-CN": "乐天",
+    "zh-TW": "樂天"
+  }
 }

@@ -2,36 +2,13 @@
   "id": 356,
   "name": "gravity",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 5,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "For five turns (including this one), all immunities to []{type:ground} moves are disabled.  For the duration of this effect, the [evasion]{mechanic:evasion} of every Pokémon on the field is lowered by two [stages]{mechanic:stage}.  Cancels the effects of []{move:bounce}, []{move:fly}, and []{move:sky-drop}.\n\nSpecifically, []{type:flying} Pokémon and those with []{ability:levitate} or that have used []{move:magnet-rise} are no longer immune to []{type:ground} attacks, []{ability:arena-trap}, []{move:spikes}, or []{move:toxic-spikes}.\n\n[]{move:bounce}, []{move:fly}, []{move:sky-drop}, []{move:high-jump-kick}, []{move:jump-kick}, and []{move:splash} cannot be used while this move is in effect.\n\n*Bug*: If this move is used during a double or triple battle while Pokémon are under the effect of []{move:sky-drop}, Sky Drop's effect is not correctly canceled on its target, and it remains high in the air indefinitely.  As Sky Drop prevents the target from acting, the only way to subsequently remove it from the field is to faint it.",
-      "short_effect": "Disables moves and immunities that involve flying or levitating for five turns.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "whole-field-effect"
-    },
+    "ailment": "none",
+    "category": "whole-field-effect",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,48 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Gravity",
-      "language": "en"
-    },
-    {
-      "name": "Gravità",
-      "language": "it"
-    },
-    {
-      "name": "Gravedad",
-      "language": "es"
-    },
-    {
-      "name": "Erdanziehung",
-      "language": "de"
-    },
-    {
-      "name": "Gravité",
-      "language": "fr"
-    },
-    {
-      "name": "중력",
-      "language": "ko"
-    },
-    {
-      "name": "じゅうりょく",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "entire-field"
+  "names": {
+    "ja": "じゅうりょく",
+    "kana": "じゅうりょく",
+    "en": "Gravity",
+    "fr": "Gravité",
+    "it": "Gravità",
+    "de": "Erdanziehung",
+    "es": "Gravedad",
+    "ko": "중력",
+    "zh-CN": "重力",
+    "zh-TW": "重力"
   },
-  "type": {
-    "name": "psychic"
-  }
+  "flavor_text_entries": {
+    "ja": "５ターンの間　ふゆうや　ひこうタイプに じめんタイプの　技が　当たるようになる。 空中に　飛ぶ　技も　使えない。",
+    "kana": "５ターンのあいだ　ふゆうや　ひこうタイプに じめんタイプの　わざが　あたるようになる。 くうちゅうに　とぶ　わざも　つかえない。",
+    "en": "Enables Flying-type Pokémon or Pokémon with the Levitate Ability to be hit by Ground-type moves. Flying moves can’t be used.",
+    "fr": "Pendant cinq tours, les Pokémon Vol ou qui ont Lévitation deviennent sensibles aux capacités Sol, et les capacités volantes deviennent inutilisables.",
+    "it": "Per cinque turni rende vulnerabili alle mosse di tipo Terra i Pokémon con Levitazione o di tipo Volante. Non è possibile usare mosse che fanno volare.",
+    "de": "Ermöglicht es, Flug-Pokémon oder Pokémon mit der Fähigkeit Schwebe mit Boden-Attacken zu treffen. Verhindert Attacken, bei denen der Anwender fliegt.",
+    "es": "Durante cinco turnos, se anulan los movimientos que alzan el vuelo y los Pokémon de tipo Volador o que levitan son vulnerables a movimientos de tipo Tierra.",
+    "ko": "5턴 동안 부유나 비행타입에 땅타입의 기술이 맞게 된다. 공중으로 나는 기술도 사용할 수 없다.",
+    "zh-CN": "在５回合内，飘浮特性和飞行属性的 宝可梦会被地面属性的招式击中。 飞向空中的招式也将无法使用。",
+    "zh-TW": "在５回合內，飄浮特性和飛行屬性的 寶可夢會被地面屬性的招式擊中。 且無法使用飛向空中的招式。"
+  },
+  "stat_changes": [],
+  "target": "entire-field",
+  "type": "psychic",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "５ターンの　あいだ 重力を　強くして　ふゆうや 空へ　飛ぶ　技を　使えなくする。",
+          "kana": "５ターンの　あいだ じゅうりょくを　つよくして　ふゆうや そらへ　とぶ　わざを　つかえなく　する。",
+          "en": "Gravity is intensified for five turns, making moves involving flying unusable and negating Levitate.",
+          "fr": "La gravité augmente pendant cinq tours, ce qui empêche les capacités volantes et annule Lévitation.",
+          "it": "Intensifica la gravità per cinque turni. Le mosse che fanno volare sono inutilizzabili e l’abilità Levitazione non ha effetto.",
+          "de": "Die Gravitation wird für fünf Runden erhöht. Macht Fliegen unmöglich und verhindert Schwebe.",
+          "es": "La gravedad aumenta durante cinco turnos, lo que impide acciones que impliquen volar o levitar.",
+          "ko": "5턴 동안 중력을 강하게 해서 부유나 하늘을 나는 기술을 사용할 수 없게 한다."
+        }
+      }
+    }
+  ]
 }

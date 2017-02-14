@@ -42,34 +42,15 @@
       }
     }
   ],
-  "names": [
-    {
-      "name": "きまぐれ",
-      "language": "ja"
-    },
-    {
-      "name": "변덕",
-      "language": "ko"
-    },
-    {
-      "name": "Bizarre",
-      "language": "fr"
-    },
-    {
-      "name": "Kauzig",
-      "language": "de"
-    },
-    {
-      "name": "Raro",
-      "language": "es"
-    },
-    {
-      "name": "Furba",
-      "language": "it"
-    },
-    {
-      "name": "Quirky",
-      "language": "en"
-    }
-  ]
+  "names": {
+    "ja": "きまぐれ",
+    "en": "Quirky",
+    "fr": "Bizarre",
+    "it": "Furba",
+    "de": "Kauzig",
+    "es": "Rara",
+    "ko": "변덕",
+    "zh-CN": "浮躁",
+    "zh-TW": "浮躁"
+  }
 }

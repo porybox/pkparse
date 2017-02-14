@@ -2,34 +2,13 @@
   "id": 567,
   "name": "trick-or-treat",
   "accuracy": 100,
-  "effect_chance": null,
   "pp": 20,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": null,
-  "contest_effect": null,
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Adds []{type:ghost} to the target's types.",
-      "short_effect": "Adds []{type:ghost} to the target's types.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-vi"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "unique"
-    },
+    "ailment": "none",
+    "category": "unique",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -41,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Trick-or-Treat",
-      "language": "en"
-    },
-    {
-      "name": "Halloween",
-      "language": "it"
-    },
-    {
-      "name": "Halloween",
-      "language": "es"
-    },
-    {
-      "name": "Halloween",
-      "language": "de"
-    },
-    {
-      "name": "Halloween",
-      "language": "fr"
-    },
-    {
-      "name": "핼러윈",
-      "language": "ko"
-    },
-    {
-      "name": "ハロウィン",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": null,
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "ハロウィン",
+    "kana": "ハロウィン",
+    "en": "Trick-or-Treat",
+    "fr": "Halloween",
+    "it": "Halloween",
+    "de": "Halloween",
+    "es": "Halloween",
+    "ko": "핼러윈",
+    "zh-CN": "万圣夜",
+    "zh-TW": "萬聖夜"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "相手を　ハロウィンに　誘う。 相手の　タイプに ゴーストタイプが　追加される。",
+    "kana": "あいてを　ハロウィンに　さそう。 あいての　タイプに ゴーストタイプが　ついかされる。",
+    "en": "The user takes the target trick-or-treating. This adds Ghost type to the target’s type.",
+    "fr": "Insuffle à la cible l’esprit d’Halloween, et ajoute le type Spectre à ses types actuels.",
+    "it": "Il bersaglio viene invitato a festeggiare Halloween e aggiunge così al proprio tipo anche il tipo Spettro.",
+    "de": "Der Anwender lehrt das Ziel das Fürchten. Dieses nimmt dadurch zusätzlich den Typ Geist an.",
+    "es": "Invita al objetivo a celebrar Halloween, haciendo que pase a ser también de tipo Fantasma además de conservar sus propios tipos.",
+    "ko": "상대를 핼러윈으로 초대한다. 상대 타입에 고스트타입이 추가된다.",
+    "zh-CN": "邀请对手参加万圣夜。 使对手被追加幽灵属性。",
+    "zh-TW": "邀請對手參加萬聖夜。 讓對手追加幽靈屬性。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost"
 }

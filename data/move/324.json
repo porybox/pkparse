@@ -2,36 +2,13 @@
   "id": 324,
   "name": "signal-beam",
   "accuracy": 100,
-  "effect_chance": 10,
   "pp": 15,
   "priority": 0,
   "power": 75,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "beauty"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [confuse]{mechanic:confuse} the target.",
-      "short_effect": "Has a $effect_chance% chance to confuse the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "confusion"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "confusion",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": 2,
@@ -43,43 +20,31 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Signal Beam",
-      "language": "en"
-    },
-    {
-      "name": "Segnoraggio",
-      "language": "it"
-    },
-    {
-      "name": "Doble Rayo",
-      "language": "es"
-    },
-    {
-      "name": "Ampelleuchte",
-      "language": "de"
-    },
-    {
-      "name": "Rayon Signal",
-      "language": "fr"
-    },
-    {
-      "name": "시그널빔",
-      "language": "ko"
-    },
-    {
-      "name": "シグナルビーム",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "シグナルビーム",
+    "kana": "シグナルビーム",
+    "en": "Signal Beam",
+    "fr": "Rayon Signal",
+    "it": "Segnoraggio",
+    "de": "Ampelleuchte",
+    "es": "Doble Rayo",
+    "ko": "시그널빔",
+    "zh-CN": "信号光束",
+    "zh-TW": "信號光束"
   },
-  "type": {
-    "name": "bug"
-  }
+  "flavor_text_entries": {
+    "ja": "不思議な　光を 発射して　攻撃する。 相手を　混乱させることが　ある。",
+    "kana": "ふしぎな　ひかりを はっしゃして　こうげきする。 あいてを　こんらん　させることが　ある。",
+    "en": "The user attacks with a sinister beam of light. This may also confuse the target.",
+    "fr": "Le lanceur projette un rayon de lumière sinistre. Peut aussi rendre l’ennemi confus.",
+    "it": "Chi la usa attacca con uno strano raggio di luce che può anche confondere il Pokémon colpito.",
+    "de": "Strahlenattacke, die das Ziel eventuell verwirrt.",
+    "es": "Ataca con un rayo de luz siniestro. Puede confundir al objetivo.",
+    "ko": "이상한 빛을 발사해서 공격한다. 상대를 혼란시킬 때가 있다.",
+    "zh-CN": "发射神奇的光线进行攻击。 有时会使对手混乱。",
+    "zh-TW": "發射神奇的光線進行攻擊。 有時會使對手混亂。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "bug"
 }

@@ -1,0 +1,50 @@
+{
+  "id": 706,
+  "name": "psychic-fangs",
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "power": 85,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "サイコファング",
+    "kana": "サイコファング",
+    "en": "Psychic Fangs",
+    "fr": "Psycho-Croc",
+    "it": "Psicozanna",
+    "de": "Psychobeißer",
+    "es": "Psicocolmillo",
+    "ko": "사이코팽",
+    "zh-CN": "精神之牙",
+    "zh-TW": "精神之牙"
+  },
+  "flavor_text_entries": {
+    "ja": "サイコパワーで　かみついて 相手を　攻撃する。　ひかりのかべや リフレクター　なども　破壊できる。",
+    "kana": "サイコパワーで　かみついて あいてを　こうげきする。　ひかりのかべや リフレクター　なども　はかいできる。",
+    "en": "The user bites the target with its psychic capabilities. This can also destroy Light Screen and Reflect.",
+    "fr": "Le lanceur mord la cible avec ses pouvoirs psychiques. Brise aussi les barrières comme Mur Lumière et Protection.",
+    "it": "Morde il bersaglio con delle zanne generate con l’energia psichica e rompe barriere come Riflesso e Schermoluce.",
+    "de": "Der Anwender beißt das Ziel mithilfe von Psycho-Kräften. Die Attacke durchbricht auch Barrieren wie Lichtschild und Reflektor.",
+    "es": "Ataca a sus rivales con poderes psíquicos que además destruyen barreras como Pantalla de Luz y Reflejo.",
+    "ko": "사이코 파워로 물어서 상대를 공격한다. 빛의장막이나 리플렉터도 파괴할 수 있다.",
+    "zh-CN": "利用精神力量咬住对手进行攻击。 还可以破坏光墙和反射壁等。",
+    "zh-TW": "利用精神力量咬住對手進行攻擊。 並可破壞光牆和反射壁等。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
+}

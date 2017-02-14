@@ -2,36 +2,13 @@
   "id": 105,
   "name": "recover",
   "accuracy": null,
-  "effect_chance": null,
   "pp": 10,
   "priority": 0,
   "power": null,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "status"
-  },
-  "effect_entries": [
-    {
-      "effect": "Heals the user for half its max [HP]{mechanic:hp}.",
-      "short_effect": "Heals the user by half its max HP.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-i"
-  },
+  "damage_class": "status",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "heal"
-    },
+    "ailment": "none",
+    "category": "heal",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,55 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Recover",
-      "language": "en"
-    },
-    {
-      "name": "Ripresa",
-      "language": "it"
-    },
-    {
-      "name": "Recuperación",
-      "language": "es"
-    },
-    {
-      "name": "Genesung",
-      "language": "de"
-    },
-    {
-      "name": "Soin",
-      "language": "fr"
-    },
-    {
-      "name": "HP회복",
-      "language": "ko"
-    },
-    {
-      "name": "じこさいせい",
-      "language": "ja"
-    }
-  ],
+  "names": {
+    "ja": "じこさいせい",
+    "kana": "じこさいせい",
+    "en": "Recover",
+    "fr": "Soin",
+    "it": "Ripresa",
+    "de": "Genesung",
+    "es": "Recuperación",
+    "ko": "HP회복",
+    "zh-CN": "自我再生",
+    "zh-TW": "自我再生"
+  },
+  "flavor_text_entries": {
+    "ja": "細胞を　再生させて 自分の　最大ＨＰの 半分の　ＨＰを　回復する。",
+    "kana": "さいぼうを　さいせい　させて じぶんの　さいだい　ＨＰの はんぶんの　ＨＰを　かいふく　する。",
+    "en": "Restoring its own cells, the user restores its own HP by half of its max HP.",
+    "fr": "Un soin qui permet au lanceur de récupérer jusqu’à la moitié de ses PV max.",
+    "it": "Mossa autocurativa. Chi la usa recupera metà dei PS massimi.",
+    "de": "Eine Selbstheilung. KP des Anwenders werden um 50 % des maximalen Wertes aufgefüllt.",
+    "es": "Restaura hasta la mitad de los PS máximos.",
+    "ko": "세포를 재생시켜 자신의 최대 HP의 절반만큼 HP를 회복한다.",
+    "zh-CN": "让细胞再生， 从而回复自己 最大ＨＰ的一半。",
+    "zh-TW": "讓細胞再生， 回復自己最大ＨＰ的一半。"
+  },
+  "stat_changes": [],
+  "target": "user",
+  "type": "normal",
   "past_values": [
     {
-      "accuracy": null,
-      "power": null,
-      "pp": 20,
-      "effect_chance": null,
-      "effect_entries": [],
-      "type": null,
-      "version_group": {
-        "name": "diamond-pearl"
+      "changed_in": 26,
+      "prior_values": {
+        "names": {
+          "ko": "에이치피회복"
+        }
       }
     }
-  ],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "user"
-  },
-  "type": {
-    "name": "normal"
-  }
+  ]
 }

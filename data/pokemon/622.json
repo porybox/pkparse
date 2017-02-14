@@ -9,9 +9,7 @@
   "hatch_counter": 25,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 91,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "mineral"
-    }
+    "mineral"
   ],
-  "color": {
-    "name": "green"
-  },
+  "color": "green",
   "shape": {
     "name": "humanoid"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ゴビット",
-      "language": "ja"
-    },
-    {
-      "name": "골비람",
-      "language": "ko"
-    },
-    {
-      "name": "Gringolem",
-      "language": "fr"
-    },
-    {
-      "name": "Golbit",
-      "language": "de"
-    },
-    {
-      "name": "Golett",
-      "language": "es"
-    },
-    {
-      "name": "Golett",
-      "language": "it"
-    },
-    {
-      "name": "Golett",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴビット",
+    "en": "Golett",
+    "fr": "Gringolem",
+    "it": "Golett",
+    "de": "Golbit",
+    "es": "Golett",
+    "ko": "골비람"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ゴーレム",
-      "language": "ja"
-    },
-    {
-      "genus": "골렘",
-      "language": "ko"
-    },
-    {
-      "genus": "Golem Ancien",
-      "language": "fr"
-    },
-    {
-      "genus": "Urgolem",
-      "language": "de"
-    },
-    {
-      "genus": "Autómata",
-      "language": "es"
-    },
-    {
-      "genus": "Statuanimata",
-      "language": "it"
-    },
-    {
-      "genus": "Automaton",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ゴーレム",
+    "en": "Automaton",
+    "fr": "Golem Ancien",
+    "it": "Statuanimata",
+    "de": "Urgolem",
+    "es": "Autómata",
+    "ko": "골렘"
+  },
   "varieties": [
     {
       "is_default": true,

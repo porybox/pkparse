@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 108,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "ground"
-    }
+    "ground"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "quadruped"
   },
@@ -57,68 +51,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ダイケンキ",
-      "language": "ja"
-    },
-    {
-      "name": "대검귀",
-      "language": "ko"
-    },
-    {
-      "name": "Clamiral",
-      "language": "fr"
-    },
-    {
-      "name": "Admurai",
-      "language": "de"
-    },
-    {
-      "name": "Samurott",
-      "language": "es"
-    },
-    {
-      "name": "Samurott",
-      "language": "it"
-    },
-    {
-      "name": "Samurott",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ダイケンキ",
+    "en": "Samurott",
+    "fr": "Clamiral",
+    "it": "Samurott",
+    "de": "Admurai",
+    "es": "Samurott",
+    "ko": "대검귀"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "かんろく",
-      "language": "ja"
-    },
-    {
-      "genus": "관록",
-      "language": "ko"
-    },
-    {
-      "genus": "Dignitaire",
-      "language": "fr"
-    },
-    {
-      "genus": "Würde",
-      "language": "de"
-    },
-    {
-      "genus": "Majestuoso",
-      "language": "es"
-    },
-    {
-      "genus": "Dignità",
-      "language": "it"
-    },
-    {
-      "genus": "Formidable",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "かんろく",
+    "en": "Formidable",
+    "fr": "Dignitaire",
+    "it": "Dignità",
+    "de": "Würde",
+    "es": "Majestuoso",
+    "ko": "관록"
+  },
   "varieties": [
     {
       "is_default": true,

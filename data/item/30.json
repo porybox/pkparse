@@ -1,0 +1,45 @@
+{
+  "id": 30,
+  "name": "fresh-water",
+  "names": {
+    "ja": "おいしいみず",
+    "kana": "おいしいみず",
+    "en": "Fresh Water",
+    "fr": "Eau Fraîche",
+    "it": "Acqua Fresca",
+    "de": "Tafelwasser",
+    "es": "Agua Fresca",
+    "ko": "맛있는물",
+    "zh-CN": "美味之水",
+    "zh-TW": "美味之水"
+  },
+  "flavor_text_entries": {
+    "ja": "ミネラル　たっぷりの　水。 ポケモン　１匹の　ＨＰを ３０だけ　回復する。",
+    "kana": "ミネラル　たっぷりの　みず。 ポケモン　１ひきの　ＨＰを ３０だけ　かいふくする。",
+    "en": "Water with a high mineral content. When consumed, it restores up to 30 HP to an injured Pokémon.",
+    "fr": "Une eau riche en minéraux. Restaure 30 PV d’un Pokémon.",
+    "it": "Acqua ricca di sostanze minerali. Restituisce 30 PS a un Pokémon.",
+    "de": "Ein stilles Wasser mit hohem Mineralienanteil, das die KP eines Pokémon um 30 Punkte auffüllt.",
+    "es": "Agua de alto contenido mineral que restaura 30 PS de un Pokémon.",
+    "ko": "미네랄이 가득한 물. 포켓몬 1마리의 HP를 30만큼 회복한다.",
+    "zh-CN": "富含矿物质的水。 能让１只宝可梦 回复３０ＨＰ。",
+    "zh-TW": "含有豐富礦物質的水。 能讓１隻寶可夢 回復３０ＨＰ。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "ミネラル　たっぷりの　水。 ポケモン　１匹の　ＨＰを ５０だけ　回復する。",
+          "kana": "ミネラル　たっぷりの　みず。 ポケモン　１ひきの　ＨＰを ５０だけ　かいふくする。",
+          "en": "Water with a high mineral content. When consumed, it restores 50 HP to an injured Pokémon.",
+          "fr": "Une eau riche en minéraux. Restaure 50 PV d’un Pokémon.",
+          "it": "Acqua ricca di sostanze minerali. Restituisce 50 PS a un Pokémon.",
+          "de": "Ein stilles Wasser mit hohem Mineralienanteil, das die KP eines Pokémon um 50 Punkte auffüllt.",
+          "es": "Agua de alto contenido mineral que restaura 50 PS de un Pokémon.",
+          "ko": "미네랄이 가득한 물. 포켓몬 1마리의 HP를 50만큼 회복한다."
+        }
+      }
+    }
+  ]
+}

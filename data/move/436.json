@@ -2,36 +2,13 @@
   "id": 436,
   "name": "lava-plume",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 15,
   "priority": 0,
   "power": 80,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "tough"
-  },
-  "contest_effect": null,
-  "damage_class": {
-    "name": "special"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "short_effect": "Has a $effect_chance% chance to [burn]{mechanic:burn} the target.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iv"
-  },
+  "damage_class": "special",
   "meta": {
-    "ailment": {
-      "name": "burn"
-    },
-    "category": {
-      "name": "damage+ailment"
-    },
+    "ailment": "burn",
+    "category": "damage+ailment",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,41 @@
     "flinch_chance": 0,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Lava Plume",
-      "language": "en"
-    },
-    {
-      "name": "Lavasbuffo",
-      "language": "it"
-    },
-    {
-      "name": "Humareda",
-      "language": "es"
-    },
-    {
-      "name": "Flammensturm",
-      "language": "de"
-    },
-    {
-      "name": "Ébullilave",
-      "language": "fr"
-    },
-    {
-      "name": "분연",
-      "language": "ko"
-    },
-    {
-      "name": "ふんえん",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "all-other-pokemon"
+  "names": {
+    "ja": "ふんえん",
+    "kana": "ふんえん",
+    "en": "Lava Plume",
+    "fr": "Ébullilave",
+    "it": "Lavasbuffo",
+    "de": "Flammensturm",
+    "es": "Humareda",
+    "ko": "분연",
+    "zh-CN": "喷烟",
+    "zh-TW": "噴煙"
   },
-  "type": {
-    "name": "fire"
-  }
+  "flavor_text_entries": {
+    "ja": "真っ赤な　炎で　自分の 周りに　いるものを　攻撃する。 やけど状態に　することが　ある。",
+    "kana": "まっかな　ほのおで　じぶんの まわりに　いるものを　こうげきする。 やけど　じょうたいに　することが　ある。",
+    "en": "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.",
+    "fr": "Des boules de feu s’abattent sur tous les Pokémon autour du lanceur. Peut aussi les brûler.",
+    "it": "Chi la usa lancia fiamme scarlatte su tutti i Pokémon nelle vicinanze, danneggiandoli. Può anche scottarli.",
+    "de": "Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.",
+    "es": "Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.",
+    "ko": "새빨간 불꽃으로 자신의 주위에 있는 포켓몬을 공격한다. 화상 상태로 만들 때가 있다.",
+    "zh-CN": "用熊熊烈火 攻击自己周围所有的宝可梦。 有时会陷入灼伤状态。",
+    "zh-TW": "用熊熊烈火 攻擊自己周圍所有的寶可夢。 有時會讓對手陷入灼傷狀態。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "fire",
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "en": "The user torches everything around it with an inferno of scarlet flames. This may also leave those hit with a burn."
+        }
+      }
+    }
+  ]
 }

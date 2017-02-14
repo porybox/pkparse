@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": true,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium"
-  },
+  "growth_rate": "medium",
   "pokedex_numbers": [
     {
       "entry_number": 218,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "plant"
-    }
+    "plant"
   ],
-  "color": {
-    "name": "blue"
-  },
+  "color": "blue",
   "shape": {
     "name": "humanoid"
   },
@@ -57,44 +51,15 @@
   "generation": {
     "name": "generation-iv"
   },
-  "names": [
-    {
-      "name": "モジャンボ",
-      "language": "ja"
-    },
-    {
-      "name": "Mojumbo",
-      "language": "roomaji"
-    },
-    {
-      "name": "덩쿠림보",
-      "language": "ko"
-    },
-    {
-      "name": "巨蔓藤",
-      "language": "zh"
-    },
-    {
-      "name": "Bouldeneu",
-      "language": "fr"
-    },
-    {
-      "name": "Tangoloss",
-      "language": "de"
-    },
-    {
-      "name": "Tangrowth",
-      "language": "es"
-    },
-    {
-      "name": "Tangrowth",
-      "language": "it"
-    },
-    {
-      "name": "Tangrowth",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "モジャンボ",
+    "en": "Tangrowth",
+    "fr": "Bouldeneu",
+    "it": "Tangrowth",
+    "de": "Tangoloss",
+    "es": "Tangrowth",
+    "ko": "덩쿠림보"
+  },
   "pal_park_encounters": [
     {
       "base_score": 80,
@@ -105,36 +70,15 @@
     }
   ],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "ツルじょう",
-      "language": "ja"
-    },
-    {
-      "genus": "넝쿨",
-      "language": "ko"
-    },
-    {
-      "genus": "Vigne",
-      "language": "fr"
-    },
-    {
-      "genus": "Ranke",
-      "language": "de"
-    },
-    {
-      "genus": "Enredadera",
-      "language": "es"
-    },
-    {
-      "genus": "Liana",
-      "language": "it"
-    },
-    {
-      "genus": "Vine",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "ツルじょう",
+    "en": "Vine",
+    "fr": "Vigne",
+    "it": "Liana",
+    "de": "Ranke",
+    "es": "Enredadera",
+    "ko": "넝쿨"
+  },
   "varieties": [
     {
       "is_default": true,

@@ -9,9 +9,7 @@
   "hatch_counter": 80,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "slow"
-  },
+  "growth_rate": "slow",
   "pokedex_numbers": [
     {
       "entry_number": 191,
@@ -39,13 +37,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "no-eggs"
-    }
+    "no-eggs"
   ],
-  "color": {
-    "name": "gray"
-  },
+  "color": "gray",
   "shape": {
     "name": "quadruped"
   },
@@ -55,68 +49,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "テラキオン",
-      "language": "ja"
-    },
-    {
-      "name": "테라키온",
-      "language": "ko"
-    },
-    {
-      "name": "Terrakium",
-      "language": "fr"
-    },
-    {
-      "name": "Terrakium",
-      "language": "de"
-    },
-    {
-      "name": "Terrakion",
-      "language": "es"
-    },
-    {
-      "name": "Terrakion",
-      "language": "it"
-    },
-    {
-      "name": "Terrakion",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "テラキオン",
+    "en": "Terrakion",
+    "fr": "Terrakium",
+    "it": "Terrakion",
+    "de": "Terrakium",
+    "es": "Terrakion",
+    "ko": "테라키온"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "がんくつ",
-      "language": "ja"
-    },
-    {
-      "genus": "암굴",
-      "language": "ko"
-    },
-    {
-      "genus": "Grotte",
-      "language": "fr"
-    },
-    {
-      "genus": "Felsenhöhle",
-      "language": "de"
-    },
-    {
-      "genus": "Gruta",
-      "language": "es"
-    },
-    {
-      "genus": "Caverna",
-      "language": "it"
-    },
-    {
-      "genus": "Cavern",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "がんくつ",
+    "en": "Cavern",
+    "fr": "Grotte",
+    "it": "Caverna",
+    "de": "Felsenhöhle",
+    "es": "Gruta",
+    "ko": "암굴"
+  },
   "varieties": [
     {
       "is_default": true,

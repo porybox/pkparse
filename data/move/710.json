@@ -1,0 +1,55 @@
+{
+  "id": 710,
+  "name": "liquidation",
+  "accuracy": 100,
+  "pp": 10,
+  "priority": 0,
+  "power": 85,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage+lower",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 20
+  },
+  "names": {
+    "ja": "アクアブレイク",
+    "kana": "アクアブレイク",
+    "en": "Liquidation",
+    "fr": "Aqua-Brèche",
+    "it": "Idrobreccia",
+    "de": "Aquadurchstoß",
+    "es": "Hidroariete",
+    "ko": "아쿠아브레이크",
+    "zh-CN": "水流裂破",
+    "zh-TW": "水流裂破"
+  },
+  "flavor_text_entries": {
+    "ja": "水の　力で　相手に ぶつかって　攻撃する。 相手の　防御を　さげる　ことがある。",
+    "kana": "みずの　ちからで　あいてに ぶつかって　こうげきする。 あいての　ぼうぎょを　さげる　ことがある。",
+    "en": "The user slams into the target using a full-force blast of water. This may also lower the target’s Defense stat.",
+    "fr": "Le lanceur utilise la force de l’eau pour attaquer. Peut aussi baisser la Défense de la cible.",
+    "it": "Chi la usa colpisce il bersaglio con la forza dell’acqua. Può anche ridurne la Difesa.",
+    "de": "Der Anwender greift das Ziel mit der Kraft des Wassers an. Senkt eventuell die Verteidigung des Zieles.",
+    "es": "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo.",
+    "ko": "물의 힘으로 상대에게 부딪쳐서 공격한다. 상대의 방어를 떨어뜨릴 때가 있다.",
+    "zh-CN": "用水之力量撞向对手进行攻击。 有时会降低对手的防御。",
+    "zh-TW": "用水之力量撞向對手進行攻擊。 有時會降低對手的防禦。"
+  },
+  "stat_changes": [
+    {
+      "change": -1,
+      "stat": "defense"
+    }
+  ],
+  "target": "selected-pokemon",
+  "type": "water"
+}

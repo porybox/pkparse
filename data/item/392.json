@@ -1,0 +1,39 @@
+{
+  "id": 392,
+  "name": "tm65",
+  "names": {
+    "ja": "わざマシン６５",
+    "kana": "わざマシン６５",
+    "en": "TM65",
+    "fr": "CT65",
+    "it": "MT65",
+    "de": "TM65",
+    "es": "MT65",
+    "ko": "기술머신65",
+    "zh-CN": "招式学习器６５",
+    "zh-TW": "招式學習器６５"
+  },
+  "flavor_text_entries": {
+    "ja": "影から　つくった　鋭い　ツメで 相手を　切り裂く。 急所に　当たりやすい。",
+    "kana": "かげから　つくった　するどい　ツメで あいてを　きりさく。 きゅうしょに　あたりやすい。",
+    "en": "The user slashes with a sharp claw made from shadows. Critical hits land more easily.",
+    "fr": "Attaque avec une griffe puissante faite d’ombres. Taux de critique élevé.",
+    "it": "Chi la usa attacca con artigli d’ombra che colpiscono con gran forza. Probabile brutto colpo.",
+    "de": "Eine Klaue aus Schatten greift das Ziel an. Die Volltrefferquote ist dabei sehr hoch.",
+    "es": "Quien lo usa ataca con una afilada garra de sombras. Su índice de golpe crítico es muy alto.",
+    "ko": "그림자로 만든 날카로운 발톱으로 상대를 베어 가른다. 급소에 맞기 쉽다.",
+    "zh-CN": "以影子做成的锐爪， 劈开对手。 容易击中要害。",
+    "zh-TW": "用黑影化成的銳利爪子 撕裂對手。 容易擊中要害。"
+  },
+  "past_values": [
+    {
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "kana": "かげで　つくった　するどいツメで きりさいて　こうげきする。 きゅうしょに　あたりやすい。",
+          "fr": "Attaque avec une griffe puissante faite d’ombres. Taux de critiques élevé."
+        }
+      }
+    }
+  ]
+}

@@ -9,9 +9,7 @@
   "hatch_counter": 20,
   "has_gender_differences": false,
   "forms_switchable": false,
-  "growth_rate": {
-    "name": "medium-slow"
-  },
+  "growth_rate": "medium-slow",
   "pokedex_numbers": [
     {
       "entry_number": 128,
@@ -45,13 +43,9 @@
     }
   ],
   "egg_groups": [
-    {
-      "name": "humanshape"
-    }
+    "humanshape"
   ],
-  "color": {
-    "name": "purple"
-  },
+  "color": "purple",
   "shape": {
     "name": "humanoid"
   },
@@ -63,68 +57,26 @@
   "generation": {
     "name": "generation-v"
   },
-  "names": [
-    {
-      "name": "ゴチルゼル",
-      "language": "ja"
-    },
-    {
-      "name": "고디모아젤",
-      "language": "ko"
-    },
-    {
-      "name": "Sidérella",
-      "language": "fr"
-    },
-    {
-      "name": "Morbitesse",
-      "language": "de"
-    },
-    {
-      "name": "Gothitelle",
-      "language": "es"
-    },
-    {
-      "name": "Gothitelle",
-      "language": "it"
-    },
-    {
-      "name": "Gothitelle",
-      "language": "en"
-    }
-  ],
+  "names": {
+    "ja": "ゴチルゼル",
+    "en": "Gothitelle",
+    "fr": "Sidérella",
+    "it": "Gothitelle",
+    "de": "Morbitesse",
+    "es": "Gothitelle",
+    "ko": "고디모아젤"
+  },
   "pal_park_encounters": [],
   "form_descriptions": [],
-  "genera": [
-    {
-      "genus": "てんたい",
-      "language": "ja"
-    },
-    {
-      "genus": "천체",
-      "language": "ko"
-    },
-    {
-      "genus": "Cosmique",
-      "language": "fr"
-    },
-    {
-      "genus": "Gestirn",
-      "language": "de"
-    },
-    {
-      "genus": "Astro",
-      "language": "es"
-    },
-    {
-      "genus": "Corpoceleste",
-      "language": "it"
-    },
-    {
-      "genus": "Astral Body",
-      "language": "en"
-    }
-  ],
+  "genera": {
+    "ja": "てんたい",
+    "en": "Astral Body",
+    "fr": "Cosmique",
+    "it": "Corpoceleste",
+    "de": "Gestirn",
+    "es": "Astro",
+    "ko": "천체"
+  },
   "varieties": [
     {
       "is_default": true,

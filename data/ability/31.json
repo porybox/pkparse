@@ -1,307 +1,52 @@
 {
   "id": 31,
   "name": "lightning-rod",
-  "is_main_series": true,
-  "generation": {
-    "name": "generation-iii"
+  "names": {
+    "ja": "ひらいしん",
+    "kana": "ひらいしん",
+    "en": "Lightning Rod",
+    "fr": "Paratonnerre",
+    "it": "Parafulmine",
+    "de": "Blitzfänger",
+    "es": "Pararrayos",
+    "ko": "피뢰침",
+    "zh-CN": "避雷针",
+    "zh-TW": "避雷針"
   },
-  "names": [
+  "flavor_text_entries": {
+    "ja": "でんきタイプの　技を　自分に 寄せつけ　ダメージを　受けずに 特攻が　上がる。",
+    "kana": "でんきタイプの　わざを　じぶんに よせつけ　ダメージを　うけずに とくこうが　あがる。",
+    "en": "The Pokémon draws in all Electric-type moves.  Instead of being hit by Electric-type moves,  it boosts its Sp. Atk.",
+    "fr": "Le Pokémon détourne sur lui les capacités de type Électrik et les neutralise, tout en montant son Attaque Spéciale.",
+    "it": "Attira e neutralizza mosse di tipo Elettro e aumenta l’Attacco Speciale.",
+    "de": "Zieht Elektro-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff.",
+    "es": "Además de atraer y neutralizar los movimientos de tipo Eléctrico, sube el Ataque Especial.",
+    "ko": "전기타입의 기술을 자신에게 끌어모아 데미지를 받지 않고 특수공격을 올린다.",
+    "zh-CN": "将电属性的招式吸引到自己身上， 不会受到伤害，而是会提高特攻。",
+    "zh-TW": "將電屬性的招式吸引到自己身上， 不但不會受到傷害，反而會提高特攻。"
+  },
+  "past_values": [
     {
-      "name": "Lightning Rod",
-      "language": "en"
-    },
-    {
-      "name": "Parafulmine",
-      "language": "it"
-    },
-    {
-      "name": "Pararrayos",
-      "language": "es"
-    },
-    {
-      "name": "Blitzfänger",
-      "language": "de"
-    },
-    {
-      "name": "Paratonnerre",
-      "language": "fr"
-    },
-    {
-      "name": "피뢰침",
-      "language": "ko"
-    },
-    {
-      "name": "ひらいしん",
-      "language": "ja"
-    }
-  ],
-  "effect_entries": [
-    {
-      "effect": "All other Pokémon's single-target []{type:electric}-type moves are redirected to this Pokémon if it is an eligible target.  Other Pokémon's Electric moves raise this Pokémon's [Special Attack]{mechanic:special-attack} one [stage]{mechanic:stat-modifier}, negating any other effect on it, and cannot miss it.\n\nIf the move's intended target also has this ability, the move is not redirected.  When multiple Pokémon with this ability are possible targets for redirection, the move is redirected to the one with the highest [Speed]{mechanic:speed} stat, or, in the case of a tie, to a random tied Pokémon.  []{move:follow-me} takes precedence over this ability.\n\nIf the Pokémon is a []{type:ground}-type and thus immune to Electric moves, its immunity prevents the Special Attack boost.",
-      "short_effect": "Redirects single-target []{type:electric} moves to this Pokémon where possible.  Absorbs Electric moves, raising [Special Attack]{mechanic:special-attack} one [stage]{mechanic:stat-modifier}.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [
-    {
-      "version_group": {
-        "name": "emerald"
-      },
-      "effect_entries": [
-        {
-          "effect": "Has no overworld effect.",
-          "language": "en"
+      "changed_in": 30,
+      "prior_values": {
+        "flavor_text_entries": {
+          "ja": "でんきを　呼び込んで 特攻を　あげる。",
+          "kana": "でんきを　よびこんで とくこうを　あげる。",
+          "en": "Draws in all Electric-type moves to boost its Sp. Atk stat.",
+          "fr": "Attire et neutralise les attaques Électrik et monte l’Atq. Spé.",
+          "it": "Neutralizza mosse di tipo Elettro per aumentare l’Attacco Speciale. ",
+          "de": "Absorbiert Elektro-Attacken und steigert den Spezial-Angriff.",
+          "es": "Atrae y neutraliza movimientos de tipo Eléctrico y sube el At. Esp.",
+          "ko": "전기를 끌어모아 특수공격을 올린다."
         }
-      ]
+      }
     },
     {
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "effect_entries": [
-        {
-          "effect": "Does not affect non-damaging []{type:electric} moves, i.e. []{move:thunder-wave}.  Increases the frequency of Match Call calls on the overworld if any party Pokémon has this ability.",
-          "language": "en"
+      "changed_in": 26,
+      "prior_values": {
+        "flavor_text_entries": {
+          "it": "Neutralizza mosse di tipo Elettro per aumentare l’Attacco Speciale."
         }
-      ]
-    },
-    {
-      "version_group": {
-        "name": "black-white"
-      },
-      "effect_entries": [
-        {
-          "effect": "Redirects []{type:electric} moves without negating them or granting any [Special Attack]{mechanic:special-attack} boost.  Does not redirect []{move:hidden-power}.",
-          "language": "en"
-        }
-      ]
-    }
-  ],
-  "flavor_text_entries": [
-    {
-      "flavor_text": "でんきを　呼び込んで\n特攻を　あげる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja-kanji"
-    },
-    {
-      "flavor_text": "Draws in all Electric-type moves\nto boost its Sp. Atk stat.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Neutralizza mosse di tipo Elettro\nper aumentare l’Attacco Speciale.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "it"
-    },
-    {
-      "flavor_text": "Atrae y neutraliza movimientos de\ntipo Eléctrico y sube el At. Esp.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "es"
-    },
-    {
-      "flavor_text": "Absorbiert Elektro-Attacken\nund steigert den Spezial-Angriff.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "de"
-    },
-    {
-      "flavor_text": "Attire et neutralise les attaques\nÉlectrik et monte l’Atq. Spé.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "전기를 끌어모아\n특수공격을 올린다.",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ko"
-    },
-    {
-      "flavor_text": "でんきを　よびこんで\nとくこうを　あげる。",
-      "version_group": {
-        "name": "x-y"
-      },
-      "language": "ja"
-    },
-    {
-      "flavor_text": "Draws in all Electric-type\nmoves to up Sp. Attack.",
-      "version_group": {
-        "name": "black-2-white-2"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Draws in all Electric-type\nmoves to up Sp. Attack.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Attire l’électricité et\naugmente l’Atq. Spé.",
-      "version_group": {
-        "name": "black-white"
-      },
-      "language": "fr"
-    },
-    {
-      "flavor_text": "The Pokémon draws in all\nElectric-type moves.",
-      "version_group": {
-        "name": "heartgold-soulsilver"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon draws in all\nElectric-type moves.",
-      "version_group": {
-        "name": "platinum"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "The Pokémon draws in all\nElectric-type moves.",
-      "version_group": {
-        "name": "diamond-pearl"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Draws electrical moves.",
-      "version_group": {
-        "name": "firered-leafgreen"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Draws electrical moves.",
-      "version_group": {
-        "name": "emerald"
-      },
-      "language": "en"
-    },
-    {
-      "flavor_text": "Draws electrical moves.",
-      "version_group": {
-        "name": "ruby-sapphire"
-      },
-      "language": "en"
-    }
-  ],
-  "pokemon": [
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "pikachu"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "raichu"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "cubone"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "marowak"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "rhyhorn"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "rhydon"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "goldeen"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "seaking"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "pichu"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "electrike"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 2,
-      "pokemon": {
-        "name": "manectric"
-      }
-    },
-    {
-      "is_hidden": true,
-      "slot": 3,
-      "pokemon": {
-        "name": "plusle"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "rhyperior"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "blitzle"
-      }
-    },
-    {
-      "is_hidden": false,
-      "slot": 1,
-      "pokemon": {
-        "name": "zebstrika"
       }
     }
   ]

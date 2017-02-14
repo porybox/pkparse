@@ -2,36 +2,13 @@
   "id": 310,
   "name": "astonish",
   "accuracy": 100,
-  "effect_chance": 30,
   "pp": 15,
   "priority": 0,
   "power": 30,
-  "contest_combos": null,
-  "contest_type": {
-    "name": "smart"
-  },
-  "contest_effect": {},
-  "damage_class": {
-    "name": "physical"
-  },
-  "effect_entries": [
-    {
-      "effect": "Inflicts [regular damage]{mechanic:regular-damage}.  Has a $effect_chance% chance to make the target []{mechanic:flinch}.",
-      "short_effect": "Has a $effect_chance% chance to make the target flinch.",
-      "language": "en"
-    }
-  ],
-  "effect_changes": [],
-  "generation": {
-    "name": "generation-iii"
-  },
+  "damage_class": "physical",
   "meta": {
-    "ailment": {
-      "name": "none"
-    },
-    "category": {
-      "name": "damage"
-    },
+    "ailment": "none",
+    "category": "damage",
     "min_hits": null,
     "max_hits": null,
     "min_turns": null,
@@ -43,43 +20,31 @@
     "flinch_chance": 30,
     "stat_chance": 0
   },
-  "names": [
-    {
-      "name": "Astonish",
-      "language": "en"
-    },
-    {
-      "name": "Sgomento",
-      "language": "it"
-    },
-    {
-      "name": "Impresionar",
-      "language": "es"
-    },
-    {
-      "name": "Erstauner",
-      "language": "de"
-    },
-    {
-      "name": "Étonnement",
-      "language": "fr"
-    },
-    {
-      "name": "놀래키기",
-      "language": "ko"
-    },
-    {
-      "name": "おどろかす",
-      "language": "ja"
-    }
-  ],
-  "past_values": [],
-  "stat_changes": [],
-  "super_contest_effect": {},
-  "target": {
-    "name": "selected-pokemon"
+  "names": {
+    "ja": "おどろかす",
+    "kana": "おどろかす",
+    "en": "Astonish",
+    "fr": "Étonnement",
+    "it": "Sgomento",
+    "de": "Erstauner",
+    "es": "Impresionar",
+    "ko": "놀래키기",
+    "zh-CN": "惊吓",
+    "zh-TW": "驚嚇"
   },
-  "type": {
-    "name": "ghost"
-  }
+  "flavor_text_entries": {
+    "ja": "大きな　声などで 不意に　驚かして　攻撃する。 相手を　ひるませることが　ある。",
+    "kana": "おおきな　こえなどで ふいに　おどろかして　こうげきする。 あいてを　ひるませる　ことが　ある。",
+    "en": "The user attacks the target while shouting in a startling fashion. This may also make the target flinch.",
+    "fr": "Le lanceur attaque l’ennemi en poussant un cri terrifiant. Peut aussi l’apeurer.",
+    "it": "Chi la usa attacca il bersaglio emettendo un verso terrificante. Può anche farlo tentennare.",
+    "de": "Anwender greift mit einem Schrei an. Ein Angriff, der das Ziel eventuell zurückschrecken lässt.",
+    "es": "Impresiona tanto que puede hacer retroceder al objetivo.",
+    "ko": "큰 소리 등으로 불시에 놀래켜서 공격한다. 상대를 풀죽게 만들 때가 있다.",
+    "zh-CN": "用尖叫声等 突然惊吓对手进行攻击。 有时会使对手畏缩。",
+    "zh-TW": "用巨大的聲響等 突然驚嚇對手進行攻擊。 有時會讓對手畏縮。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "ghost"
 }
