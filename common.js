@@ -2,8 +2,16 @@
 const _ = require('lodash');
 
 // Reference: https://projectpokemon.org/wiki/Pokemon_X/Y_3DS_Structure
-function stripNullChars (str) {
-  return str.replace(/\0.*/, '');
+
+const hanzi = require('fs').readFileSync('data/hanzi.bin');
+const HANZI_OFFSET = 0xE800;
+
+function getHanziChar (offset) {
+  return hanzi.toString('ucs2', (offset - HANZI_OFFSET) * 2, (offset - HANZI_OFFSET + 1) * 2);
+}
+
+function getString (str) {
+  return str.replace(/\0.*/, '').replace(/[\ue000-\uee1d]/g, match => getHanziChar(match.charCodeAt()));
 }
 
 function parseMap (data, map) {
@@ -117,7 +125,7 @@ exports.parseBuffer = buf => {
   data.contestMemoryRibbonCount = buf.readUInt8(0x38);
   data.battleMemoryRibbonCount = buf.readUInt8(0x39);
   data.distributionSuperTrainingFlags = buf.readUInt8(0x3a); // TODO: Figure out what these are
-  data.nickname = stripNullChars(buf.toString('utf16le', 0x40, 0x58));
+  data.nickname = getString(buf.toString('utf16le', 0x40, 0x58));
 
   data.move1Id = buf.readUInt16LE(0x5a);
   data.move2Id = buf.readUInt16LE(0x5c);
@@ -148,7 +156,7 @@ exports.parseBuffer = buf => {
   data.isEgg = (ivBytes >>> 30) % 2 !== 0;
   data.isNicknamed = (ivBytes >>> 31) % 2 !== 0;
 
-  data.notOt = stripNullChars(buf.toString('utf16le', 0x78, 0x90));
+  data.notOt = getString(buf.toString('utf16le', 0x78, 0x90));
   data.notOtGender = buf.readUInt8(0x92) ? 'F' : 'M';
 
   data.currentHandlerIsOt = !buf.readUInt8(0x93);
@@ -174,7 +182,7 @@ exports.parseBuffer = buf => {
   data.fullness = buf.readUInt8(0xae);
   data.enjoyment = buf.readUInt8(0xaf);
 
-  data.ot = stripNullChars(buf.toString('utf16le', 0xb0, 0xc8));
+  data.ot = getString(buf.toString('utf16le', 0xb0, 0xc8));
   data.otFriendship = buf.readUInt8(0xca);
   data.otAffection = buf.readUInt8(0xcb);
   data.otMemoryIntensity = buf.readUInt8(0xcc);
