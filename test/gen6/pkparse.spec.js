@@ -1,10 +1,10 @@
 const expect = require('chai').use(require('dirty-chai')).expect;
 const _ = require('lodash');
-const pk6parse = require('..');
+const pk6parse = require('../..');
 const expected_pkmn1 = require('./pkmn1_expected');
 const expected_kyurem = require('./kyurem-w_expected');
 
-describe('pk6parse', () => {
+describe('gen 6', () => {
   it('allows a file to be parsed', () => {
     expect(pk6parse.parseFile(`${__dirname}/pkmn1.pk6`)).to.eql(expected_pkmn1);
     expect(pk6parse.parseFile(`${__dirname}/kyurem-w.pk6`)).to.eql(expected_kyurem);
@@ -19,7 +19,7 @@ describe('pk6parse', () => {
   describe('assigns additional properties if this option is set with a flag', () => {
     it('parses a pelipper correctly', () => {
       const parsed = pk6parse.parseFile(`${__dirname}/pkmn1.pk6`, {parseNames: true});
-      _.forEach(expected_pkmn1, (value, key) => expect(parsed[key]).to.equal(value));
+      _.forEach(expected_pkmn1, (value, key) => expect(parsed[key]).to.deep.equal(value));
       expect(parsed.speciesName).to.equal('Pelipper');
       expect(parsed.level).to.equal(24);
       expect(parsed.expFromPreviousLevel).to.equal(495);
@@ -81,7 +81,7 @@ describe('pk6parse', () => {
     });
     it('parses form data correctly', () => {
       const parsed = pk6parse.parseFile(`${__dirname}/kyurem-w.pk6`, {parseNames: true});
-      _.forEach(expected_kyurem, (value, key) => expect(parsed[key]).to.equal(value));
+      _.forEach(expected_kyurem, (value, key) => expect(parsed[key]).to.deep.equal(value));
       expect(parsed.formName).to.equal('White');
     });
     it('does not crash when parsing something with a neutral nature', () => {

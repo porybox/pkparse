@@ -1,13 +1,13 @@
 {
   "name": "pkparse",
-  "version": "0.10.18",
+  "version": "1.0.0",
   "description": "Extracts data from .pk6 files",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "bundle": "browserify webparser.js -o browser/bundle.js",
     "pretest": "npm run lint",
-    "test": "mocha"
+    "test": "mocha test/**/*.spec.js"
   },
   "repository": {
     "type": "git",
