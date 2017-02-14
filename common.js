@@ -446,7 +446,7 @@ exports.assignReadableNames = (data, language, params = {gen: 6}) => {
   data.eggLocationName = exports.getLocationData(data.eggLocationId, data.otGameId, true);
   data.metLocationName = exports.getLocationData(data.metLocationId, data.otGameId);
   data.encounterTypeName = exports.getEncounterTypeData(data.encounterTypeId);
-  data.otGameName = exports.getGameData(data.otGameId);
+  data.otGameName = exports.getGameData(data.otGameId, data.language);
 
   data.countryName = exports.getCountryName(data.countryId, language);
   data.regionName = data.regionId ? exports.getSubregionName(data.countryId, data.regionId, language) : null;
@@ -538,11 +538,11 @@ exports.getEncounterTypeData = encounterTypeId => {
 };
 
 exports.getGameData = (gameId, language) => {
-  let name = require('./data/games.json')[gameId];
-  if (name.includes('/')) {
-    name = name.split('/')[language === 'JPN' ? 1 : 0];
+  // Special case handling for gameId 36, which is Japanese Green/International Blue
+  if (gameId === 36 && language !== 'JPN') {
+    return require('./data/games.json')[gameId + 1];
   }
-  return name;
+  return require('./data/games.json')[gameId];
 };
 
 exports.getCountryName = (countryId, language) => require('./data/countries')[countryId][language];
