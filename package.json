@@ -7,7 +7,9 @@
     "lint": "eslint .",
     "bundle": "browserify webparser.js -o browser/bundle.js",
     "pretest": "npm run lint",
-    "test": "mocha test/**/*.spec.js"
+    "test": "mocha test/**/*.spec.js",
+    "publish-please": "publish-please",
+    "prepublish": "publish-please guard"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
     "chai": "^3.5.0",
     "dirty-chai": "^1.2.2",
     "eslint": "^2.8.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "publish-please": "^2.2.0"
   }
 }
