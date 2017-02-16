@@ -55,6 +55,13 @@ describe('gen 7', () => {
     expect(hyper_training.hyperTrainedSpAtk).to.eql(true);
     expect(hyper_training.hyperTrainedSpDef).to.eql(false);
     expect(hyper_training.hyperTrainedSpe).to.eql(true);
+
+    expect(hyper_training.statHp).to.eql(312);
+    expect(hyper_training.statAtk).to.eql(297);
+    expect(hyper_training.statDef).to.eql(290);
+    expect(hyper_training.statSpAtk).to.eql(336);
+    expect(hyper_training.statSpDef).to.eql(214);
+    expect(hyper_training.statSpe).to.eql(182);
   });
 
   it('correctly works out marks', () => {
