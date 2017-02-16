@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.0 (2017-02-15)
+
+* Added support for pk7s (need to pass gen=7 option to parser)
+* Renamed to pkparse
+* Added generation 7 data (pokemon, moves, abilities, games and items)
+* idNo is now either a 5 digit tid for gen 6, or 6 digit tid for gen 7
+* Added fullTid which includes the whole visible and hidden tid
+* Deprecated tid and sid. These will be removed in a future version
+* Will use semver from now on (breaking changes only on major version releases)
+* Added SUPPORTED_GENS
+
 ## v0.10.18 (2016-09-26)
 
 * Fixed a bug where information on memory ribbons was missing
