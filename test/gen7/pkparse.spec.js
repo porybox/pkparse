@@ -115,4 +115,11 @@ describe('gen 7', () => {
     const gen6_actual = pkparse.parseFile(`${__dirname}/gen6.pk7`, options);
     expect(gen6_actual.idNo).to.eql(6257);
   });
+
+  it('gives correct form names', () => {
+    const pom_pom_oricorio = pkparse.parseFile(`${__dirname}/pom_pom_oricorio.pk7`, options);
+    expect(pom_pom_oricorio.formName).to.eql('Pom-Pom');
+    const original_hat_pikachu = pkparse.parseFile(`${__dirname}/kanto_hat_pikachu.pk7`, options);
+    expect(original_hat_pikachu.formName).to.eql('Original Cap');
+  });
 });

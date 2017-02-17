@@ -138,4 +138,8 @@ describe('gen 6', () => {
     const expected = _.cloneDeep(expected_pkmn1);
     expect(pk6parse.assignReadableNames(expected)).to.eql(parsedWithNames);
   });
+  it('gives correct form names', () => {
+    const popstar_pikachu = pk6parse.parseFile(`${__dirname}/popstar_pikachu.pk6`, {parseNames: true});
+    expect(popstar_pikachu.formName).to.eql('Pop');
+  });
 });
