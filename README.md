@@ -80,4 +80,9 @@ While most of the information in the parsed object will be in a readable format,
 
 ---
 
+* `pkparse.SUPPORTED_GENS`
+* *(Array[number])*: An array of generations that the current version of pkparse supports
+
+---
+
 Most of the raw data for these functions was collected from [Pokeapi](http://pokeapi.co/), without which this project would have been substantially harder.
