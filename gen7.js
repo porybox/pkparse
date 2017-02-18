@@ -13,7 +13,9 @@ exports.parseBuffer = (buf, {parseNames = false, language} = {}) => {
   }
 
   const hyperTraining = buf.readUInt16LE(0xDE);
-  data.hyperTrainedHP = Boolean(hyperTraining & 0x01);
+  data.hyperTrainedHp = Boolean(hyperTraining & 0x01);
+
+  data.hyperTrainedHP = data.hyperTrainedHp; // DEPRECATED
   data.hyperTrainedAtk = Boolean(hyperTraining & 0x02);
   data.hyperTrainedDef = Boolean(hyperTraining & 0x04);
   data.hyperTrainedSpAtk = Boolean(hyperTraining & 0x08);
