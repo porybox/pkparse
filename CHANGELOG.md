@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0 (2017-02-19)
+
+* Added hyperTrainedHp as an alias for hyperTrainedHP
+* Deprecated hyperTrainedHP
+* Fixed a bug where stats were computed incorrectly with hyper training
+
 ## 1.0.0 (2017-02-15)
 
 * Added support for pk7s (need to pass gen=7 option to parser)
