@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.1 (2017-02-24)
+
+* Fix incorrect forms of pumpkaboo and gourgeist (pk6 files of small and average were given the wrong form name)
+* Add "Active" form for Xerneas
+* Rename "Ash-Greninja" form to "Ash" for Greninja
+* Add missing Mega forms from gen 7 data
+* Remove "Disguised" name from default form for mimikyu
+
 ## 1.1.0 (2017-02-19)
 
 * Added hyperTrainedHp as an alias for hyperTrainedHP
