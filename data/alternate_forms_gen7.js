@@ -97,7 +97,7 @@ formes[646] = [null, 'White', 'Black'];
 formes[647] = [null, 'Resolute'];
 formes[648] = ['Aria', 'Pirouette'];
 formes[649] = [null, 'Douse', 'Shock', 'Burn', 'Chill'];
-formes[658] = [null, null, 'Ash-Greninja'];
+formes[658] = [null, null, 'Ash'];
 
 [664, 665, 666].forEach(i => {
   formes[i] = [
@@ -137,7 +137,7 @@ formes[681] = ['Shield', 'Blade'];
   formes[i] = ['Average', 'Small', 'Large', 'Super'];
 });
 
-formes[716] = ['Neutral Mode', 'Active Mode'];
+formes[716] = [null, 'Active'];
 formes[718] = ['50%', '10%', '10%', '50%', 'Complete'];
 formes[720] = ['Confined', 'Unbound'];
 formes[735] = [null, null];
@@ -186,7 +186,7 @@ formes[774] = [
   'Violet'
 ];
 
-formes[778] = ['Disguised', 'Busted', null, null];
+formes[778] = [null, 'Busted', null, null];
 formes[784] = [null, null];
 formes[801] = [null, 'Original Color'];
 
@@ -237,6 +237,10 @@ formes[801] = [null, 'Original Color'];
   719
 ].forEach(i => {
   formes[i] = [null, 'Mega'];
+});
+
+[6, 150].forEach(i => {
+  formes[i] = [null, 'Mega X', 'Mega Y'];
 });
 
 [

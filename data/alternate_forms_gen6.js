@@ -139,8 +139,10 @@ formes[676] = [null, 'Heart', 'Star', 'Diamond', 'Debutante', 'Matron', 'Dandy',
 formes[681] = ['Shield', 'Blade'];
 
 [710, 711].forEach(i => {
-  formes[i] = ['Small', 'Average', 'Large', 'Super'];
+  formes[i] = ['Average', 'Small', 'Large', 'Super'];
 });
+
+formes[716] = [null, 'Active'];
 
 formes[720] = ['Confined', 'Unbound'];
 

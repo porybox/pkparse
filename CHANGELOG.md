@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.1.1 (2017-02-24)
+
+* Fix incorrect forms of pumpkaboo and gourgeist (pk6 files of small and average were given the wrong form name)
+* Add "Active" form for Xerneas
+* Rename "Ash-Greninja" form to "Ash" for Greninja
+* Add missing Mega forms from gen 7 data
+* Remove "Disguised" name from default form for mimikyu
+
+## 1.1.0 (2017-02-19)
+
+* Added hyperTrainedHp as an alias for hyperTrainedHP
+* Deprecated hyperTrainedHP
+* Fixed a bug where stats were computed incorrectly with hyper training
+
+## 1.0.0 (2017-02-15)
+
+* Added support for pk7s (need to pass gen=7 option to parser)
+* Renamed to pkparse
+* Added generation 7 data (pokemon, moves, abilities, games and items)
+* idNo is now either a 5 digit tid for gen 6, or 6 digit tid for gen 7
+* Added fullTid which includes the whole visible and hidden tid
+* Deprecated tid and sid. These will be removed in a future version
+* Will use semver from now on (breaking changes only on major version releases)
+* Added SUPPORTED_GENS
+
 ## v0.10.18 (2016-09-26)
 
 * Fixed a bug where information on memory ribbons was missing

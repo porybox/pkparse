@@ -332,7 +332,7 @@ function assignCalculatedStat (data, statName) {
   data[`stat${statName}`] = calculateStat(
     data[`baseStat${statName}`],
     data.level,
-    data[`iv${statName}`],
+    data[`hyperTrained${statName}`] ? 31 : data[`iv${statName}`],
     data[`ev${statName}`],
     data.increasedStat === statName ? 1.1 : data.decreasedStat === statName ? 0.9 : 1,
     statName === 'Hp'
