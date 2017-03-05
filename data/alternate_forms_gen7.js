@@ -5,7 +5,7 @@ for (let i = 1; i < formes.length; i++) {
   formes[i] = null;
 }
 
-formes[20] = [null, 'Alola', null];
+formes[20] = [null, 'Alola', 'Totem'];
 formes[25] = [null, 'Original Cap', 'Hoenn Cap', 'Sinnoh Cap', 'Unova Cap', 'Kalos Cap', 'Alola Cap'];
 
 formes[201] = [
@@ -140,13 +140,13 @@ formes[681] = ['Shield', 'Blade'];
 formes[716] = [null, 'Active'];
 formes[718] = ['50%', '10%', '10%', '50%', 'Complete'];
 formes[720] = ['Confined', 'Unbound'];
-formes[735] = [null, null];
-formes[738] = [null, null];
+formes[735] = [null, 'Totem'];
+formes[738] = [null, 'Totem'];
 formes[741] = ['Baile', 'Pom-Pom', 'Pa’u', 'Sensu'];
 formes[745] = ['Midday', 'Midnight'];
 formes[746] = ['Solo', 'School'];
-formes[754] = [null, null];
-formes[758] = [null, null];
+formes[754] = [null, 'Totem'];
+formes[758] = [null, 'Totem'];
 
 formes[773] = [
   null,
@@ -186,8 +186,8 @@ formes[774] = [
   'Violet'
 ];
 
-formes[778] = [null, 'Busted', null, null];
-formes[784] = [null, null];
+formes[778] = [null, 'Busted', 'Totem', 'Totem-Busted'];
+formes[784] = [null, 'Totem'];
 formes[801] = [null, 'Original Color'];
 
 [
