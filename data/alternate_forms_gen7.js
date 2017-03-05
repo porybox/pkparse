@@ -130,7 +130,7 @@ formes[658] = [null, null, 'Ash'];
 
 formes[670] = ['Red', 'Yellow', 'Orange', 'Blue', 'White', 'Eternal'];
 formes[676] = [null, 'Heart', 'Star', 'Diamond', 'Debutante', 'Matron', 'Dandy', 'La Reine', 'Kabuki', 'Pharaoh'];
-formes[678] = ['Male', 'Female'];
+formes[678] = [null, null];
 formes[681] = ['Shield', 'Blade'];
 
 [710, 711].forEach(i => {
