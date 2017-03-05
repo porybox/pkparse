@@ -34,6 +34,18 @@ describe('gen 7', () => {
     expect(chs.language).to.eql('CHS');
   });
 
+  it('converts Chinese characters to standard unicode', () => {
+    const chs = pkparse.parseFile(`${__dirname}/CHS-rowlet.pk7`, options);
+    const cht = pkparse.parseFile(`${__dirname}/CHT-rowlet.pk7`, options);
+    expect(chs.nickname).to.eql('木木枭');
+    expect(cht.nickname).to.eql('木木梟');
+  });
+
+  it('does not attempt to convert symbols', () => {
+    const abra = pkparse.parseFile(`${__dirname}/symbol.pk7`, options);
+    expect(abra.nickname).to.eql('\ue09fSleepy');
+  });
+
   it('gets gen 7 pokemon/moves/abilities', () => {
     const rowlet = pkparse.parseFile(`${__dirname}/rowlet.pk7`, options);
     expect(rowlet.move2Name).to.eql('Leafage');

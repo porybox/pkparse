@@ -11,7 +11,7 @@ function getHanziChar (offset) {
 }
 
 function getString (str) {
-  return str.replace(/\0.*/, '').replace(/[\ue000-\uee1d]/g, match => getHanziChar(match.charCodeAt()));
+  return str.replace(/\0.*/, '').replace(/[\ue800-\uee1d]/g, match => getHanziChar(match.charCodeAt()));
 }
 
 function parseMap (data, map) {
