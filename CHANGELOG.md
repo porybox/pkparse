@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.2 (2017-03-10)
+
+* Convert Chinese characters to standard unicode
+* Add names for Totem forms in gen 7
+* Remove "male" and "female" names for meowstic forms
+
 ## 1.1.1 (2017-02-24)
 
 * Fix incorrect forms of pumpkaboo and gourgeist (pk6 files of small and average were given the wrong form name)
