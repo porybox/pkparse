@@ -1,5 +1,7 @@
 # pkparse
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/porybox/pkparse.svg)](https://greenkeeper.io/)
+
 Parses a .pk6 file into a javascript object. This also works in the browser; see [here](https://porybox.github.io/pkparse/) for an example.
 
 ## Installation
