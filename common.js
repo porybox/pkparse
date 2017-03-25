@@ -125,7 +125,8 @@ exports.parseBuffer = buf => {
   data.contestMemoryRibbonCount = buf.readUInt8(0x38);
   data.battleMemoryRibbonCount = buf.readUInt8(0x39);
   data.distributionSuperTrainingFlags = buf.readUInt8(0x3a); // TODO: Figure out what these are
-  data.nickname = getString(buf.toString('utf16le', 0x40, 0x58));
+  data.rawNickname = buf.toString('utf16le', 0x40, 0x58);
+  data.nickname = getString(data.rawNickname);
 
   data.move1Id = buf.readUInt16LE(0x5a);
   data.move2Id = buf.readUInt16LE(0x5c);
@@ -156,7 +157,8 @@ exports.parseBuffer = buf => {
   data.isEgg = (ivBytes >>> 30) % 2 !== 0;
   data.isNicknamed = (ivBytes >>> 31) % 2 !== 0;
 
-  data.notOt = getString(buf.toString('utf16le', 0x78, 0x90));
+  data.rawNotOt = buf.toString('utf16le', 0x78, 0x90);
+  data.notOt = getString(data.rawNotOt);
   data.notOtGender = buf.readUInt8(0x92) ? 'F' : 'M';
 
   data.currentHandlerIsOt = !buf.readUInt8(0x93);
@@ -182,7 +184,8 @@ exports.parseBuffer = buf => {
   data.fullness = buf.readUInt8(0xae);
   data.enjoyment = buf.readUInt8(0xaf);
 
-  data.ot = getString(buf.toString('utf16le', 0xb0, 0xc8));
+  data.rawOt = buf.toString('utf16le', 0xb0, 0xc8);
+  data.ot = getString(data.rawOt);
   data.otFriendship = buf.readUInt8(0xca);
   data.otAffection = buf.readUInt8(0xcb);
   data.otMemoryIntensity = buf.readUInt8(0xcc);
