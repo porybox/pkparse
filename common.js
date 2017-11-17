@@ -388,7 +388,7 @@ exports.assignReadableNames = (data, language, params = {gen: 6}) => {
   For dream balls, the ball ID is 25 and the corresponding item ID is 576.
   For beast balls, the ball ID is 26 and the corresponding item ID is 851. */
   const correctedBallId = data.ballId < 17 ? data.ballId : data.ballId === 25 ? 576 :
-                          data.ballId === 26 ? 851 : data.ballId + 475;
+    data.ballId === 26 ? 851 : data.ballId + 475;
   data.ballName = findName(exports.getItemData(correctedBallId, {gen}));
   data.abilityName = findName(exports.getAbilityData(data.abilityId, {gen}));
 
