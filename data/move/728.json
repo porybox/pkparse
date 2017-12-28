@@ -1,0 +1,71 @@
+{
+  "id": 727,
+  "name": "clangorous-soulblaze",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": 185,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage+raise",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ブレイジングソウルビート",
+    "kana": "ブレイジングソウルビート",
+    "en": "Clangorous Soulblaze",
+    "fr": "Dracacophonie Flamboyante",
+    "it": "Dracofonia Divampante",
+    "de": "Rasselnder Seelentanz",
+    "es": "Estruendo Implacable",
+    "ko": "브레이징소울비트",
+    "zh-CN": "炽魂热舞烈音爆",
+    "zh-TW": "熾魂熱舞烈音爆"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーを　得た　ジャラランガが 全力で　相手を　攻撃する。 追加で　自分の　能力が　上がる。",
+    "kana": "Ｚパワーを　えた　ジャラランガが ぜんりょくで　あいてを　こうげきする。 ついかで　じぶんの　のうりょくが　あがる。",
+    "en": "After obtaining Z-Power, the user, Kommo-o, attacks the opposing Pokémon with full force. This move boosts the user’s stats.",
+    "fr": "Ékaïser utilise la Force Z pour frapper l’ennemi de toutes ses forces. Augmente aussi ses stats.",
+    "it": "Grazie al Potere Z, Kommo-o attacca i nemici con tutta la sua forza. Inoltre, aumenta le proprie statistiche.",
+    "de": "Grandiras greift Gegner mithilfe von Z-Kraft mit voller Wucht an. Zusätzlich werden seine Statuswerte erhöht.",
+    "es": "Kommo-o ataca con toda su fuerza al objetivo tras imbuirse del Poder Z. Además, potencia sus propias características.",
+    "ko": "Z파워를 얻은 짜랑고우거가 전력으로 상대를 공격한다. 추가로 자신의 능력이 올라간다.",
+    "zh-CN": "得到Ｚ力量的杖尾鳞甲龙 将全力攻击对手。 并且自己的能力会提高。",
+    "zh-TW": "獲得Ｚ力量的杖尾鱗甲龍 將會以全力攻擊對手， 並提升自己的能力。"
+  },
+  "stat_changes": [
+    {
+      "change": 1,
+      "stat": "attack"
+    },
+    {
+        "change": 1,
+        "stat": "defense"
+    },
+    {
+        "change": 1,
+        "stat": "special-attack"
+    },
+    {
+        "change": 1,
+        "stat": "special-defense"
+    },
+    {
+        "change": 1,
+        "stat": "speed"
+    }
+  ],
+  "target": "all-opponents",
+  "type": "dragon"
+}

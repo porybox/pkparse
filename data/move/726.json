@@ -1,0 +1,50 @@
+{
+  "id": 726,
+  "name": "lets-snuggle-forever",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": 190,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ぽかぼかフレンドタイム",
+    "kana": "ぽかぼかフレンドタイム",
+    "en": "Let’s Snuggle Forever",
+    "fr": "Patati-Patattrape",
+    "it": "Dolcesacco di Botte",
+    "de": "Herzliche Knuddelkloppe",
+    "es": "Somanta Amistosa",
+    "ko": "투닥투닥프렌드타임",
+    "zh-CN": "亲密无间大乱揍",
+    "zh-TW": "親密無間大亂揍"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーを　得た　ミミッキュが 全力で　ぽかぽか　攻撃。",
+    "kana": "Ｚパワーを　えた　ミミッキュが ぜんりょくで　ぽかぽか　こうげき。",
+    "en": "After obtaining Z-Power, the user, Mimikyu, punches the target with full force.",
+    "fr": "Mimiqui concentre toute la Force Z dans son corps, et attaque dans le plus grand fracas !",
+    "it": "Grazie al Potere Z, Mimikyu fa appello a tutte le sue forze e attacca il bersaglio tempestandolo di colpi.",
+    "de": "Mimigma greift das Ziel mithilfe von Z-Kraft mit voller Wucht und viel Liebe an.",
+    "es": "Mimikyu ataca con toda su fuerza tras imbuirse del Poder Z y asesta una lluvia de golpes.",
+    "ko": "Z파워를 얻은 따라큐가 전력으로 투닥투닥 공격한다.",
+    "zh-CN": "得到Ｚ力量的谜拟Ｑ 将全力进行乱揍攻击。",
+    "zh-TW": "獲得Ｚ力量的謎擬Ｑ 將會以全力進行亂揍攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "fairy"
+}
