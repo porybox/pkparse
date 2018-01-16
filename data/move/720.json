@@ -1,0 +1,50 @@
+{
+  "id": 720,
+  "name": "mind-blown",
+  "accuracy": null,
+  "pp": 5,
+  "priority": 0,
+  "power": 150,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ビックリヘッド",
+    "kana": "ビックリヘッド",
+    "en": "Mind Blown",
+    "fr": "Caboche-Kaboum",
+    "it": "Sbalorditesta",
+    "de": "Knallkopf",
+    "es": "Cabeza Sorpresa",
+    "ko": "깜짝헤드",
+    "zh-CN": "惊爆大头",
+    "zh-TW": "驚爆大頭"
+  },
+  "flavor_text_entries": {
+    "ja": "自分の　頭を　爆発　させて 周りの　すべてを　攻撃する。 自分も　ダメージを　受けてしまう。",
+    "kana": "じぶんの　あたまを　ばくはつ　させて まわりの　すべてを　こうげきする。 じぶんも　ダメージを　うけてしまう。",
+    "en": "The user attacks everything around it by causing its own head to explode. This also damages the user.",
+    "fr": "Le lanceur fait exploser sa tête pour attaquer toutes les cibles autour de lui. Il subit aussi des dégâts.",
+    "it": "Chi la usa fa esplodere la propria testa per attaccare tutti i Pokémon che ha intorno, ma subisce danni.",
+    "de": "Der Anwender greift alle Pokémon in der Umgebung an, indem er seinen Kopf explodieren lässt. Dabei verletzt er sich auch selbst.",
+    "es": "El usuario hace explotar su cabeza para atacar a todos los Pokémon que se hallan a su alrededor, aunque también se hiere a sí mismo.",
+    "ko": "자신의 머리를 폭발시켜 주위의 모든 것을 공격한다. 자신도 데미지를 받는다.",
+    "zh-CN": "让自己的头爆炸， 来攻击周围的一切。 自己也会受到伤害。",
+    "zh-TW": "會讓自己的頭爆炸， 來攻擊周遭的一切。 自己也會受到傷害。"
+  },
+  "stat_changes": [],
+  "target": "all-other-pokemon",
+  "type": "fire"
+}

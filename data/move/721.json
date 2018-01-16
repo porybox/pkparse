@@ -1,0 +1,50 @@
+{
+  "id": 721,
+  "name": "plasma-fists",
+  "accuracy": null,
+  "pp": 15,
+  "priority": 0,
+  "power": 100,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "プラズマフィスト",
+    "kana": "プラズマフィスト",
+    "en": "Plasma Fists",
+    "fr": "Plasma Punch",
+    "it": "Pugni Plasma",
+    "de": "Plasmafäuste",
+    "es": "Puños Plasma",
+    "ko": "플라스마피스트",
+    "zh-CN": "等离子闪电拳",
+    "zh-TW": "等離子閃電拳"
+  },
+  "flavor_text_entries": {
+    "ja": "電気を　まとった　こぶしで 攻撃。　ノーマルタイプの　技を でんきタイプに　してしまう。",
+    "kana": "でんきを　まとった　こぶしで こうげき。　ノーマルタイプの　わざを でんきタイプに　してしまう。",
+    "en": "The user attacks with electrically charged fists. This move changes Normal-type moves to Electric-type moves.",
+    "fr": "Le lanceur attaque en projetant de l’électricité avec ses poings. Convertit les capacités de type Normal en type Électrik.",
+    "it": "Chi la usa attacca con pugni carichi di elettricità. Trasforma le mosse di tipo Normale in mosse di tipo Elettro.",
+    "de": "Ein Angriff mit elektrisch geladenen Fäusten, der bewirkt, dass Normal-Attacken den Typ Elektro annehmen.",
+    "es": "El usuario ataca con puños cargados de electricidad. Convierte los movimientos de tipo Normal en movimientos de tipo Eléctrico.",
+    "ko": "전기를 두른 주먹으로 공격한다. 노말타입 기술을 전기타입으로 바꿔버린다.",
+    "zh-CN": "用覆盖着电流的拳头进行攻击。 使一般属性的招式变成电属性。",
+    "zh-TW": "用帶有電流的拳頭進行攻擊。 可以將一般屬性的 招式轉變為電屬性。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "electric"
+}

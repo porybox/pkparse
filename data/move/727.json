@@ -1,0 +1,50 @@
+{
+  "id": 727,
+  "name": "splintered-stormshards",
+  "accuracy": null,
+  "pp": 1,
+  "priority": 0,
+  "power": 190,
+  "damage_class": "physical",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "ラジアルエッジストーム",
+    "kana": "ラジアルエッジストーム",
+    "en": "Splintered Stormshards",
+    "fr": "Hurlement des Roches-Lames",
+    "it": "Litotempesta Radiale",
+    "de": "Fataler Steinregen",
+    "es": "Tempestad Rocosa",
+    "ko": "레이디얼에지스톰",
+    "zh-CN": "狼啸石牙飓风暴",
+    "zh-TW": "狼嘯石牙颶風暴"
+  },
+  "flavor_text_entries": {
+    "ja": "Ｚパワーを　得た　ルガルガンが 全力で　攻撃する。　追加で フィールド状態を　打ち消す。",
+    "kana": "Ｚパワーを　えた　ルガルガンが ぜんりょくで　こうげきする。　ついかで フィールドじょうたいを　うちけす。",
+    "en": "After obtaining Z-Power, the user, Lycanroc, attacks the target with full force. This move negates the effect on the battlefield.",
+    "fr": "Lougaroc utilise la Force Z pour attaquer la cible de toutes ses forces. Efface aussi tout Champ existant.",
+    "it": "Grazie al Potere Z, Lycanroc attacca il bersaglio con tutta la sua forza. Questa mossa annulla anche gli eventuali campi attivi.",
+    "de": "Wolwerock greift das Ziel mithilfe von Z-Kraft mit voller Wucht an. Herrschen besondere Feldeffekte, werden diese zusätzlich neutralisiert.",
+    "es": "Lycanroc ataca con toda su fuerza tras imbuirse del Poder Z y neutraliza el campo que esté activo.",
+    "ko": "Z파워를 얻은 루가루암이 전력으로 공격한다. 추가로 필드 상태를 없앤다.",
+    "zh-CN": "得到Ｚ力量的鬃岩狼人 将全力进行攻击。 而且会消除场地状态。",
+    "zh-TW": "獲得Ｚ力量的鬃岩狼人 將會以全力進行攻擊， 並消除場地的狀態。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "rock"
+}

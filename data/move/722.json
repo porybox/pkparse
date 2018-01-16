@@ -1,0 +1,50 @@
+{
+  "id": 722,
+  "name": "photon-geyser",
+  "accuracy": null,
+  "pp": 5,
+  "priority": 0,
+  "power": 100,
+  "damage_class": "special",
+  "meta": {
+    "ailment": "none",
+    "category": "damage",
+    "min_hits": null,
+    "max_hits": null,
+    "min_turns": null,
+    "max_turns": null,
+    "drain": 0,
+    "healing": 0,
+    "crit_rate": 0,
+    "ailment_chance": 0,
+    "flinch_chance": 0,
+    "stat_chance": 0
+  },
+  "names": {
+    "ja": "フォトンゲイザー",
+    "kana": "フォトンゲイザー",
+    "en": "Photon Geyser",
+    "fr": "Photo-Geyser",
+    "it": "Geyser Fotonico",
+    "de": "Photonen-Geysir",
+    "es": "Géiser Fotónico",
+    "ko": "포톤가이저",
+    "zh-CN": "光子喷涌",
+    "zh-TW": "光子噴湧"
+  },
+  "flavor_text_entries": {
+    "ja": "光の　柱で　攻撃する。 攻撃と　特攻を　比べて 高いほうで　ダメージを　与える。",
+    "kana": "ひかりの　はしらで　こうげきする。 こうげきと　とくこうを　くらべて たかいほうで　ダメージを　あたえる。",
+    "en": "The user attacks a target with a pillar of light. This move inflicts Attack or Sp. Atk damage—whichever stat is higher for the user.",
+    "fr": "Le lanceur fait jaillir un pilier de lumière. Compare l’Attaque et l’Attaque Spéciale, et utilise celle qui infligera le plus de dégâts.",
+    "it": "Attacca il bersaglio con una colonna di luce. Infligge danni in base all’Attacco o all’Attacco Speciale scegliendo il più alto tra i due.",
+    "de": "Ein Angriff mit einer Lichtsäule. Ist der Angriff höher als der Spezial-Angriff, wird die Höhe des Schadens durch den Angriff bestimmt und umgekehrt.",
+    "es": "El usuario ataca con una gran columna de luz. Compara sus valores de Ataque y Ataque Especial para infligir daño con el más alto de los dos.",
+    "ko": "빛의 기둥으로 공격한다. 공격과 특수공격을 비교해서 높은 쪽으로 데미지를 준다.",
+    "zh-CN": "用光柱来进行攻击。 比较自己的攻击和特攻， 用数值相对较高的一项给予对方伤害。",
+    "zh-TW": "以光柱進行攻擊。 會比較自己的攻擊和特攻， 以數值較高的一方進行攻擊。"
+  },
+  "stat_changes": [],
+  "target": "selected-pokemon",
+  "type": "psychic"
+}
