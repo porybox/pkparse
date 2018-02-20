@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 (2018-02-19)
+
+* Added support for new Pokémon, items, moves, and abilities from Ultra Sun and Ultra Moon
+* Added game names for Virtual Console Pokémon originating from Gold, Silver, and Crystal
+* Added rawNickname, rawOt, and rawNotOt attributes to allow anything after the null terminator in nicknames to be viewed
+
 ## 1.1.2 (2017-03-10)
 
 * Convert Chinese characters to standard unicode
